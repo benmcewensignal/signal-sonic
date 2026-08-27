@@ -1,0 +1,67 @@
+name: sonic
+on:
+  schedule:
+    - cron: "0 3 * * 0"        # Sundays 03:00 UTC — the weekly batch
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "what to run"
+        type: choice
+        default: week
+        options: [genres, chart, week]
+      genre_id:
+        description: "genre id (chart mode only)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sonic
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: deps
+        run: |
+          sudo apt-get -yq install libsndfile1 ffmpeg > /dev/null
+          pip -q install -r requirements.txt
+
+      - name: genres check
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'genres'
+        run: python -m sonic.beatport genres
+
+      - name: chart check
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'chart'
+        run: python -m sonic.beatport chart --genre-id "${{ inputs.genre_id }}"
+
+      - name: weekly batch
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
+        run: |
+          WEEK=$(date +%G-W%V)
+          python -m sonic.run_week --week "$WEEK" \
+            --scenes uk-garage-speed-garage,uk-funky-gqom,afro-house \
+            --source beatport --analyser local --db sonic.db | tee run-report.json
+
+      - name: persist database
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
+        run: |
+          git config user.name "sonic-bot"
+          git config user.email "sonic@earlysignal.live"
+          git add -f sonic.db
+          git diff --cached --quiet || git commit -m "weekly run $(date +%G-W%V)"
+          git push

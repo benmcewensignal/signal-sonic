@@ -29,7 +29,25 @@ keeps claims immutable.
         --scenes uk-garage-speed-garage,uk-funky-gqom,afro-house \
         --fixture path/to/sightings.json --analyser stub --db sonic.db
 
-## Wiring the real thing (impl B path — no vendor)
+## Running it on GitHub Actions (no laptop required)
+The workflow in .github/workflows/sonic.yml does everything:
+1. Phone: repo Settings → Secrets and variables → Actions → add
+   BEATPORT_USERNAME and BEATPORT_PASSWORD (or BEATPORT_TOKEN).
+2. Actions tab → sonic → Run workflow → mode: genres. Read the genre
+   list in the log; note the ids for garage / funky-adjacent / afro.
+3. Edit scene_map.json in the GitHub mobile editor: replace the three
+   PLACEHOLDER ids with real ones. Commit.
+4. Run workflow → mode: chart with one genre id — confirm tracks and
+   preview urls in the log.
+5. Run workflow → mode: week for the first real run. sonic.db commits
+   itself back to the repo when it finishes.
+6. Do nothing. Sundays 03:00 UTC it runs itself; each run's report is
+   in the Actions log and the db history is the git history.
+Caveat: Beatport may treat datacenter IPs differently from home IPs.
+If auth or fetch fails ONLY in Actions, fall back to a Railway worker
+or a machine of your own — the code is identical either way.
+
+## Wiring by hand (the Mac path, same steps, local)
 1. Credentials: export BEATPORT_USERNAME + BEATPORT_PASSWORD (ordinary
    account; auth uses the docs-frontend client_id, the beets-beatport4
    route — grey, read-only, your ToS call) or BEATPORT_TOKEN directly.
