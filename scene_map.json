@@ -1,0 +1,16 @@
+{
+ "_note": "Beatport genre_id -> Signal scene. Fill ids from: python -m sonic.beatport genres (needs credentials). Names here are what to look for in that list; ids below are PLACEHOLDERS and must be replaced before the first real run.",
+ "_verify": "python -m sonic.beatport genres | grep -i 'garage\\|bass\\|afro\\|amapiano'",
+ "86": {
+  "scene": "uk-garage-speed-garage",
+  "name": "UK Garage / Bassline (VERIFY ID)"
+ },
+ "85": {
+  "scene": "uk-funky-gqom",
+  "name": "140 / Deep Dubstep / Grime (VERIFY ID)"
+ },
+ "89": {
+  "scene": "afro-house",
+  "name": "Afro House (VERIFY ID)"
+ }
+}

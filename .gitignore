@@ -1,0 +1,7 @@
+sonic.db
+*.db
+.env
+__pycache__/
+*.pyc
+runs.log
+venv/
