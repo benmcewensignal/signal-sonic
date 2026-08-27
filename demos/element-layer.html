@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#080808">
+<title>Signal — Element Layer</title>
+<style>
+:root{
+  --bg:#080808; --panel:#101413; --panel2:#161B19; --line:#232B28;
+  --txt:#E8ECEA; --dim:#8A968F;
+  --acid:#C6F542; --steady:#3AA76D; --cool:#E8C547; --miss:#D2694A; --wait:#4A5550; --new:#7FD4F0;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg);color:var(--txt);font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:13px;line-height:1.5;padding-bottom:60px}
+.wrap{max-width:640px;margin:0 auto;padding:0 14px}
+header{padding:22px 0 14px;border-bottom:1px solid var(--line)}
+.brand{font-size:15px;letter-spacing:.22em;font-weight:700}
+.brand span{color:var(--acid)}
+.sub{font-size:10px;color:var(--dim);letter-spacing:.14em;text-transform:uppercase}
+.controls{display:flex;gap:8px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+button{background:var(--panel2);color:var(--txt);border:1px solid var(--line);border-radius:4px;font:inherit;padding:8px 14px;cursor:pointer}
+button:active{background:var(--line)}
+button.primary{background:var(--acid);color:#0A0F08;border-color:var(--acid);font-weight:700}
+#weeklab{margin-left:auto;font-size:12px;color:var(--dim)}
+#weeklab b{color:var(--txt);font-size:15px}
+h2{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin:22px 0 10px}
+h2 i{color:var(--acid);font-style:normal;margin-right:6px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px;margin-bottom:10px}
+.el-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:2px}
+.el-name{font-weight:700;font-size:13.5px}
+.el-kind{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.chip{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:10px;font-weight:700;white-space:nowrap}
+.chip.dormant{background:#1A211E;color:var(--wait)}
+.chip.resident{background:#12241B;color:var(--steady)}
+.chip.crossing{background:#26300D;color:var(--acid)}
+.chip.stalled{background:#2C1D15;color:var(--miss)}
+.chip.newel{background:#12262C;color:var(--new)}
+.adoptrows{margin-top:8px;display:grid;grid-template-columns:74px 1fr 40px;gap:3px 8px;align-items:center}
+.adoptrows .lab{font-size:9.5px;color:var(--dim);text-transform:uppercase;letter-spacing:.05em}
+.adoptrows .val{font-size:10px;text-align:right}
+.mini{height:16px}
+svg{display:block;width:100%}
+.axisnote{font-size:9.5px;color:var(--dim);margin-top:5px}
+.claim{border-left:3px solid var(--acid);background:var(--panel);border:1px solid var(--line);border-left-width:3px;border-radius:6px;padding:10px 12px;margin-bottom:8px}
+.claim.resolved-hit{border-left-color:var(--steady)}
+.claim.resolved-miss{border-left-color:var(--miss)}
+.claim .k{font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);display:flex;justify-content:space-between}
+.claim .stmt{margin:5px 0 6px;font-size:12.5px;line-height:1.45}
+.claim .rule{font-size:10.5px;color:var(--dim);line-height:1.45}
+.outcome{font-weight:700;font-size:10px;letter-spacing:.1em}
+.outcome.hit{color:var(--steady)}.outcome.miss{color:var(--miss)}.outcome.open{color:var(--cool)}
+.record{display:flex;gap:18px;padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:6px}
+.record div{text-align:center;flex:1}
+.record .n{font-size:20px;font-weight:700}
+.record .l{font-size:9.5px;color:var(--dim);letter-spacing:.12em;text-transform:uppercase}
+.empty{color:var(--wait);font-size:11.5px;padding:10px 2px}
+.note{font-size:10.5px;color:var(--dim);line-height:1.55;margin-top:8px}
+.note b{color:var(--txt)}
+footer{margin-top:26px;padding-top:12px;border-top:1px solid var(--line);font-size:10px;color:var(--dim);line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand">SIGNAL <span>· ELEMENT LAYER</span></div>
+  <div class="sub">the epidemiology of sound — element → track → scene → graph</div>
+</header>
+
+<div class="controls">
+  <button class="primary" id="playbtn">Run</button>
+  <button id="stepbtn">Step</button>
+  <button id="resetbtn">Reset</button>
+  <div id="weeklab">week <b id="wk">0</b>/40</div>
+</div>
+
+<h2><i>◉</i>Focus — the log drum crossing scenes</h2>
+<div class="card">
+  <svg id="focussvg" viewBox="0 0 600 170" preserveAspectRatio="none"></svg>
+  <div class="axisnote">share of charting tracks containing the element · <span style="color:var(--steady)">amapiano (origin)</span> · <span style="color:var(--acid)">uk funky</span> · <span style="color:var(--new)">gqom</span> — the horizontal gaps are the transmission lags</div>
+</div>
+
+<h2><i>◭</i>The origination graph — who exports sound to whom</h2>
+<div class="card">
+  <svg id="graphsvg" viewBox="0 0 600 240"></svg>
+  <div class="axisnote">an edge appears when a crossing is detected · label = element and observed lag</div>
+</div>
+
+<h2><i>◈</i>Elements under watch</h2>
+<div id="elements"></div>
+
+<h2><i>◨</i>Element claims — faster horizons than scene claims</h2>
+<div id="claims"><div class="empty">nothing yet — elements must establish presence baselines first</div></div>
+
+<h2><i>◩</i>Track record</h2>
+<div class="record">
+  <div><div class="n" id="r-open">0</div><div class="l">open</div></div>
+  <div><div class="n" id="r-hits" style="color:var(--steady)">0</div><div class="l">hits</div></div>
+  <div><div class="n" id="r-miss" style="color:var(--miss)">0</div><div class="l">misses</div></div>
+  <div><div class="n" id="r-rate">—</div><div class="l">hit rate</div></div>
+</div>
+
+<div class="note"><b>What this is.</b> The element layer running on synthetic ground truth: the log drum diffuses from amapiano into UK funky and then gqom (two detected crossings, both predicted and scored), a diva vocal chop starts crossing into funky and stalls (an honest miss — a borrow, not a migration), the Think break sits resident in garage as the control, and at week 21 the stem clusterer discovers a sound with no name, which earns a persistence claim instead of a prediction. Element claims run 8-week horizons against a 13-week scene claim, so the ledger seasons faster. The real build gets here via stem separation on the weekly delta, fingerprint matching against a curated reference library, and clustering the unmatched residue — the reference library is the editorial moat.</div>
+
+<footer>SIGNAL element layer · first pass simulation · crossings are claimed before they complete, and scored when the horizon lands</footer>
+</div>
+
+<script>
+/* deterministic rng */
+function hash32(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
+function rng(seed){let a=hash32(seed);return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+const noise=(seed,w,amp)=>(rng(seed+":"+w)()*2-1)*amp;
+const logistic=(w,onset,rate,cap)=>w<onset?0:cap/(1+Math.exp(-rate*(w-onset-4/rate)));
+
+/* scenes + elements with planted ground truth */
+const SC=[["ama","Amapiano"],["funky","UK Funky"],["gqom","Gqom"],["garage","UK Garage"]];
+const ELS=[
+ {id:"logdrum", name:"Log Drum", kind:"canonical — matched vs reference library",
+  curve:{ama:w=>0.58+noise("ld-ama",w,.02),
+         funky:w=>logistic(w,16,.6,.32)+noise("ld-f",w,.012),
+         gqom:w=>logistic(w,24,.8,.22)+noise("ld-g",w,.010),
+         garage:w=>0.005+Math.abs(noise("ld-gar",w,.004))}},
+ {id:"diva", name:"Diva Chop", kind:"canonical — matched vs reference library",
+  curve:{garage:w=>0.36+noise("dv-gar",w,.02),
+         funky:w=>(w>=20&&w<24?0.05+(w-20)*0.017:(w>=24?Math.max(.01,0.11-(w-24)*.016):0))+Math.abs(noise("dv-f",w,.006)),
+         ama:w=>0.004+Math.abs(noise("dv-a",w,.003)),
+         gqom:w=>0.003+Math.abs(noise("dv-g",w,.003))}},
+ {id:"think", name:"Think Break", kind:"canonical — matched vs reference library",
+  curve:{garage:w=>0.24+noise("tb-gar",w,.015),
+         funky:w=>0.03+Math.abs(noise("tb-f",w,.008)),
+         ama:w=>0.002+Math.abs(noise("tb-a",w,.002)),
+         gqom:w=>0.002+Math.abs(noise("tb-g",w,.002))}},
+ {id:"un7", name:"Unnamed Cluster #7", kind:"emergent — coherent stem cluster, no reference match", discovered:21,
+  curve:{gqom:w=>w<18?0:logistic(w,18,.6,.27)+noise("u7-g",w,.012),
+         funky:w=>0.003+Math.abs(noise("u7-f",w,.003)),
+         ama:w=>0.002+Math.abs(noise("u7-a",w,.002)),
+         garage:w=>0.001+Math.abs(noise("u7-gar",w,.002))}},
+];
+const CROSS_ON=0.05, PERSIST=2, PRED=0.15, HORIZON=8, RESIDENT=0.12;
+
+let week, claims, edges, playing=null;
+const adopt=(el,sc,w)=>Math.min(.95,Math.max(0,el.curve[sc]?el.curve[sc](w):0));
+
+function reset(){week=0;claims=[];edges=[];render()}
+function originOf(el){let best=null,bv=0;SC.forEach(([sid])=>{let v=0;for(let k=0;k<3;k++)v+=adopt(el,sid,Math.max(1,week-k));if(v>bv){bv=v;best=sid}});return best}
+
+function step(){
+  if(week>=40){pause();return}
+  week++;
+  // crossing detection: adoption over CROSS_ON for PERSIST weeks in a scene
+  // that was near-zero before, from an element resident somewhere else
+  ELS.forEach(el=>{
+    if(el.discovered&&week<el.discovered)return;
+    SC.forEach(([sid])=>{
+      const a=adopt(el,sid,week), ap=adopt(el,sid,week-1);
+      const wasQuiet=adopt(el,sid,Math.max(1,week-6))<0.02;
+      const origin=originOf(el);
+      if(sid===origin)return;
+      if(adopt(el,origin,week)<RESIDENT)return;
+      if(claims.some(c=>c.el===el.id&&c.scene===sid))return;
+      if(a>CROSS_ON&&ap>CROSS_ON&&wasQuiet){
+        claims.push({id:claims.length+1,el:el.id,elName:el.name,scene:sid,origin,week,horizon:HORIZON,kind:"crossing",
+          stmt:el.name+" is crossing "+nm(origin)+" → "+nm(sid)+" ("+pc(a)+" of charting tracks and climbing)",
+          rule:"HIT if ≥ "+pc(PRED)+" of "+nm(sid)+" charting tracks by week "+(week+HORIZON)+"; MISS if it stalls below."});
+      }
+    });
+    // emergent persistence claim at discovery
+    if(el.discovered&&week===el.discovered){
+      const sid=originOf(el);
+      claims.push({id:claims.length+1,el:el.id,elName:el.name,scene:sid,origin:sid,week,horizon:13,kind:"persistence",
+        stmt:"a coherent unmatched cluster has appeared in "+nm(sid)+" stems — "+el.name+", first seen this week",
+        rule:"HIT if the cluster persists ≥ "+pc(0.1)+" of "+nm(sid)+" tracks in week "+(week+13)+"; MISS if it dissolves."});
+    }
+  });
+  // resolve
+  claims.forEach(c=>{
+    if(c.outcome||week<c.week+c.horizon)return;
+    const el=ELS.find(e=>e.id===c.el), a=adopt(el,c.scene,week);
+    if(c.kind==="crossing"){
+      c.outcome=a>=PRED?"hit":"miss";
+      c.note=c.outcome==="hit"?"reached "+pc(a)+" — crossing completed":"stalled at "+pc(a)+" — a borrow, not a migration";
+      if(c.outcome==="hit")edges.push({from:c.origin,to:c.scene,el:c.elName,lag:c.week});
+    }else{
+      c.outcome=a>=0.1?"hit":"miss";
+      c.note=c.outcome==="hit"?"cluster persisted at "+pc(a):"cluster dissolved";
+    }
+    c.resolvedWeek=week;
+  });
+  render();
+}
+const nm=id=>SC.find(s=>s[0]===id)[1];
+const pc=x=>Math.round(x*100)+"%";
+
+/* render */
+const $=id=>document.getElementById(id);
+function line(vals,w,h,color,maxv){
+  const pts=vals.map((v,i)=>[(i/(40-1))*w,h-6-(v/maxv)*(h-14)]);
+  return '<path d="'+pts.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" ")+'" fill="none" stroke="'+color+'" stroke-width="1.8"/>';
+}
+function series(el,sid){const out=[];for(let w=1;w<=40;w++)out.push(w<=week?adopt(el,sid,w):null);return out.map(v=>v==null?0:v)}
+function render(){
+  $("wk").textContent=week;
+  // focus chart: log drum in 3 scenes
+  const ld=ELS[0], maxv=.7;
+  $("focussvg").innerHTML=
+    line(series(ld,"ama"),600,170,"var(--steady)",maxv)+
+    line(series(ld,"funky"),600,170,"var(--acid)",maxv)+
+    line(series(ld,"gqom"),600,170,"var(--new)",maxv);
+
+  // origination graph
+  const pos={ama:[110,60],funky:[470,60],gqom:[470,190],garage:[110,190]};
+  let g="";
+  edges.forEach(e=>{
+    const [x1,y1]=pos[e.from],[x2,y2]=pos[e.to];
+    const mx=(x1+x2)/2,my=(y1+y2)/2;
+    g+='<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="var(--acid)" stroke-width="1.6" marker-end="url(#arr)"/>';
+    g+='<text x="'+mx+'" y="'+(my-8)+'" font-size="9" fill="var(--acid)" text-anchor="middle">'+e.el+' · crossed wk '+e.lag+'</text>';
+  });
+  SC.forEach(([sid,name])=>{
+    const [x,y]=pos[sid];
+    const exporter=edges.some(e=>e.from===sid);
+    g+='<circle cx="'+x+'" cy="'+y+'" r="26" fill="var(--panel2)" stroke="'+(exporter?"var(--acid)":"var(--line)")+'" stroke-width="1.5"/>';
+    g+='<text x="'+x+'" y="'+(y+3)+'" font-size="9.5" fill="var(--txt)" text-anchor="middle">'+name+'</text>';
+  });
+  $("graphsvg").innerHTML='<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="24" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="var(--acid)"/></marker></defs>'+g+
+    (edges.length?"":'<text x="300" y="125" font-size="10" fill="var(--wait)" text-anchor="middle">no crossings detected yet — the graph draws itself as they complete</text>');
+
+  // element cards
+  $("elements").innerHTML=ELS.filter(el=>!el.discovered||week>=el.discovered).map(el=>{
+    const origin=week?originOf(el):SC[0][0];
+    const live=claims.find(c=>c.el===el.id&&!c.outcome);
+    const missed=claims.find(c=>c.el===el.id&&c.outcome==="miss");
+    const hit=claims.find(c=>c.el===el.id&&c.outcome==="hit");
+    const isNew=el.discovered&&week-el.discovered<3;
+    const st=isNew?["newel","new — unmatched"]:(live||hit)?["crossing", hit?"crossed":"crossing"]:missed?["stalled","stalled"]:week&&adopt(el,origin,week)>RESIDENT?["resident","resident: "+nm(origin).toLowerCase()]:["dormant","trace"];
+    const rows=SC.map(([sid,name])=>{
+      const v=week?adopt(el,sid,week):0;
+      return '<div class="lab">'+name+'</div><svg class="mini" viewBox="0 0 600 16" preserveAspectRatio="none">'+line(series(el,sid),600,16,sid===origin?"var(--steady)":"var(--acid)",.7)+'</svg><div class="val">'+pc(v)+'</div>';
+    }).join("");
+    return '<div class="card"><div class="el-top"><div><span class="el-name">'+el.name+'</span><div class="el-kind">'+el.kind+'</div></div><span class="chip '+st[0]+'">'+st[1]+'</span></div><div class="adoptrows">'+rows+'</div></div>';
+  }).join("");
+
+  // claims
+  if(!claims.length){$("claims").innerHTML='<div class="empty">nothing yet — elements must establish presence baselines first</div>'}
+  else $("claims").innerHTML=claims.slice().reverse().map(c=>{
+    const cls=c.outcome==="hit"?"resolved-hit":c.outcome==="miss"?"resolved-miss":"";
+    const oc=c.outcome?'<span class="outcome '+c.outcome+'">'+c.outcome.toUpperCase()+' · wk '+c.resolvedWeek+'</span>':'<span class="outcome open">OPEN · resolves wk '+(c.week+c.horizon)+'</span>';
+    return '<div class="claim '+cls+'"><div class="k"><span>'+c.kind+' · emitted wk '+c.week+'</span>'+oc+'</div><div class="stmt">'+c.stmt+'</div><div class="rule">rule, written at emission: '+c.rule+(c.note?' — <i>'+c.note+'</i>':'')+'</div></div>';
+  }).join("");
+
+  const hits=claims.filter(c=>c.outcome==="hit").length, miss=claims.filter(c=>c.outcome==="miss").length;
+  $("r-open").textContent=claims.filter(c=>!c.outcome).length;
+  $("r-hits").textContent=hits;$("r-miss").textContent=miss;
+  $("r-rate").textContent=(hits+miss)?Math.round(hits/(hits+miss)*100)+"%":"—";
+}
+
+function pause(){if(playing){clearInterval(playing);playing=null;$("playbtn").textContent="Run"}}
+$("playbtn").onclick=()=>{if(playing){pause();return}if(week>=40)reset();$("playbtn").textContent="Pause";playing=setInterval(()=>{step();if(week>=40)pause()},340)};
+$("stepbtn").onclick=()=>{pause();step()};
+$("resetbtn").onclick=()=>{pause();reset()};
+reset();
+</script>
+</body>
+</html>

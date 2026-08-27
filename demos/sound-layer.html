@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#080808">
+<title>Signal — Sound Layer</title>
+<style>
+:root{
+  --bg:#080808; --panel:#101413; --panel2:#161B19; --line:#232B28;
+  --txt:#E8ECEA; --dim:#8A968F;
+  --acid:#C6F542; --steady:#3AA76D; --cool:#E8C547; --miss:#D2694A; --wait:#4A5550;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg);color:var(--txt);font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:13px;line-height:1.5;padding-bottom:60px}
+.wrap{max-width:640px;margin:0 auto;padding:0 14px}
+header{padding:22px 0 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline}
+.brand{font-size:15px;letter-spacing:.22em;font-weight:700}
+.brand span{color:var(--acid)}
+.sub{font-size:10px;color:var(--dim);letter-spacing:.14em;text-transform:uppercase}
+.controls{display:flex;gap:8px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+button{background:var(--panel2);color:var(--txt);border:1px solid var(--line);border-radius:4px;font:inherit;padding:8px 14px;cursor:pointer}
+button:active{background:var(--line)}
+button.primary{background:var(--acid);color:#0A0F08;border-color:var(--acid);font-weight:700}
+#weeklab{margin-left:auto;font-size:12px;color:var(--dim)}
+#weeklab b{color:var(--txt);font-size:15px}
+.phase{font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid var(--line);color:var(--dim)}
+h2{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin:22px 0 10px}
+h2 i{color:var(--acid);font-style:normal;margin-right:6px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px;margin-bottom:10px}
+.scene-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.scene-name{font-weight:700;font-size:13.5px;letter-spacing:.02em}
+.chip{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:10px;font-weight:700}
+.chip.seasoning{background:#1A211E;color:var(--wait)}
+.chip.quiet{background:#12241B;color:var(--steady)}
+.chip.drifting{background:#26300D;color:var(--acid)}
+.chip.blip{background:#2E2413;color:var(--cool)}
+svg{display:block;width:100%}
+.axisnote{font-size:9.5px;color:var(--dim);margin-top:4px}
+.fbars{display:grid;grid-template-columns:86px 1fr 44px;gap:4px 8px;align-items:center;margin-top:10px}
+.fbars .lab{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em}
+.fbars .val{font-size:10.5px;text-align:right;color:var(--txt)}
+.bar{height:8px;background:var(--panel2);border-radius:2px;position:relative;overflow:visible}
+.bar .fill{position:absolute;left:0;top:0;bottom:0;background:var(--steady);border-radius:2px;transition:width .25s}
+.bar .ghost{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--dim);opacity:.8}
+.claim{border-left:3px solid var(--acid);background:var(--panel);border:1px solid var(--line);border-left-width:3px;border-radius:6px;padding:10px 12px;margin-bottom:8px}
+.claim.resolved-hit{border-left-color:var(--steady)}
+.claim.resolved-miss{border-left-color:var(--miss)}
+.claim .k{font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);display:flex;justify-content:space-between}
+.claim .stmt{margin:5px 0 6px;font-size:12.5px;line-height:1.45}
+.claim .rule{font-size:10.5px;color:var(--dim);line-height:1.45}
+.claim .outcome{font-weight:700;font-size:10px;letter-spacing:.1em}
+.outcome.hit{color:var(--steady)}.outcome.miss{color:var(--miss)}.outcome.open{color:var(--cool)}
+.record{display:flex;gap:18px;padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:6px}
+.record div{text-align:center;flex:1}
+.record .n{font-size:20px;font-weight:700}
+.record .l{font-size:9.5px;color:var(--dim);letter-spacing:.12em;text-transform:uppercase}
+.empty{color:var(--wait);font-size:11.5px;padding:10px 2px}
+.note{font-size:10.5px;color:var(--dim);line-height:1.55;margin-top:8px}
+.note b{color:var(--txt)}
+#thresholdnote{font-size:10px;color:var(--cool)}
+footer{margin-top:26px;padding-top:12px;border-top:1px solid var(--line);font-size:10px;color:var(--dim);line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <div class="brand">SIGNAL <span>· SOUND LAYER</span></div>
+    <div class="sub">hearing the scene move before the bookings do</div>
+  </div>
+</header>
+
+<div class="controls">
+  <button class="primary" id="playbtn">Run</button>
+  <button id="stepbtn">Step</button>
+  <button id="resetbtn">Reset</button>
+  <div id="weeklab">week <b id="wk">0</b>/40 <span class="phase" id="phase">idle</span></div>
+</div>
+
+<h2><i>◧</i>The floor — sonic state per scene</h2>
+<div id="scenes"></div>
+
+<h2><i>◫</i>Convergence — pairwise distance</h2>
+<div class="card">
+  <svg id="convsvg" viewBox="0 0 600 150" preserveAspectRatio="none"></svg>
+  <div class="axisnote" id="convnote">funky × gqom (acid) vs control pairs (grey) — watch the acid line fall</div>
+</div>
+
+<h2><i>◨</i>Claims ledger — every call, with its judgment written first</h2>
+<div id="claims"><div class="empty">nothing yet — the system stays silent while the baseline seasons</div></div>
+
+<h2><i>◩</i>Track record</h2>
+<div class="record">
+  <div><div class="n" id="r-open">0</div><div class="l">open</div></div>
+  <div><div class="n" id="r-hits" style="color:var(--steady)">0</div><div class="l">hits</div></div>
+  <div><div class="n" id="r-miss" style="color:var(--miss)">0</div><div class="l">misses</div></div>
+  <div><div class="n" id="r-rate">—</div><div class="l">hit rate</div></div>
+</div>
+<div class="note" id="thresholdnote"></div>
+<div class="note"><b>What this is.</b> The full pilot pipeline running in your browser on four synthetic scenes with planted truths: garage drifts darker from week 18, funky and gqom converge from week 14, afro house takes a two-week false scare at week 24, one scene stays clean. The system self-calibrates its threshold from the measured noise floor, requires two-week persistence before any call, writes the resolution rule at emission, and scores itself when horizons mature. The real build swaps the synthetic tracks for Beatport charts through Cyanite — nothing else changes.</div>
+
+<footer>SIGNAL sound layer · first pass simulation · claims are timestamped at emission and immutable · a call that cannot state its resolution rule does not ship</footer>
+</div>
+
+<script>
+/* ============ deterministic PRNG from string ============ */
+function hash32(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
+function rng(seed){let a=hash32(seed);return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+/* ============ synthetic analyser (mirrors StubAnalyser) ============ */
+const DIM=16;
+const SCENES=[
+  {id:"garage",  name:"UK Garage",  plant:"drift"},
+  {id:"funky",   name:"UK Funky",   plant:"conv"},
+  {id:"gqom",    name:"Gqom",       plant:"conv"},
+  {id:"afro",    name:"Afro House", plant:"blip"},
+  {id:"ama",     name:"Amapiano",   plant:"clean"},
+];
+const SCALARS=[["bass_weight","bass weight"],["drum_density","drum density"],["drum_swing","swing"],["vocal_presence","vocal presence"],["tempo","tempo"]];
+
+function styleVec(scene){const r=rng("style:"+scene);const v=[];for(let i=0;i<DIM;i++)v.push(r()*2-1);return v}
+const STYLE={};SCENES.forEach(s=>STYLE[s.id]=styleVec(s.id));
+const DIRGROUP={garage:"dirG",funky:"dirC",gqom:"dirC",afro:"dirA",ama:"dirZ"};
+function dirVec(g){const r=rng("dir:"+g);const v=[];for(let i=0;i<DIM;i++)v.push(r()*2-1);const n=Math.sqrt(v.reduce((a,x)=>a+x*x,0))||1;return v.map(x=>x/n)}
+const DIR={};Object.values(DIRGROUP).forEach(g=>DIR[g]=dirVec(g));
+
+function offsetFor(scene,w){
+  if(scene==="garage") return w>=18?Math.min(.5,(w-17)*.06):0;
+  if(scene==="funky")  return w>=14?Math.min(.55,(w-13)*.045):0;
+  if(scene==="gqom")   return w<14?-.5:(-.5+Math.min(1.05,(w-13)*.08));
+  if(scene==="afro")   return (w===24||w===25)?.45:0;   // the false scare
+  return 0;
+}
+function analyse(scene,w,t){
+  const off=offsetFor(scene,w), r=rng(scene+"-w"+w+"-t"+t);
+  const sh=x=>Math.min(1,Math.max(0,x*(1-Math.abs(off))+(off>0?off:0)));
+  const e=[];for(let i=0;i<DIM;i++)e.push(STYLE[scene][i]*2.5+(r()*2-1));
+  const dv=DIR[DIRGROUP[scene]];
+  for(let i=0;i<DIM;i++)e[i]+=off*10*dv[i];
+  const n=Math.sqrt(e.reduce((a,x)=>a+x*x,0))||1;
+  return {
+    tempo:(118+r()*60)/178, bass_weight:sh(r()), drum_density:sh(r()),
+    drum_swing:sh(r()), vocal_presence:sh(off<0?1-Math.abs(off)*r():(off>0? r()*(1-off*0.7):r())),
+    emb:e.map(x=>x/n), rank:t<10?t+1:null
+  };
+}
+
+/* ============ aggregate: weekly fingerprint ============ */
+const cw=r=>1/Math.log2((r==null?40:r)+2);
+function fingerprint(tracks){
+  const W=tracks.map(t=>cw(t.rank)), tot=W.reduce((a,b)=>a+b,0);
+  const fp={};
+  SCALARS.forEach(([k])=>{fp[k]=tracks.reduce((a,t,i)=>a+t[k]*W[i],0)/tot});
+  const c=new Array(DIM).fill(0);
+  tracks.forEach((t,i)=>t.emb.forEach((x,d)=>c[d]+=x*W[i]));
+  const n=Math.sqrt(c.reduce((a,x)=>a+x*x,0))||1;
+  fp.cen=c.map(x=>x/n);
+  return fp;
+}
+const cosd=(a,b)=>1-a.reduce((s,x,i)=>s+x*b[i],0);
+function fdist(a,b){
+  let ds=0;SCALARS.forEach(([k])=>ds+=Math.abs(a[k]-b[k]));
+  return cosd(a.cen,b.cen)+0.1*ds/SCALARS.length;
+}
+function pooled(fps){
+  const n=fps.length,out={};
+  SCALARS.forEach(([k])=>out[k]=fps.reduce((a,f)=>a+f[k],0)/n);
+  const c=new Array(DIM).fill(0);
+  fps.forEach(f=>f.cen.forEach((x,i)=>c[i]+=x));
+  const nn=Math.sqrt(c.reduce((a,x)=>a+x*x,0))||1;
+  out.cen=c.map(x=>x/nn);
+  return out;
+}
+
+/* ============ detection params ============ */
+const MIN_BASE=8, CAL_WEEKS=10, PERSIST=2, CONV_DROP=.20;
+let THRESH=null; // self-calibrated: 5x median week-to-week noise over CAL_WEEKS
+
+/* ============ state ============ */
+let week, hist, pairHist, claims, playing=null;
+function reset(){
+  week=0; hist={}; SCENES.forEach(s=>hist[s.id]=[]);
+  pairHist={}; claims=[]; THRESH=null;
+  render();
+}
+
+/* ============ one weekly batch ============ */
+function step(){
+  if(week>=40){pause();return}
+  week++;
+  SCENES.forEach(s=>{
+    const tracks=[];for(let t=0;t<24;t++)tracks.push(analyse(s.id,week,t));
+    hist[s.id].push(fingerprint(tracks));
+  });
+  // pairwise distances
+  for(let i=0;i<SCENES.length;i++)for(let j=i+1;j<SCENES.length;j++){
+    const key=SCENES[i].id+"×"+SCENES[j].id;
+    (pairHist[key]=pairHist[key]||[]).push(fdist(hist[SCENES[i].id][week-1],hist[SCENES[j].id][week-1]));
+  }
+  // self-calibrate threshold from measured noise floor
+  if(week===CAL_WEEKS){
+    const noises=[];
+    SCENES.forEach(s=>{const h=hist[s.id];for(let i=1;i<h.length;i++)noises.push(fdist(h[i-1],h[i]))});
+    noises.sort((a,b)=>a-b);
+    THRESH=5*noises[Math.floor(noises.length/2)];
+  }
+  if(THRESH!=null){detectDrift();detectConv()}
+  resolveMatured();
+  render();
+}
+
+function driftDistance(sid,at){ // distance of week `at` (1-based) vs pooled baseline excl. last 2
+  const h=hist[sid]; if(at<MIN_BASE+2)return null;
+  const base=pooled(h.slice(Math.max(0,at-2-26),at-2));
+  return fdist(base,h[at-1]);
+}
+function detectDrift(){
+  SCENES.forEach(s=>{
+    if(claims.some(c=>c.kind==="drift"&&c.scene===s.id&&c.outcome!=="miss"))return; // one live call per scene
+    if(claims.some(c=>c.kind==="drift"&&c.scene===s.id&&!c.outcome))return;
+    const d=driftDistance(s.id,week), dp=driftDistance(s.id,week-1);
+    if(d==null||dp==null||!(d>THRESH&&dp>THRESH))return;
+    const h=hist[s.id], base=pooled(h.slice(Math.max(0,week-2-26),week-2)), cur=h[week-1];
+    const moves=SCALARS.map(([k,lab])=>[lab,cur[k]-base[k]]).sort((a,b)=>Math.abs(b[1])-Math.abs(a[1])).slice(0,2);
+    const desc=moves.filter(m=>Math.abs(m[1])>.02).map(m=>m[0]+" "+(m[1]>0?"+":"")+Math.round(m[1]*100)+"%").join(", ");
+    emit({kind:"drift",scene:s.id,week,horizon:13,frozenBase:base,
+      stmt:sceneName(s.id)+"'s sound is moving off its own baseline"+(desc?" ("+desc+")":""),
+      rule:"HIT if still ≥ threshold off the baseline frozen today, at week "+(week+13)+"; MISS if it reverts."});
+  });
+}
+function detectConv(){
+  for(const k of Object.keys(pairHist)){
+    if(claims.some(c=>c.kind==="conv"&&c.scene===k))continue;
+    const ph=pairHist[k]; if(ph.length<MIN_BASE+2)continue;
+    const win=4, early=avg(ph.slice(0,win)), late=avg(ph.slice(-win));
+    // mutuality: convergence requires BOTH scenes to have moved from their own
+    // early selves — one scene approaching a static one is drift, not convergence
+    const [sa,sb]=k.split("×");
+    const moved=sid=>{const h=hist[sid];return fdist(pooled(h.slice(0,4)),h[h.length-1])>THRESH*0.8};
+    if(early>0&&(early-late)/early>=CONV_DROP&&moved(sa)&&moved(sb)){
+      emit({kind:"conv",scene:k,week,horizon:13,
+        stmt:k.replace("×"," and ")+" are converging — pairwise distance down "+Math.round((early-late)/early*100)+"%",
+        rule:"HIT if distance at week "+(week+13)+" ≤ today's; MISS if it re-widens past the early value."});
+    }
+  }
+}
+const avg=a=>a.reduce((x,y)=>x+y,0)/a.length;
+function emit(c){c.id=claims.length+1;claims.push(c)}
+function resolveMatured(){
+  claims.forEach(c=>{
+    if(c.outcome||week<c.week+c.horizon)return;
+    if(c.kind==="drift"){
+      const d=fdist(c.frozenBase,hist[c.scene][week-1]);
+      c.outcome=(d>THRESH)?"hit":"miss";
+      c.note=c.outcome==="hit"?"shift persisted at horizon":"reverted to baseline — the two-week scare was noise";
+    }else{
+      const ph=pairHist[c.scene], atEmit=ph[c.week-1], now=ph[week-1], early=avg(ph.slice(0,4));
+      c.outcome=now<=atEmit?"hit":(now>early?"miss":"hit");
+      c.note=c.outcome==="hit"?"distance held or shrank further":"distance re-widened";
+    }
+    c.resolvedWeek=week;
+  });
+}
+function sceneName(id){const s=SCENES.find(x=>x.id===id);return s?s.name:id}
+
+/* ============ render ============ */
+const $=id=>document.getElementById(id);
+function sparkline(vals,thresh,w,h,color){
+  if(!vals.length)return "";
+  const max=Math.max(thresh||0,...vals.filter(v=>v!=null))*1.15||1;
+  const pts=vals.map((v,i)=>v==null?null:[(i/(40-1))*w,h-4-(v/max)*(h-10)]).filter(Boolean);
+  let path=pts.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" ");
+  let out="";
+  if(thresh){const ty=h-4-(thresh/max)*(h-10);
+    out+='<line x1="0" y1="'+ty.toFixed(1)+'" x2="'+w+'" y2="'+ty.toFixed(1)+'" stroke="#E8C547" stroke-width="1" stroke-dasharray="3 4" opacity=".7"/>'}
+  out+='<path d="'+path+'" fill="none" stroke="'+color+'" stroke-width="1.8"/>';
+  return out;
+}
+function render(){
+  $("wk").textContent=week;
+  $("phase").textContent=week===0?"idle":(THRESH==null?"calibrating noise floor":(week<MIN_BASE+2?"baseline seasoning":"live"));
+  $("thresholdnote").textContent=THRESH==null?"threshold: not yet set — measuring the noise floor first ("+CAL_WEEKS+" weeks)":"threshold self-calibrated at 5× measured noise floor = "+THRESH.toFixed(3);
+
+  // scene cards
+  $("scenes").innerHTML=SCENES.map(s=>{
+    const drifts=[];for(let a=1;a<=week;a++)drifts.push(driftDistance(s.id,a));
+    const live=claims.find(c=>c.kind==="drift"&&c.scene===s.id&&!c.outcome);
+    const missed=claims.find(c=>c.kind==="drift"&&c.scene===s.id&&c.outcome==="miss");
+    const hit=claims.find(c=>c.kind==="drift"&&c.scene===s.id&&c.outcome==="hit");
+    const st=week<CAL_WEEKS?["seasoning","seasoning"]:(live||hit)?["drifting","drifting"]:missed?["blip","false scare"]:["quiet","steady"];
+    const cur=hist[s.id][week-1]||null;
+    const base=week>MIN_BASE+2?pooled(hist[s.id].slice(Math.max(0,week-2-26),week-2)):null;
+    const bars=cur?SCALARS.map(([k,lab])=>{
+      const g=base?'<span class="ghost" style="left:'+(base[k]*100).toFixed(1)+'%"></span>':"";
+      return '<div class="lab">'+lab+'</div><div class="bar"><span class="fill" style="width:'+(cur[k]*100).toFixed(1)+'%"></span>'+g+'</div><div class="val">'+(k==="tempo"?Math.round(118+cur[k]*0+cur.tempo*178-118*0)+"":""+cur[k].toFixed(2))+'</div>';
+    }).join(""):"";
+    return '<div class="card"><div class="scene-top"><span class="scene-name">'+s.name+'</span><span class="chip '+st[0]+'">'+st[1]+'</span></div>'+
+      '<svg viewBox="0 0 600 64" preserveAspectRatio="none" style="height:52px">'+sparkline(drifts,THRESH,600,64,st[0]==="drifting"?"var(--acid)":st[0]==="blip"?"var(--cool)":"var(--steady)")+'</svg>'+
+      '<div class="axisnote">distance from own 26-week baseline · dashed = threshold</div>'+
+      (cur?'<div class="fbars">'+bars+'</div><div class="axisnote">this week vs baseline tick</div>':"")+
+      '</div>';
+  }).join("");
+
+  // convergence chart
+  let conv="";
+  Object.keys(pairHist).forEach(k=>{
+    const focus=k==="funky×gqom";
+    conv+=sparkline(pairHist[k],null,600,150,focus?"var(--acid)":"#2A332F");
+  });
+  $("convsvg").innerHTML=conv||"";
+
+  // claims
+  if(!claims.length){$("claims").innerHTML='<div class="empty">nothing yet — the system stays silent while the baseline seasons, then measures its own noise floor before it will speak</div>'}
+  else{
+    $("claims").innerHTML=claims.slice().reverse().map(c=>{
+      const cls=c.outcome==="hit"?"resolved-hit":c.outcome==="miss"?"resolved-miss":"";
+      const oc=c.outcome?'<span class="outcome '+c.outcome+'">'+c.outcome.toUpperCase()+' · wk '+c.resolvedWeek+"</span>":'<span class="outcome open">OPEN · resolves wk '+(c.week+c.horizon)+"</span>";
+      return '<div class="claim '+cls+'"><div class="k"><span>'+c.kind+' · emitted wk '+c.week+'</span>'+oc+'</div>'+
+        '<div class="stmt">'+c.stmt+'</div><div class="rule">rule, written at emission: '+c.rule+(c.note?' — <i>'+c.note+'</i>':"")+'</div></div>';
+    }).join("");
+  }
+
+  // record
+  const hits=claims.filter(c=>c.outcome==="hit").length, miss=claims.filter(c=>c.outcome==="miss").length;
+  $("r-open").textContent=claims.filter(c=>!c.outcome).length;
+  $("r-hits").textContent=hits; $("r-miss").textContent=miss;
+  $("r-rate").textContent=(hits+miss)?Math.round(hits/(hits+miss)*100)+"%":"—";
+}
+
+/* ============ controls ============ */
+function pause(){if(playing){clearInterval(playing);playing=null;$("playbtn").textContent="Run"}}
+$("playbtn").onclick=()=>{ if(playing){pause();return}
+  if(week>=40)reset();
+  $("playbtn").textContent="Pause";
+  playing=setInterval(()=>{step();if(week>=40)pause()},340);
+};
+$("stepbtn").onclick=()=>{pause();step()};
+$("resetbtn").onclick=()=>{pause();reset()};
+reset();
+</script>
+</body>
+</html>
