@@ -14,8 +14,10 @@ kept; audio is not.
 """
 from __future__ import annotations
 import argparse
+import http.cookiejar
 import json
 import os
+import re
 import tempfile
 import urllib.parse
 import urllib.request
@@ -33,19 +35,23 @@ def _http(url: str, data: bytes | None = None, headers: dict | None = None) -> b
         return r.read()
 
 
+_CLIENT_ID_RE = re.compile(r"API_CLIENT_ID: \'(.*?)\'")
+_REDIRECT_URI = f"{API}/auth/o/post-message/"
+
+
 def _scrape_docs_client_id() -> str:
     page = _http(DOCS_CLIENT_ID_URL).decode("utf-8", "ignore")
-    for marker in ('"client_id":"', "client_id: '", 'client_id="'):
-        i = page.find(marker)
-        if i >= 0:
-            j = i + len(marker)
-            end = min(x for x in (page.find('"', j), page.find("'", j)) if x > 0)
-            return page[j:end]
+    m = _CLIENT_ID_RE.search(page)
+    if m:
+        return m.group(1)
     raise RuntimeError("could not locate docs client_id — page layout changed; "
                        "pass BEATPORT_CLIENT_ID explicitly")
 
 
 def get_token() -> str:
+    """Session-login + authorization_code flow, as the beets-beatport4
+    project does it: JSON login for cookies, authorize for a code in the
+    redirect Location, token exchange with query-string params."""
     tok = os.environ.get("BEATPORT_TOKEN")
     if tok:
         return tok
@@ -54,14 +60,52 @@ def get_token() -> str:
     if not (user and pw):
         raise RuntimeError("set BEATPORT_TOKEN, or BEATPORT_USERNAME + BEATPORT_PASSWORD")
     client_id = os.environ.get("BEATPORT_CLIENT_ID") or _scrape_docs_client_id()
-    body = urllib.parse.urlencode({
-        "grant_type": "password", "username": user, "password": pw,
-        "client_id": client_id}).encode()
-    resp = json.loads(_http(f"{API}/auth/o/token/", data=body,
-                            headers={"Content-Type": "application/x-www-form-urlencoded"}))
-    if "access_token" not in resp:
-        raise RuntimeError(f"auth failed: {resp}")
-    return resp["access_token"]
+
+    jar = http.cookiejar.CookieJar()
+
+    class _NoRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, *a, **k):
+            return None
+
+    opener = urllib.request.build_opener(
+        urllib.request.HTTPCookieProcessor(jar), _NoRedirect)
+    opener.addheaders = list(UA.items())
+
+    # 1. login for session cookies
+    req = urllib.request.Request(
+        f"{API}/auth/login/",
+        data=json.dumps({"username": user, "password": pw}).encode(),
+        headers={"Content-Type": "application/json"})
+    with opener.open(req, timeout=30) as r:
+        login = json.loads(r.read())
+    if "username" not in login:
+        raise RuntimeError(f"beatport login failed: {login}")
+
+    # 2. authorize — the code arrives in the redirect Location header
+    q = urllib.parse.urlencode({
+        "response_type": "code", "client_id": client_id,
+        "redirect_uri": _REDIRECT_URI})
+    try:
+        resp = opener.open(f"{API}/auth/o/authorize/?{q}", timeout=30)
+        location = resp.headers.get("Location", "")
+    except urllib.error.HTTPError as e:
+        if e.code not in (301, 302, 303, 307, 308):
+            raise RuntimeError(f"authorize failed: HTTP {e.code}: {e.read()[:200]}")
+        location = e.headers.get("Location", "")
+    codes = urllib.parse.parse_qs(urllib.parse.urlparse(location).query).get("code")
+    if not codes:
+        raise RuntimeError(f"no authorization code in redirect: {location!r}")
+
+    # 3. exchange (params in the query string, per the working implementation)
+    q = urllib.parse.urlencode({
+        "code": codes[0], "grant_type": "authorization_code",
+        "redirect_uri": _REDIRECT_URI, "client_id": client_id})
+    req = urllib.request.Request(f"{API}/auth/o/token/?{q}", data=b"")
+    with opener.open(req, timeout=30) as r:
+        data = json.loads(r.read())
+    if "access_token" not in data:
+        raise RuntimeError(f"token exchange failed: {data}")
+    return data["access_token"]
 
 
 def _get(path: str, token: str, params: dict | None = None) -> dict:
