@@ -29,9 +29,10 @@ DOCS_CLIENT_ID_URL = "https://api.beatport.com/v4/docs/"  # client_id lives in t
 UA = {"User-Agent": "signal-sound-layer/0.1 (research; contact via earlysignal.live)"}
 
 
-def _http(url: str, data: bytes | None = None, headers: dict | None = None) -> bytes:
+def _http(url: str, data: bytes | None = None, headers: dict | None = None,
+          timeout: int = 30) -> bytes:
     req = urllib.request.Request(url, data=data, headers={**UA, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
 
@@ -180,7 +181,7 @@ def download_preview(url: str) -> str:
     fd, path = tempfile.mkstemp(suffix=".mp3")
     os.close(fd)
     with open(path, "wb") as f:
-        f.write(_http(url))
+        f.write(_http(url, timeout=15))
     return path
 
 

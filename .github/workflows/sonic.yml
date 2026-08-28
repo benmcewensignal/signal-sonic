@@ -31,6 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 240
     env:
+      PYTHONUNBUFFERED: "1"
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
       BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
       BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}

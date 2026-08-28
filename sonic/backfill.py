@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import calendar
 import json
+import time
 import urllib.parse
 from .store import Store
 from .analyser import get_analyser, FeatureVector
@@ -116,11 +117,12 @@ def cmd_fetch(args):
             except RuntimeError as e:
                 mlog[cfg["scene"]] = f"FETCH FAILED: {e}"
                 continue
-            n_new = 0
-            for tr in tracks:
+            n_new, n_skip, t0 = 0, 0, time.time()
+            for i, tr in enumerate(tracks, 1):
                 preview = (tr.get("sample_url") or
                            (tr.get("preview") or {}).get("mp3", {}).get("url") or "")
                 if not preview:
+                    n_skip += 1
                     continue
                 tid = f"bp:{tr['id']}"
                 s = TrackSighting(track_id=tid, audio_ref=preview,
@@ -133,12 +135,22 @@ def cmd_fetch(args):
                 if row is None:
                     try:
                         fv = analyse_sighting(analyser, s)
-                    except Exception:
+                    except Exception as e:
+                        n_skip += 1
+                        if n_skip <= 3:
+                            print(f"    skip {tid}: {type(e).__name__}: {str(e)[:80]}",
+                                  flush=True)
                         continue
                     store.upsert_track(tid, fv.to_json(), analyser.analyser_id,
                                        analyser.version, s.source, month)
                     n_new += 1
                 store.assign_scene(tid, s.scene, month, s.source)
+                if i % 10 == 0:
+                    rate = i / (time.time() - t0)
+                    print(f"    {month} genre{gid} {i}/{len(tracks)} "
+                          f"({rate:.1f} tracks/s, {n_skip} skipped)", flush=True)
+            print(f"  {month} {cfg['scene']}: {n_new} analysed, {n_skip} skipped, "
+                  f"{time.time()-t0:.0f}s", flush=True)
             # monthly fingerprint: FLAT ONLY — quarantine from the live
             # chart-weighted series
             rows = store.scene_track_rows(cfg["scene"], month, analyser.analyser_id)
@@ -150,7 +162,7 @@ def cmd_fetch(args):
                                       "flat", len(parsed), json.dumps(fp))
             mlog[cfg["scene"]] = {"fetched": len(tracks), "analysed": n_new}
         log["months"][month] = mlog
-        print(json.dumps({month: mlog}))
+        print(json.dumps({month: mlog}), flush=True)
 
     assert _claims_count(store) == claims_before, \
         "backfill touched the claims table — refusing to continue"
