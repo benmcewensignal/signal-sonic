@@ -35,17 +35,39 @@ def _http(url: str, data: bytes | None = None, headers: dict | None = None) -> b
         return r.read()
 
 
-_CLIENT_ID_RE = re.compile(r"API_CLIENT_ID: \'(.*?)\'")
+_CLIENT_ID_RE = re.compile(r"API_CLIENT_ID:\s*['\"]([^'\"]+)['\"]")
+_SCRIPT_SRC_RE = re.compile(r"<script[^>]+src=['\"]([^'\"]+)['\"]", re.I)
 _REDIRECT_URI = f"{API}/auth/o/post-message/"
 
 
 def _scrape_docs_client_id() -> str:
+    """The id normally sits inline on /v4/docs/. If not, follow the page's
+    script tags (same host) and search each bundle. On total failure, dump
+    what was actually received — the diagnostic matters more than the error."""
     page = _http(DOCS_CLIENT_ID_URL).decode("utf-8", "ignore")
     m = _CLIENT_ID_RE.search(page)
     if m:
         return m.group(1)
-    raise RuntimeError("could not locate docs client_id — page layout changed; "
-                       "pass BEATPORT_CLIENT_ID explicitly")
+    tried = []
+    for src in _SCRIPT_SRC_RE.findall(page)[:10]:
+        url = urllib.parse.urljoin(DOCS_CLIENT_ID_URL, src)
+        if "beatport.com" not in urllib.parse.urlparse(url).netloc:
+            continue
+        tried.append(url)
+        try:
+            js = _http(url).decode("utf-8", "ignore")
+        except Exception:
+            continue
+        m = _CLIENT_ID_RE.search(js)
+        if m:
+            return m.group(1)
+    head = re.sub(r"\s+", " ", page[:400])
+    raise RuntimeError(
+        "could not locate client_id. Docs page starts: "
+        f"<<{head}>> — scripts tried: {len(tried)}. "
+        "If that looks like a bot-check/challenge page, GitHub's IPs are "
+        "being filtered: set the BEATPORT_CLIENT_ID secret manually or "
+        "move the runner.")
 
 
 def get_token() -> str:
