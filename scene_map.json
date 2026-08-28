@@ -1,16 +1,16 @@
 {
- "_note": "Beatport genre_id -> Signal scene. Fill ids from: python -m sonic.beatport genres (needs credentials). Names here are what to look for in that list; ids below are PLACEHOLDERS and must be replaced before the first real run.",
- "_verify": "python -m sonic.beatport genres | grep -i 'garage\\|bass\\|afro\\|amapiano'",
+ "_note": "Beatport genre_id -> Signal scene. Verified against the live /catalog/genres list, 2026-08-28 (run #3).",
+ "_later": "candidates once the pilot earns more scenes: 98 Amapiano, 95 140/Deep Dubstep/Grime, 9 Breaks/Breakbeat/UK Bass",
  "86": {
   "scene": "uk-garage-speed-garage",
-  "name": "UK Garage / Bassline (VERIFY ID)"
+  "name": "UK Garage / Bassline"
  },
  "85": {
   "scene": "uk-funky-gqom",
-  "name": "140 / Deep Dubstep / Grime (VERIFY ID)"
+  "name": "Bass / Club"
  },
  "89": {
   "scene": "afro-house",
-  "name": "Afro House (VERIFY ID)"
+  "name": "Afro House"
  }
 }
