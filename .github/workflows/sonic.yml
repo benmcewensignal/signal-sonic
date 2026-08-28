@@ -8,9 +8,15 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week]
+        options: [genres, chart, week, backfill, backfill-report]
       genre_id:
         description: "genre id (chart mode only)"
+        required: false
+      month_from:
+        description: "backfill start, e.g. 2024-09"
+        required: false
+      month_to:
+        description: "backfill end, e.g. 2024-11 (keep ranges to ~3 months per run)"
         required: false
 
 permissions:
@@ -50,6 +56,16 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'chart'
         run: python -m sonic.beatport chart --genre-id "${{ inputs.genre_id }}"
 
+      - name: backfill fetch
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'backfill'
+        run: |
+          python -m sonic.backfill fetch --from "${{ inputs.month_from }}" \
+            --to "${{ inputs.month_to }}" --db sonic.db --analyser local
+
+      - name: backfill report
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'backfill-report'
+        run: python -m sonic.backfill report --db sonic.db --out backfill-report
+
       - name: weekly batch
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
         run: |
@@ -59,10 +75,11 @@ jobs:
             --source beatport --analyser local --db sonic.db | tee run-report.json
 
       - name: persist database
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report'))
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
           git add -f sonic.db
+          git add backfill-report.md backfill-report.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "weekly run $(date +%G-W%V)"
           git push
