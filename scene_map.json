@@ -1,6 +1,6 @@
 {
- "_note": "Beatport genre_id -> Signal scene. Verified against the live /catalog/genres list, 2026-08-28 (run #3).",
- "_later": "candidates once the pilot earns more scenes: 98 Amapiano, 95 140/Deep Dubstep/Grime, 9 Breaks/Breakbeat/UK Bass",
+ "_note": "Beatport genre_id -> Signal scene. Ids verified against the live /catalog/genres list (run #3, 2026-08-28).",
+ "_later": "still uncovered candidates: 91 Bass House, 15 Progressive House, 2 Hard Techno, 13 Psy-Trance, 37 Indie Dance, 93 Organic House",
  "86": {
   "scene": "uk-garage-speed-garage",
   "name": "UK Garage / Bassline"
@@ -12,5 +12,45 @@
  "89": {
   "scene": "afro-house",
   "name": "Afro House"
+ },
+ "98": {
+  "scene": "amapiano",
+  "name": "Amapiano"
+ },
+ "95": {
+  "scene": "140-deep-dubstep-grime",
+  "name": "140 / Deep Dubstep / Grime"
+ },
+ "9": {
+  "scene": "breaks-breakbeat-uk-bass",
+  "name": "Breaks / Breakbeat / UK Bass"
+ },
+ "11": {
+  "scene": "tech-house",
+  "name": "Tech House"
+ },
+ "6": {
+  "scene": "techno-peak-time",
+  "name": "Techno (Peak Time / Driving)"
+ },
+ "92": {
+  "scene": "techno-raw-deep-hypnotic",
+  "name": "Techno (Raw / Deep / Hypnotic)"
+ },
+ "5": {
+  "scene": "house",
+  "name": "House"
+ },
+ "12": {
+  "scene": "deep-house",
+  "name": "Deep House"
+ },
+ "90": {
+  "scene": "melodic-house-techno",
+  "name": "Melodic House & Techno"
+ },
+ "1": {
+  "scene": "drum-and-bass",
+  "name": "Drum & Bass"
  }
 }

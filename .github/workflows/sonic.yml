@@ -23,7 +23,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 240
     env:
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
       BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
@@ -55,7 +55,7 @@ jobs:
         run: |
           WEEK=$(date +%G-W%V)
           python -m sonic.run_week --week "$WEEK" \
-            --scenes uk-garage-speed-garage,uk-funky-gqom,afro-house \
+            --scenes uk-garage-speed-garage,uk-funky-gqom,afro-house,amapiano,140-deep-dubstep-grime,breaks-breakbeat-uk-bass,tech-house,techno-peak-time,techno-raw-deep-hypnotic,house,deep-house,melodic-house-techno,drum-and-bass \
             --source beatport --analyser local --db sonic.db | tee run-report.json
 
       - name: persist database
