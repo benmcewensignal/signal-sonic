@@ -28,6 +28,7 @@ jobs:
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
       BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
       BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
     steps:
       - uses: actions/checkout@v4
 
