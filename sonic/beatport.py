@@ -145,7 +145,7 @@ def fetch_genres(token: str) -> list[dict]:
 
 
 def fetch_genre_top100(token: str, genre_id: int) -> list[dict]:
-    d = _get(f"/catalog/genres/{genre_id}/top/100/", token)
+    d = _get(f"/catalog/genres/{genre_id}/top/100/", token, {"per_page": 100})
     return d.get("results", d if isinstance(d, list) else [])
 
 
