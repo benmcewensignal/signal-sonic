@@ -1,0 +1,233 @@
+"""Mix discovery: stop trawling URLs.
+
+Per scene, per week:
+  1. discover candidate mixes — NTS episode search (undocumented JSON API,
+     probe-first discipline) and Mixcloud's public API (popular by tag)
+  2. dedupe against the mixes table
+  3. resolve audio with yt-dlp (battle-tested extractors for both)
+  4. mixscan each; store hits in mix_plays, mix metadata in mixes
+
+Commands:
+  probe    — hit both discovery APIs for one tag, print what came back
+  scan     — the weekly job:  python -m sonic.discover scan --per-scene 2
+
+Scene search tags live in scene_map.json as "tags": [...] per genre entry
+(falls back to the scene slug with dashes as spaces).
+
+Honest notes: NTS's API is undocumented and may shift (probe exists for
+that day); yt-dlp is the audio path and its failures are logged per mix,
+never fatal to the run; audio is analysed and deleted, never kept.
+"""
+from __future__ import annotations
+import argparse
+import json
+import os
+import subprocess
+import tempfile
+import time
+import urllib.parse
+import urllib.request
+from .store import Store
+from . import fingerprints as fp
+
+UA = {"User-Agent": "signal-sound-layer/0.1 (research; earlysignal.live)"}
+MIX_RATES = (0.97, 1.0, 1.03)
+
+MIX_SCHEMA = """
+CREATE TABLE IF NOT EXISTS mixes (
+    mix_url     TEXT PRIMARY KEY,
+    scene       TEXT NOT NULL,
+    source      TEXT NOT NULL,          -- nts | mixcloud
+    title       TEXT,
+    published   TEXT,
+    scanned_at  REAL,
+    duration_s  INTEGER,
+    n_hits      INTEGER,
+    unmatched_share REAL,
+    error       TEXT
+);
+CREATE TABLE IF NOT EXISTS mix_plays (
+    mix_url     TEXT NOT NULL,
+    track_id    TEXT NOT NULL,
+    offset_s    REAL NOT NULL,
+    votes       INTEGER NOT NULL,
+    rate        REAL NOT NULL,
+    PRIMARY KEY (mix_url, track_id)
+);
+"""
+
+
+def _get_json(url: str) -> dict:
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read())
+
+
+# -- discovery ---------------------------------------------------------------
+
+def nts_search(tag: str, limit: int = 6) -> list[dict]:
+    """Episode search on nts.live's undocumented JSON API. Variants tried in
+    order; failures return [] with the reason printed (probe-first lesson)."""
+    variants = [
+        f"https://www.nts.live/api/v2/search?q={urllib.parse.quote(tag)}"
+        f"&limit={limit}&offset=0&types%5B%5D=episode",
+        f"https://www.nts.live/api/v2/search/episodes?q={urllib.parse.quote(tag)}"
+        f"&limit={limit}",
+    ]
+    for url in variants:
+        try:
+            d = _get_json(url)
+            results = d.get("results", [])
+            out = []
+            for r in results:
+                art = r.get("article") or r
+                path = (art.get("path") or r.get("path") or "")
+                if not path:
+                    continue
+                out.append({
+                    "url": "https://www.nts.live" + path,
+                    "title": art.get("title") or r.get("title") or "",
+                    "published": (r.get("local_date") or art.get("updated") or "")[:10],
+                    "source": "nts"})
+            if out:
+                return out
+        except Exception as e:
+            print(f"  nts variant failed ({type(e).__name__}: {str(e)[:60]})",
+                  flush=True)
+    return []
+
+
+def mixcloud_popular(tag: str, limit: int = 6) -> list[dict]:
+    """Mixcloud public API: popular cloudcasts for a tag."""
+    slug = tag.lower().replace(" ", "-")
+    for url in (f"https://api.mixcloud.com/discover/{slug}/popular/?limit={limit}",
+                f"https://api.mixcloud.com/search/?q={urllib.parse.quote(tag)}"
+                f"&type=cloudcast&limit={limit}"):
+        try:
+            d = _get_json(url)
+            out = []
+            for r in d.get("data", []):
+                out.append({"url": r.get("url", ""),
+                            "title": r.get("name", ""),
+                            "published": (r.get("created_time") or "")[:10],
+                            "source": "mixcloud"})
+            out = [o for o in out if o["url"]]
+            if out:
+                return out
+        except Exception as e:
+            print(f"  mixcloud variant failed ({type(e).__name__}: {str(e)[:60]})",
+                  flush=True)
+    return []
+
+
+def scene_tags(scene_map: dict) -> dict[str, list[str]]:
+    out = {}
+    for k, cfg in scene_map.items():
+        if k.startswith("_"):
+            continue
+        tags = cfg.get("tags") or [cfg["scene"].replace("-", " ")]
+        out[cfg["scene"]] = tags
+    return out
+
+
+# -- audio -------------------------------------------------------------------
+
+def fetch_audio(url: str, max_minutes: int) -> str:
+    """Resolve mix audio via yt-dlp to a temp file. Raises on failure."""
+    fd, path = tempfile.mkstemp(suffix=".m4a")
+    os.close(fd)
+    os.unlink(path)
+    cmd = ["yt-dlp", "-q", "-f", "bestaudio/best", "-o", path,
+           "--no-playlist", "--socket-timeout", "20", url]
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=1200)
+    if r.returncode != 0 or not os.path.exists(path):
+        raise RuntimeError(f"yt-dlp: {r.stderr.strip()[-160:]}")
+    return path
+
+
+# -- commands ----------------------------------------------------------------
+
+def cmd_probe(args):
+    print("NTS:", json.dumps(nts_search(args.tag, 3), indent=1))
+    print("Mixcloud:", json.dumps(mixcloud_popular(args.tag, 3), indent=1))
+
+
+def cmd_scan(args):
+    store = Store(args.db)
+    store.conn.executescript(MIX_SCHEMA)
+    fp.ensure_schema(store.conn)
+    n_indexed = store.conn.execute(
+        "SELECT COUNT(*) c FROM fp_tracks").fetchone()["c"]
+    print(f"fingerprint index: {n_indexed} tracks", flush=True)
+    with open(args.scene_map) as f:
+        smap = json.load(f)
+    tags = scene_tags(smap)
+
+    scanned, failed = 0, 0
+    for scene, taglist in tags.items():
+        cands = []
+        for tag in taglist:
+            cands += nts_search(tag, args.per_scene * 2)
+            cands += mixcloud_popular(tag, args.per_scene * 2)
+        fresh = [c for c in cands if not store.conn.execute(
+            "SELECT 1 FROM mixes WHERE mix_url=?", (c["url"],)).fetchone()]
+        for c in fresh[:args.per_scene]:
+            print(f"  [{scene}] {c['source']}: {c['title'][:60]}", flush=True)
+            path = None
+            try:
+                path = fetch_audio(c["url"], args.max_minutes)
+                y = fp.load_audio(path, max_seconds=args.max_minutes * 60)
+                hits = fp.match_mix(store.conn, y, rates=MIX_RATES)
+                dur = len(y) / fp.SR
+                covered = min(dur, len(hits) * 180.0)
+                with store.tx() as conn:
+                    conn.execute(
+                        "INSERT OR REPLACE INTO mixes VALUES (?,?,?,?,?,?,?,?,?,NULL)",
+                        (c["url"], scene, c["source"], c["title"], c["published"],
+                         time.time(), int(dur), len(hits),
+                         round(1 - covered / dur, 3) if dur else None))
+                    for h in hits:
+                        conn.execute(
+                            "INSERT OR REPLACE INTO mix_plays VALUES (?,?,?,?,?)",
+                            (c["url"], h["track_id"], h["mix_offset_s"],
+                             h["votes"], h["rate"]))
+                scanned += 1
+                print(f"    {len(hits)} tracks identified in {int(dur//60)}min",
+                      flush=True)
+            except Exception as e:
+                failed += 1
+                with store.tx() as conn:
+                    conn.execute(
+                        "INSERT OR REPLACE INTO mixes (mix_url, scene, source, "
+                        "title, published, scanned_at, error) VALUES (?,?,?,?,?,?,?)",
+                        (c["url"], scene, c["source"], c["title"], c["published"],
+                         time.time(), f"{type(e).__name__}: {str(e)[:160]}"))
+                print(f"    failed: {type(e).__name__}: {str(e)[:100]}", flush=True)
+            finally:
+                if path:
+                    try:
+                        os.unlink(path)
+                    except OSError:
+                        pass
+    print(json.dumps({"mixes_scanned": scanned, "failed": failed,
+                      "fingerprint_index": n_indexed}))
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    p = sub.add_parser("probe")
+    p.add_argument("--tag", default="amapiano")
+    p.set_defaults(fn=cmd_probe)
+    p = sub.add_parser("scan")
+    p.add_argument("--db", default="sonic.db")
+    p.add_argument("--scene-map", default="scene_map.json")
+    p.add_argument("--per-scene", type=int, default=2)
+    p.add_argument("--max-minutes", type=int, default=150)
+    p.set_defaults(fn=cmd_scan)
+    args = ap.parse_args()
+    args.fn(args)
+
+
+if __name__ == "__main__":
+    main()

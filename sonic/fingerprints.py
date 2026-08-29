@@ -38,26 +38,33 @@ OFFSET_BIN_S = 1.0             # offset histogram resolution
 RATE_SWEEP = (0.96, 0.98, 1.0, 1.02, 1.04)  # query-side tempo tolerance
 
 
+def _local_max_filter(A: np.ndarray, wt: int, wf: int) -> np.ndarray:
+    """Neighbourhood max via separable shift-max passes (vectorised)."""
+    M = A
+    for axis, w in ((0, wt), (1, wf)):
+        out = M.copy()
+        for k in range(1, w + 1):
+            sl_f = [slice(None)] * 2
+            sl_b = [slice(None)] * 2
+            sl_f[axis] = slice(k, None)
+            sl_b[axis] = slice(None, -k)
+            np.maximum(out[tuple(sl_f)], M[tuple(sl_b)], out=out[tuple(sl_f)])
+            np.maximum(out[tuple(sl_b)], M[tuple(sl_f)], out=out[tuple(sl_b)])
+        M = out
+    return M
+
+
 def _peaks(y: np.ndarray) -> list[tuple[int, int]]:
     S = np.abs(np.fft.rfft(_frames(y), axis=1))
     Sdb = 20 * np.log10(S + 1e-9)
     Sdb -= Sdb.max()
-    T, F = Sdb.shape
-    out = []
-    for t in range(0, T):
-        row = Sdb[t]
-        # candidate bins: local max in freq
-        for f in range(2, F - 2):
-            v = row[f]
-            if v < MIN_PEAK_DB:
-                continue
-            if v < row[f - 1] or v < row[f + 1]:
-                continue
-            t0, t1 = max(0, t - PEAK_NEIGH_T), min(T, t + PEAK_NEIGH_T + 1)
-            f0, f1 = max(0, f - PEAK_NEIGH_F), min(F, f + PEAK_NEIGH_F + 1)
-            if v >= Sdb[t0:t1, f0:f1].max() - 1e-9:
-                out.append((t, f))
-    return out
+    neigh = _local_max_filter(Sdb, PEAK_NEIGH_T, PEAK_NEIGH_F)
+    mask = (Sdb >= neigh - 1e-9) & (Sdb >= MIN_PEAK_DB)
+    mask[:, :2] = False
+    mask[:, -2:] = False
+    ts, fs = np.nonzero(mask)
+    order = np.argsort(ts, kind="stable")
+    return list(zip(ts[order].tolist(), fs[order].tolist()))
 
 
 def _frames(y: np.ndarray) -> np.ndarray:
@@ -65,6 +72,27 @@ def _frames(y: np.ndarray) -> np.ndarray:
     idx = np.arange(N_FFT)[None, :] + HOP * np.arange(n)[:, None]
     w = np.hanning(N_FFT)
     return y[idx] * w
+
+
+CHUNK_S = 300          # hash long audio in 5-min blocks
+CHUNK_OVERLAP_S = 4    # overlap so pairs spanning a boundary survive
+
+
+def hashes_long(y: np.ndarray) -> list[tuple[int, int]]:
+    """Chunked hashing for mix-length audio: constant memory, global frames."""
+    if len(y) <= (CHUNK_S + CHUNK_OVERLAP_S) * SR:
+        return hashes(y)
+    out = []
+    step = CHUNK_S * SR
+    win = (CHUNK_S + CHUNK_OVERLAP_S) * SR
+    for start in range(0, len(y), step):
+        seg = y[start:start + win]
+        if len(seg) < N_FFT * 2:
+            break
+        base = start // HOP
+        for h, t in hashes(seg):
+            out.append((h, t + base))
+    return out
 
 
 def hashes(y: np.ndarray) -> list[tuple[int, int]]:
@@ -178,7 +206,7 @@ def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
     frame_s = HOP / SR
     best: dict[str, dict] = {}
     for rate in rates:
-        qh = hashes(_resample(y, rate))
+        qh = hashes_long(_resample(y, rate))
         if not qh:
             continue
         votes = _vote(conn, qh, frame_s)

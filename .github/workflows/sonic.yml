@@ -8,7 +8,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex]
+        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -47,7 +47,7 @@ jobs:
       - name: deps
         run: |
           sudo apt-get -yq install libsndfile1 ffmpeg > /dev/null
-          pip -q install -r requirements.txt
+          pip -q install -r requirements.txt yt-dlp
           echo "decode stack:" && ffmpeg -version | head -1
           python -c "from sonic.analyser_local import _decoder_fingerprint as f; print('decoder fingerprint:', f())" 
 
@@ -73,6 +73,10 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex'
         run: python -m sonic.mixes reindex --db sonic.db --limit 900
 
+      - name: mix discovery + scan
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'
+        run: python -m sonic.discover scan --db sonic.db --per-scene 2
+
       - name: weekly batch
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
         run: |
@@ -82,7 +86,7 @@ jobs:
             --source beatport --analyser local --db sonic.db | tee run-report.json
 
       - name: persist database
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex'))
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan'))
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
