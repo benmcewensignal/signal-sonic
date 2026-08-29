@@ -122,6 +122,13 @@ def cmd_fetch(args):
 
     log = {"mode": "backfill", "months": {}, "analyser": analyser.analyser_id}
     for month in months_between(args.mfrom, args.mto):
+        done_scenes = {r["scene"] for r in store.conn.execute(
+            "SELECT DISTINCT scene FROM scene_weeks WHERE week=? AND weighting='flat'",
+            (month,))}
+        if len(done_scenes) >= len([1 for k in scene_map if not k.startswith("_")]):
+            print(f"{month}: already complete, skipping", flush=True)
+            log["months"][month] = "already complete"
+            continue
         mlog = {}
         for gid, cfg in genres.items():
             try:

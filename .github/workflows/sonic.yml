@@ -29,7 +29,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 350   # GitHub's job ceiling is 360; leave room to persist
     env:
       PYTHONUNBUFFERED: "1"
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
@@ -86,7 +86,7 @@ jobs:
             --source beatport --analyser local --db sonic.db | tee run-report.json
 
       - name: persist database
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan'))
+        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan')))
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
