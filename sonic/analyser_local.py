@@ -29,6 +29,28 @@ _MAJ = np.array([6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.2
 _MIN = np.array([6.33, 2.68, 3.52, 5.38, 2.60, 3.53, 2.54, 4.75, 3.98, 2.69, 3.34, 3.17])
 
 
+def _decoder_fingerprint() -> str:
+    """8-char hash of the audio decode stack. A silent decoder upgrade on the
+    runner shifts MFCCs subtly; stamping it makes environment drift visible
+    in provenance instead of appearing as fake sonic drift (the suspected
+    mechanism behind the 2024-M12 chunk step)."""
+    import hashlib
+    import subprocess
+    parts = []
+    try:
+        parts.append(subprocess.run(["ffmpeg", "-version"], capture_output=True,
+                                    text=True, timeout=10).stdout.splitlines()[0])
+    except Exception:
+        parts.append("no-ffmpeg")
+    try:
+        import soundfile
+        parts.append(soundfile.__libsndfile_version__)
+    except Exception:
+        parts.append("no-sndfile")
+    parts.append(librosa.__version__)
+    return hashlib.sha1("|".join(parts).encode()).hexdigest()[:8]
+
+
 class LocalAnalyser(Analyser):
     analyser_id = "local"
     version = "1"
@@ -36,6 +58,7 @@ class LocalAnalyser(Analyser):
     def __init__(self, sr: int = 22050, max_seconds: float = 120.0):
         self.sr = sr
         self.max_seconds = max_seconds
+        self.version = f"1+{_decoder_fingerprint()}"
 
     def analyse(self, audio_ref: str) -> FeatureVector:
         y, sr = librosa.load(audio_ref, sr=self.sr, mono=True,
@@ -54,13 +77,15 @@ class LocalAnalyser(Analyser):
         bass_weight = self._bass_weight(y, sr)
         vocal = self._vocal_presence(y, sr)
         emb = self._embedding(y, sr)
+        rms = librosa.feature.rms(y=y)[0]
+        loud = float(20 * np.log10(max(float(rms.mean()), 1e-6)))
 
         return FeatureVector(
             tempo=tempo, key=key, energy_curve=energy,
             drum_palette=[], drum_density=drum_density, drum_swing=drum_swing,
             bass_character=[], bass_weight=bass_weight,
             vocal_treatment=[], vocal_presence=vocal,
-            mood=[], embedding=emb,
+            mood=[], embedding=emb, loudness=loud,
             analyser_id=self.analyser_id, analyser_version=self.version)
 
     # -- features ----------------------------------------------------------

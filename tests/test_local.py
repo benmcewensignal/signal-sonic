@@ -119,8 +119,11 @@ def main():
                     [cd(x, y) for x in b for y in vv])
     check(f"styles separate: 0 < intra {intra:.3f} < inter {inter:.3f}, margin ≥ 2x",
           0 < intra and inter > intra * 2)
-    check("analyser_id/vintage stamped",
-          all(f.analyser_id == "local" and f.analyser_version == "1" for f in h))
+    check("analyser_id/vintage stamped with decoder fingerprint",
+          all(f.analyser_id == "local" and f.analyser_version.startswith("1+")
+              and len(f.analyser_version) == 10 for f in h))
+    check("loudness captured and sane (-60..0 dBFS)",
+          all(-60 < f.loudness < 0 for f in h + b + vv))
 
     try:
         p = os.path.join(tmp, "short.wav")

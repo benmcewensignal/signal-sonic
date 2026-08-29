@@ -57,13 +57,25 @@ def months_between(a: str, b: str) -> list[str]:
     return out
 
 
+def _spread_sample(results: list[dict], k: int) -> list[dict]:
+    """Deterministic even-stride sample across the month's fetched releases
+    (sorted by publish date) instead of newest-first truncation — 'the
+    month's sound' should not mean 'the last four days of the month'."""
+    rs = sorted(results, key=lambda t: str(t.get("publish_date") or
+                                           t.get("new_release_date") or ""))
+    if len(rs) <= k:
+        return rs
+    step = len(rs) / k
+    return [rs[int(i * step)] for i in range(k)]
+
+
 def _try_fetch_month(token: str, genre_id: int, month: str, per_month: int):
     """Return (tracks, variant_desc) using the first date-filter spelling
     that yields results; raise with everything tried if none do."""
     start, end = month_range(f"{month[:4]}-{month[6:8]}")
     errors = []
     for name, fmt in DATE_PARAM_VARIANTS:
-        params = {"genre_id": genre_id, "per_page": min(per_month, 100),
+        params = {"genre_id": genre_id, "per_page": 100,
                   "order_by": "-publish_date"}
         if fmt:
             params[name] = fmt.format(start=start, end=end)
@@ -74,7 +86,7 @@ def _try_fetch_month(token: str, genre_id: int, month: str, per_month: int):
             d = _get("/catalog/tracks/", token, params)
             results = d.get("results", [])
             if results:
-                return results[:per_month], f"{name}"
+                return _spread_sample(results, per_month), f"{name}"
             errors.append(f"{name}: 200 but 0 results")
         except Exception as e:
             errors.append(f"{name}: {e}")

@@ -36,6 +36,7 @@ class FeatureVector:
     embedding: list[float]             # EMBED_DIM, L2-normalised
     analyser_id: str = ""
     analyser_version: str = ""
+    loudness: float = 0.0              # mean RMS dBFS; mastering confound, measured not hidden
 
     def to_json(self) -> str:
         return json.dumps(asdict(self))

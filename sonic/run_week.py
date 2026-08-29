@@ -73,10 +73,37 @@ def run(store: Store, analyser, sources, scenes: list[str], week: str,
     log["claims_emitted"] = emitted
     log["claims_open"] = len(store.open_claims())
     log["track_record"] = store.track_record()
+    _write_claims_md(store)
 
     if not quiet:
         print(json.dumps(log, indent=2))
     return log
+
+
+def _write_claims_md(store: Store, path: str = "CLAIMS.md"):
+    """Public ledger: every claim, open first, then resolved. A firing claim
+    becomes a visible commit instead of a row in a private db."""
+    rows = store.conn.execute(
+        "SELECT * FROM claims ORDER BY resolved_at IS NOT NULL, emitted_at DESC"
+    ).fetchall()
+    rec = store.track_record()
+    lines = ["# Claims ledger", "",
+             f"Track record: {rec['hits']} hits / {rec['misses']} misses"
+             + (f" (hit rate {rec['hit_rate']:.0%})" if rec['hit_rate'] is not None else "")
+             + f" · {rec['open']} open", ""]
+    for c in rows:
+        status = (c["outcome"] or "open").upper()
+        lines.append(f"## [{status}] {c['statement']}")
+        lines.append(f"- kind: {c['kind']} · emitted {c['emitted_week']} · "
+                     f"horizon {c['horizon_weeks']}w")
+        lines.append(f"- rule (written at emission): {c['resolution_rule']}")
+        if c["outcome_note"]:
+            lines.append(f"- outcome: {c['outcome_note']}")
+        lines.append("")
+    if not rows:
+        lines.append("*No claims yet — the baseline is still seasoning.*")
+    with open(path, "w") as f:
+        f.write("\n".join(lines) + "\n")
 
 
 def _sonic_momentum_z(histories: dict[str, list]) -> dict[str, float]:

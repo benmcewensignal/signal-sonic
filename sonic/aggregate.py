@@ -13,7 +13,7 @@ import json
 import math
 from .analyser import FeatureVector, EMBED_DIM
 
-SCALARS = ["tempo", "drum_density", "drum_swing", "bass_weight", "vocal_presence"]
+SCALARS = ["tempo", "drum_density", "drum_swing", "bass_weight", "vocal_presence", "loudness"]
 TAG_FIELDS = ["drum_palette", "bass_character", "vocal_treatment", "mood"]
 UNRANKED_FLOOR_RANK = 40
 
@@ -46,7 +46,7 @@ def build_fingerprint(rows: list[tuple[FeatureVector, float]]) -> dict:
     fp: dict = {"n": len(rows)}
 
     for name in SCALARS:
-        vals = [getattr(f, name) for f, _ in rows]
+        vals = [getattr(f, name, 0.0) for f, _ in rows]
         ws = [w for _, w in rows]
         mean = sum(v * w for v, w in zip(vals, ws)) / total_w
         p10, p50, p90 = _weighted_quantiles(vals, ws)
@@ -93,13 +93,16 @@ def fingerprint_distance(fa: dict, fb: dict) -> float:
     if not fa or not fb:
         return float("nan")
     d_emb = _cos_dist(fa["embedding_centroid"], fb["embedding_centroid"])
-    d_scal = 0.0
+    d_scal, n_scal = 0.0, 0
     for name in SCALARS:
+        if name not in fa or name not in fb:
+            continue  # older fingerprints predate this scalar; compare on the intersection
         ra = fa[name]["mean"]
         rb = fb[name]["mean"]
-        scale = 60.0 if name == "tempo" else 1.0
+        scale = 60.0 if name == "tempo" else (20.0 if name == "loudness" else 1.0)
         d_scal += abs(ra - rb) / scale
-    return d_emb + 0.1 * (d_scal / len(SCALARS))
+        n_scal += 1
+    return d_emb + 0.1 * (d_scal / max(n_scal, 1))
 
 
 def decompose_drift(fa: dict, fb: dict) -> dict[str, float]:
@@ -107,7 +110,9 @@ def decompose_drift(fa: dict, fb: dict) -> dict[str, float]:
     as fractions of scale — the material for a plain-language call."""
     out = {}
     for name in SCALARS:
-        scale = 60.0 if name == "tempo" else 1.0
+        if name not in fa or name not in fb:
+            continue
+        scale = 60.0 if name == "tempo" else (20.0 if name == "loudness" else 1.0)
         out[name] = (fb[name]["mean"] - fa[name]["mean"]) / scale
     return out
 
