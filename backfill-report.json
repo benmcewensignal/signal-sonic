@@ -1,0 +1,735 @@
+{
+ "scenes": {
+  "140-deep-dubstep-grime": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0089,
+     "top_mover": "tempo +14%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0064,
+     "top_mover": "drum_swing +5%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M01",
+    "distance": 0.0089,
+    "top_mover": "tempo +14%"
+   }
+  },
+  "afro-house": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0074,
+     "top_mover": "vocal_presence +13%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0068,
+     "top_mover": "tempo -15%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M01",
+    "distance": 0.0074,
+    "top_mover": "vocal_presence +13%"
+   }
+  },
+  "amapiano": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0142,
+     "top_mover": "vocal_presence -12%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0063,
+     "top_mover": "vocal_presence -9%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M01",
+    "distance": 0.0142,
+    "top_mover": "vocal_presence -12%"
+   }
+  },
+  "breaks-breakbeat-uk-bass": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0076,
+     "top_mover": "drum_swing -7%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0203,
+     "top_mover": "vocal_presence -21%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M02",
+    "distance": 0.0203,
+    "top_mover": "vocal_presence -21%"
+   }
+  },
+  "deep-house": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0081,
+     "top_mover": "vocal_presence -10%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0062,
+     "top_mover": "drum_swing +5%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M01",
+    "distance": 0.0081,
+    "top_mover": "vocal_presence -10%"
+   }
+  },
+  "drum-and-bass": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0089,
+     "top_mover": "drum_swing -8%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0113,
+     "top_mover": "drum_swing -11%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M02",
+    "distance": 0.0113,
+    "top_mover": "drum_swing -11%"
+   }
+  },
+  "house": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0096,
+     "top_mover": "vocal_presence -4%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0273,
+     "top_mover": "vocal_presence -22%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M02",
+    "distance": 0.0273,
+    "top_mover": "vocal_presence -22%"
+   }
+  },
+  "melodic-house-techno": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0068,
+     "top_mover": "drum_swing -8%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0062,
+     "top_mover": "drum_swing +9%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M01",
+    "distance": 0.0068,
+    "top_mover": "drum_swing -8%"
+   }
+  },
+  "tech-house": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0042,
+     "top_mover": "drum_swing -4%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0051,
+     "top_mover": "drum_swing +8%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M02",
+    "distance": 0.0051,
+    "top_mover": "drum_swing +8%"
+   }
+  },
+  "techno-peak-time": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0029,
+     "top_mover": "vocal_presence -3%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0268,
+     "top_mover": "drum_swing -14%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M02",
+    "distance": 0.0268,
+    "top_mover": "drum_swing -14%"
+   }
+  },
+  "techno-raw-deep-hypnotic": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0054,
+     "top_mover": "drum_swing +5%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0093,
+     "top_mover": "drum_density -4%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M02",
+    "distance": 0.0093,
+    "top_mover": "drum_density -4%"
+   }
+  },
+  "uk-funky-gqom": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0108,
+     "top_mover": "drum_swing +10%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0039,
+     "top_mover": "drum_swing -4%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M01",
+    "distance": 0.0108,
+    "top_mover": "drum_swing +10%"
+   }
+  },
+  "uk-garage-speed-garage": {
+   "months": 6,
+   "series": [
+    {
+     "month": "2025-M01",
+     "distance": 0.0051,
+     "top_mover": "drum_swing +6%"
+    },
+    {
+     "month": "2025-M02",
+     "distance": 0.0088,
+     "top_mover": "tempo -6%"
+    }
+   ],
+   "peak": {
+    "month": "2025-M02",
+    "distance": 0.0088,
+    "top_mover": "tempo -6%"
+   }
+  }
+ },
+ "convergence": [
+  {
+   "pair": "techno-peak-time \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0258,
+   "late": 0.0088,
+   "change": -0.657
+  },
+  {
+   "pair": "deep-house \u00d7 house",
+   "early": 0.0234,
+   "late": 0.009,
+   "change": -0.615
+  },
+  {
+   "pair": "house \u00d7 uk-garage-speed-garage",
+   "early": 0.0329,
+   "late": 0.013,
+   "change": -0.604
+  },
+  {
+   "pair": "house \u00d7 tech-house",
+   "early": 0.0339,
+   "late": 0.0161,
+   "change": -0.525
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 techno-peak-time",
+   "early": 0.0299,
+   "late": 0.0156,
+   "change": -0.478
+  },
+  {
+   "pair": "melodic-house-techno \u00d7 techno-peak-time",
+   "early": 0.0219,
+   "late": 0.0122,
+   "change": -0.443
+  },
+  {
+   "pair": "melodic-house-techno \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0263,
+   "late": 0.0148,
+   "change": -0.438
+  },
+  {
+   "pair": "amapiano \u00d7 house",
+   "early": 0.0523,
+   "late": 0.0306,
+   "change": -0.415
+  },
+  {
+   "pair": "deep-house \u00d7 uk-funky-gqom",
+   "early": 0.0214,
+   "late": 0.0125,
+   "change": -0.414
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0371,
+   "late": 0.0224,
+   "change": -0.395
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 deep-house",
+   "early": 0.03,
+   "late": 0.0183,
+   "change": -0.391
+  },
+  {
+   "pair": "house \u00d7 uk-funky-gqom",
+   "early": 0.0171,
+   "late": 0.0105,
+   "change": -0.389
+  },
+  {
+   "pair": "deep-house \u00d7 drum-and-bass",
+   "early": 0.057,
+   "late": 0.0376,
+   "change": -0.341
+  },
+  {
+   "pair": "deep-house \u00d7 uk-garage-speed-garage",
+   "early": 0.0234,
+   "late": 0.0156,
+   "change": -0.334
+  },
+  {
+   "pair": "drum-and-bass \u00d7 tech-house",
+   "early": 0.0468,
+   "late": 0.0335,
+   "change": -0.284
+  },
+  {
+   "pair": "amapiano \u00d7 uk-funky-gqom",
+   "early": 0.0436,
+   "late": 0.0315,
+   "change": -0.277
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 drum-and-bass",
+   "early": 0.0523,
+   "late": 0.0381,
+   "change": -0.271
+  },
+  {
+   "pair": "afro-house \u00d7 deep-house",
+   "early": 0.0148,
+   "late": 0.0108,
+   "change": -0.269
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 house",
+   "early": 0.0339,
+   "late": 0.025,
+   "change": -0.263
+  },
+  {
+   "pair": "drum-and-bass \u00d7 uk-garage-speed-garage",
+   "early": 0.0345,
+   "late": 0.0256,
+   "change": -0.256
+  },
+  {
+   "pair": "amapiano \u00d7 breaks-breakbeat-uk-bass",
+   "early": 0.0608,
+   "late": 0.0456,
+   "change": -0.249
+  },
+  {
+   "pair": "uk-funky-gqom \u00d7 uk-garage-speed-garage",
+   "early": 0.0192,
+   "late": 0.0144,
+   "change": -0.249
+  },
+  {
+   "pair": "house \u00d7 techno-peak-time",
+   "early": 0.0313,
+   "late": 0.0235,
+   "change": -0.248
+  },
+  {
+   "pair": "amapiano \u00d7 drum-and-bass",
+   "early": 0.0901,
+   "late": 0.0683,
+   "change": -0.242
+  },
+  {
+   "pair": "techno-raw-deep-hypnotic \u00d7 uk-funky-gqom",
+   "early": 0.0289,
+   "late": 0.0223,
+   "change": -0.226
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 tech-house",
+   "early": 0.0282,
+   "late": 0.0219,
+   "change": -0.224
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 uk-garage-speed-garage",
+   "early": 0.0251,
+   "late": 0.0199,
+   "change": -0.208
+  },
+  {
+   "pair": "afro-house \u00d7 techno-peak-time",
+   "early": 0.0262,
+   "late": 0.0208,
+   "change": -0.206
+  },
+  {
+   "pair": "drum-and-bass \u00d7 house",
+   "early": 0.0327,
+   "late": 0.0262,
+   "change": -0.199
+  },
+  {
+   "pair": "techno-raw-deep-hypnotic \u00d7 uk-garage-speed-garage",
+   "early": 0.0548,
+   "late": 0.0439,
+   "change": -0.199
+  },
+  {
+   "pair": "afro-house \u00d7 uk-garage-speed-garage",
+   "early": 0.0341,
+   "late": 0.0276,
+   "change": -0.189
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 amapiano",
+   "early": 0.0324,
+   "late": 0.0276,
+   "change": -0.149
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 uk-funky-gqom",
+   "early": 0.0208,
+   "late": 0.0179,
+   "change": -0.136
+  },
+  {
+   "pair": "deep-house \u00d7 melodic-house-techno",
+   "early": 0.0201,
+   "late": 0.0175,
+   "change": -0.131
+  },
+  {
+   "pair": "deep-house \u00d7 techno-peak-time",
+   "early": 0.0302,
+   "late": 0.0263,
+   "change": -0.128
+  },
+  {
+   "pair": "tech-house \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0417,
+   "late": 0.0365,
+   "change": -0.125
+  },
+  {
+   "pair": "amapiano \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0651,
+   "late": 0.0571,
+   "change": -0.122
+  },
+  {
+   "pair": "deep-house \u00d7 tech-house",
+   "early": 0.0164,
+   "late": 0.0145,
+   "change": -0.118
+  },
+  {
+   "pair": "drum-and-bass \u00d7 techno-peak-time",
+   "early": 0.0422,
+   "late": 0.0373,
+   "change": -0.117
+  },
+  {
+   "pair": "amapiano \u00d7 tech-house",
+   "early": 0.0253,
+   "late": 0.0224,
+   "change": -0.114
+  },
+  {
+   "pair": "afro-house \u00d7 amapiano",
+   "early": 0.0364,
+   "late": 0.0324,
+   "change": -0.112
+  },
+  {
+   "pair": "amapiano \u00d7 uk-garage-speed-garage",
+   "early": 0.0337,
+   "late": 0.03,
+   "change": -0.11
+  },
+  {
+   "pair": "deep-house \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0317,
+   "late": 0.0286,
+   "change": -0.098
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 uk-funky-gqom",
+   "early": 0.0137,
+   "late": 0.0124,
+   "change": -0.095
+  },
+  {
+   "pair": "drum-and-bass \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0595,
+   "late": 0.0545,
+   "change": -0.084
+  },
+  {
+   "pair": "drum-and-bass \u00d7 uk-funky-gqom",
+   "early": 0.0314,
+   "late": 0.0289,
+   "change": -0.078
+  },
+  {
+   "pair": "house \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0323,
+   "late": 0.0299,
+   "change": -0.075
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 tech-house",
+   "early": 0.0125,
+   "late": 0.0118,
+   "change": -0.053
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 breaks-breakbeat-uk-bass",
+   "early": 0.0293,
+   "late": 0.0281,
+   "change": -0.041
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 uk-garage-speed-garage",
+   "early": 0.0179,
+   "late": 0.0173,
+   "change": -0.034
+  },
+  {
+   "pair": "afro-house \u00d7 uk-funky-gqom",
+   "early": 0.0175,
+   "late": 0.0173,
+   "change": -0.012
+  },
+  {
+   "pair": "tech-house \u00d7 uk-funky-gqom",
+   "early": 0.0155,
+   "late": 0.0155,
+   "change": -0.002
+  },
+  {
+   "pair": "melodic-house-techno \u00d7 uk-funky-gqom",
+   "early": 0.0147,
+   "late": 0.015,
+   "change": 0.019
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0405,
+   "late": 0.0416,
+   "change": 0.026
+  },
+  {
+   "pair": "afro-house \u00d7 house",
+   "early": 0.0139,
+   "late": 0.0143,
+   "change": 0.033
+  },
+  {
+   "pair": "amapiano \u00d7 melodic-house-techno",
+   "early": 0.0494,
+   "late": 0.0512,
+   "change": 0.037
+  },
+  {
+   "pair": "afro-house \u00d7 tech-house",
+   "early": 0.0252,
+   "late": 0.0262,
+   "change": 0.043
+  },
+  {
+   "pair": "amapiano \u00d7 deep-house",
+   "early": 0.0152,
+   "late": 0.0161,
+   "change": 0.055
+  },
+  {
+   "pair": "afro-house \u00d7 techno-raw-deep-hypnotic",
+   "early": 0.0219,
+   "late": 0.0231,
+   "change": 0.056
+  },
+  {
+   "pair": "amapiano \u00d7 techno-peak-time",
+   "early": 0.0557,
+   "late": 0.0592,
+   "change": 0.063
+  },
+  {
+   "pair": "afro-house \u00d7 drum-and-bass",
+   "early": 0.0441,
+   "late": 0.0471,
+   "change": 0.069
+  },
+  {
+   "pair": "tech-house \u00d7 uk-garage-speed-garage",
+   "early": 0.0107,
+   "late": 0.0119,
+   "change": 0.115
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 house",
+   "early": 0.0142,
+   "late": 0.0159,
+   "change": 0.122
+  },
+  {
+   "pair": "techno-peak-time \u00d7 uk-funky-gqom",
+   "early": 0.0171,
+   "late": 0.0201,
+   "change": 0.176
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 deep-house",
+   "early": 0.0196,
+   "late": 0.0233,
+   "change": 0.188
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 drum-and-bass",
+   "early": 0.0191,
+   "late": 0.0228,
+   "change": 0.195
+  },
+  {
+   "pair": "melodic-house-techno \u00d7 uk-garage-speed-garage",
+   "early": 0.0272,
+   "late": 0.0325,
+   "change": 0.196
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 afro-house",
+   "early": 0.0298,
+   "late": 0.0365,
+   "change": 0.225
+  },
+  {
+   "pair": "afro-house \u00d7 breaks-breakbeat-uk-bass",
+   "early": 0.0192,
+   "late": 0.0235,
+   "change": 0.227
+  },
+  {
+   "pair": "melodic-house-techno \u00d7 tech-house",
+   "early": 0.0263,
+   "late": 0.034,
+   "change": 0.294
+  },
+  {
+   "pair": "afro-house \u00d7 melodic-house-techno",
+   "early": 0.0103,
+   "late": 0.0137,
+   "change": 0.323
+  },
+  {
+   "pair": "tech-house \u00d7 techno-peak-time",
+   "early": 0.0243,
+   "late": 0.0327,
+   "change": 0.345
+  },
+  {
+   "pair": "drum-and-bass \u00d7 melodic-house-techno",
+   "early": 0.0288,
+   "late": 0.0397,
+   "change": 0.375
+  },
+  {
+   "pair": "house \u00d7 melodic-house-techno",
+   "early": 0.0118,
+   "late": 0.0163,
+   "change": 0.386
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 techno-peak-time",
+   "early": 0.0272,
+   "late": 0.0383,
+   "change": 0.408
+  },
+  {
+   "pair": "140-deep-dubstep-grime \u00d7 melodic-house-techno",
+   "early": 0.0287,
+   "late": 0.0412,
+   "change": 0.432
+  },
+  {
+   "pair": "techno-peak-time \u00d7 uk-garage-speed-garage",
+   "early": 0.0254,
+   "late": 0.0371,
+   "change": 0.463
+  },
+  {
+   "pair": "breaks-breakbeat-uk-bass \u00d7 melodic-house-techno",
+   "early": 0.011,
+   "late": 0.0175,
+   "change": 0.598
+  }
+ ],
+ "note": "RETRODICTIVE ANALYSIS \u2014 derived from backfilled history. Not calls, not the track record, and never eligible for it."
+}
