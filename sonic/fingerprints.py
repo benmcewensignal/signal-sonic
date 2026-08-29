@@ -1,0 +1,212 @@
+"""Constellation fingerprinting: find our known tracks inside mix audio.
+
+Shazam-family approach, self-contained (numpy + librosa only):
+  1. spectrogram -> local peaks ("constellation")
+  2. anchor->target peak pairs -> 32-bit hashes (f1, f2, dt quantised)
+  3. reference previews indexed into SQLite (fingerprints table)
+  4. a mix is hashed the same way; matches vote on (track, time-offset);
+     a tight offset histogram peak = the track is playing there
+
+Honest limits, stated up front:
+  - Robust to noise, EQ, compression, and crowd bleed.
+  - Degrades under heavy tempo shift: dt quantisation buys roughly ±3-4%;
+    keylock time-stretch beyond that will miss. Recall is therefore a
+    floor, not a census — fine for trend weighting, wrong for royalties.
+  - Matches only what we have indexed: charting/release previews. The
+    unmatched remainder of a mix is itself signal (unreleased density).
+"""
+from __future__ import annotations
+import hashlib
+import numpy as np
+
+# spectrogram / peak parameters
+SR = 22050
+N_FFT = 2048
+HOP = 512                      # ~23ms per frame
+PEAK_NEIGH_T = 10              # frames (~0.23s) local-max window
+PEAK_NEIGH_F = 15              # bins
+MIN_PEAK_DB = -45.0            # relative to file max
+# pairing parameters
+FANOUT = 8                     # targets per anchor
+DT_MIN, DT_MAX = 2, 80         # frames (~0.05s .. ~1.9s)
+DT_QUANT = 2                   # frames per dt bucket: tempo tolerance
+FREQ_QUANT = 2                 # bins per freq bucket
+# matching parameters
+MIN_VOTES = 12                 # aligned hash votes to call a hit
+DOMINANCE = 2.5                # peak offset bin must beat runner-up by this
+OFFSET_BIN_S = 1.0             # offset histogram resolution
+RATE_SWEEP = (0.96, 0.98, 1.0, 1.02, 1.04)  # query-side tempo tolerance
+
+
+def _peaks(y: np.ndarray) -> list[tuple[int, int]]:
+    S = np.abs(np.fft.rfft(_frames(y), axis=1))
+    Sdb = 20 * np.log10(S + 1e-9)
+    Sdb -= Sdb.max()
+    T, F = Sdb.shape
+    out = []
+    for t in range(0, T):
+        row = Sdb[t]
+        # candidate bins: local max in freq
+        for f in range(2, F - 2):
+            v = row[f]
+            if v < MIN_PEAK_DB:
+                continue
+            if v < row[f - 1] or v < row[f + 1]:
+                continue
+            t0, t1 = max(0, t - PEAK_NEIGH_T), min(T, t + PEAK_NEIGH_T + 1)
+            f0, f1 = max(0, f - PEAK_NEIGH_F), min(F, f + PEAK_NEIGH_F + 1)
+            if v >= Sdb[t0:t1, f0:f1].max() - 1e-9:
+                out.append((t, f))
+    return out
+
+
+def _frames(y: np.ndarray) -> np.ndarray:
+    n = 1 + max(0, (len(y) - N_FFT)) // HOP
+    idx = np.arange(N_FFT)[None, :] + HOP * np.arange(n)[:, None]
+    w = np.hanning(N_FFT)
+    return y[idx] * w
+
+
+def hashes(y: np.ndarray) -> list[tuple[int, int]]:
+    """Return [(hash32, anchor_frame)] for one audio buffer (mono, SR)."""
+    pk = _peaks(y)
+    out = []
+    for i, (t1, f1) in enumerate(pk):
+        made = 0
+        for t2, f2 in pk[i + 1:]:
+            dt = t2 - t1
+            if dt < DT_MIN:
+                continue
+            if dt > DT_MAX:
+                break
+            h = (int(f1 // FREQ_QUANT) & 0x3FF) << 22 \
+                | (int(f2 // FREQ_QUANT) & 0x3FF) << 12 \
+                | (int(dt // DT_QUANT) & 0xFFF)
+            out.append((h, t1))
+            made += 1
+            if made >= FANOUT:
+                break
+    return out
+
+
+def load_audio(path: str, max_seconds: float | None = None) -> np.ndarray:
+    import librosa
+    y, _ = librosa.load(path, sr=SR, mono=True, duration=max_seconds)
+    m = np.max(np.abs(y)) or 1.0
+    return (y / m).astype(np.float32)
+
+
+# ---------------------------------------------------------------------------
+# index (SQLite, same db as everything else)
+# ---------------------------------------------------------------------------
+
+FP_SCHEMA = """
+CREATE TABLE IF NOT EXISTS fingerprints (
+    hash      INTEGER NOT NULL,
+    track_id  TEXT NOT NULL,
+    frame     INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS fp_hash ON fingerprints(hash);
+CREATE TABLE IF NOT EXISTS fp_tracks (
+    track_id  TEXT PRIMARY KEY,
+    n_hashes  INTEGER NOT NULL,
+    indexed_at REAL NOT NULL
+);
+"""
+
+
+def ensure_schema(conn):
+    conn.executescript(FP_SCHEMA)
+
+
+def index_track(conn, track_id: str, y: np.ndarray) -> int:
+    """Hash one reference clip into the index. Returns hash count."""
+    ensure_schema(conn)
+    if conn.execute("SELECT 1 FROM fp_tracks WHERE track_id=?",
+                    (track_id,)).fetchone():
+        return 0
+    hs = hashes(y)
+    conn.executemany("INSERT INTO fingerprints VALUES (?,?,?)",
+                     [(h, track_id, t) for h, t in hs])
+    import time
+    conn.execute("INSERT INTO fp_tracks VALUES (?,?,?)",
+                 (track_id, len(hs), time.time()))
+    conn.commit()
+    return len(hs)
+
+
+def _resample(y: np.ndarray, factor: float) -> np.ndarray:
+    if factor == 1.0:
+        return y
+    idx = np.arange(0, len(y) - 1, factor)
+    lo = idx.astype(int)
+    frac = (idx - lo).astype(np.float32)
+    return (y[lo] * (1 - frac) + y[lo + 1] * frac).astype(np.float32)
+
+
+def _vote(conn, qh, frame_s) -> dict[tuple[str, int], int]:
+    votes: dict[tuple[str, int], int] = {}
+    by_hash: dict[int, list[int]] = {}
+    for h, t in qh:
+        by_hash.setdefault(h, []).append(t)
+    keys = list(by_hash)
+    for i in range(0, len(keys), 500):
+        chunk = keys[i:i + 500]
+        q = ",".join("?" * len(chunk))
+        for row in conn.execute(
+                f"SELECT hash, track_id, frame FROM fingerprints WHERE hash IN ({q})",
+                chunk):
+            for qt in by_hash[row[0]]:
+                off = int((qt - row[2]) * frame_s / OFFSET_BIN_S)
+                key = (row[1], off)
+                votes[key] = votes.get(key, 0) + 1
+    return votes
+
+
+def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
+    """Find indexed tracks inside a (long) mix buffer.
+
+    Two defences beyond raw voting:
+      - rate sweep: the query is matched at several resample factors,
+        because DJ tempo adjustment shifts frequency and timing together
+        and breaks single-rate hashing beyond ~2%.
+      - dominance: a track's peak offset bin must beat its runner-up bin
+        by DOMINANCE x. Repetitive material (four-on-floor, click trains)
+        aligns at many offsets in a comb; genuine presence concentrates.
+    """
+    ensure_schema(conn)
+    frame_s = HOP / SR
+    best: dict[str, dict] = {}
+    for rate in rates:
+        qh = hashes(_resample(y, rate))
+        if not qh:
+            continue
+        votes = _vote(conn, qh, frame_s)
+        per_track: dict[str, list[tuple[int, int]]] = {}
+        for (tid, off), v in votes.items():
+            per_track.setdefault(tid, []).append((v, off))
+        for tid, bins in per_track.items():
+            by_off = {}
+            for v, off in bins:
+                by_off[off] = by_off.get(off, 0) + v
+            merged = {off: by_off.get(off - 1, 0) + v + by_off.get(off + 1, 0)
+                      for off, v in by_off.items()}
+            peak_off = max(merged, key=merged.get)
+            peak_v = merged[peak_off]
+            others = [v for off, v in by_off.items() if abs(off - peak_off) > 1]
+            # like-for-like: the peak is a merged 3-bin sum, so the comb
+            # background it must dominate is 3x the median single bin
+            background3 = 3 * (sorted(others)[len(others) // 2] if others else 0)
+            if peak_v < MIN_VOTES or peak_v < DOMINANCE * max(background3, 1):
+                continue
+            if tid not in best or peak_v > best[tid]["votes"]:
+                best[tid] = {"track_id": tid, "votes": peak_v,
+                             "mix_offset_s": max(0.0, peak_off * OFFSET_BIN_S * rate),
+                             "rate": rate}
+    hits = sorted(best.values(), key=lambda h: h["mix_offset_s"])
+    return hits
+
+
+def hash_id(y: np.ndarray) -> str:
+    """Stable content id for dedupe of mix audio."""
+    return hashlib.sha1(y[::100].tobytes()).hexdigest()[:12]

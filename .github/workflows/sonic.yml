@@ -8,7 +8,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report]
+        options: [genres, chart, week, backfill, backfill-report, reindex]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -69,6 +69,10 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'backfill-report'
         run: python -m sonic.backfill report --db sonic.db --out backfill-report
 
+      - name: reindex fingerprints
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex'
+        run: python -m sonic.mixes reindex --db sonic.db --limit 900
+
       - name: weekly batch
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
         run: |
@@ -78,7 +82,7 @@ jobs:
             --source beatport --analyser local --db sonic.db | tee run-report.json
 
       - name: persist database
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report'))
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex'))
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
