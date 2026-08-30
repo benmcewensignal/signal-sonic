@@ -32,7 +32,11 @@ DT_MIN, DT_MAX = 2, 80         # frames (~0.05s .. ~1.9s)
 DT_QUANT = 2                   # frames per dt bucket: tempo tolerance
 FREQ_QUANT = 2                 # bins per freq bucket
 # matching parameters
-MIN_VOTES = 12                 # aligned hash votes to call a hit
+MIN_VOTES = 15                 # aligned hash votes to call a hit
+NMS_MIN_GAP_S = 35.0           # two claims within this gap compete: the
+                               # stronger owns the position (clone control)
+MAX_DF_MIN = 12                # a hash in more tracks than max(this,
+MAX_DF_FRAC = 0.02             # frac*n_tracks) is furniture, not identity
 DOMINANCE = 2.5                # peak offset bin must beat runner-up by this
 OFFSET_BIN_S = 1.0             # offset histogram resolution
 RATE_SWEEP = (0.96, 0.98, 1.0, 1.02, 1.04)  # query-side tempo tolerance
@@ -198,10 +202,22 @@ def _load_index(conn):
         _CACHE[key] = (tids, None, None, None)
         return _CACHE[key]
     H = np.concatenate(Hs)
+    T = np.concatenate(Ts).astype(np.int32)
+    X = np.concatenate(Tidx)
     order = np.argsort(H, kind="stable")
-    _CACHE[key] = (tids, H[order],
-                   np.concatenate(Ts)[order].astype(np.int32),
-                   np.concatenate(Tidx)[order])
+    H, T, X = H[order], T[order], X[order]
+    # IDF pruning: a hash occurring across many DIFFERENT tracks is genre
+    # furniture (four-on-floor, stock basses), not evidence of identity.
+    # Without it a 1h mix against a real corpus matched 1,771 tracks.
+    pair = (H.astype(np.int64) << 20) ^ X.astype(np.int64)
+    df_h = (np.unique(pair) >> 20).astype(np.uint32)
+    dfs_h, dfs_c = np.unique(df_h, return_counts=True)
+    max_df = max(MAX_DF_MIN, int(MAX_DF_FRAC * len(tids)))
+    banned = dfs_h[dfs_c > max_df]
+    if len(banned):
+        keep = ~np.isin(H, banned)
+        H, T, X = H[keep], T[keep], X[keep]
+    _CACHE[key] = (tids, H, T, X)
     return _CACHE[key]
 
 
@@ -273,7 +289,15 @@ def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
                 best[tid] = {"track_id": tid, "votes": peak_v,
                              "mix_offset_s": max(0.0, (peak_off + shift) * OFFSET_BIN_S * rate),
                              "rate": rate}
-    return sorted(best.values(), key=lambda h: h["mix_offset_s"])
+    # non-maximum suppression over mix time: audio can only be one track
+    # at once, so overlapping weaker claims (near-clones, shared samples,
+    # param-neighbours) yield to the strongest owner of each window.
+    kept = []
+    for h in sorted(best.values(), key=lambda x: -x["votes"]):
+        if all(abs(h["mix_offset_s"] - k["mix_offset_s"]) >= NMS_MIN_GAP_S
+               for k in kept):
+            kept.append(h)
+    return sorted(kept, key=lambda h: h["mix_offset_s"])
 
 
 def hash_id(y: np.ndarray) -> str:

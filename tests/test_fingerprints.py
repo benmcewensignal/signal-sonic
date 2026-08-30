@@ -45,16 +45,27 @@ def synth_track(seed: int, secs: float = 60.0) -> np.ndarray:
     # legitimately cross-matches and is documented as such below.)
     note_len = 0.7 + 0.6 * rs.rand()
     n_notes = int(secs / note_len)
+    harm = 1 + rs.randint(1, 4)              # per-track timbre
+    scale = 160 * (2 ** (rs.randint(0, 3)))  # per-track register
     for i in range(n_notes):
-        f = 180 + rs.rand() * 900
-        seg = (t >= i * note_len) & (t < (i + 1) * note_len)
-        y += np.sin(2 * np.pi * f * t) * seg * (0.4 + 0.4 * rs.rand())
-        y += 0.5 * np.sin(2 * np.pi * 2 * f * t) * seg * rs.rand() * 0.3
+        f = scale + rs.rand() * 700 * (1 + 0.5 * rs.rand())
+        a, b = int(i * note_len * SR), min(len(t), int((i + 1) * note_len * SR))
+        ts = t[a:b]
+        y[a:b] += np.sin(2 * np.pi * f * ts) * (0.4 + 0.4 * rs.rand())
+        y[a:b] += 0.5 * np.sin(2 * np.pi * harm * f * ts) * rs.rand() * 0.3
+        if rs.rand() < 0.3:                  # occasional detuned layer
+            y[a:b] += 0.3 * np.sin(2 * np.pi * f * 1.5 * ts) * rs.rand()
     beat = 60 / (110 + rs.rand() * 40)
     click_f = 2000 + rs.rand() * 2500
+    dur = int(0.08 * SR)
+    pattern = rs.rand(8) < 0.75              # per-track rhythm mask
     for k in range(int(secs / beat)):
-        dt = t - k * beat
-        y += np.sin(2 * np.pi * click_f * dt) * np.exp(-np.maximum(dt, 0) * 80) * (dt >= 0) * 0.5
+        if not pattern[k % 8]:
+            continue
+        a = int(k * beat * SR)
+        b = min(len(t), a + dur)
+        dt = t[a:b] - k * beat
+        y[a:b] += np.sin(2 * np.pi * click_f * dt) * np.exp(-dt * 80) * 0.5
     return (y / (np.max(np.abs(y)) or 1)).astype(np.float32)
 
 
@@ -77,6 +88,32 @@ def tempo_shift(y: np.ndarray, factor: float) -> np.ndarray:
     lo = idx.astype(int)
     frac = (idx - lo).astype(np.float32)
     return (y[lo] * (1 - frac) + y[lo + 1] * frac).astype(np.float32)
+
+
+def scale_test():
+    """The test the live hallucination proved was missing: a realistic-size
+    index must NOT light up wholesale when scanning a mix. 150 indexed
+    tracks, a 6-track mix containing 3 of them; require all 3 found and
+    ZERO false positives."""
+    global PASS
+    import sqlite3
+    rs = np.random.RandomState(7)
+    db = os.path.join(tempfile.mkdtemp(), "fps.db")
+    conn = sqlite3.connect(db)
+    ensure_schema(conn)
+    for i in range(150):
+        index_track(conn, f"t{i}", synth_track(1000 + i, 40.0))
+    planted = [3, 20, 41]
+    segs = [synth_track(1000 + p, 40.0) for p in planted[:2]]
+    segs.append(synth_track(5000, 40.0))          # unindexed filler
+    segs.append(synth_track(1000 + planted[2], 40.0))
+    segs.append(synth_track(5001, 40.0))          # more filler
+    mix = degrade(np.concatenate(segs), rs)
+    hits = {h["track_id"] for h in match_mix(conn, mix)}
+    for p in planted:
+        check(f"scale: t{p} found", f"t{p}" in hits)
+    fp = hits - {f"t{p}" for p in planted}
+    check(f"scale: no hallucinations (got {len(fp)} false)", len(fp) == 0)
 
 
 def main():
@@ -119,6 +156,7 @@ def main():
     # re-index is a no-op
     check("re-index dedupes", index_track(conn, "A", trackA) == 0)
 
+    scale_test()
     print(f"\n{PASS} passed, {len(FAIL)} failed" + (f": {FAIL}" if FAIL else ""))
     sys.exit(1 if FAIL else 0)
 

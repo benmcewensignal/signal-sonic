@@ -136,14 +136,16 @@ def fetch_audio(url: str, max_minutes: int) -> str:
     """Resolve mix audio via yt-dlp, then transcode to mono 22k05 WAV:
     yt-dlp delivers m4a/AAC, which libsndfile cannot decode (every mix in
     the first live scan failed on exactly this). ffmpeg is already a dep."""
-    fd, raw = tempfile.mkstemp(suffix=".audio")
-    os.close(fd)
-    os.unlink(raw)
-    cmd = ["yt-dlp", "-q", "-f", "bestaudio/best", "-o", raw,
+    ddir = tempfile.mkdtemp()
+    cmd = ["yt-dlp", "-q", "-f", "bestaudio/best", "-P", ddir,
+           "-o", "mix.%(ext)s",
            "--no-playlist", "--socket-timeout", "20", url]
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=1200)
-    if r.returncode != 0 or not os.path.exists(raw):
+    import glob as _g
+    got = sorted(_g.glob(os.path.join(ddir, "mix.*")))
+    if r.returncode != 0 or not got:
         raise RuntimeError(f"yt-dlp: {r.stderr.strip()[-160:]}")
+    raw = got[0]
     wav = raw + ".wav"
     try:
         r = subprocess.run(
