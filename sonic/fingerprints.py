@@ -141,15 +141,11 @@ def open_store(path: str = "fingerprints.db"):
 
 
 FP_SCHEMA = """
-CREATE TABLE IF NOT EXISTS fingerprints (
-    hash      INTEGER NOT NULL,
-    track_id  TEXT NOT NULL,
-    frame     INTEGER NOT NULL
-);
-CREATE INDEX IF NOT EXISTS fp_hash ON fingerprints(hash);
 CREATE TABLE IF NOT EXISTS fp_tracks (
     track_id  TEXT PRIMARY KEY,
     n_hashes  INTEGER NOT NULL,
+    hashes    BLOB NOT NULL,             -- uint32[n] packed
+    frames    BLOB NOT NULL,             -- uint16[n] packed
     indexed_at REAL NOT NULL
 );
 """
@@ -160,19 +156,53 @@ def ensure_schema(conn):
 
 
 def index_track(conn, track_id: str, y: np.ndarray) -> int:
-    """Hash one reference clip into the index. Returns hash count."""
+    """Hash one reference clip into the store as packed blobs (~6 bytes per
+    hash vs ~35+ as rows: the difference between a corpus index that fits a
+    release asset and one that does not)."""
     ensure_schema(conn)
     if conn.execute("SELECT 1 FROM fp_tracks WHERE track_id=?",
                     (track_id,)).fetchone():
         return 0
     hs = hashes(y)
-    conn.executemany("INSERT INTO fingerprints VALUES (?,?,?)",
-                     [(h, track_id, t) for h, t in hs])
+    if not hs:
+        return 0
+    H = np.array([h for h, _ in hs], dtype=np.uint32)
+    T = np.array([min(t, 65535) for _, t in hs], dtype=np.uint16)
     import time
-    conn.execute("INSERT INTO fp_tracks VALUES (?,?,?)",
-                 (track_id, len(hs), time.time()))
+    conn.execute("INSERT INTO fp_tracks VALUES (?,?,?,?,?)",
+                 (track_id, len(hs), H.tobytes(), T.tobytes(), time.time()))
     conn.commit()
+    _CACHE.pop(id(conn), None)   # index changed; rebuild on next match
     return len(hs)
+
+
+_CACHE: dict[int, tuple] = {}
+
+
+def _load_index(conn):
+    """Build the in-memory search index once per connection: all hashes
+    concatenated and sorted, with parallel track-idx and frame arrays."""
+    key = id(conn)
+    if key in _CACHE:
+        return _CACHE[key]
+    tids, Hs, Ts, Tidx = [], [], [], []
+    for i, row in enumerate(conn.execute(
+            "SELECT track_id, n_hashes, hashes, frames FROM fp_tracks")):
+        tids.append(row[0])
+        h = np.frombuffer(row[2], dtype=np.uint32)
+        t = np.frombuffer(row[3], dtype=np.uint16)
+        Hs.append(h)
+        Ts.append(t)
+        Tidx.append(np.full(len(h), i, dtype=np.int32))
+    if not tids:
+        _CACHE[key] = (tids, None, None, None)
+        return _CACHE[key]
+    H = np.concatenate(Hs)
+    order = np.argsort(H, kind="stable")
+    _CACHE[key] = (tids, H[order],
+                   np.concatenate(Ts)[order].astype(np.int32),
+                   np.concatenate(Tidx)[order])
+    return _CACHE[key]
 
 
 def _resample(y: np.ndarray, factor: float) -> np.ndarray:
@@ -184,67 +214,66 @@ def _resample(y: np.ndarray, factor: float) -> np.ndarray:
     return (y[lo] * (1 - frac) + y[lo + 1] * frac).astype(np.float32)
 
 
-def _vote(conn, qh, frame_s) -> dict[tuple[str, int], int]:
-    votes: dict[tuple[str, int], int] = {}
-    by_hash: dict[int, list[int]] = {}
-    for h, t in qh:
-        by_hash.setdefault(h, []).append(t)
-    keys = list(by_hash)
-    for i in range(0, len(keys), 500):
-        chunk = keys[i:i + 500]
-        q = ",".join("?" * len(chunk))
-        for row in conn.execute(
-                f"SELECT hash, track_id, frame FROM fingerprints WHERE hash IN ({q})",
-                chunk):
-            for qt in by_hash[row[0]]:
-                off = int((qt - row[2]) * frame_s / OFFSET_BIN_S)
-                key = (row[1], off)
-                votes[key] = votes.get(key, 0) + 1
-    return votes
-
-
 def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
     """Find indexed tracks inside a (long) mix buffer.
 
-    Two defences beyond raw voting:
-      - rate sweep: the query is matched at several resample factors,
-        because DJ tempo adjustment shifts frequency and timing together
-        and breaks single-rate hashing beyond ~2%.
-      - dominance: a track's peak offset bin must beat its runner-up bin
-        by DOMINANCE x. Repetitive material (four-on-floor, click trains)
-        aligns at many offsets in a comb; genuine presence concentrates.
+    Voting is vectorised against the packed index: query hashes are located
+    with searchsorted; every (track, offset-bin) pair accumulates votes.
+    Defences as before: rate sweep for tempo adjustment, and dominance of
+    the merged peak bin over the comb background (periodic music echoes its
+    true offset at beat-period aliases; spurious matches spread flat).
     """
-    ensure_schema(conn)
+    tids, H, T, Tidx = _load_index(conn)
+    if H is None:
+        return []
     frame_s = HOP / SR
     best: dict[str, dict] = {}
     for rate in rates:
         qh = hashes_long(_resample(y, rate))
         if not qh:
             continue
-        votes = _vote(conn, qh, frame_s)
-        per_track: dict[str, list[tuple[int, int]]] = {}
-        for (tid, off), v in votes.items():
-            per_track.setdefault(tid, []).append((v, off))
-        for tid, bins in per_track.items():
-            by_off = {}
-            for v, off in bins:
-                by_off[off] = by_off.get(off, 0) + v
-            merged = {off: by_off.get(off - 1, 0) + v + by_off.get(off + 1, 0)
-                      for off, v in by_off.items()}
+        qH = np.array([h for h, _ in qh], dtype=np.uint32)
+        qT = np.array([t for _, t in qh], dtype=np.int64)
+        lo = np.searchsorted(H, qH, side="left")
+        hi = np.searchsorted(H, qH, side="right")
+        n = hi - lo
+        has = n > 0
+        if not has.any():
+            continue
+        # expand each query hash to all its reference occurrences
+        reps = n[has]
+        q_frames = np.repeat(qT[has], reps)
+        starts = lo[has]
+        flat = np.concatenate([np.arange(a, b) for a, b in
+                               zip(starts, starts + reps)]) if len(reps) else np.array([], int)
+        r_tidx = Tidx[flat]
+        r_frames = T[flat]
+        off = ((q_frames - r_frames) * frame_s / OFFSET_BIN_S).astype(np.int64)
+        shift = off.min() - 1
+        off -= shift
+        key = r_tidx.astype(np.int64) * (off.max() + 2) + off
+        uniq, votes = np.unique(key, return_counts=True)
+        u_t = (uniq // (off.max() + 2)).astype(int)
+        u_o = (uniq % (off.max() + 2)).astype(int)
+        for ti in np.unique(u_t):
+            m = u_t == ti
+            offs = u_o[m]
+            vs = votes[m]
+            by_off = dict(zip(offs.tolist(), vs.tolist()))
+            merged = {o: by_off.get(o - 1, 0) + v + by_off.get(o + 1, 0)
+                      for o, v in by_off.items()}
             peak_off = max(merged, key=merged.get)
-            peak_v = merged[peak_off]
-            others = [v for off, v in by_off.items() if abs(off - peak_off) > 1]
-            # like-for-like: the peak is a merged 3-bin sum, so the comb
-            # background it must dominate is 3x the median single bin
+            peak_v = int(merged[peak_off])
+            others = [v for o, v in by_off.items() if abs(o - peak_off) > 1]
             background3 = 3 * (sorted(others)[len(others) // 2] if others else 0)
             if peak_v < MIN_VOTES or peak_v < DOMINANCE * max(background3, 1):
                 continue
+            tid = tids[ti]
             if tid not in best or peak_v > best[tid]["votes"]:
                 best[tid] = {"track_id": tid, "votes": peak_v,
-                             "mix_offset_s": max(0.0, peak_off * OFFSET_BIN_S * rate),
+                             "mix_offset_s": max(0.0, (peak_off + shift) * OFFSET_BIN_S * rate),
                              "rate": rate}
-    hits = sorted(best.values(), key=lambda h: h["mix_offset_s"])
-    return hits
+    return sorted(best.values(), key=lambda h: h["mix_offset_s"])
 
 
 def hash_id(y: np.ndarray) -> str:
