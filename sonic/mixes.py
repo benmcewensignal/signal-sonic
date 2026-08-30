@@ -26,9 +26,10 @@ from .beatport import _get, get_token, download_preview
 
 def cmd_reindex(args):
     store = Store(args.db)
-    fp.ensure_schema(store.conn)
-    rows = store.conn.execute(
-        """SELECT t.track_id FROM tracks t
+    fpc = fp.open_store(args.fp_db)
+    fpc.execute("ATTACH DATABASE ? AS main_db", (args.db,))
+    rows = fpc.execute(
+        """SELECT t.track_id FROM main_db.tracks t
            LEFT JOIN fp_tracks f ON f.track_id = t.track_id
            WHERE f.track_id IS NULL AND t.track_id LIKE 'bp:%'
            LIMIT ?""", (args.limit,)).fetchall()
@@ -50,7 +51,7 @@ def cmd_reindex(args):
             path = download_preview(url)
             try:
                 y = fp.load_audio(path, max_seconds=120)
-                fp.index_track(store.conn, tid, y)
+                fp.index_track(fpc, tid, y)
                 done += 1
             finally:
                 try:
@@ -65,14 +66,14 @@ def cmd_reindex(args):
             rate = (done + failed) / (time.time() - t0)
             print(f"  reindex {done+failed}/{len(rows)} ({rate:.1f}/s, "
                   f"{failed} failed)", flush=True)
-    n_idx = store.conn.execute("SELECT COUNT(*) c FROM fp_tracks").fetchone()["c"]
+    n_idx = fpc.execute("SELECT COUNT(*) c FROM fp_tracks").fetchone()["c"]
+    sz = os.path.getsize(args.fp_db) / 1e6 if os.path.exists(args.fp_db) else 0
     print(json.dumps({"reindexed": done, "failed": failed,
-                      "index_size_tracks": n_idx}))
+                      "index_size_tracks": n_idx, "store_mb": round(sz, 1)}))
 
 
 def cmd_mixscan(args):
-    store = Store(args.db)
-    fp.ensure_schema(store.conn)
+    fpc = fp.open_store(args.fp_db)
     path = args.audio
     cleanup = False
     if path.startswith(("http://", "https://")):
@@ -86,7 +87,7 @@ def cmd_mixscan(args):
                 os.unlink(path)
             except OSError:
                 pass
-    hits = fp.match_mix(store.conn, y)
+    hits = fp.match_mix(fpc, y)
     dur_s = len(y) / fp.SR
     # crude matched-coverage estimate: each hit credited ~180s of mix
     covered = min(dur_s, len(hits) * 180.0)
@@ -110,10 +111,12 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("reindex")
     p.add_argument("--db", default="sonic.db")
+    p.add_argument("--fp-db", default="fingerprints.db")
     p.add_argument("--limit", type=int, default=500)
     p.set_defaults(fn=cmd_reindex)
     p = sub.add_parser("mixscan")
     p.add_argument("--db", default="sonic.db")
+    p.add_argument("--fp-db", default="fingerprints.db")
     p.add_argument("--audio", required=True, help="file path or URL")
     p.add_argument("--max-minutes", type=int, default=150)
     p.set_defaults(fn=cmd_mixscan)

@@ -155,8 +155,8 @@ def cmd_probe(args):
 def cmd_scan(args):
     store = Store(args.db)
     store.conn.executescript(MIX_SCHEMA)
-    fp.ensure_schema(store.conn)
-    n_indexed = store.conn.execute(
+    fpc = fp.open_store(args.fp_db)
+    n_indexed = fpc.execute(
         "SELECT COUNT(*) c FROM fp_tracks").fetchone()["c"]
     print(f"fingerprint index: {n_indexed} tracks", flush=True)
     with open(args.scene_map) as f:
@@ -177,7 +177,7 @@ def cmd_scan(args):
             try:
                 path = fetch_audio(c["url"], args.max_minutes)
                 y = fp.load_audio(path, max_seconds=args.max_minutes * 60)
-                hits = fp.match_mix(store.conn, y, rates=MIX_RATES)
+                hits = fp.match_mix(fpc, y, rates=MIX_RATES)
                 dur = len(y) / fp.SR
                 covered = min(dur, len(hits) * 180.0)
                 with store.tx() as conn:
@@ -221,6 +221,7 @@ def main():
     p.set_defaults(fn=cmd_probe)
     p = sub.add_parser("scan")
     p.add_argument("--db", default="sonic.db")
+    p.add_argument("--fp-db", default="fingerprints.db")
     p.add_argument("--scene-map", default="scene_map.json")
     p.add_argument("--per-scene", type=int, default=2)
     p.add_argument("--max-minutes", type=int, default=150)

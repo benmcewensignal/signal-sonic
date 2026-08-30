@@ -23,11 +23,11 @@ import numpy as np
 SR = 22050
 N_FFT = 2048
 HOP = 512                      # ~23ms per frame
-PEAK_NEIGH_T = 10              # frames (~0.23s) local-max window
-PEAK_NEIGH_F = 15              # bins
-MIN_PEAK_DB = -45.0            # relative to file max
+PEAK_NEIGH_T = 12              # frames (~0.28s) local-max window
+PEAK_NEIGH_F = 20              # bins
+MIN_PEAK_DB = -38.0            # relative to file max (stricter = leaner index)
 # pairing parameters
-FANOUT = 8                     # targets per anchor
+FANOUT = 6                     # targets per anchor
 DT_MIN, DT_MAX = 2, 80         # frames (~0.05s .. ~1.9s)
 DT_QUANT = 2                   # frames per dt bucket: tempo tolerance
 FREQ_QUANT = 2                 # bins per freq bucket
@@ -127,6 +127,18 @@ def load_audio(path: str, max_seconds: float | None = None) -> np.ndarray:
 # ---------------------------------------------------------------------------
 # index (SQLite, same db as everything else)
 # ---------------------------------------------------------------------------
+
+def open_store(path: str = "fingerprints.db"):
+    """The fingerprint index lives in its OWN file, never in the
+    git-committed sonic.db: at full corpus it is hundreds of MB and
+    GitHub rejects files over 100 MB. It persists as a release asset."""
+    import sqlite3
+    conn = sqlite3.connect(path)
+    conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA journal_mode=WAL")
+    ensure_schema(conn)
+    return conn
+
 
 FP_SCHEMA = """
 CREATE TABLE IF NOT EXISTS fingerprints (

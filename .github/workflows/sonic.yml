@@ -69,6 +69,12 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'backfill-report'
         run: python -m sonic.backfill report --db sonic.db --out backfill-report
 
+      - name: fetch fingerprint store
+        if: github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download fp-store -p fingerprints.db -O fingerprints.db 2>/dev/null && echo "store fetched: $(du -m fingerprints.db | cut -f1)MB" || echo "no fingerprint store yet — starting fresh"
+
       - name: reindex fingerprints
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex'
         run: python -m sonic.mixes reindex --db sonic.db --limit 900
@@ -84,6 +90,17 @@ jobs:
           python -m sonic.run_week --week "$WEEK" \
             --scenes uk-garage-speed-garage,uk-funky-gqom,afro-house,amapiano,140-deep-dubstep-grime,breaks-breakbeat-uk-bass,tech-house,techno-peak-time,techno-raw-deep-hypnotic,house,deep-house,melodic-house-techno,drum-and-bass \
             --source beatport --analyser local --db sonic.db | tee run-report.json
+
+      - name: save fingerprint store
+        if: always() && github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f fingerprints.db ]; then
+            gh release create fp-store --notes "fingerprint index (release asset: too large for git)" 2>/dev/null || true
+            gh release upload fp-store fingerprints.db --clobber
+            echo "store saved: $(du -m fingerprints.db | cut -f1)MB"
+          fi
 
       - name: persist database
         if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan')))
