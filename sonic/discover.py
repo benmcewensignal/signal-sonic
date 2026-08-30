@@ -133,16 +133,31 @@ def scene_tags(scene_map: dict) -> dict[str, list[str]]:
 # -- audio -------------------------------------------------------------------
 
 def fetch_audio(url: str, max_minutes: int) -> str:
-    """Resolve mix audio via yt-dlp to a temp file. Raises on failure."""
-    fd, path = tempfile.mkstemp(suffix=".m4a")
+    """Resolve mix audio via yt-dlp, then transcode to mono 22k05 WAV:
+    yt-dlp delivers m4a/AAC, which libsndfile cannot decode (every mix in
+    the first live scan failed on exactly this). ffmpeg is already a dep."""
+    fd, raw = tempfile.mkstemp(suffix=".audio")
     os.close(fd)
-    os.unlink(path)
-    cmd = ["yt-dlp", "-q", "-f", "bestaudio/best", "-o", path,
+    os.unlink(raw)
+    cmd = ["yt-dlp", "-q", "-f", "bestaudio/best", "-o", raw,
            "--no-playlist", "--socket-timeout", "20", url]
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=1200)
-    if r.returncode != 0 or not os.path.exists(path):
+    if r.returncode != 0 or not os.path.exists(raw):
         raise RuntimeError(f"yt-dlp: {r.stderr.strip()[-160:]}")
-    return path
+    wav = raw + ".wav"
+    try:
+        r = subprocess.run(
+            ["ffmpeg", "-nostdin", "-y", "-i", raw, "-ac", "1", "-ar", "22050",
+             "-t", str(max_minutes * 60), wav],
+            capture_output=True, text=True, timeout=900)
+        if r.returncode != 0 or not os.path.exists(wav):
+            raise RuntimeError(f"ffmpeg: {r.stderr.strip()[-160:]}")
+    finally:
+        try:
+            os.unlink(raw)
+        except OSError:
+            pass
+    return wav
 
 
 # -- commands ----------------------------------------------------------------
@@ -170,7 +185,8 @@ def cmd_scan(args):
             cands += nts_search(tag, args.per_scene * 2)
             cands += mixcloud_popular(tag, args.per_scene * 2)
         fresh = [c for c in cands if not store.conn.execute(
-            "SELECT 1 FROM mixes WHERE mix_url=?", (c["url"],)).fetchone()]
+            "SELECT 1 FROM mixes WHERE mix_url=? AND error IS NULL",
+            (c["url"],)).fetchone()]
         for c in fresh[:args.per_scene]:
             print(f"  [{scene}] {c['source']}: {c['title'][:60]}", flush=True)
             path = None

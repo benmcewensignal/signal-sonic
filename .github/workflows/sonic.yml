@@ -47,7 +47,7 @@ jobs:
       - name: deps
         run: |
           sudo apt-get -yq install libsndfile1 ffmpeg > /dev/null
-          pip -q install -r requirements.txt yt-dlp
+          pip -q install -r requirements.txt yt-dlp curl_cffi
           echo "decode stack:" && ffmpeg -version | head -1
           python -c "from sonic.analyser_local import _decoder_fingerprint as f; print('decoder fingerprint:', f())" 
 
