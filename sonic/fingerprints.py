@@ -245,7 +245,9 @@ def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
     frame_s = HOP / SR
     best: dict[str, dict] = {}
     for rate in rates:
-        qh = hashes_long(_resample(y, rate))
+        yr = _resample(y, rate)
+        qh = hashes_long(yr)
+        del yr
         if not qh:
             continue
         qH = np.array([h for h, _ in qh], dtype=np.uint32)

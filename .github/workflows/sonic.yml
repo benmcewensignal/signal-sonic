@@ -86,7 +86,7 @@ jobs:
 
       - name: mix discovery + scan
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'
-        run: python -m sonic.discover scan --db sonic.db --per-scene 2
+        run: python -m sonic.discover scan --db sonic.db --per-scene 2 --max-minutes 110
 
       - name: weekly batch
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
