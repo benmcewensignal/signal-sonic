@@ -9,9 +9,9 @@ Shazam-family approach, self-contained (numpy + librosa only):
 
 Honest limits, stated up front:
   - Robust to noise, EQ, compression, and crowd bleed.
-  - Degrades under heavy tempo shift: dt quantisation buys roughly ±3-4%;
-    keylock time-stretch beyond that will miss. Recall is therefore a
-    floor, not a census — fine for trend weighting, wrong for royalties.
+  - Degrades under tempo shift: at precision-safe thresholds the rate
+    sweep reliably recovers ~±2%; beyond that misses. Recall is a floor,
+    not a census — fine for trend weighting, wrong for royalties.
   - Matches only what we have indexed: charting/release previews. The
     unmatched remainder of a mix is itself signal (unreleased density).
 """
@@ -32,7 +32,15 @@ DT_MIN, DT_MAX = 2, 80         # frames (~0.05s .. ~1.9s)
 DT_QUANT = 2                   # frames per dt bucket: tempo tolerance
 FREQ_QUANT = 2                 # bins per freq bucket
 # matching parameters
-MIN_VOTES = 15                 # aligned hash votes to call a hit
+MIN_VOTES = 60                 # aligned hash votes: real-audio calibrated.
+                               # Live control group (Vietnamese mixes, ~zero
+                               # true overlap with our corpus) matched ~1.2
+                               # tracks/min at a floor of 15: real collisions
+                               # cluster just above it; true plays land in
+                               # the hundreds.
+VERIFY_TOL_S = 1.2             # alignment residual tolerance
+VERIFY_MIN_INLIERS = 60        # aligned pairs on the line required
+VERIFY_MIN_SPAN_S = 15.0       # contiguous reference coverage required
 NMS_MIN_GAP_S = 35.0           # two claims within this gap compete: the
                                # stronger owns the position (clone control)
 MAX_DF_MIN = 12                # a hash in more tracks than max(this,
@@ -285,6 +293,26 @@ def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
             others = [v for o, v in by_off.items() if abs(o - peak_off) > 1]
             background3 = 3 * (sorted(others)[len(others) // 2] if others else 0)
             if peak_v < MIN_VOTES or peak_v < DOMINANCE * max(background3, 1):
+                continue
+            # alignment verification: genuine presence puts matched pairs
+            # on a line q = ref + offset over a CONTIGUOUS span of the
+            # reference; chance collisions on dense real-music spectra
+            # scatter. Vote floors alone hallucinated wholesale live.
+            pm = r_tidx == ti
+            qf = q_frames[pm].astype(np.float64) * frame_s
+            rf = r_frames[pm].astype(np.float64) * frame_s
+            resid = qf - (rf + (peak_off + shift) * OFFSET_BIN_S)
+            inl = np.abs(resid) < VERIFY_TOL_S
+            if int(inl.sum()) < VERIFY_MIN_INLIERS:
+                continue
+            r_in = np.sort(rf[inl])
+            best_span, start = 0.0, r_in[0]
+            for j in range(1, len(r_in)):
+                if r_in[j] - r_in[j - 1] > 8.0:
+                    best_span = max(best_span, r_in[j - 1] - start)
+                    start = r_in[j]
+            best_span = max(best_span, r_in[-1] - start)
+            if best_span < VERIFY_MIN_SPAN_S:
                 continue
             tid = tids[ti]
             if tid not in best or peak_v > best[tid]["votes"]:
