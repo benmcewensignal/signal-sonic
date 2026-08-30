@@ -73,7 +73,12 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan')
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release download fp-store -p fingerprints.db -O fingerprints.db 2>/dev/null && echo "store fetched: $(du -m fingerprints.db | cut -f1)MB" || echo "no fingerprint store yet — starting fresh"
+        run: |
+          if gh release download fp-store -p fingerprints.db -O fingerprints.db 2>/dev/null; then
+            echo "store fetched ($(du -m fingerprints.db | cut -f1) MB)"
+          else
+            echo "no fingerprint store yet - starting fresh"
+          fi
 
       - name: reindex fingerprints
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex'
