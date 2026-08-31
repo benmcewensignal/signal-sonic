@@ -162,21 +162,27 @@ def rank_candidates(cands: list[dict], max_age_days: int = MAX_AGE_DAYS,
         if EXCLUDE_TITLE.search(c.get("title") or ""):
             continue
         age = _age_days(c.get("published", ""))
-        if age > max_age_days:
+        known_age = age < 9000
+        # absence of evidence is not evidence of staleness: NTS search
+        # often omits dates and mixcloud's search endpoint omits play
+        # counts. Filtering on missing fields deleted every curated show.
+        if known_age and age > max_age_days:
             continue
         if c.get("source") == "mixcloud":
-            if (c.get("plays") or 0) < min_plays and \
-               (c.get("followers") or 0) < MIN_FOLLOWERS:
-                continue
-        c = dict(c, _age=age)
+            plays, foll = c.get("plays"), c.get("followers")
+            if plays is not None and foll is not None and plays and foll:
+                if plays < min_plays and foll < MIN_FOLLOWERS:
+                    continue
+        c = dict(c, _age=age if known_age else None)
         keep.append(c)
     def score(c):
         import math
         reach = math.log10(max(c.get("plays") or 0, 1) + 1) \
             + 0.5 * math.log10(max(c.get("followers") or 0, 1) + 1)
-        # NTS has no play counts; treat its curated episodes as mid-reach
         if c["source"] == "nts":
             reach = 3.0
+        if c["_age"] is None:
+            return reach + 0.5          # unknown recency: rank below known
         recency = max(0.0, 1.0 - c["_age"] / max(max_age_days, 1))
         return reach + 2.0 * recency
     return sorted(keep, key=score, reverse=True)
@@ -245,9 +251,10 @@ def cmd_scan(args):
     scanned, failed = 0, 0
     for scene, taglist in tags.items():
         cands = []
+        pool = max(12, args.per_scene * 8)   # dedupe + filters eat most
         for tag in taglist:
-            cands += nts_search(tag, args.per_scene * 2)
-            cands += mixcloud_popular(tag, args.per_scene * 2)
+            cands += nts_search(tag, pool)
+            cands += mixcloud_popular(tag, pool)
         fresh = [c for c in cands if not store.conn.execute(
             "SELECT 1 FROM mixes WHERE mix_url=? AND error IS NULL",
             (c["url"],)).fetchone()]
@@ -260,7 +267,8 @@ def cmd_scan(args):
             reach = f" {c['plays']:,} plays" if c.get("plays") else ""
             print(f"  [{scene}] {c['source']}: {c['title'][:52]}"
                   f"{(' — ' + who) if who else ''}{reach}"
-                  f" ({int(c.get('_age', 0))}d old)", flush=True)
+                  f" ({str(int(c['_age'])) + 'd old' if c.get('_age') is not None else 'date unknown'})",
+                  flush=True)
             path = None
             try:
                 path = fetch_audio(c["url"], args.max_minutes)
