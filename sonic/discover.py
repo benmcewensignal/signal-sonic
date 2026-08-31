@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import subprocess
 import tempfile
 import time
@@ -98,7 +99,8 @@ def nts_search(tag: str, limit: int = 6) -> list[dict]:
 
 
 def mixcloud_popular(tag: str, limit: int = 6) -> list[dict]:
-    """Mixcloud public API: popular cloudcasts for a tag."""
+    """Mixcloud public API: popular cloudcasts for a tag. Carries play count
+    and uploader follower count so the caller can favour prominent artists."""
     slug = tag.lower().replace(" ", "-")
     for url in (f"https://api.mixcloud.com/discover/{slug}/popular/?limit={limit}",
                 f"https://api.mixcloud.com/search/?q={urllib.parse.quote(tag)}"
@@ -107,9 +109,13 @@ def mixcloud_popular(tag: str, limit: int = 6) -> list[dict]:
             d = _get_json(url)
             out = []
             for r in d.get("data", []):
+                u = r.get("user") or {}
                 out.append({"url": r.get("url", ""),
                             "title": r.get("name", ""),
                             "published": (r.get("created_time") or "")[:10],
+                            "plays": r.get("play_count") or 0,
+                            "artist": u.get("name") or u.get("username") or "",
+                            "followers": u.get("follower_count") or 0,
                             "source": "mixcloud"})
             out = [o for o in out if o["url"]]
             if out:
@@ -118,6 +124,62 @@ def mixcloud_popular(tag: str, limit: int = 6) -> list[dict]:
             print(f"  mixcloud variant failed ({type(e).__name__}: {str(e)[:60]})",
                   flush=True)
     return []
+
+
+MAX_AGE_DAYS = 120        # a "current" mix: older than this says little
+                          # about what is being played now
+MIN_PLAYS = 1500          # mixcloud prominence floor (uploads with fewer
+                          # plays are not the sets the scene is hearing)
+MIN_FOLLOWERS = 500       # uploader reach floor
+# Formats that are radio furniture rather than artist sets: talk-heavy
+# breakfast/news shows, chart rundowns, generic "sessions" filler.
+EXCLUDE_TITLE = re.compile(
+    r"\b(breakfast|morning show|news|talk|interview|chart show|top 40|"
+    r"weather|podcast ep|q&a|discussion)\b", re.I)
+
+
+def _age_days(published: str) -> float:
+    if not published or len(published) < 10:
+        return 9999.0
+    try:
+        y, m, d = (int(x) for x in published[:10].split("-"))
+        import datetime as _dt
+        return (_dt.date.today() - _dt.date(y, m, d)).days
+    except Exception:
+        return 9999.0
+
+
+def rank_candidates(cands: list[dict], max_age_days: int = MAX_AGE_DAYS,
+                    min_plays: int = MIN_PLAYS) -> list[dict]:
+    """Keep contemporary sets by prominent artists; drop radio furniture.
+
+    Ranking favours plays and uploader reach, with a recency bonus, so the
+    scan spends its compute on mixes the scene actually heard rather than
+    whatever a tag search surfaced first.
+    """
+    keep = []
+    for c in cands:
+        if EXCLUDE_TITLE.search(c.get("title") or ""):
+            continue
+        age = _age_days(c.get("published", ""))
+        if age > max_age_days:
+            continue
+        if c.get("source") == "mixcloud":
+            if (c.get("plays") or 0) < min_plays and \
+               (c.get("followers") or 0) < MIN_FOLLOWERS:
+                continue
+        c = dict(c, _age=age)
+        keep.append(c)
+    def score(c):
+        import math
+        reach = math.log10(max(c.get("plays") or 0, 1) + 1) \
+            + 0.5 * math.log10(max(c.get("followers") or 0, 1) + 1)
+        # NTS has no play counts; treat its curated episodes as mid-reach
+        if c["source"] == "nts":
+            reach = 3.0
+        recency = max(0.0, 1.0 - c["_age"] / max(max_age_days, 1))
+        return reach + 2.0 * recency
+    return sorted(keep, key=score, reverse=True)
 
 
 def scene_tags(scene_map: dict) -> dict[str, list[str]]:
@@ -189,8 +251,16 @@ def cmd_scan(args):
         fresh = [c for c in cands if not store.conn.execute(
             "SELECT 1 FROM mixes WHERE mix_url=? AND error IS NULL",
             (c["url"],)).fetchone()]
+        n_raw = len(fresh)
+        fresh = rank_candidates(fresh, args.max_age_days, args.min_plays)
+        print(f"  [{scene}] {n_raw} candidates -> {len(fresh)} current/prominent",
+              flush=True)
         for c in fresh[:args.per_scene]:
-            print(f"  [{scene}] {c['source']}: {c['title'][:60]}", flush=True)
+            who = c.get("artist") or ""
+            reach = f" {c['plays']:,} plays" if c.get("plays") else ""
+            print(f"  [{scene}] {c['source']}: {c['title'][:52]}"
+                  f"{(' — ' + who) if who else ''}{reach}"
+                  f" ({int(c.get('_age', 0))}d old)", flush=True)
             path = None
             try:
                 path = fetch_audio(c["url"], args.max_minutes)
@@ -242,6 +312,8 @@ def main():
     p.add_argument("--fp-db", default="fingerprints.db")
     p.add_argument("--scene-map", default="scene_map.json")
     p.add_argument("--per-scene", type=int, default=2)
+    p.add_argument("--max-age-days", type=int, default=MAX_AGE_DAYS)
+    p.add_argument("--min-plays", type=int, default=MIN_PLAYS)
     p.add_argument("--max-minutes", type=int, default=150)
     p.set_defaults(fn=cmd_scan)
     args = ap.parse_args()
