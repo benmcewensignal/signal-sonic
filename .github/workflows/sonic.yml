@@ -22,10 +22,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: sonic
-  cancel-in-progress: false
-
 jobs:
   run:
     runs-on: ubuntu-latest
