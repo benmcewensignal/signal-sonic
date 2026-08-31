@@ -152,6 +152,15 @@ def compute(store: Store) -> dict | None:
             scenes[site] = rec
     if not scenes:
         return None
+    # Integrity guard: the payload is stamped with today's date, but the
+    # measurement comes from the latest backfilled month. Posting year-old
+    # sound labelled as this week would poison the joined series at birth.
+    y, mo = int(m_now[:4]), int(m_now[6:8])
+    age_days = (dt.date.today() - dt.date(y, mo, 28)).days
+    if age_days > 75:
+        print(f"export: latest sonic month is {m_now} ({age_days}d old); "
+              f"refusing to post stale sound as current. Run backfill forward first.")
+        return None
     from .analyser import get_analyser
     ana = get_analyser("local")
     return {"week": dt.date.today().isoformat(),
