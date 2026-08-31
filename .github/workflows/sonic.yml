@@ -92,6 +92,11 @@ jobs:
             --scenes uk-garage-speed-garage,uk-funky-gqom,afro-house,amapiano,140-deep-dubstep-grime,breaks-breakbeat-uk-bass,tech-house,techno-peak-time,techno-raw-deep-hypnotic,house,deep-house,melodic-house-techno,drum-and-bass \
             --source beatport --analyser local --db sonic.db | tee run-report.json
 
+      - name: demand export
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
+        env:
+          SONIC_INGEST_SECRET: ${{ secrets.SONIC_INGEST_SECRET }}
+        run: python -m sonic.export_demand --db sonic.db --post https://www.earlysignal.live/api/sonic-ingest || true
       - name: save fingerprint store
         if: always() && github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan')
         env:
