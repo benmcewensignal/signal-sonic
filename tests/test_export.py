@@ -15,7 +15,13 @@ def main():
     db=os.path.join(tempfile.mkdtemp(),"e.db")
     st=Store(db)
     rs=np.random.RandomState(0)
-    months=[f"2025-M{m:02d}" for m in range(1,5)]
+    import datetime as _dt
+    _now=_dt.date.today()
+    months=[]
+    for back in (3,2,1,0):
+        mm=_now.month-back; yy=_now.year
+        while mm<1: mm+=12; yy-=1
+        months.append(f"{yy}-M{mm:02d}")
     for scene in ("house","deep-house","uk-garage-speed-garage"):
         base=rs.randn(32)
         for mi,m in enumerate(months):
