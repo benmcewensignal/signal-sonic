@@ -112,6 +112,7 @@ jobs:
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
+          git pull --rebase --autostash -q origin main || true
           git add -f sonic.db
           git add backfill-report.md backfill-report.json 2>/dev/null || true
           git add CLAIMS.md 2>/dev/null || true
