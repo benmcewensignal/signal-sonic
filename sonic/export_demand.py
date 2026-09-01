@@ -37,6 +37,12 @@ SITE = {                       # beatport scene -> earlysignal scene name
     "techno-raw-deep-hypnotic": "Techno — Raw/Deep",
     "uk-funky-gqom": "UK Funky / Gqom",
     "uk-garage-speed-garage": "UK Garage / Speed Garage",
+    # Expansion wave 1 (2026-09-01). These have no displacement history yet:
+    # levels and DNA are honest from day one, movement stats need a seasoned
+    # home window, and the aggregator handles that by construction.
+    "hard-techno": "Hard Techno",
+    "bass-house": "Bass House",
+    "trance-main-floor": "Trance — Main Floor",
 }
 
 

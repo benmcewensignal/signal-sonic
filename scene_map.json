@@ -1,6 +1,6 @@
 {
- "_note": "Beatport genre_id -> Signal scene. Ids verified against the live /catalog/genres list (run #3, 2026-08-28).",
- "_later": "still uncovered candidates: 91 Bass House, 15 Progressive House, 2 Hard Techno, 13 Psy-Trance, 37 Indie Dance, 93 Organic House",
+ "_note": "Beatport genre_id -> Signal scene. Ids verified against the live /catalog/genres list (run #3, 2026-08-28). Expansion wave 1 added 2026-09-01: hard-techno, bass-house, trance-main-floor.",
+ "_later": "still uncovered: 15 Progressive House, 13 Psy-Trance, 37 Indie Dance, 93 Organic House",
  "86": {
   "scene": "uk-garage-speed-garage",
   "name": "UK Garage / Bassline"
@@ -52,5 +52,31 @@
  "1": {
   "scene": "drum-and-bass",
   "name": "Drum & Bass"
+ },
+ "_pending_brazilian_funk": "Beatport launched a Brazilian Funk category; its genre_id is NOT in our verified list and must not be guessed. Run: python -m sonic.beatport genres | grep -i 'funk\\|brazil' with live creds, then add the entry with scene 'brazilian-funk' and tags ['brazilian funk','baile funk','funk carioca','mandelao'] and a SITE mapping 'Brazilian Funk'.",
+ "2": {
+  "scene": "hard-techno",
+  "name": "Hard Techno",
+  "tags": [
+   "hard techno",
+   "schranz",
+   "hardgroove"
+  ]
+ },
+ "91": {
+  "scene": "bass-house",
+  "name": "Bass House",
+  "tags": [
+   "bass house",
+   "g house"
+  ]
+ },
+ "7": {
+  "scene": "trance-main-floor",
+  "name": "Trance (Main Floor)",
+  "tags": [
+   "trance",
+   "uplifting trance"
+  ]
  }
 }
