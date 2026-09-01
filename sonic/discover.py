@@ -134,7 +134,7 @@ MIN_FOLLOWERS = 500       # uploader reach floor
 # Formats that are radio furniture rather than artist sets: talk-heavy
 # breakfast/news shows, chart rundowns, generic "sessions" filler.
 EXCLUDE_TITLE = re.compile(
-    r"\b(breakfast|morning show|news|talk|interview|chart show|top 40|"
+    r"\b(breakfast|early bird|morning show|wake ?up|sunrise|daybreak|news|talk|interview|chart show|top 40|"
     r"weather|podcast ep|q&a|discussion)\b", re.I)
 
 
