@@ -98,6 +98,50 @@ def load_releases(db):
             a["first_release"] = rel if a["first_release"] is None else min(a["first_release"], rel)
     return R, n_meta
 
+def load_leadership(db, R, B):
+    """Per scene: artists whose 2026 records sit furthest from the scene's 2024 home (leading edge),
+    labels aggregated the same way, and artists played in sets but thin on the circuit."""
+    import numpy as np
+    c = sqlite3.connect(db); c.row_factory = sqlite3.Row
+    have = c.execute("select count(*) from sqlite_master where name='track_meta'").fetchone()[0]
+    if not have: return {}, {}, []
+    E = collections.defaultdict(dict)
+    for r in c.execute("""select ts.scene, ts.week, ts.track_id, t.features from track_scenes ts
+                          join tracks t on t.track_id=ts.track_id and t.analyser_id='local'"""):
+        try: v = np.array(json.loads(r["features"])["embedding"])
+        except Exception: continue
+        E[r["scene"]][(r["track_id"], r["week"])] = v / (np.linalg.norm(v) or 1)
+    meta = {r["track_id"]: (json.loads(r["artists"]), r["label"]) for r in c.execute("select track_id, artists, label from track_meta where artists is not null")}
+    plays = collections.Counter(r[0] for r in c.execute("select track_id from mix_plays"))
+    edge, labels = {}, {}
+    played = collections.defaultdict(lambda: {"plays": 0, "records": 0, "name": ""})
+    for sc, tracks in E.items():
+        home = [v for (t, w), v in tracks.items() if w <= "2025-M05"]
+        if len(home) < 50: continue
+        H = np.mean(home, axis=0); H /= np.linalg.norm(H)
+        dh = [1 - float(v @ H) for v in home]; mu, sd = statistics.mean(dh), (statistics.stdev(dh) or 1e-9)
+        art = collections.defaultdict(lambda: {"z": [], "plays": 0, "name": ""}); lab = collections.defaultdict(list)
+        for (t, w), v in tracks.items():
+            if w[:4] != "2026" or t not in meta: continue
+            z = (1 - float(v @ H) - mu) / sd
+            names, label = meta[t]
+            for nm in names:
+                k = norm(nm); a = art[k]; a["z"].append(z); a["plays"] += plays.get(t, 0); a["name"] = nm
+                p = played[k]; p["plays"] += plays.get(t, 0); p["records"] += 1; p["name"] = nm
+            if label: lab[label].append(z)
+        rows = [{"name": v["name"], "key": k, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"]), "set_plays": v["plays"],
+                 "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {}))}
+                for k, v in art.items() if len(v["z"]) >= 2]
+        rows.sort(key=lambda x: -x["z"])
+        if rows: edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1], "named_2026_records": sum(len(v["z"]) for v in art.values())}
+        lr = [{"label": l, "z": round(statistics.mean(z), 1), "records": len(z)} for l, z in lab.items() if len(z) >= 3]
+        lr.sort(key=lambda x: -x["z"])
+        if lr: labels[sc] = lr[:6]
+    pnb = [{"name": v["name"], "set_plays": v["plays"], "records_2026": v["records"], "ra_slots": (B.get(k) or {}).get("slots", 0)}
+           for k, v in played.items() if v["plays"] >= 2 and (B.get(k) or {}).get("slots", 0) <= 1]
+    pnb.sort(key=lambda x: -x["set_plays"])
+    return edge, labels, pnb[:30]
+
 def build(db, site):
     B, dates = load_bookings(site)
     R, n_meta = load_releases(db)
@@ -156,13 +200,15 @@ def build(db, site):
         for a in new:
             for t in a["bookings"]["tags"]: by_tag[t] += 1
         return {"latest": latest, "new_artists": len(new), "by_tag": dict(by_tag.most_common(12))}
+    edge, labels_dir, played_not_booked = load_leadership(db, R, B)
     summary = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "snapshots": dates,
                "artists_total": len(artists), "booking_side": sum(1 for a in artists if a["bookings"]),
                "release_side": sum(1 for a in artists if a["releases"]), "joined": len(joined),
                "tracks_with_metadata": n_meta,
                "join_rate_release_side": round(len(joined) / max(1, sum(1 for a in artists if a["releases"])), 3)}
     return {"summary": summary,
-            "instruments": {"under_booked": inst_under_booked(), "under_released": inst_under_released(),
+            "instruments": {"leading_edge": edge, "labels_direction": labels_dir, "played_not_booked": played_not_booked,
+                            "under_booked": inst_under_booked(), "under_released": inst_under_released(),
                             "border_crossers": inst_border_crossers(), "release_to_booking": inst_lag(),
                             "melodic_bookings_reconstructed": inst_melodic_bookings(), "new_names": inst_new_names()},
             "artists": sorted([a for a in artists if (a["bookings"] and a["bookings"]["slots"] >= 3) or a["releases"]],
