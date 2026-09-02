@@ -100,6 +100,10 @@ jobs:
           done
           curl -s "https://www.earlysignal.live/api/ra-history?run=1" | head -c 300; echo
 
+      - name: name atomic tracks
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'names'
+        run: python -m sonic.names
+
       - name: artist join (after depth snapshot / metadata / on demand)
         if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'radepth' || inputs.mode == 'metadata' || inputs.mode == 'artists'))
         run: python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json
@@ -107,10 +111,6 @@ jobs:
       - name: track metadata (release-side artist ids)
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'metadata'
         run: python -m sonic.metadata --db sonic.db --limit 3000
-
-      - name: name atomic tracks
-        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'names'
-        run: python -m sonic.names
 
       - name: weekly batch
         if: (github.event_name == 'schedule' && github.event.schedule == '0 3 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')

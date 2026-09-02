@@ -18,8 +18,19 @@ def main():
     ap.add_argument("--sleep", type=float, default=0.35)
     a = ap.parse_args()
     c = sqlite3.connect(a.db); c.execute(DDL); c.commit()
-    todo = [r[0] for r in c.execute("""select t.track_id from tracks t left join track_meta m on m.track_id=t.track_id
-                                        where m.track_id is null and t.track_id like 'bp:%' order by t.rowid limit ?""", (a.limit,))]
+    # priority: tracks in atomic/commons clusters first (they become nameable findings), then newest first
+    prio = set()
+    for f in ("data/atomic-pass-1.json", "data/commons-pass-2.json"):
+        try:
+            d = json.load(open(f))
+            for p in d.get("pairs", []):
+                prio.update([p["a"], p["b"]] if isinstance(p, dict) else p[:2])
+        except Exception:
+            pass
+    lacking = [r[0] for r in c.execute("""select t.track_id from tracks t left join track_meta m on m.track_id=t.track_id
+                                           where m.track_id is null and t.track_id like 'bp:%' order by t.rowid desc""")]
+    todo = [t for t in lacking if t in prio] + [t for t in lacking if t not in prio]
+    todo = todo[:a.limit]
     remaining = c.execute("""select count(*) from tracks t left join track_meta m on m.track_id=t.track_id
                              where m.track_id is null and t.track_id like 'bp:%'""").fetchone()[0]
     print(f"metadata: {remaining} tracks lack metadata; fetching {len(todo)} this run", flush=True)
