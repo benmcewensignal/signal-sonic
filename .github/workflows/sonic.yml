@@ -9,7 +9,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, names, radepth]
+        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, names, radepth, metadata]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -100,6 +100,10 @@ jobs:
           done
           curl -s "https://www.earlysignal.live/api/ra-history?run=1" | head -c 300; echo
 
+      - name: track metadata (release-side artist ids)
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'metadata'
+        run: python -m sonic.metadata --db sonic.db --limit 3000
+
       - name: name atomic tracks
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'names'
         run: python -m sonic.names
@@ -129,7 +133,7 @@ jobs:
           fi
 
       - name: persist database
-        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'names')))
+        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'names' || inputs.mode == 'metadata')))
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
