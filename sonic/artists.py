@@ -128,8 +128,9 @@ def build(db, site):
         out = []
         for a in joined:
             tags = a["bookings"]["tags"]; scn = a["releases"]["scenes"]
-            if len(tags) >= 3 and len(scn) == 1:
-                out.append({"name": a["name"], "release_scene": next(iter(scn)), "booked_under": list(tags)[:5], "slots": a["bookings"]["slots"]})
+            tot = sum(scn.values()); dom, dn = max(scn.items(), key=lambda kv: kv[1])
+            if len(tags) >= 3 and dn / max(1, tot) >= 0.6 and dom.split("-")[0] not in [t[:len(dom.split("-")[0])] for t in tags][:1]:
+                out.append({"name": a["name"], "release_scene": dom, "release_tracks": tot, "booked_under": list(tags)[:5], "slots": a["bookings"]["slots"]})
         return sorted(out, key=lambda x: -x["slots"])[:40]
     def inst_lag():
         lags = []
@@ -175,6 +176,8 @@ def main():
     a = ap.parse_args()
     out = build(a.db, a.site)
     json.dump(out, open(a.out, "w"), ensure_ascii=False, separators=(",", ":"))
+    slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
+    json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))
     print(json.dumps(out["summary"], indent=1))
 
 if __name__ == "__main__":
