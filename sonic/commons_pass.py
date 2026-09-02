@@ -1,6 +1,7 @@
 import sqlite3, numpy as np, json, time, collections
 t0=time.time(); DFMIN,DFMAX=9,40; MINV=40; PER_SCENE=60; BK=8
 c=sqlite3.connect('/tmp/fp4.db')
+EXCLUDE={'bp:7460088'}   # degenerate fingerprint: weakly aligns with hundreds of records at the frame boundary (noise sweep / wash), not shared material
 ids=[r[0] for r in c.execute("select track_id from fp_tracks order by rowid")]
 NT=len(ids); pos={t:i for i,t in enumerate(ids)}
 # sources: most recent PER_SCENE fingerprinted tracks per scene
@@ -12,7 +13,8 @@ for sc, in c2.execute("select distinct scene from track_scenes where week like '
     for (t,) in rows:
         if t in pos: src.add(pos[t]); n+=1
         if n>=PER_SCENE: break
-src=np.array(sorted(src)); print("sources:",len(src),flush=True)
+EXCL_IDX=np.array([pos[t] for t in EXCLUDE if t in pos],dtype=np.int32)
+src=np.array(sorted(x for x in src if x not in set(EXCL_IDX.tolist()))); print("sources:",len(src),flush=True)
 acc={int(i):[] for i in src}   # per source: list of (keys int32, counts uint16)
 for k in range(BK):
     Hs=[];Ts=[];Fs=[]
@@ -40,7 +42,7 @@ for k in range(BK):
         p,myF=p[ok],myF[ok]; s_=st[p]; n_=cnt[p]; tot=int(n_.sum())
         exp=np.repeat(s_,n_)+(np.arange(tot)-np.repeat(np.cumsum(n_)-n_,n_))
         oth=T[exp].astype(np.int32); dt=(np.repeat(myF,n_)-F[exp].astype(np.int32))
-        m=oth!=i
+        m=(oth!=i)&(~np.isin(oth,EXCL_IDX))
         key=((oth[m].astype(np.int64)<<13)|(dt[m]+4096)).astype(np.int64)
         uk,ck=np.unique(key,return_counts=True)
         acc[i].append((uk,ck.astype(np.int32)))
