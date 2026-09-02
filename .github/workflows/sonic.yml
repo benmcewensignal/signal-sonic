@@ -8,7 +8,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan]
+        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, names]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -83,6 +83,10 @@ jobs:
       - name: mix discovery + scan
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'
         run: python -m sonic.discover scan --db sonic.db --per-scene 2 --max-minutes 110
+
+      - name: name atomic tracks
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'names'
+        run: python -m sonic.names
 
       - name: weekly batch
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
