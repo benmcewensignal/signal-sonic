@@ -108,6 +108,10 @@ jobs:
         if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'radepth' || inputs.mode == 'metadata' || inputs.mode == 'artists'))
         run: python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json
 
+      - name: venue layer (after the artist join)
+        if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'radepth' || inputs.mode == 'metadata' || inputs.mode == 'artists'))
+        run: python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json
+
       - name: track metadata (release-side artist ids)
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'metadata'
         run: python -m sonic.metadata --db sonic.db --limit 3000

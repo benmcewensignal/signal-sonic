@@ -98,6 +98,8 @@ def load_releases(db):
             a["first_release"] = rel if a["first_release"] is None else min(a["first_release"], rel)
     return R, n_meta
 
+LEAD_MAP = {}
+
 def load_leadership(db, R, B):
     """Per scene: artists whose 2026 records sit furthest from the scene's 2024 home (leading edge),
     labels aggregated the same way, and artists played in sets but thin on the circuit."""
@@ -129,6 +131,11 @@ def load_leadership(db, R, B):
                 k = norm(nm); a = art[k]; a["z"].append(z); a["plays"] += plays.get(t, 0); a["name"] = nm
                 p = played[k]; p["plays"] += plays.get(t, 0); p["records"] += 1; p["name"] = nm
             if label: lab[label].append(z)
+        for k, v in art.items():
+            if len(v["z"]) >= 2:
+                prev = LEAD_MAP.get(k)
+                if not prev or len(v["z"]) > prev["records"]:
+                    LEAD_MAP[k] = {"name": v["name"], "scene": sc, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"])}
         rows = [{"name": v["name"], "key": k, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"]), "set_plays": v["plays"],
                  "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {}))}
                 for k, v in art.items() if len(v["z"]) >= 2]
@@ -209,7 +216,7 @@ def build(db, site):
                "release_side": sum(1 for a in artists if a["releases"]), "joined": len(joined),
                "tracks_with_metadata": n_meta,
                "join_rate_release_side": round(len(joined) / max(1, sum(1 for a in artists if a["releases"])), 3)}
-    return {"summary": summary,
+    return {"summary": summary, "artist_leadership": LEAD_MAP,
             "instruments": {"leading_edge": edge, "labels_direction": labels_dir, "played_not_booked": played_not_booked,
                             "under_booked": inst_under_booked(), "under_released": inst_under_released(),
                             "border_crossers": inst_border_crossers(), "release_to_booking": inst_lag(),
