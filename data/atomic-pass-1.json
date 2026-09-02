@@ -1,0 +1,1357 @@
+{
+ "pass": 1,
+ "pairs": [
+  {
+   "a": "bp:19769648",
+   "b": "bp:20107887",
+   "aligned": 2146,
+   "total": 2146,
+   "fracA": 0.1,
+   "fracB": 0.1,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19993437",
+   "b": "bp:20117184",
+   "aligned": 1754,
+   "total": 1754,
+   "fracA": 0.096,
+   "fracB": 0.096,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20361089",
+   "b": "bp:20376188",
+   "aligned": 1561,
+   "total": 1561,
+   "fracA": 0.09,
+   "fracB": 0.09,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20324256",
+   "b": "bp:20463837",
+   "aligned": 1270,
+   "total": 1270,
+   "fracA": 0.095,
+   "fracB": 0.095,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20357349",
+   "b": "bp:20967488",
+   "aligned": 1074,
+   "total": 1074,
+   "fracA": 0.102,
+   "fracB": 0.102,
+   "scA": [
+    "afro-house"
+   ],
+   "scB": [
+    "afro-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19769654",
+   "b": "bp:20107895",
+   "aligned": 982,
+   "total": 982,
+   "fracA": 0.048,
+   "fracB": 0.048,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19462718",
+   "b": "bp:19844271",
+   "aligned": 883,
+   "total": 883,
+   "fracA": 0.06,
+   "fracB": 0.045,
+   "scA": [
+    "uk-garage-speed-garage"
+   ],
+   "scB": [
+    "uk-garage-speed-garage"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19499071",
+   "b": "bp:20357349",
+   "aligned": 726,
+   "total": 727,
+   "fracA": 0.094,
+   "fracB": 0.069,
+   "scA": [
+    "afro-house"
+   ],
+   "scB": [
+    "afro-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19499071",
+   "b": "bp:20967488",
+   "aligned": 726,
+   "total": 727,
+   "fracA": 0.094,
+   "fracB": 0.069,
+   "scA": [
+    "afro-house"
+   ],
+   "scB": [
+    "afro-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19778461",
+   "b": "bp:19995762",
+   "aligned": 687,
+   "total": 687,
+   "fracA": 0.06,
+   "fracB": 0.06,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20000224",
+   "b": "bp:20214888",
+   "aligned": 685,
+   "total": 685,
+   "fracA": 0.034,
+   "fracB": 0.034,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19712711",
+   "b": "bp:19718889",
+   "aligned": 674,
+   "total": 674,
+   "fracA": 0.057,
+   "fracB": 0.057,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19769661",
+   "b": "bp:20107910",
+   "aligned": 652,
+   "total": 684,
+   "fracA": 0.043,
+   "fracB": 0.043,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19392298",
+   "b": "bp:20341163",
+   "aligned": 569,
+   "total": 598,
+   "fracA": 0.058,
+   "fracB": 0.046,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19480973",
+   "b": "bp:19874200",
+   "aligned": 569,
+   "total": 569,
+   "fracA": 0.054,
+   "fracB": 0.034,
+   "scA": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "scB": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20492677",
+   "b": "bp:20513962",
+   "aligned": 560,
+   "total": 560,
+   "fracA": 0.025,
+   "fracB": 0.025,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19392291",
+   "b": "bp:20341164",
+   "aligned": 450,
+   "total": 471,
+   "fracA": 0.023,
+   "fracB": 0.017,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20122587",
+   "b": "bp:20384663",
+   "aligned": 421,
+   "total": 421,
+   "fracA": 0.017,
+   "fracB": 0.017,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19872554",
+   "b": "bp:19922535",
+   "aligned": 407,
+   "total": 407,
+   "fracA": 0.017,
+   "fracB": 0.017,
+   "scA": [
+    "uk-funky-gqom"
+   ],
+   "scB": [
+    "uk-funky-gqom"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20107942",
+   "b": "bp:20341159",
+   "aligned": 400,
+   "total": 400,
+   "fracA": 0.017,
+   "fracB": 0.017,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19743121",
+   "b": "bp:20233794",
+   "aligned": 300,
+   "total": 300,
+   "fracA": 0.012,
+   "fracB": 0.012,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19990539",
+   "b": "bp:20008790",
+   "aligned": 279,
+   "total": 281,
+   "fracA": 0.021,
+   "fracB": 0.021,
+   "scA": [
+    "uk-funky-gqom"
+   ],
+   "scB": [
+    "uk-funky-gqom"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19459712",
+   "b": "bp:19669347",
+   "aligned": 267,
+   "total": 267,
+   "fracA": 0.013,
+   "fracB": 0.009,
+   "scA": [
+    "uk-garage-speed-garage"
+   ],
+   "scB": [
+    "uk-garage-speed-garage"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19422853",
+   "b": "bp:19637491",
+   "aligned": 200,
+   "total": 200,
+   "fracA": 0.01,
+   "fracB": 0.007,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19459677",
+   "b": "bp:19459704",
+   "aligned": 188,
+   "total": 188,
+   "fracA": 0.008,
+   "fracB": 0.008,
+   "scA": [
+    "uk-garage-speed-garage"
+   ],
+   "scB": [
+    "uk-garage-speed-garage"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20303878",
+   "b": "bp:20303879",
+   "aligned": 158,
+   "total": 327,
+   "fracA": 0.011,
+   "fracB": 0.011,
+   "scA": [
+    "afro-house"
+   ],
+   "scB": [
+    "afro-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20249756",
+   "b": "bp:20249758",
+   "aligned": 145,
+   "total": 182,
+   "fracA": 0.008,
+   "fracB": 0.008,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19518064",
+   "b": "bp:19518065",
+   "aligned": 143,
+   "total": 145,
+   "fracA": 0.013,
+   "fracB": 0.01,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19740847",
+   "b": "bp:19740848",
+   "aligned": 129,
+   "total": 176,
+   "fracA": 0.008,
+   "fracB": 0.007,
+   "scA": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "scB": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19271610",
+   "b": "bp:19271612",
+   "aligned": 126,
+   "total": 126,
+   "fracA": 0.009,
+   "fracB": 0.01,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:7460086",
+   "b": "bp:7460088",
+   "aligned": 109,
+   "total": 208,
+   "fracA": 0.007,
+   "fracB": 0.008,
+   "scA": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "scB": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19812782",
+   "b": "bp:20050984",
+   "aligned": 107,
+   "total": 107,
+   "fracA": 0.004,
+   "fracB": 0.004,
+   "scA": [
+    "140-deep-dubstep-grime"
+   ],
+   "scB": [
+    "140-deep-dubstep-grime"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19422852",
+   "b": "bp:19637490",
+   "aligned": 95,
+   "total": 95,
+   "fracA": 0.004,
+   "fracB": 0.003,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20130548",
+   "b": "bp:20130549",
+   "aligned": 95,
+   "total": 126,
+   "fracA": 0.006,
+   "fracB": 0.006,
+   "scA": [
+    "uk-funky-gqom"
+   ],
+   "scB": [
+    "uk-funky-gqom"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:21306432",
+   "b": "bp:21306455",
+   "aligned": 92,
+   "total": 159,
+   "fracA": 0.004,
+   "fracB": 0.003,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20259301",
+   "b": "bp:20259302",
+   "aligned": 84,
+   "total": 166,
+   "fracA": 0.004,
+   "fracB": 0.005,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19589978",
+   "b": "bp:20188638",
+   "aligned": 82,
+   "total": 369,
+   "fracA": 0.004,
+   "fracB": 0.003,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19940270",
+   "b": "bp:19940271",
+   "aligned": 79,
+   "total": 93,
+   "fracA": 0.004,
+   "fracB": 0.004,
+   "scA": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "scB": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20150652",
+   "b": "bp:20249671",
+   "aligned": 77,
+   "total": 108,
+   "fracA": 0.003,
+   "fracB": 0.003,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": true,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19721916",
+   "b": "bp:19721917",
+   "aligned": 70,
+   "total": 86,
+   "fracA": 0.003,
+   "fracB": 0.003,
+   "scA": [
+    "afro-house"
+   ],
+   "scB": [
+    "afro-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19581221",
+   "b": "bp:19581222",
+   "aligned": 69,
+   "total": 84,
+   "fracA": 0.003,
+   "fracB": 0.003,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:21355554",
+   "b": "bp:21355555",
+   "aligned": 69,
+   "total": 98,
+   "fracA": 0.003,
+   "fracB": 0.004,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:18977659",
+   "b": "bp:18977660",
+   "aligned": 68,
+   "total": 447,
+   "fracA": 0.01,
+   "fracB": 0.01,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20249671",
+   "b": "bp:21306432",
+   "aligned": 67,
+   "total": 123,
+   "fracA": 0.003,
+   "fracB": 0.003,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": true,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20249671",
+   "b": "bp:21306457",
+   "aligned": 64,
+   "total": 130,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": true,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20039827",
+   "b": "bp:20483361",
+   "aligned": 63,
+   "total": 111,
+   "fracA": 0.003,
+   "fracB": 0.003,
+   "scA": [
+    "uk-garage-speed-garage"
+   ],
+   "scB": [
+    "uk-garage-speed-garage"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:21306432",
+   "b": "bp:21306457",
+   "aligned": 62,
+   "total": 97,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:19777936",
+   "b": "bp:19777937",
+   "aligned": 61,
+   "total": 86,
+   "fracA": 0.003,
+   "fracB": 0.002,
+   "scA": [
+    "afro-house"
+   ],
+   "scB": [
+    "afro-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20159064",
+   "b": "bp:20233054",
+   "aligned": 60,
+   "total": 161,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "strong-share"
+  },
+  {
+   "a": "bp:20099711",
+   "b": "bp:20249671",
+   "aligned": 59,
+   "total": 122,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20595869",
+   "b": "bp:20595874",
+   "aligned": 59,
+   "total": 82,
+   "fracA": 0.004,
+   "fracB": 0.004,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:21300837",
+   "b": "bp:21300838",
+   "aligned": 58,
+   "total": 99,
+   "fracA": 0.004,
+   "fracB": 0.006,
+   "scA": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "scB": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20249671",
+   "b": "bp:21306455",
+   "aligned": 57,
+   "total": 110,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20099711",
+   "b": "bp:21306432",
+   "aligned": 56,
+   "total": 111,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:28405538",
+   "b": "bp:28405539",
+   "aligned": 56,
+   "total": 97,
+   "fracA": 0.003,
+   "fracB": 0.002,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:5818215",
+   "b": "bp:6937710",
+   "aligned": 52,
+   "total": 108,
+   "fracA": 0.003,
+   "fracB": 0.003,
+   "scA": [
+    "house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20655375",
+   "b": "bp:20655376",
+   "aligned": 47,
+   "total": 115,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "uk-garage-speed-garage"
+   ],
+   "scB": [
+    "uk-garage-speed-garage"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20099711",
+   "b": "bp:21306455",
+   "aligned": 45,
+   "total": 92,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:21306455",
+   "b": "bp:21306457",
+   "aligned": 44,
+   "total": 94,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20159064",
+   "b": "bp:20706980",
+   "aligned": 43,
+   "total": 181,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20706980",
+   "b": "bp:21306469",
+   "aligned": 43,
+   "total": 180,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20251190",
+   "b": "bp:20251192",
+   "aligned": 42,
+   "total": 734,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "scB": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20086209",
+   "b": "bp:20086210",
+   "aligned": 41,
+   "total": 52,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "uk-garage-speed-garage"
+   ],
+   "scB": [
+    "uk-garage-speed-garage"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20150652",
+   "b": "bp:21306455",
+   "aligned": 41,
+   "total": 72,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20522742",
+   "b": "bp:20522747",
+   "aligned": 41,
+   "total": 142,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:5818215",
+   "b": "bp:5818216",
+   "aligned": 40,
+   "total": 112,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "house"
+   ],
+   "scB": [
+    "house"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20233049",
+   "b": "bp:20249679",
+   "aligned": 38,
+   "total": 173,
+   "fracA": 0.001,
+   "fracB": 0.002,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:18655991",
+   "b": "bp:18655995",
+   "aligned": 36,
+   "total": 62,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "uk-garage-speed-garage"
+   ],
+   "scB": [
+    "uk-garage-speed-garage"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:19456630",
+   "b": "bp:19456631",
+   "aligned": 36,
+   "total": 38,
+   "fracA": 0.003,
+   "fracB": 0.002,
+   "scA": [
+    "deep-house"
+   ],
+   "scB": [
+    "deep-house"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:19595281",
+   "b": "bp:19595282",
+   "aligned": 35,
+   "total": 97,
+   "fracA": 0.002,
+   "fracB": 0.001,
+   "scA": [
+    "afro-house"
+   ],
+   "scB": [
+    "afro-house"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20150652",
+   "b": "bp:21306432",
+   "aligned": 35,
+   "total": 78,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20249679",
+   "b": "bp:20706980",
+   "aligned": 35,
+   "total": 187,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20249679",
+   "b": "bp:20706969",
+   "aligned": 34,
+   "total": 156,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:21355551",
+   "b": "bp:21355552",
+   "aligned": 34,
+   "total": 40,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:18678792",
+   "b": "bp:18678802",
+   "aligned": 32,
+   "total": 49,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "uk-garage-speed-garage"
+   ],
+   "scB": [
+    "uk-garage-speed-garage"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20233049",
+   "b": "bp:20233054",
+   "aligned": 32,
+   "total": 136,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20233049",
+   "b": "bp:20706969",
+   "aligned": 32,
+   "total": 159,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20152085",
+   "b": "bp:20706953",
+   "aligned": 31,
+   "total": 74,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "techno-peak-time"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20385341",
+   "b": "bp:20385348",
+   "aligned": 31,
+   "total": 34,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "tech-house"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20385341",
+   "b": "bp:20706912",
+   "aligned": 31,
+   "total": 32,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:19599715",
+   "b": "bp:19599716",
+   "aligned": 30,
+   "total": 43,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "scB": [
+    "breaks-breakbeat-uk-bass"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20099711",
+   "b": "bp:21306457",
+   "aligned": 30,
+   "total": 90,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "techno-peak-time"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20233054",
+   "b": "bp:20249679",
+   "aligned": 30,
+   "total": 121,
+   "fracA": 0.001,
+   "fracB": 0.001,
+   "scA": [
+    "tech-house"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": true,
+   "kind": "partial-share"
+  },
+  {
+   "a": "bp:20249675",
+   "b": "bp:20706953",
+   "aligned": 30,
+   "total": 78,
+   "fracA": 0.002,
+   "fracB": 0.002,
+   "scA": [
+    "melodic-house-techno"
+   ],
+   "scB": [
+    "melodic-house-techno"
+   ],
+   "cross": false,
+   "kind": "partial-share"
+  }
+ ],
+ "summary": {
+  "co_vote_pairs": 5020000,
+  "aligned30": 84,
+  "aligned60": 49,
+  "near_dup": 0,
+  "shares": 49,
+  "cross_scene": 3
+ }
+}
