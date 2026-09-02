@@ -9,7 +9,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, names, radepth, metadata, artists]
+        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -71,7 +71,7 @@ jobs:
         run: python -m sonic.backfill report --db sonic.db --out backfill-report
 
       - name: fetch fingerprint store
-        if: github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan')
+        if: github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'mixrescan')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -88,6 +88,10 @@ jobs:
       - name: mix discovery + scan
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'
         run: python -m sonic.discover scan --db sonic.db --per-scene 2 --max-minutes 110
+
+      - name: mix rescan (re-score stored mixes after a matcher change)
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixrescan'
+        run: python -m sonic.discover scan --db sonic.db --rescan --max-minutes 110
 
       - name: RA depth snapshot
         if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'radepth')
@@ -130,7 +134,7 @@ jobs:
           SONIC_INGEST_SECRET: ${{ secrets.SONIC_INGEST_SECRET }}
         run: python -m sonic.export_demand --db sonic.db --post https://www.earlysignal.live/api/sonic-ingest || true
       - name: save fingerprint store
-        if: always() && github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan')
+        if: always() && github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'mixrescan')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -141,7 +145,7 @@ jobs:
           fi
 
       - name: persist database
-        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'names' || inputs.mode == 'metadata' || inputs.mode == 'artists' || inputs.mode == 'radepth')))
+        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'mixrescan' || inputs.mode == 'names' || inputs.mode == 'metadata' || inputs.mode == 'artists' || inputs.mode == 'radepth')))
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"

@@ -33,6 +33,7 @@ DT_QUANT = 2                   # frames per dt bucket: tempo tolerance
 FREQ_QUANT = 2                 # bins per freq bucket
 # matching parameters
 MIN_VOTES = 60                 # aligned hash votes: real-audio calibrated.
+DF_MAX = 64                    # ignore query hashes present in more than this many index postings: grammar hashes (kick/hat/tempo regularities shared by thousands of records) vote for everyone and calibrate to nothing. Commons analysis: 93% of hashes recur in >=10 records; discriminating power lives in the rare tail.
                                # Live control group (Vietnamese mixes, ~zero
                                # true overlap with our corpus) matched ~1.2
                                # tracks/min at a floor of 15: real collisions
@@ -263,7 +264,7 @@ def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
         lo = np.searchsorted(H, qH, side="left")
         hi = np.searchsorted(H, qH, side="right")
         n = hi - lo
-        has = n > 0
+        has = (n > 0) & (n <= DF_MAX)     # rare hashes only: see DF_MAX
         if not has.any():
             continue
         # expand each query hash to all its reference occurrences

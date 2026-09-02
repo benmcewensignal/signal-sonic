@@ -249,20 +249,27 @@ def cmd_scan(args):
     tags = scene_tags(smap)
 
     scanned, failed = 0, 0
+    rescan = bool(getattr(args, "rescan", False))
     for scene, taglist in tags.items():
         cands = []
-        pool = max(12, args.per_scene * 8)   # dedupe + filters eat most
-        for tag in taglist:
-            cands += nts_search(tag, pool)
-            cands += mixcloud_popular(tag, pool)
-        fresh = [c for c in cands if not store.conn.execute(
-            "SELECT 1 FROM mixes WHERE mix_url=? AND error IS NULL",
-            (c["url"],)).fetchone()]
-        n_raw = len(fresh)
-        fresh = rank_candidates(fresh, args.max_age_days, args.min_plays)
+        if rescan:
+            # re-score what is already stored (matcher changed): same URLs, plays replaced
+            for r in store.conn.execute("SELECT mix_url, source, title, published FROM mixes WHERE scene=? AND error IS NULL", (scene,)):
+                cands.append({"url": r[0], "source": r[1], "title": r[2] or "", "published": r[3], "plays": 10**9, "_age": 0})
+            fresh = cands; n_raw = len(cands)
+        else:
+            pool = max(12, args.per_scene * 8)   # dedupe + filters eat most
+            for tag in taglist:
+                cands += nts_search(tag, pool)
+                cands += mixcloud_popular(tag, pool)
+            fresh = [c for c in cands if not store.conn.execute(
+                "SELECT 1 FROM mixes WHERE mix_url=? AND error IS NULL",
+                (c["url"],)).fetchone()]
+            n_raw = len(fresh)
+            fresh = rank_candidates(fresh, args.max_age_days, args.min_plays)
         print(f"  [{scene}] {n_raw} candidates -> {len(fresh)} current/prominent",
               flush=True)
-        for c in fresh[:args.per_scene]:
+        for c in (fresh if rescan else fresh[:args.per_scene]):
             who = c.get("artist") or ""
             reach = f" {c['plays']:,} plays" if c.get("plays") else ""
             print(f"  [{scene}] {c['source']}: {c['title'][:52]}"
@@ -277,6 +284,7 @@ def cmd_scan(args):
                 dur = len(y) / fp.SR
                 covered = min(dur, len(hits) * 180.0)
                 with store.tx() as conn:
+                    conn.execute("DELETE FROM mix_plays WHERE mix_url=?", (c["url"],))
                     conn.execute(
                         "INSERT OR REPLACE INTO mixes VALUES (?,?,?,?,?,?,?,?,?,NULL)",
                         (c["url"], scene, c["source"], c["title"], c["published"],
@@ -320,6 +328,7 @@ def main():
     p.add_argument("--fp-db", default="fingerprints.db")
     p.add_argument("--scene-map", default="scene_map.json")
     p.add_argument("--per-scene", type=int, default=2)
+    p.add_argument("--rescan", action="store_true", help="re-scan mixes already in the store (matcher changes)")
     p.add_argument("--max-age-days", type=int, default=MAX_AGE_DAYS)
     p.add_argument("--min-plays", type=int, default=MIN_PLAYS)
     p.add_argument("--max-minutes", type=int, default=150)
