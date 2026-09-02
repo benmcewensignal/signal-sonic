@@ -93,7 +93,7 @@ jobs:
         run: |
           WEEK=$(date +%G-W%V)
           python -m sonic.run_week --week "$WEEK" \
-            --scenes uk-garage-speed-garage,uk-funky-gqom,afro-house,amapiano,140-deep-dubstep-grime,breaks-breakbeat-uk-bass,tech-house,techno-peak-time,techno-raw-deep-hypnotic,house,deep-house,melodic-house-techno,drum-and-bass \
+            --scenes "$(python -c "import json;m=json.load(open('scene_map.json'));print(','.join(sorted({v['scene'] for k,v in m.items() if not k.startswith('_')})))")" \
             --source beatport --analyser local --db sonic.db | tee run-report.json
 
       - name: demand export
@@ -113,13 +113,14 @@ jobs:
           fi
 
       - name: persist database
-        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan')))
+        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'week' || inputs.mode == 'backfill' || inputs.mode == 'backfill-report' || inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'names')))
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
           git pull --rebase --autostash -q origin main || true
-          git add -f sonic.db
+          git add -f sonic.db 2>/dev/null || true
+          git add data/ 2>/dev/null || true
           git add backfill-report.md backfill-report.json 2>/dev/null || true
           git add CLAIMS.md 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "weekly run $(date +%G-W%V)"
+          git diff --cached --quiet || git commit -m "${{ inputs.mode || 'weekly' }} run $(date +%G-W%V)"
           git push
