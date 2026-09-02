@@ -134,7 +134,10 @@ def load_leadership(db, R, B):
                 for k, v in art.items() if len(v["z"]) >= 2]
         rows.sort(key=lambda x: -x["z"])
         if rows: edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1], "named_2026_records": sum(len(v["z"]) for v in art.values())}
-        lr = [{"label": l, "z": round(statistics.mean(z), 1), "records": len(z)} for l, z in lab.items() if len(z) >= 3]
+        DISTRIBUTORS = {"distrokid", "united masters", "unitedmasters", "cd baby", "cdbaby", "tunecore",
+                        "believe", "the orchard", "amuse", "symphonic", "label engine", "labelworx", "routenote"}
+        lr = [{"label": l, "z": round(statistics.mean(z), 1), "records": len(z)} for l, z in lab.items()
+              if len(z) >= 3 and l.strip().lower() not in DISTRIBUTORS]
         lr.sort(key=lambda x: -x["z"])
         if lr: labels[sc] = lr[:6]
     pnb = [{"name": v["name"], "set_plays": v["plays"], "records_2026": v["records"], "ra_slots": (B.get(k) or {}).get("slots", 0)}
