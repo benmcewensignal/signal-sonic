@@ -11,10 +11,10 @@ import argparse, json, re, sqlite3, time, unicodedata, urllib.request, collectio
 
 SCENES_RA = {  # sonic scene -> RA genre slugs it draws on (booking side)
     "tech-house": ["techhouse"], "techno-peak-time": ["techno"], "techno-raw-deep-hypnotic": ["techno"],
-    "house": ["house"], "deep-house": ["house"], "drum-and-bass": ["drumandbass"], "amapiano": ["amapiano"],
+    "house": ["house"], "deep-house": ["deephouse"], "drum-and-bass": ["drumandbass"], "amapiano": ["amapiano"],
     "afro-house": ["afrohouse"], "uk-garage-speed-garage": ["garage"], "breaks-breakbeat-uk-bass": ["breakbeat"],
     "140-deep-dubstep-grime": ["dubstep"], "melodic-house-techno": [], "uk-funky-gqom": [],
-    "hard-techno": ["techno", "industrial"], "bass-house": ["house"], "trance-main-floor": ["trance"],
+    "hard-techno": ["techno", "industrial", "hardcore"], "bass-house": ["bass", "house"], "trance-main-floor": ["trance"],
 }
 
 def norm(name: str) -> str:
@@ -37,7 +37,8 @@ def load_bookings(site):
     dates = idx.get("dates", [])
     A = {}
     genres = ["techhouse","techno","house","drumandbass","amapiano","afrohouse","garage","jungle","trance",
-              "industrial","breakbeat","electronica","progressivehouse","minimal","disco","dubstep","psytrance"]
+              "industrial","breakbeat","electronica","progressivehouse","minimal","disco","dubstep","psytrance",
+              "deephouse","minimaltechno","acid","electro","afrotech","dubtechno","hardcore","bass"]
     for d in dates:
         seen = set()
         for g in genres:
