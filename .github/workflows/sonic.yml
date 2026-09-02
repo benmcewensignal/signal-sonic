@@ -2,13 +2,14 @@ name: sonic
 on:
   schedule:
     - cron: "0 3 * * 0"        # Sundays 03:00 UTC — the weekly batch
+    - cron: "0 6 * * 1,4"      # Mon+Thu 06:00 UTC — RA depth snapshot (unbackfillable)
   workflow_dispatch:
     inputs:
       mode:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, names]
+        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, names, radepth]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -84,12 +85,23 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'
         run: python -m sonic.discover scan --db sonic.db --per-scene 2 --max-minutes 110
 
+      - name: RA depth snapshot
+        if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'radepth')
+        run: |
+          for i in $(seq 1 12); do
+            out=$(curl -s "https://www.earlysignal.live/api/ra-depth?run=1")
+            echo "$out" | head -c 400; echo
+            echo "$out" | grep -q '"status":"complete"' && break
+            sleep 2
+          done
+          curl -s "https://www.earlysignal.live/api/ra-history?run=1" | head -c 300; echo
+
       - name: name atomic tracks
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'names'
         run: python -m sonic.names
 
       - name: weekly batch
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
+        if: (github.event_name == 'schedule' && github.event.schedule == '0 3 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
         run: |
           WEEK=$(date +%G-W%V)
           python -m sonic.run_week --week "$WEEK" \
@@ -97,7 +109,7 @@ jobs:
             --source beatport --analyser local --db sonic.db | tee run-report.json
 
       - name: demand export
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
+        if: (github.event_name == 'schedule' && github.event.schedule == '0 3 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
         env:
           SONIC_INGEST_SECRET: ${{ secrets.SONIC_INGEST_SECRET }}
         run: python -m sonic.export_demand --db sonic.db --post https://www.earlysignal.live/api/sonic-ingest || true
