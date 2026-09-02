@@ -119,13 +119,20 @@ def cmd_fetch(args):
     with open(args.scene_map) as f:
         scene_map = json.load(f)
     genres = {int(k): v for k, v in scene_map.items() if not k.startswith("_")}
+    only = {x.strip() for x in (getattr(args, "scenes", "") or "").split(",") if x.strip()}
+    if only:
+        genres = {k: v for k, v in genres.items() if v["scene"] in only}
+        missing = only - {v["scene"] for v in genres.values()}
+        if missing:
+            raise SystemExit(f"--scenes: not in scene_map: {sorted(missing)}")
+        print(f"backfill restricted to {sorted(only)}", flush=True)
 
     log = {"mode": "backfill", "months": {}, "analyser": analyser.analyser_id}
     for month in months_between(args.mfrom, args.mto):
         done_scenes = {r["scene"] for r in store.conn.execute(
             "SELECT DISTINCT scene FROM scene_weeks WHERE week=? AND weighting='flat'",
             (month,))}
-        if len(done_scenes) >= len([1 for k in scene_map if not k.startswith("_")]):
+        if all(v["scene"] in done_scenes for v in genres.values()):
             print(f"{month}: already complete, skipping", flush=True)
             log["months"][month] = "already complete"
             continue
@@ -296,6 +303,7 @@ def main():
     p.add_argument("--db", default="sonic.db")
     p.add_argument("--analyser", default="local")
     p.add_argument("--scene-map", default="scene_map.json")
+    p.add_argument("--scenes", default="", help="comma-separated scene ids to restrict the backfill to (e.g. new scenes only)")
     p.set_defaults(fn=cmd_fetch)
 
     p = sub.add_parser("report")

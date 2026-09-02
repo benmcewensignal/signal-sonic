@@ -17,7 +17,10 @@ on:
         description: "backfill start, e.g. 2024-09"
         required: false
       month_to:
-        description: "backfill end, e.g. 2024-11 (keep ranges to ~3 months per run)"
+        description: "backfill end, e.g. 2024-11 (4-month ranges fit the ceiling)"
+        required: false
+      scenes:
+        description: "backfill: restrict to these scene ids, comma-separated (e.g. hard-techno,bass-house,trance-main-floor)"
         required: false
 
 permissions:
@@ -60,7 +63,8 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'backfill'
         run: |
           python -m sonic.backfill fetch --from "${{ inputs.month_from }}" \
-            --to "${{ inputs.month_to }}" --db sonic.db --analyser local
+            --to "${{ inputs.month_to }}" --db sonic.db --analyser local \
+            ${{ inputs.scenes != '' && format('--scenes "{0}"', inputs.scenes) || '' }}
 
       - name: backfill report
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'backfill-report'
