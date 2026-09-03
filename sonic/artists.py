@@ -155,12 +155,29 @@ def load_leadership(db, R, B):
                 prev = LEAD_MAP.get(k)
                 if not prev or len(v["z"]) > prev["records"]:
                     LEAD_MAP[k] = {"name": v["name"], "scene": sc, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"])}
-        rows = [{"name": v["name"], "key": k, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"]), "set_plays": v["plays"],
-                 "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {})),
-                 "tier": SCALE.get(k, {}).get("tier", "unbooked"), "per_event": SCALE.get(k, {}).get("per_event", 0)}
-                for k, v in art.items() if len(v["z"]) >= 2]
-        rows.sort(key=lambda x: -x["z"])
-        if rows: edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1], "named_2026_records": sum(len(v["z"]) for v in art.values())}
+        # Shrink toward the scene mean by evidence: an artist scored on two records
+        # is mostly noise, so z_adj = z * n/(n+K). Ranking on z_adj stops the board
+        # filling with two-record flukes (80 of 117 ranked rows before this).
+        K = 3.0
+        rows = []
+        for k, v in art.items():
+            n = len(v["z"])
+            if n < 2: continue
+            z = statistics.mean(v["z"])
+            sc_ = SCALE.get(k) or {}
+            if not sc_:
+                sl = (B.get(k) or {}).get("slots", 0); ct = len((B.get(k) or {}).get("cities", {}))
+                sc_ = {"tier": ("touring" if ct >= 3 else "regional" if ct == 2 else "local") if sl else "unbooked"}
+            rows.append({"name": v["name"], "key": k, "z": round(z, 1), "z_adj": round(z * n / (n + K), 2),
+                         "records": n, "set_plays": v["plays"],
+                         "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {})),
+                         "tier": sc_.get("tier", "unbooked"), "per_event": sc_.get("per_event", 0)})
+        rows.sort(key=lambda x: -x["z_adj"])
+        known = [r for r in rows if r["ra_slots"] >= 3]
+        if rows:
+            edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1],
+                        "established": known[:4], "established_n": len(known),
+                        "named_2026_records": sum(len(v["z"]) for v in art.values())}
         DISTRIBUTORS = {"distrokid", "united masters", "unitedmasters", "cd baby", "cdbaby", "tunecore",
                         "believe", "the orchard", "amuse", "symphonic", "label engine", "labelworx", "routenote"}
         lr = [{"label": l, "z": round(statistics.mean(z), 1), "records": len(z),
