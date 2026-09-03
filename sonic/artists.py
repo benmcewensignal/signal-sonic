@@ -133,17 +133,22 @@ def load_leadership(db, R, B):
     edge, labels = {}, {}
     played = collections.defaultdict(lambda: {"plays": 0, "records": 0, "name": ""})
     for sc, tracks in E.items():
-        home = [v for (t, w), v in tracks.items() if w <= "2025-M05"]
+        home = [v for (t, w), v in tracks.items() if w <= "2025-M05" and "-M" in w]
         if len(home) < 50: continue
         H = np.mean(home, axis=0); H /= np.linalg.norm(H)
         dh = [1 - float(v @ H) for v in home]; mu, sd = statistics.mean(dh), (statistics.stdev(dh) or 1e-9)
-        art = collections.defaultdict(lambda: {"z": [], "plays": 0, "name": ""}); lab = collections.defaultdict(list)
+        now = [v for (t, w), v in tracks.items() if w[:4] == "2026"]
+        N = np.mean(now, axis=0) if len(now) >= 30 else H; N = N / (np.linalg.norm(N) or 1)
+        spread = statistics.pstdev([1 - float(v @ N) for v in now]) if len(now) >= 30 else sd
+        spread = spread or 1e-9
+        mv = N - H; mvn = float(np.linalg.norm(mv)) or 1e-9
+        art = collections.defaultdict(lambda: {"z": [], "plays": 0, "name": "", "vecs": []}); lab = collections.defaultdict(list)
         for (t, w), v in tracks.items():
             if w[:4] != "2026" or t not in meta: continue
             z = (1 - float(v @ H) - mu) / sd
             names, label = meta[t]
             for nm in names:
-                k = norm(nm); a = art[k]; a["z"].append(z); a["plays"] += plays.get(t, 0); a["name"] = nm
+                k = norm(nm); a = art[k]; a["z"].append(z); a["plays"] += plays.get(t, 0); a["name"] = nm; a["vecs"].append(v)
                 p = played[k]; p["plays"] += plays.get(t, 0); p["records"] += 1; p["name"] = nm
             if label:
                 lab[label].append(z)
@@ -168,15 +173,26 @@ def load_leadership(db, R, B):
             if not sc_:
                 sl = (B.get(k) or {}).get("slots", 0); ct = len((B.get(k) or {}).get("cities", {}))
                 sc_ = {"tier": ("touring" if ct >= 3 else "regional" if ct == 2 else "local") if sl else "unbooked"}
+            cen = np.mean(v["vecs"], axis=0); cen = cen / (np.linalg.norm(cen) or 1)
+            dist = (1 - float(cen @ N)) / spread
+            align = float(np.dot(cen - N, mv) / mvn) / spread
+            pos = "ahead" if align >= 0.5 else ("behind" if align <= -0.5 else ("centre" if dist < 0.5 else "aside"))
             rows.append({"name": v["name"], "key": k, "z": round(z, 1), "z_adj": round(z * n / (n + K), 2),
+                         "dist": round(dist, 1), "align": round(align, 1), "pos": pos,
                          "records": n, "set_plays": v["plays"],
                          "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {})),
                          "tier": sc_.get("tier", "unbooked"), "per_event": sc_.get("per_event", 0)})
         rows.sort(key=lambda x: -x["z_adj"])
         known = [r for r in rows if r["ra_slots"] >= 3]
+        regime = None
+        if len(known) >= 4:
+            al = [r["align"] for r in known]
+            ahead = sum(1 for a in al if a >= 0.5) / len(al); behind = sum(1 for a in al if a <= -0.5) / len(al)
+            centre = sum(1 for r in known if r["dist"] < 0.5) / len(known)
+            regime = ("stars are the centre" if centre >= 0.5 else "stars lead" if ahead >= 0.6 else "stars behind" if behind >= 0.5 else "mixed")
         if rows:
             edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1],
-                        "established": known[:4], "established_n": len(known),
+                        "established": sorted(known, key=lambda r: -r["dist"])[:5], "established_n": len(known), "regime": regime,
                         "named_2026_records": sum(len(v["z"]) for v in art.values())}
         DISTRIBUTORS = {"distrokid", "united masters", "unitedmasters", "cd baby", "cdbaby", "tunecore",
                         "believe", "the orchard", "amuse", "symphonic", "label engine", "labelworx", "routenote"}
