@@ -240,6 +240,11 @@ def cmd_probe(args):
 def cmd_scan(args):
     store = Store(args.db)
     store.conn.executescript(MIX_SCHEMA)
+    try:
+        store.conn.execute("ALTER TABLE mix_plays ADD COLUMN wvotes REAL")
+        store.conn.commit()
+    except Exception:
+        pass   # column already present
     fpc = fp.open_store(args.fp_db)
     n_indexed = fpc.execute(
         "SELECT COUNT(*) c FROM fp_tracks").fetchone()["c"]
@@ -292,9 +297,9 @@ def cmd_scan(args):
                          round(1 - covered / dur, 3) if dur else None))
                     for h in hits:
                         conn.execute(
-                            "INSERT OR REPLACE INTO mix_plays VALUES (?,?,?,?,?)",
+                            "INSERT OR REPLACE INTO mix_plays (mix_url, track_id, offset_s, votes, rate, wvotes) VALUES (?,?,?,?,?,?)",
                             (c["url"], h["track_id"], h["mix_offset_s"],
-                             h["votes"], h["rate"]))
+                             h["votes"], h["rate"], h.get("wvotes")))
                 scanned += 1
                 print(f"    {len(hits)} tracks identified in {int(dur//60)}min",
                       flush=True)

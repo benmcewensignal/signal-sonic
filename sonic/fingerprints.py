@@ -33,7 +33,8 @@ DT_QUANT = 2                   # frames per dt bucket: tempo tolerance
 FREQ_QUANT = 2                 # bins per freq bucket
 # matching parameters
 MIN_VOTES = 60                 # aligned hash votes: real-audio calibrated.
-DF_MAX = 64                    # ignore query hashes present in more than this many index postings: grammar hashes (kick/hat/tempo regularities shared by thousands of records) vote for everyone and calibrate to nothing. Commons analysis: 93% of hashes recur in >=10 records; discriminating power lives in the rare tail.
+MIN_WVOTES = 12.0              # rarity-weighted votes at the peak offset (weight = 1/log2(1+df)); calibrated against the chronological null, see mix_plays.wvotes
+DF_MAX = 2000                  # drop only truly ubiquitous hashes (grammar); the rest vote weighted by rarity: grammar hashes (kick/hat/tempo regularities shared by thousands of records) vote for everyone and calibrate to nothing. Commons analysis: 93% of hashes recur in >=10 records; discriminating power lives in the rare tail.
                                # Live control group (Vietnamese mixes, ~zero
                                # true overlap with our corpus) matched ~1.2
                                # tracks/min at a floor of 15: real collisions
@@ -270,6 +271,7 @@ def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
         # expand each query hash to all its reference occurrences
         reps = n[has]
         q_frames = np.repeat(qT[has], reps)
+        q_w = np.repeat(1.0 / np.log2(1.0 + reps.astype(np.float64)), reps)   # rarity weight per posting
         starts = lo[has]
         flat = np.concatenate([np.arange(a, b) for a, b in
                                zip(starts, starts + reps)]) if len(reps) else np.array([], int)
@@ -279,18 +281,23 @@ def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
         shift = off.min() - 1
         off -= shift
         key = r_tidx.astype(np.int64) * (off.max() + 2) + off
-        uniq, votes = np.unique(key, return_counts=True)
+        uniq, inv, votes = np.unique(key, return_inverse=True, return_counts=True)
+        wvotes = np.bincount(inv, weights=q_w, minlength=len(uniq))
         u_t = (uniq // (off.max() + 2)).astype(int)
         u_o = (uniq % (off.max() + 2)).astype(int)
         for ti in np.unique(u_t):
             m = u_t == ti
             offs = u_o[m]
-            vs = votes[m]
+            vs = votes[m]; ws = wvotes[m]
             by_off = dict(zip(offs.tolist(), vs.tolist()))
+            by_w = dict(zip(offs.tolist(), ws.tolist()))
             merged = {o: by_off.get(o - 1, 0) + v + by_off.get(o + 1, 0)
                       for o, v in by_off.items()}
             peak_off = max(merged, key=merged.get)
             peak_v = int(merged[peak_off])
+            peak_w = float(by_w.get(peak_off - 1, 0) + by_w.get(peak_off, 0) + by_w.get(peak_off + 1, 0))
+            if peak_w < MIN_WVOTES:
+                continue
             others = [v for o, v in by_off.items() if abs(o - peak_off) > 1]
             background3 = 3 * (sorted(others)[len(others) // 2] if others else 0)
             if peak_v < MIN_VOTES or peak_v < DOMINANCE * max(background3, 1):
@@ -317,7 +324,7 @@ def match_mix(conn, y: np.ndarray, rates=RATE_SWEEP) -> list[dict]:
                 continue
             tid = tids[ti]
             if tid not in best or peak_v > best[tid]["votes"]:
-                best[tid] = {"track_id": tid, "votes": peak_v,
+                best[tid] = {"track_id": tid, "votes": peak_v, "wvotes": round(peak_w, 2),
                              "mix_offset_s": max(0.0, (peak_off + shift) * OFFSET_BIN_S * rate),
                              "rate": rate}
     # non-maximum suppression over mix time: audio can only be one track
