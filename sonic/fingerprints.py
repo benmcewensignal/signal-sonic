@@ -32,6 +32,7 @@ DT_MIN, DT_MAX = 2, 80         # frames (~0.05s .. ~1.9s)
 DT_QUANT = 2                   # frames per dt bucket: tempo tolerance
 FREQ_QUANT = 2                 # bins per freq bucket
 # matching parameters
+MATCHER_V = 2                  # bump when the matcher changes: mixes with a lower matcher_v are re-scored
 MIN_VOTES = 60                 # aligned hash votes: real-audio calibrated.
 MATCHER_ID = "w1"              # bump when the matcher changes; rescan re-scores only mixes not on this id
 MIN_WVOTES = 12.0              # rarity-weighted votes at the peak offset (weight = 1/log2(1+df)); calibrated against the chronological null, see mix_plays.wvotes

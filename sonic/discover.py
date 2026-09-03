@@ -20,7 +20,7 @@ never fatal to the run; audio is analysed and deleted, never kept.
 """
 from __future__ import annotations
 import argparse
-import json
+import json, time
 import os
 import re
 import subprocess
@@ -240,11 +240,12 @@ def cmd_probe(args):
 def cmd_scan(args):
     store = Store(args.db)
     store.conn.executescript(MIX_SCHEMA)
-    try:
-        store.conn.execute("ALTER TABLE mix_plays ADD COLUMN wvotes REAL")
-        store.conn.commit()
-    except Exception:
-        pass   # column already present
+    for ddl in ("ALTER TABLE mix_plays ADD COLUMN wvotes REAL",
+                "ALTER TABLE mixes ADD COLUMN matcher_v INTEGER"):
+        try:
+            store.conn.execute(ddl); store.conn.commit()
+        except Exception:
+            pass   # column already present
     try:
         store.conn.execute("ALTER TABLE mixes ADD COLUMN matcher TEXT")
         store.conn.commit()
@@ -260,12 +261,18 @@ def cmd_scan(args):
 
     scanned, failed = 0, 0
     rescan = bool(getattr(args, "rescan", False))
+    budget_s = max(0, int(getattr(args, "budget_minutes", 0)) * 60)
+    t_start = time.time()
+    def out_of_budget():
+        return budget_s and (time.time() - t_start) > budget_s
     # A cancelled job persists nothing, so bound the run well inside the 350-minute
     # job ceiling and stop cleanly; resume is by matcher id, so dispatching again continues.
     budget_s = float(getattr(args, "budget_minutes", 240) or 0) * 60
     t_start = time.time()
     stopped = False
     for scene, taglist in tags.items():
+        if out_of_budget():
+            print("budget reached: stopping so results persist (dispatch again to continue)", flush=True); break
         cands = []
         if rescan:
             # re-score what is already stored (matcher changed): same URLs, plays replaced
@@ -290,6 +297,8 @@ def cmd_scan(args):
         if stopped:
             break
         for c in (fresh if rescan else fresh[:args.per_scene]):
+            if out_of_budget():
+                print("budget reached mid-scene: stopping so results persist", flush=True); break
             if budget_s and time.time() - t_start > budget_s:
                 print(f"budget reached ({budget_s/60:.0f} min): {scanned} mixes done, "
                       f"dispatch again to continue", flush=True)
@@ -322,6 +331,8 @@ def cmd_scan(args):
                             "INSERT OR REPLACE INTO mix_plays (mix_url, track_id, offset_s, votes, rate, wvotes) VALUES (?,?,?,?,?,?)",
                             (c["url"], h["track_id"], h["mix_offset_s"],
                              h["votes"], h["rate"], h.get("wvotes")))
+                store.conn.execute("UPDATE mixes SET matcher_v=? WHERE mix_url=?", (fp.MATCHER_V, c["url"]))
+                store.conn.commit()
                 scanned += 1
                 print(f"    {len(hits)} tracks identified in {int(dur//60)}min",
                       flush=True)
@@ -361,6 +372,7 @@ def main():
     p.add_argument("--max-age-days", type=int, default=MAX_AGE_DAYS)
     p.add_argument("--min-plays", type=int, default=MIN_PLAYS)
     p.add_argument("--max-minutes", type=int, default=150)
+    p.add_argument("--budget-minutes", type=int, default=0, help="wall-clock budget; stop cleanly so results persist (0 = no limit)")
     p.set_defaults(fn=cmd_scan)
     args = ap.parse_args()
     args.fn(args)
