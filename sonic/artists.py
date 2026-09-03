@@ -103,6 +103,10 @@ def load_releases(db):
     return R, n_meta
 
 LEAD_MAP = {}
+LABEL_SCENES = {}
+LABEL_ARTISTS = {}
+LABEL_TOTAL = {}
+SCALE = {}
 
 def load_leadership(db, R, B):
     """Per scene: artists whose 2026 records sit furthest from the scene's 2024 home (leading edge),
@@ -141,21 +145,32 @@ def load_leadership(db, R, B):
             for nm in names:
                 k = norm(nm); a = art[k]; a["z"].append(z); a["plays"] += plays.get(t, 0); a["name"] = nm
                 p = played[k]; p["plays"] += plays.get(t, 0); p["records"] += 1; p["name"] = nm
-            if label: lab[label].append(z)
+            if label:
+                lab[label].append(z)
+                LABEL_ARTISTS.setdefault(label, set()).update(norm(n) for n in names)
+                LABEL_SCENES.setdefault(label, set()).add(sc)
+                LABEL_TOTAL[label] = LABEL_TOTAL.get(label, 0) + 1
         for k, v in art.items():
             if len(v["z"]) >= 2:
                 prev = LEAD_MAP.get(k)
                 if not prev or len(v["z"]) > prev["records"]:
                     LEAD_MAP[k] = {"name": v["name"], "scene": sc, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"])}
         rows = [{"name": v["name"], "key": k, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"]), "set_plays": v["plays"],
-                 "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {}))}
+                 "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {})),
+                 "tier": SCALE.get(k, {}).get("tier", "unbooked"), "per_event": SCALE.get(k, {}).get("per_event", 0)}
                 for k, v in art.items() if len(v["z"]) >= 2]
         rows.sort(key=lambda x: -x["z"])
         if rows: edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1], "named_2026_records": sum(len(v["z"]) for v in art.values())}
         DISTRIBUTORS = {"distrokid", "united masters", "unitedmasters", "cd baby", "cdbaby", "tunecore",
                         "believe", "the orchard", "amuse", "symphonic", "label engine", "labelworx", "routenote"}
-        lr = [{"label": l, "z": round(statistics.mean(z), 1), "records": len(z)} for l, z in lab.items()
-              if len(z) >= 3 and l.strip().lower() not in DISTRIBUTORS]
+        lr = [{"label": l, "z": round(statistics.mean(z), 1), "records": len(z),
+               "artists": len(LABEL_ARTISTS.get(l, ())),
+               "focus": round(len(z) / max(1, LABEL_TOTAL.get(l, len(z))), 2)}
+              for l, z in lab.items()
+              if len(z) >= 3 and l.strip().lower() not in DISTRIBUTORS
+              and len(LABEL_SCENES.get(l, set())) <= 3            # 4+ scenes = aggregator, not a label
+              and len(z) / max(1, LABEL_TOTAL.get(l, len(z))) >= 0.5      # this scene is its main business
+              and len(LABEL_ARTISTS.get(l, ())) >= 2]                      # 1 artist = a self-release channel
         lr.sort(key=lambda x: -x["z"])
         if lr: labels[sc] = lr[:6]
     pnb = [{"name": v["name"], "set_plays": v["plays"], "records_2026": v["records"], "ra_slots": (B.get(k) or {}).get("slots", 0)}
@@ -180,6 +195,31 @@ def build(db, site):
                             "set_plays": r["set_plays"], "first_release": r["first_release"],
                             "recent": sum(v for m, v in r["months"].items() if m[:4] >= "2026")} if r else None}
         artists.append(rec)
+    # --- scale: how big a name is this, from bookings, reach and editorial picks ---
+    booked = [a for a in artists if a["bookings"] and a["bookings"]["slots"] > 0]
+    def pct(vals, v):
+        vals = sorted(vals); 
+        return sum(1 for x in vals if x <= v) / max(1, len(vals))
+    slots_all = [a["bookings"]["slots"] for a in booked]
+    cities_all = [a["bookings"]["n_cities"] for a in booked]
+    int_all = [a["bookings"]["interest"] for a in booked]
+    for a in artists:
+        b = a["bookings"]
+        if not b or not b["slots"]:
+            a["scale"] = {"tier": "unbooked", "slots": 0, "cities": 0, "interest": 0, "score": 0.0,
+                          "note": "no bookings in the next ninety days"}
+            continue
+        score = (pct(slots_all, b["slots"]) + pct(cities_all, b["n_cities"]) + pct(int_all, b["interest"])) / 3
+        tier = ("headliner" if (b["n_cities"] >= 6 and score >= 0.9) else
+                "touring" if (b["n_cities"] >= 3 and score >= 0.65) else
+                "regional" if b["n_cities"] >= 2 else "local")
+        a["scale"] = {"tier": tier, "slots": b["slots"], "cities": b["n_cities"], "interest": b["interest"],
+                      "per_event": round(b["interest"] / max(1, b["slots"])), "picks": b["picks"],
+                      "score": round(score, 2),
+                      "note": {"headliner": "booked widely across many cities",
+                               "touring": "booked in several cities",
+                               "regional": "booked in two or three cities",
+                               "local": "booked in one city"}[tier]}
     joined = [a for a in artists if a["bookings"] and a["releases"]]
     # ---- instruments ----
     def inst_under_booked():
@@ -221,6 +261,7 @@ def build(db, site):
         for a in new:
             for t in a["bookings"]["tags"]: by_tag[t] += 1
         return {"latest": latest, "new_artists": len(new), "by_tag": dict(by_tag.most_common(12))}
+    SCALE.update({a["key"]: a.get("scale", {}) for a in artists})
     edge, labels_dir, played_not_booked = load_leadership(db, R, B)
     summary = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "snapshots": dates,
                "artists_total": len(artists), "booking_side": sum(1 for a in artists if a["bookings"]),
