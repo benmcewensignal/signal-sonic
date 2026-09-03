@@ -151,7 +151,7 @@ def load_leadership(db, R, B):
                 LABEL_SCENES.setdefault(label, set()).add(sc)
                 LABEL_TOTAL[label] = LABEL_TOTAL.get(label, 0) + 1
         for k, v in art.items():
-            if len(v["z"]) >= 2:
+            if len(v["z"]) >= 1:
                 prev = LEAD_MAP.get(k)
                 if not prev or len(v["z"]) > prev["records"]:
                     LEAD_MAP[k] = {"name": v["name"], "scene": sc, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"])}
