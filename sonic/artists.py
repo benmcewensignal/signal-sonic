@@ -186,10 +186,14 @@ def load_leadership(db, R, B):
         known = [r for r in rows if r["ra_slots"] >= 3]
         regime = None
         if len(known) >= 4:
-            al = [r["align"] for r in known]
-            ahead = sum(1 for a in al if a >= 0.5) / len(al); behind = sum(1 for a in al if a <= -0.5) / len(al)
-            centre = sum(1 for r in known if r["dist"] < 0.5) / len(known)
-            regime = ("stars are the centre" if centre >= 0.5 else "stars lead" if ahead >= 0.6 else "stars behind" if behind >= 0.5 else "mixed")
+            centre_share = sum(1 for r in known if r["dist"] < 0.5) / len(known)
+            distinct = [r for r in known if r["dist"] >= 0.5]
+            if centre_share >= 0.7 or len(distinct) < 2:
+                regime = "stars are the centre"
+            else:
+                ahead = sum(1 for r in distinct if r["align"] >= 0.5) / len(distinct)
+                behind = sum(1 for r in distinct if r["align"] <= -0.5) / len(distinct)
+                regime = "stars lead" if ahead >= 0.6 else "stars behind" if behind >= 0.6 else "mixed"
         if rows:
             edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1],
                         "established": sorted(known, key=lambda r: -r["dist"])[:5], "established_n": len(known), "regime": regime,
