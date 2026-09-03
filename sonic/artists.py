@@ -159,7 +159,11 @@ def load_leadership(db, R, B):
             if len(v["z"]) >= 1:
                 prev = LEAD_MAP.get(k)
                 if not prev or len(v["z"]) > prev["records"]:
-                    LEAD_MAP[k] = {"name": v["name"], "scene": sc, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"])}
+                    cen_ = np.mean(v["vecs"], axis=0); cen_ = cen_ / (np.linalg.norm(cen_) or 1)
+                    d_ = (1 - float(cen_ @ N)) / spread; a_ = float(np.dot(cen_ - N, mv) / mvn) / spread
+                    LEAD_MAP[k] = {"name": v["name"], "scene": sc, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"]),
+                                   "dist": round(d_, 1), "align": round(a_, 1),
+                                   "pos": "ahead" if a_ >= 0.5 else ("behind" if a_ <= -0.5 else ("centre" if d_ < 0.5 else "aside"))}
         # Shrink toward the scene mean by evidence: an artist scored on two records
         # is mostly noise, so z_adj = z * n/(n+K). Ranking on z_adj stops the board
         # filling with two-record flukes (80 of 117 ranked rows before this).
@@ -300,6 +304,16 @@ def build(db, site):
         return {"latest": latest, "new_artists": len(new), "by_tag": dict(by_tag.most_common(12))}
     SCALE.update({a["key"]: a.get("scale", {}) for a in artists})
     edge, labels_dir, played_not_booked = load_leadership(db, R, B)
+    # regime history (one line per run per scene) so a scene flipping regime is visible over time
+    try:
+        hist = json.load(open("data/regimes-history.json"))
+    except Exception:
+        hist = []
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    hist = [h for h in hist if h.get("date") != today]
+    for sc_, e_ in edge.items():
+        if e_.get("regime"): hist.append({"date": today, "scene": sc_, "regime": e_["regime"], "established": e_["established_n"]})
+    json.dump(hist, open("data/regimes-history.json", "w"), indent=0)
     summary = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "snapshots": dates,
                "artists_total": len(artists), "booking_side": sum(1 for a in artists if a["bookings"]),
                "release_side": sum(1 for a in artists if a["releases"]), "joined": len(joined),
