@@ -245,6 +245,11 @@ def cmd_scan(args):
         store.conn.commit()
     except Exception:
         pass   # column already present
+    try:
+        store.conn.execute("ALTER TABLE mixes ADD COLUMN matcher TEXT")
+        store.conn.commit()
+    except Exception:
+        pass   # column already present
     fpc = fp.open_store(args.fp_db)
     n_indexed = fpc.execute(
         "SELECT COUNT(*) c FROM fp_tracks").fetchone()["c"]
@@ -255,11 +260,19 @@ def cmd_scan(args):
 
     scanned, failed = 0, 0
     rescan = bool(getattr(args, "rescan", False))
+    # A cancelled job persists nothing, so bound the run well inside the 350-minute
+    # job ceiling and stop cleanly; resume is by matcher id, so dispatching again continues.
+    budget_s = float(getattr(args, "budget_minutes", 240) or 0) * 60
+    t_start = time.time()
+    stopped = False
     for scene, taglist in tags.items():
         cands = []
         if rescan:
             # re-score what is already stored (matcher changed): same URLs, plays replaced
-            for r in store.conn.execute("SELECT mix_url, source, title, published FROM mixes WHERE scene=? AND error IS NULL", (scene,)):
+            for r in store.conn.execute(
+                    "SELECT mix_url, source, title, published FROM mixes "
+                    "WHERE scene=? AND error IS NULL AND (matcher IS NULL OR matcher<>?) "
+                    "ORDER BY COALESCE(duration_s, 99999) ASC", (scene, fp.MATCHER_ID)):
                 cands.append({"url": r[0], "source": r[1], "title": r[2] or "", "published": r[3], "plays": 10**9, "_age": 0})
             fresh = cands; n_raw = len(cands)
         else:
@@ -274,7 +287,14 @@ def cmd_scan(args):
             fresh = rank_candidates(fresh, args.max_age_days, args.min_plays)
         print(f"  [{scene}] {n_raw} candidates -> {len(fresh)} current/prominent",
               flush=True)
+        if stopped:
+            break
         for c in (fresh if rescan else fresh[:args.per_scene]):
+            if budget_s and time.time() - t_start > budget_s:
+                print(f"budget reached ({budget_s/60:.0f} min): {scanned} mixes done, "
+                      f"dispatch again to continue", flush=True)
+                stopped = True
+                break
             who = c.get("artist") or ""
             reach = f" {c['plays']:,} plays" if c.get("plays") else ""
             print(f"  [{scene}] {c['source']}: {c['title'][:52]}"
@@ -290,6 +310,8 @@ def cmd_scan(args):
                 covered = min(dur, len(hits) * 180.0)
                 with store.tx() as conn:
                     conn.execute("DELETE FROM mix_plays WHERE mix_url=?", (c["url"],))
+                    conn.execute("UPDATE mixes SET matcher=? WHERE mix_url=?",
+                                 (fp.MATCHER_ID, c["url"]))
                     conn.execute(
                         "INSERT OR REPLACE INTO mixes VALUES (?,?,?,?,?,?,?,?,?,NULL)",
                         (c["url"], scene, c["source"], c["title"], c["published"],
@@ -333,6 +355,8 @@ def main():
     p.add_argument("--fp-db", default="fingerprints.db")
     p.add_argument("--scene-map", default="scene_map.json")
     p.add_argument("--per-scene", type=int, default=2)
+    p.add_argument("--budget-minutes", type=int, default=240,
+                   help="stop cleanly after this many minutes so the run persists (job ceiling is 350)")
     p.add_argument("--rescan", action="store_true", help="re-scan mixes already in the store (matcher changes)")
     p.add_argument("--max-age-days", type=int, default=MAX_AGE_DAYS)
     p.add_argument("--min-plays", type=int, default=MIN_PLAYS)

@@ -87,11 +87,11 @@ jobs:
 
       - name: mix discovery + scan
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'
-        run: python -m sonic.discover scan --db sonic.db --per-scene 2 --max-minutes 110
+        run: python -m sonic.discover scan --db sonic.db --per-scene 2 --max-minutes 110 --budget-minutes 240
 
       - name: mix rescan (re-score stored mixes after a matcher change)
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixrescan'
-        run: python -m sonic.discover scan --db sonic.db --rescan --max-minutes 110
+        run: python -m sonic.discover scan --db sonic.db --rescan --max-minutes 110 --budget-minutes 240
 
       - name: RA depth snapshot
         if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'radepth')

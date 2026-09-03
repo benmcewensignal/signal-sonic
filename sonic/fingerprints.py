@@ -33,6 +33,7 @@ DT_QUANT = 2                   # frames per dt bucket: tempo tolerance
 FREQ_QUANT = 2                 # bins per freq bucket
 # matching parameters
 MIN_VOTES = 60                 # aligned hash votes: real-audio calibrated.
+MATCHER_ID = "w1"              # bump when the matcher changes; rescan re-scores only mixes not on this id
 MIN_WVOTES = 12.0              # rarity-weighted votes at the peak offset (weight = 1/log2(1+df)); calibrated against the chronological null, see mix_plays.wvotes
 DF_MAX = 2000                  # drop only truly ubiquitous hashes (grammar); the rest vote weighted by rarity: grammar hashes (kick/hat/tempo regularities shared by thousands of records) vote for everyone and calibrate to nothing. Commons analysis: 93% of hashes recur in >=10 records; discriminating power lives in the rare tail.
                                # Live control group (Vietnamese mixes, ~zero
