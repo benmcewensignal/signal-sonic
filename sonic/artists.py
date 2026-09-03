@@ -79,7 +79,11 @@ def load_releases(db):
     rows = c.execute("""select m.track_id, m.artists, m.artist_ids, m.label, m.released, ts.scene, ts.week
                         from track_meta m join track_scenes ts on ts.track_id=m.track_id
                         where m.artists is not null""").fetchall()
-    plays = collections.Counter(r[0] for r in c.execute("select track_id from mix_plays"))
+    th = None
+    try: th = json.load(open("data/set-calibration.json")).get("recommended_wvotes")
+    except Exception: pass
+    cols = [r[1] for r in c.execute("pragma table_info(mix_plays)")]
+    plays = collections.Counter(r[0] for r in c.execute("select track_id from mix_plays where wvotes >= ?", (th,))) if (th is not None and "wvotes" in cols) else collections.Counter()
     n_meta = c.execute("select count(*) from track_meta where artists is not null").fetchone()[0]
     for r in rows:
         names = json.loads(r["artists"] or "[]"); ids = json.loads(r["artist_ids"] or "[]")
@@ -114,7 +118,14 @@ def load_leadership(db, R, B):
         except Exception: continue
         E[r["scene"]][(r["track_id"], r["week"])] = v / (np.linalg.norm(v) or 1)
     meta = {r["track_id"]: (json.loads(r["artists"]), r["label"]) for r in c.execute("select track_id, artists, label from track_meta where artists is not null")}
-    plays = collections.Counter(r[0] for r in c.execute("select track_id from mix_plays"))
+    th = None
+    try: th = json.load(open("data/set-calibration.json")).get("recommended_wvotes")
+    except Exception: pass
+    cols = [r[1] for r in c.execute("pragma table_info(mix_plays)")]
+    if th is not None and "wvotes" in cols:
+        plays = collections.Counter(r[0] for r in c.execute("select track_id from mix_plays where wvotes >= ?", (th,)))
+    else:
+        plays = collections.Counter()   # uncalibrated plays are not evidence
     edge, labels = {}, {}
     played = collections.defaultdict(lambda: {"plays": 0, "records": 0, "name": ""})
     for sc, tracks in E.items():
