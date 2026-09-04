@@ -130,6 +130,10 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && (inputs.mode == 'mixrescan' || inputs.mode == 'mixscan' || inputs.mode == 'artists')
         run: python -m sonic.calibrate_plays --db sonic.db || true
 
+      - name: supply series (Beatport month totals + what moves first)
+        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'backfill' || inputs.mode == 'artists'))
+        run: python -m sonic.supply --db sonic.db --out data/supply.json || true
+
       - name: artist join (after depth snapshot / metadata / on demand)
         if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'radepth' || inputs.mode == 'metadata' || inputs.mode == 'artists' || inputs.mode == 'mixrescan' || inputs.mode == 'mixscan'))
         run: python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json
