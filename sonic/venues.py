@@ -73,15 +73,17 @@ def direction(V, lead):
         by_scene = collections.defaultdict(list)
         for a, n in v["artists"].items():
             L = lead.get(a)
-            if L: by_scene[L["scene"]].extend([L["z"]] * n)
-        for sc, zs in by_scene.items():
-            if len(zs) >= 3:
-                m = statistics.mean(zs); n = len(zs)
+            if L: by_scene[L["scene"]].extend([L] * n)
+        for sc, Ls in by_scene.items():
+            if len(Ls) >= 3:
+                zs = [L["z"] for L in Ls]; m = statistics.mean(zs); n = len(zs)
+                pos = [L.get("pos") for L in Ls if L.get("pos")]
+                ahead = sum(1 for p in pos if p == "ahead") / max(1, len(pos)); behind = sum(1 for p in pos if p == "behind") / max(1, len(pos))
+                regime = ("books ahead" if ahead >= 0.5 else "books the old sound" if behind >= 0.5 else "books the centre") if pos else None
                 per_scene[sc].append({"venue": v["venue"], "city": v["city"], "scored": n,
                                       "events": v["events"], "per_event": v["per_event"],
                                       "mean_z": round(m, 2), "z_adj": round(m * n / (n + 5.0), 2),
-                                      "leading_share": round(sum(1 for z in zs if z >= 1) / n, 2),
-                                      "conservative_share": round(sum(1 for z in zs if z <= -0.5) / n, 2)})
+                                      "ahead_share": round(ahead, 2), "behind_share": round(behind, 2), "regime": regime})
     out = {}
     for sc, rows in per_scene.items():
         rows.sort(key=lambda r: -r["z_adj"])
