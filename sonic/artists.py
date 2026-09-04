@@ -116,11 +116,14 @@ def load_leadership(db, R, B):
     have = c.execute("select count(*) from sqlite_master where name='track_meta'").fetchone()[0]
     if not have: return {}, {}, []
     E = collections.defaultdict(dict)
+    DNA = {}
     for r in c.execute("""select ts.scene, ts.week, ts.track_id, t.features from track_scenes ts
                           join tracks t on t.track_id=ts.track_id and t.analyser_id='local'"""):
-        try: v = np.array(json.loads(r["features"])["embedding"])
+        try:
+            f = json.loads(r["features"]); v = np.array(f["embedding"])
         except Exception: continue
         E[r["scene"]][(r["track_id"], r["week"])] = v / (np.linalg.norm(v) or 1)
+        DNA[r["track_id"]] = [f.get("bass_weight"), f.get("drum_density"), f.get("drum_swing"), f.get("vocal_presence"), f.get("tempo")]
     meta = {r["track_id"]: (json.loads(r["artists"]), r["label"]) for r in c.execute("select track_id, artists, label from track_meta where artists is not null")}
     th = None
     try: th = json.load(open("data/set-calibration.json")).get("recommended_wvotes")
@@ -149,6 +152,7 @@ def load_leadership(db, R, B):
             names, label = meta[t]
             for nm in names:
                 k = norm(nm); a = art[k]; a["z"].append(z); a["plays"] += plays.get(t, 0); a["name"] = nm; a["vecs"].append(v)
+                if t in DNA: a.setdefault("dna", []).append(DNA[t])
                 p = played[k]; p["plays"] += plays.get(t, 0); p["records"] += 1; p["name"] = nm
             if label:
                 lab[label].append(z)
@@ -161,7 +165,11 @@ def load_leadership(db, R, B):
                 if not prev or len(v["z"]) > prev["records"]:
                     cen_ = np.mean(v["vecs"], axis=0); cen_ = cen_ / (np.linalg.norm(cen_) or 1)
                     d_ = (1 - float(cen_ @ N)) / spread; a_ = float(np.dot(cen_ - N, mv) / mvn) / spread
+                    dn = [x for x in v.get("dna", []) if x and all(y is not None for y in x[:4])]
+                    dna_mean = [round(statistics.mean(col), 2) for col in zip(*[x[:4] for x in dn])] if dn else None
+                    tempo_mean = round(statistics.mean([x[4] for x in dn if x[4]]), 1) if dn and any(x[4] for x in dn) else None
                     LEAD_MAP[k] = {"name": v["name"], "scene": sc, "z": round(statistics.mean(v["z"]), 1), "records": len(v["z"]),
+                                   "dna": dna_mean, "tempo": tempo_mean,
                                    "dist": round(d_, 1), "align": round(a_, 1),
                                    "pos": "ahead" if a_ >= 0.5 else ("behind" if a_ <= -0.5 else ("centre" if d_ < 0.5 else "aside"))}
         # Shrink toward the scene mean by evidence: an artist scored on two records
