@@ -212,7 +212,7 @@ def load_leadership(db, R, B):
                 regime = "stars lead" if ahead >= 0.6 else "stars behind" if behind >= 0.6 else "mixed"
         if rows:
             edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1],
-                        "established": sorted(known, key=lambda r: -r["dist"])[:5], "established_n": len(known), "regime": regime,
+                        "established": sorted(known, key=lambda r: (-r["ra_slots"], -r["dist"]))[:6], "established_n": len(known), "regime": regime,
                         "named_2026_records": sum(len(v["z"]) for v in art.values())}
         DISTRIBUTORS = {"distrokid", "united masters", "unitedmasters", "cd baby", "cdbaby", "tunecore",
                         "believe", "the orchard", "amuse", "symphonic", "label engine", "labelworx", "routenote"}
