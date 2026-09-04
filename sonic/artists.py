@@ -343,6 +343,13 @@ def main():
     a = ap.parse_args()
     out = build(a.db, a.site)
     json.dump(out, open(a.out, "w"), ensure_ascii=False, separators=(",", ":"))
+    idx = {}
+    for k, v in out.get("artist_leadership", {}).items():
+        b = next((a["bookings"] for a in out["artists"] if a["key"] == k and a.get("bookings")), None) or {}
+        idx[k] = {"n": v["name"], "s": v["scene"], "z": v["z"], "r": v["records"], "d": v.get("dist"), "a": v.get("align"), "p": v.get("pos"),
+                  "dna": v.get("dna"), "t": v.get("tempo"), "bk": b.get("slots", 0), "c": list((b.get("cities") or {}).keys())[:3], "i": b.get("interest", 0),
+                  "tier": SCALE.get(k, {}).get("tier")}
+    json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(a.out.replace("artists-latest", "artist-lookup"), "w"), ensure_ascii=False, separators=(",", ":"))
     slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
     json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))
     print(json.dumps(out["summary"], indent=1))
