@@ -240,6 +240,12 @@ def cmd_probe(args):
 def cmd_scan(args):
     store = Store(args.db)
     store.conn.executescript(MIX_SCHEMA)
+    # a schema-mismatch insert error is ours, not the mix's: clear those so they retry
+    try:
+        store.conn.execute("UPDATE mixes SET error=NULL WHERE error LIKE '%has 12 columns%' OR error LIKE '%has 11 columns%'")
+        store.conn.commit()
+    except Exception:
+        pass
     for ddl in ("ALTER TABLE mix_plays ADD COLUMN wvotes REAL",
                 "ALTER TABLE mixes ADD COLUMN matcher_v INTEGER"):
         try:
@@ -273,8 +279,8 @@ def cmd_scan(args):
             # re-score what is already stored (matcher changed): same URLs, plays replaced
             for r in store.conn.execute(
                     "SELECT mix_url, source, title, published FROM mixes "
-                    "WHERE scene=? AND error IS NULL AND (matcher IS NULL OR matcher<>?) "
-                    "ORDER BY COALESCE(duration_s, 99999) ASC", (scene, fp.MATCHER_ID)):
+                    "WHERE scene=? AND error IS NULL AND (matcher_v IS NULL OR matcher_v < ?) "
+                    "ORDER BY COALESCE(duration_s, 99999) ASC", (scene, fp.MATCHER_V)):
                 cands.append({"url": r[0], "source": r[1], "title": r[2] or "", "published": r[3], "plays": 10**9, "_age": 0})
             fresh = cands; n_raw = len(cands)
         else:
@@ -310,10 +316,12 @@ def cmd_scan(args):
                     conn.execute("UPDATE mixes SET matcher=? WHERE mix_url=?",
                                  (fp.MATCHER_ID, c["url"]))
                     conn.execute(
-                        "INSERT OR REPLACE INTO mixes VALUES (?,?,?,?,?,?,?,?,?,NULL)",
+                        "INSERT OR REPLACE INTO mixes (mix_url, scene, source, title, published,"
+                        " scanned_at, duration_s, n_hits, unmatched_share, error, matcher_v)"
+                        " VALUES (?,?,?,?,?,?,?,?,?,NULL,?)",
                         (c["url"], scene, c["source"], c["title"], c["published"],
                          time.time(), int(dur), len(hits),
-                         round(1 - covered / dur, 3) if dur else None))
+                         round(1 - covered / dur, 3) if dur else None, fp.MATCHER_V))
                     for h in hits:
                         conn.execute(
                             "INSERT OR REPLACE INTO mix_plays (mix_url, track_id, offset_s, votes, rate, wvotes) VALUES (?,?,?,?,?,?)",

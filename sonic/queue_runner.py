@@ -4,13 +4,21 @@ pending run costs nothing because the next push picks up where this stopped.
 
   python -m sonic.queue_runner --budget-minutes 300
 """
-import argparse, json, os, subprocess, sys, time, glob
+import argparse, collections, json, os, subprocess, sys, time, glob
 
 def run(cmd, log):
+    """Run a step, echo it live, and keep the tail of its output in the log: GitHub's
+    own logs live on a host we cannot reach, so the repo has to carry the evidence."""
     print(f"\n$ {' '.join(cmd)}", flush=True)
-    t0 = time.time(); r = subprocess.run(cmd)
-    log.append({"cmd": " ".join(cmd), "rc": r.returncode, "minutes": round((time.time() - t0) / 60, 1)})
-    return r.returncode
+    t0 = time.time()
+    tail = collections.deque(maxlen=25)
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
+    for line in p.stdout:
+        print(line, end="", flush=True); tail.append(line.rstrip()[:300])
+    p.wait()
+    log.append({"cmd": " ".join(cmd), "rc": p.returncode, "minutes": round((time.time() - t0) / 60, 1),
+                "tail": list(tail)})
+    return p.returncode
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--budget-minutes", type=int, default=300); a = ap.parse_args()
