@@ -32,6 +32,8 @@ from .ingest import TrackSighting
 
 # candidate spellings for the publish-date range filter, tried in order;
 # the working one is reported by `probe` and used by `fetch`
+_MONTH_TOTALS = []
+
 DATE_PARAM_VARIANTS = [
     ("publish_date", "{start}:{end}"),
     ("publish_date_start", None),          # paired with publish_date_end
@@ -86,12 +88,32 @@ def _try_fetch_month(token: str, genre_id: int, month: str, per_month: int):
             d = _get("/catalog/tracks/", token, params)
             results = d.get("results", [])
             if results:
+                # Beatport reports the true size of the month; we only download a sample,
+                # so this count is the only honest measure of how much a scene released.
+                _MONTH_TOTALS.append({"genre_id": genre_id, "month": month, "total": d.get("count")})
                 return _spread_sample(results, per_month), f"{name}"
             errors.append(f"{name}: 200 but 0 results")
         except Exception as e:
             errors.append(f"{name}: {e}")
     raise RuntimeError(f"no date-filter spelling worked for {month} genre {genre_id}: "
                        + " | ".join(errors))
+
+
+def save_month_totals(db):
+    """One row per genre-month: how many records the scene actually released."""
+    if not _MONTH_TOTALS: return 0
+    import sqlite3
+    c = sqlite3.connect(db)
+    c.execute("""create table if not exists scene_supply(
+        genre_id text, month text, total integer, fetched_at text,
+        primary key (genre_id, month))""")
+    n = 0
+    for r in _MONTH_TOTALS:
+        if r.get("total") is None: continue
+        c.execute("insert or replace into scene_supply values(?,?,?,datetime('now'))",
+                  (str(r["genre_id"]), r["month"], int(r["total"])))
+        n += 1
+    c.commit(); return n
 
 
 def cmd_probe(args):
@@ -192,6 +214,8 @@ def cmd_fetch(args):
 
     assert _claims_count(store) == claims_before, \
         "backfill touched the claims table — refusing to continue"
+    n_supply = save_month_totals(args.db)
+    print(json.dumps({"supply_rows_saved": n_supply}), flush=True)
     print(json.dumps({"backfill_complete": True,
                       "claims_untouched": True}))
 
