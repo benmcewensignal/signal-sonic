@@ -369,13 +369,34 @@ def main():
             pop[r[0]] = {"listeners": r[1], "playcount": r[2]}
     except Exception:
         pass
+    # interest as a decile rather than a raw count: RA's audience differs by city and scene,
+    # so "900 interested" means nothing on its own; "top 10% of deep house" does.
+    def deciles(vals):
+        vs = sorted(v for v in vals if v is not None)
+        def rank(v):
+            if v is None or not vs: return None
+            below = sum(1 for x in vs if x < v)
+            return min(10, max(1, int(below / len(vs) * 10) + 1))
+        return rank
+    _booked = [(k, v) for k, v in LEAD_MAP.items()]
+    _int = {}
+    for k, v in LEAD_MAP.items():
+        b = next((a["bookings"] for a in out["artists"] if a["key"] == k and a.get("bookings")), None)
+        if b and b.get("slots"): _int[k] = b.get("interest", 0)
+    rank_all = deciles(_int.values())
+    by_scene = {}
+    for k, iv in _int.items():
+        by_scene.setdefault(LEAD_MAP[k]["scene"], []).append(iv)
+    rank_scene = {sc: deciles(vs) for sc, vs in by_scene.items()}
     idx = {}
     for k, v in out.get("artist_leadership", {}).items():
         b = next((a["bookings"] for a in out["artists"] if a["key"] == k and a.get("bookings")), None) or {}
         idx[k] = {"n": v["name"], "s": v["scene"], "z": v["z"], "r": v["records"], "d": v.get("dist"), "a": v.get("align"), "p": v.get("pos"),
                   "dna": v.get("dna"), "t": v.get("tempo"), "bk": b.get("slots", 0), "c": list((b.get("cities") or {}).keys())[:3], "i": b.get("interest", 0),
                   "tier": SCALE.get(k, {}).get("tier"),
-                  "lis": (pop.get(k) or {}).get("listeners")}
+                  "lis": (pop.get(k) or {}).get("listeners"),
+                  "pd": rank_all(_int.get(k)),
+                  "psd": (rank_scene.get(v["scene"]) or (lambda x: None))(_int.get(k))}
     json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(a.out.replace("artists-latest", "artist-lookup"), "w"), ensure_ascii=False, separators=(",", ":"))
     slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
     json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))
