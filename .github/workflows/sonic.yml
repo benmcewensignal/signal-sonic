@@ -93,7 +93,11 @@ jobs:
 
       - name: drain the job queue (push runs)
         if: github.event_name == 'push'
-        run: python -m sonic.queue_runner --budget-minutes 300
+        run: |
+          # a push run is pinned to its triggering commit; long jobs must use current code
+          git fetch origin main && git checkout -q origin/main -- sonic/ .github/workflows/ || true
+          git log -1 --format='queue running code from %h %s' origin/main
+          python -m sonic.queue_runner --budget-minutes 300
 
       - name: reindex fingerprints
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex'
