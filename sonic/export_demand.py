@@ -43,6 +43,11 @@ SITE = {                       # beatport scene -> earlysignal scene name
     "hard-techno": "Hard Techno",
     "bass-house": "Bass House",
     "trance-main-floor": "Trance — Main Floor",
+    # Expansion wave 2a (2026-09-04)
+    "progressive-house": "Progressive House",
+    "psy-trance": "Psy-Trance / Goa",
+    "indie-dance": "Indie Dance",
+    "organic-house": "Organic House / Downtempo",
 }
 
 

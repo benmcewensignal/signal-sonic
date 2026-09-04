@@ -1,6 +1,6 @@
 {
- "_note": "Beatport genre_id -> Signal scene. Ids verified against the live /catalog/genres list (run #3, 2026-08-28). Expansion wave 1 added 2026-09-01: hard-techno, bass-house, trance-main-floor.",
- "_later": "still uncovered: 15 Progressive House, 13 Psy-Trance, 37 Indie Dance, 93 Organic House",
+ "_note": "Beatport genre_id -> Signal scene. Ids verified against the live /catalog/genres list (run #3, 2026-08-28). Expansion wave 1 (2026-09-01): hard-techno, bass-house, trance-main-floor. Wave 2a (2026-09-04): progressive-house, psy-trance, indie-dance, organic-house, ids verified 2026-08-28.",
+ "_later": "wave 2b pending the live genre list (data/beatport-genres.json): minimal-deep-tech, electro, nu-disco, hard-dance-hardcore, dubstep, electronica-downtempo, jackin-funky-house, mainstage; brazilian-funk still needs its id",
  "86": {
   "scene": "uk-garage-speed-garage",
   "name": "UK Garage / Bassline"
@@ -77,6 +77,41 @@
   "tags": [
    "trance",
    "uplifting trance"
+  ]
+ },
+ "15": {
+  "scene": "progressive-house",
+  "name": "Progressive House",
+  "tags": [
+   "progressive house",
+   "progressive"
+  ]
+ },
+ "13": {
+  "scene": "psy-trance",
+  "name": "Psy-Trance",
+  "tags": [
+   "psytrance",
+   "psy trance",
+   "goa",
+   "psychedelic trance"
+  ]
+ },
+ "37": {
+  "scene": "indie-dance",
+  "name": "Indie Dance",
+  "tags": [
+   "indie dance",
+   "nu disco indie"
+  ]
+ },
+ "93": {
+  "scene": "organic-house",
+  "name": "Organic House / Downtempo",
+  "tags": [
+   "organic house",
+   "downtempo house",
+   "ethnic house"
   ]
  }
 }
