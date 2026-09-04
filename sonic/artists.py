@@ -105,6 +105,8 @@ def load_releases(db):
 LEAD_MAP = {}
 LABEL_SCENES = {}
 LABEL_ARTISTS = {}
+LAB_VECS = {}
+LAB_DNA = {}
 LABEL_TOTAL = {}
 SCALE = {}
 
@@ -156,6 +158,8 @@ def load_leadership(db, R, B):
                 p = played[k]; p["plays"] += plays.get(t, 0); p["records"] += 1; p["name"] = nm
             if label:
                 lab[label].append(z)
+                LAB_VECS.setdefault((sc, label), []).append(v)
+                if t in DNA: LAB_DNA.setdefault((sc, label), []).append(DNA[t])
                 LABEL_ARTISTS.setdefault(label, set()).update(norm(n) for n in names)
                 LABEL_SCENES.setdefault(label, set()).add(sc)
                 LABEL_TOTAL[label] = LABEL_TOTAL.get(label, 0) + 1
@@ -212,14 +216,29 @@ def load_leadership(db, R, B):
                         "named_2026_records": sum(len(v["z"]) for v in art.values())}
         DISTRIBUTORS = {"distrokid", "united masters", "unitedmasters", "cd baby", "cdbaby", "tunecore",
                         "believe", "the orchard", "amuse", "symphonic", "label engine", "labelworx", "routenote"}
-        lr = [{"label": l, "z": round(statistics.mean(z), 1), "records": len(z),
+        def _lab_extra(l):
+            vs = LAB_VECS.get((sc, l), [])
+            out = {}
+            if vs:
+                cen = np.mean(vs, axis=0); cen = cen / (np.linalg.norm(cen) or 1)
+                d_ = (1 - float(cen @ N)) / spread; a_ = float(np.dot(cen - N, mv) / mvn) / spread
+                out["dist"] = round(d_, 1); out["align"] = round(a_, 1)
+                out["pos"] = "ahead" if a_ >= 0.5 else ("behind" if a_ <= -0.5 else ("centre" if d_ < 0.5 else "aside"))
+            dn = [x for x in LAB_DNA.get((sc, l), []) if x and all(y is not None for y in x[:4])]
+            if dn:
+                out["dna"] = [round(statistics.mean(col), 2) for col in zip(*[x[:4] for x in dn])]
+                tp = [x[4] for x in dn if x[4]]
+                if tp: out["tempo"] = round(statistics.mean(tp), 1)
+            return out
+        lr = [dict({"label": l, "z": round(statistics.mean(z), 1), "records": len(z),
                "artists": len(LABEL_ARTISTS.get(l, ())),
-               "focus": round(len(z) / max(1, LABEL_TOTAL.get(l, len(z))), 2)}
+               "focus": round(len(z) / max(1, LABEL_TOTAL.get(l, len(z))), 2)})
               for l, z in lab.items()
               if len(z) >= 3 and l.strip().lower() not in DISTRIBUTORS
               and len(LABEL_SCENES.get(l, set())) <= 3            # 4+ scenes = aggregator, not a label
               and len(z) / max(1, LABEL_TOTAL.get(l, len(z))) >= 0.5      # this scene is its main business
               and len(LABEL_ARTISTS.get(l, ())) >= 2]                      # 1 artist = a self-release channel
+        lr = [dict(r, **_lab_extra(r["label"])) for r in lr]
         lr.sort(key=lambda x: -x["z"])
         if lr: labels[sc] = lr[:6]
     pnb = [{"name": v["name"], "set_plays": v["plays"], "records_2026": v["records"], "ra_slots": (B.get(k) or {}).get("slots", 0)}
