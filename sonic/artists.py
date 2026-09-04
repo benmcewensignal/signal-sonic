@@ -54,7 +54,7 @@ def load_bookings(site):
                     key = norm(name)
                     if not key: continue
                     a = A.setdefault(key, {"names": collections.Counter(), "ra_ids": set(), "slots": 0, "tags": collections.Counter(),
-                                           "cities": collections.Counter(), "interest": 0, "first_seen": d, "last_seen": d, "picks": 0,
+                                           "cities": collections.Counter(), "interest": 0, "ev_interest": [], "first_seen": d, "last_seen": d, "picks": 0,
                                            "events": set()})
                     a["names"][name] += 1
                     ai = (e.get("ai") or [])
@@ -64,7 +64,9 @@ def load_bookings(site):
                     a["slots"] += 1
                     for t in tags: a["tags"][t] += 1
                     if e.get("a"): a["cities"][e["a"] + (", " + e["c"] if e.get("c") else "")] += 1
-                    a["interest"] += e.get("ic") or e.get("n") or 0
+                    _iv = e.get("ic") or e.get("n") or 0
+                    a["interest"] += _iv
+                    a.setdefault("ev_interest", []).append(_iv)
                     a["picks"] += 1 if e.get("p") else 0
                     a["first_seen"] = min(a["first_seen"], d); a["last_seen"] = max(a["last_seen"], d)
     return A, dates
@@ -258,6 +260,8 @@ def build(db, site):
                "ra_ids": sorted(b["ra_ids"]) if b else [], "bp_ids": sorted(r["bp_ids"]) if r else [],
                "bookings": {"slots": b["slots"], "tags": dict(b["tags"].most_common(6)), "cities": dict(b["cities"].most_common(5)),
                             "n_cities": len(b["cities"]), "interest": b["interest"], "picks": b["picks"],
+                            "interest_median": (statistics.median(b["ev_interest"]) if b.get("ev_interest") else 0),
+                            "interest_typical": sum(sorted(b["ev_interest"])[:-1]) if len(b.get("ev_interest", [])) > 2 else b["interest"],
                             "first_seen": b["first_seen"], "last_seen": b["last_seen"]} if b else None,
                "releases": {"tracks": len(r["tracks"]), "scenes": dict(r["scenes"]), "labels": dict(r["labels"].most_common(3)),
                             "set_plays": r["set_plays"], "first_release": r["first_release"],
@@ -278,8 +282,11 @@ def build(db, site):
                           "note": "no bookings in the next ninety days"}
             continue
         score = (pct(slots_all, b["slots"]) + pct(cities_all, b["n_cities"]) + pct(int_all, b["interest"])) / 3
-        tier = ("headliner" if (b["n_cities"] >= 6 and score >= 0.9) else
-                "touring" if (b["n_cities"] >= 3 and score >= 0.65) else
+        per_ev = b["interest"] / max(1, b["slots"])
+        # absolute reach, not a percentile of the booked population: a percentile makes
+        # everyone at the top of any list a "headliner", which says nothing.
+        tier = ("headliner" if (b["n_cities"] >= 6 and b["interest"] >= 8000) else
+                "touring" if (b["n_cities"] >= 4 or (b["n_cities"] >= 3 and per_ev >= 300)) else
                 "regional" if b["n_cities"] >= 2 else "local")
         a["scale"] = {"tier": tier, "slots": b["slots"], "cities": b["n_cities"], "interest": b["interest"],
                       "per_event": round(b["interest"] / max(1, b["slots"])), "picks": b["picks"],
