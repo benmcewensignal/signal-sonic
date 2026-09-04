@@ -362,12 +362,20 @@ def main():
     a = ap.parse_args()
     out = build(a.db, a.site)
     json.dump(out, open(a.out, "w"), ensure_ascii=False, separators=(",", ":"))
+    pop = {}
+    try:
+        _c = sqlite3.connect(db)
+        for r in _c.execute("select artist_key, listeners, playcount from artist_pop where listeners is not null"):
+            pop[r[0]] = {"listeners": r[1], "playcount": r[2]}
+    except Exception:
+        pass
     idx = {}
     for k, v in out.get("artist_leadership", {}).items():
         b = next((a["bookings"] for a in out["artists"] if a["key"] == k and a.get("bookings")), None) or {}
         idx[k] = {"n": v["name"], "s": v["scene"], "z": v["z"], "r": v["records"], "d": v.get("dist"), "a": v.get("align"), "p": v.get("pos"),
                   "dna": v.get("dna"), "t": v.get("tempo"), "bk": b.get("slots", 0), "c": list((b.get("cities") or {}).keys())[:3], "i": b.get("interest", 0),
-                  "tier": SCALE.get(k, {}).get("tier")}
+                  "tier": SCALE.get(k, {}).get("tier"),
+                  "lis": (pop.get(k) or {}).get("listeners")}
     json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(a.out.replace("artists-latest", "artist-lookup"), "w"), ensure_ascii=False, separators=(",", ":"))
     slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
     json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))

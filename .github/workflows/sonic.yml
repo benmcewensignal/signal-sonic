@@ -11,7 +11,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists]
+        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -137,6 +137,12 @@ jobs:
       - name: venue layer (after the artist join)
         if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'radepth' || inputs.mode == 'metadata' || inputs.mode == 'artists'))
         run: python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json
+
+      - name: streaming stock (Last.fm listeners per artist)
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'listeners'
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python -m sonic.listeners --db sonic.db --limit 800
 
       - name: track metadata (release-side artist ids)
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'metadata'
