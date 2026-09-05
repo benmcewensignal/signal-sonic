@@ -1,296 +1,576 @@
 {
- "plays": 194,
- "dated_plays": 59,
+ "plays": 1084,
+ "dated_plays": 871,
  "target_impossible_share": 0.03,
- "baseline_impossible_share": 0.0,
- "recommended_wvotes": 0,
+ "baseline_impossible_share": 0.147,
+ "recommended_wvotes": 39.5,
  "recommended": {
-  "threshold": 0,
-  "retained": 194,
-  "dated": 59,
-  "impossible": 0,
-  "impossible_share": 0.0
+  "threshold": 39.5,
+  "retained": 67,
+  "dated": 54,
+  "impossible": 5,
+  "impossible_share": 0.0926
  },
  "sweep": [
   {
    "threshold": 0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 0.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 1.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 1.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 2.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 2.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 3.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 3.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 4.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 4.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 5.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 5.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 6.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 6.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 7.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 7.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 8.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 8.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 9.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 9.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 10.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 10.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 11.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 11.5,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 12.0,
-   "retained": 194,
-   "dated": 59,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1084,
+   "dated": 871,
+   "impossible": 128,
+   "impossible_share": 0.147
   },
   {
    "threshold": 12.5,
-   "retained": 186,
-   "dated": 55,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 1043,
+   "dated": 835,
+   "impossible": 121,
+   "impossible_share": 0.1449
   },
   {
    "threshold": 13.0,
-   "retained": 176,
-   "dated": 52,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 996,
+   "dated": 805,
+   "impossible": 112,
+   "impossible_share": 0.1391
   },
   {
    "threshold": 13.5,
-   "retained": 165,
-   "dated": 50,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 946,
+   "dated": 769,
+   "impossible": 104,
+   "impossible_share": 0.1352
   },
   {
    "threshold": 14.0,
-   "retained": 156,
-   "dated": 47,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 891,
+   "dated": 723,
+   "impossible": 93,
+   "impossible_share": 0.1286
   },
   {
    "threshold": 14.5,
-   "retained": 147,
-   "dated": 45,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 844,
+   "dated": 692,
+   "impossible": 84,
+   "impossible_share": 0.1214
   },
   {
    "threshold": 15.0,
-   "retained": 133,
-   "dated": 41,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 788,
+   "dated": 646,
+   "impossible": 75,
+   "impossible_share": 0.1161
   },
   {
    "threshold": 15.5,
-   "retained": 119,
-   "dated": 40,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 749,
+   "dated": 623,
+   "impossible": 69,
+   "impossible_share": 0.1108
   },
   {
    "threshold": 16.0,
-   "retained": 104,
-   "dated": 34,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 700,
+   "dated": 585,
+   "impossible": 65,
+   "impossible_share": 0.1111
   },
   {
    "threshold": 16.5,
-   "retained": 95,
-   "dated": 31,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 655,
+   "dated": 548,
+   "impossible": 55,
+   "impossible_share": 0.1004
   },
   {
    "threshold": 17.0,
-   "retained": 90,
-   "dated": 29,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 622,
+   "dated": 521,
+   "impossible": 48,
+   "impossible_share": 0.0921
   },
   {
    "threshold": 17.5,
-   "retained": 86,
-   "dated": 28,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 577,
+   "dated": 480,
+   "impossible": 44,
+   "impossible_share": 0.0917
   },
   {
    "threshold": 18.0,
-   "retained": 78,
-   "dated": 25,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 549,
+   "dated": 458,
+   "impossible": 43,
+   "impossible_share": 0.0939
   },
   {
    "threshold": 18.5,
-   "retained": 76,
-   "dated": 25,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 533,
+   "dated": 444,
+   "impossible": 41,
+   "impossible_share": 0.0923
   },
   {
    "threshold": 19.0,
-   "retained": 72,
-   "dated": 23,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "retained": 506,
+   "dated": 422,
+   "impossible": 40,
+   "impossible_share": 0.0948
   },
   {
    "threshold": 19.5,
+   "retained": 478,
+   "dated": 400,
+   "impossible": 38,
+   "impossible_share": 0.095
+  },
+  {
+   "threshold": 20.0,
+   "retained": 453,
+   "dated": 381,
+   "impossible": 36,
+   "impossible_share": 0.0945
+  },
+  {
+   "threshold": 20.5,
+   "retained": 427,
+   "dated": 358,
+   "impossible": 33,
+   "impossible_share": 0.0922
+  },
+  {
+   "threshold": 21.0,
+   "retained": 397,
+   "dated": 331,
+   "impossible": 30,
+   "impossible_share": 0.0906
+  },
+  {
+   "threshold": 21.5,
+   "retained": 381,
+   "dated": 317,
+   "impossible": 29,
+   "impossible_share": 0.0915
+  },
+  {
+   "threshold": 22.0,
+   "retained": 356,
+   "dated": 298,
+   "impossible": 26,
+   "impossible_share": 0.0872
+  },
+  {
+   "threshold": 22.5,
+   "retained": 340,
+   "dated": 285,
+   "impossible": 26,
+   "impossible_share": 0.0912
+  },
+  {
+   "threshold": 23.0,
+   "retained": 323,
+   "dated": 270,
+   "impossible": 25,
+   "impossible_share": 0.0926
+  },
+  {
+   "threshold": 23.5,
+   "retained": 306,
+   "dated": 257,
+   "impossible": 25,
+   "impossible_share": 0.0973
+  },
+  {
+   "threshold": 24.0,
+   "retained": 290,
+   "dated": 244,
+   "impossible": 21,
+   "impossible_share": 0.0861
+  },
+  {
+   "threshold": 24.5,
+   "retained": 278,
+   "dated": 233,
+   "impossible": 21,
+   "impossible_share": 0.0901
+  },
+  {
+   "threshold": 25.0,
+   "retained": 266,
+   "dated": 221,
+   "impossible": 21,
+   "impossible_share": 0.095
+  },
+  {
+   "threshold": 25.5,
+   "retained": 253,
+   "dated": 209,
+   "impossible": 20,
+   "impossible_share": 0.0957
+  },
+  {
+   "threshold": 26.0,
+   "retained": 240,
+   "dated": 201,
+   "impossible": 20,
+   "impossible_share": 0.0995
+  },
+  {
+   "threshold": 26.5,
+   "retained": 227,
+   "dated": 190,
+   "impossible": 19,
+   "impossible_share": 0.1
+  },
+  {
+   "threshold": 27.0,
+   "retained": 217,
+   "dated": 181,
+   "impossible": 18,
+   "impossible_share": 0.0994
+  },
+  {
+   "threshold": 27.5,
+   "retained": 204,
+   "dated": 169,
+   "impossible": 16,
+   "impossible_share": 0.0947
+  },
+  {
+   "threshold": 28.0,
+   "retained": 197,
+   "dated": 162,
+   "impossible": 16,
+   "impossible_share": 0.0988
+  },
+  {
+   "threshold": 28.5,
+   "retained": 189,
+   "dated": 156,
+   "impossible": 16,
+   "impossible_share": 0.1026
+  },
+  {
+   "threshold": 29.0,
+   "retained": 180,
+   "dated": 147,
+   "impossible": 15,
+   "impossible_share": 0.102
+  },
+  {
+   "threshold": 29.5,
+   "retained": 170,
+   "dated": 141,
+   "impossible": 14,
+   "impossible_share": 0.0993
+  },
+  {
+   "threshold": 30.0,
+   "retained": 163,
+   "dated": 134,
+   "impossible": 14,
+   "impossible_share": 0.1045
+  },
+  {
+   "threshold": 30.5,
+   "retained": 154,
+   "dated": 128,
+   "impossible": 13,
+   "impossible_share": 0.1016
+  },
+  {
+   "threshold": 31.0,
+   "retained": 146,
+   "dated": 120,
+   "impossible": 13,
+   "impossible_share": 0.1083
+  },
+  {
+   "threshold": 31.5,
+   "retained": 136,
+   "dated": 111,
+   "impossible": 12,
+   "impossible_share": 0.1081
+  },
+  {
+   "threshold": 32.0,
+   "retained": 126,
+   "dated": 105,
+   "impossible": 12,
+   "impossible_share": 0.1143
+  },
+  {
+   "threshold": 32.5,
+   "retained": 122,
+   "dated": 101,
+   "impossible": 11,
+   "impossible_share": 0.1089
+  },
+  {
+   "threshold": 33.0,
+   "retained": 117,
+   "dated": 97,
+   "impossible": 10,
+   "impossible_share": 0.1031
+  },
+  {
+   "threshold": 33.5,
+   "retained": 112,
+   "dated": 93,
+   "impossible": 10,
+   "impossible_share": 0.1075
+  },
+  {
+   "threshold": 34.0,
+   "retained": 108,
+   "dated": 89,
+   "impossible": 8,
+   "impossible_share": 0.0899
+  },
+  {
+   "threshold": 34.5,
+   "retained": 104,
+   "dated": 86,
+   "impossible": 8,
+   "impossible_share": 0.093
+  },
+  {
+   "threshold": 35.0,
+   "retained": 98,
+   "dated": 82,
+   "impossible": 7,
+   "impossible_share": 0.0854
+  },
+  {
+   "threshold": 35.5,
+   "retained": 94,
+   "dated": 78,
+   "impossible": 6,
+   "impossible_share": 0.0769
+  },
+  {
+   "threshold": 36.0,
+   "retained": 91,
+   "dated": 76,
+   "impossible": 6,
+   "impossible_share": 0.0789
+  },
+  {
+   "threshold": 36.5,
+   "retained": 89,
+   "dated": 74,
+   "impossible": 6,
+   "impossible_share": 0.0811
+  },
+  {
+   "threshold": 37.0,
+   "retained": 86,
+   "dated": 72,
+   "impossible": 6,
+   "impossible_share": 0.0833
+  },
+  {
+   "threshold": 37.5,
+   "retained": 82,
+   "dated": 68,
+   "impossible": 5,
+   "impossible_share": 0.0735
+  },
+  {
+   "threshold": 38.0,
+   "retained": 78,
+   "dated": 64,
+   "impossible": 5,
+   "impossible_share": 0.0781
+  },
+  {
+   "threshold": 38.5,
+   "retained": 74,
+   "dated": 60,
+   "impossible": 5,
+   "impossible_share": 0.0833
+  },
+  {
+   "threshold": 39.0,
+   "retained": 69,
+   "dated": 56,
+   "impossible": 5,
+   "impossible_share": 0.0893
+  },
+  {
+   "threshold": 39.5,
    "retained": 67,
-   "dated": 20,
-   "impossible": 0,
-   "impossible_share": 0.0
+   "dated": 54,
+   "impossible": 5,
+   "impossible_share": 0.0926
   }
  ]
 }

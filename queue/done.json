@@ -68,5 +68,25 @@
   "file": "2026-09-05-02-supply-backfill.json",
   "rc": 0,
   "finished": "retired: superseded"
+ },
+ {
+  "file": "2026-09-04-10-listeners.json",
+  "rc": 0,
+  "finished": "2026-09-05T15:11:08Z"
+ },
+ {
+  "file": "2026-09-05-03-metadata.json",
+  "rc": 0,
+  "finished": "2026-09-05T15:41:46Z"
+ },
+ {
+  "file": "2026-09-05-04-supply-all.json",
+  "rc": 0,
+  "finished": "2026-09-05T15:43:46Z"
+ },
+ {
+  "file": "2026-09-05-10-mixrescan-clean.json",
+  "rc": 0,
+  "finished": "2026-09-05T19:58:54Z"
  }
 ]
