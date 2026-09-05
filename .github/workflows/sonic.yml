@@ -185,10 +185,22 @@ jobs:
         run: |
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
-          git pull --rebase --autostash -q origin main || true
           git add -f sonic.db 2>/dev/null || true
           git add data/ queue/ 2>/dev/null || true
           git add backfill-report.md backfill-report.json 2>/dev/null || true
           git add CLAIMS.md 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "${{ inputs.mode || 'weekly' }} run $(date +%G-W%V)"
-          git push
+          git diff --cached --quiet && { echo "nothing to persist"; exit 0; }
+          git commit -q -m "${{ inputs.mode || 'weekly' }} run $(date +%G-W%V)"
+          # a push race must never cost a night's work: rebase and retry, and for the
+          # database (a binary we own) take our own copy rather than fail on a conflict
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main
+            if git rebase -q origin/main; then :; else
+              git checkout --ours sonic.db 2>/dev/null || true
+              git add -f sonic.db 2>/dev/null || true
+              GIT_EDITOR=true git rebase --continue || git rebase --abort
+            fi
+            if git push -q origin HEAD:main; then echo "persisted on attempt $i"; exit 0; fi
+            sleep $((i*10))
+          done
+          echo "persist failed after five attempts"; exit 1
