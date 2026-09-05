@@ -47,18 +47,18 @@ def _decoder_fingerprint() -> str:
         parts.append(soundfile.__libsndfile_version__)
     except Exception:
         parts.append("no-sndfile")
-    parts.append(librosa.__version__)
+    parts.append(librosa.__version__); parts.append("emb45")
     return hashlib.sha1("|".join(parts).encode()).hexdigest()[:8]
 
 
 class LocalAnalyser(Analyser):
     analyser_id = "local"
-    version = "1"
+    version = "2"          # 2: full 45-dim embedding, spectral contrast no longer truncated away
 
     def __init__(self, sr: int = 22050, max_seconds: float = 120.0):
         self.sr = sr
         self.max_seconds = max_seconds
-        self.version = f"1+{_decoder_fingerprint()}"
+        self.version = f"2+{_decoder_fingerprint()}"
 
     def analyse(self, audio_ref: str) -> FeatureVector:
         y, sr = librosa.load(audio_ref, sr=self.sr, mono=True,
@@ -157,9 +157,11 @@ class LocalAnalyser(Analyser):
             chroma.mean(axis=1),                          # 12
             contrast.mean(axis=1),                        # 7
         ]
-        v = np.concatenate(parts).astype(float)
+        v = np.concatenate(parts).astype(float)   # 13+13+12+7 = 45
         # per-dim robust scaling so no single family dominates
         v = (v - np.median(v)) / (np.percentile(np.abs(v - np.median(v)), 75) or 1.0)
+        # v2: the old 32-dim cut kept the MFCCs, half the chroma and none of the spectral
+        # contrast — the descriptor most tied to how produced a record sounds. Keep all 45.
         if v.size >= EMBED_DIM:
             v = v[:EMBED_DIM]
         else:

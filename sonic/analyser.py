@@ -17,7 +17,9 @@ import os
 import urllib.request
 from dataclasses import dataclass, field, asdict
 
-EMBED_DIM = 32  # pilot-scale; Cyanite impl projects its embedding down to this
+EMBED_DIM = 45  # 13 MFCC means + 13 MFCC deviations + 12 chroma + 7 spectral contrast.
+                # The old 32 truncated spectral contrast away entirely, which is the
+                # descriptor most tied to how produced a record sounds.
 
 
 @dataclass
