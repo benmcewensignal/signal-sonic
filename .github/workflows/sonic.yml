@@ -134,6 +134,10 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'supply'
         run: python -m sonic.supply --db sonic.db --fetch --months 24 --out data/supply.json
 
+      - name: texture names (what the residual actually is)
+        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'backfill' || inputs.mode == 'artists'))
+        run: python -m sonic.texture --db sonic.db --out data/texture.json || true
+
       - name: supply series (Beatport month totals + what moves first)
         if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'backfill' || inputs.mode == 'artists'))
         run: python -m sonic.supply --db sonic.db --out data/supply.json || true

@@ -68,6 +68,7 @@ def main():
     # joins after the work, so the data files reflect it
     if touched_mixes:
         run([sys.executable, "-m", "sonic.calibrate_plays", "--db", "sonic.db"], log)
+    run([sys.executable, "-m", "sonic.texture", "--db", "sonic.db", "--out", "data/texture.json"], log)
     run([sys.executable, "-m", "sonic.supply", "--db", "sonic.db", "--out", "data/supply.json"], log)
     run([sys.executable, "-m", "sonic.artists", "--db", "sonic.db", "--site", "https://www.earlysignal.live", "--out", "data/artists-latest.json"], log)
     run([sys.executable, "-m", "sonic.venues", "--site", "https://www.earlysignal.live", "--artists", "data/artists-latest.json", "--out", "data/venues-latest.json"], log)
