@@ -252,6 +252,53 @@ def load_leadership(db, R, B):
     pnb.sort(key=lambda x: -x["set_plays"])
     return edge, labels, pnb[:30]
 
+def artist_attribution(db):
+    """Per artist: how far their 2026 records sit from their scene's current sound, and
+    how much of that gap the named ingredients account for. Fits, per scene, distance
+    from the centre against absolute ingredient deviation; the residual is texture."""
+    import numpy as np
+    c = sqlite3.connect(db); c.row_factory = sqlite3.Row
+    meta = {r["track_id"]: json.loads(r["artists"]) for r in c.execute(
+        "select track_id, artists from track_meta where artists is not null")}
+    KEYS = ["bass_weight", "drum_density", "drum_swing", "vocal_presence", "tempo"]
+    LAB = ["bass", "drums", "swing", "vocal", "tempo"]
+    S = collections.defaultdict(list)
+    for r in c.execute("""select ts.scene, ts.week, ts.track_id, t.features from track_scenes ts
+                          join tracks t on t.track_id=ts.track_id and t.analyser_id='local'"""):
+        if r["week"][:4] != "2026": continue
+        f = json.loads(r["features"]); v = np.array(f["embedding"])
+        S[r["scene"]].append((r["track_id"], v / (np.linalg.norm(v) or 1), f))
+    out = {}
+    for sc, rows in S.items():
+        if len(rows) < 80: continue
+        V = np.array([v for _, v, _ in rows]); N = V.mean(axis=0); N = N / (np.linalg.norm(N) or 1)
+        X, ok = [], []
+        for t, v, f in rows:
+            xs = [f.get(k) for k in KEYS]
+            if any(x is None for x in xs): continue
+            X.append(xs); ok.append((t, v))
+        if len(ok) < 60: continue
+        X = np.array(X, dtype=float); mu = X.mean(0); sd = X.std(0); sd[sd == 0] = 1
+        Xz = (X - mu) / sd
+        y = np.array([1 - float(v @ N) for _, v in ok])
+        A = np.column_stack([np.ones(len(Xz)), np.abs(Xz)])
+        beta, _, _, _ = np.linalg.lstsq(A, y, rcond=None)
+        pred = A @ beta
+        r2 = 1 - ((y - pred) ** 2).sum() / ((((y - y.mean()) ** 2).sum()) or 1e-9)
+        spread = y.std() or 1e-9
+        art = collections.defaultdict(list)
+        for i, (t, v) in enumerate(ok):
+            for n in meta.get(t, []): art[norm(n)].append(i)
+        for k, idx in art.items():
+            if len(idx) < 2: continue
+            gap = (float(np.mean([y[i] for i in idx])) - y.mean()) / spread
+            ing = (float(np.mean([pred[i] for i in idx])) - y.mean()) / spread
+            out[k] = {"gap": round(gap, 1), "ing": round(ing, 1), "tex": round(gap - ing, 1),
+                      "r2": round(r2, 2), "n": len(idx),
+                      "dev": {LAB[j]: round(float(np.mean([Xz[i][j] for i in idx])), 1) for j in range(5)}}
+    return out
+
+
 def build(db, site):
     B, dates = load_bookings(site)
     R, n_meta = load_releases(db)
@@ -399,6 +446,10 @@ def main():
     for k, iv in _int.items():
         by_scene.setdefault(LEAD_MAP[k]["scene"], []).append(iv)
     rank_scene = {sc: deciles(vs) for sc, vs in by_scene.items()}
+    try:
+        ATTRIB = artist_attribution(db)
+    except Exception:
+        ATTRIB = {}
     idx = {}
     for k, v in out.get("artist_leadership", {}).items():
         b = next((a["bookings"] for a in out["artists"] if a["key"] == k and a.get("bookings")), None) or {}
@@ -406,6 +457,7 @@ def main():
                   "dna": v.get("dna"), "t": v.get("tempo"), "bk": b.get("slots", 0), "c": list((b.get("cities") or {}).keys())[:3], "i": b.get("interest", 0),
                   "tier": SCALE.get(k, {}).get("tier"),
                   "lis": (pop.get(k) or {}).get("listeners"),
+                  "att": ATTRIB.get(k),
                   "pd": rank_all(_int.get(k)),
                   "psd": (rank_scene.get(v["scene"]) or (lambda x: None))(_int.get(k))}
     json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(a.out.replace("artists-latest", "artist-lookup"), "w"), ensure_ascii=False, separators=(",", ":"))
