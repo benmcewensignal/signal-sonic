@@ -73,23 +73,42 @@ def build(db):
         N = np.mean([v for _, _, v, _ in now], axis=0)
         u = (N - H); nrm = np.linalg.norm(u) or 1e-9; u = u / nrm
         proj = np.array([float(v @ u) for _, _, v, _ in rows])
-        named = []
+        named = []; colvals = {}
         for label, blurb, fn, (lo, hi) in MEASURES:
             vals = []
             for _, _, _, f in rows:
                 ec = f.get("energy_curve")
                 ec = np.array(ec, float) if ec and len(ec) == 8 else None
                 vals.append(fn(f, ec))
+            colvals[label] = vals
             r_, n = corr(proj, vals)
             if np.isnan(r_) or abs(r_) < MIN_R: continue
             named.append({"measure": label, "what": blurb, "r": round(r_, 2), "n": n,
                           "reading": hi if r_ > 0 else lo})
         named.sort(key=lambda x: -abs(x["r"]))
+        # several measures come off the same energy curve and move together (range, jolt and
+        # pumping correlate 0.76-0.95), so keep the strongest of any collinear group: three
+        # names for one thing is three times the apparent evidence.
+        kept, kept_vals = [], []
+        for m in named:
+            vals = np.asarray(colvals[m["measure"]], float)
+            if any(abs(corr(vals, kv)[0]) > 0.6 for kv in kept_vals): continue
+            kept.append(m); kept_vals.append(vals)
+        named = kept
         # exemplars: the records furthest along the shift in each direction, so a label can be checked by ear
         idx = np.argsort(proj)
         ex_lo = [rows[i][1] for i in idx[:3]]
         ex_hi = [rows[i][1] for i in idx[-3:]][::-1]
-        out[sc] = {"named": named, "unnamed": not named,
+        # is the leading name just time passing? check it within the home window alone
+        within = None
+        if named:
+            v0 = np.asarray(colvals[named[0]["measure"]], float)
+            hp = np.array([float(v @ u) for _, _, v, _ in home])
+            hv = v0[:len(home)] if len(v0) >= len(home) else None
+            idx_home = [i for i, r_ in enumerate(rows) if r_[0] <= HOME_END]
+            hv = v0[idx_home]
+            within = round(corr(hp, hv)[0], 2) if len(idx_home) > 30 else None
+        out[sc] = {"named": named, "unnamed": not named, "within_home_window": within,
                    "exemplars": {"toward_the_new_sound": ex_hi, "away_from_it": ex_lo},
                    "records": len(rows)}
     return {"generated": __import__("time").strftime("%Y-%m-%dT%H:%M:%SZ", __import__("time").gmtime()),
