@@ -198,7 +198,7 @@ def load_leadership(db, R, B):
             rows.append({"name": v["name"], "key": k, "z": round(z, 1), "z_adj": round(z * n / (n + K), 2),
                          "dist": round(dist, 1), "align": round(align, 1), "pos": pos,
                          "records": n, "set_plays": v["plays"],
-                         "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {})),
+                         "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": (B.get(k) or {}).get("n_cities", 0),
                          "tier": sc_.get("tier", "unbooked"), "per_event": sc_.get("per_event", 0)})
         rows.sort(key=lambda x: -x["z_adj"])
         known = [r for r in rows if r["ra_slots"] >= 3]
@@ -214,7 +214,11 @@ def load_leadership(db, R, B):
                 regime = "stars lead" if ahead >= 0.6 else "stars behind" if behind >= 0.6 else "mixed"
         if rows:
             edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1],
-                        "established": sorted(known, key=lambda r: (-r["ra_slots"], -r["dist"]))[:6], "established_n": len(known), "regime": regime,
+                        # cities played, not bookings: a resident with a dozen small nights is not
+                        # a bigger name than someone playing eight cities, and one festival lineup
+                        # can inflate a total-interest ranking on its own.
+                        "established": sorted(known, key=lambda r: (-r.get("cities", 0), -r["ra_slots"]))[:6],
+                        "established_n": len(known), "regime": regime,
                         "named_2026_records": sum(len(v["z"]) for v in art.values())}
         DISTRIBUTORS = {"distrokid", "united masters", "unitedmasters", "cd baby", "cdbaby", "tunecore",
                         "believe", "the orchard", "amuse", "symphonic", "label engine", "labelworx", "routenote"}
