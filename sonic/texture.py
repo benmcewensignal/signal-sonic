@@ -56,6 +56,34 @@ def corr(a, b):
     return float(np.corrcoef(a, b)[0, 1]), len(a)
 
 
+# The embedding is 13 MFCC means, 13 MFCC standard deviations and the first 6 chroma
+# bins (spectral contrast is computed but truncated away before storage). MFCC0 is
+# overall level, MFCC1 the bass-to-treble balance, and the standard deviations say how
+# much each moves through the record. That is enough to say what a shift sounds like.
+DIMS = {
+    0:  ("loudness", "louder, hotter", "quieter, more headroom"),
+    1:  ("tone balance", "brighter, less bass-dominant", "darker, more weighted to the low end"),
+    2:  ("spectral shape", "shifted in mid-range colour", "shifted the other way in mid-range colour"),
+    3:  ("spectral shape", "a fuller mid-range", "a hollower mid-range"),
+    13: ("loudness movement", "more level movement through a record", "flatter, more uniformly loud"),
+    14: ("tone movement", "more tonal change through a record", "steadier in tone"),
+}
+
+
+def sound_of_shift(u, top=3):
+    """Say what a scene's shift sounds like, using the named embedding dimensions."""
+    import numpy as np
+    order = np.argsort(-np.abs(u))
+    out = []
+    for i in order:
+        i = int(i)
+        if i not in DIMS: continue
+        label, hi, lo = DIMS[i]
+        out.append({"dimension": label, "loading": round(float(u[i]), 2),
+                    "reading": hi if u[i] > 0 else lo})
+        if len(out) >= top: break
+    return out
+
 def build(db):
     c = sqlite3.connect(db); c.row_factory = sqlite3.Row
     S = collections.defaultdict(list)
@@ -109,6 +137,7 @@ def build(db):
             hv = v0[idx_home]
             within = round(corr(hp, hv)[0], 2) if len(idx_home) > 30 else None
         out[sc] = {"named": named, "unnamed": not named, "within_home_window": within,
+                   "sound": sound_of_shift(u),
                    "exemplars": {"toward_the_new_sound": ex_hi, "away_from_it": ex_lo},
                    "records": len(rows)}
     return {"generated": __import__("time").strftime("%Y-%m-%dT%H:%M:%SZ", __import__("time").gmtime()),
