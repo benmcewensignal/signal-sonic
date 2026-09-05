@@ -182,10 +182,10 @@ def load_leadership(db, R, B):
         # is mostly noise, so z_adj = z * n/(n+K). Ranking on z_adj stops the board
         # filling with two-record flukes (80 of 117 ranked rows before this).
         K = 3.0
-        rows = []
+        rows, rows_thin = [], []
         for k, v in art.items():
             n = len(v["z"])
-            if n < 2: continue
+            if n < 1: continue
             z = statistics.mean(v["z"])
             sc_ = SCALE.get(k) or {}
             if not sc_:
@@ -195,13 +195,17 @@ def load_leadership(db, R, B):
             dist = (1 - float(cen @ N)) / spread
             align = float(np.dot(cen - N, mv) / mvn) / spread
             pos = "ahead" if align >= 0.5 else ("behind" if align <= -0.5 else ("centre" if dist < 0.5 else "aside"))
-            rows.append({"name": v["name"], "key": k, "z": round(z, 1), "z_adj": round(z * n / (n + K), 2),
+            (rows if n >= 2 else rows_thin).append({"name": v["name"], "key": k, "z": round(z, 1), "z_adj": round(z * n / (n + K), 2),
+                         "thin": n < 2,
                          "dist": round(dist, 1), "align": round(align, 1), "pos": pos,
                          "records": n, "set_plays": v["plays"],
                          "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": (B.get(k) or {}).get("n_cities", 0),
                          "tier": sc_.get("tier", "unbooked"), "per_event": sc_.get("per_event", 0)})
         rows.sort(key=lambda x: -x["z_adj"])
-        known = [r for r in rows if r["ra_slots"] >= 3]
+        # the established list ranks by cities played, so a single record is enough to place a
+        # big name in it; its sound position is marked thin. The newest-sound board ranks BY
+        # sound position, so it keeps the two-record minimum.
+        known = [r for r in (rows + rows_thin) if r["ra_slots"] >= 3]
         regime = None
         if len(known) >= 4:
             centre_share = sum(1 for r in known if r["dist"] < 0.5) / len(known)
@@ -245,7 +249,10 @@ def load_leadership(db, R, B):
               and len(z) / max(1, LABEL_TOTAL.get(l, len(z))) >= 0.5      # this scene is its main business
               and len(LABEL_ARTISTS.get(l, ())) >= 2]                      # 1 artist = a self-release channel
         lr = [dict(r, **_lab_extra(r["label"])) for r in lr]
-        lr.sort(key=lambda x: -x["z"])
+        # rank by how far along the scene's own direction of travel a label sits, not by raw
+        # distance from 2024: a label can be far from the old sound in a direction the scene
+        # is not going, and that is not the same as leading it.
+        lr.sort(key=lambda x: -(x.get("align") if x.get("align") is not None else -9))
         if lr: labels[sc] = lr[:6]
     pnb = [{"name": v["name"], "set_plays": v["plays"], "records_2026": v["records"], "ra_slots": (B.get(k) or {}).get("slots", 0)}
            for k, v in played.items() if v["plays"] >= 2 and (B.get(k) or {}).get("slots", 0) <= 1]
