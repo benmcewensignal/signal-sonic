@@ -282,7 +282,7 @@ def cmd_scan(args):
             for r in store.conn.execute(
                     "SELECT mix_url, source, title, published FROM mixes "
                     "WHERE scene=? AND error IS NULL AND (matcher_v IS NULL OR matcher_v < ?) "
-                    "AND (published IS NULL OR substr(published,1,10) >= '""" + "2024-08-01" + """') "
+                    "AND (published IS NULL OR substr(published,1,10) >= '2024-08-01') "
                     "ORDER BY COALESCE(duration_s, 99999) ASC", (scene, fp.MATCHER_V)):
                 cands.append({"url": r[0], "source": r[1], "title": r[2] or "", "published": r[3], "plays": 10**9, "_age": 0})
             fresh = cands; n_raw = len(cands)
