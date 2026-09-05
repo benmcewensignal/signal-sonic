@@ -114,10 +114,50 @@ def build(db, gmap_path="scene_map.json"):
             "lead_lag_note": "monthly change in sound against monthly change in output, pooled; negative lag = sound moved first"}
 
 
+def fetch_counts(db, scene_map_path="scene_map.json", months=24):
+    """Ask Beatport how many records each genre released each month. Counts only:
+    no audio, no analysis, ~20 genres x 24 months of cheap calls, so the supply
+    series can cover every scene rather than only the ones we happened to backfill."""
+    import sqlite3, datetime, calendar
+    from .beatport import get_token, _get
+    m = json.load(open(scene_map_path))
+    genres = [(k, v["scene"]) for k, v in m.items() if not k.startswith("_")]
+    token = get_token()
+    c = sqlite3.connect(db)
+    c.execute("""create table if not exists scene_supply(
+        genre_id text, month text, total integer, fetched_at text,
+        primary key (genre_id, month))""")
+    today = datetime.date.today().replace(day=1)
+    got = miss = 0
+    for i in range(months):
+        y, mo = divmod((today.year * 12 + today.month - 1) - (i + 1), 12)
+        mo += 1
+        start = f"{y}-{mo:02d}-01"; end = f"{y}-{mo:02d}-{calendar.monthrange(y, mo)[1]}"
+        month = f"{y}-M{mo:02d}"
+        for gid, scene in genres:
+            try:
+                d = _get("/catalog/tracks/", token,
+                         {"genre_id": gid, "per_page": 1, "publish_date": f"{start}:{end}"})
+                n = d.get("count")
+                if n is None: miss += 1; continue
+                c.execute("insert or replace into scene_supply values(?,?,?,datetime('now'))", (str(gid), month, int(n)))
+                got += 1
+            except Exception:
+                miss += 1
+        c.commit()
+        print(f"  {month}: {got} totals so far, {miss} missing", flush=True)
+    print(f"supply fetch: {got} genre-months stored, {miss} failed", flush=True)
+    return got
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default="sonic.db"); ap.add_argument("--out", default="data/supply.json")
+    ap.add_argument("--fetch", action="store_true", help="ask Beatport for month totals for every genre first")
+    ap.add_argument("--months", type=int, default=24)
     a = ap.parse_args()
+    if a.fetch:
+        fetch_counts(a.db, months=a.months)
     out = build(a.db)
     json.dump(out, open(a.out, "w"), ensure_ascii=False, separators=(",", ":"))
     print(json.dumps({"scenes": len(out["scenes"]), "months": len(out["months"]),

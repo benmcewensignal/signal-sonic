@@ -11,7 +11,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners]
+        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners, supply]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -129,6 +129,10 @@ jobs:
       - name: calibrate set-layer matcher against the chronological null
         if: github.event_name == 'workflow_dispatch' && (inputs.mode == 'mixrescan' || inputs.mode == 'mixscan' || inputs.mode == 'artists')
         run: python -m sonic.calibrate_plays --db sonic.db || true
+
+      - name: supply counts for every genre (on demand)
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'supply'
+        run: python -m sonic.supply --db sonic.db --fetch --months 24 --out data/supply.json
 
       - name: supply series (Beatport month totals + what moves first)
         if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'backfill' || inputs.mode == 'artists'))

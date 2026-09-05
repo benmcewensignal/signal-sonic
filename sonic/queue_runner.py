@@ -46,6 +46,9 @@ def main():
             cmd = [sys.executable, "-m", "sonic.discover", "scan", "--db", "sonic.db", "--max-minutes", "110", "--budget-minutes", str(max(20, remaining))]
             cmd += ["--rescan"] if mode == "mixrescan" else ["--per-scene", str(job.get("per_scene", 2))]
             rc = run(cmd, log); touched_db = touched_mixes = True
+        elif mode == "supply":
+            rc = run([sys.executable, "-m", "sonic.supply", "--db", "sonic.db", "--fetch",
+                      "--months", str(job.get("months", 24)), "--out", "data/supply.json"], log); touched_db = True
         elif mode == "listeners":
             rc = run([sys.executable, "-m", "sonic.listeners", "--db", "sonic.db", "--limit", str(job.get("limit", 800))], log); touched_db = True
         elif mode == "names":
