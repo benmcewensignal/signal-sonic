@@ -38,5 +38,35 @@
   "file": "2026-09-04-02-mixrescan.json",
   "rc": 0,
   "finished": "2026-09-05T10:21:37Z"
+ },
+ {
+  "file": "2026-09-04-09-mixrescan-again.json",
+  "rc": 0,
+  "finished": "retired: superseded"
+ },
+ {
+  "file": "2026-09-04-13-mixrescan-fixed.json",
+  "rc": 0,
+  "finished": "retired: superseded"
+ },
+ {
+  "file": "2026-09-05-01-mixrescan.json",
+  "rc": 0,
+  "finished": "retired: superseded"
+ },
+ {
+  "file": "2026-09-04-11-supply-2024.json",
+  "rc": 0,
+  "finished": "retired: superseded"
+ },
+ {
+  "file": "2026-09-04-12-supply-2025a.json",
+  "rc": 0,
+  "finished": "retired: superseded"
+ },
+ {
+  "file": "2026-09-05-02-supply-backfill.json",
+  "rc": 0,
+  "finished": "retired: superseded"
  }
 ]
