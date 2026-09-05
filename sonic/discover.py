@@ -34,6 +34,8 @@ from . import fingerprints as fp
 UA = {"User-Agent": "signal-sound-layer/0.1 (research; earlysignal.live)"}
 MIX_RATES = (0.97, 1.0, 1.03)
 
+CORPUS_START = "2024-08-01"   # a mix published before the corpus cannot contain our records:
+                              # every match it produces is a false positive by construction
 MIX_SCHEMA = """
 CREATE TABLE IF NOT EXISTS mixes (
     mix_url     TEXT PRIMARY KEY,
@@ -288,6 +290,7 @@ def cmd_scan(args):
             for tag in taglist:
                 cands += nts_search(tag, pool)
                 cands += mixcloud_popular(tag, pool)
+            cands = [c for c in cands if not c.get("published") or str(c["published"])[:10] >= CORPUS_START]
             fresh = [c for c in cands if not store.conn.execute(
                 "SELECT 1 FROM mixes WHERE mix_url=? AND error IS NULL",
                 (c["url"],)).fetchone()]
