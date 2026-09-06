@@ -407,11 +407,11 @@ def cmd_scan(args):
                 if path:
                     try:
                         os.unlink(path)
+                    except OSError:
+                        pass
                     try:
                         import shutil; shutil.rmtree(os.path.dirname(path), ignore_errors=True)
                     except Exception:
-                        pass
-                    except OSError:
                         pass
     print(json.dumps({"mixes_scanned": scanned, "failed": failed,
                       "fingerprint_index": n_indexed}))
