@@ -20,11 +20,24 @@ def run(cmd, log):
                 "tail": list(tail)})
     return p.returncode
 
-def _write_log(log):
+def _write_log(log, push=False):
     try:
         json.dump({"ran": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "log": log}, open("queue/last-run.json", "w"), indent=1)
     except Exception:
-        pass
+        return
+    if push and os.environ.get("GITHUB_ACTIONS"):
+        # the run may be killed before persist: put the evidence on main now, best effort
+        try:
+            subprocess.run(["git", "config", "user.name", "sonic-bot"], check=False)
+            subprocess.run(["git", "config", "user.email", "sonic@earlysignal.live"], check=False)
+            subprocess.run(["git", "add", "queue/last-run.json"], check=False)
+            subprocess.run(["git", "commit", "-q", "-m", "queue log (in progress)"], check=False)
+            subprocess.run(["git", "fetch", "-q", "origin", "main"], check=False)
+            subprocess.run(["git", "rebase", "-q", "origin/main"], check=False)
+            r = subprocess.run(["git", "push", "-q", "origin", "HEAD:main"], capture_output=True, text=True)
+            if r.returncode: subprocess.run(["git", "rebase", "--abort"], check=False)
+        except Exception:
+            pass
 
 
 def main():
@@ -46,6 +59,12 @@ def main():
         except Exception as e:
             log.append({"cmd": f"read {os.path.basename(f)}", "rc": 98, "tail": [repr(e)]}); continue
         mode = job.get("mode"); remaining = int(a.budget_minutes - elapsed - 20)
+        try:
+            st_ = os.statvfs("."); free_gb = st_.f_bavail * st_.f_frsize / 1e9
+            log.append({"cmd": f"before {mode}: free disk {free_gb:.1f} GB", "rc": 0})
+            print(f"free disk {free_gb:.1f} GB", flush=True)
+        except Exception:
+            pass
         print(f"\n=== {os.path.basename(f)}: {job}", flush=True)
         rc = 0
         try:
@@ -88,6 +107,7 @@ def main():
             rc = 97
             log.append({"cmd": f"{mode} ({os.path.basename(f)})", "rc": 97, "tail": traceback.format_exc().splitlines()[-6:]})
             print(f"job {mode} raised: {e!r}", flush=True)
+        _write_log(log, push=True)
         done.append({"file": os.path.basename(f), "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
         json.dump(done, open(done_path, "w"), indent=1)
         if rc and mode in ("mixscan", "mixrescan") and (time.time() - t_start) / 60 > a.budget_minutes - 30:
