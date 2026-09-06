@@ -249,7 +249,11 @@ def cmd_scan(args):
     except Exception:
         pass
     for ddl in ("ALTER TABLE mix_plays ADD COLUMN wvotes REAL",
-                "ALTER TABLE mixes ADD COLUMN matcher_v INTEGER"):
+                "ALTER TABLE mixes ADD COLUMN matcher_v INTEGER",
+                "ALTER TABLE mixes ADD COLUMN plays INTEGER",
+                "ALTER TABLE mixes ADD COLUMN followers INTEGER",
+                "ALTER TABLE mixes ADD COLUMN dj TEXT",
+                "ALTER TABLE mixes ADD COLUMN pop_at REAL"):
         try:
             store.conn.execute(ddl); store.conn.commit()
         except Exception:
@@ -284,7 +288,7 @@ def cmd_scan(args):
                     "WHERE scene=? AND error IS NULL AND (matcher_v IS NULL OR matcher_v < ?) "
                     "AND (published IS NULL OR substr(published,1,10) >= '2024-08-01') "
                     "ORDER BY COALESCE(duration_s, 99999) ASC", (scene, fp.MATCHER_V)):
-                cands.append({"url": r[0], "source": r[1], "title": r[2] or "", "published": r[3], "plays": 10**9, "_age": 0})
+                cands.append({"url": r[0], "source": r[1], "title": r[2] or "", "published": r[3], "plays": 10**9, "_age": 0, "_rescan": True})
             fresh = cands; n_raw = len(cands)
         else:
             pool = max(12, args.per_scene * 8)   # dedupe + filters eat most
@@ -321,11 +325,17 @@ def cmd_scan(args):
                                  (fp.MATCHER_ID, c["url"]))
                     conn.execute(
                         "INSERT OR REPLACE INTO mixes (mix_url, scene, source, title, published,"
-                        " scanned_at, duration_s, n_hits, unmatched_share, error, matcher_v)"
-                        " VALUES (?,?,?,?,?,?,?,?,?,NULL,?)",
+                        " scanned_at, duration_s, n_hits, unmatched_share, error, matcher_v,"
+                        " plays, followers, dj, pop_at)"
+                        " VALUES (?,?,?,?,?,?,?,?,?,NULL,?,?,?,?,?)",
                         (c["url"], scene, c["source"], c["title"], c["published"],
                          time.time(), int(dur), len(hits),
-                         round(1 - covered / dur, 3) if dur else None, fp.MATCHER_V))
+                         round(1 - covered / dur, 3) if dur else None, fp.MATCHER_V,
+                         (c.get("plays") if (c.get("plays") or 0) < 10**8 else None),
+                         c.get("followers"), c.get("artist"), time.time()))
+                    if (c.get("plays") or 0) and (c.get("plays") or 0) < 10**8:
+                        conn.execute("INSERT OR REPLACE INTO mix_pop VALUES (?,?,?,?,?)",
+                                     (c["url"], time.time(), c.get("plays"), c.get("followers"), c["source"]))
                     for h in hits:
                         conn.execute(
                             "INSERT OR REPLACE INTO mix_plays (mix_url, track_id, offset_s, votes, rate, wvotes) VALUES (?,?,?,?,?,?)",
