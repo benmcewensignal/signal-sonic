@@ -11,7 +11,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners, supply]
+        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners, supply, nts, discogs]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -93,6 +93,9 @@ jobs:
 
       - name: drain the job queue (push runs)
         if: github.event_name == 'push'
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: |
           # a push run is pinned to its triggering commit; long jobs must use current code
           git fetch origin main && git checkout -q origin/main -- sonic/ .github/workflows/ || true
@@ -149,6 +152,16 @@ jobs:
       - name: venue layer (after the artist join)
         if: (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1,4') || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'radepth' || inputs.mode == 'metadata' || inputs.mode == 'artists'))
         run: python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json
+
+      - name: NTS tracklists (ground truth for the set layer)
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'nts'
+        run: python -m sonic.nts_tracklists --db sonic.db --limit 200 --out data/nts-truth.json
+
+      - name: Discogs aliases and labels
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'discogs'
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        run: python -m sonic.discogs --db sonic.db --limit 600
 
       - name: streaming stock (Last.fm listeners per artist)
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'listeners'

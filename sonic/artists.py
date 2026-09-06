@@ -443,6 +443,19 @@ def main():
             below = sum(1 for x in vs if x < v)
             return min(10, max(1, int(below / len(vs) * 10) + 1))
         return rank
+    # aliases from Discogs: a booking under an alias or a group name joins to the release name
+    ALIAS = {}
+    try:
+        _c = sqlite3.connect(db)
+        for k, al, gr, me in _c.execute("select artist_key, aliases, groups, members from artist_aliases"):
+            for other in (json.loads(al or "[]") + json.loads(gr or "[]") + json.loads(me or "[]")):
+                ok_ = norm(other)
+                if ok_ and ok_ not in LEAD_MAP: ALIAS[ok_] = k
+    except Exception:
+        pass
+    for ok_, k in ALIAS.items():
+        if ok_ in B and k in LEAD_MAP and k not in B:
+            B[k] = B[ok_]                                  # the release name inherits the alias's bookings
     _booked = [(k, v) for k, v in LEAD_MAP.items()]
     _int = {}
     for k, v in LEAD_MAP.items():
