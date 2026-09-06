@@ -40,7 +40,7 @@ MIX_SCHEMA = """
 CREATE TABLE IF NOT EXISTS mixes (
     mix_url     TEXT PRIMARY KEY,
     scene       TEXT NOT NULL,
-    source      TEXT NOT NULL,          -- nts | mixcloud
+    source      TEXT NOT NULL,          -- nts | mixcloud | youtube
     title       TEXT,
     published   TEXT,
     scanned_at  REAL,
@@ -126,6 +126,53 @@ def mixcloud_popular(tag: str, limit: int = 6) -> list[dict]:
             print(f"  mixcloud variant failed ({type(e).__name__}: {str(e)[:60]})",
                   flush=True)
     return []
+
+
+# YouTube channels that book furthest ahead. Discovery uses yt-dlp's flat playlist
+# listing (no download), which carries title, upload date and view count; the audio
+# path is the same fetch_audio as Mixcloud. A channel is tagged with the scenes it
+# serves so its uploads enter the right candidate pools.
+YT_CHANNELS = {
+    "https://www.youtube.com/@HOR_BERLIN/videos": {"name": "HÖR", "scenes": ["techno-peak-time", "techno-raw-deep-hypnotic", "hard-techno", "house", "tech-house", "trance-main-floor"]},
+    "https://www.youtube.com/@boilerroom/videos": {"name": "Boiler Room", "scenes": ["house", "deep-house", "tech-house", "techno-peak-time", "uk-garage-speed-garage", "drum-and-bass", "amapiano", "afro-house", "breaks-breakbeat-uk-bass", "140-deep-dubstep-grime"]},
+}
+_YT_CACHE = {}
+
+
+def youtube_channel(url: str, limit: int = 60) -> list[dict]:
+    """Recent uploads on a channel via yt-dlp --flat-playlist: title, date, views, uploader."""
+    if url in _YT_CACHE: return _YT_CACHE[url]
+    out = []
+    try:
+        r = subprocess.run(["yt-dlp", "--flat-playlist", "--playlist-end", str(limit), "-J", url],
+                           capture_output=True, text=True, timeout=120)
+        d = json.loads(r.stdout or "{}")
+        for e in d.get("entries") or []:
+            if not e or not e.get("id"): continue
+            dur = e.get("duration") or 0
+            if dur and dur < 40 * 60: continue                       # a set, not a clip
+            up = e.get("upload_date") or ""
+            out.append({"url": f"https://www.youtube.com/watch?v={e['id']}", "title": e.get("title") or "",
+                        "published": (f"{up[:4]}-{up[4:6]}-{up[6:8]}" if len(up) == 8 else ""),
+                        "plays": e.get("view_count") or 0, "artist": (e.get("uploader") or e.get("channel") or "")[:60],
+                        "followers": e.get("channel_follower_count") or 0, "source": "youtube"})
+    except Exception as e:
+        print(f"  youtube listing failed ({type(e).__name__}: {str(e)[:60]})", flush=True)
+    _YT_CACHE[url] = out
+    return out
+
+
+def youtube_for_scene(scene: str, limit: int = 8) -> list[dict]:
+    """Uploads from the channels tagged with this scene whose title mentions it (or a tag of it)."""
+    words = [w for w in scene.replace("-", " ").split() if len(w) > 3]
+    out = []
+    for url, meta in YT_CHANNELS.items():
+        if scene not in meta["scenes"]: continue
+        for c in youtube_channel(url):
+            t = c["title"].lower()
+            if any(w in t for w in words) or meta["name"] == "HÖR":      # HÖR is techno by default
+                out.append(dict(c, artist=(c["title"].split(" | ")[0] if " | " in c["title"] else c["artist"])))
+    return out[:limit]
 
 
 MAX_AGE_DAYS = 120        # a "current" mix: older than this says little
@@ -295,6 +342,7 @@ def cmd_scan(args):
             for tag in taglist:
                 cands += nts_search(tag, pool)
                 cands += mixcloud_popular(tag, pool)
+            cands += youtube_for_scene(scene, pool)
             cands = [c for c in cands if not c.get("published") or str(c["published"])[:10] >= CORPUS_START]
             fresh = [c for c in cands if not store.conn.execute(
                 "SELECT 1 FROM mixes WHERE mix_url=? AND error IS NULL",
