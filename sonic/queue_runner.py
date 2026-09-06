@@ -41,18 +41,30 @@ def _write_log(log, push=False):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--budget-minutes", type=int, default=300); a = ap.parse_args()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--budget-minutes", type=int, default=75)
+    ap.add_argument("--max-jobs", type=int, default=1)
+    a = ap.parse_args()
     t_start = time.time(); budget = a.budget_minutes * 60
     done_path = "queue/done.json"
     done = json.load(open(done_path)) if os.path.exists(done_path) else []
     done_names = {d["file"] for d in done}
-    jobs = sorted(f for f in glob.glob("queue/*.json") if os.path.basename(f) != "done.json" and os.path.basename(f) not in done_names)
-    print(f"queue: {len(jobs)} pending, budget {a.budget_minutes} min", flush=True)
+    # a job that has failed twice is parked, not retried forever
+    fails = {}
+    for d in done:
+        if d["file"].endswith("#attempt"): fails[d["file"][:-8]] = fails.get(d["file"][:-8], 0) + 1
+    jobs = sorted(f for f in glob.glob("queue/*.json") if os.path.basename(f) not in ("done.json", "last-run.json")
+                  and os.path.basename(f) not in done_names)
+    print(f"queue: {len(jobs)} pending, budget {a.budget_minutes} min, max {a.max_jobs} job(s) this run", flush=True)
+    jobs_run = 0
     log = []; touched_db = False; touched_mixes = False
     import atexit; atexit.register(lambda: _write_log(log))
     for f in jobs:
+        if jobs_run >= a.max_jobs:
+            print(f"max jobs reached: leaving {os.path.basename(f)} and later for the next run", flush=True); break
+        jobs_run += 1
         elapsed = (time.time() - t_start) / 60
-        if elapsed > a.budget_minutes - 25:
+        if elapsed > a.budget_minutes - 15:
             print(f"budget nearly spent ({elapsed:.0f} min): leaving {os.path.basename(f)} and later for the next push", flush=True); break
         try:
             job = json.load(open(f))
@@ -75,14 +87,14 @@ def main():
           elif mode == "metadata":
               rc = run([sys.executable, "-m", "sonic.metadata", "--db", "sonic.db", "--limit", str(job.get("limit", 3000))], log); touched_db = True
           elif mode in ("mixscan", "mixrescan"):
-              cmd = [sys.executable, "-m", "sonic.discover", "scan", "--db", "sonic.db", "--max-minutes", "110", "--budget-minutes", str(max(20, remaining))]
+              cmd = [sys.executable, "-m", "sonic.discover", "scan", "--db", "sonic.db", "--max-minutes", "110", "--budget-minutes", str(max(20, min(55, remaining)))]
               cmd += ["--rescan"] if mode == "mixrescan" else ["--per-scene", str(job.get("per_scene", 2))]
               rc = run(cmd, log); touched_db = touched_mixes = True
           elif mode == "reindex":
               rc = run([sys.executable, "-m", "sonic.mixes", "reindex", "--db", "sonic.db", "--limit", str(job.get("limit", 900))], log); touched_mixes = True
           elif mode == "reanalyse":
               rc = run([sys.executable, "-m", "sonic.reanalyse", "--db", "sonic.db",
-                        "--limit", str(job.get("limit", 3000)), "--budget-minutes", str(max(20, remaining))], log); touched_db = True
+                        "--limit", str(job.get("limit", 3000)), "--budget-minutes", str(max(20, min(55, remaining)))], log); touched_db = True
           elif mode == "supply":
               rc = run([sys.executable, "-m", "sonic.supply", "--db", "sonic.db", "--fetch",
                         "--months", str(job.get("months", 24)), "--out", "data/supply.json"], log); touched_db = True
@@ -108,6 +120,11 @@ def main():
             log.append({"cmd": f"{mode} ({os.path.basename(f)})", "rc": 97, "tail": traceback.format_exc().splitlines()[-6:]})
             print(f"job {mode} raised: {e!r}", flush=True)
         _write_log(log, push=True)
+        if rc and fails.get(os.path.basename(f), 0) < 1:
+            done.append({"file": os.path.basename(f) + "#attempt", "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+            json.dump(done, open(done_path, "w"), indent=1)
+            print(f"job failed (rc {rc}); it will be retried once", flush=True)
+            continue
         done.append({"file": os.path.basename(f), "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
         json.dump(done, open(done_path, "w"), indent=1)
         if rc and mode in ("mixscan", "mixrescan") and (time.time() - t_start) / 60 > a.budget_minutes - 30:
@@ -122,7 +139,11 @@ def main():
     run([sys.executable, "-m", "sonic.artists", "--db", "sonic.db", "--site", "https://www.earlysignal.live", "--out", "data/artists-latest.json"], log)
     run([sys.executable, "-m", "sonic.venues", "--site", "https://www.earlysignal.live", "--artists", "data/artists-latest.json", "--out", "data/venues-latest.json"], log)
     json.dump({"ran": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "log": log}, open("queue/last-run.json", "w"), indent=1)
-    print("\nqueue run complete:", json.dumps(log, indent=0), flush=True)
+    remaining_jobs = [f for f in jobs if os.path.basename(f) not in {d["file"] for d in done}]
+    if remaining_jobs and os.environ.get("GITHUB_ACTIONS"):
+        open("queue/.next", "w").write(os.path.basename(remaining_jobs[0]) + "\n")
+        print(f"{len(remaining_jobs)} job(s) remain: a follow-up run is requested", flush=True)
+    print("\nqueue run complete:", json.dumps([{k: v for k, v in l.items() if k != "tail"} for l in log], indent=0), flush=True)
 
 if __name__ == "__main__":
     main()

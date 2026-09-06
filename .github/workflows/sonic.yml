@@ -11,7 +11,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners, supply, nts, discogs]
+        options: [queue, genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners, supply, nts, discogs]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
@@ -27,6 +27,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: sonic-pipeline
@@ -35,7 +36,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 330   # GitHub's job ceiling is 360; leave room to persist
+    timeout-minutes: 120   # one job per run: a failure costs one job, not a night
     env:
       PYTHONUNBUFFERED: "1"
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
@@ -91,8 +92,8 @@ jobs:
             echo "no fingerprint store yet - starting fresh"
           fi
 
-      - name: drain the job queue (push runs)
-        if: github.event_name == 'push'
+      - name: drain the job queue (one job per run)
+        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'queue')
         env:
           DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
@@ -100,7 +101,7 @@ jobs:
           # a push run is pinned to its triggering commit; long jobs must use current code
           git fetch origin main && git checkout -q origin/main -- sonic/ .github/workflows/ || true
           git log -1 --format='queue running code from %h %s' origin/main
-          python -m sonic.queue_runner --budget-minutes 300
+          python -m sonic.queue_runner --budget-minutes 75 --max-jobs 1
 
       - name: reindex fingerprints
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex'
@@ -212,9 +213,22 @@ jobs:
             git stash pop -q 2>/dev/null || git checkout -q stash@{0} -- sonic.db data queue 2>/dev/null || true
             git add -f sonic.db 2>/dev/null || true
             git add data/ queue/ backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null || true
+            git reset -q queue/.next 2>/dev/null || true
             if git diff --cached --quiet; then echo "nothing to persist"; exit 0; fi
             git commit -q -m "${{ inputs.mode || 'weekly' }} run $(date +%G-W%V)"
             if git push -q origin HEAD:main; then echo "persisted on attempt $i"; exit 0; fi
             echo "push rejected, retrying"; sleep $((i*15))
           done
           echo "persist failed after five attempts"; exit 1
+
+      - name: next job (chain a follow-up run while work remains)
+        if: always() && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'queue'))
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f queue/.next ]; then
+            echo "next: $(cat queue/.next)"
+            gh workflow run sonic.yml --ref main -f mode=queue && echo "follow-up run dispatched" || echo "dispatch failed"
+          else
+            echo "queue empty; no follow-up"
+          fi
