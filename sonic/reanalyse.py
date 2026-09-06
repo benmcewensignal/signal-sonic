@@ -19,8 +19,12 @@ def main():
     an = LocalAnalyser()
     want = an.version
     c = sqlite3.connect(a.db); c.row_factory = sqlite3.Row
+    # keep the old vector: chain-linking needs both versions on the same records
+    c.execute("""create table if not exists features_archive(
+        track_id text, analyser_ver text, features text, archived_at real,
+        primary key (track_id, analyser_ver))""")
     todo = [r["track_id"] for r in c.execute(
-        "select track_id from tracks where analyser_id='local' and analyser_version<>? order by rowid desc limit ?",
+        "select track_id from tracks where analyser_id='local' and coalesce(analyser_ver,'1')<>? order by rowid desc limit ?",
         (want, a.limit))]
     print(f"reanalyse: {len(todo)} tracks on an older version (target {want})", flush=True)
     t0 = time.time(); done = err = 0
@@ -30,8 +34,12 @@ def main():
         try:
             row = c.execute("select audio_ref from tracks where track_id=?", (tid,)).fetchone()
             if not row or not row["audio_ref"]: err += 1; continue
+            old = c.execute("select features, analyser_ver from tracks where track_id=?", (tid,)).fetchone()
+            if old and old["features"]:
+                c.execute("insert or ignore into features_archive values(?,?,?,?)",
+                          (tid, old["analyser_ver"] or "1", old["features"], time.time()))
             fv = an.analyse(row["audio_ref"])
-            c.execute("update tracks set features=?, analyser_version=? where track_id=?",
+            c.execute("update tracks set features=?, analyser_ver=? where track_id=?",
                       (json.dumps(fv.__dict__ if hasattr(fv, "__dict__") else fv), want, tid))
             done += 1
             if done % 200 == 0: c.commit(); print(f"  {done}/{len(todo)} re-analysed, {err} failed", flush=True)

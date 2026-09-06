@@ -122,7 +122,7 @@ def load_leadership(db, R, B):
     E = collections.defaultdict(dict)
     DNA = {}
     for r in c.execute("""select ts.scene, ts.week, ts.track_id, t.features from track_scenes ts
-                          join tracks t on t.track_id=ts.track_id and t.analyser_id='local'"""):
+                          join tracks t on t.track_id=ts.track_id and t.analyser_id='local' and coalesce(t.analyser_ver,'1') like (select case when (select count(*) from tracks where analyser_ver like '2%') > (select count(*) from tracks where coalesce(analyser_ver,'1') not like '2%') then '2%' else '1%' end)"""):
         try:
             f = json.loads(r["features"]); v = np.array(f["embedding"])
         except Exception: continue
@@ -271,7 +271,7 @@ def artist_attribution(db):
     LAB = ["bass", "drums", "swing", "vocal", "tempo"]
     S = collections.defaultdict(list)
     for r in c.execute("""select ts.scene, ts.week, ts.track_id, t.features from track_scenes ts
-                          join tracks t on t.track_id=ts.track_id and t.analyser_id='local'"""):
+                          join tracks t on t.track_id=ts.track_id and t.analyser_id='local' and coalesce(t.analyser_ver,'1') like (select case when (select count(*) from tracks where analyser_ver like '2%') > (select count(*) from tracks where coalesce(analyser_ver,'1') not like '2%') then '2%' else '1%' end)"""):
         if r["week"][:4] != "2026": continue
         f = json.loads(r["features"]); v = np.array(f["embedding"])
         S[r["scene"]].append((r["track_id"], v / (np.linalg.norm(v) or 1), f))
