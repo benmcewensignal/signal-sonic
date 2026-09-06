@@ -12,13 +12,20 @@ def run(cmd, log):
     print(f"\n$ {' '.join(cmd)}", flush=True)
     t0 = time.time()
     tail = collections.deque(maxlen=25)
-    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
+    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1, errors="replace")
     for line in p.stdout:
         print(line, end="", flush=True); tail.append(line.rstrip()[:300])
     p.wait()
     log.append({"cmd": " ".join(cmd), "rc": p.returncode, "minutes": round((time.time() - t0) / 60, 1),
                 "tail": list(tail)})
     return p.returncode
+
+def _write_log(log):
+    try:
+        json.dump({"ran": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "log": log}, open("queue/last-run.json", "w"), indent=1)
+    except Exception:
+        pass
+
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--budget-minutes", type=int, default=300); a = ap.parse_args()
@@ -29,41 +36,54 @@ def main():
     jobs = sorted(f for f in glob.glob("queue/*.json") if os.path.basename(f) != "done.json" and os.path.basename(f) not in done_names)
     print(f"queue: {len(jobs)} pending, budget {a.budget_minutes} min", flush=True)
     log = []; touched_db = False; touched_mixes = False
+    import atexit; atexit.register(lambda: _write_log(log))
     for f in jobs:
         elapsed = (time.time() - t_start) / 60
         if elapsed > a.budget_minutes - 25:
             print(f"budget nearly spent ({elapsed:.0f} min): leaving {os.path.basename(f)} and later for the next push", flush=True); break
-        job = json.load(open(f)); mode = job.get("mode"); remaining = int(a.budget_minutes - elapsed - 20)
+        try:
+            job = json.load(open(f))
+        except Exception as e:
+            log.append({"cmd": f"read {os.path.basename(f)}", "rc": 98, "tail": [repr(e)]}); continue
+        mode = job.get("mode"); remaining = int(a.budget_minutes - elapsed - 20)
         print(f"\n=== {os.path.basename(f)}: {job}", flush=True)
         rc = 0
-        if mode == "backfill":
-            cmd = [sys.executable, "-m", "sonic.backfill", "fetch", "--from", job["month_from"], "--to", job["month_to"], "--db", "sonic.db", "--analyser", "local"]
-            if job.get("scenes"): cmd += ["--scenes", job["scenes"]]
-            rc = run(cmd, log); touched_db = True
-        elif mode == "metadata":
-            rc = run([sys.executable, "-m", "sonic.metadata", "--db", "sonic.db", "--limit", str(job.get("limit", 3000))], log); touched_db = True
-        elif mode in ("mixscan", "mixrescan"):
-            cmd = [sys.executable, "-m", "sonic.discover", "scan", "--db", "sonic.db", "--max-minutes", "110", "--budget-minutes", str(max(20, remaining))]
-            cmd += ["--rescan"] if mode == "mixrescan" else ["--per-scene", str(job.get("per_scene", 2))]
-            rc = run(cmd, log); touched_db = touched_mixes = True
-        elif mode == "reanalyse":
-            rc = run([sys.executable, "-m", "sonic.reanalyse", "--db", "sonic.db",
-                      "--limit", str(job.get("limit", 3000)), "--budget-minutes", str(max(20, remaining))], log); touched_db = True
-        elif mode == "supply":
-            rc = run([sys.executable, "-m", "sonic.supply", "--db", "sonic.db", "--fetch",
-                      "--months", str(job.get("months", 24)), "--out", "data/supply.json"], log); touched_db = True
-        elif mode == "listeners":
-            rc = run([sys.executable, "-m", "sonic.listeners", "--db", "sonic.db", "--limit", str(job.get("limit", 800))], log); touched_db = True
-        elif mode == "names":
-            rc = run([sys.executable, "-m", "sonic.names"], log)
-        elif mode == "genres":
-            with open("data/beatport-genres.txt", "w") as out:
-                r = subprocess.run([sys.executable, "-m", "sonic.beatport", "genres"], stdout=out); rc = r.returncode
-            log.append({"cmd": "sonic.beatport genres", "rc": rc})
-        elif mode == "artists":
-            pass   # joins always run at the end
-        else:
-            print(f"unknown mode {mode}; skipping", flush=True); rc = 99
+        try:
+          if mode == "backfill":
+              cmd = [sys.executable, "-m", "sonic.backfill", "fetch", "--from", job["month_from"], "--to", job["month_to"], "--db", "sonic.db", "--analyser", "local"]
+              if job.get("scenes"): cmd += ["--scenes", job["scenes"]]
+              rc = run(cmd, log); touched_db = True
+          elif mode == "metadata":
+              rc = run([sys.executable, "-m", "sonic.metadata", "--db", "sonic.db", "--limit", str(job.get("limit", 3000))], log); touched_db = True
+          elif mode in ("mixscan", "mixrescan"):
+              cmd = [sys.executable, "-m", "sonic.discover", "scan", "--db", "sonic.db", "--max-minutes", "110", "--budget-minutes", str(max(20, remaining))]
+              cmd += ["--rescan"] if mode == "mixrescan" else ["--per-scene", str(job.get("per_scene", 2))]
+              rc = run(cmd, log); touched_db = touched_mixes = True
+          elif mode == "reindex":
+              rc = run([sys.executable, "-m", "sonic.mixes", "reindex", "--db", "sonic.db", "--limit", str(job.get("limit", 900))], log); touched_mixes = True
+          elif mode == "reanalyse":
+              rc = run([sys.executable, "-m", "sonic.reanalyse", "--db", "sonic.db",
+                        "--limit", str(job.get("limit", 3000)), "--budget-minutes", str(max(20, remaining))], log); touched_db = True
+          elif mode == "supply":
+              rc = run([sys.executable, "-m", "sonic.supply", "--db", "sonic.db", "--fetch",
+                        "--months", str(job.get("months", 24)), "--out", "data/supply.json"], log); touched_db = True
+          elif mode == "listeners":
+              rc = run([sys.executable, "-m", "sonic.listeners", "--db", "sonic.db", "--limit", str(job.get("limit", 800))], log); touched_db = True
+          elif mode == "names":
+              rc = run([sys.executable, "-m", "sonic.names"], log)
+          elif mode == "genres":
+              with open("data/beatport-genres.txt", "w") as out:
+                  r = subprocess.run([sys.executable, "-m", "sonic.beatport", "genres"], stdout=out); rc = r.returncode
+              log.append({"cmd": "sonic.beatport genres", "rc": rc})
+          elif mode == "artists":
+              pass   # joins always run at the end
+          else:
+              print(f"unknown mode {mode}; skipping", flush=True); rc = 99
+        except Exception as e:
+            import traceback
+            rc = 97
+            log.append({"cmd": f"{mode} ({os.path.basename(f)})", "rc": 97, "tail": traceback.format_exc().splitlines()[-6:]})
+            print(f"job {mode} raised: {e!r}", flush=True)
         done.append({"file": os.path.basename(f), "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
         json.dump(done, open(done_path, "w"), indent=1)
         if rc and mode in ("mixscan", "mixrescan") and (time.time() - t_start) / 60 > a.budget_minutes - 30:
