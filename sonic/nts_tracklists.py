@@ -60,7 +60,7 @@ def main():
         for n in arts: idx[(norm(n), nt)] = r["track_id"]
     by_title = collections.defaultdict(list)
     for (ak, tk), tid in idx.items(): by_title[tk].append((ak, tid))
-    mixes = [dict(r) for r in c.execute("select mix_url, title from mixes where source='nts' and error is null")]
+    mixes = [dict(r) for r in c.execute("select mix_url, title from usable_mixes where source='nts'")]
     have = {r[0] for r in c.execute("select distinct mix_url from nts_tracklist")}
     todo = [m for m in mixes if m["mix_url"] not in have][: a.limit]
     print(f"nts tracklists: {len(mixes)} scanned NTS mixes, {len(todo)} to fetch", flush=True)

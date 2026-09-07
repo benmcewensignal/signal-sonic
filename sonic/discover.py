@@ -295,6 +295,11 @@ def cmd_scan(args):
         store.conn.commit()
     except Exception:
         pass
+    # a mix published before the corpus cannot contain our records: every match it makes is
+    # false. Enforce it as a view, so no future scan can resurrect one by clearing its error.
+    store.conn.execute("""create view if not exists usable_mixes as
+        select * from mixes where error is null
+          and (published is null or substr(published,1,10) >= '2024-08-01')""")
     store.conn.execute("""create table if not exists mix_pop(
         mix_url text, captured_at real, plays integer, followers integer, source text,
         primary key (mix_url, captured_at))""")

@@ -27,7 +27,7 @@ def main():
     cols = [r[1] for r in c.execute("pragma table_info(mix_plays)")]
     if "wvotes" not in cols:
         print("no wvotes column yet: run a mixrescan with the weighted matcher first"); return
-    pub = {r["mix_url"]: to_date(r["published"]) for r in c.execute("select mix_url, published from mixes")}
+    pub = {r["mix_url"]: to_date(r["published"]) for r in c.execute("select mix_url, published from usable_mixes")}
     rel = {r["track_id"]: to_date(r["released"]) for r in c.execute("select track_id, released from track_meta where released is not null")}
     plays = [dict(r) for r in c.execute("select mix_url, track_id, votes, wvotes from mix_plays where wvotes is not null")]
     dated = [(p, (rel[p["track_id"]] - pub[p["mix_url"]]).days) for p in plays if pub.get(p["mix_url"]) and rel.get(p["track_id"])]

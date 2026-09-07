@@ -27,7 +27,7 @@ def _date(x):
 def build(db):
     c = sqlite3.connect(db); c.row_factory = sqlite3.Row
     mixes = {}
-    for r in c.execute("select * from mixes where error is null"):
+    for r in c.execute("select * from usable_mixes"):
         p = _date(r["published"])
         if p and p < CORPUS_START: continue                     # cannot contain our records
         mixes[r["mix_url"]] = dict(r)
