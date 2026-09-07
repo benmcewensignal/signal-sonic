@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-07T10:00:32Z",
+ "ran": "2026-09-07T10:03:30Z",
  "log": [
   {
    "cmd": "before reanalyse: free disk 90.2 GB",
@@ -19,6 +19,150 @@
     "    todo = [r[\"track_id\"] for r in c.execute(",
     "                                   ^^^^^^^^^^",
     "sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 2, and there are 1 supplied."
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "{",
+    " \"versions\": {",
+    "  \"1\": 17361",
+    " },",
+    " \"use_version\": \"1\",",
+    " \"archived_v1\": 0,",
+    " \"linked\": 0,",
+    " \"scenes\": 20",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "  ],",
+    "  [",
+    "   \"Mshelula\",",
+    "   11.61",
+    "  ],",
+    "  [",
+    "   \"Strous Mambisa\",",
+    "   11.61",
+    "  ],",
+    "  [",
+    "   \"Man Kayy\",",
+    "   11.61",
+    "  ]",
+    " ],",
+    " \"appetite\": {",
+    "  \"afro-house\": {",
+    "   \"mixes\": 6,",
+    "   \"plays_per_day_median\": 76.2",
+    "  },",
+    "  \"techno-peak-time\": {",
+    "   \"mixes\": 3,",
+    "   \"plays_per_day_median\": 0.7",
+    "  }",
+    " }",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "  140-deep-dubstep-grime     flatter, more uniformly loud (-0.36), more voice (+0.35)",
+    "  afro-house                 nothing names it yet",
+    "  amapiano                   nothing names it yet",
+    "  bass-house                 flatter, more uniformly loud (-0.46)",
+    "  breaks-breakbeat-uk-bass   nothing names it yet",
+    "  deep-house                 less voice (-0.22)",
+    "  drum-and-bass              nothing names it yet",
+    "  hard-techno                flatter, more uniformly loud (-0.39)",
+    "  house                      nothing names it yet",
+    "  melodic-house-techno       less voice (-0.33), choppier (+0.30)",
+    "  tech-house                 flatter, more uniformly loud (-0.48), more voice (+0.23)",
+    "  techno-peak-time           flatter, more uniformly loud (-0.45)",
+    "  techno-raw-deep-hypnotic   choppier (+0.25)",
+    "  trance-main-floor          sparser drums (-0.26), front-loaded (-0.25)",
+    "  uk-funky-gqom              nothing names it yet",
+    "  uk-garage-speed-garage     more voice (+0.27), smoother (-0.25)"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "   \"n\": 336,",
+    "   \"r\": 0.01",
+    "  },",
+    "  \"-1\": {",
+    "   \"n\": 352,",
+    "   \"r\": -0.07",
+    "  },",
+    "  \"0\": {",
+    "   \"n\": 368,",
+    "   \"r\": 0.14",
+    "  },",
+    "  \"1\": {",
+    "   \"n\": 352,",
+    "   \"r\": -0.08",
+    "  },",
+    "  \"2\": {",
+    "   \"n\": 336,",
+    "   \"r\": 0.05",
+    "  },",
+    "  \"3\": {",
+    "   \"n\": 320,",
+    "   \"r\": -0.1",
+    "  }",
+    " }",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
+   "rc": 0,
+   "minutes": 2.2,
+   "tail": [
+    "{",
+    " \"generated\": \"2026-09-07T10:02:49Z\",",
+    " \"snapshots\": [",
+    "  \"2026-09-02\",",
+    "  \"2026-09-03\",",
+    "  \"2026-09-07\"",
+    " ],",
+    " \"artists_total\": 33440,",
+    " \"booking_side\": 19815,",
+    " \"release_side\": 14856,",
+    " \"joined\": 1231,",
+    " \"tracks_with_metadata\": 17938,",
+    " \"join_rate_release_side\": 0.083",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
+   "rc": 0,
+   "minutes": 0.6,
+   "tail": [
+    "{",
+    " \"generated\": \"2026-09-07T10:03:30Z\",",
+    " \"snapshots\": [",
+    "  \"2026-09-02\",",
+    "  \"2026-09-03\",",
+    "  \"2026-09-07\"",
+    " ],",
+    " \"latest\": \"2026-09-07\",",
+    " \"venues\": 3655,",
+    " \"venues_with_3plus\": 1038,",
+    " \"leadership_artists\": 6042,",
+    " \"tiered_rooms\": 717",
+    "}"
    ]
   }
  ]

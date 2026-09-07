@@ -108,5 +108,10 @@
   "file": "2026-09-05-22-mixscan.json",
   "rc": 0,
   "finished": "2026-09-07T08:07:39Z"
+ },
+ {
+  "file": "2026-09-05-30-reanalyse.json#attempt",
+  "rc": 1,
+  "finished": "2026-09-07T10:00:34Z"
  }
 ]
