@@ -6,9 +6,18 @@ batches, newest first, and never mixes versions in one scene-month.
 
   python -m sonic.reanalyse --db sonic.db --limit 3000
 """
-import argparse, json, sqlite3, time
+import argparse, json, os, sqlite3, tempfile, time, urllib.request
 from .analyser_local import LocalAnalyser
 from .beatport import get_token, _get
+
+
+def _local_copy(url):
+    """librosa cannot open an http url: fetch the preview to a temp file and analyse that."""
+    req = urllib.request.Request(url, headers={"User-Agent": "signal-sonic/reanalyse"})
+    fd, path = tempfile.mkstemp(suffix=os.path.splitext(url.split("?")[0])[1] or ".mp3")
+    with urllib.request.urlopen(req, timeout=25) as r, os.fdopen(fd, "wb") as f:
+        f.write(r.read())
+    return path
 
 
 def _preview_url(track_id, token):
@@ -52,9 +61,12 @@ def main():
             if old and old["features"]:
                 c.execute("insert or ignore into features_archive values(?,?,?,?)",
                           (tid, old["analyser_ver"] or "1", old["features"], time.time()))
-            fv = an.analyse(ref)
+            _last_path = [_local_copy(ref)]
+            fv = an.analyse(_last_path[0])
             c.execute("update tracks set features=?, analyser_ver=? where track_id=?",
                       (json.dumps(fv.__dict__ if hasattr(fv, "__dict__") else fv), want, tid))
+            try: os.unlink(_last_path[0])
+            except Exception: pass
             done += 1
             if done % 200 == 0: c.commit(); print(f"  {done}/{len(todo)} re-analysed, {err} failed", flush=True)
         except Exception as e:

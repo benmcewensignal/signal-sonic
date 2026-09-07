@@ -1,1 +1,1 @@
-{"mode": "reanalyse", "note": "verified by dry run against a copy of the database", "limit": 400}
+{"mode": "reanalyse", "note": "previews downloaded to a temp file; verified end to end", "limit": 300}
