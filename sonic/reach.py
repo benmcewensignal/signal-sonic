@@ -26,6 +26,9 @@ def _date(x):
 
 def build(db):
     c = sqlite3.connect(db); c.row_factory = sqlite3.Row
+    c.execute("""create view if not exists usable_mixes as
+        select * from mixes where error is null
+          and (published is null or substr(published,1,10) >= '2024-08-01')""")
     mixes = {}
     for r in c.execute("select * from usable_mixes"):
         p = _date(r["published"])

@@ -47,6 +47,9 @@ def main():
     ap.add_argument("--limit", type=int, default=200); ap.add_argument("--sleep", type=float, default=0.6)
     a = ap.parse_args()
     c = sqlite3.connect(a.db); c.row_factory = sqlite3.Row
+    c.execute("""create view if not exists usable_mixes as
+        select * from mixes where error is null
+          and (published is null or substr(published,1,10) >= '2024-08-01')""")
     c.execute("""create table if not exists nts_tracklist(
         mix_url text, position integer, artist text, title text, track_id text, fetched_at real,
         primary key (mix_url, position))""")

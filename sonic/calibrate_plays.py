@@ -24,6 +24,9 @@ def main():
     ap.add_argument("--out", default="data/set-calibration.json")
     a = ap.parse_args()
     c = sqlite3.connect(a.db); c.row_factory = sqlite3.Row
+    c.execute("""create view if not exists usable_mixes as
+        select * from mixes where error is null
+          and (published is null or substr(published,1,10) >= '2024-08-01')""")
     cols = [r[1] for r in c.execute("pragma table_info(mix_plays)")]
     if "wvotes" not in cols:
         print("no wvotes column yet: run a mixrescan with the weighted matcher first"); return
