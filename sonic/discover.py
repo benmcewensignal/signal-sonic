@@ -146,8 +146,8 @@ def youtube_channel(url: str, limit: int = 60) -> list[dict]:
     try:
         r = subprocess.run(["yt-dlp", "--flat-playlist", "--playlist-end", str(limit), "-J", url],
                            capture_output=True, text=True, timeout=120)
-        d = json.loads(r.stdout or "{}")
-        for e in d.get("entries") or []:
+        d = json.loads(r.stdout or "{}") or {}
+        for e in (d.get("entries") or []):
             if not e or not e.get("id"): continue
             dur = e.get("duration") or 0
             if dur and dur < 40 * 60: continue                       # a set, not a clip
@@ -172,6 +172,47 @@ def youtube_for_scene(scene: str, limit: int = 8) -> list[dict]:
             t = c["title"].lower()
             if any(w in t for w in words) or meta["name"] == "HÖR":      # HÖR is techno by default
                 out.append(dict(c, artist=(c["title"].split(" | ")[0] if " | " in c["title"] else c["artist"])))
+    return out[:limit]
+
+
+# Curated Mixcloud shows. Tag search returned mass-market uploads (TikTok compilations,
+# radio mashups) rather than the scenes' DJs, so sources are named rather than searched.
+MC_CHANNELS = {
+    "rinsefm": ["uk-garage-speed-garage", "140-deep-dubstep-grime", "drum-and-bass", "uk-funky-gqom", "breaks-breakbeat-uk-bass"],
+    "defected": ["house", "deep-house", "tech-house", "afro-house"],
+    "toolroomrecords": ["tech-house", "house"],
+    "anjunadeep": ["melodic-house-techno", "deep-house", "progressive-house"],
+    "drumcode": ["techno-peak-time", "techno-raw-deep-hypnotic", "hard-techno"],
+    "hospitalrecords": ["drum-and-bass"],
+    "kissfmuk": ["uk-garage-speed-garage", "bass-house", "house"],
+    "sirussounds": ["psy-trance"],
+    "kompakt": ["indie-dance", "organic-house", "melodic-house-techno"],
+    "alldayidreamofficial": ["organic-house", "melodic-house-techno", "indie-dance"],
+}
+
+
+def mixcloud_channel(user: str, limit: int = 20) -> list[dict]:
+    """Recent uploads from a named Mixcloud user, newest first."""
+    url = f"https://api.mixcloud.com/{user}/cloudcasts/?limit={limit}"
+    try:
+        with urllib.request.urlopen(url, timeout=20) as r:
+            d = json.loads(r.read().decode()) or {}
+    except Exception as e:
+        print(f"  mixcloud {user}: {type(e).__name__}", flush=True); return []
+    out = []
+    for c in (d.get("data") or []):
+        if (c.get("audio_length") or 0) < 30 * 60: continue
+        out.append({"url": c.get("url"), "title": c.get("name") or "", "source": "mixcloud",
+                    "published": (c.get("created_time") or "")[:10],
+                    "plays": c.get("play_count") or 0, "followers": ((c.get("user") or {}).get("follower_count") or 0),
+                    "artist": ((c.get("user") or {}).get("name") or user)[:60]})
+    return out
+
+
+def mixcloud_for_scene(scene: str, limit: int = 8) -> list[dict]:
+    out = []
+    for user, scenes in MC_CHANNELS.items():
+        if scene in scenes: out += mixcloud_channel(user)
     return out[:limit]
 
 
@@ -354,6 +395,7 @@ def cmd_scan(args):
             # shows, mashups), not the scene's DJs: the whole low-precision tail came from
             # it. Curated channels only.
             cands += youtube_for_scene(scene, pool)
+            cands += mixcloud_for_scene(scene, pool)
             cands = [c for c in cands if not c.get("published") or str(c["published"])[:10] >= CORPUS_START]
             fresh = [c for c in cands if not store.conn.execute(
                 "SELECT 1 FROM mixes WHERE mix_url=? AND error IS NULL",
