@@ -113,5 +113,10 @@
   "file": "2026-09-05-30-reanalyse.json#attempt",
   "rc": 1,
   "finished": "2026-09-07T10:00:34Z"
+ },
+ {
+  "file": "2026-09-06-40-mixscan-pop.json",
+  "rc": 0,
+  "finished": "2026-09-07T18:59:59Z"
  }
 ]
