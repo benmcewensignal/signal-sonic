@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-07T18:17:08Z",
+ "ran": "2026-09-07T18:54:23Z",
  "log": [
   {
    "cmd": "before reanalyse: free disk 90.2 GB",
@@ -8,7 +8,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 400 --budget-minutes 54",
    "rc": 0,
-   "minutes": 38.0,
+   "minutes": 33.0,
    "tail": [
     "reanalyse: 400 tracks on an older version (target 2+8d699cfb)",
     "  bp:19703369: no preview url",
@@ -116,10 +116,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 2.1,
+   "minutes": 1.8,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-07T18:16:26Z\",",
+    " \"generated\": \"2026-09-07T18:53:49Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -137,10 +137,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 0.7,
+   "minutes": 0.5,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-07T18:17:08Z\",",
+    " \"generated\": \"2026-09-07T18:54:23Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
