@@ -345,7 +345,9 @@ def cmd_scan(args):
             pool = max(12, args.per_scene * 8)   # dedupe + filters eat most
             for tag in taglist:
                 cands += nts_search(tag, pool)
-                cands += mixcloud_popular(tag, pool)
+            # Mixcloud tag search returns mass-market mixes (TikTok compilations, radio
+            # shows, mashups), not the scene's DJs: the whole low-precision tail came from
+            # it. Curated channels only.
             cands += youtube_for_scene(scene, pool)
             cands = [c for c in cands if not c.get("published") or str(c["published"])[:10] >= CORPUS_START]
             fresh = [c for c in cands if not store.conn.execute(
