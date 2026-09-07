@@ -1,17 +1,17 @@
 {
- "ran": "2026-09-07T09:28:21Z",
+ "ran": "2026-09-07T09:33:28Z",
  "log": [
   {
    "cmd": "before reanalyse: free disk 90.2 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 3000 --budget-minutes 54",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 1200 --budget-minutes 54",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "reanalyse: 3000 tracks on an older version (target 2+8d699cfb)",
-    "reanalyse: 0 done, 3000 failed, 0 left"
+    "reanalyse: 1200 tracks on an older version (target 2+8d699cfb)",
+    "reanalyse: 0 done, 1200 failed, 0 left"
    ]
   },
   {
@@ -123,7 +123,7 @@
    "minutes": 2.3,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-07T09:27:40Z\",",
+    " \"generated\": \"2026-09-07T09:32:47Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -144,7 +144,7 @@
    "minutes": 0.6,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-07T09:28:21Z\",",
+    " \"generated\": \"2026-09-07T09:33:28Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
