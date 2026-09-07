@@ -214,27 +214,31 @@ jobs:
           fi
 
       - name: persist database
-        if: always() && (github.event_name == 'schedule' || github.event_name == 'push' || (github.event_name == 'workflow_dispatch'))
+        if: always() && (github.event_name == 'schedule' || github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         run: |
+          set +e                     # a persist problem must never fail the run silently
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
-          # Do not rebase: replaying a commit that carries a large binary onto a branch that
-          # keeps moving conflicts again on every retry, and run 69 and run 72 each lost a
-          # full night that way. Instead, take the latest main and lay our outputs on top.
+          STATUS="unknown"
           for i in 1 2 3 4 5; do
             git fetch -q origin main
-            git stash -q -u --include-untracked -- sonic.db data queue backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null || true
+            git add -f sonic.db 2>/dev/null
+            git add -A data queue backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null
+            git reset -q queue/.next 2>/dev/null
+            if git diff --cached --quiet; then STATUS="nothing to persist"; break; fi
+            git commit -q -m "queue run $(date +%G-W%V)"
+            if git push -q origin HEAD:main; then STATUS="persisted on attempt $i"; break; fi
+            # someone else moved main: replay our files on top of theirs and retry
+            git reset -q --soft HEAD~1
+            git stash -q -u
             git reset -q --hard origin/main
-            git stash pop -q 2>/dev/null || git checkout -q stash@{0} -- sonic.db data queue 2>/dev/null || true
-            git add -f sonic.db 2>/dev/null || true
-            git add data/ queue/ backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null || true
-            git reset -q queue/.next 2>/dev/null || true
-            if git diff --cached --quiet; then echo "nothing to persist"; exit 0; fi
-            git commit -q -m "${{ inputs.mode || 'weekly' }} run $(date +%G-W%V)"
-            if git push -q origin HEAD:main; then echo "persisted on attempt $i"; exit 0; fi
-            echo "push rejected, retrying"; sleep $((i*15))
+            git stash pop -q
+            STATUS="retrying after a push race"
+            sleep $((i*10))
           done
-          echo "persist failed after five attempts"; exit 1
+          echo "persist: $STATUS"
+          echo "$STATUS at $(date -u +%FT%TZ)" > /tmp/persist-status
+          exit 0
 
       - name: next job (chain a follow-up run while work remains)
         if: always() && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'queue'))
