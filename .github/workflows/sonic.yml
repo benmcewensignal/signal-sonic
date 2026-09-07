@@ -90,20 +90,14 @@ jobs:
             gh release download fp-store -p fingerprints.db -O fingerprints.db || true
           if [ -f fingerprints.db ]; then
             SZ=$(du -m fingerprints.db | cut -f1)
-            echo "store fetched ${SZ} MB"
             echo "FP_MB=${SZ}" >> $GITHUB_ENV
-            python - <<'PY'
-import sqlite3, os, sys
-n = sqlite3.connect("fingerprints.db").execute("select count(*) from fp_tracks").fetchone()[0]
-print(f"fingerprint index: {n} tracks")
-open(os.environ["GITHUB_ENV"], "a").write(f"FP_TRACKS={n}\n")
-if n == 0:
-    print("::error::fingerprint store downloaded but empty - scans would match nothing"); sys.exit(1)
-PY
+            N=$(python -c "import sqlite3;print(sqlite3.connect('fingerprints.db').execute('select count(*) from fp_tracks').fetchone()[0])" 2>/dev/null || echo 0)
+            echo "store fetched ${SZ} MB, ${N} tracks indexed"
+            if [ "$N" -eq 0 ]; then echo "::error::fingerprint store is empty - scans would match nothing"; exit 1; fi
           else
             echo "FP_MB=0" >> $GITHUB_ENV
-            echo "FP_TRACKS=0" >> $GITHUB_ENV
-            echo "no fingerprint store yet - starting fresh"
+            echo "::error::no fingerprint store could be downloaded"
+            exit 1
           fi
 
       - name: drain the job queue (one job per run)
