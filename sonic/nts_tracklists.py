@@ -33,6 +33,30 @@ def episode_api(url):
     return f"https://www.nts.live/api/v2/shows/{m.group(1)}/episodes/{m.group(2)}"
 
 
+def _find_tracklist(obj):
+    """NTS nests the tracklist differently across endpoints (top level, under embeds,
+    under results). Find any list of objects that carry an artist and a title."""
+    best = []
+    def walk(o):
+        nonlocal best
+        if isinstance(o, list):
+            hits = [x for x in o if isinstance(x, dict) and
+                    any(k in x for k in ("artist", "artistName", "artists")) and
+                    any(k in x for k in ("title", "trackName", "name"))]
+            if len(hits) > len(best): best = hits
+            for x in o: walk(x)
+        elif isinstance(o, dict):
+            for v in o.values(): walk(v)
+    walk(obj)
+    out = []
+    for x in best:
+        a = x.get("artist") or x.get("artistName") or ""
+        if not a and isinstance(x.get("artists"), list):
+            a = ", ".join(str(y.get("name") if isinstance(y, dict) else y) for y in x["artists"])
+        out.append({"artist": a, "title": x.get("title") or x.get("trackName") or x.get("name") or ""})
+    return out
+
+
 def norm_title(t):
     t = (t or "").lower()
     t = re.sub(r"\((original mix|extended mix|radio edit|club mix|edit|remaster(ed)?)\)", " ", t)
@@ -72,7 +96,7 @@ def main():
         api = episode_api(m["mix_url"])
         if not api: continue
         try:
-            ep = _get(api); tl = ep.get("tracklist") or []
+            ep = _get(api); tl = _find_tracklist(ep)
         except Exception as e:
             print(f"  skip {m['mix_url'][-40:]}: {e!r}"[:100], flush=True); time.sleep(a.sleep); continue
         fetched += 1

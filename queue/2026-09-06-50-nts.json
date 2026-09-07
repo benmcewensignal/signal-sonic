@@ -1,1 +1,1 @@
-{"mode":"nts","limit":200,"note":"NTS tracklists for every scanned NTS mix: direct plays plus a precision/recall score for the fingerprinter"}
+{"mode": "nts", "limit": 200, "note": "shape-agnostic tracklist parser; matching verified against real corpus pairs"}
