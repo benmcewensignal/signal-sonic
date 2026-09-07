@@ -121,7 +121,14 @@ def main():
             print(f"job {mode} raised: {e!r}", flush=True)
         _write_log(log, push=True)
         if rc and fails.get(os.path.basename(f), 0) < 1:
-            done.append({"file": os.path.basename(f) + "#attempt", "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+            if os.path.exists("queue/.more"):
+            os.remove("queue/.more")
+            log.append({"cmd": f"{mode}: work remains, job stays queued", "rc": 0})
+            print("job reports remaining work: leaving it in the queue", flush=True)
+            _write_log(log, push=True)
+            open("queue/.next", "w").write(os.path.basename(f) + "\n")
+            break
+        done.append({"file": os.path.basename(f) + "#attempt", "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
             json.dump(done, open(done_path, "w"), indent=1)
             print(f"job failed (rc {rc}); it will be retried once", flush=True)
             continue

@@ -73,7 +73,10 @@ def main():
             err += 1
             if err <= 3: print(f"  {tid}: {type(e).__name__}: {str(e)[:90]}", flush=True)
     c.commit()
-    print(f"reanalyse: {done} done, {err} failed, {max(0, len(todo)-done-err)} left", flush=True)
+    left_total = c.execute("select count(*) from tracks where analyser_id='local' and coalesce(analyser_ver,'1') not like '2%'").fetchone()[0]
+    print(f"reanalyse: {done} done, {err} failed, {left_total} still on the old version", flush=True)
+    if left_total > 0:
+        open("queue/.more", "w").write("reanalyse\n")      # tells the runner to leave this job queued
 
 
 if __name__ == "__main__":
