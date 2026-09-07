@@ -8,7 +8,17 @@ batches, newest first, and never mixes versions in one scene-month.
 """
 import argparse, json, sqlite3, time
 from .analyser_local import LocalAnalyser
-from .store import Store
+from .beatport import get_token, _get
+
+
+def _preview_url(track_id, token):
+    """tracks store no audio reference: resolve the current preview from Beatport by id."""
+    if not str(track_id).startswith("bp:"): return None
+    try:
+        d = _get(f"/catalog/tracks/{str(track_id).split(':')[-1]}/", token)
+        return (d.get("sample_url") or (d.get("preview") or {}).get("mp3", {}).get("url") or "") or None
+    except Exception as e:
+        return None
 
 
 def main():
@@ -17,6 +27,7 @@ def main():
     ap.add_argument("--budget-minutes", type=int, default=200)
     a = ap.parse_args()
     an = LocalAnalyser()
+    token = get_token()
     want = an.version
     c = sqlite3.connect(a.db); c.row_factory = sqlite3.Row
     # keep the old vector: chain-linking needs both versions on the same records
@@ -25,26 +36,30 @@ def main():
         primary key (track_id, analyser_ver))""")
     todo = [r["track_id"] for r in c.execute(
         "select track_id from tracks where analyser_id='local' and coalesce(analyser_ver,'1')<>? order by rowid desc limit ?",
-        (want, a.limit))]
+        (a.limit,))]
     print(f"reanalyse: {len(todo)} tracks on an older version (target {want})", flush=True)
     t0 = time.time(); done = err = 0
     for tid in todo:
         if (time.time() - t0) / 60 > a.budget_minutes:
             print("budget reached; dispatch again to continue", flush=True); break
         try:
-            row = c.execute("select audio_ref from tracks where track_id=?", (tid,)).fetchone()
-            if not row or not row["audio_ref"]: err += 1; continue
+            ref = _preview_url(tid, token)
+            if not ref:
+                err += 1
+                if err <= 3: print(f"  {tid}: no preview url", flush=True)
+                continue
             old = c.execute("select features, analyser_ver from tracks where track_id=?", (tid,)).fetchone()
             if old and old["features"]:
                 c.execute("insert or ignore into features_archive values(?,?,?,?)",
                           (tid, old["analyser_ver"] or "1", old["features"], time.time()))
-            fv = an.analyse(row["audio_ref"])
+            fv = an.analyse(ref)
             c.execute("update tracks set features=?, analyser_ver=? where track_id=?",
                       (json.dumps(fv.__dict__ if hasattr(fv, "__dict__") else fv), want, tid))
             done += 1
             if done % 200 == 0: c.commit(); print(f"  {done}/{len(todo)} re-analysed, {err} failed", flush=True)
         except Exception as e:
             err += 1
+            if err <= 3: print(f"  {tid}: {type(e).__name__}: {str(e)[:90]}", flush=True)
     c.commit()
     print(f"reanalyse: {done} done, {err} failed, {max(0, len(todo)-done-err)} left", flush=True)
 
