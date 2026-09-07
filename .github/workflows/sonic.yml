@@ -233,7 +233,6 @@ jobs:
             cp -a /tmp/out/sonic.db . 2>/dev/null
             cp -a /tmp/out/data /tmp/out/queue . 2>/dev/null
             cp -a /tmp/out/backfill-report.md /tmp/out/backfill-report.json /tmp/out/CLAIMS.md . 2>/dev/null
-            rm -f queue/.next
             git add -f sonic.db 2>/dev/null
             git add -A data queue backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null
             if git diff --cached --quiet; then STATUS="nothing to persist"; break; fi
