@@ -35,7 +35,7 @@ def main():
         track_id text, analyser_ver text, features text, archived_at real,
         primary key (track_id, analyser_ver))""")
     todo = [r["track_id"] for r in c.execute(
-        "select track_id from tracks where analyser_id='local' and coalesce(analyser_ver,'1')<>? order by rowid desc limit ?",
+        "select track_id from tracks where analyser_id='local' and coalesce(analyser_ver,'1') not like '2%' order by rowid desc limit ?",
         (a.limit,))]
     print(f"reanalyse: {len(todo)} tracks on an older version (target {want})", flush=True)
     t0 = time.time(); done = err = 0
