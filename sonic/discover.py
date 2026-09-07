@@ -295,6 +295,10 @@ def cmd_scan(args):
         store.conn.commit()
     except Exception:
         pass
+    store.conn.execute("""create table if not exists mix_pop(
+        mix_url text, captured_at real, plays integer, followers integer, source text,
+        primary key (mix_url, captured_at))""")
+    store.conn.commit()
     for ddl in ("ALTER TABLE mix_plays ADD COLUMN wvotes REAL",
                 "ALTER TABLE mixes ADD COLUMN matcher_v INTEGER",
                 "ALTER TABLE mixes ADD COLUMN plays INTEGER",
