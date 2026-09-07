@@ -86,9 +86,23 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release download fp-store -p fingerprints.db -O fingerprints.db 2>/dev/null; then
-            echo "store fetched ($(du -m fingerprints.db | cut -f1) MB)"
+          gh release download fp-store --pattern fingerprints.db --clobber --dir . || \
+            gh release download fp-store -p fingerprints.db -O fingerprints.db || true
+          if [ -f fingerprints.db ]; then
+            SZ=$(du -m fingerprints.db | cut -f1)
+            echo "store fetched ${SZ} MB"
+            echo "FP_MB=${SZ}" >> $GITHUB_ENV
+            python - <<'PY'
+import sqlite3, os, sys
+n = sqlite3.connect("fingerprints.db").execute("select count(*) from fp_tracks").fetchone()[0]
+print(f"fingerprint index: {n} tracks")
+open(os.environ["GITHUB_ENV"], "a").write(f"FP_TRACKS={n}\n")
+if n == 0:
+    print("::error::fingerprint store downloaded but empty - scans would match nothing"); sys.exit(1)
+PY
           else
+            echo "FP_MB=0" >> $GITHUB_ENV
+            echo "FP_TRACKS=0" >> $GITHUB_ENV
             echo "no fingerprint store yet - starting fresh"
           fi
 
@@ -193,9 +207,16 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if [ -f fingerprints.db ]; then
-            gh release create fp-store --notes "fingerprint index (release asset: too large for git)" 2>/dev/null || true
-            gh release upload fp-store fingerprints.db --clobber
-            echo "store saved: $(du -m fingerprints.db | cut -f1)MB"
+            SZ=$(du -m fingerprints.db | cut -f1)
+            # never clobber a good store with a smaller one: an empty local store
+            # would otherwise destroy the index for every future run
+            if [ "${FP_MB:-0}" -gt 0 ] && [ "$SZ" -lt "${FP_MB}" ]; then
+              echo "::warning::local store ${SZ}MB is smaller than the fetched ${FP_MB}MB - not uploading"
+            else
+              gh release create fp-store --notes "fingerprint index (release asset: too large for git)" 2>/dev/null || true
+              gh release upload fp-store fingerprints.db --clobber
+              echo "store saved: ${SZ}MB"
+            fi
           fi
 
       - name: persist database
