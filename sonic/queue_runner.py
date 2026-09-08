@@ -98,6 +98,8 @@ def main():
           elif mode == "supply":
               rc = run([sys.executable, "-m", "sonic.supply", "--db", "sonic.db", "--fetch",
                         "--months", str(job.get("months", 24)), "--out", "data/supply.json"], log); touched_db = True
+          elif mode == "listening":
+              rc = run([sys.executable, "-m", "sonic.listening", "--db", "sonic.db", "--per-scene", str(job.get("per_scene", 2)), "--out", "data/listening-test.json"], log)
           elif mode == "nts":
               rc = run([sys.executable, "-m", "sonic.nts_tracklists", "--db", "sonic.db", "--limit", str(job.get("limit", 200)), "--out", "data/nts-truth.json"], log); touched_db = True
           elif mode == "discogs":

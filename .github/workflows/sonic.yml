@@ -11,7 +11,7 @@ on:
         description: "what to run"
         type: choice
         default: week
-        options: [queue, genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners, supply, nts, discogs]
+        options: [queue, listening, genres, chart, week, backfill, backfill-report, reindex, mixscan, mixrescan, names, radepth, metadata, artists, listeners, supply, nts, discogs]
       genre_id:
         description: "genre id (chart mode only)"
         required: false
