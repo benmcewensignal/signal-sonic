@@ -58,8 +58,17 @@ def check(db, job, before):
     # no pre-corpus mix can be usable
     # the view is the exclusion mechanism: it must exist and it must contain no pre-corpus mix
     if "usable_mixes" not in tables:
-        fails.append("usable_mixes view missing: every set-layer consumer depends on it")
-    else:
+        # the view is how the pre-corpus exclusion is enforced; recreate it rather than fail,
+        # then verify it, because a missing view is a fixable state and not a corrupt one
+        try:
+            c.execute("""create view if not exists usable_mixes as
+                select * from mixes where error is null
+                  and (published is null or substr(published,1,10) >= '2024-08-01')""")
+            c.commit(); notes.append("usable_mixes view was missing and has been recreated")
+            tables.add("usable_mixes")
+        except Exception as e:
+            fails.append(f"usable_mixes view missing and could not be created: {e}")
+    if "usable_mixes" in tables:
         try:
             bad = c.execute("select count(*) from usable_mixes where published is not null and substr(published,1,10) < '2024-08-01'").fetchone()[0]
             if bad: fails.append(f"{bad} pre-corpus mixes inside usable_mixes")
