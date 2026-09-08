@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-08T13:00:44Z",
+ "ran": "2026-09-08T13:43:38Z",
  "log": [
   {
    "cmd": "before reanalyse: free disk 91.2 GB",
@@ -8,14 +8,14 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 400 --budget-minutes 54",
    "rc": 0,
-   "minutes": 48.6,
+   "minutes": 39.0,
    "tail": [
     "reanalyse: 400 tracks on an older version (target 2+8d699cfb)",
     "  bp:19703369: no preview url",
     "  bp:30037639: no preview url",
     "  bp:30037669: no preview url",
-    "  200/400 re-analysed, 26 failed",
-    "reanalyse: 372 done, 28 failed, 11705 still on the old version"
+    "  200/400 re-analysed, 36 failed",
+    "reanalyse: 364 done, 36 failed, 11341 still on the old version"
    ]
   },
   {
@@ -29,11 +29,11 @@
    "tail": [
     "{",
     " \"versions\": {",
-    "  \"1\": 11672,",
-    "  \"2\": 5689",
+    "  \"1\": 11308,",
+    "  \"2\": 6053",
     " },",
     " \"use_version\": \"1\",",
-    " \"archived_v1\": 5689,",
+    " \"archived_v1\": 6053,",
     " \"linked\": 3,",
     " \"scenes\": 20",
     "}"
@@ -80,7 +80,7 @@
     "  afro-house                 nothing names it yet",
     "  amapiano                   less voice (-0.21)",
     "  breaks-breakbeat-uk-bass   nothing names it yet",
-    "  deep-house                 less voice (-0.23)",
+    "  deep-house                 less voice (-0.24)",
     "  drum-and-bass              nothing names it yet",
     "  house                      nothing names it yet",
     "  melodic-house-techno       less voice (-0.30)",
@@ -96,28 +96,28 @@
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "   \"n\": 256,",
-    "   \"r\": -0.06",
+    "   \"n\": 249,",
+    "   \"r\": -0.05",
     "  },",
     "  \"-1\": {",
-    "   \"n\": 269,",
-    "   \"r\": 0.02",
+    "   \"n\": 262,",
+    "   \"r\": 0.01",
     "  },",
     "  \"0\": {",
-    "   \"n\": 282,",
-    "   \"r\": 0.09",
+    "   \"n\": 275,",
+    "   \"r\": 0.1",
     "  },",
     "  \"1\": {",
-    "   \"n\": 269,",
-    "   \"r\": -0.04",
+    "   \"n\": 262,",
+    "   \"r\": -0.06",
     "  },",
     "  \"2\": {",
-    "   \"n\": 256,",
-    "   \"r\": -0.01",
+    "   \"n\": 249,",
+    "   \"r\": -0.08",
     "  },",
     "  \"3\": {",
-    "   \"n\": 243,",
-    "   \"r\": -0.11",
+    "   \"n\": 236,",
+    "   \"r\": 0.05",
     "  }",
     " }",
     "}"
@@ -126,10 +126,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 2.2,
+   "minutes": 2.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-08T13:00:12Z\",",
+    " \"generated\": \"2026-09-08T13:42:58Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -147,10 +147,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 0.5,
+   "minutes": 0.7,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-08T13:00:43Z\",",
+    " \"generated\": \"2026-09-08T13:43:38Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
