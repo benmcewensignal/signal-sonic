@@ -73,7 +73,7 @@ def build(db, per_scene=2, seed=7):
             return out
         new_side, old_side = pick(now, 90, per_scene), pick(home, 10, per_scene)
         for idx, (a, b) in enumerate(zip(new_side, old_side)):
-            flip = (len(pairs) + idx) % 2 == 0
+            flip = len(pairs) % 2 == 0
             pairs.append({"scene": scene, "A": (b if flip else a), "B": (a if flip else b),
                           "answer": ("B" if flip else "A")})   # which side is the newer sound
         if not new_side or not old_side: skipped["no preview"] += 1
