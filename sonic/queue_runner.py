@@ -77,6 +77,7 @@ def main():
         except Exception as e:
             log.append({"cmd": f"read {os.path.basename(f)}", "rc": 98, "tail": [repr(e)]}); continue
         mode = job.get("mode"); remaining = int(a.budget_minutes - elapsed - 20)
+        subprocess.run([sys.executable, "-m", "sonic.validate", "--db", "sonic.db", "--snapshot", "/tmp/before.json"], capture_output=True)
         try:
             st_ = os.statvfs("."); free_gb = st_.f_bavail * st_.f_frsize / 1e9
             log.append({"cmd": f"before {mode}: free disk {free_gb:.1f} GB", "rc": 0})
@@ -130,6 +131,10 @@ def main():
             rc = 97
             log.append({"cmd": f"{mode} ({os.path.basename(f)})", "rc": 97, "tail": traceback.format_exc().splitlines()[-6:]})
             print(f"job {mode} raised: {e!r}", flush=True)
+        vrc = run([sys.executable, "-m", "sonic.validate", "--db", "sonic.db", "--job", str(mode), "--before", "/tmp/before.json"], log)
+        if vrc == 2 and not rc:
+            rc = 96                                   # the job "succeeded" but left the database in a state we reject
+            print("validation failed after the job: treating it as a failure", flush=True)
         _write_log(log, push=True)
         if os.path.exists("queue/.more"):
             os.remove("queue/.more")
