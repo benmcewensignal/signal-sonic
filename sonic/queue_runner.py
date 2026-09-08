@@ -48,13 +48,19 @@ def main():
     t_start = time.time(); budget = a.budget_minutes * 60
     done_path = "queue/done.json"
     done = json.load(open(done_path)) if os.path.exists(done_path) else []
-    done_names = {d["file"] for d in done}
+    done_names = {d["file"] for d in done if not d.get("requeued")}
     # a job that has failed twice is parked, not retried forever
     fails = {}
     for d in done:
         if d["file"].endswith("#attempt"): fails[d["file"][:-8]] = fails.get(d["file"][:-8], 0) + 1
-    jobs = sorted(f for f in glob.glob("queue/*.json") if os.path.basename(f) not in ("done.json", "last-run.json")
-                  and os.path.basename(f) not in done_names)
+    # one-shot jobs first in filename order; jobs that keep requeuing themselves take turns,
+    # least-recently-run first, so two long conversions interleave instead of one hogging the chain
+    last_ran = {}
+    for d in done:
+        if d.get("requeued"): last_ran[d["file"]] = max(last_ran.get(d["file"], ""), d.get("finished", ""))
+    jobs = sorted((f for f in glob.glob("queue/*.json") if os.path.basename(f) not in ("done.json", "last-run.json")
+                   and os.path.basename(f) not in done_names),
+                  key=lambda f: (last_ran.get(os.path.basename(f), ""), os.path.basename(f)))
     print(f"queue: {len(jobs)} pending, budget {a.budget_minutes} min, max {a.max_jobs} job(s) this run", flush=True)
     jobs_run = 0
     log = []; touched_db = False; touched_mixes = False
@@ -127,6 +133,8 @@ def main():
         _write_log(log, push=True)
         if os.path.exists("queue/.more"):
             os.remove("queue/.more")
+            done.append({"file": os.path.basename(f), "requeued": True, "rc": 0, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+            json.dump(done, open(done_path, "w"), indent=1)
             log.append({"cmd": f"{mode}: work remains, job stays queued", "rc": 0})
             print("job reports remaining work: leaving it in the queue", flush=True)
             _write_log(log, push=True)
