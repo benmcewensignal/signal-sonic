@@ -68,11 +68,14 @@ def check(db, job, before):
             tables.add("usable_mixes")
         except Exception as e:
             fails.append(f"usable_mixes view missing and could not be created: {e}")
-    if "usable_mixes" in tables:
-        try:
-            bad = c.execute("select count(*) from usable_mixes where published is not null and substr(published,1,10) < '2024-08-01'").fetchone()[0]
-            if bad: fails.append(f"{bad} pre-corpus mixes inside usable_mixes")
-        except Exception as e: fails.append(f"usable_mixes check errored: {e}")
+    # the harm a pre-corpus mix does is the plays it contributes: a record cannot be played
+    # before it exists, so any play from such a mix is false by construction
+    try:
+        bad = c.execute("""select count(*) from mix_plays p join mixes m on m.mix_url=p.mix_url
+                           where m.published is not null and substr(m.published,1,10) < '2024-08-01'""").fetchone()[0]
+        if bad: fails.append(f"{bad} plays come from mixes published before the corpus window")
+    except Exception as e:
+        fails.append(f"pre-corpus play check errored: {e}")
     # data files parse and carry no conflict markers
     for f in DATA_FILES:
         if not os.path.exists(f): continue
