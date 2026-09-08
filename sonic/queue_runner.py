@@ -83,6 +83,7 @@ def main():
           if mode == "backfill":
               cmd = [sys.executable, "-m", "sonic.backfill", "fetch", "--from", job["month_from"], "--to", job["month_to"], "--db", "sonic.db", "--analyser", "local"]
               if job.get("scenes"): cmd += ["--scenes", job["scenes"]]
+              if job.get("per_month"): cmd += ["--per-month", str(job["per_month"])]
               rc = run(cmd, log); touched_db = True
           elif mode == "metadata":
               rc = run([sys.executable, "-m", "sonic.metadata", "--db", "sonic.db", "--limit", str(job.get("limit", 3000))], log); touched_db = True
