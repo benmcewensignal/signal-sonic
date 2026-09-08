@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-08T06:27:41Z",
+ "ran": "2026-09-08T06:30:12Z",
  "log": [
   {
    "cmd": "before reanalyse: free disk 91.2 GB",
@@ -21,6 +21,148 @@
   {
    "cmd": "reanalyse: work remains, job stays queued",
    "rc": 0
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "{",
+    " \"versions\": {",
+    "  \"1\": 13504,",
+    "  \"2\": 3857",
+    " },",
+    " \"use_version\": \"1\",",
+    " \"archived_v1\": 3857,",
+    " \"linked\": 3,",
+    " \"scenes\": 20",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "  ],",
+    "  [",
+    "   \"SOLTO (FR)\",",
+    "   15.77",
+    "  ],",
+    "  [",
+    "   \"Nigel Jones\",",
+    "   13.94",
+    "  ]",
+    " ],",
+    " \"appetite\": {",
+    "  \"afro-house\": {",
+    "   \"mixes\": 6,",
+    "   \"plays_per_day_median\": 75.2",
+    "  },",
+    "  \"techno-peak-time\": {",
+    "   \"mixes\": 3,",
+    "   \"plays_per_day_median\": 0.7",
+    "  },",
+    "  \"deep-house\": {",
+    "   \"mixes\": 3,",
+    "   \"plays_per_day_median\": 235.4",
+    "  }",
+    " }",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "  140-deep-dubstep-grime     flatter, more uniformly loud (-0.38), more voice (+0.35)",
+    "  afro-house                 nothing names it yet",
+    "  amapiano                   flatter, more uniformly loud (-0.37)",
+    "  breaks-breakbeat-uk-bass   nothing names it yet",
+    "  deep-house                 less voice (-0.20)",
+    "  drum-and-bass              nothing names it yet",
+    "  house                      nothing names it yet",
+    "  melodic-house-techno       less voice (-0.32), choppier (+0.27)",
+    "  tech-house                 flatter, more uniformly loud (-0.48), more voice (+0.23)",
+    "  techno-peak-time           flatter, more uniformly loud (-0.42)",
+    "  techno-raw-deep-hypnotic   choppier (+0.24)",
+    "  uk-funky-gqom              nothing names it yet",
+    "  uk-garage-speed-garage     smoother (-0.25), more voice (+0.25)"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "   \"n\": 264,",
+    "   \"r\": -0.05",
+    "  },",
+    "  \"-1\": {",
+    "   \"n\": 277,",
+    "   \"r\": -0.06",
+    "  },",
+    "  \"0\": {",
+    "   \"n\": 290,",
+    "   \"r\": 0.06",
+    "  },",
+    "  \"1\": {",
+    "   \"n\": 277,",
+    "   \"r\": -0.07",
+    "  },",
+    "  \"2\": {",
+    "   \"n\": 264,",
+    "   \"r\": 0.11",
+    "  },",
+    "  \"3\": {",
+    "   \"n\": 251,",
+    "   \"r\": -0.12",
+    "  }",
+    " }",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
+   "rc": 0,
+   "minutes": 2.0,
+   "tail": [
+    "{",
+    " \"generated\": \"2026-09-08T06:29:44Z\",",
+    " \"snapshots\": [",
+    "  \"2026-09-02\",",
+    "  \"2026-09-03\",",
+    "  \"2026-09-07\"",
+    " ],",
+    " \"artists_total\": 33440,",
+    " \"booking_side\": 19815,",
+    " \"release_side\": 14856,",
+    " \"joined\": 1231,",
+    " \"tracks_with_metadata\": 17938,",
+    " \"join_rate_release_side\": 0.083",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
+   "rc": 0,
+   "minutes": 0.4,
+   "tail": [
+    "{",
+    " \"generated\": \"2026-09-08T06:30:11Z\",",
+    " \"snapshots\": [",
+    "  \"2026-09-02\",",
+    "  \"2026-09-03\",",
+    "  \"2026-09-07\"",
+    " ],",
+    " \"latest\": \"2026-09-07\",",
+    " \"venues\": 3655,",
+    " \"venues_with_3plus\": 1038,",
+    " \"leadership_artists\": 4693,",
+    " \"tiered_rooms\": 717",
+    "}"
+   ]
   }
  ]
 }
