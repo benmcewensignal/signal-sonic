@@ -99,6 +99,8 @@ def main():
           elif mode == "supply":
               rc = run([sys.executable, "-m", "sonic.supply", "--db", "sonic.db", "--fetch",
                         "--months", str(job.get("months", 24)), "--out", "data/supply.json"], log); touched_db = True
+          elif mode == "embed3":
+              rc = run([sys.executable, "-m", "sonic.embed_v3", "--db", "sonic.db", "--limit", str(job.get("limit", 300)), "--budget-minutes", str(max(15, min(50, remaining)))], log); touched_db = True
           elif mode == "listening":
               rc = run([sys.executable, "-m", "sonic.listening", "--db", "sonic.db", "--per-scene", str(job.get("per_scene", 2)), "--out", "data/listening-test.json"], log)
           elif mode == "nts":

@@ -1,0 +1,1 @@
+{"mode":"embed3","limit":300,"note":"v3: pretrained MERT embeddings in their own table; self-tests on a synthetic tone before embedding a single record; self-requeues until the corpus is covered"}
