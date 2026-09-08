@@ -1,0 +1,31 @@
+{
+ "ran": "2026-09-08T22:29:14Z",
+ "job": "backfill",
+ "before": {
+  "tracks": 19577,
+  "v2": 8236,
+  "v3": 149,
+  "named": 17938,
+  "plays": 1564,
+  "usable_mixes": 55,
+  "mix_pop": 16,
+  "nts_lines": 77,
+  "supply": 480,
+  "aliases": null
+ },
+ "after": {
+  "tracks": 20537,
+  "v2": 9196,
+  "v3": 149,
+  "named": 17938,
+  "plays": 1564,
+  "usable_mixes": 55,
+  "mix_pop": 16,
+  "nts_lines": 77,
+  "supply": 480,
+  "aliases": null
+ },
+ "failures": [],
+ "notes": [],
+ "ok": true
+}
