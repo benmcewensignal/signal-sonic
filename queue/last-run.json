@@ -1,182 +1,33 @@
 {
- "ran": "2026-09-08T20:29:32Z",
+ "ran": "2026-09-08T20:31:08Z",
  "log": [
   {
-   "cmd": "before embed3: free disk 88.9 GB",
+   "cmd": "before backfill: free disk 91.2 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 300 --budget-minutes 50",
-   "rc": 0,
-   "minutes": 50.5,
-   "tail": [
-    "A new version of the following files was downloaded from https://huggingface.co/m-a-p/MERT-v1-95M:",
-    "- configuration_MERT.py",
-    ". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.",
-    "A new version of the following files was downloaded from https://huggingface.co/m-a-p/MERT-v1-95M:",
-    "- modeling_MERT.py",
-    ". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.",
-    "self-test: shape (768,), finite True, norm 10.562 -> ok",
-    "v3: 300 records to embed",
-    "  50/300 embedded, 0 failed",
-    "  100/300 embedded, 0 failed",
-    "budget reached",
-    "v3: 149 embedded, 0 failed, 19428 remaining"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job embed3 --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2025-01 --to 2025-06 --db sonic.db --analyser local --scenes progressive-house,psy-trance,indie-dance,organic-house",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "validation note: embed3 ran but none of ['v3'] grew: check its log for why",
+    "backfill restricted to ['indie-dance', 'organic-house', 'progressive-house', 'psy-trance']",
+    "2025-M01: already complete, skipping",
+    "2025-M02: already complete, skipping",
+    "2025-M03: already complete, skipping",
+    "2025-M04: already complete, skipping",
+    "2025-M05: already complete, skipping",
+    "2025-M06: already complete, skipping",
+    "{\"supply_rows_saved\": 0}",
+    "{\"backfill_complete\": true, \"claims_untouched\": true}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job backfill --before /tmp/before.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "validation note: backfill ran but none of ['tracks'] grew: check its log for why",
     "validation: ok"
-   ]
-  },
-  {
-   "cmd": "embed3: work remains, job stays queued",
-   "rc": 0
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"versions\": {",
-    "  \"1\": 11308,",
-    "  \"2\": 7013",
-    " },",
-    " \"use_version\": \"1\",",
-    " \"archived_v1\": 6053,",
-    " \"linked\": 3,",
-    " \"scenes\": 20",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  ],",
-    "  [",
-    "   \"SOLTO (FR)\",",
-    "   15.77",
-    "  ],",
-    "  [",
-    "   \"Nigel Jones\",",
-    "   13.94",
-    "  ]",
-    " ],",
-    " \"appetite\": {",
-    "  \"afro-house\": {",
-    "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 75.2",
-    "  },",
-    "  \"techno-peak-time\": {",
-    "   \"mixes\": 3,",
-    "   \"plays_per_day_median\": 0.7",
-    "  },",
-    "  \"deep-house\": {",
-    "   \"mixes\": 3,",
-    "   \"plays_per_day_median\": 235.4",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  140-deep-dubstep-grime     flatter, more uniformly loud (-0.36), more voice (+0.35)",
-    "  afro-house                 nothing names it yet",
-    "  amapiano                   less voice (-0.21)",
-    "  breaks-breakbeat-uk-bass   nothing names it yet",
-    "  deep-house                 less voice (-0.24)",
-    "  drum-and-bass              nothing names it yet",
-    "  house                      nothing names it yet",
-    "  melodic-house-techno       less voice (-0.30)",
-    "  tech-house                 flatter, more uniformly loud (-0.48), more voice (+0.24)",
-    "  techno-peak-time           flatter, more uniformly loud (-0.48)",
-    "  techno-raw-deep-hypnotic   nothing names it yet",
-    "  uk-funky-gqom              nothing names it yet",
-    "  uk-garage-speed-garage     more voice (+0.27)"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "   \"n\": 249,",
-    "   \"r\": -0.05",
-    "  },",
-    "  \"-1\": {",
-    "   \"n\": 262,",
-    "   \"r\": 0.01",
-    "  },",
-    "  \"0\": {",
-    "   \"n\": 275,",
-    "   \"r\": 0.1",
-    "  },",
-    "  \"1\": {",
-    "   \"n\": 262,",
-    "   \"r\": -0.06",
-    "  },",
-    "  \"2\": {",
-    "   \"n\": 249,",
-    "   \"r\": -0.08",
-    "  },",
-    "  \"3\": {",
-    "   \"n\": 236,",
-    "   \"r\": 0.05",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
-   "rc": 0,
-   "minutes": 2.4,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-08T20:28:48Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\"",
-    " ],",
-    " \"artists_total\": 33440,",
-    " \"booking_side\": 19815,",
-    " \"release_side\": 14856,",
-    " \"joined\": 1231,",
-    " \"tracks_with_metadata\": 17938,",
-    " \"join_rate_release_side\": 0.083",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
-   "rc": 0,
-   "minutes": 0.7,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-08T20:29:32Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\"",
-    " ],",
-    " \"latest\": \"2026-09-07\",",
-    " \"venues\": 3655,",
-    " \"venues_with_3plus\": 1038,",
-    " \"leadership_artists\": 3301,",
-    " \"tiered_rooms\": 717",
-    "}"
    ]
   }
  ]
