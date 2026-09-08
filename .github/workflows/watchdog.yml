@@ -1,0 +1,23 @@
+name: watchdog
+on:
+  schedule:
+    - cron: "*/20 * * * *"      # every twenty minutes
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: sonic-watchdog          # never shares a group with the pipeline it unblocks
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: cancel stuck runs and restart a stalled chain
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: python -m sonic.watchdog --repo ${{ github.repository }}
