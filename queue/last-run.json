@@ -1,41 +1,41 @@
 {
- "ran": "2026-09-08T17:47:45Z",
+ "ran": "2026-09-08T20:29:32Z",
  "log": [
   {
-   "cmd": "before backfill: free disk 90.2 GB",
+   "cmd": "before embed3: free disk 88.9 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2025-01 --to 2025-06 --db sonic.db --analyser local --scenes progressive-house,psy-trance,indie-dance,organic-house",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 300 --budget-minutes 50",
    "rc": 0,
-   "minutes": 115.8,
+   "minutes": 50.5,
    "tail": [
-    "  2025-M05 organic-house: 40 analysed, 0 skipped, 291s",
-    "{\"2025-M05\": {\"progressive-house\": {\"fetched\": 40, \"analysed\": 40}, \"psy-trance\": {\"fetched\": 40, \"analysed\": 40}, \"indie-dance\": {\"fetched\": 40, \"analysed\": 40}, \"organic-house\": {\"fetched\": 40, \"analysed\": 40}}}",
-    "    2025-M06 genre15 10/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre15 20/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre15 30/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre15 40/40 (0.1 tracks/s, 0 skipped)",
-    "  2025-M06 progressive-house: 40 analysed, 0 skipped, 281s",
-    "    2025-M06 genre13 10/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre13 20/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre13 30/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre13 40/40 (0.1 tracks/s, 0 skipped)",
-    "  2025-M06 psy-trance: 40 analysed, 0 skipped, 293s",
-    "    2025-M06 genre37 10/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre37 20/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre37 30/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre37 40/40 (0.1 tracks/s, 0 skipped)",
-    "  2025-M06 indie-dance: 40 analysed, 0 skipped, 291s",
-    "    2025-M06 genre93 10/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre93 20/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre93 30/40 (0.1 tracks/s, 0 skipped)",
-    "    2025-M06 genre93 40/40 (0.1 tracks/s, 0 skipped)",
-    "  2025-M06 organic-house: 40 analysed, 0 skipped, 289s",
-    "{\"2025-M06\": {\"progressive-house\": {\"fetched\": 40, \"analysed\": 40}, \"psy-trance\": {\"fetched\": 40, \"analysed\": 40}, \"indie-dance\": {\"fetched\": 40, \"analysed\": 40}, \"organic-house\": {\"fetched\": 40, \"analysed\": 40}}}",
-    "{\"supply_rows_saved\": 24}",
-    "{\"backfill_complete\": true, \"claims_untouched\": true}"
+    "A new version of the following files was downloaded from https://huggingface.co/m-a-p/MERT-v1-95M:",
+    "- configuration_MERT.py",
+    ". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.",
+    "A new version of the following files was downloaded from https://huggingface.co/m-a-p/MERT-v1-95M:",
+    "- modeling_MERT.py",
+    ". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.",
+    "self-test: shape (768,), finite True, norm 10.562 -> ok",
+    "v3: 300 records to embed",
+    "  50/300 embedded, 0 failed",
+    "  100/300 embedded, 0 failed",
+    "budget reached",
+    "v3: 149 embedded, 0 failed, 19428 remaining"
    ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job embed3 --before /tmp/before.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "validation note: embed3 ran but none of ['v3'] grew: check its log for why",
+    "validation: ok"
+   ]
+  },
+  {
+   "cmd": "embed3: work remains, job stays queued",
+   "rc": 0
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
@@ -141,10 +141,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 2.1,
+   "minutes": 2.4,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-08T17:47:17Z\",",
+    " \"generated\": \"2026-09-08T20:28:48Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -162,10 +162,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 0.4,
+   "minutes": 0.7,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-08T17:47:45Z\",",
+    " \"generated\": \"2026-09-08T20:29:32Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
