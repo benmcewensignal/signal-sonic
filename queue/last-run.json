@@ -1,22 +1,40 @@
 {
- "ran": "2026-09-08T13:47:27Z",
+ "ran": "2026-09-08T17:47:45Z",
  "log": [
   {
-   "cmd": "before listening: free disk 91.2 GB",
+   "cmd": "before backfill: free disk 90.2 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.listening --db sonic.db --per-scene 2 --out data/listening-test.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2025-01 --to 2025-06 --db sonic.db --analyser local --scenes progressive-house,psy-trance,indie-dance,organic-house",
    "rc": 0,
-   "minutes": 0.2,
+   "minutes": 115.8,
    "tail": [
-    "{",
-    " \"pairs\": 26,",
-    " \"scenes\": 13,",
-    " \"skipped\": {",
-    "  \"too few named records\": 5",
-    " }",
-    "}"
+    "  2025-M05 organic-house: 40 analysed, 0 skipped, 291s",
+    "{\"2025-M05\": {\"progressive-house\": {\"fetched\": 40, \"analysed\": 40}, \"psy-trance\": {\"fetched\": 40, \"analysed\": 40}, \"indie-dance\": {\"fetched\": 40, \"analysed\": 40}, \"organic-house\": {\"fetched\": 40, \"analysed\": 40}}}",
+    "    2025-M06 genre15 10/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre15 20/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre15 30/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre15 40/40 (0.1 tracks/s, 0 skipped)",
+    "  2025-M06 progressive-house: 40 analysed, 0 skipped, 281s",
+    "    2025-M06 genre13 10/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre13 20/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre13 30/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre13 40/40 (0.1 tracks/s, 0 skipped)",
+    "  2025-M06 psy-trance: 40 analysed, 0 skipped, 293s",
+    "    2025-M06 genre37 10/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre37 20/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre37 30/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre37 40/40 (0.1 tracks/s, 0 skipped)",
+    "  2025-M06 indie-dance: 40 analysed, 0 skipped, 291s",
+    "    2025-M06 genre93 10/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre93 20/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre93 30/40 (0.1 tracks/s, 0 skipped)",
+    "    2025-M06 genre93 40/40 (0.1 tracks/s, 0 skipped)",
+    "  2025-M06 organic-house: 40 analysed, 0 skipped, 289s",
+    "{\"2025-M06\": {\"progressive-house\": {\"fetched\": 40, \"analysed\": 40}, \"psy-trance\": {\"fetched\": 40, \"analysed\": 40}, \"indie-dance\": {\"fetched\": 40, \"analysed\": 40}, \"organic-house\": {\"fetched\": 40, \"analysed\": 40}}}",
+    "{\"supply_rows_saved\": 24}",
+    "{\"backfill_complete\": true, \"claims_untouched\": true}"
    ]
   },
   {
@@ -27,7 +45,7 @@
     "{",
     " \"versions\": {",
     "  \"1\": 11308,",
-    "  \"2\": 6053",
+    "  \"2\": 7013",
     " },",
     " \"use_version\": \"1\",",
     " \"archived_v1\": 6053,",
@@ -126,7 +144,7 @@
    "minutes": 2.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-08T13:46:58Z\",",
+    " \"generated\": \"2026-09-08T17:47:17Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -144,10 +162,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 0.5,
+   "minutes": 0.4,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-08T13:47:26Z\",",
+    " \"generated\": \"2026-09-08T17:47:45Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
