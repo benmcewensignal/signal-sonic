@@ -217,13 +217,13 @@ def load_leadership(db, R, B):
                 behind = sum(1 for r in distinct if r["align"] <= -0.5) / len(distinct)
                 regime = "stars lead" if ahead >= 0.6 else "stars behind" if behind >= 0.6 else "mixed"
         if rows:
-            edge[sc] = {"leading": rows[:6], "conservative": rows[-3:][::-1],
+            edge[sc] = {"leading": rows[:20], "conservative": rows[-3:][::-1],
                         # cities played, not bookings: a resident with a dozen small nights is not
                         # a bigger name than someone playing eight cities, and one festival lineup
                         # can inflate a total-interest ranking on its own.
-                        "established": sorted(known, key=lambda r: (-r.get("cities", 0), -r["ra_slots"]))[:6],
+                        "established": sorted(known, key=lambda r: (-r.get("cities", 0), -r["ra_slots"]))[:20],
                         "established_n": len(known), "regime": regime,
-                        "named_2026_records": sum(len(v["z"]) for v in art.values())}
+                        "leading_n": len(rows), "named_2026_records": sum(len(v["z"]) for v in art.values())}
         DISTRIBUTORS = {"distrokid", "united masters", "unitedmasters", "cd baby", "cdbaby", "tunecore",
                         "believe", "the orchard", "amuse", "symphonic", "label engine", "labelworx", "routenote"}
         def _lab_extra(l):
