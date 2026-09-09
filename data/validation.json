@@ -1,9 +1,9 @@
 {
- "ran": "2026-09-09T12:19:52Z",
+ "ran": "2026-09-09T13:37:37Z",
  "job": "embed3",
  "before": {
   "tracks": 21694,
-  "v2": 10717,
+  "v2": 11184,
   "v3": 149,
   "named": 17938,
   "plays": 1316,
@@ -15,8 +15,8 @@
  },
  "after": {
   "tracks": 21694,
-  "v2": 10717,
-  "v3": 149,
+  "v2": 11184,
+  "v3": 244,
   "named": 17938,
   "plays": 1316,
   "usable_mixes": 55,
@@ -26,8 +26,6 @@
   "aliases": null
  },
  "failures": [],
- "notes": [
-  "embed3 ran but none of ['v3'] grew: check its log for why"
- ],
+ "notes": [],
  "ok": true
 }
