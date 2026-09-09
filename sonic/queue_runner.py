@@ -192,6 +192,7 @@ def main():
     run([sys.executable, "-m", "sonic.coverage", "--db", "sonic.db", "--out", "data/coverage.json"], log)
     run([sys.executable, "-m", "sonic.ingredients", "--db", "sonic.db", "--out", "data/ingredient-series.json"], log)
     run([sys.executable, "-m", "sonic.links", "--db", "sonic.db", "--out", "data/links.json"], log)
+    run([sys.executable, "-m", "sonic.ingredient_series", "--db", "sonic.db", "--out", "data/ingredient-series.json"], log)
     run([sys.executable, "-m", "sonic.turns", "--db", "sonic.db", "--out", "data/turns.json"], log)
     run([sys.executable, "-m", "sonic.chainlink", "--db", "sonic.db", "--out", "data/chainlink.json"], log)
     run([sys.executable, "-m", "sonic.reach", "--db", "sonic.db", "--out", "data/reach.json"], log)
