@@ -3,8 +3,8 @@ on:
   schedule:
     - cron: "*/20 * * * *"      # every twenty minutes, when GitHub honours it
   workflow_run:
-    workflows: ["sonic"]         # and immediately after any pipeline run ends, chained or not
-    types: [completed]
+    workflows: ["sonic", "watchdog"]   # after a pipeline run, and after itself, so an idle
+    types: [completed]                 # pipeline cannot leave the watchdog asleep too
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,11 +15,15 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - name: pace itself
+        if: github.event_name == 'workflow_run'
+        run: sleep 540              # ten minutes between self-triggered checks, so it cannot spin
+
       - name: cancel stuck runs and restart a stalled chain
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
