@@ -1,12 +1,12 @@
 {
- "ran": "2026-09-09T09:35:12Z",
- "job": "coverage",
+ "ran": "2026-09-09T12:19:52Z",
+ "job": "embed3",
  "before": {
   "tracks": 21694,
   "v2": 10717,
   "v3": 149,
   "named": 17938,
-  "plays": 1564,
+  "plays": 1316,
   "usable_mixes": 55,
   "mix_pop": 16,
   "nts_lines": 77,
@@ -18,16 +18,16 @@
   "v2": 10717,
   "v3": 149,
   "named": 17938,
-  "plays": 1564,
+  "plays": 1316,
   "usable_mixes": 55,
   "mix_pop": 16,
   "nts_lines": 77,
   "supply": 480,
   "aliases": null
  },
- "failures": [
-  "248 plays come from mixes published before the corpus window"
+ "failures": [],
+ "notes": [
+  "embed3 ran but none of ['v3'] grew: check its log for why"
  ],
- "notes": [],
- "ok": false
+ "ok": true
 }

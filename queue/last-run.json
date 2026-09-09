@@ -1,28 +1,35 @@
 {
- "ran": "2026-09-09T09:38:25Z",
+ "ran": "2026-09-09T12:23:00Z",
  "log": [
   {
-   "cmd": "before coverage: free disk 91.2 GB",
+   "cmd": "before embed3: free disk 91.2 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
-   "rc": 0,
-   "minutes": 0.2,
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 300 --budget-minutes 50",
+   "rc": 1,
+   "minutes": 0.0,
    "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"median share of Beatport\": 0.02068,",
-    " \"deezer reachable\": 20",
-    "}"
+    "Traceback (most recent call last):",
+    "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
+    "  File \"<frozen runpy>\", line 88, in _run_code",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/embed_v3.py\", line 141, in <module>",
+    "    main()",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/embed_v3.py\", line 91, in main",
+    "    model, fe = load_model()",
+    "                ^^^^^^^^^^^^",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/embed_v3.py\", line 30, in load_model",
+    "    import torch",
+    "ModuleNotFoundError: No module named 'torch'"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job coverage --before /tmp/before.json",
-   "rc": 2,
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job embed3 --before /tmp/before.json",
+   "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "VALIDATION FAIL: 248 plays come from mixes published before the corpus window"
+    "validation note: embed3 ran but none of ['v3'] grew: check its log for why",
+    "validation: ok"
    ]
   },
   {
@@ -30,7 +37,13 @@
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: could not list the worker repo (HTTPError); nothing to do"
+    "  features-000.jsonl: 483 applied",
+    "{",
+    " \"files\": 1,",
+    " \"applied\": 483,",
+    " \"rejected\": 0,",
+    " \"records_on_v2\": 11184",
+    "}"
    ]
   },
   {
@@ -41,7 +54,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.02068,",
-    " \"deezer reachable\": 20",
+    " \"deezer usable\": 5",
     "}"
    ]
   },
@@ -51,8 +64,8 @@
    "minutes": 0.0,
    "tail": [
     "{",
-    " \"records\": 792,",
-    " \"with a set appearance\": 792",
+    " \"records\": 751,",
+    " \"with a set appearance\": 751",
     "}"
    ]
   },
@@ -62,8 +75,8 @@
    "minutes": 0.0,
    "tail": [
     "{",
-    " \"version\": \"v1\",",
-    " \"scenes\": 13,",
+    " \"version\": \"v2\",",
+    " \"scenes\": 7,",
     " \"with a detected turn\": 0,",
     " \"turns\": {}",
     "}"
@@ -71,19 +84,30 @@
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
-   "rc": 0,
+   "rc": 1,
    "minutes": 0.0,
    "tail": [
-    "{",
-    " \"versions\": {",
-    "  \"1\": 10944,",
-    "  \"2\": 9494",
-    " },",
-    " \"use_version\": \"1\",",
-    " \"archived_v1\": 6417,",
-    " \"linked\": 3,",
-    " \"scenes\": 20",
-    "}"
+    "Traceback (most recent call last):",
+    "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
+    "  File \"<frozen runpy>\", line 88, in _run_code",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/chainlink.py\", line 106, in <module>",
+    "    main()",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/chainlink.py\", line 98, in main",
+    "    out = build(a.db)",
+    "          ^^^^^^^^^^^",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/chainlink.py\", line 71, in build",
+    "    s1 = series_for(v1.get(sc, [])); s2 = series_for(v2.get(sc, []))",
+    "         ^^^^^^^^^^^^^^^^^^^^^^^^^^",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/chainlink.py\", line 37, in series_for",
+    "    cent = {m: np.mean(by[m], axis=0) for m in ms}",
+    "               ^^^^^^^^^^^^^^^^^^^^^^",
+    "  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/numpy/_core/fromnumeric.py\", line 3862, in mean",
+    "    return _methods._mean(a, axis=axis, dtype=dtype,",
+    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+    "  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/numpy/_core/_methods.py\", line 116, in _mean",
+    "    arr = asanyarray(a)",
+    "          ^^^^^^^^^^^^^",
+    "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (42,) + inhomogeneous part."
    ]
   },
   {
@@ -123,19 +147,13 @@
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "  140-deep-dubstep-grime     flatter, more uniformly loud (-0.36), more voice (+0.34)",
-    "  afro-house                 nothing names it yet",
-    "  amapiano                   less voice (-0.21)",
-    "  breaks-breakbeat-uk-bass   nothing names it yet",
-    "  deep-house                 less voice (-0.24)",
-    "  drum-and-bass              nothing names it yet",
-    "  house                      nothing names it yet",
-    "  melodic-house-techno       less voice (-0.30)",
-    "  tech-house                 flatter, more uniformly loud (-0.48), more voice (+0.23)",
-    "  techno-peak-time           flatter, more uniformly loud (-0.49)",
-    "  techno-raw-deep-hypnotic   sparser drums (-0.20)",
-    "  uk-funky-gqom              nothing names it yet",
-    "  uk-garage-speed-garage     more voice (+0.29)"
+    "  bass-house                 flatter, more uniformly loud (-0.50)",
+    "  hard-techno                flatter, more uniformly loud (-0.39)",
+    "  indie-dance                nothing names it yet",
+    "  organic-house              busier drums (+0.37), flatter, more uniformly loud (-0.25)",
+    "  progressive-house          less voice (-0.22)",
+    "  psy-trance                 sparser drums (-0.32), choppier (+0.31)",
+    "  trance-main-floor          front-loaded (-0.26), flatter, more uniformly loud (-0.23)"
    ]
   },
   {
@@ -143,27 +161,27 @@
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "   \"n\": 240,",
-    "   \"r\": -0.18",
+    "   \"n\": 419,",
+    "   \"r\": -0.01",
     "  },",
     "  \"-1\": {",
-    "   \"n\": 253,",
-    "   \"r\": 0.09",
+    "   \"n\": 439,",
+    "   \"r\": -0.03",
     "  },",
     "  \"0\": {",
-    "   \"n\": 266,",
-    "   \"r\": 0.06",
+    "   \"n\": 459,",
+    "   \"r\": -0.04",
     "  },",
     "  \"1\": {",
-    "   \"n\": 253,",
-    "   \"r\": -0.09",
+    "   \"n\": 439,",
+    "   \"r\": 0.08",
     "  },",
     "  \"2\": {",
-    "   \"n\": 240,",
-    "   \"r\": -0.02",
+    "   \"n\": 419,",
+    "   \"r\": -0.03",
     "  },",
     "  \"3\": {",
-    "   \"n\": 227,",
+    "   \"n\": 399,",
     "   \"r\": 0.06",
     "  }",
     " }",
@@ -176,7 +194,7 @@
    "minutes": 2.3,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-09T09:37:44Z\",",
+    " \"generated\": \"2026-09-09T12:22:27Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -194,10 +212,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 0.6,
+   "minutes": 0.5,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-09T09:38:25Z\",",
+    " \"generated\": \"2026-09-09T12:22:59Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -206,7 +224,7 @@
     " \"latest\": \"2026-09-07\",",
     " \"venues\": 3655,",
     " \"venues_with_3plus\": 1038,",
-    " \"leadership_artists\": 3301,",
+    " \"leadership_artists\": 3138,",
     " \"tiered_rooms\": 717",
     "}"
    ]

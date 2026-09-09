@@ -421,38 +421,86 @@
 },
 {
 "date": "2026-09-09",
-"scene": "uk-garage-speed-garage",
-"regime": "stars lead",
-"established": 12
+"scene": "uk-funky-gqom",
+"regime": "mixed",
+"established": 25
 },
 {
 "date": "2026-09-09",
-"scene": "uk-funky-gqom",
+"scene": "uk-garage-speed-garage",
+"regime": "mixed",
+"established": 33
+},
+{
+"date": "2026-09-09",
+"scene": "afro-house",
+"regime": "mixed",
+"established": 32
+},
+{
+"date": "2026-09-09",
+"scene": "140-deep-dubstep-grime",
+"regime": "mixed",
+"established": 20
+},
+{
+"date": "2026-09-09",
+"scene": "breaks-breakbeat-uk-bass",
 "regime": "mixed",
 "established": 22
 },
 {
 "date": "2026-09-09",
-"scene": "140-deep-dubstep-grime",
-"regime": "stars behind",
-"established": 12
+"scene": "tech-house",
+"regime": "mixed",
+"established": 30
 },
 {
 "date": "2026-09-09",
-"scene": "tech-house",
-"regime": "mixed",
-"established": 4
+"scene": "techno-peak-time",
+"regime": "stars lead",
+"established": 29
 },
 {
 "date": "2026-09-09",
 "scene": "techno-raw-deep-hypnotic",
-"regime": "stars behind",
-"established": 14
+"regime": "stars lead",
+"established": 36
+},
+{
+"date": "2026-09-09",
+"scene": "house",
+"regime": "stars lead",
+"established": 44
+},
+{
+"date": "2026-09-09",
+"scene": "deep-house",
+"regime": "stars lead",
+"established": 46
+},
+{
+"date": "2026-09-09",
+"scene": "melodic-house-techno",
+"regime": "mixed",
+"established": 49
 },
 {
 "date": "2026-09-09",
 "scene": "drum-and-bass",
+"regime": "stars lead",
+"established": 35
+},
+{
+"date": "2026-09-09",
+"scene": "hard-techno",
+"regime": "stars lead",
+"established": 6
+},
+{
+"date": "2026-09-09",
+"scene": "bass-house",
 "regime": "mixed",
-"established": 4
+"established": 7
 }
 ]
