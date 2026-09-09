@@ -58,8 +58,22 @@ def main():
     last_ran = {}
     for d in done:
         if d.get("requeued"): last_ran[d["file"]] = max(last_ran.get(d["file"], ""), d.get("finished", ""))
-    jobs = sorted((f for f in glob.glob("queue/*.json") if os.path.basename(f) not in ("done.json", "last-run.json")
-                   and os.path.basename(f) not in done_names),
+    # a rename leaves the old filename behind when the bot restores its own copy of queue/,
+    # so identity is the job's content, not its name: keep the first of any duplicate
+    def _sig(f):
+        try:
+            j = json.load(open(f))
+            return json.dumps({k: j[k] for k in sorted(j) if k != "note"}, sort_keys=True)
+        except Exception:
+            return os.path.basename(f)
+    seen_sig, uniq = set(), []
+    for f in sorted(glob.glob("queue/*.json")):
+        if os.path.basename(f) in ("done.json", "last-run.json") or os.path.basename(f) in done_names: continue
+        sg = _sig(f)
+        if sg in seen_sig:
+            print(f"skipping duplicate job {os.path.basename(f)}", flush=True); continue
+        seen_sig.add(sg); uniq.append(f)
+    jobs = sorted((f for f in uniq),
                   key=lambda f: (last_ran.get(os.path.basename(f), ""), os.path.basename(f)))
     print(f"queue: {len(jobs)} pending, budget {a.budget_minutes} min, max {a.max_jobs} job(s) this run", flush=True)
     jobs_run = 0
@@ -88,7 +102,22 @@ def main():
         rc = 0
         try:
           if mode == "backfill":
-              cmd = [sys.executable, "-m", "sonic.backfill", "fetch", "--from", job["month_from"], "--to", job["month_to"], "--db", "sonic.db", "--analyser", "local"]
+              # a deep backfill of many months cannot fit a two-hour run: take what fits and requeue
+              mf, mt = job["month_from"], job["month_to"]
+              if job.get("per_month", 40) > 60:
+                  months = []
+                  y, m = int(mf[:4]), int(mf[5:7])
+                  while f"{y:04d}-{m:02d}" <= mt:
+                      months.append(f"{y:04d}-{m:02d}")
+                      m += 1
+                      if m > 12: m, y = 1, y + 1
+                  if len(months) > 2:
+                      mt = months[1]
+                      job["month_from"] = months[2]
+                      json.dump(job, open(f, "w"))
+                      open("queue/.more", "w").write("backfill\n")
+                      print(f"deep backfill: taking {mf} to {mt} this run, {len(months)-2} months left", flush=True)
+              cmd = [sys.executable, "-m", "sonic.backfill", "fetch", "--from", mf, "--to", mt, "--db", "sonic.db", "--analyser", "local"]
               if job.get("scenes"): cmd += ["--scenes", job["scenes"]]
               if job.get("per_month"): cmd += ["--per-month", str(job["per_month"])]
               rc = run(cmd, log); touched_db = True
