@@ -1,17 +1,17 @@
 {
- "ran": "2026-09-09T13:45:18Z",
+ "ran": "2026-09-09T14:22:53Z",
  "log": [
   {
    "cmd": "before backfill: free disk 91.2 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2025-11 --to 2025-12 --db sonic.db --analyser local --per-month 150",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2026-03 --to 2026-04 --db sonic.db --analyser local --per-month 150",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "2025-M11: already complete, skipping",
-    "2025-M12: already complete, skipping",
+    "2026-M03: already complete, skipping",
+    "2026-M04: already complete, skipping",
     "{\"supply_rows_saved\": 0}",
     "{\"backfill_complete\": true, \"claims_untouched\": true}"
    ]
@@ -178,10 +178,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 2.1,
+   "minutes": 2.2,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-09T13:44:42Z\",",
+    " \"generated\": \"2026-09-09T14:22:15Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -202,7 +202,7 @@
    "minutes": 0.6,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-09T13:45:17Z\",",
+    " \"generated\": \"2026-09-09T14:22:53Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
