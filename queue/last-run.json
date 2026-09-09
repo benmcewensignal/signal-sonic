@@ -1,8 +1,36 @@
 {
- "ran": "2026-09-09T08:06:29Z",
+ "ran": "2026-09-09T08:42:45Z",
  "log": [
   {
-   "cmd": "/usr/bin/python3 -m sonic.links --db sonic.db --out data/links.json",
+   "cmd": "before backfill: free disk 91.2 GB",
+   "rc": 0
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2026-05 --to 2026-06 --db sonic.db --analyser local --per-month 150",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "2026-M05: already complete, skipping",
+    "2026-M06: already complete, skipping",
+    "{\"supply_rows_saved\": 0}",
+    "{\"backfill_complete\": true, \"claims_untouched\": true}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job backfill --before /tmp/before.json",
+   "rc": 2,
+   "minutes": 0.0,
+   "tail": [
+    "VALIDATION FAIL: 248 plays come from mixes published before the corpus window",
+    "validation note: backfill ran but none of ['tracks'] grew: check its log for why"
+   ]
+  },
+  {
+   "cmd": "backfill: work remains, job stays queued",
+   "rc": 0
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.links --db sonic.db --out data/links.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -13,7 +41,7 @@
    ]
   },
   {
-   "cmd": "/usr/bin/python3 -m sonic.turns --db sonic.db --out data/turns.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -26,14 +54,14 @@
    ]
   },
   {
-   "cmd": "/usr/bin/python3 -m sonic.chainlink --db sonic.db --out data/chainlink.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
     "{",
     " \"versions\": {",
     "  \"1\": 11308,",
-    "  \"2\": 9005",
+    "  \"2\": 9130",
     " },",
     " \"use_version\": \"1\",",
     " \"archived_v1\": 6053,",
@@ -43,7 +71,7 @@
    ]
   },
   {
-   "cmd": "/usr/bin/python3 -m sonic.reach --db sonic.db --out data/reach.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -75,7 +103,7 @@
    ]
   },
   {
-   "cmd": "/usr/bin/python3 -m sonic.texture --db sonic.db --out data/texture.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -95,7 +123,7 @@
    ]
   },
   {
-   "cmd": "/usr/bin/python3 -m sonic.supply --db sonic.db --out data/supply.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -127,67 +155,44 @@
    ]
   },
   {
-   "cmd": "/usr/bin/python3 -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
-   "rc": 1,
-   "minutes": 0.0,
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
+   "rc": 0,
+   "minutes": 2.2,
    "tail": [
-    "               ^^^^^^^^^^^^^^^^^^^",
-    "  File \"/home/claude/sonic/sonic/artists.py\", line 36, in load_bookings",
-    "    idx = fetch_json(f\"{site}/api/ra-depth?horizon=1\")",
-    "          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/home/claude/sonic/sonic/artists.py\", line 31, in fetch_json",
-    "    with urllib.request.urlopen(req, timeout=timeout) as r:",
-    "         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 215, in urlopen",
-    "    return opener.open(url, data, timeout)",
-    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 521, in open",
-    "    response = meth(req, response)",
-    "               ^^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 630, in http_response",
-    "    response = self.parent.error(",
-    "               ^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error",
-    "    return self._call_chain(*args)",
-    "           ^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 492, in _call_chain",
-    "    result = func(*args)",
-    "             ^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 639, in http_error_default",
-    "    raise HTTPError(req.full_url, code, msg, hdrs, fp)",
-    "urllib.error.HTTPError: HTTP Error 403: Forbidden"
+    "{",
+    " \"generated\": \"2026-09-09T08:42:07Z\",",
+    " \"snapshots\": [",
+    "  \"2026-09-02\",",
+    "  \"2026-09-03\",",
+    "  \"2026-09-07\"",
+    " ],",
+    " \"artists_total\": 33440,",
+    " \"booking_side\": 19815,",
+    " \"release_side\": 14856,",
+    " \"joined\": 1231,",
+    " \"tracks_with_metadata\": 17938,",
+    " \"join_rate_release_side\": 0.083",
+    "}"
    ]
   },
   {
-   "cmd": "/usr/bin/python3 -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
-   "rc": 1,
-   "minutes": 0.0,
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
+   "rc": 0,
+   "minutes": 0.6,
    "tail": [
-    "                    ^^^^^^^^^^^^^^^^^",
-    "  File \"/home/claude/sonic/sonic/venues.py\", line 34, in load_events",
-    "    idx = fetch_json(f\"{site}/api/ra-depth?horizon=1\")",
-    "          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/home/claude/sonic/sonic/venues.py\", line 25, in fetch_json",
-    "    with urllib.request.urlopen(req, timeout=timeout) as r:",
-    "         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 215, in urlopen",
-    "    return opener.open(url, data, timeout)",
-    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 521, in open",
-    "    response = meth(req, response)",
-    "               ^^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 630, in http_response",
-    "    response = self.parent.error(",
-    "               ^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error",
-    "    return self._call_chain(*args)",
-    "           ^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 492, in _call_chain",
-    "    result = func(*args)",
-    "             ^^^^^^^^^^^",
-    "  File \"/usr/lib/python3.12/urllib/request.py\", line 639, in http_error_default",
-    "    raise HTTPError(req.full_url, code, msg, hdrs, fp)",
-    "urllib.error.HTTPError: HTTP Error 403: Forbidden"
+    "{",
+    " \"generated\": \"2026-09-09T08:42:45Z\",",
+    " \"snapshots\": [",
+    "  \"2026-09-02\",",
+    "  \"2026-09-03\",",
+    "  \"2026-09-07\"",
+    " ],",
+    " \"latest\": \"2026-09-07\",",
+    " \"venues\": 3655,",
+    " \"venues_with_3plus\": 1038,",
+    " \"leadership_artists\": 3301,",
+    " \"tiered_rooms\": 717",
+    "}"
    ]
   }
  ]
