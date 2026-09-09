@@ -93,9 +93,22 @@ def main():
         print("v3: self-test failed; doing no work", flush=True); return
     from .beatport import get_token
     token = get_token()
-    todo = [r[0] for r in c.execute("""select track_id from tracks where analyser_id='local'
-                                         and track_id not in (select track_id from embeddings_v3)
-                                         order by rowid desc limit ?""", (a.limit,))]
+    # spread across scene-months: sweeping newest-first fills up with whichever scene was
+    # backfilled last, and the comparison this exists for needs the same scenes and months
+    # the hand-built embedding covers
+    import collections as _c, random as _r
+    have = {x[0] for x in c.execute("select track_id from embeddings_v3")}
+    pool = _c.defaultdict(list)
+    for row in c.execute("""select ts.scene, ts.week, ts.track_id from track_scenes ts
+                            join tracks t on t.track_id=ts.track_id and t.analyser_id='local'
+                            where ts.week like '____-M__'"""):
+        if row[2] not in have: pool[(row[0], row[1])].append(row[2])
+    keys = sorted(pool); rr = _r.Random(4)
+    for k in keys: rr.shuffle(pool[k])
+    todo = []
+    while len(todo) < a.limit and any(pool[k] for k in keys):
+        for k in keys:
+            if pool[k] and len(todo) < a.limit: todo.append(pool[k].pop())
     print(f"v3: {len(todo)} records to embed", flush=True)
     t0 = time.time(); done = err = 0
     for tid in todo:
