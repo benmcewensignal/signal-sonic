@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-09T23:49:58Z",
+ "ran": "2026-09-09T23:50:00Z",
  "log": [
   {
    "cmd": "before reanalyse: free disk 91.1 GB",
@@ -25,6 +25,10 @@
    "tail": [
     "validation: ok"
    ]
+  },
+  {
+   "cmd": "reanalyse: work remains, job stays queued",
+   "rc": 0
   }
  ]
 }
