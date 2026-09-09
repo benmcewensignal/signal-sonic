@@ -188,5 +188,10 @@
   "requeued": true,
   "rc": 0,
   "finished": "2026-09-09T09:26:54Z"
+ },
+ {
+  "file": "2026-09-09-05-coverage.json#attempt",
+  "rc": 96,
+  "finished": "2026-09-09T09:30:49Z"
  }
 ]
