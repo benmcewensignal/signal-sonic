@@ -43,11 +43,15 @@ def _get(url, tries=3):
             time.sleep(2 * (i + 1))
 
 
+DEEZER_CAP = 300          # the search endpoint caps its total; anything at or near it is not a count
+
+
 def deezer_count(term, year=None):
-    """Total tracks Deezer reports for a query. Its `total` is the population estimate."""
+    """Deezer's search total, which saturates at 300. Returns (count, capped)."""
     q = f'{term} {year}' if year else term
     d = _get(f"{DEEZER}/search/track?q={urllib.parse.quote(q)}&limit=1")
-    return int(d.get("total") or 0)
+    n = int(d.get("total") or 0)
+    return n, n >= DEEZER_CAP - 5
 
 
 def main():
@@ -81,10 +85,11 @@ def main():
             rec["beatport_released_per_month"] = bp
             rec["share_of_beatport"] = round(per_month / bp, 5)
         try:
-            total = deezer_count(term)
-            rec["deezer_catalogue_total"] = total
-            # Deezer indexes all time, so scale by our window against a rough catalogue span
-            rec["share_of_deezer_all_time"] = round(n_ours / total, 6) if total else None
+            total, capped = deezer_count(term)
+            if capped:
+                rec["deezer"] = "search total saturates at the API cap, so it is not a population count"
+            else:
+                rec["deezer_matching_tracks"] = total
         except Exception as e:
             rec["deezer_error"] = f"{type(e).__name__}: {str(e)[:60]}"
         out["scenes"][scene] = rec
@@ -96,7 +101,7 @@ def main():
     json.dump(out, open(a.out, "w"), ensure_ascii=False, separators=(",", ":"))
     print(json.dumps({"scenes": len(out["scenes"]),
                       "median share of Beatport": out.get("median_share_of_beatport"),
-                      "deezer reachable": sum(1 for v in out["scenes"].values() if v.get("deezer_catalogue_total"))}, indent=1))
+                      "deezer usable": sum(1 for v in out["scenes"].values() if v.get("deezer_matching_tracks"))}, indent=1))
 
 
 if __name__ == "__main__":

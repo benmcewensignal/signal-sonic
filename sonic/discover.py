@@ -437,7 +437,12 @@ def cmd_scan(args):
                     if (c.get("plays") or 0) and (c.get("plays") or 0) < 10**8:
                         conn.execute("INSERT OR REPLACE INTO mix_pop VALUES (?,?,?,?,?)",
                                      (c["url"], time.time(), c.get("plays"), c.get("followers"), c["source"]))
-                    for h in hits:
+                    # a mix published before the corpus cannot contain our records: never write its plays
+            _pub = (c.get("published") or "")[:10]
+            if _pub and _pub < "2024-08-01":                      # pre-corpus guard at insert
+                print(f"  skipping pre-corpus mix {_pub}", flush=True)
+                hits = []
+            for h in hits:
                         conn.execute(
                             "INSERT OR REPLACE INTO mix_plays (mix_url, track_id, offset_s, votes, rate, wvotes) VALUES (?,?,?,?,?,?)",
                             (c["url"], h["track_id"], h["mix_offset_s"],
