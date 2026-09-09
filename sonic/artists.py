@@ -113,6 +113,20 @@ LABEL_TOTAL = {}
 SCALE = {}
 
 def load_leadership(db, R, B):
+    # every artist row carries all three institutional signals, because their absence is the point:
+    # a booking is a promoter's commitment, a chart placing is a purchase, a set play is a DJ's choice
+    _chart, _plays = {}, {}
+    try:
+        _c2 = sqlite3.connect(db)
+        _meta = {r[0]: json.loads(r[1]) for r in _c2.execute("select track_id, artists from track_meta where artists is not null")}
+        for tid, rank in _c2.execute("select track_id, chart_rank from track_scenes where chart_rank is not null"):
+            for n in _meta.get(tid, []):
+                k = norm(n); _chart[k] = _chart.get(k, 0) + 1
+        for (tid,) in _c2.execute("select track_id from mix_plays"):
+            for n in _meta.get(tid, []):
+                k = norm(n); _plays[k] = _plays.get(k, 0) + 1
+    except Exception:
+        pass
     """Per scene: artists whose 2026 records sit furthest from the scene's 2024 home (leading edge),
     labels aggregated the same way, and artists played in sets but thin on the circuit."""
     import numpy as np
@@ -196,7 +210,7 @@ def load_leadership(db, R, B):
             align = float(np.dot(cen - N, mv) / mvn) / spread
             pos = "ahead" if align >= 0.5 else ("behind" if align <= -0.5 else ("centre" if dist < 0.5 else "aside"))
             (rows if n >= 2 else rows_thin).append({"name": v["name"], "key": k, "z": round(z, 1), "z_adj": round(z * n / (n + K), 2),
-                         "thin": n < 2,
+                         "thin": n < 2, "chart_n": _chart.get(k, 0), "set_plays": _plays.get(k, 0),
                          "dist": round(dist, 1), "align": round(align, 1), "pos": pos,
                          "records": n, "set_plays": v["plays"],
                          "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": (B.get(k) or {}).get("n_cities", 0),
@@ -456,6 +470,7 @@ def main():
     for ok_, k in ALIAS.items():
         if ok_ in B and k in LEAD_MAP and k not in B:
             B[k] = B[ok_]                                  # the release name inherits the alias's bookings
+
     _booked = [(k, v) for k, v in LEAD_MAP.items()]
     _int = {}
     for k, v in LEAD_MAP.items():
