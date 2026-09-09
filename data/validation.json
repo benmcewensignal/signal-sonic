@@ -1,9 +1,9 @@
 {
- "ran": "2026-09-08T22:29:14Z",
+ "ran": "2026-09-09T08:23:39Z",
  "job": "backfill",
  "before": {
-  "tracks": 19577,
-  "v2": 8236,
+  "tracks": 21569,
+  "v2": 10228,
   "v3": 149,
   "named": 17938,
   "plays": 1564,
@@ -14,8 +14,8 @@
   "aliases": null
  },
  "after": {
-  "tracks": 20537,
-  "v2": 9196,
+  "tracks": 21694,
+  "v2": 10353,
   "v3": 149,
   "named": 17938,
   "plays": 1564,
@@ -25,7 +25,9 @@
   "supply": 480,
   "aliases": null
  },
- "failures": [],
+ "failures": [
+  "248 plays come from mixes published before the corpus window"
+ ],
  "notes": [],
- "ok": true
+ "ok": false
 }
