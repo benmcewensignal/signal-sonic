@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-09T08:39:50Z",
+ "ran": "2026-09-09T08:39:52Z",
  "log": [
   {
    "cmd": "before backfill: free disk 91.2 GB",
@@ -24,6 +24,10 @@
     "VALIDATION FAIL: 248 plays come from mixes published before the corpus window",
     "validation note: backfill ran but none of ['tracks'] grew: check its log for why"
    ]
+  },
+  {
+   "cmd": "backfill: work remains, job stays queued",
+   "rc": 0
   }
  ]
 }
