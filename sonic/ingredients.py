@@ -16,13 +16,13 @@ KEYS = [("vocal_presence", "vocal"), ("drum_density", "drums"), ("drum_swing", "
 
 def build(db):
     c = sqlite3.connect(db); c.row_factory = sqlite3.Row
-    n2 = c.execute("select count(*) from tracks where analyser_ver like '2%'").fetchone()[0]
-    n1 = c.execute("select count(*) from tracks where analyser_id='local' and coalesce(analyser_ver,'1') not like '2%'").fetchone()[0]
-    clause = "like '2%'" if n2 > n1 else "not like '2%'"
+    # no version filter here, deliberately: v2 changed the embedding only. Tempo, vocal
+    # presence, drum density, swing and bass weight are computed identically by both
+    # analysers, so filtering to one version would halve the sample for no gain.
     M = collections.defaultdict(lambda: collections.defaultdict(list))
-    for r in c.execute(f"""select ts.scene, ts.week, t.features from track_scenes ts
+    for r in c.execute("""select ts.scene, ts.week, t.features from track_scenes ts
                            join tracks t on t.track_id=ts.track_id and t.analyser_id='local'
-                           and coalesce(t.analyser_ver,'1') {clause} where ts.week like '____-M__'"""):
+                           where ts.week like '____-M__'"""):
         try: M[r["scene"]][r["week"]].append(json.loads(r["features"]))
         except Exception: pass
     out = {}
