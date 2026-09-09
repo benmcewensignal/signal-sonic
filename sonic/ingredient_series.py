@@ -15,13 +15,12 @@ KEYS = [("vocal_presence", "vocal"), ("drum_density", "drums"), ("drum_swing", "
 
 def build(db):
     c = sqlite3.connect(db); c.row_factory = sqlite3.Row
-    n2 = c.execute("select count(*) from tracks where analyser_ver like '2%'").fetchone()[0]
-    n1 = c.execute("select count(*) from tracks where analyser_id='local' and coalesce(analyser_ver,'1') not like '2%'").fetchone()[0]
-    clause = "like '2%'" if n2 > n1 else "not like '2%'"
+    # no version filter here, deliberately: tempo, vocal presence, drums, bass and swing are
+    # computed identically in v1 and v2. Only the embedding changed width, and this uses none.
     M = collections.defaultdict(lambda: collections.defaultdict(list))
-    for r in c.execute(f"""select ts.scene, ts.week, t.features from track_scenes ts
-                           join tracks t on t.track_id=ts.track_id and t.analyser_id='local'
-                           and coalesce(t.analyser_ver,'1') {clause} where ts.week like '____-M__'"""):
+    for r in c.execute("""select ts.scene, ts.week, t.features from track_scenes ts
+                          join tracks t on t.track_id=ts.track_id and t.analyser_id='local'
+                          where ts.week like '____-M__'"""):
         try: M[r["scene"]][r["week"]].append(json.loads(r["features"]))
         except Exception: pass
     out = {}
