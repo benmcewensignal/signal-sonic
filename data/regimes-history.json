@@ -421,15 +421,15 @@
 },
 {
 "date": "2026-09-09",
-"scene": "uk-funky-gqom",
-"regime": "mixed",
-"established": 34
-},
-{
-"date": "2026-09-09",
 "scene": "uk-garage-speed-garage",
 "regime": "mixed",
 "established": 38
+},
+{
+"date": "2026-09-09",
+"scene": "uk-funky-gqom",
+"regime": "mixed",
+"established": 35
 },
 {
 "date": "2026-09-09",
@@ -453,7 +453,7 @@
 "date": "2026-09-09",
 "scene": "tech-house",
 "regime": "stars lead",
-"established": 33
+"established": 34
 },
 {
 "date": "2026-09-09",
@@ -465,7 +465,7 @@
 "date": "2026-09-09",
 "scene": "techno-raw-deep-hypnotic",
 "regime": "stars lead",
-"established": 44
+"established": 45
 },
 {
 "date": "2026-09-09",
@@ -483,7 +483,7 @@
 "date": "2026-09-09",
 "scene": "melodic-house-techno",
 "regime": "mixed",
-"established": 50
+"established": 51
 },
 {
 "date": "2026-09-09",
