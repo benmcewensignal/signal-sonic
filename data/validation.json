@@ -1,6 +1,6 @@
 {
- "ran": "2026-09-09T08:39:50Z",
- "job": "backfill",
+ "ran": "2026-09-09T09:26:54Z",
+ "job": "reanalyse",
  "before": {
   "tracks": 21694,
   "v2": 10353,
@@ -15,7 +15,7 @@
  },
  "after": {
   "tracks": 21694,
-  "v2": 10353,
+  "v2": 10717,
   "v3": 149,
   "named": 17938,
   "plays": 1564,
@@ -28,8 +28,6 @@
  "failures": [
   "248 plays come from mixes published before the corpus window"
  ],
- "notes": [
-  "backfill ran but none of ['tracks'] grew: check its log for why"
- ],
+ "notes": [],
  "ok": false
 }
