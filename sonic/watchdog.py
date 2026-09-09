@@ -73,6 +73,7 @@ def main():
             pending = []; print(f"watchdog: could not read the queue ({e!r})")
         last = runs[0]
         idle = age_minutes(last["updated_at"])
+        print(f"watchdog: {len(pending)} pending, idle {idle:.0f} min", flush=True)
         if pending and idle > 20:
             actions.append(f"restart the chain: {len(pending)} job(s) pending, nothing running for {idle:.0f} min")
             if not a.dry_run:

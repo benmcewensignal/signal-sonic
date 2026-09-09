@@ -1,7 +1,10 @@
 name: watchdog
 on:
   schedule:
-    - cron: "*/20 * * * *"      # every twenty minutes
+    - cron: "*/20 * * * *"      # every twenty minutes, when GitHub honours it
+  workflow_run:
+    workflows: ["sonic"]         # and immediately after any pipeline run ends, chained or not
+    types: [completed]
   workflow_dispatch:
 permissions:
   contents: read
