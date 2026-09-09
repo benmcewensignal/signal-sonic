@@ -139,6 +139,8 @@ def main():
               rc = run([sys.executable, "-m", "sonic.embed_v3", "--db", "sonic.db", "--limit", str(job.get("limit", 300)), "--budget-minutes", str(max(15, min(50, remaining)))], log); touched_db = True
           elif mode == "listening":
               rc = run([sys.executable, "-m", "sonic.listening", "--db", "sonic.db", "--per-scene", str(job.get("per_scene", 2)), "--out", "data/listening-test.json"], log)
+          elif mode == "coverage":
+              rc = run([sys.executable, "-m", "sonic.coverage", "--db", "sonic.db", "--out", "data/coverage.json"], log)
           elif mode == "nts":
               rc = run([sys.executable, "-m", "sonic.nts_tracklists", "--db", "sonic.db", "--limit", str(job.get("limit", 200)), "--out", "data/nts-truth.json"], log); touched_db = True
           elif mode == "discogs":
