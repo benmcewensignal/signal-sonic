@@ -71,8 +71,10 @@ def main():
                        if os.path.basename(f) not in done and os.path.basename(f) not in ("done.json", "last-run.json")]
         except Exception as e:
             pending = []; print(f"watchdog: could not read the queue ({e!r})")
-        last = runs[0]
-        idle = age_minutes(last["updated_at"])
+        # idleness must be measured from the pipeline, not from any run: the watchdog's own
+        # heartbeat is a run, so counting it means the chain never looks idle and never restarts
+        others = [r for r in runs if r["name"] != "watchdog"]
+        idle = age_minutes(others[0]["updated_at"]) if others else 999
         print(f"watchdog: {len(pending)} pending, idle {idle:.0f} min", flush=True)
         if pending and idle > 20:
             actions.append(f"restart the chain: {len(pending)} job(s) pending, nothing running for {idle:.0f} min")
