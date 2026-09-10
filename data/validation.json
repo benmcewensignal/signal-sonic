@@ -1,6 +1,6 @@
 {
- "ran": "2026-09-10T22:22:53Z",
- "job": "backfill",
+ "ran": "2026-09-10T22:45:45Z",
+ "job": "mixscan",
  "before": {
   "tracks": 21694,
   "v2": 21595,
@@ -19,15 +19,13 @@
   "v3": 1268,
   "named": 17938,
   "plays": 1316,
-  "usable_mixes": 55,
-  "mix_pop": 16,
+  "usable_mixes": 61,
+  "mix_pop": 22,
   "nts_lines": 77,
   "supply": 480,
   "aliases": null
  },
  "failures": [],
- "notes": [
-  "backfill ran but none of ['tracks'] grew: check its log for why"
- ],
+ "notes": [],
  "ok": true
 }
