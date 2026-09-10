@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-10T11:47:28Z",
+ "ran": "2026-09-10T13:37:49Z",
  "job": "embed3",
  "before": {
   "tracks": 21694,
@@ -16,7 +16,7 @@
  "after": {
   "tracks": 21694,
   "v2": 21595,
-  "v3": 340,
+  "v3": 434,
   "named": 17938,
   "plays": 1316,
   "usable_mixes": 55,
@@ -26,8 +26,6 @@
   "aliases": null
  },
  "failures": [],
- "notes": [
-  "embed3 ran but none of ['v3'] grew: check its log for why"
- ],
+ "notes": [],
  "ok": true
 }
