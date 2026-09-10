@@ -15,25 +15,28 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 16
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: cancel stuck runs and restart a stalled chain
+        timeout-minutes: 3
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: python -m sonic.watchdog --repo ${{ github.repository }}
 
       - name: heartbeat
         if: always()
+        timeout-minutes: 12          # the step sleeps ten; anything longer is a hang, not work
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
           # GitHub forbids a workflow triggering itself with workflow_run, and throttles cron on
-          # quiet repos. So the watchdog schedules its own next check: wait, then dispatch. The
-          # concurrency group cancels any overlap, so this cannot pile up.
+          # quiet repos, so the watchdog schedules its own next check: wait, then dispatch.
+          # Every call is bounded: a hung dispatch must not hold the concurrency group, because
+          # the group is what the pipeline itself needs in order to run.
           set +e
           sleep 600
-          gh workflow run watchdog.yml --ref main && echo "next check armed" || echo "could not arm"
+          timeout 60 gh workflow run watchdog.yml --ref main && echo "next check armed" || echo "could not arm"
           exit 0

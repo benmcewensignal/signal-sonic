@@ -270,7 +270,7 @@ jobs:
         run: |
           if [ -f queue/.next ]; then
             echo "next: $(cat queue/.next)"
-            gh workflow run sonic.yml --ref main -f mode=queue && echo "follow-up run dispatched" || echo "dispatch failed"
+            timeout 60 gh workflow run sonic.yml --ref main -f mode=queue && echo "follow-up run dispatched" || echo "dispatch failed"
           else
             echo "queue empty; no follow-up"
           fi
