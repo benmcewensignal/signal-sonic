@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-10T18:20:24Z",
+ "ran": "2026-09-10T18:20:25Z",
  "log": [
   {
    "cmd": "before embed3: free disk 89.8 GB",
@@ -30,6 +30,10 @@
    "tail": [
     "validation: ok"
    ]
+  },
+  {
+   "cmd": "embed3: work remains, job stays queued",
+   "rc": 0
   }
  ]
 }
