@@ -34,6 +34,15 @@ def series_for(rows):
     for m, v in rows: by[m].append(v)
     ms = sorted(m for m in by if len(by[m]) >= 5)
     if len(ms) < HOME_MONTHS + 1: return None
+    # one width only: a month holding both instruments cannot be averaged, and the pair of
+    # them is exactly what this module exists to compare rather than merge
+    import collections as _c
+    widths = _c.Counter(len(v) for vs in by.values() for v in vs)
+    if not widths: return [], []
+    w = widths.most_common(1)[0][0]
+    by = {m: [v for v in vs if len(v) == w] for m, vs in by.items()}
+    ms = [m for m in ms if len(by.get(m, [])) >= 5]
+    if len(ms) < HOME_MONTHS + 1: return [], []
     cent = {m: np.mean(by[m], axis=0) for m in ms}
     H = np.mean([cent[m] for m in ms[:HOME_MONTHS]], axis=0)
     d = [1 - float(cent[m] @ H / (np.linalg.norm(cent[m]) * np.linalg.norm(H) or 1e-9)) for m in ms]

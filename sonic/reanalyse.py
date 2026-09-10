@@ -76,7 +76,7 @@ def main():
     left_total = c.execute("select count(*) from tracks where analyser_id='local' and coalesce(analyser_ver,'1') not like '2%'").fetchone()[0]
     print(f"reanalyse: {done} done, {err} failed, {left_total} still on the old version", flush=True)
     if left_total > 0:
-        open("queue/.more", "w").write("reanalyse\n")      # tells the runner to leave this job queued
+        open("queue/.more", "w").write("reanalyse\n") if done else print("nothing converted: the records left have no preview, so this job is finished", flush=True)      # tells the runner to leave this job queued
 
 
 if __name__ == "__main__":
