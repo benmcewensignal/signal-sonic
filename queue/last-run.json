@@ -1,17 +1,17 @@
 {
- "ran": "2026-09-10T22:15:56Z",
+ "ran": "2026-09-10T22:17:35Z",
  "log": [
   {
    "cmd": "before backfill: free disk 89.8 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2025-09 --to 2025-10 --db sonic.db --analyser local --per-month 150",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2026-01 --to 2026-02 --db sonic.db --analyser local --per-month 150",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "2025-M09: already complete, skipping",
-    "2025-M10: already complete, skipping",
+    "2026-M01: already complete, skipping",
+    "2026-M02: already complete, skipping",
     "{\"supply_rows_saved\": 0}",
     "{\"backfill_complete\": true, \"claims_untouched\": true}"
    ]
@@ -23,227 +23,6 @@
    "tail": [
     "validation note: backfill ran but none of ['tracks'] grew: check its log for why",
     "validation: ok"
-   ]
-  },
-  {
-   "cmd": "backfill: work remains, job stays queued",
-   "rc": 0
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "import: no new files"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
-   "rc": 0,
-   "minutes": 0.2,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"median share of Beatport\": 0.02068,",
-    " \"deezer usable\": 3",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"months\": 24",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.links --db sonic.db --out data/links.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"records\": 751,",
-    " \"with a set appearance\": 751",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"months\": 24",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"version\": \"v2\",",
-    " \"scenes\": 20,",
-    " \"with a detected turn\": 0,",
-    " \"turns\": {}",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"versions\": {",
-    "  \"2\": 20341,",
-    "  \"1\": 97",
-    " },",
-    " \"use_version\": \"2\",",
-    " \"archived_v1\": 18774,",
-    " \"linked\": 16,",
-    " \"scenes\": 20",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  ],",
-    "  [",
-    "   \"SOLTO (FR)\",",
-    "   15.77",
-    "  ],",
-    "  [",
-    "   \"Nigel Jones\",",
-    "   13.94",
-    "  ]",
-    " ],",
-    " \"appetite\": {",
-    "  \"afro-house\": {",
-    "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 73.4",
-    "  },",
-    "  \"techno-peak-time\": {",
-    "   \"mixes\": 3,",
-    "   \"plays_per_day_median\": 0.7",
-    "  },",
-    "  \"deep-house\": {",
-    "   \"mixes\": 3,",
-    "   \"plays_per_day_median\": 201.8",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  140-deep-dubstep-grime     flatter, more uniformly loud (-0.40), more voice (+0.36)",
-    "  afro-house                 nothing names it yet",
-    "  amapiano                   flatter, more uniformly loud (-0.35)",
-    "  bass-house                 flatter, more uniformly loud (-0.50)",
-    "  breaks-breakbeat-uk-bass   nothing names it yet",
-    "  deep-house                 nothing names it yet",
-    "  drum-and-bass              nothing names it yet",
-    "  hard-techno                flatter, more uniformly loud (-0.39)",
-    "  house                      nothing names it yet",
-    "  indie-dance                nothing names it yet",
-    "  melodic-house-techno       less voice (-0.32), choppier (+0.27)",
-    "  organic-house              busier drums (+0.37), flatter, more uniformly loud (-0.25)",
-    "  progressive-house          less voice (-0.22)",
-    "  psy-trance                 sparser drums (-0.32), choppier (+0.31)",
-    "  tech-house                 flatter, more uniformly loud (-0.44), more voice (+0.28)",
-    "  techno-peak-time           flatter, more uniformly loud (-0.45)",
-    "  techno-raw-deep-hypnotic   choppier (+0.27)",
-    "  trance-main-floor          front-loaded (-0.26), flatter, more uniformly loud (-0.23)",
-    "  uk-funky-gqom              nothing names it yet",
-    "  uk-garage-speed-garage     more voice (+0.30), smoother (-0.27)"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "   \"n\": 420,",
-    "   \"r\": 0.0",
-    "  },",
-    "  \"-1\": {",
-    "   \"n\": 440,",
-    "   \"r\": -0.1",
-    "  },",
-    "  \"0\": {",
-    "   \"n\": 460,",
-    "   \"r\": 0.1",
-    "  },",
-    "  \"1\": {",
-    "   \"n\": 440,",
-    "   \"r\": -0.01",
-    "  },",
-    "  \"2\": {",
-    "   \"n\": 420,",
-    "   \"r\": -0.01",
-    "  },",
-    "  \"3\": {",
-    "   \"n\": 400,",
-    "   \"r\": -0.0",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
-   "rc": 0,
-   "minutes": 2.6,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-10T22:15:21Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\",",
-    "  \"2026-09-10\"",
-    " ],",
-    " \"artists_total\": 35328,",
-    " \"booking_side\": 21760,",
-    " \"release_side\": 14856,",
-    " \"joined\": 1288,",
-    " \"tracks_with_metadata\": 17938,",
-    " \"join_rate_release_side\": 0.087",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
-   "rc": 0,
-   "minutes": 0.5,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-10T22:15:56Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\",",
-    "  \"2026-09-10\"",
-    " ],",
-    " \"latest\": \"2026-09-10\",",
-    " \"venues\": 4171,",
-    " \"venues_with_3plus\": 1179,",
-    " \"leadership_artists\": 6030,",
-    " \"tiered_rooms\": 802",
-    "}"
    ]
   }
  ]
