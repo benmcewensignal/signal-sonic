@@ -1,1 +1,1 @@
-{"mode": "backfill", "month_from": "2026-01", "month_to": "2026-04", "per_month": 150, "note": "deepen the recent year to 150 records a scene-month: noise falls from about 1.3 sigma to 0.7, which is what decides whether five scenes are unestablished or established"}
+{"mode": "backfill", "month_from": "2026-03", "month_to": "2026-04", "per_month": 150, "note": "deepen the recent year to 150 records a scene-month: noise falls from about 1.3 sigma to 0.7, which is what decides whether five scenes are unestablished or established"}
