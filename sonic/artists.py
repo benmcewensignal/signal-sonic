@@ -213,7 +213,7 @@ def load_leadership(db, R, B):
                          "thin": n < 2, "chart_n": _chart.get(k, 0), "set_plays": _plays.get(k, 0),
                          "dist": round(dist, 1), "align": round(align, 1), "pos": pos,
                          "records": n, "set_plays": v["plays"],
-                         "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": (B.get(k) or {}).get("n_cities", 0),
+                         "ra_slots": (B.get(k) or {}).get("slots", 0), "cities": len((B.get(k) or {}).get("cities", {}) or {}),
                          "tier": sc_.get("tier", "unbooked"), "per_event": sc_.get("per_event", 0)})
         rows.sort(key=lambda x: -x["z_adj"])
         # the established list ranks by cities played, so a single record is enough to place a
