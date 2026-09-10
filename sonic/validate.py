@@ -91,8 +91,14 @@ def check(db, job, before):
             fails.append(f"{k} fell from {v} to {after[k]}")
     # the job's own claim
     def grew(k): return before and before.get(k) is not None and after.get(k) is not None and after[k] > before[k]
+    # every job that touches data must be able to show its output grew. A job with no entry
+    # here is a job whose success we cannot check, which is how a dead dependency ran unnoticed
+    # for two days and a corpus pass reported 129 months of work it had not done.
     claims = {"mixscan": ["plays", "usable_mixes"], "mixrescan": ["plays"], "reanalyse": ["v2"], "embed3": ["v3"],
-              "metadata": ["named"], "backfill": ["tracks"], "nts": ["nts_lines"], "discogs": ["aliases"], "supply": ["supply"]}
+              "metadata": ["named"], "backfill": ["tracks"], "nts": ["nts_lines"], "discogs": ["aliases"],
+              "supply": ["supply"], "coverage": [], "listening": [], "links": []}
+    if job and job not in claims:
+        notes.append(f"{job} has no growth check: its success cannot be verified")
     if job in claims:
         if not any(grew(k) for k in claims[job]):
             notes.append(f"{job} ran but none of {claims[job]} grew: check its log for why")
