@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-10T07:39:16Z",
+ "ran": "2026-09-10T07:39:18Z",
  "log": [
   {
    "cmd": "before reanalyse: free disk 91.1 GB",
@@ -25,6 +25,10 @@
     "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
     "validation: ok"
    ]
+  },
+  {
+   "cmd": "reanalyse: work remains, job stays queued",
+   "rc": 0
   }
  ]
 }
