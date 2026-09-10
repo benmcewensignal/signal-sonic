@@ -86,7 +86,9 @@ jobs:
         run: |
           NEXT=$(python - <<'PY'
           import json, glob, os
-          done = {d["file"] for d in json.load(open("queue/done.json"))} if os.path.exists("queue/done.json") else set()
+          # a requeued job is not done: counting it as done is why the model stack was never
+          # installed and embed3 failed on a missing torch for two days
+          done = {d["file"] for d in json.load(open("queue/done.json")) if not d.get("requeued")} if os.path.exists("queue/done.json") else set()
           jobs = sorted(f for f in glob.glob("queue/*.json") if os.path.basename(f) not in ("done.json","last-run.json") and os.path.basename(f) not in done)
           print(json.load(open(jobs[0])).get("mode","") if jobs else "")
           PY
