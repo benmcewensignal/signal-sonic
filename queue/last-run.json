@@ -1,14 +1,14 @@
 {
- "ran": "2026-09-10T15:34:50Z",
+ "ran": "2026-09-10T20:16:54Z",
  "log": [
   {
    "cmd": "before embed3: free disk 89.8 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 400 --budget-minutes 50",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 300 --budget-minutes 50",
    "rc": 0,
-   "minutes": 50.7,
+   "minutes": 50.3,
    "tail": [
     "A new version of the following files was downloaded from https://huggingface.co/m-a-p/MERT-v1-95M:",
     "- configuration_MERT.py",
@@ -17,10 +17,10 @@
     "- modeling_MERT.py",
     ". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.",
     "self-test: shape (768,), finite True, norm 10.562 -> ok",
-    "v3: 400 records to embed",
-    "  50/400 embedded, 1 failed",
+    "v3: 300 records to embed",
+    "  50/300 embedded, 1 failed",
     "budget reached",
-    "v3: 90 embedded, 3 failed, 21083 remaining"
+    "v3: 98 embedded, 1 failed, 20617 remaining"
    ]
   },
   {
@@ -212,10 +212,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 2.7,
+   "minutes": 2.8,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-10T15:34:09Z\",",
+    " \"generated\": \"2026-09-10T20:15:59Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -234,10 +234,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 0.6,
+   "minutes": 0.9,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-10T15:34:50Z\",",
+    " \"generated\": \"2026-09-10T20:16:54Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
