@@ -1,14 +1,14 @@
 {
- "ran": "2026-09-10T21:14:18Z",
+ "ran": "2026-09-10T22:10:44Z",
  "log": [
   {
    "cmd": "before embed3: free disk 89.8 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 400 --budget-minutes 50",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 300 --budget-minutes 50",
    "rc": 0,
-   "minutes": 50.3,
+   "minutes": 50.6,
    "tail": [
     "A new version of the following files was downloaded from https://huggingface.co/m-a-p/MERT-v1-95M:",
     "- configuration_MERT.py",
@@ -17,10 +17,10 @@
     "- modeling_MERT.py",
     ". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.",
     "self-test: shape (768,), finite True, norm 10.562 -> ok",
-    "v3: 400 records to embed",
-    "  50/400 embedded, 1 failed",
+    "v3: 300 records to embed",
+    "  50/300 embedded, 2 failed",
     "budget reached",
-    "v3: 93 embedded, 3 failed, 20524 remaining"
+    "v3: 98 embedded, 3 failed, 20426 remaining"
    ]
   },
   {
@@ -91,7 +91,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
    "rc": 0,
-   "minutes": 0.1,
+   "minutes": 0.0,
    "tail": [
     "{",
     " \"version\": \"v2\",",
@@ -215,7 +215,7 @@
    "minutes": 2.8,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-10T21:13:26Z\",",
+    " \"generated\": \"2026-09-10T22:09:52Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -237,7 +237,7 @@
    "minutes": 0.8,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-10T21:14:18Z\",",
+    " \"generated\": \"2026-09-10T22:10:44Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
