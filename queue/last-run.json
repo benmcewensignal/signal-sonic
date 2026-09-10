@@ -1,37 +1,6 @@
 {
- "ran": "2026-09-10T11:51:03Z",
+ "ran": "2026-09-10T12:45:24Z",
  "log": [
-  {
-   "cmd": "before embed3: free disk 91.1 GB",
-   "rc": 0
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 400 --budget-minutes 50",
-   "rc": 1,
-   "minutes": 0.0,
-   "tail": [
-    "Traceback (most recent call last):",
-    "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
-    "  File \"<frozen runpy>\", line 88, in _run_code",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/embed_v3.py\", line 141, in <module>",
-    "    main()",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/embed_v3.py\", line 91, in main",
-    "    model, fe = load_model()",
-    "                ^^^^^^^^^^^^",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/embed_v3.py\", line 30, in load_model",
-    "    import torch",
-    "ModuleNotFoundError: No module named 'torch'"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job embed3 --before /tmp/before.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "validation note: embed3 ran but none of ['v3'] grew: check its log for why",
-    "validation: ok"
-   ]
-  },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
@@ -209,10 +178,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 2.6,
+   "minutes": 2.7,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-10T11:50:24Z\",",
+    " \"generated\": \"2026-09-10T12:44:45Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -234,7 +203,7 @@
    "minutes": 0.6,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-10T11:51:03Z\",",
+    " \"generated\": \"2026-09-10T12:45:23Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
