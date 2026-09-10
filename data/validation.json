@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-10T06:38:45Z",
+ "ran": "2026-09-10T06:50:59Z",
  "job": "reanalyse",
  "before": {
   "tracks": 21694,
@@ -15,7 +15,7 @@
  },
  "after": {
   "tracks": 21694,
-  "v2": 21564,
+  "v2": 21595,
   "v3": 244,
   "named": 17938,
   "plays": 1316,
@@ -26,8 +26,6 @@
   "aliases": null
  },
  "failures": [],
- "notes": [
-  "reanalyse ran but none of ['v2'] grew: check its log for why"
- ],
+ "notes": [],
  "ok": true
 }
