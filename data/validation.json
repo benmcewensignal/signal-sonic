@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-10T22:45:45Z",
+ "ran": "2026-09-10T23:25:46Z",
  "job": "mixscan",
  "before": {
   "tracks": 21694,
@@ -7,8 +7,8 @@
   "v3": 1268,
   "named": 17938,
   "plays": 1316,
-  "usable_mixes": 55,
-  "mix_pop": 16,
+  "usable_mixes": 61,
+  "mix_pop": 22,
   "nts_lines": 77,
   "supply": 480,
   "aliases": null
@@ -19,8 +19,8 @@
   "v3": 1268,
   "named": 17938,
   "plays": 1316,
-  "usable_mixes": 61,
-  "mix_pop": 22,
+  "usable_mixes": 65,
+  "mix_pop": 26,
   "nts_lines": 77,
   "supply": 480,
   "aliases": null
