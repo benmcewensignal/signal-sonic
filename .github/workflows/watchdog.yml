@@ -22,6 +22,7 @@ jobs:
         with: { python-version: "3.12" }
       - name: cancel stuck runs and restart a stalled chain
         timeout-minutes: 3
+        timeout-minutes: 3
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: python -m sonic.watchdog --repo ${{ github.repository }}
