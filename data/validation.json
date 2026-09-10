@@ -1,10 +1,10 @@
 {
- "ran": "2026-09-10T10:40:13Z",
- "job": "embed3",
+ "ran": "2026-09-10T10:45:57Z",
+ "job": "reanalyse",
  "before": {
   "tracks": 21694,
   "v2": 21595,
-  "v3": 244,
+  "v3": 340,
   "named": 17938,
   "plays": 1316,
   "usable_mixes": 55,
@@ -26,6 +26,8 @@
   "aliases": null
  },
  "failures": [],
- "notes": [],
+ "notes": [
+  "reanalyse ran but none of ['v2'] grew: check its log for why"
+ ],
  "ok": true
 }
