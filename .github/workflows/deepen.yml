@@ -17,7 +17,10 @@ on:
       merge_run:  {description: "fold in an earlier run's artifacts instead of measuring again (run id)", default: ""}
 
 concurrency:
-  group: deepen
+  # keyed on the month range, not the workflow: three ranges can then measure at once
+  # instead of queueing behind each other. Six shards a run, eighteen jobs, inside the
+  # twenty a public repository gets free.
+  group: deepen-${{ inputs.month_from }}-${{ inputs.month_to }}-${{ inputs.merge_run }}
   cancel-in-progress: false
 
 jobs:
