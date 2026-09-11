@@ -1,5 +1,9 @@
 name: deepen
 
+permissions:
+  contents: write
+  actions: write
+
 # Six shards measure in parallel, one job writes. The database is a single SQLite file in
 # this repository, so parallel writers would clobber each other: the shards emit jsonl,
 # and the merge folds them in afterwards, in order, once.
