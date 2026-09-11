@@ -1,0 +1,79 @@
+name: deepen
+
+# Six shards measure in parallel, one job writes. The database is a single SQLite file in
+# this repository, so parallel writers would clobber each other: the shards emit jsonl,
+# and the merge folds them in afterwards, in order, once.
+
+on:
+  workflow_dispatch:
+    inputs:
+      month_from: {description: first month, default: "2025-09"}
+      month_to:   {description: last month,  default: "2026-08"}
+      per_month:  {description: records per scene-month, default: "150"}
+
+concurrency:
+  group: deepen
+  cancel-in-progress: false
+
+jobs:
+  shard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 115
+    strategy:
+      fail-fast: false          # one shard failing must not discard the other five
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: deps
+        run: pip install -q numpy librosa soundfile
+      - name: measure this shard
+        env:
+          BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+          BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+          BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+          BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+        run: |
+          python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 6 \
+            --from ${{ inputs.month_from }} --to ${{ inputs.month_to }} \
+            --per-month ${{ inputs.per_month }} --db sonic.db --out out --budget-minutes 100
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deepen-shard-${{ matrix.shard }}
+          path: out/deepen-shard-*.jsonl
+          if-no-files-found: warn
+
+  merge:
+    needs: shard
+    if: always()                # merge whatever the shards did manage
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q numpy
+      - uses: actions/download-artifact@v4
+        with: {path: shards}
+      - name: fold the shards into the database
+        run: |
+          ls -la shards/*/ || true
+          python -m sonic.import_deepen --db sonic.db --glob 'shards/**/deepen-shard-*.jsonl' | tee merge.json
+      - name: check it actually grew
+        run: |
+          python - <<'PY'
+          import json, sqlite3
+          m=json.load(open("merge.json"))
+          c=sqlite3.connect("sonic.db")
+          deep=c.execute("select count(*) from (select scene, week, count(*) k from track_scenes where week like '____-M__' group by scene, week having k>=135)").fetchone()[0]
+          print(json.dumps({**m, "deep_scene_months": deep}, indent=1))
+          if m["records_added"] == 0:
+              raise SystemExit("merge added nothing: the shards measured nothing worth keeping")
+          PY
+      - name: persist
+        run: |
+          git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
+          git add sonic.db && git commit -qm "deepen: ${{ inputs.month_from }} to ${{ inputs.month_to }} at ${{ inputs.per_month }} a scene-month" || exit 0
+          git pull -q --no-rebase origin main && git push -q origin HEAD:main
