@@ -23,6 +23,9 @@ import argparse
 import calendar
 import json
 import time
+from concurrent.futures import ThreadPoolExecutor
+import urllib.request
+import tempfile
 import urllib.parse
 from .store import Store
 from .analyser import get_analyser, FeatureVector
@@ -69,6 +72,19 @@ def _spread_sample(results: list[dict], k: int) -> list[dict]:
         return rs
     step = len(rs) / k
     return [rs[int(i * step)] for i in range(k)]
+
+
+def _fetch_preview(url):
+    """Download one preview to a temp file; None on any failure, so the caller falls back
+    to streaming the url as before."""
+    try:
+        fd, p = tempfile.mkstemp(suffix=".mp3"); os.close(fd)
+        req = urllib.request.Request(url, headers={"User-Agent": "signal-sonic/backfill"})
+        with urllib.request.urlopen(req, timeout=30) as r, open(p, "wb") as f:
+            f.write(r.read())
+        return p
+    except Exception:
+        return None
 
 
 def _try_fetch_month(token: str, genre_id: int, month: str, per_month: int):
@@ -179,6 +195,16 @@ def cmd_fetch(args):
                 mlog[cfg["scene"]] = f"FETCH FAILED: {e}"
                 continue
             n_new, n_skip, t0 = 0, 0, time.time()
+            # fetch the next previews while this one is being analysed. Download and analysis
+            # each take a second or two and used to run end to end, so the runner sat idle for
+            # whichever it was not doing. Four in flight keeps the CPU fed and stays polite.
+            prefetch = {}
+            pool = ThreadPoolExecutor(max_workers=4)
+            for tr0 in tracks:
+                u0 = (tr0.get("sample_url") or (tr0.get("preview") or {}).get("mp3", {}).get("url") or "")
+                if u0:
+                    prefetch[tr0["id"]] = pool.submit(_fetch_preview, u0)
+            temps = []
             for i, tr in enumerate(tracks, 1):
                 preview = (tr.get("sample_url") or
                            (tr.get("preview") or {}).get("mp3", {}).get("url") or "")
@@ -186,6 +212,14 @@ def cmd_fetch(args):
                     n_skip += 1
                     continue
                 tid = f"bp:{tr['id']}"
+                fut = prefetch.get(tr["id"])
+                if fut is not None:
+                    local = None
+                    try: local = fut.result(timeout=90)
+                    except Exception: local = None
+                    if local:
+                        preview = local
+                        temps.append(local)
                 s = TrackSighting(track_id=tid, audio_ref=preview,
                                   scene=cfg["scene"], week=month,
                                   source=f"beatport:backfill:genre{gid}",
@@ -210,6 +244,10 @@ def cmd_fetch(args):
                     rate = i / (time.time() - t0)
                     print(f"    {month} genre{gid} {i}/{len(tracks)} "
                           f"({rate:.1f} tracks/s, {n_skip} skipped)", flush=True)
+            pool.shutdown(wait=False)
+            for p in temps:
+                try: os.unlink(p)
+                except OSError: pass
             print(f"  {month} {cfg['scene']}: {n_new} analysed, {n_skip} skipped, "
                   f"{time.time()-t0:.0f}s", flush=True)
             # monthly fingerprint: FLAT ONLY — quarantine from the live
