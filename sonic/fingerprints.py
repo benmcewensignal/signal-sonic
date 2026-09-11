@@ -23,8 +23,7 @@ import numpy as np
 SR = 22050
 N_FFT = 2048
 HOP = 512                      # ~23ms per frame
-PEAK_MARGIN_DB = 6.0           # how far above its own band's quiet level a peak must sit
-PEAKS_PER_FRAME = 8            # cap per time slice, so density stays even across the clip
+BAND_EDGES = 6                 # log-spaced bands: one peak per band per frame
 PEAK_NEIGH_T = 12              # frames (~0.28s) local-max window
 PEAK_NEIGH_F = 20              # bins
 MIN_PEAK_DB = -38.0            # relative to file max (stricter = leaner index)
@@ -72,55 +71,43 @@ def _local_max_filter(A: np.ndarray, wt: int, wf: int) -> np.ndarray:
     return M
 
 
-def _band_floor(Sdb: np.ndarray, win: int = 128) -> np.ndarray:
-    """A quiet level for each frequency band, from the band itself.
-
-    Subtracting one number for the whole clip made a peak's survival depend on what else
-    was in the recording: hash ninety seconds and a quiet passage's peaks vanish, hash
-    fifteen seconds of that same passage and they survive, so the two never agree. A floor
-    computed per band, over a window around each frame, is a property of the point rather
-    than of the crop. It also survives a room, where the bass booms and the top is dull.
-    """
-    n = Sdb.shape[0]
-    if n <= 1:
-        return np.median(Sdb, axis=0, keepdims=True).repeat(max(n, 1), axis=0)
-    # a running mean of a running mean approximates a smooth local level cheaply and, more
-    # importantly, identically in both implementations: a median would need sorting and the
-    # javascript port would drift from this one.
-    k = max(4, min(win, n))
-    c = np.cumsum(np.vstack([np.zeros((1, Sdb.shape[1])), Sdb]), axis=0)
-    lo = np.maximum(np.arange(n) - k // 2, 0)
-    hi = np.minimum(np.arange(n) + k // 2, n)
-    return (c[hi] - c[lo]) / np.maximum(hi - lo, 1)[:, None]
-
-
 def _peaks(y: np.ndarray) -> list[tuple[int, int]]:
-    # bring the clip to a standard level first. A constant gain cancels out of the band-floor
-    # subtraction below, but the epsilon in the log does not: at a fifth of the level it
-    # starts to dominate the quiet bands and changes which points are peaks. A phone
-    # recording is always quieter than the file, so this is the difference that matters.
+    """The strongest point in each band, in each frame. Nothing global anywhere.
+
+    Three properties are needed and a threshold gives none of them. A peak must survive
+    cropping (hash fifteen seconds of a record and get the same points as ninety), survive
+    a level change (a phone is quieter than the file), and survive noise (a room is not a
+    studio). Selecting the strongest local maximum within each of six log-spaced bands, one
+    per frame, gives all three: it is a rank, not a level, so gain cancels; it is computed
+    from a neighbourhood, so the crop does not matter; and broadband noise lifts a whole
+    band evenly, which leaves the ranking inside it intact.
+    """
     m = float(np.max(np.abs(y))) or 1.0
     y = (y / m).astype(np.float32)
     S = np.abs(np.fft.rfft(_frames(y), axis=1))
     Sdb = 20 * np.log10(S + 1e-9)
-    rel = Sdb - _band_floor(Sdb)          # how far above its own band's quiet level
-    neigh = _local_max_filter(rel, PEAK_NEIGH_T, PEAK_NEIGH_F)
-    mask = (rel >= neigh - 1e-9) & (rel >= PEAK_MARGIN_DB)
-    mask[:, :2] = False
-    mask[:, -2:] = False
-    # an even spread in time: without a cap the loud sections carry every peak and a quiet
-    # intro contributes nothing, which is the other way a crop changes the hash set.
-    if PEAKS_PER_FRAME > 0:
-        keep = np.zeros_like(mask)
-        for t in range(mask.shape[0]):
-            idx = np.nonzero(mask[t])[0]
-            if idx.size > PEAKS_PER_FRAME:
-                idx = idx[np.argsort(-rel[t, idx])[:PEAKS_PER_FRAME]]
-            keep[t, idx] = True
-        mask = keep
-    ts, fs = np.nonzero(mask)
-    order = np.argsort(ts, kind="stable")
-    return list(zip(ts[order].tolist(), fs[order].tolist()))
+    n_t, n_f = Sdb.shape
+    if n_t < 2:
+        return []
+    # six bands, log spaced: a kick and a hi-hat compete with nothing but their own kind
+    edges = np.unique(np.geomspace(4, n_f - 2, BAND_EDGES + 1).astype(int))
+    neigh = _local_max_filter(Sdb, PEAK_NEIGH_T, PEAK_NEIGH_F)
+    is_max = Sdb >= neigh - 1e-9
+    is_max[:, :2] = False
+    is_max[:, -2:] = False
+    ts, fs = [], []
+    for b in range(len(edges) - 1):
+        lo, hi = edges[b], edges[b + 1]
+        if hi <= lo:
+            continue
+        band = np.where(is_max[:, lo:hi], Sdb[:, lo:hi], -np.inf)
+        best = np.argmax(band, axis=1)                  # ties resolve to the lowest index,
+        val = band[np.arange(n_t), best]                # which is deterministic either way
+        keep = np.isfinite(val)
+        ts.extend(np.nonzero(keep)[0].tolist())
+        fs.extend((best[keep] + lo).tolist())
+    order = np.lexsort((fs, ts))
+    return [(int(ts[k]), int(fs[k])) for k in order]
 
 
 def _frames(y: np.ndarray) -> np.ndarray:
