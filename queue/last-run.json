@@ -1,48 +1,247 @@
 {
- "ran": "2026-09-11T10:46:42Z",
+ "ran": "2026-09-11T10:52:31Z",
  "log": [
   {
-   "cmd": "before backfill: free disk 89.7 GB",
+   "cmd": "before reanalyse: free disk 88.8 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2026-01 --to 2026-02 --db sonic.db --analyser local --per-month 150",
-   "rc": 1,
-   "minutes": 36.1,
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 4000 --budget-minutes 54",
+   "rc": 0,
+   "minutes": 0.4,
    "tail": [
-    "    2026-M01 genre89 70/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre89 80/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre89 90/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre89 100/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre89 110/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre89 120/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre89 130/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre89 140/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre89 150/150 (0.2 tracks/s, 0 skipped)",
-    "  2026-M01 afro-house: 122 analysed, 0 skipped, 676s",
-    "    2026-M01 genre98 10/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre98 20/150 (0.2 tracks/s, 0 skipped)",
-    "    2026-M01 genre98 30/150 (0.2 tracks/s, 0 skipped)",
-    "Traceback (most recent call last):",
-    "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
-    "  File \"<frozen runpy>\", line 88, in _run_code",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/backfill.py\", line 396, in <module>",
-    "    main()",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/backfill.py\", line 392, in main",
-    "    args.fn(args)",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/backfill.py\", line 240, in cmd_fetch",
-    "    store.upsert_track(tid, fv.to_json(), analyser.analyser_id,",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/store.py\", line 94, in upsert_track",
-    "    c.execute(",
-    "sqlite3.OperationalError: attempt to write a readonly database"
+    "reanalyse: 99 tracks on an older version (target 2+0eeb4f45)",
+    "  bp:19703369: no preview url",
+    "  bp:30037639: no preview url",
+    "  bp:30037669: no preview url",
+    "reanalyse: 0 done, 99 failed, 99 still on the old version",
+    "nothing converted: the records left have no preview, so this job is finished"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job backfill --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job reanalyse --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
+    "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
     "validation: ok"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "import: no new files"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
+   "rc": 0,
+   "minutes": 0.2,
+   "tail": [
+    "{",
+    " \"scenes\": 20,",
+    " \"median share of Beatport\": 0.02068,",
+    " \"deezer usable\": 4",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "{",
+    " \"scenes\": 20,",
+    " \"months\": 24",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.links --db sonic.db --out data/links.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "{",
+    " \"records\": 751,",
+    " \"with a set appearance\": 751",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "{",
+    " \"scenes\": 20,",
+    " \"months\": 24",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "{",
+    " \"version\": \"v2\",",
+    " \"scenes\": 20,",
+    " \"with a detected turn\": 0,",
+    " \"turns\": {}",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "{",
+    " \"versions\": {",
+    "  \"2\": 20881,",
+    "  \"1\": 97",
+    " },",
+    " \"use_version\": \"2\",",
+    " \"archived_v1\": 18781,",
+    " \"linked\": 16,",
+    " \"scenes\": 20",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "  ],",
+    "  [",
+    "   \"Nigel Jones\",",
+    "   13.94",
+    "  ]",
+    " ],",
+    " \"appetite\": {",
+    "  \"afro-house\": {",
+    "   \"mixes\": 6,",
+    "   \"plays_per_day_median\": 72.5",
+    "  },",
+    "  \"techno-peak-time\": {",
+    "   \"mixes\": 3,",
+    "   \"plays_per_day_median\": 0.6",
+    "  },",
+    "  \"deep-house\": {",
+    "   \"mixes\": 7,",
+    "   \"plays_per_day_median\": 90.9",
+    "  },",
+    "  \"melodic-house-techno\": {",
+    "   \"mixes\": 6,",
+    "   \"plays_per_day_median\": 73.4",
+    "  }",
+    " }",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "  140-deep-dubstep-grime     flatter, more uniformly loud (-0.40), more voice (+0.35)",
+    "  afro-house                 nothing names it yet",
+    "  amapiano                   flatter, more uniformly loud (-0.38), busier drums (+0.21)",
+    "  bass-house                 flatter, more uniformly loud (-0.50)",
+    "  breaks-breakbeat-uk-bass   nothing names it yet",
+    "  deep-house                 nothing names it yet",
+    "  drum-and-bass              nothing names it yet",
+    "  hard-techno                flatter, more uniformly loud (-0.39)",
+    "  house                      nothing names it yet",
+    "  indie-dance                nothing names it yet",
+    "  melodic-house-techno       less voice (-0.32), choppier (+0.27)",
+    "  organic-house              busier drums (+0.37), flatter, more uniformly loud (-0.25)",
+    "  progressive-house          less voice (-0.22)",
+    "  psy-trance                 sparser drums (-0.32), choppier (+0.31)",
+    "  tech-house                 flatter, more uniformly loud (-0.47), more voice (+0.20)",
+    "  techno-peak-time           flatter, more uniformly loud (-0.41)",
+    "  techno-raw-deep-hypnotic   choppier (+0.24)",
+    "  trance-main-floor          front-loaded (-0.26), flatter, more uniformly loud (-0.23)",
+    "  uk-funky-gqom              nothing names it yet",
+    "  uk-garage-speed-garage     smoother (-0.29), more voice (+0.28)"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "   \"n\": 420,",
+    "   \"r\": -0.0",
+    "  },",
+    "  \"-1\": {",
+    "   \"n\": 440,",
+    "   \"r\": -0.1",
+    "  },",
+    "  \"0\": {",
+    "   \"n\": 460,",
+    "   \"r\": 0.1",
+    "  },",
+    "  \"1\": {",
+    "   \"n\": 440,",
+    "   \"r\": 0.0",
+    "  },",
+    "  \"2\": {",
+    "   \"n\": 420,",
+    "   \"r\": -0.03",
+    "  },",
+    "  \"3\": {",
+    "   \"n\": 400,",
+    "   \"r\": 0.01",
+    "  }",
+    " }",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
+   "rc": 0,
+   "minutes": 2.2,
+   "tail": [
+    "{",
+    " \"generated\": \"2026-09-11T10:51:46Z\",",
+    " \"snapshots\": [",
+    "  \"2026-09-02\",",
+    "  \"2026-09-03\",",
+    "  \"2026-09-07\",",
+    "  \"2026-09-10\"",
+    " ],",
+    " \"artists_total\": 35328,",
+    " \"booking_side\": 21760,",
+    " \"release_side\": 14856,",
+    " \"joined\": 1288,",
+    " \"tracks_with_metadata\": 17938,",
+    " \"join_rate_release_side\": 0.087",
+    "}"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
+   "rc": 0,
+   "minutes": 0.7,
+   "tail": [
+    "{",
+    " \"generated\": \"2026-09-11T10:52:31Z\",",
+    " \"snapshots\": [",
+    "  \"2026-09-02\",",
+    "  \"2026-09-03\",",
+    "  \"2026-09-07\",",
+    "  \"2026-09-10\"",
+    " ],",
+    " \"latest\": \"2026-09-10\",",
+    " \"venues\": 4171,",
+    " \"venues_with_3plus\": 1179,",
+    " \"leadership_artists\": 6030,",
+    " \"tiered_rooms\": 802",
+    "}"
    ]
   }
  ]
