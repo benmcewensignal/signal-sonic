@@ -76,6 +76,14 @@ def main():
     done_names = {d["file"] for d in done if not d.get("requeued")}
     # a job that has failed twice is parked, not retried forever
     fails = {}
+    # A sharded deepening cannot write this file: two writers to one binary database is how
+    # an afternoon was lost. It publishes a release instead, and the chain adopts it here,
+    # once, before any job runs.
+    try:
+        adopt_deepened()
+    except Exception as e:
+        print(f"adopt: {type(e).__name__}: {str(e)[:80]}", flush=True)
+
     for d in done:
         if d["file"].endswith("#attempt"): fails[d["file"][:-8]] = fails.get(d["file"][:-8], 0) + 1
     # one-shot jobs first in filename order; jobs that keep requeuing themselves take turns,
@@ -123,14 +131,6 @@ def main():
             print(f"free disk {free_gb:.1f} GB", flush=True)
         except Exception:
             pass
-    # A sharded deepening cannot write this file: two writers to one binary database is
-    # how an afternoon was lost. It publishes a release instead, and the chain adopts it
-    # here, once, before doing its own work.
-    try:
-        adopt_deepened()
-    except Exception as e:
-        print(f"adopt: {type(e).__name__}: {str(e)[:80]}", flush=True)
-
         print(f"\n=== {os.path.basename(f)}: {job}", flush=True)
         rc = 0
         try:
