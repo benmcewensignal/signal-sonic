@@ -43,15 +43,73 @@ def main():
     ap.add_argument("--db", default="sonic.db")
     ap.add_argument("--out", default="out")
     ap.add_argument("--budget-minutes", type=int, default=100)
+    ap.add_argument("--restale", default="", help="re-measure records older than this analyser version instead of fetching new ones")
     a = ap.parse_args()
 
     with open("scene_map.json") as f:
         scene_map = json.load(f)
     genres = {int(k): v for k, v in scene_map.items() if not k.startswith("_")}
+
+    if a.restale:
+        # Re-measuring the corpus is the same shape of work as deepening it: independent per
+        # record, fatal to do on one machine. Fifty thousand records at six thousand a pass is
+        # days; six shards is hours. The records already exist, so a shard only needs to say
+        # what the new analyser makes of them.
+        def _older(v, target):
+            def parts(x):
+                out = []
+                for p in str(x).split("+")[0].split("."):
+                    try: out.append(int(p))
+                    except ValueError: out.append(0)
+                return out
+            x, t = parts(v), parts(target)
+            x += [0] * (len(t) - len(x)); t += [0] * (len(x) - len(t))
+            return x < t
+        rows = [r for r in store.conn.execute(
+            "select track_id, coalesce(analyser_ver,'1') v, source from tracks where analyser_id='local' order by rowid")]
+        stale = [r for i, r in enumerate(rows) if i % a.of == a.shard and _older(r["v"], a.restale)]
+        print(f"shard {a.shard} of {a.of}: {len(stale)} of {len(rows)} records older than {a.restale}", flush=True)
+        path = os.path.join(a.out, f"deepen-shard-{a.shard}.jsonl")
+        wrote = skipped = 0
+        with open(path, "w") as out:
+            pool = ThreadPoolExecutor(max_workers=4)
+            for r in stale:
+                if (time.time() - t0) / 60 > a.budget_minutes:
+                    print("budget reached", flush=True); break
+                tid = r["track_id"]
+                try:
+                    from .reanalyse import _preview_url
+                    url = _preview_url(tid, token)
+                except Exception:
+                    url = None
+                if not url:
+                    skipped += 1; continue
+                local = None
+                try:
+                    local = _fetch_preview(url)
+                    s2 = TrackSighting(track_id=tid, audio_ref=local or url, scene="", week="",
+                                       source=r["source"] or "restale", chart_rank=None)
+                    fv = analyse_sighting(analyser, s2)
+                    out.write(json.dumps({"track_id": tid, "restale": True,
+                                          "analyser_ver": analyser.version,
+                                          "features": json.loads(fv.to_json())}) + "\n")
+                    wrote += 1
+                except Exception:
+                    skipped += 1
+                finally:
+                    if local:
+                        try: os.unlink(local)
+                        except OSError: pass
+                if wrote % 50 == 0 and wrote: print(f"  {wrote} re-measured", flush=True); out.flush()
+            pool.shutdown(wait=False)
+        print(json.dumps({"shard": a.shard, "remeasured": wrote, "skipped": skipped,
+                          "minutes": round((time.time() - t0) / 60, 1)}), flush=True)
+        return
     items = sorted(genres.items(), key=lambda kv: kv[1]["scene"])
     mine = [(gid, cfg) for i, (gid, cfg) in enumerate(items) if i % a.of == a.shard]
     print(f"shard {a.shard} of {a.of}: {[c['scene'] for _, c in mine]}", flush=True)
 
+    t0 = time.time()
     store = Store(a.db)                      # read only: what we already hold
     have = {r[0] for r in store.conn.execute(
         "SELECT track_id FROM tracks WHERE analyser_id='local'")}

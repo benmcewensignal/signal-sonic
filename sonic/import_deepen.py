@@ -29,6 +29,13 @@ def main():
             except Exception: continue
             seen += 1
             tid = d["track_id"]
+            if d.get("restale"):
+                # a re-measure replaces what is there; it adds no new record and assigns no scene
+                store.conn.execute("UPDATE tracks SET features=?, analyser_ver=? WHERE track_id=? AND analyser_id=?",
+                                   (json.dumps(d["features"]), d.get("analyser_ver") or analyser.version,
+                                    tid, analyser.analyser_id))
+                added += 1
+                continue
             row = store.conn.execute(
                 "SELECT 1 FROM tracks WHERE track_id=? AND analyser_id=?",
                 (tid, analyser.analyser_id)).fetchone()

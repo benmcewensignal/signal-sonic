@@ -14,6 +14,7 @@ on:
       month_from: {description: first month, default: "2025-09"}
       month_to:   {description: last month,  default: "2026-08"}
       per_month:  {description: records per scene-month, default: "150"}
+      restale:    {description: "re-measure every record older than this analyser version, instead of fetching new ones", default: ""}
       merge_run:  {description: "fold in earlier runs' artifacts instead of measuring again (run ids, comma separated)", default: ""}
 
 concurrency:
@@ -47,7 +48,8 @@ jobs:
         run: |
           python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 6 \
             --from ${{ inputs.month_from }} --to ${{ inputs.month_to }} \
-            --per-month ${{ inputs.per_month }} --db sonic.db --out out --budget-minutes 100
+            --per-month ${{ inputs.per_month }} --db sonic.db --out out --budget-minutes 100 \
+            ${{ inputs.restale != '' && format('--restale {0}', inputs.restale) || '' }}
       - uses: actions/upload-artifact@v4
         with:
           name: deepen-shard-${{ matrix.shard }}
