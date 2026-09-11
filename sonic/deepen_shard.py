@@ -85,6 +85,8 @@ def main():
                     if u: pending[t["id"]] = pool.submit(_fetch_preview, u)
                 n = 0
                 for t in todo:
+                    if (time.time() - t0) / 60 > a.budget_minutes:
+                        print("  budget reached mid-month", flush=True); break
                     tid = f"bp:{t['id']}"
                     fut = pending.get(t["id"])
                     local = None
