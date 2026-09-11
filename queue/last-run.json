@@ -1,16 +1,16 @@
 {
- "ran": "2026-09-11T20:33:25Z",
+ "ran": "2026-09-11T20:57:26Z",
  "log": [
   {
-   "cmd": "before reanalyse: free disk 89.6 GB",
+   "cmd": "before reanalyse: free disk 88.6 GB",
    "rc": 0
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 3000 --budget-minutes 54",
    "rc": 0,
-   "minutes": 0.3,
+   "minutes": 0.4,
    "tail": [
-    "reanalyse: 99 tracks on an older version (target 2+df62aa2a)",
+    "reanalyse: 99 tracks on an older version (target 2+ea4270ed)",
     "  bp:24462239: no preview url",
     "  bp:19528710: no preview url",
     "  bp:19688209: no preview url",
