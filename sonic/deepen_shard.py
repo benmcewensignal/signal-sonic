@@ -50,6 +50,17 @@ def main():
         scene_map = json.load(f)
     genres = {int(k): v for k, v in scene_map.items() if not k.startswith("_")}
 
+    items = sorted(genres.items(), key=lambda kv: kv[1]["scene"])
+    mine = [(gid, cfg) for i, (gid, cfg) in enumerate(items) if i % a.of == a.shard]
+    print(f"shard {a.shard} of {a.of}: {[c['scene'] for _, c in mine]}", flush=True)
+
+    t0 = time.time()
+    store = Store(a.db)                      # read only: what we already hold
+    have = {r[0] for r in store.conn.execute(
+        "SELECT track_id FROM tracks WHERE analyser_id='local'")}
+    analyser = get_analyser("local")
+    token = get_token()
+    os.makedirs(a.out, exist_ok=True)
     if a.restale:
         # Re-measuring the corpus is the same shape of work as deepening it: independent per
         # record, fatal to do on one machine. Fifty thousand records at six thousand a pass is
@@ -105,17 +116,7 @@ def main():
         print(json.dumps({"shard": a.shard, "remeasured": wrote, "skipped": skipped,
                           "minutes": round((time.time() - t0) / 60, 1)}), flush=True)
         return
-    items = sorted(genres.items(), key=lambda kv: kv[1]["scene"])
-    mine = [(gid, cfg) for i, (gid, cfg) in enumerate(items) if i % a.of == a.shard]
-    print(f"shard {a.shard} of {a.of}: {[c['scene'] for _, c in mine]}", flush=True)
 
-    t0 = time.time()
-    store = Store(a.db)                      # read only: what we already hold
-    have = {r[0] for r in store.conn.execute(
-        "SELECT track_id FROM tracks WHERE analyser_id='local'")}
-    analyser = get_analyser("local")
-    token = get_token()
-    os.makedirs(a.out, exist_ok=True)
     path = os.path.join(a.out, f"deepen-shard-{a.shard}.jsonl")
     t0 = time.time(); wrote = skipped = 0
 
