@@ -186,7 +186,14 @@ def download_preview(url: str) -> str:
 
 
 def analyse_sighting(analyser, s: TrackSighting):
-    """Download-analyse-discard wrapper for URL-based audio refs."""
+    """Download-analyse-discard wrapper for URL-based audio refs.
+
+    If the caller has already fetched the audio (the backfill prefetches while the
+    analyser works), the ref is a local path: use it and leave deletion to whoever
+    downloaded it. Passing a path to the downloader raised "unknown url type" and
+    silently skipped every record in a run."""
+    if os.path.exists(s.audio_ref):
+        return analyser.analyse(s.audio_ref)
     path = download_preview(s.audio_ref)
     try:
         return analyser.analyse(path)
