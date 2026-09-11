@@ -47,13 +47,14 @@ def _decoder_fingerprint() -> str:
         parts.append(soundfile.__libsndfile_version__)
     except Exception:
         parts.append("no-sndfile")
-    parts.append(librosa.__version__); parts.append("emb45")
+    parts.append(librosa.__version__); parts.append("emb45"); parts.append("tempo-octave")
     return hashlib.sha1("|".join(parts).encode()).hexdigest()[:8]
 
 
 class LocalAnalyser(Analyser):
     analyser_id = "local"
-    version = "2"          # 2: full 45-dim embedding, spectral contrast no longer truncated away
+    version = "2.1"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
+                           # error, which had drum and bass at 117 against a true 174
 
     def __init__(self, sr: int = 22050, max_seconds: float = 120.0):
         self.sr = sr
@@ -67,8 +68,7 @@ class LocalAnalyser(Analyser):
             raise ValueError(f"audio too short to analyse: {audio_ref}")
         y = y / (np.max(np.abs(y)) or 1.0)
 
-        tempo = float(np.atleast_1d(
-            librosa.feature.rhythm.tempo(y=y, sr=sr, aggregate=np.median))[0])
+        tempo = self._tempo(y, sr)
         key = self._key(y, sr)
         energy = self._energy_curve(y)
         onset_env = librosa.onset.onset_strength(y=y, sr=sr)
@@ -147,6 +147,47 @@ class LocalAnalyser(Analyser):
         share = band.sum() / (S.sum() or 1.0)
         flat = float(librosa.feature.spectral_flatness(y=y_h).mean())
         return float(min(1.0, share * (1.0 - min(1.0, flat * 8.0)) * 2.2))
+
+    def _tempo(self, y, sr) -> float:
+        """Beat rate, resolved against the octave error.
+
+        A pulse is ambiguous by factors of two: a drum and bass record at 174 has a real,
+        strongly autocorrelating half-time pulse at 87, and the detector was choosing it for
+        the whole scene. Measured at 117 against a true 174, which made an entire genre
+        look mid-tempo and fed a wrong number to the classifier.
+
+        Autocorrelation cannot settle it, because both rates are genuinely present. What
+        settles it is convention: dance music is counted at the faster pulse, and no scene
+        we measure is counted below about ninety. So when doubling lands inside the range
+        dance records actually occupy, and the onsets support it nearly as well, take it.
+        """
+        cands = np.atleast_1d(librosa.feature.rhythm.tempo(y=y, sr=sr, aggregate=None))
+        base = float(np.median(cands)) if cands.size else 120.0
+        onset = librosa.onset.onset_strength(y=y, sr=sr)
+
+        def support(bpm):
+            if bpm <= 0: return 0.0
+            lag = int(round(60.0 / bpm * sr / 512))
+            if lag < 2 or lag >= len(onset) // 2: return 0.0
+            a = onset[:-lag] - onset[:-lag].mean()
+            b = onset[lag:] - onset[lag:].mean()
+            den = (np.linalg.norm(a) * np.linalg.norm(b)) or 1.0
+            return float(np.dot(a, b) / den)
+
+        LO, HI = 90.0, 190.0          # the range the scenes we measure are counted in
+        best, s_best = base, support(base)
+        for mult in (2.0, 1.5, 3.0):
+            alt = base * mult
+            if not (LO <= alt <= HI):
+                continue
+            # it need not beat the slower pulse, only nearly match it: the slower one is
+            # real, it is simply not how the record is counted.
+            if support(alt) >= s_best * 0.75:
+                best = alt
+                break
+        if best < LO and base * 2 <= HI:
+            best = base * 2
+        return float(best)
 
     def _embedding(self, y, sr) -> list[float]:
         mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)

@@ -1,0 +1,1 @@
+{"mode": "reanalyse", "limit": 4000, "only_scenes": ["drum-and-bass", "breaks-breakbeat-uk-bass", "140-deep-dubstep-grime", "uk-funky-gqom"], "note": "tempo was wrong for fast breakbeat scenes: the detector chose the half-time pulse. Analyser 2.1 resolves the octave and these scenes need re-measuring."}
