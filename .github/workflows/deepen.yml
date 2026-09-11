@@ -10,6 +10,7 @@ on:
       month_from: {description: first month, default: "2025-09"}
       month_to:   {description: last month,  default: "2026-08"}
       per_month:  {description: records per scene-month, default: "150"}
+      merge_run:  {description: "fold in an earlier run's artifacts instead of measuring again (run id)", default: ""}
 
 concurrency:
   group: deepen
@@ -17,6 +18,7 @@ concurrency:
 
 jobs:
   shard:
+    if: inputs.merge_run == ''          # a recovery run measures nothing: the work exists
     runs-on: ubuntu-latest
     timeout-minutes: 115
     strategy:
@@ -47,7 +49,7 @@ jobs:
 
   merge:
     needs: shard
-    if: always()                # merge whatever the shards did manage
+    if: always()                # merge whatever the shards did manage, or an earlier run's
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -55,8 +57,17 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -q numpy
-      - uses: actions/download-artifact@v4
+      - name: take this run's artifacts
+        if: inputs.merge_run == ''
+        uses: actions/download-artifact@v4
         with: {path: shards}
+      - name: or an earlier run's, when recovering
+        if: inputs.merge_run != ''
+        uses: actions/download-artifact@v4
+        with:
+          path: shards
+          run-id: ${{ inputs.merge_run }}
+          github-token: ${{ github.token }}
       - name: fold the shards into the database
         run: |
           ls -la shards/*/ || true
