@@ -43,9 +43,26 @@ def main():
     c.execute("""create table if not exists features_archive(
         track_id text, analyser_ver text, features text, archived_at real,
         primary key (track_id, analyser_ver))""")
+    def _older(v, target):
+        """Is this record on a version before the one we are targeting?
+
+        The selector matched "not like '2%'", so a record at version 2 looked current even
+        after the analyser moved to 2.1 and 2.2. A tempo fix shipped this morning and
+        re-measured nothing, because every record already matched the prefix."""
+        def parts(x):
+            out = []
+            for p in str(x).split("."):
+                try: out.append(int(p))
+                except ValueError: out.append(0)
+            return out
+        a, b = parts(v), parts(target)
+        a = a + [0] * (len(b) - len(a)); b = b + [0] * (len(a) - len(b))
+        return a < b
+
     todo = [r["track_id"] for r in c.execute(
-        "select track_id from tracks where analyser_id='local' and coalesce(analyser_ver,'1') not like '2%' order by rowid desc limit ?",
-        (a.limit,))]
+        "select track_id, coalesce(analyser_ver,'1') v from tracks where analyser_id='local'"
+        " order by rowid")
+            if _older(r["v"], want)][:a.limit]
     print(f"reanalyse: {len(todo)} tracks on an older version (target {want})", flush=True)
     t0 = time.time(); done = err = 0
     for tid in todo:
