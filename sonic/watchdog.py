@@ -16,7 +16,8 @@ its own concurrency group, so it is never blocked by the thing it is meant to un
 import argparse, json, os, sys, time, urllib.error, urllib.request
 
 API = "https://api.github.com"
-STALL_MINUTES = 15   # a live run whose timestamp has not moved this long is a zombie
+STALL_MINUTES = 35   # a live run whose timestamp has not moved this long is a zombie. Generous: a single
+                     # long step legitimately emits nothing for a while.
 STUCK_MINUTES = 135          # the job cap is 120; allow slack for setup and teardown
 
 
@@ -48,8 +49,13 @@ def main():
     if not token: print("watchdog: no token"); return 1
     runs = _req(f"/repos/{a.repo}/actions/runs?per_page=20", token).get("workflow_runs", [])
     if not runs: print("watchdog: could not read runs"); return 1
+    # only the queue chain is policed. Other workflows carry their own timeouts and
+    # concurrency groups, and a long analysis step emits no step transitions, so its run
+    # timestamp stalls for many minutes while it is working perfectly well. Treating that
+    # as a zombie cancelled six healthy shards forty-one minutes into a two-hour job.
+    POLICED = {"sonic"}
     live = [r for r in runs if r["status"] in ("in_progress", "queued", "pending")
-            and r["name"] != "watchdog"]
+            and r["name"] in POLICED]
     actions = []
     # 1. a run past the cap is stuck: cancel it so the group frees
     for r in live:
