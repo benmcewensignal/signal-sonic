@@ -87,6 +87,26 @@ jobs:
           find shards -name '*.jsonl' | head -20
           echo "total shard files: $(find shards -name '*.jsonl' | wc -l)"
 
+      - name: start from the deepened database if one exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          gh release download deepened --pattern sonic.db --dir /tmp/prev --clobber 2>/dev/null
+          if [ -f /tmp/prev/sonic.db ]; then
+            python - <<'PY'
+          import sqlite3
+          def n(p):
+              try: return sqlite3.connect(p).execute("select count(*) from tracks where analyser_id='local'").fetchone()[0]
+              except Exception: return -1
+          mine, prev = n("sonic.db"), n("/tmp/prev/sonic.db")
+          print(f"repository has {mine}, the deepened release has {prev}")
+          if prev > mine:
+              import shutil; shutil.copy("/tmp/prev/sonic.db", "sonic.db"); print("starting from the deepened one")
+          PY
+          fi
+          exit 0
+
       - name: fold the shards into the database
         run: |
           ls -la shards/*/ || true
