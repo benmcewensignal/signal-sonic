@@ -15,6 +15,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default="sonic.db")
     ap.add_argument("--glob", default="shards/**/deepen-shard-*.jsonl")
+    ap.add_argument("--report", default="", help="write the machine-readable result here, separate from the log")
     a = ap.parse_args()
     files = sorted(glob.glob(a.glob, recursive=True))
     print(f"merging {len(files)} shard files", flush=True)
@@ -47,8 +48,13 @@ def main():
                               json.dumps(build_fingerprint(parsed)))
         rebuilt += 1
     store.conn.commit()
-    print(json.dumps({"records_seen": seen, "records_added": added,
-                      "scene_months_rebuilt": rebuilt}, indent=1), flush=True)
+    result = {"records_seen": seen, "records_added": added, "scene_months_rebuilt": rebuilt}
+    # the report goes to its own file: piping it through tee mixed it with the progress
+    # lines above, and the step that read it back could not parse its own input. Six shards
+    # of correct work were discarded because of that.
+    if a.report:
+        json.dump(result, open(a.report, "w"), indent=1)
+    print(json.dumps(result, indent=1), flush=True)
 
 
 if __name__ == "__main__":

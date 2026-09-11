@@ -60,7 +60,7 @@ jobs:
       - name: fold the shards into the database
         run: |
           ls -la shards/*/ || true
-          python -m sonic.import_deepen --db sonic.db --glob 'shards/**/deepen-shard-*.jsonl' | tee merge.json
+          python -m sonic.import_deepen --db sonic.db --glob 'shards/**/deepen-shard-*.jsonl' --report merge.json
       - name: check it actually grew
         run: |
           python - <<'PY'
