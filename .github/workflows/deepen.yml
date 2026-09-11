@@ -56,7 +56,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
-      - run: pip install -q numpy
+      - name: deps
+        # the fold imports the analyser to read a feature vector, and that needs the
+        # audio stack even though it decodes nothing here
+        run: pip install -q numpy librosa soundfile
       - name: take this run's artifacts
         if: inputs.merge_run == ''
         uses: actions/download-artifact@v4
