@@ -1,6 +1,6 @@
 {
- "ran": "2026-09-11T02:51:14Z",
- "job": "backfill",
+ "ran": "2026-09-11T04:12:26Z",
+ "job": "embed3",
  "before": {
   "tracks": 21694,
   "v2": 21595,
@@ -16,7 +16,7 @@
  "after": {
   "tracks": 21694,
   "v2": 21595,
-  "v3": 1453,
+  "v3": 1559,
   "named": 17938,
   "plays": 1316,
   "usable_mixes": 65,
@@ -26,8 +26,6 @@
   "aliases": null
  },
  "failures": [],
- "notes": [
-  "backfill ran but none of ['tracks'] grew: check its log for why"
- ],
+ "notes": [],
  "ok": true
 }
