@@ -49,6 +49,8 @@ jobs:
 
   merge:
     needs: shard
+    permissions:
+      contents: write
     if: always()                # merge whatever the shards did manage, or an earlier run's
     runs-on: ubuntu-latest
     timeout-minutes: 60
@@ -89,5 +91,17 @@ jobs:
       - name: persist
         run: |
           git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
-          git add sonic.db && git commit -qm "deepen: ${{ inputs.month_from }} to ${{ inputs.month_to }} at ${{ inputs.per_month }} a scene-month" || exit 0
-          git pull -q --no-rebase origin main && git push -q origin HEAD:main
+          git add sonic.db
+          git commit -qm "deepen: ${{ inputs.month_from }} to ${{ inputs.month_to }} at ${{ inputs.per_month }} a scene-month" || { echo "nothing to commit"; exit 0; }
+          # the queue chain writes this database too, so a push can lose a race. The database
+          # is binary and cannot be merged: on a conflict, take ours and let the chain's own
+          # next run re-apply what it was doing.
+          for i in 1 2 3; do
+            if git push -q origin HEAD:main; then echo "pushed"; exit 0; fi
+            echo "push $i rejected; rebasing onto main"
+            git fetch -q origin main
+            git checkout --ours sonic.db 2>/dev/null || true
+            git rebase -X ours origin/main || git rebase --abort
+            sleep 5
+          done
+          echo "could not push after three attempts"; exit 1
