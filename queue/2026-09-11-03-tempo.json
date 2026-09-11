@@ -1,0 +1,1 @@
+{"mode": "reanalyse", "limit": 3000, "only_scenes": ["drum-and-bass", "breaks-breakbeat-uk-bass", "140-deep-dubstep-grime", "uk-funky-gqom"], "note": "tempo resolved the octave error in 2.1: drum and bass measured 117 against a true 174. Only the fast breakbeat scenes were affected, so only they are re-measured."}
