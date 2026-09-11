@@ -1,6 +1,6 @@
 {
- "ran": "2026-09-11T09:24:09Z",
- "job": "backfill",
+ "ran": "2026-09-11T10:49:12Z",
+ "job": "reanalyse",
  "before": {
   "tracks": 22227,
   "v2": 22128,
@@ -14,8 +14,8 @@
   "aliases": null
  },
  "after": {
-  "tracks": 22610,
-  "v2": 22511,
+  "tracks": 22227,
+  "v2": 22128,
   "v3": 1750,
   "named": 17938,
   "plays": 1316,
@@ -26,6 +26,8 @@
   "aliases": null
  },
  "failures": [],
- "notes": [],
+ "notes": [
+  "reanalyse ran but none of ['v2'] grew: check its log for why"
+ ],
  "ok": true
 }
