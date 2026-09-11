@@ -14,7 +14,7 @@ on:
       month_from: {description: first month, default: "2025-09"}
       month_to:   {description: last month,  default: "2026-08"}
       per_month:  {description: records per scene-month, default: "150"}
-      merge_run:  {description: "fold in an earlier run's artifacts instead of measuring again (run id)", default: ""}
+      merge_run:  {description: "fold in earlier runs' artifacts instead of measuring again (run ids, comma separated)", default: ""}
 
 concurrency:
   # keyed on the month range, not the workflow: three ranges can then measure at once
@@ -73,13 +73,20 @@ jobs:
         if: inputs.merge_run == ''
         uses: actions/download-artifact@v4
         with: {path: shards}
-      - name: or an earlier run's, when recovering
+      - name: or earlier runs', when recovering
         if: inputs.merge_run != ''
-        uses: actions/download-artifact@v4
-        with:
-          path: shards
-          run-id: ${{ inputs.merge_run }}
-          github-token: ${{ github.token }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          mkdir -p shards
+          for RUN in $(echo "${{ inputs.merge_run }}" | tr ',' ' '); do
+            echo "taking artifacts from run $RUN"
+            gh run download "$RUN" --dir "shards/run-$RUN" --repo ${{ github.repository }} || echo "  nothing from $RUN"
+          done
+          find shards -name '*.jsonl' | head -20
+          echo "total shard files: $(find shards -name '*.jsonl' | wc -l)"
+
       - name: fold the shards into the database
         run: |
           ls -la shards/*/ || true
