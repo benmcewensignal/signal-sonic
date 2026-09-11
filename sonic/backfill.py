@@ -87,6 +87,15 @@ def _try_fetch_month(token: str, genre_id: int, month: str, per_month: int):
         try:
             d = _get("/catalog/tracks/", token, params)
             results = d.get("results", [])
+            # one page is 100 records, so asking for 150 a month silently returned 100.
+            # Walk pages until we have what was asked for or the month runs out.
+            page = 1
+            while results and len(results) < per_month and page < 12:
+                page += 1
+                nxt = _get("/catalog/tracks/", token, dict(params, page=page))
+                more = nxt.get("results", [])
+                if not more: break
+                results = results + more
             if results:
                 # Beatport reports the true size of the month; we only download a sample,
                 # so this count is the only honest measure of how much a scene released.
