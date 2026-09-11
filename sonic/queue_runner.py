@@ -40,6 +40,31 @@ def _write_log(log, push=False):
             pass
 
 
+def adopt_deepened(db="sonic.db"):
+    """Take the deepened database a sharded run published, if it is newer and larger."""
+    import sqlite3, urllib.request, os, json as _j
+    url = "https://github.com/benmcewensignal/signal-sonic/releases/download/deepened/sonic.db"
+    tmp = db + ".deepened"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "signal-sonic/adopt"})
+        with urllib.request.urlopen(req, timeout=120) as r, open(tmp, "wb") as f:
+            f.write(r.read())
+    except Exception:
+        return
+    def depth(path):
+        try:
+            c = sqlite3.connect(path)
+            return c.execute("select count(*) from tracks where analyser_id='local'").fetchone()[0]
+        except Exception:
+            return -1
+    mine, theirs = depth(db), depth(tmp)
+    if theirs > mine:
+        os.replace(tmp, db)
+        print(f"adopted the deepened database: {mine} records -> {theirs}", flush=True)
+    else:
+        os.unlink(tmp)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--budget-minutes", type=int, default=75)
@@ -98,6 +123,14 @@ def main():
             print(f"free disk {free_gb:.1f} GB", flush=True)
         except Exception:
             pass
+    # A sharded deepening cannot write this file: two writers to one binary database is
+    # how an afternoon was lost. It publishes a release instead, and the chain adopts it
+    # here, once, before doing its own work.
+    try:
+        adopt_deepened()
+    except Exception as e:
+        print(f"adopt: {type(e).__name__}: {str(e)[:80]}", flush=True)
+
         print(f"\n=== {os.path.basename(f)}: {job}", flush=True)
         rc = 0
         try:

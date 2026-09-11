@@ -92,26 +92,19 @@ jobs:
           if m["records_added"] == 0:
               raise SystemExit("merge added nothing: the shards measured nothing worth keeping")
           PY
-      - name: persist
+      - name: publish the merged database as a release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          set +e
-          git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
-          STATUS="unknown"
-          # the same shape the queue chain uses, and for the same reason: this database is
-          # written by two workflows, so copy the result aside, take whatever main has
-          # become, put it back. Never rebase a binary file, and never stash.
-          for i in 1 2 3 4 5; do
-            rm -rf /tmp/out && mkdir -p /tmp/out
-            cp -a sonic.db /tmp/out/ 2>/dev/null
-            git fetch -q origin main
-            git reset -q --hard origin/main
-            cp -a /tmp/out/sonic.db . 2>/dev/null
-            git add -f sonic.db 2>/dev/null
-            if git diff --cached --quiet; then STATUS="nothing to persist"; break; fi
-            git commit -q -m "deepen: folded into the database"
-            if git push -q origin HEAD:main; then STATUS="persisted on attempt $i"; break; fi
-            STATUS="push race, retrying"
-            sleep $((i*10))
-          done
-          echo "persist: $STATUS"
-          [ "${STATUS#persisted}" != "$STATUS" ] || [ "$STATUS" = "nothing to persist" ]
+          set -e
+          # Not a git push. This database is written by the queue chain too, and a second
+          # writer to a shared binary file has failed four different ways this afternoon:
+          # a mixed report, missing deps, a rebase that cannot merge bytes, and permissions.
+          # So the merge publishes its result and the chain picks it up. One writer.
+          ls -la sonic.db
+          gh release delete deepened -y 2>/dev/null || true
+          gh release create deepened sonic.db \
+            --title "deepened database" \
+            --notes "Folded from run ${{ inputs.merge_run != '' && inputs.merge_run || github.run_id }}. The queue chain adopts this on its next run." \
+            || gh release upload deepened sonic.db --clobber
+          echo "published"
