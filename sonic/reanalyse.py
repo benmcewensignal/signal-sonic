@@ -50,8 +50,11 @@ def main():
         after the analyser moved to 2.1 and 2.2. A tempo fix shipped this morning and
         re-measured nothing, because every record already matched the prefix."""
         def parts(x):
+            # versions are stored with a build hash: "2+865c64cc". Parsing that whole string
+            # gave version zero, which is older than everything, so the job would have
+            # re-measured all forty-four thousand records instead of the stale ones.
             out = []
-            for p in str(x).split("."):
+            for p in str(x).split("+")[0].split("."):
                 try: out.append(int(p))
                 except ValueError: out.append(0)
             return out
