@@ -39,6 +39,7 @@ class FeatureVector:
     analyser_id: str = ""
     analyser_version: str = ""
     loudness: float = 0.0              # mean RMS dBFS; mastering confound, measured not hidden
+    rhythm_vector: list = None      # 2.2: the beat layer, normalised on its own
 
     def to_json(self) -> str:
         return json.dumps(asdict(self))

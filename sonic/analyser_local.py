@@ -47,13 +47,13 @@ def _decoder_fingerprint() -> str:
         parts.append(soundfile.__libsndfile_version__)
     except Exception:
         parts.append("no-sndfile")
-    parts.append(librosa.__version__); parts.append("emb45"); parts.append("tempo-octave")
+    parts.append(librosa.__version__); parts.append("emb45"); parts.append("tempo-octave"); parts.append("rhythm16")
     return hashlib.sha1("|".join(parts).encode()).hexdigest()[:8]
 
 
 class LocalAnalyser(Analyser):
     analyser_id = "local"
-    version = "2.1"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
+    version = "2.2"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
                            # error, which had drum and bass at 117 against a true 174
 
     def __init__(self, sr: int = 22050, max_seconds: float = 120.0):
@@ -82,6 +82,7 @@ class LocalAnalyser(Analyser):
 
         return FeatureVector(
             tempo=tempo, key=key, energy_curve=energy,
+            rhythm_vector=self._rhythm_vector(y, sr),
             drum_palette=[], drum_density=drum_density, drum_swing=drum_swing,
             bass_character=[], bass_weight=bass_weight,
             vocal_treatment=[], vocal_presence=vocal,
@@ -188,6 +189,49 @@ class LocalAnalyser(Analyser):
         if best < LO and base * 2 <= HI:
             best = base * 2
         return float(best)
+
+    def _rhythm_vector(self, y, sr) -> list[float]:
+        """How the record is counted and how it moves: 16 numbers, scaled on their own.
+
+        The 45-dim embedding describes timbre and harmony. Rhythm was represented by three
+        hand-built numbers, so any contest between the two layers compared three features
+        against thirty-three. Worse, taking a slice of the jointly-normalised embedding and
+        re-scaling it made a change in production show up as a change in harmony: the same
+        pair moved +63% or -48% depending only on how it was sliced. Two vectors, each
+        normalised alone, removes that entirely.
+        """
+        # onsets from the low and low-mid only: a brighter hi-hat sharpens a full-spectrum
+        # onset envelope and leaks a production change into the rhythm reading. Kick, snare
+        # and bass carry the count; cymbals carry the sheen.
+        S = np.abs(librosa.stft(y, n_fft=2048, hop_length=512))
+        freqs = librosa.fft_frequencies(sr=sr, n_fft=2048)
+        band = S[(freqs >= 30) & (freqs <= 1200), :]
+        onset = librosa.onset.onset_strength(S=librosa.amplitude_to_db(band, ref=np.max), sr=sr)
+        if onset.size < 16:
+            return [0.0] * 16
+        o = onset - onset.mean()
+        n = float(np.linalg.norm(o)) or 1.0
+        # the beat histogram: how strongly the record repeats at each of 12 lags, from a
+        # sixteenth note at 200 bpm out to two bars at 90. This is the shape of the groove.
+        fps = sr / 512.0
+        lags = [max(2, int(round(60.0 / bpm * fps))) for bpm in
+                (200, 175, 155, 140, 128, 120, 112, 100, 90, 80, 70, 60)]
+        hist = []
+        for lag in lags:
+            if lag >= len(o) // 2:
+                hist.append(0.0); continue
+            a, b = o[:-lag], o[lag:]
+            hist.append(float(np.dot(a, b) / ((np.linalg.norm(a) * np.linalg.norm(b)) or 1.0)))
+        # how even the onsets are, how sharp, and how much of the energy falls off the grid
+        gaps = np.diff(librosa.onset.onset_detect(onset_envelope=onset, sr=sr, units="frames"))
+        evenness = float(1.0 / (1.0 + (np.std(gaps) / (np.mean(gaps) or 1.0)))) if gaps.size > 2 else 0.0
+        attack = float(np.mean(np.abs(np.diff(o))) / (np.std(o) or 1.0))
+        density = float((onset > onset.mean() + onset.std()).mean())
+        pulse = float(np.max(hist)) if hist else 0.0
+        v = np.array(hist + [evenness, attack, density, pulse], dtype=float)
+        v = (v - np.median(v)) / (np.percentile(np.abs(v - np.median(v)), 75) or 1.0)
+        nv = float(np.linalg.norm(v)) or 1.0
+        return [float(x) for x in (v / nv)]
 
     def _embedding(self, y, sr) -> list[float]:
         mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
