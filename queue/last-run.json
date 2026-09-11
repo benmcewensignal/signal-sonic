@@ -1,255 +1,49 @@
 {
- "ran": "2026-09-11T06:09:49Z",
+ "ran": "2026-09-11T07:41:59Z",
  "log": [
   {
-   "cmd": "before embed3: free disk 89.8 GB",
+   "cmd": "before backfill: free disk 89.7 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.embed_v3 --db sonic.db --limit 400 --budget-minutes 50",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2026-05 --to 2026-05 --db sonic.db --analyser local --per-month 150",
    "rc": 0,
-   "minutes": 50.8,
+   "minutes": 2.0,
    "tail": [
-    "A new version of the following files was downloaded from https://huggingface.co/m-a-p/MERT-v1-95M:",
-    "- configuration_MERT.py",
-    ". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.",
-    "A new version of the following files was downloaded from https://huggingface.co/m-a-p/MERT-v1-95M:",
-    "- modeling_MERT.py",
-    ". Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.",
-    "self-test: shape (768,), finite True, norm 10.562 -> ok",
-    "v3: 400 records to embed",
-    "  50/400 embedded, 2 failed",
-    "budget reached",
-    "v3: 98 embedded, 3 failed, 19944 remaining"
+    "    skip bp:28613932: ValueError: unknown url type: '/tmp/tmp5qajvbi4.mp3'",
+    "    skip bp:28688652: ValueError: unknown url type: '/tmp/tmp0mkauyih.mp3'",
+    "    2026-M05 genre13 10/150 (57.5 tracks/s, 6 skipped)",
+    "    2026-M05 genre13 40/150 (58.9 tracks/s, 23 skipped)",
+    "    2026-M05 genre13 130/150 (76.0 tracks/s, 107 skipped)",
+    "    2026-M05 genre13 140/150 (78.9 tracks/s, 113 skipped)",
+    "  2026-M05 psy-trance: 0 analysed, 120 skipped, 2s",
+    "    skip bp:28857258: ValueError: unknown url type: '/tmp/tmptuwd_umc.mp3'",
+    "    skip bp:28895962: ValueError: unknown url type: '/tmp/tmp8nmwkjtl.mp3'",
+    "    skip bp:28787720: ValueError: unknown url type: '/tmp/tmp9xidk_z0.mp3'",
+    "    2026-M05 genre37 10/150 (6.5 tracks/s, 6 skipped)",
+    "    2026-M05 genre37 40/150 (25.8 tracks/s, 24 skipped)",
+    "    2026-M05 genre37 130/150 (34.3 tracks/s, 108 skipped)",
+    "    2026-M05 genre37 140/150 (34.1 tracks/s, 114 skipped)",
+    "  2026-M05 indie-dance: 0 analysed, 121 skipped, 4s",
+    "    skip bp:29069240: ValueError: unknown url type: '/tmp/tmp5kpb9i2l.mp3'",
+    "    skip bp:28827360: ValueError: unknown url type: '/tmp/tmpvhdpgc1k.mp3'",
+    "    skip bp:28938153: ValueError: unknown url type: '/tmp/tmp92dg3c4m.mp3'",
+    "    2026-M05 genre93 10/150 (39.8 tracks/s, 4 skipped)",
+    "    2026-M05 genre93 50/150 (43.0 tracks/s, 28 skipped)",
+    "    2026-M05 genre93 130/150 (38.4 tracks/s, 103 skipped)",
+    "  2026-M05 organic-house: 0 analysed, 115 skipped, 4s",
+    "{\"2026-M05\": {\"uk-garage-speed-garage\": {\"fetched\": 150, \"analysed\": 0}, \"uk-funky-gqom\": {\"fetched\": 150, \"analysed\": 0}, \"afro-house\": {\"fetched\": 150, \"analysed\": 0}, \"amapiano\": {\"fetched\": 150, \"analysed\": 0}, \"140-deep-dubstep-grime\": {\"fetched\": 150, \"analysed\": 0}, \"breaks-breakbeat-uk-bass\"",
+    "{\"supply_rows_saved\": 20}",
+    "{\"backfill_complete\": true, \"claims_untouched\": true}"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job embed3 --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job backfill --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
+    "validation note: backfill ran but none of ['tracks'] grew: check its log for why",
     "validation: ok"
-   ]
-  },
-  {
-   "cmd": "embed3: work remains, job stays queued",
-   "rc": 0
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "import: no new files"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
-   "rc": 0,
-   "minutes": 0.2,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"median share of Beatport\": 0.02068,",
-    " \"deezer usable\": 3",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"months\": 24",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.links --db sonic.db --out data/links.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"records\": 751,",
-    " \"with a set appearance\": 751",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"months\": 24",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
-   "rc": 0,
-   "minutes": 0.1,
-   "tail": [
-    "{",
-    " \"version\": \"v2\",",
-    " \"scenes\": 20,",
-    " \"with a detected turn\": 0,",
-    " \"turns\": {}",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"versions\": {",
-    "  \"2\": 20341,",
-    "  \"1\": 97",
-    " },",
-    " \"use_version\": \"2\",",
-    " \"archived_v1\": 18774,",
-    " \"linked\": 16,",
-    " \"scenes\": 20",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  ],",
-    "  [",
-    "   \"Nigel Jones\",",
-    "   13.94",
-    "  ]",
-    " ],",
-    " \"appetite\": {",
-    "  \"afro-house\": {",
-    "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 72.5",
-    "  },",
-    "  \"techno-peak-time\": {",
-    "   \"mixes\": 3,",
-    "   \"plays_per_day_median\": 0.6",
-    "  },",
-    "  \"deep-house\": {",
-    "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 90.9",
-    "  },",
-    "  \"melodic-house-techno\": {",
-    "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 73.4",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  140-deep-dubstep-grime     flatter, more uniformly loud (-0.40), more voice (+0.36)",
-    "  afro-house                 nothing names it yet",
-    "  amapiano                   flatter, more uniformly loud (-0.35)",
-    "  bass-house                 flatter, more uniformly loud (-0.50)",
-    "  breaks-breakbeat-uk-bass   nothing names it yet",
-    "  deep-house                 nothing names it yet",
-    "  drum-and-bass              nothing names it yet",
-    "  hard-techno                flatter, more uniformly loud (-0.39)",
-    "  house                      nothing names it yet",
-    "  indie-dance                nothing names it yet",
-    "  melodic-house-techno       less voice (-0.32), choppier (+0.27)",
-    "  organic-house              busier drums (+0.37), flatter, more uniformly loud (-0.25)",
-    "  progressive-house          less voice (-0.22)",
-    "  psy-trance                 sparser drums (-0.32), choppier (+0.31)",
-    "  tech-house                 flatter, more uniformly loud (-0.44), more voice (+0.28)",
-    "  techno-peak-time           flatter, more uniformly loud (-0.45)",
-    "  techno-raw-deep-hypnotic   choppier (+0.27)",
-    "  trance-main-floor          front-loaded (-0.26), flatter, more uniformly loud (-0.23)",
-    "  uk-funky-gqom              nothing names it yet",
-    "  uk-garage-speed-garage     more voice (+0.30), smoother (-0.27)"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "   \"n\": 420,",
-    "   \"r\": 0.0",
-    "  },",
-    "  \"-1\": {",
-    "   \"n\": 440,",
-    "   \"r\": -0.1",
-    "  },",
-    "  \"0\": {",
-    "   \"n\": 460,",
-    "   \"r\": 0.1",
-    "  },",
-    "  \"1\": {",
-    "   \"n\": 440,",
-    "   \"r\": -0.01",
-    "  },",
-    "  \"2\": {",
-    "   \"n\": 420,",
-    "   \"r\": -0.01",
-    "  },",
-    "  \"3\": {",
-    "   \"n\": 400,",
-    "   \"r\": -0.0",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
-   "rc": 0,
-   "minutes": 2.6,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-11T06:09:07Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\",",
-    "  \"2026-09-10\"",
-    " ],",
-    " \"artists_total\": 35328,",
-    " \"booking_side\": 21760,",
-    " \"release_side\": 14856,",
-    " \"joined\": 1288,",
-    " \"tracks_with_metadata\": 17938,",
-    " \"join_rate_release_side\": 0.087",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
-   "rc": 0,
-   "minutes": 0.7,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-11T06:09:49Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\",",
-    "  \"2026-09-10\"",
-    " ],",
-    " \"latest\": \"2026-09-10\",",
-    " \"venues\": 4171,",
-    " \"venues_with_3plus\": 1179,",
-    " \"leadership_artists\": 6030,",
-    " \"tiered_rooms\": 802",
-    "}"
    ]
   }
  ]
