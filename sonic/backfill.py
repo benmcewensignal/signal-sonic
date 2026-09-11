@@ -151,11 +151,15 @@ def cmd_fetch(args):
 
     log = {"mode": "backfill", "months": {}, "analyser": analyser.analyser_id}
     for month in months_between(args.mfrom, args.mto):
-        done_scenes = {r["scene"] for r in store.conn.execute(
-            "SELECT DISTINCT scene FROM scene_weeks WHERE week=? AND weighting='flat'",
-            (month,))}
-        if all(v["scene"] in done_scenes for v in genres.values()):
-            print(f"{month}: already complete, skipping", flush=True)
+        # complete means "as deep as this run asks for", not "touched at all". Treating any
+        # ingested month as done is why three deepening passes ran to completion overnight,
+        # reported success, and added nothing: every month was already present at 43 records.
+        depth = {r["scene"]: r["n"] for r in store.conn.execute(
+            "SELECT scene, COUNT(*) n FROM track_scenes WHERE week=? GROUP BY scene", (month,))}
+        target = int(args.per_month * 0.9)
+        shallow = [v["scene"] for v in genres.values() if depth.get(v["scene"], 0) < target]
+        if not shallow:
+            print(f"{month}: already at {target}+ records a scene, skipping", flush=True)
             log["months"][month] = "already complete"
             continue
         mlog = {}
