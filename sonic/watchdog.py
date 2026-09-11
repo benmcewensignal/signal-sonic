@@ -16,6 +16,7 @@ its own concurrency group, so it is never blocked by the thing it is meant to un
 import argparse, json, os, sys, time, urllib.error, urllib.request
 
 API = "https://api.github.com"
+STALL_MINUTES = 15   # a live run whose timestamp has not moved this long is a zombie
 STUCK_MINUTES = 135          # the job cap is 120; allow slack for setup and teardown
 
 
@@ -54,15 +55,31 @@ def main():
     for r in live:
         started = r.get("run_started_at") or r["created_at"]
         mins = age_minutes(started)
-        if r["status"] == "in_progress" and mins > STUCK_MINUTES:
+        silent = age_minutes(r.get("updated_at") or started)
+        # A run whose timestamp stops advancing is a zombie: GitHub still believes it is alive,
+        # so it holds the concurrency group and every queued run waits behind it forever. This
+        # cost a whole afternoon: the watchdog saw traffic and reported healthy. A plain cancel
+        # does not clear one, so escalate to force-cancel.
+        if r["status"] == "in_progress" and silent > STALL_MINUTES:
+            actions.append(f"zombie #{r['run_number']} (no update for {silent:.0f} min): force-cancelling")
+            if not a.dry_run:
+                _req(f"/repos/{a.repo}/actions/runs/{r['id']}/cancel", token, "POST")
+                time.sleep(5)
+                _req(f"/repos/{a.repo}/actions/runs/{r['id']}/force-cancel", token, "POST")
+        elif r["status"] == "in_progress" and mins > STUCK_MINUTES:
             actions.append(f"cancel #{r['run_number']} (running {mins:.0f} min, cap {STUCK_MINUTES})")
-            if not a.dry_run: _req(f"/repos/{a.repo}/actions/runs/{r['id']}/cancel", token, "POST")
+            if not a.dry_run:
+                _req(f"/repos/{a.repo}/actions/runs/{r['id']}/cancel", token, "POST")
+                time.sleep(5)
+                _req(f"/repos/{a.repo}/actions/runs/{r['id']}/force-cancel", token, "POST")
         # a run pending far longer than a job takes means it is blocked by something already gone
         elif r["status"] in ("queued", "pending") and mins > STUCK_MINUTES * 2:
             actions.append(f"cancel pending #{r['run_number']} (waiting {mins:.0f} min)")
             if not a.dry_run: _req(f"/repos/{a.repo}/actions/runs/{r['id']}/cancel", token, "POST")
     # 2. nothing running and work outstanding: the chain stopped, so restart it
-    still_live = [r for r in live if r["status"] == "in_progress" and age_minutes(r.get("run_started_at") or r["created_at"]) <= STUCK_MINUTES]
+    still_live = [r for r in live if r["status"] == "in_progress"
+                  and age_minutes(r.get("updated_at") or r.get("run_started_at") or r["created_at"]) <= STALL_MINUTES
+                  and age_minutes(r.get("run_started_at") or r["created_at"]) <= STUCK_MINUTES]
     if not still_live:
         try:
             done = {d["file"] for d in json.load(open("queue/done.json")) if not d.get("requeued")}
