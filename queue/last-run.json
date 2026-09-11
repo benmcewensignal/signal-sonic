@@ -1,28 +1,28 @@
 {
- "ran": "2026-09-11T09:24:16Z",
+ "ran": "2026-09-11T10:46:42Z",
  "log": [
   {
    "cmd": "before backfill: free disk 89.7 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2025-09 --to 2025-10 --db sonic.db --analyser local --per-month 150",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.backfill fetch --from 2026-01 --to 2026-02 --db sonic.db --analyser local --per-month 150",
    "rc": 1,
-   "minutes": 37.1,
+   "minutes": 36.1,
    "tail": [
-    "    2025-M09 genre89 70/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre89 80/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre89 90/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre89 100/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre89 110/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre89 120/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre89 130/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre89 140/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre89 150/150 (0.2 tracks/s, 0 skipped)",
-    "  2025-M09 afro-house: 120 analysed, 0 skipped, 705s",
-    "    2025-M09 genre98 10/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre98 20/150 (0.2 tracks/s, 0 skipped)",
-    "    2025-M09 genre98 30/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 70/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 80/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 90/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 100/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 110/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 120/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 130/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 140/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre89 150/150 (0.2 tracks/s, 0 skipped)",
+    "  2026-M01 afro-house: 122 analysed, 0 skipped, 676s",
+    "    2026-M01 genre98 10/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre98 20/150 (0.2 tracks/s, 0 skipped)",
+    "    2026-M01 genre98 30/150 (0.2 tracks/s, 0 skipped)",
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
     "  File \"<frozen runpy>\", line 88, in _run_code",
@@ -44,10 +44,6 @@
    "tail": [
     "validation: ok"
    ]
-  },
-  {
-   "cmd": "backfill: work remains, job stays queued",
-   "rc": 0
   }
  ]
 }
