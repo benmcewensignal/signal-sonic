@@ -47,13 +47,13 @@ def _decoder_fingerprint() -> str:
         parts.append(soundfile.__libsndfile_version__)
     except Exception:
         parts.append("no-sndfile")
-    parts.append(librosa.__version__); parts.append("emb45"); parts.append("tempo-octave"); parts.append("rhythm16")
+    parts.append(librosa.__version__); parts.append("emb45"); parts.append("tempo-octave"); parts.append("rhythm16"); parts.append("perfamily")
     return hashlib.sha1("|".join(parts).encode()).hexdigest()[:8]
 
 
 class LocalAnalyser(Analyser):
     analyser_id = "local"
-    version = "2.2"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
+    version = "2.3"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
                            # error, which had drum and bass at 117 against a true 174
 
     def __init__(self, sr: int = 22050, max_seconds: float = 120.0):
@@ -243,8 +243,20 @@ class LocalAnalyser(Analyser):
             contrast.mean(axis=1),                        # 7
         ]
         v = np.concatenate(parts).astype(float)   # 13+13+12+7 = 45
-        # per-dim robust scaling so no single family dominates
-        v = (v - np.median(v)) / (np.percentile(np.abs(v - np.median(v)), 75) or 1.0)
+        # Scale each family against itself, not the whole vector. The line here computed one
+        # median and one spread across all forty-five numbers and applied them to everything.
+        # MFCCs run in the tens and chroma in nought to one, so after scaling all twelve
+        # chroma dimensions collapsed into an identical near-zero range: an audit of 38,365
+        # records found every one of them carrying the same spread, which is the signature of
+        # a dimension that measures nothing. A quarter of the vector was dead weight in every
+        # distance we computed.
+        out = []
+        for p in parts:
+            p = np.asarray(p, dtype=float)
+            med = np.median(p)
+            scale = np.percentile(np.abs(p - med), 75) or (np.std(p) or 1.0)
+            out.append((p - med) / scale)
+        v = np.concatenate(out)
         # v2: the old 32-dim cut kept the MFCCs, half the chroma and none of the spectral
         # contrast — the descriptor most tied to how produced a record sounds. Keep all 45.
         if v.size >= EMBED_DIM:

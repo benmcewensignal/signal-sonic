@@ -1,0 +1,1 @@
+{"mode": "reanalyse", "limit": 6000, "note": "analyser 2.3: the embedding was scaled by one median and one spread across all 45 dimensions, so the twelve chroma dimensions collapsed to an identical near-zero range. Scaled per family now, which makes a quarter of the vector live."}
