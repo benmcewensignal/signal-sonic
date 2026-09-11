@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-11T07:41:59Z",
+ "ran": "2026-09-11T09:24:09Z",
  "job": "backfill",
  "before": {
   "tracks": 22227,
@@ -14,8 +14,8 @@
   "aliases": null
  },
  "after": {
-  "tracks": 22227,
-  "v2": 22128,
+  "tracks": 22610,
+  "v2": 22511,
   "v3": 1750,
   "named": 17938,
   "plays": 1316,
@@ -26,8 +26,6 @@
   "aliases": null
  },
  "failures": [],
- "notes": [
-  "backfill ran but none of ['tracks'] grew: check its log for why"
- ],
+ "notes": [],
  "ok": true
 }
