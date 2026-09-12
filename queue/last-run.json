@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-12T18:54:31Z",
+ "ran": "2026-09-12T19:04:35Z",
  "log": [
   {
    "cmd": "before reanalyse: free disk 89.6 GB",
@@ -8,7 +8,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 3000 --budget-minutes 54",
    "rc": 0,
-   "minutes": 0.5,
+   "minutes": 0.3,
    "tail": [
     "reanalyse: 99 tracks on an older version (target 2+ea4270ed)",
     "  bp:24462239: no preview url",
