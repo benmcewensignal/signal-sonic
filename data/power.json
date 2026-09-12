@@ -1,0 +1,47 @@
+{
+ "loudness_range": {
+  "noise": 0.14,
+  "detect": 0.28,
+  "observed": 1.0,
+  "unit": "LU",
+  "source": "Essentia",
+  "visible": true,
+  "bound": 0.28
+ },
+ "vocal_presence": {
+  "noise": 0.0204,
+  "detect": 0.041,
+  "observed": 0.0104,
+  "unit": "0-1",
+  "source": "analyser",
+  "visible": false,
+  "bound": 0.041
+ },
+ "drum_density": {
+  "noise": 0.0196,
+  "detect": 0.039,
+  "observed": 0.0006,
+  "unit": "0-1",
+  "source": "analyser",
+  "visible": false,
+  "bound": 0.039
+ },
+ "drum_swing": {
+  "noise": 0.0185,
+  "detect": 0.037,
+  "observed": 0.009,
+  "unit": "0-1",
+  "source": "analyser",
+  "visible": false,
+  "bound": 0.037
+ },
+ "bass_weight": {
+  "noise": 0.0178,
+  "detect": 0.036,
+  "observed": -0.0022,
+  "unit": "0-1",
+  "source": "analyser",
+  "visible": false,
+  "bound": 0.036
+ }
+}
