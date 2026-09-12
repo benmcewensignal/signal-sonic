@@ -32,7 +32,9 @@ jobs:
     strategy:
       fail-fast: false          # one shard failing must not discard the other five
       matrix:
-        shard: [0, 1, 2, 3, 4, 5]
+        # eighteen, not six: the ceiling is twenty concurrent jobs per account, and a
+        # fifty-thousand-record re-measure at six shards is thirty-six hours rather than twelve
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -46,7 +48,7 @@ jobs:
           BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
           BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
         run: |
-          python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 6 \
+          python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 18 \
             --from ${{ inputs.month_from }} --to ${{ inputs.month_to }} \
             --per-month ${{ inputs.per_month }} --db sonic.db --out out --budget-minutes 100 \
             ${{ inputs.restale != '' && format('--restale {0}', inputs.restale) || '' }}
