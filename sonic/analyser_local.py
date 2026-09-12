@@ -54,12 +54,18 @@ def _decoder_fingerprint() -> str:
 class LocalAnalyser(Analyser):
     analyser_id = "local"
     version = "2.3"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
-                           # error, which had drum and bass at 117 against a true 174
+                           # error. 2.2: rhythm vector. 2.3: each feature family scaled
+                           # against itself, which brings the twelve chroma dimensions back
 
     def __init__(self, sr: int = 22050, max_seconds: float = 120.0):
         self.sr = sr
         self.max_seconds = max_seconds
-        self.version = f"2+{_decoder_fingerprint()}"
+        # the class version, not a literal. This line read f"2+..." and overwrote every
+        # version bump made above it: 2.1 for the tempo octave fix, 2.2 for the rhythm
+        # vector, 2.3 for per-family scaling. All three were committed, correct, and inert,
+        # because the re-analysis compares a record's stored version against this one and
+        # saw no difference. Fifty thousand records sat unmeasured behind one literal.
+        self.version = f"{type(self).version}+{_decoder_fingerprint()}"
 
     def analyse(self, audio_ref: str) -> FeatureVector:
         y, sr = librosa.load(audio_ref, sr=self.sr, mono=True,
