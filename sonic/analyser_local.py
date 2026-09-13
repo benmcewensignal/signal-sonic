@@ -47,13 +47,13 @@ def _decoder_fingerprint() -> str:
         parts.append(soundfile.__libsndfile_version__)
     except Exception:
         parts.append("no-sndfile")
-    parts.append(librosa.__version__); parts.append("emb45"); parts.append("tempo-octave"); parts.append("rhythm16"); parts.append("perfamily")
+    parts.append(librosa.__version__); parts.append("emb45"); parts.append("tempo-octave"); parts.append("rhythm16"); parts.append("perfamily"); parts.append("edm")
     return hashlib.sha1("|".join(parts).encode()).hexdigest()[:8]
 
 
 class LocalAnalyser(Analyser):
     analyser_id = "local"
-    version = "2.3"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
+    version = "2.4"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
                            # error. 2.2: rhythm vector. 2.3: each feature family scaled
                            # against itself, which brings the twelve chroma dimensions back
 
@@ -88,6 +88,7 @@ class LocalAnalyser(Analyser):
 
         return FeatureVector(
             tempo=tempo, key=key, energy_curve=energy,
+            edm=self._edm(y, sr),
             rhythm_vector=self._rhythm_vector(y, sr),
             drum_palette=[], drum_density=drum_density, drum_swing=drum_swing,
             bass_character=[], bass_weight=bass_weight,
@@ -154,6 +155,22 @@ class LocalAnalyser(Analyser):
         share = band.sum() / (S.sum() or 1.0)
         flat = float(librosa.feature.spectral_flatness(y=y_h).mean())
         return float(min(1.0, share * (1.0 - min(1.0, flat * 8.0)) * 2.2))
+
+    def _edm(self, y, sr) -> dict:
+        """Sidechain, sub-bass and a tempo with the octave folded out.
+
+        From Xu et al., arXiv 2509.11474. Sidechain is the defining production technique of
+        modern dance music and we did not measure it; sub-bass replaces a bass_weight that
+        saturates at 1.000 for almost every record; the cyclic tempogram removes the octave
+        ambiguity by construction rather than by the heuristic below it.
+
+        Wrapped: a failure here costs one record, not a hundred-minute pass.
+        """
+        try:
+            from .edm_features import measure
+            return measure(y, sr)
+        except Exception as e:
+            return {"edm_error": f"{type(e).__name__}"}
 
     def _tempo(self, y, sr) -> float:
         """Beat rate, resolved against the octave error.
