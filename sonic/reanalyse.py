@@ -30,6 +30,30 @@ def _preview_url(track_id, token):
         return None
 
 
+def preview_urls(track_ids, token, chunk=100):
+    """Resolve many previews in one request instead of one request each.
+
+    The per-record call was costing a network round trip per track, and eighteen shards
+    making them at once triggered rate limiting that made each call slower still. Beatport
+    takes a comma-separated id list, so a hundred tracks cost one request rather than a
+    hundred. Falls back to the single lookup for anything the batch does not return.
+    """
+    out = {}
+    ids = [str(t).split(":")[-1] for t in track_ids if str(t).startswith("bp:")]
+    for i in range(0, len(ids), chunk):
+        part = ids[i:i + chunk]
+        try:
+            d = _get(f"/catalog/tracks/?ids={','.join(part)}&per_page={len(part)}", token)
+            for item in (d.get("results") or []):
+                u = (item.get("sample_url")
+                     or (item.get("preview") or {}).get("mp3", {}).get("url") or "") or None
+                if u:
+                    out[f"bp:{item.get('id')}"] = u
+        except Exception:
+            pass
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default="sonic.db"); ap.add_argument("--limit", type=int, default=3000)

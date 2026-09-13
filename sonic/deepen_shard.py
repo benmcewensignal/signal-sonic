@@ -84,20 +84,43 @@ def main():
         wrote = skipped = 0
         with open(path, "w") as out:
             pool = ThreadPoolExecutor(max_workers=4)
-            for r in stale:
+            # Resolve previews a hundred at a time and download the next few while the
+            # current one is being analysed. Analysis is nine seconds a record; the fetching
+            # around it was costing ten times that, which is why eighteen shards delivered
+            # what six used to.
+            from .reanalyse import preview_urls, _preview_url
+            url_of = {}
+            BATCH = 100
+            pending = {}                       # track_id -> future holding a local file
+
+            def ensure_urls(upto):
+                missing = [r["track_id"] for r in stale[:upto] if r["track_id"] not in url_of]
+                if missing:
+                    url_of.update(preview_urls(missing, token))
+                    for t in missing:
+                        url_of.setdefault(t, None)
+
+            for n, r in enumerate(stale):
                 if (time.time() - t0) / 60 > a.budget_minutes:
                     print("budget reached", flush=True); break
+                if r["track_id"] not in url_of:
+                    ensure_urls(min(len(stale), n + BATCH))
+                # queue the next few downloads so the network waits overlap the analysis
+                for m in range(n, min(len(stale), n + 4)):
+                    t2 = stale[m]["track_id"]
+                    if t2 in pending or url_of.get(t2) is None:
+                        continue
+                    pending[t2] = pool.submit(_fetch_preview, url_of[t2])
                 tid = r["track_id"]
-                try:
-                    from .reanalyse import _preview_url
-                    url = _preview_url(tid, token)
-                except Exception:
-                    url = None
+                url = url_of.get(tid)
+                if not url:
+                    url = _preview_url(tid, token)          # one straggler, not the rule
                 if not url:
                     skipped += 1; continue
                 local = None
                 try:
-                    local = _fetch_preview(url)
+                    fut = pending.pop(tid, None)
+                    local = fut.result(timeout=90) if fut else _fetch_preview(url)
                     s2 = TrackSighting(track_id=tid, audio_ref=local or url, scene="", week="",
                                        source=r["source"] or "restale", chart_rank=None)
                     fv = analyse_sighting(analyser, s2)
