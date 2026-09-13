@@ -44,6 +44,10 @@ def main():
                                    d.get("analyser_ver") or analyser.version, d["source"], d["week"])
                 added += 1
             store.assign_scene(tid, d["scene"], d["week"], d["source"])
+            if d.get("sales_rank"):
+                store.conn.execute(
+                    "UPDATE track_scenes SET chart_rank=? WHERE track_id=? AND scene=? AND week=?",
+                    (int(d["sales_rank"]), tid, d["scene"], d["week"]))
             touched.add((d["scene"], d["week"]))
     # every month a shard touched needs its flat fingerprint rebuilt from the deeper sample
     rebuilt = 0

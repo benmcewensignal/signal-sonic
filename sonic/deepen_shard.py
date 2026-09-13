@@ -142,6 +142,11 @@ def main():
                 for t in todo:
                     u = (t.get("sample_url") or (t.get("preview") or {}).get("mp3", {}).get("url") or "")
                     if u: pending[t["id"]] = pool.submit(_fetch_preview, u)
+                # the fetch already returns a month's records in sales order, and we have
+                # been throwing that away. The position is a ranking: not the chart of that
+                # week, but how the record has sold since, which is the better measure of
+                # whether a sound performed.
+                rank_of = {f"bp:{t['id']}": i + 1 for i, t in enumerate(tracks)}
                 n = 0
                 for t in todo:
                     if (time.time() - t0) / 60 > a.budget_minutes:
@@ -161,6 +166,7 @@ def main():
                         fv = analyse_sighting(analyser, s)
                         out.write(json.dumps({"track_id": tid, "scene": cfg["scene"], "week": month,
                                               "source": s.source, "analyser_ver": analyser.version,
+                                              "sales_rank": rank_of.get(tid),
                                               "features": json.loads(fv.to_json())}) + "\n")
                         wrote += 1; n += 1; have.add(tid)
                     except Exception as e:
