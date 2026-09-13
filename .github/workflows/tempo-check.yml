@@ -28,9 +28,14 @@ jobs:
           gh release download deepened --pattern sonic.db --clobber || echo "no deepened db"
       - name: check the tempo estimator against what the field agrees on
         env:
+          # the same four the working jobs pass. I invented a CLIENT_SECRET that does not
+          # exist, so get_token had nothing and the step failed with no visible reason.
           BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
-          BEATPORT_CLIENT_SECRET: ${{ secrets.BEATPORT_CLIENT_SECRET }}
-        run: python -m sonic.tempo_check --db sonic.db --per-scene ${{ inputs.per_scene }}
+          BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+          BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+          BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+        run: |
+          python -m sonic.tempo_check --db sonic.db --per-scene ${{ inputs.per_scene }} 2>&1 | tail -40
       - name: publish the result
         env:
           GH_TOKEN: ${{ github.token }}
