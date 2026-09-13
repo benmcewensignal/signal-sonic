@@ -135,7 +135,7 @@ def main():
                     if local:
                         try: os.unlink(local)
                         except OSError: pass
-                if wrote % 50 == 0 and wrote:
+                if wrote % 10 == 0 and wrote:
                     print(f"  {wrote} re-measured", flush=True); out.flush()
                     # A job that only writes at the end can be waited on but not checked.
                     # The live logs sit behind a host this sandbox cannot reach, so the
@@ -153,7 +153,7 @@ def main():
                         # artifacts only appear when a job ends, so a long pass is invisible
                         # while it matters most. Push to a release every few hundred records:
                         # the releases API is readable from anywhere, unlike the log host.
-                        if wrote % 400 == 0:
+                        if wrote % 25 == 0:
                             subprocess.run(["gh", "release", "upload", "progress", pp, "--clobber"],
                                            capture_output=True, timeout=60)
                     except Exception:
