@@ -30,7 +30,11 @@ permissions:
   actions: write
 
 concurrency:
-  group: sonic-pipeline
+  # keyed on what the run is doing. GitHub keeps one pending run per group, so the queue
+  # chain — which dispatches a follow-up every few minutes — was evicting the Sunday
+  # weekly batch from the pending slot and cancelling it before it could start. A week of
+  # chart data was lost to a shared group name.
+  group: sonic-${{ github.event_name }}-${{ inputs.mode || github.event.schedule || 'push' }}
   cancel-in-progress: false
 
 jobs:
