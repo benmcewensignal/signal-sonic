@@ -41,6 +41,7 @@ class FeatureVector:
     loudness: float = 0.0              # mean RMS dBFS; mastering confound, measured not hidden
     rhythm_vector: list = None      # 2.2: the beat layer, normalised on its own
     edm: dict = None               # 2.4: sidechain, sub-bass, cyclic tempo
+    tempo2: dict = None            # 2.6: tempo on a fine grid, octave resolved
 
     def to_json(self) -> str:
         return json.dumps(asdict(self))

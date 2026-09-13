@@ -53,7 +53,7 @@ def _decoder_fingerprint() -> str:
 
 class LocalAnalyser(Analyser):
     analyser_id = "local"
-    version = "2.5"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
+    version = "2.6"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
                            # error. 2.2: rhythm vector. 2.3: each feature family scaled
                            # against itself, which brings the twelve chroma dimensions back
 
@@ -89,6 +89,7 @@ class LocalAnalyser(Analyser):
         return FeatureVector(
             tempo=tempo, key=key, energy_curve=energy,
             edm=self._edm(y, sr),
+            tempo2=self._tempo2(y, sr),
             rhythm_vector=self._rhythm_vector(y, sr),
             drum_palette=[], drum_density=drum_density, drum_swing=drum_swing,
             bass_character=[], bass_weight=bass_weight,
@@ -155,6 +156,20 @@ class LocalAnalyser(Analyser):
         share = band.sum() / (S.sum() or 1.0)
         flat = float(librosa.feature.spectral_flatness(y=y_h).mean())
         return float(min(1.0, share * (1.0 - min(1.0, flat * 8.0)) * 2.2))
+
+    def _tempo2(self, y, sr) -> dict:
+        """Tempo on a fine grid with the octave family scored rather than assumed.
+
+        The field this replaces returns 29 distinct values across fifteen thousand records,
+        so four different genres report a median of 129 and trance, which is reliably 138 to
+        140, has no lattice point to land on. The tree's thresholds were midpoints between
+        grid positions rather than musical boundaries.
+        """
+        try:
+            from .tempo_resolved import tempo_resolved
+            return tempo_resolved(y, sr)
+        except Exception as e:
+            return {"tempo2_error": f"{type(e).__name__}: {str(e)[:50]}"}
 
     def _edm(self, y, sr) -> dict:
         """Sidechain, sub-bass and a tempo with the octave folded out.
