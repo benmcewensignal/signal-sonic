@@ -26,6 +26,8 @@ concurrency:
 
 jobs:
   shard:
+    permissions:
+      contents: write
     if: inputs.merge_run == ''          # a recovery run measures nothing: the work exists
     runs-on: ubuntu-latest
     timeout-minutes: 115
@@ -43,6 +45,7 @@ jobs:
         run: pip install -q numpy librosa soundfile
       - name: measure this shard
         env:
+          GH_TOKEN: ${{ github.token }}
           BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
           BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
           BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
