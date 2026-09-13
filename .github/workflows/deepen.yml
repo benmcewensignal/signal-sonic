@@ -142,3 +142,43 @@ jobs:
             --notes "Folded from run ${{ inputs.merge_run != '' && inputs.merge_run || github.run_id }}. The queue chain adopts this on its next run." \
             || gh release upload deepened sonic.db --clobber
           echo "published"
+
+      - name: chain the next pass while records remain
+        if: always() && inputs.restale != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          # Every self-chaining mechanism added today has failed silently at least once, so
+          # this one says what it decided and why, in the log, every time.
+          LEFT=$(python - <<'PY'
+          import sqlite3
+          def older(v, t):
+              def p(x):
+                  o=[]
+                  for s in str(x).split("+")[0].split("."):
+                      try: o.append(int(s))
+                      except ValueError: o.append(0)
+                  return o
+              a,b=p(v),p(t); a+=[0]*(len(b)-len(a)); b+=[0]*(len(a)-len(b)); return a<b
+          try:
+              c=sqlite3.connect("sonic.db")
+              rows=c.execute("select coalesce(analyser_ver,'1') v, count(*) n from tracks where analyser_id='local' group by v")
+              print(sum(n for v,n in rows if older(v, "${{ inputs.restale }}")))
+          except Exception as e:
+              print(-1)
+          PY
+          )
+          echo "records still older than ${{ inputs.restale }}: ${LEFT}"
+          case "${LEFT}" in ''|*[!0-9-]*) LEFT=-1 ;; esac
+          if [ "$LEFT" = "-1" ]; then
+            echo "could not count; chaining anyway, because an idle runner costs more than a wasted pass"
+          elif [ "$LEFT" -lt 200 ]; then
+            echo "fewer than two hundred left; stopping here"
+            exit 0
+          fi
+          gh workflow run deepen.yml --ref main \
+            -f restale='${{ inputs.restale }}' \
+            -f month_from='${{ inputs.month_from }}' -f month_to='${{ inputs.month_to }}' \
+            && echo "next pass dispatched" || echo "dispatch failed"
+          exit 0
