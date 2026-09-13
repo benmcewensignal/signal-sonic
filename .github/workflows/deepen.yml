@@ -61,7 +61,11 @@ jobs:
   merge:
     needs: shard
     permissions:
+      # a job-level block replaces the workflow-level one rather than adding to it, so
+      # omitting actions:write here left gh workflow run unable to dispatch. The chain step
+      # ran, succeeded, and silently did nothing.
       contents: write
+      actions: write
     if: always()                # merge whatever the shards did manage, or an earlier run's
     runs-on: ubuntu-latest
     timeout-minutes: 60
@@ -180,5 +184,5 @@ jobs:
           gh workflow run deepen.yml --ref main \
             -f restale='${{ inputs.restale }}' \
             -f month_from='${{ inputs.month_from }}' -f month_to='${{ inputs.month_to }}' \
-            && echo "next pass dispatched" || echo "dispatch failed"
+            && echo "next pass dispatched" || { echo "::error::dispatch failed - the chain is broken"; exit 1; }
           exit 0
