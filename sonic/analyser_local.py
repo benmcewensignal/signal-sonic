@@ -53,7 +53,7 @@ def _decoder_fingerprint() -> str:
 
 class LocalAnalyser(Analyser):
     analyser_id = "local"
-    version = "2.4"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
+    version = "2.5"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
                            # error. 2.2: rhythm vector. 2.3: each feature family scaled
                            # against itself, which brings the twelve chroma dimensions back
 
@@ -168,9 +168,17 @@ class LocalAnalyser(Analyser):
         """
         try:
             from .edm_features import measure
+        except ModuleNotFoundError as e:
+            # not a per-record failure. Sixteen thousand records were analysed with this
+            # raising every time because the module was written and never committed, and
+            # the per-record catch turned a broken build into a quiet field in the output.
+            raise RuntimeError(
+                "sonic/edm_features.py is missing from the deployment: "
+                "every record would be measured without the production features") from e
+        try:
             return measure(y, sr)
         except Exception as e:
-            return {"edm_error": f"{type(e).__name__}"}
+            return {"edm_error": f"{type(e).__name__}: {str(e)[:60]}"}
 
     def _tempo(self, y, sr) -> float:
         """Beat rate, resolved against the octave error.
