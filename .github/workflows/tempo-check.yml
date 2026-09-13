@@ -1,0 +1,39 @@
+name: tempo-check
+on:
+  workflow_dispatch:
+    inputs:
+      per_scene:
+        description: records per scene
+        default: "20"
+permissions:
+  contents: write
+concurrency:
+  group: tempo-check
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: deps
+        run: pip install -q numpy librosa soundfile requests
+      - name: fetch the pipeline database
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download deepened --pattern sonic.db --clobber || echo "no deepened db"
+      - name: check the tempo estimator against what the field agrees on
+        env:
+          BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+          BEATPORT_CLIENT_SECRET: ${{ secrets.BEATPORT_CLIENT_SECRET }}
+        run: python -m sonic.tempo_check --db sonic.db --per-scene ${{ inputs.per_scene }}
+      - name: publish the result
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create tempo-check --notes "tempo estimator validation" 2>/dev/null || true
+          gh release upload tempo-check out/tempo-check.json --clobber
