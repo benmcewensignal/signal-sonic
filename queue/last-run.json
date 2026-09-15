@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-15T11:10:25Z",
+ "ran": "2026-09-15T12:01:52Z",
  "log": [
   {
    "cmd": "before encoding-check: free disk 90.9 GB",
@@ -7,27 +7,44 @@
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.encoding_check --db sonic.db --n 400",
-   "rc": 1,
-   "minutes": 0.1,
+   "rc": 0,
+   "minutes": 40.6,
    "tail": [
-    "comparing records at 2.5 or later, where the embedding is computed the same way: 18438 available",
-    "384 records across 24 months",
-    "previews resolved for 100 of 384",
-    "    sample ids look like ['bp:19787272', 'bp:19501658', 'bp:19489944']",
-    "    resolved ids look like ['bp:30652421', 'bp:30652420', 'bp:30652419']",
-    "    overlap: 0",
-    "nothing re-measured. why:",
-    "      384  no preview url"
+    "  50 re-measured",
+    "  75 re-measured",
+    "  100 re-measured",
+    "  125 re-measured",
+    "  150 re-measured",
+    "  175 re-measured",
+    "  200 re-measured",
+    "  225 re-measured",
+    "  250 re-measured",
+    "  275 re-measured",
+    "  300 re-measured",
+    "  325 re-measured",
+    "  350 re-measured",
+    "  375 re-measured",
+    "",
+    "384 records re-measured with the same analyser",
+    "  median change in a record that cannot have changed: 0.00000",
+    "    timbre     0.00000",
+    "    movement   0.00000",
+    "    harmony    0.00000",
+    "    texture    0.00000",
+    "",
+    "  first measured before Sep 2025: 0.00000",
+    "  first measured after:            0.00000",
+    "  an encoding change would make the older ones differ more."
    ]
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job encoding-check --before /tmp/before.json",
-   "rc": 2,
+   "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "VALIDATION FAIL: encoding-check produced 0 comparisons",
-    "validation note: encoding-check wrote 0 comparisons: not enough to conclude anything",
-    "validation note: encoding-check has no growth check: its success cannot be verified"
+    "validation note: encoding-check compared 384 records",
+    "validation note: encoding-check has no growth check: its success cannot be verified",
+    "validation: ok"
    ]
   }
  ]
