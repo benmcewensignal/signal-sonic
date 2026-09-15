@@ -139,6 +139,11 @@ def main():
         return 1
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
     json.dump(out, open(a.out, "w"))
+    # the distribution, not just the middle of it: a median of zero with a long tail looks
+    # identical in a summary line and means something entirely different
+    _t = np.array([x["total"] for x in out])
+    print(f"  exactly zero: {int(np.sum(_t == 0))} of {len(_t)}   above zero: {int(np.sum(_t > 0))}")
+    print(f"  max {_t.max():.6f}   99th percentile {np.percentile(_t, 99):.6f}")
     tot = np.array([x["total"] for x in out])
     print(f"\n{len(out)} records re-measured with the same analyser")
     print(f"  median change in a record that cannot have changed: {np.median(tot):.5f}")
