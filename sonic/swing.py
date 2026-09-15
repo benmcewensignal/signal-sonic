@@ -45,25 +45,28 @@ def swing(y, sr, bpm=None):
         if ok.sum() < 6:
             return {"swing_error": "beat grid unstable"}
 
-        # fold: every beat laid on top of every other, in sixty slices
-        B = 60
+        # Fold: every beat laid on top of every other. Sixty slices put the whole corpus on
+        # eighteen distinct values, a lattice with steps wider than the difference between a
+        # swung genre and a straight one, which is the same fault the tempo estimator had.
+        B = 240
+        # A beat holds about forty analysis frames, so counting frames into two hundred and
+        # forty bins leaves most of them empty. Resample each beat onto the grid instead:
+        # every beat contributes a full curve, and the fold is smooth however fine the grid.
         prof = np.zeros(B)
-        hits = np.zeros(B)
+        grid = (np.arange(B) + 0.5) / B
         used = 0
         for b0, g, good in zip(beats[:-1], gaps, ok):
             if not good:
                 continue
-            used += 1
             sel = (times >= b0) & (times < b0 + g)
-            if sel.sum() < B // 3:
+            if sel.sum() < 8:
                 continue
-            ph = ((times[sel] - b0) / g * B).astype(int).clip(0, B - 1)
-            for k, v in zip(ph, flux[sel]):
-                prof[k] += v
-                hits[k] += 1
-        if used < 6 or hits.sum() == 0:
+            ph = (times[sel] - b0) / g
+            prof += np.interp(grid, ph, flux[sel], left=0.0, right=0.0)
+            used += 1
+        if used < 6:
             return {"swing_error": "too few usable beats"}
-        prof = prof / np.maximum(hits, 1)
+        prof = prof / used
 
         # Rotate so the loudest slice sits at zero: beat_track finds the rate reliably and
         # the phase only sometimes. But the loudest slice is not always the kick, and on a
@@ -77,7 +80,17 @@ def swing(y, sr, bpm=None):
         if seg.size < 4:
             return {"swing_error": "window too small"}
         j = int(np.argmax(seg))
-        sw = (lo + j + 0.5) / B
+        # Interpolate between bins. A peak sits somewhere inside its slice, and taking the
+        # slice centre throws that away: fit a parabola through the peak and its neighbours
+        # and take its vertex, which recovers a position finer than the grid.
+        if 0 < j < len(seg) - 1:
+            yl, y0, yr = float(seg[j - 1]), float(seg[j]), float(seg[j + 1])
+            denom = yl - 2.0 * y0 + yr
+            off = 0.5 * (yl - yr) / denom if abs(denom) > 1e-12 else 0.0
+            off = max(-0.5, min(0.5, off))
+        else:
+            off = 0.0
+        sw = (lo + j + 0.5 + off) / B
         if sw < 0.5:
             sw = 1.0 - sw
         base = float(np.median(prof))
@@ -87,7 +100,11 @@ def swing(y, sr, bpm=None):
         if lift < 0.15:
             return {"swing": 0.5, "swing_grip": 0.0, "swing_lift": round(lift, 4),
                     "swing_n": int(used)}
-        return {"swing": round(float(sw), 4), "swing_grip": round(min(lift / 1.5, 1.0), 3),
+        # swing_grip saturated at one for every scene in the corpus, so it carried nothing.
+        # Report how much the offbeat peak stands above the rest of the beat directly, on a
+        # log scale so a record with ten times the lift is not ten times the number.
+        grip = float(min(np.log1p(max(lift, 0.0)) / np.log1p(6.0), 1.0))
+        return {"swing": round(float(sw), 4), "swing_grip": round(grip, 3),
                 "swing_lift": round(lift, 4), "swing_n": int(used)}
     except Exception as e:
         return {"swing_error": f"{type(e).__name__}: {str(e)[:50]}"}
