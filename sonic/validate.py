@@ -99,6 +99,18 @@ def check(db, job, before):
               "supply": ["supply"], "coverage": [], "listening": [], "links": []}
     # a job whose success cannot be verified will report success when it crashes on its first
     # line, which is exactly what encoding-check did. This one is checked on its output.
+    if job == "chart-test":
+        import os as _os, json as _json
+        try:
+            r = _json.load(open("out/chart-test.json")) if _os.path.exists("out/chart-test.json") else {}
+        except Exception:
+            r = {}
+        if r.get("status") == "waiting":
+            notes.append("chart test waiting for a second week of chart data")
+        elif "auc" in r:
+            notes.append(f"chart test on {r.get('tested_on')}: {r['auc']} against {r.get('shuffled')} shuffled, {r.get('verdict')}")
+        else:
+            fails.append("chart test produced no result")
     if job == "encoding-check":
         import os as _os, json as _json
         p = "out/encoding-check.json"

@@ -154,6 +154,9 @@ def main():
               if job.get("scenes"): cmd += ["--scenes", job["scenes"]]
               if job.get("per_month"): cmd += ["--per-month", str(job["per_month"])]
               rc = run(cmd, log); touched_db = True
+          elif mode == "chart-test":
+              rc = run([sys.executable, "-m", "sonic.chart_test", "--db", "sonic.db"], log)
+
           elif mode == "encoding-check":
               rc = run([sys.executable, "-m", "sonic.encoding_check", "--db", "sonic.db",
                         "--n", str(job.get("n", 300))], log)
