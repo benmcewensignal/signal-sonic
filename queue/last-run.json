@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-15T10:29:22Z",
+ "ran": "2026-09-15T10:39:41Z",
  "log": [
   {
    "cmd": "before encoding-check: free disk 90.9 GB",
@@ -8,7 +8,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.encoding_check --db sonic.db --n 400",
    "rc": 1,
-   "minutes": 0.2,
+   "minutes": 0.1,
    "tail": [
     "comparing records at 2.5 or later, where the embedding is computed the same way: 18438 available",
     "384 records across 24 months",
