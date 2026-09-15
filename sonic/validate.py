@@ -97,6 +97,20 @@ def check(db, job, before):
     claims = {"mixscan": ["plays", "usable_mixes"], "mixrescan": ["plays"], "reanalyse": ["v2"], "embed3": ["v3"],
               "metadata": ["named"], "backfill": ["tracks"], "nts": ["nts_lines"], "discogs": ["aliases"],
               "supply": ["supply"], "coverage": [], "listening": [], "links": []}
+    # a job whose success cannot be verified will report success when it crashes on its first
+    # line, which is exactly what encoding-check did. This one is checked on its output.
+    if job == "encoding-check":
+        import os as _os, json as _json
+        p = "out/encoding-check.json"
+        try:
+            n = len(_json.load(open(p))) if _os.path.exists(p) else 0
+        except Exception:
+            n = 0
+        if n < 25:
+            notes.append(f"encoding-check wrote {n} comparisons: not enough to conclude anything")
+            return 1, notes
+        notes.append(f"encoding-check compared {n} records")
+        return 0, notes
     if job and job not in claims:
         notes.append(f"{job} has no growth check: its success cannot be verified")
     if job in claims:

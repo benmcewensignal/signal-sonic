@@ -156,7 +156,7 @@ def main():
               rc = run(cmd, log); touched_db = True
           elif mode == "encoding-check":
               rc = run([sys.executable, "-m", "sonic.encoding_check", "--db", "sonic.db",
-                        "--n", str(job.get("n", 300))])
+                        "--n", str(job.get("n", 300))], log)
 
           elif mode == "metadata":
               rc = run([sys.executable, "-m", "sonic.metadata", "--db", "sonic.db", "--limit", str(job.get("limit", 3000))], log); touched_db = True
