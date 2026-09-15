@@ -1,28 +1,34 @@
 {
- "ran": "2026-09-15T10:19:01Z",
+ "ran": "2026-09-15T10:29:22Z",
  "log": [
   {
    "cmd": "before encoding-check: free disk 90.9 GB",
    "rc": 0
   },
   {
-   "cmd": "encoding-check (2026-09-01-00-encoding.json)",
-   "rc": 97,
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.encoding_check --db sonic.db --n 400",
+   "rc": 1,
+   "minutes": 0.2,
    "tail": [
-    "Traceback (most recent call last):",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/queue_runner.py\", line 158, in main",
-    "    rc = run([sys.executable, \"-m\", \"sonic.encoding_check\", \"--db\", \"sonic.db\",",
-    "         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "TypeError: run() missing 1 required positional argument: 'log'"
+    "comparing records at 2.5 or later, where the embedding is computed the same way: 18438 available",
+    "384 records across 24 months",
+    "nothing re-measured"
    ]
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job encoding-check --before /tmp/before.json",
-   "rc": 0,
+   "rc": 1,
    "minutes": 0.0,
    "tail": [
-    "validation note: encoding-check has no growth check: its success cannot be verified",
-    "validation: ok"
+    "Traceback (most recent call last):",
+    "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
+    "  File \"<frozen runpy>\", line 88, in _run_code",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/validate.py\", line 142, in <module>",
+    "    main()",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/validate.py\", line 135, in main",
+    "    for f in rep[\"failures\"]: print(f\"VALIDATION FAIL: {f}\", flush=True)",
+    "             ~~~^^^^^^^^^^^^",
+    "TypeError: tuple indices must be integers or slices, not str"
    ]
   }
  ]
