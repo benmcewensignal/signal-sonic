@@ -211,7 +211,12 @@ jobs:
           WEEK=$(date +%G-W%V)
           python -m sonic.run_week --week "$WEEK" \
             --scenes "$(python -c "import json;m=json.load(open('scene_map.json'));print(','.join(sorted({v['scene'] for k,v in m.items() if not k.startswith('_')})))")" \
-            --source beatport --analyser local --db sonic.db | tee run-report.json
+            --source beatport --analyser local --db sonic.db | tee run-report.json          # A finding nobody can check next week is a finding nobody checks. This trains on
+          # every chart week but the newest and asks about the newest, so the answer arrives
+          # with the data rather than waiting for someone to remember.
+          python -m sonic.chart_test --db sonic.db || echo "::warning::chart test did not run"
+          cat out/chart-test.json 2>/dev/null || true
+
 
       - name: demand export
         if: (github.event_name == 'schedule' && github.event.schedule == '0 3 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.mode == 'week')
