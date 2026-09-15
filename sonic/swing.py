@@ -93,18 +93,25 @@ def swing(y, sr, bpm=None):
         sw = (lo + j + 0.5 + off) / B
         if sw < 0.5:
             sw = 1.0 - sw
-        base = float(np.median(prof))
-        lift = float((seg[j] - base) / (base + 1e-9))
+        # How much the peak stands above the rest of the offbeat window, not above the whole
+        # beat: the beat includes near-silent stretches, so a median taken across it is tiny
+        # and every record looked like it had a towering hat, including records with none.
+        others = np.delete(seg, j)
+        base = float(np.median(others)) if others.size else float(np.median(prof))
+        spread = float(np.std(others)) if others.size > 2 else 0.0
+        lift = float((seg[j] - base) / (spread + 1e-9))
         # a straight record has no offbeat peak worth the name; calling its noise a shuffle
         # is the failure this measure exists to avoid
-        if lift < 0.15:
-            return {"swing": 0.5, "swing_grip": 0.0, "swing_lift": round(lift, 4),
-                    "swing_n": int(used)}
+        if lift < 1.2:
+            return {"swing": 0.5, "swing_lift": round(lift, 4), "swing_n": int(used)}
         # swing_grip saturated at one for every scene in the corpus, so it carried nothing.
         # Report how much the offbeat peak stands above the rest of the beat directly, on a
         # log scale so a record with ten times the lift is not ten times the number.
-        grip = float(min(np.log1p(max(lift, 0.0)) / np.log1p(6.0), 1.0))
-        return {"swing": round(float(sw), 4), "swing_grip": round(grip, 3),
-                "swing_lift": round(lift, 4), "swing_n": int(used)}
+        # No confidence number is reported. Two attempts at one read the same for a record
+        # with a hat and a record without, and a field that cannot tell those apart is worse
+        # than no field: it invites a reader to trust a reading we cannot vouch for. The raw
+        # lift is here for anyone checking the instrument, and is not shown on the site.
+        return {"swing": round(float(sw), 4), "swing_lift": round(lift, 4),
+                "swing_n": int(used)}
     except Exception as e:
         return {"swing_error": f"{type(e).__name__}: {str(e)[:50]}"}
