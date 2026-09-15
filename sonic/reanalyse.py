@@ -43,12 +43,36 @@ def preview_urls(track_ids, token, chunk=100):
     for i in range(0, len(ids), chunk):
         part = ids[i:i + chunk]
         try:
-            d = _get(f"/catalog/tracks/?ids={','.join(part)}&per_page={len(part)}", token)
+            # The endpoint ignores an unknown filter and answers with its default page, so
+            # asking for a hundred specific tracks returned the hundred newest on the site.
+            # Every id we asked for was absent and we never noticed, because a track with no
+            # entry is indistinguishable from a track with no preview. Ask with the parameter
+            # the API documents, then check the answer contains what we asked for.
+            d = _get(f"/catalog/tracks/?id={','.join(part)}&per_page={len(part)}", token)
+            got = 0
+            want = set(part)
             for item in (d.get("results") or []):
+                if str(item.get("id")) not in want:
+                    continue
+                got += 1
                 u = (item.get("sample_url")
                      or (item.get("preview") or {}).get("mp3", {}).get("url") or "") or None
                 if u:
                     out[f"bp:{item.get('id')}"] = u
+            if got == 0:
+                # the batch answered with something else entirely: fall back one at a time,
+                # which is slow and correct, rather than fast and wrong
+                print(f"    batch {i//chunk + 1} returned none of the {len(part)} asked for; "
+                      f"falling back to single lookups", flush=True)
+                for tid in part:
+                    try:
+                        one = _get(f"/catalog/tracks/{tid}/", token)
+                        u = (one.get("sample_url")
+                             or (one.get("preview") or {}).get("mp3", {}).get("url") or "") or None
+                        if u:
+                            out[f"bp:{tid}"] = u
+                    except Exception:
+                        pass
         except Exception as e:
             # a swallowed chunk failure looks exactly like a chunk of tracks with no preview,
             # and with four chunks and one working it took three runs to notice
