@@ -42,6 +42,7 @@ class FeatureVector:
     rhythm_vector: list = None      # 2.2: the beat layer, normalised on its own
     edm: dict = None               # 2.4: sidechain, sub-bass, cyclic tempo
     tempo2: dict = None            # 2.6: tempo on a fine grid, octave resolved
+    groove: dict = None            # 2.7: where the hits land against the grid
 
     def to_json(self) -> str:
         return json.dumps(asdict(self))
