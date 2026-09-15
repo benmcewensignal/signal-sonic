@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-15T11:01:02Z",
+ "ran": "2026-09-15T11:10:25Z",
  "log": [
   {
    "cmd": "before encoding-check: free disk 90.9 GB",
@@ -13,6 +13,9 @@
     "comparing records at 2.5 or later, where the embedding is computed the same way: 18438 available",
     "384 records across 24 months",
     "previews resolved for 100 of 384",
+    "    sample ids look like ['bp:19787272', 'bp:19501658', 'bp:19489944']",
+    "    resolved ids look like ['bp:30652421', 'bp:30652420', 'bp:30652419']",
+    "    overlap: 0",
     "nothing re-measured. why:",
     "      384  no preview url"
    ]
