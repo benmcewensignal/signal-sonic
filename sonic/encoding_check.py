@@ -87,6 +87,14 @@ def main():
 
     urls = preview_urls([r["track_id"] for r in sample], token)
     print(f"previews resolved for {len(urls)} of {len(sample)}", flush=True)
+    # A hundred resolved and none matched, which can only mean the two sides are keyed
+    # differently. Print both rather than reason about it.
+    if urls:
+        want_k = [str(r["track_id"]) for r in sample[:3]]
+        got_k = list(urls)[:3]
+        print(f"    sample ids look like {want_k}", flush=True)
+        print(f"    resolved ids look like {got_k}", flush=True)
+        print(f"    overlap: {len(set(str(r['track_id']) for r in sample) & set(urls))}", flush=True)
     # Every failure below used to be a bare continue, so a run that resolved nothing and a run
     # that analysed nothing looked identical: "nothing re-measured", with no way to tell which.
     why = collections.Counter()

@@ -49,8 +49,11 @@ def preview_urls(track_ids, token, chunk=100):
                      or (item.get("preview") or {}).get("mp3", {}).get("url") or "") or None
                 if u:
                     out[f"bp:{item.get('id')}"] = u
-        except Exception:
-            pass
+        except Exception as e:
+            # a swallowed chunk failure looks exactly like a chunk of tracks with no preview,
+            # and with four chunks and one working it took three runs to notice
+            print(f"    preview batch {i//chunk + 1} failed: {type(e).__name__}: {str(e)[:70]}",
+                  flush=True)
     return out
 
 
