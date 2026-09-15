@@ -22,6 +22,7 @@ def main():
     store = Store(a.db)
     analyser = get_analyser("local")
     added = seen = 0
+    missed = []
     touched = set()
     for f in files:
         for line in open(f):
@@ -30,11 +31,18 @@ def main():
             seen += 1
             tid = d["track_id"]
             if d.get("restale"):
-                # a re-measure replaces what is there; it adds no new record and assigns no scene
-                store.conn.execute("UPDATE tracks SET features=?, analyser_ver=? WHERE track_id=? AND analyser_id=?",
-                                   (json.dumps(d["features"]), d.get("analyser_ver") or analyser.version,
-                                    tid, analyser.analyser_id))
-                added += 1
+                # a re-measure replaces what is there; it adds no new record and assigns no scene.
+                # Count what the update actually changed, not what we attempted: this counter
+                # said every line landed while the corpus advanced by a fiftieth of that, and
+                # the gap was invisible for a weekend because nothing compared the two.
+                cur = store.conn.execute(
+                    "UPDATE tracks SET features=?, analyser_ver=? WHERE track_id=? AND analyser_id=?",
+                    (json.dumps(d["features"]), d.get("analyser_ver") or analyser.version,
+                     tid, analyser.analyser_id))
+                if cur.rowcount and cur.rowcount > 0:
+                    added += 1
+                else:
+                    missed.append(tid)
                 continue
             row = store.conn.execute(
                 "SELECT 1 FROM tracks WHERE track_id=? AND analyser_id=?",
@@ -66,6 +74,11 @@ def main():
     if a.report:
         json.dump(result, open(a.report, "w"), indent=1)
     print(json.dumps(result, indent=1), flush=True)
+
+
+def _report_missed(missed):
+    if missed:
+        print(f"  {len(missed)} re-measured records matched no row and were dropped", flush=True)
 
 
 if __name__ == "__main__":
