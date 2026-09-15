@@ -1,29 +1,27 @@
 {
- "ran": "2026-09-12T22:34:45Z",
+ "ran": "2026-09-15T10:07:29Z",
  "log": [
   {
-   "cmd": "before reanalyse: free disk 89.6 GB",
+   "cmd": "before encoding-check: free disk 89.9 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 3000 --budget-minutes 54",
-   "rc": 0,
-   "minutes": 0.3,
+   "cmd": "encoding-check (2026-09-01-00-encoding.json)",
+   "rc": 97,
    "tail": [
-    "reanalyse: 99 tracks on an older version (target 2+ea4270ed)",
-    "  bp:24462239: no preview url",
-    "  bp:19528710: no preview url",
-    "  bp:19688209: no preview url",
-    "reanalyse: 0 done, 99 failed, 99 still on the old version",
-    "nothing converted: the records left have no preview, so this job is finished"
+    "Traceback (most recent call last):",
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/queue_runner.py\", line 158, in main",
+    "    rc = run([sys.executable, \"-m\", \"sonic.encoding_check\", \"--db\", \"sonic.db\",",
+    "         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+    "TypeError: run() missing 1 required positional argument: 'log'"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job reanalyse --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job encoding-check --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
+    "validation note: encoding-check has no growth check: its success cannot be verified",
     "validation: ok"
    ]
   }
