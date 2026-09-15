@@ -53,7 +53,7 @@ def _decoder_fingerprint() -> str:
 
 class LocalAnalyser(Analyser):
     analyser_id = "local"
-    version = "2.7"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
+    version = "2.8"        # 2: full 45-dim embedding. 2.1: tempo resolves the octave
                            # error. 2.2: rhythm vector. 2.3: each feature family scaled
                            # against itself, which brings the twelve chroma dimensions back
 
@@ -168,7 +168,16 @@ class LocalAnalyser(Analyser):
         """
         try:
             from .groove import groove
-            return groove(y, sr)
+            from .swing import swing as _swing
+            g = groove(y, sr)
+            # the groove module reads swing from every onset in the beat, which on a real
+            # record is the centre of its own window. The swing module reads the hi-hat band
+            # folded across all beats, and that one can tell garage from techno.
+            s2 = _swing(y, sr)
+            if isinstance(g, dict) and isinstance(s2, dict):
+                g.pop("swing", None); g.pop("swing_grip", None)
+                g.update(s2)
+            return g
         except Exception as e:
             return {"groove_error": f"{type(e).__name__}: {str(e)[:50]}"}
 
