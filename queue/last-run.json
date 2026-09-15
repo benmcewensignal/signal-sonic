@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-15T10:50:19Z",
+ "ran": "2026-09-15T11:01:02Z",
  "log": [
   {
    "cmd": "before encoding-check: free disk 90.9 GB",
@@ -12,23 +12,19 @@
    "tail": [
     "comparing records at 2.5 or later, where the embedding is computed the same way: 18438 available",
     "384 records across 24 months",
-    "nothing re-measured"
+    "previews resolved for 100 of 384",
+    "nothing re-measured. why:",
+    "      384  no preview url"
    ]
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job encoding-check --before /tmp/before.json",
-   "rc": 1,
+   "rc": 2,
    "minutes": 0.0,
    "tail": [
-    "Traceback (most recent call last):",
-    "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
-    "  File \"<frozen runpy>\", line 88, in _run_code",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/validate.py\", line 142, in <module>",
-    "    main()",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/validate.py\", line 135, in main",
-    "    for f in rep[\"failures\"]: print(f\"VALIDATION FAIL: {f}\", flush=True)",
-    "             ~~~^^^^^^^^^^^^",
-    "TypeError: tuple indices must be integers or slices, not str"
+    "VALIDATION FAIL: encoding-check produced 0 comparisons",
+    "validation note: encoding-check wrote 0 comparisons: not enough to conclude anything",
+    "validation note: encoding-check has no growth check: its success cannot be verified"
    ]
   }
  ]
