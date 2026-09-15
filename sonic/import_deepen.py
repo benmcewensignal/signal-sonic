@@ -67,18 +67,17 @@ def main():
                               json.dumps(build_fingerprint(parsed)))
         rebuilt += 1
     store.conn.commit()
-    result = {"records_seen": seen, "records_added": added, "scene_months_rebuilt": rebuilt}
+    result = {"records_seen": seen, "records_added": added, "scene_months_rebuilt": rebuilt,
+              "remeasures_dropped": len(missed)}
+    if missed:
+        print(f"  {len(missed)} re-measured records matched no row and were dropped; "
+              f"first few: {missed[:3]}", flush=True)
     # the report goes to its own file: piping it through tee mixed it with the progress
     # lines above, and the step that read it back could not parse its own input. Six shards
     # of correct work were discarded because of that.
     if a.report:
         json.dump(result, open(a.report, "w"), indent=1)
     print(json.dumps(result, indent=1), flush=True)
-
-
-def _report_missed(missed):
-    if missed:
-        print(f"  {len(missed)} re-measured records matched no row and were dropped", flush=True)
 
 
 if __name__ == "__main__":
