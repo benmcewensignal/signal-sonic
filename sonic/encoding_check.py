@@ -14,7 +14,7 @@ puts a floor under every drift we claim.
 
 Reports the median shift per feature block, and how it compares to the drift we report.
 """
-import argparse, json, sqlite3, sys, tempfile, os, time
+import argparse, collections, json, sqlite3, sys, tempfile, os, time
 import numpy as np
 
 BLOCKS = {"timbre": range(0, 13), "movement": range(13, 26),
@@ -86,28 +86,36 @@ def main():
     print(f"{len(sample)} records across {len(months)} months", flush=True)
 
     urls = preview_urls([r["track_id"] for r in sample], token)
+    print(f"previews resolved for {len(urls)} of {len(sample)}", flush=True)
+    # Every failure below used to be a bare continue, so a run that resolved nothing and a run
+    # that analysed nothing looked identical: "nothing re-measured", with no way to tell which.
+    why = collections.Counter()
     out, t0 = [], time.time()
     for r in sample:
         if time.time() - t0 > 50 * 60:
             print("budget reached", flush=True); break
         u = urls.get(r["track_id"])
         if not u:
+            why["no preview url"] += 1
             continue
         local = None
         try:
             local = _fetch_preview(u)
             if not local:
+                why["preview would not download"] += 1
                 continue
             fresh = json.loads(an.analyse(local).to_json())
             old = json.loads(r["features"])
             a_emb, b_emb = old.get("embedding"), fresh.get("embedding")
             if not a_emb or not b_emb or len(a_emb) != len(b_emb):
+                why["no comparable embedding"] += 1
                 continue
             d = np.abs(np.array(b_emb) - np.array(a_emb))
             out.append({"week": r["week"], "ver": r["analyser_ver"],
                         "blocks": {k: float(np.mean(d[list(ix)])) for k, ix in BLOCKS.items()},
                         "total": float(np.mean(d))})
-        except Exception:
+        except Exception as e:
+            why[f"{type(e).__name__}: {str(e)[:60]}"] += 1
             continue
         finally:
             if local and os.path.exists(local):
@@ -117,7 +125,10 @@ def main():
             print(f"  {len(out)} re-measured", flush=True)
 
     if not out:
-        print("nothing re-measured"); return 1
+        print("nothing re-measured. why:", flush=True)
+        for k, v in why.most_common(8):
+            print(f"    {v:>5}  {k}", flush=True)
+        return 1
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
     json.dump(out, open(a.out, "w"))
     tot = np.array([x["total"] for x in out])

@@ -108,9 +108,9 @@ def check(db, job, before):
             n = 0
         if n < 25:
             notes.append(f"encoding-check wrote {n} comparisons: not enough to conclude anything")
-            return 1, notes
-        notes.append(f"encoding-check compared {n} records")
-        return 0, notes
+            failures.append(f"encoding-check produced {n} comparisons")
+        else:
+            notes.append(f"encoding-check compared {n} records")
     if job and job not in claims:
         notes.append(f"{job} has no growth check: its success cannot be verified")
     if job in claims:
