@@ -40,22 +40,36 @@ def main():
 
     # spread the sample across the window: an encoding change has a date, and a sample
     # bunched in one month cannot see it
-    # only records already measured by the analyser we are about to run. Comparing a record
-    # stored at version two against a fresh reading at two point seven would mostly measure
-    # the analyser upgrade, which is exactly the confound this test exists to avoid.
-    want = str(an.version).split("+")[0]
+    # Comparing a record stored at version two against a fresh reading today would mostly
+    # measure our own analyser upgrade, which is the confound this test exists to avoid. But
+    # insisting on an exact version match blocked the check entirely: the pool resets to zero
+    # on every bump, and there were five in a day. Every version from 2.5 added fields beside
+    # the embedding and none of them changed how it is computed, so any record from 2.5 on is
+    # a fair comparison. The floor is a constant here so that a future change to the embedding
+    # can raise it deliberately rather than by accident.
+    EMBEDDING_STABLE_SINCE = "2.5"
+
+    def _comparable(v):
+        v = str(v or "").split("+")[0]
+        try:
+            return [int(x) for x in v.split(".")] >= [int(x) for x in EMBEDDING_STABLE_SINCE.split(".")]
+        except Exception:
+            return False
+
+    want = EMBEDDING_STABLE_SINCE
     rows = [r for r in c.execute("""
         select ts.week, t.track_id, t.features, t.analyser_ver
           from track_scenes ts join tracks t on t.track_id = ts.track_id
          where t.analyser_id='local' and t.features is not null
            and ts.week like '____-M__'
          group by t.track_id""")
-            if str(r["analyser_ver"] or "").split("+")[0] == want]
+            if _comparable(r["analyser_ver"])]
     if not rows:
-        print(f"no records stored at {want}: the re-measure has to reach a scene before its "
-              f"records can be checked for encoding drift")
+        print(f"no records stored at {want} or later: the re-measure has to reach a scene "
+              f"before its records can be checked for encoding drift")
         return 1
-    print(f"comparing only records already at {want}: {len(rows)} available", flush=True)
+    print(f"comparing records at {want} or later, where the embedding is computed the same "
+          f"way: {len(rows)} available", flush=True)
     by_month = {}
     for r in rows:
         by_month.setdefault(r["week"], []).append(r)

@@ -1,0 +1,1 @@
+{"mode": "encoding-check", "n": 400, "note": "the one test that could invalidate every drift finding we publish. Re-fetch records measured months ago, measure them again with the same analyser, compare. A record cannot have changed."}
