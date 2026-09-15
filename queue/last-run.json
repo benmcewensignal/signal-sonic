@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-15T12:01:52Z",
+ "ran": "2026-09-15T13:24:48Z",
  "log": [
   {
    "cmd": "before encoding-check: free disk 90.9 GB",
@@ -8,7 +8,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.encoding_check --db sonic.db --n 400",
    "rc": 0,
-   "minutes": 40.6,
+   "minutes": 32.7,
    "tail": [
     "  50 re-measured",
     "  75 re-measured",
