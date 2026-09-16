@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-16T23:12:09Z",
+ "ran": "2026-09-16T23:18:03Z",
  "log": [
   {
    "cmd": "before encoding-check: free disk 90.9 GB",
@@ -7,44 +7,20 @@
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.encoding_check --db sonic.db --n 400",
-   "rc": 0,
-   "minutes": 34.4,
+   "rc": 1,
+   "minutes": 0.0,
    "tail": [
-    "  100 re-measured",
-    "  125 re-measured",
-    "  150 re-measured",
-    "  175 re-measured",
-    "  200 re-measured",
-    "  225 re-measured",
-    "  250 re-measured",
-    "  275 re-measured",
-    "  300 re-measured",
-    "  325 re-measured",
-    "  350 re-measured",
-    "  375 re-measured",
-    "  exactly zero: 217 of 384   above zero: 167",
-    "  max 0.000676   99th percentile 0.000000",
-    "",
-    "384 records re-measured with the same analyser",
-    "  median change in a record that cannot have changed: 0.00000",
-    "    timbre     0.00000",
-    "    movement   0.00000",
-    "    harmony    0.00000",
-    "    texture    0.00000",
-    "",
-    "  first measured before Sep 2025: 0.00000",
-    "  first measured after:            0.00000",
-    "  an encoding change would make the older ones differ more."
+    "no records stored at 2.5 or later: the re-measure has to reach a scene before its records can be checked for encoding drift"
    ]
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job encoding-check --before /tmp/before.json",
-   "rc": 0,
+   "rc": 2,
    "minutes": 0.0,
    "tail": [
-    "validation note: encoding-check compared 384 records",
-    "validation note: encoding-check has no growth check: its success cannot be verified",
-    "validation: ok"
+    "VALIDATION FAIL: encoding-check produced 0 comparisons",
+    "validation note: encoding-check wrote 0 comparisons: not enough to conclude anything",
+    "validation note: encoding-check has no growth check: its success cannot be verified"
    ]
   }
  ]
