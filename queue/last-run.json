@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-16T04:00:31Z",
+ "ran": "2026-09-16T11:22:23Z",
  "log": [
   {
    "cmd": "before encoding-check: free disk 90.9 GB",
@@ -8,7 +8,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.encoding_check --db sonic.db --n 400",
    "rc": 0,
-   "minutes": 40.3,
+   "minutes": 34.3,
    "tail": [
     "  100 re-measured",
     "  125 re-measured",
@@ -22,7 +22,7 @@
     "  325 re-measured",
     "  350 re-measured",
     "  375 re-measured",
-    "  exactly zero: 142 of 384   above zero: 242",
+    "  exactly zero: 149 of 384   above zero: 235",
     "  max 0.000676   99th percentile 0.000000",
     "",
     "384 records re-measured with the same analyser",
