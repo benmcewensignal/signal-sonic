@@ -1,6 +1,6 @@
 {
- "ran": "2026-09-11T10:49:12Z",
- "job": "reanalyse",
+ "ran": "2026-09-16T23:18:03Z",
+ "job": "encoding-check",
  "before": {
   "tracks": 22227,
   "v2": 22128,
@@ -25,9 +25,12 @@
   "supply": 480,
   "aliases": null
  },
- "failures": [],
- "notes": [
-  "reanalyse ran but none of ['v2'] grew: check its log for why"
+ "failures": [
+  "encoding-check produced 0 comparisons"
  ],
- "ok": true
+ "notes": [
+  "encoding-check wrote 0 comparisons: not enough to conclude anything",
+  "encoding-check has no growth check: its success cannot be verified"
+ ],
+ "ok": false
 }
