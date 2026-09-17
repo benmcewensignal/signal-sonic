@@ -1,21 +1,26 @@
 name: restore-corpus
 on:
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   restore:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: {ref: restore-corpus}
+        with:
+          ref: restore-corpus
       - name: reassemble and verify
         run: |
           cat restore/sonic.db.part-* > sonic.db
-          echo "$(cat restore/sonic.db.sha256 | cut -d" " -f1)  sonic.db" | sha256sum -c -
-          python -c "import sqlite3;c=sqlite3.connect(\"sonic.db\");print(\"tracks\",c.execute(\"select count(*) from tracks\").fetchone()[0]);print(\"at 2.9\",c.execute(\"select count(*) from tracks where analyser_id=\\"local\\" and analyser_ver like \\"2.9%\\"\").fetchone()[0])"
+          SUM=$(cut -d" " -f1 restore/sonic.db.sha256)
+          echo "${SUM}  sonic.db" | sha256sum -c -
+          python -c "import sqlite3;c=sqlite3.connect('sonic.db');print('tracks',c.execute('select count(*) from tracks').fetchone()[0]);print('at 2.9',c.execute(\"select count(*) from tracks where analyser_id='local' and analyser_ver like '2.9%'\").fetchone()[0])"
       - name: publish to the release
-        env: {GH_TOKEN: ${{ github.token }}}
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          gh release upload deepened sonic.db --clobber --repo ${{ github.repository }}
+          gh release upload deepened sonic.db --clobber --repo "${{ github.repository }}"
           echo "restored"
