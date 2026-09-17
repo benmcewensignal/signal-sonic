@@ -168,6 +168,23 @@ jobs:
           if m["records_added"] == 0:
               raise SystemExit("merge added nothing: the shards measured nothing worth keeping")
           PY
+      - name: refuse to shrink the corpus
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # On 2026-09-17 a pass published 22,227 records over a release that held 50,482.
+          # The release download had failed silently and the merge fell back to the
+          # repository copy. Whatever the reason, a merge must never make the corpus
+          # smaller: compare against what is published and stop if this would.
+          NOW=$(python -c "import sqlite3;print(sqlite3.connect('sonic.db').execute('select count(*) from tracks').fetchone()[0])")
+          rm -rf /tmp/pub && mkdir -p /tmp/pub
+          gh release download deepened --pattern sonic.db --dir /tmp/pub --clobber || true
+          PUB=$(python -c "import sqlite3,os;print(sqlite3.connect('/tmp/pub/sonic.db').execute('select count(*) from tracks').fetchone()[0] if os.path.exists('/tmp/pub/sonic.db') else 0)")
+          echo "this database: ${NOW} tracks; published: ${PUB}"
+          if [ "${PUB}" -gt 0 ] && [ "${NOW}" -lt "${PUB}" ]; then
+            echo "::error::refusing to publish ${NOW} tracks over a release holding ${PUB}"
+            exit 1
+          fi
       - name: publish the merged database as a release asset
         env:
           GH_TOKEN: ${{ github.token }}
