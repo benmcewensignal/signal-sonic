@@ -30,6 +30,50 @@ def _preview_url(track_id, token):
         return None
 
 
+def _cache_table(conn):
+    conn.execute("""create table if not exists preview_cache(
+        track_id text primary key, url text, resolved_at text)""")
+    conn.commit()
+
+
+def cached_preview_urls(conn, track_ids, token, max_age_days=45):
+    """Resolve previews once and remember them.
+
+    The corpus has been re-measured five times and every pass resolved every URL again from
+    scratch. With the batch endpoint answering the wrong question, that is one network round
+    trip per record per pass, eighteen shards deep, which is why a hundred-minute pass moved
+    fifty-five records. A URL that worked last week almost always works this week, so keep it.
+    """
+    import datetime as _dt
+    _cache_table(conn)
+    want = [str(t) for t in track_ids]
+    out, stale = {}, []
+    cutoff = (_dt.datetime.now(_dt.timezone.utc) - _dt.timedelta(days=max_age_days)).isoformat()
+    have = {}
+    for i in range(0, len(want), 400):
+        part = want[i:i + 400]
+        q = ",".join("?" * len(part))
+        for tid, url, at in conn.execute(
+                f"select track_id, url, resolved_at from preview_cache where track_id in ({q})", part):
+            have[tid] = (url, at)
+    for t in want:
+        row = have.get(t)
+        if row and row[0] and (row[1] or "") > cutoff:
+            out[t] = row[0]
+        else:
+            stale.append(t)
+    if stale:
+        fresh = preview_urls(stale, token)
+        now = _dt.datetime.now(_dt.timezone.utc).isoformat()
+        conn.executemany("insert or replace into preview_cache(track_id,url,resolved_at) values(?,?,?)",
+                         [(t, fresh.get(t), now) for t in stale])
+        conn.commit()
+        out.update({k: v for k, v in fresh.items() if v})
+    print(f"    previews: {len(out) - len([t for t in stale if out.get(t)])} from cache, "
+          f"{len(stale)} looked up", flush=True)
+    return out
+
+
 def preview_urls(track_ids, token, chunk=100):
     """Resolve many previews in one request instead of one request each.
 

@@ -89,7 +89,7 @@ def main():
             # current one is being analysed. Analysis is nine seconds a record; the fetching
             # around it was costing ten times that, which is why eighteen shards delivered
             # what six used to.
-            from .reanalyse import preview_urls, _preview_url
+            from .reanalyse import preview_urls, _preview_url, cached_preview_urls
             url_of = {}
             BATCH = 100
             pending = {}                       # track_id -> future holding a local file
@@ -97,7 +97,10 @@ def main():
             def ensure_urls(upto):
                 missing = [r["track_id"] for r in stale[:upto] if r["track_id"] not in url_of]
                 if missing:
-                    url_of.update(preview_urls(missing, token))
+                    # resolved once and kept: the same record is re-measured on every version
+                    # bump, and re-resolving its URL each time is what made a pass move fifty
+                    # records in a hundred minutes
+                    url_of.update(cached_preview_urls(conn, missing, token))
                     for t in missing:
                         url_of.setdefault(t, None)
 
