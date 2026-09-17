@@ -144,12 +144,44 @@ jobs:
           mine, prev = score("sonic.db"), score("/tmp/prev/sonic.db")
           what = f"records at {TARGET} or newer" if TARGET else "records"
           print(f"repository has {mine} {what}, the deepened release has {prev}")
-          if prev > mine:
-              shutil.copy("/tmp/prev/sonic.db", "sonic.db")
-              print("starting from the deepened release")
-          else:
-              print("starting from the repository copy")
+          # Start from the richer one, then bring across every track the other holds that it
+          # does not. Picking one and copying it over the other is what lost 28,255 records
+          # on 2026-09-17: the two copies each carry rows the other lacks, because the queue
+          # writes new records only to the repository and the release holds the full history.
+          base, other = ("/tmp/prev/sonic.db", "sonic.db") if prev > mine else ("sonic.db", "/tmp/prev/sonic.db")
+          if base != "sonic.db":
+              shutil.copy(base, "/tmp/base.db"); base = "/tmp/base.db"
+          c = sqlite3.connect(base)
+          c.execute("attach database ? as o", (other,))
+          have = {r[0] for r in c.execute("select track_id from tracks")}
+          added = 0
+          cols = [r[1] for r in c.execute("pragma table_info(tracks)")]
+          ocols = {r[1] for r in c.execute("pragma o.table_info(tracks)")}
+          common = [k for k in cols if k in ocols]
+          cl = ",".join(common)
+          tid = common.index("track_id")
+          for row in c.execute(f"select {cl} from o.tracks"):
+              if row[tid] in have:
+                  continue
+              c.execute(f"insert into tracks ({cl}) values ({','.join('?'*len(common))})", row)
+              added += 1
+          for t in ("track_scenes", "track_meta"):
+              try:
+                  tc = [r[1] for r in c.execute(f"pragma table_info({t})")]
+                  oc = {r[1] for r in c.execute(f"pragma o.table_info({t})")}
+                  cm = [k for k in tc if k in oc]
+                  c.execute(f"insert or ignore into {t} ({','.join(cm)}) select {','.join(cm)} from o.{t}")
+              except Exception as e:
+                  print(f"{t}: {e}")
+          c.commit(); c.execute("detach database o"); c.close()
+          if base != "sonic.db":
+              shutil.copy(base, "sonic.db")
+          print(f"starting from {'the deepened release' if prev > mine else 'the repository copy'}, "
+                f"with {added} tracks brought across from the other")
           PY
+          else
+            echo "::error::could not download the deepened release; refusing to proceed from the repository copy alone"
+            exit 1
           fi
           exit 0
 
