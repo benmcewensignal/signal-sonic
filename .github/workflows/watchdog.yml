@@ -26,6 +26,29 @@ jobs:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: python -m sonic.watchdog --repo ${{ github.repository }}
 
+      - name: wake the other pipelines if their cron has gone quiet
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          # GitHub cron is unreliable: features missed twelve consecutive hourly slots on
+          # 2026-09-17 with the workflow active. This watchdog re-arms itself and fires
+          # every twenty minutes regardless, so it kicks the others when they go quiet.
+          # Both stand down on their own when a pass produces nothing, so a kick with no
+          # work behind it costs one short run.
+          set +e
+          NOW=$(date -u +%s)
+          for R in signal-sonic-audio:audio.yml:rhythm signal-sonic-features:features.yml:stems-shard; do
+            REPO=benmcewensignal/${R%%:*}; REST=${R#*:}; WF=${REST%%:*}; TASK=${REST#*:}
+            LAST=$(gh api "repos/${REPO}/actions/runs?per_page=1" --jq '.workflow_runs[0].updated_at' 2>/dev/null)
+            LIVE=$(gh api "repos/${REPO}/actions/runs?per_page=5" --jq '[.workflow_runs[] | select(.status != "completed")] | length' 2>/dev/null)
+            if [ -z "$LAST" ]; then echo "${REPO}: could not read runs"; continue; fi
+            AGE=$(( (NOW - $(date -u -d "$LAST" +%s)) / 60 ))
+            echo "${REPO}: last run ${AGE}m ago, ${LIVE:-?} live"
+            if [ "${LIVE:-0}" = "0" ] && [ "$AGE" -gt 90 ]; then
+              timeout 60 gh workflow run "$WF" --repo "$REPO" --ref main -f task="$TASK" && echo "  kicked" || echo "  could not kick (needs PIPELINE_PAT for another repo)"
+            fi
+          done
+          exit 0
       - name: heartbeat
         if: always()
         timeout-minutes: 12          # the step sleeps ten; anything longer is a hang, not work
