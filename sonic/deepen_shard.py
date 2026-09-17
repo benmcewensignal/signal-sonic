@@ -229,6 +229,19 @@ def main():
                 pool.shutdown(wait=False)
                 out.flush()
                 print(f"  {month} {cfg['scene']}: {n} analysed (had {depth})", flush=True)
+    # The shard's database dies with the runner, so the preview cache travels back beside the
+    # results and the merge folds it into the corpus. Without this, every pass resolves every
+    # URL again, which is what made a hundred-minute pass move fifty-five records.
+    try:
+        rows = list(conn.execute("select track_id, url, resolved_at from preview_cache"))
+        if rows:
+            cp = os.path.join(os.path.dirname(path) or ".", f"preview-cache-{a.shard}.jsonl")
+            with open(cp, "w") as fh:
+                for tid, url, at in rows:
+                    fh.write(json.dumps({"track_id": tid, "url": url, "resolved_at": at}) + "\n")
+            print(f"  wrote {len(rows)} cached preview urls to {cp}", flush=True)
+    except Exception as e:
+        print(f"  could not write the preview cache: {e}", flush=True)
     print(json.dumps({"shard": a.shard, "written": wrote, "skipped": skipped,
                       "minutes": round((time.time() - t0) / 60, 1), "file": path}), flush=True)
 

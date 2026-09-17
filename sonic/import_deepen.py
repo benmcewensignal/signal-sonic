@@ -82,3 +82,27 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+    # fold the shards' preview caches back in, so the urls resolved this pass are kept
+    try:
+        import glob as _glob
+        conn.execute("""create table if not exists preview_cache(
+            track_id text primary key, url text, resolved_at text)""")
+        n = 0
+        for f in _glob.glob(a.glob.replace("deepen-shard-*", "preview-cache-*")):
+            for line in open(f):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    d = json.loads(line)
+                except Exception:
+                    continue
+                conn.execute("insert or replace into preview_cache(track_id,url,resolved_at) values(?,?,?)",
+                             (d.get("track_id"), d.get("url"), d.get("resolved_at")))
+                n += 1
+        conn.commit()
+        if n:
+            print(f"folded {n} cached preview urls", flush=True)
+    except Exception as e:
+        print(f"could not fold the preview cache: {e}", flush=True)
+
