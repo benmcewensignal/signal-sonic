@@ -1,245 +1,48 @@
 {
- "ran": "2026-09-16T23:41:04Z",
+ "ran": "2026-09-17T00:21:29Z",
  "log": [
   {
-   "cmd": "before encoding-check: free disk 90.9 GB",
+   "cmd": "before metadata: free disk 90.9 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.encoding_check --db sonic.db --n 400",
-   "rc": 1,
-   "minutes": 0.0,
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.metadata --db sonic.db --limit 6000",
+   "rc": 0,
+   "minutes": 39.2,
    "tail": [
-    "no records stored at 2.5 or later: the re-measure has to reach a scene before its records can be checked for encoding drift"
+    "  1900/4227 ok=1898 err=2 1041s",
+    "  2000/4227 ok=1997 err=3 1092s",
+    "  2100/4227 ok=2097 err=3 1145s",
+    "  2200/4227 ok=2197 err=3 1199s",
+    "  2300/4227 ok=2295 err=5 1254s",
+    "  2400/4227 ok=2395 err=5 1318s",
+    "  2500/4227 ok=2494 err=6 1387s",
+    "  2600/4227 ok=2591 err=9 1451s",
+    "  2700/4227 ok=2691 err=9 1514s",
+    "  2800/4227 ok=2791 err=9 1569s",
+    "  2900/4227 ok=2891 err=9 1623s",
+    "  3000/4227 ok=2991 err=9 1675s",
+    "  3100/4227 ok=3091 err=9 1726s",
+    "  3200/4227 ok=3191 err=9 1781s",
+    "  3300/4227 ok=3291 err=9 1840s",
+    "  3400/4227 ok=3388 err=12 1896s",
+    "  3500/4227 ok=3488 err=12 1949s",
+    "  3600/4227 ok=3588 err=12 2006s",
+    "  3700/4227 ok=3686 err=14 2066s",
+    "  3800/4227 ok=3783 err=17 2122s",
+    "  3900/4227 ok=3881 err=19 2179s",
+    "  4000/4227 ok=3980 err=20 2233s",
+    "  4100/4227 ok=4079 err=21 2285s",
+    "  4200/4227 ok=4178 err=22 2335s",
+    "metadata: done ok=4205 err=22; 0 still lacking (dispatch again)"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job encoding-check --before /tmp/before.json",
-   "rc": 2,
-   "minutes": 0.0,
-   "tail": [
-    "VALIDATION FAIL: encoding-check produced 0 comparisons",
-    "validation note: encoding-check wrote 0 comparisons: not enough to conclude anything",
-    "validation note: encoding-check has no growth check: its success cannot be verified"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job metadata --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: no new files"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
-   "rc": 0,
-   "minutes": 0.2,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"median share of Beatport\": 0.02068,",
-    " \"deezer usable\": 5",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"months\": 24",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.links --db sonic.db --out data/links.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"records\": 751,",
-    " \"with a set appearance\": 751",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"months\": 24",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
-   "rc": 0,
-   "minutes": 0.1,
-   "tail": [
-    "{",
-    " \"version\": \"v2\",",
-    " \"scenes\": 20,",
-    " \"with a detected turn\": 0,",
-    " \"turns\": {}",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"versions\": {",
-    "  \"2\": 20883,",
-    "  \"1\": 95",
-    " },",
-    " \"use_version\": \"2\",",
-    " \"archived_v1\": 18783,",
-    " \"linked\": 16,",
-    " \"scenes\": 20",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  ],",
-    "  [",
-    "   \"Nigel Jones\",",
-    "   13.94",
-    "  ]",
-    " ],",
-    " \"appetite\": {",
-    "  \"afro-house\": {",
-    "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 68.2",
-    "  },",
-    "  \"techno-peak-time\": {",
-    "   \"mixes\": 3,",
-    "   \"plays_per_day_median\": 0.6",
-    "  },",
-    "  \"deep-house\": {",
-    "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 84.3",
-    "  },",
-    "  \"melodic-house-techno\": {",
-    "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 69.3",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  140-deep-dubstep-grime     flatter, more uniformly loud (-0.40), more voice (+0.35)",
-    "  afro-house                 nothing names it yet",
-    "  amapiano                   flatter, more uniformly loud (-0.38), busier drums (+0.21)",
-    "  bass-house                 flatter, more uniformly loud (-0.50)",
-    "  breaks-breakbeat-uk-bass   nothing names it yet",
-    "  deep-house                 nothing names it yet",
-    "  drum-and-bass              nothing names it yet",
-    "  hard-techno                flatter, more uniformly loud (-0.39)",
-    "  house                      nothing names it yet",
-    "  indie-dance                nothing names it yet",
-    "  melodic-house-techno       less voice (-0.32), choppier (+0.27)",
-    "  organic-house              busier drums (+0.37), flatter, more uniformly loud (-0.25)",
-    "  progressive-house          less voice (-0.22)",
-    "  psy-trance                 sparser drums (-0.32), choppier (+0.31)",
-    "  tech-house                 flatter, more uniformly loud (-0.47), more voice (+0.20)",
-    "  techno-peak-time           flatter, more uniformly loud (-0.40)",
-    "  techno-raw-deep-hypnotic   choppier (+0.24)",
-    "  trance-main-floor          front-loaded (-0.26), flatter, more uniformly loud (-0.23)",
-    "  uk-funky-gqom              nothing names it yet",
-    "  uk-garage-speed-garage     smoother (-0.29), more voice (+0.28)"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "   \"n\": 420,",
-    "   \"r\": -0.0",
-    "  },",
-    "  \"-1\": {",
-    "   \"n\": 440,",
-    "   \"r\": -0.1",
-    "  },",
-    "  \"0\": {",
-    "   \"n\": 460,",
-    "   \"r\": 0.1",
-    "  },",
-    "  \"1\": {",
-    "   \"n\": 440,",
-    "   \"r\": 0.0",
-    "  },",
-    "  \"2\": {",
-    "   \"n\": 420,",
-    "   \"r\": -0.03",
-    "  },",
-    "  \"3\": {",
-    "   \"n\": 400,",
-    "   \"r\": 0.01",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
-   "rc": 0,
-   "minutes": 3.4,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-16T23:39:50Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\",",
-    "  \"2026-09-10\",",
-    "  \"2026-09-14\"",
-    " ],",
-    " \"artists_total\": 36381,",
-    " \"booking_side\": 22856,",
-    " \"release_side\": 14856,",
-    " \"joined\": 1331,",
-    " \"tracks_with_metadata\": 17938,",
-    " \"join_rate_release_side\": 0.09",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
-   "rc": 0,
-   "minutes": 1.2,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-16T23:41:04Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\",",
-    "  \"2026-09-10\",",
-    "  \"2026-09-14\"",
-    " ],",
-    " \"latest\": \"2026-09-14\",",
-    " \"venues\": 3754,",
-    " \"venues_with_3plus\": 1074,",
-    " \"leadership_artists\": 6030,",
-    " \"tiered_rooms\": 715",
-    "}"
+    "validation: ok"
    ]
   }
  ]
