@@ -75,19 +75,15 @@ def main():
     # the report goes to its own file: piping it through tee mixed it with the progress
     # lines above, and the step that read it back could not parse its own input. Six shards
     # of correct work were discarded because of that.
-    if a.report:
-        json.dump(result, open(a.report, "w"), indent=1)
-    print(json.dumps(result, indent=1), flush=True)
-
-
-if __name__ == "__main__":
-    sys.exit(main())
-    # fold the shards' preview caches back in, so the urls resolved this pass are kept
+    # Fold the shards' preview caches in, so urls resolved this pass are kept and the next pass
+    # does not resolve them again. This block was written below sys.exit(main()) the first time,
+    # at module level under the entry point, where it could never run; and against a connection
+    # called conn, where this module calls it store.conn.
     try:
         import glob as _glob
-        conn.execute("""create table if not exists preview_cache(
-            track_id text primary key, url text, resolved_at text)""")
-        n = 0
+        store.conn.execute("create table if not exists preview_cache("
+                           "track_id text primary key, url text, resolved_at text)")
+        n_cache = 0
         for f in _glob.glob(a.glob.replace("deepen-shard-*", "preview-cache-*")):
             for line in open(f):
                 line = line.strip()
@@ -97,12 +93,19 @@ if __name__ == "__main__":
                     d = json.loads(line)
                 except Exception:
                     continue
-                conn.execute("insert or replace into preview_cache(track_id,url,resolved_at) values(?,?,?)",
-                             (d.get("track_id"), d.get("url"), d.get("resolved_at")))
-                n += 1
-        conn.commit()
-        if n:
-            print(f"folded {n} cached preview urls", flush=True)
+                store.conn.execute(
+                    "insert or replace into preview_cache(track_id,url,resolved_at) values(?,?,?)",
+                    (d.get("track_id"), d.get("url"), d.get("resolved_at")))
+                n_cache += 1
+        store.conn.commit()
+        print(f"folded {n_cache} cached preview urls", flush=True)
     except Exception as e:
         print(f"could not fold the preview cache: {e}", flush=True)
 
+    if a.report:
+        json.dump(result, open(a.report, "w"), indent=1)
+    print(json.dumps(result, indent=1), flush=True)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
