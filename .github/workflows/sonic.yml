@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: "0 3 * * 0"        # Sundays 03:00 UTC — the weekly batch
     - cron: "0 6 * * 1,4"      # Mon+Thu 06:00 UTC — RA depth snapshot (unbackfillable)
+    - cron: "5 */4 * * *"      # every four hours: fingerprint 2,000 more records
   push:
     paths: ["queue/*.json"]
   workflow_dispatch:
@@ -105,7 +106,7 @@ jobs:
           fi
 
       - name: fetch fingerprint store
-        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'mixrescan'))
+        if: github.event.schedule == '5 */4 * * *' || github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'mixrescan'))
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -135,8 +136,8 @@ jobs:
           python -m sonic.queue_runner --budget-minutes 75 --max-jobs 1
 
       - name: reindex fingerprints
-        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex'
-        run: python -m sonic.mixes reindex --db sonic.db --limit 900
+        if: github.event.schedule == '5 */4 * * *' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex')
+        run: python -m sonic.mixes reindex --db sonic.db --limit 2000
 
       - name: mix discovery + scan
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'
@@ -224,7 +225,7 @@ jobs:
           SONIC_INGEST_SECRET: ${{ secrets.SONIC_INGEST_SECRET }}
         run: python -m sonic.export_demand --db sonic.db --post https://www.earlysignal.live/api/sonic-ingest || true
       - name: save fingerprint store
-        if: always() && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'mixrescan')))
+        if: always() && (github.event.schedule == '5 */4 * * *' || github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'mixrescan')))
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
