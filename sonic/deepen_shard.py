@@ -34,6 +34,25 @@ def months_between(mf, mt):
     return out
 
 
+def _write_preview_cache(store, out_path, shard):
+    """The shard's database dies with the runner; the cache travels back beside the results."""
+    try:
+        rows = list(store.conn.execute("select track_id, url, resolved_at from preview_cache"))
+    except Exception:
+        rows = []
+    if not rows:
+        return
+    try:
+        d = out_path if os.path.isdir(out_path) else (os.path.dirname(out_path) or ".")
+        cp = os.path.join(d, f"preview-cache-{shard}.jsonl")
+        with open(cp, "w") as fh:
+            for tid, url, at in rows:
+                fh.write(json.dumps({"track_id": tid, "url": url, "resolved_at": at}) + "\n")
+        print(f"  wrote {len(rows)} cached preview urls to {cp}", flush=True)
+    except Exception as e:
+        print(f"  could not write the preview cache: {e}", flush=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--shard", type=int, required=True)
@@ -100,7 +119,7 @@ def main():
                     # resolved once and kept: the same record is re-measured on every version
                     # bump, and re-resolving its URL each time is what made a pass move fifty
                     # records in a hundred minutes
-                    url_of.update(cached_preview_urls(conn, missing, token))
+                    url_of.update(cached_preview_urls(store.conn, missing, token))
                     for t in missing:
                         url_of.setdefault(t, None)
 
@@ -162,6 +181,7 @@ def main():
                     except Exception:
                         pass
             pool.shutdown(wait=False)
+        _write_preview_cache(store, a.out, a.shard)
         print(json.dumps({"shard": a.shard, "remeasured": wrote, "skipped": skipped,
                           "minutes": round((time.time() - t0) / 60, 1)}), flush=True)
         return
@@ -229,19 +249,7 @@ def main():
                 pool.shutdown(wait=False)
                 out.flush()
                 print(f"  {month} {cfg['scene']}: {n} analysed (had {depth})", flush=True)
-    # The shard's database dies with the runner, so the preview cache travels back beside the
-    # results and the merge folds it into the corpus. Without this, every pass resolves every
-    # URL again, which is what made a hundred-minute pass move fifty-five records.
-    try:
-        rows = list(conn.execute("select track_id, url, resolved_at from preview_cache"))
-        if rows:
-            cp = os.path.join(os.path.dirname(path) or ".", f"preview-cache-{a.shard}.jsonl")
-            with open(cp, "w") as fh:
-                for tid, url, at in rows:
-                    fh.write(json.dumps({"track_id": tid, "url": url, "resolved_at": at}) + "\n")
-            print(f"  wrote {len(rows)} cached preview urls to {cp}", flush=True)
-    except Exception as e:
-        print(f"  could not write the preview cache: {e}", flush=True)
+    _write_preview_cache(store, a.out, a.shard)
     print(json.dumps({"shard": a.shard, "written": wrote, "skipped": skipped,
                       "minutes": round((time.time() - t0) / 60, 1), "file": path}), flush=True)
 
