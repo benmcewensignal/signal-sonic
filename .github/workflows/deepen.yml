@@ -187,6 +187,12 @@ jobs:
           fi
           exit 0
 
+      - name: run the chain against a copy before trusting it
+        run: |
+          # Three faults in one day were code that parsed, imported and never ran. This runs
+          # the real shard and the real merge against a throwaway copy with the network
+          # stubbed, and fails the job if the cache does not survive the round trip.
+          python -m sonic.smoke --db sonic.db
       - name: fold the shards into the database
         run: |
           ls -la shards/*/ || true
