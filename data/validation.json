@@ -1,9 +1,9 @@
 {
- "ran": "2026-09-16T23:36:02Z",
- "job": "encoding-check",
+ "ran": "2026-09-18T10:34:05Z",
+ "job": "metadata",
  "before": {
-  "tracks": 22227,
-  "v2": 22130,
+  "tracks": 50482,
+  "v2": 50405,
   "v3": 1750,
   "named": 17938,
   "plays": 1316,
@@ -14,10 +14,10 @@
   "aliases": null
  },
  "after": {
-  "tracks": 22227,
-  "v2": 22130,
+  "tracks": 50482,
+  "v2": 50405,
   "v3": 1750,
-  "named": 17938,
+  "named": 22027,
   "plays": 1316,
   "usable_mixes": 65,
   "mix_pop": 26,
@@ -25,12 +25,7 @@
   "supply": 480,
   "aliases": null
  },
- "failures": [
-  "encoding-check produced 0 comparisons"
- ],
- "notes": [
-  "encoding-check wrote 0 comparisons: not enough to conclude anything",
-  "encoding-check has no growth check: its success cannot be verified"
- ],
- "ok": false
+ "failures": [],
+ "notes": [],
+ "ok": true
 }
