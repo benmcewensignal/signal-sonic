@@ -236,8 +236,11 @@ jobs:
             || gh release upload deepened sonic.db --clobber
           echo "published"
 
+      # Chained on always() this fired after a failed merge too, so a pass whose shards all
+      # died restarted itself two minutes later: four hundred and eighty times overnight.
+      # A pass that failed has nothing to hand on. Only a successful merge books the next.
       - name: chain the next pass while records remain
-        if: always() && inputs.restale != ''
+        if: success() && inputs.restale != ''
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
