@@ -238,6 +238,13 @@ jobs:
             else
               gh release create fp-store --notes "fingerprint index (release asset: too large for git)" 2>/dev/null || true
               gh release upload fp-store fingerprints.db --clobber
+          # The store growing does nothing for Listen until the index is rebuilt from it, and the
+          # rebuild lives in another repository. Ask for it here, so a fingerprint run finishes by
+          # putting its own work in front of users.
+          if [ -n "${{ secrets.PIPELINE_PAT }}" ]; then
+            GH_TOKEN="${{ secrets.PIPELINE_PAT }}" timeout 60 gh workflow run audio.yml --repo benmcewensignal/signal-sonic-audio --ref main -f task=full-index \
+              && echo "index rebuild requested" || echo "could not request the index rebuild"
+          fi
               echo "store saved: ${SZ}MB"
             fi
           fi
