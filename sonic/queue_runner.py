@@ -171,7 +171,7 @@ def main():
                   open(p, "w").write("\n".join(str(t) for t in ids))
                   rc = run(["python", "-m", "sonic.reanalyse", "--db", "sonic.db",
                             "--ids-file", p, "--limit", str(job.get("limit", len(ids))),
-                            "--budget-minutes", str(int(budget_left()))], log)
+                            "--budget-minutes", str(max(15, min(60, remaining)))], log)
                   try: os.unlink(p)
                   except OSError: pass
           elif mode == "backfill":
