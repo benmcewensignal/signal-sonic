@@ -169,8 +169,12 @@ def main():
                   import tempfile as _tf
                   p = _tf.mktemp(suffix=".txt")
                   open(p, "w").write("\n".join(str(t) for t in ids))
+                  # Four runs claimed this job and four were killed at about forty minutes
+                  # with nothing recorded: 473 records at five seconds each is longer than a
+                  # run survives. reanalyse writes queue/.more when work remains, so take a
+                  # bite that finishes and let the job come back for the rest.
                   rc = run(["python", "-m", "sonic.reanalyse", "--db", "sonic.db",
-                            "--ids-file", p, "--limit", str(job.get("limit", len(ids))),
+                            "--ids-file", p, "--limit", str(min(int(job.get("limit", len(ids))), 120)),
                             "--budget-minutes", str(max(15, min(60, remaining)))], log)
                   try: os.unlink(p)
                   except OSError: pass

@@ -475,6 +475,6 @@
   "bp:3273962",
   "bp:3274012"
  ],
- "limit": 473,
- "note": "The canon: the 473 records the scenes were built on. Only 13 are in the corpus and 313 carry nothing but a name, so Listen recognises them and can say nothing. The 160 that are placed hold five of the ten measures, because they came in from their own sources rather than through the release feed. They are all Beatport ids, so the resolver can try them like any other record. Whatever comes back, the canon stops being the one part of the catalogue the instrument cannot describe."
+ "limit": 120,
+ "note": "The canon: the 473 records the scenes were built on. Only 13 are in the corpus and 313 carry nothing but a name, so Listen recognises them and can say nothing. The 160 that are placed hold five of the ten measures, because they came in from their own sources rather than through the release feed. They are all Beatport ids, so the resolver can try them like any other record. Whatever comes back, the canon stops being the one part of the catalogue the instrument cannot describe. Taken 120 at a time: a full pass of 473 runs longer than a run survives, and reanalyse asks for another turn while records remain."
 }
