@@ -1,19 +1,21 @@
 {
- "ran": "2026-09-19T06:33:12Z",
+ "ran": "2026-09-19T09:10:30Z",
  "log": [
   {
-   "cmd": "before canon: free disk 90.9 GB",
+   "cmd": "before canon: free disk 89.2 GB",
    "rc": 0
   },
   {
-   "cmd": "canon (00-first-canon.json)",
-   "rc": 97,
+   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmpkj0muk7q.txt --limit 120 --budget-minutes 54",
+   "rc": 0,
+   "minutes": 16.0,
    "tail": [
-    "Traceback (most recent call last):",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/queue_runner.py\", line 153, in main",
-    "    \"--budget-minutes\", str(int(budget_left()))], log)",
-    "                                ^^^^^^^^^^^",
-    "NameError: name 'budget_left' is not defined"
+    "measuring 473 records named in a list",
+    "reanalyse: 120 tracks on an older version (target 2.9+367e9ded)",
+    "  bp:5084922: no preview url",
+    "  bp:21423796: no preview url",
+    "  bp:11214918: no preview url",
+    "reanalyse: 110 done, 10 failed, 77 still on the old version"
    ]
   },
   {
