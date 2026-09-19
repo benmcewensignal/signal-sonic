@@ -134,7 +134,26 @@ def main():
         print(f"\n=== {os.path.basename(f)}: {job}", flush=True)
         rc = 0
         try:
-          if mode == "backfill":
+          if mode == "canon":
+              # The canon is the 473 records the scenes were built on, and it is the one part
+              # of the catalogue the instrument has never described: 313 carry nothing but a
+              # name, and the 160 that are placed hold five of the ten measures because they
+              # arrived from their own sources rather than through the release feed. They are
+              # Beatport ids like everything else, so the resolver can try them. Whatever comes
+              # back is more than nothing, and what does not resolve is worth knowing too.
+              ids = job.get("track_ids") or []
+              if not ids:
+                  log.append({"cmd": "canon: no track_ids in the job", "rc": 1}); rc = 1
+              else:
+                  import tempfile as _tf
+                  p = _tf.mktemp(suffix=".txt")
+                  open(p, "w").write("\n".join(str(t) for t in ids))
+                  rc = run(["python", "-m", "sonic.reanalyse", "--db", "sonic.db",
+                            "--ids-file", p, "--limit", str(job.get("limit", len(ids))),
+                            "--budget-minutes", str(int(budget_left()))], log)
+                  try: os.unlink(p)
+                  except OSError: pass
+          elif mode == "backfill":
               # a deep backfill of many months cannot fit a two-hour run: take what fits and requeue
               mf, mt = job["month_from"], job["month_to"]
               if job.get("per_month", 40) > 60:

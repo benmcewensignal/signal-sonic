@@ -129,6 +129,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default="sonic.db"); ap.add_argument("--limit", type=int, default=3000)
     ap.add_argument("--budget-minutes", type=int, default=200)
+    # A list of ids to measure whatever version they are on, or whether they are in the corpus
+    # at all. The canon needs this: those records were never queued, so there is no version for
+    # them to be stale against and the usual selector cannot see them.
+    ap.add_argument("--ids-file", default=None)
     a = ap.parse_args()
     an = LocalAnalyser()
     token = get_token()
@@ -157,10 +161,31 @@ def main():
         a = a + [0] * (len(b) - len(a)); b = b + [0] * (len(a) - len(b))
         return a < b
 
+    explicit = None
+
+    if a.ids_file:
+
+        explicit = [x.strip() for x in open(a.ids_file) if x.strip()]
+
+        for t in explicit:
+
+            c.execute("insert or ignore into tracks(track_id, analyser_id, source) "
+
+                      "values(?, 'local', 'canon')", (t,))
+
+        c.commit()
+
+        print(f"measuring {len(explicit)} records named in a list", flush=True)
+
+
     todo = [r["track_id"] for r in c.execute(
         "select track_id, coalesce(analyser_ver,'1') v from tracks where analyser_id='local'"
         " order by rowid")
-            if _older(r["v"], want)][:a.limit]
+            if _older(r["v"], want)]
+
+    if explicit:
+
+        todo = list(explicit)[:a.limit]
     print(f"reanalyse: {len(todo)} tracks on an older version (target {want})", flush=True)
     t0 = time.time(); done = err = 0
     for tid in todo:
