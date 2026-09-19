@@ -1,12 +1,12 @@
 {
- "ran": "2026-09-19T18:44:40Z",
+ "ran": "2026-09-19T19:11:01Z",
  "log": [
   {
    "cmd": "before canon: free disk 90.9 GB",
    "rc": 0
   },
   {
-   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmpbn_lt4hl.txt --limit 120 --budget-minutes 54",
+   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmpbkccitbx.txt --limit 120 --budget-minutes 54",
    "rc": 0,
    "minutes": 16.1,
    "tail": [
@@ -15,7 +15,7 @@
     "  bp:5084922: no preview url",
     "  bp:21423796: no preview url",
     "  bp:11214918: no preview url",
-    "reanalyse: 112 done, 8 failed, 77 still on the old version"
+    "reanalyse: 110 done, 10 failed, 77 still on the old version"
    ]
   },
   {
@@ -26,10 +26,6 @@
     "validation note: canon has no growth check: its success cannot be verified",
     "validation: ok"
    ]
-  },
-  {
-   "cmd": "canon: work remains, job stays queued",
-   "rc": 0
   }
  ]
 }
