@@ -26,6 +26,27 @@ jobs:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: python -m sonic.watchdog --repo ${{ github.repository }}
 
+      - name: make sure the weekly batch has run this week
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          # The weekly batch is on a Sunday 03:00 cron and there is not one scheduled run of it
+          # in the last hundred: GitHub dropped every one. That is why the corpus still holds
+          # W35 and W36 in week 38, and why the chart holdout test has never had a fresh week
+          # to run against. Do not trust the cron: check whether it has happened.
+          set +e
+          DOW=$(date -u +%u)
+          if [ "$DOW" -lt 7 ]; then echo "not Sunday (day $DOW), leaving the weekly batch alone"; exit 0; fi
+          SINCE=$(date -u -d '20 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          N=$(gh api "repos/${{ github.repository }}/actions/runs?per_page=40" \
+              --jq "[.workflow_runs[] | select(.name==\"sonic\") | select(.created_at > \"$SINCE\")] | length" 2>/dev/null)
+          echo "sonic runs in the last twenty hours: ${N:-unknown}"
+          if [ "${N:-0}" = "0" ]; then
+            timeout 60 gh workflow run sonic.yml --ref main -f mode=weekly && echo "weekly batch dispatched" || echo "could not dispatch the weekly batch"
+          else
+            echo "something has already run today; not adding to the concurrency group"
+          fi
+          exit 0
       - name: wake the other pipelines if their cron has gone quiet
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
