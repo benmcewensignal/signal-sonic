@@ -124,6 +124,27 @@ def main():
         except Exception as e:
             log.append({"cmd": f"read {os.path.basename(f)}", "rc": 98, "tail": [repr(e)]}); continue
         mode = job.get("mode"); remaining = int(a.budget_minutes - elapsed - 20)
+        # Claim the job before doing it. done.json was written only after a job finished, so a
+        # run cancelled part way through recorded nothing, the same job was picked again on the
+        # next run, and that one was cancelled too. Nothing has been recorded since 16
+        # September while the drain step returned success every time. An attempt written up
+        # front turns that into at most two tries before the job is parked.
+        _claim = {"file": os.path.basename(f) + "#attempt", "rc": None,
+                  "started": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+        done.append(_claim)
+        json.dump(done, open(done_path, "w"), indent=1)
+        try:
+            if os.environ.get("GITHUB_ACTIONS"):
+                subprocess.run(["git", "config", "user.name", "sonic-bot"], check=False)
+                subprocess.run(["git", "config", "user.email", "sonic@earlysignal.live"], check=False)
+                subprocess.run(["git", "add", done_path], check=False)
+                subprocess.run(["git", "commit", "-q", "-m",
+                                f"queue: starting {os.path.basename(f)}"], check=False)
+                subprocess.run(["git", "pull", "-q", "--no-rebase", "origin", "main"], check=False)
+                subprocess.run(["git", "push", "-q", "origin", "HEAD:main"], check=False)
+        except Exception as e:
+            print(f"could not record the claim: {type(e).__name__}", flush=True)
+        print(f"claimed {os.path.basename(f)} before running it", flush=True)
         subprocess.run([sys.executable, "-m", "sonic.validate", "--db", "sonic.db", "--snapshot", "/tmp/before.json"], capture_output=True)
         try:
             st_ = os.statvfs("."); free_gb = st_.f_bavail * st_.f_frsize / 1e9
@@ -228,6 +249,10 @@ def main():
         _write_log(log, push=True)
         if os.path.exists("queue/.more"):
             os.remove("queue/.more")
+            try:
+                done.remove(_claim)
+            except ValueError:
+                pass
             done.append({"file": os.path.basename(f), "requeued": True, "rc": 0, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
             json.dump(done, open(done_path, "w"), indent=1)
             log.append({"cmd": f"{mode}: work remains, job stays queued", "rc": 0})
@@ -236,10 +261,19 @@ def main():
             open("queue/.next", "w").write(os.path.basename(f) + "\n")
             break
         if rc and fails.get(os.path.basename(f), 0) < 1:
+            try:
+                done.remove(_claim)
+            except ValueError:
+                pass
             done.append({"file": os.path.basename(f) + "#attempt", "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
             json.dump(done, open(done_path, "w"), indent=1)
             print(f"job failed (rc {rc}); it will be retried once", flush=True)
             continue
+        # the claim did its job; a finished run does not need to count against the retry
+        try:
+            done.remove(_claim)
+        except ValueError:
+            pass
         done.append({"file": os.path.basename(f), "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
         json.dump(done, open(done_path, "w"), indent=1)
         if rc and mode in ("mixscan", "mixrescan") and (time.time() - t_start) / 60 > a.budget_minutes - 30:
