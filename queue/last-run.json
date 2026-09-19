@@ -1,12 +1,12 @@
 {
- "ran": "2026-09-19T16:07:17Z",
+ "ran": "2026-09-19T16:33:25Z",
  "log": [
   {
    "cmd": "before canon: free disk 90.9 GB",
    "rc": 0
   },
   {
-   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmprgkz6pnt.txt --limit 120 --budget-minutes 54",
+   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmp66s07687.txt --limit 120 --budget-minutes 54",
    "rc": 0,
    "minutes": 15.9,
    "tail": [
@@ -26,10 +26,6 @@
     "validation note: canon has no growth check: its success cannot be verified",
     "validation: ok"
    ]
-  },
-  {
-   "cmd": "canon: work remains, job stays queued",
-   "rc": 0
   }
  ]
 }
