@@ -1,14 +1,14 @@
 {
- "ran": "2026-09-19T15:14:54Z",
+ "ran": "2026-09-19T15:41:14Z",
  "log": [
   {
    "cmd": "before canon: free disk 90.9 GB",
    "rc": 0
   },
   {
-   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmpuc6ez2j6.txt --limit 120 --budget-minutes 54",
+   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmpfsjo833u.txt --limit 120 --budget-minutes 54",
    "rc": 0,
-   "minutes": 15.9,
+   "minutes": 15.3,
    "tail": [
     "measuring 473 records named in a list",
     "reanalyse: 120 tracks on an older version (target 2.9+367e9ded)",
@@ -26,10 +26,6 @@
     "validation note: canon has no growth check: its success cannot be verified",
     "validation: ok"
    ]
-  },
-  {
-   "cmd": "canon: work remains, job stays queued",
-   "rc": 0
   }
  ]
 }
