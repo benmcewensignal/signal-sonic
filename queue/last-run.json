@@ -1,47 +1,27 @@
 {
- "ran": "2026-09-19T00:08:46Z",
+ "ran": "2026-09-19T03:11:39Z",
  "log": [
   {
-   "cmd": "before metadata: free disk 90.9 GB",
+   "cmd": "before canon: free disk 90.9 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.metadata --db sonic.db --limit 6000",
-   "rc": 1,
-   "minutes": 40.0,
+   "cmd": "canon (00-first-canon.json)",
+   "rc": 97,
    "tail": [
-    "  3200/6000 ok=3189 err=11 1789s",
-    "  3300/6000 ok=3289 err=11 1847s",
-    "  3400/6000 ok=3389 err=11 1948s",
-    "  3500/6000 ok=3489 err=11 2023s",
-    "  3600/6000 ok=3589 err=11 2095s",
-    "  3700/6000 ok=3689 err=11 2159s",
-    "  3800/6000 ok=3788 err=12 2224s",
-    "  3900/6000 ok=3888 err=12 2283s",
-    "  4000/6000 ok=3987 err=13 2345s",
-    "  4100/6000 ok=4086 err=14 2401s",
     "Traceback (most recent call last):",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/metadata.py\", line 45, in main",
-    "    c.execute(\"insert or replace into track_meta values(?,?,?,?,?,?,?,?,?)\", (",
-    "sqlite3.OperationalError: attempt to write a readonly database",
-    "",
-    "During handling of the above exception, another exception occurred:",
-    "",
-    "Traceback (most recent call last):",
-    "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
-    "  File \"<frozen runpy>\", line 88, in _run_code",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/metadata.py\", line 62, in <module>",
-    "    main()",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/metadata.py\", line 54, in main",
-    "    c.execute(\"insert or replace into track_meta(track_id, name, fetched_at) values(?,?,?)\", (tid, f\"ERROR: {str(e)[:120]}\", time.strftime(\"%Y-%m-%dT%H:%M:%SZ\", time.gmtime())))",
-    "sqlite3.OperationalError: attempt to write a readonly database"
+    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/queue_runner.py\", line 153, in main",
+    "    \"--budget-minutes\", str(int(budget_left()))], log)",
+    "                                ^^^^^^^^^^^",
+    "NameError: name 'budget_left' is not defined"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job metadata --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job canon --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
+    "validation note: canon has no growth check: its success cannot be verified",
     "validation: ok"
    ]
   }
