@@ -83,7 +83,11 @@ def main():
             actions.append(f"cancel pending #{r['run_number']} (waiting {mins:.0f} min)")
             if not a.dry_run: _req(f"/repos/{a.repo}/actions/runs/{r['id']}/cancel", token, "POST")
     # 2. nothing running and work outstanding: the chain stopped, so restart it
-    still_live = [r for r in live if r["status"] == "in_progress"
+    # A queued run is not idle, it is about to work. Counting only in_progress meant the
+    # watchdog dispatched on top of a run already waiting in the concurrency group, and with
+    # cancel-in-progress false GitHub cancels the one in the middle. Every sonic run in the
+    # last three hours came out cancelled, including one killed during "persist database".
+    still_live = [r for r in live if r["status"] in ("in_progress", "queued", "pending")
                   and age_minutes(r.get("updated_at") or r.get("run_started_at") or r["created_at"]) <= STALL_MINUTES
                   and age_minutes(r.get("run_started_at") or r["created_at"]) <= STUCK_MINUTES]
     if not still_live:
