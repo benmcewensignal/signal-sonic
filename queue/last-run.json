@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-18T10:34:05Z",
+ "ran": "2026-09-19T00:08:46Z",
  "log": [
   {
    "cmd": "before metadata: free disk 90.9 GB",
@@ -8,18 +8,18 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.metadata --db sonic.db --limit 6000",
    "rc": 1,
-   "minutes": 41.1,
+   "minutes": 40.0,
    "tail": [
-    "  3300/6000 ok=3292 err=8 1960s",
-    "  3400/6000 ok=3392 err=8 2014s",
-    "  3500/6000 ok=3492 err=8 2068s",
-    "  3600/6000 ok=3592 err=8 2123s",
-    "  3700/6000 ok=3692 err=8 2183s",
-    "  3800/6000 ok=3791 err=9 2239s",
-    "  3900/6000 ok=3891 err=9 2297s",
-    "  4000/6000 ok=3990 err=10 2354s",
-    "  4100/6000 ok=4089 err=11 2410s",
-    "  4200/6000 ok=4187 err=13 2466s",
+    "  3200/6000 ok=3189 err=11 1789s",
+    "  3300/6000 ok=3289 err=11 1847s",
+    "  3400/6000 ok=3389 err=11 1948s",
+    "  3500/6000 ok=3489 err=11 2023s",
+    "  3600/6000 ok=3589 err=11 2095s",
+    "  3700/6000 ok=3689 err=11 2159s",
+    "  3800/6000 ok=3788 err=12 2224s",
+    "  3900/6000 ok=3888 err=12 2283s",
+    "  4000/6000 ok=3987 err=13 2345s",
+    "  4100/6000 ok=4086 err=14 2401s",
     "Traceback (most recent call last):",
     "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/metadata.py\", line 45, in main",
     "    c.execute(\"insert or replace into track_meta values(?,?,?,?,?,?,?,?,?)\", (",
