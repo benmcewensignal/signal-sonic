@@ -1,5 +1,5 @@
 shard 6 of 18: ['drum-and-bass']
-shard 6 of 18: 1235 of 22227 records older than 2.3
+shard 6 of 18: 1576 of 50482 records older than 2.3
     previews: 0 from cache, 100 looked up
   10 re-measured
   20 re-measured
@@ -10,8 +10,8 @@ shard 6 of 18: 1235 of 22227 records older than 2.3
   70 re-measured
   80 re-measured
   90 re-measured
-  100 re-measured
     previews: 0 from cache, 100 looked up
+  100 re-measured
   110 re-measured
   120 re-measured
   130 re-measured
@@ -21,8 +21,8 @@ shard 6 of 18: 1235 of 22227 records older than 2.3
   170 re-measured
   180 re-measured
   190 re-measured
-  200 re-measured
     previews: 0 from cache, 100 looked up
+  200 re-measured
   210 re-measured
   220 re-measured
   230 re-measured
@@ -88,31 +88,6 @@ shard 6 of 18: 1235 of 22227 records older than 2.3
   780 re-measured
   790 re-measured
     previews: 0 from cache, 100 looked up
-  800 re-measured
-  810 re-measured
-  820 re-measured
-  830 re-measured
-  840 re-measured
-  850 re-measured
-  860 re-measured
-  870 re-measured
-  880 re-measured
-  890 re-measured
-    previews: 0 from cache, 100 looked up
-  900 re-measured
-  910 re-measured
-  920 re-measured
-  930 re-measured
-  940 re-measured
-  950 re-measured
-  960 re-measured
-  970 re-measured
-  980 re-measured
-  990 re-measured
-    previews: 0 from cache, 100 looked up
-  1000 re-measured
-  1010 re-measured
-  1020 re-measured
 budget reached
-  wrote 1100 cached preview urls to out/preview-cache-6.jsonl
-{"shard": 6, "remeasured": 1029, "skipped": 9, "minutes": 100.0}
+  wrote 22568 cached preview urls to out/preview-cache-6.jsonl
+{"shard": 6, "remeasured": 795, "skipped": 9, "minutes": 100.1}
