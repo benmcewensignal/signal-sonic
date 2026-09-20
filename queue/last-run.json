@@ -1,14 +1,14 @@
 {
- "ran": "2026-09-20T23:31:07Z",
+ "ran": "2026-09-20T23:56:14Z",
  "log": [
   {
-   "cmd": "before reanalyse: free disk 90.7 GB",
+   "cmd": "before reanalyse: free disk 90.8 GB",
    "rc": 0
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 3000 --budget-minutes 54",
    "rc": 0,
-   "minutes": 18.6,
+   "minutes": 14.4,
    "tail": [
     "reanalyse: 343 tracks on an older version (target 2.9+367e9ded)",
     "  bp:24462239: no preview url",
@@ -25,10 +25,6 @@
     "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
     "validation: ok"
    ]
-  },
-  {
-   "cmd": "reanalyse: work remains, job stays queued",
-   "rc": 0
   }
  ]
 }
