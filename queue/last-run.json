@@ -1,14 +1,14 @@
 {
- "ran": "2026-09-20T05:19:38Z",
+ "ran": "2026-09-20T04:27:31Z",
  "log": [
   {
    "cmd": "before canon: free disk 90.9 GB",
    "rc": 0
   },
   {
-   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmp7vbv84lw.txt --limit 120 --budget-minutes 54",
+   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmpbtfgsjhf.txt --limit 120 --budget-minutes 54",
    "rc": 0,
-   "minutes": 15.8,
+   "minutes": 15.2,
    "tail": [
     "measuring 473 records named in a list",
     "reanalyse: 120 tracks on an older version (target 2.9+367e9ded)",
