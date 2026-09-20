@@ -1,9 +1,5 @@
 name: sonic
 on:
-  schedule:
-    - cron: "0 3 * * 0"        # Sundays 03:00 UTC — the weekly batch
-    - cron: "0 6 * * 1,4"      # Mon+Thu 06:00 UTC — RA depth snapshot (unbackfillable)
-    - cron: "5 */4 * * *"      # every four hours: fingerprint 2,000 more records
   workflow_dispatch:
     inputs:
       mode:

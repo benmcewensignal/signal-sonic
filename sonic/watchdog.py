@@ -113,7 +113,10 @@ def main():
             idle = age_minutes(others[0]["updated_at"]) if others else 999
         print(f"watchdog: {len(pending)} pending, idle {idle:.0f} min, "
               f"{len(working)} already working", flush=True)
-        if pending and idle > 20:
+        # Held while the queue runner is being isolated: two runs died today in different
+        # concurrency groups, so the watchdog is not the only thing killing them and it cannot
+        # be ruled out while it is still dispatching. Set WATCHDOG_QUEUE=1 to restore it.
+        if pending and idle > 20 and os.environ.get("WATCHDOG_QUEUE") == "1":
             actions.append(f"restart the chain: {len(pending)} job(s) pending, nothing running for {idle:.0f} min")
             if not a.dry_run:
                 r = _req(f"/repos/{a.repo}/actions/workflows/{a.workflow}/dispatches", token, "POST",
