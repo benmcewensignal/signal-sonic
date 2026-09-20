@@ -1,0 +1,5 @@
+{
+ "mode": "reanalyse",
+ "limit": 6000,
+ "note": "The corpus holds 29,055 records not on 2.9. reanalyse is the mode with seventy-five clean completions behind it, more than every other mode put together, and it picks the oldest first where deepen rotates by scene-month. Both are needed: deepen keeps the coverage even, this clears the backlog. Queued after the tempo and rescale passes that target the same records from 11 September and have never run."
+}
