@@ -4,8 +4,6 @@ on:
     - cron: "0 3 * * 0"        # Sundays 03:00 UTC — the weekly batch
     - cron: "0 6 * * 1,4"      # Mon+Thu 06:00 UTC — RA depth snapshot (unbackfillable)
     - cron: "5 */4 * * *"      # every four hours: fingerprint 2,000 more records
-  push:
-    paths: ["queue/*.json"]
   workflow_dispatch:
     inputs:
       mode:
@@ -52,7 +50,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: show queue (push runs drain it below)
-        if: github.event_name == 'push'
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'queue'
         run: ls -la queue/ && cat queue/done.json 2>/dev/null | tail -5 || true
 
       - uses: actions/setup-python@v5
@@ -87,7 +85,7 @@ jobs:
         run: python -m sonic.backfill report --db sonic.db --out backfill-report
 
       - name: v3 model stack (only when the next job is embed3)
-        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'queue' || inputs.mode == 'embed3'))
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'queue' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'queue' || inputs.mode == 'embed3'))
         run: |
           NEXT=$(python - <<'PY'
           import json, glob, os
@@ -125,7 +123,7 @@ jobs:
           fi
 
       - name: drain the job queue (one job per run)
-        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'queue')
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'queue'
         env:
           DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
@@ -171,11 +169,11 @@ jobs:
         run: python -m sonic.supply --db sonic.db --fetch --months 24 --out data/supply.json
 
       - name: texture names (what the residual actually is)
-        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'backfill' || inputs.mode == 'artists'))
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'queue' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'backfill' || inputs.mode == 'artists'))
         run: python -m sonic.texture --db sonic.db --out data/texture.json || true
 
       - name: supply series (Beatport month totals + what moves first)
-        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'backfill' || inputs.mode == 'artists'))
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'queue' || (github.event_name == 'workflow_dispatch' && (inputs.mode == 'backfill' || inputs.mode == 'artists'))
         run: python -m sonic.supply --db sonic.db --out data/supply.json || true
 
       - name: artist join (after depth snapshot / metadata / on demand)
@@ -281,7 +279,7 @@ jobs:
           exit 0
 
       - name: next job (chain a follow-up run while work remains)
-        if: always() && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'queue'))
+        if: always() && (github.event_name == 'workflow_dispatch' && inputs.mode == 'queue')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
