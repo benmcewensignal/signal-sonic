@@ -1,6 +1,6 @@
 shard 6 of 18: ['drum-and-bass']
-shard 6 of 18: 17 of 50482 records older than 2.3
+shard 6 of 18: 12 of 50482 records older than 2.3
     batch 1 returned none of the 12 asked for; falling back to single lookups
-    previews: 5 from cache, 12 looked up
-  wrote 49918 cached preview urls to out/preview-cache-6.jsonl
-{"shard": 6, "remeasured": 5, "skipped": 12, "minutes": 1.0}
+    previews: 0 from cache, 12 looked up
+  wrote 50281 cached preview urls to out/preview-cache-6.jsonl
+{"shard": 6, "remeasured": 0, "skipped": 12, "minutes": 0.1}
