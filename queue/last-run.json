@@ -1,35 +1,30 @@
 {
- "ran": "2026-09-20T06:05:46Z",
+ "ran": "2026-09-20T23:31:05Z",
  "log": [
   {
-   "cmd": "before canon: free disk 90.9 GB",
+   "cmd": "before reanalyse: free disk 90.7 GB",
    "rc": 0
   },
   {
-   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmppg453mv_.txt --limit 120 --budget-minutes 54",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 3000 --budget-minutes 54",
    "rc": 0,
-   "minutes": 15.6,
+   "minutes": 18.6,
    "tail": [
-    "measuring 473 records named in a list",
-    "reanalyse: 120 tracks on an older version (target 2.9+367e9ded)",
-    "  bp:5084922: no preview url",
-    "  bp:21423796: no preview url",
-    "  bp:11214918: no preview url",
-    "reanalyse: 110 done, 10 failed, 77 still on the old version"
+    "reanalyse: 343 tracks on an older version (target 2.9+367e9ded)",
+    "  bp:24462239: no preview url",
+    "  bp:19688209: no preview url",
+    "  bp:19796509: no preview url",
+    "reanalyse: 131 done, 212 failed, 77 still on the old version"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job canon --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job reanalyse --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "validation note: canon has no growth check: its success cannot be verified",
+    "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
     "validation: ok"
    ]
-  },
-  {
-   "cmd": "canon: work remains, job stays queued",
-   "rc": 0
   }
  ]
 }
