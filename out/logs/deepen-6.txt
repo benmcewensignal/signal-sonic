@@ -113,18 +113,6 @@ shard 6 of 18: 1235 of 22227 records older than 2.3
   1000 re-measured
   1010 re-measured
   1020 re-measured
-  1030 re-measured
-  1040 re-measured
-  1050 re-measured
-  1060 re-measured
-  1070 re-measured
-  1080 re-measured
-  1090 re-measured
-    previews: 0 from cache, 100 looked up
-  1100 re-measured
-  1110 re-measured
-  1120 re-measured
-  1130 re-measured
 budget reached
-  wrote 1200 cached preview urls to out/preview-cache-6.jsonl
-{"shard": 6, "remeasured": 1137, "skipped": 8, "minutes": 100.0}
+  wrote 1100 cached preview urls to out/preview-cache-6.jsonl
+{"shard": 6, "remeasured": 1029, "skipped": 9, "minutes": 100.0}
