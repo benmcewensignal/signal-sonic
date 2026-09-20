@@ -52,16 +52,25 @@ jobs:
           BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
           BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
         run: |
+          exec > >(tee -a /tmp/deepenlog.txt) 2>&1
           python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 18 \
             --from ${{ inputs.month_from }} --to ${{ inputs.month_to }} \
             --per-month ${{ inputs.per_month }} --db sonic.db --out out --budget-minutes ${{ inputs.budget_minutes || '100' }} \
             ${{ inputs.restale != '' && format('--restale {0}', inputs.restale) || '' }}
+      - name: keep the shard log where it can be read
+        if: always()
+        run: |
+          set +e
+          mkdir -p out/logs
+          tail -c 12000 /tmp/deepenlog.txt > "out/logs/deepen-${{ matrix.shard }}.txt" 2>/dev/null || echo none > "out/logs/deepen-${{ matrix.shard }}.txt"
+          exit 0
       - uses: actions/upload-artifact@v4
         with:
           name: deepen-shard-${{ matrix.shard }}
           path: |
             out/deepen-shard-*.jsonl
             out/preview-cache-*.jsonl
+            out/logs/*.txt
           if-no-files-found: warn
 
   merge:
@@ -197,6 +206,17 @@ jobs:
         run: |
           ls -la shards/*/ || true
           python -m sonic.import_deepen --db sonic.db --glob 'shards/**/deepen-shard-*.jsonl' --report merge.json
+      - name: keep the deepen logs where they can be read
+        if: always()
+        run: |
+          set +e
+          mkdir -p out/logs
+          find . -path ./out -prune -o -name 'deepen-*.txt' -print -exec cp -f {} out/logs/ \; 2>/dev/null
+          ls out/logs 2>/dev/null | head -3
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add out/logs 2>/dev/null; git commit -qm 'deepen shard logs' 2>/dev/null
+          git pull -q --no-rebase origin main 2>/dev/null; git push -q origin HEAD:main 2>/dev/null
+          exit 0
       - name: check it actually grew
         run: |
           python - <<'PY'
