@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-20T04:27:30Z",
+ "ran": "2026-09-20T04:27:31Z",
  "log": [
   {
    "cmd": "before canon: free disk 90.9 GB",
@@ -26,6 +26,10 @@
     "validation note: canon has no growth check: its success cannot be verified",
     "validation: ok"
    ]
+  },
+  {
+   "cmd": "canon: work remains, job stays queued",
+   "rc": 0
   }
  ]
 }
