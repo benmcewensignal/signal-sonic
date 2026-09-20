@@ -99,9 +99,17 @@ def main():
             return json.dumps({k: j[k] for k in sorted(j) if k != "note"}, sort_keys=True)
         except Exception:
             return os.path.basename(f)
+    # The canon job was claimed fifty times and killed fifty times. The claim written before the
+    # work made that visible; nothing stopped it. The comment further up says a job that has
+    # failed twice is parked, and fails counts the attempts, but the selection never consulted
+    # it. Three claims with no finish and the job is set aside.
+    PARKED = {n for n, k in fails.items() if k >= 3}
+    if PARKED:
+        print(f"parked after repeated failures: {sorted(PARKED)}", flush=True)
     seen_sig, uniq = set(), []
     for f in sorted(glob.glob("queue/*.json")):
         if os.path.basename(f) in ("done.json", "last-run.json") or os.path.basename(f) in done_names: continue
+        if os.path.basename(f) in PARKED: continue
         sg = _sig(f)
         if sg in seen_sig:
             print(f"skipping duplicate job {os.path.basename(f)}", flush=True); continue
