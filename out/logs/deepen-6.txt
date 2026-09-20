@@ -1,6 +1,7 @@
 shard 6 of 18: ['drum-and-bass']
-shard 6 of 18: 1576 of 50482 records older than 2.3
-    previews: 0 from cache, 100 looked up
+shard 6 of 18: 781 of 50482 records older than 2.3
+    batch 1 returned none of the 9 asked for; falling back to single lookups
+    previews: 91 from cache, 9 looked up
   10 re-measured
   20 re-measured
   30 re-measured
@@ -10,7 +11,7 @@ shard 6 of 18: 1576 of 50482 records older than 2.3
   70 re-measured
   80 re-measured
   90 re-measured
-    previews: 0 from cache, 100 looked up
+    previews: 5 from cache, 95 looked up
   100 re-measured
   110 re-measured
   120 re-measured
@@ -53,8 +54,8 @@ shard 6 of 18: 1576 of 50482 records older than 2.3
   460 re-measured
   470 re-measured
   480 re-measured
-  490 re-measured
     previews: 0 from cache, 100 looked up
+  490 re-measured
   500 re-measured
   510 re-measured
   520 re-measured
@@ -64,8 +65,8 @@ shard 6 of 18: 1576 of 50482 records older than 2.3
   560 re-measured
   570 re-measured
   580 re-measured
-  590 re-measured
     previews: 0 from cache, 100 looked up
+  590 re-measured
   600 re-measured
   610 re-measured
   620 re-measured
@@ -75,8 +76,8 @@ shard 6 of 18: 1576 of 50482 records older than 2.3
   660 re-measured
   670 re-measured
   680 re-measured
+    previews: 0 from cache, 81 looked up
   690 re-measured
-    previews: 0 from cache, 100 looked up
   700 re-measured
   710 re-measured
   720 re-measured
@@ -84,10 +85,6 @@ shard 6 of 18: 1576 of 50482 records older than 2.3
   740 re-measured
   750 re-measured
   760 re-measured
-  770 re-measured
-  780 re-measured
-  790 re-measured
-    previews: 0 from cache, 100 looked up
 budget reached
-  wrote 22568 cached preview urls to out/preview-cache-6.jsonl
-{"shard": 6, "remeasured": 795, "skipped": 9, "minutes": 100.1}
+  wrote 37345 cached preview urls to out/preview-cache-6.jsonl
+{"shard": 6, "remeasured": 764, "skipped": 12, "minutes": 100.1}
