@@ -101,8 +101,18 @@ def main():
         # idleness must be measured from the pipeline, not from any run: the watchdog's own
         # heartbeat is a run, so counting it means the chain never looks idle and never restarts
         others = [r for r in runs if r["name"] != "watchdog"]
-        idle = age_minutes(others[0]["updated_at"]) if others else 999
-        print(f"watchdog: {len(pending)} pending, idle {idle:.0f} min", flush=True)
+        # updated_at does not advance while a job is working, so a run grinding away for forty
+        # minutes looked idle after twenty and got a second dispatched on top of it. That is
+        # why every queue job since yesterday has been claimed, killed around the forty minute
+        # mark and claimed again: canon fifty times, then the metadata job three. A run that is
+        # in progress or queued is not idle whatever its timestamp says.
+        working = [r for r in others if r.get("status") in ("in_progress", "queued", "pending")]
+        if working:
+            idle = 0.0
+        else:
+            idle = age_minutes(others[0]["updated_at"]) if others else 999
+        print(f"watchdog: {len(pending)} pending, idle {idle:.0f} min, "
+              f"{len(working)} already working", flush=True)
         if pending and idle > 20:
             actions.append(f"restart the chain: {len(pending)} job(s) pending, nothing running for {idle:.0f} min")
             if not a.dry_run:
