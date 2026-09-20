@@ -1,0 +1,91 @@
+shard 17 of 18: ['trance-main-floor']
+shard 17 of 18: 1234 of 22227 records older than 2.3
+    previews: 0 from cache, 100 looked up
+  10 re-measured
+  20 re-measured
+  30 re-measured
+  40 re-measured
+  50 re-measured
+  60 re-measured
+  70 re-measured
+  80 re-measured
+  90 re-measured
+  100 re-measured
+    previews: 0 from cache, 100 looked up
+  110 re-measured
+  120 re-measured
+  130 re-measured
+  140 re-measured
+  150 re-measured
+  160 re-measured
+  170 re-measured
+  180 re-measured
+  190 re-measured
+    previews: 0 from cache, 100 looked up
+  200 re-measured
+  210 re-measured
+  220 re-measured
+  230 re-measured
+  240 re-measured
+  250 re-measured
+  260 re-measured
+  270 re-measured
+  280 re-measured
+  290 re-measured
+    previews: 0 from cache, 100 looked up
+  300 re-measured
+  310 re-measured
+  320 re-measured
+  330 re-measured
+  340 re-measured
+  350 re-measured
+  360 re-measured
+  370 re-measured
+  380 re-measured
+  390 re-measured
+    previews: 0 from cache, 100 looked up
+  400 re-measured
+  410 re-measured
+  420 re-measured
+  430 re-measured
+  440 re-measured
+  450 re-measured
+  460 re-measured
+  470 re-measured
+  480 re-measured
+  490 re-measured
+    previews: 0 from cache, 100 looked up
+  500 re-measured
+  510 re-measured
+  520 re-measured
+  530 re-measured
+  540 re-measured
+  550 re-measured
+  560 re-measured
+  570 re-measured
+  580 re-measured
+  590 re-measured
+    previews: 0 from cache, 100 looked up
+  600 re-measured
+  610 re-measured
+  620 re-measured
+  630 re-measured
+  640 re-measured
+  650 re-measured
+  660 re-measured
+  670 re-measured
+  680 re-measured
+  690 re-measured
+    previews: 0 from cache, 100 looked up
+  700 re-measured
+  710 re-measured
+  720 re-measured
+  730 re-measured
+  740 re-measured
+  750 re-measured
+  760 re-measured
+  770 re-measured
+  780 re-measured
+budget reached
+  wrote 800 cached preview urls to out/preview-cache-17.jsonl
+{"shard": 17, "remeasured": 784, "skipped": 7, "minutes": 100.0}
