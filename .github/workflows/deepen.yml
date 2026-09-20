@@ -52,6 +52,16 @@ jobs:
           BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
           BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
         run: |
+          # The shard measured sonic.db straight from the checkout, which is the repository copy:
+          # 22,227 records against 50,482 in the release. Its own log said so, 1235 of 22227
+          # older than 2.3, and the corpus has barely moved for hours because more than half of
+          # it was never visible to the job measuring it. Same silent fallback as the index build.
+          curl -sL -o rel.db "https://github.com/benmcewensignal/signal-sonic/releases/download/deepened/sonic.db" || true
+          A=$(python -c "import sqlite3;print(sqlite3.connect('sonic.db').execute('select count(*) from tracks').fetchone()[0])" 2>/dev/null || echo 0)
+          B=$(python -c "import sqlite3;print(sqlite3.connect('rel.db').execute('select count(*) from tracks').fetchone()[0])" 2>/dev/null || echo 0)
+          echo "repository copy ${A}, release ${B}"
+          if [ "${B}" -gt "${A}" ]; then mv rel.db sonic.db; echo "using the release"; else echo "using the repository copy"; fi
+          rm -f rel.db
           exec > >(tee -a /tmp/deepenlog.txt) 2>&1
           python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 18 \
             --from ${{ inputs.month_from }} --to ${{ inputs.month_to }} \
