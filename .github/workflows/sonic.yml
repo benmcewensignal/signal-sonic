@@ -58,6 +58,23 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: fetch the database from the release
+        # The database lives in the 'deepened' release, not git. Git refuses files over 100 MB, the
+        # database reached 25,553 full pages on 16 September, and from then every save that changed
+        # it was rejected while the step reported success: five days of naming, set scans and
+        # snapshots discarded. No fallback to the git copy, which is frozen at 16 September.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in 1 2 3; do
+            gh release download deepened --repo "${{ github.repository }}" --pattern sonic.db --dir /tmp/rel --clobber && [ -s /tmp/rel/sonic.db ] && break
+            echo "fetch attempt $i failed"; sleep 20
+          done
+          if [ ! -s /tmp/rel/sonic.db ]; then echo "::error::could not fetch the database from the release; refusing to run on the frozen git copy"; exit 1; fi
+          cp /tmp/rel/sonic.db sonic.db && cp /tmp/rel/sonic.db /tmp/base.db
+          gh api "repos/${{ github.repository }}/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id' > /tmp/base.id
+          python -c "import sqlite3; c=sqlite3.connect('sonic.db'); print('database from the release:', c.execute('select count(*) from tracks').fetchone()[0], 'tracks')"
+
       - name: deps
         run: |
           sudo apt-get update -yq > /dev/null && sudo apt-get -yq install libsndfile1 ffmpeg > /dev/null
@@ -264,11 +281,40 @@ jobs:
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
           STATUS="unknown"
+          # The database: this run's changes merged into whatever the release holds now, uploaded
+          # under a name only this run uses, and swapped in only if nothing else landed meanwhile.
+          R="${{ github.repository }}"; RID="${{ github.run_id }}"
+          if [ "$WEEKRUN" != "true" ] && [ -s sonic.db ] && [ -s /tmp/base.db ]; then
+            if cmp -s sonic.db /tmp/base.db; then echo "database: unchanged by this run"
+            else
+              DBSTATUS="NOT SAVED"
+              for j in 1 2 3 4 5; do
+                CUR=$(gh api "repos/$R/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id')
+                rm -rf /tmp/now; mkdir -p /tmp/now /tmp/up; rm -f /tmp/up/*
+                if [ -n "$CUR" ] && [ "$CUR" = "$(cat /tmp/base.id 2>/dev/null)" ]; then
+                  cp sonic.db "/tmp/up/sonic.db.$RID"; echo "database: nothing else landed since this run began"
+                else
+                  gh release download deepened --repo "$R" --pattern sonic.db --dir /tmp/now --clobber || { sleep 15; continue; }
+                  python -m sonic.db_merge --base /tmp/base.db --ours sonic.db --theirs /tmp/now/sonic.db --out "/tmp/up/sonic.db.$RID" || { sleep 15; continue; }
+                fi
+                gh release upload deepened "/tmp/up/sonic.db.$RID" --repo "$R" --clobber || { sleep 15; continue; }
+                NEW=$(gh api "repos/$R/releases/tags/deepened" --jq ".assets[] | select(.name==\"sonic.db.$RID\") | .id")
+                NOW=$(gh api "repos/$R/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id')
+                if [ "$NOW" != "$CUR" ]; then
+                  echo "another save landed during ours; merging again"
+                  gh api -X DELETE "repos/$R/releases/assets/$NEW" >/dev/null; sleep 5; continue
+                fi
+                [ -n "$NOW" ] && gh api -X DELETE "repos/$R/releases/assets/$NOW" >/dev/null
+                if gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=sonic.db >/dev/null; then DBSTATUS="saved to the release on attempt $j"; break; fi
+              done
+              echo "database: $DBSTATUS"
+              [ "$DBSTATUS" = "NOT SAVED" ] && echo "::error::this run's database changes were not saved"
+            fi
+          fi
           # copy the outputs aside, take whatever main has become, put them back.
           # never stash/pop: a pop conflict leaves markers and we then commit them.
           for i in 1 2 3 4 5; do
             rm -rf /tmp/out && mkdir -p /tmp/out
-            cp -a sonic.db /tmp/out/ 2>/dev/null
             cp -a data /tmp/out/ 2>/dev/null
             cp -a queue /tmp/out/ 2>/dev/null
             cp -a backfill-report.md backfill-report.json CLAIMS.md /tmp/out/ 2>/dev/null
@@ -281,10 +327,8 @@ jobs:
             fi
             git fetch -q origin main
             git reset -q --hard origin/main
-            cp -a /tmp/out/sonic.db . 2>/dev/null
             cp -a /tmp/out/data /tmp/out/queue . 2>/dev/null
             cp -a /tmp/out/backfill-report.md /tmp/out/backfill-report.json /tmp/out/CLAIMS.md . 2>/dev/null
-            git add -f sonic.db 2>/dev/null
             git add -A data queue backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null
             if git diff --cached --quiet; then STATUS="nothing to persist"; break; fi
             git commit -q -m "queue run $(date +%G-W%V)"
