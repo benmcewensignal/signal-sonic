@@ -39,7 +39,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 120   # one job per run: a failure costs one job, not a night
+    timeout-minutes: ${{ (inputs.mode == 'week' || github.event.schedule == '0 3 * * 0') && 240 || 120 }}   # one job per run; the weekly batch analyses every new chart record
     env:
       PYTHONUNBUFFERED: "1"
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}

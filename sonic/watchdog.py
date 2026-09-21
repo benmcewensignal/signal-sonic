@@ -24,8 +24,24 @@ API = "https://api.github.com"
 # already done the same to six deepen shards, and the fix then was to stop policing deepen,
 # which moved the bug rather than removing it. The threshold now clears the longest legitimate
 # silent step, the drain budget, with room to spare.
-STALL_MINUTES = 100
+# 100 was still inside the job's own 120-minute cap, so a silent step between the two was killed
+# as a zombie: the weekly chart batch, one long step, would have been force-cancelled 100 minutes
+# into capturing W39 on 21 September. A run is only a zombie once it outlives its own cap, which
+# means GitHub failed to end it; below that, the job timeout does the policing.
+STALL_MINUTES = 130
 STUCK_MINUTES = 135          # the job cap is 120; allow slack for setup and teardown
+WEEK_MINUTES = 250           # the weekly batch job runs to 240: it analyses every new chart record
+
+
+def _current_step(repo, rid, token):
+    try:
+        for j in _req(f"/repos/{repo}/actions/runs/{rid}/jobs", token).get("jobs", []):
+            for st in j.get("steps", []):
+                if st.get("status") == "in_progress":
+                    return st.get("name") or ""
+    except Exception:
+        pass
+    return ""
 
 
 def _req(path, token, method="GET", body=None):
@@ -69,17 +85,21 @@ def main():
         started = r.get("run_started_at") or r["created_at"]
         mins = age_minutes(started)
         silent = age_minutes(r.get("updated_at") or started)
+        stall, stuck = STALL_MINUTES, STUCK_MINUTES
+        if r["status"] == "in_progress" and (silent > stall or mins > stuck) \
+                and _current_step(a.repo, r["id"], token) == "weekly batch":
+            stall, stuck = WEEK_MINUTES, WEEK_MINUTES + 15
         # A run whose timestamp stops advancing is a zombie: GitHub still believes it is alive,
         # so it holds the concurrency group and every queued run waits behind it forever. This
         # cost a whole afternoon: the watchdog saw traffic and reported healthy. A plain cancel
         # does not clear one, so escalate to force-cancel.
-        if r["status"] == "in_progress" and silent > STALL_MINUTES:
+        if r["status"] == "in_progress" and silent > stall:
             actions.append(f"zombie #{r['run_number']} (no update for {silent:.0f} min): force-cancelling")
             if not a.dry_run:
                 _req(f"/repos/{a.repo}/actions/runs/{r['id']}/cancel", token, "POST")
                 time.sleep(5)
                 _req(f"/repos/{a.repo}/actions/runs/{r['id']}/force-cancel", token, "POST")
-        elif r["status"] == "in_progress" and mins > STUCK_MINUTES:
+        elif r["status"] == "in_progress" and mins > stuck:
             actions.append(f"cancel #{r['run_number']} (running {mins:.0f} min, cap {STUCK_MINUTES})")
             if not a.dry_run:
                 _req(f"/repos/{a.repo}/actions/runs/{r['id']}/cancel", token, "POST")
