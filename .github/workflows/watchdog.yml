@@ -56,14 +56,17 @@ jobs:
           # work behind it costs one short run.
           set +e
           NOW=$(date -u +%s)
-          for R in signal-sonic-audio:audio.yml:rhythm signal-sonic-features:features.yml:stems-shard; do
-            REPO=benmcewensignal/${R%%:*}; REST=${R#*:}; WF=${REST%%:*}; TASK=${REST#*:}
+          # features is kicked with the remeasure: separation has only the records Beatport refuses left,
+          # so kicking stems-shard restarted the wrong chain (eight records a shard, all failing).
+          for R in signal-sonic-audio:audio.yml:rhythm:60 signal-sonic-features:features.yml:stems-remeasure:90; do
+            REPO=benmcewensignal/${R%%:*}; REST=${R#*:}; WF=${REST%%:*}; REST=${REST#*:}; TASK=${REST%%:*}; QUIET=${REST#*:}
             LAST=$(gh api "repos/${REPO}/actions/runs?per_page=1" --jq '.workflow_runs[0].updated_at' 2>/dev/null)
             LIVE=$(gh api "repos/${REPO}/actions/runs?per_page=5" --jq '[.workflow_runs[] | select(.status != "completed")] | length' 2>/dev/null)
             if [ -z "$LAST" ]; then echo "${REPO}: could not read runs"; continue; fi
             AGE=$(( (NOW - $(date -u -d "$LAST" +%s)) / 60 ))
             echo "${REPO}: last run ${AGE}m ago, ${LIVE:-?} live"
-            if [ "${LIVE:-0}" = "0" ] && [ "$AGE" -gt 90 ]; then
+            # audio after an hour: its hourly cron fired 6 times in 24 slots on 21 September
+            if [ "${LIVE:-0}" = "0" ] && [ "$AGE" -gt "$QUIET" ]; then
               timeout 60 gh workflow run "$WF" --repo "$REPO" --ref main -f task="$TASK" && echo "  kicked" || echo "  could not kick (needs PIPELINE_PAT for another repo)"
             fi
           done
