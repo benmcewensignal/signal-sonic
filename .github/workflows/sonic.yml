@@ -1,5 +1,9 @@
 name: sonic
 on:
+  schedule:
+    - cron: '0 3 * * 0'
+    - cron: '0 6 * * 1,4'
+    - cron: '5 */4 * * *'
   workflow_dispatch:
     inputs:
       mode:

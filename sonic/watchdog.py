@@ -16,8 +16,15 @@ its own concurrency group, so it is never blocked by the thing it is meant to un
 import argparse, json, os, sys, time, urllib.error, urllib.request
 
 API = "https://api.github.com"
-STALL_MINUTES = 35   # a live run whose timestamp has not moved this long is a zombie. Generous: a single
-                     # long step legitimately emits nothing for a while.
+# A run's updated_at does not move while a step is working, so "no update for N minutes" is
+# not evidence of a zombie, it is evidence of a long step. At 35 this killed every queue run at
+# the moment it was proving it worked: the drain step is one job in one step with a 75 minute
+# budget, it went silent as designed, and at 35.6 minutes it was force-cancelled. Fifty-eight
+# runs since 7 September, the canon job fifty times, nothing completed since the 11th. It had
+# already done the same to six deepen shards, and the fix then was to stop policing deepen,
+# which moved the bug rather than removing it. The threshold now clears the longest legitimate
+# silent step, the drain budget, with room to spare.
+STALL_MINUTES = 100
 STUCK_MINUTES = 135          # the job cap is 120; allow slack for setup and teardown
 
 
@@ -113,10 +120,7 @@ def main():
             idle = age_minutes(others[0]["updated_at"]) if others else 999
         print(f"watchdog: {len(pending)} pending, idle {idle:.0f} min, "
               f"{len(working)} already working", flush=True)
-        # Held while the queue runner is being isolated: two runs died today in different
-        # concurrency groups, so the watchdog is not the only thing killing them and it cannot
-        # be ruled out while it is still dispatching. Set WATCHDOG_QUEUE=1 to restore it.
-        if pending and idle > 20 and os.environ.get("WATCHDOG_QUEUE") == "1":
+        if pending and idle > 20:
             actions.append(f"restart the chain: {len(pending)} job(s) pending, nothing running for {idle:.0f} min")
             if not a.dry_run:
                 r = _req(f"/repos/{a.repo}/actions/workflows/{a.workflow}/dispatches", token, "POST",
