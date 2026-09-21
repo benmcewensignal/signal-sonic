@@ -126,6 +126,9 @@ jobs:
         run: |
           set +e
           gh release download deepened --pattern sonic.db --dir /tmp/prev --clobber 2>/dev/null
+          # the untouched copy this pass started from, and which file it was, for the merged save
+          [ -f /tmp/prev/sonic.db ] && cp /tmp/prev/sonic.db /tmp/base.db
+          gh api "repos/${{ github.repository }}/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id' > /tmp/base.id 2>/dev/null
           if [ -f /tmp/prev/sonic.db ]; then
             python - <<'PY'
           import shutil, sqlite3
@@ -265,11 +268,14 @@ jobs:
           # a mixed report, missing deps, a rebase that cannot merge bytes, and permissions.
           # So the merge publishes its result and the chain picks it up. One writer.
           ls -la sonic.db
-          gh release delete deepened -y 2>/dev/null || true
-          gh release create deepened sonic.db \
-            --title "deepened database" \
-            --notes "Folded from run ${{ inputs.merge_run != '' && inputs.merge_run || github.run_id }}. The queue chain adopts this on its next run." \
-            || gh release upload deepened sonic.db --clobber
+          # Deleting and recreating the release erased whatever sonic saved while this pass ran, and
+          # left no release at all for a moment for audio and features to read. Merge and swap instead,
+          # the same save sonic uses. The very first publish, with no release to merge into, creates it.
+          if gh release view deepened --repo "${{ github.repository }}" >/dev/null 2>&1 && [ -s /tmp/base.db ]; then
+            bash scripts/release_save.sh "${{ github.repository }}" "${{ github.run_id }}" /tmp/base.db /tmp/base.id sonic.db
+          else
+            gh release create deepened sonic.db --repo "${{ github.repository }}" --title "deepened database" --notes "The corpus database. Written only by merged saves (scripts/release_save.sh)."
+          fi
           echo "published"
 
       # Chained on always() this fired after a failed merge too, so a pass whose shards all

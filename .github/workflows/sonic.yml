@@ -283,35 +283,11 @@ jobs:
           git config user.name "sonic-bot"
           git config user.email "sonic@earlysignal.live"
           STATUS="unknown"
-          # The database: this run's changes merged into whatever the release holds now, uploaded
-          # under a name only this run uses, and swapped in only if nothing else landed meanwhile.
-          R="${{ github.repository }}"; RID="${{ github.run_id }}"
+          # The database: this run's changes merged into whatever the release holds now and swapped
+          # in only if nothing else landed meanwhile (scripts/release_save.sh, shared with deepen).
+          DBSAVE=0
           if [ "$WEEKRUN" != "true" ] && [ -s sonic.db ] && [ -s /tmp/base.db ]; then
-            if cmp -s sonic.db /tmp/base.db; then echo "database: unchanged by this run"
-            else
-              DBSTATUS="NOT SAVED"
-              for j in 1 2 3 4 5; do
-                CUR=$(gh api "repos/$R/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id')
-                rm -rf /tmp/now; mkdir -p /tmp/now /tmp/up; rm -f /tmp/up/*
-                if [ -n "$CUR" ] && [ "$CUR" = "$(cat /tmp/base.id 2>/dev/null)" ]; then
-                  cp sonic.db "/tmp/up/sonic.db.$RID"; echo "database: nothing else landed since this run began"
-                else
-                  gh release download deepened --repo "$R" --pattern sonic.db --dir /tmp/now --clobber || { sleep 15; continue; }
-                  python -m sonic.db_merge --base /tmp/base.db --ours sonic.db --theirs /tmp/now/sonic.db --out "/tmp/up/sonic.db.$RID" || { sleep 15; continue; }
-                fi
-                gh release upload deepened "/tmp/up/sonic.db.$RID" --repo "$R" --clobber || { sleep 15; continue; }
-                NEW=$(gh api "repos/$R/releases/tags/deepened" --jq ".assets[] | select(.name==\"sonic.db.$RID\") | .id")
-                NOW=$(gh api "repos/$R/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id')
-                if [ "$NOW" != "$CUR" ]; then
-                  echo "another save landed during ours; merging again"
-                  gh api -X DELETE "repos/$R/releases/assets/$NEW" >/dev/null; sleep 5; continue
-                fi
-                [ -n "$NOW" ] && gh api -X DELETE "repos/$R/releases/assets/$NOW" >/dev/null
-                if gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=sonic.db >/dev/null; then DBSTATUS="saved to the release on attempt $j"; break; fi
-              done
-              echo "database: $DBSTATUS"
-              [ "$DBSTATUS" = "NOT SAVED" ] && echo "::error::this run's database changes were not saved"
-            fi
+            bash scripts/release_save.sh "${{ github.repository }}" "${{ github.run_id }}" /tmp/base.db /tmp/base.id sonic.db || DBSAVE=1
           fi
           # copy the outputs aside, take whatever main has become, put them back.
           # never stash/pop: a pop conflict leaves markers and we then commit them.
@@ -339,7 +315,7 @@ jobs:
             sleep $((i*10))
           done
           echo "persist: $STATUS"
-          exit 0
+          exit $DBSAVE
 
       - name: next job (chain a follow-up run while work remains)
         if: always() && (github.event_name == 'workflow_dispatch' && inputs.mode == 'queue')
