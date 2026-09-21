@@ -29,6 +29,32 @@ def main():
             pass
     lacking = [r[0] for r in c.execute("""select t.track_id from tracks t left join track_meta m on m.track_id=t.track_id
                                            where m.track_id is null and t.track_id like 'bp:%' order by t.rowid desc""")]
+    # "newest first" by rowid was oldest first in practice, because records arrive in batches
+    # by month and the early months were inserted first. Named coverage came out as 100 per
+    # cent of 2024, 37 of 2025, 21 of 2026, and four scenes at eight per cent against forty
+    # for the rest, so every artist finding leant on two-year-old records and barely saw
+    # organic house, indie dance, psy-trance or progressive. Rotate by scene and month, the
+    # way the remeasure now does, so each pass names an even slice and the thin cells fill
+    # first rather than last.
+    cell = {}
+    for t, sc, wk in c.execute("select track_id, scene, week from track_scenes where week like '____-M__'"):
+        cell.setdefault(t, (sc, wk))
+    named_by = {}
+    for (sc, wk), n in c.execute("""select ts.scene, ts.week, count(*) from track_scenes ts
+                                     join track_meta m on m.track_id = ts.track_id
+                                     where ts.week like '____-M__' group by ts.scene, ts.week"""):
+        named_by[(sc, wk)] = n
+    pools = {}
+    for t in lacking:
+        pools.setdefault(cell.get(t, ("?", "?")), []).append(t)
+    # thinnest cells first: the ones with the fewest named records already
+    order = sorted(pools, key=lambda k: named_by.get(k, 0))
+    rot = []
+    while any(pools[k] for k in order):
+        for k in order:
+            if pools[k]:
+                rot.append(pools[k].pop(0))
+    lacking = rot
     todo = [t for t in lacking if t in prio] + [t for t in lacking if t not in prio]
     todo = todo[:a.limit]
     remaining = c.execute("""select count(*) from tracks t left join track_meta m on m.track_id=t.track_id
