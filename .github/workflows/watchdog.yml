@@ -30,23 +30,21 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
-          # The weekly batch is on a Sunday 03:00 cron and there is not one scheduled run of it
-          # in the last hundred: GitHub dropped every one. That is why the corpus still holds
-          # W35 and W36 in week 38, and why the chart holdout test has never had a fresh week
-          # to run against. Do not trust the cron: check whether it has happened.
+          # This used to act only on Sundays, and only when no sonic run at all had happened in
+          # twenty hours, which never happens: the four-hourly cron and the queue chain are always
+          # running. So it never dispatched, and the Sunday 03:00 cron itself did not fire on 6, 13
+          # or 20 September. W37 and W38 were lost for good: the chart is a snapshot of today.
+          # Ask the question that matters, every day: is this week's chart file on main?
           set +e
-          DOW=$(date -u +%u)
-          if [ "$DOW" -lt 7 ]; then echo "not Sunday (day $DOW), leaving the weekly batch alone"; exit 0; fi
-          SINCE=$(date -u -d '20 hours ago' +%Y-%m-%dT%H:%M:%SZ)
-          N=$(gh api "repos/${{ github.repository }}/actions/runs?per_page=40" \
-              --jq "[.workflow_runs[] | select(.name==\"sonic\") | select(.created_at > \"$SINCE\")] | length" 2>/dev/null)
-          echo "sonic runs in the last twenty hours: ${N:-unknown}"
-          if [ "${N:-0}" = "0" ]; then
-            timeout 60 gh workflow run sonic.yml --ref main -f mode=week && echo "weekly batch dispatched" || echo "could not dispatch the weekly batch"
+          WEEK=$(date -u +%G-W%V)
+          if gh api "repos/${{ github.repository }}/contents/data/weeks/$WEEK.json.gz?ref=main" --silent 2>/dev/null; then
+            echo "$WEEK is captured"
           else
-            echo "something has already run today; not adding to the concurrency group"
+            echo "$WEEK is not captured yet: dispatching the weekly batch"
+            timeout 60 gh workflow run sonic.yml --ref main -f mode=week && echo "weekly batch dispatched" || echo "could not dispatch the weekly batch"
           fi
           exit 0
+
       - name: wake the other pipelines if their cron has gone quiet
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
