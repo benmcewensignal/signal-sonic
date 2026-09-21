@@ -305,6 +305,8 @@ jobs:
             fi
             git fetch -q origin main
             git reset -q --hard origin/main
+            # the done log is merged, not copied: a run's older copy used to delete main's newer lines
+            [ -f /tmp/out/queue/done.json ] && python -m sonic.done_merge --main queue/done.json --ours /tmp/out/queue/done.json --out /tmp/out/queue/done.json
             cp -a /tmp/out/data /tmp/out/queue . 2>/dev/null
             cp -a /tmp/out/backfill-report.md /tmp/out/backfill-report.json /tmp/out/CLAIMS.md . 2>/dev/null
             git add -A data queue backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null
