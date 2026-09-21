@@ -275,6 +275,8 @@ jobs:
       - name: persist database
         if: always() && (github.event_name == 'schedule' || github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         env:
+          # without it every gh call below failed and the first release save reported NOT SAVED
+          GH_TOKEN: ${{ github.token }}
           WEEKRUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.mode == 'week') || github.event.schedule == '0 3 * * 0' }}
         run: |
           set +e
