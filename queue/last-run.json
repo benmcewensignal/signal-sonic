@@ -1,34 +1,49 @@
 {
- "ran": "2026-09-21T09:33:09Z",
+ "ran": "2026-09-21T10:11:13Z",
  "log": [
   {
-   "cmd": "before reanalyse: free disk 90.8 GB",
+   "cmd": "before metadata: free disk 90.8 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 6000 --budget-minutes 54",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.metadata --db sonic.db --limit 3000",
    "rc": 0,
-   "minutes": 15.4,
+   "minutes": 27.3,
    "tail": [
-    "reanalyse: 343 tracks on an older version (target 2.9+367e9ded)",
-    "  bp:24462239: no preview url",
-    "  bp:19688209: no preview url",
-    "  bp:19796509: no preview url",
-    "reanalyse: 131 done, 212 failed, 77 still on the old version"
+    "  700/3000 ok=698 err=2 372s",
+    "  800/3000 ok=798 err=2 432s",
+    "  900/3000 ok=898 err=2 485s",
+    "  1000/3000 ok=998 err=2 539s",
+    "  1100/3000 ok=1098 err=2 590s",
+    "  1200/3000 ok=1197 err=3 641s",
+    "  1300/3000 ok=1294 err=6 691s",
+    "  1400/3000 ok=1393 err=7 741s",
+    "  1500/3000 ok=1493 err=7 796s",
+    "  1600/3000 ok=1593 err=7 853s",
+    "  1700/3000 ok=1693 err=7 918s",
+    "  1800/3000 ok=1793 err=7 986s",
+    "  1900/3000 ok=1891 err=9 1040s",
+    "  2000/3000 ok=1991 err=9 1092s",
+    "  2100/3000 ok=2090 err=10 1141s",
+    "  2200/3000 ok=2190 err=10 1192s",
+    "  2300/3000 ok=2290 err=10 1243s",
+    "  2400/3000 ok=2390 err=10 1292s",
+    "  2500/3000 ok=2489 err=11 1344s",
+    "  2600/3000 ok=2589 err=11 1406s",
+    "  2700/3000 ok=2689 err=11 1475s",
+    "  2800/3000 ok=2789 err=11 1526s",
+    "  2900/3000 ok=2889 err=11 1580s",
+    "  3000/3000 ok=2989 err=11 1634s",
+    "metadata: done ok=2989 err=11; 29482 still lacking (dispatch again)"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job reanalyse --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job metadata --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
     "validation: ok"
    ]
-  },
-  {
-   "cmd": "reanalyse: work remains, job stays queued",
-   "rc": 0
   }
  ]
 }
