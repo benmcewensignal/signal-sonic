@@ -1,49 +1,28 @@
 {
- "ran": "2026-09-21T08:11:37Z",
+ "ran": "2026-09-21T08:40:48Z",
  "log": [
   {
-   "cmd": "before encoding-check: free disk 90.8 GB",
+   "cmd": "before reanalyse: free disk 90.8 GB",
    "rc": 0
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.encoding_check --db sonic.db --n 300",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 6000 --budget-minutes 54",
    "rc": 0,
-   "minutes": 37.9,
+   "minutes": 18.8,
    "tail": [
-    "    overlap: 288",
-    "  25 re-measured",
-    "  50 re-measured",
-    "  75 re-measured",
-    "  100 re-measured",
-    "  125 re-measured",
-    "  150 re-measured",
-    "  175 re-measured",
-    "  200 re-measured",
-    "  225 re-measured",
-    "  250 re-measured",
-    "  275 re-measured",
-    "  exactly zero: 132 of 288   above zero: 156",
-    "  max 0.000000   99th percentile 0.000000",
-    "",
-    "288 records re-measured with the same analyser",
-    "  median change in a record that cannot have changed: 0.00000",
-    "    timbre     0.00000",
-    "    movement   0.00000",
-    "    harmony    0.00000",
-    "    texture    0.00000",
-    "",
-    "  first measured before Sep 2025: 0.00000",
-    "  first measured after:            0.00000",
-    "  an encoding change would make the older ones differ more."
+    "reanalyse: 343 tracks on an older version (target 2.9+367e9ded)",
+    "  bp:24462239: no preview url",
+    "  bp:19688209: no preview url",
+    "  bp:19796509: no preview url",
+    "reanalyse: 131 done, 212 failed, 77 still on the old version"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job encoding-check --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job reanalyse --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "validation note: encoding-check compared 288 records",
-    "validation note: encoding-check has no growth check: its success cannot be verified",
+    "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
     "validation: ok"
    ]
   }
