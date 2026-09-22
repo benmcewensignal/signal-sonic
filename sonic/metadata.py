@@ -40,7 +40,7 @@ def main():
     for t, sc, wk in c.execute("select track_id, scene, week from track_scenes where week like '____-M__'"):
         cell.setdefault(t, (sc, wk))
     named_by = {}
-    for (sc, wk), n in c.execute("""select ts.scene, ts.week, count(*) from track_scenes ts
+    for sc, wk, n in c.execute("""select ts.scene, ts.week, count(*) from track_scenes ts
                                      join track_meta m on m.track_id = ts.track_id
                                      where ts.week like '____-M__' group by ts.scene, ts.week"""):
         named_by[(sc, wk)] = n
