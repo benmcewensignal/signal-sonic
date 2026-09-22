@@ -1,0 +1,11 @@
+{
+ "trained_on": [
+  "2026-W36"
+ ],
+ "tested_on": "2026-W39",
+ "charted_in_test": 2000,
+ "uncharted_in_test": 3177,
+ "auc": 0.6838,
+ "shuffled": 0.5028,
+ "verdict": "holds"
+}
