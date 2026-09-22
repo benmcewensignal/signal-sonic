@@ -26,7 +26,7 @@ if [ "$cmd" = save ]; then
   N=$(ls /tmp/fps | wc -l); echo "fpstore: $(du -m "$F" | cut -f1) MB as $N compressed part(s), $(du -cm /tmp/fps/* | tail -1 | cut -f1) MB"
   for p in /tmp/fps/*; do
     ok=0; for i in 1 2 3; do gh release upload fp-store "$p" --repo "$R" --clobber && { ok=1; break; }; sleep 20; done
-    if [ $ok = 0 ]; then echo "fpstore: part $(basename "$p") failed; removing this set"; ids "^fpstore-$SET\\\\." | while read id n; do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done; exit 1; fi
+    if [ $ok = 0 ]; then echo "fpstore: part $(basename "$p") failed; removing this set"; for id in $(pre "fpstore-$SET."); do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done; exit 1; fi
   done
   OLDSET=$(gh release download fp-store --repo "$R" --pattern fpstore.current --output - 2>/dev/null | cut -d' ' -f1)
   echo "$SET $N" > "/tmp/fps/fpstore.current.$SET"
@@ -34,8 +34,9 @@ if [ "$cmd" = save ]; then
   for id in $(exact fpstore.current); do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
   NEW=$(exact "fpstore.current.$SET"); [ -n "$NEW" ] || { echo "fpstore: new pointer not found"; exit 1; }
   gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=fpstore.current >/dev/null || exit 1
-  [ -n "$OLDSET" ] && [ "$OLDSET" != "$SET" ] && ids "^fpstore-$OLDSET\\\\." | while read id n; do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
-  ids '^fingerprints\\.db' | while read id n; do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
+  if [ -n "$OLDSET" ] && [ "$OLDSET" != "$SET" ]; then for id in $(pre "fpstore-$OLDSET."); do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done; fi
+  for id in $(exact fingerprints.db); do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
+  for id in $(pre "fpstore.current."); do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
   echo "fpstore: set $SET is current"; exit 0
 fi
 exit 2
