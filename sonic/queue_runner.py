@@ -288,8 +288,13 @@ def main():
                 pass
             done.append({"file": os.path.basename(f) + "#attempt", "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
             json.dump(done, open(done_path, "w"), indent=1)
+            print(f"::warning::queue job {os.path.basename(f)} ({mode}) failed with code {rc}; it will be retried once", flush=True)
             print(f"job failed (rc {rc}); it will be retried once", flush=True)
             continue
+        if rc:
+            # A failing job used to leave a green run and a number that quietly stopped moving: the
+            # naming job raised on its own first query on 21 September and nothing showed for a day.
+            print(f"::error::queue job {os.path.basename(f)} ({mode}) failed with code {rc}", flush=True)
         # the claim did its job; a finished run does not need to count against the retry
         try:
             done.remove(_claim)
