@@ -1,32 +1,6 @@
 {
- "ran": "2026-09-22T16:27:49Z",
+ "ran": "2026-09-22T17:34:29Z",
  "log": [
-  {
-   "cmd": "before reanalyse: free disk 90.1 GB",
-   "rc": 0
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 400 --budget-minutes 54",
-   "rc": 0,
-   "minutes": 0.9,
-   "tail": [
-    "reanalyse: 212 tracks on an older version (target 2.9+367e9ded)",
-    "  bp:24462239: no preview url",
-    "  bp:19688209: no preview url",
-    "  bp:19796509: no preview url",
-    "reanalyse: 0 done, 212 failed, 77 still on the old version",
-    "nothing converted: the records left have no preview, so this job is finished"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job reanalyse --before /tmp/before.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
-    "validation: ok"
-   ]
-  },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
@@ -96,7 +70,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
    "rc": 0,
-   "minutes": 0.1,
+   "minutes": 0.0,
    "tail": [
     "{",
     " \"versions\": {",
@@ -204,10 +178,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.3,
+   "minutes": 3.3,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-22T16:26:11Z\",",
+    " \"generated\": \"2026-09-22T17:32:53Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -232,7 +206,7 @@
    "minutes": 1.6,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-22T16:27:48Z\",",
+    " \"generated\": \"2026-09-22T17:34:29Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
