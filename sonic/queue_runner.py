@@ -84,8 +84,17 @@ def main():
     except Exception as e:
         print(f"adopt: {type(e).__name__}: {str(e)[:80]}", flush=True)
 
+    # A reset gives a parked job a fresh start without erasing its history: attempts made before its
+    # latest '#reset' no longer count. Used on 22 September for jobs parked while every run started
+    # from the frozen 16 September copy of the database, which lacked most of the records they needed.
+    resets = {}
     for d in done:
-        if d["file"].endswith("#attempt"): fails[d["file"][:-8]] = fails.get(d["file"][:-8], 0) + 1
+        if d["file"].endswith("#reset"): resets[d["file"][:-6]] = max(resets.get(d["file"][:-6], ""), d.get("started", ""))
+    for d in done:
+        if d["file"].endswith("#attempt"):
+            base = d["file"][:-8]
+            if base in resets and (d.get("started") or "") <= resets[base]: continue
+            fails[base] = fails.get(base, 0) + 1
     # one-shot jobs first in filename order; jobs that keep requeuing themselves take turns,
     # least-recently-run first, so two long conversions interleave instead of one hogging the chain
     last_ran = {}

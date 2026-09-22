@@ -118,7 +118,9 @@ def main():
     # it and the weekly dispatches waiting behind it made the chain look alive, so the watchdog
     # never restarted a chain that had stopped. Runs are titled by mode (sonic.yml run-name).
     def _week(r):
-        return (r.get("display_title") or "").strip() in ("sonic week", "sonic 0 3 * * 0")
+        # only a queue run is the queue chain: a weekly run or the fingerprint rebuild chain running
+        # alongside it must not make a stopped queue chain look alive
+        return (r.get("display_title") or "").strip() != "sonic queue"
     still_live = [r for r in live if not _week(r) and r["status"] in ("in_progress", "queued", "pending")
                   and age_minutes(r.get("updated_at") or r.get("run_started_at") or r["created_at"]) <= STALL_MINUTES
                   and age_minutes(r.get("run_started_at") or r["created_at"]) <= STUCK_MINUTES]
