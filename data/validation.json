@@ -1,6 +1,6 @@
 {
- "ran": "2026-09-22T13:31:47Z",
- "job": "metadata",
+ "ran": "2026-09-22T14:25:35Z",
+ "job": "encoding-check",
  "before": {
   "tracks": 51761,
   "v2": 51684,
@@ -27,7 +27,8 @@
  },
  "failures": [],
  "notes": [
-  "metadata ran but none of ['named'] grew: check its log for why"
+  "encoding-check compared 288 records",
+  "encoding-check has no growth check: its success cannot be verified"
  ],
  "ok": true
 }
