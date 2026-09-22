@@ -1,6 +1,32 @@
 {
- "ran": "2026-09-22T06:07:47Z",
+ "ran": "2026-09-22T13:16:05Z",
  "log": [
+  {
+   "cmd": "before reanalyse: free disk 90.1 GB",
+   "rc": 0
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reanalyse --db sonic.db --limit 3000 --budget-minutes 54",
+   "rc": 0,
+   "minutes": 0.6,
+   "tail": [
+    "reanalyse: 212 tracks on an older version (target 2.9+367e9ded)",
+    "  bp:24462239: no preview url",
+    "  bp:19688209: no preview url",
+    "  bp:19796509: no preview url",
+    "reanalyse: 0 done, 212 failed, 77 still on the old version",
+    "nothing converted: the records left have no preview, so this job is finished"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job reanalyse --before /tmp/before.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "validation note: reanalyse ran but none of ['v2'] grew: check its log for why",
+    "validation: ok"
+   ]
+  },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
@@ -24,7 +50,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "{",
     " \"scenes\": 20,",
@@ -46,7 +72,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "{",
     " \"scenes\": 20,",
@@ -178,10 +204,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 3.1,
+   "minutes": 4.0,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-22T06:06:43Z\",",
+    " \"generated\": \"2026-09-22T13:14:55Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -203,10 +229,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.0,
+   "minutes": 1.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-22T06:07:47Z\",",
+    " \"generated\": \"2026-09-22T13:16:04Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
