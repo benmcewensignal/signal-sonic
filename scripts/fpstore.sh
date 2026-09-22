@@ -7,7 +7,8 @@
 #   fpstore.sh save  <repo> <in.db> <set-id>   exits 0 only if the new set is in place
 set -u
 cmd="$1"; R="$2"; F="$3"
-ids(){ gh api "repos/$R/releases/tags/fp-store" --jq ".assets[] | select(.name|test(\"$1\")) | \"\(.id) \(.name)\"" 2>/dev/null; }
+pre(){ gh api "repos/$R/releases/tags/fp-store" --jq ".assets[] | select(.name|startswith(\"$1\")) | .id" 2>/dev/null; }
+exact(){ gh api "repos/$R/releases/tags/fp-store" --jq ".assets[] | select(.name==\"$1\") | .id" 2>/dev/null; }
 if [ "$cmd" = fetch ]; then
   rm -rf /tmp/fpf; mkdir -p /tmp/fpf
   if gh release download fp-store --repo "$R" --pattern fpstore.current --dir /tmp/fpf --clobber 2>/dev/null && [ -s /tmp/fpf/fpstore.current ]; then
@@ -30,8 +31,9 @@ if [ "$cmd" = save ]; then
   OLDSET=$(gh release download fp-store --repo "$R" --pattern fpstore.current --output - 2>/dev/null | cut -d' ' -f1)
   echo "$SET $N" > "/tmp/fps/fpstore.current.$SET"
   gh release upload fp-store "/tmp/fps/fpstore.current.$SET" --repo "$R" --clobber || exit 1
-  ids '^fpstore\\.current$' | while read id n; do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
-  NEW=$(ids "^fpstore\\.current\\.$SET$" | cut -d' ' -f1); gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=fpstore.current >/dev/null || exit 1
+  for id in $(exact fpstore.current); do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
+  NEW=$(exact "fpstore.current.$SET"); [ -n "$NEW" ] || { echo "fpstore: new pointer not found"; exit 1; }
+  gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=fpstore.current >/dev/null || exit 1
   [ -n "$OLDSET" ] && [ "$OLDSET" != "$SET" ] && ids "^fpstore-$OLDSET\\\\." | while read id n; do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
   ids '^fingerprints\\.db' | while read id n; do gh api -X DELETE "repos/$R/releases/assets/$id" >/dev/null; done
   echo "fpstore: set $SET is current"; exit 0
