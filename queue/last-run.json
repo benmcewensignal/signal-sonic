@@ -1,50 +1,6 @@
 {
- "ran": "2026-09-22T23:02:28Z",
+ "ran": "2026-09-22T23:10:33Z",
  "log": [
-  {
-   "cmd": "before metadata: free disk 90.0 GB",
-   "rc": 0
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.metadata --db sonic.db --limit 6000",
-   "rc": 0,
-   "minutes": 55.5,
-   "tail": [
-    "  3700/6000 ok=3671 err=29 2048s",
-    "  3800/6000 ok=3771 err=29 2101s",
-    "  3900/6000 ok=3870 err=30 2155s",
-    "  4000/6000 ok=3969 err=31 2210s",
-    "  4100/6000 ok=4069 err=31 2261s",
-    "  4200/6000 ok=4168 err=32 2313s",
-    "  4300/6000 ok=4268 err=32 2366s",
-    "  4400/6000 ok=4367 err=33 2424s",
-    "  4500/6000 ok=4467 err=33 2483s",
-    "  4600/6000 ok=4567 err=33 2564s",
-    "  4700/6000 ok=4666 err=34 2627s",
-    "  4800/6000 ok=4766 err=34 2683s",
-    "  4900/6000 ok=4866 err=34 2739s",
-    "  5000/6000 ok=4966 err=34 2797s",
-    "  5100/6000 ok=5066 err=34 2851s",
-    "  5200/6000 ok=5165 err=35 2902s",
-    "  5300/6000 ok=5262 err=38 2953s",
-    "  5400/6000 ok=5361 err=39 3009s",
-    "  5500/6000 ok=5461 err=39 3059s",
-    "  5600/6000 ok=5559 err=41 3111s",
-    "  5700/6000 ok=5658 err=42 3163s",
-    "  5800/6000 ok=5758 err=42 3220s",
-    "  5900/6000 ok=5857 err=43 3273s",
-    "  6000/6000 ok=5955 err=45 3326s",
-    "metadata: done ok=5955 err=45; 27761 still lacking (dispatch again)"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job metadata --before /tmp/before.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "validation: ok"
-   ]
-  },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
@@ -90,7 +46,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "{",
     " \"scenes\": 20,",
@@ -114,7 +70,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "{",
     " \"versions\": {",
@@ -222,10 +178,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.3,
+   "minutes": 4.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-22T23:00:49Z\",",
+    " \"generated\": \"2026-09-22T23:09:06Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -247,10 +203,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.6,
+   "minutes": 1.4,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-22T23:02:27Z\",",
+    " \"generated\": \"2026-09-22T23:10:33Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
