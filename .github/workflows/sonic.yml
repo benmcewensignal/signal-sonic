@@ -140,7 +140,16 @@ jobs:
             echo "FP_MB=${SZ}" >> $GITHUB_ENV
             N=$(python -c "import sqlite3;print(sqlite3.connect('fingerprints.db').execute('select count(*) from fp_tracks').fetchone()[0])" 2>/dev/null || echo 0)
             echo "store fetched ${SZ} MB, ${N} tracks indexed"
+            echo "FP_N=${N}" >> $GITHUB_ENV
             if [ "$N" -eq 0 ]; then echo "::error::fingerprint store is empty - scans would match nothing"; exit 1; fi
+          elif [ -z "$(gh api "repos/${{ github.repository }}/releases/tags/fp-store" --jq '.assets[] | select(.name=="fingerprints.db") | .id' 2>/dev/null)" ] \
+               && gh api "repos/${{ github.repository }}/releases/tags/fp-store" --silent 2>/dev/null; then
+            # The release exists and holds no store: on 21 September a save deleted the 1.74 GB store
+            # and then failed to upload its replacement. Start a new one and rebuild it. This runs only
+            # when the release is confirmed empty, never on a failed download, or a network blip could
+            # start a small store that then replaced a good one.
+            echo "FP_MB=0" >> $GITHUB_ENV
+            echo "::warning::the fingerprint store is missing from its release; starting a new one to rebuild"
           else
             echo "FP_MB=0" >> $GITHUB_ENV
             echo "::error::no fingerprint store could be downloaded"
@@ -263,7 +272,24 @@ jobs:
               echo "::warning::local store ${SZ}MB is smaller than the fetched ${FP_MB}MB - not uploading"
             else
               gh release create fp-store --notes "fingerprint index (release asset: too large for git)" 2>/dev/null || true
-              gh release upload fp-store fingerprints.db --clobber
+              # Upload under a name only this run uses, then swap. 'upload --clobber' deletes the old file
+              # before uploading the new one, so an upload that failed on 21 September left no store at all.
+              R="${{ github.repository }}"; TMP="fingerprints.db.${{ github.run_id }}"
+              cp fingerprints.db "/tmp/$TMP"
+              if gh release upload fp-store "/tmp/$TMP" --repo "$R" --clobber; then
+                NEW=$(gh api "repos/$R/releases/tags/fp-store" --jq ".assets[] | select(.name==\"$TMP\") | .id")
+                OLD=$(gh api "repos/$R/releases/tags/fp-store" --jq '.assets[] | select(.name=="fingerprints.db") | .id')
+                [ -n "$OLD" ] && gh api -X DELETE "repos/$R/releases/assets/$OLD" >/dev/null
+                gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=fingerprints.db >/dev/null && echo "fingerprint store saved (${SZ} MB)"
+              else
+                echo "::error::fingerprint store upload failed; the previous store is untouched"
+              fi
+              # while the store is short of the corpus, book the next rebuild run
+              NFP=$(python -c "import sqlite3;print(sqlite3.connect('fingerprints.db').execute('select count(*) from fp_tracks').fetchone()[0])" 2>/dev/null || echo 0)
+              echo "fingerprint store holds $NFP records"
+              if [ "$NFP" -lt 45000 ] && [ "$NFP" -gt "$(( ${FP_N:-0} ))" ]; then
+                timeout 60 gh workflow run sonic.yml --ref main -f mode=reindex && echo "next rebuild run booked"
+              fi
           # The store growing does nothing for Listen until the index is rebuilt from it, and the
           # rebuild lives in another repository. Ask for it here, so a fingerprint run finishes by
           # putting its own work in front of users.
