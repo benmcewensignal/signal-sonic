@@ -1,4 +1,7 @@
 name: sonic
+# the mode in the run's title, so the watchdog can tell a queue run from a weekly one even while it
+# is still pending: counting a pending weekly run as the queue chain kept the chain stopped
+run-name: sonic ${{ inputs.mode || github.event.schedule || github.event_name }}
 on:
   schedule:
     - cron: '0 3 * * 0'

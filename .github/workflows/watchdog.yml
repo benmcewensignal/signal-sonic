@@ -39,6 +39,8 @@ jobs:
           WEEK=$(date -u +%G-W%V)
           if gh api "repos/${{ github.repository }}/contents/data/weeks/$WEEK.json.gz?ref=main" --silent 2>/dev/null; then
             echo "$WEEK is captured"
+          elif [ "$(gh api "repos/${{ github.repository }}/actions/runs?per_page=40" --jq '[.workflow_runs[] | select(.display_title=="sonic week") | select(.status!="completed")] | length' 2>/dev/null)" != "0" ]; then
+            echo "$WEEK is being captured by a run already under way"
           else
             echo "$WEEK is not captured yet: dispatching the weekly batch"
             timeout 60 gh workflow run sonic.yml --ref main -f mode=week && echo "weekly batch dispatched" || echo "could not dispatch the weekly batch"

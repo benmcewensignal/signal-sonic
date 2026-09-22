@@ -114,7 +114,12 @@ def main():
     # watchdog dispatched on top of a run already waiting in the concurrency group, and with
     # cancel-in-progress false GitHub cancels the one in the middle. Every sonic run in the
     # last three hours came out cancelled, including one killed during "persist database".
-    still_live = [r for r in live if r["status"] in ("in_progress", "queued", "pending")
+    # A weekly chart run is not the queue chain. It can run for hours, and while W39 was captured
+    # it and the weekly dispatches waiting behind it made the chain look alive, so the watchdog
+    # never restarted a chain that had stopped. Runs are titled by mode (sonic.yml run-name).
+    def _week(r):
+        return (r.get("display_title") or "").strip() in ("sonic week", "sonic 0 3 * * 0")
+    still_live = [r for r in live if not _week(r) and r["status"] in ("in_progress", "queued", "pending")
                   and age_minutes(r.get("updated_at") or r.get("run_started_at") or r["created_at"]) <= STALL_MINUTES
                   and age_minutes(r.get("run_started_at") or r["created_at"]) <= STUCK_MINUTES]
     if not still_live:
@@ -133,7 +138,7 @@ def main():
         # why every queue job since yesterday has been claimed, killed around the forty minute
         # mark and claimed again: canon fifty times, then the metadata job three. A run that is
         # in progress or queued is not idle whatever its timestamp says.
-        working = [r for r in others if r.get("status") in ("in_progress", "queued", "pending")]
+        working = [r for r in others if r.get("status") in ("in_progress", "queued", "pending") and not _week(r)]
         if working:
             idle = 0.0
         else:
