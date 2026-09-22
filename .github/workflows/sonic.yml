@@ -133,8 +133,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release download fp-store --pattern fingerprints.db --clobber --dir . || \
-            gh release download fp-store -p fingerprints.db -O fingerprints.db || true
+          # compressed parts under the 2 GiB cap, or the old single file (scripts/fpstore.sh)
+          bash scripts/fpstore.sh fetch "${{ github.repository }}" fingerprints.db || true
           if [ -f fingerprints.db ]; then
             SZ=$(du -m fingerprints.db | cut -f1)
             echo "FP_MB=${SZ}" >> $GITHUB_ENV
@@ -142,7 +142,7 @@ jobs:
             echo "store fetched ${SZ} MB, ${N} tracks indexed"
             echo "FP_N=${N}" >> $GITHUB_ENV
             if [ "$N" -eq 0 ]; then echo "::error::fingerprint store is empty - scans would match nothing"; exit 1; fi
-          elif [ -z "$(gh api "repos/${{ github.repository }}/releases/tags/fp-store" --jq '.assets[] | select(.name=="fingerprints.db") | .id' 2>/dev/null)" ] \
+          elif [ -z "$(gh api "repos/${{ github.repository }}/releases/tags/fp-store" --jq '.assets[] | select(.name=="fingerprints.db" or .name=="fpstore.current") | .id' 2>/dev/null)" ] \
                && gh api "repos/${{ github.repository }}/releases/tags/fp-store" --silent 2>/dev/null; then
             # The release exists and holds no store: on 21 September a save deleted the 1.74 GB store
             # and then failed to upload its replacement. Start a new one and rebuild it. This runs only
@@ -272,28 +272,26 @@ jobs:
               echo "::warning::local store ${SZ}MB is smaller than the fetched ${FP_MB}MB - not uploading"
             else
               gh release create fp-store --notes "fingerprint index (release asset: too large for git)" 2>/dev/null || true
-              # Upload under a name only this run uses, then swap. 'upload --clobber' deletes the old file
-              # before uploading the new one, so an upload that failed on 21 September left no store at all.
-              R="${{ github.repository }}"; TMP="fingerprints.db.${{ github.run_id }}"
-              cp fingerprints.db "/tmp/$TMP"
-              if gh release upload fp-store "/tmp/$TMP" --repo "$R" --clobber; then
-                NEW=$(gh api "repos/$R/releases/tags/fp-store" --jq ".assets[] | select(.name==\"$TMP\") | .id")
-                OLD=$(gh api "repos/$R/releases/tags/fp-store" --jq '.assets[] | select(.name=="fingerprints.db") | .id')
-                [ -n "$OLD" ] && gh api -X DELETE "repos/$R/releases/assets/$OLD" >/dev/null
-                gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=fingerprints.db >/dev/null && echo "fingerprint store saved (${SZ} MB)"
+              # The store outgrew GitHub's 2 GiB per-file cap on 22 September, and every save after 11:14
+              # failed; each rebuild run then redid the same records from the old store and booked
+              # another. It is now kept as compressed parts with a pointer, swapped in whole.
+              SAVED=0
+              if bash scripts/fpstore.sh save "${{ github.repository }}" fingerprints.db "${{ github.run_id }}"; then
+                SAVED=1; echo "fingerprint store saved (${SZ} MB)"
               else
-                echo "::error::fingerprint store upload failed; the previous store is untouched"
+                echo "::error::fingerprint store save failed; the previous store is untouched"
               fi
               # while the store is short of the corpus, book the next rebuild run
               NFP=$(python -c "import sqlite3;print(sqlite3.connect('fingerprints.db').execute('select count(*) from fp_tracks').fetchone()[0])" 2>/dev/null || echo 0)
               echo "fingerprint store holds $NFP records"
-              if [ "$NFP" -lt 45000 ] && [ "$NFP" -gt "$(( ${FP_N:-0} ))" ]; then
+              # only after a save that landed: otherwise the next run starts from the same old store
+              if [ "$SAVED" = 1 ] && [ "$NFP" -lt 45000 ] && [ "$NFP" -gt "$(( ${FP_N:-0} ))" ]; then
                 timeout 60 gh workflow run sonic.yml --ref main -f mode=reindex && echo "next rebuild run booked"
               fi
           # The store growing does nothing for Listen until the index is rebuilt from it, and the
           # rebuild lives in another repository. Ask for it here, so a fingerprint run finishes by
           # putting its own work in front of users.
-          if [ -n "${{ secrets.PIPELINE_PAT }}" ]; then
+          if [ -n "${{ secrets.PIPELINE_PAT }}" ] && [ "${SAVED:-0}" = 1 ]; then
             GH_TOKEN="${{ secrets.PIPELINE_PAT }}" timeout 60 gh workflow run audio.yml --repo benmcewensignal/signal-sonic-audio --ref main -f task=full-index \
               && echo "index rebuild requested" || echo "could not request the index rebuild"
           fi
