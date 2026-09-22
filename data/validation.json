@@ -1,9 +1,9 @@
 {
- "ran": "2026-09-22T02:10:47Z",
- "job": "reanalyse",
+ "ran": "2026-09-22T12:56:02Z",
+ "job": "metadata",
  "before": {
-  "tracks": 50482,
-  "v2": 50405,
+  "tracks": 51761,
+  "v2": 51684,
   "v3": 1750,
   "named": 17938,
   "plays": 1316,
@@ -14,8 +14,8 @@
   "aliases": null
  },
  "after": {
-  "tracks": 50482,
-  "v2": 50405,
+  "tracks": 51761,
+  "v2": 51684,
   "v3": 1750,
   "named": 17938,
   "plays": 1316,
@@ -27,7 +27,7 @@
  },
  "failures": [],
  "notes": [
-  "reanalyse ran but none of ['v2'] grew: check its log for why"
+  "metadata ran but none of ['named'] grew: check its log for why"
  ],
  "ok": true
 }
