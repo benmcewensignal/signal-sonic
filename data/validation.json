@@ -1,6 +1,6 @@
 {
- "ran": "2026-09-22T15:50:44Z",
- "job": "reanalyse",
+ "ran": "2026-09-22T13:45:33Z",
+ "job": "metadata",
  "before": {
   "tracks": 51761,
   "v2": 51684,
@@ -27,7 +27,7 @@
  },
  "failures": [],
  "notes": [
-  "reanalyse ran but none of ['v2'] grew: check its log for why"
+  "metadata ran but none of ['named'] grew: check its log for why"
  ],
  "ok": true
 }
