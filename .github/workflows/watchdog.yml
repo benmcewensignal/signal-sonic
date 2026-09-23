@@ -62,7 +62,8 @@ jobs:
           # so kicking stems-shard restarted the wrong chain (eight records a shard, all failing).
           for R in signal-sonic-audio:audio.yml:rhythm:60 signal-sonic-features:features.yml:stems-remeasure:90; do
             REPO=benmcewensignal/${R%%:*}; REST=${R#*:}; WF=${REST%%:*}; REST=${REST#*:}; TASK=${REST%%:*}; QUIET=${REST#*:}
-            LAST=$(gh api "repos/${REPO}/actions/runs?per_page=1" --jq '.workflow_runs[0].updated_at' 2>/dev/null)
+            # the named workflow only: worker deploys in the same repository were counting as activity
+            LAST=$(gh api "repos/${REPO}/actions/workflows/${WF}/runs?per_page=1" --jq '.workflow_runs[0].updated_at' 2>/dev/null)
             LIVE=$(gh api "repos/${REPO}/actions/runs?per_page=5" --jq '[.workflow_runs[] | select(.status != "completed")] | length' 2>/dev/null)
             if [ -z "$LAST" ]; then echo "${REPO}: could not read runs"; continue; fi
             AGE=$(( (NOW - $(date -u -d "$LAST" +%s)) / 60 ))
