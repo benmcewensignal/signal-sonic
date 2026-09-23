@@ -31,8 +31,32 @@ jobs:
           PY
       - name: recover what can be read
         run: |
-          sqlite3 damaged.db ".recover" | sqlite3 fingerprints.db
-          python3 -c "import sqlite3; c=sqlite3.connect('fingerprints.db'); n=c.execute('select count(*) from fp_tracks').fetchone()[0]; q=c.execute('pragma quick_check').fetchone()[0]; print(f'::notice title=recovered::{n} records; integrity {q}'); assert q=='ok' and n>5000"
+          python3 - << 'PY'
+          import sqlite3
+          src = sqlite3.connect("damaged.db"); dst = sqlite3.connect("fingerprints.db")
+          tables = [(n, s) for n, s in src.execute("select name, sql from sqlite_master where type='table' and sql is not null")]
+          for n, s in tables: dst.execute(s)
+          kept = lost = 0
+          for n, _ in tables:
+              try: hi = src.execute(f"select max(rowid) from [{n}]").fetchone()[0] or 0
+              except Exception: hi = 0
+              step = 200
+              for a in range(0, hi + 1, step):
+                  try:
+                      rows = src.execute(f"select * from [{n}] where rowid between ? and ?", (a, a + step - 1)).fetchall()
+                  except Exception:
+                      lost += step; continue
+                  if rows:
+                      dst.executemany(f"insert or ignore into [{n}] values ({','.join('?' * len(rows[0]))})", rows); kept += len(rows)
+              dst.commit()
+          for n, s in src.execute("select name, sql from sqlite_master where type='index' and sql is not null"):
+              try: dst.execute(s)
+              except Exception: pass
+          dst.commit()
+          q = dst.execute("pragma quick_check").fetchone()[0]; nt = dst.execute("select count(*) from fp_tracks").fetchone()[0]
+          print(f"::notice title=recovered::{nt} records in fp_tracks ({kept} rows kept across tables, about {lost} row slots unreadable); integrity {q}")
+          assert q == "ok" and nt > 5000
+          PY
       - name: save it and rebuild the index
         run: |
           bash scripts/fpstore.sh save "${{ github.repository }}" fingerprints.db "${{ github.run_id }}"
