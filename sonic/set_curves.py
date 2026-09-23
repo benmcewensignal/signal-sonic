@@ -89,6 +89,14 @@ def curves(dj_file, db, ver, ax, rng):
             pts.append((min(pos, 0.999), values(F[r["bp"]], ax)))
         if len(pts) >= 6: per_set.append((s["title"], pts))
     res = {"dj": D["dj"], "sets_total": len(sets), "sets_timed": stamped, "records_other_version": other_ver, "by_format": {}}
+    # the join with the charts: how many of the records this DJ played are among the chart-visible
+    # releases the corpus samples (a monthly scene listing), as against the records only the sets reach
+    try:
+        q = ",".join("?" * len(want)); c = sqlite3.connect(db)
+        charted = {r[0] for r in c.execute(f"select distinct track_id from track_scenes where week like '____-M__' and track_id in ({q})", list(want))} if want else set()
+        res["matched"] = len(want); res["in_charts"] = len(charted)
+    except Exception:
+        pass
     for fmt in ("all", "club", "radio"):
         ps = [x for x in per_set if fmt == "all" or set_format(x[0]) == fmt]
         if len(ps) < 3: continue
