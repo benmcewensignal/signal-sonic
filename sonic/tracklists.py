@@ -99,7 +99,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--djs", default="Carl Cox,Andy C"); ap.add_argument("--since", type=int, default=2023)
     ap.add_argument("--db", default="sonic.db"); ap.add_argument("--measure", type=int, default=300)
-    ap.add_argument("--max-sets", type=int, default=40)
+    ap.add_argument("--max-sets", type=int, default=40); ap.add_argument("--measure-only", action="store_true")
     a = ap.parse_args(); os.makedirs(OUT, exist_ok=True)
     tok = B.get_token(); cache = {}
     have = set()
@@ -108,7 +108,15 @@ def main():
     measured_path = f"{OUT}/measured.jsonl"
     done = {json.loads(l)["track_id"] for l in open(measured_path)} if os.path.exists(measured_path) else set()
     to_measure = {}
-    for dj in [d.strip() for d in a.djs.split(",") if d.strip()]:
+    if a.measure_only:
+        # work through the backlog: matched records in every saved set that the corpus still lacks
+        import glob
+        for f in glob.glob(f"{OUT}/*.json"):
+            if f.endswith("curves.json"): continue
+            for st in json.load(open(f)).get("sets", []):
+                for r in st["records"]:
+                    if r.get("bp") and r["bp"] not in have and r["bp"] not in done and r.get("preview"): to_measure[r["bp"]] = r["preview"]
+    for dj in ([] if a.measure_only else [d.strip() for d in a.djs.split(",") if d.strip()]):
         titles = sets_for(dj, a.since)[-a.max_sets:]
         sets = []
         for t in titles:
@@ -134,11 +142,14 @@ def main():
     with open(measured_path, "a") as f:
         for bp, url in list(to_measure.items())[:a.measure]:
             try:
+                time.sleep(0.2)
                 fv = A.analyse(B.download_preview(url)); d = fv.__dict__ if hasattr(fv, "__dict__") else dict(fv)
                 f.write(json.dumps({"track_id": bp, "analyser_ver": A.version, "features": d}, default=float) + "\n"); n_ok += 1
             except Exception as e:
                 print(f"measure {bp}: {type(e).__name__}", flush=True)
-    msg = f"measured {n_ok} records the sets play and the corpus lacked, on analyser {A.version}; {max(0, len(to_measure) - a.measure)} left for the next run"
+    left = max(0, len(to_measure) - a.measure)
+    open("/tmp/tracklists_left.txt", "w").write(str(left))
+    msg = f"measured {n_ok} records the sets play and the corpus lacked, on analyser {A.version}; {left} left for the next run"
     print(msg, flush=True); print(f"::notice title=corpus growth::{msg}", flush=True)
 
 

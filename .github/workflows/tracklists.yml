@@ -9,6 +9,7 @@ on:
       since:    { description: "first year of sets", default: "2023" }
       measure:  { description: "records to measure this run", default: "300" }
       max_sets: { description: "most recent sets per DJ", default: "40" }
+      measure_only: { description: "only work through the measuring backlog", default: "false" }
 permissions:
   contents: write
 concurrency:
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   sets:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 330
     env:
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
       BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
@@ -41,7 +42,7 @@ jobs:
           cp sonic.db /tmp/base.db
           gh api "repos/${{ github.repository }}/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id' > /tmp/base.id
       - name: sets, matches, measures
-        run: python -m sonic.tracklists --djs "${{ inputs.djs }}" --since "${{ inputs.since }}" --measure "${{ inputs.measure }}" --max-sets "${{ inputs.max_sets }}"
+        run: python -m sonic.tracklists --djs "${{ inputs.djs }}" --since "${{ inputs.since }}" --measure "${{ inputs.measure }}" --max-sets "${{ inputs.max_sets }}" ${{ inputs.measure_only == 'true' && '--measure-only' || '' }}
       - name: set curves on 3.0 (records on other versions are counted and left out)
         if: always()
         run: python -m sonic.set_curves --db sonic.db --ver 3.0 --djs "$(echo '${{ inputs.djs }}' | tr 'A-Z' 'a-z' | sed 's/[^a-z0-9,]\+/-/g; s/-,/,/g; s/,-/,/g')" || true
@@ -64,3 +65,10 @@ jobs:
           git commit -qm "tracklists: ${{ inputs.djs }} since ${{ inputs.since }}"
           ok=0; for i in 1 2 3 4 5; do git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && { ok=1; break; }; sleep $((i*4)); done
           [ "$ok" = 1 ] || { echo "::error::tracklists were not saved to the repository (the artifact holds them)"; exit 1; }
+      - name: book the next run while records remain unmeasured
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          LEFT=$(cat /tmp/tracklists_left.txt 2>/dev/null || echo 0)
+          if [ "$LEFT" -gt 0 ]; then gh workflow run tracklists.yml -f measure_only=true -f measure=1200 -f djs=none; echo "booked a measuring run for $LEFT records"; fi
