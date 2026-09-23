@@ -1,0 +1,34 @@
+name: port-check
+# The browser port against the corpus analyser on real previews. Every earlier check used
+# synthetic signals or corpus numbers and missed two faults; this is the check that catches them.
+on:
+  workflow_dispatch:
+    inputs:
+      per_scene: { description: "previews per scene", default: "10" }
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: install
+        run: |
+          sudo apt-get install -y -q ffmpeg >/dev/null
+          pip install -q -r requirements.txt
+          npm install -q --no-save jsdom
+      - name: fetch the database and the site
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          for i in 1 2 3; do gh release download deepened --pattern sonic.db --clobber --dir . && [ -s sonic.db ] && break; sleep 20; done
+          git clone -q --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/benmcewensignal/signalgood.git" site
+      - name: measure real previews with the analyser
+        run: python tools/port_check.py "${{ inputs.per_scene }}"
+      - name: run the port on the same samples and compare
+        run: node tools/port_check.js site/sonic.html site/tools/reader_features.js
