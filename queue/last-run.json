@@ -1,6 +1,50 @@
 {
- "ran": "2026-09-23T17:56:31Z",
+ "ran": "2026-09-23T19:00:43Z",
  "log": [
+  {
+   "cmd": "before metadata: free disk 90.0 GB",
+   "rc": 0
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.metadata --db sonic.db --limit 3000",
+   "rc": 0,
+   "minutes": 28.8,
+   "tail": [
+    "  700/3000 ok=692 err=8 387s",
+    "  800/3000 ok=792 err=8 446s",
+    "  900/3000 ok=892 err=8 497s",
+    "  1000/3000 ok=991 err=9 553s",
+    "  1100/3000 ok=1091 err=9 613s",
+    "  1200/3000 ok=1191 err=9 676s",
+    "  1300/3000 ok=1290 err=10 735s",
+    "  1400/3000 ok=1390 err=10 796s",
+    "  1500/3000 ok=1490 err=10 850s",
+    "  1600/3000 ok=1590 err=10 905s",
+    "  1700/3000 ok=1688 err=12 961s",
+    "  1800/3000 ok=1787 err=13 1024s",
+    "  1900/3000 ok=1887 err=13 1085s",
+    "  2000/3000 ok=1985 err=15 1143s",
+    "  2100/3000 ok=2085 err=15 1201s",
+    "  2200/3000 ok=2185 err=15 1269s",
+    "  2300/3000 ok=2282 err=18 1326s",
+    "  2400/3000 ok=2380 err=20 1387s",
+    "  2500/3000 ok=2480 err=20 1446s",
+    "  2600/3000 ok=2580 err=20 1501s",
+    "  2700/3000 ok=2680 err=20 1562s",
+    "  2800/3000 ok=2778 err=22 1616s",
+    "  2900/3000 ok=2878 err=22 1674s",
+    "  3000/3000 ok=2978 err=22 1727s",
+    "metadata: done ok=2978 err=22; 24756 still lacking (dispatch again)"
+   ]
+  },
+  {
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job metadata --before /tmp/before.json",
+   "rc": 0,
+   "minutes": 0.0,
+   "tail": [
+    "validation: ok"
+   ]
+  },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
@@ -24,7 +68,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "{",
     " \"scenes\": 20,",
@@ -38,8 +82,8 @@
    "minutes": 0.0,
    "tail": [
     "{",
-    " \"records\": 786,",
-    " \"with a set appearance\": 786",
+    " \"records\": 806,",
+    " \"with a set appearance\": 806",
     "}"
    ]
   },
@@ -169,10 +213,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 3.7,
+   "minutes": 3.6,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-23T17:55:29Z\",",
+    " \"generated\": \"2026-09-23T18:59:43Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -182,12 +226,12 @@
     "  \"2026-09-17\",",
     "  \"2026-09-21\"",
     " ],",
-    " \"artists_total\": 42177,",
+    " \"artists_total\": 43724,",
     " \"booking_side\": 25398,",
-    " \"release_side\": 18439,",
-    " \"joined\": 1660,",
-    " \"tracks_with_metadata\": 24580,",
-    " \"join_rate_release_side\": 0.09",
+    " \"release_side\": 20086,",
+    " \"joined\": 1760,",
+    " \"tracks_with_metadata\": 27558,",
+    " \"join_rate_release_side\": 0.088",
     "}"
    ]
   },
@@ -197,7 +241,7 @@
    "minutes": 1.0,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-23T17:56:30Z\",",
+    " \"generated\": \"2026-09-23T19:00:43Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",

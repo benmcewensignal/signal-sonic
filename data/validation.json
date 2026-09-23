@@ -1,11 +1,11 @@
 {
- "ran": "2026-09-22T16:21:22Z",
- "job": "reanalyse",
+ "ran": "2026-09-23T18:55:36Z",
+ "job": "metadata",
  "before": {
-  "tracks": 51761,
-  "v2": 51684,
+  "tracks": 52440,
+  "v2": 160,
   "v3": 1750,
-  "named": 17938,
+  "named": 24580,
   "plays": 1316,
   "usable_mixes": 65,
   "mix_pop": 26,
@@ -14,10 +14,10 @@
   "aliases": null
  },
  "after": {
-  "tracks": 51761,
-  "v2": 51684,
+  "tracks": 52440,
+  "v2": 160,
   "v3": 1750,
-  "named": 17938,
+  "named": 27558,
   "plays": 1316,
   "usable_mixes": 65,
   "mix_pop": 26,
@@ -26,8 +26,6 @@
   "aliases": null
  },
  "failures": [],
- "notes": [
-  "reanalyse ran but none of ['v2'] grew: check its log for why"
- ],
+ "notes": [],
  "ok": true
 }
