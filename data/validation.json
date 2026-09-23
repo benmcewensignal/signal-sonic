@@ -1,11 +1,11 @@
 {
- "ran": "2026-09-23T18:55:36Z",
+ "ran": "2026-09-23T19:33:05Z",
  "job": "metadata",
  "before": {
   "tracks": 52440,
   "v2": 160,
   "v3": 1750,
-  "named": 24580,
+  "named": 27558,
   "plays": 1316,
   "usable_mixes": 65,
   "mix_pop": 26,
@@ -17,7 +17,7 @@
   "tracks": 52440,
   "v2": 160,
   "v3": 1750,
-  "named": 27558,
+  "named": 30542,
   "plays": 1316,
   "usable_mixes": 65,
   "mix_pop": 26,
