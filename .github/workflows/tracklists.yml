@@ -38,6 +38,9 @@ jobs:
         run: for i in 1 2 3; do gh release download deepened --pattern sonic.db --clobber --dir . && [ -s sonic.db ] && break; sleep 20; done
       - name: sets, matches, measures
         run: python -m sonic.tracklists --djs "${{ inputs.djs }}" --since "${{ inputs.since }}" --measure "${{ inputs.measure }}" --max-sets "${{ inputs.max_sets }}"
+      - name: set curves on 3.0 (records on other versions are counted and left out)
+        if: always()
+        run: python -m sonic.set_curves --db sonic.db --ver 3.0 --djs "$(echo '${{ inputs.djs }}' | tr 'A-Z' 'a-z' | sed 's/[^a-z0-9,]\+/-/g; s/-,/,/g; s/,-/,/g')" || true
       - name: save
         if: always()
         run: |
