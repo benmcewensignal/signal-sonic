@@ -26,6 +26,7 @@ jobs:
       PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }   # a shallow copy cannot rebase, and the first run's save was lost that way
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: install
@@ -35,12 +36,25 @@ jobs:
       - name: fetch the database (read only)
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
-        run: for i in 1 2 3; do gh release download deepened --pattern sonic.db --clobber --dir . && [ -s sonic.db ] && break; sleep 20; done
+        run: |
+          for i in 1 2 3; do gh release download deepened --pattern sonic.db --clobber --dir . && [ -s sonic.db ] && break; sleep 20; done
+          cp sonic.db /tmp/base.db
+          gh api "repos/${{ github.repository }}/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id' > /tmp/base.id
       - name: sets, matches, measures
         run: python -m sonic.tracklists --djs "${{ inputs.djs }}" --since "${{ inputs.since }}" --measure "${{ inputs.measure }}" --max-sets "${{ inputs.max_sets }}"
       - name: set curves on 3.0 (records on other versions are counted and left out)
         if: always()
         run: python -m sonic.set_curves --db sonic.db --ver 3.0 --djs "$(echo '${{ inputs.djs }}' | tr 'A-Z' 'a-z' | sed 's/[^a-z0-9,]\+/-/g; s/-,/,/g; s/,-/,/g')" || true
+      - name: keep the results whatever happens to the push
+        if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: tracklists, path: data/tracklists, retention-days: 30 }
+      - name: import into the corpus database and save it through the merge
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          python -m sonic.tracklists_import --db sonic.db
+          bash scripts/release_save.sh "${{ github.repository }}" "${{ github.run_id }}" /tmp/base.db /tmp/base.id sonic.db
       - name: save
         if: always()
         run: |
@@ -48,4 +62,5 @@ jobs:
           git add data/tracklists || true
           git diff --cached --quiet && exit 0
           git commit -qm "tracklists: ${{ inputs.djs }} since ${{ inputs.since }}"
-          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
+          ok=0; for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && { ok=1; break; }; sleep $((i*4)); done
+          [ "$ok" = 1 ] || { echo "::error::tracklists were not saved to the repository (the artifact holds them)"; exit 1; }
