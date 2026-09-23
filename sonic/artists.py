@@ -495,7 +495,17 @@ def main():
                   "att": ATTRIB.get(k),
                   "pd": rank_all(_int.get(k)),
                   "psd": (rank_scene.get(v["scene"]) or (lambda x: None))(_int.get(k))}
-    json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(a.out.replace("artists-latest", "artist-lookup"), "w"), ensure_ascii=False, separators=(",", ":"))
+    # never replace a good lookup with a much smaller one: on 23 September a version assumption made
+    # this select 77 records and write an empty lookup, and the site's artist search and lists went blank
+    lp = a.out.replace("artists-latest", "artist-lookup")
+    try:
+        prev = len(json.load(open(lp)).get("artists", {}))
+    except Exception:
+        prev = 0
+    if prev and len(idx) < 0.5 * prev:
+        print(f"::error::artist lookup would shrink from {prev} to {len(idx)} names; the previous files are kept", flush=True)
+        raise SystemExit(1)
+    json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(lp, "w"), ensure_ascii=False, separators=(",", ":"))
     slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
     json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))
     print(json.dumps(out["summary"], indent=1))
