@@ -1,50 +1,6 @@
 {
- "ran": "2026-09-23T22:13:31Z",
+ "ran": "2026-09-23T22:25:04Z",
  "log": [
-  {
-   "cmd": "before metadata: free disk 89.9 GB",
-   "rc": 0
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.metadata --db sonic.db --limit 3000",
-   "rc": 0,
-   "minutes": 30.9,
-   "tail": [
-    "  700/3000 ok=695 err=5 470s",
-    "  800/3000 ok=795 err=5 531s",
-    "  900/3000 ok=895 err=5 589s",
-    "  1000/3000 ok=995 err=5 649s",
-    "  1100/3000 ok=1095 err=5 713s",
-    "  1200/3000 ok=1195 err=5 774s",
-    "  1300/3000 ok=1295 err=5 835s",
-    "  1400/3000 ok=1394 err=6 898s",
-    "  1500/3000 ok=1493 err=7 956s",
-    "  1600/3000 ok=1593 err=7 1017s",
-    "  1700/3000 ok=1692 err=8 1077s",
-    "  1800/3000 ok=1791 err=9 1141s",
-    "  1900/3000 ok=1891 err=9 1207s",
-    "  2000/3000 ok=1990 err=10 1267s",
-    "  2100/3000 ok=2089 err=11 1328s",
-    "  2200/3000 ok=2189 err=11 1386s",
-    "  2300/3000 ok=2288 err=12 1444s",
-    "  2400/3000 ok=2388 err=12 1500s",
-    "  2500/3000 ok=2487 err=13 1557s",
-    "  2600/3000 ok=2585 err=15 1616s",
-    "  2700/3000 ok=2685 err=15 1675s",
-    "  2800/3000 ok=2783 err=17 1737s",
-    "  2900/3000 ok=2883 err=17 1796s",
-    "  3000/3000 ok=2983 err=17 1853s",
-    "metadata: done ok=2983 err=17; 15683 still lacking (dispatch again)"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job metadata --before /tmp/before.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "validation: ok"
-   ]
-  },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
@@ -90,7 +46,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "{",
     " \"scenes\": 20,",
@@ -101,7 +57,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
    "rc": 1,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
@@ -213,10 +169,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 3.3,
+   "minutes": 3.7,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-23T22:12:14Z\",",
+    " \"generated\": \"2026-09-23T22:23:58Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -238,10 +194,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.2,
+   "minutes": 1.0,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-23T22:13:31Z\",",
+    " \"generated\": \"2026-09-23T22:25:04Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
