@@ -26,7 +26,7 @@ for s, tid in picked:
         fv = A.analyse(path); d = fv.__dict__ if hasattr(fv, "__dict__") else dict(fv)
         y.tofile(f"portcheck/{len(out)}.f32")
         out.append({"i": len(out), "track_id": tid, "scene": s, "embedding": d["embedding"], "emb29": [float(v) for v in A2._embedding(y, 22050)], "rhythm_vector": d["rhythm_vector"], "tempo": d["tempo"],
-                    "loudness": d["loudness"], "energy_curve": d["energy_curve"], "bass_weight": d["bass_weight"], "drum_density": d["drum_density"], "drum_swing": d["drum_swing"]})
+                    "loudness": d["loudness"], "energy_curve": d["energy_curve"], "bass_weight": d["bass_weight"], "drum_density": d["drum_density"], "drum_swing": d["drum_swing"], "vocal_presence": d["vocal_presence"]})
     except Exception as e:
         print(f"skip {tid}: {type(e).__name__}", flush=True)
 json.dump(out, open("portcheck/oracle.json", "w"))

@@ -32,3 +32,10 @@ jobs:
         run: python tools/port_check.py "${{ inputs.per_scene }}"
       - name: run the port on the same samples and compare
         run: node tools/port_check.js site/sonic.html site/tools/reader_features.js
+      - name: the scene model on the same previews, device numbers against the analyser's
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          git clone -q --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/benmcewensignal/signal-sonic-features.git" features
+          pip install -q "scikit-learn==1.8.0"
+          python tools/model_check.py features/worker/scene_model.pkl

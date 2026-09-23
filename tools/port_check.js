@@ -22,6 +22,8 @@ setTimeout(async()=>{ await w.READER.load(); let agree=0, accO=0, accP=0; const 
   const md=a=>{ const s=[...a].sort((p,q)=>p-q); return s[Math.floor(s.length/2)].toFixed(3); };
   const place=`map position vs 2.9: device median shift ${md(dP)}, chroma-neutral ${md(dN)} | off the map edge: 2.9 ${e9}, device ${eP}, chroma-neutral ${eN} of ${O.length} | map spans ${(sp[1]-sp[0]).toFixed(2)} by ${(sp[3]-sp[2]).toFixed(2)}`;
   console.log('::notice title=map placement on real previews::'+place);
+  const dev=O.map(o=>{ const b=fs.readFileSync('portcheck/'+o.i+'.f32'); return w.readerNumbers(new Float32Array(b.buffer,b.byteOffset,b.length/4)); });
+  fs.writeFileSync('portcheck/device.json', JSON.stringify(dev));
   const line=vote+' | '+Object.entries(D).map(([k,v])=>`${k}: median ${med(v).toExponential(1)}, worst ${wst(v).toExponential(1)}`).join(' | ');
   console.log(`::notice title=port check on ${O.length} real previews::${line}`); console.log(line);
   const bad=Object.entries(D).filter(([k,v])=>k!=='embedding' && med(v)>1e-4); if(bad.length){ console.log('::error::port differs from the analyser on: '+bad.map(x=>x[0]).join(', ')); process.exit(1); } process.exit(0); },1500);
