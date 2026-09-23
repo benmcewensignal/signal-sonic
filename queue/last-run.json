@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-23T10:47:09Z",
+ "ran": "2026-09-23T11:18:53Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -178,10 +178,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.3,
+   "minutes": 4.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-23T10:45:30Z\",",
+    " \"generated\": \"2026-09-23T11:17:26Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -203,10 +203,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.6,
+   "minutes": 1.4,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-23T10:47:09Z\",",
+    " \"generated\": \"2026-09-23T11:18:53Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
