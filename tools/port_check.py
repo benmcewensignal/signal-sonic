@@ -7,9 +7,10 @@ the analyser's measures. tools/port_check.js then runs the port on the same samp
 import sqlite3, json, sys, os, random, numpy as np, librosa
 sys.path.insert(0, ".")
 from sonic.analyser_local import LocalAnalyser
+sys.path.insert(0, 'tools'); import analyser_29 as A29
 from sonic.beatport import download_preview
 n_per = int(sys.argv[1]) if len(sys.argv) > 1 else 10
-c = sqlite3.connect("sonic.db"); A = LocalAnalyser(); os.makedirs("portcheck", exist_ok=True)
+c = sqlite3.connect("sonic.db"); A = LocalAnalyser(); A2 = A29.LocalAnalyser(); os.makedirs("portcheck", exist_ok=True)
 scenes = [r[0] for r in c.execute("select distinct scene from track_scenes where week like '____-M__'")]
 random.seed(7); picked = []
 for s in scenes:
@@ -24,7 +25,7 @@ for s, tid in picked:
         y, sr = librosa.load(path, sr=22050, mono=True); y = (y / (np.max(np.abs(y)) or 1.0)).astype(np.float32)
         fv = A.analyse(path); d = fv.__dict__ if hasattr(fv, "__dict__") else dict(fv)
         y.tofile(f"portcheck/{len(out)}.f32")
-        out.append({"i": len(out), "track_id": tid, "scene": s, "embedding": d["embedding"], "rhythm_vector": d["rhythm_vector"], "tempo": d["tempo"],
+        out.append({"i": len(out), "track_id": tid, "scene": s, "embedding": d["embedding"], "emb29": [float(v) for v in A2._embedding(y, 22050)], "rhythm_vector": d["rhythm_vector"], "tempo": d["tempo"],
                     "loudness": d["loudness"], "energy_curve": d["energy_curve"], "bass_weight": d["bass_weight"], "drum_density": d["drum_density"], "drum_swing": d["drum_swing"]})
     except Exception as e:
         print(f"skip {tid}: {type(e).__name__}", flush=True)
