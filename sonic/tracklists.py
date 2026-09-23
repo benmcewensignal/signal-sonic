@@ -90,7 +90,8 @@ def match(tok, rec, cache):
             if difflib.SequenceMatcher(None, wm, gm).ratio() < 0.7: continue
         if ts >= 0.6 and ov >= 0.5 and sc > bs: best, bs = t, sc
     out = None if best is None else {"bp": "bp:%d" % best["id"], "score": round(bs, 3), "preview": best.get("sample_url"),
-                                     "name": best.get("name"), "mix": best.get("mix_name"), "genre": (best.get("genre") or {}).get("slug")}
+                                     "name": best.get("name"), "mix": best.get("mix_name"), "genre": (best.get("genre") or {}).get("slug"),
+                                     "released": best.get("new_release_date") or best.get("publish_date")}
     cache[key] = out
     return out
 

@@ -37,8 +37,9 @@ def main():
                     c.execute("insert or ignore into tracks (track_id, analyser_id, analyser_ver, features, source, first_seen, created_at) values (?,?,?,?,?,?,?)",
                               (tid, "local", m["analyser_ver"], json.dumps(m["features"], default=float), "tracklist", now, time.time()))
                     n_t += c.execute("select changes()").fetchone()[0]
-                c.execute("insert or ignore into track_meta (track_id, name, mix, artists, label, fetched_at) values (?,?,?,?,?,?)",
-                          (tid, r.get("name"), r.get("mix"), json.dumps([r.get("artist")]), r.get("label"), now))
+                c.execute("insert or ignore into track_meta (track_id, name, mix, artists, label, released, fetched_at) values (?,?,?,?,?,?,?)",
+                          (tid, r.get("name"), r.get("mix"), json.dumps([r.get("artist")]), r.get("label"), r.get("released"), now))
+                if r.get("released"): c.execute("update track_meta set released=? where track_id=? and (released is null or released='')", (r["released"], tid))
                 n_m += c.execute("select changes()").fetchone()[0]
                 if r.get("preview"):
                     c.execute("insert or ignore into preview_cache (track_id, url, resolved_at) values (?,?,?)", (tid, r["preview"], now))

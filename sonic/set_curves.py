@@ -118,7 +118,7 @@ def curves(dj_file, db, ver, ax, rng):
         res["profile"] = {"entries": tot, "own_share": round(own / tot, 3) if tot else None,
                           "genres": [[g, round(n / max(1, sum(gen.values())), 3)] for g, n in gen.most_common(5)],
                           "signatures": [[n, nm] for n, nm in sig],
-                          "median_days_after_release": int(sorted(lag)[len(lag) // 2]) if lag else None,
+                          "release_dates": len(lag), "median_days_after_release": int(sorted(lag)[len(lag) // 2]) if lag else None,
                           "share_within_90_days": round(sum(1 for x in lag if x <= 90) / len(lag), 3) if lag else None}
     except Exception:
         pass
