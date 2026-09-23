@@ -17,7 +17,7 @@ for s in scenes:
     ids = [r[0] for r in c.execute("""select t.track_id from tracks t join track_scenes ts on ts.track_id=t.track_id join preview_cache p on p.track_id=t.track_id
         where t.analyser_id='local' and t.analyser_ver like '2.9%' and ts.scene=? and ts.week like '____-M__' group by t.track_id""", (s,))]
     random.shuffle(ids); picked += [(s, i) for i in ids[:n_per]]
-out = []
+out = []; errs = []
 for s, tid in picked:
     url = c.execute("select url from preview_cache where track_id=?", (tid,)).fetchone()[0]
     try:
@@ -29,5 +29,8 @@ for s, tid in picked:
                     "loudness": d["loudness"], "energy_curve": d["energy_curve"], "bass_weight": d["bass_weight"], "drum_density": d["drum_density"], "drum_swing": d["drum_swing"], "vocal_presence": d["vocal_presence"]})
     except Exception as e:
         print(f"skip {tid}: {type(e).__name__}", flush=True)
+        errs.append(f"{type(e).__name__}: {str(e)[:120]}")
 json.dump(out, open("portcheck/oracle.json", "w"))
 print(f"measured {len(out)} previews across {len(scenes)} scenes", flush=True)
+print(f"::notice title=oracle::measured {len(out)} of {len(picked)} previews; failures {len(errs)}" + (f"; first: {errs[0]}" if errs else ""), flush=True)
+if not out: sys.exit(1)

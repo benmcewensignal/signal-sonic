@@ -19,7 +19,7 @@ setTimeout(async()=>{ try{ await w.READER.load(); let agree=0, accO=0, accP=0; c
   let dP=[],dN=[],eP=0,e9=0,eN=0;
   for(const o of O){ const b=fs.readFileSync('portcheck/'+o.i+'.f32'); const y=new Float32Array(b.buffer,b.byteOffset,b.length/4); const pe=Array.from(R.embedding(y));
     const p9=proj(o.emb29), pp=proj(pe), pn=proj(neutral(pe)); dP.push(Math.hypot(pp[0]-p9[0],pp[1]-p9[1])); dN.push(Math.hypot(pn[0]-p9[0],pn[1]-p9[1])); eP+=edge(pp); e9+=edge(p9); eN+=edge(pn); }
-  const md=a=>{ const s=[...a].sort((p,q)=>p-q); return s[Math.floor(s.length/2)].toFixed(3); };
+  const md=a=>{ if(!a.length) return 'n/a'; const s=[...a].sort((p,q)=>p-q); return s[Math.floor(s.length/2)].toFixed(3); };
   const place=`map position vs 2.9: device median shift ${md(dP)}, chroma-neutral ${md(dN)} | off the map edge: 2.9 ${e9}, device ${eP}, chroma-neutral ${eN} of ${O.length} | map spans ${(sp[1]-sp[0]).toFixed(2)} by ${(sp[3]-sp[2]).toFixed(2)}`;
   console.log('::notice title=map placement on real previews::'+place);
   let devFail=0; const dev=O.map(o=>{ try{ const b=fs.readFileSync('portcheck/'+o.i+'.f32'); const x=w.readerNumbers(new Float32Array(b.buffer,b.byteOffset,b.length/4)); return x.every(Number.isFinite)?x:(devFail++,null); }catch(e){ devFail++; console.log('::warning::device numbers failed on preview '+o.i+': '+String(e&&e.message).slice(0,120)); return null; } });
