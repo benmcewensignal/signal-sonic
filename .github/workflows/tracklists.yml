@@ -62,5 +62,5 @@ jobs:
           git add data/tracklists || true
           git diff --cached --quiet && exit 0
           git commit -qm "tracklists: ${{ inputs.djs }} since ${{ inputs.since }}"
-          ok=0; for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && { ok=1; break; }; sleep $((i*4)); done
+          ok=0; for i in 1 2 3 4 5; do git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && { ok=1; break; }; sleep $((i*4)); done
           [ "$ok" = 1 ] || { echo "::error::tracklists were not saved to the repository (the artifact holds them)"; exit 1; }
