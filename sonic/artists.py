@@ -440,6 +440,17 @@ def main():
     ap.add_argument("--out", default="data/artists-latest.json")
     a = ap.parse_args()
     out = build(a.db, a.site)
+    # never replace a good lookup with a much smaller one: on 23 September a version assumption made
+    # this select 77 records and write an empty lookup, and the site's artist search and lists went blank
+    lp = a.out.replace("artists-latest", "artist-lookup")
+    try:
+        prev = len(json.load(open(lp)).get("artists", {}))
+    except Exception:
+        prev = 0
+    n_new = len(out.get("artist_leadership") or {})   # the same population the lookup is built from
+    if prev and n_new < 0.5 * prev:
+        print(f"::error::artist lookup would shrink from {prev} to {n_new} entries; the previous files are kept", flush=True)
+        raise SystemExit(1)
     json.dump(out, open(a.out, "w"), ensure_ascii=False, separators=(",", ":"))
     pop = {}
     try:
@@ -495,16 +506,6 @@ def main():
                   "att": ATTRIB.get(k),
                   "pd": rank_all(_int.get(k)),
                   "psd": (rank_scene.get(v["scene"]) or (lambda x: None))(_int.get(k))}
-    # never replace a good lookup with a much smaller one: on 23 September a version assumption made
-    # this select 77 records and write an empty lookup, and the site's artist search and lists went blank
-    lp = a.out.replace("artists-latest", "artist-lookup")
-    try:
-        prev = len(json.load(open(lp)).get("artists", {}))
-    except Exception:
-        prev = 0
-    if prev and len(idx) < 0.5 * prev:
-        print(f"::error::artist lookup would shrink from {prev} to {len(idx)} names; the previous files are kept", flush=True)
-        raise SystemExit(1)
     json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(lp, "w"), ensure_ascii=False, separators=(",", ":"))
     slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
     json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))
