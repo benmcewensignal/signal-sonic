@@ -1,0 +1,48 @@
+name: tracklists
+# DJ sets from MixesDB tracklists (CC BY-SA 3.0): timestamped records matched to Beatport, and
+# records the sets play that the corpus lacks measured on the corpus analyser. Reads the release
+# database without writing it; results are committed under data/tracklists/.
+on:
+  workflow_dispatch:
+    inputs:
+      djs:      { description: "MixesDB artist categories, comma separated", default: "Carl Cox,Andy C" }
+      since:    { description: "first year of sets", default: "2023" }
+      measure:  { description: "records to measure this run", default: "300" }
+      max_sets: { description: "most recent sets per DJ", default: "40" }
+permissions:
+  contents: write
+concurrency:
+  group: tracklists
+  cancel-in-progress: false
+jobs:
+  sets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: install
+        run: |
+          sudo apt-get install -y -q ffmpeg >/dev/null
+          pip install -q -r requirements.txt
+      - name: fetch the database (read only)
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: for i in 1 2 3; do gh release download deepened --pattern sonic.db --clobber --dir . && [ -s sonic.db ] && break; sleep 20; done
+      - name: sets, matches, measures
+        run: python -m sonic.tracklists --djs "${{ inputs.djs }}" --since "${{ inputs.since }}" --measure "${{ inputs.measure }}" --max-sets "${{ inputs.max_sets }}"
+      - name: save
+        if: always()
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/tracklists || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "tracklists: ${{ inputs.djs }} since ${{ inputs.since }}"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
