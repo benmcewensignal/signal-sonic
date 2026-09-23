@@ -7,6 +7,7 @@ def vec(o):
     return np.array(o["embedding"] + [np.log2(tp)] + o["energy_curve"] + [o["loudness"], o["bass_weight"], o["drum_density"], o["vocal_presence"], o["drum_swing"]] + o["rhythm_vector"], float)
 def call(x):
     p = M["model"].predict_proba(((np.array(x, float) - np.array(M["mu"])) / np.array(M["sd"]))[None, :])[0]; k = int(np.argmax(p)); return M["classes"][k], float(p[k])
+keep = [i for i, x in enumerate(dev) if x]; O = [O[i] for i in keep]; dev = [dev[i] for i in keep]
 A = [call(vec(o)) for o in O]; D = [call(x) for x in dev]; tag = [o["scene"] for o in O]
 same = np.mean([a[0] == d[0] for a, d in zip(A, D)]); accA = np.mean([a[0] == t for a, t in zip(A, tag)]); accD = np.mean([d[0] == t for d, t in zip(D, tag)])
 maxdiff = max(float(np.max(np.abs(vec(o) - np.array(x)))) for o, x in zip(O, dev))

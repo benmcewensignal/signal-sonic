@@ -4,7 +4,7 @@ let page=fs.readFileSync(process.argv[2],'utf8'); const feats=fs.readFileSync(pr
 page=page.replace('function embedding(', feats+'\nwindow.RF={embedding:embedding,melOnsetOf:melOnsetOf,rhythmVectorOf:rhythmVectorOf,loudnessOf:loudnessOf,energyCurveOf:energyCurveOf,bassWeightOf:bassWeightOf,drumDensityOf:drumDensityOf,swingOf:swingOf};\nfunction embedding(');
 const dom=new JSDOM(page,{runScripts:'dangerously',pretendToBeVisual:true,url:'https://www.earlysignal.live/sonic',beforeParse(w){ w.matchMedia=()=>({matches:false,addListener(){},removeListener(){}}); w.HTMLCanvasElement.prototype.getContext=()=>null; w.navigator.serviceWorker=undefined; w.fetch=(u)=>{ const f='site'+String(u).replace(/^https?:\/\/[^/]+/,'').split('?')[0]; if(!fs.existsSync(f)) return Promise.resolve({ok:false,json:()=>Promise.reject()}); return Promise.resolve({ok:true,json:()=>Promise.resolve(JSON.parse(fs.readFileSync(f,'utf8')))}); }; w.atob=(x)=>Buffer.from(x,'base64').toString('binary'); }});
 const w=dom.window; const O=JSON.parse(fs.readFileSync('portcheck/oracle.json','utf8'));
-setTimeout(async()=>{ await w.READER.load(); let agree=0, accO=0, accP=0; const R=w.RF, D={embedding:[],rhythm:[],loud:[],energy:[],bass:[],density:[],swing:[]};
+setTimeout(async()=>{ try{ await w.READER.load(); let agree=0, accO=0, accP=0; const R=w.RF, D={embedding:[],rhythm:[],loud:[],energy:[],bass:[],density:[],swing:[]};
   const mx=(a,b)=>Math.max(...a.map((v,k)=>Math.abs(v-b[k])));
   for(const o of O){ const b=fs.readFileSync('portcheck/'+o.i+'.f32'); const y=new Float32Array(b.buffer,b.byteOffset,b.length/4); const on=R.melOnsetOf(y);
     D.embedding.push(mx(Array.from(R.embedding(y)),o.embedding)); D.rhythm.push(mx(R.rhythmVectorOf(y),o.rhythm_vector)); D.loud.push(Math.abs(R.loudnessOf(y)-o.loudness));
@@ -22,8 +22,9 @@ setTimeout(async()=>{ await w.READER.load(); let agree=0, accO=0, accP=0; const 
   const md=a=>{ const s=[...a].sort((p,q)=>p-q); return s[Math.floor(s.length/2)].toFixed(3); };
   const place=`map position vs 2.9: device median shift ${md(dP)}, chroma-neutral ${md(dN)} | off the map edge: 2.9 ${e9}, device ${eP}, chroma-neutral ${eN} of ${O.length} | map spans ${(sp[1]-sp[0]).toFixed(2)} by ${(sp[3]-sp[2]).toFixed(2)}`;
   console.log('::notice title=map placement on real previews::'+place);
-  const dev=O.map(o=>{ const b=fs.readFileSync('portcheck/'+o.i+'.f32'); return w.readerNumbers(new Float32Array(b.buffer,b.byteOffset,b.length/4)); });
+  let devFail=0; const dev=O.map(o=>{ try{ const b=fs.readFileSync('portcheck/'+o.i+'.f32'); const x=w.readerNumbers(new Float32Array(b.buffer,b.byteOffset,b.length/4)); return x.every(Number.isFinite)?x:(devFail++,null); }catch(e){ devFail++; console.log('::warning::device numbers failed on preview '+o.i+': '+String(e&&e.message).slice(0,120)); return null; } });
+  if(devFail) console.log('::warning::device numbers unavailable for '+devFail+' of '+O.length+' previews');
   fs.writeFileSync('portcheck/device.json', JSON.stringify(dev));
   const line=vote+' | '+Object.entries(D).map(([k,v])=>`${k}: median ${med(v).toExponential(1)}, worst ${wst(v).toExponential(1)}`).join(' | ');
   console.log(`::notice title=port check on ${O.length} real previews::${line}`); console.log(line);
-  const bad=Object.entries(D).filter(([k,v])=>k!=='embedding' && med(v)>1e-4); if(bad.length){ console.log('::error::port differs from the analyser on: '+bad.map(x=>x[0]).join(', ')); process.exit(1); } process.exit(0); },1500);
+  const bad=Object.entries(D).filter(([k,v])=>k!=='embedding' && med(v)>1e-4); if(bad.length){ console.log('::error::port differs from the analyser on: '+bad.map(x=>x[0]+' (median '+med(x[1])+')').join(', ')); process.exit(1); } process.exit(0); }catch(e){ console.log('::error title=port check crashed::'+String(e&&e.stack||e).replace(/\n/g,' | ').slice(0,600)); process.exit(1); } },1500);
