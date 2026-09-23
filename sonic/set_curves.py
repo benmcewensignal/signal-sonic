@@ -40,6 +40,39 @@ def values(f, ax):
     return out
 
 
+def set_format(title):
+    """MixesDB writes a set played somewhere as 'Date - DJ @ Venue' and a show as 'Date - DJ - Show':
+    '@' means played in a room, even if it was later broadcast."""
+    return "club" if " @ " in title else "radio"
+
+
+def summarise(per_set, rng, rel=False):
+    """Curves over tenths with 90% t-bands, and start-to-end slopes; with rel, each set is measured
+    against its own opening before averaging, so the band is the band of the change."""
+    from scipy.stats import t as T
+    out_c, out_s, lines = {}, {}, []
+    for m in MEASURES:
+        grid = np.full((len(per_set), BINS), np.nan); slopes = []
+        for k, (_, pts) in enumerate(per_set):
+            xs = np.array([p for p, v in pts if v.get(m) is not None]); ys = np.array([v[m] for p, v in pts if v.get(m) is not None], float)
+            if len(xs) < 6: continue
+            for b in range(BINS):
+                sel = (xs >= b / BINS) & (xs < (b + 1) / BINS)
+                if sel.any(): grid[k, b] = ys[sel].mean()
+            if rel:
+                first = next((g for g in grid[k] if np.isfinite(g)), np.nan); grid[k] = grid[k] - first
+            if np.ptp(xs) > 0: slopes.append(float(np.polyfit(xs, ys, 1)[0]))
+        if not np.isfinite(grid).any(): continue
+        mean = np.nanmean(grid, 0); n = np.sum(np.isfinite(grid), 0)
+        se = np.nanstd(grid, 0, ddof=1) / np.sqrt(np.maximum(n, 1)); tq = T.ppf(0.95, np.maximum(n - 1, 1))
+        r4 = lambda a: [None if not np.isfinite(x) else round(float(x), 4) for x in a]
+        out_c[m] = {"mean": r4(mean), "lo": r4(mean - tq * se), "hi": r4(mean + tq * se), "sets": [r4(g) for g in grid]}
+        if len(slopes) > 1:
+            sl = np.array(slopes); se2 = sl.std(ddof=1) / np.sqrt(len(sl)); tq2 = T.ppf(0.95, len(sl) - 1)
+            out_s[m] = {"start_to_end": round(float(sl.mean()), 4), "lo": round(float(sl.mean() - tq2 * se2), 4), "hi": round(float(sl.mean() + tq2 * se2), 4), "sets": len(sl)}
+    return out_c, out_s
+
+
 def curves(dj_file, db, ver, ax, rng):
     D = json.load(open(dj_file)); sets = D["sets"]
     want = {r["bp"] for s in sets for r in s["records"] if r.get("bp")}
@@ -55,30 +88,15 @@ def curves(dj_file, db, ver, ax, rng):
             pos = (r["minute"] / length) if (use_min and r.get("minute") is not None) else (i + 0.5) / len(recs)
             pts.append((min(pos, 0.999), values(F[r["bp"]], ax)))
         if len(pts) >= 6: per_set.append((s["title"], pts))
-    res = {"dj": D["dj"], "sets_used": len(per_set), "sets_total": len(sets), "sets_timed": stamped,
-           "records_measured": sum(len(p) for _, p in per_set), "records_other_version": other_ver, "curves": {}, "slopes": {}}
-    for m in MEASURES:
-        # the set-level curve: each set's mean in each tenth, then the mean over sets; bands by resampling sets
-        grid = np.full((len(per_set), BINS), np.nan); slopes = []
-        for k, (_, pts) in enumerate(per_set):
-            xs = np.array([p for p, v in pts if v.get(m) is not None]); ys = np.array([v[m] for p, v in pts if v.get(m) is not None], float)
-            if len(xs) < 6: continue
-            for b in range(BINS):
-                sel = (xs >= b / BINS) & (xs < (b + 1) / BINS)
-                if sel.any(): grid[k, b] = ys[sel].mean()
-            if np.ptp(xs) > 0: slopes.append(float(np.polyfit(xs, ys, 1)[0]))
-        if not np.isfinite(grid).any(): continue
-        # 90% bands from the t distribution over sets: resampling twenty sets ran 14% false alarms
-        # against a nominal 10% on orderless test sets; t intervals hold the rate
-        from scipy.stats import t as T
-        mean = np.nanmean(grid, 0); n = np.sum(np.isfinite(grid), 0)
-        se = np.nanstd(grid, 0, ddof=1) / np.sqrt(np.maximum(n, 1)); tq = T.ppf(0.95, np.maximum(n - 1, 1))
-        lo, hi = mean - tq * se, mean + tq * se
-        res["curves"][m] = {"mean": [round(float(x), 4) for x in mean], "lo": [round(float(x), 4) for x in lo], "hi": [round(float(x), 4) for x in hi]}
-        if slopes:
-            sl = np.array(slopes); se = sl.std(ddof=1) / np.sqrt(len(sl)); tq = T.ppf(0.95, len(sl) - 1)
-            res["slopes"][m] = {"start_to_end": round(float(sl.mean()), 4), "lo": round(float(sl.mean() - tq * se), 4),
-                                "hi": round(float(sl.mean() + tq * se), 4), "sets": len(sl)}
+    res = {"dj": D["dj"], "sets_total": len(sets), "sets_timed": stamped, "records_other_version": other_ver, "by_format": {}}
+    for fmt in ("all", "club", "radio"):
+        ps = [x for x in per_set if fmt == "all" or set_format(x[0]) == fmt]
+        if len(ps) < 3: continue
+        c, sl = summarise(ps, rng); cr, _ = summarise(ps, rng, rel=True)
+        res["by_format"][fmt] = {"sets_used": len(ps), "records_measured": sum(len(p) for _, p in ps), "curves": c, "curves_rel": cr, "slopes": sl,
+                                 "titles": [t for t, _ in ps]}
+    a = res["by_format"].get("all", {})
+    res.update({"sets_used": a.get("sets_used", 0), "records_measured": a.get("records_measured", 0), "curves": a.get("curves", {}), "slopes": a.get("slopes", {})})
     return res
 
 
