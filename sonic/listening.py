@@ -38,9 +38,8 @@ def build(db, per_scene=2, seed=7):
             for r in c.execute("select track_id, name, artists from track_meta where name is not null")}
     S = collections.defaultdict(list)
     # the corpus holds two embedding widths while the re-analysis runs: never mix instruments
-    n2 = c.execute("select count(*) from tracks where analyser_ver like '2%'").fetchone()[0]
-    n1 = c.execute("select count(*) from tracks where analyser_id='local' and coalesce(analyser_ver,'1') not like '2%'").fetchone()[0]
-    ver_clause = "like '2%'" if n2 > n1 else "not like '2%'"
+    maj = c.execute("select substr(coalesce(analyser_ver,'1'),1,1) v from tracks where analyser_id='local' group by v order by count(*) desc limit 1").fetchone()[0]
+    ver_clause = f"like '{maj}%'"   # the majority version, whatever it is
     for r in c.execute(f"""select ts.scene, ts.week, ts.track_id, t.features from track_scenes ts
                           join tracks t on t.track_id=ts.track_id and t.analyser_id='local'
                           where ts.week like '____-M__' and coalesce(t.analyser_ver,'1') {ver_clause}"""):

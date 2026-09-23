@@ -15,9 +15,9 @@ KEYS = [("vocal_presence", "vocal"), ("drum_density", "drums"), ("drum_swing", "
 
 def build(db):
     c = sqlite3.connect(db); c.row_factory = sqlite3.Row
-    n2 = c.execute("select count(*) from tracks where analyser_ver like '2%'").fetchone()[0]
-    n1 = c.execute("select count(*) from tracks where analyser_id='local' and coalesce(analyser_ver,'1') not like '2%'").fetchone()[0]
-    clause = "like '2%'" if n2 > n1 else "not like '2%'"
+    # the majority version, whatever it is: choosing between '1' and '2' selected nothing once the corpus moved to 3.0
+    maj = c.execute("select substr(coalesce(analyser_ver,'1'),1,1) v from tracks where analyser_id='local' group by v order by count(*) desc limit 1").fetchone()[0]
+    clause = f"like '{maj}%'"
     M = collections.defaultdict(lambda: collections.defaultdict(list))
     for r in c.execute(f"""select ts.scene, ts.week, t.features from track_scenes ts
                            join tracks t on t.track_id=ts.track_id and t.analyser_id='local'
