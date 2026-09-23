@@ -22,6 +22,10 @@ if [ "$cmd" = fetch ]; then
 fi
 if [ "$cmd" = save ]; then
   SET="$4"; rm -rf /tmp/fps; mkdir -p /tmp/fps
+  # fold any write-ahead log into the file and check it: a store saved without its log was found
+  # malformed on 23 September, and a damaged store must never replace a sound one
+  CHK=$(python3 -c "import sqlite3,sys; c=sqlite3.connect(sys.argv[1]); c.execute('pragma wal_checkpoint(truncate)'); c.execute('pragma journal_mode=delete'); print(c.execute('pragma quick_check').fetchone()[0])" "$F" 2>&1)
+  if [ "$CHK" != "ok" ]; then echo "fpstore: the store fails its integrity check ($CHK); not saved"; exit 1; fi
   gzip -1 -c "$F" | split -b 1900m -d -a 2 - "/tmp/fps/fpstore-$SET.gz."
   N=$(ls /tmp/fps | wc -l); echo "fpstore: $(du -m "$F" | cut -f1) MB as $N compressed part(s), $(du -cm /tmp/fps/* | tail -1 | cut -f1) MB"
   for p in /tmp/fps/*; do

@@ -1,0 +1,25 @@
+name: fpstore-repair
+# Recover a damaged fingerprint store: fetch it, keep what SQLite can still read, check the result,
+# save it with the integrity-checked save, then rebuild Listen's recognition index from it.
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - name: fetch, recover, check, save
+        run: |
+          set -e
+          sudo apt-get install -y -q sqlite3 >/dev/null
+          bash scripts/fpstore.sh fetch "${{ github.repository }}" damaged.db
+          echo "damaged: $(python3 -c "import sqlite3; print(sqlite3.connect('damaged.db').execute('pragma quick_check').fetchone()[0])" 2>&1 | head -c 200)"
+          sqlite3 damaged.db ".recover" | sqlite3 fingerprints.db
+          N=$(python3 -c "import sqlite3; c=sqlite3.connect('fingerprints.db'); print(c.execute('select count(*) from fp_tracks').fetchone()[0])")
+          Q=$(python3 -c "import sqlite3; print(sqlite3.connect('fingerprints.db').execute('pragma quick_check').fetchone()[0])")
+          echo "::notice title=fingerprint store recovered::$N records recovered; integrity: $Q"
+          [ "$Q" = "ok" ] && [ "$N" -gt 5000 ] || { echo "::error::recovery did not produce a sound store"; exit 1; }
+          bash scripts/fpstore.sh save "${{ github.repository }}" fingerprints.db "${{ github.run_id }}"
+          gh workflow run audio.yml --repo benmcewensignal/signal-sonic-audio --ref main -f task=full-index && echo "index rebuild requested"
