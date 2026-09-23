@@ -9121,6 +9121,56 @@
      ]
     }
    },
+   "profile": {
+    "entries": 1034,
+    "own_share": 0.057,
+    "genres": [
+     [
+      "techno-peak-time-driving",
+      0.287
+     ],
+     [
+      "techno-raw-deep-hypnotic",
+      0.158
+     ],
+     [
+      "tech-house",
+      0.11
+     ],
+     [
+      "house",
+      0.103
+     ],
+     [
+      "dance-pop",
+      0.092
+     ]
+    ],
+    "signatures": [
+     [
+      9,
+      "Josh Wink \u2013 Talking To You (Marc Romboy & Andr\u00e9 Winter Remix)"
+     ],
+     [
+      8,
+      "Ninetoes \u2013 Finder (Carl Cox Remix)"
+     ],
+     [
+      8,
+      "Marco Bailey \u2013 Radiant Surge"
+     ],
+     [
+      7,
+      "Capricorn \u2013 20Hz (Carl Cox Remix)"
+     ],
+     [
+      6,
+      "Mark Broom \u2013 Funky Sounds"
+     ]
+    ],
+    "median_days_after_release": 1976,
+    "share_within_90_days": 0.091
+   },
    "matched": 423,
    "in_charts": 7,
    "sets_used": 35,
@@ -14286,6 +14336,56 @@
       "2025-10-12 - Andy C @ 30 Years Of The End x Muzik Magazine, Koko, London"
      ]
     }
+   },
+   "profile": {
+    "entries": 633,
+    "own_share": 0.068,
+    "genres": [
+     [
+      "drum-bass",
+      0.855
+     ],
+     [
+      "dance-pop",
+      0.064
+     ],
+     [
+      "hip-hop",
+      0.014
+     ],
+     [
+      "rock",
+      0.014
+     ],
+     [
+      "trap-future-bass",
+      0.009
+     ]
+    ],
+    "signatures": [
+     [
+      6,
+      "Hedex Feat. Eksman \u2013 MHITR (Semi Automatic)"
+     ],
+     [
+      6,
+      "Andy C \u2013 Home In That Bass"
+     ],
+     [
+      5,
+      "\u00d6wnboss & Sevek \u2013 Move Your Body (Hedex Remix)"
+     ],
+     [
+      5,
+      "Sub Focus \u2013 Rock It (Wilkinson Remix)"
+     ],
+     [
+      5,
+      "Rusko & Mozey \u2013 Hands In The Air (VIP)"
+     ]
+    ],
+    "median_days_after_release": null,
+    "share_within_90_days": null
    },
    "matched": 227,
    "in_charts": 2,

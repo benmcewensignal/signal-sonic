@@ -89,6 +89,39 @@ def curves(dj_file, db, ver, ax, rng):
             pts.append((min(pos, 0.999), values(F[r["bp"]], ax)))
         if len(pts) >= 6: per_set.append((s["title"], pts))
     res = {"dj": D["dj"], "sets_total": len(sets), "sets_timed": stamped, "records_other_version": other_ver, "by_format": {}}
+    # who they are as a player: scene mix, own productions, records they return to, how new
+    try:
+        import collections, datetime, re as _re
+        c0 = sqlite3.connect(db); dj_l = D["dj"].lower()
+        gen = collections.Counter(); own = tot = 0; seen = collections.defaultdict(set); lag = []
+        rel = {}
+        if want:
+            q0 = ",".join("?" * len(want))
+            rel = {t: r for t, r in c0.execute(f"select track_id, released from track_meta where track_id in ({q0})", list(want)) if r}
+        for st in sets:
+            dm = _re.match(r"(\d{4}-\d{2}-\d{2})", st["title"]); sd = datetime.date.fromisoformat(dm.group(1)) if dm else None
+            for r in st["records"]:
+                if not r.get("artist"): continue
+                tot += 1; own += dj_l in (r.get("artist", "") + " " + r.get("title", "")).lower()
+                if r.get("genre"): gen[r["genre"]] += 1
+                if r.get("bp"):
+                    seen[r["bp"]].add(st["title"])
+                    if sd and r["bp"] in rel:
+                        try: lag.append((sd - datetime.date.fromisoformat(rel[r["bp"]][:10])).days)
+                        except Exception: pass
+        names = {}
+        for st in sets:
+            for r in st["records"]:
+                if r.get("bp"): names.setdefault(r["bp"], f'{r.get("artist","")} \u2013 {r.get("title","")}')
+        sig = sorted(((len(v), names[k]) for k, v in seen.items() if len(v) >= 3), reverse=True)[:5]
+        lag = [x for x in lag if x >= 0]
+        res["profile"] = {"entries": tot, "own_share": round(own / tot, 3) if tot else None,
+                          "genres": [[g, round(n / max(1, sum(gen.values())), 3)] for g, n in gen.most_common(5)],
+                          "signatures": [[n, nm] for n, nm in sig],
+                          "median_days_after_release": int(sorted(lag)[len(lag) // 2]) if lag else None,
+                          "share_within_90_days": round(sum(1 for x in lag if x <= 90) / len(lag), 3) if lag else None}
+    except Exception:
+        pass
     # the join with the charts: how many of the records this DJ played are among the chart-visible
     # releases the corpus samples (a monthly listing or a weekly chart), as against the records only the sets reach
     try:
