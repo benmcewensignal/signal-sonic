@@ -335,6 +335,10 @@ jobs:
             # the done log is merged, not copied: a run's older copy used to delete main's newer lines
             [ -f /tmp/out/queue/done.json ] && python -m sonic.done_merge --main queue/done.json --ours /tmp/out/queue/done.json --out /tmp/out/queue/done.json
             cp -a /tmp/out/data /tmp/out/queue . 2>/dev/null
+            # data/tracklists belongs to the tracklists job: a queue run that checked out before its
+            # last commit would copy an old curves file back (it did on 23 September, and the site's
+            # DJ profiles and chart overlap vanished), so this run always keeps main's copy
+            git checkout origin/main -- data/tracklists 2>/dev/null || true
             cp -a /tmp/out/backfill-report.md /tmp/out/backfill-report.json /tmp/out/CLAIMS.md . 2>/dev/null
             git add -A data queue backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null
             if git diff --cached --quiet; then STATUS="nothing to persist"; break; fi
