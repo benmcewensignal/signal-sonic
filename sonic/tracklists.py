@@ -36,7 +36,7 @@ def sets_for(dj, since):
     return sorted(t for t in titles if re.match(r"\d{4}", t) and int(t[:4]) >= since)
 
 
-STAMP = re.compile(r"^\[(\d{1,3})\]\s*(.+)$")
+STAMP = re.compile(r"^\[(\d{1,3}|\d{1,2}:\d{2}(?::\d{2})?|\?[:?]*)\]\s*(.+)$")
 
 
 def parse(wikitext):
@@ -47,7 +47,10 @@ def parse(wikitext):
     for ln in body.split("\n"):
         s = re.sub(r"<[^>]+>", "", ln).strip().lstrip("#*:").strip()
         if not s or s.startswith(("{{", "|", "==")): continue
-        mm = STAMP.match(s); minute = int(mm.group(1)) if mm else None; rest = mm.group(2) if mm else s
+        mm = STAMP.match(s); rest = mm.group(2) if mm else s; minute = None
+        if mm and "?" not in mm.group(1):
+            parts = [int(x) for x in mm.group(1).split(":")]   # [mmm], [mm:ss] or [h:mm:ss]
+            minute = parts[0] if len(parts) == 1 else (parts[0] if len(parts) == 2 else parts[0] * 60 + parts[1])
         if not mm and " - " not in rest: continue
         lab = re.search(r"\[([^\]]+)\]\s*$", rest); label = lab.group(1).strip() if lab else ""
         if lab: rest = rest[:lab.start()].strip()
@@ -79,6 +82,12 @@ def match(tok, rec, cache):
         ov = len(want_a & arts) / max(1, len(want_a))
         lab = 0.1 if rec.get("label") and norm(rec["label"])[:1] == norm((t.get("label") or {}).get("name"))[:1] else 0.0
         sc = 0.6 * ts + 0.4 * ov + lab
+        # when the tracklist names a mix, the match must be that mix: a different remix of the
+        # same song can sound nothing like it (Delta Heavy's Voodoo People was matched to Pendulum's)
+        want_mix = re.search(r"\(([^)]*(?:mix|remix|dub|edit|version|vip|rework)[^)]*)\)", rec["title"], re.I)
+        if want_mix:
+            wm = " ".join(norm(want_mix.group(1))); gm = " ".join(norm(t.get("mix_name") or ""))
+            if difflib.SequenceMatcher(None, wm, gm).ratio() < 0.7: continue
         if ts >= 0.6 and ov >= 0.5 and sc > bs: best, bs = t, sc
     out = None if best is None else {"bp": "bp:%d" % best["id"], "score": round(bs, 3), "preview": best.get("sample_url"),
                                      "name": best.get("name"), "mix": best.get("mix_name"), "genre": (best.get("genre") or {}).get("slug")}

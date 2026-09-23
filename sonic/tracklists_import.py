@@ -26,6 +26,7 @@ def main():
         if f.endswith("curves.json"): continue
         D = json.load(open(f))
         for s in D.get("sets", []):
+            c.execute("delete from tracklist_plays where set_title=?", (s["title"],))   # a re-import replaces the set's plays
             for i, r in enumerate(s["records"]):
                 tid = r.get("bp")
                 entry = f'{r.get("artist","")} - {r.get("title","")}'.strip(" -") or r.get("raw", "")
