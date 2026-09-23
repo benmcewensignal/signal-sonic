@@ -15,7 +15,7 @@ scenes = [r[0] for r in c.execute("select distinct scene from track_scenes where
 random.seed(7); picked = []
 for s in scenes:
     ids = [r[0] for r in c.execute("""select t.track_id from tracks t join track_scenes ts on ts.track_id=t.track_id join preview_cache p on p.track_id=t.track_id
-        where t.analyser_id='local' and t.analyser_ver like '2.9%' and ts.scene=? and ts.week like '____-M__' group by t.track_id""", (s,))]
+        where t.analyser_id='local' and t.analyser_ver like '3.0%' and ts.scene=? and ts.week like '____-M__' group by t.track_id""", (s,))]
     random.shuffle(ids); picked += [(s, i) for i in ids[:n_per]]
 out = []; errs = []
 for s, tid in picked:
