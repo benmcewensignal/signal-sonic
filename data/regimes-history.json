@@ -1107,13 +1107,13 @@
 "date": "2026-09-23",
 "scene": "uk-garage-speed-garage",
 "regime": "mixed",
-"established": 59
+"established": 65
 },
 {
 "date": "2026-09-23",
 "scene": "uk-funky-gqom",
 "regime": "mixed",
-"established": 81
+"established": 86
 },
 {
 "date": "2026-09-23",
@@ -1125,31 +1125,31 @@
 "date": "2026-09-23",
 "scene": "140-deep-dubstep-grime",
 "regime": "mixed",
-"established": 41
+"established": 42
 },
 {
 "date": "2026-09-23",
 "scene": "breaks-breakbeat-uk-bass",
 "regime": "mixed",
-"established": 33
+"established": 35
 },
 {
 "date": "2026-09-23",
 "scene": "tech-house",
 "regime": "mixed",
-"established": 43
+"established": 46
 },
 {
 "date": "2026-09-23",
 "scene": "techno-peak-time",
 "regime": "stars lead",
-"established": 41
+"established": 42
 },
 {
 "date": "2026-09-23",
 "scene": "techno-raw-deep-hypnotic",
 "regime": "mixed",
-"established": 70
+"established": 77
 },
 {
 "date": "2026-09-23",
@@ -1167,54 +1167,54 @@
 "date": "2026-09-23",
 "scene": "melodic-house-techno",
 "regime": "mixed",
-"established": 63
+"established": 65
 },
 {
 "date": "2026-09-23",
 "scene": "drum-and-bass",
 "regime": "stars behind",
-"established": 52
+"established": 54
 },
 {
 "date": "2026-09-23",
 "scene": "hard-techno",
 "regime": "mixed",
-"established": 20
+"established": 26
 },
 {
 "date": "2026-09-23",
 "scene": "bass-house",
-"regime": "stars behind",
-"established": 11
+"regime": "mixed",
+"established": 19
 },
 {
 "date": "2026-09-23",
 "scene": "trance-main-floor",
 "regime": "mixed",
-"established": 7
+"established": 16
 },
 {
 "date": "2026-09-23",
 "scene": "progressive-house",
 "regime": "mixed",
-"established": 4
+"established": 7
 },
 {
 "date": "2026-09-23",
 "scene": "psy-trance",
-"regime": "mixed",
-"established": 6
+"regime": "stars behind",
+"established": 7
 },
 {
 "date": "2026-09-23",
 "scene": "indie-dance",
 "regime": "stars behind",
-"established": 15
+"established": 17
 },
 {
 "date": "2026-09-23",
 "scene": "organic-house",
 "regime": "stars behind",
-"established": 6
+"established": 9
 }
 ]
