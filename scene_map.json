@@ -1,6 +1,5 @@
 {
  "_note": "Beatport genre_id -> Signal scene. Ids verified against the live /catalog/genres list (run #3, 2026-08-28). Expansion wave 1 (2026-09-01): hard-techno, bass-house, trance-main-floor. Wave 2a (2026-09-04): progressive-house, psy-trance, indie-dance, organic-house, ids verified 2026-08-28.",
- "_later": "wave 2b pending the live genre list (data/beatport-genres.json): minimal-deep-tech, electro, nu-disco, hard-dance-hardcore, dubstep, electronica-downtempo, jackin-funky-house, mainstage; brazilian-funk still needs its id",
  "86": {
   "scene": "uk-garage-speed-garage",
   "name": "UK Garage / Bassline"
@@ -53,7 +52,6 @@
   "scene": "drum-and-bass",
   "name": "Drum & Bass"
  },
- "_pending_brazilian_funk": "Beatport launched a Brazilian Funk category; its genre_id is NOT in our verified list and must not be guessed. Run: python -m sonic.beatport genres | grep -i 'funk\\|brazil' with live creds, then add the entry with scene 'brazilian-funk' and tags ['brazilian funk','baile funk','funk carioca','mandelao'] and a SITE mapping 'Brazilian Funk'.",
  "2": {
   "scene": "hard-techno",
   "name": "Hard Techno",
@@ -113,5 +111,86 @@
    "downtempo house",
    "ethnic house"
   ]
- }
+ },
+ "100": {
+  "scene": "ambient-experimental",
+  "name": "Ambient / Experimental",
+  "hidden": true
+ },
+ "101": {
+  "scene": "brazilian-funk",
+  "name": "Brazilian Funk",
+  "hidden": true
+ },
+ "18": {
+  "scene": "dubstep",
+  "name": "Dubstep",
+  "hidden": true
+ },
+ "94": {
+  "scene": "electro",
+  "name": "Electro",
+  "hidden": true
+ },
+ "3": {
+  "scene": "electronica",
+  "name": "Electronica",
+  "hidden": true
+ },
+ "63": {
+  "scene": "downtempo",
+  "name": "Downtempo",
+  "hidden": true
+ },
+ "81": {
+  "scene": "funky-house",
+  "name": "Funky House",
+  "hidden": true
+ },
+ "8": {
+  "scene": "hard-dance-hardcore",
+  "name": "Hard Dance / Hardcore",
+  "hidden": true
+ },
+ "97": {
+  "scene": "jackin-house",
+  "name": "Jackin House",
+  "hidden": true
+ },
+ "96": {
+  "scene": "mainstage",
+  "name": "Mainstage",
+  "hidden": true
+ },
+ "14": {
+  "scene": "minimal-deep-tech",
+  "name": "Minimal / Deep Tech",
+  "hidden": true
+ },
+ "50": {
+  "scene": "nu-disco-disco",
+  "name": "Nu Disco / Disco",
+  "hidden": true
+ },
+ "38": {
+  "scene": "trap-future-bass",
+  "name": "Trap / Future Bass",
+  "hidden": true
+ },
+ "99": {
+  "scene": "trance-raw-deep-hypnotic",
+  "name": "Trance (Raw / Deep / Hypnotic)",
+  "hidden": true
+ },
+ "111": {
+  "scene": "latin-electronic",
+  "name": "Latin Electronic",
+  "hidden": true
+ },
+ "102": {
+  "scene": "african",
+  "name": "African",
+  "hidden": true
+ },
+ "_wave3": "2026-09-24: sixteen Beatport genres from the live list (data/beatport-genres.json), measured but hidden (\"hidden\": true) until the classification work decides which become scenes; Dance/Pop and Caribbean left out."
 }
