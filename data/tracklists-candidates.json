@@ -1,5 +1,5 @@
 {
- "source": "compiled by Grok from MixesDB on 2026-09-24, checked here: headliners, duplicates and rows without well-formed set addresses removed; the tracklist job verifies every category and counts the sets itself",
+ "source": "compiled by Grok from MixesDB on 2026-09-24, checked here: headliners, duplicates and rows without well-formed set addresses removed; the tracklist job verifies every category and counts the sets itself; a second batch of 70 for thin and new scenes on 2026-09-24",
  "djs": [
   {
    "dj": "Kitty Amor",
@@ -305,6 +305,356 @@
    "dj": "Oneman",
    "scene_claimed": "UK Garage / Bassline",
    "sets_claimed": 6
+  },
+  {
+   "dj": "Cincity",
+   "scene_claimed": "Afro House",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Taylah Elaine",
+   "scene_claimed": "Afro House",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Angelos",
+   "scene_claimed": "Afro House",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Francis Mercier",
+   "scene_claimed": "Afro House",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Philou Louzolo",
+   "scene_claimed": "Afro House",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Alex Wann",
+   "scene_claimed": "Afro House",
+   "sets_claimed": 14
+  },
+  {
+   "dj": "DJ Polo",
+   "scene_claimed": "Amapiano",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Scotti Dee",
+   "scene_claimed": "Amapiano",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "DJ Neptizzle",
+   "scene_claimed": "Amapiano",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Acid Pauli",
+   "scene_claimed": "Organic House",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Jan Blomqvist",
+   "scene_claimed": "Organic House",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Nico Stojan",
+   "scene_claimed": "Organic House",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "S\u00e9bastien L\u00e9ger",
+   "scene_claimed": "Organic House",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "WhoMadeWho",
+   "scene_claimed": "Organic House",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Freedom Fighters",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Neelix",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Maryline K",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Ace Ventura",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "AISHA",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Atch22",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "The Digital Blonde",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Emok",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Bitmusic",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 11
+  },
+  {
+   "dj": "Andrew Murray",
+   "scene_claimed": "Progressive House",
+   "sets_claimed": 12
+  },
+  {
+   "dj": "Marsh",
+   "scene_claimed": "Progressive House",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Nils Hoffmann",
+   "scene_claimed": "Progressive House",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Einmusik",
+   "scene_claimed": "Progressive House",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Massano",
+   "scene_claimed": "Melodic House & Techno",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Mind Against",
+   "scene_claimed": "Melodic House & Techno",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Atjazz",
+   "scene_claimed": "Deep House",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Hame",
+   "scene_claimed": "Deep House",
+   "sets_claimed": 9
+  },
+  {
+   "dj": "XDB",
+   "scene_claimed": "Deep House",
+   "sets_claimed": 17
+  },
+  {
+   "dj": "Hue",
+   "scene_claimed": "Ambient / Experimental",
+   "sets_claimed": 29
+  },
+  {
+   "dj": "Nosedrip",
+   "scene_claimed": "Ambient / Experimental",
+   "sets_claimed": 36
+  },
+  {
+   "dj": "Yu Su",
+   "scene_claimed": "Ambient / Experimental",
+   "sets_claimed": 37
+  },
+  {
+   "dj": "Buckley",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 21
+  },
+  {
+   "dj": "Nio-B",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 13
+  },
+  {
+   "dj": "TMSV",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Introspekt",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Doctor Jeep",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 12
+  },
+  {
+   "dj": "Lou Nour",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Mia Koden",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "LOUISAHHH!!!",
+   "scene_claimed": "Electro",
+   "sets_claimed": 18
+  },
+  {
+   "dj": "Eclair Fifi",
+   "scene_claimed": "Electro",
+   "sets_claimed": 18
+  },
+  {
+   "dj": "DJ Beware",
+   "scene_claimed": "Electro",
+   "sets_claimed": 13
+  },
+  {
+   "dj": "DJ MELL G",
+   "scene_claimed": "Electro",
+   "sets_claimed": 8
+  },
+  {
+   "dj": "DJ Morpheus",
+   "scene_claimed": "Downtempo",
+   "sets_claimed": 27
+  },
+  {
+   "dj": "Lukas Sawicki",
+   "scene_claimed": "Downtempo",
+   "sets_claimed": 17
+  },
+  {
+   "dj": "Trishes",
+   "scene_claimed": "Downtempo",
+   "sets_claimed": 9
+  },
+  {
+   "dj": "Seamus Haji",
+   "scene_claimed": "Funky House",
+   "sets_claimed": 8
+  },
+  {
+   "dj": "Pegassi",
+   "scene_claimed": "Hard Dance / Hardcore",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Kyle Starkey",
+   "scene_claimed": "Hard Dance / Hardcore",
+   "sets_claimed": 8
+  },
+  {
+   "dj": "Justin Tinderdate",
+   "scene_claimed": "Hard Dance / Hardcore",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "AniMe",
+   "scene_claimed": "Hard Dance / Hardcore",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Fergie",
+   "scene_claimed": "Hard Dance / Hardcore",
+   "sets_claimed": 12
+  },
+  {
+   "dj": "PLO Man",
+   "scene_claimed": "Minimal / Deep Tech",
+   "sets_claimed": 23
+  },
+  {
+   "dj": "Martinou",
+   "scene_claimed": "Minimal / Deep Tech",
+   "sets_claimed": 9
+  },
+  {
+   "dj": "Mihai Popoviciu",
+   "scene_claimed": "Minimal / Deep Tech",
+   "sets_claimed": 11
+  },
+  {
+   "dj": "Andrey Pushkarev",
+   "scene_claimed": "Minimal / Deep Tech",
+   "sets_claimed": 11
+  },
+  {
+   "dj": "Petre Inspirescu",
+   "scene_claimed": "Minimal / Deep Tech",
+   "sets_claimed": 8
+  },
+  {
+   "dj": "Interstellar Funk",
+   "scene_claimed": "Minimal / Deep Tech",
+   "sets_claimed": 13
+  },
+  {
+   "dj": "CC:Disco!",
+   "scene_claimed": "Nu Disco / Disco",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Fingerman",
+   "scene_claimed": "Nu Disco / Disco",
+   "sets_claimed": 36
+  },
+  {
+   "dj": "Dicky Trisco",
+   "scene_claimed": "Nu Disco / Disco",
+   "sets_claimed": 31
+  },
+  {
+   "dj": "Yasmin",
+   "scene_claimed": "Nu Disco / Disco",
+   "sets_claimed": 32
+  },
+  {
+   "dj": "Flyo",
+   "scene_claimed": "Trap / Future Bass",
+   "sets_claimed": 15
+  },
+  {
+   "dj": "Brodinski",
+   "scene_claimed": "Trap / Future Bass",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Coco Maria",
+   "scene_claimed": "Latin Electronic",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Bernardo Pinheiro",
+   "scene_claimed": "Latin Electronic",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Daferwa",
+   "scene_claimed": "Latin Electronic",
+   "sets_claimed": 26
   }
  ]
 }

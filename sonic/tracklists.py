@@ -26,17 +26,42 @@ def api(params):
     raise err
 
 
+SITE = "https://www.mixesdb.com/w/"
+DELAY = 4.0   # MixesDB's robots.txt asks for a 4-second crawl delay and disallows API addresses (?action=, ?title=)
+
+
+def page(title):
+    """An ordinary MixesDB page, at the robots.txt crawl delay; None if it cannot be read."""
+    url = SITE + urllib.parse.quote(title.replace(" ", "_"), safe=":/_-(),'!&")
+    for i in range(3):
+        try:
+            time.sleep(DELAY)
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=30) as r:
+                return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code == 404: return None
+            time.sleep(DELAY * (i + 2))
+        except Exception:
+            time.sleep(DELAY * (i + 2))
+    return None
+
+
+def tracklist_text(html):
+    """The page's Tracklist section as wikitext-like lines, so the one parser reads both."""
+    if not html: return ""
+    m = re.search(r'id="Tracklist"(.*?)(?:<h2|$)', html, re.S)
+    body = m.group(1) if m else html
+    items = re.findall(r"<li[^>]*>(.*?)</li>", body, re.S)
+    lines = []
+    for it in items:
+        t = re.sub(r"<[^>]+>", "", it)
+        t = t.replace("&amp;", "&").replace("&#039;", "'").replace("&quot;", '"').replace("&nbsp;", " ").replace("&#91;", "[").replace("&#93;", "]")
+        lines.append("# " + " ".join(t.split()))
+    return "== Tracklist ==\n" + "\n".join(lines)
+
+
 def category_for(dj):
-    """MixesDB's category name for a DJ: the plain name first, else the closest category its search finds
-    (FISHER is 'FISHER (AUS)', and several DJs sit under a variant spelling)."""
-    want = re.sub(r"[^a-z0-9]", "", dj.lower())
-    try:
-        r = api({"action": "query", "list": "search", "srsearch": dj, "srnamespace": "14", "srlimit": "10"})
-        for h in r.get("query", {}).get("search", []):
-            name = h["title"].split(":", 1)[-1]
-            if want and want in re.sub(r"[^a-z0-9]", "", name.lower()): return name
-    except Exception:
-        pass
+    """The search fallback used the API, which robots.txt disallows; categories now come from the list given."""
     return None
 
 
@@ -51,13 +76,11 @@ def sets_for(dj, since):
 
 
 def _sets_for(dj, since):
-    titles, cont = [], {}
-    while True:
-        r = api({"action": "query", "list": "categorymembers", "cmtitle": "Category:" + dj, "cmlimit": "500", **cont})
-        titles += [m["title"] for m in r["query"]["categorymembers"] if m.get("ns") == 0]
-        if "continue" in r: cont = {"cmcontinue": r["continue"]["cmcontinue"]}
-        else: break
-    return sorted(t for t in titles if re.match(r"\d{4}", t) and int(t[:4]) >= since)
+    """Set pages listed on the DJ's category page (first page of listing; its continuation links are disallowed)."""
+    html = page("Category:" + dj)
+    if not html: return []
+    titles = {urllib.parse.unquote(h).replace("_", " ") for h in re.findall(r'href="/w/(\d{4}-\d{2}-\d{2}_-_[^"#?]+)"', html)}
+    return sorted(t for t in titles if int(t[:4]) >= since)
 
 
 STAMP = re.compile(r"^\[(\d{1,3}|\d{1,2}:\d{2}(?::\d{2})?|\?[:?]*)\]\s*(.+)$")
@@ -145,7 +168,7 @@ def main():
         titles = sets_for(dj, a.since)[-a.max_sets:]
         sets = []
         for t in titles:
-            try: recs = parse(api({"action": "parse", "page": t, "prop": "wikitext"})["parse"]["wikitext"]["*"])
+            try: recs = parse(tracklist_text(page(t)))
             except Exception as e: print(f"skip {t}: {type(e).__name__}", flush=True); continue
             for r in recs:
                 if r.get("artist"):
