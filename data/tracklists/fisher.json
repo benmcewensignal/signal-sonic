@@ -1,5 +1,3150 @@
 {
 "dj": "Fisher",
 "source": "MixesDB (CC BY-SA 3.0)",
-"sets": []
+"sets": [
+{
+"title": "2024-11-08 - FISHER @ kineticFIELD, Electric Daisy Carnival, Orlando",
+"records": [
+{
+"minute": 0,
+"artist": "Black & White Brothers",
+"title": "Put Your Hands Up In The Air (Acapella)",
+"label": "Altra Moda",
+"bp": "bp:7422396",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/30330688-5290-4a2a-b5fe-f1b7e5583362.LOFI.mp3",
+"name": "Put Your Hands Up",
+"mix": "Accapella Disco Version",
+"genre": "house",
+"released": "1998-04-06"
+},
+{
+"minute": null,
+"artist": "[0?] Robin S",
+"title": "Show Me Love",
+"label": "Atlantic",
+"bp": "bp:13800396",
+"score": 0.656,
+"preview": "https://geo-samples.beatport.com/track/03707b0d-d8d2-433b-9a53-e76cb62ac1aa.LOFI.mp3",
+"name": "Show Me Love",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-06-26"
+},
+{
+"minute": 3,
+"artist": "GENESI & Laherte",
+"title": "Pressure",
+"label": "Catch & Release"
+},
+{
+"minute": 6,
+"artist": "FISHER Feat. Kita Alexander",
+"title": "Atmosphere",
+"label": "Catch & Release",
+"bp": "bp:26766150",
+"score": 0.687,
+"preview": "https://geo-samples.beatport.com/track/8b1556de-356d-4604-8cc0-11c115bd4fea.LOFI.mp3",
+"name": "Atmosphere",
+"mix": "Radio Edit",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": 9,
+"artist": "TOYZZ",
+"title": "Hot Stuff",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Deeper Purpose",
+"title": "Operate",
+"label": ""
+},
+{
+"minute": 13,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 16,
+"artist": "FISHER & Flowdan",
+"title": "Boost Up",
+"label": "Catch & Release",
+"bp": "bp:26768022",
+"score": 0.836,
+"preview": "https://geo-samples.beatport.com/track/7604adc9-9ee3-4fbd-8892-a908a6f2a3c7.LOFI.mp3",
+"name": "Boost Up",
+"mix": "Intro",
+"genre": "tech-house",
+"released": "2024-08-09"
+},
+{
+"minute": 19,
+"artist": "FISHER & AR/CO",
+"title": "Ocean",
+"label": "Catch & Release"
+},
+{
+"minute": 23,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 26,
+"artist": "Chris Lake & FISHER & Sant\u00e9 Sansone vs Gotye Feat. Kimbra",
+"title": "Somebody (2024)",
+"label": "Big Beat",
+"bp": "bp:19434420",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1cf107a2-828b-4ec8-8a17-8e412736426a.LOFI.mp3",
+"name": "Somebody",
+"mix": "2024",
+"genre": "dance-pop",
+"released": "2024-08-23"
+},
+{
+"minute": 28,
+"artist": "Kamino Feat. MERYLL",
+"title": "Up N Down",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "Ray Parker Jr.",
+"title": "Ghostbusters Theme",
+"label": "Arista",
+"bp": "bp:20858455",
+"score": 0.809,
+"preview": "https://geo-samples.beatport.com/track/62a18654-884f-47d9-a472-1d5d4c803c12.LOFI.mp3",
+"name": "Ghostbusters",
+"mix": "Extended Version",
+"genre": "pop",
+"released": "2014-08-29"
+},
+{
+"minute": 34,
+"artist": "Bob Marley & The Wailers",
+"title": "Jamming (FISHER Rework)",
+"label": "Tuff Gong",
+"bp": "bp:18667295",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/513e3cb3-d24f-478c-bbf6-0276664c4f6f.LOFI.mp3",
+"name": "Jamming",
+"mix": "FISHER Rework",
+"genre": "tech-house",
+"released": "2024-02-08"
+},
+{
+"minute": 38,
+"artist": "Sir Mix-A-Lot",
+"title": "Baby Got Back (San Pacho Edit)",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "San Pacho",
+"title": "Move Your Ass",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "SIDEPIECE",
+"title": "M\u00e9nage \u00e0 Trois",
+"label": "",
+"bp": "bp:26769116",
+"score": 0.811,
+"preview": "https://geo-samples.beatport.com/track/9b320a4f-df55-4b75-9a28-20e2e1738ae7.LOFI.mp3",
+"name": "M\u00e9nage \u00c0 Trois",
+"mix": "Short Edit",
+"genre": "dance-pop",
+"released": "2025-02-14"
+},
+{
+"minute": 46,
+"artist": "Kamino",
+"title": "Supersonic",
+"label": "",
+"bp": "bp:20342432",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/a0e481ff-9325-463a-85fd-8f0b879d313f.LOFI.mp3",
+"name": "Supersonic",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2025-04-25"
+},
+{
+"minute": 48,
+"artist": "Bob Sinclar Feat. Steve Edwards",
+"title": "World, Hold On (Children Of The Sky) (FISHER 2022 Rework)",
+"label": "Yellow/Spinnin'",
+"bp": "bp:18752036",
+"score": 0.89,
+"preview": "https://geo-samples.beatport.com/track/ae03900d-cf28-4368-8303-3efdc16f87e4.LOFI.mp3",
+"name": "World Hold On (Children Of The Sky)",
+"mix": "FISHER Rework",
+"genre": "melodic-house-techno",
+"released": "2022-07-08"
+},
+{
+"minute": 52,
+"artist": "FISHER & Jennifer Lopez",
+"title": "Waiting For Tonight",
+"label": "Epic",
+"bp": "bp:26829122",
+"score": 0.918,
+"preview": "https://geo-samples.beatport.com/track/c5fb6379-8061-4960-8c40-f91e413c647d.LOFI.mp3",
+"name": "Waiting For Tonight",
+"mix": "Intro",
+"genre": "dance-pop",
+"released": "2024-05-03"
+},
+{
+"minute": 56,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 58,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 60,
+"artist": "Marlon Hoffstadt aka DJ Daddy Trance",
+"title": "It's That Time (FISHER Remix)",
+"label": "Method 808"
+},
+{
+"minute": 63,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 66,
+"artist": "Cloonee & InntRaw & Young M.A",
+"title": "Stephanie",
+"label": "Hellbent",
+"bp": "bp:20022806",
+"score": 0.772,
+"preview": "https://geo-samples.beatport.com/track/7734ff00-c7bd-4ad7-8f88-5ee33dd832bc.LOFI.mp3",
+"name": "Stephanie ",
+"mix": "HNTR Remix",
+"genre": "tech-house",
+"released": "2025-02-07"
+},
+{
+"minute": 67,
+"artist": "FISHER & Aatig",
+"title": "Show Me Love",
+"label": ""
+},
+{
+"minute": 71,
+"artist": "PAWSA Feat. Nate Dogg",
+"title": "PICK UP THE PHONE",
+"label": "Pawz",
+"bp": "bp:26769699",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/9d95d289-4acf-4216-8e7b-7a564098fa4f.LOFI.mp3",
+"name": "PICK UP THE PHONE",
+"mix": "Intro",
+"genre": "house",
+"released": "2024-06-28"
+},
+{
+"minute": 75,
+"artist": "FISHER",
+"title": "Losing It",
+"label": "Catch & Release/Astralwerks",
+"bp": "bp:26829088",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/fde3f54e-c19e-42a9-b087-79f4a514cade.LOFI.mp3",
+"name": "Losing It",
+"mix": "Intro",
+"genre": "dance-pop",
+"released": "2018-07-13"
+},
+{
+"minute": 79,
+"artist": "FISHER & Aatig",
+"title": "Take It Off",
+"label": "Catch & Release",
+"bp": "bp:26765844",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3a564037-cd98-4c73-af31-c5aae4183ed0.LOFI.mp3",
+"name": "Take It Off",
+"mix": "Short Edit",
+"genre": "house",
+"released": "2023-06-09"
+}
+]
+},
+{
+"title": "2024-12-06 - FISHER - SLAM! MixMarathon",
+"records": []
+},
+{
+"title": "2024-12-07 - Moguai, FISHER, Lovra - 1LIVE DJ Session",
+"records": [
+{
+"minute": null,
+"artist": ";Moguai = [[2024-12-05",
+"title": "Moguai - PUNX Up The Volume 604]]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "CASSIMM",
+"title": "Valerie (Extended Mix)",
+"label": "Toolroom",
+"bp": "bp:19767513",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6c214783-aeeb-4ca3-b00c-f0e06ad94941.LOFI.mp3",
+"name": "Valerie",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-12-06"
+},
+{
+"minute": null,
+"artist": "FISHER & AR/CO",
+"title": "Ocean",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Biscits",
+"title": "Freak",
+"label": "Wrong."
+},
+{
+"minute": null,
+"artist": "Ely Oaks",
+"title": "Koka Kola (James Hurr Remix)",
+"label": "Crash Your Sound",
+"bp": "bp:26470996",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6dff712f-bd15-4e05-b600-14abf9bb49df.LOFI.mp3",
+"name": "Koka Kola",
+"mix": "James Hurr Remix",
+"genre": "dance-pop",
+"released": "2024-12-06"
+},
+{
+"minute": null,
+"artist": "Fedde Le Grand",
+"title": "I Am Ready (Extended Mix)",
+"label": "Darklight",
+"bp": "bp:19714256",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b795c17-409a-41fd-a242-fd092c93f97c.LOFI.mp3",
+"name": "I Am Ready",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-11-29"
+},
+{
+"minute": null,
+"artist": "Solardo & Joshwa",
+"title": "Slow Down (Extended)",
+"label": "Higher Ground",
+"bp": "bp:19715116",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e2ee129b-42d5-41c8-a68b-c3f43c84d338.LOFI.mp3",
+"name": "Slow Down",
+"mix": "Extended",
+"genre": "tech-house",
+"released": "2024-11-21"
+},
+{
+"minute": null,
+"artist": "Steve Mac & Nick Reach Up",
+"title": "Do It (Extended Mix)",
+"label": "Newstate",
+"bp": "bp:19806937",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5741f4a3-b8d6-46d2-b83d-05bb2449e7c8.LOFI.mp3",
+"name": "Do It ",
+"mix": "Extended Mix",
+"genre": "funky-house",
+"released": "2024-12-20"
+},
+{
+"minute": null,
+"artist": "Wankelmut & Tim Cullen",
+"title": "Time After Time",
+"label": "Club Whatever",
+"bp": "bp:19670983",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/b6489681-c8fa-44c3-b7f2-1751fb554b89.LOFI.mp3",
+"name": "Time After Time",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-11-08"
+},
+{
+"minute": null,
+"artist": "Edd & Victor Flash & Gero Feat. Club Azur",
+"title": "People",
+"label": "Club Azur"
+},
+{
+"minute": null,
+"artist": "Ti\u00ebsto & Lucas & Steve",
+"title": "Free Your Mind (Extended Mix)",
+"label": "Musical Freedom",
+"bp": "bp:26768721",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bcbea193-20b2-425d-bfdc-77c924467384.LOFI.mp3",
+"name": "Free Your Mind",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-12-13"
+},
+{
+"minute": null,
+"artist": "CTRL",
+"title": "Street",
+"label": ""
+},
+{
+"minute": null,
+"artist": "OUNAH",
+"title": "Right Now",
+"label": "Diynamic"
+},
+{
+"minute": null,
+"artist": "Jes\u00fas Fern\u00e1ndez",
+"title": "Guayab\u00fa (Extended Mix)",
+"label": "Toolroom Trax"
+},
+{
+"minute": null,
+"artist": "Dubdogz & Bhaskar",
+"title": "Infinity (Dubdogz Extended Remix)",
+"label": "Spinnin'",
+"bp": "bp:19798752",
+"score": 0.898,
+"preview": "https://geo-samples.beatport.com/track/b52f66dd-850b-44ab-8678-286c43acfad8.LOFI.mp3",
+"name": "Infinity ",
+"mix": "Dubdogz Remix",
+"genre": "dance-pop",
+"released": "2024-12-13"
+},
+{
+"minute": null,
+"artist": "Dillon Nathaniel",
+"title": "Bad Kubing (Extended Mix)",
+"label": "Strangelove",
+"bp": "bp:19735977",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f8b3aa6-3bd8-44fd-929e-44f3779ecc5b.LOFI.mp3",
+"name": "Bad Kubing",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2024-11-29"
+},
+{
+"minute": null,
+"artist": "MORTEN & ARTBAT Feat. Bonn",
+"title": "Hollow (K\u00f6lsch Remix)",
+"label": "Insomniac",
+"bp": "bp:19766729",
+"score": 0.686,
+"preview": "https://geo-samples.beatport.com/track/558003ff-365d-41bb-aa85-26b9ed7ce011.LOFI.mp3",
+"name": "Hollow (feat Bonn) feat. Bonn",
+"mix": "Ko\u0308lsch Remix",
+"genre": "melodic-house-techno",
+"released": "2024-11-29"
+},
+{
+"minute": null,
+"artist": "Lazare & ADDAM",
+"title": "Muhuuuuu (Extended Mix)",
+"label": "Spinnin' Deep",
+"bp": "bp:19798751",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/55898b3c-344b-40f6-b1a5-bf3a2fa5c4e0.LOFI.mp3",
+"name": "Muhuuuuu",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-01-17"
+},
+{
+"minute": null,
+"artist": ";FISHER = [[2024-11-08",
+"title": "FISHER @ kineticFIELD, Electric Daisy Carnival, Orlando]]",
+"label": ""
+},
+{
+"minute": 0,
+"artist": "Black & White Brothers",
+"title": "Put Your Hands Up In The Air (Acapella)",
+"label": "Altra Moda",
+"bp": "bp:7422396",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/30330688-5290-4a2a-b5fe-f1b7e5583362.LOFI.mp3",
+"name": "Put Your Hands Up",
+"mix": "Accapella Disco Version",
+"genre": "house",
+"released": "1998-04-06"
+},
+{
+"minute": null,
+"artist": "[0?] Robin S",
+"title": "Show Me Love",
+"label": "Atlantic",
+"bp": "bp:13800396",
+"score": 0.656,
+"preview": "https://geo-samples.beatport.com/track/03707b0d-d8d2-433b-9a53-e76cb62ac1aa.LOFI.mp3",
+"name": "Show Me Love",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-06-26"
+},
+{
+"minute": 3,
+"artist": "GENESI & Laherte",
+"title": "Pressure",
+"label": "Catch & Release"
+},
+{
+"minute": 6,
+"artist": "FISHER Feat. Kita Alexander",
+"title": "Atmosphere",
+"label": "Catch & Release",
+"bp": "bp:26766150",
+"score": 0.687,
+"preview": "https://geo-samples.beatport.com/track/8b1556de-356d-4604-8cc0-11c115bd4fea.LOFI.mp3",
+"name": "Atmosphere",
+"mix": "Radio Edit",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": 9,
+"artist": "TOYZZ",
+"title": "Hot Stuff",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Deeper Purpose",
+"title": "Operate",
+"label": ""
+},
+{
+"minute": 13,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 16,
+"artist": "FISHER & Flowdan",
+"title": "Boost Up",
+"label": "Catch & Release",
+"bp": "bp:26768022",
+"score": 0.836,
+"preview": "https://geo-samples.beatport.com/track/7604adc9-9ee3-4fbd-8892-a908a6f2a3c7.LOFI.mp3",
+"name": "Boost Up",
+"mix": "Intro",
+"genre": "tech-house",
+"released": "2024-08-09"
+},
+{
+"minute": 19,
+"artist": "FISHER & AR/CO",
+"title": "Ocean",
+"label": "Catch & Release"
+},
+{
+"minute": 23,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 26,
+"artist": "Chris Lake & FISHER & Sant\u00e9 Sansone vs Gotye Feat. Kimbra",
+"title": "Somebody (2024)",
+"label": "Big Beat",
+"bp": "bp:19434420",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1cf107a2-828b-4ec8-8a17-8e412736426a.LOFI.mp3",
+"name": "Somebody",
+"mix": "2024",
+"genre": "dance-pop",
+"released": "2024-08-23"
+},
+{
+"minute": 28,
+"artist": "Kamino Feat. MERYLL",
+"title": "Up N Down",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "Ray Parker Jr.",
+"title": "Ghostbusters Theme",
+"label": "Arista",
+"bp": "bp:20858455",
+"score": 0.809,
+"preview": "https://geo-samples.beatport.com/track/62a18654-884f-47d9-a472-1d5d4c803c12.LOFI.mp3",
+"name": "Ghostbusters",
+"mix": "Extended Version",
+"genre": "pop",
+"released": "2014-08-29"
+},
+{
+"minute": 34,
+"artist": "Bob Marley & The Wailers",
+"title": "Jamming (FISHER Rework)",
+"label": "Tuff Gong",
+"bp": "bp:18667295",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/513e3cb3-d24f-478c-bbf6-0276664c4f6f.LOFI.mp3",
+"name": "Jamming",
+"mix": "FISHER Rework",
+"genre": "tech-house",
+"released": "2024-02-08"
+},
+{
+"minute": 38,
+"artist": "Sir Mix-A-Lot",
+"title": "Baby Got Back (San Pacho Edit)",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "San Pacho",
+"title": "Move Your Ass",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "SIDEPIECE",
+"title": "M\u00e9nage \u00e0 Trois",
+"label": "",
+"bp": "bp:26769116",
+"score": 0.811,
+"preview": "https://geo-samples.beatport.com/track/9b320a4f-df55-4b75-9a28-20e2e1738ae7.LOFI.mp3",
+"name": "M\u00e9nage \u00c0 Trois",
+"mix": "Short Edit",
+"genre": "dance-pop",
+"released": "2025-02-14"
+},
+{
+"minute": 46,
+"artist": "Kamino",
+"title": "Supersonic",
+"label": "",
+"bp": "bp:20342432",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/a0e481ff-9325-463a-85fd-8f0b879d313f.LOFI.mp3",
+"name": "Supersonic",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2025-04-25"
+},
+{
+"minute": 48,
+"artist": "Bob Sinclar Feat. Steve Edwards",
+"title": "World, Hold On (Children Of The Sky) (FISHER 2022 Rework)",
+"label": "Yellow/Spinnin'",
+"bp": "bp:18752036",
+"score": 0.89,
+"preview": "https://geo-samples.beatport.com/track/ae03900d-cf28-4368-8303-3efdc16f87e4.LOFI.mp3",
+"name": "World Hold On (Children Of The Sky)",
+"mix": "FISHER Rework",
+"genre": "melodic-house-techno",
+"released": "2022-07-08"
+},
+{
+"minute": 52,
+"artist": "FISHER & Jennifer Lopez",
+"title": "Waiting For Tonight",
+"label": "Epic",
+"bp": "bp:26829122",
+"score": 0.918,
+"preview": "https://geo-samples.beatport.com/track/c5fb6379-8061-4960-8c40-f91e413c647d.LOFI.mp3",
+"name": "Waiting For Tonight",
+"mix": "Intro",
+"genre": "dance-pop",
+"released": "2024-05-03"
+},
+{
+"minute": 56,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 58,
+"id": null,
+"raw": "?"
+},
+{
+"minute": null,
+"artist": "Yvvan Back",
+"title": "Still",
+"label": "Mukoko Groove"
+},
+{
+"minute": null,
+"artist": "Gotch & Ozalid",
+"title": "The Party",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Solardo & Joshwa",
+"title": "Slow Down (Extended)",
+"label": "Higher Ground",
+"bp": "bp:19715116",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e2ee129b-42d5-41c8-a68b-c3f43c84d338.LOFI.mp3",
+"name": "Slow Down",
+"mix": "Extended",
+"genre": "tech-house",
+"released": "2024-11-21"
+},
+{
+"minute": null,
+"artist": "Boothed",
+"title": "I Like That",
+"label": "",
+"bp": "bp:20291071",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/de7ec8eb-de06-4942-9cd7-615db727e06e.LOFI.mp3",
+"name": "I Like That",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2025-04-25"
+},
+{
+"minute": null,
+"artist": "Matroda & Dances",
+"title": "Britney",
+"label": "Terminal Underground"
+},
+{
+"minute": null,
+"artist": "VLTRA",
+"title": "Play Dice",
+"label": "Hellbent"
+},
+{
+"minute": null,
+"artist": "Miami Boys",
+"title": "Bring It Back",
+"label": ""
+},
+{
+"minute": null,
+"artist": "LOVRA & Lion & Crasca",
+"title": "New York",
+"label": "Housecat"
+},
+{
+"minute": null,
+"artist": "Buogo",
+"title": "Bring Down (Extended Mix)",
+"label": "Glasgow Underground",
+"bp": "bp:19691559",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c5d520e3-b5fd-4fdb-a085-f40681a892d1.LOFI.mp3",
+"name": "Bring Down",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-11-15"
+},
+{
+"minute": null,
+"artist": "William Kiss",
+"title": "Midnight Club",
+"label": "Rekids",
+"bp": "bp:19657839",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f184dadb-5aef-49d1-ad65-b615af9eca0b.LOFI.mp3",
+"name": "Midnight Club",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-11-08"
+},
+{
+"minute": null,
+"artist": "''Lovra & Volkoder",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "HILLS",
+"title": "Expensive Taste (Extended Mix)",
+"label": "Thrive",
+"bp": "bp:19817638",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae9c1f08-f67f-496b-91de-7438f44c48b3.LOFI.mp3",
+"name": "Expensive Taste",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-12-06"
+},
+{
+"minute": null,
+"artist": "Marmoon & Alex Gonzales",
+"title": "What",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Technotronic",
+"title": "Pump Up The Jam (NightFunk Remix)",
+"label": "Hot Fuss",
+"bp": "bp:13602183",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9c93cfd8-4a1a-4d70-a90b-7d649c4b8047.LOFI.mp3",
+"name": "Pump up the Jam",
+"mix": "Nightfunk Remix",
+"genre": "tech-house",
+"released": "2020-05-29"
+},
+{
+"minute": null,
+"artist": "LOVRA & Lion",
+"title": "Toco",
+"label": "Housecat"
+},
+{
+"minute": null,
+"artist": "Narkalix",
+"title": "Feel The Groove",
+"label": "Housecat"
+},
+{
+"minute": null,
+"artist": "Jhojho Feat. Mizbee",
+"title": "Horny",
+"label": "Hot Creations"
+},
+{
+"minute": null,
+"artist": "LOVRA",
+"title": "How The Story Goes (Extended Mix)",
+"label": "Club Sweat",
+"bp": "bp:19474083",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/944d8d31-4069-4f2d-b027-d14a2ac98fd9.LOFI.mp3",
+"name": "How the Story Goes",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-10-04"
+},
+{
+"minute": null,
+"artist": "Snoop Dogg",
+"title": "Gin & Juice (Nasty Bros Edit)",
+"label": ""
+}
+]
+},
+{
+"title": "2024-12-13 - FISHER - SLAM! MixMarathon (Best Of Last Week)",
+"records": []
+},
+{
+"title": "2026-01-31 - FISHER @ Bay Oval, Mount Maunganui, Tauranga, New Zealand",
+"records": [
+{
+"minute": 0,
+"artist": "Madonna",
+"title": "Like A Prayer (Choir Version)",
+"label": "Sire",
+"bp": "bp:25454820",
+"score": 0.928,
+"preview": "https://geo-samples.beatport.com/track/4b73b160-1341-480c-b63d-eb6bf6479fe8.LOFI.mp3",
+"name": "Like a Prayer",
+"mix": "7\" Version",
+"genre": "pop",
+"released": "1985-01-01"
+},
+{
+"minute": null,
+"artist": "+ FISHER",
+"title": "Jimi",
+"label": ""
+},
+{
+"minute": 3,
+"artist": "''Gaddi",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": 5,
+"artist": "FISHER & AR/CO",
+"title": "Ocean",
+"label": "Catch & Release"
+},
+{
+"minute": 9,
+"artist": "Gaddi",
+"title": "Desire",
+"label": ""
+},
+{
+"minute": 10,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 14,
+"artist": "CID & Taylr Renee",
+"title": "Fancy $hit",
+"label": "Catch & Release",
+"bp": "bp:26769995",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/d0ad924b-cbb2-4085-90bd-cbf464c9bd3e.LOFI.mp3",
+"name": "Fancy $hit",
+"mix": "Clean",
+"genre": "tech-house",
+"released": "2025-09-05"
+},
+{
+"minute": 17,
+"artist": "FISHER Feat. Kita Alexander",
+"title": "Atmosphere",
+"label": "Catch & Release",
+"bp": "bp:26766150",
+"score": 0.687,
+"preview": "https://geo-samples.beatport.com/track/8b1556de-356d-4604-8cc0-11c115bd4fea.LOFI.mp3",
+"name": "Atmosphere",
+"mix": "Radio Edit",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": 20,
+"artist": "Rafael Cerato",
+"title": "TCFS",
+"label": ""
+},
+{
+"minute": 23,
+"artist": "LOOZBONE",
+"title": "Tied Up",
+"label": ""
+},
+{
+"minute": 26,
+"artist": "FISHER Feat. MERYLL",
+"title": "Yeah The Girls",
+"label": "Catch & Release",
+"bp": "bp:16885923",
+"score": 0.676,
+"preview": "https://geo-samples.beatport.com/track/788fd70f-3db8-4254-b702-dd6a7d80c3cd.LOFI.mp3",
+"name": "Yeah The Girls",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-09-02"
+},
+{
+"minute": 28,
+"artist": "''Carol F\u00e1vero",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "FISHER",
+"title": "What A Life",
+"label": ""
+},
+{
+"minute": 34,
+"artist": "''BYOR",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "FISHER & Shermanology",
+"title": "It's A Killa",
+"label": "Catch & Release",
+"bp": "bp:16252887",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/bce9823e-6c93-495c-a5c2-a5face4332e8.LOFI.mp3",
+"name": "It's A Killa",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-03-11"
+},
+{
+"minute": 40,
+"artist": "MORGANJ Feat. Scrufizzer",
+"title": "4THEPEOPLE",
+"label": "",
+"bp": "bp:29175430",
+"score": 0.63,
+"preview": "https://geo-samples.beatport.com/track/79fe2975-8818-4600-aa07-867404aed459.LOFI.mp3",
+"name": "4thepeople ",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2026-06-19"
+},
+{
+"minute": 42,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 44,
+"artist": "FISHER & Bbyclose",
+"title": "Blackberries",
+"label": "Catch & Release",
+"bp": "bp:26769759",
+"score": 0.811,
+"preview": "https://geo-samples.beatport.com/track/30a82aa8-4909-400f-9931-78a886463b8b.LOFI.mp3",
+"name": "Blackberries",
+"mix": "Short Edit",
+"genre": "dance-pop",
+"released": "2025-07-18"
+},
+{
+"minute": 47,
+"artist": "''BIJOU",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "FISHER & Tones And I",
+"title": "Favour",
+"label": "Catch & Release"
+},
+{
+"minute": 53,
+"artist": "''Zombie Nation",
+"title": "Kernkraft 400 (ID Remix) [EPM]''",
+"label": ""
+},
+{
+"minute": 55,
+"artist": "FISHER",
+"title": "Stay",
+"label": "Catch & Release"
+},
+{
+"minute": 59,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 61,
+"artist": "HILLS",
+"title": "Sweat",
+"label": ""
+},
+{
+"minute": 64,
+"artist": "ESSE",
+"title": "Make My Day",
+"label": "ESSENTIAL."
+},
+{
+"minute": 67,
+"artist": "FISHER & Aatig",
+"title": "Take It Off",
+"label": "Catch & Release",
+"bp": "bp:26765844",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3a564037-cd98-4c73-af31-c5aae4183ed0.LOFI.mp3",
+"name": "Take It Off",
+"mix": "Short Edit",
+"genre": "house",
+"released": "2023-06-09"
+},
+{
+"minute": 71,
+"artist": "FISHER",
+"title": "Rain",
+"label": "Catch & Release"
+},
+{
+"minute": 75,
+"artist": "''Drop The Cheese",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": 77,
+"artist": "Lee Foss & 3Beat",
+"title": "Too Late",
+"label": "Catch & Release"
+},
+{
+"minute": 80,
+"artist": "FISHER",
+"title": "Losing It",
+"label": "Catch & Release/Astralwerks",
+"bp": "bp:26829088",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/fde3f54e-c19e-42a9-b087-79f4a514cade.LOFI.mp3",
+"name": "Losing It",
+"mix": "Intro",
+"genre": "dance-pop",
+"released": "2018-07-13"
+},
+{
+"minute": 84,
+"artist": "MARTEN H\u00d8RGER",
+"title": "Worth The Wait",
+"label": "Catch & Release",
+"bp": "bp:23700966",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/dffe7c05-cd63-473e-8294-da78f94bd98d.LOFI.mp3",
+"name": "Worth The Wait ",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2026-02-13"
+},
+{
+"minute": 87,
+"artist": "\u00d6wnboss",
+"title": "Pop This",
+"label": "Catch & Release"
+},
+{
+"minute": 89,
+"artist": "Taylor Swift",
+"title": "Opalite (Chris Lake Remix)",
+"label": "Republic",
+"bp": "bp:24228321",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fbb7550b-dab7-42f8-b41c-085e358cd0da.LOFI.mp3",
+"name": "Opalite",
+"mix": "Chris Lake Remix",
+"genre": "dance-pop",
+"released": "2026-02-16"
+},
+{
+"minute": 93,
+"artist": "HILLS & Juntaro",
+"title": "Break It",
+"label": "Catch & Release",
+"bp": "bp:11833808",
+"score": 0.582,
+"preview": "https://geo-samples.beatport.com/track/32760d08-4731-443b-807d-6aaef78a36ce.LOFI.mp3",
+"name": "Break",
+"mix": "Club Mix",
+"genre": "mainstage",
+"released": "2019-04-12"
+},
+{
+"minute": 95,
+"artist": "Chris Lake & FISHER & Sant\u00e9 Sansone vs Gotye Feat. Kimbra",
+"title": "Somebody (2024)",
+"label": "Island",
+"bp": "bp:19434420",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1cf107a2-828b-4ec8-8a17-8e412736426a.LOFI.mp3",
+"name": "Somebody",
+"mix": "2024",
+"genre": "dance-pop",
+"released": "2024-08-23"
+},
+{
+"minute": 98,
+"artist": "Marlon Hoffstadt & Coach Harrison",
+"title": "Daddy's In The Club (FISHER Remix)",
+"label": "Method 808",
+"bp": "bp:22863497",
+"score": 0.926,
+"preview": "https://geo-samples.beatport.com/track/eb86d8d6-2357-4a6d-8ae0-9784929eb379.LOFI.mp3",
+"name": "Daddy's In The Club",
+"mix": "FISHER Remix Extended",
+"genre": "tech-house",
+"released": "2025-12-05"
+},
+{
+"minute": 101,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 103,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 106,
+"artist": "TOYZZ",
+"title": "Let It Go",
+"label": ""
+},
+{
+"minute": 108,
+"artist": "Bob Sinclar Feat. Steve Edwards",
+"title": "World, Hold On (Children Of The Sky) (FISHER 2022 Rework)",
+"label": "Yellow/Spinnin'",
+"bp": "bp:18752036",
+"score": 0.89,
+"preview": "https://geo-samples.beatport.com/track/ae03900d-cf28-4368-8303-3efdc16f87e4.LOFI.mp3",
+"name": "World Hold On (Children Of The Sky)",
+"mix": "FISHER Rework",
+"genre": "melodic-house-techno",
+"released": "2022-07-08"
+},
+{
+"minute": 112,
+"artist": "The Temper Trap",
+"title": "Sweet Disposition (Edson Faiolli & 3Beat Remix)",
+"label": ""
+},
+{
+"minute": 115,
+"artist": "Marlon Hoffstadt aka DJ Daddy Trance",
+"title": "It's That Time (FISHER Remix)",
+"label": "Method 808"
+},
+{
+"minute": 118,
+"artist": "Daft Punk",
+"title": "One More Time (Valmer Edit)",
+"label": ""
+}
+]
+},
+{
+"title": "2026-06-19 - Jerome, FISHER - N-JOY Residents",
+"records": [
+{
+"minute": 0,
+"artist": "Jerome & Kickbait",
+"title": "Somewhere Only We Know",
+"label": "Zeigeist/Intercord",
+"bp": "bp:28987726",
+"score": 0.863,
+"preview": "https://geo-samples.beatport.com/track/16e3b26f-cf11-44e1-99a3-72fe9846c3a0.LOFI.mp3",
+"name": "Somewhere Only We Know",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2026-05-29"
+},
+{
+"minute": 3,
+"artist": "''Monolink",
+"title": "Father Ocean (ID Remix)''",
+"label": ""
+},
+{
+"minute": 6,
+"artist": "''The Irrepressibles",
+"title": "In This Shirt (ID Remix) [Of Naked Design]''",
+"label": "",
+"bp": "bp:30697856",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/ed872250-4922-4f0e-9e53-da5cc162e90d.LOFI.mp3",
+"name": "In This Shirt",
+"mix": "Bachi Remix",
+"genre": "electronica",
+"released": "2026-09-18"
+},
+{
+"minute": 9,
+"artist": "Temper City",
+"title": "Self Aware (Jerome & KME Schranz Mix)",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Ueberrest",
+"title": "Disturbing Paradise",
+"label": "44",
+"bp": "bp:26797193",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/8133af21-97d4-4fcf-a5fe-53c0a9d1d338.LOFI.mp3",
+"name": "Disturbing Paradise",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2026-03-20"
+},
+{
+"minute": 14,
+"artist": "Jerome & TRIPKID",
+"title": "Wenn Du Weinst",
+"label": "Zeigeist/Intercord",
+"bp": "bp:24194036",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/07384f7e-f4c2-4f8f-8935-de8ea0d6e5a4.LOFI.mp3",
+"name": "Wenn du weinst",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2026-02-27"
+},
+{
+"minute": 17,
+"artist": "VINTASH",
+"title": "Unter Der Sonne",
+"label": "Le Voyage Dans Da Lune",
+"bp": "bp:28723376",
+"score": 0.862,
+"preview": "https://geo-samples.beatport.com/track/0363318a-89b2-4ebf-93d7-d3d931cd8c34.LOFI.mp3",
+"name": "Unter der Sonne",
+"mix": "Club Mix",
+"genre": "hard-techno",
+"released": "2026-05-22"
+},
+{
+"minute": 19,
+"artist": "M83",
+"title": "My Tears Are Becoming A Sea (Summit & RYX Emotional Schranz Edit)",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "In Verruf",
+"title": "Ewigkeit",
+"label": "44"
+},
+{
+"minute": 25,
+"artist": "Gabry Ponte X Jerome vs Lightforce & KSN",
+"title": "Lonely X Join Me (Schranz Rework)",
+"label": ""
+},
+{
+"minute": 27,
+"artist": "Loreen",
+"title": "Tattoo (SCHLASS & RYX Schranz Edit)",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "''HAVEN. Feat. Kaitlin Aragon",
+"title": "I Run (ID Remix)''",
+"label": ""
+},
+{
+"minute": 33,
+"artist": "''Delerium Feat. Sarah McLachlan",
+"title": "Silence (ID Remix)''",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Jerome & AHM Feat. Ichbinsonny",
+"title": "Leise (Halbsoschei\u00dfe)",
+"label": "",
+"bp": "bp:28527292",
+"score": 0.738,
+"preview": "https://geo-samples.beatport.com/track/204b22de-3bc7-47dc-8a67-437d66972006.LOFI.mp3",
+"name": "Leise (Halbsoschei\u00dfe)",
+"mix": "Halbsoschei\u00dfe",
+"genre": "dance-pop",
+"released": "2026-04-24"
+},
+{
+"minute": 40,
+"artist": "Blasterjaxx",
+"title": "Unfaithful (Extended Mix)",
+"label": "Maxximize",
+"bp": "bp:22915506",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/78733026-0be2-45ed-9dbd-9d14d9860c5c.LOFI.mp3",
+"name": "Unfaithful",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2026-01-09"
+},
+{
+"minute": 42,
+"artist": "Jerome & DJ Lumi Feat. Lichterkinder",
+"title": "Lichterkinder (Extended Mix)",
+"label": "Kontor",
+"bp": "bp:22806313",
+"score": 0.759,
+"preview": "https://geo-samples.beatport.com/track/d681109a-e37e-4d4f-8b49-ec77e617392a.LOFI.mp3",
+"name": "Lichterkinder feat. Lichterkinder",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2025-12-05"
+},
+{
+"minute": 45,
+"artist": "NZG\u00dbL",
+"title": "In The Shadows",
+"label": "Verknipt",
+"bp": "bp:20767280",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/9bbe69db-0e5e-413f-80e8-b2d0d0a75380.LOFI.mp3",
+"name": "IN THE SHADOWS",
+"mix": "Original Mix",
+"genre": "hard-techno",
+"released": "2025-07-19"
+},
+{
+"minute": 49,
+"artist": "Mr. Polska",
+"title": "POLSKA JUMPSTYLE (Dead X Remix)",
+"label": "Dead X",
+"bp": "bp:20060603",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3e2fd3ea-58ba-45e4-a82f-3f1e4df13dad.LOFI.mp3",
+"name": "POLSKA JUMPSTYLE",
+"mix": "Dead X Remix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2025-01-31"
+},
+{
+"minute": 51,
+"artist": "''Just\u0117 X Jaxstyle Feat. Jon",
+"title": "Turn The Lights Off (ID Remix)''",
+"label": ""
+},
+{
+"minute": 54,
+"artist": "Kummer",
+"title": "Bei Dir (Jerome & Deliverz Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": ";FISHER = [[2026-01-31",
+"title": "FISHER @ Bay Oval, Mount Maunganui, Tauranga, New Zealand]]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "CID & Taylr Renee",
+"title": "Fancy $hit",
+"label": "Catch & Release",
+"bp": "bp:26769995",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/d0ad924b-cbb2-4085-90bd-cbf464c9bd3e.LOFI.mp3",
+"name": "Fancy $hit",
+"mix": "Clean",
+"genre": "tech-house",
+"released": "2025-09-05"
+},
+{
+"minute": null,
+"artist": "FISHER Feat. Kita Alexander",
+"title": "Atmosphere",
+"label": "Catch & Release",
+"bp": "bp:26766150",
+"score": 0.687,
+"preview": "https://geo-samples.beatport.com/track/8b1556de-356d-4604-8cc0-11c115bd4fea.LOFI.mp3",
+"name": "Atmosphere",
+"mix": "Radio Edit",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": null,
+"artist": "Rafael Cerato",
+"title": "TCFS",
+"label": ""
+},
+{
+"minute": null,
+"artist": "LOOZBONE",
+"title": "Tied Up",
+"label": ""
+},
+{
+"minute": null,
+"artist": "FISHER Feat. MERYLL",
+"title": "Yeah The Girls",
+"label": "Catch & Release",
+"bp": "bp:16885923",
+"score": 0.676,
+"preview": "https://geo-samples.beatport.com/track/788fd70f-3db8-4254-b702-dd6a7d80c3cd.LOFI.mp3",
+"name": "Yeah The Girls",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-09-02"
+},
+{
+"minute": null,
+"artist": "''Carol F\u00e1vero",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "What A Life",
+"label": ""
+},
+{
+"minute": null,
+"artist": "''BYOR",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "FISHER & Shermanology",
+"title": "It's A Killa",
+"label": "Catch & Release",
+"bp": "bp:16252887",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/bce9823e-6c93-495c-a5c2-a5face4332e8.LOFI.mp3",
+"name": "It's A Killa",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-03-11"
+},
+{
+"minute": null,
+"artist": "MORGANJ Feat. Scrufizzer",
+"title": "4THEPEOPLE",
+"label": "",
+"bp": "bp:29175430",
+"score": 0.63,
+"preview": "https://geo-samples.beatport.com/track/79fe2975-8818-4600-aa07-867404aed459.LOFI.mp3",
+"name": "4thepeople ",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2026-06-19"
+},
+{
+"minute": null,
+"artist": "FISHER & Bbyclose",
+"title": "Blackberries",
+"label": "Catch & Release",
+"bp": "bp:26769759",
+"score": 0.811,
+"preview": "https://geo-samples.beatport.com/track/30a82aa8-4909-400f-9931-78a886463b8b.LOFI.mp3",
+"name": "Blackberries",
+"mix": "Short Edit",
+"genre": "dance-pop",
+"released": "2025-07-18"
+},
+{
+"minute": null,
+"artist": "''BIJOU",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "FISHER & Tones And I",
+"title": "Favour",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "''Zombie Nation",
+"title": "Kernkraft 400 (ID Remix) [EPM]''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Stay",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "HILLS",
+"title": "Sweat",
+"label": ""
+},
+{
+"minute": null,
+"artist": "ESSE",
+"title": "Make My Day",
+"label": "ESSENTIAL."
+},
+{
+"minute": null,
+"artist": "FISHER & Aatig",
+"title": "Take It Off",
+"label": "Catch & Release",
+"bp": "bp:26765844",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3a564037-cd98-4c73-af31-c5aae4183ed0.LOFI.mp3",
+"name": "Take It Off",
+"mix": "Short Edit",
+"genre": "house",
+"released": "2023-06-09"
+}
+]
+},
+{
+"title": "2026-07-18 - FISHER @ Tomorrowland - Consiencia",
+"records": [
+{
+"minute": 0,
+"artist": "Marlon Hoffstadt aka DJ Daddy Trance",
+"title": "It's That Time (FISHER Remix)",
+"label": "Method 808"
+},
+{
+"minute": 4,
+"artist": "OutKast",
+"title": "Ms. Jackson (N2N & Avilo Edit)",
+"label": "South Of Saturn"
+},
+{
+"minute": 5,
+"artist": "IAN VII & JAVIIER",
+"title": "Sink",
+"label": "Catch & Release"
+},
+{
+"minute": 6,
+"artist": "''Skylark",
+"title": "That's More Like It (ID Remix) [Cr2]''",
+"label": ""
+},
+{
+"minute": 8,
+"artist": "FISHER Feat. Florence Arman",
+"title": "What A Life",
+"label": "Catch & Release"
+},
+{
+"minute": 9,
+"artist": "ESSED",
+"title": "Let's Party",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Us Two & Franksy",
+"title": "Simulation",
+"label": "Three Six Zero",
+"bp": "bp:20766014",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/2098b4bb-cc28-4479-b1c5-36612b75695d.LOFI.mp3",
+"name": "Simulation",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-07-25"
+},
+{
+"minute": 12,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 13,
+"artist": "FISHER Feat. Kita Alexander",
+"title": "Atmosphere",
+"label": "Catch & Release",
+"bp": "bp:26766150",
+"score": 0.687,
+"preview": "https://geo-samples.beatport.com/track/8b1556de-356d-4604-8cc0-11c115bd4fea.LOFI.mp3",
+"name": "Atmosphere",
+"mix": "Radio Edit",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": 15,
+"artist": "Chris Lake & Tony Romera",
+"title": "House Every Weekend",
+"label": ""
+},
+{
+"minute": 16,
+"artist": "Zombie Nation",
+"title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
+"label": ""
+},
+{
+"minute": 18,
+"artist": "Drake",
+"title": "Janice STFU (HILLS Remix)",
+"label": "Free"
+},
+{
+"minute": 19,
+"artist": "FISHER & Tones And I",
+"title": "Favour",
+"label": "Catch & Release"
+},
+{
+"minute": 21,
+"artist": "Chris Lake & FISHER & Sant\u00e9 Sansone vs Gotye Feat. Kimbra",
+"title": "Somebody (2024)",
+"label": "Island",
+"bp": "bp:19434420",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1cf107a2-828b-4ec8-8a17-8e412736426a.LOFI.mp3",
+"name": "Somebody",
+"mix": "2024",
+"genre": "dance-pop",
+"released": "2024-08-23"
+},
+{
+"minute": 24,
+"artist": "Marlon Hoffstadt & Coach Harrison",
+"title": "Daddy's In The Club (FISHER Remix)",
+"label": "Method 808",
+"bp": "bp:22863497",
+"score": 0.926,
+"preview": "https://geo-samples.beatport.com/track/eb86d8d6-2357-4a6d-8ae0-9784929eb379.LOFI.mp3",
+"name": "Daddy's In The Club",
+"mix": "FISHER Remix Extended",
+"genre": "tech-house",
+"released": "2025-12-05"
+},
+{
+"minute": 27,
+"artist": "Dominica",
+"title": "Gotta Let You Go (3Beat Remix)",
+"label": "Altra Moda"
+},
+{
+"minute": 28,
+"artist": "FISHER",
+"title": "Stay",
+"label": "Catch & Release"
+},
+{
+"minute": 30,
+"artist": "ANOTR Feat. 54 Ultra",
+"title": "Talk To You",
+"label": "No Art",
+"bp": "bp:24508685",
+"score": 0.677,
+"preview": "https://geo-samples.beatport.com/track/0864e91e-1a6d-47b2-b3c9-353e4bd7da94.LOFI.mp3",
+"name": "Talk To You ",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-03-06"
+},
+{
+"minute": 33,
+"artist": "FISHER",
+"title": "Rain",
+"label": "Catch & Release"
+},
+{
+"minute": 35,
+"artist": "Bob Sinclar Feat. Steve Edwards",
+"title": "World, Hold On (Children Of The Sky) (FISHER 2022 Rework)",
+"label": "Yellow/Spinnin'",
+"bp": "bp:18752036",
+"score": 0.89,
+"preview": "https://geo-samples.beatport.com/track/ae03900d-cf28-4368-8303-3efdc16f87e4.LOFI.mp3",
+"name": "World Hold On (Children Of The Sky)",
+"mix": "FISHER Rework",
+"genre": "melodic-house-techno",
+"released": "2022-07-08"
+},
+{
+"minute": 39,
+"artist": "FISHER",
+"title": "Losing It",
+"label": "Catch & Release",
+"bp": "bp:26829088",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/fde3f54e-c19e-42a9-b087-79f4a514cade.LOFI.mp3",
+"name": "Losing It",
+"mix": "Intro",
+"genre": "dance-pop",
+"released": "2018-07-13"
+},
+{
+"minute": 43,
+"artist": "Daft Punk",
+"title": "One More Time (Valmer Edit)",
+"label": ""
+},
+{
+"minute": 46,
+"artist": "NIIKO X SWAE",
+"title": "3D",
+"label": "Catch & Release"
+},
+{
+"minute": 48,
+"artist": "FISHER & Aatig",
+"title": "Take It Off",
+"label": "Catch & Release",
+"bp": "bp:26765844",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3a564037-cd98-4c73-af31-c5aae4183ed0.LOFI.mp3",
+"name": "Take It Off",
+"mix": "Short Edit",
+"genre": "house",
+"released": "2023-06-09"
+},
+{
+"minute": 52,
+"artist": "Cloonee & Prospa",
+"title": "Free Your Mind",
+"label": "Circoloco",
+"bp": "bp:26919525",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/f7c931d3-99db-43f4-bb83-039ffaed8357.LOFI.mp3",
+"name": "Free Your Mind",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-03-27"
+},
+{
+"minute": 55,
+"artist": "Avicii",
+"title": "Levels",
+"label": "LE7ELS/Universal Music Sweden"
+}
+]
+},
+{
+"title": "2026-07-19 - FISHER @ Mainstage, Parookaville",
+"records": [
+{
+"minute": null,
+"artist": "Marlon Hoffstadt aka DJ Daddy Trance",
+"title": "It's That Time (FISHER Remix)",
+"label": "Method 808"
+},
+{
+"minute": null,
+"artist": "OutKast",
+"title": "Ms. Jackson (N2N & Avilo Edit)",
+"label": "South Of Saturn"
+},
+{
+"minute": null,
+"artist": "IAN VII & JAVIIER",
+"title": "Sink",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Max Styler & Vintage Culture & Ali Love",
+"title": "Freaky 1",
+"label": "Affairs"
+},
+{
+"minute": null,
+"artist": "Skylark",
+"title": "That's More Like It",
+"label": "Cr2",
+"bp": "bp:27504337",
+"score": 0.865,
+"preview": "https://geo-samples.beatport.com/track/ad790320-729a-4e90-8503-7bb596c33952.LOFI.mp3",
+"name": "That's More Like It",
+"mix": "Radio Edit",
+"genre": "pop",
+"released": "2004-01-12"
+},
+{
+"minute": null,
+"artist": "FISHER Feat. Florence Arman",
+"title": "What A Life",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "ESSED",
+"title": "Let's Party",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Us Two & Franksy",
+"title": "Simulation",
+"label": "TSZR",
+"bp": "bp:20766014",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/2098b4bb-cc28-4479-b1c5-36612b75695d.LOFI.mp3",
+"name": "Simulation",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-07-25"
+},
+{
+"minute": null,
+"artist": "FISHER Feat. Kita Alexander",
+"title": "Atmosphere",
+"label": "Catch & Release",
+"bp": "bp:26766150",
+"score": 0.687,
+"preview": "https://geo-samples.beatport.com/track/8b1556de-356d-4604-8cc0-11c115bd4fea.LOFI.mp3",
+"name": "Atmosphere",
+"mix": "Radio Edit",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": null,
+"artist": "Chris Lake & Tony Romera",
+"title": "House Every Weekend",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Zombie Nation",
+"title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Drake",
+"title": "Janice STFU (HILLS Remix)",
+"label": "Free"
+},
+{
+"minute": null,
+"artist": "FISHER & Tones And I",
+"title": "Favour",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Chris Lake & FISHER & Sant\u00e9 Sansone vs Gotye Feat. Kimbra",
+"title": "Somebody (2024)",
+"label": "Island",
+"bp": "bp:19434420",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1cf107a2-828b-4ec8-8a17-8e412736426a.LOFI.mp3",
+"name": "Somebody",
+"mix": "2024",
+"genre": "dance-pop",
+"released": "2024-08-23"
+},
+{
+"minute": null,
+"artist": "Marlon Hoffstadt & Coach Harrison",
+"title": "Daddy's In The Club (FISHER Remix)",
+"label": "Method 808",
+"bp": "bp:22863497",
+"score": 0.926,
+"preview": "https://geo-samples.beatport.com/track/eb86d8d6-2357-4a6d-8ae0-9784929eb379.LOFI.mp3",
+"name": "Daddy's In The Club",
+"mix": "FISHER Remix Extended",
+"genre": "tech-house",
+"released": "2025-12-05"
+},
+{
+"minute": null,
+"artist": "Dominica",
+"title": "Gotta Let You Go (3Beat Remix)",
+"label": "Altra Moda"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Stay",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "ANOTR Feat. 54 Ultra",
+"title": "Talk To You",
+"label": "No Art",
+"bp": "bp:24508685",
+"score": 0.677,
+"preview": "https://geo-samples.beatport.com/track/0864e91e-1a6d-47b2-b3c9-353e4bd7da94.LOFI.mp3",
+"name": "Talk To You ",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-03-06"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Rain",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Seeing Double & Nevve",
+"title": "Heat",
+"label": "Thrive"
+},
+{
+"minute": null,
+"artist": "Bob Sinclar Feat. Steve Edwards",
+"title": "World, Hold On (Children Of The Sky) (FISHER 2022 Rework)",
+"label": "Yellow",
+"bp": "bp:18752036",
+"score": 0.89,
+"preview": "https://geo-samples.beatport.com/track/ae03900d-cf28-4368-8303-3efdc16f87e4.LOFI.mp3",
+"name": "World Hold On (Children Of The Sky)",
+"mix": "FISHER Rework",
+"genre": "melodic-house-techno",
+"released": "2022-07-08"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Losing It",
+"label": "Catch & Release",
+"bp": "bp:26829088",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/fde3f54e-c19e-42a9-b087-79f4a514cade.LOFI.mp3",
+"name": "Losing It",
+"mix": "Intro",
+"genre": "dance-pop",
+"released": "2018-07-13"
+},
+{
+"minute": null,
+"artist": "Daft Punk",
+"title": "One More Time (Valmer Edit)",
+"label": ""
+}
+]
+},
+{
+"title": "2026-07-25 - Armin van Buuren, FISHER - Dance Department",
+"records": [
+{
+"minute": null,
+"artist": "Calvin Harris",
+"title": "Not Alone (Gil Glaze Remix)",
+"label": "Breeze"
+},
+{
+"minute": null,
+"artist": "Dubdogz & Voltech & Faiolli",
+"title": "California Dreamin'",
+"label": "Spinnin'",
+"bp": "bp:29489864",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/7d905b3e-fc0f-4315-a54a-62864c75864d.LOFI.mp3",
+"name": "California Dreamin'",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2026-07-13"
+},
+{
+"minute": null,
+"artist": "Axwell Feat. Bonn",
+"title": "Whatever Turns You On",
+"label": "Axtone",
+"bp": "bp:29082923",
+"score": 0.725,
+"preview": "https://geo-samples.beatport.com/track/fd3a22aa-2e3e-4d99-889e-66f68a7173b0.LOFI.mp3",
+"name": "Whatever Turns You On",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2026-06-26"
+},
+{
+"minute": null,
+"artist": "Cloonee & Prospa Feat. Tristan Henry",
+"title": "Good Girl",
+"label": "Hellbent"
+},
+{
+"minute": null,
+"artist": "Oliver Heldens & Kryder & The Young Punx",
+"title": "AEIOU",
+"label": "Heldeep"
+},
+{
+"minute": null,
+"artist": "BLR & Amber Revival",
+"title": "Summertime (Podium Mix)",
+"label": "Blooom"
+},
+{
+"minute": null,
+"artist": "Newtone",
+"title": "Give Your Love",
+"label": "C-Side",
+"bp": "bp:29907069",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/66413cc5-e9af-48c9-bf87-ebdba37853ce.LOFI.mp3",
+"name": "Give Your Love",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "Franky Rizardo",
+"title": "Shinjuku (DJ KUBA & NEITAN Remix)",
+"label": "LTF"
+},
+{
+"minute": null,
+"artist": "Armin van Buuren Feat. SACHA",
+"title": "Everlasting",
+"label": "Armada",
+"bp": "bp:30214484",
+"score": 0.791,
+"preview": "https://geo-samples.beatport.com/track/0fcb8b82-ca93-4e88-81bf-0890082208f5.LOFI.mp3",
+"name": "Everlasting ",
+"mix": "Mixed",
+"genre": "trance-main-floor",
+"released": "2026-08-28"
+},
+{
+"minute": null,
+"artist": "Pupa Nas T & FOVOS Feat. Denise Belfon",
+"title": "Work Edit",
+"label": "Disorder",
+"bp": "bp:28987075",
+"score": 0.743,
+"preview": "https://geo-samples.beatport.com/track/e19810ec-4374-41d1-b66a-e240c3592a76.LOFI.mp3",
+"name": "Work Edit",
+"mix": "extended",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2026-06-12"
+},
+{
+"minute": null,
+"artist": "Marlon Hoffstadt",
+"title": "Party People",
+"label": "Capitol",
+"bp": "bp:29520772",
+"score": 0.836,
+"preview": "https://geo-samples.beatport.com/track/f9cbbf52-8080-4bb5-b76e-3ebf7772be42.LOFI.mp3",
+"name": "Party People",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2026-07-03"
+},
+{
+"minute": null,
+"artist": "Armin van Buuren & Silver Panda",
+"title": "Here In My Arms (Enjoy The Silence)",
+"label": "Armada",
+"bp": "bp:30214472",
+"score": 0.95,
+"preview": "https://geo-samples.beatport.com/track/0cc2e6eb-33e7-41f3-9f1b-d93ead1768b7.LOFI.mp3",
+"name": "Here In My Arms (Enjoy The Silence) ",
+"mix": "Mixed",
+"genre": "trance-main-floor",
+"released": "2026-08-28"
+},
+{
+"minute": null,
+"artist": "Cassian & AR/CO",
+"title": "Come To Life",
+"label": "Three Six Zero/Helix",
+"bp": "bp:29492006",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/d2930a8b-114e-4791-8f45-b5b3b524a364.LOFI.mp3",
+"name": "Come To Life",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-07-10"
+},
+{
+"minute": null,
+"artist": "MORTEN & David Guetta",
+"title": "La R\u00e9volution",
+"label": "Future Rave",
+"bp": "bp:29754783",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/b1bbf409-093b-4601-b1e1-9355ec9bfdf8.LOFI.mp3",
+"name": "La R\u00e9volution",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2026-07-17"
+},
+{
+"minute": null,
+"artist": "Peggy Gou Feat. Ayra Starr",
+"title": "Wo, Man",
+"label": "XL",
+"bp": "bp:29507883",
+"score": 0.744,
+"preview": "https://geo-samples.beatport.com/track/100f1284-f8fd-49fa-89e2-43a7f6021f60.LOFI.mp3",
+"name": "Wo, man",
+"mix": "Edit",
+"genre": "house",
+"released": "2026-06-26"
+},
+{
+"minute": null,
+"artist": "Franc Fala & Andrea Oliva & Bankr",
+"title": "Looney Tunes",
+"label": "Armada",
+"bp": "bp:29313306",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/ec9be7a2-5808-4588-a05c-0df73ed4fd00.LOFI.mp3",
+"name": "Looney Tunes",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-07-10"
+},
+{
+"minute": null,
+"artist": "Vesuvio Vortex Feat. Seutek",
+"title": "Ruimte Zat",
+"label": "Bordello A Parigi"
+},
+{
+"minute": null,
+"artist": "Arodes & Solique & ALSO ASTIR",
+"title": "Facing The Sun",
+"label": "Unreleased",
+"bp": "bp:29595055",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/d5472791-750f-45a5-9a06-e42c1117fdb9.LOFI.mp3",
+"name": "Facing The Sun",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "FISHER Feat. Florence Arman",
+"title": "What A Life",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Us Two & Jazz Alonso",
+"title": "Me Sabe Bien",
+"label": "Three Six Zero",
+"bp": "bp:29741396",
+"score": 0.589,
+"preview": "https://geo-samples.beatport.com/track/1ae2f80b-3199-41cc-a79f-b3909547e733.LOFI.mp3",
+"name": "Me Sabe Bien",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "'''World Wide Warning:''' CamelPhat & Volkoder",
+"title": "Unique Moment",
+"label": "When Stars Align"
+},
+{
+"minute": null,
+"artist": "Skrillex & Solomun",
+"title": "Rumpta",
+"label": "Diynamic"
+},
+{
+"minute": null,
+"artist": "Bicep",
+"title": "Glue (Tim Hox Remix)",
+"label": "Ninja"
+},
+{
+"minute": null,
+"artist": "Odd Mob & OMNOM Pres. HYPERBEAM",
+"title": "Take You There",
+"label": "Insomniac",
+"bp": "bp:29677740",
+"score": 0.73,
+"preview": "https://geo-samples.beatport.com/track/ec26ecd3-6f89-4518-9b69-62863e85a14d.LOFI.mp3",
+"name": "Take You There",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "R\u00dcF\u00dcS DU SOL",
+"title": "Innerbloom",
+"label": "Sweat It Out!",
+"bp": "bp:7521298",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/9fd6186b-6042-4308-b266-f67699965ff3.LOFI.mp3",
+"name": "Innerbloom",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2016-01-22"
+},
+{
+"minute": null,
+"artist": "Eelke Kleijn",
+"title": "Feel It, See It",
+"label": "Days Like Nights",
+"bp": "bp:28861581",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/42b84de3-0de8-4529-9639-042c5a7ab0c7.LOFI.mp3",
+"name": "Feel It, See It",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-05-22"
+},
+{
+"minute": null,
+"artist": ";FISHER HotMix = [[2026-07-18",
+"title": "FISHER @ Tomorrowland - Consiencia]]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Marlon Hoffstadt aka DJ Daddy Trance",
+"title": "It's That Time (FISHER Remix)",
+"label": "Method 808"
+},
+{
+"minute": null,
+"artist": "OutKast",
+"title": "Ms. Jackson (N2N & Avilo Edit)",
+"label": "South Of Saturn"
+},
+{
+"minute": null,
+"artist": "IAN VII & JAVIIER",
+"title": "Sink",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Skylark",
+"title": "That's More Like It",
+"label": "Cr2",
+"bp": "bp:27504337",
+"score": 0.865,
+"preview": "https://geo-samples.beatport.com/track/ad790320-729a-4e90-8503-7bb596c33952.LOFI.mp3",
+"name": "That's More Like It",
+"mix": "Radio Edit",
+"genre": "pop",
+"released": "2004-01-12"
+},
+{
+"minute": null,
+"artist": "FISHER Feat. Florence Arman",
+"title": "What A Life",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "ESSED",
+"title": "Let's Party",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Us Two & Franksy",
+"title": "Simulation",
+"label": "Three Six Zero",
+"bp": "bp:20766014",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/2098b4bb-cc28-4479-b1c5-36612b75695d.LOFI.mp3",
+"name": "Simulation",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-07-25"
+},
+{
+"minute": null,
+"artist": "FISHER Feat. Kita Alexander",
+"title": "Atmosphere",
+"label": "Catch & Release",
+"bp": "bp:26766150",
+"score": 0.687,
+"preview": "https://geo-samples.beatport.com/track/8b1556de-356d-4604-8cc0-11c115bd4fea.LOFI.mp3",
+"name": "Atmosphere",
+"mix": "Radio Edit",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": null,
+"artist": "Chris Lake & Tony Romera",
+"title": "House Every Weekend",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Zombie Nation",
+"title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Drake",
+"title": "Janice STFU (HILLS Remix)",
+"label": "Free"
+},
+{
+"minute": null,
+"artist": "FISHER & Tones And I",
+"title": "Favour",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Chris Lake & FISHER & Sant\u00e9 Sansone vs Gotye Feat. Kimbra",
+"title": "Somebody (2024)",
+"label": "Island",
+"bp": "bp:19434420",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1cf107a2-828b-4ec8-8a17-8e412736426a.LOFI.mp3",
+"name": "Somebody",
+"mix": "2024",
+"genre": "dance-pop",
+"released": "2024-08-23"
+},
+{
+"minute": null,
+"artist": "Marlon Hoffstadt & Coach Harrison",
+"title": "Daddy's In The Club (FISHER Remix)",
+"label": "Method 808",
+"bp": "bp:22863497",
+"score": 0.926,
+"preview": "https://geo-samples.beatport.com/track/eb86d8d6-2357-4a6d-8ae0-9784929eb379.LOFI.mp3",
+"name": "Daddy's In The Club",
+"mix": "FISHER Remix Extended",
+"genre": "tech-house",
+"released": "2025-12-05"
+},
+{
+"minute": null,
+"artist": "Dominica",
+"title": "Gotta Let You Go (3Beat Remix)",
+"label": "Altra Moda"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Stay",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "ANOTR Feat. 54 Ultra",
+"title": "Talk To You",
+"label": "No Art",
+"bp": "bp:24508685",
+"score": 0.677,
+"preview": "https://geo-samples.beatport.com/track/0864e91e-1a6d-47b2-b3c9-353e4bd7da94.LOFI.mp3",
+"name": "Talk To You ",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-03-06"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Rain",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Bob Sinclar Feat. Steve Edwards",
+"title": "World, Hold On (Children Of The Sky) (FISHER 2022 Rework)",
+"label": "Yellow",
+"bp": "bp:18752036",
+"score": 0.89,
+"preview": "https://geo-samples.beatport.com/track/ae03900d-cf28-4368-8303-3efdc16f87e4.LOFI.mp3",
+"name": "World Hold On (Children Of The Sky)",
+"mix": "FISHER Rework",
+"genre": "melodic-house-techno",
+"released": "2022-07-08"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Losing It",
+"label": "Catch & Release",
+"bp": "bp:26829088",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/fde3f54e-c19e-42a9-b087-79f4a514cade.LOFI.mp3",
+"name": "Losing It",
+"mix": "Intro",
+"genre": "dance-pop",
+"released": "2018-07-13"
+},
+{
+"minute": null,
+"artist": "Daft Punk",
+"title": "One More Time (Valmer Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "NIIKO X SWAE",
+"title": "3D",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "FISHER & Aatig",
+"title": "Take It Off",
+"label": "Catch & Release",
+"bp": "bp:26765844",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3a564037-cd98-4c73-af31-c5aae4183ed0.LOFI.mp3",
+"name": "Take It Off",
+"mix": "Short Edit",
+"genre": "house",
+"released": "2023-06-09"
+}
+]
+},
+{
+"title": "2026-07-25 - Moguai, FISHER, Alle Farben - 1LIVE DJ Session",
+"records": [
+{
+"minute": null,
+"artist": ";Moguai = [[2026-07-23",
+"title": "Moguai - PUNX Up The Volume 690]]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Diplo Feat. Cameron Whitcomb",
+"title": "Would U Still Love Me (Lost Frequencies Remix)",
+"label": "Hollertronix",
+"bp": "bp:29769785",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/09792f4e-8267-48c5-a654-ef5f82d571ef.LOFI.mp3",
+"name": "Would U Still Love Me",
+"mix": "Lost Frequencies Remix",
+"genre": "country",
+"released": "2026-07-16"
+},
+{
+"minute": null,
+"artist": "Matt Sassari & Mont Rouge",
+"title": "Waves Of Luv (Extended Mix)",
+"label": "Cr2",
+"bp": "bp:29355977",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d76d0e53-f080-4873-b9d9-6765857066aa.LOFI.mp3",
+"name": "Waves of Luv",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-07-03"
+},
+{
+"minute": null,
+"artist": "Petra",
+"title": "Missing Room",
+"label": "Club Whatever",
+"bp": "bp:28901082",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/22055f49-baa6-4a5a-8ee5-97505cdac50c.LOFI.mp3",
+"name": "Missing Room",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2026-06-12"
+},
+{
+"minute": null,
+"artist": "Marco Lys & Michael Ekow & Kevcody",
+"title": "Super Hot (Extended Mix)",
+"label": "Black Book",
+"bp": "bp:29779708",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/75385f95-b568-40fc-bd9f-797f49a83745.LOFI.mp3",
+"name": "Super Hot ",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-07-31"
+},
+{
+"minute": null,
+"artist": "Desoto",
+"title": "Funky Rocket",
+"label": "Kick & Bass",
+"bp": "bp:29166338",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/af89b1d3-9aee-4dfa-ba98-c9608bfb88f7.LOFI.mp3",
+"name": "Funky Rocket",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "Becky G",
+"title": "EPA (Don Diablo Remix)",
+"label": "",
+"bp": "bp:29665550",
+"score": 0.922,
+"preview": "https://geo-samples.beatport.com/track/9a8653be-3070-463f-a3c7-bbefffd2e2ab.LOFI.mp3",
+"name": "EPA",
+"mix": "Don Diablo Remix - Intro",
+"genre": "dance-pop",
+"released": "2026-07-10"
+},
+{
+"minute": null,
+"artist": "Dizzee Rascal",
+"title": "So Hot",
+"label": ""
+},
+{
+"minute": null,
+"artist": "MORGANJ Feat. Scrufizzer",
+"title": "4thepeople (Extended Mix)",
+"label": "Catch & Release",
+"bp": "bp:29175430",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/79fe2975-8818-4600-aa07-867404aed459.LOFI.mp3",
+"name": "4thepeople ",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2026-06-19"
+},
+{
+"minute": null,
+"artist": "Tini Gessler",
+"title": "125 (Extended Mix)",
+"label": "Three Six Zero",
+"bp": "bp:24023817",
+"score": 0.859,
+"preview": "https://geo-samples.beatport.com/track/634db376-6e99-4f37-9938-1e2565f78658.LOFI.mp3",
+"name": "Break",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2026-03-10"
+},
+{
+"minute": null,
+"artist": "GENESI & ESSENTIA & Franksy",
+"title": "Just Like That",
+"label": "Diynamic",
+"bp": "bp:29680681",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/c4b81b7c-6fbf-4754-be3b-7e9361c58abd.LOFI.mp3",
+"name": "Just Like That",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "KETTAMA",
+"title": "Comes And Goes",
+"label": "Steel City Dance Discs",
+"bp": "bp:28832588",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/b98a976d-437a-4a8a-92d5-6ad04d766323.LOFI.mp3",
+"name": "Comes and Goes",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2026-05-20"
+},
+{
+"minute": null,
+"artist": "Marlon Hoffstadt",
+"title": "Party People",
+"label": "Capitol",
+"bp": "bp:29520772",
+"score": 0.836,
+"preview": "https://geo-samples.beatport.com/track/f9cbbf52-8080-4bb5-b76e-3ebf7772be42.LOFI.mp3",
+"name": "Party People",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2026-07-03"
+},
+{
+"minute": null,
+"artist": "Laherte",
+"title": "Sing It Back",
+"label": "Circa",
+"bp": "bp:29841969",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/3508c6a2-8dd0-485f-808c-085f345bc608.LOFI.mp3",
+"name": "Sing It Back",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-08-14"
+},
+{
+"minute": null,
+"artist": "Shilla",
+"title": "Do It Like That",
+"label": "Rules Don't Apply",
+"bp": "bp:29556033",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/b979ad02-62fb-4188-ace8-3e9f48a8687e.LOFI.mp3",
+"name": "Do It Like That ",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "William Kiss & DJ Gant-Man",
+"title": "Juke Dat",
+"label": "Fool's Gold"
+},
+{
+"minute": null,
+"artist": "Mellizos & Mix Masters",
+"title": "My Life Is A Disco (In The Mix)",
+"label": "LTF"
+},
+{
+"minute": null,
+"artist": "Vinter",
+"title": "This Is Not The James Brown (Ryan Grey Extended Remix)",
+"label": "Helix",
+"bp": "bp:29668955",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/65f42ffe-2b5c-4e48-8c2b-7eb8bb148853.LOFI.mp3",
+"name": "This Is Not The James Brown ",
+"mix": "Ryan Grey Remix",
+"genre": "tech-house",
+"released": "2026-07-10"
+},
+{
+"minute": null,
+"artist": ";FISHER = [[2026-07-19",
+"title": "FISHER @ Mainstage, Parookaville]]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Marlon Hoffstadt aka DJ Daddy Trance",
+"title": "It's That Time (FISHER Remix)",
+"label": "Method 808"
+},
+{
+"minute": null,
+"artist": "OutKast",
+"title": "Ms. Jackson (N2N & Avilo Edit)",
+"label": "South Of Saturn"
+},
+{
+"minute": null,
+"artist": "IAN VII & JAVIIER",
+"title": "Sink",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Max Styler & Vintage Culture & Ali Love",
+"title": "Freaky 1",
+"label": "Affairs"
+},
+{
+"minute": null,
+"artist": "Skylark",
+"title": "That's More Like It",
+"label": "Cr2",
+"bp": "bp:27504337",
+"score": 0.865,
+"preview": "https://geo-samples.beatport.com/track/ad790320-729a-4e90-8503-7bb596c33952.LOFI.mp3",
+"name": "That's More Like It",
+"mix": "Radio Edit",
+"genre": "pop",
+"released": "2004-01-12"
+},
+{
+"minute": null,
+"artist": "FISHER Feat. Florence Arman",
+"title": "What A Life",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "ESSED",
+"title": "Let's Party",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Us Two & Franksy",
+"title": "Simulation",
+"label": "TSZR",
+"bp": "bp:20766014",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/2098b4bb-cc28-4479-b1c5-36612b75695d.LOFI.mp3",
+"name": "Simulation",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-07-25"
+},
+{
+"minute": null,
+"artist": "FISHER Feat. Kita Alexander",
+"title": "Atmosphere",
+"label": "Catch & Release",
+"bp": "bp:26766150",
+"score": 0.687,
+"preview": "https://geo-samples.beatport.com/track/8b1556de-356d-4604-8cc0-11c115bd4fea.LOFI.mp3",
+"name": "Atmosphere",
+"mix": "Radio Edit",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": null,
+"artist": "Chris Lake & Tony Romera",
+"title": "House Every Weekend",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Zombie Nation",
+"title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Drake",
+"title": "Janice STFU (HILLS Remix)",
+"label": "Free"
+},
+{
+"minute": null,
+"artist": "FISHER & Tones And I",
+"title": "Favour",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Chris Lake & FISHER & Sant\u00e9 Sansone vs Gotye Feat. Kimbra",
+"title": "Somebody (2024)",
+"label": "Island",
+"bp": "bp:19434420",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1cf107a2-828b-4ec8-8a17-8e412736426a.LOFI.mp3",
+"name": "Somebody",
+"mix": "2024",
+"genre": "dance-pop",
+"released": "2024-08-23"
+},
+{
+"minute": null,
+"artist": "Marlon Hoffstadt & Coach Harrison",
+"title": "Daddy's In The Club (FISHER Remix)",
+"label": "Method 808",
+"bp": "bp:22863497",
+"score": 0.926,
+"preview": "https://geo-samples.beatport.com/track/eb86d8d6-2357-4a6d-8ae0-9784929eb379.LOFI.mp3",
+"name": "Daddy's In The Club",
+"mix": "FISHER Remix Extended",
+"genre": "tech-house",
+"released": "2025-12-05"
+},
+{
+"minute": null,
+"artist": "Dominica",
+"title": "Gotta Let You Go (3Beat Remix)",
+"label": "Altra Moda"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Stay",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "ANOTR Feat. 54 Ultra",
+"title": "Talk To You",
+"label": "No Art",
+"bp": "bp:24508685",
+"score": 0.677,
+"preview": "https://geo-samples.beatport.com/track/0864e91e-1a6d-47b2-b3c9-353e4bd7da94.LOFI.mp3",
+"name": "Talk To You ",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-03-06"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Rain",
+"label": "Catch & Release"
+},
+{
+"minute": null,
+"artist": "Seeing Double & Nevve",
+"title": "Heat",
+"label": "Thrive"
+},
+{
+"minute": null,
+"artist": "Bob Sinclar Feat. Steve Edwards",
+"title": "World, Hold On (Children Of The Sky) (FISHER 2022 Rework)",
+"label": "Yellow",
+"bp": "bp:18752036",
+"score": 0.89,
+"preview": "https://geo-samples.beatport.com/track/ae03900d-cf28-4368-8303-3efdc16f87e4.LOFI.mp3",
+"name": "World Hold On (Children Of The Sky)",
+"mix": "FISHER Rework",
+"genre": "melodic-house-techno",
+"released": "2022-07-08"
+},
+{
+"minute": null,
+"artist": "FISHER",
+"title": "Losing It",
+"label": "Catch & Release",
+"bp": "bp:26829088",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/fde3f54e-c19e-42a9-b087-79f4a514cade.LOFI.mp3",
+"name": "Losing It",
+"mix": "Intro",
+"genre": "dance-pop",
+"released": "2018-07-13"
+},
+{
+"minute": null,
+"artist": "Daft Punk",
+"title": "One More Time (Valmer Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": ";Alle Farben = [[2026-07-17",
+"title": "Alle Farben @ Bill's Factory, Parookaville]]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Alle Farben Feat. Heavent",
+"title": "Die Welt in Alle Farben",
+"label": "",
+"bp": "bp:19828431",
+"score": 0.678,
+"preview": "https://geo-samples.beatport.com/track/01940b57-a586-4787-8a9d-2f1afe8b3931.LOFI.mp3",
+"name": "Die Welt in allen Farben (feat. Heavent)",
+"mix": "feat. Heavent",
+"genre": "dance-pop",
+"released": "2024-12-06"
+},
+{
+"minute": null,
+"artist": "ROSAL\u00cdA & Bj\u00f6rk & Yves Tumor",
+"title": "Berghain (Alle Farben Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "September",
+"title": "Cry For You (Alle Farben Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "HUGEL & Imael Angel & Ultra Nat\u00e9",
+"title": "Movin' To The Sun (Alle Farben Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Alle Farben Feat. Graham Candy",
+"title": "She Moves (Far Away)",
+"label": "Synesthesia",
+"bp": "bp:20873611",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f7b847f8-70bc-491c-9d2f-02cc88c8b93d.LOFI.mp3",
+"name": "She Moves (Far Away)",
+"mix": "Far Away",
+"genre": "pop",
+"released": "2014-11-04"
+},
+{
+"minute": null,
+"artist": "Alle Farben & Keanu Silva",
+"title": "Music Sounds Better With You",
+"label": "Spinnin'",
+"bp": "bp:25816891",
+"score": 0.894,
+"preview": "https://geo-samples.beatport.com/track/c9bbb362-8907-41d3-b8ed-6bf0d0212a2a.LOFI.mp3",
+"name": "Music Sounds Better with You",
+"mix": "Voost Remix",
+"genre": "dance-pop",
+"released": "2022-04-08"
+},
+{
+"minute": null,
+"artist": "+ Otto Knows",
+"title": "Million Voices (Acapella)",
+"label": "Refune",
+"bp": "bp:15738436",
+"score": 0.825,
+"preview": "https://geo-samples.beatport.com/track/589fa88e-1e95-4396-bd1b-53e9790afca4.LOFI.mp3",
+"name": "Million Voices",
+"mix": "Radio Edit",
+"genre": "dance-pop",
+"released": "2012-01-01"
+},
+{
+"minute": null,
+"artist": "David Guetta & MORTEN Feat. Clementine Douglas",
+"title": "Something To Hold On To",
+"label": "Future Rave"
+},
+{
+"minute": null,
+"artist": "Alle Farben & ILIRA",
+"title": "Fading (Alle Farben Club Mix)",
+"label": "Synesthesia",
+"bp": "bp:11304192",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/66d29142-b393-4e55-9411-013e499e7606.LOFI.mp3",
+"name": "Fading",
+"mix": "Alle Farben Club Mix",
+"genre": "dance-pop",
+"released": "2018-12-07"
+},
+{
+"minute": null,
+"artist": "Zerb Feat. Sofiya Nzau",
+"title": "Mwaki (Alle Farben Remix)",
+"label": "Th3rd Brain"
+},
+{
+"minute": null,
+"artist": "David Guetta & Cedric Gervais",
+"title": "A Better World",
+"label": "",
+"bp": "bp:20614380",
+"score": 0.854,
+"preview": "https://geo-samples.beatport.com/track/2b98e4cc-392f-4d50-9057-d8d6f471b418.LOFI.mp3",
+"name": "A Better World",
+"mix": "Club Mix",
+"genre": "dance-pop",
+"released": "2025-06-13"
+},
+{
+"minute": null,
+"artist": "+ Rihanna",
+"title": "Where Have You Been (Acapella)",
+"label": "Def Jam",
+"bp": "bp:24341118",
+"score": 0.88,
+"preview": "https://geo-samples.beatport.com/track/4df5cbae-50e8-4757-9433-45438a7c4d2e.LOFI.mp3",
+"name": "Where Have You Been",
+"mix": "Album Version - Acapella",
+"genre": "dance-pop",
+"released": "2011-01-01"
+},
+{
+"minute": null,
+"artist": "Alle Farben & Cheat Codes Feat. JOSEPH",
+"title": "Loving You Is Life",
+"label": "",
+"bp": "bp:21917523",
+"score": 0.774,
+"preview": "https://geo-samples.beatport.com/track/ed3fdd99-c91c-45e7-b35d-b4866de54aaf.LOFI.mp3",
+"name": "Loving You Is Life",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2025-09-26"
+},
+{
+"minute": null,
+"artist": "Alle Farben Feat. YouNotUs",
+"title": "Please Tell Rosie (Alle Farben Old School Remix)",
+"label": "Synesthesia",
+"bp": "bp:8158790",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/8246cbb6-3c32-4a3c-b454-6e4487793105.LOFI.mp3",
+"name": "Please Tell Rosie",
+"mix": "Alle Farben Old School Remix",
+"genre": "house",
+"released": "2016-07-15"
+},
+{
+"minute": null,
+"artist": "Eric Prydz",
+"title": "Call On Me",
+"label": "Data",
+"bp": "bp:9116011",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/308f572d-8346-412a-9cc2-40cba9624a81.LOFI.mp3",
+"name": "Call on Me",
+"mix": "Radio Mix",
+"genre": "mainstage",
+"released": "2004-09-10"
+},
+{
+"minute": null,
+"artist": "Cassian & YOTTO & Da Hool",
+"title": "Love Parade",
+"label": "Afterlife",
+"bp": "bp:21774346",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/c8440475-e3ed-453b-8c52-ab24fcd609b6.LOFI.mp3",
+"name": "Love Parade",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2025-09-19"
+},
+{
+"minute": null,
+"artist": "Alle Farben",
+"title": "Labyrinth",
+"label": "Tomorrowland"
+},
+{
+"minute": null,
+"artist": "Empire Of The Sun",
+"title": "Alive (ALOK Remix)",
+"label": "The Sleepy Jackson/EMI"
+},
+{
+"minute": null,
+"artist": "Alle Farben & Maurice Lessing",
+"title": "Apollo 2",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Alle Farben",
+"title": "It Burns",
+"label": "Spinnin'"
+},
+{
+"minute": null,
+"artist": "+ Hozier",
+"title": "Take Me To Church (Acapella)",
+"label": "Rubyworks",
+"bp": "bp:27324443",
+"score": 0.829,
+"preview": "https://geo-samples.beatport.com/track/0b11a9ea-91c6-446d-a2a8-15bff30443ab.LOFI.mp3",
+"name": "Take Me To Church",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2014-09-19"
+},
+{
+"minute": null,
+"artist": "Alle Farben Feat. KIDDO",
+"title": "Alright (Alle Farben Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Aloboi",
+"title": "Want To Love (Just Raw) (Alle Farben Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Alle Farben Feat. Melodie",
+"title": "Voices",
+"label": "Intercord"
+},
+{
+"minute": null,
+"artist": "David Guetta & MARTEN H\u00d8RGER Pres. Men Machine Feat. Vitalic",
+"title": "Engage",
+"label": "Spinnin'"
+},
+{
+"minute": null,
+"artist": "Alle Farben & TUJAMO",
+"title": "Know My Name",
+"label": "Intercord",
+"bp": "bp:28434797",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/948283ce-7eca-4cb1-bad0-cf7444f6d07f.LOFI.mp3",
+"name": "Know My Name",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2026-04-24"
+},
+{
+"minute": null,
+"artist": "2WEI",
+"title": "Survivor",
+"label": "Position"
+}
+]
+}
+]
 }
