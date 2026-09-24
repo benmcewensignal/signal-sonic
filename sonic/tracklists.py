@@ -26,7 +26,31 @@ def api(params):
     raise err
 
 
+def category_for(dj):
+    """MixesDB's category name for a DJ: the plain name first, else the closest category its search finds
+    (FISHER is 'FISHER (AUS)', and several DJs sit under a variant spelling)."""
+    want = re.sub(r"[^a-z0-9]", "", dj.lower())
+    try:
+        r = api({"action": "query", "list": "search", "srsearch": dj, "srnamespace": "14", "srlimit": "10"})
+        for h in r.get("query", {}).get("search", []):
+            name = h["title"].split(":", 1)[-1]
+            if want and want in re.sub(r"[^a-z0-9]", "", name.lower()): return name
+    except Exception:
+        pass
+    return None
+
+
 def sets_for(dj, since):
+    out = _sets_for(dj, since)
+    if out: return out
+    alt = category_for(dj)
+    if alt and alt != dj:
+        print(f"{dj}: no sets under that name; using MixesDB's category '{alt}'", flush=True)
+        return _sets_for(alt, since)
+    return out
+
+
+def _sets_for(dj, since):
     titles, cont = [], {}
     while True:
         r = api({"action": "query", "list": "categorymembers", "cmtitle": "Category:" + dj, "cmlimit": "500", **cont})
