@@ -18,6 +18,7 @@ for f in glob.glob(f"{tl}/*.json"):
             if r.get("bp"):
                 genre[r["bp"]] = r.get("genre")
                 song[r["bp"]] = (re.sub(r"[^a-z0-9]", "", (r.get("artist") or "").lower())[:20], re.sub(r"\(.*?\)|[^a-z0-9]", "", (r.get("title") or "").lower())[:30])
+RNG = np.random.default_rng(0)
 plays = collections.defaultdict(set)
 for dj, tid in c.execute("select dj, track_id from tracklist_plays where track_id is not null"): plays[tid].add(dj)
 E = {}
@@ -45,16 +46,20 @@ def rank_genre(t):
     g = genre.get(t); sid = song.get(t); out = []
     for d in djs:
         pool = [u for u in by_dj[d] if u != t and song.get(u) != sid]
-        out.append((d, (sum(1 for u in pool if genre.get(u) == g) / len(pool)) if pool else 0))
+        out.append((d, ((sum(1 for u in pool if genre.get(u) == g) / len(pool)) if pool else 0) + RNG.random() * 1e-9))   # ties broken at random, not alphabetically
     return [d for d, _ in sorted(out, key=lambda x: -x[1])]
 res = {"sound": [], "genre": []}
 for t in ids:
     truth = plays[t]
     if len(truth) == nd: continue
-    for name, fn in (("sound", rank_sound), ("genre", rank_genre)):
-        r = fn(t); best = min(r.index(d) for d in truth) + 1; res[name].append(best)
+    rs, rg = rank_sound(t), rank_genre(t)
+    for name, r in (("sound", rs), ("genre", rg)):
+        best = min(r.index(d) for d in truth) + 1; res[name].append(best)
+    # both together: each DJ's two ranks averaged, genre first on ties
+    comb = sorted(djs, key=lambda d: (rs.index(d) + rg.index(d), rg.index(d)))
+    res.setdefault("both", []).append(min(comb.index(d) for d in truth) + 1)
 top = min(5, max(1, nd // 5))
 chance_top = 1 - np.prod([(nd - len(plays[t]) - i) / (nd - i) for t in ids[:1] for i in range(top)]) if nd > top else 1.0
-msg = f"{len(res['sound'])} records, {nd} DJs: a DJ who played it ranked in the top {top} by sound {np.mean(np.array(res['sound']) <= top)*100:.0f}%, by genre {np.mean(np.array(res['genre']) <= top)*100:.0f}% (about {top/nd*100:.0f}% by chance); median rank by sound {np.median(res['sound']):.0f}, by genre {np.median(res['genre']):.0f}, of {nd}"
+msg = f"(both together: top {top} {np.mean(np.array(res['both']) <= top)*100:.0f}%, median rank {np.median(res['both']):.0f}) {len(res['sound'])} records, {nd} DJs: a DJ who played it ranked in the top {top} by sound {np.mean(np.array(res['sound']) <= top)*100:.0f}%, by genre {np.mean(np.array(res['genre']) <= top)*100:.0f}% (about {top/nd*100:.0f}% by chance); median rank by sound {np.median(res['sound']):.0f}, by genre {np.median(res['genre']):.0f}, of {nd}"
 print(msg)
 json.dump({"n_records": len(res["sound"]), "n_djs": nd, "top": top, "sound": res["sound"], "genre": res["genre"]}, open("/tmp/promo_test.json", "w"))
