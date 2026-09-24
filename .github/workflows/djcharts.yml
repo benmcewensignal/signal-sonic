@@ -1,0 +1,28 @@
+name: djcharts
+# Survey Beatport DJ charts: how many DJs and records they would add to the DJ layer.
+on: { workflow_dispatch: { inputs: { max_charts: { default: "1500" } } } }
+permissions: { contents: write }
+jobs:
+  survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: fetch the corpus database
+        env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
+        run: for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
+      - name: survey
+        run: python -m sonic.djcharts --db sonic.db --max-charts "${{ inputs.max_charts }}"
+      - name: save
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/djcharts && git commit -qm "Beatport DJ charts survey" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
