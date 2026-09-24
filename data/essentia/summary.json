@@ -1,0 +1,682 @@
+{
+ "deep-house": [
+  [
+   "House",
+   25
+  ],
+  [
+   "Tropical House",
+   17
+  ],
+  [
+   "Deep House",
+   16
+  ],
+  [
+   "Progressive House",
+   15
+  ],
+  [
+   "Tech House",
+   4
+  ],
+  [
+   "Deep Techno",
+   4
+  ],
+  [
+   "Minimal Techno",
+   3
+  ],
+  [
+   "Techno",
+   3
+  ]
+ ],
+ "uk-funky-gqom": [
+  [
+   "Techno",
+   17
+  ],
+  [
+   "Juke",
+   15
+  ],
+  [
+   "House",
+   10
+  ],
+  [
+   "Bassline",
+   9
+  ],
+  [
+   "Dubstep",
+   9
+  ],
+  [
+   "Grime",
+   9
+  ],
+  [
+   "Drum n Bass",
+   4
+  ],
+  [
+   "UK Garage",
+   3
+  ]
+ ],
+ "tech-house": [
+  [
+   "House",
+   42
+  ],
+  [
+   "Techno",
+   16
+  ],
+  [
+   "Tech House",
+   14
+  ],
+  [
+   "Minimal Techno",
+   7
+  ],
+  [
+   "Tech Trance",
+   4
+  ],
+  [
+   "Electro House",
+   3
+  ],
+  [
+   "Progressive House",
+   3
+  ],
+  [
+   "Bassline",
+   3
+  ]
+ ],
+ "organic-house": [
+  [
+   "Progressive House",
+   31
+  ],
+  [
+   "Deep House",
+   18
+  ],
+  [
+   "Downtempo",
+   12
+  ],
+  [
+   "House",
+   9
+  ],
+  [
+   "Ambient",
+   8
+  ],
+  [
+   "Tropical House",
+   4
+  ],
+  [
+   "Deep Techno",
+   3
+  ],
+  [
+   "Tech House",
+   3
+  ]
+ ],
+ "house": [
+  [
+   "House",
+   39
+  ],
+  [
+   "Progressive House",
+   8
+  ],
+  [
+   "Tropical House",
+   7
+  ],
+  [
+   "Techno",
+   7
+  ],
+  [
+   "Deep House",
+   4
+  ],
+  [
+   "Ambient",
+   4
+  ],
+  [
+   "Bassline",
+   3
+  ],
+  [
+   "K-pop",
+   2
+  ]
+ ],
+ "techno-peak-time": [
+  [
+   "Techno",
+   36
+  ],
+  [
+   "Tech Trance",
+   16
+  ],
+  [
+   "Trance",
+   6
+  ],
+  [
+   "Progressive House",
+   5
+  ],
+  [
+   "House",
+   3
+  ],
+  [
+   "Progressive Breaks",
+   2
+  ],
+  [
+   "Tribal",
+   2
+  ],
+  [
+   "Hardcore",
+   2
+  ]
+ ],
+ "progressive-house": [
+  [
+   "Progressive House",
+   52
+  ],
+  [
+   "House",
+   11
+  ],
+  [
+   "Techno",
+   10
+  ],
+  [
+   "Trance",
+   5
+  ],
+  [
+   "Tech Trance",
+   4
+  ],
+  [
+   "Deep House",
+   4
+  ],
+  [
+   "Tropical House",
+   3
+  ],
+  [
+   "Deep Techno",
+   3
+  ]
+ ],
+ "melodic-house-techno": [
+  [
+   "Progressive House",
+   41
+  ],
+  [
+   "Techno",
+   20
+  ],
+  [
+   "Tech Trance",
+   12
+  ],
+  [
+   "House",
+   7
+  ],
+  [
+   "Tech House",
+   5
+  ],
+  [
+   "Electro House",
+   3
+  ],
+  [
+   "Deep Techno",
+   2
+  ],
+  [
+   "Experimental",
+   2
+  ]
+ ],
+ "breaks-breakbeat-uk-bass": [
+  [
+   "Breakbeat",
+   9
+  ],
+  [
+   "Bassline",
+   8
+  ],
+  [
+   "Breaks",
+   8
+  ],
+  [
+   "House",
+   7
+  ],
+  [
+   "Progressive Breaks",
+   5
+  ],
+  [
+   "Deep House",
+   5
+  ],
+  [
+   "Techno",
+   5
+  ],
+  [
+   "Downtempo",
+   5
+  ]
+ ],
+ "indie-dance": [
+  [
+   "House",
+   21
+  ],
+  [
+   "Techno",
+   13
+  ],
+  [
+   "Progressive House",
+   8
+  ],
+  [
+   "Electro",
+   7
+  ],
+  [
+   "Synthwave",
+   5
+  ],
+  [
+   "Deep House",
+   4
+  ],
+  [
+   "Tech Trance",
+   4
+  ],
+  [
+   "Ambient",
+   3
+  ]
+ ],
+ "techno-raw-deep-hypnotic": [
+  [
+   "Techno",
+   69
+  ],
+  [
+   "Tech Trance",
+   14
+  ],
+  [
+   "Dub Techno",
+   6
+  ],
+  [
+   "Tech House",
+   1
+  ],
+  [
+   "Downtempo",
+   1
+  ],
+  [
+   "Hardstyle",
+   1
+  ],
+  [
+   "Bassline",
+   1
+  ],
+  [
+   "Progressive House",
+   1
+  ]
+ ],
+ "140-deep-dubstep-grime": [
+  [
+   "Dubstep",
+   52
+  ],
+  [
+   "Grime",
+   13
+  ],
+  [
+   "Halftime",
+   9
+  ],
+  [
+   "UK Garage",
+   4
+  ],
+  [
+   "Cloud Rap",
+   3
+  ],
+  [
+   "Gangsta",
+   2
+  ],
+  [
+   "Reggae",
+   2
+  ],
+  [
+   "Ambient",
+   2
+  ]
+ ],
+ "afro-house": [
+  [
+   "Deep House",
+   27
+  ],
+  [
+   "House",
+   24
+  ],
+  [
+   "Progressive House",
+   15
+  ],
+  [
+   "Tropical House",
+   12
+  ],
+  [
+   "Grime",
+   2
+  ],
+  [
+   "Electro House",
+   2
+  ],
+  [
+   "Cumbia",
+   2
+  ],
+  [
+   "Trap",
+   2
+  ]
+ ],
+ "hard-techno": [
+  [
+   "Hard Techno",
+   33
+  ],
+  [
+   "Techno",
+   23
+  ],
+  [
+   "Hardcore",
+   12
+  ],
+  [
+   "Hardstyle",
+   8
+  ],
+  [
+   "Schranz",
+   6
+  ],
+  [
+   "Tech Trance",
+   5
+  ],
+  [
+   "Psy-Trance",
+   2
+  ],
+  [
+   "Speedcore",
+   1
+  ]
+ ],
+ "uk-garage-speed-garage": [
+  [
+   "UK Garage",
+   37
+  ],
+  [
+   "Bassline",
+   14
+  ],
+  [
+   "House",
+   14
+  ],
+  [
+   "Speed Garage",
+   10
+  ],
+  [
+   "Dubstep",
+   7
+  ],
+  [
+   "Tech Trance",
+   6
+  ],
+  [
+   "Grime",
+   3
+  ],
+  [
+   "Downtempo",
+   2
+  ]
+ ],
+ "trance-main-floor": [
+  [
+   "Trance",
+   36
+  ],
+  [
+   "Tech Trance",
+   30
+  ],
+  [
+   "Psy-Trance",
+   6
+  ],
+  [
+   "Progressive House",
+   4
+  ],
+  [
+   "Disco Polo",
+   3
+  ],
+  [
+   "Hands Up",
+   2
+  ],
+  [
+   "House",
+   2
+  ],
+  [
+   "Euro House",
+   2
+  ]
+ ],
+ "drum-and-bass": [
+  [
+   "Drum n Bass",
+   69
+  ],
+  [
+   "Halftime",
+   10
+  ],
+  [
+   "Jungle",
+   8
+  ],
+  [
+   "Trance",
+   1
+  ],
+  [
+   "Progressive Breaks",
+   1
+  ],
+  [
+   "AOR",
+   1
+  ],
+  [
+   "Heavy Metal",
+   1
+  ],
+  [
+   "K-pop",
+   1
+  ]
+ ],
+ "bass-house": [
+  [
+   "House",
+   25
+  ],
+  [
+   "Bassline",
+   20
+  ],
+  [
+   "Electro House",
+   14
+  ],
+  [
+   "Techno",
+   9
+  ],
+  [
+   "Tech Trance",
+   5
+  ],
+  [
+   "Drum n Bass",
+   4
+  ],
+  [
+   "Deep House",
+   3
+  ],
+  [
+   "Dubstep",
+   2
+  ]
+ ],
+ "amapiano": [
+  [
+   "Deep House",
+   37
+  ],
+  [
+   "House",
+   30
+  ],
+  [
+   "Tropical House",
+   8
+  ],
+  [
+   "Downtempo",
+   5
+  ],
+  [
+   "Dancehall",
+   4
+  ],
+  [
+   "Bassline",
+   4
+  ],
+  [
+   "Reggaeton",
+   2
+  ],
+  [
+   "Juke",
+   2
+  ]
+ ],
+ "psy-trance": [
+  [
+   "Psy-Trance",
+   65
+  ],
+  [
+   "Goa Trance",
+   15
+  ],
+  [
+   "Tech Trance",
+   5
+  ],
+  [
+   "House",
+   3
+  ],
+  [
+   "Speedcore",
+   2
+  ],
+  [
+   "Happy Hardcore",
+   2
+  ],
+  [
+   "Trance",
+   2
+  ],
+  [
+   "Progressive House",
+   1
+  ]
+ ]
+}
