@@ -1,111 +1,111 @@
 {
- "charts": 100,
- "djs": 97,
- "djs_with_30_plus_tracks": 3,
- "djs_already_from_tracklists": 0,
- "track_entries": 1287,
- "distinct_tracks": 1207,
- "in_corpus": 226,
+ "charts": 4000,
+ "djs": 2823,
+ "djs_with_30_plus_tracks": 342,
+ "djs_already_from_tracklists": 15,
+ "track_entries": 60211,
+ "distinct_tracks": 35343,
+ "in_corpus": 3696,
  "genres": [
   [
    "house",
-   239
+   7877
   ],
   [
    "tech-house",
-   159
-  ],
-  [
-   "drum-bass",
-   128
+   5811
   ],
   [
    "melodic-house-techno",
-   100
+   4987
   ],
   [
    "progressive-house",
-   74
-  ],
-  [
-   "deep-house",
-   72
-  ],
-  [
-   "minimal-deep-tech",
-   71
-  ],
-  [
-   "techno-peak-time-driving",
-   60
+   4360
   ],
   [
    "afro-house",
-   53
-  ],
-  [
-   "techno-raw-deep-hypnotic",
-   46
-  ],
-  [
-   "dance-pop",
-   32
-  ],
-  [
-   "indie-dance",
-   31
-  ],
-  [
-   "indie-tech",
-   30
-  ],
-  [
-   "uk-garage-bassline",
-   27
+   3336
   ],
   [
    "trance-main-floor",
-   25
+   3105
+  ],
+  [
+   "techno-peak-time-driving",
+   3093
+  ],
+  [
+   "deep-house",
+   3057
+  ],
+  [
+   "techno-raw-deep-hypnotic",
+   2381
+  ],
+  [
+   "minimal-deep-tech",
+   1985
+  ],
+  [
+   "dance-pop",
+   1959
+  ],
+  [
+   "drum-bass",
+   1835
+  ],
+  [
+   "indie-dance",
+   1587
   ],
   [
    "organic-house",
-   23
+   1518
   ],
   [
-   "hard-dance-hardcore-neo-rave",
-   22
+   "indie-tech",
+   1496
   ],
   [
-   "jackin-house",
-   19
-  ],
-  [
-   "electronica",
-   15
-  ],
-  [
-   "latin-electronic",
-   13
-  ],
-  [
-   "nu-disco-disco",
-   10
+   "psy-trance",
+   1121
   ],
   [
    "mainstage",
-   10
+   1042
   ],
   [
-   "bass-house",
-   5
+   "dubstep",
+   956
+  ],
+  [
+   "hard-dance-hardcore-neo-rave",
+   900
   ],
   [
    "breaks-breakbeat-uk-bass",
-   5
+   842
   ],
   [
-   "funky-house",
-   5
+   "uk-garage-bassline",
+   840
+  ],
+  [
+   "bass-house",
+   814
+  ],
+  [
+   "electronica",
+   781
+  ],
+  [
+   "nu-disco-disco",
+   580
+  ],
+  [
+   "jackin-house",
+   575
   ]
  ],
  "sample_fields": [
