@@ -1,0 +1,126 @@
+{
+ "charts": 100,
+ "djs": 97,
+ "djs_with_30_plus_tracks": 3,
+ "djs_already_from_tracklists": 0,
+ "track_entries": 1287,
+ "distinct_tracks": 1207,
+ "in_corpus": 226,
+ "genres": [
+  [
+   "house",
+   239
+  ],
+  [
+   "tech-house",
+   159
+  ],
+  [
+   "drum-bass",
+   128
+  ],
+  [
+   "melodic-house-techno",
+   100
+  ],
+  [
+   "progressive-house",
+   74
+  ],
+  [
+   "deep-house",
+   72
+  ],
+  [
+   "minimal-deep-tech",
+   71
+  ],
+  [
+   "techno-peak-time-driving",
+   60
+  ],
+  [
+   "afro-house",
+   53
+  ],
+  [
+   "techno-raw-deep-hypnotic",
+   46
+  ],
+  [
+   "dance-pop",
+   32
+  ],
+  [
+   "indie-dance",
+   31
+  ],
+  [
+   "indie-tech",
+   30
+  ],
+  [
+   "uk-garage-bassline",
+   27
+  ],
+  [
+   "trance-main-floor",
+   25
+  ],
+  [
+   "organic-house",
+   23
+  ],
+  [
+   "hard-dance-hardcore-neo-rave",
+   22
+  ],
+  [
+   "jackin-house",
+   19
+  ],
+  [
+   "electronica",
+   15
+  ],
+  [
+   "latin-electronic",
+   13
+  ],
+  [
+   "nu-disco-disco",
+   10
+  ],
+  [
+   "mainstage",
+   10
+  ],
+  [
+   "bass-house",
+   5
+  ],
+  [
+   "breaks-breakbeat-uk-bass",
+   5
+  ],
+  [
+   "funky-house",
+   5
+  ]
+ ],
+ "sample_fields": [
+  "add_date",
+  "artist",
+  "change_date",
+  "genres",
+  "id",
+  "image",
+  "name",
+  "person",
+  "price",
+  "publish_date",
+  "slug",
+  "track_count",
+  "url"
+ ]
+}
