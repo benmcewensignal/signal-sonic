@@ -15,7 +15,7 @@ jobs:
           def get(u):
               try: return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=30).read().decode("utf-8", "replace")
               except Exception as e: return f"ERROR {type(e).__name__}: {e}"
-          si = get("https://www.mixesdb.com/db/api.php?action=query&meta=siteinfo&siprop=rightsinfo|general&format=json")
+          si = get("https://www.mixesdb.com/w/api.php?action=query&meta=siteinfo&siprop=rightsinfo|general&format=json")
           try:
               d = json.loads(si)["query"]; r = d.get("rightsinfo", {}); g = d.get("general", {})
               msg = f"MixesDB rightsinfo: url={r.get('url')!r} text={r.get('text')!r}; site {g.get('sitename')!r}, {g.get('generator')!r}"
