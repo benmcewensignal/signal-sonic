@@ -27,9 +27,20 @@ jobs:
         run: for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
       - name: stream the latest releases dump and match
         run: |
-          for m in 20260901 20260801 20260701; do U="https://discogs-data-dumps.s3-us-west-2.amazonaws.com/data/${m:0:4}/discogs_${m}_releases.xml.gz"
-            if curl -sf -r 0-0 -o /dev/null "$U"; then echo "dump $U"; python tools/discogs.py sonic.db "$U"; exit $?; fi; echo "no dump at $U"; done
-          echo "::error::no Discogs releases dump found for the last three months"; exit 1
+          U=$(python3 - << 'PY'
+          import re, urllib.request
+          keys = []
+          for pre in ("data/2026/", "data/2025/", "data/2024/"):
+              try:
+                  x = urllib.request.urlopen(f"https://discogs-data-dumps.s3-us-west-2.amazonaws.com/?prefix={pre}", timeout=60).read().decode()
+                  keys += re.findall(r"<Key>([^<]*_releases\.xml\.gz)</Key>", x)
+              except Exception as e:
+                  print(f"listing {pre} failed: {e}", file=__import__("sys").stderr)
+          print(("https://discogs-data-dumps.s3-us-west-2.amazonaws.com/" + max(keys)) if keys else "")
+          PY
+          )
+          if [ -z "$U" ]; then echo "::error::the Discogs bucket lists no releases dump for 2024 to 2026"; exit 1; fi
+          echo "::notice title=Discogs dump::using $U"; python tools/discogs.py sonic.db "$U"
       - name: save
         run: |
           git config user.name sonic-bot; git config user.email sonic@earlysignal.live
