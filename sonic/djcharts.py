@@ -27,15 +27,16 @@ def main():
     tok = B.get_token(); os.makedirs("data/djcharts", exist_ok=True)
     charts, page, sample = [], "/catalog/charts/?per_page=100&order_by=-publish_date", None
     while page and len(charts) < a.max_charts:
-        try: d = B._get(page.replace(B.API, ""), tok) if page.startswith(B.API) else B._get(page, tok)
-        except Exception as e: print("charts page failed:", type(e).__name__, flush=True); break
+        try: d = B._get(page, tok)
+        except Exception as e: print(f"::warning::charts page failed after {len(charts)} charts: {type(e).__name__} {e}", flush=True); break
         for ch in d.get("results", []):
             sample = sample or ch
             date = (ch.get("publish_date") or ch.get("change_date") or "")[:10]
             if date and date < a.since: page = None; break
             charts.append(ch)
         else:
-            page = d.get("next"); continue
+            nxt = d.get("next")   # the API's next link carries its own /v4 prefix
+            page = ("/" + nxt.split("/v4/", 1)[1]) if nxt and "/v4/" in nxt else nxt; continue
     print(f"charts listed: {len(charts)}; sample fields: {sorted((sample or {}).keys())[:24]}", flush=True)
     out = open("data/djcharts/charts.jsonl", "w"); rows = []
     for i, ch in enumerate(charts):
