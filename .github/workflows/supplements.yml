@@ -1,0 +1,79 @@
+name: supplements
+# Second opinions on what records are: Discogs (CC0 dump), a MusicBrainz sample, and Essentia's
+# Discogs-trained style model (non-commercial; private calibration only).
+on:
+  workflow_dispatch:
+    inputs:
+      which: { description: "all, discogs, musicbrainz or essentia", default: "all" }
+permissions: { contents: write }
+env:
+  BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+  BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+  BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+  BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+jobs:
+  discogs:
+    if: inputs.which == 'all' || inputs.which == 'discogs'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q lxml
+      - name: fetch the corpus database
+        env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
+        run: for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
+      - name: stream the latest releases dump and match
+        run: |
+          for m in 20260901 20260801 20260701; do U="https://discogs-data-dumps.s3-us-west-2.amazonaws.com/data/${m:0:4}/discogs_${m}_releases.xml.gz"
+            if curl -sfI "$U" >/dev/null; then echo "dump $U"; python tools/discogs.py sonic.db "$U"; break; fi; done
+      - name: save
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/discogs && git commit -qm "Discogs (CC0): corpus records matched to community styles" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
+  musicbrainz:
+    if: inputs.which == 'all' || inputs.which == 'musicbrainz'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: fetch the corpus database
+        env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
+        run: for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
+      - run: python tools/musicbrainz_sample.py sonic.db 1000
+      - name: save
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/musicbrainz && git commit -qm "MusicBrainz sample through ISRCs" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
+  essentia:
+    if: inputs.which == 'all' || inputs.which == 'essentia'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -q -r requirements.txt essentia-tensorflow
+      - name: fetch the database and the models
+        env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
+        run: |
+          for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
+          mkdir -p models && cd models
+          curl -sfLO https://essentia.upf.edu/models/feature-extractors/discogs-effnet/discogs-effnet-bs64-1.pb
+          curl -sfLO https://essentia.upf.edu/models/classification-heads/genre_discogs400/genre_discogs400-discogs-effnet-1.pb
+          curl -sfLO https://essentia.upf.edu/models/classification-heads/genre_discogs400/genre_discogs400-discogs-effnet-1.json
+          ls -la
+      - run: python tools/essentia_second.py sonic.db 100
+      - name: save
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/essentia && git commit -qm "Essentia second opinion (non-commercial model; private calibration)" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
