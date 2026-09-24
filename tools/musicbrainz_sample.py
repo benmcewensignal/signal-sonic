@@ -2,6 +2,7 @@
 ISRCs come from Beatport's track records; MusicBrainz is asked one record a second, as it requires."""
 import sys, json, time, sqlite3, random, urllib.request, collections
 sys.path.insert(0, "."); from sonic import beatport as B
+import os; os.makedirs("data/musicbrainz", exist_ok=True)
 db, n = sys.argv[1], int(sys.argv[2]); c = sqlite3.connect(db); tok = B.get_token()
 ids = [r[0] for r in c.execute("select track_id from track_meta where track_id like 'bp:%'")]; random.Random(5).shuffle(ids)
 UA = {"User-Agent": "signal-sonic/1.0 ( https://www.earlysignal.live )", "Accept": "application/json"}

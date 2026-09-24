@@ -6,6 +6,7 @@ how Discogs' styles line up with Beatport's tag and with the scene model's call 
 """
 import sys, re, json, gzip, sqlite3, collections, urllib.request
 from lxml import etree
+import os; os.makedirs("data/discogs", exist_ok=True)
 db, url = sys.argv[1], sys.argv[2]
 def norm(s): return " ".join(re.sub(r"\(.*?\)|\[.*?\]|[^a-z0-9 ]", " ", (s or "").lower()).split())
 c = sqlite3.connect(db); want = {}; meta = {}

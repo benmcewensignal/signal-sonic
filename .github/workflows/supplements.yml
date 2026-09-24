@@ -28,7 +28,8 @@ jobs:
       - name: stream the latest releases dump and match
         run: |
           for m in 20260901 20260801 20260701; do U="https://discogs-data-dumps.s3-us-west-2.amazonaws.com/data/${m:0:4}/discogs_${m}_releases.xml.gz"
-            if curl -sfI "$U" >/dev/null; then echo "dump $U"; python tools/discogs.py sonic.db "$U"; break; fi; done
+            if curl -sf -r 0-0 -o /dev/null "$U"; then echo "dump $U"; python tools/discogs.py sonic.db "$U"; exit $?; fi; echo "no dump at $U"; done
+          echo "::error::no Discogs releases dump found for the last three months"; exit 1
       - name: save
         run: |
           git config user.name sonic-bot; git config user.email sonic@earlysignal.live
@@ -61,7 +62,7 @@ jobs:
         with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
-      - run: pip install -q -r requirements.txt essentia-tensorflow
+      - run: pip install -q essentia-tensorflow   # alone: the pipeline's requirements clash with it, and it needs none of them
       - name: fetch the database and the models
         env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
         run: |

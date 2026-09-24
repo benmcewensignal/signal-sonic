@@ -4,6 +4,7 @@ and against our scene model's call."""
 import sys, os, json, sqlite3, pickle, collections, random, urllib.request, numpy as np
 sys.path.insert(0, "."); from sonic import beatport as B
 from essentia.standard import MonoLoader, TensorflowPredictEffnetDiscogs, TensorflowPredict2D
+import os; os.makedirs("data/essentia", exist_ok=True)
 db, per = sys.argv[1], int(sys.argv[2])
 emb = TensorflowPredictEffnetDiscogs(graphFilename="models/discogs-effnet-bs64-1.pb", output="PartitionedCall:1")
 head = TensorflowPredict2D(graphFilename="models/genre_discogs400-discogs-effnet-1.pb", input="serving_default_model_Placeholder", output="PartitionedCall:0")
