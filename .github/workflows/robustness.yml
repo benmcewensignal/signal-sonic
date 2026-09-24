@@ -1,0 +1,31 @@
+name: robustness
+# How far unmastered audio, phone recording, low-bitrate files and partial listening move a reading.
+on: { workflow_dispatch: { inputs: { per_scene: { default: "20" } } } }
+permissions: { contents: write }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get install -y -q ffmpeg >/dev/null && pip install -q -r requirements.txt "scikit-learn==1.8.0" soundfile scipy
+      - name: fetch the database and the scene model
+        env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
+        run: |
+          for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
+          git clone -q --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/benmcewensignal/signal-sonic-features.git" features
+      - name: measure under each condition
+        run: python tools/robustness.py sonic.db features/worker/scene_model.pkl "${{ inputs.per_scene }}"
+      - name: save
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/robustness && git commit -qm "robustness: readings under unmastered, phone, low-bitrate and partial listening" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
