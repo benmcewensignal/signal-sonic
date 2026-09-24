@@ -1,0 +1,36 @@
+name: beatport-genres
+# Fetch Beatport's live genre list into data/beatport-genres.json, so new scenes are mapped from what
+# Beatport actually lists (the scene map's note: ids are never guessed).
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: fetch the list
+        run: |
+          python - << 'PY'
+          import json
+          from sonic import beatport as B
+          g = B.fetch_genres(B.get_token())
+          rows = sorted(({"id": x.get("id"), "name": x.get("name"), "slug": x.get("slug")} for x in g), key=lambda r: r["name"] or "")
+          json.dump(rows, open("data/beatport-genres.json", "w"), indent=1)
+          m = json.load(open("scene_map.json")); have = {k for k in m if not k.startswith("_")}
+          new = [f'{r["id"]} {r["name"]}' for r in rows if str(r["id"]) not in have]
+          print(f"::notice title=Beatport genres::{len(rows)} genres; not yet mapped: " + "; ".join(new))
+          PY
+      - name: save
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/beatport-genres.json && git commit -qm "Beatport's live genre list" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
