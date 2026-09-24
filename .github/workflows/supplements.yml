@@ -26,12 +26,14 @@ jobs:
         env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
         run: for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
       - name: stream the latest releases dump and match
-        # data.discogs.com lists the dumps (CC0) and serves them through its download links
         run: |
-          U="https://data.discogs.com/?download=data%2F2026%2Fdiscogs_20260901_releases.xml.gz"
-          H=$(curl -sIL "$U" | grep -iE "^(HTTP|location|content-type|content-length)" | tr -d "\r" | paste -sd"|" -)
-          echo "::notice title=Discogs dump::$H"
-          set -o pipefail; curl -sfL --retry 3 "$U" | python tools/discogs.py sonic.db -
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+          F=discogs_20260901_releases.xml.gz; R=""
+          for U in "https://data.discogs.com/?download=data%2F2026%2F$F" "https://discogs-data-dumps.s3.us-west-2.amazonaws.com/data/2026/$F" "https://discogs-data-dumps.s3-us-west-2.amazonaws.com/data/2026/$F" "https://discogs-data-dumps.s3.amazonaws.com/data/2026/$F"; do
+            C=$(curl -s -o /dev/null -w "%{http_code}" -L -A "$UA" -r 0-99 "$U"); R="$R $C<-$U |"
+            if [ "$C" = "206" ] || [ "$C" = "200" ]; then echo "::notice title=Discogs dump::reachable at $U"; set -o pipefail; curl -sfL -A "$UA" --retry 3 "$U" | python tools/discogs.py sonic.db -; exit $?; fi
+          done
+          echo "::error title=Discogs dump::not reachable from GitHub:$R"; exit 1
       - name: save
         run: |
           git config user.name sonic-bot; git config user.email sonic@earlysignal.live
