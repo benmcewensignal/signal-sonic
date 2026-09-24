@@ -31,7 +31,13 @@ for tid, f in c.execute("select track_id, features from tracks where analyser_id
             E[tid] = np.array(e + [np.log2(tp * 2 if tp < 100 else tp)] + ec + sca + rv, float)
 ids = sorted(E); X = np.array([E[t] for t in ids]); mu, sd = X.mean(0), X.std(0) + 1e-9
 Z = (X - mu) / sd; Z /= np.linalg.norm(Z, axis=1, keepdims=True); idx = {t: i for i, t in enumerate(ids)}
-djs = sorted({d for t in ids for d in plays[t]}); nd = len(djs)
+djs = sorted({d for t in ids for d in plays[t]})
+if len(sys.argv) > 3:   # a population: rank only these DJs, over records at least one of them played
+    only = {x.strip().lower() for x in open(sys.argv[3]).read().split("\n") if x.strip()}
+    djs = [d for d in djs if d.lower() in only]
+    for t in list(plays): plays[t] = {d for d in plays[t] if d in djs}
+    ids = [t for t in ids if plays[t]]
+nd = len(djs)
 by_dj = {d: [t for t in ids if d in plays[t]] for d in djs}
 print(f"{len(ids)} measured records played by {nd} DJs")
 def rank_sound(t):
