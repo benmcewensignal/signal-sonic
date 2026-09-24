@@ -1,0 +1,31 @@
+name: source-check
+# What MixesDB itself states about its licence and crawling, read from its own API and robots.txt.
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: licence and robots
+        run: |
+          python3 - << 'PY'
+          import json, urllib.request
+          UA = {"User-Agent": "signal-sonic research (earlysignal.live)"}
+          def get(u):
+              try: return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=30).read().decode("utf-8", "replace")
+              except Exception as e: return f"ERROR {type(e).__name__}: {e}"
+          si = get("https://www.mixesdb.com/db/api.php?action=query&meta=siteinfo&siprop=rightsinfo|general&format=json")
+          try:
+              d = json.loads(si)["query"]; r = d.get("rightsinfo", {}); g = d.get("general", {})
+              msg = f"MixesDB rightsinfo: url={r.get('url')!r} text={r.get('text')!r}; site {g.get('sitename')!r}, {g.get('generator')!r}"
+          except Exception: msg = "MixesDB siteinfo unreadable: " + si[:300]
+          print(msg); print(f"::notice title=MixesDB licence::{msg}")
+          rb = get("https://www.mixesdb.com/robots.txt")
+          lines = [l for l in rb.splitlines() if l.strip() and not l.startswith("#")][:40]
+          print("\n".join(lines)); print("::notice title=MixesDB robots.txt::" + " | ".join(lines)[:1500])
+          cp = get("https://www.mixesdb.com/w/MixesDB:Copyrights")
+          import re
+          hits = sorted(set(re.findall(r"[^.<>]{0,80}(?:Creative Commons|CC BY|licen[cs]e|Attribution)[^.<>]{0,80}", cp)))[:6]
+          print("::notice title=MixesDB copyright page::" + (" || ".join(h.strip() for h in hits) if hits else cp[:200]))
+          PY
