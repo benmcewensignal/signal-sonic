@@ -39,325 +39,363 @@
   "uk-garage-speed-garage"
  ],
  "artists_held_out": 3673,
- "accuracy_36": 0.3804927243912981,
+ "accuracy_36": 0.3796708615682478,
  "per_tag": {
-  "140-deep-dubstep-grime": 0.561,
-  "african": NaN,
-  "afro-house": 0.308,
-  "amapiano": 0.806,
-  "ambient-experimental": NaN,
-  "bass-house": 0.324,
-  "brazilian-funk": NaN,
-  "breaks-breakbeat-uk-bass": 0.21,
-  "deep-house": 0.279,
-  "downtempo": NaN,
-  "drum-and-bass": 0.714,
-  "dubstep": NaN,
-  "electro": 0.0,
-  "electronica": NaN,
-  "funky-house": NaN,
-  "hard-dance-hardcore": NaN,
-  "hard-techno": 0.537,
-  "house": 0.088,
-  "indie-dance": 0.129,
-  "jackin-house": NaN,
-  "latin-electronic": NaN,
-  "mainstage": NaN,
-  "melodic-house-techno": 0.305,
-  "minimal-deep-tech": 0.0,
-  "nu-disco-disco": NaN,
-  "organic-house": 0.327,
-  "progressive-house": 0.279,
-  "psy-trance": 0.668,
-  "tech-house": 0.345,
-  "techno-peak-time": 0.12,
-  "techno-raw-deep-hypnotic": 0.419,
-  "trance-main-floor": 0.387,
-  "trance-raw-deep-hypnotic": 0.833,
-  "trap-future-bass": NaN,
+  "140-deep-dubstep-grime": 0.564,
+  "african": 0.623,
+  "afro-house": 0.369,
+  "amapiano": 0.813,
+  "ambient-experimental": 0.515,
+  "bass-house": 0.339,
+  "brazilian-funk": 0.652,
+  "breaks-breakbeat-uk-bass": 0.248,
+  "deep-house": 0.327,
+  "downtempo": 0.289,
+  "drum-and-bass": 0.715,
+  "dubstep": 0.335,
+  "electro": 0.124,
+  "electronica": 0.104,
+  "funky-house": 0.434,
+  "hard-dance-hardcore": 0.377,
+  "hard-techno": 0.584,
+  "house": 0.113,
+  "indie-dance": 0.123,
+  "jackin-house": 0.425,
+  "latin-electronic": 0.359,
+  "mainstage": 0.193,
+  "melodic-house-techno": 0.35,
+  "minimal-deep-tech": 0.239,
+  "nu-disco-disco": 0.219,
+  "organic-house": 0.324,
+  "progressive-house": 0.267,
+  "psy-trance": 0.601,
+  "tech-house": 0.405,
+  "techno-peak-time": 0.124,
+  "techno-raw-deep-hypnotic": 0.436,
+  "trance-main-floor": 0.439,
+  "trance-raw-deep-hypnotic": 0.256,
+  "trap-future-bass": 0.36,
   "uk-funky-gqom": 0.282,
-  "uk-garage-speed-garage": 0.467
+  "uk-garage-speed-garage": 0.517
+ },
+ "test_records_per_tag": {
+  "140-deep-dubstep-grime": 463,
+  "african": 350,
+  "afro-house": 512,
+  "amapiano": 561,
+  "ambient-experimental": 357,
+  "bass-house": 490,
+  "brazilian-funk": 368,
+  "breaks-breakbeat-uk-bass": 512,
+  "deep-house": 493,
+  "downtempo": 346,
+  "drum-and-bass": 536,
+  "dubstep": 355,
+  "electro": 338,
+  "electronica": 345,
+  "funky-house": 318,
+  "hard-dance-hardcore": 366,
+  "hard-techno": 490,
+  "house": 494,
+  "indie-dance": 448,
+  "jackin-house": 351,
+  "latin-electronic": 306,
+  "mainstage": 368,
+  "melodic-house-techno": 506,
+  "minimal-deep-tech": 355,
+  "nu-disco-disco": 356,
+  "organic-house": 509,
+  "progressive-house": 494,
+  "psy-trance": 436,
+  "tech-house": 444,
+  "techno-peak-time": 539,
+  "techno-raw-deep-hypnotic": 580,
+  "trance-main-floor": 488,
+  "trance-raw-deep-hypnotic": 308,
+  "trap-future-bass": 356,
+  "uk-funky-gqom": 497,
+  "uk-garage-speed-garage": 460
  },
  "confused_pairs": [
   [
-   0.087,
+   0.114,
+   0.191,
+   0.114,
+   "hard-dance-hardcore",
+   "hard-techno"
+  ],
+  [
+   0.114,
+   0.119,
+   0.114,
+   "afro-house",
+   "organic-house"
+  ],
+  [
+   0.105,
+   0.105,
+   0.158,
+   "melodic-house-techno",
+   "progressive-house"
+  ],
+  [
+   0.101,
+   0.102,
+   0.101,
+   "organic-house",
+   "progressive-house"
+  ],
+  [
    0.098,
-   0.087,
+   0.148,
+   0.098,
+   "techno-peak-time",
+   "techno-raw-deep-hypnotic"
+  ],
+  [
+   0.086,
+   0.116,
+   0.086,
+   "deep-house",
+   "organic-house"
+  ],
+  [
+   0.083,
+   0.189,
+   0.083,
+   "minimal-deep-tech",
+   "tech-house"
+  ],
+  [
+   0.081,
+   0.081,
+   0.101,
+   "ambient-experimental",
+   "downtempo"
+  ],
+  [
+   0.079,
+   0.104,
+   0.079,
    "bass-house",
    "tech-house"
   ],
   [
-   0.058,
-   0.058,
-   NaN,
-   "140-deep-dubstep-grime",
-   "dubstep"
+   0.077,
+   0.101,
+   0.077,
+   "funky-house",
+   "jackin-house"
   ],
   [
-   0.058,
-   0.058,
-   NaN,
-   "140-deep-dubstep-grime",
+   0.071,
+   0.088,
+   0.071,
+   "afro-house",
+   "deep-house"
+  ],
+  [
+   0.067,
+   0.067,
+   0.113,
+   "ambient-experimental",
+   "electronica"
+  ],
+  [
+   0.064,
+   0.066,
+   0.064,
+   "downtempo",
+   "electronica"
+  ],
+  [
+   0.059,
+   0.079,
+   0.059,
+   "brazilian-funk",
    "trap-future-bass"
   ],
   [
-   0.055,
-   0.055,
-   0.074,
-   "afro-house",
-   "progressive-house"
-  ],
-  [
-   0.052,
-   0.052,
-   0.081,
+   0.058,
+   0.058,
+   0.07,
    "140-deep-dubstep-grime",
    "uk-funky-gqom"
   ],
   [
-   0.049,
-   0.049,
-   0.065,
+   0.054,
+   0.056,
+   0.054,
    "140-deep-dubstep-grime",
    "uk-garage-speed-garage"
   ],
   [
-   0.02,
-   0.02,
-   NaN,
-   "140-deep-dubstep-grime",
-   "nu-disco-disco"
+   0.053,
+   0.06,
+   0.053,
+   "african",
+   "trap-future-bass"
   ],
   [
-   0.017,
-   0.017,
-   NaN,
-   "140-deep-dubstep-grime",
-   "electronica"
+   0.053,
+   0.053,
+   0.082,
+   "breaks-breakbeat-uk-bass",
+   "uk-funky-gqom"
   ],
   [
-   0.015,
-   0.015,
-   NaN,
-   "140-deep-dubstep-grime",
-   "hard-dance-hardcore"
-  ],
-  [
-   0.014,
-   0.023,
-   0.014,
-   "140-deep-dubstep-grime",
-   "bass-house"
-  ],
-  [
-   0.014,
-   0.02,
-   0.014,
-   "140-deep-dubstep-grime",
-   "psy-trance"
-  ],
-  [
-   0.012,
-   0.012,
-   0.029,
-   "140-deep-dubstep-grime",
-   "breaks-breakbeat-uk-bass"
-  ],
-  [
-   0.009,
-   0.009,
-   NaN,
-   "140-deep-dubstep-grime",
-   "african"
-  ],
-  [
-   0.009,
-   0.009,
-   NaN,
-   "140-deep-dubstep-grime",
-   "ambient-experimental"
-  ],
-  [
-   0.009,
-   0.009,
-   NaN,
-   "140-deep-dubstep-grime",
-   "downtempo"
-  ],
-  [
-   0.006,
-   0.006,
-   NaN,
-   "140-deep-dubstep-grime",
-   "mainstage"
-  ],
-  [
-   0.005,
-   0.009,
-   0.005,
-   "140-deep-dubstep-grime",
-   "techno-raw-deep-hypnotic"
-  ],
-  [
-   0.003,
-   0.017,
-   0.003,
-   "140-deep-dubstep-grime",
-   "drum-and-bass"
-  ],
-  [
-   0.003,
-   0.006,
-   0.003,
-   "140-deep-dubstep-grime",
-   "house"
-  ],
-  [
-   0.003,
-   0.003,
-   0.01,
-   "140-deep-dubstep-grime",
-   "afro-house"
-  ],
-  [
-   0.003,
-   0.003,
-   NaN,
-   "140-deep-dubstep-grime",
-   "jackin-house"
-  ],
-  [
-   0.003,
-   0.003,
-   0.007,
-   "140-deep-dubstep-grime",
-   "organic-house"
-  ],
-  [
-   0.002,
-   0.015,
-   0.002,
-   "140-deep-dubstep-grime",
-   "techno-peak-time"
-  ],
-  [
-   0.0,
-   0.017,
-   0.0,
-   "140-deep-dubstep-grime",
-   "indie-dance"
-  ],
-  [
-   0.0,
-   0.003,
-   0.0,
-   "140-deep-dubstep-grime",
+   0.053,
+   0.053,
+   0.056,
+   "melodic-house-techno",
    "tech-house"
   ],
   [
-   0.0,
-   0.003,
-   0.0,
-   "140-deep-dubstep-grime",
-   "electro"
+   0.052,
+   0.071,
+   0.052,
+   "jackin-house",
+   "uk-garage-speed-garage"
   ],
   [
-   0.0,
-   0.003,
-   0.0,
-   "140-deep-dubstep-grime",
-   "amapiano"
+   0.051,
+   0.079,
+   0.051,
+   "melodic-house-techno",
+   "organic-house"
   ],
   [
-   0.0,
-   0.0,
-   NaN,
-   "140-deep-dubstep-grime",
-   "brazilian-funk"
+   0.051,
+   0.051,
+   0.103,
+   "deep-house",
+   "house"
   ],
   [
-   0.0,
-   0.0,
-   0.0,
-   "140-deep-dubstep-grime",
-   "deep-house"
+   0.051,
+   0.051,
+   0.089,
+   "deep-house",
+   "indie-dance"
   ],
   [
-   0.0,
-   0.0,
-   NaN,
-   "140-deep-dubstep-grime",
-   "funky-house"
+   0.05,
+   0.14,
+   0.05,
+   "jackin-house",
+   "tech-house"
   ],
   [
-   0.0,
-   0.0,
-   NaN,
-   "140-deep-dubstep-grime",
-   "latin-electronic"
-  ],
-  [
-   0.0,
-   0.0,
-   0.006,
-   "140-deep-dubstep-grime",
+   0.049,
+   0.105,
+   0.049,
+   "indie-dance",
    "melodic-house-techno"
   ],
   [
-   0.0,
-   0.0,
-   0.004,
-   "140-deep-dubstep-grime",
-   "progressive-house"
-  ],
-  [
-   0.0,
-   0.0,
-   0.0,
-   "140-deep-dubstep-grime",
-   "trance-raw-deep-hypnotic"
-  ],
-  [
-   0.0,
-   0.0,
-   0.0,
-   "140-deep-dubstep-grime",
-   "trance-main-floor"
-  ],
-  [
-   0.0,
-   0.0,
-   0.0,
-   "140-deep-dubstep-grime",
+   0.049,
+   0.049,
+   0.079,
+   "deep-house",
    "minimal-deep-tech"
   ],
   [
-   0.0,
-   0.0,
-   0.0,
-   "140-deep-dubstep-grime",
-   "hard-techno"
+   0.049,
+   0.049,
+   0.067,
+   "afro-house",
+   "progressive-house"
   ],
   [
-   NaN,
-   NaN,
-   0.037,
+   0.049,
+   0.049,
+   0.049,
+   "afro-house",
+   "melodic-house-techno"
+  ],
+  [
+   0.047,
+   0.047,
+   0.068,
+   "melodic-house-techno",
+   "minimal-deep-tech"
+  ],
+  [
+   0.046,
+   0.046,
+   0.053,
+   "techno-peak-time",
+   "trance-main-floor"
+  ],
+  [
+   0.045,
+   0.047,
+   0.045,
+   "funky-house",
+   "nu-disco-disco"
+  ],
+  [
+   0.045,
+   0.045,
+   0.047,
+   "minimal-deep-tech",
+   "techno-raw-deep-hypnotic"
+  ],
+  [
+   0.043,
+   0.043,
+   0.166,
+   "140-deep-dubstep-grime",
+   "dubstep"
+  ],
+  [
+   0.043,
+   0.043,
+   0.06,
+   "afro-house",
+   "indie-dance"
+  ],
+  [
+   0.043,
+   0.043,
+   0.043,
+   "house",
+   "mainstage"
+  ],
+  [
+   0.042,
+   0.075,
+   0.042,
+   "electronica",
+   "trap-future-bass"
+  ],
+  [
+   0.042,
+   0.048,
+   0.042,
+   "140-deep-dubstep-grime",
+   "trap-future-bass"
+  ],
+  [
+   0.042,
+   0.042,
+   0.059,
+   "indie-dance",
+   "nu-disco-disco"
+  ],
+  [
+   0.04,
+   0.04,
+   0.055,
+   "downtempo",
+   "organic-house"
+  ],
+  [
+   0.04,
+   0.04,
+   0.043,
    "african",
    "afro-house"
-  ],
-  [
-   NaN,
-   NaN,
-   0.033,
-   "african",
-   "amapiano"
-  ],
-  [
-   NaN,
-   NaN,
-   NaN,
-   "african",
-   "ambient-experimental"
   ]
  ],
  "cluster_agreement_ami": {
@@ -370,227 +408,360 @@
   "36": 0.18
  },
  "persistence": {
-  "months_split_at": "2025-M09",
-  "train_early_test_late": 0.2295296757578952,
-  "train_late_test_early": 0.3653595985876231
+  "months_split_at": "2026-M03",
+  "train_early_test_late": 0.33205669481302774,
+  "train_late_test_early": 0.330675972443669
  },
  "row_normalised_confusion": {
   "140-deep-dubstep-grime": {
-   "140-deep-dubstep-grime": 0.561,
-   "dubstep": 0.058,
-   "trap-future-bass": 0.058,
-   "uk-funky-gqom": 0.052,
-   "uk-garage-speed-garage": 0.049
+   "140-deep-dubstep-grime": 0.564,
+   "breaks-breakbeat-uk-bass": 0.039,
+   "dubstep": 0.043,
+   "trap-future-bass": 0.048,
+   "uk-funky-gqom": 0.058,
+   "uk-garage-speed-garage": 0.056
   },
-  "african": {},
+  "african": {
+   "african": 0.623,
+   "afro-house": 0.04,
+   "amapiano": 0.034,
+   "trap-future-bass": 0.06
+  },
   "afro-house": {
-   "african": 0.037,
-   "afro-house": 0.308,
-   "deep-house": 0.081,
-   "indie-dance": 0.044,
-   "melodic-house-techno": 0.065,
-   "organic-house": 0.141,
-   "progressive-house": 0.055
+   "african": 0.043,
+   "afro-house": 0.369,
+   "amapiano": 0.031,
+   "deep-house": 0.088,
+   "indie-dance": 0.043,
+   "melodic-house-techno": 0.049,
+   "organic-house": 0.119,
+   "progressive-house": 0.049
   },
   "amapiano": {
-   "african": 0.033,
-   "amapiano": 0.806
+   "afro-house": 0.032,
+   "amapiano": 0.813
   },
-  "ambient-experimental": {},
+  "ambient-experimental": {
+   "ambient-experimental": 0.515,
+   "downtempo": 0.081,
+   "electronica": 0.067,
+   "uk-funky-gqom": 0.034
+  },
   "bass-house": {
-   "bass-house": 0.324,
-   "breaks-breakbeat-uk-bass": 0.038,
-   "funky-house": 0.033,
-   "house": 0.038,
-   "mainstage": 0.033,
-   "melodic-house-techno": 0.038,
-   "tech-house": 0.098,
-   "uk-garage-speed-garage": 0.046
+   "bass-house": 0.339,
+   "breaks-breakbeat-uk-bass": 0.037,
+   "melodic-house-techno": 0.041,
+   "tech-house": 0.104,
+   "techno-peak-time": 0.033,
+   "uk-garage-speed-garage": 0.045
   },
-  "brazilian-funk": {},
+  "brazilian-funk": {
+   "african": 0.035,
+   "brazilian-funk": 0.652,
+   "latin-electronic": 0.035,
+   "trap-future-bass": 0.079
+  },
   "breaks-breakbeat-uk-bass": {
-   "ambient-experimental": 0.05,
-   "bass-house": 0.031,
-   "breaks-breakbeat-uk-bass": 0.21,
-   "drum-and-bass": 0.037,
-   "electro": 0.045,
-   "electronica": 0.045,
-   "house": 0.031,
-   "techno-peak-time": 0.031,
-   "techno-raw-deep-hypnotic": 0.031,
-   "trance-main-floor": 0.047,
-   "uk-funky-gqom": 0.058,
-   "uk-garage-speed-garage": 0.042
+   "140-deep-dubstep-grime": 0.033,
+   "ambient-experimental": 0.031,
+   "breaks-breakbeat-uk-bass": 0.248,
+   "drum-and-bass": 0.039,
+   "electro": 0.033,
+   "electronica": 0.035,
+   "house": 0.033,
+   "techno-peak-time": 0.035,
+   "trance-main-floor": 0.039,
+   "uk-funky-gqom": 0.053,
+   "uk-garage-speed-garage": 0.053
   },
   "deep-house": {
-   "afro-house": 0.085,
-   "deep-house": 0.279,
+   "afro-house": 0.071,
+   "deep-house": 0.327,
    "house": 0.051,
-   "indie-dance": 0.04,
-   "jackin-house": 0.054,
-   "minimal-deep-tech": 0.091,
-   "organic-house": 0.1,
-   "progressive-house": 0.034
+   "indie-dance": 0.051,
+   "jackin-house": 0.037,
+   "melodic-house-techno": 0.039,
+   "minimal-deep-tech": 0.049,
+   "organic-house": 0.116,
+   "progressive-house": 0.032,
+   "tech-house": 0.034
   },
-  "downtempo": {},
+  "downtempo": {
+   "afro-house": 0.032,
+   "ambient-experimental": 0.101,
+   "deep-house": 0.107,
+   "downtempo": 0.289,
+   "electronica": 0.066,
+   "indie-dance": 0.035,
+   "nu-disco-disco": 0.038,
+   "organic-house": 0.04,
+   "trap-future-bass": 0.043
+  },
   "drum-and-bass": {
-   "drum-and-bass": 0.714,
-   "uk-funky-gqom": 0.046
+   "drum-and-bass": 0.715,
+   "uk-funky-gqom": 0.043
   },
-  "dubstep": {},
+  "dubstep": {
+   "140-deep-dubstep-grime": 0.166,
+   "breaks-breakbeat-uk-bass": 0.051,
+   "drum-and-bass": 0.037,
+   "dubstep": 0.335,
+   "hard-dance-hardcore": 0.062,
+   "trap-future-bass": 0.037
+  },
   "electro": {
-   "downtempo": 1.0
+   "afro-house": 0.033,
+   "breaks-breakbeat-uk-bass": 0.089,
+   "deep-house": 0.033,
+   "electro": 0.124,
+   "electronica": 0.036,
+   "melodic-house-techno": 0.041,
+   "tech-house": 0.033,
+   "techno-peak-time": 0.044,
+   "techno-raw-deep-hypnotic": 0.047,
+   "uk-funky-gqom": 0.062
   },
-  "electronica": {},
-  "funky-house": {},
-  "hard-dance-hardcore": {},
+  "electronica": {
+   "ambient-experimental": 0.113,
+   "breaks-breakbeat-uk-bass": 0.049,
+   "deep-house": 0.035,
+   "downtempo": 0.064,
+   "electronica": 0.104,
+   "house": 0.041,
+   "indie-dance": 0.032,
+   "organic-house": 0.032,
+   "trap-future-bass": 0.075,
+   "uk-funky-gqom": 0.049
+  },
+  "funky-house": {
+   "afro-house": 0.041,
+   "deep-house": 0.044,
+   "funky-house": 0.434,
+   "house": 0.041,
+   "jackin-house": 0.101,
+   "nu-disco-disco": 0.047,
+   "tech-house": 0.097
+  },
+  "hard-dance-hardcore": {
+   "dubstep": 0.03,
+   "hard-dance-hardcore": 0.377,
+   "hard-techno": 0.191,
+   "mainstage": 0.03,
+   "psy-trance": 0.036,
+   "techno-peak-time": 0.033,
+   "trance-main-floor": 0.041,
+   "trap-future-bass": 0.038
+  },
   "hard-techno": {
-   "hard-dance-hardcore": 0.136,
-   "hard-techno": 0.537,
+   "hard-dance-hardcore": 0.114,
+   "hard-techno": 0.584,
    "psy-trance": 0.051,
-   "techno-raw-deep-hypnotic": 0.088,
-   "uk-funky-gqom": 0.045
+   "techno-raw-deep-hypnotic": 0.082,
+   "uk-funky-gqom": 0.037
   },
   "house": {
-   "african": 0.044,
-   "afro-house": 0.061,
-   "ambient-experimental": 0.036,
-   "deep-house": 0.108,
-   "house": 0.088,
-   "indie-dance": 0.044,
-   "jackin-house": 0.05,
-   "mainstage": 0.052,
-   "melodic-house-techno": 0.047,
-   "minimal-deep-tech": 0.03,
-   "nu-disco-disco": 0.058,
-   "tech-house": 0.072
+   "african": 0.04,
+   "afro-house": 0.067,
+   "ambient-experimental": 0.034,
+   "bass-house": 0.036,
+   "deep-house": 0.103,
+   "downtempo": 0.03,
+   "electronica": 0.03,
+   "funky-house": 0.036,
+   "house": 0.113,
+   "indie-dance": 0.034,
+   "jackin-house": 0.032,
+   "mainstage": 0.043,
+   "melodic-house-techno": 0.032,
+   "minimal-deep-tech": 0.032,
+   "tech-house": 0.065,
+   "uk-garage-speed-garage": 0.032
   },
   "indie-dance": {
-   "afro-house": 0.04,
-   "bass-house": 0.054,
-   "deep-house": 0.058,
-   "electro": 0.036,
-   "house": 0.036,
-   "indie-dance": 0.129,
-   "jackin-house": 0.036,
-   "mainstage": 0.04,
-   "melodic-house-techno": 0.085,
-   "nu-disco-disco": 0.076,
-   "organic-house": 0.071,
-   "progressive-house": 0.054,
-   "tech-house": 0.054
+   "afro-house": 0.06,
+   "bass-house": 0.058,
+   "breaks-breakbeat-uk-bass": 0.033,
+   "deep-house": 0.089,
+   "electronica": 0.033,
+   "house": 0.04,
+   "indie-dance": 0.123,
+   "melodic-house-techno": 0.105,
+   "nu-disco-disco": 0.042,
+   "organic-house": 0.045,
+   "progressive-house": 0.045,
+   "tech-house": 0.051
   },
-  "jackin-house": {},
-  "latin-electronic": {},
-  "mainstage": {},
+  "jackin-house": {
+   "bass-house": 0.037,
+   "deep-house": 0.06,
+   "funky-house": 0.077,
+   "house": 0.043,
+   "jackin-house": 0.425,
+   "tech-house": 0.14,
+   "uk-garage-speed-garage": 0.071
+  },
+  "latin-electronic": {
+   "bass-house": 0.042,
+   "brazilian-funk": 0.049,
+   "latin-electronic": 0.359,
+   "uk-funky-gqom": 0.118
+  },
+  "mainstage": {
+   "bass-house": 0.073,
+   "breaks-breakbeat-uk-bass": 0.079,
+   "deep-house": 0.046,
+   "downtempo": 0.035,
+   "house": 0.043,
+   "indie-dance": 0.033,
+   "mainstage": 0.193,
+   "nu-disco-disco": 0.033,
+   "progressive-house": 0.035,
+   "trance-main-floor": 0.071
+  },
   "melodic-house-techno": {
-   "afro-house": 0.053,
-   "bass-house": 0.036,
-   "deep-house": 0.05,
-   "indie-dance": 0.048,
-   "melodic-house-techno": 0.305,
-   "minimal-deep-tech": 0.062,
-   "organic-house": 0.07,
-   "progressive-house": 0.112,
-   "tech-house": 0.084,
-   "techno-peak-time": 0.034
+   "afro-house": 0.049,
+   "house": 0.032,
+   "indie-dance": 0.049,
+   "melodic-house-techno": 0.35,
+   "minimal-deep-tech": 0.047,
+   "organic-house": 0.079,
+   "progressive-house": 0.105,
+   "tech-house": 0.053,
+   "techno-peak-time": 0.036
   },
   "minimal-deep-tech": {
-   "melodic-house-techno": 1.0
-  },
-  "nu-disco-disco": {},
-  "organic-house": {
-   "afro-house": 0.097,
-   "ambient-experimental": 0.053,
-   "deep-house": 0.057,
-   "downtempo": 0.087,
-   "house": 0.03,
-   "indie-dance": 0.04,
-   "melodic-house-techno": 0.03,
-   "organic-house": 0.327,
-   "progressive-house": 0.073
-  },
-  "progressive-house": {
-   "afro-house": 0.074,
-   "deep-house": 0.052,
-   "indie-dance": 0.056,
-   "mainstage": 0.041,
-   "melodic-house-techno": 0.123,
-   "organic-house": 0.134,
-   "progressive-house": 0.279
-  },
-  "psy-trance": {
-   "psy-trance": 0.668,
-   "techno-raw-deep-hypnotic": 0.037,
-   "trance-main-floor": 0.033
-  },
-  "tech-house": {
-   "bass-house": 0.087,
-   "deep-house": 0.053,
-   "funky-house": 0.031,
-   "house": 0.043,
-   "indie-dance": 0.031,
-   "jackin-house": 0.05,
-   "melodic-house-techno": 0.04,
-   "minimal-deep-tech": 0.121,
-   "tech-house": 0.345
-  },
-  "techno-peak-time": {
-   "electro": 0.035,
-   "hard-dance-hardcore": 0.047,
-   "hard-techno": 0.047,
-   "melodic-house-techno": 0.05,
-   "minimal-deep-tech": 0.045,
-   "psy-trance": 0.065,
-   "tech-house": 0.057,
-   "techno-peak-time": 0.12,
-   "techno-raw-deep-hypnotic": 0.132,
-   "trance-main-floor": 0.055,
-   "trance-raw-deep-hypnotic": 0.035
-  },
-  "techno-raw-deep-hypnotic": {
-   "hard-techno": 0.055,
-   "melodic-house-techno": 0.037,
-   "minimal-deep-tech": 0.051,
-   "tech-house": 0.032,
-   "techno-peak-time": 0.083,
-   "techno-raw-deep-hypnotic": 0.419,
-   "trance-raw-deep-hypnotic": 0.041
-  },
-  "trance-main-floor": {
-   "electro": 0.035,
-   "mainstage": 0.061,
-   "psy-trance": 0.083,
-   "techno-peak-time": 0.04,
-   "trance-main-floor": 0.387,
-   "trance-raw-deep-hypnotic": 0.056
-  },
-  "trance-raw-deep-hypnotic": {
-   "breaks-breakbeat-uk-bass": 0.167,
-   "trance-raw-deep-hypnotic": 0.833
-  },
-  "trap-future-bass": {},
-  "uk-funky-gqom": {
-   "140-deep-dubstep-grime": 0.081,
-   "breaks-breakbeat-uk-bass": 0.07,
-   "electro": 0.042,
-   "hard-techno": 0.034,
-   "latin-electronic": 0.034,
-   "minimal-deep-tech": 0.031,
+   "deep-house": 0.079,
+   "house": 0.034,
+   "jackin-house": 0.042,
+   "melodic-house-techno": 0.068,
+   "minimal-deep-tech": 0.239,
+   "tech-house": 0.189,
    "techno-peak-time": 0.031,
    "techno-raw-deep-hypnotic": 0.045,
+   "uk-garage-speed-garage": 0.034
+  },
+  "nu-disco-disco": {
+   "african": 0.048,
+   "afro-house": 0.051,
+   "breaks-breakbeat-uk-bass": 0.045,
+   "deep-house": 0.059,
+   "downtempo": 0.045,
+   "funky-house": 0.045,
+   "house": 0.079,
+   "indie-dance": 0.059,
+   "mainstage": 0.031,
+   "nu-disco-disco": 0.219,
+   "organic-house": 0.031
+  },
+  "organic-house": {
+   "afro-house": 0.114,
+   "ambient-experimental": 0.045,
+   "deep-house": 0.086,
+   "downtempo": 0.055,
+   "melodic-house-techno": 0.051,
+   "organic-house": 0.324,
+   "progressive-house": 0.102
+  },
+  "progressive-house": {
+   "afro-house": 0.067,
+   "deep-house": 0.073,
+   "house": 0.03,
+   "indie-dance": 0.036,
+   "melodic-house-techno": 0.158,
+   "organic-house": 0.101,
+   "progressive-house": 0.267,
+   "tech-house": 0.034,
+   "trance-main-floor": 0.036
+  },
+  "psy-trance": {
+   "hard-techno": 0.032,
+   "psy-trance": 0.601,
+   "techno-peak-time": 0.037,
+   "techno-raw-deep-hypnotic": 0.032,
+   "trance-main-floor": 0.039,
+   "uk-funky-gqom": 0.032
+  },
+  "tech-house": {
+   "bass-house": 0.079,
+   "deep-house": 0.05,
+   "funky-house": 0.036,
+   "house": 0.032,
+   "jackin-house": 0.05,
+   "melodic-house-techno": 0.056,
+   "minimal-deep-tech": 0.083,
+   "tech-house": 0.405
+  },
+  "techno-peak-time": {
+   "breaks-breakbeat-uk-bass": 0.037,
+   "hard-dance-hardcore": 0.045,
+   "hard-techno": 0.054,
+   "melodic-house-techno": 0.054,
+   "minimal-deep-tech": 0.032,
+   "psy-trance": 0.058,
+   "tech-house": 0.059,
+   "techno-peak-time": 0.124,
+   "techno-raw-deep-hypnotic": 0.148,
+   "trance-main-floor": 0.046,
+   "trance-raw-deep-hypnotic": 0.037,
+   "uk-funky-gqom": 0.032
+  },
+  "techno-raw-deep-hypnotic": {
+   "hard-techno": 0.038,
+   "melodic-house-techno": 0.053,
+   "minimal-deep-tech": 0.047,
+   "techno-peak-time": 0.098,
+   "techno-raw-deep-hypnotic": 0.436,
+   "uk-funky-gqom": 0.04
+  },
+  "trance-main-floor": {
+   "breaks-breakbeat-uk-bass": 0.035,
+   "mainstage": 0.031,
+   "melodic-house-techno": 0.031,
+   "progressive-house": 0.035,
+   "psy-trance": 0.07,
+   "techno-peak-time": 0.053,
+   "trance-main-floor": 0.439
+  },
+  "trance-raw-deep-hypnotic": {
+   "breaks-breakbeat-uk-bass": 0.039,
+   "hard-techno": 0.036,
+   "melodic-house-techno": 0.084,
+   "progressive-house": 0.042,
+   "psy-trance": 0.081,
+   "techno-peak-time": 0.068,
+   "techno-raw-deep-hypnotic": 0.123,
+   "trance-main-floor": 0.071,
+   "trance-raw-deep-hypnotic": 0.256
+  },
+  "trap-future-bass": {
+   "140-deep-dubstep-grime": 0.042,
+   "african": 0.053,
+   "brazilian-funk": 0.059,
+   "breaks-breakbeat-uk-bass": 0.037,
+   "dubstep": 0.059,
+   "electronica": 0.042,
+   "trap-future-bass": 0.36,
+   "uk-funky-gqom": 0.062
+  },
+  "uk-funky-gqom": {
+   "140-deep-dubstep-grime": 0.07,
+   "breaks-breakbeat-uk-bass": 0.082,
+   "dubstep": 0.03,
+   "hard-techno": 0.03,
+   "techno-peak-time": 0.042,
+   "techno-raw-deep-hypnotic": 0.032,
+   "trap-future-bass": 0.03,
    "uk-funky-gqom": 0.282,
-   "uk-garage-speed-garage": 0.047
+   "uk-garage-speed-garage": 0.04
   },
   "uk-garage-speed-garage": {
-   "140-deep-dubstep-grime": 0.065,
-   "bass-house": 0.034,
-   "breaks-breakbeat-uk-bass": 0.05,
-   "deep-house": 0.031,
-   "jackin-house": 0.05,
-   "tech-house": 0.034,
-   "uk-funky-gqom": 0.037,
-   "uk-garage-speed-garage": 0.467
+   "140-deep-dubstep-grime": 0.054,
+   "bass-house": 0.039,
+   "breaks-breakbeat-uk-bass": 0.037,
+   "jackin-house": 0.052,
+   "tech-house": 0.033,
+   "uk-funky-gqom": 0.041,
+   "uk-garage-speed-garage": 0.517
   }
  }
 }
