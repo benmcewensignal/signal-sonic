@@ -1,0 +1,806 @@
+{
+"dj": "Oneman",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-11-26 - Oneman - fabric Podcast 050",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 4,
+"artist": "Somersault",
+"title": "Like This",
+"label": "BUBBLE"
+},
+{
+"minute": 8,
+"artist": "Somepoe",
+"title": "Needed U",
+"label": "Top Billin"
+},
+{
+"minute": 11,
+"artist": "Fold",
+"title": "Lotion",
+"label": "FLDIN"
+},
+{
+"minute": 15,
+"artist": "Vybz Kartel",
+"title": "One Man / Moving On (Raw)",
+"label": "",
+"bp": "bp:23453206",
+"score": 0.812,
+"preview": "https://geo-samples.beatport.com/track/7e351e1d-782e-4cb2-8614-cb435a2f5cb6.LOFI.mp3",
+"name": "One Man",
+"mix": "Raw",
+"genre": "caribbean",
+"released": "2011-04-25"
+},
+{
+"minute": 18,
+"artist": "Disclosure & Pa Salieu",
+"title": "King Steps",
+"label": "Disorder",
+"bp": "bp:26768628",
+"score": 0.862,
+"preview": "https://geo-samples.beatport.com/track/08f55f3c-26c0-48df-8660-a2d402b0a5ce.LOFI.mp3",
+"name": "King Steps",
+"mix": "Clean",
+"genre": "dance-pop",
+"released": "2024-11-27"
+},
+{
+"minute": 21,
+"artist": "L-Vis 1990, Eklipse",
+"title": "Good Vibes",
+"label": "L-Vis",
+"bp": "bp:19645067",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/7c2e1fc4-05ca-452d-a820-63e33e9e1b48.LOFI.mp3",
+"name": "Good Vibes",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-11-19"
+},
+{
+"minute": 25,
+"artist": "Double 99",
+"title": "Ripgroove",
+"label": "",
+"bp": "bp:5111518",
+"score": 0.772,
+"preview": "https://geo-samples.beatport.com/track/88fece8a-dea8-4bbd-8fa0-cec8c5295765.LOFI.mp3",
+"name": "Ripgroove",
+"mix": "Radio Edit",
+"genre": "uk-garage-bassline",
+"released": "2005-01-01"
+},
+{
+"minute": 33,
+"artist": "Zed Bias & Stain",
+"title": "Delhi Birds",
+"label": "Boxout.Fm",
+"bp": "bp:16635105",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/4390e483-89e0-4741-ba6d-27311e274050.LOFI.mp3",
+"name": "Delhi Birds",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2022-06-24"
+},
+{
+"minute": 37,
+"artist": "Sorrow",
+"title": "Planets",
+"label": ""
+},
+{
+"minute": 39,
+"artist": "Envee",
+"title": "Styrax (2-Step Remix)",
+"label": "Local Talk",
+"bp": "bp:17713062",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b99f398-10aa-4416-9850-b3b4be8ce3aa.LOFI.mp3",
+"name": "Styrax",
+"mix": "2-Step Remix",
+"genre": "deep-house",
+"released": "2023-06-16"
+},
+{
+"minute": 43,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 47,
+"artist": "Thelma Houston",
+"title": "Don't Leave Me This Way (Karaoke Version)",
+"label": "Motown"
+}
+]
+},
+{
+"title": "2025-04-30 - Oneman @ IKEA Housewarming, London (Rinse FM)",
+"records": []
+},
+{
+"title": "2025-07-26 - Plastician b2b Oneman & Neffa-T & MC's @ Outlook Origins, Croatia (OUTMIX005)",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 37,
+"artist": "Plastician",
+"title": "Japan",
+"label": "Terrorhythm"
+},
+{
+"minute": 58,
+"artist": "Mala",
+"title": "Anti War Dub",
+"label": "I & I Music"
+}
+]
+},
+{
+"title": "2025-08-14 - Geeneus b2b Oneman @ Summer Terrace Party, Night Tales, London (Rinse FM)",
+"records": [
+{
+"minute": 0,
+"artist": "BLAYNEE",
+"title": "SHE DON'T KNOW",
+"label": "Heart React"
+},
+{
+"minute": 11,
+"artist": "Fold & Cu.Rve",
+"title": "Business",
+"label": "Ingram"
+},
+{
+"minute": 16,
+"artist": "Vybz Kartel",
+"title": "One Man / Moving On (Raw)",
+"label": "",
+"bp": "bp:23453206",
+"score": 0.812,
+"preview": "https://geo-samples.beatport.com/track/7e351e1d-782e-4cb2-8614-cb435a2f5cb6.LOFI.mp3",
+"name": "One Man",
+"mix": "Raw",
+"genre": "caribbean",
+"released": "2011-04-25"
+},
+{
+"minute": 25,
+"artist": "Joy Orbison",
+"title": "Flight Fm",
+"label": ""
+},
+{
+"minute": 28,
+"artist": "DJ Rolando",
+"title": "Jaguar",
+"label": "Mostiko"
+},
+{
+"minute": 30,
+"artist": "Wookie",
+"title": "What's Going On",
+"label": "ManChu",
+"bp": "bp:22474823",
+"score": 0.809,
+"preview": "https://geo-samples.beatport.com/track/924dae0f-c783-4500-bdca-b1060bb1363d.LOFI.mp3",
+"name": "What's Going On?",
+"mix": "2025 Remaster",
+"genre": "uk-garage-bassline",
+"released": "2025-11-21"
+},
+{
+"minute": 31,
+"artist": "Wookie",
+"title": "Whats Going On? (Wookie Dub Mix)",
+"label": "ManChu"
+},
+{
+"minute": 41,
+"artist": "Sticky Feat. Ms Dynamite",
+"title": "Booo! (Original Dirty Mix)",
+"label": "London",
+"bp": "bp:22694151",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/6ff5f1ba-76bc-4a6b-bb8f-22939b4012d0.LOFI.mp3",
+"name": "Booo!",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2025-11-21"
+},
+{
+"minute": 52,
+"artist": "Bicep",
+"title": "Glue",
+"label": "Ninja Tune"
+}
+]
+},
+{
+"title": "2025-10-05 - Oneman - Rinse FM",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 4,
+"artist": "Elan",
+"title": "Dry Lemons",
+"label": "Monkeytown",
+"bp": "bp:3026020",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/08176770-d15d-4518-9b05-01eeb34e7115.LOFI.mp3",
+"name": "Dry Lemons",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2011-10-21"
+},
+{
+"minute": 7,
+"artist": "Floating Points",
+"title": "ARP3",
+"label": "Pluto"
+},
+{
+"minute": 11,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 21,
+"artist": "Kingdom",
+"title": "Fogs",
+"label": "Night Slugs"
+},
+{
+"minute": 24,
+"artist": "Doc Daneeka",
+"title": "Day By Day",
+"label": "Midnight Visions",
+"bp": "bp:4171563",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/3bf5f64f-23e4-43d8-b9d2-b5517593d1f0.LOFI.mp3",
+"name": "Day By Day",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2013-03-17"
+},
+{
+"minute": 30,
+"artist": "Dance Comercial",
+"title": "Dance Comercial 17",
+"label": "Joga O Dedinho Pro Alto (Ntts) - DC"
+},
+{
+"minute": 32,
+"artist": "Scratcha DVA",
+"title": "Ganja (Instrumental Remix)",
+"label": "Hyperdub",
+"bp": "bp:4692265",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b123c9ca-74d8-4eb7-8ab0-8a8d5f638d1b.LOFI.mp3",
+"name": "Ganja",
+"mix": "Instrumental Remix",
+"genre": "bass-club",
+"released": "2015-09-30"
+},
+{
+"minute": 36,
+"artist": "Pangaea",
+"title": "Router",
+"label": "Hessle"
+},
+{
+"minute": 39,
+"artist": "Braille",
+"title": "A Meaning",
+"label": ""
+},
+{
+"minute": 45,
+"artist": "Versa",
+"title": "Monsoon",
+"label": "Smoking Sessions",
+"bp": "bp:2758088",
+"score": 0.765,
+"preview": "https://geo-samples.beatport.com/track/fd949a96-0825-4a92-86d0-b3582927d24a.LOFI.mp3",
+"name": "Monsoon",
+"mix": "Original",
+"genre": "dubstep",
+"released": "2011-09-26"
+},
+{
+"minute": 48,
+"artist": "Jon Dixon Feat. L'Renee",
+"title": "Feel Your Touch",
+"label": "4EVR 4WRD"
+},
+{
+"minute": 51,
+"artist": "Wilfy D",
+"title": "IDKW",
+"label": "HOLD A CORNER"
+},
+{
+"minute": 53,
+"artist": "Jean Nipon",
+"title": "Black Things On Desk",
+"label": "ClekClekBoom",
+"bp": "bp:5540658",
+"score": 0.853,
+"preview": "https://geo-samples.beatport.com/track/7ffd634f-345f-47ad-a53b-85b4e7d54c54.LOFI.mp3",
+"name": "Black Things on Desk",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2014-06-23"
+},
+{
+"minute": 55,
+"artist": "Grenier",
+"title": "Vendetta",
+"label": "Tectonic"
+},
+{
+"minute": 60,
+"artist": "Braille",
+"title": "Breakup",
+"label": "Hotflush"
+},
+{
+"minute": 65,
+"artist": "Cliques",
+"title": "Chro",
+"label": "Aquatic Lab"
+},
+{
+"minute": 78,
+"artist": "Joy Orbison",
+"title": "Em & Aitch",
+"label": "Hinge Finger"
+},
+{
+"minute": 81,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 85,
+"artist": "Roaming Data",
+"title": "Modulate",
+"label": ""
+},
+{
+"minute": 91,
+"artist": "Eliphino",
+"title": "More Than Me",
+"label": "",
+"bp": "bp:3028552",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/09ceb880-bbc7-4c94-8351-71de4dca511b.LOFI.mp3",
+"name": "More Than Me",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2011-10-31"
+},
+{
+"minute": 93,
+"artist": "Skream",
+"title": "Summer Dreams",
+"label": "Tempa",
+"bp": "bp:10888201",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/59fd6d55-2fe7-423e-abbf-7c9a22afa7d3.LOFI.mp3",
+"name": "Summer Dreams",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2006-10-30"
+},
+{
+"minute": 96,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 103,
+"artist": "Bonobo",
+"title": "Eyesdown",
+"label": ""
+},
+{
+"minute": 107,
+"artist": "Fatima Al Qadiri",
+"title": "Hydra",
+"label": "Fade To Mind"
+},
+{
+"minute": 110,
+"artist": "Jacques Greene",
+"title": "Ready",
+"label": "LUCKYME"
+},
+{
+"minute": 112,
+"artist": "goldFFinch",
+"title": "Point Of Entry",
+"label": "877",
+"bp": "bp:3198020",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/d442158e-c36e-42b7-81c4-5f2660fb2fee.LOFI.mp3",
+"name": "Point of Entry",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2012-01-16"
+},
+{
+"minute": 113,
+"artist": "Doc Zee & Dakota Sixx",
+"title": "HTSG (Murder He Wrote Remix)",
+"label": "",
+"bp": "bp:12217908",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5a72142e-2f42-4966-8a15-2fe2985f671c.LOFI.mp3",
+"name": "HTSG",
+"mix": "Murder He Wrote Remix",
+"genre": "bass-club",
+"released": "2019-06-28"
+},
+{
+"minute": 118,
+"artist": "DJ Kent Feat. Malehloka Hlalele",
+"title": "Falling (DiverseCity]",
+"label": ""
+}
+]
+},
+{
+"title": "2025-11-02 - Oneman, Yves Tomas - Rinse FM",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 4,
+"artist": "XL Regular",
+"title": "Multipliers",
+"label": "Artisjok",
+"bp": "bp:22234810",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/156c3cfa-850f-47bd-b624-561574967e0c.LOFI.mp3",
+"name": "Multipliers",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-11-06"
+},
+{
+"minute": 7,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 10,
+"artist": "Jurango",
+"title": "Chalk On Trees",
+"label": "Livity Sound",
+"bp": "bp:21826877",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/d816cd27-59e5-4d36-b9ab-89116824aa92.LOFI.mp3",
+"name": "Chalk on Trees",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-10-31"
+},
+{
+"minute": 13,
+"artist": "Muskila",
+"title": "YARAO",
+"label": "YUKU"
+},
+{
+"minute": 16,
+"artist": "CAIV",
+"title": "Shimmer",
+"label": "OODA"
+},
+{
+"minute": 22,
+"artist": "Doc Daneeka",
+"title": "Day By Day",
+"label": "Midnight Visions",
+"bp": "bp:4171563",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/3bf5f64f-23e4-43d8-b9d2-b5517593d1f0.LOFI.mp3",
+"name": "Day By Day",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2013-03-17"
+},
+{
+"minute": 27,
+"artist": "Jos\u00e9 James",
+"title": "Blackmagic (Joy Orbison's Recreation)",
+"label": "Brownswood",
+"bp": "bp:27567074",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f6220caa-0cdd-45c4-ae03-f3191c69a649.LOFI.mp3",
+"name": "Blackmagic",
+"mix": "Joy Orbison's Recreation",
+"genre": "dance-pop",
+"released": "2009-11-01"
+},
+{
+"minute": 30,
+"artist": "Clap Freckles",
+"title": "Abismo",
+"label": "NAAFI"
+},
+{
+"minute": 31,
+"artist": "Shudan",
+"title": "Golden Harvest",
+"label": "No Hats No Hoods",
+"bp": "bp:22018290",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/5235b526-3056-4cac-85ea-5a354ce8e0cb.LOFI.mp3",
+"name": "Golden Harvest",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2025-10-17"
+},
+{
+"minute": 33,
+"artist": "Coen",
+"title": "Rottweiler",
+"label": "Maloca",
+"bp": "bp:20287725",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/7e1efe46-2696-4a35-b16f-5a2a41a17ce5.LOFI.mp3",
+"name": "Rottweiler",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-04-30"
+},
+{
+"minute": 35,
+"artist": "goldFFinch",
+"title": "Arabian Prince",
+"label": "877",
+"bp": "bp:3198021",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/089c470e-52cc-47d5-a9da-442c642c88cd.LOFI.mp3",
+"name": "Arabian Prince",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2012-01-16"
+},
+{
+"minute": 40,
+"artist": "Jacques Greene",
+"title": "Ready",
+"label": "LUCKYME"
+},
+{
+"minute": 46,
+"artist": "Youay",
+"title": "Thinking About You",
+"label": "Flat",
+"bp": "bp:21834055",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/5e114f08-52b3-411a-bb3d-ba613ebbdfba.LOFI.mp3",
+"name": "Thinking About You",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-10-24"
+},
+{
+"minute": 51,
+"artist": "Floating Points",
+"title": "ARP3",
+"label": "Pluto"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 58,
+"artist": "Acid Arab",
+"title": "Gul L'Abi",
+"label": "Crammed Discs"
+},
+{
+"minute": 59,
+"artist": "Terror Danjah",
+"title": "Piano Madness",
+"label": "Planet Mu",
+"bp": "bp:7222599",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/6f36e97e-d3d8-423d-9037-dc0aef826610.LOFI.mp3",
+"name": "Piano Madness",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2015-10-15"
+},
+{
+"minute": 62,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 65,
+"artist": "Main Phase",
+"title": "Gen Z",
+"label": "Hardline Sounds"
+},
+{
+"minute": 69,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 75,
+"artist": "God Colony",
+"title": "Tony's Garage",
+"label": "Crack Copies",
+"bp": "bp:17829832",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/a066ee8b-33b7-429b-a157-de2b47adac35.LOFI.mp3",
+"name": "Tony's Garage",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-06-30"
+},
+{
+"minute": 79,
+"artist": "Overmono",
+"title": "So U Kno",
+"label": "XL"
+},
+{
+"minute": 81,
+"artist": "Sha Ru",
+"title": "Vibrasum",
+"label": ""
+},
+{
+"minute": 87,
+"artist": "Fold",
+"title": "Lotion",
+"label": "FLDIN"
+},
+{
+"minute": 91,
+"artist": "Risa T",
+"title": "No Sleep",
+"label": ""
+},
+{
+"minute": 95,
+"artist": "Lil Silva",
+"title": "Pulse vs Flex",
+"label": "Nowhere",
+"bp": "bp:25685223",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/fee38a13-792a-4843-a8a9-346772a190cc.LOFI.mp3",
+"name": "Pulse Vs Flex",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2010-05-31"
+},
+{
+"minute": 100,
+"artist": "P\u00e9pe",
+"title": "It's Not A Bug, It's A Free Tour",
+"label": "Elicit"
+},
+{
+"minute": 110,
+"artist": "Addison Groove",
+"title": "Push It",
+"label": "50 WEAPONS"
+},
+{
+"minute": 116,
+"artist": "Yves Tomas",
+"title": "Un Known Club (UKC)",
+"label": "Interlink"
+},
+{
+"minute": 119,
+"artist": "Deadboy",
+"title": "Wish U Were Here",
+"label": "Numbers",
+"bp": "bp:1922579",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/b66428b9-7736-483b-950b-5e4ea704c442.LOFI.mp3",
+"name": "Wish U Were Here",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2011-05-23"
+}
+]
+},
+{
+"title": "2025-12-26 - Oneman - Rinse FM",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 9,
+"artist": "Oxide And Neutrino Feat. Megaman",
+"title": "Remy On Da Floor",
+"label": "East West"
+},
+{
+"minute": 11,
+"artist": "DJ Furious Feat. Flo Dan And Jet Li",
+"title": "Terrible",
+"label": "Eskibeat"
+},
+{
+"minute": 14,
+"artist": "Heartless Crew",
+"title": "The Heartless Theme aka The Superglue Riddim (Edit)",
+"label": "Bush Bash"
+},
+{
+"minute": 27,
+"artist": "Roll Deep",
+"title": "When I'm 'Ere",
+"label": "",
+"bp": "bp:9927721",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/b0bca844-a540-4996-bf80-20b88aa48afd.LOFI.mp3",
+"name": "When I'm 'ere",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2009-10-19"
+},
+{
+"minute": 49,
+"artist": "Devlin",
+"title": "April Shower",
+"label": "ARTIST PROJECTS (AP)"
+}
+]
+},
+{
+"title": "2026-08-20 - Oneman @ Rinse Summer Series, Night Tales, London (Rinse FM)",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 47,
+"artist": "Digital Mystikz",
+"title": "Haunted",
+"label": "DMZ007"
+}
+]
+}
+]
+}

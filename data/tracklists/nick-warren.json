@@ -1,0 +1,1780 @@
+{
+"dj": "Nick Warren",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-06-08 - Nick Warren b2b Sasha @ The Soundgarden, Colorado Charlie, Scheveningen, Netherlands",
+"records": [
+{
+"minute": 0,
+"artist": "Sentre",
+"title": "On My Mind",
+"label": "Bird Up!",
+"bp": "bp:19702395",
+"score": 0.88,
+"preview": "https://geo-samples.beatport.com/track/9685f60d-3ca6-40b2-afff-83413b6fba66.LOFI.mp3",
+"name": "On My Mind",
+"mix": "Edit",
+"genre": "mainstage",
+"released": "2024-11-22"
+},
+{
+"minute": 0,
+"artist": "Tripswitch",
+"title": "Node Module (Gai Barone Remix)",
+"label": "Onedotsixtwo",
+"bp": "bp:19385522",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eef317d4-6471-4ae8-94c1-d99f4055eabe.LOFI.mp3",
+"name": "Node Module",
+"mix": "Gai Barone Remix",
+"genre": "progressive-house",
+"released": "2024-09-06"
+},
+{
+"minute": 3,
+"artist": "Travis Jesse",
+"title": "On Swings (Dany DZ Remix)",
+"label": "3rd Avenue",
+"bp": "bp:18871292",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f7c1a1b-a165-48c7-98a3-7291dae815e0.LOFI.mp3",
+"name": "On Swings",
+"mix": "Dany DZ Remix",
+"genre": "progressive-house",
+"released": "2024-05-20"
+},
+{
+"minute": 5,
+"artist": "Polo",
+"title": "Nostalgia Del Presente (Danny Howells Remix)",
+"label": "Manjumasi",
+"bp": "bp:18989627",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1c5a7f43-5440-4084-9349-e256cbedd28c.LOFI.mp3",
+"name": "Nostalgia Del Presente",
+"mix": "Danny Howells Remix",
+"genre": "progressive-house",
+"released": "2024-06-14"
+},
+{
+"minute": 7,
+"artist": "UnbrokenOne",
+"title": "Protean",
+"label": ""
+},
+{
+"minute": 12,
+"artist": "D.J. MacIntyre & Kandar",
+"title": "Mango",
+"label": "The Soundgarden"
+},
+{
+"minute": 17,
+"artist": "Juan Lagisquet",
+"title": "Sunrise Above The Clouds",
+"label": "Deep Down",
+"bp": "bp:18533852",
+"score": 0.872,
+"preview": "https://geo-samples.beatport.com/track/d01c2b7e-4c04-4cb8-91cf-69ffe197ba50.LOFI.mp3",
+"name": "Sunrise Above the Clouds",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-02-02"
+},
+{
+"minute": 19,
+"artist": "Jody Barr",
+"title": "Blush",
+"label": ""
+},
+{
+"minute": 19,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 20,
+"artist": "Wassu",
+"title": "Bell Lap",
+"label": "The Soundgarden"
+},
+{
+"minute": 21,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 22,
+"artist": "Fluke",
+"title": "Bullet (Nick Warren & Nicolas Rada Remake)",
+"label": "",
+"bp": "bp:29851575",
+"score": 0.96,
+"preview": "https://geo-samples.beatport.com/track/57dd7760-8485-4dc7-a94e-d756937297f5.LOFI.mp3",
+"name": "Bullet",
+"mix": "Nick Warren & Nicolas Rada Remix",
+"genre": "progressive-house",
+"released": "2026-08-20"
+},
+{
+"minute": 28,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 31,
+"artist": "Three Less One Feat. Olivia",
+"title": "Anesthetized Feeling",
+"label": "Engrave",
+"bp": "bp:18591616",
+"score": 0.773,
+"preview": "https://geo-samples.beatport.com/track/8c35daeb-cd7c-4fbf-8649-8e0b146fa904.LOFI.mp3",
+"name": "Anesthetized Feeling",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2024-02-16"
+},
+{
+"minute": 38,
+"artist": "Enzo Paradiso",
+"title": "Rhythm Reverie",
+"label": "Balkan Connection",
+"bp": "bp:18590133",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/92c78eea-755b-466d-bd57-a0b8ce6f272f.LOFI.mp3",
+"name": "Rhythm Reverie",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-02-09"
+},
+{
+"minute": 40,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 40,
+"artist": "D.J. MacIntyre & Kandar",
+"title": "Passage To India",
+"label": "The Soundgarden",
+"bp": "bp:19612737",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/cc3b3b3c-10f1-40a0-bacb-3101244fdfaf.LOFI.mp3",
+"name": "Passage to India",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2024-10-18"
+},
+{
+"minute": 46,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 48,
+"artist": "Sasha & Super Flu",
+"title": "Astra",
+"label": "Last Night On Earth"
+},
+{
+"minute": 52,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 55,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 59,
+"artist": "Ashee",
+"title": "Poison",
+"label": "Life & Death"
+},
+{
+"minute": 62,
+"artist": "TSHA Feat. MAFRO",
+"title": "Giving Up (Sasha Remix)",
+"label": "BMG"
+},
+{
+"minute": 66,
+"artist": "''KAZKO",
+"title": "ID''",
+"label": ""
+},
+{
+"minute": 70,
+"artist": "Sasha & Marsh",
+"title": "Dead Synthy [Anjunadeep]''",
+"label": "",
+"bp": "bp:19968192",
+"score": 0.791,
+"preview": "https://geo-samples.beatport.com/track/5c12852d-ae75-4d7e-82cd-cab88ed0cd19.LOFI.mp3",
+"name": "Dead Synthy",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2025-02-04"
+},
+{
+"minute": 75,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 75,
+"artist": "Ziger",
+"title": "Feel The Bass",
+"label": "Iconyc",
+"bp": "bp:16603653",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/d179940b-c75d-4450-bcbf-2b6462b85d59.LOFI.mp3",
+"name": "Feel the Bass",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2022-07-01"
+},
+{
+"minute": 76,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 78,
+"artist": "Paul Ursin & Afterwards",
+"title": "Let Me",
+"label": "Diynamic"
+},
+{
+"minute": 83,
+"artist": "Nick Warren",
+"title": "The Covern",
+"label": "The Soundgarden",
+"bp": "bp:20327247",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/3b0f3dd4-ce3c-4f2c-8b26-9569d11b3c48.LOFI.mp3",
+"name": "The Covern",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-04-11"
+},
+{
+"minute": 85,
+"artist": "DJ Seinfeld",
+"title": "Someday",
+"label": "Ninja"
+},
+{
+"minute": 92,
+"artist": "Weird Sounding Dude",
+"title": "Hands Of Dawn",
+"label": "Edge",
+"bp": "bp:18654228",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/44d595da-2b94-41f1-9d02-33c159c56872.LOFI.mp3",
+"name": "Hands of Dawn",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-03-01"
+},
+{
+"minute": 95,
+"artist": "Maceo Plex",
+"title": "When The Lights Are Out (Late Night Mix)",
+"label": "Ellum",
+"bp": "bp:11982598",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6e107d0b-e0ca-4c0a-bec1-e117e8dd2bd1.LOFI.mp3",
+"name": "When The Lights Are Out",
+"mix": "Late Night Mix",
+"genre": "melodic-house-techno",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "Sasha & Sentre",
+"title": "Glastacy",
+"label": "Last Night On Earth"
+}
+]
+},
+{
+"title": "2024-08-11 - Hernan Cattaneo b2b Nick Warren @ Loveland Festival, Sloterpark, Amsterdam (Loveland Legacy, LL244)",
+"records": [
+{
+"minute": 0,
+"artist": "Manuel Ventresca",
+"title": "Amber Like This Feeling",
+"label": "The Soundgarden",
+"bp": "bp:19991454",
+"score": 0.868,
+"preview": "https://geo-samples.beatport.com/track/0f51fe93-043f-4ebb-8cd8-b519ed6e27de.LOFI.mp3",
+"name": "Amber like this Feeling",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2025-01-24"
+},
+{
+"minute": 7,
+"artist": "Bruno Andrada",
+"title": "Meinewelt",
+"label": "Moonlight"
+},
+{
+"minute": 12,
+"artist": "Trancesetters",
+"title": "Roaches (Peace Division Remix / COQUEIT Edit)",
+"label": "Hooj Choons",
+"bp": "bp:1150384",
+"score": 0.887,
+"preview": "https://geo-samples.beatport.com/track/42b4c915-f976-47e1-9ec6-dddbeff74099.LOFI.mp3",
+"name": "Roaches",
+"mix": "Peace Division Remix",
+"genre": "progressive-house",
+"released": "2000-02-14"
+},
+{
+"minute": 16,
+"artist": "Jamie Stevens",
+"title": "Rivers (Mike Rish Remix)",
+"label": "Late Night Music",
+"bp": "bp:19744777",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/31d7acfe-d677-4754-ac30-3bcad37ea97d.LOFI.mp3",
+"name": "Rivers",
+"mix": "Mike Rish Remix",
+"genre": "progressive-house",
+"released": "2024-12-04"
+},
+{
+"minute": 21,
+"artist": "K3V & Jayy Vibes",
+"title": "Kingdom Of Dreams (Juan Ibanez Remix)",
+"label": "Onedotsixtwo",
+"bp": "bp:17583025",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1fe10dbf-8558-4721-878b-9fa25a578106.LOFI.mp3",
+"name": "Kingdom of Dreams",
+"mix": "Juan Ibanez Remix",
+"genre": "progressive-house",
+"released": "2023-04-21"
+},
+{
+"minute": 25,
+"artist": "Jares",
+"title": "Dystopia (Dmitry Molosh Remix)",
+"label": "Balkan Connection",
+"bp": "bp:19472755",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/deea6717-25ce-4a33-943e-49e62dbcdac0.LOFI.mp3",
+"name": "Dystopia",
+"mix": "Dmitry Molosh Remix",
+"genre": "progressive-house",
+"released": "2024-09-20"
+},
+{
+"minute": 29,
+"artist": "Durante & HANA",
+"title": "Hot Night (Khen Remix)",
+"label": "Anjunadeep"
+},
+{
+"minute": 33,
+"artist": "VegaZ SL & Ryan (CU)",
+"title": "Believe In The Beauty",
+"label": "",
+"bp": "bp:19991442",
+"score": 0.858,
+"preview": "https://geo-samples.beatport.com/track/226217f0-93b0-439f-b770-ad68f4d4e7db.LOFI.mp3",
+"name": "Believe In The Beauty",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-01-24"
+},
+{
+"minute": 39,
+"artist": "Aubrey Fry Feat. Her Majesti",
+"title": "Like A Crime (Nick Stoynoff Remix)",
+"label": "Musique De Lune Noire"
+},
+{
+"minute": 46,
+"artist": "Fluke",
+"title": "Bullet (Nick Warren & Nicolas Rada Remake)",
+"label": "Circa",
+"bp": "bp:29851575",
+"score": 0.96,
+"preview": "https://geo-samples.beatport.com/track/57dd7760-8485-4dc7-a94e-d756937297f5.LOFI.mp3",
+"name": "Bullet",
+"mix": "Nick Warren & Nicolas Rada Remix",
+"genre": "progressive-house",
+"released": "2026-08-20"
+},
+{
+"minute": 52,
+"artist": "Franky Wah",
+"title": "Riptide",
+"label": "Sudbeat"
+},
+{
+"minute": 56,
+"artist": "Roman",
+"title": "The Verse",
+"label": "Consequence Of Society"
+},
+{
+"minute": 61,
+"artist": "Roman",
+"title": "Amay",
+"label": "Musique De Lune"
+},
+{
+"minute": 67,
+"artist": "Surfface",
+"title": "Make It Happen",
+"label": "The Soundgarden",
+"bp": "bp:20720072",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/b3d78690-daac-4be2-8421-4ab42e84380d.LOFI.mp3",
+"name": "Make it Happen",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-07-25"
+},
+{
+"minute": 71,
+"artist": "Mattias Herrera",
+"title": "Earl Gray",
+"label": "The Soundgarden"
+},
+{
+"minute": 83,
+"artist": "Khen",
+"title": "My Pure Soul",
+"label": "All Day I Dream",
+"bp": "bp:20077504",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/17bd63b0-ad4b-4e0a-a497-94ce7d41aaec.LOFI.mp3",
+"name": "My Pure Soul",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2025-03-14"
+},
+{
+"minute": 88,
+"artist": "Hernan Cattaneo",
+"title": "Static Sky",
+"label": "Tunecore",
+"bp": "bp:19436384",
+"score": 0.88,
+"preview": "https://geo-samples.beatport.com/track/c37ecc98-3e59-4a09-a221-3d1e5c74f10a.LOFI.mp3",
+"name": "Static Sky ",
+"mix": "Edit",
+"genre": "progressive-house",
+"released": "2024-09-06"
+},
+{
+"minute": 92,
+"artist": "Nicolas Masseyeff & Dorian Craft Feat. Joy Tyson",
+"title": "A Place Called Home (Maga Remix)",
+"label": "Diversions",
+"bp": "bp:19184950",
+"score": 0.823,
+"preview": "https://geo-samples.beatport.com/track/40058e98-eabd-46c2-bdac-6a8e218f4187.LOFI.mp3",
+"name": "A Place Called Home feat. Joy Tyson",
+"mix": "Maga Remix",
+"genre": "afro-house",
+"released": "2024-07-05"
+},
+{
+"minute": 96,
+"artist": "Dastan & Gux Jimenez",
+"title": "High Priestess",
+"label": "The Soundgarden",
+"bp": "bp:20497273",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/6af13416-bc6d-47a3-88c6-eb8964895798.LOFI.mp3",
+"name": "High Priestess",
+"mix": "Extended Mix",
+"genre": "organic-house",
+"released": "2025-05-23"
+},
+{
+"minute": 101,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 104,
+"artist": "ZAHNA",
+"title": "Go Together",
+"label": "Musique De Lune",
+"bp": "bp:19816097",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/8dd010f7-0369-44fb-aca8-1e5ce82f7ff7.LOFI.mp3",
+"name": "Go Together",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-12-20"
+},
+{
+"minute": 107,
+"artist": "Ignacio Berardi & Juani Zuliani",
+"title": "Odyssey",
+"label": "Onedotsixtwo"
+},
+{
+"minute": 111,
+"artist": "Luke Santos",
+"title": "I Am Human (Kasper Koman & Alex O'Rion Remix)",
+"label": "Musique De Lune",
+"bp": "bp:19612537",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8cf5bab3-a5fb-4199-98f0-1968d31d4e07.LOFI.mp3",
+"name": "I Am Human",
+"mix": "Kasper Koman & Alex O'Rion Remix",
+"genre": "progressive-house",
+"released": "2024-10-18"
+},
+{
+"minute": 117,
+"artist": "Solis [US]",
+"title": "Echosphere",
+"label": "Univack",
+"bp": "bp:19650134",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/980a464e-1f1c-4e2b-b99a-b550c20a7826.LOFI.mp3",
+"name": "Echosphere",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2024-11-01"
+},
+{
+"minute": 123,
+"artist": "Alejo Fochi & Nicolas Viana",
+"title": "Driving Time",
+"label": "Or Two Strangers",
+"bp": "bp:20590361",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/927afdf4-2e1d-4e50-9f53-0ecde16303c5.LOFI.mp3",
+"name": "Driving Time",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-07-18"
+},
+{
+"minute": 128,
+"artist": "Weird Sounding Dude",
+"title": "Hands Of Dawn",
+"label": "Edge",
+"bp": "bp:18654228",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/44d595da-2b94-41f1-9d02-33c159c56872.LOFI.mp3",
+"name": "Hands of Dawn",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-03-01"
+},
+{
+"minute": 138,
+"artist": "Sigur R\u00f3s",
+"title": "Star\u00e1lfur (Nick Warren & Nicolas Rada Unofficial Remix)",
+"label": ""
+},
+{
+"minute": 143,
+"artist": "Audio Junkies",
+"title": "Aspects Of Rhythm",
+"label": "Maccabi House",
+"bp": "bp:19237224",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/afa7b830-3d5b-4f88-96f6-de7fddfb5f25.LOFI.mp3",
+"name": "Aspects of Rhythm",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2024-07-19"
+},
+{
+"minute": 147,
+"artist": "Julian Nates",
+"title": "Dystopic Bend",
+"label": "Musique De Lune",
+"bp": "bp:19368559",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/ef431c24-40b9-4832-84a3-1b4e029fe65f.LOFI.mp3",
+"name": "Dystopic Bend",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-08-23"
+},
+{
+"minute": 151,
+"artist": "Hernan Cattaneo",
+"title": "Tranquilo (Franco Giannoni Remix)",
+"label": "Plattenbank",
+"bp": "bp:19436297",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e5a4decc-8d37-4dea-a0af-46b1ec0ff9cc.LOFI.mp3",
+"name": "Tranquilo",
+"mix": "Franco Giannoni Remix",
+"genre": "progressive-house",
+"released": "2024-09-20"
+},
+{
+"minute": 157,
+"artist": "Rockka",
+"title": "Black Sands (Matias Vega Remix)",
+"label": "Slc-6",
+"bp": "bp:19628469",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0d2cfe04-be2e-4f6b-aa28-024da14dc8d1.LOFI.mp3",
+"name": "Black Sands",
+"mix": "Matias Vega Remix",
+"genre": "progressive-house",
+"released": "2024-11-01"
+},
+{
+"minute": 163,
+"artist": "Zankee Gulati",
+"title": "Musafir (Dowden Remix)",
+"label": "The Soundgarden",
+"bp": "bp:19374491",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f5bec22-b90e-42c8-9eb8-904afee3eea2.LOFI.mp3",
+"name": "Musafir",
+"mix": "Dowden Remix",
+"genre": "progressive-house",
+"released": "2024-08-23"
+},
+{
+"minute": 168,
+"artist": "COQUEIT",
+"title": "Feel It",
+"label": "The Soundgarden"
+},
+{
+"minute": 173,
+"artist": "Ultra\u00edsta Feat. Nigel Godrich",
+"title": "Smalltalk (Antrim Remix)",
+"label": ""
+},
+{
+"minute": 178,
+"artist": "Kevin Di Serna & Pole Position",
+"title": "Boral (Musumeci Remix)",
+"label": "Anims",
+"bp": "bp:19625047",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8769fed1-64c2-4a3b-9a4d-d2e29c65b0d6.LOFI.mp3",
+"name": "Boral",
+"mix": "Musumeci Remix",
+"genre": "melodic-house-techno",
+"released": "2024-10-25"
+},
+{
+"minute": 183,
+"artist": "The D\u00d8",
+"title": "Dust It Off (Kevin Di Serna & Santiago Teillagorry Edit)",
+"label": ""
+},
+{
+"minute": 190,
+"artist": "Surfface",
+"title": "Sommen",
+"label": ""
+},
+{
+"minute": 195,
+"artist": "Gorkiz & Fernando Olaya",
+"title": "Divine Emanations",
+"label": "The Soundgarden",
+"bp": "bp:19913164",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/1eced62d-feae-4902-99f3-e84c9ec96069.LOFI.mp3",
+"name": "Divine Emanations",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2024-12-27"
+},
+{
+"minute": 201,
+"artist": "Newman (I Love)",
+"title": "Strawberry Moon",
+"label": "The Soundgarden",
+"bp": "bp:20440680",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/9f145fac-c9b6-4c24-8da8-68e0215665d6.LOFI.mp3",
+"name": "Strawberry Moon",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2025-05-09"
+}
+]
+},
+{
+"title": "2024-09-16 - Nick Warren - Electronic Groove Podcast (EG.998)",
+"records": [
+{
+"minute": 0,
+"artist": "PMT",
+"title": "Afro Lava Lamp (Xhosa Sunset Mix)",
+"label": ""
+},
+{
+"minute": 23,
+"artist": "Claudio Iacono",
+"title": "Nishane",
+"label": "Pins And Needles"
+},
+{
+"minute": 28,
+"artist": "Talee",
+"title": "Comets Of Light (Fell Reis Remix)",
+"label": "Disco Halal",
+"bp": "bp:19309832",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d8047e33-2809-4391-8bc3-8155c91bdd0b.LOFI.mp3",
+"name": "Comets Of Light",
+"mix": "Fell Reis Remix",
+"genre": "indie-dance",
+"released": "2024-08-23"
+},
+{
+"minute": 33,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 44,
+"artist": "Luigi Sambuy",
+"title": "OneFourThree",
+"label": "Disco Halal",
+"bp": "bp:19361236",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/e64ed31a-3b42-46f0-8772-2e6c41cd98b2.LOFI.mp3",
+"name": "OneFourThree",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2024-08-16"
+},
+{
+"minute": 49,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 55,
+"id": null,
+"raw": "?"
+}
+]
+},
+{
+"title": "2025-02-28 - Nick Warren - Balance Croatia 012",
+"records": [
+{
+"minute": null,
+"artist": "Miss Melera",
+"title": "Quartz",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The Cure",
+"title": "Closedown (Nick Warren & Nicolas Rada Remix)",
+"label": "Electra"
+},
+{
+"minute": null,
+"artist": "Robin Thurston",
+"title": "Wherever You Go",
+"label": "The Soundgarden",
+"bp": "bp:24273143",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/0edbb7b3-050a-45a9-bd8d-d43c582e1179.LOFI.mp3",
+"name": "Wherever You Go",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-03-06"
+},
+{
+"minute": null,
+"artist": "Weird Sounding Dude",
+"title": "As Fate Has It",
+"label": "The Soundgarden",
+"bp": "bp:20123038",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/4525801e-ab45-4797-8c40-d4199b5fea65.LOFI.mp3",
+"name": "As Fate Has It",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2025-02-28"
+},
+{
+"minute": null,
+"artist": "Paul",
+"title": "Expeditions",
+"label": "One Of Those Days",
+"bp": "bp:19485408",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/540472a6-5922-4c36-9d9c-a8fd8e53d158.LOFI.mp3",
+"name": "Expeditions",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-09-27"
+},
+{
+"minute": null,
+"artist": "Ruben Karapetyan",
+"title": "Cycling Through Amsterdam",
+"label": "The Soundgarden",
+"bp": "bp:22872343",
+"score": 0.892,
+"preview": "https://geo-samples.beatport.com/track/dfaa1648-6e59-4148-b443-a72b519f5ae9.LOFI.mp3",
+"name": "Cycling Through Amsterdam",
+"mix": "HAFT Remix",
+"genre": "progressive-house",
+"released": "2025-12-15"
+},
+{
+"minute": null,
+"artist": "Luan Pugliesi",
+"title": "Field Of Love",
+"label": "Future Avenue",
+"bp": "bp:20277426",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f34e838c-3a4d-4312-9fad-75af7601ecec.LOFI.mp3",
+"name": "Field of Love",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-04-18"
+},
+{
+"minute": null,
+"artist": "Cass",
+"title": "Backdraft",
+"label": "The Soundgarden"
+},
+{
+"minute": null,
+"artist": "Dastan & Gux Jimenez",
+"title": "The High Priestess",
+"label": "The Soundgarden",
+"bp": "bp:20497273",
+"score": 0.773,
+"preview": "https://geo-samples.beatport.com/track/6af13416-bc6d-47a3-88c6-eb8964895798.LOFI.mp3",
+"name": "High Priestess",
+"mix": "Extended Mix",
+"genre": "organic-house",
+"released": "2025-05-23"
+},
+{
+"minute": null,
+"artist": "Mathew Sona & Martin Fredes",
+"title": "Trainwreck",
+"label": "The Soundgarden",
+"bp": "bp:20606601",
+"score": 0.664,
+"preview": "https://geo-samples.beatport.com/track/656c3818-1fea-42e6-a159-94e4d01fb8c9.LOFI.mp3",
+"name": "Trainwreck",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-06-20"
+},
+{
+"minute": null,
+"artist": "Gorkiz & Luca Abayan",
+"title": "Drowner",
+"label": "The Soundgarden"
+},
+{
+"minute": null,
+"artist": "HAFT",
+"title": "Sundowner",
+"label": "The Soundgarden"
+},
+{
+"minute": null,
+"artist": "Soft Cell",
+"title": "Memorabilia (Nick Warren & Nicolas Rada Dub Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Slow Ted & Phil Odd & TMPST",
+"title": "Closer",
+"label": "Sekora"
+},
+{
+"minute": null,
+"artist": "Nick Warren",
+"title": "Loveland",
+"label": "The Soundgarden"
+}
+]
+},
+{
+"title": "2025-08-08 - Nick Warren @ Balance Croatia, The Garden Tisno, Croatia",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 5,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 10,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 14,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 20,
+"artist": "Gux Jimenez & Kurt Caesar",
+"title": "The Garden Of Love (Night Mix)",
+"label": "Progresivo",
+"bp": "bp:20627889",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7e52546a-65b9-4670-903c-04ab3417bf14.LOFI.mp3",
+"name": "The Garden of Love",
+"mix": "Night Mix",
+"genre": "progressive-house",
+"released": "2025-08-25"
+},
+{
+"minute": 24,
+"artist": "John Creamer & Stephane K",
+"title": "I Wish You Were Here",
+"label": "Alternative Route",
+"bp": "bp:18682446",
+"score": 0.862,
+"preview": "https://geo-samples.beatport.com/track/76553199-7ce8-4e3a-8a80-ce9bee96894e.LOFI.mp3",
+"name": "I Wish You Were Here",
+"mix": "Addex Remix",
+"genre": "deep-house",
+"released": "2024-02-23"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 36,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 41,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 46,
+"artist": "Sonicvibe",
+"title": "Recurring Dreams",
+"label": "",
+"bp": "bp:19467721",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/ca15a004-12f6-41ec-ac90-2d240e0a3419.LOFI.mp3",
+"name": "Recurring Dreams",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2024-09-25"
+},
+{
+"minute": 52,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 58,
+"artist": "Tinga",
+"title": "Be Gratefully",
+"label": "Flown",
+"bp": "bp:19326003",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/30e9275d-c08c-44da-b240-7ede4be333aa.LOFI.mp3",
+"name": "Be Gratefully",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-08-30"
+},
+{
+"minute": 61,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 66,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 72,
+"artist": "IGCI\u00d8",
+"title": "Golden Flow (BERDU Remix)",
+"label": "Tunnel",
+"bp": "bp:20563477",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e6422830-0823-414d-b5fe-3fbb9a4f833a.LOFI.mp3",
+"name": "Golden Flow",
+"mix": "Berdu Remix",
+"genre": "progressive-house",
+"released": "2025-06-20"
+},
+{
+"minute": 76,
+"artist": "Jori Hulkkonen",
+"title": "Acidsad (Itay Dailes Remix)",
+"label": "Crash Planet",
+"bp": "bp:20751419",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/33ebece6-9f2d-4e5e-86d5-f599714e630a.LOFI.mp3",
+"name": "Acidsad",
+"mix": "Itay Dailes Remix",
+"genre": "deep-house",
+"released": "2025-07-25"
+},
+{
+"minute": 81,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 85,
+"artist": "Franco Camiolo & Yonsh",
+"title": "Clix",
+"label": "Uv Noir"
+},
+{
+"minute": 91,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 95,
+"artist": "M1NA",
+"title": "Station Suite",
+"label": "",
+"bp": "bp:21115859",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/67392c08-e9d9-4c8d-bb2c-8406412b45cf.LOFI.mp3",
+"name": "Station Suite",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-08-29"
+},
+{
+"minute": 102,
+"artist": "AMTRAC",
+"title": "Just (Patrice B\u00e4umel Remix)",
+"label": "Crosstown Rebels",
+"bp": "bp:20994447",
+"score": 0.976,
+"preview": "https://geo-samples.beatport.com/track/c4210935-fa21-4bbb-a3db-771a15d0e351.LOFI.mp3",
+"name": "Just",
+"mix": "Patrice Baumel Remix",
+"genre": "progressive-house",
+"released": "2025-08-29"
+},
+{
+"minute": 108,
+"artist": "Bon Iver",
+"title": "Wash",
+"label": "Jagjaguwar"
+},
+{
+"minute": 113,
+"artist": "RomanSmitarello",
+"title": "Bootes",
+"label": "The Soundgarden"
+},
+{
+"minute": 119,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 125,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 129,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 135,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 140,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 146,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 154,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 160,
+"artist": "LifeLike & Kris Menace",
+"title": "What Time Is Love (Live At SSL Mix)",
+"label": "Spinnin' Deep",
+"bp": "bp:8150390",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/513bb453-3e72-4a2c-b633-b58e94b09dbd.LOFI.mp3",
+"name": "What Time Is Love ",
+"mix": "Live at SSL Mix",
+"genre": "trance-main-floor",
+"released": "2016-07-29"
+},
+{
+"minute": 164,
+"artist": "Matador",
+"title": "Soso",
+"label": "Captive Soul"
+},
+{
+"minute": 168,
+"artist": "Nick Warren & Mercurio",
+"title": "Turbulence",
+"label": "The Soundgarden",
+"bp": "bp:21066031",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/0c9bd186-2c82-4b57-a098-94c936642da9.LOFI.mp3",
+"name": "Turbulence",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-08-22"
+},
+{
+"minute": 174,
+"artist": "Nick Warren & Mercurio",
+"title": "Turbulence (Boys' Shorts Remix)",
+"label": "The Soundgarden",
+"bp": "bp:21066032",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4766a82c-f831-47d9-9e0f-1d9e661d54a6.LOFI.mp3",
+"name": "Turbulence",
+"mix": "Boys' Shorts Remix",
+"genre": "progressive-house",
+"released": "2025-08-22"
+}
+]
+},
+{
+"title": "2025-08-10 - Hernan Cattaneo B2B Nick Warren @ Loveland Festival, Sloterpark, Amsterdam (Loveland Legacy, LL264)",
+"records": [
+{
+"minute": 0,
+"artist": "Nick Warren",
+"title": "Loveland",
+"label": "The Soudgarden"
+},
+{
+"minute": 3,
+"artist": "GE\u00d8VH\u00c4N",
+"title": "Harmonia",
+"label": "The Soundgarden"
+},
+{
+"minute": 9,
+"artist": "Supacooks",
+"title": "Skyfall",
+"label": "The Soundgarden"
+},
+{
+"minute": 16,
+"artist": "Nicolas Viana & Juan Iba\u00f1ez",
+"title": "Glowstate",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "Gero Pellizzon",
+"title": "Sonar (Cipriani & Hans Gerd Remix)",
+"label": "3rd Avenue",
+"bp": "bp:21335269",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/14697c0c-aaf7-46bc-8319-73cd2eff6c3b.LOFI.mp3",
+"name": "Sonar",
+"mix": "Cipriani & Hans Gerd",
+"genre": "progressive-house",
+"released": "2025-10-13"
+},
+{
+"minute": 25,
+"artist": "J Lauda",
+"title": "Lifeline (Hernan Cattaneo & Simply City Remix)",
+"label": "Univack",
+"bp": "bp:20708319",
+"score": 0.942,
+"preview": "https://geo-samples.beatport.com/track/9a2cb049-8354-424b-8f4d-44db7b653634.LOFI.mp3",
+"name": "Lifeline",
+"mix": "Hernan Cattaneo & Simply City Extended Remix",
+"genre": "progressive-house",
+"released": "2025-07-18"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 36,
+"artist": "IGCI\u00d8",
+"title": "Golden Flow (BERDU Remix)",
+"label": "Tunnel",
+"bp": "bp:20563477",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e6422830-0823-414d-b5fe-3fbb9a4f833a.LOFI.mp3",
+"name": "Golden Flow",
+"mix": "Berdu Remix",
+"genre": "progressive-house",
+"released": "2025-06-20"
+},
+{
+"minute": 40,
+"artist": "DJ Ruby",
+"title": "Goldrake",
+"label": "Transensations"
+},
+{
+"minute": 44,
+"artist": "Mike Rish",
+"title": "Dope Riddim",
+"label": "",
+"bp": "bp:22405691",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/ed40fc3c-5459-471c-8dea-40962506bf1e.LOFI.mp3",
+"name": "Dope Riddim",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-11-21"
+},
+{
+"minute": 49,
+"artist": "Pole Position",
+"title": "Unkown Planet (Hernan Cattaneo & Mercurio Remix)",
+"label": "Anims",
+"bp": "bp:21523581",
+"score": 0.993,
+"preview": "https://geo-samples.beatport.com/track/c03a2249-4b71-4533-a255-b37057c4b847.LOFI.mp3",
+"name": "Unknown Planet",
+"mix": "Hernan Cattaneo & Mercurio Remix",
+"genre": "progressive-house",
+"released": "2025-09-19"
+},
+{
+"minute": 55,
+"artist": "Tantum & Hyunji-A",
+"title": "Keep My Letters (Simon Vuarambon Remix)",
+"label": "Keep My Letters",
+"bp": "bp:21057840",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/51b5855e-e157-4fd6-ac18-a41176cf40c3.LOFI.mp3",
+"name": "Keep My Letters",
+"mix": "Simon Vuarambon Remix",
+"genre": "progressive-house",
+"released": "2025-09-19"
+},
+{
+"minute": 60,
+"artist": "''Lean Robotti",
+"title": "ID [The Soundgarden]''",
+"label": ""
+},
+{
+"minute": 64,
+"artist": "John Creamer & Stephane K",
+"title": "I Wish You Were Here (Paul Thomas Remix)",
+"label": "FSOE UV",
+"bp": "bp:21595652",
+"score": 0.936,
+"preview": "https://geo-samples.beatport.com/track/ad29759b-ad67-41fa-a08c-1ca079a97d85.LOFI.mp3",
+"name": "I Wish You Were Here",
+"mix": "Paul Thomas Extended Remix",
+"genre": "progressive-house",
+"released": "2025-10-10"
+},
+{
+"minute": 71,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 77,
+"artist": "Henry Saiz",
+"title": "Madre Noche",
+"label": "Progrez"
+},
+{
+"minute": 80,
+"artist": "Kamilo Sanclemente & Mauro Aguirre",
+"title": "Goldes Eyes",
+"label": "Sudbeat",
+"bp": "bp:21992454",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/aff17f1c-8edf-4653-ac25-03c57ab3909e.LOFI.mp3",
+"name": "Goldes Eyes",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-10-17"
+},
+{
+"minute": 87,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 91,
+"artist": "Alex Kennon & Karmon",
+"title": "Alive",
+"label": "Peaks"
+},
+{
+"minute": 96,
+"artist": "Nick Warren & Mattias Herrera",
+"title": "Midnight Shuffle",
+"label": "",
+"bp": "bp:21479199",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/c2d60f7a-a819-4662-abc3-593d1d98e654.LOFI.mp3",
+"name": "Midnight Shuffle",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2025-09-19"
+},
+{
+"minute": 102,
+"artist": "Melodiam",
+"title": "Trust",
+"label": ""
+},
+{
+"minute": 107,
+"artist": "Rezident Feat. Malou",
+"title": "It's All On You (Ezequiel Arias Remix)",
+"label": "Anjunadeep",
+"bp": "bp:22345584",
+"score": 0.733,
+"preview": "https://geo-samples.beatport.com/track/6d5fe7e3-0a9d-441f-ab36-794db7ccf616.LOFI.mp3",
+"name": "It's All On You feat. Malou",
+"mix": "Ezequiel Arias Extended Mix",
+"genre": "progressive-house",
+"released": "2025-11-07"
+},
+{
+"minute": 112,
+"artist": "Guy Mantzur & Kamilo Sanclemente",
+"title": "The Future Is In The Past",
+"label": "Moments",
+"bp": "bp:20994380",
+"score": 0.876,
+"preview": "https://geo-samples.beatport.com/track/a44d7d8d-6afe-4ac4-bbd5-d81a2cd71947.LOFI.mp3",
+"name": "The Future is in the Past",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-08-29"
+},
+{
+"minute": 115,
+"artist": "Cass",
+"title": "NotKansas (Baunder Remix)",
+"label": "",
+"bp": "bp:22660773",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7e2a4e21-b376-4404-a19d-5c7a4d2d91ad.LOFI.mp3",
+"name": "NotKansas",
+"mix": "Baunder Remix",
+"genre": "progressive-house",
+"released": "2025-12-11"
+},
+{
+"minute": 123,
+"artist": "\u00dcNAM & Mada.Mada",
+"title": "Mago (MoM & HotTuneiK Remix)",
+"label": "",
+"bp": "bp:21066027",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/909a7001-ca60-45f8-a901-ab43cbc8a1c8.LOFI.mp3",
+"name": "Mago",
+"mix": "MoM and Hot TuneiK Remix",
+"genre": "progressive-house",
+"released": "2025-08-22"
+},
+{
+"minute": 128,
+"artist": "Lean Robotti",
+"title": "Shake It",
+"label": "The Soundgarden"
+},
+{
+"minute": 134,
+"artist": "M1NA",
+"title": "Station Suite",
+"label": "",
+"bp": "bp:21115859",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/67392c08-e9d9-4c8d-bb2c-8406412b45cf.LOFI.mp3",
+"name": "Station Suite",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-08-29"
+},
+{
+"minute": 138,
+"artist": "Binary Finary",
+"title": "1998 (Chicola Remix)",
+"label": "Armada"
+},
+{
+"minute": 143,
+"artist": "Aubrey Fry & Tim French",
+"title": "Stompaphunker",
+"label": "Sudbeat",
+"bp": "bp:21992455",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f5f239ba-e72a-4c76-a2f3-eb95da3f5479.LOFI.mp3",
+"name": "Stompaphunker",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-10-17"
+},
+{
+"minute": 149,
+"artist": "''Jody Barr",
+"title": "?''",
+"label": ""
+},
+{
+"minute": 154,
+"artist": "Melodiam",
+"title": "Peak",
+"label": ""
+},
+{
+"minute": 159,
+"artist": "Dubfire",
+"title": "I Feel Speed (SNYL Remix)",
+"label": "SCI + TEC",
+"bp": "bp:30345172",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a920002f-4c11-49dc-a97f-647f9e34d11e.LOFI.mp3",
+"name": "I Feel Speed ",
+"mix": "SNYL Remix",
+"genre": "electronica",
+"released": "2025-04-11"
+},
+{
+"minute": 165,
+"artist": "Lean Robotti",
+"title": "Voodoo Man",
+"label": "Movement",
+"bp": "bp:23158690",
+"score": 0.775,
+"preview": "https://geo-samples.beatport.com/track/10403276-afae-41f3-ae00-30f404148cfb.LOFI.mp3",
+"name": "Voodoo Man",
+"mix": "Rudra Remix",
+"genre": "progressive-house",
+"released": "2026-01-09"
+},
+{
+"minute": 171,
+"artist": "Sasha Feat. Ultra\u00edsta",
+"title": "Bring On The Night (Ezequiel Arias Remix)",
+"label": ""
+},
+{
+"minute": 178,
+"artist": "Robin Tordjman",
+"title": "Educated Wish",
+"label": "Diynamic",
+"bp": "bp:20403822",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/fcebb1c5-b707-40ef-8e2e-2cb5cfd37923.LOFI.mp3",
+"name": "Educated Wish",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2025-05-02"
+},
+{
+"minute": 181,
+"artist": "Nicolas Viana",
+"title": "Coral",
+"label": "Plaisirs Sonores"
+},
+{
+"minute": 186,
+"artist": "Das Koolies",
+"title": "Som Bom Magnifico",
+"label": ""
+},
+{
+"minute": 191,
+"artist": "Nick Warren",
+"title": "Loveland (Gorkiz Remix)",
+"label": "The Soudgarden",
+"bp": "bp:26855237",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95177a5c-a9c4-448b-a399-e0cc04f0cb8a.LOFI.mp3",
+"name": "Loveland",
+"mix": "Gorkiz Remix",
+"genre": "progressive-house",
+"released": "2026-03-20"
+},
+{
+"minute": 196,
+"artist": "Mazzy Star",
+"title": "Into Dust (Alec Araujo Unofficial Remix)",
+"label": ""
+},
+{
+"minute": 202,
+"artist": "London Grammar",
+"title": "Hey Now (Antrim Remix)",
+"label": "",
+"bp": "bp:17890656",
+"score": 0.905,
+"preview": "https://geo-samples.beatport.com/track/dd67fe64-98b3-49d1-900f-14fd33f0c896.LOFI.mp3",
+"name": "Hey Now",
+"mix": "Arty Remix",
+"genre": "house",
+"released": "2023-07-21"
+},
+{
+"minute": 208,
+"artist": "Massive Attack Feat. Shara Nelson",
+"title": "Unfinished Sympathy (Framewerk Rewerk Part 1 & 2)",
+"label": "",
+"bp": "bp:3297387",
+"score": 0.725,
+"preview": "https://geo-samples.beatport.com/track/e6761b9f-6abe-4fa7-98ab-f59bc23d23f8.LOFI.mp3",
+"name": "Unfinished Sympathy",
+"mix": "Remastered 2006",
+"genre": "trap-future-bass",
+"released": "2006-01-01"
+}
+]
+},
+{
+"title": "2025-10-03 - John Digweed, Nick Warren - Transitions 1101",
+"records": [
+{
+"minute": 0,
+"artist": "Sitara Feat. Pawas",
+"title": "I Will (Nhar Remix)",
+"label": "Hot Elephant",
+"bp": "bp:21308729",
+"score": 0.675,
+"preview": "https://geo-samples.beatport.com/track/5d5ff511-ce74-419a-a9d0-5a563e04de4c.LOFI.mp3",
+"name": "I Will featuring Pawas",
+"mix": "Nhar Remix",
+"genre": "deep-house",
+"released": "2025-10-03"
+},
+{
+"minute": 6,
+"artist": "M.E.M.O. Feat. Muser",
+"title": "Ombaya",
+"label": "Mobilee"
+},
+{
+"minute": 12,
+"artist": "Mallinder",
+"title": "Dust Storm (Andr\u00e9 Moret Remix)",
+"label": "Nightcolours",
+"bp": "bp:21683942",
+"score": 0.914,
+"preview": "https://geo-samples.beatport.com/track/5f182ddb-e40e-4842-9fce-304e6d162c23.LOFI.mp3",
+"name": "Dust Storm",
+"mix": "Andr\u00e9 Moret Extended Remix",
+"genre": "progressive-house",
+"released": "2025-10-03"
+},
+{
+"minute": 19,
+"artist": "Rico Puestel",
+"title": "L. B. A. S.",
+"label": "Time In The Special Practice Of Relativity",
+"bp": "bp:21780887",
+"score": 0.782,
+"preview": "https://geo-samples.beatport.com/track/60980462-a041-401a-90ac-457a4b5e0e8a.LOFI.mp3",
+"name": "L. B. A. S. ",
+"mix": "Dub Mix",
+"genre": "house",
+"released": "2025-10-24"
+},
+{
+"minute": 25,
+"artist": "White Sheep",
+"title": "Move (Mahony Remix)",
+"label": "SCI + TEC",
+"bp": "bp:22732899",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/52b69653-609d-4ba2-9e15-d7b5b11b0e0f.LOFI.mp3",
+"name": "Move ",
+"mix": "Mahony Remix",
+"genre": "tech-house",
+"released": "2025-12-16"
+},
+{
+"minute": 30,
+"artist": "Simon Vuarambon",
+"title": "DEC",
+"label": "SCI + TEC"
+},
+{
+"minute": 35,
+"artist": "Arkady Antsyrev",
+"title": "Loud 'N Proud",
+"label": "Sublease",
+"bp": "bp:21084995",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/c5072f55-5da7-4070-aba8-3c7909305fd0.LOFI.mp3",
+"name": "Loud 'n Proud",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-08-29"
+},
+{
+"minute": 41,
+"artist": "Zoo Brazil",
+"title": "Hot Afternoon",
+"label": "John Henry",
+"bp": "bp:21512667",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/5577a911-2392-4418-9837-bf514446e6a3.LOFI.mp3",
+"name": "Hot Afternoon",
+"mix": "Extended Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-10-03"
+},
+{
+"minute": 49,
+"artist": "Romulo",
+"title": "Little Helper 429-2",
+"label": "Little Helpers",
+"bp": "bp:20711782",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/c33ae06b-bd55-4504-a876-67492c15c12a.LOFI.mp3",
+"name": "Little Helper 429-2",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-09-09"
+},
+{
+"minute": 53,
+"artist": "Nadja Lind",
+"title": "Dub At Ease (Dip Remix)",
+"label": "Lucidflow",
+"bp": "bp:21114444",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bb26ff6e-b812-41c9-bfba-dd33ab9f14ea.LOFI.mp3",
+"name": "Dub at Ease",
+"mix": "DIP Remix",
+"genre": "tech-house",
+"released": "2025-09-05"
+},
+{
+"minute": 60,
+"artist": "Sufjan Stevens",
+"title": "Mystery Of Love (Nick Warren & Fran Bux Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Juani Bria",
+"title": "Artemisa (Breaks Mix)",
+"label": "Manual Deep",
+"bp": "bp:21281716",
+"score": 0.984,
+"preview": "https://geo-samples.beatport.com/track/2e0d8edb-9b5e-4567-b5f1-29b5b9879310.LOFI.mp3",
+"name": "Artemisa ",
+"mix": "Break Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2025-09-12"
+},
+{
+"minute": null,
+"artist": "Cumele",
+"title": "Tamis",
+"label": ""
+},
+{
+"minute": null,
+"artist": "GE\u00d8VH\u00c4N",
+"title": "Harmonia",
+"label": "The Soundgarden"
+},
+{
+"minute": null,
+"artist": "Arctic White",
+"title": "Infinito Futuro",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Spooky",
+"title": "Schmoo",
+"label": "Guerilla"
+},
+{
+"minute": null,
+"artist": "Mass Digital",
+"title": "Arise",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nick Warren",
+"title": "Waves",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Fran Baigo",
+"title": "Levitate",
+"label": ""
+},
+{
+"minute": null,
+"artist": "K Loveski & Tetouze",
+"title": "Cantara Playa",
+"label": "",
+"bp": "bp:23753789",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/cadef3a9-8f5c-4f8c-b9ee-6cf0d8ad1e47.LOFI.mp3",
+"name": "Cantara Playa",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2026-02-06"
+}
+]
+},
+{
+"title": "2026-05-14 - Nick Warren - May Promo Mix",
+"records": []
+}
+]
+}

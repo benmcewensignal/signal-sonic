@@ -1,0 +1,1955 @@
+{
+"dj": "HAAi",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-04-20 - HAAi @ Rainbow Disco Club, Higashi Izu Cross Country Course, Tokyo (RDC 074)",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 5,
+"artist": "Dubfire & Oliver Huntemann",
+"title": "Dios",
+"label": "Ideal"
+},
+{
+"minute": 9,
+"artist": "Radio Slave",
+"title": "Grindhouse (Dubfire Terror Planet Remix)",
+"label": "Rekids",
+"bp": "bp:804648",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/07995e5e-3e91-4f15-b6d3-c03f97b8e167.LOFI.mp3",
+"name": "Grindhouse",
+"mix": "Dubfire Terror Planet Remix",
+"genre": "techno-peak-time-driving",
+"released": "2009-03-15"
+},
+{
+"minute": 15,
+"artist": "Lupe",
+"title": "The Invocation",
+"label": "Pets",
+"bp": "bp:17992355",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/261953dd-e642-40e9-ad8c-a8cccb9c5145.LOFI.mp3",
+"name": "The Invocation",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-09-01"
+},
+{
+"minute": 19,
+"artist": "Robag Wruhme",
+"title": "Frontex Frappant",
+"label": "Natura Viva Black",
+"bp": "bp:15446967",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/ade78427-b2d5-4b9d-944b-25aa0b577bb9.LOFI.mp3",
+"name": "Frontex Frappant",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2021-07-30"
+},
+{
+"minute": 24,
+"artist": "Cirez D",
+"title": "Raptor",
+"label": ""
+},
+{
+"minute": 28,
+"artist": "Domshe",
+"title": "Feelin (Conrad Rogers Remix)",
+"label": "Bach",
+"bp": "bp:15689904",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/81cf4c2b-cd4d-4ee2-8424-74193491a50d.LOFI.mp3",
+"name": "Feelin",
+"mix": "Conrad Rogers Remix",
+"genre": "techno-peak-time-driving",
+"released": "2021-10-14"
+},
+{
+"minute": 31,
+"artist": "Lubelski",
+"title": "Don't Touch Me (While I'm Dancing)",
+"label": "Fantastic Voyage",
+"bp": "bp:18089594",
+"score": 0.899,
+"preview": "https://geo-samples.beatport.com/track/537dae4a-dd9b-4dcf-a838-21ad8894e2af.LOFI.mp3",
+"name": "Don't Touch Me (While I'm Dancing)",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-09-08"
+},
+{
+"minute": 35,
+"artist": "Pegassi",
+"title": "Yoyoyo (Extended Mix)",
+"label": "Zeitgeist",
+"bp": "bp:17606225",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd40e8cb-0044-4333-ac8c-82cc5432a44c.LOFI.mp3",
+"name": "Yoyoyo",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-04-07"
+},
+{
+"minute": 40,
+"artist": "Robag Wruhme",
+"title": "Un-Spoke-En",
+"label": "Kompakt Extra",
+"bp": "bp:17029845",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/99860943-4b9f-4bce-9cb7-099c9c2f26b2.LOFI.mp3",
+"name": "Un-spoke-en",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2022-11-11"
+},
+{
+"minute": 45,
+"artist": "Vromo",
+"title": "Pump The Rhythm",
+"label": "Paling Trax",
+"bp": "bp:17658101",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/adf4cca1-1bc2-4c3d-8286-92a4fd37f2c4.LOFI.mp3",
+"name": "Pump The Rhythm",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-05-05"
+},
+{
+"minute": 48,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 55,
+"artist": "DJ Babatr",
+"title": "To-K",
+"label": "International Chrome"
+},
+{
+"minute": 58,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 63,
+"artist": "Joy Orbison",
+"title": "Flight Fm",
+"label": ""
+},
+{
+"minute": 66,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 71,
+"artist": "Cirez D",
+"title": "Diamond Girl",
+"label": "Joia",
+"bp": "bp:7824027",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/ce9b8279-6b9f-4668-b2d2-57bccf3abcd1.LOFI.mp3",
+"name": "Diamond Girl",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2016-04-18"
+},
+{
+"minute": 76,
+"artist": "Cirez D",
+"title": "Mokba",
+"label": ""
+},
+{
+"minute": 85,
+"artist": "HAAi",
+"title": "6666",
+"label": "Mute (Artist Intelligence)"
+},
+{
+"minute": 88,
+"artist": "Kyle Watson",
+"title": "The Reason (Extended Mix)",
+"label": "Spinnin'",
+"bp": "bp:16998458",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a1ff2a55-b23d-4c7f-afcb-b2a9766b1f68.LOFI.mp3",
+"name": "The Reason",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-10-28"
+},
+{
+"minute": 91,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 95,
+"artist": "ROSAL\u00cdA",
+"title": "A Pal\u00e9",
+"label": ""
+},
+{
+"minute": 98,
+"artist": "Whitesquare",
+"title": "Inside Your Soul",
+"label": "Visual Distortions",
+"bp": "bp:17033540",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/d46a2317-ef04-4f59-a00e-86c07ee93abd.LOFI.mp3",
+"name": "Inside Your Soul",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2022-10-28"
+},
+{
+"minute": 101,
+"artist": "Catz 'N Dogz & Ferreck Dawn",
+"title": "Cloud 9 (Extended Mix)",
+"label": "Tomorrowland",
+"bp": "bp:17357548",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/99d464c7-6774-4e37-91ce-ac4609f14e2d.LOFI.mp3",
+"name": "Cloud 9",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2023-01-27"
+},
+{
+"minute": 105,
+"artist": "Marc DePulse",
+"title": "Motor",
+"label": "JEAHMON! Redux"
+},
+{
+"minute": 109,
+"artist": "Rising Dust & Astrix",
+"title": "Universo",
+"label": "Shamanic Tales"
+},
+{
+"minute": 116,
+"id": null,
+"raw": "?"
+}
+]
+},
+{
+"title": "2024-06-14 - Jennifer Cardini b2b HAAi @ S\u00f3nar By Night, Fira Gran Via, S\u00f3nar",
+"records": [
+{
+"minute": 0,
+"artist": "Gerd",
+"title": "Let The Music Take Control (DJ Tool)",
+"label": "",
+"bp": "bp:19083237",
+"score": 0.937,
+"preview": "https://geo-samples.beatport.com/track/d4b2b06a-cde3-4aff-b9aa-dd539e2d5041.LOFI.mp3",
+"name": "Let The Music Take Control (DJ Tool)",
+"mix": "DJ Tool",
+"genre": "dj-tools-acapellas",
+"released": "2024-06-21"
+},
+{
+"minute": 2,
+"artist": "Clint",
+"title": "Deacon Frost",
+"label": "",
+"bp": "bp:18190081",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/2debfe0b-558f-41ad-a1af-12dd3a703f40.LOFI.mp3",
+"name": "Deacon Frost",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2023-10-20"
+},
+{
+"minute": 6,
+"artist": "Marco Faraone",
+"title": "Emergency",
+"label": "Drumcode"
+},
+{
+"minute": 10,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 15,
+"artist": "Boys Noize",
+"title": "FVKVRVND",
+"label": "HARD"
+},
+{
+"minute": 18,
+"artist": "Adiel",
+"title": "Nulla Resta (Adihell Version)",
+"label": "",
+"bp": "bp:17714058",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5ff31d86-1946-4b32-a269-32d5717b67bb.LOFI.mp3",
+"name": "Nulla Resta",
+"mix": "Adihell version",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2023-06-16"
+},
+{
+"minute": 23,
+"artist": "DJ Babatr",
+"title": "To-K",
+"label": "International Chrome"
+},
+{
+"minute": 25,
+"artist": "DJ Babatr",
+"title": "Xpansion Move",
+"label": "Pary\u00eca",
+"bp": "bp:18779121",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/c8d3638e-445f-4e94-8b6f-fbe56519e160.LOFI.mp3",
+"name": "Xpansion Move",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2024-04-18"
+},
+{
+"minute": 29,
+"artist": "Taube",
+"title": "Gelitaka",
+"label": "Boysnoize"
+},
+{
+"minute": 33,
+"artist": "X-COAST",
+"title": "Marathon Man",
+"label": "",
+"bp": "bp:18819934",
+"score": 0.836,
+"preview": "https://geo-samples.beatport.com/track/ed163583-6d78-4efc-88a3-61383f4fd782.LOFI.mp3",
+"name": "Marathon Man",
+"mix": "Extended",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2024-04-04"
+},
+{
+"minute": 36,
+"artist": "KARPOVICH & TOMA",
+"title": "BAIT",
+"label": "SAPIENT ROBOTS"
+},
+{
+"minute": 40,
+"artist": "Supergloss",
+"title": "Not Your Type",
+"label": "Hope For Daughters",
+"bp": "bp:18927092",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/a603f068-4842-4d88-a2b5-afbf9fcbaaaa.LOFI.mp3",
+"name": "Not Your Type",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-05-15"
+},
+{
+"minute": 44,
+"artist": "KI/KI",
+"title": "5 Mins Of Acid",
+"label": "Slash",
+"bp": "bp:19051747",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/50638d7a-a44a-4206-83a4-a028244a8e4e.LOFI.mp3",
+"name": "5 Mins Of Acid",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2024-05-31"
+},
+{
+"minute": 48,
+"artist": "Kyle Starkey",
+"title": "I Need U",
+"label": ""
+},
+{
+"minute": 53,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 59,
+"artist": "Clint",
+"title": "Native House Dance",
+"label": "Permanent Vacation",
+"bp": "bp:19126563",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/1b508a58-9fb5-4259-9e02-4d503ed358f0.LOFI.mp3",
+"name": "Native House Dance",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-06-21"
+},
+{
+"minute": 63,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 66,
+"artist": "TSVI",
+"title": "Movimento",
+"label": "TraTraTrax"
+},
+{
+"minute": 70,
+"artist": "Vv Pete & UTILITY & Effy",
+"title": "Jordan 1s (Effy Rework)",
+"label": "",
+"bp": "bp:19106015",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4095ae13-2aca-4a7b-9a32-8eb5bf791853.LOFI.mp3",
+"name": "Jordan 1s",
+"mix": "Effy Rework",
+"genre": "bass-club",
+"released": "2024-05-30"
+},
+{
+"minute": 74,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 76,
+"artist": "Batenko",
+"title": "Caliente",
+"label": "Step Ball Chain",
+"bp": "bp:19103443",
+"score": 0.784,
+"preview": "https://geo-samples.beatport.com/track/8360344b-9718-4543-92ff-41e1a8a2896c.LOFI.mp3",
+"name": "Caliente",
+"mix": "Original",
+"genre": "melodic-house-techno",
+"released": "2024-06-28"
+},
+{
+"minute": 80,
+"artist": "Rising Dust & Astrix",
+"title": "Universo",
+"label": "Shamanic Tales"
+},
+{
+"minute": 87,
+"id": null,
+"raw": "?"
+}
+]
+},
+{
+"title": "2025-09-10 - HAAi @ The Lot Radio",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 9,
+"artist": "Vision & Canedy",
+"title": "Aero Plane",
+"label": "Hadshot Haheizar"
+},
+{
+"minute": 15,
+"artist": "People's Party",
+"title": "De Colores",
+"label": "For The People",
+"bp": "bp:20771678",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/5319c269-dc84-4c43-a719-58c85b76b6af.LOFI.mp3",
+"name": "De Colores",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-08-15"
+},
+{
+"minute": 21,
+"artist": "Lil' Mo' Yin Yang",
+"title": "Reach (Alcatraz Straight Jacket Dub / Alcatraz Lil' Mo' Got Gangbanged Mix)",
+"label": "",
+"bp": "bp:23141319",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/54490a97-656a-4d3b-9ec1-5beda18ffa4c.LOFI.mp3",
+"name": "Reach",
+"mix": "Alcatraz Straight Jacket Dub / Alcatraz Lil' Mo' Got Gangbanged Mix",
+"genre": "dance-pop",
+"released": "2020-07-16"
+},
+{
+"minute": 26,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 30,
+"artist": "Ron Brown",
+"title": "Hello Man",
+"label": ""
+},
+{
+"minute": 35,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 47,
+"artist": "Dusky",
+"title": "Reverse",
+"label": "Fabric"
+},
+{
+"minute": 50,
+"artist": "Tomcraft",
+"title": "Loneliness (Klub Cut)",
+"label": "Kosmo",
+"bp": "bp:17356587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ceb86749-85c8-4be8-b8a6-a8b089dc8d26.LOFI.mp3",
+"name": "Loneliness",
+"mix": "Klub Cut",
+"genre": "dance-pop",
+"released": "2023-01-27"
+},
+{
+"minute": 55,
+"id": null,
+"raw": "?"
+}
+]
+},
+{
+"title": "2025-10-02 - Tim Sweeney, HAAi - Beats In Space 179, Apple Music",
+"records": [
+{
+"minute": 0,
+"artist": "Avalon Emerson",
+"title": "One More Fluorescent Rush",
+"label": "",
+"bp": "bp:9856565",
+"score": 0.876,
+"preview": "https://geo-samples.beatport.com/track/fd6b2031-9a6c-4550-87e0-90bb0508bf9e.LOFI.mp3",
+"name": "One More Fluorescent Rush",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-11-03"
+},
+{
+"minute": 5,
+"artist": "Boy Harsher Feat. Mariana Salda\u00f1a",
+"title": "Machina",
+"label": ""
+},
+{
+"minute": 9,
+"artist": "Roza Terenzi",
+"title": "Metal Glo (Luca Lozano + Mr. Ho Remix)",
+"label": "",
+"bp": "bp:12774980",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd76241c-ef59-4ea9-99f6-ccab38e6726a.LOFI.mp3",
+"name": "Metal Glo",
+"mix": "Luca Lozano + Mr. Ho Remix",
+"genre": "house",
+"released": "2019-11-01"
+},
+{
+"minute": 15,
+"artist": "Claudia Kane",
+"title": "Surrender",
+"label": "",
+"bp": "bp:21036332",
+"score": 0.76,
+"preview": "https://geo-samples.beatport.com/track/f3f89378-780a-49cb-808d-2d279c2b3cd6.LOFI.mp3",
+"name": "Surrender",
+"mix": "Shero Remix",
+"genre": "electronica",
+"released": "2025-09-12"
+},
+{
+"minute": 18,
+"artist": "Warpaint & HAAi",
+"title": "Champion (HAAi Remix)",
+"label": "",
+"bp": "bp:29996317",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/79595c36-1de7-4e3d-9f9c-3efe48c2570f.LOFI.mp3",
+"name": "Champion",
+"mix": "HAAi Remix",
+"genre": "house",
+"released": "2022-08-05"
+},
+{
+"minute": 22,
+"artist": "M83",
+"title": "Fantasy (Sofia Kourtesis Remix)",
+"label": "",
+"bp": "bp:18851509",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a890ae09-31c7-443b-8ec2-c50b8a2a5c2c.LOFI.mp3",
+"name": "Fantasy",
+"mix": "Sofia Kourtesis Remix",
+"genre": "dance-pop",
+"released": "2023-03-17"
+},
+{
+"minute": 25,
+"artist": "Ruthlss",
+"title": "Ascension",
+"label": ""
+},
+{
+"minute": 29,
+"artist": "Avalon Emerson & Priori",
+"title": "You're My World",
+"label": "",
+"bp": "bp:20778939",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/65623e3b-3da4-4a47-acac-48c45c9e5a68.LOFI.mp3",
+"name": "You're My World",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-08-12"
+},
+{
+"minute": 34,
+"artist": "George Daniel & Oscar Farrell",
+"title": "Volc3 (Jacques Greene Remix)",
+"label": "",
+"bp": "bp:20387844",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dbba3884-a1fc-43c6-9569-d0f7264a59c1.LOFI.mp3",
+"name": "volc3",
+"mix": "Jacques Greene remix",
+"genre": "minimal-deep-tech",
+"released": "2025-05-01"
+},
+{
+"minute": 38,
+"artist": "I. JORDAN & Tusks",
+"title": "Adore (I. Jordan Remix)",
+"label": "",
+"bp": "bp:21250335",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cae1b49d-ff4e-4e8d-9f3c-f91707aef880.LOFI.mp3",
+"name": "Adore",
+"mix": "I. JORDAN Remix",
+"genre": "electronica",
+"released": "2025-10-01"
+},
+{
+"minute": 41,
+"artist": "WK7",
+"title": "Do It Yourself",
+"label": "",
+"bp": "bp:5220786",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/47c07318-de33-4973-8d86-2c7632f20108.LOFI.mp3",
+"name": "Do It Yourself",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2013-05-17"
+},
+{
+"minute": 44,
+"artist": "Danny Tenaglia Feat. Celeda",
+"title": "Music Is The Answer (Dancin' And Prancin')",
+"label": "",
+"bp": "bp:24577191",
+"score": 0.824,
+"preview": "https://geo-samples.beatport.com/track/402b227b-5e62-4758-8e3a-fd8386489ce1.LOFI.mp3",
+"name": "Music Is The Answer (Dancin' & Prancin')",
+"mix": "Dancin' & Prancin'",
+"genre": "dance-pop",
+"released": "1998-05-19"
+},
+{
+"minute": 49,
+"artist": "Shanti Celeste",
+"title": "Unwind (Extended Version)",
+"label": "",
+"bp": "bp:20405416",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/87df78d6-1421-4369-81b2-15259cc23f3e.LOFI.mp3",
+"name": "Unwind ",
+"mix": "Extended Version",
+"genre": "electronica",
+"released": "2025-04-17"
+},
+{
+"minute": 51,
+"artist": "Regularfantasy",
+"title": "Running Around",
+"label": "",
+"bp": "bp:16397804",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/6d86ba5f-d9ed-46f3-befd-2be5ce0ce543.LOFI.mp3",
+"name": "Running Around",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2022-03-31"
+},
+{
+"minute": 55,
+"artist": "Ada",
+"title": "Eve (DJ Koze Remix)",
+"label": "",
+"bp": "bp:9846357",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c13a4ad1-08a4-4b54-8f11-0a7a16e21bb6.LOFI.mp3",
+"name": "Eve",
+"mix": "DJ Koze Remix",
+"genre": "deep-house",
+"released": "2017-10-27"
+},
+{
+"minute": 0,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 3,
+"artist": "J Wax",
+"title": "PASALO",
+"label": ""
+},
+{
+"minute": 6,
+"artist": "Wigs",
+"title": "Trigger Step",
+"label": ""
+},
+{
+"minute": 10,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 13,
+"artist": "People's Party",
+"title": "De Colores",
+"label": "",
+"bp": "bp:20771678",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/5319c269-dc84-4c43-a719-58c85b76b6af.LOFI.mp3",
+"name": "De Colores",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-08-15"
+},
+{
+"minute": 17,
+"artist": "Butch",
+"title": "Moroccans From Outer Space With Lasers",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Ron Brown",
+"title": "Hello Man",
+"label": ""
+},
+{
+"minute": 23,
+"artist": "Skybreak",
+"title": "ANXIETY",
+"label": ""
+},
+{
+"minute": 26,
+"artist": "Floating Points",
+"title": "Fast Forward",
+"label": "",
+"bp": "bp:19503640",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/756eaced-87b2-4f22-9f37-8e085c3515e1.LOFI.mp3",
+"name": "Fast Forward",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-09-13"
+},
+{
+"minute": 32,
+"artist": "Audiojack",
+"title": "Pusher (Extended)",
+"label": "",
+"bp": "bp:16572983",
+"score": 0.929,
+"preview": "https://geo-samples.beatport.com/track/7e5104cb-59cb-4952-a6db-87baf11dcb77.LOFI.mp3",
+"name": "Pusher",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2022-06-17"
+},
+{
+"minute": 36,
+"artist": "DJ SWISHERMAN",
+"title": "DRILLS",
+"label": ""
+},
+{
+"minute": 39,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 42,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 47,
+"artist": "Yo Speed",
+"title": "Muita",
+"label": ""
+},
+{
+"minute": 51,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 55,
+"artist": "HAAi",
+"title": "Can't Stand To Lose",
+"label": "",
+"bp": "bp:20044066",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/7f0c0cdb-6f40-41be-9642-2d747ace9290.LOFI.mp3",
+"name": "Can't Stand To Lose",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2025-02-11"
+}
+]
+},
+{
+"title": "2026-01-16 - HAAi b2b Romy @ The Lot Radio",
+"records": [
+{
+"minute": 0,
+"artist": "Cocteau Twins",
+"title": "Cherry Coloured Funk (Stijn House Mix)",
+"label": "4AD"
+},
+{
+"minute": 4,
+"artist": "131bpm",
+"title": "Anoyx",
+"label": "Body Language Berlin"
+},
+{
+"minute": 9,
+"artist": "Tirzah",
+"title": "Make It Up (Hackman Remix)",
+"label": "Greco-Roman",
+"bp": "bp:21146522",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a1ac2ee-1c0a-4f95-b814-ca41b458ba2a.LOFI.mp3",
+"name": "Make It Up ",
+"mix": "Hackman Remix",
+"genre": "house",
+"released": "2025-08-15"
+},
+{
+"minute": 13,
+"artist": "Regularfantasy",
+"title": "So Sweet (Spriitzz Remix)",
+"label": "Specials"
+},
+{
+"minute": 20,
+"artist": "The Knife",
+"title": "Like A Pen",
+"label": "Brille",
+"bp": "bp:1720391",
+"score": 0.787,
+"preview": "https://geo-samples.beatport.com/track/dab4c7e4-b28b-4d36-b1d0-4dd2b8555d97.LOFI.mp3",
+"name": "Like A Pen",
+"mix": "Radio Edit",
+"genre": "electronica",
+"released": "2006-11-28"
+},
+{
+"minute": 23,
+"artist": "Mighty Dub Katz",
+"title": "Let The Drums Speak (Butch Remix)",
+"label": "Southern Fried",
+"bp": "bp:8330612",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/39985c0a-656e-4c02-9637-8504be79ee65.LOFI.mp3",
+"name": "Let the Drums Speak",
+"mix": "Butch Remix",
+"genre": "deep-house",
+"released": "2016-09-23"
+},
+{
+"minute": 28,
+"artist": "Fred Again.. & Romy & HAAi",
+"title": "Lights Out (HAAi Remix)",
+"label": "",
+"bp": "bp:27737974",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/c1bcb115-edf5-4648-bfcf-8c665ccd1802.LOFI.mp3",
+"name": "Lights Out (feat. Fred again..)",
+"mix": "HAAi Remix",
+"genre": "dance-pop",
+"released": "2022-01-20"
+},
+{
+"minute": 34,
+"artist": "Moxy Edits",
+"title": "Moxy Edits 001",
+"label": "Self Released"
+},
+{
+"minute": 37,
+"artist": "Joe Duala",
+"title": "Dreamlover",
+"label": ""
+},
+{
+"minute": 43,
+"artist": "''HAAi & Romy",
+"title": "?''",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "Signum Feat. Scott Mac",
+"title": "Coming On Strong",
+"label": "Jinx / Armada",
+"bp": "bp:20631405",
+"score": 0.768,
+"preview": "https://geo-samples.beatport.com/track/d830782b-3f3b-49a0-a844-2c7984dd584b.LOFI.mp3",
+"name": "Coming On Strong",
+"mix": "Acapella",
+"genre": "dj-tools-acapellas",
+"released": "2025-06-20"
+},
+{
+"minute": 55,
+"artist": "HAAi",
+"title": "Stitches (Romy Remix)",
+"label": "Mute",
+"bp": "bp:22807175",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93efa3d6-4b8d-43ab-a9a6-4ec42ce6ae1d.LOFI.mp3",
+"name": "Stitches",
+"mix": "Romy Remix",
+"genre": "melodic-house-techno",
+"released": "2025-12-02"
+}
+]
+},
+{
+"title": "2026-02-04 - HAAi - Moxie Covering, NTS Radio",
+"records": [
+{
+"minute": 0,
+"artist": "Labi Siffre",
+"title": "My Song",
+"label": "Pye International"
+},
+{
+"minute": null,
+"artist": "[00?] ''HAAi",
+"title": "?''",
+"label": ""
+},
+{
+"minute": 9,
+"artist": "Alex Lustig",
+"title": "Dreams (Slowed)",
+"label": "",
+"bp": "bp:17368027",
+"score": 0.779,
+"preview": "https://geo-samples.beatport.com/track/2f8e7942-71ae-4629-b715-133777b9bed6.LOFI.mp3",
+"name": "Dream (Slowed)",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-02-03"
+},
+{
+"minute": 11,
+"artist": "Deep Forest",
+"title": "Sweet Lullaby (Remix)",
+"label": "Epic"
+},
+{
+"minute": 14,
+"artist": "Ludwig A.F. & Just Lil",
+"title": "Summerwing",
+"label": "Exo International",
+"bp": "bp:19305406",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/ae04944e-b676-43b4-bd42-537b7eb868e4.LOFI.mp3",
+"name": "Summerwing",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-10-04"
+},
+{
+"minute": 18,
+"artist": "Mildlife",
+"title": "Return To Centaurus",
+"label": "Heavenly",
+"bp": "bp:18575553",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/14afe65d-377b-415e-81fe-9c80ddb320ef.LOFI.mp3",
+"name": "Return To Centaurus",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-01-23"
+},
+{
+"minute": null,
+"artist": "[0??] HAAi",
+"title": "Go (Echonomist Remix)",
+"label": "Mute"
+},
+{
+"minute": 34,
+"artist": "Facta, K-Lone",
+"title": "Each Story",
+"label": "Wisdom Teeth",
+"bp": "bp:20329194",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/228c419f-762f-4de1-a9cf-639da0589fd1.LOFI.mp3",
+"name": "Each Story",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-04-15"
+},
+{
+"minute": 37,
+"artist": "Bryan Ferry",
+"title": "Don't Stop The Dance (Todd Terje Remix)",
+"label": "",
+"bp": "bp:15729221",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/68afcc74-2049-440a-a62a-cd1633c7cf52.LOFI.mp3",
+"name": "Don't Stop The Dance",
+"mix": "Todd Terje Remix",
+"genre": "dance-pop",
+"released": "1985-01-01"
+},
+{
+"minute": 46,
+"artist": "Mr. Flagio",
+"title": "Take A Chance (Vocal Version)",
+"label": "Fonogrammi Particolari"
+},
+{
+"minute": 53,
+"artist": "Afefe Iku",
+"title": "Sista Georgia",
+"label": "ITH Music Services - Yoruba",
+"bp": "bp:16402182",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/38586a76-c36c-4c70-a557-86ad81d07a87.LOFI.mp3",
+"name": "Sista Georgia",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-04-15"
+},
+{
+"minute": 57,
+"artist": "The Field",
+"title": "Over The Ice",
+"label": "Kompakt",
+"bp": "bp:20468067",
+"score": 0.897,
+"preview": "https://geo-samples.beatport.com/track/a3612ca6-9729-456f-a87e-e74426531cc0.LOFI.mp3",
+"name": "Over The Ice",
+"mix": "Edit",
+"genre": "electronica",
+"released": "2025-05-23"
+},
+{
+"minute": 63,
+"artist": "John Tejada",
+"title": "Unstable Condition",
+"label": "Kompakt",
+"bp": "bp:20468197",
+"score": 0.927,
+"preview": "https://geo-samples.beatport.com/track/9c2e6d36-15ab-49b7-8de4-2c7c53138820.LOFI.mp3",
+"name": "Unstable Condition",
+"mix": "Edit",
+"genre": "electronica",
+"released": "2025-05-23"
+},
+{
+"minute": 68,
+"artist": "Il Est Vilaine",
+"title": "Surf Rider",
+"label": "Dialect",
+"bp": "bp:20474179",
+"score": 0.88,
+"preview": "https://geo-samples.beatport.com/track/9d6df27b-ed59-4ff1-a8f0-46a4e9b78a30.LOFI.mp3",
+"name": "SURF RIDER",
+"mix": "Edit",
+"genre": "indie-dance",
+"released": "2025-05-23"
+},
+{
+"minute": 74,
+"artist": "UN*DEUX",
+"title": "Namaste Senorita",
+"label": "Artistellar",
+"bp": "bp:19607597",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/ec477f51-59ad-4b59-8fec-8e7d454f3fbd.LOFI.mp3",
+"name": "Namaste Senorita",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-10-16"
+},
+{
+"minute": 79,
+"artist": "The Art Of Noise",
+"title": "Moments In Love",
+"label": "Beaten",
+"bp": "bp:25634421",
+"score": 0.886,
+"preview": "https://geo-samples.beatport.com/track/a8403075-fa74-4aa3-be97-a62eda64b4d5.LOFI.mp3",
+"name": "Moments In Love",
+"mix": "Beaten",
+"genre": "dance-pop",
+"released": "1985-04-01"
+},
+{
+"minute": 84,
+"artist": "Ralo Tha Pimp & Hampton & Pimpin Ken",
+"title": "Choosey Lady",
+"label": "Music Access,"
+},
+{
+"minute": 85,
+"artist": "Nightmares On Wax",
+"title": "Flip Ya Lid",
+"label": "Warp",
+"bp": "bp:5516234",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/de12c153-f7c2-4f30-9b45-72b3a217fda4.LOFI.mp3",
+"name": "Flip Ya Lid",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2014-06-16"
+},
+{
+"minute": 90,
+"artist": "The Whitest Boy Alive",
+"title": "Burning",
+"label": ""
+},
+{
+"minute": 93,
+"artist": "Yo La Tengo",
+"title": "Center Of Gravity",
+"label": "Matador",
+"bp": "bp:6964888",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/94d5f029-6c9a-45a8-858e-c4708a65ae35.LOFI.mp3",
+"name": "Center of Gravity",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "1997-04-22"
+},
+{
+"minute": 96,
+"artist": "The Mighty Dub Katz",
+"title": "Let The Drums Speak (Butch Remix)",
+"label": "Southern Fried",
+"bp": "bp:8330612",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/39985c0a-656e-4c02-9637-8504be79ee65.LOFI.mp3",
+"name": "Let the Drums Speak",
+"mix": "Butch Remix",
+"genre": "deep-house",
+"released": "2016-09-23"
+},
+{
+"minute": null,
+"artist": "Icemorph",
+"title": "Unprompted",
+"label": "",
+"bp": "bp:23843454",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/7273b9d3-6773-4b8b-a7a7-67a5d277616d.LOFI.mp3",
+"name": "Unprompted",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2026-03-06"
+},
+{
+"minute": 109,
+"artist": "Josh Caffe",
+"title": "Lesson #1",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[11?] ''HAAi",
+"title": "?''",
+"label": ""
+}
+]
+},
+{
+"title": "2026-02-07 - HAAi @ Audio Obscura, Van Nelle Fabriek, Rotterdam",
+"records": [
+{
+"minute": 0,
+"artist": "KUSS",
+"title": "Stay Like This",
+"label": "RAW.",
+"bp": "bp:18977459",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/da89e5bd-e269-4ee6-b69c-79569602ca1e.LOFI.mp3",
+"name": "Stay Like This",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-05-17"
+},
+{
+"minute": 3,
+"artist": "Mario Pi\u00f9 aka D. J. Arabesque",
+"title": "Serendipity (Mas Mix)",
+"label": "Media",
+"bp": "bp:8611067",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/2bd4781f-db1f-463f-b576-95fc7889b383.LOFI.mp3",
+"name": "Serendipity",
+"mix": "Mas Mix",
+"genre": "trance-main-floor",
+"released": "2009-11-01"
+},
+{
+"minute": 6,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 10,
+"artist": "Echonomist",
+"title": "Use Your Illusions",
+"label": "Habitat",
+"bp": "bp:22657538",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/f737ebb1-4747-49e1-8e64-205be5ecdda9.LOFI.mp3",
+"name": "Use Your Illusions",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2025-12-11"
+},
+{
+"minute": 13,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 16,
+"artist": "Hatiras",
+"title": "Hypnotized",
+"label": "Toolroom",
+"bp": "bp:20626343",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/46c76cda-55b0-4fb4-afef-83d78fe99f23.LOFI.mp3",
+"name": "Hypnotized",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2025-07-04"
+},
+{
+"minute": 19,
+"artist": "CASSIMM",
+"title": "LOVE DESIRE (Extended Mix)",
+"label": "",
+"bp": "bp:18141988",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d14eb7c2-e4f9-49ef-8b2a-6b1fbd4623bb.LOFI.mp3",
+"name": "LOVE DESIRE",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2023-10-13"
+},
+{
+"minute": 22,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 25,
+"artist": "B\u0118\u00c3TF\u00d3\u00d8T",
+"title": "MANIAC (Marko East Remix)",
+"label": "F\u00dcT"
+},
+{
+"minute": 28,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 32,
+"artist": "Janis Zielinski",
+"title": "Burn The Rims",
+"label": "Hot Meal",
+"bp": "bp:19275412",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f3f0dab9-172c-492b-8ae9-55c6b8949f07.LOFI.mp3",
+"name": "Burn The Rims",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-08-02"
+},
+{
+"minute": 34,
+"artist": "Waajeed",
+"title": "Right Now (Mark Broom Remix)",
+"label": "",
+"bp": "bp:18208003",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6b3ed58c-aebf-438c-ab19-8a19ececfd31.LOFI.mp3",
+"name": "Right Now",
+"mix": "Mark Broom Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-11-17"
+},
+{
+"minute": 37,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 41,
+"artist": "Andruss",
+"title": "Driving To Oblivion",
+"label": "La Pera",
+"bp": "bp:16740811",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/ce85d4ba-632a-42d3-a295-8fcf1061d9be.LOFI.mp3",
+"name": "Driving to Oblivion",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-09-09"
+},
+{
+"minute": 44,
+"artist": "\u232d IceMorph \u232c",
+"title": "Unprompted",
+"label": "Live From Earth",
+"bp": "bp:23843454",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/7273b9d3-6773-4b8b-a7a7-67a5d277616d.LOFI.mp3",
+"name": "Unprompted",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2026-03-06"
+},
+{
+"minute": 47,
+"artist": "Primal Instinct",
+"title": "Iruka",
+"label": ""
+},
+{
+"minute": 50,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 53,
+"artist": "Rihanna",
+"title": "Bitch Better Have My Money (Claude VonStroke Remix)",
+"label": "Roc Nation"
+},
+{
+"minute": 59,
+"artist": "Joy Kitikonti",
+"title": "Joyenergizer (Phisical Mix)",
+"label": "Media",
+"bp": "bp:9024707",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/83b7977b-e503-4dda-9342-72f0f8361c0a.LOFI.mp3",
+"name": "Joyenergizer",
+"mix": "Phisical Mix",
+"genre": "trance-main-floor",
+"released": "2017-02-24"
+},
+{
+"minute": 64,
+"artist": "Yesca",
+"title": "Are They Staring At Me?",
+"label": "",
+"bp": "bp:18922704",
+"score": 0.863,
+"preview": "https://geo-samples.beatport.com/track/09584a0f-1091-44ec-bb82-0a65c7561eba.LOFI.mp3",
+"name": "Are They Staring at Me?",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-05-10"
+},
+{
+"minute": 69,
+"artist": "Radiotrance",
+"title": "Plasma",
+"label": "Transient"
+},
+{
+"minute": 74,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 80,
+"artist": "Andruss & Draxx",
+"title": "Tomala (Se Mueve Se Siente)",
+"label": "Elrow",
+"bp": "bp:19244082",
+"score": 0.876,
+"preview": "https://geo-samples.beatport.com/track/f51d3f3d-e10b-4f6c-baad-b42c41fd595f.LOFI.mp3",
+"name": "Tomala (Se Mueve Se Siente)",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-07-19"
+},
+{
+"minute": 83,
+"artist": "Shagy",
+"title": "Acid Glitch",
+"label": "Flying Hearts",
+"bp": "bp:23650920",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/26e61e0a-7c31-4e20-9854-0790109df554.LOFI.mp3",
+"name": "Acid Glitch",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2026-02-13"
+},
+{
+"minute": 87,
+"artist": "Proxy",
+"title": "Raven",
+"label": ""
+},
+{
+"minute": 88,
+"artist": "Proxy & Torren Foot & Airwolf Paradise",
+"title": "Raven (Torren Foot & Airwolf Paradise Remix)",
+"label": "Turbo",
+"bp": "bp:19163167",
+"score": 0.927,
+"preview": "https://geo-samples.beatport.com/track/d4beedc2-0364-48fd-beac-ecdc046367ce.LOFI.mp3",
+"name": "Raven",
+"mix": "Torren Foot & Airwolf Paradise Remix - Intro Edit",
+"genre": "tech-house",
+"released": "2024-06-21"
+},
+{
+"minute": 97,
+"artist": "Christian Smith & John Selway",
+"title": "Total Departure",
+"label": "",
+"bp": "bp:7329422",
+"score": 0.829,
+"preview": "https://geo-samples.beatport.com/track/a70dc807-c4ca-4a86-8df6-f00804997930.LOFI.mp3",
+"name": "Total Departure",
+"mix": "Wehbba Edit",
+"genre": "techno-peak-time-driving",
+"released": "2015-11-30"
+},
+{
+"minute": 102,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 106,
+"artist": "DJ Bone",
+"title": "They Flew Away",
+"label": "DJ Bone Pres. FURTHER",
+"bp": "bp:20448096",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/f37c9c75-f91e-423f-8e9c-36d2c3bb7444.LOFI.mp3",
+"name": "They Flew Away",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-06-01"
+},
+{
+"minute": 118,
+"artist": "Renato Cohen",
+"title": "Pontap\u00e9 Remake 2013",
+"label": "Drumcode"
+},
+{
+"minute": 122,
+"artist": "Fragma",
+"title": "Toca Me (Inpetto Remix)",
+"label": "",
+"bp": "bp:13261937",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/52da1bdb-e602-4506-af3b-8e0b2556f6d3.LOFI.mp3",
+"name": "Toca Me",
+"mix": "Inpetto Remix",
+"genre": "dance-pop",
+"released": "2018-12-04"
+},
+{
+"minute": 128,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 132,
+"artist": "Tim Taylor And Thor 54",
+"title": "Over The Hill (Oxia Remix)",
+"label": "Missile",
+"bp": "bp:7867653",
+"score": 0.863,
+"preview": "https://geo-samples.beatport.com/track/6a1d4da9-89a6-4a44-8b88-8ea7cc09d8e8.LOFI.mp3",
+"name": "Over the Hill",
+"mix": "Oxia Remix (2001)",
+"genre": "techno-peak-time-driving",
+"released": "2016-05-30"
+},
+{
+"minute": 136,
+"artist": "Vitalic",
+"title": "Valletta Fanfares",
+"label": "Different",
+"bp": "bp:21539653",
+"score": 0.853,
+"preview": "https://geo-samples.beatport.com/track/d37b8f67-e68c-4c30-9918-6c56b527bed2.LOFI.mp3",
+"name": "Valletta Fanfares",
+"mix": "Remastered",
+"genre": "electronica",
+"released": "2025-11-14"
+},
+{
+"minute": 141,
+"artist": "Riordan & Stanton Warriors",
+"title": "Bring Me Down",
+"label": "Black Book",
+"bp": "bp:19120195",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/5bd9b644-d7dd-4274-b4c4-19e14546610a.LOFI.mp3",
+"name": "Bring Me Down",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-06-28"
+},
+{
+"minute": 144,
+"artist": "Basura Boyz & Avilo",
+"title": "Backseat",
+"label": "Retail"
+}
+]
+},
+{
+"title": "2026-05-28 - HAAi - Sound Metaphors TV",
+"records": [
+{
+"minute": 0,
+"artist": "Il Est Vilaine",
+"title": "Surf Rider",
+"label": "Dialect",
+"bp": "bp:20474179",
+"score": 0.88,
+"preview": "https://geo-samples.beatport.com/track/9d6df27b-ed59-4ff1-a8f0-46a4e9b78a30.LOFI.mp3",
+"name": "SURF RIDER",
+"mix": "Edit",
+"genre": "indie-dance",
+"released": "2025-05-23"
+},
+{
+"minute": 6,
+"artist": "Theus Mago & Dominik Marz",
+"title": "Instant Dog",
+"label": "Pets",
+"bp": "bp:19610283",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/9dcf9ae5-260c-47d2-b78b-0c631c0e5082.LOFI.mp3",
+"name": "Instant Dog",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2024-10-25"
+},
+{
+"minute": 12,
+"artist": "Agoria",
+"title": "Code 1026",
+"label": ""
+},
+{
+"minute": 16,
+"id": null,
+"raw": "?"
+},
+{
+"minute": 19,
+"artist": "Andrew Meller",
+"title": "Bee",
+"label": "Flashmob"
+},
+{
+"minute": 21,
+"artist": "Echonomist",
+"title": "Use Your Illusions",
+"label": "Habitat",
+"bp": "bp:22657538",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/f737ebb1-4747-49e1-8e64-205be5ecdda9.LOFI.mp3",
+"name": "Use Your Illusions",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2025-12-11"
+},
+{
+"minute": 27,
+"artist": "Human Movement",
+"title": "Baladna (Our Country)",
+"label": "Gallery",
+"bp": "bp:21978041",
+"score": 0.885,
+"preview": "https://geo-samples.beatport.com/track/1ed33221-ce5b-428b-8908-4c0d8880a57a.LOFI.mp3",
+"name": "Baladna (Our Country)",
+"mix": "Extended",
+"genre": "uk-garage-bassline",
+"released": "2025-10-31"
+},
+{
+"minute": 31,
+"artist": "Echonomist & OVEOUS",
+"title": "The Story Behind",
+"label": "Exit Strategy",
+"bp": "bp:20093736",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/5857b5ec-3345-453c-a072-8f871c4af016.LOFI.mp3",
+"name": "The Story Behind",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2025-02-28"
+},
+{
+"minute": 35,
+"artist": "Robag Wruhme",
+"title": "Wuzzelbud FF",
+"label": "",
+"bp": "bp:10948446",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/5e39c56b-756e-4e36-8908-8a4c25624d28.LOFI.mp3",
+"name": "Wuzzelbud FF",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-09-07"
+},
+{
+"minute": 41,
+"artist": "Gregor Tresher",
+"title": "Eight Track Clubbing",
+"label": "Break New Soil",
+"bp": "bp:1479690",
+"score": 0.853,
+"preview": "https://geo-samples.beatport.com/track/35dc02e8-7c1b-42ef-835e-cb57e5c12643.LOFI.mp3",
+"name": "Eight Track Clubbing",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2010-10-25"
+},
+{
+"minute": 45,
+"artist": "Yesca",
+"title": "Where's The Grit Gone?",
+"label": "Y4 Collective",
+"bp": "bp:18922699",
+"score": 0.858,
+"preview": "https://geo-samples.beatport.com/track/e71b5378-2a44-466e-87c5-74fa633fe3c5.LOFI.mp3",
+"name": "Where's The Grit Gone?",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-05-10"
+},
+{
+"minute": 47,
+"artist": "Joshua James",
+"title": "Hit That",
+"label": ""
+},
+{
+"minute": 51,
+"id": null,
+"raw": "?"
+}
+]
+},
+{
+"title": "2026-09-19 - HAAi - Essential Mix",
+"records": [
+{
+"minute": 0,
+"artist": "HAAi Feat. Kaiden Ford",
+"title": "Humanise",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] ''DOREY",
+"title": "?''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Overmono",
+"title": "Daisy Chain (DJ Sprinter Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Monologue",
+"title": "Doiicce (A Version)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Lucky People Centre International",
+"title": "Dancing Apes (Alex Maya Club Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Straz",
+"title": "Wherewilli",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] ''DJ Jackum",
+"title": "?''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] ''Tom VR",
+"title": "?''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] ''Enigma Trax",
+"title": "?''",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] JXXXO & HERS",
+"title": "Trefpunt",
+"label": "Gheto Rhythm"
+},
+{
+"minute": 41,
+"artist": "Fold & Cu.Rve",
+"title": "Business",
+"label": "Fold"
+},
+{
+"minute": 45,
+"artist": "Cameo Blush",
+"title": "One Chance",
+"label": "Future Classic",
+"bp": "bp:20588675",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/8219d68b-de40-4a8e-90b7-bb6f822e656f.LOFI.mp3",
+"name": "One Chance",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2025-08-07"
+},
+{
+"minute": 49,
+"artist": "Baile Bias",
+"title": "Liebus",
+"label": "Holding Hands"
+},
+{
+"minute": null,
+"artist": "[0??] P\u00e9p\u00e9 Bradock",
+"title": "Deep Burnt (Beatless Version)",
+"label": ""
+},
+{
+"minute": 54,
+"artist": "Kassian",
+"title": "Replicate",
+"label": ""
+},
+{
+"minute": 57,
+"artist": "Matador",
+"title": "Mambo",
+"label": ""
+},
+{
+"minute": 59,
+"artist": "KUSS",
+"title": "Back",
+"label": "Skrypt\u00f6m"
+},
+{
+"minute": 63,
+"artist": "Len Faki",
+"title": "Sexuality (My Reality)",
+"label": "",
+"bp": "bp:20555750",
+"score": 0.871,
+"preview": "https://geo-samples.beatport.com/track/7a7a194d-bc3b-4f56-a7ae-fe9beb14dd82.LOFI.mp3",
+"name": "Sexuality (My Reality)",
+"mix": "My Reality",
+"genre": "house",
+"released": "2025-03-21"
+},
+{
+"minute": 67,
+"artist": "''Dismantle",
+"title": "?''",
+"label": ""
+},
+{
+"minute": 70,
+"artist": "DJ Jackum",
+"title": "Prang",
+"label": "Hotflush"
+},
+{
+"minute": null,
+"artist": "[0??] HearThuG",
+"title": "Crash Into You",
+"label": "",
+"bp": "bp:17357801",
+"score": 0.61,
+"preview": "https://geo-samples.beatport.com/track/3fa799dd-bb0b-4ef2-971a-406aa510cc05.LOFI.mp3",
+"name": "Crash Into You",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2023-02-20"
+},
+{
+"minute": null,
+"artist": "[0??] Fred Again.., Skin On Skin & BEAM",
+"title": "The Floor (HAAi Remix)",
+"label": "",
+"bp": "bp:26902075",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/2cad78a8-23be-49f9-b807-b6e2f15828aa.LOFI.mp3",
+"name": "the floor",
+"mix": "HAAi remix",
+"genre": "dance-pop",
+"released": "2026-03-06"
+},
+{
+"minute": null,
+"artist": "[0??] ''HAAi",
+"title": "?''",
+"label": ""
+},
+{
+"minute": 80,
+"artist": "Kiara Scuro",
+"title": "Witching Hour",
+"label": "Faux Poly",
+"bp": "bp:19943907",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/9a33dc09-e6d5-4d93-b4e0-40f70a94b34c.LOFI.mp3",
+"name": "Witching Hour ",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-02-06"
+},
+{
+"minute": 84,
+"artist": "Placebo",
+"title": "Running Up That Hill (Whitesquare's Closing Down Re Edit)",
+"label": ""
+},
+{
+"minute": 89,
+"artist": "DJ Deep",
+"title": "Stressed",
+"label": "Deeply Rooted"
+},
+{
+"minute": 91,
+"artist": "Alix Alvarez",
+"title": "Fayall (Quell ' Right Now ' Mix)",
+"label": "These Days",
+"bp": "bp:11062344",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0e4bce2b-e188-4231-a0b7-903607432fec.LOFI.mp3",
+"name": "Fayall",
+"mix": "Quell \"Right Now\" Mix",
+"genre": "deep-house",
+"released": "2013-09-02"
+},
+{
+"minute": 96,
+"artist": "Schiller",
+"title": "Ruhe (Humane Remix)",
+"label": "Sleepingroom Musik",
+"bp": "bp:26948404",
+"score": 0.965,
+"preview": "https://geo-samples.beatport.com/track/1afdc5f0-9620-4484-a024-057c1e632598.LOFI.mp3",
+"name": "Ruhe",
+"mix": "Humate Remix",
+"genre": "pop",
+"released": "2002-01-01"
+},
+{
+"minute": 100,
+"artist": "Portishead",
+"title": "Roads (Sultan & Tone Depth Remix / HAAi Edit)",
+"label": ""
+},
+{
+"minute": 106,
+"artist": "New Order",
+"title": "Crystal (Digweed & Muir Bedrock Mix)",
+"label": "",
+"bp": "bp:27365684",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49f7642f-3119-447c-9b14-8c0393e5a9d4.LOFI.mp3",
+"name": "Crystal",
+"mix": "Digweed & Muir Bedrock Mix",
+"genre": "pop",
+"released": "2000-10-10"
+},
+{
+"minute": 117,
+"artist": "HAAi & Jon Hopkins",
+"title": "Baby We're Ascending (HAAi & Dorey Trance Unreleased Rework)",
+"label": ""
+}
+]
+}
+]
+}
