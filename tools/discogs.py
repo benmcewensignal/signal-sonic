@@ -17,7 +17,7 @@ for t, name, arts, label in c.execute("select track_id, name, artists, label fro
 tag = {}
 for t, s in c.execute("select track_id, scene from track_scenes where week like '____-M__' order by week"): tag.setdefault(t, s)
 print(f"{len(want):,} artist-title keys to find", flush=True)
-stream = gzip.GzipFile(fileobj=urllib.request.urlopen(url, timeout=120))
+stream = gzip.GzipFile(fileobj=sys.stdin.buffer) if url == "-" else gzip.GzipFile(fileobj=urllib.request.urlopen(url, timeout=120))
 found = {}; n = kept = 0
 for _, el in etree.iterparse(stream, tag="release", huge_tree=True):
     n += 1

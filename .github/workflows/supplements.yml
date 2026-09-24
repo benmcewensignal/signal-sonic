@@ -29,7 +29,9 @@ jobs:
         # data.discogs.com lists the dumps (CC0) and serves them through its download links
         run: |
           U="https://data.discogs.com/?download=data%2F2026%2Fdiscogs_20260901_releases.xml.gz"
-          echo "::notice title=Discogs dump::using the 1 September 2026 releases dump (10.5 GB)"; python tools/discogs.py sonic.db "$U"
+          H=$(curl -sIL "$U" | grep -iE "^(HTTP|location|content-type|content-length)" | tr -d "\r" | paste -sd"|" -)
+          echo "::notice title=Discogs dump::$H"
+          set -o pipefail; curl -sfL --retry 3 "$U" | python tools/discogs.py sonic.db -
       - name: save
         run: |
           git config user.name sonic-bot; git config user.email sonic@earlysignal.live
