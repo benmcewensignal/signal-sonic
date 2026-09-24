@@ -1,0 +1,508 @@
+{
+"dj": "AniMe",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-04-30 - AniMe @ MayDay - United, Dortmund",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 3,
+"artist": "AniMe & Broken Minds",
+"title": "Go Insane",
+"label": "Dogfight",
+"bp": "bp:18220511",
+"score": 0.772,
+"preview": "https://geo-samples.beatport.com/track/08a64b5b-f591-4fa1-ae0d-818dce4becd6.LOFI.mp3",
+"name": "Go Insane",
+"mix": "Radio Edit",
+"genre": "hard-techno",
+"released": "2023-10-06"
+},
+{
+"minute": 5,
+"artist": "Broken Minds",
+"title": "You Are Mine",
+"label": "Masters Of Hardore",
+"bp": "bp:18136523",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/58f57bb0-fe5c-4203-a413-11171934419a.LOFI.mp3",
+"name": "You Are Mine",
+"mix": "Original Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2023-09-22"
+},
+{
+"minute": 7,
+"artist": "Radical Redemption",
+"title": "Brutal 6.0 (Radical Redemption Remix)",
+"label": "Radical Redemption"
+},
+{
+"minute": 9,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 12,
+"artist": "Broken Minds & AniMe",
+"title": "Furious Anger (Club Mix)",
+"label": "Dogfight",
+"bp": "bp:18633627",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2a42575c-ba68-4aaa-9537-450f07744c61.LOFI.mp3",
+"name": "Furious Anger",
+"mix": "Club Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2024-02-15"
+},
+{
+"minute": 14,
+"artist": "AniMe & Chaos Project",
+"title": "The Sound Of The Underground",
+"label": "Dogfight",
+"bp": "bp:22760954",
+"score": 0.887,
+"preview": "https://geo-samples.beatport.com/track/05517844-2000-400e-bf32-83a6ea5eb7f1.LOFI.mp3",
+"name": "The Sound Of The Underground",
+"mix": "Original Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2024-03-29"
+},
+{
+"minute": 17,
+"artist": "AniMe",
+"title": "The 4th Dimension",
+"label": "Dogfight",
+"bp": "bp:17885530",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/0e33783a-9896-4451-ae67-2bb3e0576a75.LOFI.mp3",
+"name": "The 4th Dimension",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2023-07-27"
+},
+{
+"minute": 18,
+"artist": "Rooler & Kronos",
+"title": "FCK DAT!",
+"label": "Aggressive"
+},
+{
+"minute": 20,
+"artist": "Broken Minds & AniMe",
+"title": "Absolute Power",
+"label": "Broken Minds, AniMe",
+"bp": "bp:12045773",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/36cdd3c2-d29d-480a-a401-68049cb98b54.LOFI.mp3",
+"name": "Absolute Power",
+"mix": "Original Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2019-06-13"
+},
+{
+"minute": 23,
+"artist": "AniMe& Nolz",
+"title": "Voyage Of The Dammed",
+"label": "Masters Of Hardcore"
+},
+{
+"minute": 25,
+"artist": "AniMe & Nolz",
+"title": "Pump Up The Jam",
+"label": "Dogfight",
+"bp": "bp:17885538",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/0b6c0f2f-13dd-409c-bd15-197ad6fafe3e.LOFI.mp3",
+"name": "Pump Up The Jam",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2023-07-27"
+},
+{
+"minute": 27,
+"artist": "AniMe & Miss K8",
+"title": "You & I",
+"label": "Dogfight"
+},
+{
+"minute": 29,
+"artist": "AniMe",
+"title": "Oldschool The School",
+"label": "Dogfight",
+"bp": "bp:17885549",
+"score": 0.853,
+"preview": "https://geo-samples.beatport.com/track/d9f201e0-b37f-4d3a-bb88-546c6605b9cb.LOFI.mp3",
+"name": "Oldschool The School",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2023-07-27"
+},
+{
+"minute": 32,
+"artist": "Rave Is Religion",
+"title": "Rave Is Religion",
+"label": "Masters Of Hardcore"
+},
+{
+"minute": 35,
+"artist": "Namara",
+"title": "Close Your Eyes",
+"label": "DEQUINOX",
+"bp": "bp:19052297",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/5e836193-391e-4aff-81d7-77f4fade68e8.LOFI.mp3",
+"name": "Close Your Eyes",
+"mix": "Original Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2024-05-17"
+},
+{
+"minute": 38,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 42,
+"artist": "DJ Mad Dog",
+"title": "Hardcore Machines",
+"label": "IMD-Overground",
+"bp": "bp:4295910",
+"score": 0.817,
+"preview": "https://geo-samples.beatport.com/track/ec2c457f-a827-4379-b373-96369cc000e7.LOFI.mp3",
+"name": "Hardcore machine",
+"mix": "Original Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2011-06-17"
+},
+{
+"minute": 44,
+"artist": "Creeds",
+"title": "Push Up (Gino Remix)",
+"label": "",
+"bp": "bp:18310425",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d82d20cd-f0ad-44ac-998f-139acf30b753.LOFI.mp3",
+"name": "Push Up",
+"mix": "Gino Remix",
+"genre": "drum-bass",
+"released": "2023-10-22"
+},
+{
+"minute": 47,
+"artist": "Blow Up",
+"title": "Blow Up",
+"label": "Dogfight"
+},
+{
+"minute": 49,
+"artist": "Rebelion",
+"title": "City Lights",
+"label": "",
+"bp": "bp:16217276",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/b50268e8-e61d-4da4-98d7-00167610b47c.LOFI.mp3",
+"name": "City Lights",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2022-02-10"
+},
+{
+"minute": 52,
+"artist": "AniMe",
+"title": "Fine Night",
+"label": "AniMe",
+"bp": "bp:13030040",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/e4d76726-d12a-4c91-92e9-b727d50d530f.LOFI.mp3",
+"name": "Fine Night",
+"mix": "Original Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2020-01-13"
+},
+{
+"minute": 55,
+"artist": "AniMe",
+"title": "Absolute Nightmare",
+"label": "Dogfight",
+"bp": "bp:17885562",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/adbfeb71-9d08-418e-a047-3c40c2f30493.LOFI.mp3",
+"name": "Absolute Nightmare",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2023-07-27"
+}
+]
+},
+{
+"title": "2024-05-19 - AniMe @ Extrema Outdoor, Houthalen-Helchteren, Belgium",
+"records": []
+},
+{
+"title": "2024-12-14 - AniMe @ Thunderdome - Alpha, Sportpaleis, Antwerp",
+"records": []
+},
+{
+"title": "2026-06-25 - AniMe @ Defqon.1 - Sacred Oath",
+"records": [
+{
+"minute": 0,
+"artist": "Broken Minds & AniMe",
+"title": "Absolute Power (AniMe Edit)",
+"label": ""
+},
+{
+"minute": 3,
+"artist": "Dither & Chaos Project",
+"title": "Like To Party",
+"label": "Thunderdome",
+"bp": "bp:20472532",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/8d50dcdf-1e61-435a-b30c-98da2531760e.LOFI.mp3",
+"name": "Like To Party",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2025-05-16"
+},
+{
+"minute": 6,
+"artist": "AniMe Feat. Dave Revan",
+"title": "The Third Invasion (Official Masters Of Hardcore Austria 2018 Anthem) (2022 Refix)",
+"label": "Masters Of Hardcore",
+"bp": "bp:11178461",
+"score": 0.802,
+"preview": "https://geo-samples.beatport.com/track/c4ff9006-6ff8-4c87-a323-76865962e6d6.LOFI.mp3",
+"name": "The Third Invasion (Official Masters of Hardcore Austria 2018 Anthem) feat. Dave Revan",
+"mix": "Radio Edit",
+"genre": "techno-peak-time-driving",
+"released": "2018-11-09"
+},
+{
+"minute": 8,
+"artist": "AniMe",
+"title": "LEVITATE",
+"label": "Thunderdome"
+},
+{
+"minute": 12,
+"artist": "DRS",
+"title": "Voices In My Head X Love Parade",
+"label": "Free",
+"bp": "bp:29182596",
+"score": 0.896,
+"preview": "https://geo-samples.beatport.com/track/a7868bff-d545-454a-89de-c5b7ad7086b0.LOFI.mp3",
+"name": "Voices In My Head x Love Parade",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2026-06-05"
+},
+{
+"minute": 14,
+"artist": "AniMe",
+"title": "Detonate (Hollow & Wrong Sequence Remix)",
+"label": "Traxtorm"
+},
+{
+"minute": 15,
+"artist": "Paul Elstak & AniMe",
+"title": "Sound The Alarm",
+"label": "I Love Beatz",
+"bp": "bp:23962225",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/1ec477d3-8900-4753-bb46-2a24122a832e.LOFI.mp3",
+"name": "Sound The Alarm",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2026-02-27"
+},
+{
+"minute": 18,
+"artist": "Creeds",
+"title": "Push Up (AniMe Hardcore Refix)",
+"label": "Free",
+"bp": "bp:18310425",
+"score": 0.791,
+"preview": "https://geo-samples.beatport.com/track/d82d20cd-f0ad-44ac-998f-139acf30b753.LOFI.mp3",
+"name": "Push Up",
+"mix": "Gino Remix",
+"genre": "drum-bass",
+"released": "2023-10-22"
+},
+{
+"minute": 21,
+"artist": "AniMe",
+"title": "In The End",
+"label": "Dogfight",
+"bp": "bp:26712549",
+"score": 0.862,
+"preview": "https://geo-samples.beatport.com/track/bc107ee7-2772-4fbb-8519-9e7b1ad276bf.LOFI.mp3",
+"name": "In The End ",
+"mix": "Mixed",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2019-04-01"
+},
+{
+"minute": 23,
+"artist": "AniMe & Nolz",
+"title": "Pump Up The Jam",
+"label": "Dogfight",
+"bp": "bp:17885538",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/0b6c0f2f-13dd-409c-bd15-197ad6fafe3e.LOFI.mp3",
+"name": "Pump Up The Jam",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2023-07-27"
+},
+{
+"minute": 26,
+"artist": "AniMe Feat. Nolz",
+"title": "Voyage Of The Damned (Official Dominator 2023 Anthem)",
+"label": "Masters Of Hardcore",
+"bp": "bp:17801604",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1a4e95fd-2e38-48d6-ba53-4b5afe961f8c.LOFI.mp3",
+"name": "Voyage of the Damned",
+"mix": "Official Dominator 2023 Anthem",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2023-06-16"
+},
+{
+"minute": 29,
+"artist": "Miss K8 & AniMe",
+"title": "Legacy",
+"label": "Masters Of Hardcore"
+},
+{
+"minute": 32,
+"artist": "Kronos",
+"title": "HYMN 4 THE WKND",
+"label": "Defqon. 1",
+"bp": "bp:28648543",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/35b07235-6997-4f77-a414-d67addbfe5d9.LOFI.mp3",
+"name": "HYMN 4 THE WKND",
+"mix": "Original Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2026-05-08"
+},
+{
+"minute": 35,
+"artist": "AniMe",
+"title": "Hack The Future (Official Ground Zero 2024 Anthem)",
+"label": "Dogfight",
+"bp": "bp:19368528",
+"score": 0.959,
+"preview": "https://geo-samples.beatport.com/track/66b32d05-27a6-4f26-b56a-d466da9ca510.LOFI.mp3",
+"name": "Hack The Future (Official Ground Zero 2024 Anthem)",
+"mix": "DJ Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2024-08-15"
+},
+{
+"minute": 38,
+"artist": "Alan Walker Feat. Iselin Solheim",
+"title": "Faded (AniMe Refix)",
+"label": "Mer"
+},
+{
+"minute": 41,
+"artist": "DJ Mad Dog & AniMe",
+"title": "Come Get Some",
+"label": "Dogfight",
+"bp": "bp:26712525",
+"score": 0.887,
+"preview": "https://geo-samples.beatport.com/track/08f3e001-94c7-44b5-bccc-e22acb0443d4.LOFI.mp3",
+"name": "Come Get Some ",
+"mix": "Mixed",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2019-04-01"
+},
+{
+"minute": 44,
+"artist": "Dither",
+"title": "G.A.B.B.E.R.",
+"label": "Thunderdome",
+"bp": "bp:19843204",
+"score": 0.788,
+"preview": "https://geo-samples.beatport.com/track/ee46dc33-4ca5-4076-94b1-179aeb1ad69b.LOFI.mp3",
+"name": "G.A.B.B.E.R.",
+"mix": "Omega Remix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2024-12-04"
+},
+{
+"minute": 46,
+"artist": "Nosferatu",
+"title": "Destination: Thunderdome (Official Thunderdome 2024 Anthem)",
+"label": "Thunderdome",
+"bp": "bp:19729002",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/35fb77fd-1c8b-419a-a45d-c450d129bfa6.LOFI.mp3",
+"name": "Destination Thunderdome",
+"mix": "Official Thunderdome 2024 Anthem",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2024-11-08"
+},
+{
+"minute": 49,
+"artist": "Neophyte",
+"title": "Braincracking (Nosferatu Remix)",
+"label": "Border Town",
+"bp": "bp:19052293",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/425976b4-e48a-4341-986b-067c738ebf1f.LOFI.mp3",
+"name": "Braincracking",
+"mix": "Nosferatu Remix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2024-05-17"
+},
+{
+"minute": 50,
+"artist": "Hellfish",
+"title": "Destined For Destruction (Angerfist Remix)",
+"label": "Thunderdome",
+"bp": "bp:28809259",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6ca7e608-5c76-40b7-b11a-e98cc8b69fb3.LOFI.mp3",
+"name": "Destined For Destruction",
+"mix": "Angerfist Remix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2026-05-22"
+},
+{
+"minute": 53,
+"artist": "AniMe",
+"title": "Blow Up (AniMe Refix)",
+"label": "Dogfight",
+"bp": "bp:17229795",
+"score": 0.769,
+"preview": "https://geo-samples.beatport.com/track/5251a500-8176-4cc7-9661-7c8f168dc973.LOFI.mp3",
+"name": "Blow Up",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2022-12-22"
+},
+{
+"minute": 56,
+"artist": "AniMe",
+"title": "Fine Night (Hard Refix)",
+"label": "",
+"bp": "bp:28332610",
+"score": 0.858,
+"preview": "https://geo-samples.beatport.com/track/504189ca-2418-44bb-b441-e649d8be4426.LOFI.mp3",
+"name": "Fine Night (Hard Refix)",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2026-04-15"
+}
+]
+}
+]
+}

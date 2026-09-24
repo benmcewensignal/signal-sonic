@@ -1,0 +1,657 @@
+{
+"dj": "Cincity",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-08-17 - Philou Louzolo & Cincity @ Straf Werk Festival, Havenpark, Amsterdam",
+"records": []
+},
+{
+"title": "2024-10-18 - Cincity @ Awakenings x X, Gashouder, Amsterdam, ADE",
+"records": []
+},
+{
+"title": "2025-10-26 - Cincity @ The Seekers Of Light, WestWeelde, ADE",
+"records": [
+{
+"minute": 0,
+"artist": "Florist & Alex Laine",
+"title": "Hypnotized (Extended Mix)",
+"label": "Unreleased",
+"bp": "bp:21890126",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/640e3917-97d5-433c-b202-200036c63f51.LOFI.mp3",
+"name": "Hypnotized",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2025-10-17"
+},
+{
+"minute": 7,
+"artist": "Cirque Du Soleil",
+"title": "Pambolero (Pr\u00efa, NAB, Zac Martel Remix)",
+"label": "Frooogs",
+"bp": "bp:21982222",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f0bc16e-e4cb-44a8-a906-f38aa6649823.LOFI.mp3",
+"name": "Pambolero",
+"mix": "Pr\u00efa, NAB, Zac Martel Remix",
+"genre": "organic-house",
+"released": "2025-11-07"
+},
+{
+"minute": 10,
+"artist": "Jamek Ortega",
+"title": "Mantra",
+"label": "Klub"
+},
+{
+"minute": 15,
+"artist": "Makebo & Volen Sentir",
+"title": "Alchemist",
+"label": "Lost Miracle"
+},
+{
+"minute": 21,
+"artist": "Yamil",
+"title": "Souq",
+"label": "Sondela"
+},
+{
+"minute": 26,
+"artist": "Ben Arsenal & Poetica Bey",
+"title": "Call Me Back",
+"label": "Departed",
+"bp": "bp:20635333",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/d7fef99a-8fa6-4978-934a-3fec444973a4.LOFI.mp3",
+"name": "Call Me Back",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2025-07-18"
+},
+{
+"minute": 30,
+"artist": "KANKOU",
+"title": "Ubuntu",
+"label": "Afrosteria"
+},
+{
+"minute": 34,
+"artist": "JUNO & Jamek Ortega",
+"title": "Get Em Up",
+"label": "Magnifik"
+},
+{
+"minute": 38,
+"artist": "HotLap",
+"title": "Break Out",
+"label": "Madorasindahouse"
+},
+{
+"minute": 44,
+"artist": "Cincity",
+"title": "Voulez Vous",
+"label": "VOD",
+"bp": "bp:20606835",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/29da1c34-f5b5-441f-b1d3-a50d7c3ed4d6.LOFI.mp3",
+"name": "Voulez Vous",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-06-20"
+},
+{
+"minute": 48,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 53,
+"artist": "Re.You & Paul Brenning",
+"title": "Black Roads (Uvita & Osfur Extended Remix)",
+"label": "LSF21+",
+"bp": "bp:20330751",
+"score": 0.907,
+"preview": "https://geo-samples.beatport.com/track/312d161a-394c-4d46-991e-ea2f800391ec.LOFI.mp3",
+"name": "Black Roads",
+"mix": "Uvita, Osfur & The Scripture Extended Remix",
+"genre": "afro-house",
+"released": "2025-04-11"
+},
+{
+"minute": 58,
+"artist": "Marc Lenz",
+"title": "Arabic Soul (Dilby Remix)",
+"label": "Degree",
+"bp": "bp:19071277",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6f59626-ae8a-4ebc-8bf5-fd742847d4f1.LOFI.mp3",
+"name": "Arabic Soul",
+"mix": "Dilby Remix",
+"genre": "tech-house",
+"released": "2024-06-21"
+},
+{
+"minute": 64,
+"artist": "Qess Feat. Ursula Rucker",
+"title": "Spaces In Between (Rodriguez Jr Remix)",
+"label": "Mobilee",
+"bp": "bp:22034930",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/9394b5a3-6ce3-48ae-a04c-fc9e01d92845.LOFI.mp3",
+"name": "Spaces In Between",
+"mix": "Rodriguez Jr. Remix",
+"genre": "melodic-house-techno",
+"released": "2025-10-31"
+},
+{
+"minute": 68,
+"artist": "Novak",
+"title": "Can You Feel It",
+"label": "Mask\u00e9",
+"bp": "bp:21805174",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/fe9f2f25-cc8f-4d17-a572-70535c36c391.LOFI.mp3",
+"name": "Can You Feel It ",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-10-17"
+},
+{
+"minute": 75,
+"artist": "Junior Jack",
+"title": "E Samba (Junior Jack Original Club Mix)",
+"label": "",
+"bp": "bp:248252",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c0092495-5442-4279-b0dd-82a3f6d6ab0c.LOFI.mp3",
+"name": "E Samba",
+"mix": "Junior Jack Original Club Mix",
+"genre": "house",
+"released": "2003-07-07"
+},
+{
+"minute": 78,
+"artist": "Jonas Blue & Malive & Grigor\u00e9 & Serve Cold",
+"title": "Edge Of Desire (Grigor\u00e9 & Serve Cold Extended Remix)",
+"label": "Defected",
+"bp": "bp:21309608",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1cc125df-3678-4334-8c34-d76fa2cf385b.LOFI.mp3",
+"name": "Edge of Desire",
+"mix": "Grigor\u00e9 & Serve Cold Extended Remix",
+"genre": "afro-house",
+"released": "2025-09-12"
+},
+{
+"minute": 83,
+"artist": "Men From The Nile & Roy Davis Jr. & Jay Juniel",
+"title": "Watch Them Come (Manda Moor Remix)",
+"label": "Undaground Therapy Muzik",
+"bp": "bp:20435004",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6e2f69d6-e24b-4732-ab32-9ebe8a2c2cb7.LOFI.mp3",
+"name": "Watch Them Come",
+"mix": "Manda Moor Remix",
+"genre": "house",
+"released": "2025-05-09"
+},
+{
+"minute": 88,
+"artist": "La Hara",
+"title": "Release Yourself (Instrumental Mix)",
+"label": "NON MERCI MUSIC",
+"bp": "bp:21865090",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/84756350-5926-46b7-92ad-130e953af450.LOFI.mp3",
+"name": "Release Yourself ",
+"mix": "Instrumental Mix",
+"genre": "afro-house",
+"released": "2025-10-17"
+},
+{
+"minute": 93,
+"artist": "Lucho M",
+"title": "Nowey",
+"label": "Mood Child"
+},
+{
+"minute": 97,
+"artist": "Tasty Or Not & Cees & Steve Monite",
+"title": "Only You (Extended Mix)",
+"label": "TASTY",
+"bp": "bp:22007580",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/442d004d-5b7b-4c97-be62-93ed2b2bdd0c.LOFI.mp3",
+"name": "Only You",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2025-10-17"
+},
+{
+"minute": 102,
+"artist": "Bushwacka!",
+"title": "Back To The Underground",
+"label": "Nu Groove",
+"bp": "bp:19657051",
+"score": 0.868,
+"preview": "https://geo-samples.beatport.com/track/9a187762-5392-4bb5-ac1b-23cb852547ca.LOFI.mp3",
+"name": "Back To The Underground",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-11-01"
+},
+{
+"minute": 105,
+"artist": "Spenser M & Mr. Kenou",
+"title": "Control",
+"label": "KUUNGA"
+},
+{
+"minute": 109,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2026-07-11 - NOVA:II (Cincity & Philou Louzolo) @ Awakenings Festival",
+"records": [
+{
+"minute": 0,
+"artist": "Arodes",
+"title": "Trinidad Dreams (Extended Mix)",
+"label": "Kontor",
+"bp": "bp:29030111",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/13699828-8701-410a-abbb-877a5ffdf5e2.LOFI.mp3",
+"name": "Trinidad Dreams",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-06-12"
+},
+{
+"minute": 4,
+"artist": "JOSEPH",
+"title": "B4U",
+"label": "Pampa"
+},
+{
+"minute": 10,
+"artist": "Roy RosenfelD",
+"title": "Dubi",
+"label": "No Drama"
+},
+{
+"minute": 15,
+"artist": "Tartan",
+"title": "Sun",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "Ray Kajioka",
+"title": "Never Ending",
+"label": "Cocoon",
+"bp": "bp:4444040",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/2eff7d1d-7695-4ce2-b1bc-f515d7fbe63b.LOFI.mp3",
+"name": "Never Ending",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2013-06-28"
+},
+{
+"minute": 24,
+"artist": "Deco",
+"title": "Only Us (Extended Mix)",
+"label": "Spinnin'",
+"bp": "bp:29594359",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/34e48950-15d8-4066-acd1-c48526d9db2e.LOFI.mp3",
+"name": "Only Us",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-07-24"
+},
+{
+"minute": 28,
+"artist": "Yamil",
+"title": "Shake It",
+"label": "Cacao"
+},
+{
+"minute": 33,
+"artist": "Agustin Giri",
+"title": "Cruisin'",
+"label": "ICONYC"
+},
+{
+"minute": 36,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 40,
+"artist": "SED\u0100",
+"title": "Lil Bit Of Drums",
+"label": "",
+"bp": "bp:29089665",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/71dc6c49-eca5-4ff5-8fbb-eb5d37ee5c9b.LOFI.mp3",
+"name": "Lil Bit of Drums",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2026-06-19"
+},
+{
+"minute": 44,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 47,
+"artist": "Luch",
+"title": "Shepard's Tone",
+"label": "Gozar",
+"bp": "bp:23894453",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/ef4554f1-77c4-4c4f-9fb8-e860362ec1df.LOFI.mp3",
+"name": "Shepard's Tone",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2026-02-06"
+},
+{
+"minute": 51,
+"artist": "Vini Pistori",
+"title": "Tense Dance",
+"label": "Sum Over Histories",
+"bp": "bp:26974577",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/980bda25-e8a8-4381-9029-a7585bd925e9.LOFI.mp3",
+"name": "Tense Dance",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-04-10"
+},
+{
+"minute": 55,
+"artist": "Axel Boman",
+"title": "Rock Top",
+"label": ""
+},
+{
+"minute": 60,
+"artist": "QT-HIGH",
+"title": "I'm Blessed",
+"label": "Klub",
+"bp": "bp:29144035",
+"score": 0.826,
+"preview": "https://geo-samples.beatport.com/track/44096b57-39e8-4621-b8b6-a7c23f177f14.LOFI.mp3",
+"name": "I'm Blessed",
+"mix": "Extended",
+"genre": "afro-house",
+"released": "2026-06-19"
+},
+{
+"minute": 65,
+"artist": "Whitesquare",
+"title": "Rust And Ruins",
+"label": "Visual Distortions",
+"bp": "bp:19716187",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/be081594-8b23-4a7a-9fd0-c8ac6a3f27f9.LOFI.mp3",
+"name": "Rust And Ruins",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2024-11-22"
+},
+{
+"minute": 71,
+"artist": "Junglewood",
+"title": "Passistas",
+"label": ""
+},
+{
+"minute": 74,
+"artist": "Masomenos",
+"title": "Shaman Academy",
+"label": "Welcome To Masomenos",
+"bp": "bp:5863504",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/710b7a6f-12aa-420e-a857-04985ab33239.LOFI.mp3",
+"name": "Shaman Academy",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2014-10-06"
+},
+{
+"minute": 80,
+"artist": "Geoffrey C & DJ Spen",
+"title": "Beats Like This (Mark Francis Remix)",
+"label": "Quantize",
+"bp": "bp:21063027",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6032f60b-a125-4d13-b5cd-13fad3a12bc2.LOFI.mp3",
+"name": "Beats Like This",
+"mix": "Mark Francis Remix",
+"genre": "house",
+"released": "2025-08-29"
+},
+{
+"minute": 84,
+"artist": "Bonafique",
+"title": "Profill",
+"label": "Crosstown Rebels"
+},
+{
+"minute": 85,
+"artist": "Philou Louzolo",
+"title": "I Can Feel It",
+"label": "Sanctuary",
+"bp": "bp:23011975",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/5082eedd-c67e-4ab3-a804-1a1077bffe27.LOFI.mp3",
+"name": "I Can Feel It ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-16"
+},
+{
+"minute": 87,
+"artist": "Crisologo",
+"title": "Shake",
+"label": "Tortuga"
+},
+{
+"minute": 94,
+"artist": "Bonafique",
+"title": "Profill",
+"label": "Crosstown Rebels"
+},
+{
+"minute": 97,
+"artist": "Theo Parrish",
+"title": "Falling Up (Carl Craig 2013 Remaster)",
+"label": "Third Ear",
+"bp": "bp:4098078",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b1aea71e-87b3-46ff-85f7-8ac209a4c334.LOFI.mp3",
+"name": "Falling Up",
+"mix": "Carl Craig 2013 Remaster",
+"genre": "tech-house",
+"released": "2013-02-15"
+},
+{
+"minute": 104,
+"artist": "Radeckt",
+"title": "Gotta Get Down",
+"label": "Rendition",
+"bp": "bp:29312773",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/ec54a589-5410-4cd3-9909-6ae7b507892a.LOFI.mp3",
+"name": "Gotta Get Down",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2026-07-17"
+},
+{
+"minute": 109,
+"artist": "Ivory",
+"title": "Fantasy",
+"label": "Spectrum"
+},
+{
+"minute": 112,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 116,
+"artist": "Reboot",
+"title": "Silk (Mike The Connector & Daaeeru Extended Remix)",
+"label": "Snatch!",
+"bp": "bp:29537482",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/34df98dd-f377-41f8-942a-0c42bd194890.LOFI.mp3",
+"name": "Silk ",
+"mix": "Mike The Connector & Daaeeru Extended Remix",
+"genre": "house",
+"released": "2026-07-09"
+},
+{
+"minute": 121,
+"artist": "Terranova",
+"title": "Kepler 186F",
+"label": "Sea Of Sand",
+"bp": "bp:18227821",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/02238cd2-d446-4a2b-a05f-98194122146a.LOFI.mp3",
+"name": "Kepler 186F",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-11-10"
+},
+{
+"minute": 126,
+"artist": "Sama",
+"title": "Sweat",
+"label": "MAHOOL"
+},
+{
+"minute": 129,
+"artist": "The Martinez Brothers",
+"title": "Stuff In The Trunk (Patrick Grooves & M.O.N.R.O.E. Remix)",
+"label": "",
+"bp": "bp:10953632",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5fc84a97-3d0e-43f8-b344-45de03463b3e.LOFI.mp3",
+"name": "Stuff In The Trunk",
+"mix": "Patrick Grooves & m.O.N.R.O.E. Remix",
+"genre": "tech-house",
+"released": "2018-08-31"
+},
+{
+"minute": 132,
+"artist": "Jesse Perez",
+"title": "Esa Chiquita (Extended Mix)",
+"label": "No Art",
+"bp": "bp:24274673",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e54b5b95-8e4f-4d79-b381-ba4b8b211544.LOFI.mp3",
+"name": "Esa Chiquita ",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-02-27"
+},
+{
+"minute": 136,
+"artist": "Leo Leonski",
+"title": "Acid Gato",
+"label": "Cacao"
+},
+{
+"minute": 140,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 148,
+"artist": "William Kiss",
+"title": "XXX",
+"label": "Warehouse Project"
+},
+{
+"minute": 152,
+"artist": "Agustin Giri",
+"title": "Cruisin'",
+"label": "ICONYC"
+},
+{
+"minute": 155,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 160,
+"artist": "Basement Jaxx",
+"title": "Fly Life (Hilit Kolet Edit)",
+"label": "",
+"bp": "bp:19547276",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aefe1eed-6d40-41a1-a4db-1cb40d2adc74.LOFI.mp3",
+"name": "Fly Life",
+"mix": "Hilit Kolet Edit",
+"genre": "house",
+"released": "2024-10-18"
+},
+{
+"minute": 165,
+"artist": "2000 And One",
+"title": "Spanish Fly",
+"label": "",
+"bp": "bp:951581",
+"score": 0.788,
+"preview": "https://geo-samples.beatport.com/track/f40bb23c-aa5f-4449-8e0a-d01775572008.LOFI.mp3",
+"name": "Spanish Fly",
+"mix": "Butch Remix",
+"genre": "tech-house",
+"released": "2009-09-14"
+},
+{
+"minute": 171,
+"artist": "MSHU",
+"title": "Africa Is Forever (Hyenah Remix)",
+"label": "Rise",
+"bp": "bp:29469830",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e2166f28-497c-4921-834c-02c99aaff135.LOFI.mp3",
+"name": "Africa Is Forever",
+"mix": "Hyenah Remix",
+"genre": "afro-house",
+"released": "2026-07-24"
+},
+{
+"minute": 175,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 180,
+"artist": "Deetron",
+"title": "Starblazer",
+"label": "",
+"bp": "bp:4727537",
+"score": 0.775,
+"preview": "https://geo-samples.beatport.com/track/94533d8f-0373-4289-a55a-2c4144b491e8.LOFI.mp3",
+"name": "Starblazer",
+"mix": "Bonus Track",
+"genre": "house",
+"released": "2013-10-21"
+}
+]
+}
+]
+}

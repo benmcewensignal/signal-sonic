@@ -1,0 +1,587 @@
+{
+"dj": "XDB",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-03-02 - XDB @ Rio Hostel Presents Bonanza Festival, Magdalena, Colombia (Rio 005)",
+"records": []
+},
+{
+"title": "2024-04-20 - XDB @ Selectors Club, Stilbrvch, G\u00f6ttingen, Germany",
+"records": []
+},
+{
+"title": "2024-09-02 - XDB @ Dimensions Festival, Croatia (The MUDD Show x Dimensions)",
+"records": []
+},
+{
+"title": "2025-06-21 - XDB & PLO Man @ Waking Life Festival, Crato, Portugal",
+"records": []
+},
+{
+"title": "2025-08-18 - XDB - RP. 083",
+"records": []
+},
+{
+"title": "2025-09-08 - XDB - RA Podcast (RA.1003)",
+"records": [
+{
+"minute": 0,
+"artist": "Fabiano",
+"title": "Dreams Of Silent Gardening Machines",
+"label": "E"
+},
+{
+"minute": 3,
+"artist": "Ex_Libris",
+"title": "#32 (Walrus)",
+"label": "Ex_Libris"
+},
+{
+"minute": 6,
+"artist": "Valentino Mora",
+"title": "Ash Walk",
+"label": "IDO"
+},
+{
+"minute": 10,
+"artist": "Atomic Moog",
+"title": "Ecotone",
+"label": "Appian Sounds"
+},
+{
+"minute": 14,
+"artist": "L.B. Dub Corp Feat. Function",
+"title": "Roller",
+"label": "Ostgut Ton"
+},
+{
+"minute": 17,
+"artist": "ICTV",
+"title": "Oracle Night",
+"label": "Interweaved"
+},
+{
+"minute": 21,
+"artist": "D.B.",
+"title": "Subtleties",
+"label": "Flux White",
+"bp": "bp:4116547",
+"score": 0.564,
+"preview": "https://geo-samples.beatport.com/track/8ee672d0-9a16-4d0e-a6c8-2a99931cc2d4.LOFI.mp3",
+"name": "Subtleties",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2013-02-05"
+},
+{
+"minute": 27,
+"artist": "TM Shuffle",
+"title": "N\u00e4sinkallio",
+"label": "Vuo"
+},
+{
+"minute": 33,
+"artist": "Will You",
+"title": "Is It 2 Late? (Lb Honne Remix)",
+"label": "St\u00f3lar",
+"bp": "bp:20062855",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1e4211d3-4f43-46ba-b0a1-a25e6c9008cc.LOFI.mp3",
+"name": "Is It 2 Late?",
+"mix": "Lb Honne Remix",
+"genre": "techno-peak-time-driving",
+"released": "2025-02-28"
+},
+{
+"minute": 37,
+"artist": "Theorem & Stewart Walker",
+"title": "Minor Explosions",
+"label": "Minus",
+"bp": "bp:13453616",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/edfd49da-16d4-4cd5-8fbd-420cd716f2a7.LOFI.mp3",
+"name": "Minor Explosions",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2002-08-16"
+},
+{
+"minute": 41,
+"artist": "Caldera",
+"title": "Frog Valley",
+"label": "Space Lab",
+"bp": "bp:21773320",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/e9e6e8a1-077b-4810-b255-bfc324209842.LOFI.mp3",
+"name": "Frog Valley",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-09-12"
+},
+{
+"minute": 46,
+"artist": "F7",
+"title": "Aion",
+"label": "Acting Press"
+},
+{
+"minute": 51,
+"artist": "Hector Ram",
+"title": "Midnight Sounds",
+"label": "Short Attention",
+"bp": "bp:6215121",
+"score": 0.567,
+"preview": "https://geo-samples.beatport.com/track/36398701-8b92-4b77-82bf-4a690d726b14.LOFI.mp3",
+"name": "Midnight",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-01-19"
+},
+{
+"minute": 54,
+"artist": "Kim Rapatti",
+"title": "Instrument III",
+"label": "Dum"
+},
+{
+"minute": 58,
+"artist": "M.S.L.",
+"title": "Patterns Of Contrast",
+"label": "Modal Future",
+"bp": "bp:11536367",
+"score": 0.853,
+"preview": "https://geo-samples.beatport.com/track/c86e27a5-d35c-4b71-aa30-f4b5fc38a329.LOFI.mp3",
+"name": "Patterns of Contrast",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2018-12-21"
+},
+{
+"minute": 62,
+"artist": "Solid Gold Playaz",
+"title": "I Choose You",
+"label": "Moods & Grooves",
+"bp": "bp:20250262",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/d193c242-6afd-44c9-928b-0ea11ccfebb4.LOFI.mp3",
+"name": "I Choose You",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-03-31"
+},
+{
+"minute": 65,
+"artist": "Niko Jay",
+"title": "Ascending",
+"label": "Batti Batti"
+},
+{
+"minute": 71,
+"artist": "Arbilla",
+"title": "Stranger Things (Detroit Mix)",
+"label": "Xistence"
+},
+{
+"minute": 74,
+"artist": "Max Watts",
+"title": "Velocity",
+"label": "Upstairs Asylum"
+},
+{
+"minute": 79,
+"artist": "Chris Doria",
+"title": "Night Sweats",
+"label": "Magic Power",
+"bp": "bp:20392588",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/f3c89d6c-9221-4e45-92ae-4bb1cf040963.LOFI.mp3",
+"name": "Night Sweats",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2025-05-16"
+},
+{
+"minute": 82,
+"artist": "Marcellus Pittman",
+"title": "I'm Gonna Be The Everything",
+"label": "Adeen",
+"bp": "bp:18725810",
+"score": 0.884,
+"preview": "https://geo-samples.beatport.com/track/a0074eae-f10d-4a49-9c88-27f68a343c0a.LOFI.mp3",
+"name": "I'm Gonna Be The Everything",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-03-29"
+},
+{
+"minute": 85,
+"artist": "Owen Jay",
+"title": "Bassjam",
+"label": "Batti Batti"
+},
+{
+"minute": 89,
+"artist": "Specter",
+"title": "Bazerko",
+"label": "Tetrode"
+},
+{
+"minute": 93,
+"artist": "2501",
+"title": "Another Version",
+"label": "Heaven Smile"
+},
+{
+"minute": 97,
+"artist": "XDB",
+"title": "Odican",
+"label": "Forbidden Dance"
+},
+{
+"minute": 100,
+"artist": "Will Long & DJ Sprinkles",
+"title": "Acid Trax N",
+"label": "Acid Dog"
+},
+{
+"minute": 105,
+"artist": "Robert Hood",
+"title": "Formula Galore",
+"label": "M-Plant",
+"bp": "bp:16147990",
+"score": 0.767,
+"preview": "https://geo-samples.beatport.com/track/0b026251-6f66-47d6-97a2-93d913da28f2.LOFI.mp3",
+"name": "H-Formula",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-03-25"
+},
+{
+"minute": 108,
+"artist": "Peter F. Spiess",
+"title": "Sleazy Jazz",
+"label": "Alpha",
+"bp": "bp:43077",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/7c18281c-b9ac-4ce9-8467-09da8aa29e18.LOFI.mp3",
+"name": "Sleazy Jazz",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2001-06-07"
+},
+{
+"minute": 113,
+"artist": "Progressa",
+"title": "Tempel",
+"label": "Progressa"
+},
+{
+"minute": 116,
+"artist": "Airliner Series",
+"title": "12.9\u00b0c",
+"label": "Kimochi"
+},
+{
+"minute": 121,
+"artist": "Lb Honne",
+"title": "Eternal Mother",
+"label": "St. Odes"
+},
+{
+"minute": 125,
+"artist": "SnP500",
+"title": "Unrolled",
+"label": "Doo"
+},
+{
+"minute": 130,
+"artist": "Ex_Libris",
+"title": "#13-20 (Wetlands)",
+"label": "Ex_Libris"
+},
+{
+"minute": 137,
+"artist": "Carl A. Finlow",
+"title": "Floating Point",
+"label": "Device"
+},
+{
+"minute": 141,
+"artist": "John Carpenter & Alan Howarth",
+"title": "The Duke Arrives / Barricade",
+"label": "Silva Screen"
+}
+]
+},
+{
+"title": "2025-09-14 - Ron Albrecht & XDB @ Basilar, Portugal (Basilar Mix Series 02)",
+"records": []
+},
+{
+"title": "2025-11-11 - XDB - fabric Podcast 069",
+"records": []
+},
+{
+"title": "2025-12-13 - Eric Cloutier b2b XDB @ Tresor, Berlin",
+"records": []
+},
+{
+"title": "2026-01-01 - XDB @ Pintai - New Year's Day, Multipla, Amsterdam (Pintai Mix 015, 2026-01-15)",
+"records": [
+{
+"minute": 0,
+"artist": "Time Travelers",
+"title": "MS2000R",
+"label": "Time Travel Stuff"
+},
+{
+"minute": 6,
+"artist": "Efdemin",
+"title": "Be Here Now",
+"label": "Dial",
+"bp": "bp:20650752",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/b2a2a39d-95a4-402d-a5ec-eff709de9350.LOFI.mp3",
+"name": "Be Here Now",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-07-11"
+},
+{
+"minute": 10,
+"artist": "DP-6",
+"title": "Martian Sands",
+"label": "Spclnch",
+"bp": "bp:20152986",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/fd6324cd-91a9-45ae-957c-64d2d3d2085a.LOFI.mp3",
+"name": "Martian Sands",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-05-06"
+},
+{
+"minute": 14,
+"artist": "Autokinetic",
+"title": "Sidewinder",
+"label": "",
+"bp": "bp:17656270",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/7f397a34-4b90-4c38-b03c-284287c3a477.LOFI.mp3",
+"name": "Sidewinder",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-07-07"
+},
+{
+"minute": 18,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 21,
+"artist": "Felipe Martinez",
+"title": "Introspection",
+"label": "Patella"
+},
+{
+"minute": 24,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 27,
+"artist": "Lb Honne",
+"title": "Br\u00fccke",
+"label": "Smallville"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 34,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 38,
+"artist": "Soulphiction",
+"title": "Cart People",
+"label": "",
+"bp": "bp:10781251",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/b06951b6-202e-49e2-a9b9-667bfbcad9b2.LOFI.mp3",
+"name": "Cart People",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2018-08-17"
+},
+{
+"minute": 42,
+"artist": "DJ MoReese",
+"title": "Pulsar",
+"label": "Intangible"
+},
+{
+"minute": 45,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 50,
+"artist": "Baby Pop",
+"title": "Love Potion",
+"label": "Defiant",
+"bp": "bp:14998792",
+"score": 0.577,
+"preview": "https://geo-samples.beatport.com/track/ebe23373-e282-4f12-9432-e9505c05fcc1.LOFI.mp3",
+"name": "Love Potion",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2021-04-02"
+},
+{
+"minute": 54,
+"artist": "Shawn Pittman",
+"title": "I'm Losing Control (Extended Bass-Ment Club Mix)",
+"label": "Dark Entries",
+"bp": "bp:16527558",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/69cb8b5e-c142-467e-9bd0-a7a35c45a9d7.LOFI.mp3",
+"name": "I'm Losing Control",
+"mix": "Extended Bass-ment Club Mix",
+"genre": "indie-dance",
+"released": "2022-06-03"
+},
+{
+"minute": 57,
+"artist": "Byron The Aquarius",
+"title": "ATLiens 2 Detroit",
+"label": "Star Creature",
+"bp": "bp:21535619",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/b3e16821-400b-4226-8237-7411ca58b409.LOFI.mp3",
+"name": "ATLiens 2 Detroit ",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-10-10"
+},
+{
+"minute": 60,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 63,
+"artist": "Irini",
+"title": "Untitled (A1)",
+"label": "All Possible Worlds"
+},
+{
+"minute": 67,
+"artist": "Phill Prince",
+"title": "Transit",
+"label": "Purple Print"
+},
+{
+"minute": 70,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 74,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 76,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 81,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 87,
+"artist": "Niko Jay",
+"title": "Ascending",
+"label": "Batti Batti"
+},
+{
+"minute": 90,
+"artist": "Irini",
+"title": "What Did U Just Give Me",
+"label": "All Possible Worlds"
+},
+{
+"minute": 94,
+"artist": "Resistance D",
+"title": "Eclipse",
+"label": "Hot",
+"bp": "bp:5783485",
+"score": 0.62,
+"preview": "https://geo-samples.beatport.com/track/0f4a2371-8625-43f6-bf1d-4503f165919f.LOFI.mp3",
+"name": "Eclipse",
+"mix": "Intro",
+"genre": "techno-peak-time-driving",
+"released": "2014-09-15"
+},
+{
+"minute": 101,
+"artist": "Abfahrt",
+"title": "Alone (It's Me) (Alley Cat Edit)",
+"label": ""
+},
+{
+"minute": 107,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 113,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 116,
+"artist": "Mr. Pauli",
+"title": "Tokoid",
+"label": "Undersound"
+}
+]
+},
+{
+"title": "2026-01-08 - XDB - A Far Blue Concept: Rhythm of Snow",
+"records": []
+},
+{
+"title": "2026-01-23 - XDB - Trommel.237",
+"records": []
+},
+{
+"title": "2026-03-27 - XDB - The MUDD Show",
+"records": []
+},
+{
+"title": "2026-03-28 - Hamish & Toby b2b XDB @ Continuum, fabric, London",
+"records": []
+},
+{
+"title": "2026-04-02 - XDB @ Chat With A DJ (ARTE concert)",
+"records": []
+},
+{
+"title": "2026-04-10 - XDB b2b Moopie @ Collingwood Attic, Melbourne",
+"records": []
+},
+{
+"title": "2026-04-18 - XDB @ The Lot Radio",
+"records": []
+}
+]
+}
