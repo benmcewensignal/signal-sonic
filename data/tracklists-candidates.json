@@ -1,0 +1,310 @@
+{
+ "source": "compiled by Grok from MixesDB on 2026-09-24, checked here: headliners, duplicates and rows without well-formed set addresses removed; the tracklist job verifies every category and counts the sets itself",
+ "djs": [
+  {
+   "dj": "Kitty Amor",
+   "scene_claimed": "Afro House",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "DJ Lag",
+   "scene_claimed": "Afro House",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "KILIMANJARO",
+   "scene_claimed": "Amapiano",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Scratcha DVA",
+   "scene_claimed": "Amapiano",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Westend",
+   "scene_claimed": "Bass House",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Kettama",
+   "scene_claimed": "Bass House",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Breaka",
+   "scene_claimed": "Breaks / Breakbeat / UK Bass",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Pariah",
+   "scene_claimed": "Breaks / Breakbeat / UK Bass",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Courtesy",
+   "scene_claimed": "Breaks / Breakbeat / UK Bass",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Pugilist",
+   "scene_claimed": "Breaks / Breakbeat / UK Bass",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Special Request",
+   "scene_claimed": "Breaks / Breakbeat / UK Bass",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Finn Johannsen",
+   "scene_claimed": "Deep House",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Move D",
+   "scene_claimed": "Deep House",
+   "sets_claimed": 8
+  },
+  {
+   "dj": "Prosumer",
+   "scene_claimed": "Deep House",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Palms Trax",
+   "scene_claimed": "Deep House",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Ivan Smagghe",
+   "scene_claimed": "Deep House",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Tim Reaper",
+   "scene_claimed": "Drum & Bass",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Mantra",
+   "scene_claimed": "Drum & Bass",
+   "sets_claimed": 8
+  },
+  {
+   "dj": "Dev/Null",
+   "scene_claimed": "Drum & Bass",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "J:Kenzo",
+   "scene_claimed": "Drum & Bass",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Riz La Teef",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Plastician",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "SP:MC",
+   "scene_claimed": "Dubstep",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Chamber45",
+   "scene_claimed": "Grime",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Slimzee",
+   "scene_claimed": "Grime",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Chl\u00e4r",
+   "scene_claimed": "Hard Techno",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Mac Declos",
+   "scene_claimed": "Hard Techno",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "FJAAK",
+   "scene_claimed": "Hard Techno",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Perc",
+   "scene_claimed": "Hard Techno",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Kassian",
+   "scene_claimed": "House",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Chris Stussy",
+   "scene_claimed": "House",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Erol Alkan",
+   "scene_claimed": "House",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "X CLUB.",
+   "scene_claimed": "Indie Dance",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "HAAi",
+   "scene_claimed": "Indie Dance",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Salute",
+   "scene_claimed": "Indie Dance",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Guy J",
+   "scene_claimed": "Melodic House / Melodic Techno",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Henry Saiz",
+   "scene_claimed": "Melodic House / Melodic Techno",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Patrice B\u00e4umel",
+   "scene_claimed": "Melodic House / Melodic Techno",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Tim Green",
+   "scene_claimed": "Organic House",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Nick Warren",
+   "scene_claimed": "Progressive House",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Christopher Lawrence",
+   "scene_claimed": "Psy-Trance",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Fleur Shore",
+   "scene_claimed": "Tech House",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Hot Since 82",
+   "scene_claimed": "Tech House",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Solardo",
+   "scene_claimed": "Tech House",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Dennis Cruz",
+   "scene_claimed": "Tech House",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Function",
+   "scene_claimed": "Techno",
+   "sets_claimed": 8
+  },
+  {
+   "dj": "Objekt",
+   "scene_claimed": "Techno",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Call Super",
+   "scene_claimed": "Techno",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Oscar Mulero",
+   "scene_claimed": "Techno",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Surgeon",
+   "scene_claimed": "Techno",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Regis",
+   "scene_claimed": "Techno",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Solarstone",
+   "scene_claimed": "Trance",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Mark Sherry",
+   "scene_claimed": "Trance",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "John Askew",
+   "scene_claimed": "Trance",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Simon Patterson",
+   "scene_claimed": "Trance",
+   "sets_claimed": 5
+  },
+  {
+   "dj": "Super8 & Tab",
+   "scene_claimed": "Trance",
+   "sets_claimed": 4
+  },
+  {
+   "dj": "Roska",
+   "scene_claimed": "UK Funky / Gqom",
+   "sets_claimed": 6
+  },
+  {
+   "dj": "Martelo",
+   "scene_claimed": "UK Funky / Gqom",
+   "sets_claimed": 7
+  },
+  {
+   "dj": "Bok Bok",
+   "scene_claimed": "UK Funky / Gqom",
+   "sets_claimed": 10
+  },
+  {
+   "dj": "Interplanetary Criminal",
+   "scene_claimed": "UK Garage / Bassline",
+   "sets_claimed": 3
+  },
+  {
+   "dj": "Oneman",
+   "scene_claimed": "UK Garage / Bassline",
+   "sets_claimed": 6
+  }
+ ]
+}
