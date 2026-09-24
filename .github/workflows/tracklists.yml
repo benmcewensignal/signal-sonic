@@ -46,7 +46,9 @@ jobs:
         run: python -m sonic.tracklists --djs "${{ inputs.djs }}" --since "${{ inputs.since }}" --measure 0 --max-sets "${{ inputs.max_sets }}"
       - name: set curves on 3.0 (records on other versions are counted and left out)
         if: always()
-        run: python -m sonic.set_curves --db sonic.db --ver 3.0 --djs "$(echo '${{ inputs.djs }}' | tr 'A-Z' 'a-z' | sed 's/[^a-z0-9,]\+/-/g; s/-,/,/g; s/,-/,/g')" || true
+        # every DJ with a file, not just this run's: a measuring run has no DJs, and computing curves for
+        # "none" wrote an empty file over the full one on 24 September
+        run: python -m sonic.set_curves --db sonic.db --ver 3.0 --djs "$(ls data/tracklists/*.json | grep -v curves | xargs -n1 basename | sed 's/\.json$//' | paste -sd, -)" || true
       - name: save the tracklists as soon as they are matched, before the long measuring
         if: inputs.measure_only != 'true'
         run: |
