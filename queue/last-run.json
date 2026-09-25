@@ -1,17 +1,17 @@
 {
- "ran": "2026-09-25T16:23:09Z",
+ "ran": "2026-09-25T17:17:45Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "  features-302.jsonl: 478 applied",
+    "  features-303.jsonl: 481 applied",
     "{",
     " \"files\": 1,",
-    " \"applied\": 478,",
+    " \"applied\": 481,",
     " \"rejected\": 0,",
-    " \"records_on_v2\": 8888",
+    " \"records_on_v2\": 9369",
     "}"
    ]
   },
@@ -95,12 +95,12 @@
    "tail": [
     "{",
     " \"versions\": {",
-    "  \"1\": 68510,",
-    "  \"2\": 8887",
+    "  \"1\": 68029,",
+    "  \"2\": 9368",
     " },",
     " \"use_version\": \"1\",",
-    " \"archived_v1\": 27511,",
-    " \"linked\": 0,",
+    " \"archived_v1\": 27992,",
+    " \"linked\": 1,",
     " \"scenes\": 36",
     "}"
    ]
@@ -175,10 +175,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.1,
+   "minutes": 3.9,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T16:21:57Z\",",
+    " \"generated\": \"2026-09-25T17:15:54Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -201,10 +201,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.1,
+   "minutes": 1.8,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T16:23:09Z\",",
+    " \"generated\": \"2026-09-25T17:17:45Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -218,7 +218,7 @@
     " \"latest\": \"2026-09-24\",",
     " \"venues\": 4217,",
     " \"venues_with_3plus\": 1178,",
-    " \"leadership_artists\": 11916,",
+    " \"leadership_artists\": 11874,",
     " \"tiered_rooms\": 834",
     "}"
    ]
