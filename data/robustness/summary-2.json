@@ -1,0 +1,168 @@
+{
+ "records": 292,
+ "clean_accuracy": 0.8835616438356164,
+ "conditions": {
+  "less compressed": {
+   "same_call_as_clean": 0.5958904109589042,
+   "accuracy": 0.565068493150685,
+   "median_similarity_to_clean": 0.8826805830082478,
+   "most_moved_inputs": [
+    [
+     "emb44",
+     2.11
+    ],
+    [
+     "loudness",
+     1.66
+    ],
+    [
+     "emb0",
+     0.94
+    ],
+    [
+     "emb39",
+     0.67
+    ],
+    [
+     "emb38",
+     0.44
+    ]
+   ]
+  },
+  "phone": {
+   "same_call_as_clean": 0.3527397260273973,
+   "accuracy": 0.3356164383561644,
+   "median_similarity_to_clean": 0.2969330930016626,
+   "most_moved_inputs": [
+    [
+     "bass_weight",
+     16.43
+    ],
+    [
+     "vocal_presence",
+     4.13
+    ],
+    [
+     "emb38",
+     3.85
+    ],
+    [
+     "loudness",
+     3.1
+    ],
+    [
+     "emb39",
+     2.99
+    ]
+   ]
+  },
+  "64 kbps": {
+   "same_call_as_clean": 0.75,
+   "accuracy": 0.7123287671232876,
+   "median_similarity_to_clean": 0.8901090161653125,
+   "most_moved_inputs": [
+    [
+     "emb44",
+     1.37
+    ],
+    [
+     "emb11",
+     0.88
+    ],
+    [
+     "emb8",
+     0.75
+    ],
+    [
+     "emb1",
+     0.74
+    ],
+    [
+     "emb9",
+     0.74
+    ]
+   ]
+  },
+  "first 30 s": {
+   "same_call_as_clean": 0.5308219178082192,
+   "accuracy": 0.4794520547945205,
+   "median_similarity_to_clean": 0.7268971858332876,
+   "most_moved_inputs": [
+    [
+     "energy3",
+     0.84
+    ],
+    [
+     "energy6",
+     0.77
+    ],
+    [
+     "energy2",
+     0.75
+    ],
+    [
+     "energy5",
+     0.73
+    ],
+    [
+     "energy4",
+     0.72
+    ]
+   ]
+  },
+  "middle 30 s": {
+   "same_call_as_clean": 0.4828767123287671,
+   "accuracy": 0.4246575342465753,
+   "median_similarity_to_clean": 0.7660087123179397,
+   "most_moved_inputs": [
+    [
+     "energy0",
+     0.86
+    ],
+    [
+     "energy1",
+     0.74
+    ],
+    [
+     "emb22",
+     0.6
+    ],
+    [
+     "energy7",
+     0.58
+    ],
+    [
+     "emb16",
+     0.57
+    ]
+   ]
+  },
+  "last 30 s": {
+   "same_call_as_clean": 0.4965753424657534,
+   "accuracy": 0.4520547945205479,
+   "median_similarity_to_clean": 0.7415408986600318,
+   "most_moved_inputs": [
+    [
+     "energy3",
+     0.91
+    ],
+    [
+     "energy2",
+     0.74
+    ],
+    [
+     "emb23",
+     0.66
+    ],
+    [
+     "energy5",
+     0.65
+    ],
+    [
+     "energy1",
+     0.65
+    ]
+   ]
+  }
+ }
+}
