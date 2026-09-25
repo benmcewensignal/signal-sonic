@@ -1,12 +1,18 @@
 {
- "ran": "2026-09-25T13:49:21Z",
+ "ran": "2026-09-25T14:20:20Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: no new files"
+    "  features-300.jsonl: 483 applied",
+    "{",
+    " \"files\": 1,",
+    " \"applied\": 483,",
+    " \"rejected\": 0,",
+    " \"records_on_v2\": 7928",
+    "}"
    ]
   },
   {
@@ -17,7 +23,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 6",
+    " \"deezer usable\": 5",
     "}"
    ]
   },
@@ -89,11 +95,11 @@
    "tail": [
     "{",
     " \"versions\": {",
-    "  \"1\": 69953,",
-    "  \"2\": 7444",
+    "  \"1\": 69470,",
+    "  \"2\": 7927",
     " },",
     " \"use_version\": \"1\",",
-    " \"archived_v1\": 26068,",
+    " \"archived_v1\": 26551,",
     " \"linked\": 0,",
     " \"scenes\": 36",
     "}"
@@ -172,7 +178,7 @@
    "minutes": 4.6,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T13:47:42Z\",",
+    " \"generated\": \"2026-09-25T14:18:38Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -195,10 +201,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.5,
+   "minutes": 1.6,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T13:49:21Z\",",
+    " \"generated\": \"2026-09-25T14:20:19Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -212,7 +218,7 @@
     " \"latest\": \"2026-09-24\",",
     " \"venues\": 4217,",
     " \"venues_with_3plus\": 1178,",
-    " \"leadership_artists\": 12040,",
+    " \"leadership_artists\": 11999,",
     " \"tiered_rooms\": 834",
     "}"
    ]
