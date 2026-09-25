@@ -1,11 +1,23 @@
 {
  "trained_on": [
+  "2025-M09",
+  "2025-M10",
+  "2025-M11",
+  "2025-M12",
+  "2026-M01",
+  "2026-M02",
+  "2026-M03",
+  "2026-M04",
+  "2026-M05",
+  "2026-M06",
+  "2026-M07",
+  "2026-M08",
   "2026-W36"
  ],
  "tested_on": "2026-W39",
- "charted_in_test": 2000,
- "uncharted_in_test": 3177,
- "auc": 0.6838,
- "shuffled": 0.5028,
- "verdict": "holds"
+ "charted_in_test": 4034,
+ "uncharted_in_test": 3172,
+ "auc": 0.4959,
+ "shuffled": 0.4986,
+ "verdict": "does not hold"
 }
