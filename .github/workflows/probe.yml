@@ -9,4 +9,6 @@ jobs:
     steps:
       - run: |
           C=$(curl -s --max-time 90 -w "%{http_code}" -o /tmp/body "${{ inputs.url }}")
-          echo "::notice title=probe $C::$(head -c 1500 /tmp/body | tr '\n' ' ')"
+          echo "::notice title=probe $C::$(head -c 600 /tmp/body | tr '\n' ' ')"
+          echo "::notice title=markers::build $(grep -o 'window.BUILD=\"[^\"]*\"' /tmp/body | head -1) | lslede $(grep -c 'lslede' /tmp/body) | listenLayout $(grep -c 'function listenLayout' /tmp/body) | scene-shape $(grep -c 'scene-shape.json' /tmp/body) | bytes $(wc -c < /tmp/body)"
+          curl -sI "${{ inputs.url }}" | grep -iE "^(cache-control|age|x-vercel-cache|etag):" | tr -d '\r' | paste -sd'|' - | sed 's/^/::notice title=headers::/'
