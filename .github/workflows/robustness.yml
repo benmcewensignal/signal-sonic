@@ -1,10 +1,13 @@
 name: robustness
 # How far unmastered audio, phone recording, low-bitrate files and partial listening move a reading.
-on: { workflow_dispatch: { inputs: { per_scene: { default: "20" } } } }
+on: { workflow_dispatch: { inputs: { per_scene: { default: "20" }, shards: { default: "1" } } } }
 permissions: { contents: write }
 jobs:
   run:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: { shard: [0,1,2,3,4,5,6,7,8,9] }
     timeout-minutes: 240
     env:
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
@@ -23,8 +26,10 @@ jobs:
           for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
           git clone -q --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/benmcewensignal/signal-sonic-features.git" features
       - name: measure under each condition
-        run: python tools/robustness.py sonic.db features/worker/scene_model.pkl "${{ inputs.per_scene }}"
+        if: matrix.shard < fromJSON(inputs.shards)
+        run: python tools/robustness.py sonic.db features/worker/scene_model.pkl "${{ inputs.per_scene }}" "${{ matrix.shard }}" "${{ inputs.shards }}"
       - name: save
+        if: matrix.shard < fromJSON(inputs.shards)
         run: |
           git config user.name sonic-bot; git config user.email sonic@earlysignal.live
           git add data/robustness && git commit -qm "robustness: readings under unmastered, phone, low-bitrate and partial listening" || exit 0
