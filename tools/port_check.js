@@ -22,6 +22,21 @@ setTimeout(async()=>{ try{ await w.READER.load(); let agree=0, accO=0, accP=0; c
   const md=a=>{ if(!a.length) return 'n/a'; const s=[...a].sort((p,q)=>p-q); return s[Math.floor(s.length/2)].toFixed(3); };
   const place=`map position vs 2.9: device median shift ${md(dP)}, chroma-neutral ${md(dN)} | off the map edge: 2.9 ${e9}, device ${eP}, chroma-neutral ${eN} of ${O.length} | map spans ${(sp[1]-sp[0]).toFixed(2)} by ${(sp[3]-sp[2]).toFixed(2)}`;
   console.log('::notice title=map placement on real previews::'+place);
+  // the exact path a listener's file takes: the page's reader, scaled by the span the page uses,
+  // against the position the map already holds for the same record
+  try{
+    const wm=JSON.parse(fs.readFileSync('site/data/walkmap.json','utf8')); const i8=x=>{ const b=Buffer.from(x,'base64'); return new Int8Array(b.buffer,b.byteOffset,b.length); };
+    const WD=i8(wm.driving), WF=i8(wm.defined), at={}; wm.ids.forEach((t,k)=>{ at[t]=k; });
+    const q=(v,lo,hi)=>Math.max(-127,Math.min(127,Math.round((v-lo)/(hi-lo)*254-127)));
+    let dx=[],dy=[],clampDev=0,clampMap=0,n=0,sx=0,sy=0;
+    for(const o of O){ const k=at[o.track_id]; if(k===undefined) continue;
+      const b=fs.readFileSync('portcheck/'+o.i+'.f32'); const y=new Float32Array(b.buffer,b.byteOffset,b.length/4);
+      const r=await w.READER.read(y); const px=q(r.pos[0],sp[0],sp[1]), py=q(r.pos[1],sp[2],sp[3]);
+      dx.push(Math.abs(px-WD[k])); dy.push(Math.abs(py-WF[k])); sx+=px-WD[k]; sy+=py-WF[k]; n++;
+      clampDev+=(Math.abs(px)===127||Math.abs(py)===127); clampMap+=(Math.abs(WD[k])===127||Math.abs(WF[k])===127); }
+    const msg=`${n} previews on the map: the page places them a median ${md(dx)} across and ${md(dy)} up from where the map holds them (scale -127 to 127), average offset ${(sx/Math.max(n,1)).toFixed(1)} across and ${(sy/Math.max(n,1)).toFixed(1)} up; pinned to an edge: page ${clampDev}, map ${clampMap}`;
+    console.log('::notice title=page placement against the map::'+msg);
+  }catch(e){ console.log('::warning::placement check failed: '+String(e).slice(0,200)); }
   let devFail=0; const dev=O.map(o=>{ try{ const b=fs.readFileSync('portcheck/'+o.i+'.f32'); const x=w.readerNumbers(new Float32Array(b.buffer,b.byteOffset,b.length/4)); return x.every(Number.isFinite)?x:(devFail++,null); }catch(e){ devFail++; console.log('::warning::device numbers failed on preview '+o.i+': '+String(e&&e.message).slice(0,120)); return null; } });
   if(devFail) console.log('::warning::device numbers unavailable for '+devFail+' of '+O.length+' previews');
   fs.writeFileSync('portcheck/device.json', JSON.stringify(dev));
