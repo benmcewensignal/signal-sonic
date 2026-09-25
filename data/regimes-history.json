@@ -1335,113 +1335,65 @@
 "date": "2026-09-25",
 "scene": "uk-garage-speed-garage",
 "regime": "mixed",
-"established": 70
+"established": 17
 },
 {
 "date": "2026-09-25",
 "scene": "uk-funky-gqom",
 "regime": "mixed",
-"established": 92
+"established": 13
 },
 {
 "date": "2026-09-25",
 "scene": "afro-house",
-"regime": "mixed",
-"established": 35
+"regime": "stars behind",
+"established": 12
 },
 {
 "date": "2026-09-25",
 "scene": "140-deep-dubstep-grime",
 "regime": "stars behind",
-"established": 46
-},
-{
-"date": "2026-09-25",
-"scene": "breaks-breakbeat-uk-bass",
-"regime": "mixed",
-"established": 34
+"established": 15
 },
 {
 "date": "2026-09-25",
 "scene": "tech-house",
-"regime": "mixed",
-"established": 46
+"regime": "stars behind",
+"established": 7
 },
 {
 "date": "2026-09-25",
 "scene": "techno-peak-time",
 "regime": "stars lead",
-"established": 42
+"established": 12
 },
 {
 "date": "2026-09-25",
 "scene": "techno-raw-deep-hypnotic",
-"regime": "mixed",
-"established": 79
+"regime": "stars lead",
+"established": 23
 },
 {
 "date": "2026-09-25",
 "scene": "house",
 "regime": "mixed",
-"established": 58
+"established": 12
 },
 {
 "date": "2026-09-25",
 "scene": "deep-house",
 "regime": "mixed",
-"established": 52
+"established": 15
 },
 {
 "date": "2026-09-25",
 "scene": "melodic-house-techno",
 "regime": "stars lead",
-"established": 65
-},
-{
-"date": "2026-09-25",
-"scene": "drum-and-bass",
-"regime": "stars behind",
-"established": 54
-},
-{
-"date": "2026-09-25",
-"scene": "hard-techno",
-"regime": "mixed",
-"established": 26
-},
-{
-"date": "2026-09-25",
-"scene": "bass-house",
-"regime": "mixed",
-"established": 16
-},
-{
-"date": "2026-09-25",
-"scene": "trance-main-floor",
-"regime": "mixed",
-"established": 20
-},
-{
-"date": "2026-09-25",
-"scene": "progressive-house",
-"regime": "mixed",
-"established": 8
-},
-{
-"date": "2026-09-25",
-"scene": "psy-trance",
-"regime": "stars behind",
-"established": 8
-},
-{
-"date": "2026-09-25",
-"scene": "indie-dance",
-"regime": "stars behind",
 "established": 18
 },
 {
 "date": "2026-09-25",
-"scene": "organic-house",
+"scene": "drum-and-bass",
 "regime": "stars behind",
 "established": 9
 }
