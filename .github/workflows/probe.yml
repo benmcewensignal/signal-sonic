@@ -1,0 +1,12 @@
+name: probe
+# Fetch one URL from a runner and report the response, for checking a route the sandbox cannot reach.
+on: { workflow_dispatch: { inputs: { url: { description: "URL to fetch" } } } }
+permissions: { contents: read }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: |
+          C=$(curl -s --max-time 90 -w "%{http_code}" -o /tmp/body "${{ inputs.url }}")
+          echo "::notice title=probe $C::$(head -c 1500 /tmp/body | tr '\n' ' ')"
