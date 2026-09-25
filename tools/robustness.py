@@ -40,6 +40,7 @@ def phone(y):
 def lowbit(path):
     out = path + ".64.mp3"; subprocess.run(["ffmpeg", "-loglevel", "quiet", "-y", "-i", path, "-b:a", "64k", out], check=True); return out
 CONDS = ["less compressed", "phone", "64 kbps", "first 30 s", "middle 30 s", "last 30 s"]
+os.makedirs("data/robustness", exist_ok=True); errs = []
 rows = []; out = open("data/robustness/vectors.jsonl", "w")
 for n, (t, s) in enumerate(pick):
     try:
@@ -51,9 +52,13 @@ for n, (t, s) in enumerate(pick):
         v["first 30 s"] = vec(wav(y[:w])); v["middle 30 s"] = vec(wav(y[(L - w) // 2:(L + w) // 2])); v["last 30 s"] = vec(wav(y[-w:]))
         r = {"track_id": t, "tag": s, "vectors": v}; out.write(json.dumps(r) + "\n"); rows.append(r)
     except Exception as e:
+        import traceback
+        if not errs: errs.append(traceback.format_exc()[-900:])
         print("skip", t, type(e).__name__, flush=True)
     if n % 50 == 0: print(f"{n} of {len(pick)}", flush=True)
 out.close()
+if not rows:
+    print("::error title=robustness::no record could be measured; the first failure: " + (errs[0] if errs else "none recorded").replace("\n", " | ")); sys.exit(1)
 mu, sd = np.array(M["mu"]), np.array(M["sd"])
 def z(x): return (np.array(x, float) - mu) / sd
 clean_calls = [call(r["vectors"]["clean"]) for r in rows]; tags = [r["tag"] for r in rows]
