@@ -1,18 +1,12 @@
 {
- "ran": "2026-09-25T07:10:22Z",
+ "ran": "2026-09-25T07:40:37Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "  features-292.jsonl: 487 applied",
-    "{",
-    " \"files\": 1,",
-    " \"applied\": 487,",
-    " \"rejected\": 0,",
-    " \"records_on_v2\": 4075",
-    "}"
+    "import: no new files"
    ]
   },
   {
@@ -175,10 +169,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.9,
+   "minutes": 4.6,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T07:08:30Z\",",
+    " \"generated\": \"2026-09-25T07:39:02Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -201,10 +195,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.8,
+   "minutes": 1.5,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T07:10:21Z\",",
+    " \"generated\": \"2026-09-25T07:40:37Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
