@@ -17,6 +17,18 @@ SCENES_RA = {  # sonic scene -> RA genre slugs it draws on (booking side)
     "hard-techno": ["techno", "industrial", "hardcore"], "bass-house": ["bass", "house"], "trance-main-floor": ["trance"],
 }
 
+HOUSE = {"house", "deephouse", "afrohouse", "progressivehouse", "disco", "electronica", "downtempo", "afrotech"}
+SCENE_TAGS = {
+    "afro-house": HOUSE | {"amapiano"}, "house": HOUSE | {"techhouse"}, "deep-house": HOUSE, "melodic-house-techno": HOUSE | {"techno"},
+    "organic-house": HOUSE, "indie-dance": HOUSE | {"electro"}, "progressive-house": HOUSE | {"trance"},
+    "tech-house": {"techhouse", "house", "minimal", "bass"}, "bass-house": {"techhouse", "house", "bass", "garage"},
+    "uk-garage-speed-garage": {"garage", "bass", "house", "ukfunky"}, "techno-peak-time": {"techno", "industrial", "hardcore", "acid", "electro"},
+    "techno-raw-deep-hypnotic": {"techno", "minimaltechno", "dubtechno", "minimal", "industrial", "acid"}, "hard-techno": {"techno", "industrial", "hardcore", "harddrum", "gabber"},
+    "140-deep-dubstep-grime": {"dubstep", "grime", "bass", "dub"}, "drum-and-bass": {"drumandbass", "jungle", "footwork"},
+    "breaks-breakbeat-uk-bass": {"breakbeat", "bass", "electro", "garage", "jungle"}, "uk-funky-gqom": {"ukfunky", "bass", "afrohouse", "garage"},
+    "trance-main-floor": {"trance", "psytrance", "progressivehouse"}, "psy-trance": {"psytrance", "trance"}, "amapiano": {"amapiano", "afrohouse"},
+}
+
 def norm(name: str) -> str:
     s = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()
     s = s.replace("&", " and ")
@@ -219,7 +231,17 @@ def load_leadership(db, R, B):
         # the established list ranks by cities played, so a single record is enough to place a
         # big name in it; its sound position is marked thin. The newest-sound board ranks BY
         # sound position, so it keeps the two-record minimum.
-        known = [r for r in (rows + rows_thin) if r["ra_slots"] >= 3]
+        # To be listed for a scene an artist needs three records in it, and bookings whose tags fit
+        # it. One stray release put Alan Fitzpatrick at the top of deep house on his techno bookings,
+        # and a shared name joined an Italian techno DJ's bookings to an amapiano producer (Freddy K).
+        fam = SCENE_TAGS.get(sc)
+        def tags_fit(k):
+            t = (B.get(k) or {}).get("tags") or {}
+            tot = sum(t.values())
+            return (not fam) or tot == 0 or sum(n for g, n in t.items() if g in fam) / tot >= 0.25
+        known = [r for r in (rows + rows_thin) if r["ra_slots"] >= 3 and r["records"] >= 3 and tags_fit(r["key"])]
+        for r in rows + rows_thin:
+            if not tags_fit(r["key"]): r["ra_slots"], r["cities"], r["tags_mismatch"] = 0, 0, True
         regime = None
         if len(known) >= 4:
             centre_share = sum(1 for r in known if r["dist"] < 0.5) / len(known)
