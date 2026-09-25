@@ -1,17 +1,18 @@
 {
- "ran": "2026-09-25T09:52:32Z",
+ "ran": "2026-09-25T09:11:53Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "  features-295.jsonl: 482 applied",
+    "  features-293.jsonl: 485 applied",
+    "  features-294.jsonl: 482 applied",
     "{",
-    " \"files\": 1,",
-    " \"applied\": 482,",
+    " \"files\": 2,",
+    " \"applied\": 967,",
     " \"rejected\": 0,",
-    " \"records_on_v2\": 5524",
+    " \"records_on_v2\": 5042",
     "}"
    ]
   },
@@ -95,11 +96,11 @@
    "tail": [
     "{",
     " \"versions\": {",
-    "  \"1\": 71874,",
-    "  \"2\": 5523",
+    "  \"1\": 72356,",
+    "  \"2\": 5041",
     " },",
     " \"use_version\": \"1\",",
-    " \"archived_v1\": 24147,",
+    " \"archived_v1\": 23665,",
     " \"linked\": 0,",
     " \"scenes\": 36",
     "}"
@@ -175,10 +176,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 3.3,
+   "minutes": 4.2,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T09:51:06Z\",",
+    " \"generated\": \"2026-09-25T09:10:42Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -201,10 +202,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.4,
+   "minutes": 1.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T09:52:32Z\",",
+    " \"generated\": \"2026-09-25T09:11:53Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -218,7 +219,7 @@
     " \"latest\": \"2026-09-24\",",
     " \"venues\": 4217,",
     " \"venues_with_3plus\": 1178,",
-    " \"leadership_artists\": 12196,",
+    " \"leadership_artists\": 12234,",
     " \"tiered_rooms\": 834",
     "}"
    ]
