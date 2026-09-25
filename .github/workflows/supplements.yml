@@ -4,7 +4,7 @@ name: supplements
 on:
   workflow_dispatch:
     inputs:
-      which: { description: "all, discogs, musicbrainz or essentia", default: "all" }
+      which: { description: "all, discogs, discogs-api, musicbrainz or essentia", default: "all" }
 permissions: { contents: write }
 env:
   BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
@@ -38,6 +38,26 @@ jobs:
         run: |
           git config user.name sonic-bot; git config user.email sonic@earlysignal.live
           git add data/discogs && git commit -qm "Discogs (CC0): corpus records matched to community styles" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
+  discogs-api:
+    if: inputs.which == 'discogs-api'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: fetch the corpus database
+        env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
+        run: for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
+      - name: sample through the API
+        env: { DISCOGS_TOKEN: "${{ secrets.DISCOGS_TOKEN }}" }
+        run: python tools/discogs_api_sample.py sonic.db 1500
+      - name: save
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/discogs && git commit -qm "Discogs API sample: community styles against Beatport's tags" || exit 0
           for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
   musicbrainz:
     if: inputs.which == 'all' || inputs.which == 'musicbrainz'
