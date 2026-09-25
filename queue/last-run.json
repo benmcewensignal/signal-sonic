@@ -1,12 +1,18 @@
 {
- "ran": "2026-09-25T06:39:12Z",
+ "ran": "2026-09-25T07:10:22Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: no new files"
+    "  features-292.jsonl: 487 applied",
+    "{",
+    " \"files\": 1,",
+    " \"applied\": 487,",
+    " \"rejected\": 0,",
+    " \"records_on_v2\": 4075",
+    "}"
    ]
   },
   {
@@ -89,11 +95,11 @@
    "tail": [
     "{",
     " \"versions\": {",
-    "  \"1\": 73810,",
-    "  \"2\": 3587",
+    "  \"1\": 73323,",
+    "  \"2\": 4074",
     " },",
     " \"use_version\": \"1\",",
-    " \"archived_v1\": 22211,",
+    " \"archived_v1\": 22698,",
     " \"linked\": 0,",
     " \"scenes\": 36",
     "}"
@@ -169,10 +175,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.7,
+   "minutes": 4.9,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T06:37:28Z\",",
+    " \"generated\": \"2026-09-25T07:08:30Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -195,10 +201,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.7,
+   "minutes": 1.8,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-25T06:39:11Z\",",
+    " \"generated\": \"2026-09-25T07:10:21Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -212,7 +218,7 @@
     " \"latest\": \"2026-09-24\",",
     " \"venues\": 4217,",
     " \"venues_with_3plus\": 1178,",
-    " \"leadership_artists\": 12330,",
+    " \"leadership_artists\": 12297,",
     " \"tiered_rooms\": 834",
     "}"
    ]
