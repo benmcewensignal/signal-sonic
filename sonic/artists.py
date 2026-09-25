@@ -528,6 +528,16 @@ def main():
                   "att": ATTRIB.get(k),
                   "pd": rank_all(_int.get(k)),
                   "psd": (rank_scene.get(v["scene"]) or (lambda x: None))(_int.get(k))}
+        # the facts the artist card tells in words: where they play and how often, how they are
+        # booked, the labels, how long and how recently they have been releasing, and DJ plays
+        full = next((x for x in out["artists"] if x["key"] == k), None) or {}
+        rel = full.get("releases") or {}
+        if b.get("cities"): idx[k]["cn"] = [[c_, n_] for c_, n_ in sorted(b["cities"].items(), key=lambda kv: -kv[1])[:3]]; idx[k]["nc"] = b.get("n_cities")
+        if b.get("tags"): idx[k]["bt"] = [t_ for t_, _ in sorted(b["tags"].items(), key=lambda kv: -kv[1])[:2]]
+        if rel.get("labels"): idx[k]["lb"] = [[l_, n_] for l_, n_ in sorted(rel["labels"].items(), key=lambda kv: -kv[1])[:2]]
+        if rel.get("first_release"): idx[k]["fr"] = str(rel["first_release"])[:7]
+        if rel.get("recent") is not None: idx[k]["rc"] = rel["recent"]
+        if rel.get("set_plays"): idx[k]["sp"] = rel["set_plays"]
     json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(lp, "w"), ensure_ascii=False, separators=(",", ":"))
     slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
     json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))
