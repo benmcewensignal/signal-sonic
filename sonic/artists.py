@@ -7,7 +7,7 @@ questions that only the join can answer. Output: data/artists-latest.json
 
   python -m sonic.artists --db sonic.db --site https://www.earlysignal.live
 """
-import argparse, json, re, sqlite3, time, unicodedata, urllib.request, collections, statistics
+import argparse, json, os, re, sqlite3, time, unicodedata, urllib.request, collections, statistics
 
 SCENES_RA = {  # sonic scene -> RA genre slugs it draws on (booking side)
     "tech-house": ["techhouse"], "techno-peak-time": ["techno"], "techno-raw-deep-hypnotic": ["techno"],
@@ -462,6 +462,20 @@ def main():
     ap.add_argument("--out", default="data/artists-latest.json")
     a = ap.parse_args()
     out = build(a.db, a.site)
+    # identity checks (Grok, 26 September 2026): a verified home scene replaces one set from a
+    # record or two; bookings joined to a different person of the same name are cut
+    NOJOIN = set()
+    try:
+        _names = json.load(open("data/scene-names.json")) if os.path.exists("data/scene-names.json") else {}
+        _n2id = {v: k for k, v in _names.items()}
+        for nm_, verdict, scene_, conf in json.load(open("data/artist-identity.json"))["artists"]:
+            k_ = norm(nm_)
+            if verdict == "A" and conf in ("high", "medium") and scene_ in _n2id and k_ in out.get("artist_leadership", {}):
+                out["artist_leadership"][k_]["scene"] = _n2id[scene_]; out["artist_leadership"][k_]["scene_checked"] = True
+            if verdict == "B" and conf in ("high", "medium"): NOJOIN.add(k_)
+        print(f"identity checks applied; {len(NOJOIN)} joins cut", flush=True)
+    except Exception as e:
+        print("identity checks not applied:", e, flush=True)
     # never replace a good lookup with a much smaller one: on 23 September a version assumption made
     # this select 77 records and write an empty lookup, and the site's artist search and lists went blank
     lp = a.out.replace("artists-latest", "artist-lookup")
@@ -520,7 +534,7 @@ def main():
         ATTRIB = {}
     idx = {}
     for k, v in out.get("artist_leadership", {}).items():
-        b = next((a["bookings"] for a in out["artists"] if a["key"] == k and a.get("bookings")), None) or {}
+        b = {} if k in NOJOIN else (next((a["bookings"] for a in out["artists"] if a["key"] == k and a.get("bookings")), None) or {})
         idx[k] = {"n": v["name"], "s": v["scene"], "z": v["z"], "r": v["records"], "d": v.get("dist"), "a": v.get("align"), "p": v.get("pos"),
                   "dna": v.get("dna"), "t": v.get("tempo"), "bk": b.get("slots", 0), "c": list((b.get("cities") or {}).keys())[:3], "i": b.get("interest", 0),
                   "tier": SCALE.get(k, {}).get("tier"),
