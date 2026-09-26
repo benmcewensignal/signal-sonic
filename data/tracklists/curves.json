@@ -26926,7 +26926,7 @@
        "sets": 10
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 10
@@ -28578,7 +28578,7 @@
        "sets": 10
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 10
@@ -29460,7 +29460,7 @@
      "sets": 10
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 10
@@ -33657,7 +33657,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -34462,7 +34462,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -34917,7 +34917,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -34941,6 +34941,28 @@
      "sets": 3
     }
    }
+  },
+  {
+   "dj": "Aram",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Armin van Buuren",
@@ -44253,7 +44275,7 @@
       },
       "bass_weight": {
        "start_to_end": 0.0,
-       "lo": 0.0,
+       "lo": -0.0,
        "hi": 0.0,
        "sets": 3
       },
@@ -45057,7 +45079,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -45816,6 +45838,28 @@
     "share_within_90_days": 0.0
    },
    "matched": 9,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "AV\u00d6",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
    "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
@@ -51028,7 +51072,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -51954,7 +51998,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -52470,7 +52514,7 @@
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 4
@@ -54575,6 +54619,28 @@
    }
   },
   {
+   "dj": "Blanka Mazimela",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Bok Bok",
    "sets_total": 20,
    "sets_timed": 14,
@@ -55595,7 +55661,7 @@
        "sets": 5
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 5
@@ -56522,7 +56588,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -57103,7 +57169,7 @@
      "sets": 5
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 5
@@ -63972,7 +64038,7 @@
        "sets": 5
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 5
@@ -65019,7 +65085,7 @@
        "sets": 5
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 5
@@ -65596,7 +65662,7 @@
      "sets": 5
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 5
@@ -65620,6 +65686,28 @@
      "sets": 5
     }
    }
+  },
+  {
+   "dj": "Caiiro",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Call Super",
@@ -82322,9 +82410,9 @@
        "sets": 6
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 6
       },
       "loudness": {
@@ -83490,9 +83578,9 @@
        "sets": 6
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 6
       },
       "loudness": {
@@ -84128,9 +84216,9 @@
      "sets": 6
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
-     "hi": -0.0,
+     "hi": 0.0,
      "sets": 6
     },
     "loudness": {
@@ -93871,6 +93959,28 @@
      "sets": 5
     }
    }
+  },
+  {
+   "dj": "Corva",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Courtesy",
@@ -138616,6 +138726,49 @@
    "slopes": {}
   },
   {
+   "dj": "Ferry Corsten",
+   "sets_total": 2,
+   "sets_timed": 1,
+   "records_other_version": 40,
+   "by_format": {},
+   "profile": {
+    "entries": 106,
+    "own_share": 0.104,
+    "genres": [
+     [
+      "trance-main-floor",
+      0.623
+     ],
+     [
+      "dance-pop",
+      0.101
+     ],
+     [
+      "mainstage",
+      0.101
+     ],
+     [
+      "melodic-house-techno",
+      0.087
+     ],
+     [
+      "house",
+      0.029
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 24,
+    "median_days_after_release": 125,
+    "share_within_90_days": 0.333
+   },
+   "matched": 63,
+   "in_charts": 2,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Fingerman",
    "sets_total": 20,
    "sets_timed": 0,
@@ -158713,7 +158866,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 7
       },
       "loudness": {
@@ -160002,7 +160155,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 7
       },
       "loudness": {
@@ -160701,7 +160854,7 @@
     "bass_weight": {
      "start_to_end": -0.0,
      "lo": -0.0,
-     "hi": -0.0,
+     "hi": 0.0,
      "sets": 7
     },
     "loudness": {
@@ -179253,7 +179406,7 @@
       },
       "bass_weight": {
        "start_to_end": 0.0,
-       "lo": 0.0,
+       "lo": -0.0,
        "hi": 0.0,
        "sets": 5
       },
@@ -180859,6 +181012,28 @@
      "sets": 8
     }
    }
+  },
+  {
+   "dj": "Giuseppe Ottaviani",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Goldie",
@@ -188113,7 +188288,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -188919,7 +189094,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -189434,7 +189609,7 @@
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 4
@@ -194341,6 +194516,28 @@
    },
    "matched": 66,
    "in_charts": 3,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Humans Out Loud",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -229606,6 +229803,28 @@
    "slopes": {}
   },
   {
+   "dj": "Just P",
+   "sets_total": 15,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Justin Tinderdate",
    "sets_total": 6,
    "sets_timed": 0,
@@ -229643,6 +229862,33 @@
     "share_within_90_days": null
    },
    "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Kalinga Son",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 7,
+   "by_format": {},
+   "profile": {
+    "entries": 11,
+    "own_share": 0.0,
+    "genres": [
+     [
+      "psy-trance",
+      1.0
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 7,
    "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
@@ -236926,7 +237172,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -249369,6 +249615,28 @@
    "slopes": {}
   },
   {
+   "dj": "Liquid Soul",
+   "sets_total": 1,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Lou Nour",
    "sets_total": 5,
    "sets_timed": 2,
@@ -260474,7 +260742,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -283757,7 +284025,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -284212,7 +284480,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -285061,7 +285329,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -285866,7 +286134,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -286321,7 +286589,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -287249,7 +287517,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 4
       },
       "loudness": {
@@ -288055,7 +288323,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 3
       },
       "loudness": {
@@ -288583,7 +288851,7 @@
     "bass_weight": {
      "start_to_end": -0.0,
      "lo": -0.0,
-     "hi": -0.0,
+     "hi": 0.0,
      "sets": 4
     },
     "loudness": {
@@ -290047,6 +290315,28 @@
      "sets": 4
     }
    }
+  },
+  {
+   "dj": "MoBlack",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Move D",
@@ -300441,7 +300731,7 @@
       },
       "bass_weight": {
        "start_to_end": 0.0,
-       "lo": -0.0,
+       "lo": 0.0,
        "hi": 0.0,
        "sets": 4
       },
@@ -301767,7 +302057,7 @@
     },
     "bass_weight": {
      "start_to_end": 0.0,
-     "lo": -0.0,
+     "lo": 0.0,
      "hi": 0.0,
      "sets": 4
     },
@@ -324130,7 +324420,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -342490,6 +342780,28 @@
      "sets": 13
     }
    }
+  },
+  {
+   "dj": "pumbum",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Purple Disco Machine",
@@ -361287,6 +361599,67 @@
    }
   },
   {
+   "dj": "Riddla",
+   "sets_total": 1,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "RIRI",
+   "sets_total": 1,
+   "sets_timed": 0,
+   "records_other_version": 14,
+   "by_format": {},
+   "profile": {
+    "entries": 30,
+    "own_share": 0.0,
+    "genres": [
+     [
+      "trance-main-floor",
+      0.5
+     ],
+     [
+      "progressive-house",
+      0.278
+     ],
+     [
+      "melodic-house-techno",
+      0.167
+     ],
+     [
+      "mainstage",
+      0.056
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 4,
+    "median_days_after_release": 3379,
+    "share_within_90_days": 0.0
+   },
+   "matched": 18,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Riz La Teef",
    "sets_total": 20,
    "sets_timed": 17,
@@ -367692,7 +368065,7 @@
        "sets": 15
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 15
@@ -369949,7 +370322,7 @@
        "sets": 15
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 15
@@ -371157,7 +371530,7 @@
      "sets": 15
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 15
@@ -371181,6 +371554,70 @@
      "sets": 15
     }
    }
+  },
+  {
+   "dj": "Ruben de Ronde",
+   "sets_total": 34,
+   "sets_timed": 34,
+   "records_other_version": 283,
+   "by_format": {},
+   "profile": {
+    "entries": 649,
+    "own_share": 0.1,
+    "genres": [
+     [
+      "progressive-house",
+      0.266
+     ],
+     [
+      "trance-main-floor",
+      0.259
+     ],
+     [
+      "melodic-house-techno",
+      0.248
+     ],
+     [
+      "dance-pop",
+      0.108
+     ],
+     [
+      "organic-house",
+      0.042
+     ]
+    ],
+    "signatures": [
+     [
+      5,
+      "Ferry Corsten & Ruben De Ronde Pres. NRG2000 \u2013 New Inner Way"
+     ],
+     [
+      4,
+      "Ruben De Ronde & Amber Revival \u2013 River In Me"
+     ],
+     [
+      4,
+      "Ruben De Ronde & Amber Revival \u2013 Illuminate"
+     ],
+     [
+      4,
+      "Ferry Corsten & Ruben De Ronde Pres. NRG2000 \u2013 Rise Up"
+     ],
+     [
+      4,
+      "Ebenezer & Lovlee \u2013 On My Skin"
+     ]
+    ],
+    "release_dates": 55,
+    "median_days_after_release": 63,
+    "share_within_90_days": 0.545
+   },
+   "matched": 338,
+   "in_charts": 11,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "S\u00e9bastien L\u00e9ger",
@@ -373344,7 +373781,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -374270,7 +374707,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -374786,7 +375223,7 @@
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 4
@@ -388729,6 +389166,28 @@
    }
   },
   {
+   "dj": "Scratcha",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Seamus Haji",
    "sets_total": 8,
    "sets_timed": 1,
@@ -391699,6 +392158,62 @@
      "sets": 6
     }
    }
+  },
+  {
+   "dj": "Shimza",
+   "sets_total": 9,
+   "sets_timed": 9,
+   "records_other_version": 17,
+   "by_format": {},
+   "profile": {
+    "entries": 144,
+    "own_share": 0.111,
+    "genres": [
+     [
+      "afro-house",
+      0.625
+     ],
+     [
+      "melodic-house-techno",
+      0.146
+     ],
+     [
+      "dance-pop",
+      0.104
+     ],
+     [
+      "house",
+      0.042
+     ],
+     [
+      "tech-house",
+      0.042
+     ]
+    ],
+    "signatures": [
+     [
+      4,
+      "Non Grata & RB\u00d8R \u2013 Dogs On Acid"
+     ],
+     [
+      4,
+      "Liva K \u2013 Track With The Organ"
+     ],
+     [
+      4,
+      "Jigar & Roland Clark \u2013 Masters Of Destiny"
+     ]
+    ],
+    "release_dates": 15,
+    "median_days_after_release": 85,
+    "share_within_90_days": 0.533
+   },
+   "matched": 33,
+   "in_charts": 7,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Simon Patterson",
@@ -405689,7 +406204,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -406144,7 +406659,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -407612,6 +408127,2103 @@
    }
   },
   {
+   "dj": "St.Ego",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Stoneface & Terminal",
+   "sets_total": 29,
+   "sets_timed": 13,
+   "records_other_version": 335,
+   "by_format": {
+    "all": {
+     "sets_used": 3,
+     "records_measured": 19,
+     "curves": {
+      "tempo": {
+       "mean": [
+        130.2576,
+        144.4985,
+        143.4708,
+        134.8745,
+        138.3105,
+        135.9715,
+        149.9919,
+        132.1519,
+        134.5275,
+        129.7113
+       ],
+       "lo": [
+        118.1978,
+        null,
+        122.7358,
+        null,
+        128.4903,
+        131.4182,
+        86.2925,
+        null,
+        129.9611,
+        null
+       ],
+       "hi": [
+        142.3173,
+        null,
+        164.2057,
+        null,
+        148.1308,
+        140.5248,
+        213.6913,
+        null,
+        139.0939,
+        null
+       ],
+       "sets": [
+        [
+         128.3475,
+         null,
+         137.4628,
+         null,
+         136.7552,
+         136.6927,
+         null,
+         132.1519,
+         133.8042,
+         null
+        ],
+        [
+         132.1676,
+         null,
+         135.3301,
+         134.8745,
+         null,
+         null,
+         139.9029,
+         null,
+         null,
+         129.7113
+        ],
+        [
+         null,
+         144.4985,
+         157.6194,
+         null,
+         139.8659,
+         135.2503,
+         160.0809,
+         null,
+         135.2507,
+         null
+        ]
+       ]
+      },
+      "bass_weight": {
+       "mean": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "lo": [
+        1.0,
+        null,
+        1.0,
+        null,
+        1.0,
+        1.0,
+        1.0,
+        null,
+        1.0,
+        null
+       ],
+       "hi": [
+        1.0,
+        null,
+        1.0,
+        null,
+        1.0,
+        1.0,
+        1.0,
+        null,
+        1.0,
+        null
+       ],
+       "sets": [
+        [
+         1.0,
+         null,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         null
+        ],
+        [
+         1.0,
+         null,
+         1.0,
+         1.0,
+         null,
+         null,
+         1.0,
+         null,
+         null,
+         1.0
+        ],
+        [
+         null,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         null
+        ]
+       ]
+      },
+      "loudness": {
+       "mean": [
+        -13.7456,
+        -11.6407,
+        -12.4698,
+        -14.4348,
+        -12.6884,
+        -10.6843,
+        -11.1918,
+        -10.8337,
+        -12.5344,
+        -10.9301
+       ],
+       "lo": [
+        -14.0618,
+        null,
+        -14.6244,
+        null,
+        -18.7697,
+        -10.7327,
+        -22.8312,
+        null,
+        -18.256,
+        null
+       ],
+       "hi": [
+        -13.4295,
+        null,
+        -10.3152,
+        null,
+        -6.607,
+        -10.636,
+        0.4476,
+        null,
+        -6.8128,
+        null
+       ],
+       "sets": [
+        [
+         -13.6956,
+         null,
+         -13.6125,
+         null,
+         -13.6516,
+         -10.692,
+         null,
+         -10.8337,
+         -13.4406,
+         null
+        ],
+        [
+         -13.7957,
+         null,
+         -11.0897,
+         -14.4348,
+         null,
+         null,
+         -9.3483,
+         null,
+         null,
+         -10.9301
+        ],
+        [
+         null,
+         -11.6407,
+         -12.7071,
+         null,
+         -11.7252,
+         -10.6767,
+         -13.0353,
+         null,
+         -11.6282,
+         null
+        ]
+       ]
+      },
+      "drum_density": {
+       "mean": [
+        0.7151,
+        0.8167,
+        0.799,
+        0.7875,
+        0.6167,
+        0.6083,
+        0.8086,
+        1.0,
+        0.8219,
+        0.8698
+       ],
+       "lo": [
+        -0.4062,
+        null,
+        0.4652,
+        null,
+        0.2418,
+        -0.3058,
+        0.0342,
+        null,
+        0.2826,
+        null
+       ],
+       "hi": [
+        1.8364,
+        null,
+        1.1327,
+        null,
+        0.9915,
+        1.5225,
+        1.583,
+        null,
+        1.3612,
+        null
+       ],
+       "sets": [
+        [
+         0.8927,
+         null,
+         0.6042,
+         null,
+         0.676,
+         0.4635,
+         null,
+         1.0,
+         0.9073,
+         null
+        ],
+        [
+         0.5375,
+         null,
+         1.0,
+         0.7875,
+         null,
+         null,
+         0.9312,
+         null,
+         null,
+         0.8698
+        ],
+        [
+         null,
+         0.8167,
+         0.7927,
+         null,
+         0.5573,
+         0.7531,
+         0.6859,
+         null,
+         0.7365,
+         null
+        ]
+       ]
+      },
+      "vocal_presence": {
+       "mean": [
+        0.3514,
+        0.1643,
+        0.2299,
+        0.3379,
+        0.1737,
+        0.1298,
+        0.1258,
+        0.3791,
+        0.2428,
+        0.3505
+       ],
+       "lo": [
+        0.1909,
+        null,
+        0.1146,
+        null,
+        -0.0602,
+        0.1163,
+        -0.1341,
+        null,
+        -0.2144,
+        null
+       ],
+       "hi": [
+        0.5119,
+        null,
+        0.3451,
+        null,
+        0.4076,
+        0.1433,
+        0.3858,
+        null,
+        0.7001,
+        null
+       ],
+       "sets": [
+        [
+         0.3768,
+         null,
+         0.3086,
+         null,
+         0.1366,
+         0.1276,
+         null,
+         0.3791,
+         0.3152,
+         null
+        ],
+        [
+         0.326,
+         null,
+         0.195,
+         0.3379,
+         null,
+         null,
+         0.0847,
+         null,
+         null,
+         0.3505
+        ],
+        [
+         null,
+         0.1643,
+         0.186,
+         null,
+         0.2107,
+         0.1319,
+         0.167,
+         null,
+         0.1704,
+         null
+        ]
+       ]
+      }
+     },
+     "curves_rel": {
+      "tempo": {
+       "mean": [
+        0.0,
+        0.0,
+        8.4662,
+        2.7068,
+        1.8875,
+        -0.4515,
+        11.6588,
+        3.8044,
+        -1.8955,
+        -2.4564
+       ],
+       "lo": [
+        0.0,
+        null,
+        0.0187,
+        null,
+        -39.2789,
+        -55.9914,
+        -13.1136,
+        null,
+        -48.3158,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        16.9138,
+        null,
+        43.054,
+        55.0885,
+        36.4313,
+        null,
+        44.5248,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         9.1153,
+         null,
+         8.4077,
+         8.3452,
+         null,
+         3.8044,
+         5.4567,
+         null
+        ],
+        [
+         0.0,
+         null,
+         3.1625,
+         2.7068,
+         null,
+         null,
+         7.7353,
+         null,
+         null,
+         -2.4564
+        ],
+        [
+         null,
+         0.0,
+         13.1209,
+         null,
+         -4.6326,
+         -9.2481,
+         15.5824,
+         null,
+         -9.2478,
+         null
+        ]
+       ]
+      },
+      "bass_weight": {
+       "mean": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "lo": [
+        0.0,
+        null,
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         null
+        ],
+        [
+         0.0,
+         null,
+         0.0,
+         0.0,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.0
+        ],
+        [
+         null,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         null
+        ]
+       ]
+      },
+      "loudness": {
+       "mean": [
+        0.0,
+        0.0,
+        0.5742,
+        -0.6391,
+        -0.0202,
+        1.9838,
+        1.5264,
+        2.8619,
+        0.1338,
+        2.8656
+       ],
+       "lo": [
+        0.0,
+        null,
+        -2.6855,
+        null,
+        -0.4257,
+        -4.4547,
+        -16.916,
+        null,
+        -0.6315,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        3.8339,
+        null,
+        0.3853,
+        8.4223,
+        19.9688,
+        null,
+        0.899,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         0.083,
+         null,
+         0.044,
+         3.0036,
+         null,
+         2.8619,
+         0.255,
+         null
+        ],
+        [
+         0.0,
+         null,
+         2.706,
+         -0.6391,
+         null,
+         null,
+         4.4474,
+         null,
+         null,
+         2.8656
+        ],
+        [
+         null,
+         0.0,
+         -1.0663,
+         null,
+         -0.0844,
+         0.9641,
+         -1.3946,
+         null,
+         0.0126,
+         null
+        ]
+       ]
+      },
+      "drum_density": {
+       "mean": [
+        0.0,
+        0.0,
+        0.05,
+        0.25,
+        -0.238,
+        -0.2464,
+        0.1315,
+        0.1073,
+        -0.0328,
+        0.3323
+       ],
+       "lo": [
+        0.0,
+        null,
+        -0.5922,
+        null,
+        -0.3728,
+        -1.4006,
+        -1.5242,
+        null,
+        -0.3321,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        0.6922,
+        null,
+        -0.1032,
+        0.9079,
+        1.7872,
+        null,
+        0.2664,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         -0.2885,
+         null,
+         -0.2167,
+         -0.4292,
+         null,
+         0.1073,
+         0.0146,
+         null
+        ],
+        [
+         0.0,
+         null,
+         0.4625,
+         0.25,
+         null,
+         null,
+         0.3937,
+         null,
+         null,
+         0.3323
+        ],
+        [
+         null,
+         0.0,
+         -0.024,
+         null,
+         -0.2594,
+         -0.0635,
+         -0.1307,
+         null,
+         -0.0802,
+         null
+        ]
+       ]
+      },
+      "vocal_presence": {
+       "mean": [
+        0.0,
+        0.0,
+        -0.0592,
+        0.0119,
+        -0.0969,
+        -0.1408,
+        -0.1193,
+        0.0023,
+        -0.0277,
+        0.0245
+       ],
+       "lo": [
+        0.0,
+        null,
+        -0.1886,
+        null,
+        -1.0018,
+        -0.8254,
+        -0.8898,
+        null,
+        -0.2415,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        0.0703,
+        null,
+        0.8081,
+        0.5438,
+        0.6512,
+        null,
+        0.1861,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         -0.0682,
+         null,
+         -0.2402,
+         -0.2492,
+         null,
+         0.0023,
+         -0.0616,
+         null
+        ],
+        [
+         0.0,
+         null,
+         -0.131,
+         0.0119,
+         null,
+         null,
+         -0.2413,
+         null,
+         null,
+         0.0245
+        ],
+        [
+         null,
+         0.0,
+         0.0217,
+         null,
+         0.0465,
+         -0.0324,
+         0.0028,
+         null,
+         0.0061,
+         null
+        ]
+       ]
+      }
+     },
+     "slopes": {
+      "tempo": {
+       "start_to_end": -0.0378,
+       "lo": -3.9254,
+       "hi": 3.8499,
+       "sets": 3
+      },
+      "bass_weight": {
+       "start_to_end": 0.0,
+       "lo": -0.0,
+       "hi": 0.0,
+       "sets": 3
+      },
+      "loudness": {
+       "start_to_end": 1.8256,
+       "lo": -1.8888,
+       "hi": 5.5399,
+       "sets": 3
+      },
+      "drum_density": {
+       "start_to_end": 0.1107,
+       "lo": -0.2024,
+       "hi": 0.4238,
+       "sets": 3
+      },
+      "vocal_presence": {
+       "start_to_end": -0.0224,
+       "lo": -0.046,
+       "hi": 0.0011,
+       "sets": 3
+      }
+     },
+     "titles": [
+      "2025-06-04 - Stoneface & Terminal - From Techno Into Trance 85",
+      "2026-02-25 - Stoneface & Terminal - From Techno Into Trance 98",
+      "2026-03-19 - Stoneface & Terminal - From Techno Into Trance 99"
+     ]
+    },
+    "radio": {
+     "sets_used": 3,
+     "records_measured": 19,
+     "curves": {
+      "tempo": {
+       "mean": [
+        130.2576,
+        144.4985,
+        143.4708,
+        134.8745,
+        138.3105,
+        135.9715,
+        149.9919,
+        132.1519,
+        134.5275,
+        129.7113
+       ],
+       "lo": [
+        118.1978,
+        null,
+        122.7358,
+        null,
+        128.4903,
+        131.4182,
+        86.2925,
+        null,
+        129.9611,
+        null
+       ],
+       "hi": [
+        142.3173,
+        null,
+        164.2057,
+        null,
+        148.1308,
+        140.5248,
+        213.6913,
+        null,
+        139.0939,
+        null
+       ],
+       "sets": [
+        [
+         128.3475,
+         null,
+         137.4628,
+         null,
+         136.7552,
+         136.6927,
+         null,
+         132.1519,
+         133.8042,
+         null
+        ],
+        [
+         132.1676,
+         null,
+         135.3301,
+         134.8745,
+         null,
+         null,
+         139.9029,
+         null,
+         null,
+         129.7113
+        ],
+        [
+         null,
+         144.4985,
+         157.6194,
+         null,
+         139.8659,
+         135.2503,
+         160.0809,
+         null,
+         135.2507,
+         null
+        ]
+       ]
+      },
+      "bass_weight": {
+       "mean": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "lo": [
+        1.0,
+        null,
+        1.0,
+        null,
+        1.0,
+        1.0,
+        1.0,
+        null,
+        1.0,
+        null
+       ],
+       "hi": [
+        1.0,
+        null,
+        1.0,
+        null,
+        1.0,
+        1.0,
+        1.0,
+        null,
+        1.0,
+        null
+       ],
+       "sets": [
+        [
+         1.0,
+         null,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         null
+        ],
+        [
+         1.0,
+         null,
+         1.0,
+         1.0,
+         null,
+         null,
+         1.0,
+         null,
+         null,
+         1.0
+        ],
+        [
+         null,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         null
+        ]
+       ]
+      },
+      "loudness": {
+       "mean": [
+        -13.7456,
+        -11.6407,
+        -12.4698,
+        -14.4348,
+        -12.6884,
+        -10.6843,
+        -11.1918,
+        -10.8337,
+        -12.5344,
+        -10.9301
+       ],
+       "lo": [
+        -14.0618,
+        null,
+        -14.6244,
+        null,
+        -18.7697,
+        -10.7327,
+        -22.8312,
+        null,
+        -18.256,
+        null
+       ],
+       "hi": [
+        -13.4295,
+        null,
+        -10.3152,
+        null,
+        -6.607,
+        -10.636,
+        0.4476,
+        null,
+        -6.8128,
+        null
+       ],
+       "sets": [
+        [
+         -13.6956,
+         null,
+         -13.6125,
+         null,
+         -13.6516,
+         -10.692,
+         null,
+         -10.8337,
+         -13.4406,
+         null
+        ],
+        [
+         -13.7957,
+         null,
+         -11.0897,
+         -14.4348,
+         null,
+         null,
+         -9.3483,
+         null,
+         null,
+         -10.9301
+        ],
+        [
+         null,
+         -11.6407,
+         -12.7071,
+         null,
+         -11.7252,
+         -10.6767,
+         -13.0353,
+         null,
+         -11.6282,
+         null
+        ]
+       ]
+      },
+      "drum_density": {
+       "mean": [
+        0.7151,
+        0.8167,
+        0.799,
+        0.7875,
+        0.6167,
+        0.6083,
+        0.8086,
+        1.0,
+        0.8219,
+        0.8698
+       ],
+       "lo": [
+        -0.4062,
+        null,
+        0.4652,
+        null,
+        0.2418,
+        -0.3058,
+        0.0342,
+        null,
+        0.2826,
+        null
+       ],
+       "hi": [
+        1.8364,
+        null,
+        1.1327,
+        null,
+        0.9915,
+        1.5225,
+        1.583,
+        null,
+        1.3612,
+        null
+       ],
+       "sets": [
+        [
+         0.8927,
+         null,
+         0.6042,
+         null,
+         0.676,
+         0.4635,
+         null,
+         1.0,
+         0.9073,
+         null
+        ],
+        [
+         0.5375,
+         null,
+         1.0,
+         0.7875,
+         null,
+         null,
+         0.9312,
+         null,
+         null,
+         0.8698
+        ],
+        [
+         null,
+         0.8167,
+         0.7927,
+         null,
+         0.5573,
+         0.7531,
+         0.6859,
+         null,
+         0.7365,
+         null
+        ]
+       ]
+      },
+      "vocal_presence": {
+       "mean": [
+        0.3514,
+        0.1643,
+        0.2299,
+        0.3379,
+        0.1737,
+        0.1298,
+        0.1258,
+        0.3791,
+        0.2428,
+        0.3505
+       ],
+       "lo": [
+        0.1909,
+        null,
+        0.1146,
+        null,
+        -0.0602,
+        0.1163,
+        -0.1341,
+        null,
+        -0.2144,
+        null
+       ],
+       "hi": [
+        0.5119,
+        null,
+        0.3451,
+        null,
+        0.4076,
+        0.1433,
+        0.3858,
+        null,
+        0.7001,
+        null
+       ],
+       "sets": [
+        [
+         0.3768,
+         null,
+         0.3086,
+         null,
+         0.1366,
+         0.1276,
+         null,
+         0.3791,
+         0.3152,
+         null
+        ],
+        [
+         0.326,
+         null,
+         0.195,
+         0.3379,
+         null,
+         null,
+         0.0847,
+         null,
+         null,
+         0.3505
+        ],
+        [
+         null,
+         0.1643,
+         0.186,
+         null,
+         0.2107,
+         0.1319,
+         0.167,
+         null,
+         0.1704,
+         null
+        ]
+       ]
+      }
+     },
+     "curves_rel": {
+      "tempo": {
+       "mean": [
+        0.0,
+        0.0,
+        8.4662,
+        2.7068,
+        1.8875,
+        -0.4515,
+        11.6588,
+        3.8044,
+        -1.8955,
+        -2.4564
+       ],
+       "lo": [
+        0.0,
+        null,
+        0.0187,
+        null,
+        -39.2789,
+        -55.9914,
+        -13.1136,
+        null,
+        -48.3158,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        16.9138,
+        null,
+        43.054,
+        55.0885,
+        36.4313,
+        null,
+        44.5248,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         9.1153,
+         null,
+         8.4077,
+         8.3452,
+         null,
+         3.8044,
+         5.4567,
+         null
+        ],
+        [
+         0.0,
+         null,
+         3.1625,
+         2.7068,
+         null,
+         null,
+         7.7353,
+         null,
+         null,
+         -2.4564
+        ],
+        [
+         null,
+         0.0,
+         13.1209,
+         null,
+         -4.6326,
+         -9.2481,
+         15.5824,
+         null,
+         -9.2478,
+         null
+        ]
+       ]
+      },
+      "bass_weight": {
+       "mean": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "lo": [
+        0.0,
+        null,
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         null
+        ],
+        [
+         0.0,
+         null,
+         0.0,
+         0.0,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.0
+        ],
+        [
+         null,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         null
+        ]
+       ]
+      },
+      "loudness": {
+       "mean": [
+        0.0,
+        0.0,
+        0.5742,
+        -0.6391,
+        -0.0202,
+        1.9838,
+        1.5264,
+        2.8619,
+        0.1338,
+        2.8656
+       ],
+       "lo": [
+        0.0,
+        null,
+        -2.6855,
+        null,
+        -0.4257,
+        -4.4547,
+        -16.916,
+        null,
+        -0.6315,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        3.8339,
+        null,
+        0.3853,
+        8.4223,
+        19.9688,
+        null,
+        0.899,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         0.083,
+         null,
+         0.044,
+         3.0036,
+         null,
+         2.8619,
+         0.255,
+         null
+        ],
+        [
+         0.0,
+         null,
+         2.706,
+         -0.6391,
+         null,
+         null,
+         4.4474,
+         null,
+         null,
+         2.8656
+        ],
+        [
+         null,
+         0.0,
+         -1.0663,
+         null,
+         -0.0844,
+         0.9641,
+         -1.3946,
+         null,
+         0.0126,
+         null
+        ]
+       ]
+      },
+      "drum_density": {
+       "mean": [
+        0.0,
+        0.0,
+        0.05,
+        0.25,
+        -0.238,
+        -0.2464,
+        0.1315,
+        0.1073,
+        -0.0328,
+        0.3323
+       ],
+       "lo": [
+        0.0,
+        null,
+        -0.5922,
+        null,
+        -0.3728,
+        -1.4006,
+        -1.5242,
+        null,
+        -0.3321,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        0.6922,
+        null,
+        -0.1032,
+        0.9079,
+        1.7872,
+        null,
+        0.2664,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         -0.2885,
+         null,
+         -0.2167,
+         -0.4292,
+         null,
+         0.1073,
+         0.0146,
+         null
+        ],
+        [
+         0.0,
+         null,
+         0.4625,
+         0.25,
+         null,
+         null,
+         0.3937,
+         null,
+         null,
+         0.3323
+        ],
+        [
+         null,
+         0.0,
+         -0.024,
+         null,
+         -0.2594,
+         -0.0635,
+         -0.1307,
+         null,
+         -0.0802,
+         null
+        ]
+       ]
+      },
+      "vocal_presence": {
+       "mean": [
+        0.0,
+        0.0,
+        -0.0592,
+        0.0119,
+        -0.0969,
+        -0.1408,
+        -0.1193,
+        0.0023,
+        -0.0277,
+        0.0245
+       ],
+       "lo": [
+        0.0,
+        null,
+        -0.1886,
+        null,
+        -1.0018,
+        -0.8254,
+        -0.8898,
+        null,
+        -0.2415,
+        null
+       ],
+       "hi": [
+        0.0,
+        null,
+        0.0703,
+        null,
+        0.8081,
+        0.5438,
+        0.6512,
+        null,
+        0.1861,
+        null
+       ],
+       "sets": [
+        [
+         0.0,
+         null,
+         -0.0682,
+         null,
+         -0.2402,
+         -0.2492,
+         null,
+         0.0023,
+         -0.0616,
+         null
+        ],
+        [
+         0.0,
+         null,
+         -0.131,
+         0.0119,
+         null,
+         null,
+         -0.2413,
+         null,
+         null,
+         0.0245
+        ],
+        [
+         null,
+         0.0,
+         0.0217,
+         null,
+         0.0465,
+         -0.0324,
+         0.0028,
+         null,
+         0.0061,
+         null
+        ]
+       ]
+      }
+     },
+     "slopes": {
+      "tempo": {
+       "start_to_end": -0.0378,
+       "lo": -3.9254,
+       "hi": 3.8499,
+       "sets": 3
+      },
+      "bass_weight": {
+       "start_to_end": 0.0,
+       "lo": -0.0,
+       "hi": 0.0,
+       "sets": 3
+      },
+      "loudness": {
+       "start_to_end": 1.8256,
+       "lo": -1.8888,
+       "hi": 5.5399,
+       "sets": 3
+      },
+      "drum_density": {
+       "start_to_end": 0.1107,
+       "lo": -0.2024,
+       "hi": 0.4238,
+       "sets": 3
+      },
+      "vocal_presence": {
+       "start_to_end": -0.0224,
+       "lo": -0.046,
+       "hi": 0.0011,
+       "sets": 3
+      }
+     },
+     "titles": [
+      "2025-06-04 - Stoneface & Terminal - From Techno Into Trance 85",
+      "2026-02-25 - Stoneface & Terminal - From Techno Into Trance 98",
+      "2026-03-19 - Stoneface & Terminal - From Techno Into Trance 99"
+     ]
+    }
+   },
+   "profile": {
+    "entries": 669,
+    "own_share": 0.124,
+    "genres": [
+     [
+      "trance-main-floor",
+      0.307
+     ],
+     [
+      "techno-raw-deep-hypnotic",
+      0.245
+     ],
+     [
+      "techno-peak-time-driving",
+      0.24
+     ],
+     [
+      "trance-raw-deep-hypnotic",
+      0.141
+     ],
+     [
+      "melodic-house-techno",
+      0.026
+     ]
+    ],
+    "signatures": [
+     [
+      4,
+      "Stoneface & Terminal \u2013 Agra (Extended Mix)"
+     ],
+     [
+      3,
+      "Stoneface & Terminal \u2013 Flash & Bang (Extended)"
+     ]
+    ],
+    "release_dates": 44,
+    "median_days_after_release": 14,
+    "share_within_90_days": 0.886
+   },
+   "matched": 396,
+   "in_charts": 22,
+   "sets_used": 3,
+   "records_measured": 19,
+   "curves": {
+    "tempo": {
+     "mean": [
+      130.2576,
+      144.4985,
+      143.4708,
+      134.8745,
+      138.3105,
+      135.9715,
+      149.9919,
+      132.1519,
+      134.5275,
+      129.7113
+     ],
+     "lo": [
+      118.1978,
+      null,
+      122.7358,
+      null,
+      128.4903,
+      131.4182,
+      86.2925,
+      null,
+      129.9611,
+      null
+     ],
+     "hi": [
+      142.3173,
+      null,
+      164.2057,
+      null,
+      148.1308,
+      140.5248,
+      213.6913,
+      null,
+      139.0939,
+      null
+     ],
+     "sets": [
+      [
+       128.3475,
+       null,
+       137.4628,
+       null,
+       136.7552,
+       136.6927,
+       null,
+       132.1519,
+       133.8042,
+       null
+      ],
+      [
+       132.1676,
+       null,
+       135.3301,
+       134.8745,
+       null,
+       null,
+       139.9029,
+       null,
+       null,
+       129.7113
+      ],
+      [
+       null,
+       144.4985,
+       157.6194,
+       null,
+       139.8659,
+       135.2503,
+       160.0809,
+       null,
+       135.2507,
+       null
+      ]
+     ]
+    },
+    "bass_weight": {
+     "mean": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "lo": [
+      1.0,
+      null,
+      1.0,
+      null,
+      1.0,
+      1.0,
+      1.0,
+      null,
+      1.0,
+      null
+     ],
+     "hi": [
+      1.0,
+      null,
+      1.0,
+      null,
+      1.0,
+      1.0,
+      1.0,
+      null,
+      1.0,
+      null
+     ],
+     "sets": [
+      [
+       1.0,
+       null,
+       1.0,
+       null,
+       1.0,
+       1.0,
+       null,
+       1.0,
+       1.0,
+       null
+      ],
+      [
+       1.0,
+       null,
+       1.0,
+       1.0,
+       null,
+       null,
+       1.0,
+       null,
+       null,
+       1.0
+      ],
+      [
+       null,
+       1.0,
+       1.0,
+       null,
+       1.0,
+       1.0,
+       1.0,
+       null,
+       1.0,
+       null
+      ]
+     ]
+    },
+    "loudness": {
+     "mean": [
+      -13.7456,
+      -11.6407,
+      -12.4698,
+      -14.4348,
+      -12.6884,
+      -10.6843,
+      -11.1918,
+      -10.8337,
+      -12.5344,
+      -10.9301
+     ],
+     "lo": [
+      -14.0618,
+      null,
+      -14.6244,
+      null,
+      -18.7697,
+      -10.7327,
+      -22.8312,
+      null,
+      -18.256,
+      null
+     ],
+     "hi": [
+      -13.4295,
+      null,
+      -10.3152,
+      null,
+      -6.607,
+      -10.636,
+      0.4476,
+      null,
+      -6.8128,
+      null
+     ],
+     "sets": [
+      [
+       -13.6956,
+       null,
+       -13.6125,
+       null,
+       -13.6516,
+       -10.692,
+       null,
+       -10.8337,
+       -13.4406,
+       null
+      ],
+      [
+       -13.7957,
+       null,
+       -11.0897,
+       -14.4348,
+       null,
+       null,
+       -9.3483,
+       null,
+       null,
+       -10.9301
+      ],
+      [
+       null,
+       -11.6407,
+       -12.7071,
+       null,
+       -11.7252,
+       -10.6767,
+       -13.0353,
+       null,
+       -11.6282,
+       null
+      ]
+     ]
+    },
+    "drum_density": {
+     "mean": [
+      0.7151,
+      0.8167,
+      0.799,
+      0.7875,
+      0.6167,
+      0.6083,
+      0.8086,
+      1.0,
+      0.8219,
+      0.8698
+     ],
+     "lo": [
+      -0.4062,
+      null,
+      0.4652,
+      null,
+      0.2418,
+      -0.3058,
+      0.0342,
+      null,
+      0.2826,
+      null
+     ],
+     "hi": [
+      1.8364,
+      null,
+      1.1327,
+      null,
+      0.9915,
+      1.5225,
+      1.583,
+      null,
+      1.3612,
+      null
+     ],
+     "sets": [
+      [
+       0.8927,
+       null,
+       0.6042,
+       null,
+       0.676,
+       0.4635,
+       null,
+       1.0,
+       0.9073,
+       null
+      ],
+      [
+       0.5375,
+       null,
+       1.0,
+       0.7875,
+       null,
+       null,
+       0.9312,
+       null,
+       null,
+       0.8698
+      ],
+      [
+       null,
+       0.8167,
+       0.7927,
+       null,
+       0.5573,
+       0.7531,
+       0.6859,
+       null,
+       0.7365,
+       null
+      ]
+     ]
+    },
+    "vocal_presence": {
+     "mean": [
+      0.3514,
+      0.1643,
+      0.2299,
+      0.3379,
+      0.1737,
+      0.1298,
+      0.1258,
+      0.3791,
+      0.2428,
+      0.3505
+     ],
+     "lo": [
+      0.1909,
+      null,
+      0.1146,
+      null,
+      -0.0602,
+      0.1163,
+      -0.1341,
+      null,
+      -0.2144,
+      null
+     ],
+     "hi": [
+      0.5119,
+      null,
+      0.3451,
+      null,
+      0.4076,
+      0.1433,
+      0.3858,
+      null,
+      0.7001,
+      null
+     ],
+     "sets": [
+      [
+       0.3768,
+       null,
+       0.3086,
+       null,
+       0.1366,
+       0.1276,
+       null,
+       0.3791,
+       0.3152,
+       null
+      ],
+      [
+       0.326,
+       null,
+       0.195,
+       0.3379,
+       null,
+       null,
+       0.0847,
+       null,
+       null,
+       0.3505
+      ],
+      [
+       null,
+       0.1643,
+       0.186,
+       null,
+       0.2107,
+       0.1319,
+       0.167,
+       null,
+       0.1704,
+       null
+      ]
+     ]
+    }
+   },
+   "slopes": {
+    "tempo": {
+     "start_to_end": -0.0378,
+     "lo": -3.9254,
+     "hi": 3.8499,
+     "sets": 3
+    },
+    "bass_weight": {
+     "start_to_end": 0.0,
+     "lo": -0.0,
+     "hi": 0.0,
+     "sets": 3
+    },
+    "loudness": {
+     "start_to_end": 1.8256,
+     "lo": -1.8888,
+     "hi": 5.5399,
+     "sets": 3
+    },
+    "drum_density": {
+     "start_to_end": 0.1107,
+     "lo": -0.2024,
+     "hi": 0.4238,
+     "sets": 3
+    },
+    "vocal_presence": {
+     "start_to_end": -0.0224,
+     "lo": -0.046,
+     "hi": 0.0011,
+     "sets": 3
+    }
+   }
+  },
+  {
    "dj": "Sub Focus",
    "sets_total": 4,
    "sets_timed": 3,
@@ -408394,7 +411006,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": 0.0,
+       "hi": -0.0,
        "sets": 3
       },
       "loudness": {
@@ -409199,7 +411811,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": 0.0,
+       "hi": -0.0,
        "sets": 3
       },
       "loudness": {
@@ -409659,7 +412271,7 @@
     "bass_weight": {
      "start_to_end": -0.0,
      "lo": -0.0,
-     "hi": 0.0,
+     "hi": -0.0,
      "sets": 3
     },
     "loudness": {
@@ -413515,6 +416127,28 @@
    "slopes": {}
   },
   {
+   "dj": "Taleon",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Taylah Elaine",
    "sets_total": 6,
    "sets_timed": 0,
@@ -416221,6 +418855,28 @@
     "share_within_90_days": 0.75
    },
    "matched": 11,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "THEMBA",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
    "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
@@ -429084,7 +431740,7 @@
       },
       "bass_weight": {
        "start_to_end": 0.0,
-       "lo": 0.0,
+       "lo": -0.0,
        "hi": 0.0,
        "sets": 3
       },
