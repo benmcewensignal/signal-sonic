@@ -559,6 +559,41 @@ def main():
         if rel.get("first_release"): idx[k]["fr"] = str(rel["first_release"])[:7]
         if rel.get("recent") is not None: idx[k]["rc"] = rel["recent"]
         if rel.get("set_plays"): idx[k]["sp"] = rel["set_plays"]
+    # each artist's records on the map, and their five nearest artists by sound: built here so both
+    # follow the corpus, rather than a snapshot made by hand
+    try:
+        import numpy as np
+        rd = json.load(urllib.request.urlopen(a.site.rstrip("/") + "/data/reader.json", timeout=60))
+        mu, a1, a2, sp = np.array(rd["mu_raw"]), np.array(rd["ax1"]), np.array(rd["ax2"]), rd["spread"]
+        q_ = lambda v, lo, hi: int(max(-127, min(127, round((v - lo) / (hi - lo) * 254 - 127))))
+        _c = sqlite3.connect(a.db); E = {}
+        for t, f in _c.execute("select track_id, features from tracks where analyser_id='local' and analyser_ver like '3.0%'"):
+            e = json.loads(f).get("embedding")
+            if e and len(e) == 45: E[t] = np.array(e)
+        pos, vec = {}, {}
+        for t, arts_ in _c.execute("select track_id, artists from track_meta"):
+            if t not in E or not arts_: continue
+            try: nms = json.loads(arts_) if arts_.startswith("[") else [arts_]
+            except Exception: nms = [arts_]
+            r_ = E[t] - mu; xy = [q_(float(r_ @ a1), sp[0], sp[1]), q_(float(r_ @ a2), sp[2], sp[3])]
+            for nm_ in set(n for n in nms if isinstance(n, str)):
+                k_ = norm(nm_)
+                if k_ in idx:
+                    if len(pos.setdefault(k_, [])) < 80: pos[k_].append(xy)
+                    vec.setdefault(k_, []).append(E[t])
+        json.dump({"note": "each artist's measured records as map positions (-127 to 127), on the walk map's scale", "artists": pos},
+                  open(lp.replace("artist-lookup", "artist-records"), "w"), separators=(",", ":"))
+        keys = [k_ for k_, vs in vec.items() if len(vs) >= 3]
+        if keys:
+            M = np.array([np.mean(vec[k_], axis=0) for k_ in keys]); M = M - M.mean(0); M /= (np.linalg.norm(M, axis=1, keepdims=True) + 1e-9)
+            for i0 in range(0, len(keys), 2000):
+                S = M[i0:i0 + 2000] @ M.T
+                for r, k_ in enumerate(keys[i0:i0 + 2000]):
+                    S[r, i0 + r] = -1; top = np.argsort(-S[r])[:5]
+                    idx[k_]["sl"] = [[idx[keys[j]]["n"], round(float(S[r, j]), 2)] for j in top]
+        print(f"artist records for {len(pos)} artists; sounds-like for {len(keys)}", flush=True)
+    except Exception as e:
+        print("artist records and sounds-like not built:", e, flush=True)
     json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(lp, "w"), ensure_ascii=False, separators=(",", ":"))
     slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
     json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))
