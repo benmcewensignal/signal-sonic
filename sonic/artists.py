@@ -117,6 +117,7 @@ def load_releases(db):
     return R, n_meta
 
 LEAD_MAP = {}
+SCENE_COUNTS = {}   # an artist's measured records per scene
 LABEL_SCENES = {}
 LABEL_ARTISTS = {}
 LAB_VECS = {}
@@ -192,6 +193,7 @@ def load_leadership(db, R, B):
                 LABEL_SCENES.setdefault(label, set()).add(sc)
                 LABEL_TOTAL[label] = LABEL_TOTAL.get(label, 0) + 1
         for k, v in art.items():
+            SCENE_COUNTS.setdefault(k, {})[sc] = len(v["z"])
             if len(v["z"]) >= 1:
                 prev = LEAD_MAP.get(k)
                 if not prev or len(v["z"]) > prev["records"]:
@@ -542,6 +544,11 @@ def main():
                   "att": ATTRIB.get(k),
                   "pd": rank_all(_int.get(k)),
                   "psd": (rank_scene.get(v["scene"]) or (lambda x: None))(_int.get(k))}
+        # a home scene needs three records in it and a majority of the artist's records; otherwise
+        # the artist is shown as working across scenes (nearest scene kept for colour and comparison)
+        cnt = SCENE_COUNTS.get(k) or {}; tot = sum(cnt.values())
+        if not v.get("scene_checked") and (cnt.get(v["scene"], 0) < 3 or (tot and cnt.get(v["scene"], 0) / tot < 0.5)):
+            idx[k]["hx"] = 1
         # the facts the artist card tells in words: where they play and how often, how they are
         # booked, the labels, how long and how recently they have been releasing, and DJ plays
         full = next((x for x in out["artists"] if x["key"] == k), None) or {}

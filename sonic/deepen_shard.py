@@ -210,7 +210,15 @@ def main():
                 pending = {}
                 for t in todo:
                     u = (t.get("sample_url") or (t.get("preview") or {}).get("mp3", {}).get("url") or "")
-                    if u: pending[t["id"]] = pool.submit(_fetch_preview, u)
+                    if u:
+                        pending[t["id"]] = pool.submit(_fetch_preview, u)
+                        # keep the address: _write_preview_cache exports this table, and without these rows
+                        # it found nothing, so 30,000 addresses were lost on the first pass of the new genres
+                        try:
+                            store.conn.execute("create table if not exists preview_cache(track_id text primary key, url text, resolved_at text)")
+                            store.conn.execute("insert or replace into preview_cache(track_id,url,resolved_at) values(?,?,?)", (f"bp:{t['id']}", u, time.strftime("%Y-%m-%d")))
+                        except Exception:
+                            pass
                 # the fetch already returns a month's records in sales order, and we have
                 # been throwing that away. The position is a ranking: not the chart of that
                 # week, but how the record has sold since, which is the better measure of
