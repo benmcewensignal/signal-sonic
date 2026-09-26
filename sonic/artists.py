@@ -547,8 +547,10 @@ def main():
         # a home scene needs three records in it and a majority of the artist's records; otherwise
         # the artist is shown as working across scenes (nearest scene kept for colour and comparison)
         cnt = SCENE_COUNTS.get(k) or {}; tot = sum(cnt.values())
-        if not v.get("scene_checked") and (cnt.get(v["scene"], 0) < 3 or (tot and cnt.get(v["scene"], 0) / tot < 0.5)):
-            idx[k]["hx"] = 1
+        if not v.get("scene_checked") and cnt.get(v["scene"], 0) < 3:
+            idx[k]["hx"] = 1   # too few records measured to give a home scene
+        elif not v.get("scene_checked") and tot and cnt.get(v["scene"], 0) / tot < 0.5:
+            idx[k]["hx"] = 2   # enough records, but spread across scenes
         # the facts the artist card tells in words: where they play and how often, how they are
         # booked, the labels, how long and how recently they have been releasing, and DJ plays
         full = next((x for x in out["artists"] if x["key"] == k), None) or {}
