@@ -64,7 +64,7 @@ jobs:
           if [ "${B}" -gt "${A}" ]; then mv rel.db sonic.db; echo "using the release"; else echo "using the repository copy"; fi
           rm -f rel.db
           exec > >(tee -a /tmp/deepenlog.txt) 2>&1
-          python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 18 \ --scenes "${{ inputs.scenes }}"
+          python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 18 --scenes "${{ inputs.scenes }}" \
             --from ${{ inputs.month_from }} --to ${{ inputs.month_to }} \
             --per-month ${{ inputs.per_month }} --db sonic.db --out out --budget-minutes ${{ inputs.budget_minutes || '100' }} \
             ${{ inputs.restale != '' && format('--restale {0}', inputs.restale) || '' }}
