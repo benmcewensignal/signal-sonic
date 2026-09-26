@@ -1,18 +1,12 @@
 {
- "ran": "2026-09-26T00:15:39Z",
+ "ran": "2026-09-26T00:45:29Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "  features-311.jsonl: 477 applied",
-    "{",
-    " \"files\": 1,",
-    " \"applied\": 477,",
-    " \"rejected\": 0,",
-    " \"records_on_v2\": 13204",
-    "}"
+    "import: no new files"
    ]
   },
   {
@@ -23,7 +17,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 4",
+    " \"deezer usable\": 5",
     "}"
    ]
   },
@@ -175,10 +169,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.3,
+   "minutes": 4.2,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-26T00:13:46Z\",",
+    " \"generated\": \"2026-09-26T00:44:12Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -201,10 +195,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.8,
+   "minutes": 1.2,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-26T00:15:39Z\",",
+    " \"generated\": \"2026-09-26T00:45:29Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
