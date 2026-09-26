@@ -15,9 +15,9 @@
   "2026-W36"
  ],
  "tested_on": "2026-W39",
- "charted_in_test": 4034,
- "uncharted_in_test": 3172,
- "auc": 0.4949,
- "shuffled": 0.498,
+ "charted_in_test": 4436,
+ "uncharted_in_test": 3171,
+ "auc": 0.4804,
+ "shuffled": 0.506,
  "verdict": "does not hold"
 }
