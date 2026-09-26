@@ -168,7 +168,11 @@ def load_leadership(db, R, B):
     played = collections.defaultdict(lambda: {"plays": 0, "records": 0, "name": ""})
     for sc, tracks in E.items():
         home = [v for (t, w), v in tracks.items() if w <= "2025-M05" and "-M" in w]
-        if len(home) < 50: continue
+        home_from = "2024"
+        if len(home) < 50:   # a scene collected later than the rest: measure against its first four months, and say so
+            ms = sorted({w for (t, w) in tracks if "-M" in w})[:4]
+            home = [v for (t, w), v in tracks.items() if w in ms]; home_from = ms[0] if ms else None
+            if len(home) < 50: continue
         H = np.mean(home, axis=0); H /= np.linalg.norm(H)
         dh = [1 - float(v @ H) for v in home]; mu, sd = statistics.mean(dh), (statistics.stdev(dh) or 1e-9)
         now = [v for (t, w), v in tracks.items() if w[:4] == "2026"]
@@ -255,7 +259,7 @@ def load_leadership(db, R, B):
                 behind = sum(1 for r in distinct if r["align"] <= -0.5) / len(distinct)
                 regime = "stars lead" if ahead >= 0.6 else "stars behind" if behind >= 0.6 else "mixed"
         if rows:
-            edge[sc] = {"leading": rows[:20], "conservative": rows[-3:][::-1],
+            edge[sc] = {"home_from": home_from, "leading": rows[:20], "conservative": rows[-3:][::-1],
                         # cities played, not bookings: a resident with a dozen small nights is not
                         # a bigger name than someone playing eight cities, and one festival lineup
                         # can inflate a total-interest ranking on its own.

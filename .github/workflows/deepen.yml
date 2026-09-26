@@ -14,6 +14,7 @@ on:
       month_from: {description: first month, default: "2025-09"}
       month_to:   {description: last month,  default: "2026-08"}
       per_month:  {description: records per scene-month, default: "150"}
+      scenes:     {description: "only these scenes, comma separated (empty: all)", default: ""}
       budget_minutes: {description: "minutes each shard may spend: short for a validation, long for a re-measure", default: "100"}
       restale:    {description: "re-measure every record older than this analyser version, instead of fetching new ones", default: ""}
       merge_run:  {description: "fold in earlier runs' artifacts instead of measuring again (run ids, comma separated)", default: ""}
@@ -63,7 +64,7 @@ jobs:
           if [ "${B}" -gt "${A}" ]; then mv rel.db sonic.db; echo "using the release"; else echo "using the repository copy"; fi
           rm -f rel.db
           exec > >(tee -a /tmp/deepenlog.txt) 2>&1
-          python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 18 \
+          python -m sonic.deepen_shard --shard ${{ matrix.shard }} --of 18 \ --scenes "${{ inputs.scenes }}"
             --from ${{ inputs.month_from }} --to ${{ inputs.month_to }} \
             --per-month ${{ inputs.per_month }} --db sonic.db --out out --budget-minutes ${{ inputs.budget_minutes || '100' }} \
             ${{ inputs.restale != '' && format('--restale {0}', inputs.restale) || '' }}

@@ -57,6 +57,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--shard", type=int, required=True)
     ap.add_argument("--of", type=int, required=True)
+    ap.add_argument("--scenes", default="", help="only these scenes, comma separated")
     ap.add_argument("--from", dest="mfrom", required=True)
     ap.add_argument("--to", dest="mto", required=True)
     ap.add_argument("--per-month", type=int, default=150)
@@ -69,6 +70,9 @@ def main():
     with open("scene_map.json") as f:
         scene_map = json.load(f)
     genres = {int(k): v for k, v in scene_map.items() if not k.startswith("_")}
+    if getattr(a, "scenes", ""):   # pull only these scenes (a backfill for scenes collected later than the rest)
+        want = {x.strip() for x in a.scenes.split(",") if x.strip()}
+        genres = {k: v for k, v in genres.items() if v["scene"] in want}
 
     items = sorted(genres.items(), key=lambda kv: kv[1]["scene"])
     mine = [(gid, cfg) for i, (gid, cfg) in enumerate(items) if i % a.of == a.shard]
