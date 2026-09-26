@@ -1,6 +1,18 @@
-shard 1 of 18: ['afro-house', 'uk-garage-speed-garage']
-shard 1 of 18: 10 of 51761 records older than 3.0
-    batch 1 returned none of the 10 asked for; falling back to single lookups
-    previews: 0 from cache, 10 looked up
-  wrote 51761 cached preview urls to out/preview-cache-1.jsonl
-{"shard": 1, "remeasured": 0, "skipped": 10, "minutes": 0.1}
+shard 1 of 18: ['ambient-experimental']
+  2024-M09 ambient-experimental: 150 analysed (had 0)
+  2024-M10 ambient-experimental: 150 analysed (had 0)
+    skip bp:19640265: ValueError: unknown url type: '/tmp/tmpu1nbgxn3.mp3'
+    skip bp:19640268: ValueError: unknown url type: '/tmp/tmpr0oma3wl.mp3'
+    skip bp:19640271: ValueError: unknown url type: '/tmp/tmphzkxapnb.mp3'
+  2024-M11 ambient-experimental: 138 analysed (had 0)
+  2024-M12 ambient-experimental: 148 analysed (had 0)
+  2025-M01 ambient-experimental: 141 analysed (had 0)
+  2025-M02 ambient-experimental: 150 analysed (had 0)
+  2025-M03 ambient-experimental: 144 analysed (had 0)
+  2025-M04 ambient-experimental: 150 analysed (had 0)
+  2025-M05 ambient-experimental: 150 analysed (had 0)
+  2025-M06 ambient-experimental: 140 analysed (had 0)
+  2025-M07 ambient-experimental: 150 analysed (had 0)
+  2025-M08 ambient-experimental: 150 analysed (had 0)
+  wrote 66385 cached preview urls to out/preview-cache-1.jsonl
+{"shard": 1, "written": 1761, "skipped": 39, "minutes": 37.4, "file": "out/deepen-shard-1.jsonl"}
