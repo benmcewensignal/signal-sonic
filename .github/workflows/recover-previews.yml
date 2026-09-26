@@ -1,0 +1,49 @@
+name: recover-previews
+# Preview addresses for records measured by the deepen passes, whose cache files were lost.
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy: { fail-fast: false, matrix: { shard: [0, 1, 2, 3] } }
+    env:
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q -r requirements.txt 2>/dev/null || true
+      - name: fetch the database
+        env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
+        run: for i in 1 2 3 4 5; do gh release download deepened --pattern sonic.db --clobber --dir /tmp && [ -s /tmp/sonic.db ] && break; sleep $((i*20)); done
+      - run: python tools/recover_previews.py /tmp/sonic.db ${{ matrix.shard }} 4 recovered-${{ matrix.shard }}.jsonl
+      - uses: actions/upload-artifact@v4
+        with: { name: "recovered-${{ matrix.shard }}", path: "recovered-${{ matrix.shard }}.jsonl" }
+  keep:
+    needs: recover
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: rec, pattern: "recovered-*", merge-multiple: true }
+      - name: merge and keep
+        run: |
+          python - << 'PY'
+          import json, glob
+          out = {}
+          try: out = json.load(open("data/previews-recovered.json"))
+          except Exception: pass
+          for f in glob.glob("rec/*.jsonl"):
+              for l in open(f):
+                  d = json.loads(l); out[d["track_id"]] = d["url"]
+          json.dump(out, open("data/previews-recovered.json", "w"), separators=(",", ":")); print(len(out), "addresses kept")
+          PY
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/previews-recovered.json; git diff --cached --quiet && exit 0
+          git commit -qm "previews: addresses recovered for records measured by the deepen passes"
+          for i in 1 2 3 4 5; do git pull -q --rebase --autostash origin main && git push -q origin HEAD:main && break; sleep $((i*5)); done
