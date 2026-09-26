@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-26T09:09:11Z",
+ "ran": "2026-09-26T10:32:48Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -17,7 +17,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 5",
+    " \"deezer usable\": 4",
     "}"
    ]
   },
@@ -169,12 +169,12 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 5.2,
+   "minutes": 4.3,
    "tail": [
-    "identity checks applied; 1 joins cut",
-    "artist records for 11224 artists; sounds-like for 2566",
+    "identity checks applied; 2 joins cut",
+    "artist records for 11226 artists; sounds-like for 2582",
     "{",
-    " \"generated\": \"2026-09-26T09:07:09Z\",",
+    " \"generated\": \"2026-09-26T10:31:23Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -185,11 +185,11 @@
     "  \"2026-09-21\",",
     "  \"2026-09-24\"",
     " ],",
-    " \"artists_total\": 49615,",
+    " \"artists_total\": 49625,",
     " \"booking_side\": 26733,",
-    " \"release_side\": 25044,",
-    " \"joined\": 2162,",
-    " \"tracks_with_metadata\": 48146,",
+    " \"release_side\": 25057,",
+    " \"joined\": 2165,",
+    " \"tracks_with_metadata\": 48825,",
     " \"join_rate_release_side\": 0.086",
     "}"
    ]
@@ -197,10 +197,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.9,
+   "minutes": 1.3,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-26T09:09:11Z\",",
+    " \"generated\": \"2026-09-26T10:32:48Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -214,7 +214,7 @@
     " \"latest\": \"2026-09-24\",",
     " \"venues\": 4217,",
     " \"venues_with_3plus\": 1178,",
-    " \"leadership_artists\": 11224,",
+    " \"leadership_artists\": 11226,",
     " \"tiered_rooms\": 834",
     "}"
    ]
