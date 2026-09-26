@@ -1,12 +1,18 @@
 {
- "ran": "2026-09-26T01:46:50Z",
+ "ran": "2026-09-26T02:17:32Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: no new files"
+    "  features-313.jsonl: 476 applied",
+    "{",
+    " \"files\": 1,",
+    " \"applied\": 476,",
+    " \"rejected\": 0,",
+    " \"records_on_v2\": 14161",
+    "}"
    ]
   },
   {
@@ -46,7 +52,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "{",
     " \"scenes\": 34,",
@@ -89,12 +95,12 @@
    "tail": [
     "{",
     " \"versions\": {",
-    "  \"1\": 63713,",
-    "  \"2\": 13684",
+    "  \"1\": 63237,",
+    "  \"2\": 14160",
     " },",
     " \"use_version\": \"1\",",
-    " \"archived_v1\": 32308,",
-    " \"linked\": 29,",
+    " \"archived_v1\": 32784,",
+    " \"linked\": 30,",
     " \"scenes\": 36",
     "}"
    ]
@@ -169,10 +175,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.0,
+   "minutes": 4.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-26T01:45:27Z\",",
+    " \"generated\": \"2026-09-26T02:16:22Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -195,10 +201,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.3,
+   "minutes": 1.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-26T01:46:50Z\",",
+    " \"generated\": \"2026-09-26T02:17:31Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -212,7 +218,7 @@
     " \"latest\": \"2026-09-24\",",
     " \"venues\": 4217,",
     " \"venues_with_3plus\": 1178,",
-    " \"leadership_artists\": 11495,",
+    " \"leadership_artists\": 11457,",
     " \"tiered_rooms\": 834",
     "}"
    ]
