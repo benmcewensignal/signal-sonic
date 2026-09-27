@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-26T20:09:44Z",
+ "ran": "2026-09-27T11:58:55Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -17,7 +17,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 5",
+    " \"deezer usable\": 4",
     "}"
    ]
   },
@@ -113,7 +113,7 @@
     " \"appetite\": {",
     "  \"afro-house\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 58.9",
+    "   \"plays_per_day_median\": 58.1",
     "  },",
     "  \"techno-peak-time\": {",
     "   \"mixes\": 3,",
@@ -121,11 +121,11 @@
     "  },",
     "  \"deep-house\": {",
     "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 73.7",
+    "   \"plays_per_day_median\": 72.7",
     "  },",
     "  \"melodic-house-techno\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 62.4",
+    "   \"plays_per_day_median\": 61.8",
     "  }",
     " }",
     "}"
@@ -169,12 +169,12 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.9,
+   "minutes": 4.2,
    "tail": [
     "identity checks applied; 2 joins cut",
-    "artist records for 11307 artists; sounds-like for 2601",
+    "artist records for 11320 artists; sounds-like for 2603",
     "{",
-    " \"generated\": \"2026-09-26T20:07:51Z\",",
+    " \"generated\": \"2026-09-27T11:57:39Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -185,10 +185,10 @@
     "  \"2026-09-21\",",
     "  \"2026-09-24\"",
     " ],",
-    " \"artists_total\": 49625,",
+    " \"artists_total\": 49634,",
     " \"booking_side\": 26733,",
-    " \"release_side\": 25057,",
-    " \"joined\": 2165,",
+    " \"release_side\": 25069,",
+    " \"joined\": 2168,",
     " \"tracks_with_metadata\": 48825,",
     " \"join_rate_release_side\": 0.086",
     "}"
@@ -197,10 +197,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.7,
+   "minutes": 1.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-26T20:09:44Z\",",
+    " \"generated\": \"2026-09-27T11:58:55Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -214,7 +214,7 @@
     " \"latest\": \"2026-09-24\",",
     " \"venues\": 4217,",
     " \"venues_with_3plus\": 1178,",
-    " \"leadership_artists\": 11307,",
+    " \"leadership_artists\": 11320,",
     " \"tiered_rooms\": 834",
     "}"
    ]
