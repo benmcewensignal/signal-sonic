@@ -1,0 +1,24 @@
+name: key-check
+# Beatport's key for a sample of corpus records, so Sonic's key detection can be tested against it.
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  keys:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -q -r requirements.txt 2>/dev/null || true
+      - run: python -m sonic.key_check
+      - name: keep the keys in the repository
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          git add data/key-check.json && git commit -qm "key check: Beatport's keys for the test sample" || exit 0
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
