@@ -1,12 +1,12 @@
 {
- "ran": "2026-09-27T17:36:53Z",
+ "ran": "2026-09-27T18:08:38Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: no new files"
+    "import: could not list the worker repo (HTTPError); nothing to do"
    ]
   },
   {
@@ -169,12 +169,12 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.2,
+   "minutes": 3.9,
    "tail": [
     "identity checks applied; 2 joins cut",
     "artist records for 11320 artists; sounds-like for 2603",
     "{",
-    " \"generated\": \"2026-09-27T17:35:35Z\",",
+    " \"generated\": \"2026-09-27T18:06:50Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -197,10 +197,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.0,
+   "minutes": 1.7,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-27T17:36:52Z\",",
+    " \"generated\": \"2026-09-27T18:08:38Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
