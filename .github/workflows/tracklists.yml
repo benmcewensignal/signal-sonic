@@ -68,6 +68,7 @@ jobs:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
           python -m sonic.tracklists_import --db sonic.db
+          python -m sonic.classics --db sonic.db --limit 250 || echo "::warning title=classics::the classics step failed; the tracklists are still saved"
           bash scripts/release_save.sh "${{ github.repository }}" "${{ github.run_id }}" /tmp/base.db /tmp/base.id sonic.db
       - name: save
         if: always()
@@ -84,5 +85,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
-          LEFT=$(cat /tmp/tracklists_left.txt 2>/dev/null || echo 0)
+          LEFT=$(( $(cat /tmp/tracklists_left.txt 2>/dev/null || echo 0) + $(cat /tmp/classics_left.txt 2>/dev/null || echo 0) ))   # records the sets play, and classics
           if [ "$LEFT" -gt 0 ]; then gh workflow run tracklists.yml -f measure_only=true -f measure=1200 -f djs=none; echo "booked a measuring run for $LEFT records"; fi
