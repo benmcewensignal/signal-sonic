@@ -259,7 +259,10 @@ def load_leadership(db, R, B):
                 behind = sum(1 for r in distinct if r["align"] <= -0.5) / len(distinct)
                 regime = "stars lead" if ahead >= 0.6 else "stars behind" if behind >= 0.6 else "mixed"
         if rows:
-            edge[sc] = {"home_from": home_from, "leading": rows[:20], "conservative": rows[-3:][::-1],
+            # every artist with two or more records in the scene, compactly, for the A&R mismatch queue on the site:
+            # [name, key, align, dist, pos, records, set_plays, chart_n, ra_slots, cities, tier]
+            queue_all = [[r["name"], r["key"], r["align"], r["dist"], r["pos"], r["records"], r["set_plays"], r["chart_n"], r["ra_slots"], r["cities"], r["tier"]] for r in rows]
+            edge[sc] = {"home_from": home_from, "all": queue_all, "leading": rows[:20], "conservative": rows[-3:][::-1],
                         # cities played, not bookings: a resident with a dozen small nights is not
                         # a bigger name than someone playing eight cities, and one festival lineup
                         # can inflate a total-interest ranking on its own.
