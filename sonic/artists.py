@@ -603,6 +603,13 @@ def main():
         print(f"artist records for {len(pos)} artists; sounds-like for {len(keys)}", flush=True)
     except Exception as e:
         print("artist records and sounds-like not built:", e, flush=True)
+    try:  # where the learned ear has heard an artist, its sounds-like list wins (data/artist-ear.json, see its note)
+        ear_ = json.load(open(lp.replace("artist-lookup", "artist-ear"))).get("artists", {}); n_ear = 0
+        for k_, v_ in ear_.items():
+            if k_ in idx and v_.get("sl"): idx[k_]["sl"] = v_["sl"]; idx[k_]["sle"] = v_.get("sle"); n_ear += 1
+        print(f"sounds-like from the learned ear for {n_ear} artists", flush=True)
+    except Exception as e:
+        print("ear-based sounds-like not applied:", e, flush=True)
     json.dump({"generated": out["summary"]["generated"], "artists": idx}, open(lp, "w"), ensure_ascii=False, separators=(",", ":"))
     slim = {"summary": out["summary"], "instruments": {k: (v[:25] if isinstance(v, list) else v) for k, v in out["instruments"].items()}}
     json.dump(slim, open(a.out.replace("latest", "summary"), "w"), ensure_ascii=False, separators=(",", ":"))
