@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-28T06:04:15Z",
+ "ran": "2026-09-28T06:39:44Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -174,7 +174,7 @@
     "identity checks applied; 2 joins cut",
     "artist records for 11320 artists; sounds-like for 2603",
     "{",
-    " \"generated\": \"2026-09-28T06:02:47Z\",",
+    " \"generated\": \"2026-09-28T06:37:40Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -183,24 +183,25 @@
     "  \"2026-09-14\",",
     "  \"2026-09-17\",",
     "  \"2026-09-21\",",
-    "  \"2026-09-24\"",
+    "  \"2026-09-24\",",
+    "  \"2026-09-28\"",
     " ],",
-    " \"artists_total\": 49634,",
-    " \"booking_side\": 26733,",
+    " \"artists_total\": 50391,",
+    " \"booking_side\": 27528,",
     " \"release_side\": 25069,",
-    " \"joined\": 2168,",
+    " \"joined\": 2206,",
     " \"tracks_with_metadata\": 48825,",
-    " \"join_rate_release_side\": 0.086",
+    " \"join_rate_release_side\": 0.088",
     "}"
    ]
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.3,
+   "minutes": 1.9,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-28T06:04:14Z\",",
+    " \"generated\": \"2026-09-28T06:39:44Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -209,13 +210,14 @@
     "  \"2026-09-14\",",
     "  \"2026-09-17\",",
     "  \"2026-09-21\",",
-    "  \"2026-09-24\"",
+    "  \"2026-09-24\",",
+    "  \"2026-09-28\"",
     " ],",
-    " \"latest\": \"2026-09-24\",",
-    " \"venues\": 4217,",
-    " \"venues_with_3plus\": 1178,",
+    " \"latest\": \"2026-09-28\",",
+    " \"venues\": 3702,",
+    " \"venues_with_3plus\": 1037,",
     " \"leadership_artists\": 11320,",
-    " \"tiered_rooms\": 834",
+    " \"tiered_rooms\": 694",
     "}"
    ]
   }
