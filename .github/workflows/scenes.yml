@@ -1,0 +1,45 @@
+name: scenes
+# Beatport genres for records with no scene, run outside the queue so measuring gets every queue run. Writes
+# data/track-genres.json and never the database: each queue run imports the file (sonic/scene_import.py), since two
+# workflows saving the one database file would overwrite each other. Chains itself while records remain.
+on: { workflow_dispatch: {} }
+concurrency: { group: sonic-scenes, cancel-in-progress: false }
+permissions: { contents: write, actions: write }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
+    env:
+      PYTHONUNBUFFERED: "1"
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: fetch a copy of the database (read only)
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          for i in 1 2 3; do gh release download deepened --repo "${{ github.repository }}" --pattern sonic.db --dir /tmp/rel --clobber && [ -s /tmp/rel/sonic.db ] && break; sleep 20; done
+          [ -s /tmp/rel/sonic.db ] || { echo "::error::could not fetch the database"; exit 1; }
+      - run: pip -q install -r requirements.txt
+      - name: genres
+        id: g
+        run: |
+          python -m sonic.scene_fill --db /tmp/rel/sonic.db --out data/track-genres.json --limit 3000 --budget-minutes 50 | tee /tmp/sf.log
+          LEFT=$(grep -o '"left": [0-9]*' /tmp/sf.log | tail -1 | grep -o '[0-9]*' || true); echo "left=${LEFT:-0}" >> "$GITHUB_OUTPUT"
+      - name: keep the genres
+        id: keep
+        run: |
+          git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
+          git add data/track-genres.json
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -qm "scene genres: $(date -u +%FT%TZ)"
+          for i in 1 2 3; do if git pull -q --rebase origin main && git push -q origin HEAD:main; then echo "pushed=1" >> "$GITHUB_OUTPUT"; exit 0; fi; sleep $((i*10)); done
+          echo "::error title=scenes::push failed"; exit 1
+      - name: chain while records remain
+        if: steps.keep.outputs.pushed == '1' && steps.g.outputs.left != '0'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: gh workflow run scenes.yml --repo "${{ github.repository }}" --ref main

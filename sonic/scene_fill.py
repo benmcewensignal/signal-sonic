@@ -13,14 +13,17 @@ def main():
     ap.add_argument("--db", default="sonic.db"); ap.add_argument("--map", default="scene_map.json")
     ap.add_argument("--limit", type=int, default=2500); ap.add_argument("--budget-minutes", type=float, default=40)
     ap.add_argument("--sleep", type=float, default=0.3)
+    ap.add_argument("--out", default=None, help="write found genres to this JSON map instead of the database (the scenes workflow; each queue run imports it)")
     a = ap.parse_args()
     M = {int(k): v["scene"] for k, v in json.load(open(a.map)).items() if not str(k).startswith("_")}
     c = sqlite3.connect(a.db)
     c.execute("create table if not exists scene_fill_seen(track_id text primary key, genre_id integer, scene text, at text)")
+    found = json.load(open(a.out)) if a.out and os.path.exists(a.out) else {}
     todo = [r[0] for r in c.execute("""select distinct t.track_id from tracks t
                                        left join track_scenes s on s.track_id = t.track_id
                                        left join scene_fill_seen f on f.track_id = t.track_id
                                        where s.track_id is null and f.track_id is null and t.track_id like 'bp:%'""")]
+    todo = [t for t in todo if t not in found]
     print(f"scene_fill: {len(todo)} records without a scene", flush=True)
     token = get_token(); t0 = time.time(); placed = unmapped = err = tried = 0; now = time.strftime("%Y-%m-%dT%H:%M:%SZ")
     for tid in todo[:a.limit]:
@@ -32,20 +35,26 @@ def main():
             gid = (d.get("genre") or {}).get("id"); sub = (d.get("sub_genre") or {}).get("id")
             scene = M.get(gid) or (M.get(sub) if sub else None)
             if scene:
-                c.execute("insert or ignore into track_scenes(track_id, scene, weight, chart_rank, source, week) values(?, ?, 1.0, NULL, 'beatport:track-genre', 'genre')", (tid, scene))
+                if a.out is None:
+                    c.execute("insert or ignore into track_scenes(track_id, scene, weight, chart_rank, source, week) values(?, ?, 1.0, NULL, 'beatport:track-genre', 'genre')", (tid, scene))
                 placed += 1
             else:
                 unmapped += 1
         except Exception as e:
             err += 1
             if err <= 3: print(f"  {tid}: {type(e).__name__}: {str(e)[:80]}", flush=True)
-        c.execute("insert or replace into scene_fill_seen values(?,?,?,?)", (tid, gid, scene, now))
+        if a.out is None: c.execute("insert or replace into scene_fill_seen values(?,?,?,?)", (tid, gid, scene, now))
+        else: found[tid] = [scene, gid]
         if tried % 200 == 0: c.commit(); print(f"  {tried} tried, {placed} placed", flush=True)
         time.sleep(a.sleep)
     c.commit()
+    if a.out:
+        os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
+        json.dump(dict(sorted(found.items())), open(a.out, "w"), separators=(",", ":"))
     left = len(todo) - tried
     print(json.dumps({"tried": tried, "placed": placed, "genre_outside_the_map": unmapped, "errors": err, "left": left}), flush=True)
-    if left > 0 and tried > 0:
+    print("::notice title=scenes::" + json.dumps({"tried": tried, "placed": placed, "outside_the_map": unmapped, "errors": err, "left": left}), flush=True)
+    if left > 0 and tried > 0 and a.out is None:
         os.makedirs("queue", exist_ok=True); open("queue/.more", "w").write("scenes\n")
 
 if __name__ == "__main__":

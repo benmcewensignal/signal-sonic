@@ -314,6 +314,7 @@ def main():
     if touched_mixes:
         run([sys.executable, "-m", "sonic.calibrate_plays", "--db", "sonic.db"], log)
     run([sys.executable, "-m", "sonic.import_features", "--db", "sonic.db"], log)
+    run([sys.executable, "-m", "sonic.scene_import", "--db", "sonic.db"], log)   # genres from the scenes workflow
     run([sys.executable, "-m", "sonic.coverage", "--db", "sonic.db", "--out", "data/coverage.json"], log)
     run([sys.executable, "-m", "sonic.ingredients", "--db", "sonic.db", "--out", "data/ingredient-series.json"], log)
     run([sys.executable, "-m", "sonic.links", "--db", "sonic.db", "--out", "data/links.json"], log)
