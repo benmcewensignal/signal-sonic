@@ -1,19 +1,7 @@
 {
- "ran": "2026-09-29T08:47:59Z",
+ "ran": "2026-09-29T08:55:59Z",
  "job": "canon",
  "before": {
-  "tracks": 123315,
-  "v2": 16535,
-  "v3": 1750,
-  "named": 49247,
-  "plays": 1316,
-  "usable_mixes": 65,
-  "mix_pop": 26,
-  "nts_lines": 77,
-  "supply": 480,
-  "aliases": null
- },
- "after": {
   "tracks": 123315,
   "v2": 16534,
   "v3": 1750,
@@ -25,8 +13,20 @@
   "supply": 480,
   "aliases": null
  },
+ "after": {
+  "tracks": 123315,
+  "v2": 16531,
+  "v3": 1750,
+  "named": 49247,
+  "plays": 1316,
+  "usable_mixes": 65,
+  "mix_pop": 26,
+  "nts_lines": 77,
+  "supply": 480,
+  "aliases": null
+ },
  "failures": [
-  "v2 fell from 16535 to 16534"
+  "v2 fell from 16534 to 16531"
  ],
  "notes": [
   "canon has no growth check: its success cannot be verified"
