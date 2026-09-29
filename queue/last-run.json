@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-29T13:10:01Z",
+ "ran": "2026-09-29T13:10:03Z",
  "log": [
   {
    "cmd": "before scenes: free disk 88.3 GB",
@@ -37,6 +37,10 @@
     "validation note: scenes has no growth check: its success cannot be verified",
     "validation: ok"
    ]
+  },
+  {
+   "cmd": "scenes: work remains, job stays queued",
+   "rc": 0
   }
  ]
 }
