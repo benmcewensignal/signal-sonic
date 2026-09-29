@@ -84,7 +84,7 @@ jobs:
           # the kicks above they do not wait for their repository to go quiet: only for 25 hours since their last run.
           set +e
           NOW=$(date -u +%s)
-          for R in signal-sonic-features:phone-e2e.yml:1500 signal-sonic-features:worker-deploy.yml:1500; do
+          for R in signal-sonic-features:phone-e2e.yml:1500 signal-sonic-features:worker-deploy.yml:1500 signalgood:site-data.yml:1500; do
             REPO=benmcewensignal/${R%%:*}; REST=${R#*:}; WF=${REST%%:*}; QUIET=${REST#*:}
             LAST=$(gh api "repos/${REPO}/actions/workflows/${WF}/runs?per_page=1" --jq '.workflow_runs[0].created_at' 2>/dev/null)
             if [ -z "$LAST" ]; then echo "${WF}: could not read runs"; continue; fi
