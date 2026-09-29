@@ -1000,5 +1000,10 @@
   "rc": null,
   "started": "2026-09-29T08:41:11Z",
   "note": "reanalyse re-measured the same first 120 ids on every bite; fixed, so the job can finish"
+ },
+ {
+  "file": "00-first-canon.json#attempt",
+  "rc": null,
+  "started": "2026-09-29T08:47:45Z"
  }
 ]
