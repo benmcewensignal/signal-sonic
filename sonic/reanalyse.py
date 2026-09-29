@@ -184,8 +184,11 @@ def main():
             if _older(r["v"], want)]
 
     if explicit:
-
-        todo = list(explicit)[:a.limit]
+        # only the named records still to be measured: taking the first `limit` of the list every time re-measured the
+        # same 120 records on every bite, so the job always found work, requeued itself, and never reached the rest
+        # (00-first-canon: 50 attempts, parked). Once all are measured the bite finds nothing and the job ends.
+        older = set(todo)
+        todo = [t for t in explicit if t in older][:a.limit]
     print(f"reanalyse: {len(todo)} tracks on an older version (target {want})", flush=True)
     t0 = time.time(); done = err = 0
     for tid in todo:
