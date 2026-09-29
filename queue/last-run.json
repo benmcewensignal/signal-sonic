@@ -1,18 +1,21 @@
 {
- "ran": "2026-09-29T10:19:00Z",
+ "ran": "2026-09-29T12:31:28Z",
  "log": [
   {
    "cmd": "before canon: free disk 88.3 GB",
    "rc": 0
   },
   {
-   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmpmn4t25e5.txt --limit 120 --budget-minutes 54",
+   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmppytr0eno.txt --limit 120 --budget-minutes 54",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
-    "measuring 1252 records named in a list",
-    "reanalyse: 0 tracks on an older version (target 3.0+367e9ded)",
-    "reanalyse: 0 done, 0 failed, 106784 still on the old version",
+    "measuring 473 records named in a list",
+    "reanalyse: 17 tracks on an older version (target 3.0+367e9ded)",
+    "  bp:5084922: no preview url",
+    "  bp:21423796: no preview url",
+    "  bp:11214918: no preview url",
+    "reanalyse: 0 done, 17 failed, 106784 still on the old version",
     "nothing converted: the records left have no preview, so this job is finished"
    ]
   },
@@ -41,7 +44,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 4",
+    " \"deezer usable\": 5",
     "}"
    ]
   },
@@ -193,13 +196,13 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.7,
+   "minutes": 3.9,
    "tail": [
     "identity checks applied; 2 joins cut",
     "artist records for 11324 artists; sounds-like for 2614",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-09-29T10:17:33Z\",",
+    " \"generated\": \"2026-09-29T12:30:14Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -223,10 +226,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.2,
+   "minutes": 1.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-29T10:19:00Z\",",
+    " \"generated\": \"2026-09-29T12:31:27Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
