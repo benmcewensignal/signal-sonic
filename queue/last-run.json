@@ -1,255 +1,42 @@
 {
- "ran": "2026-09-29T14:53:08Z",
+ "ran": "2026-09-29T15:17:42Z",
  "log": [
   {
-   "cmd": "before canon: free disk 89.0 GB",
+   "cmd": "before scenes: free disk 88.8 GB",
    "rc": 0
   },
   {
-   "cmd": "python -m sonic.reanalyse --db sonic.db --ids-file /tmp/tmpq152c5bc.txt --limit 120 --budget-minutes 54",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.scene_fill --db sonic.db --limit 2500 --budget-minutes 45",
    "rc": 0,
-   "minutes": 3.1,
+   "minutes": 22.0,
    "tail": [
-    "measuring 1252 records named in a list",
-    "reanalyse: 120 tracks on an older version (target 3.0+367e9ded)",
-    "  bp:12181096: no preview url",
-    "  bp:4359549: no preview url",
-    "  bp:26344894: no preview url",
-    "reanalyse: 109 done, 11 failed, 107120 still on the old version"
+    "scene_fill: 5910 records without a scene",
+    "  bp:20908384: HTTPError: HTTP Error 403: Forbidden",
+    "  bp:20920841: HTTPError: HTTP Error 403: Forbidden",
+    "  bp:20920857: HTTPError: HTTP Error 403: Forbidden",
+    "  200 tried, 158 placed",
+    "  400 tried, 328 placed",
+    "  600 tried, 458 placed",
+    "  800 tried, 614 placed",
+    "  1000 tried, 779 placed",
+    "  1200 tried, 927 placed",
+    "  1400 tried, 1076 placed",
+    "  1600 tried, 1221 placed",
+    "  1800 tried, 1358 placed",
+    "  2000 tried, 1502 placed",
+    "  2200 tried, 1647 placed",
+    "  2400 tried, 1747 placed",
+    "{\"tried\": 2500, \"placed\": 1759, \"genre_outside_the_map\": 627, \"errors\": 114, \"left\": 3410}",
+    "::notice title=scenes::{\"tried\": 2500, \"placed\": 1759, \"outside_the_map\": 627, \"errors\": 114, \"left\": 3410}"
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job canon --before /tmp/before.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.validate --db sonic.db --job scenes --before /tmp/before.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "validation note: canon has no growth check: its success cannot be verified",
+    "validation note: scenes has no growth check: its success cannot be verified",
     "validation: ok"
-   ]
-  },
-  {
-   "cmd": "canon: work remains, job stays queued",
-   "rc": 0
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "import: no new files"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
-   "rc": 0,
-   "minutes": 0.2,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 5",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
-   "rc": 0,
-   "minutes": 0.1,
-   "tail": [
-    "{",
-    " \"scenes\": 36,",
-    " \"months\": 24",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.links --db sonic.db --out data/links.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"records\": 821,",
-    " \"with a set appearance\": 821",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
-   "rc": 0,
-   "minutes": 0.1,
-   "tail": [
-    "{",
-    " \"scenes\": 36,",
-    " \"months\": 24",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
-   "rc": 1,
-   "minutes": 0.1,
-   "tail": [
-    "Traceback (most recent call last):",
-    "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
-    "  File \"<frozen runpy>\", line 88, in _run_code",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/turns.py\", line 110, in <module>",
-    "    main()",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/turns.py\", line 101, in main",
-    "    out = build(a.db)",
-    "          ^^^^^^^^^^^",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/turns.py\", line 57, in build",
-    "    S = series(db, clause)",
-    "        ^^^^^^^^^^^^^^^^^^",
-    "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/turns.py\", line 42, in series",
-    "    out[scene] = (ms, np.array([np.mean(months[m], axis=0) for m in ms]))",
-    "                                ^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/numpy/_core/fromnumeric.py\", line 3862, in mean",
-    "    return _methods._mean(a, axis=axis, dtype=dtype,",
-    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/numpy/_core/_methods.py\", line 116, in _mean",
-    "    arr = asanyarray(a)",
-    "          ^^^^^^^^^^^^^",
-    "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (156,) + inhomogeneous part."
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
-   "rc": 0,
-   "minutes": 0.1,
-   "tail": [
-    "{",
-    " \"versions\": {",
-    "  \"1\": 88574,",
-    "  \"2\": 16530",
-    " },",
-    " \"use_version\": \"1\",",
-    " \"archived_v1\": 35162,",
-    " \"linked\": 31,",
-    " \"scenes\": 36",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "  ],",
-    "  [",
-    "   \"Nigel Jones\",",
-    "   13.94",
-    "  ]",
-    " ],",
-    " \"appetite\": {",
-    "  \"afro-house\": {",
-    "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 56.6",
-    "  },",
-    "  \"techno-peak-time\": {",
-    "   \"mixes\": 3,",
-    "   \"plays_per_day_median\": 0.5",
-    "  },",
-    "  \"deep-house\": {",
-    "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 71.0",
-    "  },",
-    "  \"melodic-house-techno\": {",
-    "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 60.6",
-    "  }",
-    " }",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": []
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
-   "rc": 0,
-   "minutes": 0.0,
-   "tail": [
-    "{",
-    " \"scenes\": 20,",
-    " \"months\": 24,",
-    " \"growing\": [",
-    "  {",
-    "   \"scene\": \"afro-house\",",
-    "   \"share_change_pp\": 2.21,",
-    "   \"growth_pct\": 47.1",
-    "  },",
-    "  {",
-    "   \"scene\": \"deep-house\",",
-    "   \"share_change_pp\": 1.72,",
-    "   \"growth_pct\": 24.4",
-    "  },",
-    "  {",
-    "   \"scene\": \"tech-house\",",
-    "   \"share_change_pp\": 0.58,",
-    "   \"growth_pct\": 13.4",
-    "  }",
-    " ],",
-    " \"lead_lag\": {}",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
-   "rc": 0,
-   "minutes": 3.9,
-   "tail": [
-    "identity checks applied; 2 joins cut",
-    "artist records for 11324 artists; sounds-like for 2614",
-    "sounds-like from the learned ear for 3538 artists",
-    "{",
-    " \"generated\": \"2026-09-29T14:51:49Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\",",
-    "  \"2026-09-10\",",
-    "  \"2026-09-14\",",
-    "  \"2026-09-17\",",
-    "  \"2026-09-21\",",
-    "  \"2026-09-24\",",
-    "  \"2026-09-28\"",
-    " ],",
-    " \"artists_total\": 53829,",
-    " \"booking_side\": 27528,",
-    " \"release_side\": 29351,",
-    " \"joined\": 3050,",
-    " \"tracks_with_metadata\": 49247,",
-    " \"join_rate_release_side\": 0.104",
-    "}"
-   ]
-  },
-  {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
-   "rc": 0,
-   "minutes": 1.1,
-   "tail": [
-    "{",
-    " \"generated\": \"2026-09-29T14:53:08Z\",",
-    " \"snapshots\": [",
-    "  \"2026-09-02\",",
-    "  \"2026-09-03\",",
-    "  \"2026-09-07\",",
-    "  \"2026-09-10\",",
-    "  \"2026-09-14\",",
-    "  \"2026-09-17\",",
-    "  \"2026-09-21\",",
-    "  \"2026-09-24\",",
-    "  \"2026-09-28\"",
-    " ],",
-    " \"latest\": \"2026-09-28\",",
-    " \"venues\": 3702,",
-    " \"venues_with_3plus\": 1037,",
-    " \"leadership_artists\": 11324,",
-    " \"tiered_rooms\": 694",
-    "}"
    ]
   }
  ]
