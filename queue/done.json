@@ -1054,5 +1054,10 @@
   "rc": null,
   "started": "2026-09-29T11:48:58Z",
   "note": "reanalyse's insert of new records was skipped by 'or ignore' (four required columns left empty), so every bite found nothing; fixed"
+ },
+ {
+  "file": "00-first-canon.json#attempt",
+  "rc": null,
+  "started": "2026-09-29T11:50:45Z"
  }
 ]
