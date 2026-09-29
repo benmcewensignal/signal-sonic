@@ -1,28 +1,44 @@
 name: djcharts
-# Survey Beatport DJ charts: how many DJs and records they would add to the DJ layer.
-on: { workflow_dispatch: { inputs: { max_charts: { default: "1500" } } } }
-permissions: { contents: write }
+# Beatport DJ charts since July 2024 (sonic/djcharts.py --resume): what DJs say they are playing, dated and global, as a
+# DJ signal for Catalogue's demand panel and its lead-lag test. Reads new charts within a time budget and chains while
+# charts remain. Writes data/djcharts/; it never touches the database.
+on: { workflow_dispatch: {} }
+concurrency: { group: sonic-djcharts, cancel-in-progress: false }
+permissions: { contents: write, actions: write }
 jobs:
-  survey:
-    runs-on: ubuntu-latest
-    timeout-minutes: 120
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
     env:
+      PYTHONUNBUFFERED: "1"
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
       BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
       BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
       BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: fetch the corpus database
-        env: { GH_TOKEN: "${{ secrets.PIPELINE_PAT || github.token }}" }
-        run: for i in 1 2 3 4 5; do gh release download deepened --repo benmcewensignal/signal-sonic --pattern sonic.db --clobber && [ -s sonic.db ] && break; sleep $((i*20)); done
-      - name: survey
-        run: python -m sonic.djcharts --db sonic.db --max-charts "${{ inputs.max_charts }}"
-      - name: save
+      - run: pip -q install -r requirements.txt
+      - name: a copy of the database (read only, for the survey's corpus counts)
         run: |
-          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
-          git add data/djcharts && git commit -qm "Beatport DJ charts survey" || exit 0
-          for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
+          gh release download deepened --repo "${{ github.repository }}" --pattern sonic.db --clobber || true
+      - name: charts
+        id: c
+        run: |
+          python -m sonic.djcharts --db sonic.db --since 2024-07-01 --max-charts 200000 --resume --budget-minutes 50 | tee /tmp/c.log
+          LEFT=$(grep -o '"left": [0-9]*' /tmp/c.log | tail -1 | grep -o '[0-9]*' || true); echo "left=${LEFT:-0}" >> "$GITHUB_OUTPUT"
+      - name: keep the charts
+        id: keep
+        run: |
+          rm -f sonic.db
+          git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
+          git add data/djcharts
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -qm "Beatport DJ charts: $(date -u +%FT%TZ)"
+          for i in 1 2 3; do if git pull -q --rebase origin main && git push -q origin HEAD:main; then echo "pushed=1" >> "$GITHUB_OUTPUT"; exit 0; fi; sleep $((i*10)); done
+          echo "::error title=djcharts::push failed"; exit 1
+      - name: chain while charts remain
+        if: steps.keep.outputs.pushed == '1' && steps.c.outputs.left != '0'
+        run: gh workflow run djcharts.yml --repo "${{ github.repository }}" --ref main

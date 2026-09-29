@@ -23,7 +23,14 @@ def people(ch):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--db", default="sonic.db"); ap.add_argument("--max-charts", type=int, default=1500)
-    ap.add_argument("--since", default="2024-01-01"); a = ap.parse_args()
+    ap.add_argument("--since", default="2024-01-01")
+    ap.add_argument("--resume", action="store_true", help="keep charts already read (data/djcharts/charts.jsonl), read only new ones, within --budget-minutes")
+    ap.add_argument("--budget-minutes", type=float, default=0); a = ap.parse_args()
+    done_ids = set()
+    if a.resume and os.path.exists("data/djcharts/charts.jsonl"):
+        for line in open("data/djcharts/charts.jsonl"):
+            try: done_ids.add(json.loads(line).get("chart"))
+            except Exception: pass
     tok = B.get_token(); os.makedirs("data/djcharts", exist_ok=True)
     charts, page, sample = [], "/catalog/charts/?per_page=100&order_by=-publish_date", None
     while page and len(charts) < a.max_charts:
@@ -38,8 +45,11 @@ def main():
             nxt = d.get("next")   # the API's next link carries its own /v4 prefix
             page = ("/" + nxt.split("/v4/", 1)[1]) if nxt and "/v4/" in nxt else nxt; continue
     print(f"charts listed: {len(charts)}; sample fields: {sorted((sample or {}).keys())[:24]}", flush=True)
-    out = open("data/djcharts/charts.jsonl", "w"); rows = []
-    for i, ch in enumerate(charts):
+    t0 = time.time(); todo = [ch for ch in charts if ch.get("id") not in done_ids]
+    out = open("data/djcharts/charts.jsonl", "a" if a.resume else "w"); rows = []; read_now = 0
+    for i, ch in enumerate(todo if a.resume else charts):
+        if a.budget_minutes and (time.time() - t0) / 60 > a.budget_minutes: break
+        read_now += 1
         pid, pname = people(ch)
         try:
             t = B._get(f"/catalog/charts/{ch['id']}/tracks/", tok, {"per_page": 100})
@@ -52,6 +62,14 @@ def main():
         if i % 200 == 0: print(f"  {i} charts read", flush=True)
         time.sleep(0.15)
     out.close()
+    if a.resume:
+        left = len(todo) - read_now; listed_oldest = min(((ch.get("publish_date") or "")[:10] for ch in charts), default="")
+        s_ = {"listed": len(charts), "already_read": len(done_ids), "read_now": read_now, "left": left, "oldest_listed": listed_oldest}
+        print(json.dumps(s_)); print("::notice title=djcharts::" + json.dumps(s_))
+        rows = []
+        for line in open("data/djcharts/charts.jsonl"):
+            try: rows.append(json.loads(line))
+            except Exception: pass
     c = sqlite3.connect(a.db); corpus = {r[0] for r in c.execute("select track_id from tracks")}
     have_djs = set()
     for f in glob.glob("data/tracklists/*.json"):
