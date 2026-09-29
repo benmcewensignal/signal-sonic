@@ -167,13 +167,8 @@ def main():
 
         explicit = [x.strip() for x in open(a.ids_file) if x.strip()]
 
-        for t in explicit:
-
-            c.execute("insert or ignore into tracks(track_id, analyser_id, source) "
-
-                      "values(?, 'local', 'canon')", (t,))
-
-        c.commit()
+        # records new to the database are inserted when measured, below: an insert here with only three of the
+        # seven required columns was skipped by 'or ignore' every time, so these jobs never added a single record
 
         print(f"measuring {len(explicit)} records named in a list", flush=True)
 
@@ -188,7 +183,8 @@ def main():
         # same 120 records on every bite, so the job always found work, requeued itself, and never reached the rest
         # (00-first-canon: 50 attempts, parked). Once all are measured the bite finds nothing and the job ends.
         older = set(todo)
-        todo = [t for t in explicit if t in older][:a.limit]
+        have_ = {r[0] for r in c.execute("select track_id from tracks where analyser_id='local'")}
+        todo = [t for t in explicit if t in older or t not in have_][:a.limit]
     print(f"reanalyse: {len(todo)} tracks on an older version (target {want})", flush=True)
     t0 = time.time(); done = err = 0
     for tid in todo:
@@ -206,8 +202,11 @@ def main():
                           (tid, old["analyser_ver"] or "1", old["features"], time.time()))
             _last_path = [_local_copy(ref)]
             fv = an.analyse(_last_path[0])
-            c.execute("update tracks set features=?, analyser_ver=? where track_id=?",
-                      (json.dumps(fv.__dict__ if hasattr(fv, "__dict__") else fv), want, tid))
+            fj = json.dumps(fv.__dict__ if hasattr(fv, "__dict__") else fv)
+            cur_ = c.execute("update tracks set features=?, analyser_ver=? where track_id=? and analyser_id='local'", (fj, want, tid))
+            if cur_.rowcount == 0:   # new to the database: every required column filled, so the row is really added
+                c.execute("insert into tracks(track_id, analyser_id, analyser_ver, features, source, first_seen, created_at) "
+                          "values(?, 'local', ?, ?, 'canon', ?, ?)", (tid, want, fj, time.strftime("%G-W%V"), time.time()))
             try: os.unlink(_last_path[0])
             except Exception: pass
             done += 1
