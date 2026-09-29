@@ -17,7 +17,7 @@ def main():
         else: miss += 1
         time.sleep(a.sleep)
     json.dump(dict(sorted(out.items())), open(a.out, "w"), separators=(",", ":"))
-    s = {"asked": len(todo), "found": got, "no_preview": miss, "total_known": len(out)}
+    s = {"asked": len(todo), "found": got, "no_preview": miss, "total_known": len(out), "left": len([t for t in ids if t not in out])}
     print(json.dumps(s)); print("::notice title=previews::" + json.dumps(s))
 
 if __name__ == "__main__":
