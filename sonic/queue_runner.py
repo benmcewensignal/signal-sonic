@@ -222,6 +222,10 @@ def main():
               rc = run([sys.executable, "-m", "sonic.encoding_check", "--db", "sonic.db",
                         "--n", str(job.get("n", 300))], log)
 
+          elif mode == "scenes":
+              # a Beatport genre for records that have no scene (tracklists, the classics); see sonic/scene_fill.py
+              rc = run([sys.executable, "-m", "sonic.scene_fill", "--db", "sonic.db", "--limit", str(job.get("limit", 2500)),
+                        "--budget-minutes", str(max(15, min(45, remaining)))], log); touched_db = True
           elif mode == "metadata":
               rc = run([sys.executable, "-m", "sonic.metadata", "--db", "sonic.db", "--limit", str(job.get("limit", 3000))], log); touched_db = True
           elif mode in ("mixscan", "mixrescan"):
