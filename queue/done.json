@@ -11,29 +11,14 @@
   "finished": "2026-09-16T23:24:09Z"
  },
  {
-  "file": "2026-09-01-00-encoding.json#attempt",
-  "rc": 1,
-  "finished": "2026-09-16T23:18:05Z"
- },
- {
   "file": "2026-09-01-00-next.json",
   "rc": 1,
   "finished": "2026-09-16T23:36:04Z"
  },
  {
-  "file": "2026-09-01-00-next.json#attempt",
-  "rc": 1,
-  "finished": "2026-09-16T23:30:09Z"
- },
- {
   "file": "2026-09-01-01-next.json",
   "rc": 1,
   "finished": "2026-09-22T13:03:06Z"
- },
- {
-  "file": "2026-09-01-01-next.json#attempt",
-  "rc": 1,
-  "finished": "2026-09-22T12:56:04Z"
  },
  {
   "file": "2026-09-04-01-m08-all-scenes.json",
@@ -187,11 +172,6 @@
   "finished": "2026-09-09T08:28:19Z"
  },
  {
-  "file": "2026-09-08-22-wave2a-2026-01.json#attempt",
-  "rc": 96,
-  "finished": "2026-09-09T08:23:40Z"
- },
- {
   "file": "2026-09-08-40-deepen-2025-09.json",
   "requeued": true,
   "rc": 0,
@@ -223,11 +203,6 @@
   "file": "2026-09-09-05-coverage.json",
   "rc": 96,
   "finished": "2026-09-09T09:35:13Z"
- },
- {
-  "file": "2026-09-09-05-coverage.json#attempt",
-  "rc": 96,
-  "finished": "2026-09-09T09:30:49Z"
  },
  {
   "file": "2026-09-10-05-embed3.json",
@@ -295,19 +270,9 @@
   "finished": "2026-09-22T13:31:49Z"
  },
  {
-  "file": "2026-09-12-10-metadata.json#attempt",
-  "rc": 1,
-  "finished": "2026-09-22T13:24:35Z"
- },
- {
   "file": "2026-09-12-11-metadata.json",
   "rc": 1,
   "finished": "2026-09-22T13:45:34Z"
- },
- {
-  "file": "2026-09-12-11-metadata.json#attempt",
-  "rc": 1,
-  "finished": "2026-09-22T13:38:35Z"
  },
  {
   "file": "2026-09-14-01-encoding.json",
@@ -345,361 +310,6 @@
   "requeued": true,
   "rc": 0,
   "finished": "2026-09-09T09:26:54Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T06:43:01Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T07:23:47Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T08:04:47Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T08:45:33Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T08:54:26Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T09:26:23Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T09:50:23Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T10:14:39Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T10:41:33Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T11:08:15Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T11:29:46Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T11:53:49Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T12:16:10Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T13:36:22Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T14:04:14Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T14:31:41Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T14:58:56Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T15:25:55Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T15:51:19Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T16:17:26Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T16:44:17Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T17:11:41Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T17:39:03Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T18:07:40Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T18:28:32Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T19:22:21Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T19:43:54Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T20:04:44Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T20:31:08Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T20:53:17Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T21:19:04Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T21:43:34Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T22:12:33Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T23:02:06Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T23:28:16Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-19T23:52:07Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T00:17:54Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T00:44:17Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T01:11:10Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T01:34:56Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T02:02:07Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T02:28:18Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T02:55:12Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T03:21:22Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T03:45:23Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T04:12:17Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T04:37:30Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T05:29:42Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T05:50:06Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T06:16:11Z"
- },
- {
-  "file": "2026-09-01-01-next.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T06:38:59Z"
- },
- {
-  "file": "2026-09-01-01-next.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T07:19:34Z"
- },
- {
-  "file": "2026-09-01-01-next.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T08:05:33Z"
- },
- {
-  "file": "2026-09-11-03-tempo.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T20:48:10Z"
- },
- {
-  "file": "2026-09-11-03-tempo.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T23:12:25Z"
- },
- {
-  "file": "2026-09-11-03-tempo.json#attempt",
-  "rc": null,
-  "started": "2026-09-20T23:41:48Z"
- },
- {
-  "file": "2026-09-11-04-rescale.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T00:05:22Z"
- },
- {
-  "file": "2026-09-11-04-rescale.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T00:34:45Z"
- },
- {
-  "file": "2026-09-11-04-rescale.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T01:04:29Z"
- },
- {
-  "file": "2026-09-12-10-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T01:33:38Z"
- },
- {
-  "file": "2026-09-12-10-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T02:12:23Z"
- },
- {
-  "file": "2026-09-12-10-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T02:51:19Z"
- },
- {
-  "file": "2026-09-12-11-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T03:30:01Z"
- },
- {
-  "file": "2026-09-12-11-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T04:06:52Z"
- },
- {
-  "file": "2026-09-12-11-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T04:47:20Z"
- },
- {
-  "file": "2026-09-14-01-encoding.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T05:26:48Z"
- },
- {
-  "file": "2026-09-14-01-encoding.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T06:46:19Z"
- },
- {
-  "file": "2026-09-14-01-encoding.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T07:33:41Z"
- },
- {
-  "file": "2026-09-20-01-clear-backlog.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T08:22:00Z"
- },
- {
-  "file": "2026-09-20-01-clear-backlog.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T08:52:41Z"
- },
- {
-  "file": "2026-09-20-01-clear-backlog.json#attempt",
-  "rc": null,
-  "started": "2026-09-21T09:17:42Z"
  },
  {
   "file": "parked-2026-09-12-12-metadata.json#attempt",
@@ -900,56 +510,6 @@
   "note": "fresh attempt on the release database"
  },
  {
-  "file": "2026-09-01-01-next.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T12:56:00Z"
- },
- {
-  "file": "2026-09-01-01-next.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T13:03:02Z"
- },
- {
-  "file": "2026-09-11-03-tempo.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T13:09:44Z"
- },
- {
-  "file": "2026-09-11-04-rescale.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T13:17:30Z"
- },
- {
-  "file": "2026-09-12-10-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T13:24:31Z"
- },
- {
-  "file": "2026-09-12-10-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T13:31:45Z"
- },
- {
-  "file": "2026-09-12-11-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T13:38:32Z"
- },
- {
-  "file": "2026-09-12-11-metadata.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T13:45:31Z"
- },
- {
-  "file": "2026-09-14-01-encoding.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T13:52:39Z"
- },
- {
-  "file": "2026-09-20-01-clear-backlog.json#attempt",
-  "rc": null,
-  "started": "2026-09-22T14:32:41Z"
- },
- {
   "file": "2026-09-30-90-reanalyse.json#attempt",
   "rc": null,
   "started": "2026-09-22T15:18:31Z"
@@ -990,48 +550,13 @@
  {
   "file": "2026-09-23-01-names.json#attempt",
   "rc": null,
-  "started": "2026-09-23T18:26:45Z"
- },
- {
-  "file": "2026-09-23-01-names.json#attempt",
-  "rc": null,
   "started": "2026-09-23T19:02:08Z"
- },
- {
-  "file": "2026-09-23-02-names.json#attempt",
-  "rc": null,
-  "started": "2026-09-23T20:04:50Z"
- },
- {
-  "file": "2026-09-23-03-names.json#attempt",
-  "rc": null,
-  "started": "2026-09-23T21:37:38Z"
  },
  {
   "file": "00-first-canon.json#reset",
   "rc": null,
   "started": "2026-09-29T08:41:11Z",
   "note": "reanalyse re-measured the same first 120 ids on every bite; fixed, so the job can finish"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T08:47:45Z"
- },
- {
-  "file": "2026-09-29-00-classics.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T08:55:40Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T09:05:23Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T09:41:21Z"
  },
  {
   "file": "2026-09-29-00-classics.json#attempt",
@@ -1056,16 +581,6 @@
   "note": "reanalyse's insert of new records was skipped by 'or ignore' (four required columns left empty), so every bite found nothing; fixed"
  },
  {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T11:50:45Z"
- },
- {
-  "file": "00-first-canon.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T12:25:49Z"
- },
- {
   "file": "00-first-canon.json",
   "rc": 0,
   "started": "2026-09-29T12:43:15Z",
@@ -1073,8 +588,10 @@
   "note": "marked done by hand: every bite since the insert fix tried the same 17 ids and none resolved; the rest of the canon is measured"
  },
  {
-  "file": "2026-09-29-01-scenes.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T12:45:12Z"
+  "file": "2026-09-29-01-scenes.json",
+  "requeued": true,
+  "rc": 0,
+  "started": "2026-09-29T12:45:12Z",
+  "finished": "2026-09-29T13:10:03Z"
  }
 ]
