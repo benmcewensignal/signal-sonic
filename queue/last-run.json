@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-29T08:47:59Z",
+ "ran": "2026-09-29T08:48:00Z",
  "log": [
   {
    "cmd": "before canon: free disk 88.3 GB",
@@ -23,6 +23,10 @@
     "VALIDATION FAIL: v2 fell from 16535 to 16534",
     "validation note: canon has no growth check: its success cannot be verified"
    ]
+  },
+  {
+   "cmd": "canon: work remains, job stays queued",
+   "rc": 0
   }
  ]
 }
