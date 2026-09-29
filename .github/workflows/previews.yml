@@ -1,0 +1,28 @@
+name: previews
+# Beatport preview links for the listening check's sample (sonic/preview_urls.py); writes data/listening-previews.json.
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONUNBUFFERED: "1"
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip -q install -r requirements.txt
+      - run: python -m sonic.preview_urls
+      - name: keep the links
+        run: |
+          git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
+          git add data/listening-previews.json
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -qm "listening check: preview links $(date -u +%FT%TZ)"
+          for i in 1 2 3; do if git pull -q --rebase origin main && git push -q origin HEAD:main; then exit 0; fi; sleep $((i*10)); done
+          echo "::error title=previews::push failed"; exit 1
