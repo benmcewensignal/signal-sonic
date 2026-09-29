@@ -92,6 +92,13 @@ jobs:
             echo "${WF}: last run ${AGE}m ago"
             if [ "$AGE" -gt "$QUIET" ]; then timeout 60 gh workflow run "$WF" --repo "$REPO" --ref main && echo "  run" || echo "  could not run it (needs PIPELINE_PAT for another repository)"; fi
           done
+          # the live recognition index: rebuilt when a day old, since its own daily cron rarely fires; the age comes from
+          # the index file's last commit, because the audio workflow's other tasks run all day and would mask it
+          LASTIDX=$(gh api "repos/benmcewensignal/signal-sonic-audio/commits?path=out/index.json&per_page=1" --jq '.[0].commit.committer.date' 2>/dev/null)
+          if [ -n "$LASTIDX" ]; then
+            AGE=$(( (NOW - $(date -u -d "$LASTIDX" +%s)) / 60 )); echo "recognition index: last built ${AGE}m ago"
+            if [ "$AGE" -gt 1500 ]; then timeout 60 gh workflow run audio.yml --repo benmcewensignal/signal-sonic-audio --ref main -f task=full-index && echo "  rebuild dispatched" || echo "  could not dispatch the rebuild"; fi
+          fi
           exit 0
 
       - name: heartbeat
