@@ -1,5 +1,5 @@
 {
- "ran": "2026-09-28T23:54:45Z",
+ "ran": "2026-09-29T02:25:34Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -113,7 +113,7 @@
     " \"appetite\": {",
     "  \"afro-house\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 57.3",
+    "   \"plays_per_day_median\": 56.6",
     "  },",
     "  \"techno-peak-time\": {",
     "   \"mixes\": 3,",
@@ -121,11 +121,11 @@
     "  },",
     "  \"deep-house\": {",
     "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 71.8",
+    "   \"plays_per_day_median\": 71.0",
     "  },",
     "  \"melodic-house-techno\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 61.2",
+    "   \"plays_per_day_median\": 60.6",
     "  }",
     " }",
     "}"
@@ -169,13 +169,13 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.0,
+   "minutes": 5.2,
    "tail": [
     "identity checks applied; 2 joins cut",
     "artist records for 11323 artists; sounds-like for 2613",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-09-28T23:53:08Z\",",
+    " \"generated\": \"2026-09-29T02:23:30Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -199,10 +199,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.5,
+   "minutes": 1.9,
    "tail": [
     "{",
-    " \"generated\": \"2026-09-28T23:54:45Z\",",
+    " \"generated\": \"2026-09-29T02:25:34Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
