@@ -18,7 +18,17 @@ def merge(main_entries, our_entries):
         k = (e.get("file"), e.get("started"))
         if k not in by or len(json.dumps(e)) > len(json.dumps(by[k])):
             by[k] = e
-    return sorted(by.values(), key=lambda e: (str(e.get("started") or ""), str(e.get("file") or "")))
+    # an attempt is claimed on main at the start of a job and removed from the run's copy when the job ends; the union
+    # brought main's claim back every time, so each run added a permanent attempt and a job taking several bites was
+    # parked after three however well it went. Drop an attempt once the same job has a later finished or requeued entry.
+    ended = {}
+    for e in by.values():
+        f = str(e.get("file") or "")
+        if not f.endswith("#attempt") and not f.endswith("#reset") and (e.get("finished") or e.get("requeued")):
+            ended[f] = max(ended.get(f, ""), str(e.get("finished") or e.get("started") or ""))
+    keep = [e for e in by.values() if not (str(e.get("file") or "").endswith("#attempt")
+            and str(e.get("file"))[:-8] in ended and ended[str(e.get("file"))[:-8]] >= str(e.get("started") or ""))]
+    return sorted(keep, key=lambda e: (str(e.get("started") or ""), str(e.get("file") or "")))
 
 
 def main():

@@ -278,7 +278,8 @@ def main():
                 done.remove(_claim)
             except ValueError:
                 pass
-            done.append({"file": os.path.basename(f), "requeued": True, "rc": 0, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+            done.append({"file": os.path.basename(f), "requeued": True, "rc": 0, "started": _claim["started"], "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+            print(f"::notice title=queue::{os.path.basename(f)} ({mode}) took a bite and stays queued", flush=True)
             json.dump(done, open(done_path, "w"), indent=1)
             log.append({"cmd": f"{mode}: work remains, job stays queued", "rc": 0})
             print("job reports remaining work: leaving it in the queue", flush=True)
@@ -304,8 +305,9 @@ def main():
             done.remove(_claim)
         except ValueError:
             pass
-        done.append({"file": os.path.basename(f), "rc": rc, "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+        done.append({"file": os.path.basename(f), "rc": rc, "started": _claim["started"], "finished": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
         json.dump(done, open(done_path, "w"), indent=1)
+        print(f"::notice title=queue::{os.path.basename(f)} ({mode}) finished with code {rc}", flush=True)
         if rc and mode in ("mixscan", "mixrescan") and (time.time() - t_start) / 60 > a.budget_minutes - 30:
             break
     # joins after the work, so the data files reflect it
