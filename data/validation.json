@@ -1,9 +1,9 @@
 {
- "ran": "2026-09-29T08:55:59Z",
+ "ran": "2026-09-29T09:05:29Z",
  "job": "canon",
  "before": {
   "tracks": 123315,
-  "v2": 16534,
+  "v2": 16531,
   "v3": 1750,
   "named": 49247,
   "plays": 1316,
@@ -25,11 +25,9 @@
   "supply": 480,
   "aliases": null
  },
- "failures": [
-  "v2 fell from 16534 to 16531"
- ],
+ "failures": [],
  "notes": [
   "canon has no growth check: its success cannot be verified"
  ],
- "ok": false
+ "ok": true
 }
