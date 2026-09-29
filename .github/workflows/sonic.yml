@@ -318,6 +318,7 @@ jobs:
           fi
           # copy the outputs aside, take whatever main has become, put them back.
           # never stash/pop: a pop conflict leaves markers and we then commit them.
+          START_SHA=$(git rev-parse HEAD)
           for i in 1 2 3 4 5; do
             rm -rf /tmp/out && mkdir -p /tmp/out
             cp -a data /tmp/out/ 2>/dev/null
@@ -339,6 +340,12 @@ jobs:
             # last commit would copy an old curves file back (it did on 23 September, and the site's
             # DJ profiles and chart overlap vanished), so this run always keeps main's copy
             git checkout origin/main -- data/tracklists 2>/dev/null || true
+            # the same, generally: any file under data/ this run did not change itself is taken from main, so a
+            # file another job saved meanwhile (Beatport keys, DJ charts, preview links, genres) is never put back
+            # to the older copy this run checked out with (it was, on 29 September: 3,000 keys overwrote 6,000)
+            git ls-files -z data | while IFS= read -r -d '' f; do
+              if git diff --quiet "$START_SHA" -- "$f" 2>/dev/null; then git checkout -q origin/main -- "$f" 2>/dev/null || true; fi
+            done
             cp -a /tmp/out/backfill-report.md /tmp/out/backfill-report.json /tmp/out/CLAIMS.md . 2>/dev/null
             git add -A data queue backfill-report.md backfill-report.json CLAIMS.md 2>/dev/null
             if git diff --cached --quiet; then STATUS="nothing to persist"; break; fi
