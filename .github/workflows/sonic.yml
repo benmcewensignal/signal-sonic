@@ -41,7 +41,7 @@ concurrency:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # pinned: ubuntu-latest becomes Ubuntu 26 from 19 Oct 2026, under the audio decoding
     timeout-minutes: ${{ (inputs.mode == 'week' || github.event.schedule == '0 3 * * 0') && 240 || 120 }}   # one job per run; the weekly batch analyses every new chart record
     env:
       PYTHONUNBUFFERED: "1"

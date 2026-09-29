@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # pinned: ubuntu-latest becomes Ubuntu 26 from 19 Oct 2026, under the audio decoding
     timeout-minutes: 16
     steps:
       - uses: actions/checkout@v4
@@ -74,6 +74,26 @@ jobs:
             fi
           done
           exit 0
+      - name: run the daily jobs whose own cron never fires
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          # phone-e2e is the morning alarm (it fails, and so emails, if the site and the worker stop talking) and
+          # worker-deploy's daily run rebuilds the separated records' parts file. Neither schedule has fired once on
+          # record (checked 29 September), so this clock runs them. They do not contend with the pipelines, so unlike
+          # the kicks above they do not wait for their repository to go quiet: only for 25 hours since their last run.
+          set +e
+          NOW=$(date -u +%s)
+          for R in signal-sonic-features:phone-e2e.yml:1500 signal-sonic-features:worker-deploy.yml:1500; do
+            REPO=benmcewensignal/${R%%:*}; REST=${R#*:}; WF=${REST%%:*}; QUIET=${REST#*:}
+            LAST=$(gh api "repos/${REPO}/actions/workflows/${WF}/runs?per_page=1" --jq '.workflow_runs[0].created_at' 2>/dev/null)
+            if [ -z "$LAST" ]; then echo "${WF}: could not read runs"; continue; fi
+            AGE=$(( (NOW - $(date -u -d "$LAST" +%s)) / 60 ))
+            echo "${WF}: last run ${AGE}m ago"
+            if [ "$AGE" -gt "$QUIET" ]; then timeout 60 gh workflow run "$WF" --repo "$REPO" --ref main && echo "  run" || echo "  could not run it (needs PIPELINE_PAT for another repository)"; fi
+          done
+          exit 0
+
       - name: heartbeat
         if: always()
         timeout-minutes: 12          # the step sleeps ten; anything longer is a hang, not work
