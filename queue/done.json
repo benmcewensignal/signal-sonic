@@ -648,8 +648,10 @@
   "finished": "2026-09-29T15:57:45Z"
  },
  {
-  "file": "2026-09-29-00-classics.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T16:07:47Z"
+  "file": "2026-09-29-00-classics.json",
+  "requeued": true,
+  "rc": 0,
+  "started": "2026-09-29T16:07:47Z",
+  "finished": "2026-09-29T16:11:08Z"
  }
 ]
