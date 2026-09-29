@@ -559,16 +559,6 @@
   "note": "reanalyse re-measured the same first 120 ids on every bite; fixed, so the job can finish"
  },
  {
-  "file": "2026-09-29-00-classics.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T10:12:19Z"
- },
- {
-  "file": "2026-09-29-00-classics.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T10:53:34Z"
- },
- {
   "file": "00-first-canon.json#reset",
   "rc": null,
   "started": "2026-09-29T11:48:58Z",
@@ -595,8 +585,10 @@
   "finished": "2026-09-29T13:10:03Z"
  },
  {
-  "file": "2026-09-29-00-classics.json#attempt",
-  "rc": null,
-  "started": "2026-09-29T13:18:22Z"
+  "file": "2026-09-29-00-classics.json",
+  "requeued": true,
+  "rc": 0,
+  "started": "2026-09-29T13:18:22Z",
+  "finished": "2026-09-29T13:23:09Z"
  }
 ]

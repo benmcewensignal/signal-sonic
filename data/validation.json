@@ -1,6 +1,6 @@
 {
- "ran": "2026-09-29T13:10:01Z",
- "job": "scenes",
+ "ran": "2026-09-29T13:23:05Z",
+ "job": "canon",
  "before": {
   "tracks": 123315,
   "v2": 16531,
@@ -14,7 +14,7 @@
   "aliases": null
  },
  "after": {
-  "tracks": 123315,
+  "tracks": 123430,
   "v2": 16531,
   "v3": 1750,
   "named": 49247,
@@ -27,7 +27,7 @@
  },
  "failures": [],
  "notes": [
-  "scenes has no growth check: its success cannot be verified"
+  "canon has no growth check: its success cannot be verified"
  ],
  "ok": true
 }
