@@ -22,6 +22,13 @@ def classics():
                     if t.startswith("bp:") and x.get("found") is not False: rows.setdefault(t, x)
         except Exception as e:
             print(f"list not read ({u.rsplit('/', 1)[-1]}): {type(e).__name__}", flush=True)
+    # the records DJs chart that the corpus lacks, most DJs first (data/chart-queue.json), after the classics lists
+    try:
+        for x in json.load(open("data/chart-queue.json")).get("records", []):
+            t = str(x.get("track_id") or "")
+            if t.startswith("bp:"): rows.setdefault(t, {**x, "source": "chart"})
+    except Exception as e:
+        print(f"chart queue not read: {type(e).__name__}", flush=True)
     return rows
 
 
@@ -40,7 +47,7 @@ def main():
             if not url: n_fail += 1; continue
             fv = A.analyse(B.download_preview(url)); d = fv.__dict__ if hasattr(fv, "__dict__") else dict(fv)
             c.execute("insert or ignore into tracks (track_id, analyser_id, analyser_ver, features, source, first_seen, created_at) values (?,?,?,?,?,?,?)",
-                      (t, "local", A.version, json.dumps(d, default=float), "classic", now, time.time()))
+                      (t, "local", A.version, json.dumps(d, default=float), x.get("source") or "classic", now, time.time()))
             arts = [ar.get("name") for ar in (tr.get("artists") or []) if isinstance(ar, dict)] or x.get("artists") or []
             c.execute("insert or ignore into track_meta (track_id, name, mix, artists, label, released, fetched_at) values (?,?,?,?,?,?,?)",
                       (t, tr.get("name") or x.get("name"), tr.get("mix_name"), json.dumps(arts), ((tr.get("release") or {}).get("label") or {}).get("name"),
