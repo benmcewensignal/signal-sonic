@@ -1,0 +1,29 @@
+name: tracklist-batches
+# The next 40 DJs who chart and are artists Signal knows (sonic/tracklist_batches.py) sent to the tracklist job, and
+# recorded as tried. The watchdog runs this daily, so the candidate list works through about 40 DJs a day.
+on: { workflow_dispatch: {} }
+permissions: { contents: write, actions: write }
+concurrency: { group: sonic-tracklist-batches, cancel-in-progress: false }
+jobs:
+  batch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env: { GH_TOKEN: "${{ github.token }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: next batch
+        id: b
+        run: |
+          B=$(python -m sonic.tracklist_batches 40); echo "djs=$B" >> "$GITHUB_OUTPUT"; echo "batch: $B"
+      - name: record it and send it
+        if: steps.b.outputs.djs != ''
+        run: |
+          git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
+          for i in 1 2 3; do
+            cp data/tracklists-tried.json "$RUNNER_TEMP/t.json"; git fetch -q origin main && git reset -q --hard origin/main && cp "$RUNNER_TEMP/t.json" data/tracklists-tried.json
+            git add data/tracklists-tried.json; git diff --cached --quiet || git commit -qm "tracklist batch: $(date -u +%FT%TZ)"
+            if git push -q origin HEAD:main; then break; fi; sleep $((i*10))
+          done
+          gh workflow run tracklists.yml --repo "${{ github.repository }}" --ref main -f djs="${{ steps.b.outputs.djs }}" -f since=2024 -f measure=300 -f max_sets=40
