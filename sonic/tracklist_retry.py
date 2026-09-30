@@ -30,9 +30,10 @@ def main():
     for k in keys[:a.limit]:
         if (time.time() - t0) / 60 > a.budget_minutes: break
         f0, r0 = lines[k][0]; res = None
-        for rec in ({**r0, "artist": first_artist(r0["artist"]), "title": clean_title(r0["title"])},
-                    {**r0, "title": clean_title(r0["title"])}):
-            if (rec["artist"], rec["title"]) == (r0["artist"], r0["title"]) and rec is not None and res is None and tried == -1: continue
+        variants = [{**r0, "artist": first_artist(r0["artist"]), "title": clean_title(r0["title"])}]
+        if clean_title(r0["title"]) != r0["title"]: variants.append({**r0, "title": clean_title(r0["title"])})
+        for rec in variants:
+            if (rec["artist"], rec["title"]) == (r0["artist"], r0["title"]): continue   # the first try already asked this
             res = match(tok, rec, cache); time.sleep(0.15)
             if res: break
         tried += 1; got += bool(res)
