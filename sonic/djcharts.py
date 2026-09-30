@@ -32,18 +32,30 @@ def main():
             try: done_ids.add(json.loads(line).get("chart"))
             except Exception: pass
     tok = B.get_token(); os.makedirs("data/djcharts", exist_ok=True)
-    charts, page, sample = [], "/catalog/charts/?per_page=100&order_by=-publish_date", None
-    while page and len(charts) < a.max_charts:
-        try: d = B._get(page, tok)
-        except Exception as e: print(f"::warning::charts page failed after {len(charts)} charts: {type(e).__name__} {e}", flush=True); break
-        for ch in d.get("results", []):
-            sample = sample or ch
-            date = (ch.get("publish_date") or ch.get("change_date") or "")[:10]
-            if date and date < a.since: page = None; break
-            charts.append(ch)
-        else:
+    # Beatport's listing stops at the most recent 10,000 charts (about three months), so charts are listed month by month
+    # with a publish_date window, each well under that cap. If a window's results fall outside it, the filter is not
+    # honoured and the job says so rather than re-reading the newest 10,000.
+    import datetime as _dt
+    def months(since):
+        d = _dt.date.fromisoformat(since[:10]).replace(day=1); end = _dt.date.today()
+        while d <= end:
+            nx = (d.replace(day=28) + _dt.timedelta(days=4)).replace(day=1); yield d.isoformat(), (min(nx - _dt.timedelta(days=1), end)).isoformat(); d = nx
+    charts, sample, seen_ids, outside = [], None, set(), 0
+    for m0, m1 in reversed(list(months(a.since))):
+        page = f"/catalog/charts/?per_page=100&order_by=-publish_date&publish_date={m0}:{m1}"; got = 0
+        while page and len(charts) < a.max_charts:
+            try: d = B._get(page, tok)
+            except Exception as e: print(f"::warning::charts page failed in {m0[:7]} after {got}: {type(e).__name__} {e}", flush=True); break
+            for ch in d.get("results", []):
+                sample = sample or ch; date = (ch.get("publish_date") or ch.get("change_date") or "")[:10]
+                if date and not (m0 <= date <= m1): outside += 1; continue
+                if ch.get("id") in seen_ids: continue
+                seen_ids.add(ch.get("id")); charts.append(ch); got += 1
             nxt = d.get("next")   # the API's next link carries its own /v4 prefix
-            page = ("/" + nxt.split("/v4/", 1)[1]) if nxt and "/v4/" in nxt else nxt; continue
+            page = ("/" + nxt.split("/v4/", 1)[1]) if nxt and "/v4/" in nxt else nxt
+        print(f"  {m0[:7]}: {got} charts", flush=True)
+        if outside > 500 and got == 0:
+            print("::warning title=djcharts::the publish_date window is not honoured by the charts listing; stopping at the most recent charts", flush=True); break
     print(f"charts listed: {len(charts)}; sample fields: {sorted((sample or {}).keys())[:24]}", flush=True)
     t0 = time.time(); todo = [ch for ch in charts if ch.get("id") not in done_ids]
     out = open("data/djcharts/charts.jsonl", "a" if a.resume else "w"); rows = []; read_now = 0
