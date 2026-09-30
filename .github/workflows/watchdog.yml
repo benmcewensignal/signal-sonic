@@ -115,5 +115,10 @@ jobs:
           # the group is what the pipeline itself needs in order to run.
           set +e
           sleep 600
-          timeout 60 gh workflow run watchdog.yml --ref main && echo "next check armed" || echo "could not arm"
-          exit 0
+          # retried: one failed dispatch at 12:07 on 30 Sep ended the chain for hours (GitHub's cron did not fire either)
+          for i in 1 2 3 4 5; do
+            if timeout 60 gh workflow run watchdog.yml --ref main; then echo "next check armed"; exit 0; fi
+            echo "could not arm (try $i)"; sleep $((i*20))
+          done
+          echo "::error title=watchdog::could not arm the next check after 5 tries; the chart-tracks job re-arms it when it is 30 minutes stale"
+          exit 1

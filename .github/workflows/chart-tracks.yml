@@ -37,3 +37,11 @@ jobs:
         if: steps.keep.outputs.pushed == '1' && steps.k.outputs.left != '0'
         env: { GH_TOKEN: "${{ github.token }}" }
         run: gh workflow run chart-tracks.yml --repo "${{ github.repository }}" --ref main
+      - name: re-arm the watchdog if it has stopped
+        if: always()
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          # the watchdog re-arms itself every ten minutes; if a dispatch fails and GitHub's cron does not fire, it stops.
+          # This job runs constantly, so it restarts the watchdog when its last run is more than 30 minutes old.
+          LAST=$(gh api "repos/${{ github.repository }}/actions/workflows/watchdog.yml/runs?per_page=1" --jq '.workflow_runs[0].created_at // ""' 2>/dev/null)
+          if [ -n "$LAST" ] && [ $(( $(date -u +%s) - $(date -u -d "$LAST" +%s) )) -gt 1800 ]; then gh workflow run watchdog.yml --repo "${{ github.repository }}" --ref main && echo "watchdog restarted"; else echo "watchdog alive"; fi
