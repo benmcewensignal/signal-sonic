@@ -272,7 +272,8 @@
      "minute": 127,
      "artist": "Leod",
      "title": "Untitled 04",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 130,
@@ -819,7 +820,8 @@
      "minute": 55,
      "artist": "Leod",
      "title": "Untitled 04",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 59,
@@ -2636,7 +2638,8 @@
      "minute": 53,
      "artist": "ID ID",
      "title": "Push That",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "retry": 1
     },
     {
      "minute": 58,
@@ -4303,7 +4306,8 @@
      "minute": 68,
      "artist": "Felix Da Housecat Feat. Miss Kittin",
      "title": "Silver Screen Shower Scene (Alexander Delanois Private Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 70,

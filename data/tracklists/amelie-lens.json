@@ -9,7 +9,8 @@
      "minute": 0,
      "artist": "Charlotte de Witte & Amelie Lens",
      "title": "One Mind",
-     "label": "B2B"
+     "label": "B2B",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -37,13 +38,15 @@
      "minute": 13,
      "artist": "Mython",
      "title": "Mola",
-     "label": "Grab The Groove"
+     "label": "Grab The Groove",
+     "retry": 1
     },
     {
      "minute": 18,
      "artist": "Airod",
      "title": "Amnesia",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 22,
@@ -97,19 +100,22 @@
      "minute": 37,
      "artist": "Salin & Até",
      "title": "Mess",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 41,
      "artist": "''Amelie Lens",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 45,
      "artist": "Airod",
      "title": "No Lover",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -124,7 +130,8 @@
      "minute": 52,
      "artist": "STORM",
      "title": "Hypnotise",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -157,13 +164,15 @@
      "minute": 9,
      "artist": "Amelie Lens",
      "title": "Welcome To The Club Of Extremes",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 12,
      "artist": "Hybrasil",
      "title": "Kontrol",
-     "label": "CLR"
+     "label": "CLR",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -182,19 +191,22 @@
      "minute": 22,
      "artist": "Tony Romanello",
      "title": "Xlerator",
-     "label": "Kurai"
+     "label": "Kurai",
+     "retry": 1
     },
     {
      "minute": 28,
      "artist": "The Southern",
      "title": "Beg It",
-     "label": "CLR"
+     "label": "CLR",
+     "retry": 1
     },
     {
      "minute": 32,
      "artist": "''Amelie Lens",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -213,7 +225,8 @@
      "minute": 43,
      "artist": "''Amelie Lens",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -263,7 +276,8 @@
      "minute": 5,
      "artist": "Até & Salin",
      "title": "Mess",
-     "label": "Exhale - EXH011"
+     "label": "Exhale - EXH011",
+     "retry": 1
     },
     {
      "minute": 9,
@@ -317,13 +331,15 @@
      "minute": 24,
      "artist": "SAILØ",
      "title": "Nobody",
-     "label": "Exhale - EXH011"
+     "label": "Exhale - EXH011",
+     "retry": 1
     },
     {
      "minute": 28,
      "artist": "GALLØ",
      "title": "Mantra",
-     "label": "Exhale - EXH011"
+     "label": "Exhale - EXH011",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -407,7 +423,8 @@
      "minute": 56,
      "artist": "Storm",
      "title": "Hypnotise",
-     "label": "Exhale - EXH011"
+     "label": "Exhale - EXH011",
+     "retry": 1
     }
    ]
   },
@@ -492,7 +509,8 @@
      "minute": 24,
      "artist": "Hiroko Yamamura & Sian",
      "title": "Demons",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 28,
@@ -546,7 +564,8 @@
      "minute": 41,
      "artist": "A.D.H.S.",
      "title": "Maxed Out",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -578,7 +597,8 @@
      "minute": 52,
      "artist": "Yellow Claw & RHYME & Natte Visstick",
      "title": "CRUSH",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -642,7 +662,8 @@
      "minute": 13,
      "artist": "AKKI",
      "title": "Tokyo",
-     "label": "From The Soul"
+     "label": "From The Soul",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -661,7 +682,8 @@
      "minute": 18,
      "artist": "BLONDEX",
      "title": "Helix",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 23,
@@ -680,19 +702,22 @@
      "minute": 29,
      "artist": "Emmanuel Top",
      "title": "Acid Phase (Portex Remix)",
-     "label": "Kosmo"
+     "label": "Kosmo",
+     "retry": 1
     },
     {
      "minute": 33,
      "artist": "Disguised",
      "title": "DRUM SHOTS",
-     "label": "AKRONYM"
+     "label": "AKRONYM",
+     "retry": 1
     },
     {
      "minute": 36,
      "artist": "Slin Bourgh & HouseWerk",
      "title": "No Fear",
-     "label": "Revealed"
+     "label": "Revealed",
+     "retry": 1
     },
     {
      "minute": 39,
@@ -764,7 +789,8 @@
      "minute": 0,
      "artist": "Dirty Signal & Yellow Pvnk",
      "title": "Honey",
-     "label": "Bounce & Bass"
+     "label": "Bounce & Bass",
+     "retry": 1
     },
     {
      "minute": 3,
@@ -788,7 +814,8 @@
      "minute": 9,
      "artist": "T78 & Roberto Molinaro",
      "title": "Bombacid",
-     "label": "Autektone"
+     "label": "Autektone",
+     "retry": 1
     },
     {
      "minute": 12,
@@ -812,7 +839,8 @@
      "minute": 19,
      "artist": "The Prodigy",
      "title": "No Good (Start The Dance) (Kristian Llov Bigroom Techno Edit)",
-     "label": "XL"
+     "label": "XL",
+     "retry": 1
     },
     {
      "minute": 22,
@@ -858,7 +886,8 @@
      "minute": 33,
      "artist": "T78",
      "title": "Plur",
-     "label": "Autektone"
+     "label": "Autektone",
+     "retry": 1
     },
     {
      "minute": 36,
@@ -882,19 +911,22 @@
      "minute": 43,
      "artist": "Indecent Noise",
      "title": "Crunch",
-     "label": "Mental Asylum"
+     "label": "Mental Asylum",
+     "retry": 1
     },
     {
      "minute": 46,
      "artist": "VIVID & Sesco",
      "title": "Hey DJ",
-     "label": "Revealed"
+     "label": "Revealed",
+     "retry": 1
     },
     {
      "minute": 49,
      "artist": "Pitch Mad Attak",
      "title": "Wanna Be",
-     "label": "Ugt"
+     "label": "Ugt",
+     "retry": 1
     },
     {
      "minute": 51,
@@ -926,7 +958,8 @@
      "minute": 57,
      "artist": "Amelie Lens",
      "title": "Can You Feel Me?",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -1050,13 +1083,15 @@
      "minute": 35,
      "artist": "Gesaffelstein",
      "title": "Control Movement (RADAR Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 39,
      "artist": "Frankyeffe & DAALIEN",
      "title": "Eternal",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -1067,7 +1102,8 @@
      "minute": 44,
      "artist": "Electric Universe",
      "title": "Lakshmi",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 49,
@@ -1131,7 +1167,8 @@
      "minute": 9,
      "artist": "''Amelie Lens",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 14,
@@ -1176,13 +1213,15 @@
      "minute": 22,
      "artist": "''Amelie Lens",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 27,
      "artist": "''Amelie Lens",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 32,
@@ -1210,7 +1249,8 @@
      "minute": 37,
      "artist": "SWART",
      "title": "Let Me Go",
-     "label": "Driller"
+     "label": "Driller",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -1282,7 +1322,8 @@
      "minute": 0,
      "artist": "A.D.H.S.",
      "title": "John Doe",
-     "label": "Memoro"
+     "label": "Memoro",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -1314,7 +1355,8 @@
      "minute": 10,
      "artist": "C Razey",
      "title": "Fragility",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -1368,13 +1410,15 @@
      "minute": 26,
      "artist": "Amelie Lens",
      "title": "Breathe",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 30,
      "artist": "DJSM",
      "title": "Mirage",
-     "label": "Bounce & Bass"
+     "label": "Bounce & Bass",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -1393,19 +1437,22 @@
      "minute": 39,
      "artist": "Khira Li",
      "title": "Leder",
-     "label": "No Mercy"
+     "label": "No Mercy",
+     "retry": 1
     },
     {
      "minute": 42,
      "artist": "Flour",
      "title": "Visitors",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 46,
      "artist": "The Rocketman & SHVDZ",
      "title": "All Night",
-     "label": "Extatic"
+     "label": "Extatic",
+     "retry": 1
     },
     {
      "minute": 50,
@@ -1424,7 +1471,8 @@
      "minute": 52,
      "artist": "Flour",
      "title": "Eternals",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     }
    ]
   },
@@ -1457,13 +1505,15 @@
      "minute": 8,
      "artist": "Amelie Lens & Charlotte de Witte",
      "title": "One Mind",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 11,
      "artist": "A.D.H.S.",
      "title": "XTC",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 14,
@@ -1674,7 +1724,8 @@
      "minute": 14,
      "artist": "Carl Shorts",
      "title": "Frantic",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -1737,7 +1788,8 @@
      "minute": 36,
      "artist": "HardtraX Feat. Dunkelkammer",
      "title": "Der Letzte Dreck",
-     "label": "Definition Of Hard Techno"
+     "label": "Definition Of Hard Techno",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -1855,7 +1907,8 @@
      "minute": 22,
      "artist": "FLKN",
      "title": "The Light",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -1909,7 +1962,8 @@
      "minute": 40,
      "artist": "Flour",
      "title": "Love It",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 45,
@@ -1928,7 +1982,8 @@
      "minute": 49,
      "artist": "Lawyn",
      "title": "Nami",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 54,
@@ -1952,7 +2007,8 @@
      "minute": 0,
      "artist": "Procombo",
      "title": "Be Alive",
-     "label": "CLR"
+     "label": "CLR",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -1971,7 +2027,8 @@
      "minute": 8,
      "artist": "Axel Karakasis",
      "title": "Stave Off",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 10,
@@ -2008,7 +2065,8 @@
      "minute": 19,
      "artist": "Juliana Yamasaki",
      "title": "Chaos",
-     "label": "DCRYPTED"
+     "label": "DCRYPTED",
+     "retry": 1
     },
     {
      "minute": 23,
@@ -2062,7 +2120,8 @@
      "minute": 38,
      "artist": "Binaryh",
      "title": "Don't Stop Now (Motothav Remix)",
-     "label": "DECØDED MUSIC"
+     "label": "DECØDED MUSIC",
+     "retry": 1
     },
     {
      "minute": 42,
@@ -2125,7 +2184,8 @@
      "minute": 0,
      "artist": "Red Rooms",
      "title": "Septima",
-     "label": "ROT"
+     "label": "ROT",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -2170,7 +2230,8 @@
      "minute": 13,
      "artist": "Thomas Schumacher",
      "title": "Off World",
-     "label": "Electric Ballroom"
+     "label": "Electric Ballroom",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -2189,7 +2250,8 @@
      "minute": 19,
      "artist": "Mython",
      "title": "Gumboots",
-     "label": "Suara"
+     "label": "Suara",
+     "retry": 1
     },
     {
      "minute": 22,
@@ -2239,7 +2301,8 @@
      "minute": 38,
      "artist": "KLAMER",
      "title": "Gesundheit Zuerst",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -2254,13 +2317,15 @@
      "minute": 43,
      "artist": "STORM",
      "title": "Own This Block",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 48,
      "artist": "Juliana Yamasaki",
      "title": "Plasma",
-     "label": "DCRYPTED"
+     "label": "DCRYPTED",
+     "retry": 1
     },
     {
      "minute": 52,
@@ -2280,7 +2345,8 @@
      "minute": 0,
      "artist": "Bailey Ibbs",
      "title": "Message For Creatives",
-     "label": "Night Service"
+     "label": "Night Service",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -2299,7 +2365,8 @@
      "minute": 9,
      "artist": "ADRIANNA",
      "title": "Return",
-     "label": "Reload Black"
+     "label": "Reload Black",
+     "retry": 1
     },
     {
      "minute": 13,
@@ -2344,7 +2411,8 @@
      "minute": 23,
      "artist": "Ling Ling",
      "title": "Deep Ling",
-     "label": "Recollection"
+     "label": "Recollection",
+     "retry": 1
     },
     {
      "minute": 28,
@@ -2376,7 +2444,8 @@
      "minute": 36,
      "artist": "DJ Ogi",
      "title": "Skok",
-     "label": "Resilient"
+     "label": "Resilient",
+     "retry": 1
     },
     {
      "minute": 39,
@@ -2391,7 +2460,8 @@
      "minute": 42,
      "artist": "MAIKE DEPAS",
      "title": "Diabolika",
-     "label": "Rave Alert"
+     "label": "Rave Alert",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -2410,7 +2480,8 @@
      "minute": 51,
      "artist": "Darcour",
      "title": "Ethereal",
-     "label": "Autektone"
+     "label": "Autektone",
+     "retry": 1
     }
    ]
   },
@@ -2460,19 +2531,22 @@
      "minute": 11,
      "artist": "Kaiserdisco",
      "title": "Granulat",
-     "label": "KD RAW"
+     "label": "KD RAW",
+     "retry": 1
     },
     {
      "minute": 13,
      "artist": "Gerard H",
      "title": "Ecstasy",
-     "label": "INVICTA"
+     "label": "INVICTA",
+     "retry": 1
     },
     {
      "minute": 16,
      "artist": "Krist",
      "title": "Berlin '89",
-     "label": "DSR Digital"
+     "label": "DSR Digital",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -2491,7 +2565,8 @@
      "minute": 22,
      "artist": "AKA The Alien",
      "title": "Killer",
-     "label": "DSR Digital"
+     "label": "DSR Digital",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -2523,7 +2598,8 @@
      "minute": 37,
      "artist": "Relinquo",
      "title": "Ramayana",
-     "label": "Loading Systems"
+     "label": "Loading Systems",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -2627,7 +2703,8 @@
      "minute": 16,
      "artist": "SWART",
      "title": "Extazy",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -2659,7 +2736,8 @@
      "minute": 27,
      "artist": "Shadym",
      "title": "SOCIETY",
-     "label": "Physical Techno"
+     "label": "Physical Techno",
+     "retry": 1
     },
     {
      "minute": 31,
@@ -2674,7 +2752,8 @@
      "minute": 35,
      "artist": "David Strasser",
      "title": "Sintra",
-     "label": "Techno Germany"
+     "label": "Techno Germany",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -2693,13 +2772,15 @@
      "minute": 41,
      "artist": "Flour",
      "title": "Gravity",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 44,
      "artist": "Incident Prism",
      "title": "Bassmurda",
-     "label": "Molekül"
+     "label": "Molekül",
+     "retry": 1
     },
     {
      "minute": 50,
@@ -2754,7 +2835,8 @@
      "minute": 5,
      "artist": "Akona",
      "title": "Acid Diva",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -2795,13 +2877,15 @@
      "minute": 20,
      "artist": "SAMOH",
      "title": "Excluded",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "retry": 1
     },
     {
      "minute": 24,
      "artist": "Julian Jeweil",
      "title": "Rituel",
-     "label": "Pluriel_Records"
+     "label": "Pluriel_Records",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -2833,7 +2917,8 @@
      "minute": 34,
      "artist": "Arcana",
      "title": "Shifted",
-     "label": "Dacru"
+     "label": "Dacru",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -2865,13 +2950,15 @@
      "minute": 50,
      "artist": "YOZÉ",
      "title": "FWM",
-     "label": "TAKEOFF"
+     "label": "TAKEOFF",
+     "retry": 1
     },
     {
      "minute": 52,
      "artist": "Samuel Andrasik",
      "title": "Phantom",
-     "label": "Bonzai"
+     "label": "Bonzai",
+     "retry": 1
     }
    ]
   },
@@ -2882,7 +2969,8 @@
      "minute": 0,
      "artist": "Gianni Di Bernardo",
      "title": "Head",
-     "label": "Kneaded Pains"
+     "label": "Kneaded Pains",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -2901,7 +2989,8 @@
      "minute": 9,
      "artist": "Vault Records & ANNĒ (GR)",
      "title": "The Freeway At Dawn",
-     "label": "Vault"
+     "label": "Vault",
+     "retry": 1
     },
     {
      "minute": 11,
@@ -2959,7 +3048,8 @@
      "minute": 28,
      "artist": "Blondex",
      "title": "Aeon",
-     "label": "Exhale"
+     "label": "Exhale",
+     "retry": 1
     },
     {
      "minute": 34,
@@ -3017,7 +3107,8 @@
      "minute": 50,
      "artist": "PROXYMA",
      "title": "ALIENATION",
-     "label": "LABURNŪM"
+     "label": "LABURNŪM",
+     "retry": 1
     },
     {
      "minute": 54,

@@ -40,13 +40,15 @@
      "minute": 16,
      "artist": "Coffintexts & Gaby G",
      "title": "Wet Nasty",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 19,
      "artist": "Naco",
      "title": "Bari",
-     "label": "85acid"
+     "label": "85acid",
+     "retry": 1
     },
     {
      "minute": 24,
@@ -70,25 +72,29 @@
      "minute": 33,
      "artist": "Ebende",
      "title": "Rotations",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 38,
      "artist": "East End Dubs",
      "title": "BRave",
-     "label": "Fuse London"
+     "label": "Fuse London",
+     "retry": 1
     },
     {
      "minute": 42,
      "artist": "Sensurreal",
      "title": "Scoff!",
-     "label": "Frame Of Mind"
+     "label": "Frame Of Mind",
+     "retry": 1
     },
     {
      "minute": 45,
      "artist": "Wiley & Stefflon Don & Sean Paul Feat. Idris Elba",
      "title": "Boasty",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 48,
@@ -112,7 +118,8 @@
      "minute": 60,
      "artist": "Siu Mata",
      "title": "Nuna",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 63,
@@ -159,7 +166,8 @@
      "minute": 81,
      "artist": "Ruff Kru",
      "title": "T.H.C (The Hardest Cru)",
-     "label": "Hardline Sounds"
+     "label": "Hardline Sounds",
+     "retry": 1
     },
     {
      "minute": 84,
@@ -191,7 +199,8 @@
      "minute": 92,
      "artist": "Skream",
      "title": "Konga",
-     "label": "Skreamizm"
+     "label": "Skreamizm",
+     "retry": 1
     },
     {
      "minute": 96,
@@ -228,7 +237,8 @@
      "minute": 0,
      "artist": "Young Marble Giants",
      "title": "N.I.T.A.",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -273,7 +283,8 @@
      "minute": 21,
      "artist": "Jonastyworld",
      "title": "Nasty",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -292,7 +303,8 @@
      "minute": 29,
      "artist": "Big Ned",
      "title": "Final Steps",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 35,
@@ -337,19 +349,22 @@
      "minute": 49,
      "artist": "Gary Shearston",
      "title": "Witnessing",
-     "label": "Crimson"
+     "label": "Crimson",
+     "retry": 1
     },
     {
      "minute": 58,
      "artist": "Mystery JETS Feat. Laura Marling",
      "title": "Young Love",
-     "label": "679"
+     "label": "679",
+     "retry": 1
     },
     {
      "minute": 61,
      "artist": "The Cheviot Ranters",
      "title": "Corn Rigs Tunes",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 64,
@@ -368,13 +383,22 @@
      "minute": 68,
      "artist": "Jimmy Reed",
      "title": "Too Much",
-     "label": "Fuel"
+     "label": "Fuel",
+     "retry": 1
     },
     {
      "minute": 71,
      "artist": "Nelly Furtado Feat. Missy Elliott",
      "title": "Do It",
-     "label": "Mosley"
+     "label": "Mosley",
+     "bp": "bp:29693802",
+     "score": 0.8,
+     "preview": "https://geo-samples.beatport.com/track/15e50e14-7482-46d7-8f23-d82330e65cf6.LOFI.mp3",
+     "name": "Do It",
+     "mix": "Live",
+     "genre": "pop",
+     "released": "2007-01-01",
+     "via": "retry"
     },
     {
      "minute": 75,
@@ -445,7 +469,8 @@
      "minute": 100,
      "artist": "Minnie Riperton",
      "title": "Lovin' You",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 104,
@@ -495,7 +520,8 @@
      "minute": 4,
      "artist": "Soulwax",
      "title": "Run Free",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -584,19 +610,22 @@
      "minute": 22,
      "artist": "Die Vögel",
      "title": "Phantom Of The Paradise",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 25,
      "artist": "Anthony Naples",
      "title": "Scanners",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 27,
      "artist": "Fort Romeau",
      "title": "U R My Love (EDIT)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 29,
@@ -703,7 +732,8 @@
      "minute": 49,
      "artist": "Jürgen Paape Feat. Hella",
      "title": "Grace (A Tale)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 52,
@@ -744,7 +774,8 @@
      "minute": 0,
      "artist": "Haujobb",
      "title": "Less",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 2,
@@ -763,7 +794,8 @@
      "minute": 5,
      "artist": "Global Goon",
      "title": "Fin",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 11,
@@ -782,7 +814,8 @@
      "minute": 13,
      "artist": "DIY",
      "title": "Cassiopeia",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 16,
@@ -801,7 +834,8 @@
      "minute": 21,
      "artist": "Louis Lupin",
      "title": "Lululu",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 25,
@@ -812,7 +846,8 @@
      "minute": 30,
      "artist": "Vainqueur & Substance",
      "title": "Libration",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 34,
@@ -844,7 +879,8 @@
      "minute": 44,
      "artist": "Pan Sonic",
      "title": "Hapatus",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -876,13 +912,15 @@
      "minute": 53,
      "artist": "Massive Attack",
      "title": "Heat Miser (Suck Me Up Dub)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 58,
      "artist": "Spiritualized",
      "title": "Cop Shoot Cop... (Call Super Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   }

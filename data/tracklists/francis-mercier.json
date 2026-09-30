@@ -1186,7 +1186,8 @@
      "minute": 52,
      "artist": "Fisher",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": 55,

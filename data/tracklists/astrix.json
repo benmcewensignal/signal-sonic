@@ -22,7 +22,8 @@
      "minute": null,
      "artist": "Shayman",
      "title": "Prince",
-     "label": "Iboga"
+     "label": "Iboga",
+     "retry": 1
     },
     {
      "minute": null,
@@ -67,7 +68,8 @@
      "minute": null,
      "artist": "Samra",
      "title": "Echonnection",
-     "label": "Distrokid"
+     "label": "Distrokid",
+     "retry": 1
     },
     {
      "minute": null,
@@ -238,7 +240,8 @@
      "minute": null,
      "artist": "Astrix & Ritmo",
      "title": "Agate",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "retry": 1
     },
     {
      "minute": null,
@@ -270,7 +273,8 @@
      "minute": null,
      "artist": "Sonic Species",
      "title": "The Way",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "retry": 1
     }
    ]
   }

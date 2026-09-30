@@ -3067,7 +3067,8 @@
      "minute": 65,
      "artist": "Skepta",
      "title": "Gas Me Up",
-     "label": "Diligent"
+     "label": "Diligent",
+     "retry": 1
     },
     {
      "minute": 69,
@@ -3197,7 +3198,8 @@
      "minute": 67,
      "artist": "JANAKEY",
      "title": "Blower",
-     "label": "Places & Spaces"
+     "label": "Places & Spaces",
+     "retry": 1
     },
     {
      "minute": 73,
@@ -3221,7 +3223,8 @@
      "minute": 83,
      "artist": "Aaaron & Deckert",
      "title": "Your Love",
-     "label": "TAU"
+     "label": "TAU",
+     "retry": 1
     },
     {
      "minute": 87,
@@ -3250,7 +3253,8 @@
      "minute": 139,
      "artist": "BLOND:ISH",
      "title": "$MONEY",
-     "label": "Maison Arts"
+     "label": "Maison Arts",
+     "retry": 1
     },
     {
      "minute": 141,
@@ -3287,7 +3291,8 @@
      "minute": 154,
      "artist": "Noizu",
      "title": "Summer 91",
-     "label": "Looking Back"
+     "label": "Looking Back",
+     "retry": 1
     },
     {
      "minute": 159,
@@ -3329,7 +3334,8 @@
      "minute": 202,
      "artist": "Viot",
      "title": "Flex",
-     "label": "Nu Moda"
+     "label": "Nu Moda",
+     "retry": 1
     },
     {
      "minute": 205,
@@ -3349,7 +3355,8 @@
      "minute": 220,
      "artist": "Vintage Culture",
      "title": "Malabaris",
-     "label": "Journeey"
+     "label": "Journeey",
+     "retry": 1
     },
     {
      "minute": 226,
@@ -3501,7 +3508,8 @@
      "minute": 305,
      "artist": "Skepta",
      "title": "Gas Me Up",
-     "label": "Diligent"
+     "label": "Diligent",
+     "retry": 1
     },
     {
      "minute": 310,
@@ -3564,19 +3572,22 @@
      "minute": 334,
      "artist": "''Blademasterz",
      "title": "ID [I AM HARDSTYLE]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 337,
      "artist": "Argy & Baset",
      "title": "Sierra",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 346,
      "artist": "Argy",
      "title": "WIND",
-     "label": "NEWORLD"
+     "label": "NEWORLD",
+     "retry": 1
     },
     {
      "minute": 350,
@@ -3640,7 +3651,8 @@
      "minute": 371,
      "artist": "Omiki",
      "title": "Todo",
-     "label": "SFR"
+     "label": "SFR",
+     "retry": 1
     },
     {
      "minute": 372,
@@ -3742,7 +3754,8 @@
      "minute": 404,
      "artist": "David Guetta & Kid Cudi",
      "title": "Memories",
-     "label": "GUM Prod SAS"
+     "label": "GUM Prod SAS",
+     "retry": 1
     },
     {
      "minute": 407,
@@ -3805,7 +3818,8 @@
      "minute": 427,
      "artist": "DJ Bountyhunter",
      "title": "Woops",
-     "label": "Robots & Humans"
+     "label": "Robots & Humans",
+     "retry": 1
     },
     {
      "minute": 428,
@@ -3982,19 +3996,22 @@
      "minute": 482,
      "artist": "Lars Huismann",
      "title": "Nebula",
-     "label": "Vault"
+     "label": "Vault",
+     "retry": 1
     },
     {
      "minute": 486,
      "artist": "Head Horny's",
      "title": "Da Bi Doo",
-     "label": "NOFEAR! Musik"
+     "label": "NOFEAR! Musik",
+     "retry": 1
     },
     {
      "minute": 488,
      "artist": "Felix R",
      "title": "Feel It",
-     "label": "Corrupted Data XL"
+     "label": "Corrupted Data XL",
+     "retry": 1
     },
     {
      "minute": 494,
@@ -4057,13 +4074,15 @@
      "minute": 507,
      "artist": "Gary Beck",
      "title": "Sambana",
-     "label": "Mutual Rytm"
+     "label": "Mutual Rytm",
+     "retry": 1
     },
     {
      "minute": 515,
      "artist": "A-Tech & Overdrive & Exolon",
      "title": "Ra",
-     "label": "Dacru"
+     "label": "Dacru",
+     "retry": 1
     },
     {
      "minute": 518,
@@ -4100,7 +4119,8 @@
      "minute": 538,
      "artist": "Menog",
      "title": "Tune In",
-     "label": "TIP"
+     "label": "TIP",
+     "retry": 1
     },
     {
      "minute": 541,
@@ -4111,7 +4131,8 @@
      "minute": 544,
      "artist": "David Moleon",
      "title": "Diana",
-     "label": "Moop Up"
+     "label": "Moop Up",
+     "retry": 1
     },
     {
      "minute": 547,
@@ -4130,13 +4151,15 @@
      "minute": 549,
      "artist": "Infiltrator",
      "title": "Freeload (Freeman 713 Remix)",
-     "label": "Disintegrated"
+     "label": "Disintegrated",
+     "retry": 1
     },
     {
      "minute": 550,
      "artist": "Dino Psaras",
      "title": "Revolver",
-     "label": "BOA"
+     "label": "BOA",
+     "retry": 1
     },
     {
      "minute": 555,
@@ -4284,7 +4307,8 @@
      "minute": 636,
      "artist": "Paula Van Klar",
      "title": "The Finest (Edit)",
-     "label": "Kraftek"
+     "label": "Kraftek",
+     "retry": 1
     },
     {
      "minute": 640,

@@ -1774,7 +1774,8 @@
      "minute": 36,
      "artist": "Spray",
      "title": "Zippycher",
-     "label": "Kalahari Oyster Cult"
+     "label": "Kalahari Oyster Cult",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -1922,7 +1923,8 @@
      "minute": 25,
      "artist": "Phasmid",
      "title": "Hadal Zone (Kessler Remix)",
-     "label": "Gimme A Break"
+     "label": "Gimme A Break",
+     "retry": 1
     },
     {
      "minute": 28,

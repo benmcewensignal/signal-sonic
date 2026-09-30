@@ -9,13 +9,15 @@
      "minute": null,
      "artist": "TH;EN",
      "title": "Run",
-     "label": "Now"
+     "label": "Now",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Armin van Buuren & Omnia",
      "title": "Love",
-     "label": "Armind"
+     "label": "Armind",
+     "retry": 1
     },
     {
      "minute": null,
@@ -34,7 +36,15 @@
      "minute": null,
      "artist": "Adam Beyer & Vintage Culture Feat. Kyozo",
      "title": "Lift Me Up",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:29062505",
+     "score": 0.564,
+     "preview": "https://geo-samples.beatport.com/track/d421d54c-8ecd-4ea2-a08e-1dcca985ecbc.LOFI.mp3",
+     "name": "Lift Me Up",
+     "mix": "Original Mix",
+     "genre": "electronica",
+     "released": "2026-04-24",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -66,13 +76,15 @@
      "minute": null,
      "artist": "Mari Ferrari",
      "title": "Motion",
-     "label": "Set About"
+     "label": "Set About",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Jay Lumen",
      "title": "Energy",
-     "label": "Footwork"
+     "label": "Footwork",
+     "retry": 1
     },
     {
      "minute": null,
@@ -135,37 +147,43 @@
      "minute": null,
      "artist": "Tresh",
      "title": "Horizon",
-     "label": "Techsafari"
+     "label": "Techsafari",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ed Lopes",
      "title": "Topology",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ed Lopes & DJ Murphy & DJ Mandraks",
      "title": "Robotics",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ed Lopes & Acrobatik",
      "title": "Tensor",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ed Lopes & Dellucht",
      "title": "Algebra",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ed Lopes & Monic",
      "title": "Radial",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -223,19 +241,22 @@
      "minute": null,
      "artist": "Ed Lopes",
      "title": "U-235",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ed Lopes",
      "title": "Humanity",
-     "label": "Shodan"
+     "label": "Shodan",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ed Lopes",
      "title": "Project X",
-     "label": "Kaligo"
+     "label": "Kaligo",
+     "retry": 1
     }
    ]
   },
@@ -268,7 +289,8 @@
      "minute": null,
      "artist": "Paradoks",
      "title": "C'est Toi",
-     "label": "Purified"
+     "label": "Purified",
+     "retry": 1
     },
     {
      "minute": null,
@@ -300,7 +322,8 @@
      "minute": null,
      "artist": "Dikron",
      "title": "Manticore",
-     "label": "Infekted"
+     "label": "Infekted",
+     "retry": 1
     },
     {
      "minute": null,
@@ -358,7 +381,8 @@
      "minute": null,
      "artist": "Hyriderz",
      "title": "Prism",
-     "label": "United Beats"
+     "label": "United Beats",
+     "retry": 1
     },
     {
      "minute": null,
@@ -390,7 +414,8 @@
      "minute": null,
      "artist": "Modern8",
      "title": "La Gitana (Gypsy Dance)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -422,7 +447,8 @@
      "minute": null,
      "artist": "Aktyum & West Galaxy",
      "title": "Arkadian",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "retry": 1
     },
     {
      "minute": null,
@@ -441,7 +467,15 @@
      "minute": null,
      "artist": "Anyma & Rebūke",
      "title": "Syren (Amelie Lens Remix)",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "bp": "bp:18841657",
+     "score": 0.868,
+     "preview": "https://geo-samples.beatport.com/track/62904f34-e0ca-4d21-bab6-fef42471e3b3.LOFI.mp3",
+     "name": "Syren",
+     "mix": "Amelie Lens Remix - Extended Mix",
+     "genre": "melodic-house-techno",
+     "released": "2024-03-29",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -469,13 +503,15 @@
      "minute": null,
      "artist": "Modern8 & Alternative Control",
      "title": "Shanti",
-     "label": "Proton"
+     "label": "Proton",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Modern8 & Alternative Control",
      "title": "Infusion",
-     "label": "Dacru"
+     "label": "Dacru",
+     "retry": 1
     },
     {
      "minute": null,
@@ -525,7 +561,8 @@
      "minute": null,
      "artist": "Heavy Hertz",
      "title": "Mr. Aiiiii",
-     "label": "Mindscape"
+     "label": "Mindscape",
+     "retry": 1
     },
     {
      "minute": null,
@@ -583,7 +620,8 @@
      "minute": null,
      "artist": "Kos_Mo",
      "title": "Body Move",
-     "label": "1605"
+     "label": "1605",
+     "retry": 1
     },
     {
      "minute": null,
@@ -602,19 +640,22 @@
      "minute": null,
      "artist": "Kos_Mo",
      "title": "No Sleep",
-     "label": "VOLTA"
+     "label": "VOLTA",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Outsiders, Roger Rabbit",
      "title": "The Gipsy",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Hyriderz",
      "title": "Awakening",
-     "label": "Blue Tunes"
+     "label": "Blue Tunes",
+     "retry": 1
     },
     {
      "minute": null,
@@ -681,7 +722,8 @@
      "minute": null,
      "artist": "Jackob Rocksonn",
      "title": "Invasion",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -696,7 +738,8 @@
      "minute": null,
      "artist": "''Tektrix",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -768,7 +811,8 @@
      "minute": null,
      "artist": "Popof, Skollaris",
      "title": "Launch",
-     "label": "SKRL"
+     "label": "SKRL",
+     "retry": 1
     },
     {
      "minute": null,
@@ -826,7 +870,8 @@
      "minute": null,
      "artist": "PAGANO",
      "title": "Parade",
-     "label": "HILOMATIK"
+     "label": "HILOMATIK",
+     "retry": 1
     },
     {
      "minute": null,
@@ -845,7 +890,8 @@
      "minute": null,
      "artist": "Pleasurekraft, Paula Van Klar",
      "title": "Seduction",
-     "label": "Kraftek"
+     "label": "Kraftek",
+     "retry": 1
     },
     {
      "minute": null,
@@ -864,7 +910,8 @@
      "minute": null,
      "artist": "Lostly",
      "title": "Acid Burn",
-     "label": "Subculture"
+     "label": "Subculture",
+     "retry": 1
     },
     {
      "minute": null,
@@ -883,7 +930,8 @@
      "minute": null,
      "artist": "Nevo",
      "title": "Journey",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "retry": 1
     },
     {
      "minute": null,
@@ -950,13 +998,15 @@
      "minute": null,
      "artist": "Sabretooth",
      "title": "Miasma",
-     "label": "BMSS"
+     "label": "BMSS",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sabretooth",
      "title": "God Speed",
-     "label": "BMSS"
+     "label": "BMSS",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1045,7 +1095,8 @@
      "minute": null,
      "artist": "Diatonik",
      "title": "Chasing Space (Natura Viva In The Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1112,7 +1163,8 @@
      "minute": null,
      "artist": "Kamino",
      "title": "Hustla",
-     "label": "REALM"
+     "label": "REALM",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1140,13 +1192,15 @@
      "minute": null,
      "artist": "ADRIANNA, Lauren Nicole",
      "title": "Ascension",
-     "label": "We Are The Brave"
+     "label": "We Are The Brave",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Teenage Mutants, Kos_Mo",
      "title": "Caught Up",
-     "label": "TRAGEDIE"
+     "label": "TRAGEDIE",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1178,7 +1232,8 @@
      "minute": null,
      "artist": "Perpetual Universe",
      "title": "Down Low",
-     "label": "IbogaTech"
+     "label": "IbogaTech",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1197,19 +1252,22 @@
      "minute": null,
      "artist": "''Fala",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Dark Heart Feat. Amarha Truesoul",
      "title": "XYZ",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Fala",
      "title": "Go Well",
-     "label": "Pharmacy"
+     "label": "Pharmacy",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1224,7 +1282,8 @@
      "minute": null,
      "artist": "''Fala",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1243,7 +1302,8 @@
      "minute": null,
      "artist": "''Fala",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1262,7 +1322,8 @@
      "minute": null,
      "artist": "Fala",
      "title": "En Mis Sueños",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1294,13 +1355,15 @@
      "minute": null,
      "artist": "''Fala",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Fala",
      "title": "Ecos De La Noche",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -1311,7 +1374,8 @@
      "minute": null,
      "artist": "Maezbi, Nicolas Viana",
      "title": "Smooth",
-     "label": "Plattenbank"
+     "label": "Plattenbank",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1356,7 +1420,8 @@
      "minute": null,
      "artist": "Gaga, Mateo!",
      "title": "Faith",
-     "label": "SOLID"
+     "label": "SOLID",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1388,7 +1453,8 @@
      "minute": null,
      "artist": "Innervoix",
      "title": "The Night",
-     "label": "NoLimit"
+     "label": "NoLimit",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1407,13 +1473,15 @@
      "minute": null,
      "artist": "Oscar L",
      "title": "Desire",
-     "label": "Memoro"
+     "label": "Memoro",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "ADRIANNA",
      "title": "All Night",
-     "label": "Gain"
+     "label": "Gain",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1476,7 +1544,8 @@
      "minute": null,
      "artist": "Viapo, KODA",
      "title": "No Space",
-     "label": "SUBIOS"
+     "label": "SUBIOS",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1495,7 +1564,8 @@
      "minute": null,
      "artist": "Viapo",
      "title": "Gone Now",
-     "label": "PADANG"
+     "label": "PADANG",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1588,7 +1658,8 @@
      "minute": null,
      "artist": "Viapo",
      "title": "Why Not",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1607,7 +1678,8 @@
      "minute": null,
      "artist": "Viapo",
      "title": "Last Minute",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -1618,7 +1690,8 @@
      "minute": null,
      "artist": "Blancah, Ed Lopes",
      "title": "Divano",
-     "label": "Hiato"
+     "label": "Hiato",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1633,13 +1706,15 @@
      "minute": null,
      "artist": "Sabura, Clap Codex",
      "title": "Waagenbau",
-     "label": "Alaula"
+     "label": "Alaula",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Bruno (HU)",
      "title": "Vibe",
-     "label": "Music4Aliens"
+     "label": "Music4Aliens",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1684,7 +1759,8 @@
      "minute": null,
      "artist": "Anatidae",
      "title": "Siren",
-     "label": "AlpaKa MuziK"
+     "label": "AlpaKa MuziK",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1738,7 +1814,8 @@
      "minute": null,
      "artist": "Protonica, Zen Mechanics",
      "title": "Flowstate",
-     "label": "Iboga"
+     "label": "Iboga",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1770,7 +1847,8 @@
      "minute": null,
      "artist": "Formula None & Khromata",
      "title": "Gold Rush",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1841,19 +1919,22 @@
      "minute": null,
      "artist": "Formula None",
      "title": "Oracle",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Formula None",
      "title": "Vox",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "''Formula None",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -1877,19 +1958,22 @@
      "minute": null,
      "artist": "Deadmau5",
      "title": "8ths",
-     "label": "Mau5trap"
+     "label": "Mau5trap",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "RadLez",
      "title": "Awakening",
-     "label": "IbogaTech"
+     "label": "IbogaTech",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Fab Massimo",
      "title": "Join Me",
-     "label": "KOSMOS"
+     "label": "KOSMOS",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1908,13 +1992,15 @@
      "minute": null,
      "artist": "Werner B., Earl Grau",
      "title": "Interview",
-     "label": "Vision Serpent"
+     "label": "Vision Serpent",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sabura",
      "title": "Fukushima",
-     "label": "INVICTA"
+     "label": "INVICTA",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1933,7 +2019,8 @@
      "minute": null,
      "artist": "Beico",
      "title": "Lune",
-     "label": "Spannung"
+     "label": "Spannung",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2113,13 +2200,15 @@
      "minute": null,
      "artist": "Haldolium",
      "title": "Time",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Haldolium Feat. Xenia Beliayeva",
      "title": "Alexander",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2143,7 +2232,8 @@
      "minute": null,
      "artist": "Fala",
      "title": "You",
-     "label": "Pharmacy Plus"
+     "label": "Pharmacy Plus",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2162,13 +2252,15 @@
      "minute": null,
      "artist": "Kiko",
      "title": "Bak Bak",
-     "label": "Siona"
+     "label": "Siona",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Carbon",
      "title": "Surface",
-     "label": "Alula Tunes"
+     "label": "Alula Tunes",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2196,7 +2288,8 @@
      "minute": null,
      "artist": "Bruno (HU)",
      "title": "Voyager",
-     "label": "Bully Beatz"
+     "label": "Bully Beatz",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2215,7 +2308,8 @@
      "minute": null,
      "artist": "Basil OGlue",
      "title": "Takeover",
-     "label": "JOOF"
+     "label": "JOOF",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2273,7 +2367,8 @@
      "minute": null,
      "artist": "JAVIIS",
      "title": "Nightmare",
-     "label": "Digital Diamonds"
+     "label": "Digital Diamonds",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2305,13 +2400,15 @@
      "minute": null,
      "artist": "Giraffe",
      "title": "Reason",
-     "label": "Alpaka Muzik"
+     "label": "Alpaka Muzik",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Greenwolve, Unknown Concept",
      "title": "Way On",
-     "label": "Alpaka Muzik"
+     "label": "Alpaka Muzik",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2330,7 +2427,8 @@
      "minute": null,
      "artist": "Lampé",
      "title": "Darklight",
-     "label": "Alula Tunes"
+     "label": "Alula Tunes",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2349,7 +2447,8 @@
      "minute": null,
      "artist": "Lampé",
      "title": "Moods & Sounds",
-     "label": "Alula Tunes"
+     "label": "Alula Tunes",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2394,13 +2493,15 @@
      "minute": null,
      "artist": "Bendtsen",
      "title": "Energy",
-     "label": "Shadow Wulf"
+     "label": "Shadow Wulf",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Suspect One",
      "title": "Meditate",
-     "label": "AlpaKa MuziK"
+     "label": "AlpaKa MuziK",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2419,7 +2520,8 @@
      "minute": null,
      "artist": "Miles From Mars",
      "title": "Sicka",
-     "label": "AlpaKa MuziK"
+     "label": "AlpaKa MuziK",
+     "retry": 1
     }
    ]
   },
@@ -2456,7 +2558,8 @@
      "minute": null,
      "artist": "Ed Lopes",
      "title": "Motion (1A)",
-     "label": "128"
+     "label": "128",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2475,31 +2578,36 @@
      "minute": null,
      "artist": "TiM TASTE",
      "title": "Nightform",
-     "label": "Shadow Wulf"
+     "label": "Shadow Wulf",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sabura",
      "title": "Pulsus",
-     "label": "INVICTA"
+     "label": "INVICTA",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Phoenix Movement",
      "title": "Drift",
-     "label": "Enter"
+     "label": "Enter",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Roman Adam",
      "title": "Voices",
-     "label": "Alula Tunes"
+     "label": "Alula Tunes",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "HNGT_Gabriel_Moraes",
      "title": "High_Frequency",
-     "label": "IbogaTech"
+     "label": "IbogaTech",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2518,7 +2626,8 @@
      "minute": null,
      "artist": "HNGT_Gabriel_Moraes",
      "title": "Inside_My_Head",
-     "label": "IbogaTech"
+     "label": "IbogaTech",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2550,7 +2659,8 @@
      "minute": null,
      "artist": "Satura & Futura",
      "title": "Andagora",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2569,19 +2679,22 @@
      "minute": null,
      "artist": "Phanatic",
      "title": "Techno Park (Satura vs Futura Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Satura",
      "title": "Shiva",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Futura",
      "title": "Duality (Satura vs Beat Controllers Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2600,25 +2713,29 @@
      "minute": null,
      "artist": "Sactic & Futura aka Satura",
      "title": "Outside My Mind",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ziki vs Ananda Shake",
      "title": "Independance (Futura Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Intersys",
      "title": "Earthquake (Satura vs Beat Controllers Remake)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Super8 & Tab",
      "title": "Empire (Satura Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -2655,7 +2772,8 @@
      "minute": null,
      "artist": "Ed Lopes",
      "title": "Transformers",
-     "label": "Ibogatech"
+     "label": "Ibogatech",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2735,7 +2853,8 @@
      "minute": null,
      "artist": "Ritmo, Antinomy",
      "title": "Coconut",
-     "label": "Iboga"
+     "label": "Iboga",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2754,7 +2873,8 @@
      "minute": null,
      "artist": "Pixel, Squid, Attalef",
      "title": "Anana Vak",
-     "label": "Iboga"
+     "label": "Iboga",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2838,7 +2958,8 @@
      "minute": null,
      "artist": "Extrawelt",
      "title": "Mindwear",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2940,7 +3061,8 @@
      "minute": null,
      "artist": "Boundless, Luis M",
      "title": "Voices",
-     "label": "IbogaTech"
+     "label": "IbogaTech",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2959,7 +3081,8 @@
      "minute": null,
      "artist": "The YellowHeads",
      "title": "Fireline",
-     "label": "Replicate"
+     "label": "Replicate",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2991,7 +3114,8 @@
      "minute": null,
      "artist": "PAPI JOE",
      "title": "For You",
-     "label": "Set About Music"
+     "label": "Set About Music",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3023,13 +3147,15 @@
      "minute": null,
      "artist": "No Comment",
      "title": "Body ROX!!",
-     "label": "ZooZ"
+     "label": "ZooZ",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Mindbenderz",
      "title": "Paradox",
-     "label": "Iono"
+     "label": "Iono",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3048,7 +3174,8 @@
      "minute": null,
      "artist": "GMS, Avalon",
      "title": "Machines",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "retry": 1
     }
    ]
   },
@@ -3085,13 +3212,15 @@
      "minute": null,
      "artist": "Tippstrip",
      "title": "Encounter",
-     "label": "Techgnosis"
+     "label": "Techgnosis",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Dosem",
      "title": "Momental",
-     "label": "Houstrike"
+     "label": "Houstrike",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3110,7 +3239,8 @@
      "minute": null,
      "artist": "Eremitage",
      "title": "Fly Away",
-     "label": "Soupherb"
+     "label": "Soupherb",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3190,7 +3320,8 @@
      "minute": null,
      "artist": "Animato & Tamar Reili",
      "title": "Maisamma",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3222,13 +3353,15 @@
      "minute": null,
      "artist": "Monococ",
      "title": "Pressure",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Monococ",
      "title": "1984",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3286,7 +3419,8 @@
      "minute": null,
      "artist": "Monococ",
      "title": "Eternity",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3318,7 +3452,8 @@
      "minute": null,
      "artist": "Monococ",
      "title": "Symmerty",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3368,19 +3503,22 @@
      "minute": null,
      "artist": "Losless",
      "title": "OOMM",
-     "label": "Belonging"
+     "label": "Belonging",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Viapo, James Wesson",
      "title": "Emergency",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Viapo, Vietzen",
      "title": "Renegade",
-     "label": "Subios"
+     "label": "Subios",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3408,7 +3546,8 @@
      "minute": null,
      "artist": "Riya, E-Clip",
      "title": "Addicted",
-     "label": "SOA Tech"
+     "label": "SOA Tech",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3466,7 +3605,8 @@
      "minute": null,
      "artist": "Hyriderz",
      "title": "Supernova",
-     "label": "Iono"
+     "label": "Iono",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3498,19 +3638,22 @@
      "minute": null,
      "artist": "Jack In The Box & LUM1NA",
      "title": "Roller",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "GMS",
      "title": "Rounders (Jack In The Box Remix)",
-     "label": "Stereo Society"
+     "label": "Stereo Society",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "4i20 & Aximetrik",
      "title": "Nerdy",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3529,31 +3672,36 @@
      "minute": null,
      "artist": "Cosmic Energy",
      "title": "9999",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "''Mandragora & Jack In The Box",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Jack In The Box",
      "title": "La Grifa",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Jack In The Box",
      "title": "Yapa Yapa",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "GMS",
      "title": "Boom Shankar (Mandragora & Jack In The Box Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3616,7 +3764,8 @@
      "minute": null,
      "artist": "Victor Ruiz, Alex Stein",
      "title": "Overload",
-     "label": "VOLTA"
+     "label": "VOLTA",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3683,7 +3832,8 @@
      "minute": null,
      "artist": "Lautaro Ibañez, Sophie Van Hayden",
      "title": "Body Code",
-     "label": "Set About Music"
+     "label": "Set About Music",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3741,7 +3891,8 @@
      "minute": null,
      "artist": "Rename Yourself",
      "title": "Rush",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3808,7 +3959,8 @@
      "minute": null,
      "artist": "Kayzen",
      "title": "Mental Escape (Bora Project Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3836,7 +3988,8 @@
      "minute": null,
      "artist": "Bruno",
      "title": "Oxigen",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3886,7 +4039,8 @@
      "minute": null,
      "artist": "Losless",
      "title": "Fastlane",
-     "label": "Radikon"
+     "label": "Radikon",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3918,7 +4072,8 @@
      "minute": null,
      "artist": "Giraffe",
      "title": "Do It!",
-     "label": "AlpaKa MuziK"
+     "label": "AlpaKa MuziK",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4041,7 +4196,8 @@
      "minute": null,
      "artist": "John 00 Fleming",
      "title": "The Beast",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4073,13 +4229,15 @@
      "minute": null,
      "artist": "John 00 Fleming",
      "title": "Trancepotation",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "John 00 Fleming & Calantha",
      "title": "Evolution",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4207,7 +4365,8 @@
      "minute": null,
      "artist": "Roman Adam",
      "title": "Batmon",
-     "label": "Alula Tunes"
+     "label": "Alula Tunes",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4278,7 +4437,8 @@
      "minute": null,
      "artist": ";Metodi = [[2026-04-18",
      "title": "METODI @ Clwd, Sofia, Bulgaria]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -4350,7 +4510,8 @@
      "minute": null,
      "artist": "Viapo, James Wesson",
      "title": "Purple Lemonade",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4430,7 +4591,8 @@
      "minute": null,
      "artist": "Milio Ruando, Bouras",
      "title": "Prophecy",
-     "label": "TAKEOFF"
+     "label": "TAKEOFF",
+     "retry": 1
     }
    ]
   },
@@ -4441,13 +4603,15 @@
      "minute": null,
      "artist": "AIKON",
      "title": "Raw",
-     "label": "UNTAMED"
+     "label": "UNTAMED",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Chris Avantgarde",
      "title": "Origin",
-     "label": "Hyperreal"
+     "label": "Hyperreal",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4553,13 +4717,15 @@
      "minute": null,
      "artist": "Marco V",
      "title": "Teaser (In Charge)",
-     "label": "Be Yourself Music"
+     "label": "Be Yourself Music",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Atmos",
      "title": "Staven",
-     "label": "Iboga"
+     "label": "Iboga",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4578,7 +4744,8 @@
      "minute": null,
      "artist": "Atmos",
      "title": "Everglade",
-     "label": "Iboga"
+     "label": "Iboga",
+     "retry": 1
     }
    ]
   },
@@ -4602,7 +4769,8 @@
      "minute": null,
      "artist": "GUYCO",
      "title": "Some Eco",
-     "label": "Polarity Underground"
+     "label": "Polarity Underground",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4621,7 +4789,8 @@
      "minute": null,
      "artist": "Carbon",
      "title": "Heat",
-     "label": "PLAY IT"
+     "label": "PLAY IT",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4640,7 +4809,8 @@
      "minute": null,
      "artist": "ORISS",
      "title": "Andeeper",
-     "label": "Astral"
+     "label": "Astral",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4685,7 +4855,8 @@
      "minute": null,
      "artist": "Devid Dega",
      "title": "Break",
-     "label": "Terminal M"
+     "label": "Terminal M",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4795,7 +4966,8 @@
      "minute": null,
      "artist": "Rad.Lez",
      "title": "Kraken",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4827,7 +4999,8 @@
      "minute": null,
      "artist": "Nilsix & Adara",
      "title": "Falls Apart (Fallen Angel Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4911,7 +5084,8 @@
      "minute": null,
      "artist": "Spiral Of Change",
      "title": "Arhetip",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   }

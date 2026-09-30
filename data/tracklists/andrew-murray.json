@@ -61,55 +61,64 @@
      "minute": null,
      "artist": "Sebastien Silva",
      "title": "Rosso",
-     "label": "Pattern"
+     "label": "Pattern",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Dallerium",
      "title": "Sirens",
-     "label": "Selected."
+     "label": "Selected.",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "AGAP",
      "title": "Presence",
-     "label": "Eye And Eye"
+     "label": "Eye And Eye",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Bolth",
      "title": "Chatoyant",
-     "label": "Theory X"
+     "label": "Theory X",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Stereo Mind",
      "title": "Wake Up",
-     "label": "Stripped Digital"
+     "label": "Stripped Digital",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Emanuel Satie",
      "title": "Sleepless",
-     "label": "Scenarios"
+     "label": "Scenarios",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Artifex Mundi",
      "title": "My Mind",
-     "label": "Frequenza"
+     "label": "Frequenza",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "PARAFRAME",
      "title": "Move",
-     "label": "Black Hole Recordings"
+     "label": "Black Hole Recordings",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Vanders",
      "title": "Vital",
-     "label": "Murray Records"
+     "label": "Murray Records",
+     "retry": 1
     },
     {
      "minute": null,
@@ -198,7 +207,8 @@
      "minute": null,
      "artist": "longstoryshort & Hadar Adora",
      "title": "2 High",
-     "label": "Lost In Dreams"
+     "label": "Lost In Dreams",
+     "retry": 1
     },
     {
      "minute": null,
@@ -256,13 +266,15 @@
      "minute": null,
      "artist": "Discognition",
      "title": "All of Me",
-     "label": "Enormous Chills"
+     "label": "Enormous Chills",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Vanders",
      "title": "Reflection",
-     "label": "Murray Records"
+     "label": "Murray Records",
+     "retry": 1
     },
     {
      "minute": null,
@@ -281,7 +293,8 @@
      "minute": null,
      "artist": "Elle Jae",
      "title": "Home",
-     "label": "Sekora"
+     "label": "Sekora",
+     "retry": 1
     }
    ]
   },
@@ -292,7 +305,8 @@
      "minute": null,
      "artist": "Jordan John",
      "title": "Luna",
-     "label": "Sudam Recordings"
+     "label": "Sudam Recordings",
+     "retry": 1
     },
     {
      "minute": null,
@@ -337,7 +351,8 @@
      "minute": null,
      "artist": "Celso Fabbri & Apple Gule",
      "title": "Break",
-     "label": "Sondela Recordings Ltd"
+     "label": "Sondela Recordings Ltd",
+     "retry": 1
     },
     {
      "minute": null,
@@ -356,13 +371,15 @@
      "minute": null,
      "artist": "Skelm & Casis",
      "title": "Isizwe",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Backeer & Elline",
      "title": "On Repeat",
-     "label": "Exx Muzik"
+     "label": "Exx Muzik",
+     "retry": 1
     },
     {
      "minute": null,
@@ -381,7 +398,8 @@
      "minute": null,
      "artist": "Toprak Baris",
      "title": "Dalamayè",
-     "label": "SwitchLab"
+     "label": "SwitchLab",
+     "retry": 1
     },
     {
      "minute": null,
@@ -426,7 +444,8 @@
      "minute": null,
      "artist": "Idd Aziz & Afro Exotiq & Sureno Beatzz",
      "title": "Mwengowa",
-     "label": "Guettoz Muzik"
+     "label": "Guettoz Muzik",
+     "retry": 1
     }
    ]
   },
@@ -450,7 +469,8 @@
      "minute": null,
      "artist": "Nihil Young",
      "title": "Oxygen",
-     "label": "Pattern"
+     "label": "Pattern",
+     "retry": 1
     },
     {
      "minute": null,
@@ -521,13 +541,15 @@
      "minute": null,
      "artist": "Joël Fabrice",
      "title": "Silence",
-     "label": "PinkStar Black"
+     "label": "PinkStar Black",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Aikon",
      "title": "Reality",
-     "label": "Monaberry"
+     "label": "Monaberry",
+     "retry": 1
     },
     {
      "minute": null,
@@ -559,7 +581,8 @@
      "minute": null,
      "artist": "Theologos",
      "title": "Touch It",
-     "label": "Acrylic On Canvas"
+     "label": "Acrylic On Canvas",
+     "retry": 1
     },
     {
      "minute": null,
@@ -609,25 +632,29 @@
      "minute": null,
      "artist": "Elle Jae",
      "title": "Moonracer",
-     "label": "OHM Deep State"
+     "label": "OHM Deep State",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Kallau",
      "title": "Mirage",
-     "label": "Panda Lab Records"
+     "label": "Panda Lab Records",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Abballe",
      "title": "Reconnect",
-     "label": "Enormous Vision"
+     "label": "Enormous Vision",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Another Life",
      "title": "On My Cloud",
-     "label": "Odd One Out"
+     "label": "Odd One Out",
+     "retry": 1
     },
     {
      "minute": null,
@@ -672,7 +699,8 @@
      "minute": null,
      "artist": "Xinobi & Awen",
      "title": "The Veil",
-     "label": "Cercle Records"
+     "label": "Cercle Records",
+     "retry": 1
     },
     {
      "minute": null,
@@ -704,7 +732,8 @@
      "minute": null,
      "artist": "maXure & ARIV3",
      "title": "Oracle",
-     "label": "Enormous Chills"
+     "label": "Enormous Chills",
+     "retry": 1
     },
     {
      "minute": null,
@@ -723,7 +752,8 @@
      "minute": null,
      "artist": "Mike Saint-Jules & Apollo Nash",
      "title": "Afterburn",
-     "label": "Enhanced Progressive"
+     "label": "Enhanced Progressive",
+     "retry": 1
     }
    ]
   },
@@ -734,7 +764,8 @@
      "minute": null,
      "artist": "Mees Salomé, ALLKNIGHT",
      "title": "All Of You",
-     "label": "This Never Happened"
+     "label": "This Never Happened",
+     "retry": 1
     },
     {
      "minute": null,
@@ -753,7 +784,8 @@
      "minute": null,
      "artist": "Nora En Pure",
      "title": "Freyja",
-     "label": "Enormous Tunes"
+     "label": "Enormous Tunes",
+     "retry": 1
     },
     {
      "minute": null,
@@ -807,7 +839,8 @@
      "minute": null,
      "artist": "Vintage & Morelli , Hyperbits",
      "title": "Noire",
-     "label": "Enhanced Recordings"
+     "label": "Enhanced Recordings",
+     "retry": 1
     },
     {
      "minute": null,
@@ -826,13 +859,15 @@
      "minute": null,
      "artist": "Carlos Bacchüs",
      "title": "Olympus Mons",
-     "label": "Dragon Records"
+     "label": "Dragon Records",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Nihil Young, Adam Nazar",
      "title": "Pardes",
-     "label": "UV Noir"
+     "label": "UV Noir",
+     "retry": 1
     },
     {
      "minute": null,
@@ -851,7 +886,8 @@
      "minute": null,
      "artist": "Bowers & Bidwell",
      "title": "Falling",
-     "label": "Enhanced Progressive"
+     "label": "Enhanced Progressive",
+     "retry": 1
     },
     {
      "minute": null,
@@ -875,7 +911,8 @@
      "minute": null,
      "artist": "Kalitos",
      "title": "Exchange",
-     "label": "Rebellion der Traumer"
+     "label": "Rebellion der Traumer",
+     "retry": 1
     },
     {
      "minute": null,
@@ -894,7 +931,8 @@
      "minute": null,
      "artist": "Sam Rose & WNSTN",
      "title": "Far Away",
-     "label": "Sekora"
+     "label": "Sekora",
+     "retry": 1
     },
     {
      "minute": null,
@@ -926,13 +964,15 @@
      "minute": null,
      "artist": "AFK (LB) & Patt (LB)",
      "title": "Departure",
-     "label": "BeatFreak Recordings"
+     "label": "BeatFreak Recordings",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ryan Hill",
      "title": "Etosha",
-     "label": "KATERMUKKE"
+     "label": "KATERMUKKE",
+     "retry": 1
     },
     {
      "minute": null,
@@ -977,7 +1017,8 @@
      "minute": null,
      "artist": "DeRon",
      "title": "The Observer",
-     "label": "Exx Muzik"
+     "label": "Exx Muzik",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1066,7 +1107,8 @@
      "minute": 13,
      "artist": "Blue Method",
      "title": "Tied Up",
-     "label": "Not Sorry"
+     "label": "Not Sorry",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -1098,7 +1140,8 @@
      "minute": 26,
      "artist": "Seelo & Olive B",
      "title": "Moment",
-     "label": "Enhanced"
+     "label": "Enhanced",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1117,7 +1160,8 @@
      "minute": null,
      "artist": "Synthea",
      "title": "Paradise",
-     "label": "Enormous Chills"
+     "label": "Enormous Chills",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -1175,7 +1219,8 @@
      "minute": null,
      "artist": "Heard Right & CEAUS",
      "title": "Nova",
-     "label": "Purified"
+     "label": "Purified",
+     "retry": 1
     }
    ]
   },
@@ -1186,13 +1231,15 @@
      "minute": null,
      "artist": "Verbala",
      "title": "Alive",
-     "label": "Enormous Vision"
+     "label": "Enormous Vision",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Exstra",
      "title": "Zamora",
-     "label": "Enormous Chills"
+     "label": "Enormous Chills",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1250,7 +1297,8 @@
      "minute": null,
      "artist": "Sirolf",
      "title": "Nobody",
-     "label": "Zerothree"
+     "label": "Zerothree",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1282,7 +1330,8 @@
      "minute": null,
      "artist": "Amadori",
      "title": "Hey There",
-     "label": "Rebellion der Traumer"
+     "label": "Rebellion der Traumer",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1301,13 +1350,15 @@
      "minute": null,
      "artist": "Klur",
      "title": "Eclipse",
-     "label": "Colorize"
+     "label": "Colorize",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Reuxen & Karaph",
      "title": "Run",
-     "label": "Not Sorry"
+     "label": "Not Sorry",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1378,7 +1429,8 @@
      "minute": null,
      "artist": "Tim Engelhardt & Maga",
      "title": "Around",
-     "label": "Scenarios"
+     "label": "Scenarios",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1410,19 +1462,22 @@
      "minute": null,
      "artist": "Blake Walker MTL & Ursarix",
      "title": "Aion",
-     "label": "Vandit Alternative"
+     "label": "Vandit Alternative",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Funkin Matt",
      "title": "Entropy",
-     "label": "HEXAGON"
+     "label": "HEXAGON",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ten Years From Now",
      "title": "Symphonie",
-     "label": "Sirup Music"
+     "label": "Sirup Music",
+     "retry": 1
     }
    ]
   },
@@ -1433,7 +1488,8 @@
      "minute": null,
      "artist": "Tojolin",
      "title": "Hold You",
-     "label": "Sirup Music"
+     "label": "Sirup Music",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1452,49 +1508,57 @@
      "minute": null,
      "artist": "Andeon",
      "title": "Window",
-     "label": "Good Karma"
+     "label": "Good Karma",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Son of Dennis",
      "title": "Sivle",
-     "label": "Not Sorry"
+     "label": "Not Sorry",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "kasby & cr3sh & KEELA",
      "title": "Why",
-     "label": "bitbird"
+     "label": "bitbird",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Run Rivers & Different Stage",
      "title": "The Sky",
-     "label": "Enhanced Recordings"
+     "label": "Enhanced Recordings",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "CANDICE",
      "title": "KAMANA",
-     "label": "Enormous Vision"
+     "label": "Enormous Vision",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Yotto & AVIRA & ALSO ASTIR",
      "title": "Forget",
-     "label": "Odd One Out"
+     "label": "Odd One Out",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ape Drums & Clementine Douglas",
      "title": "Nobody Knows",
-     "label": "Selected."
+     "label": "Selected.",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "IDQ",
      "title": "Madeira",
-     "label": "LUSH SUNDAY"
+     "label": "LUSH SUNDAY",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1513,13 +1577,15 @@
      "minute": null,
      "artist": "Larion & Reuxen & Sofiya Nzau",
      "title": "Niuka!",
-     "label": "Kazukuta Records"
+     "label": "Kazukuta Records",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sons Of Maria",
      "title": "Yango Yee",
-     "label": "Enormous Chills"
+     "label": "Enormous Chills",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1595,7 +1661,8 @@
      "minute": null,
      "artist": "CLAVIR",
      "title": "Phantom",
-     "label": "Pattern"
+     "label": "Pattern",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1614,7 +1681,8 @@
      "minute": null,
      "artist": "Mpho.Wav & Maline Aura",
      "title": "iThemba",
-     "label": "Universal Music"
+     "label": "Universal Music",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1633,25 +1701,29 @@
      "minute": null,
      "artist": "Maxim Lany & Cartouche & Matt Fax",
      "title": "Why Do I",
-     "label": "Armada Music"
+     "label": "Armada Music",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Gumz &&#160;Tabia",
      "title": "Izolo",
-     "label": "Gumz Muzic"
+     "label": "Gumz Muzic",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Starving Yet Full & MP3 (DE)",
      "title": "Komeza",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Guy Didden &&#160;Mats Westbroek",
      "title": "Lifecycle",
-     "label": "Sekora"
+     "label": "Sekora",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1670,7 +1742,8 @@
      "minute": null,
      "artist": "Nathan C &&#160;Lilly Ahlberg",
      "title": "Body",
-     "label": "Selected"
+     "label": "Selected",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1694,13 +1767,15 @@
      "minute": null,
      "artist": "Stephan Jolk",
      "title": "Desire",
-     "label": "Watergate Records"
+     "label": "Watergate Records",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Funky M",
      "title": "Option",
-     "label": "Enormous Chills"
+     "label": "Enormous Chills",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1719,19 +1794,22 @@
      "minute": null,
      "artist": "Francis Mercier &&#160;Boukman Eksperyans",
      "title": "Imamou",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Passenger 10",
      "title": "Barcelona",
-     "label": "Enormous Tunes"
+     "label": "Enormous Tunes",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Banaati & L.GU.",
      "title": "Fade Away",
-     "label": "Colorize"
+     "label": "Colorize",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1763,13 +1841,15 @@
      "minute": null,
      "artist": "Joachim Pastor &&#160;Florence Bird",
      "title": "Blank Page",
-     "label": "Armada Music"
+     "label": "Armada Music",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Miishu & Nyadollar &&#160;Nyamal Nyang&#160;",
      "title": "Cheza",
-     "label": "MoBlack Records"
+     "label": "MoBlack Records",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1801,7 +1881,8 @@
      "minute": null,
      "artist": "Julius Beat &&#160;SinDj",
      "title": "Elude",
-     "label": "Dragon Records"
+     "label": "Dragon Records",
+     "retry": 1
     },
     {
      "minute": null,

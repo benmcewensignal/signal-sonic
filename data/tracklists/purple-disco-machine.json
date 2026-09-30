@@ -771,7 +771,8 @@
      "minute": 25,
      "artist": "James Hype Feat. Sam Harper & Bobby Harvey",
      "title": "Waterfalls (NASH Remix)",
-     "label": "Island"
+     "label": "Island",
+     "retry": 1
     },
     {
      "minute": 28,
@@ -1834,7 +1835,8 @@
      "minute": 58,
      "artist": "Luvstruck",
      "title": "Walking With Elephants (Extended Mix)",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "retry": 1
     },
     {
      "minute": null,

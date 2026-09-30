@@ -9,7 +9,8 @@
      "minute": null,
      "artist": "Alpha Tracks",
      "title": "August 03",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -141,13 +142,15 @@
      "minute": null,
      "artist": "Marilao",
      "title": "Aszharas Calling",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Gaston Fiore",
      "title": "Baby UwU",
-     "label": "Dripping Traxx"
+     "label": "Dripping Traxx",
+     "retry": 1
     }
    ]
   },
@@ -162,7 +165,8 @@
      "minute": 0,
      "artist": "Charlotte de Witte",
      "title": "Overdrive (Intro Mix)",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "retry": 1
     },
     {
      "minute": 2,
@@ -173,13 +177,15 @@
      "minute": 7,
      "artist": "Kos:mo",
      "title": "The Tribe",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 10,
      "artist": "Charlotte de Witte",
      "title": "Sanctrum",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 14,
@@ -207,7 +213,8 @@
      "minute": 24,
      "artist": "AKKI",
      "title": "Olympus",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 28,
@@ -226,7 +233,8 @@
      "minute": 34,
      "artist": "Olive",
      "title": "You're Not Alone (N.O.B.A 2024 Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 39,
@@ -245,7 +253,8 @@
      "minute": 43,
      "artist": "''Balthazar & JackRock",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -261,7 +270,8 @@
      "minute": 55,
      "artist": "Afem Syko",
      "title": "Slingshot",
-     "label": "EXHALE"
+     "label": "EXHALE",
+     "retry": 1
     },
     {
      "minute": 58,
@@ -272,7 +282,8 @@
      "minute": 62,
      "artist": "''Acid Asian",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -310,7 +321,8 @@
      "minute": 5,
      "artist": "Charlotte de Witte",
      "title": "Another Place (Acid Version)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -373,7 +385,8 @@
      "minute": 13,
      "artist": "Charlotte de Witte",
      "title": "Red Angle",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -460,7 +473,8 @@
      "minute": 31,
      "artist": "Relativ",
      "title": "Balkanika",
-     "label": "Digital Om"
+     "label": "Digital Om",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -528,7 +542,8 @@
      "minute": 10,
      "artist": "Charlotte de Witte & One Track Brain",
      "title": "Another Place (2025 Acid Mix)",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -543,7 +558,8 @@
      "minute": 20,
      "artist": "''Balthazar & JackRock",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 24,
@@ -773,7 +789,8 @@
      "minute": 24,
      "artist": "''Charlotte de Witte & Theo Nasa",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -810,13 +827,15 @@
      "minute": 43,
      "artist": "Avalon & GMS",
      "title": "Horizen",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "retry": 1
     },
     {
      "minute": 48,
      "artist": "BEAUZ",
      "title": "Ocho (BEAUZ & KEVU VIP)",
-     "label": "Baddie Up"
+     "label": "Baddie Up",
+     "retry": 1
     },
     {
      "minute": 49,
@@ -928,7 +947,8 @@
      "minute": 27,
      "artist": "''Charlotte de Witte",
      "title": "?''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 31,
@@ -960,13 +980,15 @@
      "minute": 40,
      "artist": "Charlotte de Witte",
      "title": "Become",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "retry": 1
     },
     {
      "minute": 46,
      "artist": "Yotam Avni",
      "title": "System V1",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 49,
@@ -1026,7 +1048,8 @@
      "minute": 75,
      "artist": "''Charlotte de Witte & Theo Nasa",
      "title": "?''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 80,
@@ -1054,13 +1077,15 @@
      "minute": 89,
      "artist": "''Charlotte de Witte",
      "title": "?''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 94,
      "artist": "Balthazar & JackRock",
      "title": "Acid Kiss",
-     "label": "Filth On Acid"
+     "label": "Filth On Acid",
+     "retry": 1
     },
     {
      "minute": 99,
@@ -1291,7 +1316,8 @@
      "minute": 69,
      "artist": "GALLØ",
      "title": "Kiss My Body",
-     "label": "Unfaced"
+     "label": "Unfaced",
+     "retry": 1
     }
    ]
   },
@@ -1346,7 +1372,8 @@
      "minute": 22,
      "artist": "Charlotte de Witte & Theo Nasa",
      "title": "The Resistance",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -1370,7 +1397,8 @@
      "minute": 34,
      "artist": "Bl4ck Hole & Invader Space",
      "title": "Ragga Man (Burn In Noise & Becker Remix)",
-     "label": "Ubuntu Psy"
+     "label": "Ubuntu Psy",
+     "retry": 1
     },
     {
      "minute": 39,

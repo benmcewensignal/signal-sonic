@@ -462,7 +462,8 @@
      "minute": 42,
      "artist": "Leod",
      "title": "Untitled 02",
-     "label": "Full Pelt"
+     "label": "Full Pelt",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -1423,7 +1424,8 @@
      "minute": 73,
      "artist": "Wen",
      "title": "Shoulder 2 Shoulder",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 76,
@@ -2011,7 +2013,8 @@
      "minute": 8,
      "artist": "Djum",
      "title": "St Martins",
-     "label": "On The Edge"
+     "label": "On The Edge",
+     "retry": 1
     },
     {
      "minute": 12,

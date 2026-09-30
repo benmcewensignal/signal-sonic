@@ -838,7 +838,8 @@
      "minute": 9,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (FISHER Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": 12,
@@ -1079,7 +1080,8 @@
      "minute": 28,
      "artist": "TouchTalk",
      "title": "Change It (Westend Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 31,
@@ -1211,7 +1213,8 @@
      "minute": 0,
      "artist": "TouchTalk",
      "title": "Change It (Westend Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 4,

@@ -9,7 +9,8 @@
      "minute": null,
      "artist": "Bassbin Twins",
      "title": "Between The Fro",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -93,7 +94,8 @@
      "minute": null,
      "artist": "Fold",
      "title": "Bottomless Brunch",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -112,7 +114,8 @@
      "minute": null,
      "artist": "WOST",
      "title": "Azaroso",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -131,19 +134,22 @@
      "minute": null,
      "artist": "DJ Louis Love",
      "title": "Rockin' Down The House (Greedy All Stars)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "INSTINCT",
      "title": "Skat 01",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "''Conducta",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -162,13 +168,15 @@
      "minute": null,
      "artist": "''Conducta & Dismantle",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "''Y U QT",
      "title": "Y'all Ready For Dis (ID Remix)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -187,19 +195,22 @@
      "minute": null,
      "artist": "Dance Maniacs",
      "title": "Bounce",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Skepta",
      "title": "Gas Me Up (Diligent) (Conducta Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "DJ Swisha & OSSX",
      "title": "Bone App The Teeth",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -241,7 +252,8 @@
      "minute": 12,
      "artist": "Felipe Gordon",
      "title": "Jambalaya",
-     "label": "Forbidden Cuts"
+     "label": "Forbidden Cuts",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -278,25 +290,29 @@
      "minute": 27,
      "artist": "Moodymann",
      "title": "M Traxx",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 31,
      "artist": "Mr. Ho",
      "title": "In-Best",
-     "label": "Klasse Wrecks"
+     "label": "Klasse Wrecks",
+     "retry": 1
     },
     {
      "minute": 34,
      "artist": "VA",
      "title": "Searchin'",
-     "label": "Essential Media"
+     "label": "Essential Media",
+     "retry": 1
     },
     {
      "minute": 42,
      "artist": "Chez Damier & Ron Trent & M.D",
      "title": "B2PRES107",
-     "label": "Prescription"
+     "label": "Prescription",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -341,7 +357,8 @@
      "minute": 55,
      "artist": "Black Loops",
      "title": "Sex",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 60,
@@ -378,7 +395,8 @@
      "minute": 76,
      "artist": "DJ Pegasuz",
      "title": "Lifeforce",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 78,
@@ -397,13 +415,15 @@
      "minute": 82,
      "artist": "DB Selective",
      "title": "Dub Train (DJ Mix)",
-     "label": "Fabric"
+     "label": "Fabric",
+     "retry": 1
     },
     {
      "minute": 87,
      "artist": "DJ Pegasuz",
      "title": "Unit",
-     "label": "Housewax"
+     "label": "Housewax",
+     "retry": 1
     },
     {
      "minute": 88,
@@ -422,7 +442,15 @@
      "minute": 92,
      "artist": "Tortured Soul Feat. N'Dea Davenport",
      "title": "I Might Do Something Wrong (Ethan White Raindrops Remix)",
-     "label": "Tstc"
+     "label": "Tstc",
+     "bp": "bp:15468871",
+     "score": 0.902,
+     "preview": "https://geo-samples.beatport.com/track/8753aab9-7695-4583-98d2-ed03481254f1.LOFI.mp3",
+     "name": "I Might Do Something Wrong feat. N'Dea Davenport",
+     "mix": "Ethan White Raindrops Remix",
+     "genre": "house",
+     "released": "2013-11-05",
+     "via": "retry"
     },
     {
      "minute": 96,
@@ -441,7 +469,8 @@
      "minute": 100,
      "artist": "Anunaku & DJ Plead",
      "title": "Clap Clap",
-     "label": "AD"
+     "label": "AD",
+     "retry": 1
     },
     {
      "minute": 104,
@@ -460,7 +489,8 @@
      "minute": 109,
      "artist": "Ploy",
      "title": "Eyez On U",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 112,
@@ -492,7 +522,8 @@
      "minute": 125,
      "artist": "Two Shell",
      "title": "Run",
-     "label": "Livity Sound"
+     "label": "Livity Sound",
+     "retry": 1
     },
     {
      "minute": 130,
@@ -524,7 +555,8 @@
      "minute": 135,
      "artist": "DJ Pegasuz",
      "title": "Pipeline",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 138,
@@ -574,7 +606,8 @@
      "minute": 151,
      "artist": "FKi",
      "title": "Clap Ya Handz Prod Fully Fitte",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 156,
@@ -681,7 +714,8 @@
      "minute": 183,
      "artist": "Silva Bumpa",
      "title": "Next 2 Me",
-     "label": "Hardline Sounds"
+     "label": "Hardline Sounds",
+     "retry": 1
     },
     {
      "minute": 185,
@@ -739,7 +773,8 @@
      "minute": 201,
      "artist": "MYD & Para One",
      "title": "Brooklyn",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 204,
@@ -758,13 +793,15 @@
      "minute": 206,
      "artist": "Redlight",
      "title": "Down Down",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 208,
      "artist": "Missy Elliott Feat. Ciara & Fat Man Scoop",
      "title": "Lose Control",
-     "label": "East/West"
+     "label": "East/West",
+     "retry": 1
     },
     {
      "minute": 217,
@@ -828,13 +865,15 @@
      "minute": 251,
      "artist": "Armand Van Helden Feat. Mi Madre",
      "title": "Summertime",
-     "label": "London Music Stream"
+     "label": "London Music Stream",
+     "retry": 1
     },
     {
      "minute": 255,
      "artist": "Leod",
      "title": "Untitled 02",
-     "label": "Full Pelt"
+     "label": "Full Pelt",
+     "retry": 1
     },
     {
      "minute": 258,
@@ -928,7 +967,8 @@
      "minute": 287,
      "artist": "Awesome 3",
      "title": "Don't Go (Kicks Like A Mule Mix)",
-     "label": "XL"
+     "label": "XL",
+     "retry": 1
     },
     {
      "minute": 290,
@@ -983,7 +1023,8 @@
      "minute": 306,
      "artist": "611 Grooves",
      "title": "Mardi Gras",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 309,
@@ -1003,7 +1044,8 @@
      "minute": 330,
      "artist": "''Leod",
      "title": "Untitled [Full Pelt]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 333,
@@ -1093,31 +1135,36 @@
      "minute": 369,
      "artist": "DJ Fucci & Manao",
      "title": "Sabores",
-     "label": "WAVA WAVA"
+     "label": "WAVA WAVA",
+     "retry": 1
     },
     {
      "minute": 375,
      "artist": "Armand Van Helden",
      "title": "Phreeknik",
-     "label": "London Music Stream"
+     "label": "London Music Stream",
+     "retry": 1
     },
     {
      "minute": 380,
      "artist": "RITCHRD",
      "title": "WAIT",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 385,
      "artist": "Dance Maniacs",
      "title": "Motion",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 387,
      "artist": "Addison Groove",
      "title": "Elevator",
-     "label": "Pretty Weird"
+     "label": "Pretty Weird",
+     "retry": 1
     },
     {
      "minute": 391,
@@ -1136,7 +1183,8 @@
      "minute": 394,
      "artist": "P Money",
      "title": "Shotta",
-     "label": "Originators"
+     "label": "Originators",
+     "retry": 1
     },
     {
      "minute": 397,
@@ -1168,7 +1216,8 @@
      "minute": 411,
      "artist": "DJ Orange Julius",
      "title": "K LO K",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 414,
@@ -1192,7 +1241,8 @@
      "minute": 424,
      "artist": "DJ Spinn",
      "title": "Studio",
-     "label": "Planet Mu"
+     "label": "Planet Mu",
+     "retry": 1
     },
     {
      "minute": 427,
@@ -1229,7 +1279,8 @@
      "minute": 438,
      "artist": "DJ True",
      "title": "Night",
-     "label": "Riddler"
+     "label": "Riddler",
+     "retry": 1
     },
     {
      "minute": 443,
@@ -1248,7 +1299,8 @@
      "minute": 444,
      "artist": "Skee Mask",
      "title": "Stomp",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 446,
@@ -1412,7 +1464,8 @@
      "minute": 33,
      "artist": "Kristine",
      "title": "Better Love (Dub Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 36,
@@ -1483,7 +1536,15 @@
      "minute": 55,
      "artist": "Cotonete Feat. Gystere",
      "title": "O Céu é Preto (DJ Deep & Romain Poncet Dub)",
-     "label": ""
+     "label": "",
+     "bp": "bp:19113111",
+     "score": 0.885,
+     "preview": "https://geo-samples.beatport.com/track/52f5f9e3-3857-4068-a353-87cdcff0c5df.LOFI.mp3",
+     "name": "O Ceu e Preto (feat. Gystere)",
+     "mix": "DJ Deep & Romain Poncet Dub",
+     "genre": "deep-house",
+     "released": "2024-09-06",
+     "via": "retry"
     },
     {
      "minute": 58,
@@ -1528,13 +1589,15 @@
      "minute": 5,
      "artist": "Teena Marie",
      "title": "I Need Your Lovin' (Full Intention Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 8,
      "artist": "Chaka Khan",
      "title": "I Want",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 11,
@@ -1584,13 +1647,15 @@
      "minute": 22,
      "artist": "Black Eyed Peas & Da Hool",
      "title": "My Humps / Meet Her At The Loveparade (Sein Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 24,
      "artist": "Dismantle",
      "title": "Bodied",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 25,
@@ -1609,13 +1674,15 @@
      "minute": 26,
      "artist": "Holloway",
      "title": "Threat Level Midnight",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 29,
      "artist": "Paul Mond & Pantejra & Dave Nunes",
      "title": "Socadinha",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 31,
@@ -1634,13 +1701,15 @@
      "minute": 32,
      "artist": "Leon Vynehall",
      "title": "Duofade (Gemi Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 34,
      "artist": "Rui Da Silva",
      "title": "Touch Me (Conducta Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -1747,7 +1816,8 @@
      "minute": 56,
      "artist": "DJ Rafinha Duarte & MC Gw & Petrus.Wav",
      "title": "Fode Pra Karalho",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 58,
@@ -1780,7 +1850,8 @@
      "minute": 0,
      "artist": "Inland Knights",
      "title": "Hot Soup",
-     "label": "Drop"
+     "label": "Drop",
+     "retry": 1
     },
     {
      "minute": 3,
@@ -1799,7 +1870,8 @@
      "minute": 6,
      "artist": "KiNK",
      "title": "Existence",
-     "label": "Ovum"
+     "label": "Ovum",
+     "retry": 1
     },
     {
      "minute": 9,
@@ -1837,13 +1909,15 @@
      "minute": 29,
      "artist": "Leod",
      "title": "Untitled 12",
-     "label": "Full Pelt"
+     "label": "Full Pelt",
+     "retry": 1
     },
     {
      "minute": 35,
      "artist": "Cinthie",
      "title": "Just Us",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 39,
@@ -1875,7 +1949,8 @@
      "minute": 53,
      "artist": "Main Phase",
      "title": "Sweet Up",
-     "label": "ATW"
+     "label": "ATW",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -1908,7 +1983,8 @@
      "minute": 0,
      "artist": "Dukeyman",
      "title": "Doo Dew Rock",
-     "label": "Dukeyman"
+     "label": "Dukeyman",
+     "retry": 1
     },
     {
      "minute": 3,
@@ -2019,13 +2095,15 @@
      "minute": 36,
      "artist": "Donae'o Feat. Sway",
      "title": "I'm Fly",
-     "label": "Myish"
+     "label": "Myish",
+     "retry": 1
     },
     {
      "minute": 56,
      "artist": "Dave Nunes & Pantera & Paul Mond",
      "title": "Socadinha",
-     "label": "The Bloys"
+     "label": "The Bloys",
+     "retry": 1
     },
     {
      "minute": 57,
@@ -2044,7 +2122,8 @@
      "minute": 59,
      "artist": "Emalkay",
      "title": "Crusader",
-     "label": "Dub Police"
+     "label": "Dub Police",
+     "retry": 1
     },
     {
      "minute": 67,
@@ -2120,7 +2199,8 @@
      "minute": 85,
      "artist": "Jamiroquai",
      "title": "Love Foolosophy (Knee Deep's Re-Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -2162,7 +2242,8 @@
      "minute": 20,
      "artist": "Santos",
      "title": "Hold Home",
-     "label": "Moon Harbour"
+     "label": "Moon Harbour",
+     "retry": 1
     },
     {
      "minute": 24,
@@ -2194,7 +2275,8 @@
      "minute": 30,
      "artist": "Politics Of Dancing",
      "title": "Breaky",
-     "label": "Politics Of Dancing Digital"
+     "label": "Politics Of Dancing Digital",
+     "retry": 1
     },
     {
      "minute": 35,

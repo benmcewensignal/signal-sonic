@@ -581,7 +581,8 @@
      "minute": 78,
      "artist": "Harvey McKay",
      "title": "2 Step",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 82,
@@ -610,7 +611,8 @@
      "minute": 101,
      "artist": "Deetron",
      "title": "Pulse",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 107,
@@ -691,7 +693,8 @@
      "minute": 151,
      "artist": "Ed Davenport",
      "title": "F.O.G (Hotlline Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 156,
@@ -707,7 +710,8 @@
      "minute": 172,
      "artist": "Speedy J",
      "title": "Something For Your Mind (12inch Exposure Remix)",
-     "label": "(Remastered 2021) - Overlast"
+     "label": "(Remastered 2021) - Overlast",
+     "retry": 1
     },
     {
      "minute": 174,
@@ -827,7 +831,8 @@
      "minute": 284,
      "artist": "Alessandro Grops",
      "title": "Sensor",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 286,
@@ -856,7 +861,8 @@
      "minute": 298,
      "artist": "EFESIAN",
      "title": "The Smoke",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 302,
@@ -1088,7 +1094,8 @@
      "minute": 531,
      "artist": "''Raver's Nature",
      "title": "Day Of Justice (? Remix)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 540,
@@ -1117,7 +1124,8 @@
      "minute": 551,
      "artist": "''?",
      "title": "Let Da Bass Boom''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 552,
@@ -1146,7 +1154,8 @@
      "minute": 596,
      "artist": "Nørbak",
      "title": "Regra",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 597,
@@ -1216,13 +1225,15 @@
      "minute": 654,
      "artist": "Christian Smith & John Selway",
      "title": "Blackout",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 656,
      "artist": "Drunken Kong",
      "title": "All We Do",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 659,
@@ -1270,7 +1281,8 @@
      "minute": 705,
      "artist": "The Southern",
      "title": "Memories",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 708,

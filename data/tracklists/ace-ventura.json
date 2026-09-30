@@ -22,7 +22,8 @@
      "minute": null,
      "artist": "Shayman",
      "title": "Prince",
-     "label": "Iboga"
+     "label": "Iboga",
+     "retry": 1
     },
     {
      "minute": null,
@@ -67,7 +68,8 @@
      "minute": null,
      "artist": "Samra",
      "title": "Echonnection",
-     "label": "Distrokid"
+     "label": "Distrokid",
+     "retry": 1
     },
     {
      "minute": null,
@@ -238,7 +240,8 @@
      "minute": null,
      "artist": "Astrix & Ritmo",
      "title": "Agate",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "retry": 1
     },
     {
      "minute": null,
@@ -270,7 +273,8 @@
      "minute": null,
      "artist": "Sonic Species",
      "title": "The Way",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "retry": 1
     }
    ]
   },
@@ -289,7 +293,8 @@
      "minute": 0,
      "artist": "Ace Ventura & Asgard",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -304,7 +309,8 @@
      "minute": 13,
      "artist": "Animato",
      "title": "Bodyflow",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -319,31 +325,36 @@
      "minute": 25,
      "artist": "ID (GMS?)",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 30,
      "artist": "Mercuroid & Misaya",
      "title": "Somnium",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 37,
      "artist": "Blastoyz & Ranji",
      "title": "Zoom (Avan7 & Becker Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 40,
      "artist": "Faders",
      "title": "Amana (Volcano Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 46,
      "artist": "Outsiders",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 51,
@@ -358,19 +369,22 @@
      "minute": 59,
      "artist": "GMS & Menog",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 64,
      "artist": "Astral Projection",
      "title": "Into The Void (Electric Universe Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 69,
      "artist": "Bl4ck Hole & Invader Space",
      "title": "Ragga Man (Burn In Noise & Becker Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 76,
@@ -398,7 +412,8 @@
      "minute": 89,
      "artist": "Shpongle",
      "title": "Around The World In A Tea Daze (Faders Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 95,
@@ -417,7 +432,8 @@
      "minute": 100,
      "artist": "Xerox",
      "title": "Gravity Waves (Captain Hook Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 108,
@@ -476,7 +492,8 @@
      "minute": 135,
      "artist": "Liquid Soul",
      "title": "Devotion (Outsiders Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 141,
@@ -504,13 +521,15 @@
      "minute": 153,
      "artist": "Captain Hook & Astrix",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 161,
      "artist": "Ace Ventura & Lish",
      "title": "The Light (Alien Art Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 171,
@@ -612,25 +631,29 @@
      "minute": 9,
      "artist": "Gorovich",
      "title": "Atoms",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 16,
      "artist": "Dekel & Sandman",
      "title": "Goamission",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 23,
      "artist": "Zentura",
      "title": "Wun Wun (2025 Update)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 30,
      "artist": "Zen Mechanics & E-Clip",
      "title": "Light Codes",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 36,
@@ -710,13 +733,15 @@
      "minute": 72,
      "artist": "Ace Ventura & Asgard",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 78,
      "artist": "Liquid Soul",
      "title": "Devotion (Outsiders Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 84,
@@ -735,13 +760,15 @@
      "minute": 89,
      "artist": "Protonica & Zen Mechanics",
      "title": "Flowstate",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 97,
      "artist": "Asgard",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 103,
@@ -756,7 +783,8 @@
      "minute": 109,
      "artist": "Animato",
      "title": "Bodyflow",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 115,
@@ -775,19 +803,22 @@
      "minute": 120,
      "artist": "Antinomy & Ritmo",
      "title": "Coconut (Mixed With Samples From Cosma - Cosmatic)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 125,
      "artist": "Outsiders & Astrix",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 132,
      "artist": "GMS (?)",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 137,
@@ -802,19 +833,22 @@
      "minute": 144,
      "artist": "Electric Universe",
      "title": "Himalaya (Electric Universe 2025 Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 151,
      "artist": "Outsiders",
      "title": "Shamanic Rocker",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 157,
      "artist": "Blastoyz & Ranji",
      "title": "Zoom (Avan7 & Becker Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 160,
@@ -842,7 +876,8 @@
      "minute": 171,
      "artist": "Shpongle",
      "title": "Around The World In A Tea Daze (Faders Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 178,

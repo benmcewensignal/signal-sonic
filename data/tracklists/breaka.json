@@ -45,13 +45,15 @@
      "minute": 21,
      "artist": "Cimm",
      "title": "Crush",
-     "label": "Sector 7 Sounds"
+     "label": "Sector 7 Sounds",
+     "retry": 1
     },
     {
      "minute": 23,
      "artist": "Amazondotcom",
      "title": "Prowler",
-     "label": "Promesses"
+     "label": "Promesses",
+     "retry": 1
     },
     {
      "minute": 28,
@@ -97,13 +99,15 @@
      "minute": 46,
      "artist": "Coe",
      "title": "D-I-Why",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 49,
      "artist": "G-Emerald",
      "title": "Rowback",
-     "label": "Extra Spicy"
+     "label": "Extra Spicy",
+     "retry": 1
     },
     {
      "minute": 52,
@@ -145,13 +149,15 @@
      "minute": 4,
      "artist": "Poor J'Darr",
      "title": "Ballad",
-     "label": "Kaizen"
+     "label": "Kaizen",
+     "retry": 1
     },
     {
      "minute": 6,
      "artist": "Blank Patrick",
      "title": "Esperanto",
-     "label": "Grid"
+     "label": "Grid",
+     "retry": 1
     },
     {
      "minute": 9,
@@ -162,7 +168,8 @@
      "minute": 13,
      "artist": "Sam Binga & Sister Zo Feat. Sirius Soundz",
      "title": "Panda Beef",
-     "label": "Pineapple"
+     "label": "Pineapple",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -199,7 +206,8 @@
      "minute": 25,
      "artist": "Trois-Quarts Taxi System",
      "title": "Spectre",
-     "label": "Bait"
+     "label": "Bait",
+     "retry": 1
     },
     {
      "minute": 30,
@@ -218,7 +226,8 @@
      "minute": 31,
      "artist": "Otus & Nadī'",
      "title": "Bombay",
-     "label": "All My Thoughts"
+     "label": "All My Thoughts",
+     "retry": 1
     },
     {
      "minute": 34,
@@ -366,13 +375,15 @@
      "minute": 15,
      "artist": "Bambounou",
      "title": "Touch Me",
-     "label": "Bambe"
+     "label": "Bambe",
+     "retry": 1
     },
     {
      "minute": 18,
      "artist": "Om Unit & Delay Grounds",
      "title": "Ease",
-     "label": "C.E.E."
+     "label": "C.E.E.",
+     "retry": 1
     },
     {
      "minute": 24,
@@ -405,13 +416,15 @@
      "minute": 35,
      "artist": "Forest Drive West",
      "title": "Möbius",
-     "label": "Ilian Tape"
+     "label": "Ilian Tape",
+     "retry": 1
     },
     {
      "minute": 37,
      "artist": "Swooh",
      "title": "Bang Bang",
-     "label": "DLZ"
+     "label": "DLZ",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -430,19 +443,22 @@
      "minute": 47,
      "artist": "TWIENA & KLUSTER",
      "title": "Piu Piu",
-     "label": "Kluster"
+     "label": "Kluster",
+     "retry": 1
     },
     {
      "minute": 51,
      "artist": "3diz",
      "title": "Money Is Money",
-     "label": "Self Release"
+     "label": "Self Release",
+     "retry": 1
     },
     {
      "minute": 53,
      "artist": "DJ SofaDJ Sets",
      "title": "Drums For The Lost (Siu Mata Remix)",
-     "label": "Beat Machine"
+     "label": "Beat Machine",
+     "retry": 1
     },
     {
      "minute": 58,
@@ -484,7 +500,8 @@
      "minute": 8,
      "artist": "Shadow Child",
      "title": "The Street",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 11,
@@ -521,7 +538,8 @@
      "minute": 26,
      "artist": "Gyrofield",
      "title": "Mother",
-     "label": "FABRICLIVE."
+     "label": "FABRICLIVE.",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -549,13 +567,15 @@
      "minute": 41,
      "artist": "Measure Divide",
      "title": "Splunk",
-     "label": "Air Texture"
+     "label": "Air Texture",
+     "retry": 1
     },
     {
      "minute": 46,
      "artist": "Leese Feat. Ravl",
      "title": "Astrakka",
-     "label": "Extended"
+     "label": "Extended",
+     "retry": 1
     },
     {
      "minute": 49,
@@ -640,13 +660,15 @@
      "minute": 8,
      "artist": "Sam Goku",
      "title": "X-Plor03",
-     "label": "Permanent Vacation"
+     "label": "Permanent Vacation",
+     "retry": 1
     },
     {
      "minute": 12,
      "artist": "B. McQueen & Theorist",
      "title": "Chives",
-     "label": "Wisdom Teeth"
+     "label": "Wisdom Teeth",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -670,7 +692,8 @@
      "minute": 26,
      "artist": "Coen",
      "title": "Poppers",
-     "label": "Maloca"
+     "label": "Maloca",
+     "retry": 1
     },
     {
      "minute": 30,
@@ -702,13 +725,15 @@
      "minute": 43,
      "artist": "Old Man Crane",
      "title": "Grey",
-     "label": "Bait"
+     "label": "Bait",
+     "retry": 1
     },
     {
      "minute": 44,
      "artist": "JIALING",
      "title": "ADDY (WTCHCRFT Remix)",
-     "label": "Clasico"
+     "label": "Clasico",
+     "retry": 1
     },
     {
      "minute": 48,
@@ -719,7 +744,8 @@
      "minute": 51,
      "artist": "Skee Mask",
      "title": "TR Nautila",
-     "label": "Ilian Tape"
+     "label": "Ilian Tape",
+     "retry": 1
     }
    ]
   },
@@ -735,7 +761,8 @@
      "minute": 14,
      "artist": "SBWT & Sub Basics & Witch Trials",
      "title": "Technique",
-     "label": "Temple Of Sound"
+     "label": "Temple Of Sound",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -781,7 +808,8 @@
      "minute": 48,
      "artist": "Shabjdeed & Al Nather",
      "title": "Ya Ali",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 50,
@@ -810,7 +838,8 @@
      "minute": 5,
      "artist": "WheelUP & Abacus",
      "title": "Flash",
-     "label": "Tru Thoughts"
+     "label": "Tru Thoughts",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -835,19 +864,22 @@
      "minute": 35,
      "artist": "Gafacci",
      "title": "Tashina",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 55,
      "artist": "Siu Mata & Amor Satyr",
      "title": "Bailo",
-     "label": "WAJANG"
+     "label": "WAJANG",
+     "retry": 1
     },
     {
      "minute": 58,
      "artist": "DJ B",
      "title": "Low Freq",
-     "label": "Hooversound"
+     "label": "Hooversound",
+     "retry": 1
     }
    ]
   },
@@ -872,7 +904,8 @@
      "minute": 14,
      "artist": "XL Regular",
      "title": "Urumea",
-     "label": "Artisjok"
+     "label": "Artisjok",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -883,7 +916,8 @@
      "minute": 22,
      "artist": "Pearson Sound",
      "title": "Zoomies",
-     "label": "Timedance"
+     "label": "Timedance",
+     "retry": 1
     },
     {
      "minute": 27,
@@ -933,7 +967,8 @@
      "minute": 42,
      "artist": "Moonshine & Black Rave Culture",
      "title": "Mixage",
-     "label": "MOONSHINE"
+     "label": "MOONSHINE",
+     "retry": 1
     },
     {
      "minute": 44,
@@ -952,13 +987,15 @@
      "minute": 50,
      "artist": "Flexitrax",
      "title": "Weird World",
-     "label": "Petrola"
+     "label": "Petrola",
+     "retry": 1
     },
     {
      "minute": 53,
      "artist": "Facta",
      "title": "Skyline 4",
-     "label": "Wisdom Teeth"
+     "label": "Wisdom Teeth",
+     "retry": 1
     },
     {
      "minute": 56,
@@ -969,7 +1006,8 @@
      "minute": 60,
      "artist": "Niño Árbol",
      "title": "Psiconomimesis",
-     "label": "Ssensorial"
+     "label": "Ssensorial",
+     "retry": 1
     }
    ]
   },
@@ -998,7 +1036,8 @@
      "minute": 14,
      "artist": "Los Pulpitos",
      "title": "Catfishy",
-     "label": "Crammed Discs"
+     "label": "Crammed Discs",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -1227,7 +1266,8 @@
      "minute": 6,
      "artist": "Braiden",
      "title": "The Alps",
-     "label": "Off Out"
+     "label": "Off Out",
+     "retry": 1
     },
     {
      "minute": 11,
@@ -1259,7 +1299,8 @@
      "minute": 18,
      "artist": "Hectic Grub",
      "title": "LB1",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 21,
@@ -1270,13 +1311,15 @@
      "minute": 25,
      "artist": "Brenda",
      "title": "Rápido & Lento ;)",
-     "label": "TraTraTrax"
+     "label": "TraTraTrax",
+     "retry": 1
     },
     {
      "minute": 28,
      "artist": "Regal86",
      "title": "Extraño",
-     "label": "Regal"
+     "label": "Regal",
+     "retry": 1
     },
     {
      "minute": 31,
@@ -1361,7 +1404,8 @@
      "minute": 59,
      "artist": "Local Group",
      "title": "2 B Free",
-     "label": "Maximum Airtime"
+     "label": "Maximum Airtime",
+     "retry": 1
     }
    ]
   },
@@ -1377,13 +1421,15 @@
      "minute": 3,
      "artist": "Lily Haz",
      "title": "Stomp",
-     "label": "Flippen Bits"
+     "label": "Flippen Bits",
+     "retry": 1
     },
     {
      "minute": 8,
      "artist": "Minor Science",
      "title": "Mortals",
-     "label": "Timedance"
+     "label": "Timedance",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -1420,7 +1466,8 @@
      "minute": 45,
      "artist": "Cwtch",
      "title": "Unakite",
-     "label": "De La... Je L'espère"
+     "label": "De La... Je L'espère",
+     "retry": 1
     },
     {
      "minute": 48,
@@ -1431,7 +1478,8 @@
      "minute": 59,
      "artist": "Ivy Lab",
      "title": "Amigood",
-     "label": "Twenty Twenty London"
+     "label": "Twenty Twenty London",
+     "retry": 1
     }
    ]
   },
@@ -1486,13 +1534,15 @@
      "minute": 13,
      "artist": "Beatrice M.",
      "title": "132 Trek",
-     "label": "Tectonic"
+     "label": "Tectonic",
+     "retry": 1
     },
     {
      "minute": 16,
      "artist": "Wen",
      "title": "Shoulder 2 Shoulder",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -1520,13 +1570,15 @@
      "minute": 24,
      "artist": "Trois-Quarts Taxi System",
      "title": "Plastic",
-     "label": "CRTTR"
+     "label": "CRTTR",
+     "retry": 1
     },
     {
      "minute": 28,
      "artist": "Sha Ru",
      "title": "Hz Bath",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 30,
@@ -1611,7 +1663,8 @@
      "minute": 29,
      "artist": "Poor J'Darr",
      "title": "O.T.T.",
-     "label": "Not Now"
+     "label": "Not Now",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -1630,13 +1683,15 @@
      "minute": 38,
      "artist": "DJ Sprinter",
      "title": "Cube 11",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 42,
      "artist": "Skee Mask",
      "title": "Siebkopf",
-     "label": "Timedance"
+     "label": "Timedance",
+     "retry": 1
     },
     {
      "minute": 45,
@@ -1655,7 +1710,8 @@
      "minute": 48,
      "artist": "Marcal",
      "title": "Blessing",
-     "label": "Enemy"
+     "label": "Enemy",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -1714,7 +1770,8 @@
      "minute": 14,
      "artist": "DJ Sprinter",
      "title": "Huhh",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -1801,7 +1858,8 @@
      "minute": 0,
      "artist": "Facta",
      "title": "SLoPE VIP",
-     "label": "Wisdom Teeth"
+     "label": "Wisdom Teeth",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -1855,7 +1913,8 @@
      "minute": 17,
      "artist": "Kid Drama",
      "title": "Trife",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 21,
@@ -1866,7 +1925,8 @@
      "minute": 31,
      "artist": "DJ Double Oh!",
      "title": "Nocturnxs",
-     "label": "WAVA WAVA"
+     "label": "WAVA WAVA",
+     "retry": 1
     },
     {
      "minute": 38,
@@ -1885,7 +1945,8 @@
      "minute": 48,
      "artist": "MANS O",
      "title": "TOOLS",
-     "label": "Flux Æterna"
+     "label": "Flux Æterna",
+     "retry": 1
     },
     {
      "minute": 50,
@@ -1904,7 +1965,8 @@
      "minute": 53,
      "artist": "Hyas",
      "title": "Sua Da",
-     "label": "Nerve Collect"
+     "label": "Nerve Collect",
+     "retry": 1
     }
    ]
   },
@@ -1977,7 +2039,8 @@
      "minute": 43,
      "artist": "Henry Greenleaf",
      "title": "Mission",
-     "label": "Dimeshift"
+     "label": "Dimeshift",
+     "retry": 1
     },
     {
      "minute": 45,
@@ -2005,7 +2068,8 @@
      "minute": 52,
      "artist": "Trustee",
      "title": "Article",
-     "label": "Unknown - Untitled"
+     "label": "Unknown - Untitled",
+     "retry": 1
     },
     {
      "minute": 57,
@@ -2034,13 +2098,15 @@
      "minute": 7,
      "artist": "Terrain",
      "title": "Scatter",
-     "label": "Livity Sound"
+     "label": "Livity Sound",
+     "retry": 1
     },
     {
      "minute": 15,
      "artist": "Reverend Slippy",
      "title": "XL Dub",
-     "label": "Ohp Co"
+     "label": "Ohp Co",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -2077,7 +2143,8 @@
      "minute": 42,
      "artist": "WTCHCRFT",
      "title": "One&Two!",
-     "label": "Sorry"
+     "label": "Sorry",
+     "retry": 1
     }
    ]
   },
@@ -2093,13 +2160,15 @@
      "minute": 23,
      "artist": "Chungo",
      "title": "Graze",
-     "label": "Scuffed"
+     "label": "Scuffed",
+     "retry": 1
     },
     {
      "minute": 25,
      "artist": "ARTISOMA",
      "title": "Shaze",
-     "label": "YUKU"
+     "label": "YUKU",
+     "retry": 1
     },
     {
      "minute": 28,
@@ -2114,7 +2183,8 @@
      "minute": 31,
      "artist": "Teqmun",
      "title": "Axolotl",
-     "label": "Nerve Collect"
+     "label": "Nerve Collect",
+     "retry": 1
     },
     {
      "minute": 35,
@@ -2134,7 +2204,8 @@
      "minute": 52,
      "artist": "Soreab",
      "title": "CU7",
-     "label": "Polaar"
+     "label": "Polaar",
+     "retry": 1
     },
     {
      "minute": 54,
@@ -2181,7 +2252,8 @@
      "minute": 6,
      "artist": "Dialog",
      "title": "Chant",
-     "label": "DOT"
+     "label": "DOT",
+     "retry": 1
     },
     {
      "minute": 9,
@@ -2213,7 +2285,8 @@
      "minute": 15,
      "artist": "Smiff",
      "title": "Beezknees",
-     "label": "More Time"
+     "label": "More Time",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -2255,7 +2328,8 @@
      "minute": 34,
      "artist": "Identified Patient",
      "title": "Give Up",
-     "label": "Nerve Collect"
+     "label": "Nerve Collect",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -2266,7 +2340,8 @@
      "minute": 42,
      "artist": "RAVL",
      "title": "U.22",
-     "label": "TETE VIDE"
+     "label": "TETE VIDE",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -2290,7 +2365,8 @@
      "minute": 53,
      "artist": "McGregor",
      "title": "Coilltean",
-     "label": "BONSE"
+     "label": "BONSE",
+     "retry": 1
     },
     {
      "minute": 58,

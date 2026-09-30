@@ -113,7 +113,8 @@
      "minute": null,
      "artist": "The Verve",
      "title": "Bittersweet Symphony (James Hype Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -184,7 +185,8 @@
      "minute": null,
      "artist": "Nick Morgan",
      "title": "Shook Part 3",
-     "label": "Calamar"
+     "label": "Calamar",
+     "retry": 1
     },
     {
      "minute": null,
@@ -203,13 +205,15 @@
      "minute": null,
      "artist": "Alex Wann",
      "title": "Haze",
-     "label": "Black Book"
+     "label": "Black Book",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Alex Wann",
      "title": "ID",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -263,19 +267,22 @@
      "minute": null,
      "artist": "Marvin Gaye & Tammi Terrel",
      "title": "Ain't No Mountain High Enough (Alex Wann & Barka Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Enoo Napa & DJ Merlon",
      "title": "Bro Code",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "iiO Feat. Nadia Ali",
      "title": "Rapture (Himanshu Kalwani Remix)",
-     "label": "UMG"
+     "label": "UMG",
+     "retry": 1
     },
     {
      "minute": null,
@@ -307,25 +314,29 @@
      "minute": null,
      "artist": "Route 94 Feat. Jess Glynne",
      "title": "My Love (Alex Wann Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Nick Morgan",
      "title": "Shook Part 3",
-     "label": "Calamar"
+     "label": "Calamar",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Dompe",
      "title": "Pump Up The Jack",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Shiba San & Rave Rae",
      "title": "My House",
-     "label": "Basement Leak"
+     "label": "Basement Leak",
+     "retry": 1
     },
     {
      "minute": null,
@@ -370,7 +381,8 @@
      "minute": null,
      "artist": "PUMP!",
      "title": "Bananas",
-     "label": "Pump"
+     "label": "Pump",
+     "retry": 1
     },
     {
      "minute": null,
@@ -428,7 +440,8 @@
      "minute": null,
      "artist": "BURNR",
      "title": "Bad Girl vs I Believe",
-     "label": "The Myth Of Nyx"
+     "label": "The Myth Of Nyx",
+     "retry": 1
     },
     {
      "minute": null,
@@ -473,7 +486,8 @@
      "minute": null,
      "artist": "MARTEN HØRGER & Sonny Fodera",
      "title": "Levitate",
-     "label": "Insomniac - IR0248B"
+     "label": "Insomniac - IR0248B",
+     "retry": 1
     },
     {
      "minute": null,
@@ -536,7 +550,8 @@
      "minute": 4,
      "artist": "Diplo & Sharam Feat. Pony",
      "title": "Anthem",
-     "label": "Higher Ground (Mad Decent)"
+     "label": "Higher Ground (Mad Decent)",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -608,7 +623,8 @@
      "minute": 29,
      "artist": "Salt-N-Pepa",
      "title": "Shoop (Tom Zeta Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 32,
@@ -649,25 +665,29 @@
      "minute": 45,
      "artist": "KingCrowney & Jimpster Feat. Legzdina",
      "title": "The Back",
-     "label": "The Remedy Project"
+     "label": "The Remedy Project",
+     "retry": 1
     },
     {
      "minute": 50,
      "artist": "Ratier & Renato Ratier",
      "title": "Cat Eyes",
-     "label": "D-Edge"
+     "label": "D-Edge",
+     "retry": 1
     },
     {
      "minute": 53,
      "artist": "Rutzen",
      "title": "Trip",
-     "label": "Reload Black"
+     "label": "Reload Black",
+     "retry": 1
     },
     {
      "minute": 57,
      "artist": "ItaloBros",
      "title": "Story",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "retry": 1
     },
     {
      "minute": 61,
@@ -708,13 +728,15 @@
      "minute": 75,
      "artist": "Gespona",
      "title": "FadeRRR",
-     "label": "Rummel"
+     "label": "Rummel",
+     "retry": 1
     },
     {
      "minute": 79,
      "artist": "Justice",
      "title": "Incognito",
-     "label": "Genesis"
+     "label": "Genesis",
+     "retry": 1
     },
     {
      "minute": 83,
@@ -733,7 +755,8 @@
      "minute": 87,
      "artist": "Tripolism & Nandu & Radeckt",
      "title": "Soultrain",
-     "label": "Ultra"
+     "label": "Ultra",
+     "retry": 1
     },
     {
      "minute": 91,
@@ -761,7 +784,8 @@
      "minute": 99,
      "artist": "Alex Wann",
      "title": "Overnight (Alex Wann Remix)",
-     "label": "Kitsuné"
+     "label": "Kitsuné",
+     "retry": 1
     },
     {
      "minute": 103,
@@ -785,13 +809,15 @@
      "minute": 110,
      "artist": "Route 94 Feat. Jess Glynne",
      "title": "My Love (Alex Wann Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 113,
      "artist": "Eynka & Adriatique",
      "title": "Beyond Us (Alex Wann Remix)",
-     "label": "Cercle"
+     "label": "Cercle",
+     "retry": 1
     },
     {
      "minute": 118,
@@ -837,7 +863,15 @@
      "minute": null,
      "artist": "Sander van Doorn Feat. Melissa De Kleine",
      "title": "High On You (Extended Mix)",
-     "label": "Musical Freedom"
+     "label": "Musical Freedom",
+     "bp": "bp:17792976",
+     "score": 0.843,
+     "preview": "https://geo-samples.beatport.com/track/bcabf62d-2093-433f-b1e7-7e20ee291e97.LOFI.mp3",
+     "name": "On A Roll",
+     "mix": "Extended Mix",
+     "genre": "mainstage",
+     "released": "2023-06-16",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -869,7 +903,8 @@
      "minute": null,
      "artist": "Nic Fanciulli",
      "title": "YSD",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "retry": 1
     },
     {
      "minute": null,
@@ -914,7 +949,8 @@
      "minute": null,
      "artist": "Travis Scott Feat. Playboi Carti",
      "title": "FE!N (Ape Rave Club Bootleg)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": null,
@@ -933,25 +969,43 @@
      "minute": null,
      "artist": "A7S Feat. ALOK",
      "title": "Monster (Extended Mix)",
-     "label": "Controversia"
+     "label": "Controversia",
+     "bp": "bp:18140230",
+     "score": 0.784,
+     "preview": "https://geo-samples.beatport.com/track/b54db679-aa09-4d78-859f-fc2e5bcf5d4c.LOFI.mp3",
+     "name": "Location feat. A7S",
+     "mix": "Extended Mix",
+     "genre": "dance-pop",
+     "released": "2023-10-06",
+     "via": "retry"
     },
     {
      "minute": null,
      "artist": "Juliet Fox & ANDATA",
      "title": "Velvet Tears (Extended Mix)",
-     "label": "Three Six Zero"
+     "label": "Three Six Zero",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Don Toliver Feat. James Blake",
      "title": "Let Her Go (Nicky Elisabeth Remix)",
-     "label": "Atlantic"
+     "label": "Atlantic",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Dastic & LEØN",
      "title": "Need You Again (Extended Mix)",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "bp": "bp:18743215",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/89eca5ed-82a5-461d-8e56-a81fab5e253b.LOFI.mp3",
+     "name": "Need You Again",
+     "mix": "Extended Mix",
+     "genre": "dance-pop",
+     "released": "2024-03-01",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -1057,7 +1111,8 @@
      "minute": null,
      "artist": "Umek",
      "title": "Pump Up The Jam",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1089,7 +1144,8 @@
      "minute": null,
      "artist": "Pretty Pink",
      "title": "Fine Day",
-     "label": "Dpwds"
+     "label": "Dpwds",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1121,13 +1177,22 @@
      "minute": null,
      "artist": "EarthLife",
      "title": "Trasporto",
-     "label": "Spectrum"
+     "label": "Spectrum",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Nitefreak & Laureano Feat. Bambo",
      "title": "Asara (Extended Mix)",
-     "label": "Spinnin' Deep"
+     "label": "Spinnin' Deep",
+     "bp": "bp:18267842",
+     "score": 0.812,
+     "preview": "https://geo-samples.beatport.com/track/d8a85a37-68a4-4f9f-bf57-22cde8ea1255.LOFI.mp3",
+     "name": "Gorah",
+     "mix": "Extended",
+     "genre": "afro-house",
+     "released": "2023-11-03",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -1155,7 +1220,8 @@
      "minute": null,
      "artist": "Eynka & Adriatique",
      "title": "Beyond Us (Alex Wann Remix)",
-     "label": "Cercle"
+     "label": "Cercle",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1174,13 +1240,15 @@
      "minute": null,
      "artist": "Route 94 Feat. Jess Glynne",
      "title": "My Love (Alex Wann Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Naomi Sharon",
      "title": "Another Life (DSF Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1199,7 +1267,8 @@
      "minute": null,
      "artist": "PEATY",
      "title": "KILOSA (Afro Melodic Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1343,7 +1412,8 @@
      "minute": 52,
      "artist": "Parcels",
      "title": "Overnight (Prod. By Daft Punk) (Alex Wann Remix)",
-     "label": "Kitsuné"
+     "label": "Kitsuné",
+     "retry": 1
     }
    ]
   },
@@ -1380,7 +1450,8 @@
      "minute": null,
      "artist": "Maz & Antdot & Jéssica Gaspar",
      "title": "Emoriô",
-     "label": "Dawn Patrol"
+     "label": "Dawn Patrol",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1425,7 +1496,8 @@
      "minute": null,
      "artist": "Bantu & Sparrow & Barbossa & Bensy & Dr. Chaii & Neyl",
      "title": "Miracle",
-     "label": "Vod"
+     "label": "Vod",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1444,13 +1516,22 @@
      "minute": null,
      "artist": "WhoMadeWho & Kölsch",
      "title": "Heartless (Alex Wann Remix)",
-     "label": "The Moment"
+     "label": "The Moment",
+     "bp": "bp:19547247",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/285c0bee-063e-4c7c-9a13-b556192fcb60.LOFI.mp3",
+     "name": "Heartless",
+     "mix": "Alex Wann Remix",
+     "genre": "melodic-house-techno",
+     "released": "2024-11-08",
+     "via": "retry"
     },
     {
      "minute": null,
      "artist": "Moeaike",
      "title": "Maybe",
-     "label": "Rose Avenue"
+     "label": "Rose Avenue",
+     "retry": 1
     }
    ]
   },
@@ -1513,13 +1594,15 @@
      "minute": null,
      "artist": "Tiësto & Moguai",
      "title": "Explode (Extended Mix)",
-     "label": "Musical Freedom"
+     "label": "Musical Freedom",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Swedish House Mafia & Alicia Keys vs Planet Funk vs Martin Garrix & Seth Hills",
      "title": "Finally Chase The Biochemical Sun (DJs From Mars Club Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1538,13 +1621,15 @@
      "minute": null,
      "artist": "Creeds & WeDamnz vs Mason & Princess Superstar",
      "title": "Perfect (DJ Arman Aveiru Push Up Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "La Bouche",
      "title": "Be My Lover (Mark & Thom Club Edit)",
-     "label": "Arista"
+     "label": "Arista",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1654,7 +1739,8 @@
      "minute": null,
      "artist": "Supermode & James Carter vs HUGEL & Topic & Arash & Daecolm",
      "title": "Adore You (DJ Arman Aveiru Tell Me Why Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1699,7 +1785,8 @@
      "minute": null,
      "artist": "SYREETA",
      "title": "Happiness",
-     "label": "Sound D'elite"
+     "label": "Sound D'elite",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1718,7 +1805,8 @@
      "minute": null,
      "artist": "Mathias Kaden",
      "title": "Circulate",
-     "label": "Rekids"
+     "label": "Rekids",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1906,7 +1994,8 @@
      "minute": null,
      "artist": "iiO Feat. Nadia Ali",
      "title": "Rapture (Himanshu Kalwani Remix)",
-     "label": "UMG"
+     "label": "UMG",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1938,7 +2027,8 @@
      "minute": null,
      "artist": "Route 94 Feat. Jess Glynne",
      "title": "My Love (Alex Wann Remix)",
-     "label": "Positiva"
+     "label": "Positiva",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1957,7 +2047,8 @@
      "minute": null,
      "artist": "Jay De Lys",
      "title": "Babylon",
-     "label": "Elrow"
+     "label": "Elrow",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2011,7 +2102,8 @@
      "minute": null,
      "artist": "Fireboy DML",
      "title": "Coming Back For You (Vidojean & Oliver Loenn Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2030,7 +2122,8 @@
      "minute": null,
      "artist": "Roger Sanchez",
      "title": "Again",
-     "label": "Im Dance"
+     "label": "Im Dance",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2049,7 +2142,8 @@
      "minute": null,
      "artist": "Hall & Oates",
      "title": "Out Of Touch (Vidojean & Oliver Loenn Afro House Remix)",
-     "label": "RCA"
+     "label": "RCA",
+     "retry": 1
     }
    ]
   },
@@ -2130,7 +2224,8 @@
      "minute": 34,
      "artist": "MoBlack & Benja & Franc Fala Feat. Salif Keïta & Cesária Évora",
      "title": "Yamore (Dario Hessabi Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -2149,13 +2244,22 @@
      "minute": 47,
      "artist": "Tommy Richman",
      "title": "MILLION DOLLAR BABY (Bun Xapa Remix)",
-     "label": "Pulse"
+     "label": "Pulse",
+     "retry": 1
     },
     {
      "minute": 53,
      "artist": "WhoMadeWho & Kölsch",
      "title": "Heartless (Alex Wann Remix)",
-     "label": "The Moment"
+     "label": "The Moment",
+     "bp": "bp:19547247",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/285c0bee-063e-4c7c-9a13-b556192fcb60.LOFI.mp3",
+     "name": "Heartless",
+     "mix": "Alex Wann Remix",
+     "genre": "melodic-house-techno",
+     "released": "2024-11-08",
+     "via": "retry"
     }
    ]
   },
@@ -2166,13 +2270,15 @@
      "minute": null,
      "artist": "Jaden Bojsen & David Guetta Feat. Sami Brielle",
      "title": "Let's Go (HUGEL & Tom Enzy & Juany Bravo Remix)",
-     "label": "Spinnin'/ALT:Vision"
+     "label": "Spinnin'/ALT:Vision",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Endor vs Steve Angello & Byred",
      "title": "Pump It Up (Cream 2025 Knas Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2204,13 +2310,15 @@
      "minute": null,
      "artist": "Tiësto Feat. Mila Falls",
      "title": "Oh My Gosh! (Extended Mix)",
-     "label": "Musical Freedom"
+     "label": "Musical Freedom",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Max Styler",
      "title": "Inferno",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2268,13 +2376,15 @@
      "minute": null,
      "artist": "Meriva & Dalla",
      "title": "The Power",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Underworld",
      "title": "Dark & Long (D-Nox & Emi Galvan Remix)",
-     "label": "Junior Boy's Own"
+     "label": "Junior Boy's Own",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2389,7 +2499,8 @@
      "minute": 34,
      "artist": "MoBlack & Benja & Franc Fala Feat. Salif Keïta & Cesária Évora",
      "title": "Yamore (Dario Hessabi Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -2408,13 +2519,22 @@
      "minute": 47,
      "artist": "Tommy Richman",
      "title": "MILLION DOLLAR BABY (Bun Xapa Remix)",
-     "label": "Pulse"
+     "label": "Pulse",
+     "retry": 1
     },
     {
      "minute": 53,
      "artist": "WhoMadeWho & Kölsch",
      "title": "Heartless (Alex Wann Remix)",
-     "label": "The Moment"
+     "label": "The Moment",
+     "bp": "bp:19547247",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/285c0bee-063e-4c7c-9a13-b556192fcb60.LOFI.mp3",
+     "name": "Heartless",
+     "mix": "Alex Wann Remix",
+     "genre": "melodic-house-techno",
+     "released": "2024-11-08",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -2459,7 +2579,8 @@
      "minute": null,
      "artist": "Montly Nolan",
      "title": "Everybody Get Up",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2556,13 +2677,15 @@
      "minute": null,
      "artist": "HILLS",
      "title": "Rack City",
-     "label": "Repopulate Mars"
+     "label": "Repopulate Mars",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Paul Martin & Dlpin",
      "title": "Day'n'Night",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2581,7 +2704,8 @@
      "minute": null,
      "artist": "Dot N Life & LOVRA",
      "title": "Activated",
-     "label": "Housecat"
+     "label": "Housecat",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2626,7 +2750,8 @@
      "minute": null,
      "artist": "WILL K",
      "title": "MONACO",
-     "label": "Repopulate Mars"
+     "label": "Repopulate Mars",
+     "retry": 1
     }
    ]
   },
@@ -2689,7 +2814,8 @@
      "minute": 21,
      "artist": "Kanye West",
      "title": "I Wonder (GORDO & Cees & CS Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -2730,7 +2856,8 @@
      "minute": 41,
      "artist": "Ahmed Spins & Ankhoï Feat. Caroline Byrne & Neyl",
      "title": "Mood",
-     "label": "DHB"
+     "label": "DHB",
+     "retry": 1
     },
     {
      "minute": 44,
@@ -2749,7 +2876,8 @@
      "minute": 48,
      "artist": "Alex Wann & Malachiii & Bees & Honey",
      "title": "Moon",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "retry": 1
     }
    ]
   },
@@ -2777,7 +2905,8 @@
      "minute": 4,
      "artist": "Dombresky & Crusy",
      "title": "Casablanca",
-     "label": "Process - PRX003"
+     "label": "Process - PRX003",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -2840,13 +2969,15 @@
      "minute": 32,
      "artist": "Alex Wann & Malachiii & Bees & Honey",
      "title": "Moon",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "retry": 1
     },
     {
      "minute": 37,
      "artist": "The Caesars",
      "title": "Jerk It Out (Notre Dame Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -2896,7 +3027,8 @@
      "minute": 13,
      "artist": "Max Niklas",
      "title": "Chess",
-     "label": "Crash Your Sound"
+     "label": "Crash Your Sound",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -2915,7 +3047,8 @@
      "minute": 22,
      "artist": "Starfox",
      "title": "Tender",
-     "label": "TRIP AND BASS"
+     "label": "TRIP AND BASS",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -2986,7 +3119,8 @@
      "minute": 51,
      "artist": "Robin Schulz Feat. Zoe Wees",
      "title": "AM To PM (Hypaton Extended Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -3018,7 +3152,8 @@
      "minute": 63,
      "artist": "Dombresky & Crusy",
      "title": "Casablanca",
-     "label": "Process - PRX003"
+     "label": "Process - PRX003",
+     "retry": 1
     },
     {
      "minute": 67,
@@ -3081,13 +3216,15 @@
      "minute": 90,
      "artist": "Alex Wann & Malachiii & Bees & Honey",
      "title": "Moon",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "retry": 1
     },
     {
      "minute": 94,
      "artist": "The Caesars",
      "title": "Jerk It Out (Notre Dame Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 99,
@@ -3168,7 +3305,8 @@
      "minute": null,
      "artist": "Dombresky & Crusy",
      "title": "Casablanca",
-     "label": "Process - PRX003"
+     "label": "Process - PRX003",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3231,13 +3369,15 @@
      "minute": null,
      "artist": "Alex Wann & Malachiii & Bees & Honey",
      "title": "Moon",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "The Caesars",
      "title": "Jerk It Out (Notre Dame Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3369,7 +3509,8 @@
      "minute": null,
      "artist": "Max Styler & Anthony Attalla & Brux",
      "title": "Talk To Me",
-     "label": "Sink Or Swim"
+     "label": "Sink Or Swim",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3423,13 +3564,15 @@
      "minute": null,
      "artist": "Glockenbach & Joel Corry & Tenchi Feat. ClockClock",
      "title": "YEAH",
-     "label": "Wefor"
+     "label": "Wefor",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Skrillex & Fred Again.. & Flowdan",
      "title": "Rumble (Pickle Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3487,7 +3630,8 @@
      "minute": null,
      "artist": "Joel Corry & Tom Grennan",
      "title": "Lionheart (Fearless) (Mark Roma Remix)",
-     "label": "Atlantic"
+     "label": "Atlantic",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3529,13 +3673,15 @@
      "minute": 7,
      "artist": "Alex Wann & David Mackay",
      "title": "I Need",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 11,
      "artist": "Liva K & HotLap",
      "title": "Im Sure You Can",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -3585,13 +3731,15 @@
      "minute": 36,
      "artist": "Alex Wann",
      "title": "Idone",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "retry": 1
     },
     {
      "minute": 42,
      "artist": "Parcels",
      "title": "Overnight (Alex Wann Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -3602,13 +3750,15 @@
      "minute": 50,
      "artist": "Chris Rea",
      "title": "On The Beach (Betical Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 56,
      "artist": "Jamie xx Feat. Romy & Oliver Sim",
      "title": "Waited All Night (Alex Wann Remix)",
-     "label": "Young"
+     "label": "Young",
+     "retry": 1
     },
     {
      "minute": 60,
@@ -3627,31 +3777,36 @@
      "minute": 65,
      "artist": "Alex Wann & Malachiii & Bees & Honey",
      "title": "Moon (Luch Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 71,
      "artist": "Arctic Monkeys",
      "title": "Do I Wanna Know? (Bletter Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 76,
      "artist": "Alex Wann & Notre Dame Feat. Carte Blanche",
      "title": "The City (Peace Control Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 82,
      "artist": "Luch",
      "title": "Azybu",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 88,
      "artist": "GUDFELLA & Nariman",
      "title": "Wild One",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 93,

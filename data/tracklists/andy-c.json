@@ -35,19 +35,29 @@
      "minute": 3,
      "artist": "Junk Mail & A.M.C",
      "title": "Adrenaline",
-     "label": "Ram"
+     "label": "Ram",
+     "retry": 1
     },
     {
      "minute": 3,
      "artist": "Kanye West & Ty Dolla $ign Pres. ¥$ Feat. Playboi Carti & Rich The Kid",
      "title": "CARNIVAL",
-     "label": "Yzy"
+     "label": "Yzy",
+     "bp": "bp:24369348",
+     "score": 0.836,
+     "preview": "https://geo-samples.beatport.com/track/c7b39e53-22e2-49f8-80aa-01db4138d2c3.LOFI.mp3",
+     "name": "CARNIVAL",
+     "mix": "Intro",
+     "genre": "hip-hop",
+     "released": "2024-02-09",
+     "via": "retry"
     },
     {
      "minute": 4,
      "artist": "Masters At Work",
      "title": "Work (AC13 Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -66,7 +76,8 @@
      "minute": 6,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (Dimension Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -168,13 +179,15 @@
      "minute": 10,
      "artist": "TC",
      "title": "Where's My Money (A.M.C & Turno Remix)",
-     "label": "D-Style"
+     "label": "D-Style",
+     "retry": 1
     },
     {
      "minute": 11,
      "artist": "Benny Benassi Feat. Gary Go",
      "title": "Cinema (Bugwell Edit)",
-     "label": "Ultra"
+     "label": "Ultra",
+     "retry": 1
     },
     {
      "minute": 11,
@@ -232,25 +245,29 @@
      "minute": 14,
      "artist": "Lethal Bizzle",
      "title": "Pow (SOTA Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 14,
      "artist": "Stephanie",
      "title": "Groovin To The Beat (Disrupta Edit / A.M.C Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 15,
      "artist": "Major Lazer & James Hype",
      "title": "Number 1 (Bennie Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 16,
      "artist": "Teddy Killerz",
      "title": "Gun",
-     "label": "Souped Up"
+     "label": "Souped Up",
+     "retry": 1
     },
     {
      "minute": 16,
@@ -300,7 +317,8 @@
      "minute": 21,
      "artist": "Blooom",
      "title": "Sweet Dreams",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 21,
@@ -358,7 +376,8 @@
      "minute": 25,
      "artist": "Pendulum Feat. Fresh & $Pyda & Tenor Fly",
      "title": "Tarantula (ShockOne & Ekko & Sidetrack Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 26,
@@ -373,13 +392,22 @@
      "minute": 26,
      "artist": "Sub Focus Feat. Poppy Baskcomb",
      "title": "Off The Ground",
-     "label": ""
+     "label": "",
+     "bp": "bp:16660579",
+     "score": 0.81,
+     "preview": "https://geo-samples.beatport.com/track/3524157c-52ac-4f57-a04c-b779a2c7c09d.LOFI.mp3",
+     "name": "Off The Ground",
+     "mix": "Original Mix",
+     "genre": "drum-bass",
+     "released": "2022-06-20",
+     "via": "retry"
     },
     {
      "minute": 27,
      "artist": "ACRAZE & Cherish vs 23",
      "title": "Do It To It vs Pink Soldiers (Squid Game OST) (Zedd Edit / Barely Alive Re-Edit / A.M.C Squid Edit)",
-     "label": "Thrive"
+     "label": "Thrive",
+     "retry": 1
     },
     {
      "minute": 28,
@@ -424,19 +452,22 @@
      "minute": 32,
      "artist": "PinkPantheress & Ice Spice",
      "title": "Boy's A Liar Pt.2 (SOTA R1 Remix)",
-     "label": "Warner UK"
+     "label": "Warner UK",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[3?] Jayceeoh & YUSSI",
      "title": "Extra (A.M.C Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[3?] Adam F",
      "title": "Circles (A.M.C X Pola & Bryson Operator Edit)",
-     "label": "Positiva"
+     "label": "Positiva",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -455,7 +486,8 @@
      "minute": 33,
      "artist": "Bugwell",
      "title": "Make Me Move",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 35,
@@ -487,13 +519,15 @@
      "minute": 37,
      "artist": "Andy C",
      "title": "What Bass",
-     "label": "Ram"
+     "label": "Ram",
+     "retry": 1
     },
     {
      "minute": 39,
      "artist": "Wyld Dogz",
      "title": "Spaceman",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -547,13 +581,15 @@
      "minute": 43,
      "artist": "SOTA",
      "title": "G6 Dub",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 44,
      "artist": "AC13",
      "title": "Make It Bounce",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 45,
@@ -637,7 +673,8 @@
      "minute": 51,
      "artist": "Synergy (RU) & What So Not",
      "title": "Freedom",
-     "label": "UKF"
+     "label": "UKF",
+     "retry": 1
     },
     {
      "minute": 52,
@@ -656,13 +693,15 @@
      "minute": 54,
      "artist": "''AC13",
      "title": "?''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 55,
      "artist": "The Prodigy",
      "title": "Voodoo People (Delta Heavy Remix)",
-     "label": "XL"
+     "label": "XL",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -703,7 +742,8 @@
      "minute": 56,
      "artist": "Black Sabbath",
      "title": "War Pigs (Deep Notion Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 56,
@@ -775,13 +815,15 @@
      "minute": 0,
      "artist": "Sound In Noise",
      "title": "Fake World",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 1,
      "artist": "TC",
      "title": "New Thousands",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -813,13 +855,15 @@
      "minute": 2,
      "artist": "SOTA",
      "title": "G6 Dub",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 3,
      "artist": "Fred Again.. & Baby Keem",
      "title": "Leavemealone (ID Remix)",
-     "label": "Atlantic (Warner)"
+     "label": "Atlantic (Warner)",
+     "retry": 1
     },
     {
      "minute": null,
@@ -838,31 +882,36 @@
      "minute": null,
      "artist": "+ Teddy Killerz",
      "title": "DO U L ME",
-     "label": "Roadblock"
+     "label": "Roadblock",
+     "retry": 1
     },
     {
      "minute": 5,
      "artist": "Black Eyed Peas",
      "title": "Pump It (Tantron DnB Bootleg) [[https://soundcloud.com/tantronmusic/pump-it-tantron-dnb-bootleg-free-download Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 6,
      "artist": "Chris Kastro",
      "title": "Transport",
-     "label": "OCC"
+     "label": "OCC",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ Nu Elementz & Dominator",
      "title": "Spartanz (Bou VIP)",
-     "label": "Sweet Tooth"
+     "label": "Sweet Tooth",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ Bennie",
      "title": "Blitz",
-     "label": "Elevate (Shogun)"
+     "label": "Elevate (Shogun)",
+     "retry": 1
     },
     {
      "minute": null,
@@ -881,7 +930,8 @@
      "minute": 7,
      "artist": "Bring Me The Horizon",
      "title": "Can You Feel My Heart (SOTA Remix) [[https://m.soundcloud.com/waveamp/can-you-feel-my-heart-sota-remix-extended Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -952,7 +1002,8 @@
      "minute": 13,
      "artist": "'''''Bou & Trigga",
      "title": "ID'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 14,
@@ -967,7 +1018,15 @@
      "minute": null,
      "artist": "+ Urban Shakedown Feat. Mickey Finn",
      "title": "Some Justice (Arsonist Dub Mix)",
-     "label": "Urban Shakedown"
+     "label": "Urban Shakedown",
+     "bp": "bp:13192777",
+     "score": 0.97,
+     "preview": "https://geo-samples.beatport.com/track/eb8fff34-d00d-46d8-b370-5a0ba7ec699b.LOFI.mp3",
+     "name": "Some Justice '95",
+     "mix": "Arsonist Dub Mix",
+     "genre": "drum-bass",
+     "released": "2020-03-02",
+     "via": "retry"
     },
     {
      "minute": 16,
@@ -1056,7 +1115,8 @@
      "minute": null,
      "artist": "+ '''''The Prodigy",
      "title": "Voodoo People (Delta Heavy Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 20,
@@ -1101,31 +1161,36 @@
      "minute": null,
      "artist": "+ Artemas",
      "title": "I Like The Way You Kiss Me (Culture Shock's D&B Flip) [[https://soundcloud.com/culture-shock/artemas-flip Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 22,
      "artist": "'''''La Roux",
      "title": "In For The Kill (AC13 Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 23,
      "artist": "'''''La Roux",
      "title": "In For The Kill (Crissy Criss Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ Pendulum",
      "title": "Masochist",
-     "label": "Breakbeat Kaos"
+     "label": "Breakbeat Kaos",
+     "retry": 1
     },
     {
      "minute": 25,
      "artist": "'''''Original Sin",
      "title": "Therapy (A.M.C & Turno Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1144,31 +1209,36 @@
      "minute": 26,
      "artist": "Bad Company & Trace",
      "title": "Nitrous (Dillinja Remix)",
-     "label": "BC"
+     "label": "BC",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ Bou",
      "title": "Nokia Riddem VIP",
-     "label": "Island"
+     "label": "Island",
+     "retry": 1
     },
     {
      "minute": 27,
      "artist": "Oliver Tree & Robin Schulz",
      "title": "Miss You (Kezman DnB Bootleg) [[https://soundcloud.com/djkezman/oliver-tree-robin-schulz-miss-you-kezman-dnb-bootleg Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ Synergy & What So Not",
      "title": "Freedom",
-     "label": "UKF"
+     "label": "UKF",
+     "retry": 1
     },
     {
      "minute": 29,
      "artist": "'''''Pendulum & Fresh Feat. $pyda & Tenor Fly",
      "title": "Tarantula (ShockOne, Ekko & Sidetrack Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 30,
@@ -1183,7 +1253,15 @@
      "minute": 30,
      "artist": "Sub Focus Feat. Poppy Baskcomb",
      "title": "Off The Ground",
-     "label": "EMI"
+     "label": "EMI",
+     "bp": "bp:16660579",
+     "score": 0.81,
+     "preview": "https://geo-samples.beatport.com/track/3524157c-52ac-4f57-a04c-b779a2c7c09d.LOFI.mp3",
+     "name": "Off The Ground",
+     "mix": "Original Mix",
+     "genre": "drum-bass",
+     "released": "2022-06-20",
+     "via": "retry"
     },
     {
      "minute": 31,
@@ -1202,31 +1280,36 @@
      "minute": 32,
      "artist": "PinkPantheress & Ice Spice",
      "title": "Boy's A Liar Pt. 2 (SOTA R1 Remix)",
-     "label": "Warner"
+     "label": "Warner",
+     "retry": 1
     },
     {
      "minute": 33,
      "artist": "Drumsound & Bassline Smith",
      "title": "Bassline",
-     "label": "Technique"
+     "label": "Technique",
+     "retry": 1
     },
     {
      "minute": 33,
      "artist": "Skantia",
      "title": "Yoyo Bop",
-     "label": "skant.net"
+     "label": "skant.net",
+     "retry": 1
     },
     {
      "minute": 34,
      "artist": "Shouse",
      "title": "Love Tonight (Millbrook Bootleg) [[https://soundcloud.com/millbrook-music/love-tonight-millbrook-bootleg Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ '''''Adam F",
      "title": "Circles (A.M.C Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 35,
@@ -1245,7 +1328,8 @@
      "minute": null,
      "artist": "+ '''''Bugwell",
      "title": "Make Me Move'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1277,7 +1361,8 @@
      "minute": null,
      "artist": "+ Culture Shock",
      "title": "Breathe",
-     "label": "Culture Shock"
+     "label": "Culture Shock",
+     "retry": 1
     },
     {
      "minute": 38,
@@ -1296,7 +1381,8 @@
      "minute": null,
      "artist": "+ '''''Danny Byrd Feat. Liquid",
      "title": "Sweet Harmony (DNMO Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -1315,13 +1401,15 @@
      "minute": null,
      "artist": "+ Bicep",
      "title": "Glue (Kanine Remix) [[https://soundcloud.com/kaninednb/bicep-glue-kanine-remix Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 41,
      "artist": "The Prodigy",
      "title": "Omen (Gray & Crossy Bootleg) [[https://soundcloud.com/gray_music/the-prodigy-omen-gray-crossy-bootleg Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1340,25 +1428,29 @@
      "minute": 43,
      "artist": "Dimension",
      "title": "UK (Bou Remix)",
-     "label": "MTA"
+     "label": "MTA",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ DJ Hazard & Vague",
      "title": "Panic",
-     "label": "Hazardous Material"
+     "label": "Hazardous Material",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ Skantia",
      "title": "MeANDu",
-     "label": "Skant.net"
+     "label": "Skant.net",
+     "retry": 1
     },
     {
      "minute": 44,
      "artist": "Sub Zero",
      "title": "Bounce",
-     "label": "Crucast"
+     "label": "Crucast",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1382,7 +1474,8 @@
      "minute": null,
      "artist": "+ Turno",
      "title": "High Roller (A.M.C Remix)",
-     "label": "Time Is Now"
+     "label": "Time Is Now",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -1414,7 +1507,8 @@
      "minute": 49,
      "artist": "'''''Bad Company",
      "title": "Planet Dust (Junk Mail Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1459,19 +1553,22 @@
      "minute": 50,
      "artist": "Toxinate",
      "title": "Nope",
-     "label": "Dubz"
+     "label": "Dubz",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ Skantia",
      "title": "Motive",
-     "label": "Dance Macabre"
+     "label": "Dance Macabre",
+     "retry": 1
     },
     {
      "minute": 51,
      "artist": "Benny Benassi Feat. Gary Go",
      "title": "Cinema (Bugwell Edit)",
-     "label": "Ultra"
+     "label": "Ultra",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1503,7 +1600,8 @@
      "minute": 53,
      "artist": "Chase & Status & Bou Feat. Trigga & IRAH & Flowdan & Takura",
      "title": "Baddadan (Tantron VIP Bootleg) [[https://www.patreon.com/tantronmusic/posts/first-patreon-148293916 Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 53,
@@ -1561,13 +1659,15 @@
      "minute": 55,
      "artist": "Junk Mail",
      "title": "Lock Stock (A.M.C Remix)",
-     "label": "Ram"
+     "label": "Ram",
+     "retry": 1
     },
     {
      "minute": 55,
      "artist": "Eliminate",
      "title": "Weeble Wobble VIP (Circadian Bootleg) [[https://soundcloud.com/crucast/eliminate-weeble-wobble-vip-circadians-vip-of-the-vip Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 56,
@@ -1595,7 +1695,8 @@
      "minute": 57,
      "artist": "'''''Kanye West & Ty Dolla $ign Pres. ¥$ Feat. Playboi Carti & Rich The Kid",
      "title": "CARNIVAL (ID Remix)'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1610,7 +1711,8 @@
      "minute": 58,
      "artist": "TC",
      "title": "Where's My Money (A.M.C & Turno Remix)",
-     "label": "D-Style"
+     "label": "D-Style",
+     "retry": 1
     },
     {
      "minute": 59,
@@ -1629,7 +1731,8 @@
      "minute": null,
      "artist": "+ Sub Focus",
      "title": "Druggy",
-     "label": "Ram"
+     "label": "Ram",
+     "retry": 1
     }
    ]
   },
@@ -1679,7 +1782,8 @@
      "minute": 2,
      "artist": "Pharoahe Monch",
      "title": "Simon Says (Don Darkoe Banned Remix)",
-     "label": "Trescadecaphobia"
+     "label": "Trescadecaphobia",
+     "retry": 1
     },
     {
      "minute": 3,
@@ -1698,7 +1802,8 @@
      "minute": 3,
      "artist": "Kanine & Arcando Feat. HEIGHTS",
      "title": "Lost Tonight",
-     "label": "UKF"
+     "label": "UKF",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -1730,7 +1835,8 @@
      "minute": 6,
      "artist": "John Summit & HAYLA",
      "title": "Shiver (Cassian Remix / Andromedik Edit)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 7,
@@ -1806,37 +1912,43 @@
      "minute": 11,
      "artist": "Sub Focus Feat. Gene Farris",
      "title": "It's Time (Grafix Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 12,
      "artist": "A.M.C",
      "title": "Look Out (VIP)",
-     "label": "Titan"
+     "label": "Titan",
+     "retry": 1
     },
     {
      "minute": 12,
      "artist": "Dillinja",
      "title": "In The Grind (Drumsound & Bassline Smith Remix)",
-     "label": "Valve"
+     "label": "Valve",
+     "retry": 1
     },
     {
      "minute": 13,
      "artist": "Bad Company",
      "title": "The Nine (Junk Mail Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 13,
      "artist": "John Summit & Sub Focus Feat. Julia Church",
      "title": "Go Back (Arcasia Remix)",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "retry": 1
     },
     {
      "minute": 15,
      "artist": "Nero",
      "title": "Me & You (Bennie Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 16,
@@ -1917,7 +2029,8 @@
      "minute": 23,
      "artist": "Basstripper",
      "title": "In The City (VIP)",
-     "label": "Dnb Allstars"
+     "label": "Dnb Allstars",
+     "retry": 1
     },
     {
      "minute": 23,
@@ -1936,7 +2049,8 @@
      "minute": 23,
      "artist": "Eliminate",
      "title": "BREAKSH!T (Bennie Remix)",
-     "label": "Disciple"
+     "label": "Disciple",
+     "retry": 1
     },
     {
      "minute": 24,
@@ -2007,13 +2121,15 @@
      "minute": 28,
      "artist": "Knife Party",
      "title": "LRAD (Daymu Remix)",
-     "label": "Earstorm"
+     "label": "Earstorm",
+     "retry": 1
     },
     {
      "minute": 28,
      "artist": "Black Sabbath",
      "title": "War Pigs (Deep Notion Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 29,
@@ -2080,7 +2196,8 @@
      "minute": 32,
      "artist": "Macky Gee",
      "title": "Tour (Entity Bootleg)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 32,
@@ -2157,19 +2274,22 @@
      "minute": 2,
      "artist": "'''''+ Original Sin",
      "title": "Therapy (A.M.C & Turno Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 3,
      "artist": "Andy C Feat. whoismoli",
      "title": "Positions VIP",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 4,
      "artist": "1991 & Rova",
      "title": "Hijack",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -2321,7 +2441,8 @@
      "minute": 21,
      "artist": "Akrom",
      "title": "Avenger",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 22,
@@ -2407,7 +2528,8 @@
      "minute": 32,
      "artist": "DJ Stephanie",
      "title": "Groovin To The Beat (Disrupta Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -2457,7 +2579,8 @@
      "minute": 38,
      "artist": "Waeys & Gino",
      "title": "Arrivata",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -2555,13 +2678,15 @@
      "minute": 52,
      "artist": "Black Eyed Peas",
      "title": "Pump It (Tantron DnB Bootleg) [[https://soundcloud.com/tantronmusic/pump-it-tantron-dnb-bootleg-free-download Free Download]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 54,
      "artist": "Flint & Figure  Feat. Charlie J",
      "title": "Deep End",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -2693,7 +2818,8 @@
      "minute": 76,
      "artist": "MANIA & JJL",
      "title": "High",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 77,
@@ -2725,7 +2851,8 @@
      "minute": 80,
      "artist": "Andy C & Ferry Corsten",
      "title": "Punk",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 81,
@@ -2744,7 +2871,8 @@
      "minute": 82,
      "artist": "'''''The Prodigy",
      "title": "Voodoo People (Delta Heavy Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 83,
@@ -2924,7 +3052,8 @@
      "minute": 109,
      "artist": "'''''Linkin Park",
      "title": "In The The End (Audio Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 110,
@@ -2943,7 +3072,8 @@
      "minute": 112,
      "artist": "+ Dimension",
      "title": "Offender",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 112,
@@ -2998,19 +3128,22 @@
      "minute": 119,
      "artist": "Benny Benassi ft. Gary Go",
      "title": "Cinema (Bugwell Edit)",
-     "label": "ULTRA???"
+     "label": "ULTRA???",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[2:00:18?] '''''Sub Focus",
      "title": "Solar System [EMI]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[2:02:00?] '''''Andy C Feat. Fiora",
      "title": "Heartbeat Loud (Extended Version) [Ram]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 122,
@@ -3021,7 +3154,8 @@
      "minute": 123,
      "artist": "Mozey & Circadian",
      "title": "LOUDER",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3066,7 +3200,8 @@
      "minute": 129,
      "artist": "Eric Prydz",
      "title": "Opus (remix???)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 130,
@@ -3090,7 +3225,8 @@
      "minute": 132,
      "artist": "Acraze",
      "title": "Do It To It (A.M.C Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 133,
@@ -3109,7 +3245,15 @@
      "minute": 134,
      "artist": "Sub Focus Feat. Poppy Baskcomb",
      "title": "Off The Ground",
-     "label": "EMI"
+     "label": "EMI",
+     "bp": "bp:16660579",
+     "score": 0.81,
+     "preview": "https://geo-samples.beatport.com/track/3524157c-52ac-4f57-a04c-b779a2c7c09d.LOFI.mp3",
+     "name": "Off The Ground",
+     "mix": "Original Mix",
+     "genre": "drum-bass",
+     "released": "2022-06-20",
+     "via": "retry"
     },
     {
      "minute": 135,
@@ -3177,7 +3321,8 @@
      "minute": 142,
      "artist": "Sanfekere",
      "title": "Latgale Trip V3 (Live)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 143,
@@ -3310,7 +3455,8 @@
      "minute": null,
      "artist": "+ '''''Pendulum",
      "title": "Blood Sugar (The Prototypes Remix)  [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 159,
@@ -3329,13 +3475,15 @@
      "minute": null,
      "artist": "'''''Dillinja",
      "title": "In The Grind (Drumsound & Bassline Smith Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ Bad Company",
      "title": "The Nine",
-     "label": "BC"
+     "label": "BC",
+     "retry": 1
     },
     {
      "minute": 160,
@@ -3367,13 +3515,15 @@
      "minute": 162,
      "artist": "'''''Nero",
      "title": "Me & You (Bennie Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 163,
      "artist": "Loadstar",
      "title": "Bomber???",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 164,
@@ -3406,7 +3556,8 @@
      "minute": null,
      "artist": "'''''[2:49:40??? Black Bladerunner remix?] + Ray Keith",
      "title": "Dark Soldier (Benny L Remix) [Dread]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 172,
@@ -3438,7 +3589,8 @@
      "minute": 173,
      "artist": "DJ Aristocat",
      "title": "War Pigs / Simon Says",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 174,
@@ -3554,7 +3706,8 @@
      "minute": null,
      "artist": "Watch The Ride",
      "title": "MAD! (All Hands Up In The Air)",
-     "label": "Kool"
+     "label": "Kool",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3599,19 +3752,29 @@
      "minute": null,
      "artist": "Rudimental, John Newman & Alex Clare",
      "title": "Not Giving In",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "T & Sugah",
      "title": "Louder",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Morgan Seatree & Florence + The Machine",
      "title": "Say My Name (Sub Focus Remix)",
-     "label": ""
+     "label": "",
+     "bp": "bp:20343291",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/33e90dfc-50d0-4c2f-85dc-ed42b646e918.LOFI.mp3",
+     "name": "Say My Name",
+     "mix": "Sub Focus Remix",
+     "genre": "drum-bass",
+     "released": "2025-04-04",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -3656,7 +3819,8 @@
      "minute": null,
      "artist": "Pola & Bryson, goddard.",
      "title": "Listen",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3675,7 +3839,8 @@
      "minute": null,
      "artist": "Hendemics",
      "title": "It's Not So Zaag",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3782,7 +3947,8 @@
      "minute": null,
      "artist": "Sanfekere",
      "title": "Latgale Trip V3 (Live)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3814,13 +3980,15 @@
      "minute": null,
      "artist": "Ung Thanh Xuân",
      "title": "Utx mix 03",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "'''''Linkin Park",
      "title": "In The End (Audio Remix) [Unreleased]'''''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3865,7 +4033,8 @@
      "minute": null,
      "artist": "A.M.C",
      "title": "I See You",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3884,25 +4053,29 @@
      "minute": null,
      "artist": "Watch the Ride",
      "title": "MAD! (All Hands Up In The Air)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Enei",
      "title": "Want It",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Masyaka",
      "title": "The Last On The Planet",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Micron",
      "title": "1994",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4030,7 +4203,8 @@
      "minute": null,
      "artist": "Wilkinson",
      "title": "Machina",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4049,7 +4223,8 @@
      "minute": null,
      "artist": "Drumsound & Bassline Smith",
      "title": "Navajo",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4116,19 +4291,22 @@
      "minute": null,
      "artist": "State of Mind",
      "title": "Shout",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "S.P.Y",
      "title": "Spire",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "System F & Circadian",
      "title": "Cry",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4223,7 +4401,8 @@
      "minute": 16,
      "artist": "Skantia",
      "title": "Posra",
-     "label": "Skant.Net"
+     "label": "Skant.Net",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -4294,7 +4473,15 @@
      "minute": 36,
      "artist": "Rusko Feat. Amber Coffman",
      "title": "Hold On (Sub Focus Remix)",
-     "label": "Mad Decent/Downtown"
+     "label": "Mad Decent/Downtown",
+     "bp": "bp:15748868",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/ac88b38b-9a8f-4a04-ae55-4cbae27ade31.LOFI.mp3",
+     "name": "Hold On",
+     "mix": "Sub Focus Remix",
+     "genre": "electronica",
+     "released": "2010-01-01",
+     "via": "retry"
     },
     {
      "minute": 41,
@@ -4327,19 +4514,22 @@
      "minute": 0,
      "artist": "Sigma & DJ Fresh",
      "title": "Cylon",
-     "label": "Breakbeat Kaos"
+     "label": "Breakbeat Kaos",
+     "retry": 1
     },
     {
      "minute": 0,
      "artist": "+ Konflict",
      "title": "Messiah",
-     "label": "Renegade Hardware"
+     "label": "Renegade Hardware",
+     "retry": 1
     },
     {
      "minute": 1,
      "artist": "+ Bad Company",
      "title": "Nitrous (Dillinja Remix)",
-     "label": "BC"
+     "label": "BC",
+     "retry": 1
     },
     {
      "minute": 1,
@@ -4358,7 +4548,8 @@
      "minute": 2,
      "artist": "Bad Company",
      "title": "Hornet",
-     "label": "BC"
+     "label": "BC",
+     "retry": 1
     },
     {
      "minute": 2,
@@ -4377,7 +4568,8 @@
      "minute": 4,
      "artist": "Noisia",
      "title": "Facade",
-     "label": "RAM"
+     "label": "RAM",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -4431,7 +4623,8 @@
      "minute": 9,
      "artist": "Commix",
      "title": "Faceless",
-     "label": "Shogun"
+     "label": "Shogun",
+     "retry": 1
     },
     {
      "minute": 9,
@@ -4446,7 +4639,8 @@
      "minute": 11,
      "artist": "Rene Lavice",
      "title": "Spile",
-     "label": "Rubik"
+     "label": "Rubik",
+     "retry": 1
     },
     {
      "minute": 12,
@@ -4465,7 +4659,8 @@
      "minute": 12,
      "artist": "+ Bad Company",
      "title": "Snow Cat",
-     "label": "BC"
+     "label": "BC",
+     "retry": 1
     },
     {
      "minute": 13,
@@ -4519,7 +4714,8 @@
      "minute": 15,
      "artist": "Ed Rush & Optical",
      "title": "Kerbkrawler",
-     "label": "Virus"
+     "label": "Virus",
+     "retry": 1
     },
     {
      "minute": 16,
@@ -4577,7 +4773,8 @@
      "minute": 19,
      "artist": "+ Roni Size / Reprazent",
      "title": "Trust Me",
-     "label": "Talkin' Loud"
+     "label": "Talkin' Loud",
+     "retry": 1
     },
     {
      "minute": 21,
@@ -4596,43 +4793,50 @@
      "minute": 22,
      "artist": "Capone",
      "title": "Friday",
-     "label": "Hardleaders"
+     "label": "Hardleaders",
+     "retry": 1
     },
     {
      "minute": 23,
      "artist": "+ Ed Rush & Optical",
      "title": "Fixation",
-     "label": "Virus"
+     "label": "Virus",
+     "retry": 1
     },
     {
      "minute": 24,
      "artist": "Ed Rush & Optical",
      "title": "Compound",
-     "label": "Virus"
+     "label": "Virus",
+     "retry": 1
     },
     {
      "minute": 25,
      "artist": "Konflict",
      "title": "Beckoning",
-     "label": "Renegade Hardware"
+     "label": "Renegade Hardware",
+     "retry": 1
     },
     {
      "minute": 26,
      "artist": "+ Engineers Without Fears",
      "title": "Spiritual Aura",
-     "label": "Dee Jay"
+     "label": "Dee Jay",
+     "retry": 1
     },
     {
      "minute": 27,
      "artist": "BC",
      "title": "Four-Days",
-     "label": "BC"
+     "label": "BC",
+     "retry": 1
     },
     {
      "minute": 28,
      "artist": "+ Jo",
      "title": "R Type",
-     "label": "Awesome"
+     "label": "Awesome",
+     "retry": 1
     },
     {
      "minute": 28,
@@ -4690,7 +4894,8 @@
      "minute": 31,
      "artist": "+ Ray Kieth",
      "title": "Dubplate (Part 2)",
-     "label": "Not On - RK 01"
+     "label": "Not On - RK 01",
+     "retry": 1
     },
     {
      "minute": 32,
@@ -4731,19 +4936,22 @@
      "minute": 33,
      "artist": "''Andy C",
      "title": "What Bass (ID Remix)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 36,
      "artist": "Pendulum",
      "title": "Vault",
-     "label": "31"
+     "label": "31",
+     "retry": 1
     },
     {
      "minute": 36,
      "artist": "+ Shy FX",
      "title": "Bambaata",
-     "label": "Ebony"
+     "label": "Ebony",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -4775,7 +4983,8 @@
      "minute": 40,
      "artist": "Wickaman & RV",
      "title": "Ev's Dead",
-     "label": "RAM"
+     "label": "RAM",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -4794,7 +5003,8 @@
      "minute": 42,
      "artist": "Enei",
      "title": "Grave",
-     "label": "Critical"
+     "label": "Critical",
+     "retry": 1
     },
     {
      "minute": 42,
@@ -4852,13 +5062,15 @@
      "minute": 45,
      "artist": "Ed Rush, Optical & Fierce",
      "title": "Cutslo (Lokuste Mix)",
-     "label": "Prototype"
+     "label": "Prototype",
+     "retry": 1
     },
     {
      "minute": 47,
      "artist": "BC",
      "title": "Ladies Of Spain (Billain Remix)",
-     "label": "Unreleased"
+     "label": "Unreleased",
+     "retry": 1
     },
     {
      "minute": 48,
@@ -4921,13 +5133,15 @@
      "minute": 53,
      "artist": "''Layo & Bushwacka!",
      "title": "Love Story (ID Remix)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 55,
      "artist": "Stakka & Skynet",
      "title": "Decoy",
-     "label": "Underfire"
+     "label": "Underfire",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -4998,7 +5212,8 @@
      "minute": 59,
      "artist": "RAM Trilogy",
      "title": "Skittles",
-     "label": "RAM"
+     "label": "RAM",
+     "retry": 1
     },
     {
      "minute": 59,
@@ -5030,13 +5245,15 @@
      "minute": 61,
      "artist": "''Sound Of The Future",
      "title": "The Lighter (ID Remix)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 62,
      "artist": "+ Break",
      "title": "Run Off",
-     "label": "Quarantine"
+     "label": "Quarantine",
+     "retry": 1
     },
     {
      "minute": 62,
@@ -5055,7 +5272,8 @@
      "minute": 63,
      "artist": "+ Firefox",
      "title": "Bonanza Kid",
-     "label": "Philly Blunt"
+     "label": "Philly Blunt",
+     "retry": 1
     },
     {
      "minute": 63,
@@ -5074,7 +5292,8 @@
      "minute": 64,
      "artist": "+ Shy FX",
      "title": "Wolf",
-     "label": "Ebony"
+     "label": "Ebony",
+     "retry": 1
     },
     {
      "minute": 64,
@@ -5106,13 +5325,15 @@
      "minute": 66,
      "artist": "Cybotron Feat. Dillinja",
      "title": "Threshold",
-     "label": "Prototype"
+     "label": "Prototype",
+     "retry": 1
     },
     {
      "minute": 67,
      "artist": "+ Firefox",
      "title": "Bonanza Kid",
-     "label": "Philly Blunt"
+     "label": "Philly Blunt",
+     "retry": 1
     },
     {
      "minute": 68,
@@ -5144,7 +5365,8 @@
      "minute": 70,
      "artist": "+ Ebony Dubsters",
      "title": "Ra",
-     "label": "Ebony"
+     "label": "Ebony",
+     "retry": 1
     },
     {
      "minute": 72,
@@ -5163,19 +5385,22 @@
      "minute": 72,
      "artist": "Netsky",
      "title": "Tomorrow's Another Day (VIP)",
-     "label": "Playaz"
+     "label": "Playaz",
+     "retry": 1
     },
     {
      "minute": 73,
      "artist": "+ DJ SS",
      "title": "Black (Bladerunner Remix)",
-     "label": "Formation"
+     "label": "Formation",
+     "retry": 1
     },
     {
      "minute": 74,
      "artist": "Dillinja",
      "title": "How Dare You",
-     "label": "Test"
+     "label": "Test",
+     "retry": 1
     },
     {
      "minute": 74,
@@ -5194,19 +5419,22 @@
      "minute": 74,
      "artist": "+ Digital Nation",
      "title": "Aisle 13",
-     "label": "Exit"
+     "label": "Exit",
+     "retry": 1
     },
     {
      "minute": 76,
      "artist": "+ DJ SS",
      "title": "Black (Bladerunner Remix)",
-     "label": "Formation"
+     "label": "Formation",
+     "retry": 1
     },
     {
      "minute": 76,
      "artist": "Cause4Concern",
      "title": "Carrier",
-     "label": "Quarantine"
+     "label": "Quarantine",
+     "retry": 1
     },
     {
      "minute": 77,
@@ -5238,19 +5466,22 @@
      "minute": 79,
      "artist": "+ I Kamanchi",
      "title": "Never Can Tell",
-     "label": "Full Cycle"
+     "label": "Full Cycle",
+     "retry": 1
     },
     {
      "minute": 80,
      "artist": "Ed Rush",
      "title": "Subway",
-     "label": "Prototype"
+     "label": "Prototype",
+     "retry": 1
     },
     {
      "minute": 80,
      "artist": "+ Keaton & Hive",
      "title": "Bring It On",
-     "label": "Violence"
+     "label": "Violence",
+     "retry": 1
     },
     {
      "minute": 81,
@@ -5308,19 +5539,22 @@
      "minute": 84,
      "artist": "Undercover Agent",
      "title": "Babylon (Bladerunner Rebuild)",
-     "label": "Juice"
+     "label": "Juice",
+     "retry": 1
     },
     {
      "minute": 85,
      "artist": "Original Sin",
      "title": "Overfiend",
-     "label": "Playaz"
+     "label": "Playaz",
+     "retry": 1
     },
     {
      "minute": 85,
      "artist": "Zen",
      "title": "Hover Craft",
-     "label": "Grid"
+     "label": "Grid",
+     "retry": 1
     },
     {
      "minute": 86,
@@ -5339,7 +5573,8 @@
      "minute": 89,
      "artist": "Dillinja",
      "title": "In The Grind (Drumsound & Bassline Smith Remix)",
-     "label": "Unreleased"
+     "label": "Unreleased",
+     "retry": 1
     },
     {
      "minute": 89,
@@ -5358,13 +5593,15 @@
      "minute": 92,
      "artist": "Xample & Lomax Pres. Loadstar",
      "title": "Link To The Past",
-     "label": "RAM"
+     "label": "RAM",
+     "retry": 1
     },
     {
      "minute": 92,
      "artist": "+ Misanthrop",
      "title": "Viperfish",
-     "label": "Subtitles"
+     "label": "Subtitles",
+     "retry": 1
     },
     {
      "minute": 92,
@@ -5383,25 +5620,29 @@
      "minute": 93,
      "artist": "Andy C & Shimon",
      "title": "Firewire",
-     "label": "RAM"
+     "label": "RAM",
+     "retry": 1
     },
     {
      "minute": 93,
      "artist": "+ Stakka & Skynet Feat. DJ Friction",
      "title": "Altitude",
-     "label": "Underfire"
+     "label": "Underfire",
+     "retry": 1
     },
     {
      "minute": 94,
      "artist": "Shy FX & T Power",
      "title": "Feelings",
-     "label": "Digital Soundboy"
+     "label": "Digital Soundboy",
+     "retry": 1
     },
     {
      "minute": 95,
      "artist": "+ Digital Nation",
      "title": "Aisle 13",
-     "label": "Exit"
+     "label": "Exit",
+     "retry": 1
     },
     {
      "minute": 96,
@@ -5433,13 +5674,15 @@
      "minute": 97,
      "artist": "Mampi Swift",
      "title": "Gangster",
-     "label": "Charge"
+     "label": "Charge",
+     "retry": 1
     },
     {
      "minute": 98,
      "artist": "Callide",
      "title": "Supreme",
-     "label": "RAM"
+     "label": "RAM",
+     "retry": 1
     },
     {
      "minute": 99,
@@ -5471,7 +5714,8 @@
      "minute": 102,
      "artist": "Mefjus",
      "title": "Hear Me",
-     "label": "Critical"
+     "label": "Critical",
+     "retry": 1
     },
     {
      "minute": 102,
@@ -5516,19 +5760,22 @@
      "minute": 105,
      "artist": "Brain Killers",
      "title": "Screwface",
-     "label": "3rd Party/Kemet"
+     "label": "3rd Party/Kemet",
+     "retry": 1
     },
     {
      "minute": 105,
      "artist": "+ BC",
      "title": "The Pulse",
-     "label": "Prototype"
+     "label": "Prototype",
+     "retry": 1
     },
     {
      "minute": 106,
      "artist": "+ ''Jo",
      "title": "R Type (ID Remix)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 106,
@@ -5586,7 +5833,8 @@
      "minute": 108,
      "artist": "Stakka & Skynet Feat. Kemal + Rob Data",
      "title": "Biosfear",
-     "label": "Underfire"
+     "label": "Underfire",
+     "retry": 1
     },
     {
      "minute": 109,
@@ -5618,13 +5866,15 @@
      "minute": 110,
      "artist": "Sub Focus",
      "title": "Swamp Thing (A.M.C 2024 Update)",
-     "label": "Unreleased"
+     "label": "Unreleased",
+     "retry": 1
     },
     {
      "minute": 111,
      "artist": "+ Calyx",
      "title": "Are You Ready? (Hive & Gridlok Remix)",
-     "label": "Moving Shadow"
+     "label": "Moving Shadow",
+     "retry": 1
     },
     {
      "minute": 111,
@@ -5643,7 +5893,8 @@
      "minute": 112,
      "artist": "+ Kraken",
      "title": "Side Effects (Skynet + Stakka Remix)",
-     "label": "Underfire"
+     "label": "Underfire",
+     "retry": 1
     },
     {
      "minute": 114,
@@ -5662,7 +5913,8 @@
      "minute": 114,
      "artist": "+ Commix",
      "title": "Electric",
-     "label": "Metalheadz"
+     "label": "Metalheadz",
+     "retry": 1
     },
     {
      "minute": 115,
@@ -5681,13 +5933,15 @@
      "minute": 116,
      "artist": "+ Capone",
      "title": "Massive",
-     "label": "Hardleaders"
+     "label": "Hardleaders",
+     "retry": 1
     },
     {
      "minute": 118,
      "artist": "''Sub Focus",
      "title": "Rock It (ID Remix)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 118,
@@ -5750,13 +6004,15 @@
      "minute": 120,
      "artist": "Benny Benassi Feat. Gary Go",
      "title": "Cinema (Bugwell Remix)",
-     "label": "Unreleased"
+     "label": "Unreleased",
+     "retry": 1
     },
     {
      "minute": 121,
      "artist": "+ Black Sabbath",
      "title": "War Pigs (Deep Notion Bootleg)",
-     "label": "Self-Released"
+     "label": "Self-Released",
+     "retry": 1
     }
    ]
   },

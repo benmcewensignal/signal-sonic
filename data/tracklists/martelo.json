@@ -83,7 +83,8 @@
      "minute": 21,
      "artist": "Leod",
      "title": "Untitled 04",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 25,
@@ -364,7 +365,8 @@
      "minute": null,
      "artist": "Mosca",
      "title": "God Of Thunder",
-     "label": "Rent"
+     "label": "Rent",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -3452,7 +3454,8 @@
      "minute": 56,
      "artist": "Leod",
      "title": "Untitled 04",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   }

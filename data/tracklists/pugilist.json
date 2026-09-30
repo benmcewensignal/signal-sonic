@@ -59,7 +59,8 @@
      "minute": null,
      "artist": "Mosca",
      "title": "God Of Thunder",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1465,7 +1466,8 @@
      "minute": 10,
      "artist": "O.M.Theorem",
      "title": "Lemma1-B1",
-     "label": "Self Release"
+     "label": "Self Release",
+     "retry": 1
     },
     {
      "minute": null,

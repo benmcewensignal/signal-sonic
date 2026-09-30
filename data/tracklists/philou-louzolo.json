@@ -321,19 +321,22 @@
      "minute": 4,
      "artist": "JOSEPH",
      "title": "B4U",
-     "label": "Pampa"
+     "label": "Pampa",
+     "retry": 1
     },
     {
      "minute": 10,
      "artist": "Roy RosenfelD",
      "title": "Dubi",
-     "label": "No Drama"
+     "label": "No Drama",
+     "retry": 1
     },
     {
      "minute": 15,
      "artist": "Tartan",
      "title": "Sun",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -365,13 +368,15 @@
      "minute": 28,
      "artist": "Yamil",
      "title": "Shake It",
-     "label": "Cacao"
+     "label": "Cacao",
+     "retry": 1
     },
     {
      "minute": 33,
      "artist": "Agustin Giri",
      "title": "Cruisin'",
-     "label": "ICONYC"
+     "label": "ICONYC",
+     "retry": 1
     },
     {
      "minute": 36,
@@ -426,7 +431,8 @@
      "minute": 55,
      "artist": "Axel Boman",
      "title": "Rock Top",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 60,
@@ -458,7 +464,8 @@
      "minute": 71,
      "artist": "Junglewood",
      "title": "Passistas",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 74,
@@ -556,7 +563,8 @@
      "minute": 109,
      "artist": "Ivory",
      "title": "Fantasy",
-     "label": "Spectrum"
+     "label": "Spectrum",
+     "retry": 1
     },
     {
      "minute": 112,
@@ -593,7 +601,8 @@
      "minute": 126,
      "artist": "Sama",
      "title": "Sweat",
-     "label": "MAHOOL"
+     "label": "MAHOOL",
+     "retry": 1
     },
     {
      "minute": 129,
@@ -625,7 +634,8 @@
      "minute": 136,
      "artist": "Leo Leonski",
      "title": "Acid Gato",
-     "label": "Cacao"
+     "label": "Cacao",
+     "retry": 1
     },
     {
      "minute": 140,
@@ -645,7 +655,8 @@
      "minute": 152,
      "artist": "Agustin Giri",
      "title": "Cruisin'",
-     "label": "ICONYC"
+     "label": "ICONYC",
+     "retry": 1
     },
     {
      "minute": 155,

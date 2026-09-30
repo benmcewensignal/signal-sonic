@@ -147,7 +147,8 @@
      "minute": 58,
      "artist": "Pegassi",
      "title": "227Kg",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 62,
@@ -351,7 +352,8 @@
      "minute": 48,
      "artist": "Pegassi",
      "title": "227kg",
-     "label": "Sweet Nothing"
+     "label": "Sweet Nothing",
+     "retry": 1
     },
     {
      "minute": 50,
@@ -616,7 +618,8 @@
      "minute": null,
      "artist": "James Hype & Tita Lau",
      "title": "Action",
-     "label": "Stereohype"
+     "label": "Stereohype",
+     "retry": 1
     },
     {
      "minute": null,
@@ -709,7 +712,8 @@
      "minute": null,
      "artist": "Simon Fava Feat. Sèrgio Mendes",
      "title": "Magalenha",
-     "label": "Toolroom"
+     "label": "Toolroom",
+     "retry": 1
     },
     {
      "minute": null,
@@ -728,13 +732,15 @@
      "minute": null,
      "artist": "D.O.D Feat. Izzy Bizu",
      "title": "Careful",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sunnery James & Ryan Marciano & Carston & Mzansi Youth Choir",
      "title": "I Wonder",
-     "label": "Cloud9"
+     "label": "Cloud9",
+     "retry": 1
     },
     {
      "minute": null,
@@ -749,7 +755,8 @@
      "minute": null,
      "artist": "Adriatique & GENESI & Emmit Fenn",
      "title": "Closer",
-     "label": "X"
+     "label": "X",
+     "retry": 1
     },
     {
      "minute": null,
@@ -868,7 +875,8 @@
      "minute": null,
      "artist": "Hurts",
      "title": "2 More",
-     "label": "Sweet Nothing"
+     "label": "Sweet Nothing",
+     "retry": 1
     },
     {
      "minute": null,
@@ -922,7 +930,8 @@
      "minute": null,
      "artist": "Pegassi",
      "title": "227kg",
-     "label": "Sweet Nothing"
+     "label": "Sweet Nothing",
+     "retry": 1
     }
    ]
   }

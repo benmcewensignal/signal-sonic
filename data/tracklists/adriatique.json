@@ -9,13 +9,15 @@
      "minute": 0,
      "artist": "Adriatique",
      "title": "X Is For Lovers",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 3,
      "artist": "Adriatique & Argy",
      "title": "Racer",
-     "label": "AFTERLIFE"
+     "label": "AFTERLIFE",
+     "retry": 1
     },
     {
      "minute": 7,
@@ -34,7 +36,8 @@
      "minute": 11,
      "artist": "Marino Canal & Vomee",
      "title": "The Bells",
-     "label": "Siamese"
+     "label": "Siamese",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -140,7 +143,8 @@
      "minute": 51,
      "artist": "Jos & Eli",
      "title": "Starlit",
-     "label": "Siamese"
+     "label": "Siamese",
+     "retry": 1
     },
     {
      "minute": 56,
@@ -217,7 +221,8 @@
      "minute": 0,
      "artist": "Adriatique",
      "title": "X Is For Lovers",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -245,7 +250,8 @@
      "minute": 12,
      "artist": "Post Malone",
      "title": "Hollywood's Bleeding (Adam Sellouk & YLM Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 16,
@@ -277,13 +283,15 @@
      "minute": 23,
      "artist": "''Adriatique & Argy",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 26,
      "artist": "Adam Sellouk",
      "title": "Portrait (Adam Sellouk Edit)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 30,
@@ -302,7 +310,8 @@
      "minute": 36,
      "artist": "RÜFÜS DU SOL",
      "title": "Innerbloom (PACS Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 42,
@@ -357,7 +366,8 @@
      "minute": null,
      "artist": ";Moguai = [[2026-07-09",
      "title": "Moguai - PUNX Up The Volume 688]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -424,7 +434,8 @@
      "minute": null,
      "artist": "Moguai & EJ 3000 & Fast Sync",
      "title": "How Do We Get The Party Pumpin",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -469,13 +480,15 @@
      "minute": null,
      "artist": "BIJOU & Tchami Feat. MKLA",
      "title": "6AM",
-     "label": "Do Not Duplicate"
+     "label": "Do Not Duplicate",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "ALOK",
      "title": "Around",
-     "label": "Rave The World"
+     "label": "Rave The World",
+     "retry": 1
     },
     {
      "minute": null,
@@ -494,7 +507,8 @@
      "minute": null,
      "artist": "Riva Starr & Fatboy Slim & Beardyman vs Dean Turnley",
      "title": "Eat, Sleep, Actin' Tough, Repeat (Botteghi & Ali Selecta & DJ Potz Flip)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -513,7 +527,8 @@
      "minute": null,
      "artist": "Moguai",
      "title": "Lambada",
-     "label": "Central Station"
+     "label": "Central Station",
+     "retry": 1
     },
     {
      "minute": null,
@@ -571,37 +586,43 @@
      "minute": null,
      "artist": "Adriatique & Emmit Fenn",
      "title": "Closer",
-     "label": "X"
+     "label": "X",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Adriatique & Bipolar Sunshine",
      "title": "Love's A Game (VIP Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Dom Dolla & Tiga",
      "title": "Don't Worry Baby (Adriatique Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Adriatique",
      "title": "WTF",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Adriatique",
      "title": "Hear That",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "HUGEL & SOLTO",
      "title": "Jamaican (Bam Bam) (Jast Remix)",
-     "label": "MoBlack/Make The Girls Dance"
+     "label": "MoBlack/Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
@@ -620,7 +641,8 @@
      "minute": null,
      "artist": "Hardt Antoine & Nariman & Bipolar Sunshine",
      "title": "Stay",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -674,7 +696,8 @@
      "minute": null,
      "artist": "Congorock Feat. Mr. Lexx",
      "title": "Babylon (David Guetta & MARTEN HØRGER Pres. Men Machine & KENZ Extended Rework)",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "retry": 1
     },
     {
      "minute": null,
@@ -745,13 +768,15 @@
      "minute": null,
      "artist": "MGMT",
      "title": "Kids (Men Machine Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Julian Jordan",
      "title": "Bad Thing",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -783,7 +808,8 @@
      "minute": null,
      "artist": "Kid Cudi Feat. MGMT & Ratatat",
      "title": "Pursuit Of Happiness (MEDUN Remix)",
-     "label": "Republic"
+     "label": "Republic",
+     "retry": 1
     },
     {
      "minute": null,
@@ -802,7 +828,8 @@
      "minute": null,
      "artist": "KENZ",
      "title": "Supersonic (Extended Mix)",
-     "label": "Trace Amounts"
+     "label": "Trace Amounts",
+     "retry": 1
     },
     {
      "minute": null,
@@ -821,7 +848,8 @@
      "minute": null,
      "artist": "Prospa",
      "title": "Don't Stop (Twin Diplomacy Remix)",
-     "label": "Circoloco"
+     "label": "Circoloco",
+     "retry": 1
     }
    ]
   }

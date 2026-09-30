@@ -22,13 +22,15 @@
      "minute": 4,
      "artist": "Anamía",
      "title": "Quizás, Quizás, Quizás",
-     "label": "Long"
+     "label": "Long",
+     "retry": 1
     },
     {
      "minute": 8,
      "artist": "Hot Pepper",
      "title": "Canción Ritual (Ritual Song)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 11,
@@ -47,7 +49,8 @@
      "minute": 15,
      "artist": "Click",
      "title": "Duri Duri (Baila, Baila) (Re-Edit '89)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -66,25 +69,29 @@
      "minute": 23,
      "artist": "Verónica Castro",
      "title": "Macumba",
-     "label": "IM"
+     "label": "IM",
+     "retry": 1
     },
     {
      "minute": 26,
      "artist": "Magneto",
      "title": "Vuela, Vuela (Voyage, Voyage)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 31,
      "artist": "Pedrito Fernández",
      "title": "Absurda Confidencia",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 35,
      "artist": "Hot Pepper",
      "title": "Camino Equivocado (Wrong Way)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -116,7 +123,8 @@
      "minute": 46,
      "artist": "Lucía Méndez",
      "title": "Margarita (Margherita Non Lo Sa)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -135,7 +143,8 @@
      "minute": 56,
      "artist": "José José",
      "title": "Tu Melodía",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -159,13 +168,15 @@
      "minute": null,
      "artist": "George Adams",
      "title": "A Spire",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Incognito",
      "title": "I See The Sun",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -193,31 +204,36 @@
      "minute": null,
      "artist": "Masa Collective Feat. Valerie Etienne And Rob Gallagher",
      "title": "Love Is Everywhere (Quasimode Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Donna Thompson",
      "title": "Gardner Street",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Jamie Woon",
      "title": "Sharpness",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Jamie Woon",
      "title": "Peace Of Mind",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Hal Bradbury",
      "title": "Call Me",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -236,73 +252,85 @@
      "minute": null,
      "artist": "Kim Lesley",
      "title": "500 Miles High",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Julie Kelly",
      "title": "We're On Our Way",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Makaya McCraven",
      "title": "Choo Choo",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Hombres Y Amigos",
      "title": "Hombre De Hojalata",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Pepper Onion Ginger Salt",
      "title": "Sing Me A Song",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Felipe Dulzaides Y Los Armonicos",
      "title": "El Flaco Loco",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Wanderléa",
      "title": "Kriola",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Poncho Sanchez",
      "title": "Ican",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Willie Bobo & The Bo Gents",
      "title": "How Can I Say Goodbye",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Joe Bataan",
      "title": "Es Tu Cosa",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Luis Antonio Díaz Y Su Sol Banda",
      "title": "Noche De Damas",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Luis Antonio Díaz Y Su Sol Banda",
      "title": "Bailando Discotheque",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -334,19 +362,22 @@
      "minute": null,
      "artist": "P Wavey",
      "title": "Paradise",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Klash And Brown",
      "title": "Peacemaker",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "KV5",
      "title": "Giraffe",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -365,43 +396,50 @@
      "minute": null,
      "artist": "Luiz Bonfa",
      "title": "Bahia Soul",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "The Quiet Ones Feat. Diabel Cissokho",
      "title": "Dima",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "MB",
      "title": "Woody Green",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "The Quiet Ones Feat. Diabel Cissokho",
      "title": "Tamala",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Candice Hoyes",
      "title": "Expecting",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Meagan McNeal",
      "title": "Giving Tree",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Charles Stepney Feat. Kitty Haywood",
      "title": "You Make Me High (Original Demo)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -420,31 +458,36 @@
      "minute": null,
      "artist": "Kujenga",
      "title": "Ransome Pt.1",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Kujenga",
      "title": "Ransome Pt.2",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ben Sidran",
      "title": "It Don't Pay To Worry Like That",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ben Sidran",
      "title": "Mitsubishi Boy",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Magician",
      "title": "House Of The Purple Mist",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -455,85 +498,99 @@
      "minute": 0,
      "artist": "Hot Pepper",
      "title": "Deja Que El Mundo Sea Feliz Otra Vez",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 2,
      "artist": "Juan Torres",
      "title": "Wow",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 6,
      "artist": "David Y Su Banda Electronica",
      "title": "K Jee",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Izzy's Busy",
      "title": "Sólo Ritmo (Vocal)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Luis Antonio Diaz, Sol Banda",
      "title": "Noche De Damas (Ladies Night)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Pablo Beltran Ruiz",
      "title": "Toca Mi Campana",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "David Y Su Banda Electronica",
      "title": "Logrémoslo Juntos",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "La Tierra",
      "title": "Copacabana (At The Copa)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Anamía",
      "title": "Besame Mucho",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "José José",
      "title": "Linda Disco",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Isidro Molina",
      "title": "Acapulco",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Super Gallo",
      "title": "Pop Muzik",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Click",
      "title": "Americano",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Bernardo And The Jalapeño Jets",
      "title": "Martha",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -552,7 +609,8 @@
      "minute": null,
      "artist": "José José",
      "title": "Solo Tú",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   }

@@ -9,7 +9,8 @@
      "minute": 0,
      "artist": "ARTBAT & Argy & Zafrir",
      "title": "Tibet",
-     "label": "Upperground"
+     "label": "Upperground",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -28,7 +29,8 @@
      "minute": 9,
      "artist": "Pôngo",
      "title": "Rotowash",
-     "label": "Upperground"
+     "label": "Upperground",
+     "retry": 1
     },
     {
      "minute": 14,
@@ -95,7 +97,8 @@
      "minute": 36,
      "artist": "Avalan Rokston & ARTBAT",
      "title": "The Ocean",
-     "label": "Casablanca"
+     "label": "Casablanca",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -114,7 +117,8 @@
      "minute": 45,
      "artist": "ARTBAT Feat. Braev",
      "title": "Humans",
-     "label": "Upperground"
+     "label": "Upperground",
+     "retry": 1
     },
     {
      "minute": 50,
@@ -199,7 +203,8 @@
      "minute": 16,
      "artist": "ARTBAT & 7 Skies & N9NE LIVES",
      "title": "Destination",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 20,
@@ -240,7 +245,8 @@
      "minute": 32,
      "artist": "David Guetta & MORTEN",
      "title": "Juno (Giuseppe Ottaviani Live Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 36,
@@ -320,7 +326,8 @@
      "minute": 57,
      "artist": "Gotye Feat. Kimbra",
      "title": "Somebody That I Used To Know (ARTBAT Remix)",
-     "label": "Interscope"
+     "label": "Interscope",
+     "retry": 1
     }
    ]
   },
@@ -331,13 +338,15 @@
      "minute": null,
      "artist": ";Moguai = [[2025-03-06",
      "title": "Moguai - PUNX Up The Volume 617]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Bruno Furlan",
      "title": "Bongoloco",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "retry": 1
     },
     {
      "minute": null,
@@ -521,13 +530,15 @@
      "minute": null,
      "artist": "Monkey Safari",
      "title": "Voices",
-     "label": "Good Vibes From Paradise"
+     "label": "Good Vibes From Paradise",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": ";Armin van Buuren b2b ARTBAT = [[2025-02-21",
      "title": "Armin van Buuren b2b ARTBAT @ A State Of Trance, Ahoy, Rotterdam]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 0,
@@ -581,7 +592,8 @@
      "minute": 16,
      "artist": "ARTBAT & 7 Skies & N9NE LIVES",
      "title": "Destination",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 20,
@@ -622,7 +634,8 @@
      "minute": 32,
      "artist": "David Guetta & MORTEN",
      "title": "Juno (Giuseppe Ottaviani Live Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 36,
@@ -702,13 +715,15 @@
      "minute": 57,
      "artist": "Gotye Feat. Kimbra",
      "title": "Somebody That I Used To Know (ARTBAT Remix)",
-     "label": "Interscope"
+     "label": "Interscope",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": ";Alle Farben = [[2025-02-28",
      "title": "Alle Farben - Energy Extravadance]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 0,
@@ -779,13 +794,15 @@
      "minute": null,
      "artist": "Lola Young",
      "title": "Messy (Łaszewo Remix)",
-     "label": "Island"
+     "label": "Island",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Alle Farben Feat. Sofiloud",
      "title": "Call My Name (VIP Mix)",
-     "label": "Warner Music Germany"
+     "label": "Warner Music Germany",
+     "retry": 1
     },
     {
      "minute": null,
@@ -856,7 +873,8 @@
      "minute": null,
      "artist": "Danny Avila",
      "title": "Chase The Sun (VIP) (Extended Mix)",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "retry": 1
     },
     {
      "minute": null,
@@ -888,7 +906,8 @@
      "minute": 54,
      "artist": "Alle Farben & Keanu Silva & Mono Schwarz",
      "title": "SexyBack (TechnoBack) (Extended Mix)",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "retry": 1
     },
     {
      "minute": 57,
@@ -912,7 +931,8 @@
      "minute": 0,
      "artist": "ARTBAT",
      "title": "Tabu",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -1063,7 +1083,8 @@
      "minute": 57,
      "artist": "ARTBAT",
      "title": "You're My Temptation",
-     "label": "Unreleased"
+     "label": "Unreleased",
+     "retry": 1
     },
     {
      "minute": 60,
@@ -1104,7 +1125,8 @@
      "minute": 76,
      "artist": "Gotye",
      "title": "Somebody That I Used To Know (ARTBAT Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -1138,7 +1160,8 @@
      "minute": 12,
      "artist": "CamelPhat & ARTBAT",
      "title": "For A Feeling (Dark Matter Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -1175,7 +1198,8 @@
      "minute": 48,
      "artist": "Kölsch Feat. Troels Abrahamsen",
      "title": "All That Matters (ARTBAT Remix Radio Edit)",
-     "label": "Kompakt"
+     "label": "Kompakt",
+     "retry": 1
     },
     {
      "minute": 53,
@@ -1257,7 +1281,8 @@
      "minute": null,
      "artist": ";Moguai = [[2025-12-18",
      "title": "Moguai - PUNX Up The Volume 658]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 0,
@@ -1337,7 +1362,8 @@
      "minute": 18,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": 21,
@@ -1443,7 +1469,8 @@
      "minute": 44,
      "artist": "James Hype Feat. Sam Harper & Bobby Harvey",
      "title": "Waterfalls (NASH Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -1501,13 +1528,15 @@
      "minute": null,
      "artist": ";James Hype = [[2025-07-19",
      "title": "James Hype @ Desert Valley Stage, Parookaville]] ([[2025-07-26 - Moguai, James Hype, Alle Farben - 1LIVE DJ Session]])",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Tita Lau",
      "title": "Bristol's In The House",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1535,7 +1564,8 @@
      "minute": null,
      "artist": "Duke Dumont Feat. Shaun Ross",
      "title": "Red Light, Green Light (James Hype Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1567,13 +1597,15 @@
      "minute": null,
      "artist": "Benny Benassi Pres. The Biz",
      "title": "Satisfaction (James Hype Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "James Hype Feat. Kim Petras",
      "title": "Drums (James Hype Acid Edit)",
-     "label": "Island"
+     "label": "Island",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1618,7 +1650,8 @@
      "minute": null,
      "artist": "Ramon Tapia & Kai Tracid",
      "title": "303 State",
-     "label": "Say What?"
+     "label": "Say What?",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1676,7 +1709,8 @@
      "minute": null,
      "artist": ";BLOND:ISH = [[2025-03-14",
      "title": "VIZE, BLOND:ISH - N-JOY Residents]] ([[2025-05-03 - Moguai, BLOND:ISH, LOVRA - 1LIVE DJ Session]])",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1708,13 +1742,15 @@
      "minute": null,
      "artist": "BLOND:ISH & Von Boch",
      "title": "We Watch",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Tabú",
      "title": "Imani",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1746,7 +1782,8 @@
      "minute": null,
      "artist": ";Armin van Buuren b2b ARTBAT = [[2025-02-21",
      "title": "Armin van Buuren b2b ARTBAT @ A State Of Trance, Ahoy, Rotterdam]] ([[2025-03-08 - Moguai, Armin van Buuren b2b ARTBAT (Ahoy), Alle Farben - 1LIVE DJ Session]])",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1800,19 +1837,22 @@
      "minute": null,
      "artist": "ARTBAT & 7 Skies & N9NE LIVES",
      "title": "Destination",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": ";HUGEL = [[2025-07-27",
      "title": "HUGEL @ Hiper Centro San Rafael, Hï Ibiza]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "HUGEL & Steering Will",
      "title": "Champagne",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1827,13 +1867,15 @@
      "minute": null,
      "artist": "MORINIO",
      "title": "Yaman",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Peppe Citarella & Oh'Mem & Gascón & Maria Mulata",
      "title": "Guacamayo",
-     "label": "Union"
+     "label": "Union",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1852,31 +1894,36 @@
      "minute": null,
      "artist": "OMED",
      "title": "Voce Vai",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Mathieu Ruz & Javi Torres & NoTwins",
      "title": "La Musa",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ 20 Fingers Feat. Roula",
      "title": "Lick It (Acapella)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "HUGEL & KIDY & ARVIII",
      "title": "Samarkand",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": ";Chris Lake = [[2025-07-02",
      "title": "Chris Lake - Chemistry Radio 001]] ([[2025-08-09 - Moguai, Chris Lake, Purple Disco Machine - 1LIVE DJ Session]])",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1956,7 +2003,8 @@
      "minute": null,
      "artist": ";Hardwell = [[2025-04-19",
      "title": "Moguai, Hardwell, andhim - 1LIVE DJ Session]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1975,13 +2023,15 @@
      "minute": null,
      "artist": "Domeno & Chloé Doyon vs John Summit & HAYLA",
      "title": "Before It's Over vs Where You Are (Hardwell Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sebastian Ingrosso & Tommy Trash Feat. John Martin",
      "title": "Reload (Hardwell Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2013,7 +2063,8 @@
      "minute": null,
      "artist": "Hardwell",
      "title": "Retrograde (Hardwell 2024 Extended Rework)",
-     "label": "Revealed"
+     "label": "Revealed",
+     "retry": 1
     },
     {
      "minute": null,

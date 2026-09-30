@@ -200,7 +200,8 @@
      "minute": 32,
      "artist": "HI-LO vs Green Velvet, Dajae vs Indeep",
      "title": "KOALA vs Brighter Days vs Saved My Life (OH Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 36,
@@ -1354,7 +1355,8 @@
      "minute": 87,
      "artist": "Alex Wann",
      "title": "IDONE",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "retry": 1
     },
     {
      "minute": 92,

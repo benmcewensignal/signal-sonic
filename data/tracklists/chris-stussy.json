@@ -9,31 +9,36 @@
      "minute": 2,
      "artist": "Alex Cortex",
      "title": "Discola",
-     "label": "Housewax"
+     "label": "Housewax",
+     "retry": 1
     },
     {
      "minute": 6,
      "artist": "Nail",
      "title": "Lemon Gus",
-     "label": "Shabby Doll"
+     "label": "Shabby Doll",
+     "retry": 1
     },
     {
      "minute": 10,
      "artist": "Jam & Spoon",
      "title": "Right In The Night (Fall In Love With Music) (MK In The Night Dub)",
-     "label": "Epic"
+     "label": "Epic",
+     "retry": 1
     },
     {
      "minute": 16,
      "artist": "Chris Stussy",
      "title": "The Streets Is Where I'm From",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 21,
      "artist": "''?",
      "title": "Untitled (B1) [Mask]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 25,
@@ -52,37 +57,43 @@
      "minute": 30,
      "artist": "Paolo Rocco",
      "title": "First Night Out (Chris Stussy Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 35,
      "artist": "Burnski & Kepler",
      "title": "Solstice",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 39,
      "artist": "NairLess",
      "title": "Till It Glows",
-     "label": "Radiant"
+     "label": "Radiant",
+     "retry": 1
     },
     {
      "minute": 44,
      "artist": "Underworld",
      "title": "Jumbo (Chris Stussy Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 48,
      "artist": "Makam",
      "title": "You Might Lose It (Kerri Chandler Kaoz 6:23 Again Mix)",
-     "label": "Sushitech"
+     "label": "Sushitech",
+     "retry": 1
     },
     {
      "minute": 53,
      "artist": "Locklead",
      "title": "Apollo",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 58,
@@ -101,7 +112,8 @@
      "minute": 64,
      "artist": "Vil-N-X Feat. Jacqui Gray",
      "title": "De' Jah Voo (Rendezvous Mix)",
-     "label": "Island Noyze"
+     "label": "Island Noyze",
+     "retry": 1
     },
     {
      "minute": 68,
@@ -133,7 +145,8 @@
      "minute": 80,
      "artist": "Stussko",
      "title": "Link In The Park",
-     "label": "Self Released"
+     "label": "Self Released",
+     "retry": 1
     },
     {
      "minute": 83,
@@ -170,19 +183,22 @@
      "minute": 98,
      "artist": "Costigane",
      "title": "Camera Tricks",
-     "label": "Sense"
+     "label": "Sense",
+     "retry": 1
     },
     {
      "minute": 103,
      "artist": "Marc Romboy & Blake Baxter",
      "title": "Freakin' (Chris Stussy Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 107,
      "artist": "Frazer Campbell",
      "title": "Cloud 909",
-     "label": "Counterfeit Soul"
+     "label": "Counterfeit Soul",
+     "retry": 1
     },
     {
      "minute": 113,
@@ -245,7 +261,8 @@
      "minute": null,
      "artist": "Felix Da Housecat Feat. Miss Kittin",
      "title": "Silver Screen Shower Scene (Alexander Delanois Private Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -342,7 +359,8 @@
      "minute": null,
      "artist": "Tomcraft",
      "title": "Loneliness (Huminal Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -361,7 +379,8 @@
      "minute": null,
      "artist": "ALOK & Alan Fitzpatrick",
      "title": "Friday, I'm In Luv (Extended Mix)",
-     "label": "Controversia"
+     "label": "Controversia",
+     "retry": 1
     },
     {
      "minute": null,
@@ -545,7 +564,8 @@
      "minute": null,
      "artist": "Anyma Feat. Yeat",
      "title": "Work",
-     "label": "The End Of Genesys"
+     "label": "The End Of Genesys",
+     "retry": 1
     },
     {
      "minute": null,
@@ -577,25 +597,29 @@
      "minute": null,
      "artist": "Rebūke & Karin Park",
      "title": "Teardrops",
-     "label": "Era"
+     "label": "Era",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "''Jesse Maas",
      "title": "?''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Andy Somoza",
      "title": "UFO DJ",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "M.ICH",
      "title": "I Like That",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -614,7 +638,8 @@
      "minute": null,
      "artist": "ADR",
      "title": "N.M.L",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -633,13 +658,15 @@
      "minute": null,
      "artist": "Caleb Laurenson",
      "title": "It's A Beautiful Day",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Kolter",
      "title": "Workout",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -658,7 +685,8 @@
      "minute": null,
      "artist": "Danny Snowden",
      "title": "Peace Be With You",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -691,7 +719,8 @@
      "minute": 8,
      "artist": "Inland Knights",
      "title": "Long Time",
-     "label": "Cr2"
+     "label": "Cr2",
+     "retry": 1
     },
     {
      "minute": 12,
@@ -710,7 +739,8 @@
      "minute": 15,
      "artist": "Miguel Migs",
      "title": "Sol Patrol",
-     "label": "Robsoul"
+     "label": "Robsoul",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -742,7 +772,8 @@
      "minute": 27,
      "artist": "DJ Steaw",
      "title": "Static",
-     "label": "Rutilance"
+     "label": "Rutilance",
+     "retry": 1
     },
     {
      "minute": 30,
@@ -761,7 +792,8 @@
      "minute": 33,
      "artist": "Mr. Stone",
      "title": "Closer",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -806,7 +838,8 @@
      "minute": 47,
      "artist": "Chris Stussy & S.A.M",
      "title": "Sirine",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 51,
@@ -825,7 +858,8 @@
      "minute": 55,
      "artist": "N4tee",
      "title": "Body Free",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 61,
@@ -844,7 +878,8 @@
      "minute": 63,
      "artist": "ANOTR & Toman",
      "title": "Time",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 67,
@@ -863,19 +898,22 @@
      "minute": 71,
      "artist": "Kolter",
      "title": "In Favor",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 76,
      "artist": "Locklead",
      "title": "Liberté",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 80,
      "artist": "Janeret",
      "title": "Feelin",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 83,
@@ -903,7 +941,8 @@
      "minute": 90,
      "artist": "Marius Acke",
      "title": "Tell Me",
-     "label": "Crucial"
+     "label": "Crucial",
+     "retry": 1
     },
     {
      "minute": 94,
@@ -922,13 +961,15 @@
      "minute": 100,
      "artist": "To-Ka Project",
      "title": "Revolution",
-     "label": "So Sound"
+     "label": "So Sound",
+     "retry": 1
     },
     {
      "minute": 104,
      "artist": "Ventry",
      "title": "Campo Alegre",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 108,
@@ -948,7 +989,15 @@
      "minute": 114,
      "artist": "The Nathaniel & Project",
      "title": "Gotta Get Over",
-     "label": ""
+     "label": "",
+     "bp": "bp:14495614",
+     "score": 0.6,
+     "preview": "https://geo-samples.beatport.com/track/4be3a25c-18f6-4240-8b70-52847be1f70c.LOFI.mp3",
+     "name": "Gotta Get",
+     "mix": "Original Mix",
+     "genre": "dance-pop",
+     "released": "2020-12-11",
+     "via": "retry"
     },
     {
      "minute": 116,
@@ -972,7 +1021,8 @@
      "minute": 0,
      "artist": "Burnski",
      "title": "Watch Out",
-     "label": "Push Communications"
+     "label": "Push Communications",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -1030,13 +1080,15 @@
      "minute": 21,
      "artist": "Chris Stussy",
      "title": "Darkness",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 24,
      "artist": "Man/Ipulate",
      "title": "Eternity (Alex Kassian's Ode To Sunshine Mix)",
-     "label": "Certain"
+     "label": "Certain",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1055,7 +1107,8 @@
      "minute": 32,
      "artist": "Chris Stussy Feat. Elena Moroder",
      "title": "Moonlight",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 34,
@@ -1074,31 +1127,36 @@
      "minute": 41,
      "artist": "''?",
      "title": "I Keep Rising''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[04?] Wamdue Kids",
      "title": "In My Soul",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 49,
      "artist": "Central",
      "title": "Doing This",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 51,
      "artist": "Chris Stussy & S.A.M.",
      "title": "Here To Catch You",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 56,
      "artist": "Vitess",
      "title": "Indecision",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1156,7 +1214,8 @@
      "minute": 72,
      "artist": "Inner Sense",
      "title": "MoTP",
-     "label": "My Love Is Underground"
+     "label": "My Love Is Underground",
+     "retry": 1
     },
     {
      "minute": 76,
@@ -1175,13 +1234,15 @@
      "minute": 79,
      "artist": "T. Jacques",
      "title": "Cheat Codes",
-     "label": "Nuances De Nuit"
+     "label": "Nuances De Nuit",
+     "retry": 1
     },
     {
      "minute": 83,
      "artist": "Paolo Rocco Feat. Alix Alvarez",
      "title": "Our Time",
-     "label": "Fuse London"
+     "label": "Fuse London",
+     "retry": 1
     },
     {
      "minute": 87,
@@ -1200,31 +1261,36 @@
      "minute": 90,
      "artist": "Liza",
      "title": "I Need You",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 96,
      "artist": "Keep The Spirit",
      "title": "I Can Quite Understand",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 100,
      "artist": "D&G",
      "title": "Every Single Night",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[10?] Ron Obvious",
      "title": "Builded Mind",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 109,
      "artist": "Anil Aras",
      "title": "Shy Time",
-     "label": "PIV"
+     "label": "PIV",
+     "retry": 1
     },
     {
      "minute": 114,
@@ -1243,7 +1309,8 @@
      "minute": null,
      "artist": "[11?] Midnight",
      "title": "Show You Love",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1267,13 +1334,15 @@
      "minute": 0,
      "artist": "Chris Stussy",
      "title": "Breather",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 5,
      "artist": "Burnski",
      "title": "Solstice",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 10,
@@ -1314,43 +1383,50 @@
      "minute": null,
      "artist": "[0??] Ebb & Flow",
      "title": "Space (Enzo Siragusa & Burnski Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 23,
      "artist": "Tommy Vicari Jnr",
      "title": "Dreams (Paolo Rocco Deep Mix)",
-     "label": "RAWMoments"
+     "label": "RAWMoments",
+     "retry": 1
     },
     {
      "minute": 27,
      "artist": "Rhode & Brown",
      "title": "9090 Trax",
-     "label": "Permanent Vacation"
+     "label": "Permanent Vacation",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[0??] Chris Stussy & ANOTR",
      "title": "Night Rider",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[0??] Izmo (Brawther) Feat. Chris Udoh",
      "title": "The Genius That Is",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[0??] D Stone & Luke Alessi",
      "title": "Keep It",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[0??] Stussko",
      "title": "All The People",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -1369,7 +1445,8 @@
      "minute": 51,
      "artist": "# Watchers",
      "title": "D.A.N.",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1401,13 +1478,15 @@
      "minute": 62,
      "artist": "Chris Stussy",
      "title": "Fantasy",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 66,
      "artist": "Stussko & Kolter",
      "title": "Drumma Queen",
-     "label": "Stussko"
+     "label": "Stussko",
+     "retry": 1
     },
     {
      "minute": 69,
@@ -1439,19 +1518,22 @@
      "minute": 76,
      "artist": "Mood II Swing",
      "title": "Ohh",
-     "label": "Groove On"
+     "label": "Groove On",
+     "retry": 1
     },
     {
      "minute": 81,
      "artist": "Litmus",
      "title": "Madonah",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 84,
      "artist": "Across Boundaries",
      "title": "T.M.P.",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "retry": 1
     },
     {
      "minute": 88,
@@ -1483,7 +1565,8 @@
      "minute": 94,
      "artist": "IDEMI",
      "title": "Reflection",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 99,
@@ -1502,7 +1585,8 @@
      "minute": 102,
      "artist": "Local Dub",
      "title": "Push Up On Me",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1521,13 +1605,15 @@
      "minute": null,
      "artist": "[1??] Julian Anthony & Joren Edwards",
      "title": "Missing Channel",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[1??] Chris Stussy & Toman",
      "title": "Game Changer",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 116,
@@ -1551,7 +1637,8 @@
      "minute": 0,
      "artist": "Leo Pol",
      "title": "F.E.M.",
-     "label": "IILE"
+     "label": "IILE",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1570,13 +1657,15 @@
      "minute": 9,
      "artist": "Sally C",
      "title": "Control",
-     "label": "Big Saldo's Chunkers"
+     "label": "Big Saldo's Chunkers",
+     "retry": 1
     },
     {
      "minute": 12,
      "artist": "Anil Aras",
      "title": "You & I",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 17,
@@ -1634,43 +1723,50 @@
      "minute": 30,
      "artist": "Crustation",
      "title": "Flame (Mood II Swing Vocal Mix)",
-     "label": "Jive"
+     "label": "Jive",
+     "retry": 1
     },
     {
      "minute": 35,
      "artist": "Kolter",
      "title": "Boogy Night",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[0??] Marsolo",
      "title": "Convergence",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[0??] Mitsou",
      "title": "Everybody Say Love",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[0??] Jason Bye",
      "title": "Lowano",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[0??] Time Factor",
      "title": "No Name",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 56,
      "artist": "Chris Stussy",
      "title": "Blueprint",
-     "label": "Fuse London"
+     "label": "Fuse London",
+     "retry": 1
     },
     {
      "minute": 61,
@@ -1715,7 +1811,8 @@
      "minute": 73,
      "artist": "Fantastic Man",
      "title": "Hyper.Sonic",
-     "label": "Superconscious"
+     "label": "Superconscious",
+     "retry": 1
     },
     {
      "minute": 76,
@@ -1734,7 +1831,8 @@
      "minute": 79,
      "artist": "Shanti Celeste",
      "title": "Shimmer",
-     "label": "Hessle"
+     "label": "Hessle",
+     "retry": 1
     },
     {
      "minute": 84,
@@ -1753,7 +1851,8 @@
      "minute": 89,
      "artist": "Spray",
      "title": "Zippycher",
-     "label": "Kalahari Oyster Cult"
+     "label": "Kalahari Oyster Cult",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1785,13 +1884,15 @@
      "minute": 99,
      "artist": "Paolo Macri",
      "title": "4AM",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "[10?] ''?",
      "title": "Moving Non Stop''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 108,
@@ -1810,7 +1911,8 @@
      "minute": 112,
      "artist": "Andrade",
      "title": "The Bridge",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 116,
@@ -1829,7 +1931,8 @@
      "minute": 117,
      "artist": "95 Steps",
      "title": "Doesn't Matter",
-     "label": "Fragil Musique"
+     "label": "Fragil Musique",
+     "retry": 1
     }
    ]
   }

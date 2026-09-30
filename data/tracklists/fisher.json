@@ -226,7 +226,8 @@
      "minute": 60,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (FISHER Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": 63,
@@ -1078,7 +1079,8 @@
      "minute": 55,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": 59,
@@ -1114,7 +1116,8 @@
      "minute": 71,
      "artist": "FISHER",
      "title": "Rain",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": 75,
@@ -1251,13 +1254,15 @@
      "minute": 115,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (FISHER Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": 118,
      "artist": "Daft Punk",
      "title": "One More Time (Valmer Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -1599,7 +1604,8 @@
      "minute": null,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1635,13 +1641,15 @@
      "minute": 0,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (FISHER Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": 4,
      "artist": "OutKast",
      "title": "Ms. Jackson (N2N & Avilo Edit)",
-     "label": "South Of Saturn"
+     "label": "South Of Saturn",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -1671,7 +1679,8 @@
      "minute": 9,
      "artist": "ESSED",
      "title": "Let's Party",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 10,
@@ -1708,19 +1717,22 @@
      "minute": 15,
      "artist": "Chris Lake & Tony Romera",
      "title": "House Every Weekend",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 16,
      "artist": "Zombie Nation",
      "title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 18,
      "artist": "Drake",
      "title": "Janice STFU (HILLS Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -1761,13 +1773,15 @@
      "minute": 27,
      "artist": "Dominica",
      "title": "Gotta Let You Go (3Beat Remix)",
-     "label": "Altra Moda"
+     "label": "Altra Moda",
+     "retry": 1
     },
     {
      "minute": 28,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": 30,
@@ -1786,7 +1800,8 @@
      "minute": 33,
      "artist": "FISHER",
      "title": "Rain",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": 35,
@@ -1818,7 +1833,8 @@
      "minute": 43,
      "artist": "Daft Punk",
      "title": "One More Time (Valmer Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -1870,13 +1886,15 @@
      "minute": null,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (FISHER Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "OutKast",
      "title": "Ms. Jackson (N2N & Avilo Edit)",
-     "label": "South Of Saturn"
+     "label": "South Of Saturn",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1922,7 +1940,8 @@
      "minute": null,
      "artist": "ESSED",
      "title": "Let's Party",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1954,19 +1973,22 @@
      "minute": null,
      "artist": "Chris Lake & Tony Romera",
      "title": "House Every Weekend",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Zombie Nation",
      "title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Drake",
      "title": "Janice STFU (HILLS Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2007,13 +2029,15 @@
      "minute": null,
      "artist": "Dominica",
      "title": "Gotta Let You Go (3Beat Remix)",
-     "label": "Altra Moda"
+     "label": "Altra Moda",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2032,7 +2056,8 @@
      "minute": null,
      "artist": "FISHER",
      "title": "Rain",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2073,7 +2098,8 @@
      "minute": null,
      "artist": "Daft Punk",
      "title": "One More Time (Valmer Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -2084,7 +2110,8 @@
      "minute": null,
      "artist": "Calvin Harris",
      "title": "Not Alone (Gil Glaze Remix)",
-     "label": "Breeze"
+     "label": "Breeze",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2134,7 +2161,8 @@
      "minute": null,
      "artist": "BLR & Amber Revival",
      "title": "Summertime (Podium Mix)",
-     "label": "Blooom"
+     "label": "Blooom",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2153,7 +2181,8 @@
      "minute": null,
      "artist": "Franky Rizardo",
      "title": "Shinjuku (DJ KUBA & NEITAN Remix)",
-     "label": "LTF"
+     "label": "LTF",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2263,7 +2292,8 @@
      "minute": null,
      "artist": "Vesuvio Vortex Feat. Seutek",
      "title": "Ruimte Zat",
-     "label": "Bordello A Parigi"
+     "label": "Bordello A Parigi",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2322,7 +2352,8 @@
      "minute": null,
      "artist": "Bicep",
      "title": "Glue (Tim Hox Remix)",
-     "label": "Ninja"
+     "label": "Ninja",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2367,19 +2398,22 @@
      "minute": null,
      "artist": ";FISHER HotMix = [[2026-07-18",
      "title": "FISHER @ Tomorrowland - Consiencia]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (FISHER Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "OutKast",
      "title": "Ms. Jackson (N2N & Avilo Edit)",
-     "label": "South Of Saturn"
+     "label": "South Of Saturn",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2416,7 +2450,8 @@
      "minute": null,
      "artist": "ESSED",
      "title": "Let's Party",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2448,19 +2483,22 @@
      "minute": null,
      "artist": "Chris Lake & Tony Romera",
      "title": "House Every Weekend",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Zombie Nation",
      "title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Drake",
      "title": "Janice STFU (HILLS Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2501,13 +2539,15 @@
      "minute": null,
      "artist": "Dominica",
      "title": "Gotta Let You Go (3Beat Remix)",
-     "label": "Altra Moda"
+     "label": "Altra Moda",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2526,7 +2566,8 @@
      "minute": null,
      "artist": "FISHER",
      "title": "Rain",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2558,7 +2599,8 @@
      "minute": null,
      "artist": "Daft Punk",
      "title": "One More Time (Valmer Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2809,13 +2851,15 @@
      "minute": null,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (FISHER Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "OutKast",
      "title": "Ms. Jackson (N2N & Avilo Edit)",
-     "label": "South Of Saturn"
+     "label": "South Of Saturn",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2861,7 +2905,8 @@
      "minute": null,
      "artist": "ESSED",
      "title": "Let's Party",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2893,19 +2938,22 @@
      "minute": null,
      "artist": "Chris Lake & Tony Romera",
      "title": "House Every Weekend",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Zombie Nation",
      "title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Drake",
      "title": "Janice STFU (HILLS Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2946,13 +2994,15 @@
      "minute": null,
      "artist": "Dominica",
      "title": "Gotta Let You Go (3Beat Remix)",
-     "label": "Altra Moda"
+     "label": "Altra Moda",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2971,7 +3021,8 @@
      "minute": null,
      "artist": "FISHER",
      "title": "Rain",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3012,7 +3063,8 @@
      "minute": null,
      "artist": "Daft Punk",
      "title": "One More Time (Valmer Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,

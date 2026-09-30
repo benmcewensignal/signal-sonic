@@ -9,19 +9,22 @@
      "minute": null,
      "artist": "JEND",
      "title": "Show Me",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Disclosure",
      "title": "Dooyo",
-     "label": "Weaponsgrade"
+     "label": "Weaponsgrade",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "BigXThaPlug",
      "title": "The Largest (Kevin Knapp Texas Techno Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -40,7 +43,8 @@
      "minute": null,
      "artist": "TOBEHONEST",
      "title": "Especial",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -194,13 +198,15 @@
      "minute": null,
      "artist": "Shermanology & Champion",
      "title": "Badder",
-     "label": "D'eaupe"
+     "label": "D'eaupe",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "The Dare",
      "title": "Girls (Walker & Royce Remix)",
-     "label": "Fire Talk"
+     "label": "Fire Talk",
+     "retry": 1
     },
     {
      "minute": null,
@@ -245,7 +251,8 @@
      "minute": null,
      "artist": "Lola Young",
      "title": "Messy (Chris Lake Remix)",
-     "label": "Island"
+     "label": "Island",
+     "retry": 1
     },
     {
      "minute": null,
@@ -290,7 +297,8 @@
      "minute": null,
      "artist": "Lighter Shade Of Brown",
      "title": "Latin Active (Andruss Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -335,7 +343,8 @@
      "minute": null,
      "artist": "Annie Lennox",
      "title": "Little Bird (Paluma & Tyson O'Brien Remix)",
-     "label": "RCA"
+     "label": "RCA",
+     "retry": 1
     }
    ]
   },
@@ -541,13 +550,15 @@
      "minute": null,
      "artist": "BXT",
      "title": "Pump'N",
-     "label": "HMG"
+     "label": "HMG",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Like Mike & RUSH AVENUE & Miliūs",
      "title": "Cola",
-     "label": "Green Room"
+     "label": "Green Room",
+     "retry": 1
     },
     {
      "minute": null,
@@ -601,13 +612,15 @@
      "minute": null,
      "artist": "'''World Wide Warning:''' AFROJACK & Martin Garrix & David Guetta & Amél Feat. Zack Hall",
      "title": "Our Time (Extended Mix)",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Lazare & ADDAM",
      "title": "Muhuuuuu (JustLuke Extended Remix)",
-     "label": "Spinnin' Deep"
+     "label": "Spinnin' Deep",
+     "retry": 1
     },
     {
      "minute": null,
@@ -626,7 +639,8 @@
      "minute": null,
      "artist": "Cat Dealers & Faiolli Feat. David LeSal",
      "title": "Big Black (Extended Mix)",
-     "label": "Tomorrowland"
+     "label": "Tomorrowland",
+     "retry": 1
     },
     {
      "minute": null,
@@ -715,7 +729,8 @@
      "minute": null,
      "artist": "BigXThaPlug",
      "title": "The Largest (Kevin Knapp Texas Techno Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -734,7 +749,8 @@
      "minute": null,
      "artist": "TOBEHONEST",
      "title": "Especial",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -903,7 +919,8 @@
      "minute": null,
      "artist": "Crusy",
      "title": "Kiki",
-     "label": "Toolroom"
+     "label": "Toolroom",
+     "retry": 1
     },
     {
      "minute": null,
@@ -922,13 +939,15 @@
      "minute": null,
      "artist": "Rafael (IL) & Mishell",
      "title": "Naughty",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "VOLAC & FatSync Feat. DJ Mavicc & MC Priscila",
      "title": "Baile",
-     "label": "Onerpm"
+     "label": "Onerpm",
+     "retry": 1
     },
     {
      "minute": null,
@@ -952,7 +971,8 @@
      "minute": null,
      "artist": "Armand Van Helden Pres. Old School Junkies",
      "title": "Work Me Goddammit (Chris Lake Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1002,7 +1022,8 @@
      "minute": null,
      "artist": "Valentino Khan",
      "title": "Deep Down Low (Chris Lake Remix)",
-     "label": "Owsla"
+     "label": "Owsla",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1021,7 +1042,8 @@
      "minute": null,
      "artist": "Suray Sertin",
      "title": "Like That",
-     "label": "Confession"
+     "label": "Confession",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1032,7 +1054,8 @@
      "minute": null,
      "artist": "Noizu & Hannah Boleyn",
      "title": "Desire",
-     "label": "Techne"
+     "label": "Techne",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1047,7 +1070,8 @@
      "minute": null,
      "artist": "Fallon",
      "title": "Imma Read",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1071,13 +1095,15 @@
      "minute": null,
      "artist": "Chris Lake & Black Lotus",
      "title": "Jungle",
-     "label": "Black Book"
+     "label": "Black Book",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Chris Lake & Vera Blue",
      "title": "Chemistry",
-     "label": "Black Book"
+     "label": "Black Book",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1109,7 +1135,8 @@
      "minute": null,
      "artist": "Errow",
      "title": "Freak",
-     "label": "Box Of Cats"
+     "label": "Box Of Cats",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1133,13 +1160,15 @@
      "minute": null,
      "artist": ";Moguai = [[2025-08-07",
      "title": "Moguai - PUNX Up The Volume 639]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 0,
      "artist": "Wilo",
      "title": "Bima",
-     "label": "Aphrodogz"
+     "label": "Aphrodogz",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -1241,7 +1270,8 @@
      "minute": 37,
      "artist": "HI-LO vs Green Velvet, Dajae vs Indeep",
      "title": "KOALA vs Brighter Days vs Saved My Life (OH Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 40,
@@ -1273,7 +1303,8 @@
      "minute": 48,
      "artist": "Esteban Angel & Bruno Bona",
      "title": "Sexy Back",
-     "label": "Bona"
+     "label": "Bona",
+     "retry": 1
     },
     {
      "minute": 52,
@@ -1305,19 +1336,22 @@
      "minute": 58,
      "artist": "Rebūke & Deadmau5 & Ed Graves",
      "title": "Endless",
-     "label": "ERA"
+     "label": "ERA",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": ";Chris Lake = [[2025-07-02",
      "title": "Chris Lake - Chemistry Radio 001]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "BigXThaPlug",
      "title": "The Largest (Kevin Knapp Texas Techno Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1336,7 +1370,8 @@
      "minute": null,
      "artist": "TOBEHONEST",
      "title": "Especial",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1477,7 +1512,8 @@
      "minute": null,
      "artist": ";Purple Disco Machine = [[2025-07-15",
      "title": "Purple Disco Machine - Purple Disco Tales July 2025]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 0,
@@ -1679,7 +1715,8 @@
      "minute": null,
      "artist": "Bodhi",
      "title": "Surge",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1737,7 +1774,8 @@
      "minute": null,
      "artist": "Ketiov",
      "title": "FT 130BPM",
-     "label": "Running Back"
+     "label": "Running Back",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1756,7 +1794,8 @@
      "minute": null,
      "artist": "Kelly Lee Owens",
      "title": "Melt!",
-     "label": "Smalltown Supersound"
+     "label": "Smalltown Supersound",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1771,7 +1810,8 @@
      "minute": null,
      "artist": "Kelly Lee Owens",
      "title": "Sunshine",
-     "label": "Dh2"
+     "label": "Dh2",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1790,7 +1830,8 @@
      "minute": null,
      "artist": "Dompe",
      "title": "Factor",
-     "label": "Jackfruit"
+     "label": "Jackfruit",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1848,25 +1889,29 @@
      "minute": null,
      "artist": "Aaliyah",
      "title": "Rock The Boat (Marcel Deptford Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "ODF",
      "title": "Know Dis",
-     "label": "1forty"
+     "label": "1forty",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Laurent Garnier",
      "title": "Wake Up",
-     "label": "Distance"
+     "label": "Distance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sciahri",
      "title": "Glow",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1924,13 +1969,15 @@
      "minute": null,
      "artist": "Matrefakt",
      "title": "Dimension",
-     "label": "Gudu"
+     "label": "Gudu",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Boys Noize & Locked Club & Me Jesmay",
      "title": "CDXOTA",
-     "label": "Ones And Zeros"
+     "label": "Ones And Zeros",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1949,7 +1996,8 @@
      "minute": null,
      "artist": "Frits Wentink & Malin Genie",
      "title": "Exopaq",
-     "label": "Bobby Donny"
+     "label": "Bobby Donny",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2003,7 +2051,8 @@
      "minute": null,
      "artist": "Erol Alkan & Boys Noize",
      "title": "Lemonade",
-     "label": "Phantasy Sound"
+     "label": "Phantasy Sound",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2049,13 +2098,15 @@
      "minute": null,
      "artist": "Ammo Avenue",
      "title": "Hypnotica",
-     "label": "Edible"
+     "label": "Edible",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Angel Heredia",
      "title": "No Puedo",
-     "label": "Stereo"
+     "label": "Stereo",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2070,19 +2121,22 @@
      "minute": null,
      "artist": "DREYA V",
      "title": "Up Front",
-     "label": "Realm"
+     "label": "Realm",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "MGMT",
      "title": "Kids (Noizu Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ayra Starr Feat. Asake",
      "title": "Goodbye (Warm Up) (Chris Lake Remix)",
-     "label": "Warm Up"
+     "label": "Warm Up",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2097,13 +2151,15 @@
      "minute": null,
      "artist": "Bob Marley & The Wailers",
      "title": "Is This Love (Marco Lys & Xie Remix)",
-     "label": "Island"
+     "label": "Island",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Chris Lake & NPC",
      "title": "A Drug From God (Fallon Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2162,7 +2218,8 @@
      "minute": null,
      "artist": "Pedroz & GREG 99",
      "title": "1, 2 Step",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2246,19 +2303,22 @@
      "minute": null,
      "artist": "ESSEL",
      "title": "Legacy",
-     "label": "Toolroom Trax"
+     "label": "Toolroom Trax",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Julio Bashmore & Noizu",
      "title": "Au Seve 2025",
-     "label": "Broadwalk"
+     "label": "Broadwalk",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Chris Lake & Abel Balder",
      "title": "Ease My Mind (Butch Remix)",
-     "label": "Black Book"
+     "label": "Black Book",
+     "retry": 1
     }
    ]
   },
@@ -2269,7 +2329,8 @@
      "minute": null,
      "artist": ";Moguai = [[2025-12-18",
      "title": "Moguai - PUNX Up The Volume 658]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 0,
@@ -2349,7 +2410,8 @@
      "minute": 18,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": 21,
@@ -2455,7 +2517,8 @@
      "minute": 44,
      "artist": "James Hype Feat. Sam Harper & Bobby Harvey",
      "title": "Waterfalls (NASH Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -2513,13 +2576,15 @@
      "minute": null,
      "artist": ";James Hype = [[2025-07-19",
      "title": "James Hype @ Desert Valley Stage, Parookaville]] ([[2025-07-26 - Moguai, James Hype, Alle Farben - 1LIVE DJ Session]])",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Tita Lau",
      "title": "Bristol's In The House",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2547,7 +2612,8 @@
      "minute": null,
      "artist": "Duke Dumont Feat. Shaun Ross",
      "title": "Red Light, Green Light (James Hype Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2579,13 +2645,15 @@
      "minute": null,
      "artist": "Benny Benassi Pres. The Biz",
      "title": "Satisfaction (James Hype Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "James Hype Feat. Kim Petras",
      "title": "Drums (James Hype Acid Edit)",
-     "label": "Island"
+     "label": "Island",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2630,7 +2698,8 @@
      "minute": null,
      "artist": "Ramon Tapia & Kai Tracid",
      "title": "303 State",
-     "label": "Say What?"
+     "label": "Say What?",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2688,7 +2757,8 @@
      "minute": null,
      "artist": ";BLOND:ISH = [[2025-03-14",
      "title": "VIZE, BLOND:ISH - N-JOY Residents]] ([[2025-05-03 - Moguai, BLOND:ISH, LOVRA - 1LIVE DJ Session]])",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2720,13 +2790,15 @@
      "minute": null,
      "artist": "BLOND:ISH & Von Boch",
      "title": "We Watch",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Tabú",
      "title": "Imani",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2758,7 +2830,8 @@
      "minute": null,
      "artist": ";Armin van Buuren b2b ARTBAT = [[2025-02-21",
      "title": "Armin van Buuren b2b ARTBAT @ A State Of Trance, Ahoy, Rotterdam]] ([[2025-03-08 - Moguai, Armin van Buuren b2b ARTBAT (Ahoy), Alle Farben - 1LIVE DJ Session]])",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2812,19 +2885,22 @@
      "minute": null,
      "artist": "ARTBAT & 7 Skies & N9NE LIVES",
      "title": "Destination",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": ";HUGEL = [[2025-07-27",
      "title": "HUGEL @ Hiper Centro San Rafael, Hï Ibiza]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "HUGEL & Steering Will",
      "title": "Champagne",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2839,13 +2915,15 @@
      "minute": null,
      "artist": "MORINIO",
      "title": "Yaman",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Peppe Citarella & Oh'Mem & Gascón & Maria Mulata",
      "title": "Guacamayo",
-     "label": "Union"
+     "label": "Union",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2864,31 +2942,36 @@
      "minute": null,
      "artist": "OMED",
      "title": "Voce Vai",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Mathieu Ruz & Javi Torres & NoTwins",
      "title": "La Musa",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "+ 20 Fingers Feat. Roula",
      "title": "Lick It (Acapella)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "HUGEL & KIDY & ARVIII",
      "title": "Samarkand",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": ";Chris Lake = [[2025-07-02",
      "title": "Chris Lake - Chemistry Radio 001]] ([[2025-08-09 - Moguai, Chris Lake, Purple Disco Machine - 1LIVE DJ Session]])",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2968,7 +3051,8 @@
      "minute": null,
      "artist": ";Hardwell = [[2025-04-19",
      "title": "Moguai, Hardwell, andhim - 1LIVE DJ Session]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2987,13 +3071,15 @@
      "minute": null,
      "artist": "Domeno & Chloé Doyon vs John Summit & HAYLA",
      "title": "Before It's Over vs Where You Are (Hardwell Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sebastian Ingrosso & Tommy Trash Feat. John Martin",
      "title": "Reload (Hardwell Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3025,7 +3111,8 @@
      "minute": null,
      "artist": "Hardwell",
      "title": "Retrograde (Hardwell 2024 Extended Rework)",
-     "label": "Revealed"
+     "label": "Revealed",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3240,7 +3327,8 @@
      "minute": null,
      "artist": "Chris Lake & Chris Lorenzo Pres. Anti Up",
      "title": "I Cannot",
-     "label": "Anti Up"
+     "label": "Anti Up",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3255,7 +3343,8 @@
      "minute": null,
      "artist": "Interplanetary Criminal & Original Koffee",
      "title": "Slow Burner (Effy Remix)",
-     "label": "Room Two"
+     "label": "Room Two",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3279,19 +3368,22 @@
      "minute": null,
      "artist": ";Moguai = [[2026-01-08",
      "title": "Moguai - PUNX Up The Volume 661]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 0,
      "artist": "Jyye & Julia Temos",
      "title": "Desire",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 3,
      "artist": "Don Diablo & Pink Sweat",
      "title": "5 Minutes",
-     "label": "HEXAGON"
+     "label": "HEXAGON",
+     "retry": 1
     },
     {
      "minute": 7,
@@ -3310,7 +3402,8 @@
      "minute": 11,
      "artist": "Zaark",
      "title": "Move It",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -3329,7 +3422,8 @@
      "minute": 20,
      "artist": "Fezzo",
      "title": "Kids",
-     "label": "Relentless Services"
+     "label": "Relentless Services",
+     "retry": 1
     },
     {
      "minute": 24,
@@ -3361,25 +3455,36 @@
      "minute": 32,
      "artist": "Luvstruck",
      "title": "Walking With Elephants (Extended Mix)",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "retry": 1
     },
     {
      "minute": 37,
      "artist": "Moguai",
      "title": "Deep",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 40,
      "artist": "Major Lazer & DJ Snake Feat. MØ",
      "title": "Lean On (Robin Schulz Extended Remix)",
-     "label": "DML Music IP"
+     "label": "DML Music IP",
+     "bp": "bp:22639482",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/ed8e280a-6337-4086-b36d-56644b8cf980.LOFI.mp3",
+     "name": "Lean On",
+     "mix": "Robin Schulz Extended Remix",
+     "genre": "dance-pop",
+     "released": "2025-12-25",
+     "via": "retry"
     },
     {
      "minute": 43,
      "artist": "Adam Pace Feat. NYTK",
      "title": "Feel The Vibes",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 46,
@@ -3394,13 +3499,15 @@
      "minute": 49,
      "artist": "Moonbootica",
      "title": "Burning",
-     "label": "Moonbootique"
+     "label": "Moonbootique",
+     "retry": 1
     },
     {
      "minute": 54,
      "artist": "Marshall Jefferson X Jaden Bojsen",
      "title": "Let's Go Move Your Body (DanFX Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 57,
@@ -3419,7 +3526,8 @@
      "minute": null,
      "artist": ";Chris Lake = [[2025-12-31",
      "title": "Chris Lake - Capital Dance New Year's Eve]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3616,7 +3724,8 @@
      "minute": null,
      "artist": "Chris Lake & Chris Lorenzo Pres. Anti Up",
      "title": "I Cannot",
-     "label": "Anti Up"
+     "label": "Anti Up",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3631,7 +3740,8 @@
      "minute": null,
      "artist": "Interplanetary Criminal & Original Koffee",
      "title": "Slow Burner (Effy Remix)",
-     "label": "Room Two"
+     "label": "Room Two",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3650,7 +3760,8 @@
      "minute": null,
      "artist": ";Nora En Pure = [[2026-01-06",
      "title": "Nora En Pure - Purified 489]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3760,7 +3871,8 @@
      "minute": null,
      "artist": "David Mackay & Raul Vidal",
      "title": "At Least We Are Under The Same Moon (Extended Mix)",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3862,7 +3974,8 @@
      "minute": null,
      "artist": "John Grand",
      "title": "MoMa",
-     "label": "Enhanced Progressive"
+     "label": "Enhanced Progressive",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3894,7 +4007,8 @@
      "minute": null,
      "artist": "Harry Diamond, ChangedFaces",
      "title": "Blackout",
-     "label": "MECHA"
+     "label": "MECHA",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3935,7 +4049,8 @@
      "minute": null,
      "artist": "Dash Berlin, Magic Sound, Jeffrey Sutorius",
      "title": "Cyclus",
-     "label": "Serendipity Muzik"
+     "label": "Serendipity Muzik",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3989,7 +4104,8 @@
      "minute": null,
      "artist": "Shogun",
      "title": "New World",
-     "label": "Songspire"
+     "label": "Songspire",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4043,7 +4159,8 @@
      "minute": null,
      "artist": "Orjan Nilsen",
      "title": "Hurts",
-     "label": "In My Opinion"
+     "label": "In My Opinion",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4110,7 +4227,8 @@
      "minute": null,
      "artist": "Dusky, Nadeem Karim, Pritt",
      "title": "Kadhalan (Loverboy Mix)",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4129,7 +4247,8 @@
      "minute": null,
      "artist": "Jordan George",
      "title": "Check 1",
-     "label": "TNT"
+     "label": "TNT",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4148,7 +4267,8 @@
      "minute": null,
      "artist": "Entasia",
      "title": "Fantasy",
-     "label": "TNT"
+     "label": "TNT",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4263,25 +4383,29 @@
      "minute": null,
      "artist": "'''Tune Of The Week",
      "title": "DJ Fuel’s Pick Of The Week:''' Darude, Ilan Bluestone, PAENDA - Feel The Beat (Ilan Bluestone Remix)",
-     "label": "Vibing Out"
+     "label": "Vibing Out",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "'''House Cut Of The Week",
      "title": "It’s All About House Music:''' RUZE - Pushin_ On",
-     "label": "Staff Only"
+     "label": "Staff Only",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "'''Fuel Flashback:''' Mario Più",
      "title": "Communication (Somebody Answer The Phone)",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Ray Volpe",
      "title": "Laserbeams (Chris Lake Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4335,31 +4459,36 @@
      "minute": null,
      "artist": "Skrillex & Chris Lake & RHR",
      "title": "É O Bonde",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Jello & Andrew Son",
      "title": "Bring Em Out",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Chris Lorenzo & Kah Lo",
      "title": "Actin Tough (Chris Lake Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Discip",
      "title": "Dangerous (SNTS Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "''Chris Lorenzo",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4378,19 +4507,22 @@
      "minute": null,
      "artist": "Dean Turley",
      "title": "Actin Tough (Chris Lake Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Robin S",
      "title": "Show Me Love (FISHER Dub)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "ANOTR, 54 Ultra",
      "title": "Talk To Ya",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4414,13 +4546,22 @@
      "minute": null,
      "artist": "Detlef",
      "title": "High Roller",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Fred Again… X Chris Lorenzo",
      "title": "Victory Lap X Appetite VIP",
-     "label": ""
+     "label": "",
+     "bp": "bp:24376735",
+     "score": 0.763,
+     "preview": "https://geo-samples.beatport.com/track/20bcc8d5-5dd8-45a6-b141-d308822ec530.LOFI.mp3",
+     "name": "Victory Lap",
+     "mix": "Intro",
+     "genre": "140-deep-dubstep-grime",
+     "released": "2025-06-17",
+     "via": "retry"
     }
    ]
   }

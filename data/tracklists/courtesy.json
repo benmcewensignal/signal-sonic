@@ -9,13 +9,15 @@
      "minute": 0,
      "artist": "Ludwig Wandinger Feat. Yves B. Golden",
      "title": "Is Peace Wild?",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 4,
      "artist": "Hermanito & Synedra",
      "title": "Sylph",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -47,19 +49,22 @@
      "minute": null,
      "artist": "Matisa In My Head",
      "title": "Louder",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Etika",
      "title": "Electronic",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Tuccillo",
      "title": "Sabotage",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -91,7 +96,8 @@
      "minute": null,
      "artist": "Tabache",
      "title": "IJFIL.. WMNB.",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -110,7 +116,8 @@
      "minute": null,
      "artist": "Phasmid",
      "title": "Hadal Zone (Kessler Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -129,7 +136,8 @@
      "minute": null,
      "artist": "RTR",
      "title": "9095",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },
@@ -140,7 +148,8 @@
      "minute": 0,
      "artist": "Roomer",
      "title": "Chance",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 3,
@@ -172,31 +181,36 @@
      "minute": null,
      "artist": "Recut",
      "title": "Narcotic Tango",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Louder",
      "title": "Priest",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Wulf N' Bear",
      "title": "Raptures Of The Deep (Stacey Pullen Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "The Hacker",
      "title": "Harmonia",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "B From E",
      "title": "The Pop",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,

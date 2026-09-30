@@ -1745,7 +1745,8 @@
      "minute": 8,
      "artist": "Goom Gum",
      "title": "To Trajadao",
-     "label": "Avtook"
+     "label": "Avtook",
+     "retry": 1
     },
     {
      "minute": 11,
@@ -1760,7 +1761,8 @@
      "minute": 15,
      "artist": "Adapter",
      "title": "Catchaman",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -1866,19 +1868,22 @@
      "minute": 45,
      "artist": "Felix Da Housecat Feat. Miss Kittin",
      "title": "Silver Screen Shower Scene (Alexander Delanois Private Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 49,
      "artist": "Jimi Jules vs Joshlane",
      "title": "My City's On Fire vs System Overload (Cassian Mashup)",
-     "label": "Rose Avenue"
+     "label": "Rose Avenue",
+     "retry": 1
     },
     {
      "minute": 52,
      "artist": "Mångata Projekt",
      "title": "Don't You Tell Me To Stop (Intergalactic Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -1910,7 +1915,8 @@
      "minute": 61,
      "artist": "Three Drives",
      "title": "Greece 2000 (Max Styler Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 65,
@@ -1964,31 +1970,36 @@
      "minute": 76,
      "artist": "ID ID",
      "title": "Push That",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "retry": 1
     },
     {
      "minute": 80,
      "artist": "Da Hool",
      "title": "Meet Her At The Love Parade (YOTTO & Cassian Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 83,
      "artist": "Cassius Feat. Steve Edwards",
      "title": "The Sound Of Violence (Final Request Remix)",
-     "label": "Cassius"
+     "label": "Cassius",
+     "retry": 1
     },
     {
      "minute": 86,
      "artist": "Aaron Hibell",
      "title": "Running Up That Hill",
-     "label": "Self Released"
+     "label": "Self Released",
+     "retry": 1
     },
     {
      "minute": 87,
      "artist": "TouchTalk",
      "title": "Change It",
-     "label": "Lovedogs"
+     "label": "Lovedogs",
+     "retry": 1
     }
    ]
   },
@@ -2108,7 +2119,8 @@
      "minute": 53,
      "artist": "ID ID",
      "title": "Push That",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "retry": 1
     },
     {
      "minute": 58,
@@ -2871,7 +2883,8 @@
      "minute": 5,
      "artist": "ID ID",
      "title": "Push That",
-     "label": "Mixmag"
+     "label": "Mixmag",
+     "retry": 1
     },
     {
      "minute": 9,
@@ -3510,7 +3523,8 @@
      "minute": 50,
      "artist": "Da Hool",
      "title": "Meet Her At The Love Parade (YOTTO & Cassian Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 52,
@@ -3567,13 +3581,15 @@
      "minute": 5,
      "artist": "Deomid",
      "title": "Twisted [2]= 3:12",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 8,
      "artist": "TouchTalk",
      "title": "Change It (Westend Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 12,
@@ -3610,7 +3626,8 @@
      "minute": 21,
      "artist": "Final Request",
      "title": "Like This",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 24,
@@ -3638,25 +3655,36 @@
      "minute": 33,
      "artist": "DJ Glen & Vitor Munhoz",
      "title": "Da Funk Beat",
-     "label": "International Deejay Gigolo"
+     "label": "International Deejay Gigolo",
+     "bp": "bp:19046136",
+     "score": 0.587,
+     "preview": "https://geo-samples.beatport.com/track/6bc28621-0313-4f31-8d15-7d49e139d15b.LOFI.mp3",
+     "name": "Da Funk",
+     "mix": "Perfect Mix",
+     "genre": "minimal-deep-tech",
+     "released": "2024-05-31",
+     "via": "retry"
     },
     {
      "minute": 36,
      "artist": "Jast",
      "title": "Move",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "retry": 1
     },
     {
      "minute": 41,
      "artist": "Purple Mars",
      "title": "High",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 44,
      "artist": "George Z & Matt",
      "title": "Down Low",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 47,
@@ -3685,7 +3713,8 @@
      "minute": 59,
      "artist": "Cherry",
      "title": "Puer",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "retry": 1
     },
     {
      "minute": 63,
@@ -3700,7 +3729,8 @@
      "minute": 67,
      "artist": "Goom Gum",
      "title": "Enough",
-     "label": "Avtook"
+     "label": "Avtook",
+     "retry": 1
     },
     {
      "minute": 71,
@@ -3741,7 +3771,8 @@
      "minute": 83,
      "artist": "Masters At Work",
      "title": "Work (Skytech Remix)",
-     "label": "MAW"
+     "label": "MAW",
+     "retry": 1
     },
     {
      "minute": 88,
@@ -3769,19 +3800,22 @@
      "minute": 94,
      "artist": "''I Promised Mom",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 98,
      "artist": "TH;EN & SLVR",
      "title": "Gangs [Afterlife]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 102,
      "artist": "Carl Bee & Glowal",
      "title": "Machine",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 105,
@@ -3800,13 +3834,15 @@
      "minute": null,
      "artist": "[10?] Da Hool",
      "title": "Meet Her At The Love Parade (YOTTO & Cassian Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 109,
      "artist": "GENESI",
      "title": "Hyper (DJ KUBA & NEITAN Remix)",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "retry": 1
     },
     {
      "minute": 112,
@@ -3830,7 +3866,8 @@
      "minute": 121,
      "artist": "TH;EN",
      "title": "Bodyrock",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 125,
@@ -3845,7 +3882,8 @@
      "minute": 128,
      "artist": "Anyma & Adam Sellouk",
      "title": "Girls M.I.A",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "retry": 1
     },
     {
      "minute": 131,
@@ -3878,7 +3916,8 @@
      "minute": 141,
      "artist": "Fred Again.. & Skepta & PlaqueBoyMax",
      "title": "Victory Lap (Adam Sellouk & UN:COMN Remix)",
-     "label": "Lost Language"
+     "label": "Lost Language",
+     "retry": 1
     },
     {
      "minute": 144,
@@ -3915,13 +3954,15 @@
      "minute": 155,
      "artist": "Steve Angello",
      "title": "Knas (SCRIPT Remix)",
-     "label": "Size"
+     "label": "Size",
+     "retry": 1
     },
     {
      "minute": 159,
      "artist": "Drax Nelson",
      "title": "Now Do It (Solomun Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 163,
@@ -3945,7 +3986,8 @@
      "minute": 171,
      "artist": "M83",
      "title": "Midnight City (Reezer & Driver Of The Future Remix)",
-     "label": "Naive"
+     "label": "Naive",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3977,7 +4019,8 @@
      "minute": 178,
      "artist": "HIGHLITE",
      "title": "Beverly",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "retry": 1
     }
    ]
   },
@@ -4091,7 +4134,8 @@
      "minute": 52,
      "artist": "Carl Bee & Glowal",
      "title": "Machine",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 56,
@@ -4252,13 +4296,15 @@
      "minute": 122,
      "artist": "Da Hool",
      "title": "Meet Her At The Love Parade (YOTTO & Cassian Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 125,
      "artist": "GENESI",
      "title": "Hyper (DJ KUBA & NEITAN Remix)",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "retry": 1
     },
     {
      "minute": 130,

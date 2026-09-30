@@ -465,7 +465,8 @@
      "minute": 77,
      "artist": "RÜFÜS DU SOL",
      "title": "Innerbloom (Imad & Dennis Louvra Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 83,
@@ -532,7 +533,8 @@
      "minute": 99,
      "artist": "+ Masters At Work",
      "title": "Work (Acapella)",
-     "label": "MAW"
+     "label": "MAW",
+     "retry": 1
     },
     {
      "minute": 103,
@@ -612,7 +614,8 @@
      "minute": 122,
      "artist": "Darque & Da Capo Feat. Idd Aziz",
      "title": "Yauna",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "retry": 1
     },
     {
      "minute": 129,
@@ -706,7 +709,8 @@
      "minute": 0,
      "artist": "Jimi Jules",
      "title": "Run",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -786,13 +790,15 @@
      "minute": 38,
      "artist": "AMÉMÉ",
      "title": "Power (Monkey Safari Remix)",
-     "label": "One Tribe"
+     "label": "One Tribe",
+     "retry": 1
     },
     {
      "minute": 42,
      "artist": "Kuniyuki Takahashi",
      "title": "Deliverance (Culoe De Song Ka Mnguni Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -811,7 +817,8 @@
      "minute": 56,
      "artist": "UNER",
      "title": "Cocoua",
-     "label": "Cadenza"
+     "label": "Cadenza",
+     "retry": 1
     },
     {
      "minute": 57,
@@ -830,7 +837,8 @@
      "minute": 60,
      "artist": "Groove Junkies Feat. Indeya",
      "title": "Oh Lord",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -981,7 +989,8 @@
      "minute": null,
      "artist": "[1??] Da Africa Deep & Nurogroove",
      "title": "No End",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 135,
@@ -1039,7 +1048,8 @@
      "minute": 157,
      "artist": "Adore Feat. Marine Abtan",
      "title": "SING IT BACK",
-     "label": "Wired"
+     "label": "Wired",
+     "retry": 1
     },
     {
      "minute": 161,
@@ -1084,7 +1094,8 @@
      "minute": 176,
      "artist": "Lou Rawls",
      "title": "You'll Never Find Another Love Like Mine (Frankie Knuckles Directors Cut Mix)",
-     "label": "Legacy"
+     "label": "Legacy",
+     "retry": 1
     },
     {
      "minute": 182,
@@ -1168,7 +1179,8 @@
      "minute": 203,
      "artist": "Earth & Wind & Fire",
      "title": "September",
-     "label": "Columbia"
+     "label": "Columbia",
+     "retry": 1
     },
     {
      "minute": 207,
@@ -1187,7 +1199,8 @@
      "minute": 209,
      "artist": "Gloria Gaynor",
      "title": "I Will Survive (1991 Version)",
-     "label": ""
+     "label": "",
+     "retry": 1
     }
    ]
   },

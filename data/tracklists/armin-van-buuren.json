@@ -31,7 +31,8 @@
      "minute": 8,
      "artist": "Azzido Da Bass",
      "title": "Dooms Night (Woody Van Eyden Extended Remix)",
-     "label": "Kontor"
+     "label": "Kontor",
+     "retry": 1
     },
     {
      "minute": 12,
@@ -46,7 +47,15 @@
      "minute": 15,
      "artist": "Armin van Buuren & Pete Tong Feat. Poppy Baskcomb",
      "title": "Toca's Miracle (Extended)",
-     "label": ""
+     "label": "",
+     "bp": "bp:30282960",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/e4c98cc3-a4ce-4c1e-b6f3-f140ab56b500.LOFI.mp3",
+     "name": "Toca's Miracle",
+     "mix": "Extended",
+     "genre": "mainstage",
+     "released": "2026-09-11",
+     "via": "retry"
     },
     {
      "minute": 18,
@@ -83,13 +92,22 @@
      "minute": null,
      "artist": "Fatboy Slim & Topic & Marco Generani",
      "title": "Right Here, Right Now (Rework)",
-     "label": "Cr2"
+     "label": "Cr2",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sunnery James & Ryan Marciano & Raluka Feat. Kes Kross",
      "title": "Coffee Shop",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:28823790",
+     "score": 0.777,
+     "preview": "https://geo-samples.beatport.com/track/c550cdfe-a4bc-4330-a1df-8b63f627efa9.LOFI.mp3",
+     "name": "Coffee Shop",
+     "mix": "Extended Mix",
+     "genre": "afro-house",
+     "released": "2026-05-29",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -147,7 +165,8 @@
      "minute": null,
      "artist": "Oliver Heldens & Sam Harper",
      "title": "Satisfy",
-     "label": "Heldeep"
+     "label": "Heldeep",
+     "retry": 1
     },
     {
      "minute": null,
@@ -250,7 +269,8 @@
      "minute": null,
      "artist": "Jan Blomqvist Feat. Elena Pitoulis",
      "title": "More (Zerb Remix)",
-     "label": "Armada Deep"
+     "label": "Armada Deep",
+     "retry": 1
     },
     {
      "minute": null,
@@ -295,7 +315,8 @@
      "minute": null,
      "artist": "'''World Wide Warning:''' Bountyhunter",
      "title": "Woops (Dimitri Vegas & Junkie Kid Remix / BRANDON Remix)",
-     "label": "Smash The House"
+     "label": "Smash The House",
+     "retry": 1
     },
     {
      "minute": null,
@@ -314,13 +335,15 @@
      "minute": null,
      "artist": "Millhouse",
      "title": "Horny Dub",
-     "label": "Clipp.Art"
+     "label": "Clipp.Art",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "LAMMER",
      "title": "Alive",
-     "label": "Distrokid"
+     "label": "Distrokid",
+     "retry": 1
     },
     {
      "minute": null,
@@ -378,13 +401,15 @@
      "minute": 6,
      "artist": "Ollie BC & Mason Collective & Dany Gomez & EMBI",
      "title": "Mi Combi",
-     "label": "MVSON"
+     "label": "MVSON",
+     "retry": 1
     },
     {
      "minute": 10,
      "artist": "Vito",
      "title": "Loca",
-     "label": "NUSONIDO"
+     "label": "NUSONIDO",
+     "retry": 1
     },
     {
      "minute": 13,
@@ -439,7 +464,8 @@
      "minute": 34,
      "artist": "Maz",
      "title": "Baile",
-     "label": "Dawn Patrol"
+     "label": "Dawn Patrol",
+     "retry": 1
     },
     {
      "minute": 38,
@@ -512,7 +538,15 @@
      "minute": 10,
      "artist": "Armin van Buuren & Pete Tong Feat. Poppy Baskcomb",
      "title": "Toca's Miracle",
-     "label": ""
+     "label": "",
+     "bp": "bp:30282960",
+     "score": 0.854,
+     "preview": "https://geo-samples.beatport.com/track/e4c98cc3-a4ce-4c1e-b6f3-f140ab56b500.LOFI.mp3",
+     "name": "Toca's Miracle",
+     "mix": "Extended",
+     "genre": "mainstage",
+     "released": "2026-09-11",
+     "via": "retry"
     },
     {
      "minute": 13,
@@ -632,7 +666,8 @@
      "minute": null,
      "artist": "Robin Schulz & MARTEN HØRGER",
      "title": "Arizona",
-     "label": "Warner Music Germany"
+     "label": "Warner Music Germany",
+     "retry": 1
     },
     {
      "minute": null,
@@ -677,7 +712,8 @@
      "minute": null,
      "artist": "Riva Starr & Fatboy Slim Feat. Beardyman",
      "title": "Eat Sleep Rave Repeat (BLR Remix)",
-     "label": "Skint"
+     "label": "Skint",
+     "retry": 1
     },
     {
      "minute": null,
@@ -766,7 +802,8 @@
      "minute": null,
      "artist": "'''World Wide Warning:''' TESS",
      "title": "Shooting Stars",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "retry": 1
     },
     {
      "minute": null,
@@ -785,7 +822,8 @@
      "minute": null,
      "artist": "Kyle Starkey & Entasia",
      "title": "234",
-     "label": "Limbo"
+     "label": "Limbo",
+     "retry": 1
     },
     {
      "minute": null,
@@ -826,7 +864,8 @@
      "minute": null,
      "artist": "Hidde Van Wee",
      "title": "Waves",
-     "label": "Locus"
+     "label": "Locus",
+     "retry": 1
     },
     {
      "minute": null,
@@ -854,19 +893,22 @@
      "minute": null,
      "artist": "Jaap Ligthart",
      "title": "Flaneur",
-     "label": "La Guardería"
+     "label": "La Guardería",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sunnery James & Ryan Marciano",
      "title": "Du Du Dum",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sunnery James & Ryan Marciano",
      "title": "Chao Chao",
-     "label": "Maské"
+     "label": "Maské",
+     "retry": 1
     },
     {
      "minute": null,
@@ -898,7 +940,8 @@
      "minute": null,
      "artist": "Sunnery James & Ryan Marciano",
      "title": "Oh My",
-     "label": "Kontor"
+     "label": "Kontor",
+     "retry": 1
     },
     {
      "minute": null,
@@ -952,7 +995,8 @@
      "minute": null,
      "artist": "Sunnery James & Ryan Marciano & LevyM Feat. Ayah Tlhanyane",
      "title": "Nesiah",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     }
    ]
   },
@@ -963,13 +1007,15 @@
      "minute": 0,
      "artist": "Armin van Buuren",
      "title": "Awake (Intro Edit)",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": 6,
      "artist": "Armin van Buuren & JOA",
      "title": "Heavy (DJ KUBA & NEITAN Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -988,19 +1034,29 @@
      "minute": 12,
      "artist": "Armin van Buuren & Pete Tong Feat. Poppy Baskcomb",
      "title": "Toca's Miracle",
-     "label": ""
+     "label": "",
+     "bp": "bp:30282960",
+     "score": 0.854,
+     "preview": "https://geo-samples.beatport.com/track/e4c98cc3-a4ce-4c1e-b6f3-f140ab56b500.LOFI.mp3",
+     "name": "Toca's Miracle",
+     "mix": "Extended",
+     "genre": "mainstage",
+     "released": "2026-09-11",
+     "via": "retry"
     },
     {
      "minute": 16,
      "artist": "David Guetta vs Benny Benassi",
      "title": "Satisfaction (With KASIA, Moonphazes, Majewski) (Remix)",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "retry": 1
     },
     {
      "minute": 19,
      "artist": "Armin van Buuren & Skytech vs Empire Of The Sun",
      "title": "Walking On A Dream (DJ Arman Aveiru She A Freak Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 22,
@@ -1097,19 +1153,22 @@
      "minute": 45,
      "artist": "Argy & Omnya",
      "title": "Aria (OnTune & Indecent Noise Remix)",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "retry": 1
     },
     {
      "minute": 47,
      "artist": "Armin van Buuren Feat. Miri Ben-Ari",
      "title": "Intense",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": 51,
      "artist": "Armin van Buuren Feat. Trevor Guthrie",
      "title": "This Is What It Feels Like (Benwal Remix)",
-     "label": "Armind"
+     "label": "Armind",
+     "retry": 1
     },
     {
      "minute": 54,
@@ -1128,7 +1187,8 @@
      "minute": 56,
      "artist": "HI-LO vs Armin van Buuren & Martin Garrix & Libby Whitehouse vs Ørjan Nilsen",
      "title": "United In Trance vs Sleepless Nights vs Amsterdam (Armin van Buuren Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 59,
@@ -1260,7 +1320,8 @@
      "minute": null,
      "artist": "+ Armin van Buuren Feat. SACHA",
      "title": "Set Me Free (VIP Mix)",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     }
    ]
   },
@@ -1297,7 +1358,15 @@
      "minute": 6,
      "artist": "Super8 & Tab Feat. Hero Baldwin",
      "title": "Burn (Matt Fax Extended Remix)",
-     "label": "Armada Captivating"
+     "label": "Armada Captivating",
+     "bp": "bp:29297119",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/9638abc5-97a3-4c83-a50d-6bd195a5af9b.LOFI.mp3",
+     "name": "Burn",
+     "mix": "Matt Fax Extended Remix",
+     "genre": "melodic-house-techno",
+     "released": "2026-07-03",
+     "via": "retry"
     },
     {
      "minute": 10,
@@ -1417,7 +1486,8 @@
      "minute": null,
      "artist": "Zerb & Rita Ora",
      "title": "If It's Not Love (VIP Mix)",
-     "label": "Th3rd Brain"
+     "label": "Th3rd Brain",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1436,7 +1506,8 @@
      "minute": null,
      "artist": "Miirabelle & Stadiumx",
      "title": "Pongo",
-     "label": "Toolroom Trax"
+     "label": "Toolroom Trax",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1481,13 +1552,15 @@
      "minute": null,
      "artist": "LUUDE & Lock'n Load & Harry Bee",
      "title": "Ya Mind",
-     "label": "Altra Moda"
+     "label": "Altra Moda",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Plastik Funk & Esox & The Melody Men",
      "title": "Watch Me",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1545,7 +1618,8 @@
      "minute": null,
      "artist": "HUGEL & Big Sean & Scott Storch",
      "title": "Body Drop",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1564,7 +1638,8 @@
      "minute": null,
      "artist": "DONT BLINK & Goom Gum",
      "title": "HARD DECISION (DONT BLINK Remix)",
-     "label": "Uncommon"
+     "label": "Uncommon",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1731,7 +1806,8 @@
      "minute": null,
      "artist": "Massano & Silver Panda",
      "title": "Pa Ca",
-     "label": "Simulate"
+     "label": "Simulate",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1828,7 +1904,15 @@
      "minute": null,
      "artist": "Lost Frequencies Feat. Tom Odell",
      "title": "Black Friday (Pretty Like The Sun) (Lost Frequencies Deluxe Mix)",
-     "label": "Epic Amsterdam"
+     "label": "Epic Amsterdam",
+     "bp": "bp:17993812",
+     "score": 0.76,
+     "preview": "https://geo-samples.beatport.com/track/d5663b4d-7302-4226-98ad-9fbd6d7e7510.LOFI.mp3",
+     "name": "The Feeling",
+     "mix": "Lost Frequencies & Andromedik Deluxe Mix",
+     "genre": "drum-bass",
+     "released": "2023-08-11",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -1861,7 +1945,8 @@
      "minute": null,
      "artist": "26 & Mariz",
      "title": "Ascension",
-     "label": "Interstellar"
+     "label": "Interstellar",
+     "retry": 1
     },
     {
      "minute": null,
@@ -1932,7 +2017,15 @@
      "minute": null,
      "artist": "Atlantis vs Avatar Feat. Miriam Stockley",
      "title": "Fiji (Oliver Smith Extended Remix)",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:28722474",
+     "score": 0.981,
+     "preview": "https://geo-samples.beatport.com/track/ac07ddfb-9a4b-44a0-8cad-aa89b33c2799.LOFI.mp3",
+     "name": "Fiji",
+     "mix": "Oliver Smith Extended Mix",
+     "genre": "trance-main-floor",
+     "released": "2026-05-29",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -2003,7 +2096,8 @@
      "minute": null,
      "artist": "KASIA",
      "title": "Simulate",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "retry": 1
     }
    ]
   },
@@ -2027,13 +2121,22 @@
      "minute": 5,
      "artist": "Super8 & Tab Feat. Hero Baldwin",
      "title": "Burn (Matt Fax Extended Remix)",
-     "label": "Armada Captivating"
+     "label": "Armada Captivating",
+     "bp": "bp:29297119",
+     "score": 1.0,
+     "preview": "https://geo-samples.beatport.com/track/9638abc5-97a3-4c83-a50d-6bd195a5af9b.LOFI.mp3",
+     "name": "Burn",
+     "mix": "Matt Fax Extended Remix",
+     "genre": "melodic-house-techno",
+     "released": "2026-07-03",
+     "via": "retry"
     },
     {
      "minute": 8,
      "artist": "BLR & Amber Revival",
      "title": "Breathless (Podium Mix)",
-     "label": "Blooom"
+     "label": "Blooom",
+     "retry": 1
     },
     {
      "minute": 12,
@@ -2109,7 +2212,8 @@
      "minute": 0,
      "artist": "''Binary Finary",
      "title": "1998 (ID Remix) [Armada]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -2128,7 +2232,8 @@
      "minute": 5,
      "artist": "Faithless & Ben Nicky & Luke Bond vs Paul Denton",
      "title": "Insomnia vs Siren (Armin van Buuren Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -2147,37 +2252,43 @@
      "minute": 10,
      "artist": "''Da Hool",
      "title": "Meet Her At The Love Parade (ID Remix) [Kosmo]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 12,
      "artist": "Mesto vs Fallon",
      "title": "Caramelle vs Diet Coke (Bassjackers TECH BOUNCE Edit)",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "retry": 1
     },
     {
      "minute": 15,
      "artist": "Darude & Skytech vs Dada Life",
      "title": "Sandstorm vs Kick Out The Epic Motherfucker (Armin van Buuren Mashup)",
-     "label": "So Much Dada"
+     "label": "So Much Dada",
+     "retry": 1
     },
     {
      "minute": 19,
      "artist": "Dogzilla",
      "title": "Without You (John Summit 2026 Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 21,
      "artist": "Cosmic Gate",
      "title": "Exploration Of Space (Olly James Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 24,
      "artist": "Dan Cooper vs Tiësto vs John Summit & HAYLA",
      "title": "Recuperation 303 vs Lethal Industry vs Where You Are (Armin van Buuren Mashup)",
-     "label": "Magik Muzik"
+     "label": "Magik Muzik",
+     "retry": 1
     },
     {
      "minute": 27,
@@ -2218,7 +2329,8 @@
      "minute": 35,
      "artist": "John Summit & Echoes vs KI/KI",
      "title": "Human vs What's A Girl To Do In '25 (John Summit Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -2237,7 +2349,8 @@
      "minute": 41,
      "artist": "CRW",
      "title": "I Feel Love (BLR Remix)",
-     "label": "Nukleuz"
+     "label": "Nukleuz",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -2256,7 +2369,8 @@
      "minute": 43,
      "artist": "Saltwater",
      "title": "The Legacy (Sneijder Remix)",
-     "label": "Armada Captivating"
+     "label": "Armada Captivating",
+     "retry": 1
     },
     {
      "minute": 45,
@@ -2275,25 +2389,29 @@
      "minute": 48,
      "artist": "Calvin Harris & Kasabian",
      "title": "Release The Pressure (LUSSO Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 50,
      "artist": "Maesic",
      "title": "Technologic",
-     "label": "1001"
+     "label": "1001",
+     "retry": 1
     },
     {
      "minute": 52,
      "artist": "Alice Deejay",
      "title": "Better Off Alone (Olly James Techno Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 54,
      "artist": "Teriyaki Boyz vs Gwen Stefani",
      "title": "Tokio Drift vs Hollaback Girl (Macon 148 BPM Remix)",
-     "label": "Smash The House"
+     "label": "Smash The House",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -2312,7 +2430,8 @@
      "minute": 55,
      "artist": "+ John Summit & Sub Focus Feat. Julia Church",
      "title": "Go Back (Acapella)",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "retry": 1
     },
     {
      "minute": 59,
@@ -2420,7 +2539,8 @@
      "minute": null,
      "artist": "Agents Of Time & JONOS & Son Of Son",
      "title": "You + Me",
-     "label": "Time Machine"
+     "label": "Time Machine",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2474,7 +2594,8 @@
      "minute": null,
      "artist": "DJ Tennis Feat. Campbell King",
      "title": "Misbehave",
-     "label": "Life & Death"
+     "label": "Life & Death",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2542,7 +2663,8 @@
      "minute": null,
      "artist": "John Summit",
      "title": "Deep End",
-     "label": "Defected"
+     "label": "Defected",
+     "retry": 1
     },
     {
      "minute": null,
@@ -2609,13 +2731,15 @@
      "minute": null,
      "artist": ";Armin van Buuren F2F John Summit HotMix = [[2026-06-26",
      "title": "Armin van Buuren F2F John Summit @ A State Of Trance, Legia Stadium, Warsaw]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 0,
      "artist": "''Binary Finary",
      "title": "1998 (ID Remix) [Armada]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -2634,7 +2758,8 @@
      "minute": 5,
      "artist": "Faithless & Ben Nicky & Luke Bond vs Paul Denton",
      "title": "Insomnia vs Siren (Armin van Buuren Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -2653,37 +2778,43 @@
      "minute": 10,
      "artist": "''Da Hool",
      "title": "Meet Her At The Love Parade (ID Remix) [Kosmo]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 12,
      "artist": "Mesto vs Fallon",
      "title": "Caramelle vs Diet Coke (Bassjackers TECH BOUNCE Edit)",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "retry": 1
     },
     {
      "minute": 15,
      "artist": "Darude & Skytech vs Dada Life",
      "title": "Sandstorm vs Kick Out The Epic Motherfucker (Armin van Buuren Mashup)",
-     "label": "So Much Dada"
+     "label": "So Much Dada",
+     "retry": 1
     },
     {
      "minute": 19,
      "artist": "Dogzilla",
      "title": "Without You (John Summit 2026 Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 21,
      "artist": "Cosmic Gate",
      "title": "Exploration Of Space (Olly James Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": 24,
      "artist": "Dan Cooper vs Tiësto vs John Summit & HAYLA",
      "title": "Recuperation 303 vs Lethal Industry vs Where You Are (Armin van Buuren Mashup)",
-     "label": "Magik Muzik"
+     "label": "Magik Muzik",
+     "retry": 1
     },
     {
      "minute": 27,
@@ -2724,7 +2855,8 @@
      "minute": 35,
      "artist": "John Summit & Echoes vs KI/KI",
      "title": "Human vs What's A Girl To Do In '25 (John Summit Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -2743,7 +2875,8 @@
      "minute": 41,
      "artist": "CRW",
      "title": "I Feel Love (BLR Remix)",
-     "label": "Nukleuz"
+     "label": "Nukleuz",
+     "retry": 1
     },
     {
      "minute": 41,
@@ -2762,7 +2895,8 @@
      "minute": 43,
      "artist": "Saltwater",
      "title": "The Legacy (Sneijder Remix)",
-     "label": "Armada Captivating"
+     "label": "Armada Captivating",
+     "retry": 1
     },
     {
      "minute": 45,
@@ -2781,25 +2915,29 @@
      "minute": 48,
      "artist": "Calvin Harris & Kasabian",
      "title": "Release The Pressure (LUSSO Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 50,
      "artist": "Maesic",
      "title": "Technologic",
-     "label": "1001"
+     "label": "1001",
+     "retry": 1
     },
     {
      "minute": 52,
      "artist": "Alice Deejay",
      "title": "Better Off Alone (Olly James Techno Rework)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 54,
      "artist": "Teriyaki Boyz vs Gwen Stefani",
      "title": "Tokio Drift vs Hollaback Girl (Macon 148 BPM Remix)",
-     "label": "Smash The House"
+     "label": "Smash The House",
+     "retry": 1
     },
     {
      "minute": 55,
@@ -2818,7 +2956,8 @@
      "minute": 55,
      "artist": "+ John Summit & Sub Focus Feat. Julia Church",
      "title": "Go Back (Acapella)",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "retry": 1
     },
     {
      "minute": 59,
@@ -3265,7 +3404,8 @@
      "minute": null,
      "artist": "Dyzen",
      "title": "Messy",
-     "label": "Habitat"
+     "label": "Habitat",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3380,7 +3520,8 @@
      "minute": null,
      "artist": "Ryan Nicholls",
      "title": "Rush",
-     "label": "Eastenderz"
+     "label": "Eastenderz",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3421,7 +3562,8 @@
      "minute": null,
      "artist": "Michael Calfan & Axwell vs Empire Of The Sun",
      "title": "Resurrection vs Walking On A Dream (Swedish House Mafia Mashup)",
-     "label": "Souksonic"
+     "label": "Souksonic",
+     "retry": 1
     }
    ]
   },
@@ -3624,7 +3766,8 @@
      "minute": null,
      "artist": "Nathan C & Victor Tellagio",
      "title": "Speed Up",
-     "label": "Electric Ballroom"
+     "label": "Electric Ballroom",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3674,7 +3817,8 @@
      "minute": null,
      "artist": "Sonique",
      "title": "It Feels So Good (Estiva Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3693,7 +3837,8 @@
      "minute": null,
      "artist": "Madonna & Martin Garrix",
      "title": "Bizarre",
-     "label": "Warner"
+     "label": "Warner",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3721,13 +3866,15 @@
      "minute": null,
      "artist": "GORDO & WhoMadeWho",
      "title": "ENERGY",
-     "label": "Maison"
+     "label": "Maison",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Kölsch",
      "title": "Picasso",
-     "label": "IPSO"
+     "label": "IPSO",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3872,7 +4019,15 @@
      "minute": null,
      "artist": "Carlita Feat. Janet Planet",
      "title": "Forever Baby",
-     "label": "Ninja"
+     "label": "Ninja",
+     "bp": "bp:19774455",
+     "score": 0.836,
+     "preview": "https://geo-samples.beatport.com/track/10876e35-c194-4ec5-a236-3e304f333109.LOFI.mp3",
+     "name": "Forever Baby",
+     "mix": "Extended",
+     "genre": "house",
+     "released": "2024-11-15",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -3900,25 +4055,29 @@
      "minute": null,
      "artist": "FISHER Feat. Kita Alexander",
      "title": "Atmosphere (BG Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Troye Sivan",
      "title": "Rush (The Bausa Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Junior Senior",
      "title": "Move Your Feet (The Bausa Remix)",
-     "label": "Crunchy Frog"
+     "label": "Crunchy Frog",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "''The Bausa",
      "title": "ID''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -3964,7 +4123,8 @@
      "minute": 0,
      "artist": "Armin van Buuren",
      "title": "Awake (Intro Edit)",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": 6,
@@ -3983,13 +4143,15 @@
      "minute": 10,
      "artist": "Armin van Buuren & Skytech vs Empire Of The Sun",
      "title": "Walking On A Dream (DJ Arman Aveiru She A Freak Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 13,
      "artist": "Armin van Buuren & Adam Beyer",
      "title": "No Mercy (Arti Prjct Remix)",
-     "label": "Drumcode/Armada"
+     "label": "Drumcode/Armada",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4008,7 +4170,15 @@
      "minute": 16,
      "artist": "Dada Life vs Armin van Buuren & JOA vs ALOK",
      "title": "Kick Out The Epic Motherfucker vs Heavy vs Around (Armin van Buuren Mashup)",
-     "label": ""
+     "label": "",
+     "bp": "bp:3814362",
+     "score": 0.783,
+     "preview": "https://geo-samples.beatport.com/track/d692ed18-f07c-4372-b417-90778860618a.LOFI.mp3",
+     "name": "Kick Out The Epic Motherfucker",
+     "mix": "Extended Mix",
+     "genre": "mainstage",
+     "released": "2012-10-22",
+     "via": "retry"
     },
     {
      "minute": 20,
@@ -4040,13 +4210,15 @@
      "minute": 27,
      "artist": "Armin van Buuren & Arkham Knights vs Alex M.O.R.P.H. vs Gryffin",
      "title": "Communication vs Running For Peace vs What Took You So Long (Armin van Buuren Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 30,
      "artist": "Armin van Buuren & Richard Durand & Dicosis vs Hardwell",
      "title": "Always You vs Follow The Light (Armin van Buuren Mashup)",
-     "label": "Revealed/Asot"
+     "label": "Revealed/Asot",
+     "retry": 1
     },
     {
      "minute": 33,
@@ -4065,7 +4237,8 @@
      "minute": 36,
      "artist": "Armin van Buuren Feat. Poppy Baskcomb",
      "title": "Take Me Home (Club Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 39,
@@ -4110,7 +4283,8 @@
      "minute": 49,
      "artist": "Hi Profile vs Armin van Buuren vs Vini Vici Feat. Hilight Tribe",
      "title": "The Ghost vs Great Spirit (Vini Vici Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 52,
@@ -4129,7 +4303,8 @@
      "minute": 54,
      "artist": "Armin van Buuren Feat. Trevor Guthrie",
      "title": "This Is What It Feels Like (Domeno Remix)",
-     "label": "Armind"
+     "label": "Armind",
+     "retry": 1
     },
     {
      "minute": 57,
@@ -4148,7 +4323,8 @@
      "minute": 59,
      "artist": "HI-LO vs Armin van Buuren & Martin Garrix & Libby Whitehouse vs Ørjan Nilsen",
      "title": "United In Trance vs Sleepless Nights vs Amsterdam (Armin van Buuren Mashup)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 62,
@@ -4193,7 +4369,8 @@
      "minute": 70,
      "artist": "''Energy 52",
      "title": "Cafe Del Mar (ID Remix) [Eye Q]''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 72,
@@ -4264,7 +4441,8 @@
      "minute": null,
      "artist": "+ Armin van Buuren Feat. SACHA",
      "title": "Set Me Free (VIP Mix)",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     }
    ]
   },
@@ -4716,7 +4894,8 @@
      "minute": null,
      "artist": "Calvin Harris",
      "title": "Not Alone (Gil Glaze Remix)",
-     "label": "Breeze"
+     "label": "Breeze",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4766,7 +4945,8 @@
      "minute": null,
      "artist": "BLR & Amber Revival",
      "title": "Summertime (Podium Mix)",
-     "label": "Blooom"
+     "label": "Blooom",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4785,7 +4965,8 @@
      "minute": null,
      "artist": "Franky Rizardo",
      "title": "Shinjuku (DJ KUBA & NEITAN Remix)",
-     "label": "LTF"
+     "label": "LTF",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4895,7 +5076,8 @@
      "minute": null,
      "artist": "Vesuvio Vortex Feat. Seutek",
      "title": "Ruimte Zat",
-     "label": "Bordello A Parigi"
+     "label": "Bordello A Parigi",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4954,7 +5136,8 @@
      "minute": null,
      "artist": "Bicep",
      "title": "Glue (Tim Hox Remix)",
-     "label": "Ninja"
+     "label": "Ninja",
+     "retry": 1
     },
     {
      "minute": null,
@@ -4999,19 +5182,22 @@
      "minute": null,
      "artist": ";FISHER HotMix = [[2026-07-18",
      "title": "FISHER @ Tomorrowland - Consiencia]]",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Marlon Hoffstadt aka DJ Daddy Trance",
      "title": "It's That Time (FISHER Remix)",
-     "label": "Method 808"
+     "label": "Method 808",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "OutKast",
      "title": "Ms. Jackson (N2N & Avilo Edit)",
-     "label": "South Of Saturn"
+     "label": "South Of Saturn",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5048,7 +5234,8 @@
      "minute": null,
      "artist": "ESSED",
      "title": "Let's Party",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5080,19 +5267,22 @@
      "minute": null,
      "artist": "Chris Lake & Tony Romera",
      "title": "House Every Weekend",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Zombie Nation",
      "title": "Kernkraft 400 (Broken Hill & Oliver Marshak Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Drake",
      "title": "Janice STFU (HILLS Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5133,13 +5323,15 @@
      "minute": null,
      "artist": "Dominica",
      "title": "Gotta Let You Go (3Beat Remix)",
-     "label": "Altra Moda"
+     "label": "Altra Moda",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "FISHER",
      "title": "Stay",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5158,7 +5350,8 @@
      "minute": null,
      "artist": "FISHER",
      "title": "Rain",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5190,7 +5383,8 @@
      "minute": null,
      "artist": "Daft Punk",
      "title": "One More Time (Valmer Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5289,7 +5483,8 @@
      "minute": null,
      "artist": "James Hype & Tita Lau",
      "title": "Action",
-     "label": "Stereohype"
+     "label": "Stereohype",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5382,7 +5577,8 @@
      "minute": null,
      "artist": "Simon Fava Feat. Sèrgio Mendes",
      "title": "Magalenha",
-     "label": "Toolroom"
+     "label": "Toolroom",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5401,13 +5597,15 @@
      "minute": null,
      "artist": "D.O.D Feat. Izzy Bizu",
      "title": "Careful",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Sunnery James & Ryan Marciano & Carston & Mzansi Youth Choir",
      "title": "I Wonder",
-     "label": "Cloud9"
+     "label": "Cloud9",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5422,7 +5620,8 @@
      "minute": null,
      "artist": "Adriatique & GENESI & Emmit Fenn",
      "title": "Closer",
-     "label": "X"
+     "label": "X",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5541,7 +5740,8 @@
      "minute": null,
      "artist": "Hurts",
      "title": "2 More",
-     "label": "Sweet Nothing"
+     "label": "Sweet Nothing",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5595,7 +5795,8 @@
      "minute": null,
      "artist": "Pegassi",
      "title": "227kg",
-     "label": "Sweet Nothing"
+     "label": "Sweet Nothing",
+     "retry": 1
     }
    ]
   },
@@ -5606,7 +5807,8 @@
      "minute": null,
      "artist": "Eats Everything & Olav Basoski Feat. Michie One",
      "title": "Waterman",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5669,7 +5871,8 @@
      "minute": null,
      "artist": "SILK & Cat Dealers & HRRTZ",
      "title": "Hear U",
-     "label": "Armada"
+     "label": "Armada",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5819,13 +6022,15 @@
      "minute": null,
      "artist": "'''World Wide Warning:''' Adriatique & GENESI & Emmit Fenn",
      "title": "Closer",
-     "label": "X"
+     "label": "X",
+     "retry": 1
     },
     {
      "minute": null,
      "artist": "Bradeazy & Öwnboss",
      "title": "Louboutin",
-     "label": "Gotta Move"
+     "label": "Gotta Move",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5844,7 +6049,8 @@
      "minute": null,
      "artist": "Franky Rizardo",
      "title": "Shinjuku (DJ KUBA & NEITAN Remix)",
-     "label": "LTF"
+     "label": "LTF",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5911,7 +6117,8 @@
      "minute": null,
      "artist": "Dave Feat. Tems",
      "title": "Raindance (Sonny Fodera Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5926,7 +6133,8 @@
      "minute": null,
      "artist": "Drake",
      "title": "Janice STFU (HILLS Remix)",
-     "label": "Free"
+     "label": "Free",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5941,7 +6149,8 @@
      "minute": null,
      "artist": "Cloonee & Groove Theory",
      "title": "One Question",
-     "label": "Epic/Legacy"
+     "label": "Epic/Legacy",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5956,7 +6165,8 @@
      "minute": null,
      "artist": "MK & Sonny Fodera Feat. Clementine Douglas",
      "title": "Asking",
-     "label": "Solotoko"
+     "label": "Solotoko",
+     "retry": 1
     },
     {
      "minute": null,
@@ -5975,7 +6185,8 @@
      "minute": null,
      "artist": "Prospa & Cloonee & Sybil",
      "title": "Free Your Mind (James Poole Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": null,

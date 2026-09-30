@@ -252,7 +252,8 @@
      "minute": 31,
      "artist": "Âme",
      "title": "Asa",
-     "label": "Innervisions"
+     "label": "Innervisions",
+     "retry": 1
     },
     {
      "minute": 37,
@@ -413,7 +414,8 @@
      "minute": 96,
      "artist": "Âme",
      "title": "Asa",
-     "label": "Innervisions"
+     "label": "Innervisions",
+     "retry": 1
     },
     {
      "minute": 104,

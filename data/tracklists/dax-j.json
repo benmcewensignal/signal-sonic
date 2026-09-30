@@ -14,7 +14,8 @@
      "minute": 3,
      "artist": "Juri Heidemann",
      "title": "Semuter",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -85,7 +86,8 @@
      "minute": 17,
      "artist": "'Arjun Vagale",
      "title": "Skeef Menezes' (Subconscious Mind ' Arjun Vagale' ReWork)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -104,7 +106,8 @@
      "minute": 21,
      "artist": "Esteban Miranda",
      "title": "Sakai",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 25,
@@ -210,7 +213,8 @@
      "minute": 47,
      "artist": "UFO95",
      "title": "Refuge",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 52,
@@ -229,13 +233,15 @@
      "minute": 54,
      "artist": "Red Rooms",
      "title": "Konichiwa",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 58,
      "artist": "Blenk",
      "title": "Voyelle",
-     "label": "KYSH"
+     "label": "KYSH",
+     "retry": 1
     },
     {
      "minute": 60,
@@ -250,7 +256,8 @@
      "minute": 70,
      "artist": "Phil Berg",
      "title": "Raid",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 72,
@@ -278,7 +285,8 @@
      "minute": 93,
      "artist": "Norbak",
      "title": "Nove Zero Nove",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 96,
@@ -297,13 +305,15 @@
      "minute": 101,
      "artist": "DJ Dextero",
      "title": "Humana",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 105,
      "artist": "D.Dan",
      "title": "Rising",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 117,
@@ -335,7 +345,8 @@
      "minute": 120,
      "artist": "Rene Wise",
      "title": "Tell Me",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 124,
@@ -393,19 +404,22 @@
      "minute": 139,
      "artist": "HERS",
      "title": "Game Over",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 141,
      "artist": "Dax J",
      "title": "Susumu Remix",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 148,
      "artist": "MATRiXXMAN",
      "title": "Hong Kong",
-     "label": "Night"
+     "label": "Night",
+     "retry": 1
     },
     {
      "minute": 149,

@@ -367,7 +367,15 @@
      "minute": null,
      "artist": "Super8 & Tab Feat. Hero Baldwin",
      "title": "Burn (Matt Fax Remix)",
-     "label": "Armada Captivating"
+     "label": "Armada Captivating",
+     "bp": "bp:29297119",
+     "score": 0.885,
+     "preview": "https://geo-samples.beatport.com/track/9638abc5-97a3-4c83-a50d-6bd195a5af9b.LOFI.mp3",
+     "name": "Burn",
+     "mix": "Matt Fax Extended Remix",
+     "genre": "melodic-house-techno",
+     "released": "2026-07-03",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -465,7 +473,15 @@
      "minute": null,
      "artist": "Atlantis vs Avatar Feat. Miriam Stockley",
      "title": "Fiji (Yeadon Remix)",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29470226",
+     "score": 0.868,
+     "preview": "https://geo-samples.beatport.com/track/c1afbe55-d05d-49ad-bd05-ce9bbdf3c855.LOFI.mp3",
+     "name": "Fiji",
+     "mix": "Yeadon Extended Mix",
+     "genre": "progressive-house",
+     "released": "2026-07-15",
+     "via": "retry"
     },
     {
      "minute": null,
@@ -598,7 +614,8 @@
      "minute": null,
      "artist": "Mredrollo",
      "title": "What To Call You",
-     "label": "For A Memory"
+     "label": "For A Memory",
+     "retry": 1
     },
     {
      "minute": null,
@@ -613,7 +630,8 @@
      "minute": null,
      "artist": "Tim Green",
      "title": "Furnace Creek",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "retry": 1
     }
    ]
   }

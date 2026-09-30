@@ -9,13 +9,15 @@
      "minute": 0,
      "artist": "Jonas Kopp",
      "title": "N0n H0p3",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 3,
      "artist": "Franz Jäger",
      "title": "Timewriters",
-     "label": "Franz Jäger"
+     "label": "Franz Jäger",
+     "retry": 1
     },
     {
      "minute": 5,
@@ -34,7 +36,8 @@
      "minute": 7,
      "artist": "Kameliia",
      "title": "Beyond",
-     "label": "AMOTIK"
+     "label": "AMOTIK",
+     "retry": 1
     },
     {
      "minute": 10,
@@ -93,7 +96,8 @@
      "minute": 27,
      "artist": "Ignez",
      "title": "Telomere",
-     "label": "Somov"
+     "label": "Somov",
+     "retry": 1
     },
     {
      "minute": 31,
@@ -122,7 +126,8 @@
      "minute": 39,
      "artist": "Allan Gallego",
      "title": "Speed",
-     "label": "Subsist"
+     "label": "Subsist",
+     "retry": 1
     },
     {
      "minute": 42,
@@ -159,13 +164,15 @@
      "minute": 53,
      "artist": "Christoph Faust",
      "title": "When A Bottle Falls Down The Stairs",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 57,
      "artist": "Kaiser",
      "title": "Esco",
-     "label": "MORD"
+     "label": "MORD",
+     "retry": 1
     },
     {
      "minute": 59,
@@ -197,7 +204,8 @@
      "minute": 64,
      "artist": "Klint",
      "title": "Empire",
-     "label": "BCCOVA06"
+     "label": "BCCOVA06",
+     "retry": 1
     },
     {
      "minute": 66,
@@ -216,7 +224,8 @@
      "minute": 71,
      "artist": "Regent",
      "title": "Nocta",
-     "label": "Mutual Rytm"
+     "label": "Mutual Rytm",
+     "retry": 1
     },
     {
      "minute": 73,
@@ -319,19 +328,22 @@
      "minute": 11,
      "artist": "Klint",
      "title": "Mustang",
-     "label": "RSPX"
+     "label": "RSPX",
+     "retry": 1
     },
     {
      "minute": 20,
      "artist": "Hertz",
      "title": "Integer",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 33,
      "artist": "Franco Rossi",
      "title": "Siskiyou",
-     "label": "Room Trax"
+     "label": "Room Trax",
+     "retry": 1
     },
     {
      "minute": 35,
@@ -391,7 +403,8 @@
      "minute": 63,
      "artist": "Joey Beltram",
      "title": "Sin Drums",
-     "label": "Mirakkle/Trax"
+     "label": "Mirakkle/Trax",
+     "retry": 1
     },
     {
      "minute": 67,
@@ -445,7 +458,8 @@
      "minute": 95,
      "artist": "Kr!z",
      "title": "Nautilus",
-     "label": "Token"
+     "label": "Token",
+     "retry": 1
     },
     {
      "minute": 99,
@@ -464,7 +478,8 @@
      "minute": 102,
      "artist": "Altinbas & Cirkle",
      "title": "Bold",
-     "label": "SK_Eleven"
+     "label": "SK_Eleven",
+     "retry": 1
     },
     {
      "minute": 105,
@@ -475,19 +490,22 @@
      "minute": 113,
      "artist": "Emmanuel Top",
      "title": "Révision 01",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 119,
      "artist": "Amotik",
      "title": "Bahatar",
-     "label": "AMOTIK"
+     "label": "AMOTIK",
+     "retry": 1
     },
     {
      "minute": 130,
      "artist": "Emmanuel Top",
      "title": "Révision 02",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 135,
@@ -856,7 +874,8 @@
      "minute": 78,
      "artist": "Harvey McKay",
      "title": "2 Step",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 82,
@@ -885,7 +904,8 @@
      "minute": 101,
      "artist": "Deetron",
      "title": "Pulse",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 107,
@@ -966,7 +986,8 @@
      "minute": 151,
      "artist": "Ed Davenport",
      "title": "F.O.G (Hotlline Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 156,
@@ -982,7 +1003,8 @@
      "minute": 172,
      "artist": "Speedy J",
      "title": "Something For Your Mind (12inch Exposure Remix)",
-     "label": "(Remastered 2021) - Overlast"
+     "label": "(Remastered 2021) - Overlast",
+     "retry": 1
     },
     {
      "minute": 174,
@@ -1102,7 +1124,8 @@
      "minute": 284,
      "artist": "Alessandro Grops",
      "title": "Sensor",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 286,
@@ -1131,7 +1154,8 @@
      "minute": 298,
      "artist": "EFESIAN",
      "title": "The Smoke",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 302,
@@ -1363,7 +1387,8 @@
      "minute": 531,
      "artist": "''Raver's Nature",
      "title": "Day Of Justice (? Remix)''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 540,
@@ -1392,7 +1417,8 @@
      "minute": 551,
      "artist": "''?",
      "title": "Let Da Bass Boom''",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 552,
@@ -1421,7 +1447,8 @@
      "minute": 596,
      "artist": "Nørbak",
      "title": "Regra",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 597,
@@ -1491,13 +1518,15 @@
      "minute": 654,
      "artist": "Christian Smith & John Selway",
      "title": "Blackout",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 656,
      "artist": "Drunken Kong",
      "title": "All We Do",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 659,
@@ -1545,7 +1574,8 @@
      "minute": 705,
      "artist": "The Southern",
      "title": "Memories",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 708,
@@ -1561,13 +1591,15 @@
      "minute": 0,
      "artist": "DJ Rush",
      "title": "Get Yours (Ruby's 6-Pack Mix)",
-     "label": "Omnisounds"
+     "label": "Omnisounds",
+     "retry": 1
     },
     {
      "minute": 4,
      "artist": "Norbak",
      "title": "Clima",
-     "label": "Token"
+     "label": "Token",
+     "retry": 1
     },
     {
      "minute": 8,
@@ -1586,7 +1618,8 @@
      "minute": 12,
      "artist": "Mathys Lenne",
      "title": "Satellite",
-     "label": "HAYES"
+     "label": "HAYES",
+     "retry": 1
     },
     {
      "minute": 15,
@@ -1627,7 +1660,8 @@
      "minute": 26,
      "artist": "Jay Clarke",
      "title": "Perdita",
-     "label": "Klockworks"
+     "label": "Klockworks",
+     "retry": 1
     },
     {
      "minute": 30,
@@ -1659,7 +1693,8 @@
      "minute": 40,
      "artist": "MasCon",
      "title": "Cabernet",
-     "label": "Snork"
+     "label": "Snork",
+     "retry": 1
     },
     {
      "minute": 43,
@@ -1674,19 +1709,22 @@
      "minute": 46,
      "artist": "G-Man",
      "title": "Legion",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 54,
      "artist": "Deluka",
      "title": "Mind Game",
-     "label": "Sk_Eleven"
+     "label": "Sk_Eleven",
+     "retry": 1
     },
     {
      "minute": 58,
      "artist": "DJ Rush",
      "title": "Dance With Me (Paul Mac Re-Edit)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 61,
@@ -1711,13 +1749,15 @@
      "minute": 73,
      "artist": "Mark Broom & Patrik Carrera",
      "title": "ZZZZ",
-     "label": "EPM"
+     "label": "EPM",
+     "retry": 1
     },
     {
      "minute": 77,
      "artist": "Boxia",
      "title": "Acid Something",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 80,
@@ -1762,7 +1802,8 @@
      "minute": 89,
      "artist": "Jay Denham",
      "title": "Dopamine",
-     "label": "Black Nation"
+     "label": "Black Nation",
+     "retry": 1
     },
     {
      "minute": 92,
@@ -1817,7 +1858,8 @@
      "minute": 109,
      "artist": "Baby Ford & The Ifach Collective",
      "title": "RTDC (Mark Broom Remix)",
-     "label": "Ifach"
+     "label": "Ifach",
+     "retry": 1
     },
     {
      "minute": 113,
@@ -1836,7 +1878,8 @@
      "minute": 117,
      "artist": "Boxia",
      "title": "Hotline (Think Mix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 121,
@@ -1847,7 +1890,8 @@
      "minute": 124,
      "artist": "Tal Fussman",
      "title": "Rioz",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 129,
@@ -1879,13 +1923,15 @@
      "minute": 137,
      "artist": "Marco Carola",
      "title": "Danger",
-     "label": "One Thousand"
+     "label": "One Thousand",
+     "retry": 1
     },
     {
      "minute": 140,
      "artist": "Co-Fusion",
      "title": "Elm",
-     "label": "Sublime"
+     "label": "Sublime",
+     "retry": 1
     },
     {
      "minute": 147,
@@ -1910,7 +1956,8 @@
      "minute": 157,
      "artist": "Brian Sanhaji",
      "title": "Paradox",
-     "label": "Sensor"
+     "label": "Sensor",
+     "retry": 1
     },
     {
      "minute": 164,
@@ -1921,7 +1968,8 @@
      "minute": 166,
      "artist": "FEOS vs M/S/O",
      "title": "Into The Groove",
-     "label": "Version One"
+     "label": "Version One",
+     "retry": 1
     },
     {
      "minute": 170,
@@ -1940,13 +1988,15 @@
      "minute": 174,
      "artist": "Woolford",
      "title": "Get Real",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 179,
      "artist": "Barker",
      "title": "Utility",
-     "label": "Ostgut"
+     "label": "Ostgut",
+     "retry": 1
     }
    ]
   },
@@ -2010,7 +2060,8 @@
      "minute": 13,
      "artist": "Fabrizio De Santis",
      "title": "1-90128",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 16,
@@ -2146,7 +2197,8 @@
      "minute": 61,
      "artist": "Karras Martinez",
      "title": "Breath",
-     "label": "N&N"
+     "label": "N&N",
+     "retry": 1
     },
     {
      "minute": 63,
@@ -2215,7 +2267,8 @@
      "minute": 90,
      "artist": "Speedy J",
      "title": "Something For Your Mind (Exposure Remix)",
-     "label": "Music Man"
+     "label": "Music Man",
+     "retry": 1
     },
     {
      "minute": 92,
@@ -2358,7 +2411,8 @@
      "minute": 25,
      "artist": "Sedvs",
      "title": "Still On",
-     "label": "Morbid"
+     "label": "Morbid",
+     "retry": 1
     },
     {
      "minute": 27,
@@ -2377,7 +2431,8 @@
      "minute": 30,
      "artist": "Cirkle",
      "title": "Evolving",
-     "label": "SK_Eleven"
+     "label": "SK_Eleven",
+     "retry": 1
     },
     {
      "minute": 32,
@@ -2463,13 +2518,15 @@
      "minute": 57,
      "artist": "Gabriel Lmrn",
      "title": "Cresciuto",
-     "label": "Diffuse Reality"
+     "label": "Diffuse Reality",
+     "retry": 1
     },
     {
      "minute": 58,
      "artist": "Brian Eno",
      "title": "An Ending",
-     "label": "Polydor"
+     "label": "Polydor",
+     "retry": 1
     }
    ]
   },
@@ -2519,7 +2576,8 @@
      "minute": 25,
      "artist": "Heiko Laux",
      "title": "Quant",
-     "label": "Kanzleramt"
+     "label": "Kanzleramt",
+     "retry": 1
     },
     {
      "minute": 38,
@@ -2548,7 +2606,8 @@
      "minute": 3,
      "artist": "Shlomi Aber & Kashpitzky",
      "title": "Rust",
-     "label": "Blueprint"
+     "label": "Blueprint",
+     "retry": 1
     },
     {
      "minute": 9,
@@ -2563,7 +2622,8 @@
      "minute": 16,
      "artist": "Uväll",
      "title": "Rotanev",
-     "label": "OECUS"
+     "label": "OECUS",
+     "retry": 1
     },
     {
      "minute": 18,
@@ -2587,7 +2647,8 @@
      "minute": 30,
      "artist": "Hemka",
      "title": "Repeat",
-     "label": "Float"
+     "label": "Float",
+     "retry": 1
     },
     {
      "minute": 36,
@@ -2619,13 +2680,15 @@
      "minute": 46,
      "artist": "Bidoben",
      "title": "Recensed",
-     "label": "Secession"
+     "label": "Secession",
+     "retry": 1
     },
     {
      "minute": 51,
      "artist": "Volster",
      "title": "Turned",
-     "label": "Secession"
+     "label": "Secession",
+     "retry": 1
     },
     {
      "minute": 54,
@@ -2645,7 +2708,8 @@
      "minute": 77,
      "artist": "Aarayáh & PRTL WRX",
      "title": "Sight",
-     "label": "PRTL WRX"
+     "label": "PRTL WRX",
+     "retry": 1
     },
     {
      "minute": 89,
@@ -2682,7 +2746,8 @@
      "minute": 116,
      "artist": "Mathys Lenne",
      "title": "Detlev",
-     "label": "Mutual Rytm"
+     "label": "Mutual Rytm",
+     "retry": 1
     }
    ]
   },
@@ -2693,13 +2758,15 @@
      "minute": 0,
      "artist": "Leo Cologna",
      "title": "Blossom",
-     "label": "LCSERE"
+     "label": "LCSERE",
+     "retry": 1
     },
     {
      "minute": 2,
      "artist": "Leo Cologna",
      "title": "Chloride",
-     "label": "LCSERE"
+     "label": "LCSERE",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -2718,7 +2785,8 @@
      "minute": 7,
      "artist": "Rethe",
      "title": "Humanized",
-     "label": "ARTS"
+     "label": "ARTS",
+     "retry": 1
     },
     {
      "minute": 9,
@@ -2737,7 +2805,8 @@
      "minute": 11,
      "artist": "Takaaki Itoh",
      "title": "Therma",
-     "label": "Phyr"
+     "label": "Phyr",
+     "retry": 1
     },
     {
      "minute": 14,
@@ -2804,7 +2873,8 @@
      "minute": 36,
      "artist": "Peryl & Rødhåd",
      "title": "KALLAIT 01",
-     "label": "230509"
+     "label": "230509",
+     "retry": 1
     },
     {
      "minute": 39,
@@ -2819,7 +2889,8 @@
      "minute": 43,
      "artist": "Luca Maniaci",
      "title": "Close",
-     "label": "Planet Rhythm"
+     "label": "Planet Rhythm",
+     "retry": 1
     },
     {
      "minute": 48,
@@ -2869,7 +2940,8 @@
      "minute": 58,
      "artist": "Cirkle",
      "title": "Beaten",
-     "label": "Sublunar"
+     "label": "Sublunar",
+     "retry": 1
     },
     {
      "minute": 62,
@@ -2940,7 +3012,8 @@
      "minute": 76,
      "artist": "Hurdslenk & Vault Records",
      "title": "Sirens",
-     "label": "Vault"
+     "label": "Vault",
+     "retry": 1
     },
     {
      "minute": 83,
@@ -2959,7 +3032,8 @@
      "minute": 85,
      "artist": "Mutecell",
      "title": "Savinia",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 88,
@@ -2970,7 +3044,8 @@
      "minute": 91,
      "artist": "Conntex",
      "title": "Snarecall",
-     "label": "COMO"
+     "label": "COMO",
+     "retry": 1
     },
     {
      "minute": 94,
@@ -3007,7 +3082,8 @@
      "minute": 102,
      "artist": "Connor Wall",
      "title": "Hygeia",
-     "label": "Phorum"
+     "label": "Phorum",
+     "retry": 1
     },
     {
      "minute": 105,
@@ -3070,7 +3146,8 @@
      "minute": 0,
      "artist": "Jonas Kopp",
      "title": "Code Of Evolution",
-     "label": "HAYES"
+     "label": "HAYES",
+     "retry": 1
     },
     {
      "minute": 3,
@@ -3102,7 +3179,8 @@
      "minute": 8,
      "artist": "Klint",
      "title": "K9",
-     "label": "Illegal Alien"
+     "label": "Illegal Alien",
+     "retry": 1
     },
     {
      "minute": 10,
@@ -3301,13 +3379,15 @@
      "minute": 60,
      "artist": "Metapattern",
      "title": "Sel",
-     "label": "Renegade Methodz"
+     "label": "Renegade Methodz",
+     "retry": 1
     },
     {
      "minute": 64,
      "artist": "Ribé & Roll Dann",
      "title": "Tregua",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 67,
@@ -3326,13 +3406,15 @@
      "minute": 70,
      "artist": "Exos",
      "title": "Begin",
-     "label": "X/OZ Music"
+     "label": "X/OZ Music",
+     "retry": 1
     },
     {
      "minute": 73,
      "artist": "Boyd Schidt",
      "title": "SAD VAR",
-     "label": "MORD"
+     "label": "MORD",
+     "retry": 1
     },
     {
      "minute": 75,
@@ -3364,13 +3446,15 @@
      "minute": 81,
      "artist": "Van Sorgen",
      "title": "Aircrunch",
-     "label": "Diffuse Reality"
+     "label": "Diffuse Reality",
+     "retry": 1
     },
     {
      "minute": 83,
      "artist": "ConFusioN",
      "title": "Reflex",
-     "label": "SK_Eleven"
+     "label": "SK_Eleven",
+     "retry": 1
     },
     {
      "minute": 86,
@@ -3416,7 +3500,8 @@
      "minute": 97,
      "artist": "Ribé & Roll Dann",
      "title": "Secuela",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 101,
@@ -3454,7 +3539,8 @@
      "minute": 115,
      "artist": "Human Safari",
      "title": "Classique",
-     "label": "Mutual Rytm"
+     "label": "Mutual Rytm",
+     "retry": 1
     },
     {
      "minute": 117,
@@ -3513,7 +3599,8 @@
      "minute": 135,
      "artist": "B-Don",
      "title": "Melt (Santiago Krenz Remix)",
-     "label": ""
+     "label": "",
+     "retry": 1
     },
     {
      "minute": 137,
@@ -3578,7 +3665,8 @@
      "minute": 160,
      "artist": "Talismann",
      "title": "Jylya",
-     "label": "Talismann"
+     "label": "Talismann",
+     "retry": 1
     },
     {
      "minute": 166,
@@ -3698,7 +3786,8 @@
      "minute": 16,
      "artist": "Franco Rossi",
      "title": "Vaalbara",
-     "label": "Sine Space"
+     "label": "Sine Space",
+     "retry": 1
     },
     {
      "minute": 19,
@@ -3709,13 +3798,15 @@
      "minute": 26,
      "artist": "Sanna Mun",
      "title": "Hydra",
-     "label": "K S R"
+     "label": "K S R",
+     "retry": 1
     },
     {
      "minute": 37,
      "artist": "Tascamboy",
      "title": "Faulty",
-     "label": "SYXT"
+     "label": "SYXT",
+     "retry": 1
     },
     {
      "minute": 38,
@@ -3818,7 +3909,8 @@
      "minute": 79,
      "artist": "AgainstMe",
      "title": "Delirio",
-     "label": "TSSRCT"
+     "label": "TSSRCT",
+     "retry": 1
     }
    ]
   },
@@ -3834,7 +3926,8 @@
      "minute": 5,
      "artist": "Pres.",
      "title": "Aros",
-     "label": "BCCO"
+     "label": "BCCO",
+     "retry": 1
     },
     {
      "minute": 7,
@@ -3871,7 +3964,8 @@
      "minute": 17,
      "artist": "OPS",
      "title": "Fearless",
-     "label": "Truncate"
+     "label": "Truncate",
+     "retry": 1
     },
     {
      "minute": 20,
@@ -3882,7 +3976,8 @@
      "minute": 28,
      "artist": "Phil Berg",
      "title": "Rinn",
-     "label": "SK_Eleven"
+     "label": "SK_Eleven",
+     "retry": 1
     },
     {
      "minute": 56,
@@ -3932,19 +4027,22 @@
      "minute": 0,
      "artist": "Itzaac.",
      "title": "Mitosis",
-     "label": "AWRY"
+     "label": "AWRY",
+     "retry": 1
     },
     {
      "minute": 1,
      "artist": "Pfirter",
      "title": "Spheres",
-     "label": "Paralelo"
+     "label": "Paralelo",
+     "retry": 1
     },
     {
      "minute": 3,
      "artist": "Luigi Tozzi",
      "title": "Bionic",
-     "label": "Non Series"
+     "label": "Non Series",
+     "retry": 1
     },
     {
      "minute": 4,
@@ -3955,19 +4053,22 @@
      "minute": 6,
      "artist": "Ricardo Garduno",
      "title": "Let It Go",
-     "label": "Tar Hollow"
+     "label": "Tar Hollow",
+     "retry": 1
     },
     {
      "minute": 9,
      "artist": "DJ Sodeyama",
      "title": "Makura",
-     "label": "RSPX"
+     "label": "RSPX",
+     "retry": 1
     },
     {
      "minute": 11,
      "artist": "Talismann",
      "title": "Yaw",
-     "label": "Talismann"
+     "label": "Talismann",
+     "retry": 1
     },
     {
      "minute": 16,
@@ -4048,7 +4149,8 @@
      "minute": 36,
      "artist": "Maōh",
      "title": "Rattlesnake Fever",
-     "label": "The Third Room"
+     "label": "The Third Room",
+     "retry": 1
     },
     {
      "minute": 39,
@@ -4067,13 +4169,15 @@
      "minute": 42,
      "artist": "Red Rooms",
      "title": "Emerge",
-     "label": "Planet Rhythm"
+     "label": "Planet Rhythm",
+     "retry": 1
     },
     {
      "minute": 45,
      "artist": "Øtmann",
      "title": "Fear",
-     "label": "Diffuse Reality"
+     "label": "Diffuse Reality",
+     "retry": 1
     },
     {
      "minute": 48,
@@ -4102,7 +4206,8 @@
      "minute": 58,
      "artist": "Orbe & Psyk",
      "title": "Forms",
-     "label": "Non Series"
+     "label": "Non Series",
+     "retry": 1
     },
     {
      "minute": 61,
@@ -4121,7 +4226,8 @@
      "minute": 64,
      "artist": "DHÆÜR",
      "title": "No Time",
-     "label": "Moving Pressure"
+     "label": "Moving Pressure",
+     "retry": 1
     },
     {
      "minute": 69,
