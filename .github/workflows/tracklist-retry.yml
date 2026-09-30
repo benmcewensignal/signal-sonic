@@ -1,0 +1,48 @@
+name: tracklist-retry
+# A second try at unmatched tracklist lines with cleaner queries (sonic/tracklist_retry.py), 2,500 distinct entries a
+# run, chaining while entries remain; when every line has been tried, the tracklist workflow's measuring step brings
+# the newly matched records into the corpus. Only the tracklist files this run changed are saved.
+on: { workflow_dispatch: {} }
+concurrency: { group: sonic-tracklist-retry, cancel-in-progress: false }
+permissions: { contents: write, actions: write }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 65
+    env:
+      PYTHONUNBUFFERED: "1"
+      BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
+      BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
+      BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
+      BEATPORT_CLIENT_ID: ${{ secrets.BEATPORT_CLIENT_ID }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip -q install -r requirements.txt
+      - name: retry
+        id: r
+        run: |
+          python -m sonic.tracklist_retry | tee /tmp/r.log
+          LEFT=$(grep -o '"left": [0-9]*' /tmp/r.log | tail -1 | grep -o '[0-9]*' || true); echo "left=${LEFT:-0}" >> "$GITHUB_OUTPUT"
+      - name: keep the files this run changed
+        id: keep
+        run: |
+          [ -s /tmp/retry-changed.txt ] || { echo "nothing changed"; exit 0; }
+          mkdir -p "$RUNNER_TEMP/k"; while read -r f; do cp "$f" "$RUNNER_TEMP/k/"; done < /tmp/retry-changed.txt
+          git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
+          for i in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            while read -r f; do cp "$RUNNER_TEMP/k/$(basename "$f")" "$f"; done < /tmp/retry-changed.txt
+            git add data/tracklists; if git diff --cached --quiet; then exit 0; fi
+            git commit -qm "tracklist retry: $(date -u +%FT%TZ)"
+            if git push -q origin HEAD:main; then echo "pushed=1" >> "$GITHUB_OUTPUT"; exit 0; fi; sleep $((i*15))
+          done
+          echo "::error title=tracklist retry::push failed"; exit 1
+      - name: chain while entries remain
+        if: steps.keep.outputs.pushed == '1' && steps.r.outputs.left != '0'
+        run: gh workflow run tracklist-retry.yml --repo "${{ github.repository }}" --ref main
+      - name: when every line is tried, measure what matched
+        if: steps.r.outputs.left == '0'
+        run: gh workflow run tracklists.yml --repo "${{ github.repository }}" --ref main -f djs=none -f measure=300
