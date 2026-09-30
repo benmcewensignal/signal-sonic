@@ -1,660 +1,494 @@
 {
- "source": "compiled by Grok from MixesDB on 2026-09-24, checked here: headliners, duplicates and rows without well-formed set addresses removed; the tracklist job verifies every category and counts the sets itself; a second batch of 70 for thin and new scenes on 2026-09-24",
- "djs": [
-  {
-   "dj": "Kitty Amor",
-   "scene_claimed": "Afro House",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "DJ Lag",
-   "scene_claimed": "Afro House",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "KILIMANJARO",
-   "scene_claimed": "Amapiano",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Scratcha DVA",
-   "scene_claimed": "Amapiano",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Westend",
-   "scene_claimed": "Bass House",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Kettama",
-   "scene_claimed": "Bass House",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Breaka",
-   "scene_claimed": "Breaks / Breakbeat / UK Bass",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Pariah",
-   "scene_claimed": "Breaks / Breakbeat / UK Bass",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Courtesy",
-   "scene_claimed": "Breaks / Breakbeat / UK Bass",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Pugilist",
-   "scene_claimed": "Breaks / Breakbeat / UK Bass",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Special Request",
-   "scene_claimed": "Breaks / Breakbeat / UK Bass",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Finn Johannsen",
-   "scene_claimed": "Deep House",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Move D",
-   "scene_claimed": "Deep House",
-   "sets_claimed": 8
-  },
-  {
-   "dj": "Prosumer",
-   "scene_claimed": "Deep House",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Palms Trax",
-   "scene_claimed": "Deep House",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Ivan Smagghe",
-   "scene_claimed": "Deep House",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Tim Reaper",
-   "scene_claimed": "Drum & Bass",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Mantra",
-   "scene_claimed": "Drum & Bass",
-   "sets_claimed": 8
-  },
-  {
-   "dj": "Dev/Null",
-   "scene_claimed": "Drum & Bass",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "J:Kenzo",
-   "scene_claimed": "Drum & Bass",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Riz La Teef",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Plastician",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "SP:MC",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Chamber45",
-   "scene_claimed": "Grime",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Slimzee",
-   "scene_claimed": "Grime",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Chl\u00e4r",
-   "scene_claimed": "Hard Techno",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Mac Declos",
-   "scene_claimed": "Hard Techno",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "FJAAK",
-   "scene_claimed": "Hard Techno",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Perc",
-   "scene_claimed": "Hard Techno",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Kassian",
-   "scene_claimed": "House",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Chris Stussy",
-   "scene_claimed": "House",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Erol Alkan",
-   "scene_claimed": "House",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "X CLUB.",
-   "scene_claimed": "Indie Dance",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "HAAi",
-   "scene_claimed": "Indie Dance",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Salute",
-   "scene_claimed": "Indie Dance",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Guy J",
-   "scene_claimed": "Melodic House / Melodic Techno",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Henry Saiz",
-   "scene_claimed": "Melodic House / Melodic Techno",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Patrice B\u00e4umel",
-   "scene_claimed": "Melodic House / Melodic Techno",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Tim Green",
-   "scene_claimed": "Organic House",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Nick Warren",
-   "scene_claimed": "Progressive House",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Christopher Lawrence",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Fleur Shore",
-   "scene_claimed": "Tech House",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Hot Since 82",
-   "scene_claimed": "Tech House",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Solardo",
-   "scene_claimed": "Tech House",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Dennis Cruz",
-   "scene_claimed": "Tech House",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Function",
-   "scene_claimed": "Techno",
-   "sets_claimed": 8
-  },
-  {
-   "dj": "Objekt",
-   "scene_claimed": "Techno",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Call Super",
-   "scene_claimed": "Techno",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Oscar Mulero",
-   "scene_claimed": "Techno",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Surgeon",
-   "scene_claimed": "Techno",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Regis",
-   "scene_claimed": "Techno",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Solarstone",
-   "scene_claimed": "Trance",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Mark Sherry",
-   "scene_claimed": "Trance",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "John Askew",
-   "scene_claimed": "Trance",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Simon Patterson",
-   "scene_claimed": "Trance",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Super8 & Tab",
-   "scene_claimed": "Trance",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Roska",
-   "scene_claimed": "UK Funky / Gqom",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Martelo",
-   "scene_claimed": "UK Funky / Gqom",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Bok Bok",
-   "scene_claimed": "UK Funky / Gqom",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Interplanetary Criminal",
-   "scene_claimed": "UK Garage / Bassline",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Oneman",
-   "scene_claimed": "UK Garage / Bassline",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Cincity",
-   "scene_claimed": "Afro House",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Taylah Elaine",
-   "scene_claimed": "Afro House",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Angelos",
-   "scene_claimed": "Afro House",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Francis Mercier",
-   "scene_claimed": "Afro House",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Philou Louzolo",
-   "scene_claimed": "Afro House",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Alex Wann",
-   "scene_claimed": "Afro House",
-   "sets_claimed": 14
-  },
-  {
-   "dj": "DJ Polo",
-   "scene_claimed": "Amapiano",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Scotti Dee",
-   "scene_claimed": "Amapiano",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "DJ Neptizzle",
-   "scene_claimed": "Amapiano",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Acid Pauli",
-   "scene_claimed": "Organic House",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Jan Blomqvist",
-   "scene_claimed": "Organic House",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Nico Stojan",
-   "scene_claimed": "Organic House",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "S\u00e9bastien L\u00e9ger",
-   "scene_claimed": "Organic House",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "WhoMadeWho",
-   "scene_claimed": "Organic House",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Freedom Fighters",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Neelix",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Maryline K",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Ace Ventura",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "AISHA",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Atch22",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "The Digital Blonde",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Emok",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Bitmusic",
-   "scene_claimed": "Psy-Trance",
-   "sets_claimed": 11
-  },
-  {
-   "dj": "Andrew Murray",
-   "scene_claimed": "Progressive House",
-   "sets_claimed": 12
-  },
-  {
-   "dj": "Marsh",
-   "scene_claimed": "Progressive House",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Nils Hoffmann",
-   "scene_claimed": "Progressive House",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Einmusik",
-   "scene_claimed": "Progressive House",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Massano",
-   "scene_claimed": "Melodic House & Techno",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Mind Against",
-   "scene_claimed": "Melodic House & Techno",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Atjazz",
-   "scene_claimed": "Deep House",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Hame",
-   "scene_claimed": "Deep House",
-   "sets_claimed": 9
-  },
-  {
-   "dj": "XDB",
-   "scene_claimed": "Deep House",
-   "sets_claimed": 17
-  },
-  {
-   "dj": "Hue",
-   "scene_claimed": "Ambient / Experimental",
-   "sets_claimed": 29
-  },
-  {
-   "dj": "Nosedrip",
-   "scene_claimed": "Ambient / Experimental",
-   "sets_claimed": 36
-  },
-  {
-   "dj": "Yu Su",
-   "scene_claimed": "Ambient / Experimental",
-   "sets_claimed": 37
-  },
-  {
-   "dj": "Buckley",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 21
-  },
-  {
-   "dj": "Nio-B",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 13
-  },
-  {
-   "dj": "TMSV",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Introspekt",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 6
-  },
-  {
-   "dj": "Doctor Jeep",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 12
-  },
-  {
-   "dj": "Lou Nour",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "Mia Koden",
-   "scene_claimed": "Dubstep",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "LOUISAHHH!!!",
-   "scene_claimed": "Electro",
-   "sets_claimed": 18
-  },
-  {
-   "dj": "Eclair Fifi",
-   "scene_claimed": "Electro",
-   "sets_claimed": 18
-  },
-  {
-   "dj": "DJ Beware",
-   "scene_claimed": "Electro",
-   "sets_claimed": 13
-  },
-  {
-   "dj": "DJ MELL G",
-   "scene_claimed": "Electro",
-   "sets_claimed": 8
-  },
-  {
-   "dj": "DJ Morpheus",
-   "scene_claimed": "Downtempo",
-   "sets_claimed": 27
-  },
-  {
-   "dj": "Lukas Sawicki",
-   "scene_claimed": "Downtempo",
-   "sets_claimed": 17
-  },
-  {
-   "dj": "Trishes",
-   "scene_claimed": "Downtempo",
-   "sets_claimed": 9
-  },
-  {
-   "dj": "Seamus Haji",
-   "scene_claimed": "Funky House",
-   "sets_claimed": 8
-  },
-  {
-   "dj": "Pegassi",
-   "scene_claimed": "Hard Dance / Hardcore",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Kyle Starkey",
-   "scene_claimed": "Hard Dance / Hardcore",
-   "sets_claimed": 8
-  },
-  {
-   "dj": "Justin Tinderdate",
-   "scene_claimed": "Hard Dance / Hardcore",
-   "sets_claimed": 5
-  },
-  {
-   "dj": "AniMe",
-   "scene_claimed": "Hard Dance / Hardcore",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Fergie",
-   "scene_claimed": "Hard Dance / Hardcore",
-   "sets_claimed": 12
-  },
-  {
-   "dj": "PLO Man",
-   "scene_claimed": "Minimal / Deep Tech",
-   "sets_claimed": 23
-  },
-  {
-   "dj": "Martinou",
-   "scene_claimed": "Minimal / Deep Tech",
-   "sets_claimed": 9
-  },
-  {
-   "dj": "Mihai Popoviciu",
-   "scene_claimed": "Minimal / Deep Tech",
-   "sets_claimed": 11
-  },
-  {
-   "dj": "Andrey Pushkarev",
-   "scene_claimed": "Minimal / Deep Tech",
-   "sets_claimed": 11
-  },
-  {
-   "dj": "Petre Inspirescu",
-   "scene_claimed": "Minimal / Deep Tech",
-   "sets_claimed": 8
-  },
-  {
-   "dj": "Interstellar Funk",
-   "scene_claimed": "Minimal / Deep Tech",
-   "sets_claimed": 13
-  },
-  {
-   "dj": "CC:Disco!",
-   "scene_claimed": "Nu Disco / Disco",
-   "sets_claimed": 10
-  },
-  {
-   "dj": "Fingerman",
-   "scene_claimed": "Nu Disco / Disco",
-   "sets_claimed": 36
-  },
-  {
-   "dj": "Dicky Trisco",
-   "scene_claimed": "Nu Disco / Disco",
-   "sets_claimed": 31
-  },
-  {
-   "dj": "Yasmin",
-   "scene_claimed": "Nu Disco / Disco",
-   "sets_claimed": 32
-  },
-  {
-   "dj": "Flyo",
-   "scene_claimed": "Trap / Future Bass",
-   "sets_claimed": 15
-  },
-  {
-   "dj": "Brodinski",
-   "scene_claimed": "Trap / Future Bass",
-   "sets_claimed": 7
-  },
-  {
-   "dj": "Coco Maria",
-   "scene_claimed": "Latin Electronic",
-   "sets_claimed": 3
-  },
-  {
-   "dj": "Bernardo Pinheiro",
-   "scene_claimed": "Latin Electronic",
-   "sets_claimed": 4
-  },
-  {
-   "dj": "Daferwa",
-   "scene_claimed": "Latin Electronic",
-   "sets_claimed": 26
-  }
- ]
+"source": "Beatport DJ charts: DJs who chart and are artists Signal knows, not already followed, most charts first; replaces the fixed list",
+"djs": [
+"KaKi",
+"Aaron Sevilla",
+"Montenegro",
+"Thierry D",
+"Jochem Hamerling",
+"ZARO",
+"Laydee V",
+"Ivan Kay",
+"DJ Tony Magic",
+"Angel Heredia",
+"Victor Ruiz",
+"Gassan",
+"Redspace",
+"Ertan Koculu",
+"KENN",
+"Claudio Giordano",
+"AFTRL1FE",
+"RISC",
+"Kashovski",
+"White Off",
+"Revok.",
+"Angioma",
+"Art Attack",
+"SANSI",
+"Namatjira",
+"Matsu",
+"andres matheus",
+"Ronnie Spiteri",
+"Rosario Galati",
+"Peerk",
+"Umberto Pagliaroli",
+"Yulia Niko",
+"Ewan Rill",
+"Super Flu",
+"HAXHIA",
+"Piem",
+"Jim Carson",
+"Funky Blackman",
+"Matt Rodgers",
+"Alexander Popov",
+"Yamil",
+"Nolek",
+"Schroomp",
+"Marie Vaunt",
+"JARR Head",
+"Michael A",
+"Bruno Costa",
+"Fede Aliprandi",
+"Rem Siman",
+"Meyer Bergy",
+"Giovanni Zarzana",
+"FIRZA",
+"Chris Maico Schmidt",
+"Karla Blum",
+"Mellizos",
+"FM-3",
+"The Virginia Valley",
+"Michael Hutcheson",
+"caskobi",
+"D-Nox",
+"GreenFlamez",
+"Roger-M",
+"Giovanni Lucchetti",
+"Chico Rose",
+"Daniel Orpi",
+"Erdi Irmak",
+"Marika Rossa",
+"Gabss",
+"RIGOONI",
+"Neumonic",
+"Ron with Leeds",
+"Peter Miethig",
+"JØRD",
+"Wh0",
+"Funky Resistance",
+"Ken@Work",
+"Natty Lou",
+"Eran Hersh",
+"Yohai Mor",
+"Illyus Barrientos",
+"BONNOT",
+"Tao Andra",
+"Mjoi",
+"rapham",
+"Nico Banfi",
+"Avilo",
+"Jordan Peak",
+"YellowHeads",
+"Jats (ofc)",
+"Sama (US)",
+"REBRN",
+"Jason Kinetic",
+"Kyle Watson",
+"Tatan Bilbao",
+"Katrin Souza",
+"Fred Everything",
+".EXA",
+"Aedan Terra",
+"J. Worra",
+"Deroz",
+"Dilby",
+"A.D.H.S.",
+"Supernova",
+"Carlos A",
+"BRK (BR)",
+"Cafius_",
+"Christian Smith",
+"Sian",
+"Escobar_TR",
+"Glowal",
+"Tuccillo",
+"Hi3ND",
+"Gettoblaster",
+"Argy",
+"No Boundariez",
+"Dj Patisso",
+"Julian Fijma",
+"Mike Kohl",
+"Johan Gielen",
+"Flavor Plus",
+"M.O.S.",
+"Plastik Funk",
+"Sezer Uysal",
+"Hollen",
+"Jay Lumen",
+"DJ Jackum",
+"ERIC REYES",
+"KINREE",
+"Missfeat",
+"Divolly & Markward",
+"Alaia & Gallo",
+"RAFAEL CERATO",
+"Unseen.",
+"Franco Smith",
+"Bell Mesk",
+"Volkoder",
+"Wave Wave",
+"Modern Tales",
+"Baron (FR)",
+"RuKha",
+"REESE",
+"Osmosis Jones",
+"Ariel Music",
+"Alysh",
+"Nico Parisi",
+"Fabio Tosti",
+"Jonas Blue",
+"Kill Them With Colour",
+"Ammo Avenue",
+"Alex Galvan",
+"Yves Murasca",
+"Calvin Clarke",
+"Volen Sentir",
+"Tekkman",
+"Mario Clavasquin",
+"Riko Gugga",
+"Tiefstone",
+"Amonita",
+"Tronik Youth",
+"ARUHTRA",
+"David Phoenix",
+"ADAPTER",
+"Obskür",
+"BLK&WHT",
+"Kamino",
+"Dj Ghost",
+"Dole & Kom",
+"LJP_MUSiK",
+"PAOLO M",
+"Mari MaLe",
+"Roxe",
+"Dave Seaman",
+"Dusky",
+"Shez Kurx",
+"Shelco",
+"Aler",
+"Bun Xapa",
+"BADJOKES",
+"Fatboy Slim",
+"Luke",
+"OnDaMiKe",
+"Byhon",
+"Luke Terry",
+"Filipe Le Swiss",
+"Under Sanctions",
+"Julian Jordan",
+"CEEDs",
+"sarah de warren",
+"DJ CARE",
+"Blue Black",
+"Josanu",
+"Les Castizos",
+"Cendryma",
+"Ede",
+"Maks (CH)",
+"Luch",
+"LUCA REZZA",
+"Tayllor",
+"Easttown",
+"LICA",
+"Josh Gigante",
+"aMo (um)",
+"Erik Yahnkovf",
+"Saint Ludo",
+"Deflee",
+"Karlos Kastillo",
+"Dani B.",
+"Phasic 18",
+"Dean P",
+"Chris Valencia",
+"Miss Monique",
+"Low Steppa",
+"Remon Verhoeve",
+"Mateo Tapia",
+"INNDRIVE",
+"Macho",
+"Anthony Bassoulou",
+"Vakabular",
+"John Wolf",
+"Dam Swindle",
+"David Tort",
+"Eyal Rabia",
+"Linero",
+"Kevin McKay",
+"Drop-E",
+"Konfusia",
+"Tech Us Out",
+"Hypersia",
+"Riva Starr",
+"Gifta",
+"Greg Ochman",
+"Avangart Tabldot",
+"Wade",
+"Bletter",
+"Philip George",
+"Paul Oakenfold",
+"THEO_",
+"LOVRA",
+"Chambord",
+"AMMIL",
+"AFGHAN HEADSPIN",
+"Gregor Tresher",
+"SAFAR (FR)",
+"SHUFFA",
+"HI-LO",
+"Krasa Rosa",
+"DAHER",
+"Charlie Shell",
+"Trancemaster Krause",
+"Najeh",
+"Skapi",
+"Jake Dile",
+"BANDEL",
+"Atacama",
+"Modjadeep.SA",
+"Aggresivnes",
+"Mozzy Rekorder",
+"Suray Sertin",
+"Cimboldo",
+"Alex Stein",
+"Drop The Cheese",
+"Nate Katz",
+"Amedeo Picone",
+"Andreo",
+"Gabriel Slick",
+"Ackermann",
+"Tony H",
+"Danmds",
+"KTK (DE)",
+"Oliver Gil",
+"Rich Walker",
+"Carré",
+"Samm(BE)",
+"Alexander Savov",
+"Liva K",
+"Yonadav",
+"Kadi IL",
+"UMEK",
+"Sisko Electrofanatik",
+"Roxy Nox",
+"Monkey Safari",
+"Lonya",
+"Maxim Lany",
+"7 Skies",
+"Basil O'Glue",
+"Ezequiel Arias",
+"Ben Eidani",
+"19:26",
+"Dj Dextro",
+"Savvas",
+"Cat Dealers",
+"SOLR",
+"The Checkup",
+"SLVR",
+"Fakear",
+"Patrick Scuro",
+"Caleb Laurenson",
+"Jonathan Kaspar",
+"Faul And Wad",
+"D*Minds",
+"Javier Misa",
+"Vedat Unal",
+"EYEawake",
+"Alesso",
+"Tom Zeta",
+"Solee",
+"SARA KRIN",
+"Huminal",
+"4K",
+"DJ General Slam",
+"Third Force",
+"AC Slater",
+"Buson",
+"DEVID DEGA",
+"Degs",
+"Freenzy Music",
+"Redhot",
+"Deer Jade",
+"Simon Kidzoo",
+"Federico Epis",
+"Tommy Phillips",
+"Guzi",
+"Brigado Crew",
+"Indira Paganotto",
+"Ghost That Never Sleeps",
+"Matt Fax",
+"Domshe",
+"Lowerzone",
+"DRE' (MT)",
+"Santa Deep",
+"GTN-O",
+"Vintash",
+"Ranger Trucco",
+"Juan Brizuela",
+"Tough Break",
+"Marc Mosca",
+"Soulcool",
+"SX2",
+"CID",
+"Franco Musachi",
+"Andrewboy",
+"Raphael Mader",
+"Andy Mart",
+"unfazed",
+"Caleb Jackson",
+"Alex Twin",
+"Kidoo",
+"The Shapeshifters",
+"Wurtz",
+"Emanuel Satie",
+"Lamsi",
+"Culture Shock",
+"Malarkey",
+"Juan Domecq",
+"RULS",
+"Greggio",
+"Kade Young",
+"Agustin Giri",
+"Hidde van Wee",
+"Justine Perry",
+"Thuto The Human",
+"REBUKE",
+"Joris Voorn",
+"Axel Boy",
+"Robbie Akbal",
+"Kyle Walker",
+"BUTCHABOI",
+"Michael Gray",
+"Evan Michael",
+"Claptone",
+"Air Baxx",
+"WILL K",
+"KOSMO KINT",
+"Gawdat",
+"Tim",
+"SERA J",
+"Jay de Lys",
+"Vertic",
+"Dj T",
+"Aleksander",
+"Aldor",
+"Whitesquare",
+"VXSION",
+"Vale",
+"Pancratio",
+"Speaker Louis",
+"Prospa",
+"Foynez",
+"Marco Lys",
+"Matt Sassari",
+"BENSY",
+"Luke The Duke",
+"POLO LILLI",
+"Wally Lopez",
+"Kevin Yost",
+"ATLAC",
+"Funkerman",
+"LLUIS RIBALTA",
+"Ive Lovers",
+"Jewel Kid",
+"James Poole",
+"Dompe",
+"James Mac",
+"Eli Fola",
+"VE/RA",
+"Pivot Back",
+"Document One ",
+"Chesster",
+"Mee50",
+"Filterheadz",
+"Addie Manson",
+"Eva Shaw",
+"Procopis Gkouklias",
+"Bulaklak",
+"Shadowmaw",
+"Nae:tek",
+"Kayosa & Tolland",
+"Shokë",
+"Shermanology",
+"Retrouve",
+"Resco (US)",
+"HotLap",
+"Lio",
+"Aimoon",
+"LUSU",
+"Bushbaby",
+"JCRUZ",
+"KAS:ST",
+"Danny Snowden",
+"Bákayan",
+"VNTM",
+"Vanco",
+"Secretly Famous",
+"DANNY P [IRL]",
+"GIGSTA",
+"Ben Sims",
+"LO'99",
+"OCHOK",
+"Blank Canvas",
+"paul valentin",
+"JOSE V",
+"DAHR",
+"Gabriel Muñoz",
+"Christian Nielsen",
+"Mark Reeve",
+"Lorenzo",
+"Joe Fisher",
+"AVG (IT)",
+"The White Riots",
+"bradeazy",
+"Rudosa",
+"AURIN (IN)",
+"Tini Gessler",
+"Tony Finger",
+"FckngNoise",
+"Max Styler",
+"Graumann",
+"OXIA",
+"Bittermind",
+"Ghost Note",
+"Danny Faber",
+"R-CHY",
+"Rich Gregson",
+"Bart Skils",
+"Simon Fava",
+"BOLO THE DJ",
+"CHARLES D (USA)",
+"Truncate",
+"Stanny Abram",
+"Glockenbach",
+"Nicola Fasano",
+"Simon Gregory",
+"TAZ (IT)",
+"Audyca",
+"David Ramano",
+"RUZE",
+"Irada",
+"Saintbull",
+"Sean Doron",
+"Tony Mafia",
+"No Trial",
+"HEDEX",
+"FEZZO",
+"ANTONY WELL",
+"Malive",
+"Pavzo",
+"JSPR",
+"Jessi Lowkey",
+"Tony Romera"
+]
 }
