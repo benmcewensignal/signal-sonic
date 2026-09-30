@@ -70,6 +70,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           for i in 1 2 3; do
+            # heal: a save that uploaded but failed to rename leaves only sonic.db.<run>; the newest such copy is complete
+            if [ "$(gh api "repos/${{ github.repository }}/releases/tags/deepened" --jq '[.assets[].name] | index("sonic.db")')" = "null" ]; then
+              T=$(gh api "repos/${{ github.repository }}/releases/tags/deepened" --jq '[.assets[] | select(.name|startswith("sonic.db."))] | sort_by(.updated_at) | last | .id')
+              if [ -n "$T" ] && [ "$T" != "null" ]; then gh api -X PATCH "repos/${{ github.repository }}/releases/assets/$T" -f name=sonic.db >/dev/null && echo "::warning title=database::healed: renamed the newest sonic.db.* to sonic.db"; fi
+            fi
             gh release download deepened --repo "${{ github.repository }}" --pattern sonic.db --dir /tmp/rel --clobber && [ -s /tmp/rel/sonic.db ] && break
             echo "fetch attempt $i failed"; sleep 20
           done

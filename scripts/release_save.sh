@@ -25,8 +25,14 @@ for j in 1 2 3 4 5; do
     gh api -X DELETE "repos/$R/releases/assets/$NEW" >/dev/null; sleep 5; continue
   fi
   [ -n "$NOW" ] && gh api -X DELETE "repos/$R/releases/assets/$NOW" >/dev/null
-  if gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=sonic.db >/dev/null; then
-    echo "database: saved to the release on attempt $j"; exit 0
-  fi
+  # the old name can stay reserved for a moment after the delete, so the rename is retried; on 30 September a
+  # single failed rename left the database only as sonic.db.<run> and every run after it found nothing to fetch
+  for k in 1 2 3 4 5 6 7 8; do
+    if gh api -X PATCH "repos/$R/releases/assets/$NEW" -f name=sonic.db >/dev/null 2>&1; then
+      echo "database: saved to the release on attempt $j"; exit 0
+    fi
+    sleep $((k*2))
+  done
+  echo "::error::the database is on the release as sonic.db.$RID but could not be renamed; the next run renames it"; exit 1
 done
 echo "::error::this run's database changes were not saved"; exit 1
