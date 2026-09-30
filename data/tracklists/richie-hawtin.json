@@ -179,7 +179,10 @@
      "minute": 61,
      "artist": "The Goat",
      "title": "Set End",
-     "label": ""
+     "label": "",
+     "bp": "bp:21111541",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -216,7 +219,10 @@
      "minute": 74,
      "artist": "Lachrymal",
      "title": "Horizon",
-     "label": ""
+     "label": "",
+     "bp": "bp:18710389",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,
@@ -241,13 +247,19 @@
      "minute": 85,
      "artist": "DJ Dextro",
      "title": "Eon",
-     "label": "Suara"
+     "label": "Suara",
+     "bp": "bp:18796981",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 88,
      "artist": "DEAS",
      "title": "Formation",
-     "label": "Planet Rhythm"
+     "label": "Planet Rhythm",
+     "bp": "bp:18854095",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
@@ -427,13 +439,19 @@
      "minute": null,
      "artist": "Michel Lauriola",
      "title": "Complete",
-     "label": "Mord"
+     "label": "Mord",
+     "bp": "bp:18579491",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "DJ Dextro",
      "title": "Eon",
-     "label": ""
+     "label": "",
+     "bp": "bp:18796981",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -489,7 +507,10 @@
      "minute": 42,
      "artist": "Deas",
      "title": "Formation",
-     "label": "Planet Rhythm"
+     "label": "Planet Rhythm",
+     "bp": "bp:18854095",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -508,13 +529,19 @@
      "minute": null,
      "artist": "The GOAT",
      "title": "Set End",
-     "label": ""
+     "label": "",
+     "bp": "bp:21111541",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
      "artist": "Ignez",
      "title": "Bliss",
-     "label": ""
+     "label": "",
+     "bp": "bp:18542662",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -602,7 +629,10 @@
      "minute": null,
      "artist": "KAT3X",
      "title": "XPANDER",
-     "label": ""
+     "label": "",
+     "bp": "bp:18697207",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -702,13 +732,19 @@
      "minute": 3,
      "artist": "Cauê",
      "title": "Reprobation",
-     "label": ""
+     "label": "",
+     "bp": "bp:18837688",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
      "artist": "Arta Fact",
      "title": "Krimson",
-     "label": "Solid Tracks"
+     "label": "Solid Tracks",
+     "bp": "bp:19038911",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -764,13 +800,19 @@
      "minute": null,
      "artist": "DJ Dextro",
      "title": "Eon",
-     "label": "Suara"
+     "label": "Suara",
+     "bp": "bp:18796981",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "DEAS",
      "title": "Formation",
-     "label": "Planet Rhythm"
+     "label": "Planet Rhythm",
+     "bp": "bp:18854095",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -827,7 +869,10 @@
      "minute": 48,
      "artist": "XHEI",
      "title": "Elos",
-     "label": ""
+     "label": "",
+     "bp": "bp:17030500",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -846,7 +891,10 @@
      "minute": null,
      "artist": "Sam Paganini",
      "title": "Atom",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:19038191",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -971,7 +1019,10 @@
      "minute": 16,
      "artist": "DJ Dextro",
      "title": "Eon",
-     "label": ""
+     "label": "",
+     "bp": "bp:18796981",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
@@ -1003,7 +1054,10 @@
      "minute": 26,
      "artist": "Sam Paganini",
      "title": "Atom",
-     "label": ""
+     "label": "",
+     "bp": "bp:19038191",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -1089,7 +1143,10 @@
      "minute": 51,
      "artist": "Arta Fact",
      "title": "Krimson",
-     "label": ""
+     "label": "",
+     "bp": "bp:19038911",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -1217,7 +1274,10 @@
      "minute": 81,
      "artist": "XHEI",
      "title": "Elos",
-     "label": ""
+     "label": "",
+     "bp": "bp:17030500",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 82,
@@ -1390,7 +1450,10 @@
      "minute": 33,
      "artist": "Aarayáh",
      "title": "Hide",
-     "label": "PRTL WRX"
+     "label": "PRTL WRX",
+     "bp": "bp:19916972",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1538,7 +1601,10 @@
      "minute": 68,
      "artist": "Uzaka",
      "title": "Hex",
-     "label": "Gordo Trax"
+     "label": "Gordo Trax",
+     "bp": "bp:20075455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 71,
@@ -1679,7 +1745,10 @@
      "minute": 102,
      "artist": "Shlomi Aber",
      "title": "Riot",
-     "label": ""
+     "label": "",
+     "bp": "bp:20022711",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1805,7 +1874,10 @@
      "minute": null,
      "artist": "Shlomi Aber",
      "title": "Limelight",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:20022710",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1830,7 +1902,10 @@
      "minute": null,
      "artist": "Vilchezz",
      "title": "Supra",
-     "label": ""
+     "label": "",
+     "bp": "bp:19799234",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1911,7 +1986,10 @@
      "minute": null,
      "artist": "Krzysiek Teper",
      "title": "Stab One",
-     "label": "Unity"
+     "label": "Unity",
+     "bp": "bp:20179883",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2008,7 +2086,10 @@
      "minute": null,
      "artist": "Shlomi Aber",
      "title": "Riot",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:20022711",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2242,7 +2323,10 @@
      "minute": null,
      "artist": "DEAS",
      "title": "Maniac",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:19678400",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2274,13 +2358,19 @@
      "minute": null,
      "artist": "Drumsauw",
      "title": "All Day",
-     "label": ""
+     "label": "",
+     "bp": "bp:20351990",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Nørbak",
      "title": "Sinto",
-     "label": ""
+     "label": "",
+     "bp": "bp:20393689",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2305,7 +2395,10 @@
      "minute": null,
      "artist": "Vekh",
      "title": "Akiko",
-     "label": ""
+     "label": "",
+     "bp": "bp:20438414",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2323,7 +2416,10 @@
      "minute": null,
      "artist": "Stipp",
      "title": "Sdg 02",
-     "label": ""
+     "label": "",
+     "bp": "bp:20433694",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2361,13 +2457,19 @@
      "minute": null,
      "artist": "Queer On Acid",
      "title": "You",
-     "label": ""
+     "label": "",
+     "bp": "bp:20399247",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Stipp",
      "title": "Sdg 02",
-     "label": ""
+     "label": "",
+     "bp": "bp:20433694",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2386,7 +2488,10 @@
      "minute": null,
      "artist": "Queer On Acid",
      "title": "You",
-     "label": ""
+     "label": "",
+     "bp": "bp:20399247",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2404,7 +2509,10 @@
      "minute": null,
      "artist": "Surusinghe",
      "title": "Ftrw!",
-     "label": ""
+     "label": "",
+     "bp": "bp:22794864",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2517,7 +2625,10 @@
      "minute": null,
      "artist": "Vekh",
      "title": "Akiko",
-     "label": ""
+     "label": "",
+     "bp": "bp:20438414",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2562,19 +2673,28 @@
      "minute": 40,
      "artist": "Aarayáh",
      "title": "Hide",
-     "label": "Prtl Wrx"
+     "label": "Prtl Wrx",
+     "bp": "bp:19916972",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
      "artist": "Drumsauw",
      "title": "All Day",
-     "label": "Jam"
+     "label": "Jam",
+     "bp": "bp:20351990",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
      "artist": "Queer On Acid",
      "title": "You",
-     "label": "Kneaded Pains"
+     "label": "Kneaded Pains",
+     "bp": "bp:20399247",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -2593,13 +2713,19 @@
      "minute": null,
      "artist": "Shlomi Aber",
      "title": "Limelight",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:20022710",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
      "artist": "Stipp",
      "title": "SDG 02",
-     "label": "STIPP"
+     "label": "STIPP",
+     "bp": "bp:20433694",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -2618,7 +2744,10 @@
      "minute": 62,
      "artist": "Nørbak",
      "title": "Sinto",
-     "label": "Clergy"
+     "label": "Clergy",
+     "bp": "bp:20393689",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2636,7 +2765,10 @@
      "minute": 70,
      "artist": "Vilchezz",
      "title": "Supra",
-     "label": "Planet Rhythm"
+     "label": "Planet Rhythm",
+     "bp": "bp:19799234",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2694,13 +2826,19 @@
      "minute": null,
      "artist": "Uzaka",
      "title": "Hex",
-     "label": ""
+     "label": "",
+     "bp": "bp:20075455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 84,
      "artist": "Krzysiek Teper",
      "title": "Stab One",
-     "label": "Unity"
+     "label": "Unity",
+     "bp": "bp:20179883",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2757,7 +2895,10 @@
      "minute": 98,
      "artist": "Chloe Lula",
      "title": "Intro",
-     "label": "Blueprint"
+     "label": "Blueprint",
+     "bp": "bp:19472926",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -2799,7 +2940,10 @@
      "minute": 4,
      "artist": "Sera J",
      "title": "Pulsewerk",
-     "label": "TRSN"
+     "label": "TRSN",
+     "bp": "bp:20683680",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -2837,7 +2981,10 @@
      "minute": 16,
      "artist": "Ackermann & AUtOdiDakT",
      "title": "Tonight",
-     "label": "Safe Space"
+     "label": "Safe Space",
+     "bp": "bp:20744230",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -2939,7 +3086,10 @@
      "minute": 43,
      "artist": "Valav",
      "title": "Drift",
-     "label": "Silencio Collective"
+     "label": "Silencio Collective",
+     "bp": "bp:20604328",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -3002,7 +3152,10 @@
      "minute": 70,
      "artist": "Mython",
      "title": "Copper",
-     "label": "TRSN"
+     "label": "TRSN",
+     "bp": "bp:20683688",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3156,13 +3309,19 @@
      "minute": null,
      "artist": "Procombo",
      "title": "Upscale",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:20648245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Reece Pritchard",
      "title": "Effective",
-     "label": ""
+     "label": "",
+     "bp": "bp:20660324",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3181,13 +3340,19 @@
      "minute": null,
      "artist": "Jacopo Susini",
      "title": "Element",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:20777247",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Luca Maniaci",
      "title": "Dilemma",
-     "label": ""
+     "label": "",
+     "bp": "bp:21335696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3206,7 +3371,10 @@
      "minute": null,
      "artist": "Jacopo Susini",
      "title": "Element",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:20777247",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3225,7 +3393,10 @@
      "minute": null,
      "artist": "Shlomi Aber",
      "title": "Ride",
-     "label": "Lost Episodes"
+     "label": "Lost Episodes",
+     "bp": "bp:21273334",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3257,13 +3428,19 @@
      "minute": null,
      "artist": "Ackermann & AUtOdiDakT",
      "title": "Tonight",
-     "label": ""
+     "label": "",
+     "bp": "bp:20744230",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Bob Semp",
      "title": "Phobia",
-     "label": "Observant"
+     "label": "Observant",
+     "bp": "bp:21066656",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3282,7 +3459,10 @@
      "minute": null,
      "artist": "Nastia Reigel",
      "title": "Do It Now",
-     "label": "Inf Ny"
+     "label": "Inf Ny",
+     "bp": "bp:21552610",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3348,13 +3528,19 @@
      "minute": null,
      "artist": "Reece Pritchard",
      "title": "Sahara",
-     "label": "Crudo"
+     "label": "Crudo",
+     "bp": "bp:20660321",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Fer BR",
      "title": "Pommring",
-     "label": "Minus"
+     "label": "Minus",
+     "bp": "bp:5794696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3383,7 +3569,10 @@
      "minute": null,
      "artist": "Chloe Lula",
      "title": "Intro",
-     "label": ""
+     "label": "",
+     "bp": "bp:19472926",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3408,7 +3597,10 @@
      "minute": null,
      "artist": "Procombo",
      "title": "Upscale",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:20648245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3420,13 +3612,19 @@
      "minute": null,
      "artist": "Reece Pritchard",
      "title": "Sahara",
-     "label": "Crudo"
+     "label": "Crudo",
+     "bp": "bp:20660321",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Nastia Reigel",
      "title": "Do It Now",
-     "label": "Inf Ny"
+     "label": "Inf Ny",
+     "bp": "bp:21552610",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3497,13 +3695,19 @@
      "minute": null,
      "artist": "Jacopo Susini",
      "title": "Element",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:20777247",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Luca Maniaci",
      "title": "Dilemma",
-     "label": ""
+     "label": "",
+     "bp": "bp:21335696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3550,7 +3754,10 @@
      "minute": null,
      "artist": "Luca Maniaci",
      "title": "Hyperion",
-     "label": ""
+     "label": "",
+     "bp": "bp:21335698",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3600,7 +3807,10 @@
      "minute": null,
      "artist": "Sera J",
      "title": "Pulsewerk",
-     "label": "TRSN"
+     "label": "TRSN",
+     "bp": "bp:20683680",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3625,7 +3835,10 @@
      "minute": null,
      "artist": "Bob Semp",
      "title": "Phobia",
-     "label": "Observant"
+     "label": "Observant",
+     "bp": "bp:21066656",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3644,7 +3857,10 @@
      "minute": null,
      "artist": "Fer BR",
      "title": "Pommring",
-     "label": "Minus"
+     "label": "Minus",
+     "bp": "bp:5794696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3776,7 +3992,10 @@
      "minute": null,
      "artist": "Reece Pritchard",
      "title": "Sahara",
-     "label": "Crudo"
+     "label": "Crudo",
+     "bp": "bp:20660321",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3794,7 +4013,10 @@
      "minute": null,
      "artist": "Jacopo Susini",
      "title": "Element",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:20777247",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3832,7 +4054,10 @@
      "minute": null,
      "artist": "Luca Maniaci",
      "title": "Hyperion",
-     "label": ""
+     "label": "",
+     "bp": "bp:21335698",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3863,13 +4088,19 @@
      "minute": null,
      "artist": "Mython",
      "title": "Copper",
-     "label": ""
+     "label": "",
+     "bp": "bp:20683688",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Reece Pritchard",
      "title": "Effective",
-     "label": ""
+     "label": "",
+     "bp": "bp:20660324",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3900,7 +4131,10 @@
      "minute": null,
      "artist": "Fer BR",
      "title": "Pommring",
-     "label": "Minus"
+     "label": "Minus",
+     "bp": "bp:5794696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3967,7 +4201,10 @@
      "minute": null,
      "artist": "Reece Pritchard",
      "title": "Sahara",
-     "label": "Crudo"
+     "label": "Crudo",
+     "bp": "bp:20660321",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3979,13 +4216,19 @@
      "minute": null,
      "artist": "Valav",
      "title": "Drift",
-     "label": ""
+     "label": "",
+     "bp": "bp:20604328",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Procombo",
      "title": "Upscale",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:20648245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3997,7 +4240,10 @@
      "minute": null,
      "artist": "Kamen",
      "title": "La Bête",
-     "label": ""
+     "label": "",
+     "bp": "bp:28702372",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4087,19 +4333,28 @@
      "minute": null,
      "artist": "Shlomi Aber",
      "title": "Ride",
-     "label": "Lost Episodes"
+     "label": "Lost Episodes",
+     "bp": "bp:21273334",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Bob Semp",
      "title": "Phobia",
-     "label": "Observant"
+     "label": "Observant",
+     "bp": "bp:21066656",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Luca Maniaci",
      "title": "Dilemma",
-     "label": ""
+     "label": "",
+     "bp": "bp:21335696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4150,7 +4405,10 @@
      "minute": null,
      "artist": "Jacopo Susini",
      "title": "Element",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:20777247",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

@@ -122,7 +122,10 @@
      "minute": 43,
      "artist": "Adriatique & Rivo",
      "title": "Like A Dream",
-     "label": "X"
+     "label": "X",
+     "bp": "bp:19399655",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 47,
@@ -197,7 +200,10 @@
      "minute": 5,
      "artist": "Deomid",
      "title": "Twisted",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20662221",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -250,7 +256,10 @@
      "minute": 25,
      "artist": "Alexander Delanois",
      "title": "Bad Mad",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19703658",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -384,7 +393,10 @@
      "minute": 69,
      "artist": "Matt & Juan Brizuela",
      "title": "Vertigo",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19498528",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -577,13 +589,19 @@
      "minute": 50,
      "artist": "TH;EN & Mia Mendi",
      "title": "Fade Away",
-     "label": ""
+     "label": "",
+     "bp": "bp:24292026",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
      "artist": "Luca Luper & Karmon",
      "title": "Frequency",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:21922735",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 59,
@@ -595,7 +613,10 @@
      "minute": 63,
      "artist": "Pablo Say",
      "title": "I Want",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:29471506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 67,
@@ -661,7 +682,10 @@
      "minute": 91,
      "artist": "Seth Hills",
      "title": "Secretos",
-     "label": ""
+     "label": "",
+     "bp": "bp:29430640",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 94,
@@ -734,7 +758,10 @@
      "minute": 125,
      "artist": "The Dare",
      "title": "Girls",
-     "label": "Fire Talk"
+     "label": "Fire Talk",
+     "bp": "bp:23314601",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 128,
@@ -746,7 +773,10 @@
      "minute": 131,
      "artist": "Avision",
      "title": "Good Time",
-     "label": "Ellum"
+     "label": "Ellum",
+     "bp": "bp:18689501",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 135,

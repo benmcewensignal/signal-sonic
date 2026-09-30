@@ -9,7 +9,10 @@
      "minute": null,
      "artist": "Marsh",
      "title": "Beside",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28417049",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -85,13 +88,19 @@
      "minute": null,
      "artist": "Shallou & Sultan + Shepard",
      "title": "Twilight",
-     "label": "This Never Happened"
+     "label": "This Never Happened",
+     "bp": "bp:28426399",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "M.O.S.",
      "title": "Changes",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:28547064",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -292,7 +301,10 @@
      "minute": null,
      "artist": "CamelPhat & Josh Gigante Feat. Kuuda",
      "title": "So Good",
-     "label": "When Stars Align"
+     "label": "When Stars Align",
+     "bp": "bp:28913355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -350,7 +362,10 @@
      "minute": null,
      "artist": "Metakomplex",
      "title": "Afterglow",
-     "label": "White"
+     "label": "White",
+     "bp": "bp:28866417",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -362,37 +377,55 @@
      "minute": null,
      "artist": "Jody Wisternoff & Jamie McDermott",
      "title": "Citadel",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28505721",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "M.O.S.",
      "title": "Changes",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:28547064",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Shallou & Sultan + Shepard",
      "title": "Twilight",
-     "label": "This Never Happened"
+     "label": "This Never Happened",
+     "bp": "bp:28426399",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "MXV & Wilde",
      "title": "Liberty",
-     "label": "Houstrike"
+     "label": "Houstrike",
+     "bp": "bp:28506275",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Marsh",
      "title": "Beside",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28417049",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Estiva",
      "title": "Mistika",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:28547063",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -565,7 +598,10 @@
      "minute": 22,
      "artist": "AVNT",
      "title": "Brazil",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29203279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -730,25 +766,37 @@
      "minute": null,
      "artist": "Tim Green & Proff",
      "title": "Sopia",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28658293",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "MXV & Wilde",
      "title": "Liberty",
-     "label": "Houstrike"
+     "label": "Houstrike",
+     "bp": "bp:28506275",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Eynka Feat. Låpsley",
      "title": "Promises",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:28362564",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Metakomplex",
      "title": "Afterglow",
-     "label": "White"
+     "label": "White",
+     "bp": "bp:28866417",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -767,7 +815,10 @@
      "minute": null,
      "artist": "CamelPhat & Josh Gigante Feat. Kuuda",
      "title": "So Good",
-     "label": "When Stars Align"
+     "label": "When Stars Align",
+     "bp": "bp:28913355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -799,7 +850,10 @@
      "minute": null,
      "artist": "Yehno",
      "title": "Distant",
-     "label": "Anjunadeep Explorations"
+     "label": "Anjunadeep Explorations",
+     "bp": "bp:28627729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -831,13 +885,19 @@
      "minute": null,
      "artist": "Harry Diamond Feat. Alix",
      "title": "Desire",
-     "label": "Mecha"
+     "label": "Mecha",
+     "bp": "bp:28358018",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Jody Wisternoff & Jamie McDermott",
      "title": "Citadel",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28505721",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -888,7 +948,10 @@
      "minute": null,
      "artist": "Jaytech",
      "title": "Atmo",
-     "label": "Positronic"
+     "label": "Positronic",
+     "bp": "bp:26895712",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -919,7 +982,10 @@
      "minute": null,
      "artist": "Jaytech",
      "title": "Ageha",
-     "label": "Positronic"
+     "label": "Positronic",
+     "bp": "bp:28931280",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -968,7 +1034,10 @@
      "minute": null,
      "artist": "Harry Diamond Feat. Alix",
      "title": "Desire",
-     "label": "Mecha"
+     "label": "Mecha",
+     "bp": "bp:28358018",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1000,7 +1069,10 @@
      "minute": null,
      "artist": "Eynka Feat. Låpsley",
      "title": "Promises",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:28362564",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1032,13 +1104,19 @@
      "minute": null,
      "artist": "Jaytech",
      "title": "Ageha",
-     "label": "Positronic"
+     "label": "Positronic",
+     "bp": "bp:28931280",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Tim Green & Proff",
      "title": "Sopia",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28658293",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1070,7 +1148,10 @@
      "minute": null,
      "artist": "Yehno",
      "title": "Distant",
-     "label": "Anjunadeep Explorations"
+     "label": "Anjunadeep Explorations",
+     "bp": "bp:28627729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1338,7 +1419,10 @@
      "minute": null,
      "artist": "Jaytech",
      "title": "Ageha",
-     "label": "Positronic"
+     "label": "Positronic",
+     "bp": "bp:28931280",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1415,7 +1499,10 @@
      "minute": null,
      "artist": "Proff & Tim Green",
      "title": "Sopia",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28658293",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1537,7 +1624,10 @@
      "minute": null,
      "artist": "Xira",
      "title": "Feel",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29299289",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1595,7 +1685,10 @@
      "minute": null,
      "artist": "Lane 8 & Teho",
      "title": "Pulsar",
-     "label": "This Never Happened"
+     "label": "This Never Happened",
+     "bp": "bp:28485501",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1640,7 +1733,10 @@
      "minute": null,
      "artist": "Gabriel & Dresden & Blake.08",
      "title": "Velour",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28938212",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1768,7 +1864,10 @@
      "minute": null,
      "artist": "Ronski Speed",
      "title": "Nuru Mpya",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29550237",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1823,7 +1922,10 @@
      "minute": null,
      "artist": "Lane 8 & Teho",
      "title": "Pulsar",
-     "label": "This Never Happened"
+     "label": "This Never Happened",
+     "bp": "bp:28485501",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1939,7 +2041,10 @@
      "minute": null,
      "artist": "Gabriel & Dresden & Blake.08",
      "title": "Velour",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28938212",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1971,7 +2076,10 @@
      "minute": null,
      "artist": "Xira",
      "title": "Feel",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29299289",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1996,7 +2104,10 @@
      "minute": null,
      "artist": "Cubicolor",
      "title": "Kindred",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29032470",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2015,7 +2126,10 @@
      "minute": null,
      "artist": "Ophanim",
      "title": "Sapphire",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:28882227",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2115,7 +2229,10 @@
      "minute": null,
      "artist": "Dusky Feat. Rromarin",
      "title": "Next Life",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29182912",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2134,13 +2251,19 @@
      "minute": null,
      "artist": "AVNT",
      "title": "Brazil",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29203279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Kryder",
      "title": "Eivissa",
-     "label": "Size"
+     "label": "Size",
+     "bp": "bp:29106391",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2165,7 +2288,10 @@
      "minute": null,
      "artist": "Cubicolor",
      "title": "Kindred",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29032470",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2184,13 +2310,19 @@
      "minute": null,
      "artist": "Ophanim",
      "title": "Sapphire",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:28882227",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Lar & Taylr Renee",
      "title": "Rewind",
-     "label": "Anjunadeep Explorations"
+     "label": "Anjunadeep Explorations",
+     "bp": "bp:29136755",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2254,7 +2386,10 @@
      "minute": null,
      "artist": "Nicky Elisabeth",
      "title": "Distant",
-     "label": "Global Underground"
+     "label": "Global Underground",
+     "bp": "bp:30685254",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2363,7 +2498,10 @@
      "minute": null,
      "artist": "Dusky Feat. Rromarin",
      "title": "Next Life",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29182912",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2447,7 +2585,10 @@
      "minute": null,
      "artist": "Lar & Taylr Renee",
      "title": "Rewind",
-     "label": "Anjunadeep Explorations"
+     "label": "Anjunadeep Explorations",
+     "bp": "bp:29136755",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2479,13 +2620,19 @@
      "minute": null,
      "artist": "Estiva",
      "title": "Palma",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:29349203",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "AVNT",
      "title": "Brazil",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29203279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2516,7 +2663,10 @@
      "minute": null,
      "artist": "Nicky Elisabeth",
      "title": "Distant",
-     "label": "Global Underground"
+     "label": "Global Underground",
+     "bp": "bp:30685254",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2701,7 +2851,10 @@
      "minute": null,
      "artist": "Fuenka",
      "title": "Nitidus",
-     "label": "FSOE"
+     "label": "FSOE",
+     "bp": "bp:29392635",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2733,7 +2886,10 @@
      "minute": null,
      "artist": "Durante & Mayro",
      "title": "Mantra",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28913525",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2752,7 +2908,10 @@
      "minute": null,
      "artist": "Dusky Feat. Rromarin",
      "title": "Next Life",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29182912",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2803,19 +2962,28 @@
      "minute": null,
      "artist": "Trilucid",
      "title": "Too Good",
-     "label": "Anjunadeep Explorations"
+     "label": "Anjunadeep Explorations",
+     "bp": "bp:29034137",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "M.O.S.",
      "title": "One Love",
-     "label": "Plaisirs Sonores"
+     "label": "Plaisirs Sonores",
+     "bp": "bp:29599623",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Estiva",
      "title": "Palma",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:29349203",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2834,7 +3002,10 @@
      "minute": null,
      "artist": "AVNT",
      "title": "Brazil",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29203279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2885,7 +3056,10 @@
      "minute": null,
      "artist": "Proff & Tim Green",
      "title": "Sopia",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28658293",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2941,7 +3115,10 @@
      "minute": null,
      "artist": "Ronski Speed",
      "title": "Nuru Mpya",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29550237",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2960,19 +3137,28 @@
      "minute": null,
      "artist": "Fuenka",
      "title": "Nitidus",
-     "label": "FSOE"
+     "label": "FSOE",
+     "bp": "bp:29392635",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Eynka & Ed Graves",
      "title": "Flashes",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:29309159",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Durante & Mayro",
      "title": "Mantra",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28913525",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2991,13 +3177,19 @@
      "minute": null,
      "artist": "Nordfold",
      "title": "Collide",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29388135",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "M.O.S.",
      "title": "One Love",
-     "label": "Plaisirs Sonores"
+     "label": "Plaisirs Sonores",
+     "bp": "bp:29599623",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3009,7 +3201,10 @@
      "minute": null,
      "artist": "Trilucid",
      "title": "Too Good",
-     "label": "Anjunadeep Explorations"
+     "label": "Anjunadeep Explorations",
+     "bp": "bp:29034137",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3053,7 +3248,10 @@
      "minute": null,
      "artist": "Nitrous Oxide & Dan Stone",
      "title": "Believe",
-     "label": "Enhanced Progressive"
+     "label": "Enhanced Progressive",
+     "bp": "bp:29403034",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3136,7 +3334,10 @@
      "minute": null,
      "artist": "Michael Cassette",
      "title": "United",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29850355",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -3173,7 +3374,10 @@
      "minute": null,
      "artist": "Nitrous Oxide & Dan Stone",
      "title": "Believe",
-     "label": "Enhanced Progressive"
+     "label": "Enhanced Progressive",
+     "bp": "bp:29403034",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3218,7 +3422,10 @@
      "minute": null,
      "artist": "Nordfold",
      "title": "Collide",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29388135",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3256,13 +3463,19 @@
      "minute": null,
      "artist": "Eynka & Ed Graves",
      "title": "Flashes",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:29309159",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Feiertag, Jody Wisternoff & James Grant",
      "title": "Nomad",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29486566",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3277,7 +3490,10 @@
      "minute": null,
      "artist": "Ronski Speed",
      "title": "Nuru Mpya",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29550237",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3386,7 +3602,10 @@
      "minute": null,
      "artist": "Matt Fax",
      "title": "Oddity",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:29569826",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3410,13 +3629,19 @@
      "minute": null,
      "artist": "Ronski Speed",
      "title": "Nuru Mpya",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29550237",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Yotto Feat. Dakota",
      "title": "Deep Dive",
-     "label": "Madminds"
+     "label": "Madminds",
+     "bp": "bp:29781638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3435,7 +3660,10 @@
      "minute": null,
      "artist": "Jaytech",
      "title": "Terminus",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29632494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3456,7 +3684,10 @@
      "minute": null,
      "artist": "Matt Fax",
      "title": "Oddity",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:29569826",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3545,7 +3776,10 @@
      "minute": null,
      "artist": "Feiertag, Jody Wisternoff & James Grant",
      "title": "Nomad",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29486566",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3614,7 +3848,10 @@
      "minute": null,
      "artist": "Soundprank",
      "title": "As Within",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29662250",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3676,19 +3913,28 @@
      "minute": null,
      "artist": "Yotto Feat. Dakota",
      "title": "Deep Dive",
-     "label": "Madminds"
+     "label": "Madminds",
+     "bp": "bp:29781638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "AVNT",
      "title": "Echo",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29750512",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Eelke Kleijn",
      "title": "Hold On",
-     "label": "Days Like Nights"
+     "label": "Days Like Nights",
+     "bp": "bp:30232328",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3746,13 +3992,19 @@
      "minute": null,
      "artist": "Because Of Art",
      "title": "Hold On",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29660883",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Ronski Speed",
      "title": "Nuru Mpya",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29550237",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3784,7 +4036,10 @@
      "minute": null,
      "artist": "Estiva",
      "title": "The Wave",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:29648651",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3885,7 +4140,10 @@
      "minute": null,
      "artist": "AVNT",
      "title": "Echo",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29750512",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3897,7 +4155,10 @@
      "minute": null,
      "artist": "Michael Cassette",
      "title": "United",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29850355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3987,7 +4248,10 @@
      "minute": null,
      "artist": "Because Of Art",
      "title": "Hold On",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29660883",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4110,19 +4374,28 @@
      "minute": null,
      "artist": "Estiva",
      "title": "Désir",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:23098227",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Estiva",
      "title": "Mistika",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:28547063",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Estiva",
      "title": "Tcl",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:24254645",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4141,7 +4414,10 @@
      "minute": null,
      "artist": "Estiva",
      "title": "Palma",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:29349203",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4153,7 +4429,10 @@
      "minute": null,
      "artist": "Estiva",
      "title": "The Wave",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:29648651",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -4273,7 +4552,10 @@
      "minute": null,
      "artist": "Dusky",
      "title": "Bindweed",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29885525",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4292,7 +4574,10 @@
      "minute": null,
      "artist": "Steven Weston & Claxy",
      "title": "Hiding",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29662540",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4343,7 +4628,10 @@
      "minute": null,
      "artist": "Michael Cassette",
      "title": "United",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29850355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4513,7 +4801,10 @@
      "minute": null,
      "artist": "Huminal",
      "title": "Lotus",
-     "label": "This Never Happened"
+     "label": "This Never Happened",
+     "bp": "bp:30012125",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4531,7 +4822,10 @@
      "minute": null,
      "artist": "Steven Weston & Claxy",
      "title": "Hiding",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29662540",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4615,13 +4909,19 @@
      "minute": null,
      "artist": "Soundprank",
      "title": "As Within",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29662250",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Dusky",
      "title": "Bindweed",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29885525",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4767,7 +5067,10 @@
      "minute": null,
      "artist": "Jaytech",
      "title": "Terminus",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29632494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4786,7 +5089,10 @@
      "minute": null,
      "artist": "Because Of Art",
      "title": "Running",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:20396489",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5140,7 +5446,10 @@
      "minute": null,
      "artist": "Huminal",
      "title": "Lotus",
-     "label": "This Never Happened"
+     "label": "This Never Happened",
+     "bp": "bp:30012125",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5209,7 +5518,10 @@
      "minute": null,
      "artist": "Eelke Kleijn",
      "title": "Hold On",
-     "label": "Days Like Nights"
+     "label": "Days Like Nights",
+     "bp": "bp:30232328",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

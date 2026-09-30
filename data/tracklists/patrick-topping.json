@@ -111,7 +111,10 @@
      "minute": 33,
      "artist": "Green Velvet & Patrick Topping",
      "title": "Voicemail",
-     "label": "Relief"
+     "label": "Relief",
+     "bp": "bp:17887832",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -374,7 +377,10 @@
      "minute": null,
      "artist": "Torren Foot & OMNOM & F.Physical",
      "title": "La Banda",
-     "label": "Sweat It Out!"
+     "label": "Sweat It Out!",
+     "bp": "bp:20275892",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -393,7 +399,10 @@
      "minute": null,
      "artist": "Patrick Topping",
      "title": "Forget",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "bp": "bp:5279087",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -546,7 +555,10 @@
      "minute": 12,
      "artist": "Patrick Topping",
      "title": "Mi Casa",
-     "label": ""
+     "label": "",
+     "bp": "bp:30541775",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 16,
@@ -692,7 +704,10 @@
      "minute": 69,
      "artist": "William Kiss & DJ Gant-Man",
      "title": "Juke Dat",
-     "label": "Fool's Gold"
+     "label": "Fool's Gold",
+     "bp": "bp:30134564",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -788,13 +803,19 @@
      "minute": 102,
      "artist": "Patrick Topping",
      "title": "Forget",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "bp": "bp:5279087",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 106,
      "artist": "Salif Keïta",
      "title": "Madan",
-     "label": "UMG"
+     "label": "UMG",
+     "bp": "bp:13335359",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 109,
@@ -933,7 +954,10 @@
      "minute": 40,
      "artist": "Patrick Topping",
      "title": "Mi Casa",
-     "label": ""
+     "label": "",
+     "bp": "bp:30541775",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
@@ -1088,7 +1112,10 @@
      "minute": 110,
      "artist": "Chromatics",
      "title": "Shadow (Maceo Plex Remix)",
-     "label": ""
+     "label": "",
+     "bp": "bp:14987162",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 114,

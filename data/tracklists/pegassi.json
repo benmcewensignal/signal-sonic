@@ -489,7 +489,10 @@
      "minute": 104,
      "artist": "Marzo",
      "title": "Embrace",
-     "label": ""
+     "label": "",
+     "bp": "bp:29629024",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 107,
@@ -737,7 +740,10 @@
      "minute": null,
      "artist": "YOTTO Feat. Dakota",
      "title": "Deep Dive",
-     "label": "Madminds"
+     "label": "Madminds",
+     "bp": "bp:29781638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -894,7 +900,10 @@
      "minute": null,
      "artist": "Marzo",
      "title": "Embrace",
-     "label": "Sweet Nothing"
+     "label": "Sweet Nothing",
+     "bp": "bp:29629024",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

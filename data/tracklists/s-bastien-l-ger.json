@@ -207,7 +207,10 @@
      "minute": null,
      "artist": "Roy RosenfelD & Sébastien Léger",
      "title": "Panko Day",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:19067674",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -225,7 +228,10 @@
      "minute": 71,
      "artist": "Guy J",
      "title": "Karma",
-     "label": "No Drama"
+     "label": "No Drama",
+     "bp": "bp:19547695",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 74,
@@ -269,7 +275,10 @@
      "minute": null,
      "artist": "Sébastien Léger",
      "title": "Hutchula",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:20187364",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -401,7 +410,10 @@
      "minute": null,
      "artist": "Sébastien Léger",
      "title": "Ramses",
-     "label": ""
+     "label": "",
+     "bp": "bp:22431057",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -481,7 +493,10 @@
      "minute": 34,
      "artist": "Roy RosenfelD & Sébastien Léger",
      "title": "Panko Day",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:19067674",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 40,
@@ -519,7 +534,10 @@
      "minute": 57,
      "artist": "Sébastien Léger",
      "title": "Ramses",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:22431057",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 63,
@@ -546,7 +564,10 @@
      "minute": 78,
      "artist": "Sébastien Léger",
      "title": "Hutchula",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:20187364",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 84,

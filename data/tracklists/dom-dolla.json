@@ -13,7 +13,10 @@
      "minute": 0,
      "artist": "GENESI & MEDUZA",
      "title": "Take It",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20063136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -119,13 +122,19 @@
      "minute": 52,
      "artist": "Torren Foot & OMNOM & F.Physical",
      "title": "La Banda",
-     "label": "Sweat It Out!"
+     "label": "Sweat It Out!",
+     "bp": "bp:20275892",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
      "artist": "Catz 'N Dogz & Nala",
      "title": "Me Me Me",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:18050333",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -150,7 +159,10 @@
      "minute": 62,
      "artist": "Alexander Delanois",
      "title": "Bad Mad",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19703658",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 66,
@@ -210,7 +222,10 @@
      "minute": 88,
      "artist": "Matt & Juan Brizuela",
      "title": "Vertigo",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19498528",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,

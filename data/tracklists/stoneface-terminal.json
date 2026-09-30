@@ -80,7 +80,10 @@
      "minute": 34,
      "artist": "DEAS",
      "title": "Maniac",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:19678400",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -118,7 +121,10 @@
      "minute": 51,
      "artist": "Talismann",
      "title": "Lolabo",
-     "label": "Talismann"
+     "label": "Talismann",
+     "bp": "bp:19259633",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -387,7 +393,10 @@
      "minute": null,
      "artist": "Frank Biazzi",
      "title": "My House",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:19666044",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -716,7 +725,10 @@
      "minute": 66,
      "artist": "Max Walder & Nicolas Clays",
      "title": "Supernova",
-     "label": "Sway"
+     "label": "Sway",
+     "bp": "bp:19928455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 70,
@@ -902,7 +914,10 @@
      "minute": 21,
      "artist": "Hoopoe",
      "title": "Mindfield",
-     "label": "Hedjog"
+     "label": "Hedjog",
+     "bp": "bp:20386080",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -1352,7 +1367,10 @@
      "minute": null,
      "artist": "Na Nich",
      "title": "Crust",
-     "label": "Fur:ther Sessions"
+     "label": "Fur:ther Sessions",
+     "bp": "bp:19868127",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1583,7 +1601,10 @@
      "minute": null,
      "artist": "Na Nich",
      "title": "Crust",
-     "label": "Fur:ther Sessions"
+     "label": "Fur:ther Sessions",
+     "bp": "bp:19868127",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2339,7 +2360,10 @@
      "minute": null,
      "artist": "Hertz & Wehbba",
      "title": "Flipped",
-     "label": "Sway"
+     "label": "Sway",
+     "bp": "bp:19986638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2957,7 +2981,10 @@
      "minute": null,
      "artist": "Introversion",
      "title": "Laeddis",
-     "label": ""
+     "label": "",
+     "bp": "bp:20116669",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3042,7 +3069,10 @@
      "minute": null,
      "artist": "Boris Brejcha",
      "title": "XOXO",
-     "label": ""
+     "label": "",
+     "bp": "bp:20347658",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3099,13 +3129,19 @@
      "minute": null,
      "artist": "Ramon Tapia & Gaston Zani",
      "title": "Friction",
-     "label": ""
+     "label": "",
+     "bp": "bp:17664204",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Kulage",
      "title": "Crypt",
-     "label": ""
+     "label": "",
+     "bp": "bp:20310854",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3334,7 +3370,10 @@
      "minute": null,
      "artist": "Len Faki & Jancen",
      "title": "Morgana",
-     "label": ""
+     "label": "",
+     "bp": "bp:20378967",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3391,7 +3430,10 @@
      "minute": null,
      "artist": "Stoneface & Terminal",
      "title": "Neovortex",
-     "label": ""
+     "label": "",
+     "bp": "bp:20965004",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3562,7 +3604,10 @@
      "minute": null,
      "artist": "Regent",
      "title": "Permean",
-     "label": ""
+     "label": "",
+     "bp": "bp:20460074",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3634,7 +3679,10 @@
      "minute": null,
      "artist": "Charlotte de Witte Feat. XSALT",
      "title": "No Division",
-     "label": ""
+     "label": "",
+     "bp": "bp:20457519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3836,7 +3884,10 @@
      "minute": null,
      "artist": "Lars Huismann",
      "title": "Mirage",
-     "label": ""
+     "label": "",
+     "bp": "bp:20559701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3855,7 +3906,10 @@
      "minute": null,
      "artist": "SinSonic",
      "title": "Paradigm",
-     "label": "Extended"
+     "label": "Extended",
+     "bp": "bp:20607484",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3880,7 +3934,10 @@
      "minute": null,
      "artist": "Stoneface & Terminal",
      "title": "Neovortex",
-     "label": ""
+     "label": "",
+     "bp": "bp:20965004",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3931,7 +3988,10 @@
      "minute": null,
      "artist": "Stoneface & Terminal",
      "title": "Airflow",
-     "label": ""
+     "label": "",
+     "bp": "bp:10842583",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -4201,7 +4261,10 @@
      "minute": null,
      "artist": "Kulage",
      "title": "Crypt",
-     "label": ""
+     "label": "",
+     "bp": "bp:20310854",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4316,7 +4379,10 @@
      "minute": null,
      "artist": "Max Walder & Nicolas Clays",
      "title": "Supernova",
-     "label": ""
+     "label": "",
+     "bp": "bp:19928455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4532,7 +4598,10 @@
      "minute": null,
      "artist": "Stoneface & Terminal",
      "title": "Neovortex",
-     "label": ""
+     "label": "",
+     "bp": "bp:20965004",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4596,7 +4665,10 @@
      "minute": null,
      "artist": "Nørbak",
      "title": "Sinto",
-     "label": ""
+     "label": "",
+     "bp": "bp:20393689",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4711,7 +4783,10 @@
      "minute": 22,
      "artist": "Stoneface & Terminal",
      "title": "Neovortex",
-     "label": "Replicate Black"
+     "label": "Replicate Black",
+     "bp": "bp:20965004",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -4762,7 +4837,10 @@
      "minute": 50,
      "artist": "Procombo",
      "title": "Upscale",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:20648245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -4965,7 +5043,10 @@
      "minute": 36,
      "artist": "Stoneface & Terminal",
      "title": "Neovortex",
-     "label": "Replicate Black"
+     "label": "Replicate Black",
+     "bp": "bp:20965004",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
@@ -5015,7 +5096,10 @@
      "minute": 64,
      "artist": "Gary Beck",
      "title": "Hopper",
-     "label": "Mutual Rytm"
+     "label": "Mutual Rytm",
+     "bp": "bp:20504531",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 68,
@@ -5060,7 +5144,10 @@
      "minute": 82,
      "artist": "Introversion",
      "title": "Laeddis",
-     "label": "ARTS"
+     "label": "ARTS",
+     "bp": "bp:20116669",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 87,
@@ -5171,7 +5258,10 @@
      "minute": 33,
      "artist": "Len Faki & Jancen",
      "title": "Morgana",
-     "label": "Figure"
+     "label": "Figure",
+     "bp": "bp:20378967",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -5545,7 +5635,10 @@
      "minute": 96,
      "artist": "Marcal",
      "title": "Swindle",
-     "label": "Enemy"
+     "label": "Enemy",
+     "bp": "bp:21057823",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 100,
@@ -5926,7 +6019,10 @@
      "minute": 41,
      "artist": "Marco V",
      "title": "Loxia (Extended Mix)",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:22195252",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
@@ -6291,7 +6387,10 @@
      "minute": 92,
      "artist": "Stoneface & Terminal",
      "title": "Airflow",
-     "label": ""
+     "label": "",
+     "bp": "bp:10842583",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,
@@ -6530,7 +6629,10 @@
      "minute": 87,
      "artist": "SAMOH",
      "title": "Breath",
-     "label": "Fra.Ctal"
+     "label": "Fra.Ctal",
+     "bp": "bp:22500364",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
@@ -6967,7 +7069,10 @@
      "minute": 44,
      "artist": "Ian Carpenter & Daddy Russell",
      "title": "Savage",
-     "label": "Sway"
+     "label": "Sway",
+     "bp": "bp:21826593",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,

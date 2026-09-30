@@ -291,13 +291,19 @@
      "minute": 112,
      "artist": "Francis Mercier & Frigid Armadillo & Luedji Luna",
      "title": "Yara",
-     "label": ""
+     "label": "",
+     "bp": "bp:19020401",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 117,
      "artist": "Francis Mercier & Emmanuel Jal",
      "title": "Hustla",
-     "label": "Higher Ground (Mad Decent)"
+     "label": "Higher Ground (Mad Decent)",
+     "bp": "bp:18594872",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -321,19 +327,28 @@
      "minute": null,
      "artist": "Apexape",
      "title": "Narina",
-     "label": "Good"
+     "label": "Good",
+     "bp": "bp:19304568",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Francis Mercier & Frigid Armadillo & Luedji Luna",
      "title": "Yara",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19020401",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Moeaike",
      "title": "Bo Bom",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "bp": "bp:19072843",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -352,13 +367,19 @@
      "minute": null,
      "artist": "Peaty X Ape Drums",
      "title": "Alema",
-     "label": ""
+     "label": "",
+     "bp": "bp:19509124",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Humans",
      "title": "Takata",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19186666",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -383,7 +404,10 @@
      "minute": null,
      "artist": "Novak & WUULA",
      "title": "Waka Waka",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19134056",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -429,19 +453,28 @@
      "minute": null,
      "artist": "Apexape",
      "title": "Narina",
-     "label": "Good"
+     "label": "Good",
+     "bp": "bp:19304568",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Francis Mercier & Frigid Armadillo & Luedji Luna",
      "title": "Yara",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19020401",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Moeaike",
      "title": "Bo Bom",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "bp": "bp:19072843",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -460,13 +493,19 @@
      "minute": null,
      "artist": "Peaty X Ape Drums",
      "title": "Alema",
-     "label": ""
+     "label": "",
+     "bp": "bp:19509124",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Humans",
      "title": "Takata",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19186666",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -491,7 +530,10 @@
      "minute": null,
      "artist": "Novak & WUULA",
      "title": "Waka Waka",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19134056",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -647,19 +689,28 @@
      "minute": null,
      "artist": "Apexape",
      "title": "Narina",
-     "label": "Good"
+     "label": "Good",
+     "bp": "bp:19304568",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Francis Mercier & Frigid Armadillo & Luedji Luna",
      "title": "Yara",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19020401",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Moeaike",
      "title": "Bo Bom",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "bp": "bp:19072843",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -678,13 +729,19 @@
      "minute": null,
      "artist": "Peaty X Ape Drums",
      "title": "Alema",
-     "label": ""
+     "label": "",
+     "bp": "bp:19509124",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Humans",
      "title": "Takata",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19186666",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -709,7 +766,10 @@
      "minute": null,
      "artist": "Novak & WUULA",
      "title": "Waka Waka",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:19134056",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1176,7 +1236,10 @@
      "minute": null,
      "artist": "Mau P",
      "title": "TESLA",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:20630687",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1317,7 +1380,10 @@
      "minute": null,
      "artist": "MORTEN & David Guetta",
      "title": "Lucky",
-     "label": "Future Rave"
+     "label": "Future Rave",
+     "bp": "bp:21335703",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1370,7 +1436,10 @@
      "minute": null,
      "artist": "CamelPhat & Zafrir",
      "title": "Destino",
-     "label": "When Stars Align"
+     "label": "When Stars Align",
+     "bp": "bp:20843621",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1428,7 +1497,10 @@
      "minute": null,
      "artist": "Max Styler & Deomid",
      "title": "Get Down",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:21030572",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1466,7 +1538,10 @@
      "minute": null,
      "artist": "Ape Drums & JAMIIE",
      "title": "111",
-     "label": "Vod"
+     "label": "Vod",
+     "bp": "bp:20780011",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

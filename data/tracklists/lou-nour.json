@@ -713,7 +713,10 @@
      "minute": 40,
      "artist": "Anz",
      "title": "Panrico",
-     "label": "Chow Down"
+     "label": "Chow Down",
+     "bp": "bp:9600535",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -806,7 +809,10 @@
      "minute": 70,
      "artist": "The Spaceape & Kode9",
      "title": "9 Samurai",
-     "label": "Hyperdub"
+     "label": "Hyperdub",
+     "bp": "bp:5990353",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 74,
@@ -1111,7 +1117,10 @@
      "minute": 36,
      "artist": "Kahn",
      "title": "Dread",
-     "label": "DEEP MEDi MUSIK"
+     "label": "DEEP MEDi MUSIK",
+     "bp": "bp:5943601",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -1453,7 +1462,10 @@
      "minute": 5,
      "artist": "Dub Phizix & Skeptical Feat. Strategy",
      "title": "Marka",
-     "label": "Exit"
+     "label": "Exit",
+     "bp": "bp:3114483",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -1752,7 +1764,10 @@
      "minute": 92,
      "artist": "Douvelle19 & Manga Saint Hilare",
      "title": "Shook",
-     "label": "D19"
+     "label": "D19",
+     "bp": "bp:18204532",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1776,7 +1791,10 @@
      "minute": 98,
      "artist": "Sam Binga & Skream & Bianca Oblivion Feat. Toya Delazy",
      "title": "Fiya Selecta",
-     "label": "Hard"
+     "label": "Hard",
+     "bp": "bp:19540576",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 100,
@@ -1919,7 +1937,10 @@
      "minute": null,
      "artist": "Pangaea",
      "title": "The Slip",
-     "label": "Hessle"
+     "label": "Hessle",
+     "bp": "bp:18182383",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2143,7 +2164,10 @@
      "minute": null,
      "artist": "Alix Perez",
      "title": "Melodrama",
-     "label": "1985"
+     "label": "1985",
+     "bp": "bp:15642814",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2217,7 +2241,10 @@
      "minute": null,
      "artist": "Coido & Traka",
      "title": "Gruz",
-     "label": ""
+     "label": "",
+     "bp": "bp:20359109",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

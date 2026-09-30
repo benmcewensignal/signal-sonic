@@ -98,13 +98,19 @@
      "minute": null,
      "artist": "Marsolo",
      "title": "Step By Step (Extended Mix)",
-     "label": "Three Six Zero"
+     "label": "Three Six Zero",
+     "bp": "bp:19980434",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Marian (BR) & Freenzy Music",
      "title": "Pakit Ban",
-     "label": "Mood Child"
+     "label": "Mood Child",
+     "bp": "bp:18920000",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -560,7 +566,10 @@
      "minute": null,
      "artist": "MK Feat. CHRYSTAL",
      "title": "Dior",
-     "label": "Area10"
+     "label": "Area10",
+     "bp": "bp:21048822",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -649,7 +658,10 @@
      "minute": null,
      "artist": "Charlotte de Witte Feat. XSALT",
      "title": "No Division",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20457519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -776,13 +788,19 @@
      "minute": null,
      "artist": "Marsolo",
      "title": "Step By Step (Extended Mix)",
-     "label": "Three Six Zero"
+     "label": "Three Six Zero",
+     "bp": "bp:19980434",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Marian (BR) & Freenzy Music",
      "title": "Pakit Ban",
-     "label": "Mood Child"
+     "label": "Mood Child",
+     "bp": "bp:18920000",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -876,7 +894,10 @@
      "minute": null,
      "artist": "Hector Couto & Alejandro Paz",
      "title": "El House",
-     "label": "Cécille"
+     "label": "Cécille",
+     "bp": "bp:20431852",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1198,7 +1219,10 @@
      "minute": 29,
      "artist": "Mau P",
      "title": "TESLA",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:20630687",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -1370,13 +1394,19 @@
      "minute": null,
      "artist": "Marsolo",
      "title": "Step By Step (Extended Mix)",
-     "label": "Three Six Zero"
+     "label": "Three Six Zero",
+     "bp": "bp:19980434",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Marian (BR) & Freenzy Music",
      "title": "Pakit Ban",
-     "label": "Mood Child"
+     "label": "Mood Child",
+     "bp": "bp:18920000",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1640,7 +1670,10 @@
      "minute": null,
      "artist": "Bodhi",
      "title": "Dwndwn",
-     "label": "Hotflush"
+     "label": "Hotflush",
+     "bp": "bp:20478867",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1729,7 +1762,10 @@
      "minute": null,
      "artist": "Sofia Kourtesis & Daphni",
      "title": "Unidos",
-     "label": "Ninja"
+     "label": "Ninja",
+     "bp": "bp:20510647",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1932,7 +1968,10 @@
      "minute": null,
      "artist": "Hertz",
      "title": "Timballe",
-     "label": "Sway"
+     "label": "Sway",
+     "bp": "bp:18201494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2022,7 +2061,10 @@
      "minute": null,
      "artist": "Torren Foot & OMNOM & F.Physical",
      "title": "La Banda",
-     "label": "Sweat It Out!"
+     "label": "Sweat It Out!",
+     "bp": "bp:20275892",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2046,7 +2088,10 @@
      "minute": null,
      "artist": "Biscits",
      "title": "Freak",
-     "label": "Wrong."
+     "label": "Wrong.",
+     "bp": "bp:19787118",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2256,7 +2301,10 @@
      "minute": 6,
      "artist": "Maesic & Marshall Jefferson Feat. Salomé Das",
      "title": "Life Is Simple (Move Your Body) (Extended Mix)",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:20128472",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -2307,7 +2355,10 @@
      "minute": 21,
      "artist": "HUGEL & Kurd Maverick",
      "title": "PYHU (Put Your Hands Up) (Extended Mix)",
-     "label": "Cr2"
+     "label": "Cr2",
+     "bp": "bp:20969830",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -2487,7 +2538,10 @@
      "minute": null,
      "artist": "James Hype",
      "title": "Wild",
-     "label": "Stereohype"
+     "label": "Stereohype",
+     "bp": "bp:19189488",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2736,7 +2790,10 @@
      "minute": null,
      "artist": "Max Styler & Oscar L",
      "title": "Addiction",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:19397831",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2837,7 +2894,10 @@
      "minute": null,
      "artist": "Marian (BR) & Freenzy Music",
      "title": "Pakit Ban",
-     "label": "Mood Child"
+     "label": "Mood Child",
+     "bp": "bp:18920000",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3028,7 +3088,10 @@
      "minute": null,
      "artist": "Andruss",
      "title": "Active",
-     "label": "Drop Low"
+     "label": "Drop Low",
+     "bp": "bp:22466699",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3183,7 +3246,10 @@
      "minute": null,
      "artist": "ESSE",
      "title": "Voce (Extended Mix)",
-     "label": "Three Six Zero"
+     "label": "Three Six Zero",
+     "bp": "bp:22666003",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3319,7 +3385,10 @@
      "minute": 46,
      "artist": "Volkoder",
      "title": "So Am I",
-     "label": ""
+     "label": "",
+     "bp": "bp:23332103",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -3395,7 +3464,10 @@
      "minute": null,
      "artist": "Andruss",
      "title": "Active",
-     "label": "Drop Low"
+     "label": "Drop Low",
+     "bp": "bp:22466699",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3550,7 +3622,10 @@
      "minute": null,
      "artist": "ESSE",
      "title": "Voce (Extended Mix)",
-     "label": "Three Six Zero"
+     "label": "Three Six Zero",
+     "bp": "bp:22666003",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3838,7 +3913,10 @@
      "minute": null,
      "artist": "YOTTO Feat. Dakota",
      "title": "Deep Dive",
-     "label": "Odd One Out"
+     "label": "Odd One Out",
+     "bp": "bp:29781638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3902,7 +3980,10 @@
      "minute": null,
      "artist": "Ronski Speed",
      "title": "Nuru Mpya",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29550237",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3940,7 +4021,10 @@
      "minute": null,
      "artist": "AVNT",
      "title": "Brazil",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29203279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4017,7 +4101,10 @@
      "minute": null,
      "artist": "Dan Stone, Nitrous Oxide",
      "title": "Believe",
-     "label": "Enhanced Progressive"
+     "label": "Enhanced Progressive",
+     "bp": "bp:29403034",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4128,7 +4215,10 @@
      "minute": null,
      "artist": "Binary Finary, Paul Oakenfold, Marie Vaunt",
      "title": "1998",
-     "label": "Perfecto (Armada Music)"
+     "label": "Perfecto (Armada Music)",
+     "bp": "bp:18160649",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

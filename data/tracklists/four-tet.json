@@ -69,7 +69,10 @@
      "minute": 38,
      "artist": "Four Tet",
      "title": "31 Bloom",
-     "label": ""
+     "label": "",
+     "bp": "bp:18805528",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -91,7 +94,10 @@
      "minute": 53,
      "artist": "Floating Points",
      "title": "Del Oro",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:19122768",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -115,13 +121,19 @@
      "minute": 68,
      "artist": "Four Tet",
      "title": "Buchla",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:8549197",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
      "artist": "Four Tet",
      "title": "School",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:13295667",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 75,
@@ -272,7 +284,10 @@
      "minute": 135,
      "artist": "Sammy Virji",
      "title": "Bogeyman",
-     "label": ""
+     "label": "",
+     "bp": "bp:19498336",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 140,
@@ -308,13 +323,19 @@
      "minute": 161,
      "artist": "Four Tet",
      "title": "Baby",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:28503904",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 163,
      "artist": "Hagop Tchaparian",
      "title": "Treacle",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:18943206",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 165,
@@ -333,7 +354,10 @@
      "minute": 169,
      "artist": "Taraval",
      "title": "Aardvark",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:11156909",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 173,
@@ -434,7 +458,10 @@
      "minute": 224,
      "artist": "Chris Lake & Disclosure",
      "title": "In2minds",
-     "label": "Black Book Records/Astralwerks"
+     "label": "Black Book Records/Astralwerks",
+     "bp": "bp:19490369",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 227,
@@ -531,13 +558,19 @@
      "minute": 257,
      "artist": "Plus One",
      "title": "Bonk",
-     "label": ""
+     "label": "",
+     "bp": "bp:18839220",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 260,
      "artist": "NuBass",
      "title": "Automatic",
-     "label": "MONTA"
+     "label": "MONTA",
+     "bp": "bp:18768097",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -644,7 +677,10 @@
      "minute": 0,
      "artist": "Four Tet",
      "title": "School",
-     "label": ""
+     "label": "",
+     "bp": "bp:13295667",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -795,7 +831,10 @@
      "minute": 62,
      "artist": "Sammy Virji",
      "title": "Bogeyman",
-     "label": ""
+     "label": "",
+     "bp": "bp:19498336",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 67,
@@ -825,13 +864,19 @@
      "minute": 84,
      "artist": "Four Tet",
      "title": "Baby",
-     "label": ""
+     "label": "",
+     "bp": "bp:28503904",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 90,
      "artist": "Hagop Tchaparian",
      "title": "Treacle",
-     "label": ""
+     "label": "",
+     "bp": "bp:18943206",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
@@ -945,7 +990,10 @@
      "minute": 151,
      "artist": "Chris Lake & Disclosure",
      "title": "In2minds",
-     "label": ""
+     "label": "",
+     "bp": "bp:19490369",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 155,
@@ -1042,13 +1090,19 @@
      "minute": 185,
      "artist": "Plus One",
      "title": "Bonk",
-     "label": ""
+     "label": "",
+     "bp": "bp:18839220",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 188,
      "artist": "NuBass",
      "title": "Automatic",
-     "label": ""
+     "label": "",
+     "bp": "bp:18768097",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 191,
@@ -1192,7 +1246,10 @@
      "minute": null,
      "artist": "Four Tet",
      "title": "Baby",
-     "label": ""
+     "label": "",
+     "bp": "bp:28503904",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1249,7 +1306,10 @@
      "minute": null,
      "artist": "Sammy Virji",
      "title": "Bogeyman",
-     "label": ""
+     "label": "",
+     "bp": "bp:19498336",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1312,7 +1372,10 @@
      "minute": null,
      "artist": "JOYRYDE & Skrillex",
      "title": "Agen Wida",
-     "label": ""
+     "label": "",
+     "bp": "bp:11170760",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1440,7 +1503,10 @@
      "minute": 2,
      "artist": "Four Tet",
      "title": "31 Bloom",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:18805528",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -1503,13 +1569,19 @@
      "minute": 41,
      "artist": "Floating Points",
      "title": "Del Oro",
-     "label": "Ninja"
+     "label": "Ninja",
+     "bp": "bp:19122768",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
      "artist": "Four Tet",
      "title": "Buchla",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:8549197",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 50,
@@ -1560,7 +1632,10 @@
      "minute": 70,
      "artist": "Four Tet",
      "title": "School",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:13295667",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -1602,7 +1677,10 @@
      "minute": 98,
      "artist": "Four Tet",
      "title": "Jupiters",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:9929398",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 104,
@@ -1676,7 +1754,10 @@
      "minute": 141,
      "artist": "Taraval",
      "title": "Aardvark",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:11156909",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 146,
@@ -1733,7 +1814,10 @@
      "minute": 174,
      "artist": "Stefano Noferini",
      "title": "Thinks",
-     "label": "DPE"
+     "label": "DPE",
+     "bp": "bp:19538253",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 180,
@@ -1876,7 +1960,10 @@
      "minute": 229,
      "artist": "FOLD",
      "title": "Lotion",
-     "label": "Fldin2"
+     "label": "Fldin2",
+     "bp": "bp:19775243",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 233,
@@ -2003,7 +2090,10 @@
      "minute": 19,
      "artist": "Four Tet",
      "title": "Buchla",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:8549197",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -2063,7 +2153,10 @@
      "minute": 55,
      "artist": "Four Tet",
      "title": "Jupiters",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:9929398",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -2081,7 +2174,10 @@
      "minute": 70,
      "artist": "Ron Costa",
      "title": "Skyfall",
-     "label": "Potobolo"
+     "label": "Potobolo",
+     "bp": "bp:18708791",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
@@ -2144,13 +2240,19 @@
      "minute": 92,
      "artist": "Klint",
      "title": "Cheetah",
-     "label": "Kowboi"
+     "label": "Kowboi",
+     "bp": "bp:19255964",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
      "artist": "Monty & Visages",
      "title": "Tek",
-     "label": "1985"
+     "label": "1985",
+     "bp": "bp:16860122",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 95,
@@ -2360,7 +2462,10 @@
      "minute": 61,
      "artist": "Taraval",
      "title": "Aardvark",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:11156909",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -2441,7 +2546,10 @@
      "minute": 9,
      "artist": "Deomid",
      "title": "Twisted",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20662221",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -2590,7 +2698,10 @@
      "minute": 85,
      "artist": "Motel Sazani",
      "title": "G Power",
-     "label": "Modulhead"
+     "label": "Modulhead",
+     "bp": "bp:20826643",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
@@ -2690,7 +2801,10 @@
      "minute": 136,
      "artist": "GENESI & MEDUZA",
      "title": "Take It",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20063136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 139,
@@ -2735,7 +2849,10 @@
      "minute": 153,
      "artist": "Jewel Kid",
      "title": "Go Hard",
-     "label": "Toolroom"
+     "label": "Toolroom",
+     "bp": "bp:19796880",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 158,
@@ -2827,7 +2944,10 @@
      "minute": 24,
      "artist": "GENESI & Meduza",
      "title": "Take It",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20063136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -2872,7 +2992,10 @@
      "minute": 43,
      "artist": "Jewel Kid",
      "title": "Go Hard",
-     "label": "Toolroom"
+     "label": "Toolroom",
+     "bp": "bp:19796880",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -2931,7 +3054,10 @@
      "minute": 3,
      "artist": "Four Tet",
      "title": "Ocoras",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:9929399",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -3039,7 +3165,10 @@
      "minute": 5,
      "artist": "Schmutz",
      "title": "Carp",
-     "label": ""
+     "label": "",
+     "bp": "bp:9663279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,
@@ -3071,7 +3200,10 @@
      "minute": 22,
      "artist": "Four Tet",
      "title": "Baby",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:28503904",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 25,
@@ -3179,7 +3311,10 @@
      "minute": 62,
      "artist": "Stefano Noferini",
      "title": "Thinks",
-     "label": "DPE"
+     "label": "DPE",
+     "bp": "bp:19538253",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 68,
@@ -3278,13 +3413,19 @@
      "minute": 96,
      "artist": "Skeptic",
      "title": "Gstar",
-     "label": "MUASO"
+     "label": "MUASO",
+     "bp": "bp:20142537",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,
      "artist": "Floating Points",
      "title": "Problems",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:16943781",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 103,
@@ -3296,7 +3437,10 @@
      "minute": 106,
      "artist": "Klint",
      "title": "Cheetah",
-     "label": "KOWBOI"
+     "label": "KOWBOI",
+     "bp": "bp:19255964",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 108,
@@ -3315,7 +3459,10 @@
      "minute": 113,
      "artist": "Klint",
      "title": "Cheetah",
-     "label": "KOWBOI"
+     "label": "KOWBOI",
+     "bp": "bp:19255964",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 116,
@@ -3344,7 +3491,10 @@
      "minute": 11,
      "artist": "Schmutz",
      "title": "Carp",
-     "label": ""
+     "label": "",
+     "bp": "bp:9663279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -3363,13 +3513,19 @@
      "minute": 22,
      "artist": "Four Tet",
      "title": "Baby",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:28503904",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
      "artist": "Stefano Noferini",
      "title": "Thinks",
-     "label": "DPE"
+     "label": "DPE",
+     "bp": "bp:19538253",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 32,
@@ -3418,7 +3574,10 @@
      "minute": 55,
      "artist": "Taraval",
      "title": "Aardvark",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:11156909",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -3606,7 +3765,10 @@
      "minute": 3,
      "artist": "Schmutz",
      "title": "Carp",
-     "label": "Suara"
+     "label": "Suara",
+     "bp": "bp:9663279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -3649,7 +3811,10 @@
      "minute": 28,
      "artist": "Four Tet",
      "title": "Baby",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:28503904",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 31,
@@ -3712,7 +3877,10 @@
      "minute": 61,
      "artist": "Autechre",
      "title": "Eutow",
-     "label": "Warp"
+     "label": "Warp",
+     "bp": "bp:174583",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -3825,7 +3993,10 @@
      "minute": 25,
      "artist": "Four Tet",
      "title": "Baby",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:28503904",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -4045,7 +4216,10 @@
      "minute": 35,
      "artist": "Klint",
      "title": "Cheetah",
-     "label": "Kowboi"
+     "label": "Kowboi",
+     "bp": "bp:19255964",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -4083,7 +4257,10 @@
      "minute": 47,
      "artist": "Tony Romera",
      "title": "2009",
-     "label": ""
+     "label": "",
+     "bp": "bp:20779624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -4157,7 +4334,10 @@
      "minute": 82,
      "artist": "CamelPhat",
      "title": "NYP2",
-     "label": "Nervous"
+     "label": "Nervous",
+     "bp": "bp:8856287",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4250,7 +4430,10 @@
      "minute": 109,
      "artist": "CamelPhat & Elderbrook",
      "title": "Cola",
-     "label": "Defected"
+     "label": "Defected",
+     "bp": "bp:20790162",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 112,
@@ -4304,7 +4487,10 @@
      "minute": 9,
      "artist": "Tony Romera",
      "title": "2009",
-     "label": ""
+     "label": "",
+     "bp": "bp:20779624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -4342,7 +4528,10 @@
      "minute": 27,
      "artist": "Anthony Naples",
      "title": "Perk",
-     "label": ""
+     "label": "",
+     "bp": "bp:20736635",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -4423,7 +4612,10 @@
      "minute": 71,
      "artist": "Autechre",
      "title": "Eutow",
-     "label": ""
+     "label": "",
+     "bp": "bp:174583",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 75,
@@ -4479,7 +4671,10 @@
      "minute": 102,
      "artist": "Taraval",
      "title": "Aardvark",
-     "label": ""
+     "label": "",
+     "bp": "bp:11156909",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 105,
@@ -4613,7 +4808,10 @@
      "minute": 143,
      "artist": "Fold, Cu.Rve",
      "title": "Business",
-     "label": ""
+     "label": "",
+     "bp": "bp:20653660",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 148,
@@ -4701,7 +4899,10 @@
      "minute": 3,
      "artist": "Burial & Four Tet",
      "title": "Nova",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:16195729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -4712,7 +4913,10 @@
      "minute": 15,
      "artist": "Tony Romera",
      "title": "2009",
-     "label": "Toolroom Trax"
+     "label": "Toolroom Trax",
+     "bp": "bp:20779624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -4775,7 +4979,10 @@
      "minute": 39,
      "artist": "Autechre",
      "title": "Eutow",
-     "label": "Warp"
+     "label": "Warp",
+     "bp": "bp:174583",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -4925,7 +5132,10 @@
      "minute": 95,
      "artist": "Fold & Cu.Rve",
      "title": "Business",
-     "label": "Ingram"
+     "label": "Ingram",
+     "bp": "bp:20653660",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 97,
@@ -4962,7 +5172,10 @@
      "minute": 10,
      "artist": "Tony Romera",
      "title": "2009",
-     "label": "Toolroom Trax"
+     "label": "Toolroom Trax",
+     "bp": "bp:20779624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -4973,7 +5186,10 @@
      "minute": 20,
      "artist": "Anthony Naples",
      "title": "Perk",
-     "label": "TraTraTrax"
+     "label": "TraTraTrax",
+     "bp": "bp:20736635",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -5070,7 +5286,10 @@
      "minute": 54,
      "artist": "Stefano Noferini",
      "title": "Thinks",
-     "label": "DPE"
+     "label": "DPE",
+     "bp": "bp:19538253",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 59,
@@ -5174,7 +5393,10 @@
      "minute": 2,
      "artist": "Burial & Four Tet",
      "title": "Nova",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:16195729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -5205,7 +5427,10 @@
      "minute": 23,
      "artist": "Four Tet",
      "title": "31 Bloom",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:18805528",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -5242,7 +5467,10 @@
      "minute": 42,
      "artist": "Jai Paul",
      "title": "Crush",
-     "label": "XL"
+     "label": "XL",
+     "bp": "bp:12071529",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -5254,7 +5482,10 @@
      "minute": 50,
      "artist": "Tony Romera",
      "title": "2009",
-     "label": "Toolroom Trax"
+     "label": "Toolroom Trax",
+     "bp": "bp:20779624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5310,13 +5541,19 @@
      "minute": 73,
      "artist": "Dub Phizix & Skeptical Feat. Strategy",
      "title": "Marka",
-     "label": "Exit"
+     "label": "Exit",
+     "bp": "bp:3114483",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 75,
      "artist": "ROSALÍA & Björk & Yves Tumor",
      "title": "Berghain",
-     "label": "Columbia"
+     "label": "Columbia",
+     "bp": "bp:22346089",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,
@@ -5429,7 +5666,10 @@
      "minute": 125,
      "artist": "Josi Devil",
      "title": "No More",
-     "label": "Nervous Horizon"
+     "label": "Nervous Horizon",
+     "bp": "bp:21583840",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 128,
@@ -5545,7 +5785,10 @@
      "minute": 158,
      "artist": "Fred Again.. X Blanco",
      "title": "Solo",
-     "label": ""
+     "label": "",
+     "bp": "bp:26772825",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5640,7 +5883,10 @@
      "minute": 195,
      "artist": "Fred Again.. & Lil Yachty & Overmono",
      "title": "Stayinit",
-     "label": ""
+     "label": "",
+     "bp": "bp:18767182",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 200,
@@ -5930,7 +6176,10 @@
      "minute": 49,
      "artist": "Four Tet",
      "title": "Ocoras",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:9929399",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -5966,7 +6215,10 @@
      "minute": 75,
      "artist": "Schmutz",
      "title": "Carp",
-     "label": "Suara"
+     "label": "Suara",
+     "bp": "bp:9663279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 79,
@@ -6001,13 +6253,19 @@
      "minute": 95,
      "artist": "Four Tet",
      "title": "Buchla",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:8549197",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 102,
      "artist": "Tony Romera",
      "title": "2009",
-     "label": "Toolroom Trax"
+     "label": "Toolroom Trax",
+     "bp": "bp:20779624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 104,
@@ -6052,7 +6310,10 @@
      "minute": 117,
      "artist": "Burial & Four Tet",
      "title": "Nova",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:16195729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 121,
@@ -6128,7 +6389,10 @@
      "minute": 146,
      "artist": "Taraval",
      "title": "Aardvark",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:11156909",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 150,
@@ -6195,7 +6459,10 @@
      "minute": 185,
      "artist": "Josi Devil",
      "title": "No More",
-     "label": "Nervous Horizon"
+     "label": "Nervous Horizon",
+     "bp": "bp:21583840",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 188,
@@ -6290,7 +6557,10 @@
      "minute": 221,
      "artist": "Floating Points",
      "title": "Problems",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:16943781",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 222,
@@ -6318,7 +6588,10 @@
      "minute": 227,
      "artist": "G Jones & Eprom",
      "title": "1000 Cuts",
-     "label": "Illusory"
+     "label": "Illusory",
+     "bp": "bp:22651860",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 233,
@@ -6350,7 +6623,10 @@
      "minute": 242,
      "artist": "Fold",
      "title": "Business",
-     "label": "Ingram"
+     "label": "Ingram",
+     "bp": "bp:20653660",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 245,
@@ -6546,7 +6822,10 @@
      "minute": 95,
      "artist": "Impérieux",
      "title": "Fena",
-     "label": ""
+     "label": "",
+     "bp": "bp:20465189",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 98,
@@ -6565,7 +6844,10 @@
      "minute": 101,
      "artist": "G Jones & Eprom",
      "title": "1000 Cuts",
-     "label": "Illusory"
+     "label": "Illusory",
+     "bp": "bp:22651860",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 107,
@@ -6792,7 +7074,10 @@
      "minute": 61,
      "artist": "G Jones & EPROM",
      "title": "1000 Cuts",
-     "label": "Illusory"
+     "label": "Illusory",
+     "bp": "bp:22651860",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,

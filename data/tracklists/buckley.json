@@ -41,7 +41,10 @@
      "minute": 9,
      "artist": "Wen",
      "title": "Signal",
-     "label": "Keysound"
+     "label": "Keysound",
+     "bp": "bp:5126066",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -121,7 +124,10 @@
      "minute": 34,
      "artist": "Pearson Sound",
      "title": "Hornet",
-     "label": "Hessle"
+     "label": "Hessle",
+     "bp": "bp:19160103",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -185,7 +191,10 @@
      "minute": 57,
      "artist": "SP:MC Feat. Youngsta",
      "title": "Full Circle",
-     "label": ""
+     "label": "",
+     "bp": "bp:18239131",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -448,7 +457,10 @@
      "minute": null,
      "artist": "Buckley",
      "title": "Gawy",
-     "label": ""
+     "label": "",
+     "bp": "bp:28490440",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -466,7 +478,10 @@
      "minute": null,
      "artist": "Kami-O",
      "title": "Chime",
-     "label": ""
+     "label": "",
+     "bp": "bp:20712071",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -618,7 +633,10 @@
      "minute": null,
      "artist": "Buckley",
      "title": "Gawy",
-     "label": ""
+     "label": "",
+     "bp": "bp:28490440",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -681,7 +699,10 @@
      "minute": 42,
      "artist": "Buckley",
      "title": "Snowdrift",
-     "label": ""
+     "label": "",
+     "bp": "bp:18948929",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -814,7 +835,10 @@
      "minute": 19,
      "artist": "Introspekt",
      "title": "Fractal",
-     "label": "Tempa"
+     "label": "Tempa",
+     "bp": "bp:20332996",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -972,7 +996,10 @@
      "minute": null,
      "artist": "Kami-O",
      "title": "Chime",
-     "label": ""
+     "label": "",
+     "bp": "bp:20712071",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1046,7 +1073,10 @@
      "minute": null,
      "artist": "DJ Sprinter",
      "title": "Get Up",
-     "label": ""
+     "label": "",
+     "bp": "bp:20730332",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1717,7 +1747,10 @@
      "minute": 5,
      "artist": "Mammo",
      "title": "Tages",
-     "label": "Short Span"
+     "label": "Short Span",
+     "bp": "bp:24278558",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,

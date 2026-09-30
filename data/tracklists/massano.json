@@ -208,7 +208,10 @@
      "minute": 13,
      "artist": "Mila Journée & Olivier Giacomotto",
      "title": "Smash It",
-     "label": "Simulate"
+     "label": "Simulate",
+     "bp": "bp:20091237",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 16,
@@ -329,7 +332,10 @@
      "minute": null,
      "artist": "Maesic & Marshall Jefferson Feat. Salomé Das",
      "title": "Life Is Simple (Move Your Body) (Extended Mix)",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:20128472",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -647,7 +653,10 @@
      "minute": null,
      "artist": "Sébastien Léger",
      "title": "Hutchula",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:20187364",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -736,7 +745,10 @@
      "minute": null,
      "artist": "Mila Journée & Olivier Giacomotto",
      "title": "Smash It",
-     "label": "Simulate"
+     "label": "Simulate",
+     "bp": "bp:20091237",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

@@ -117,7 +117,10 @@
      "minute": 32,
      "artist": "Skream",
      "title": "Lightning",
-     "label": ""
+     "label": "",
+     "bp": "bp:10888327",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
@@ -149,7 +152,10 @@
      "minute": 41,
      "artist": "S-X",
      "title": "Woooo",
-     "label": "Insatiable"
+     "label": "Insatiable",
+     "bp": "bp:22841801",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
@@ -209,7 +215,10 @@
      "minute": 5,
      "artist": "Sub Basics & Toura",
      "title": "Cause",
-     "label": "Bait"
+     "label": "Bait",
+     "bp": "bp:19741209",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -281,7 +290,10 @@
      "minute": 48,
      "artist": "Skream",
      "title": "Bakwards",
-     "label": "DEEP MEDi MUSIK"
+     "label": "DEEP MEDi MUSIK",
+     "bp": "bp:5943721",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -292,7 +304,10 @@
      "minute": 57,
      "artist": "''Skream",
      "title": "Untitled''",
-     "label": ""
+     "label": "",
+     "bp": "bp:823402",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -402,7 +417,10 @@
      "minute": 25,
      "artist": "Nativ",
      "title": "Shifty",
-     "label": "Tumble"
+     "label": "Tumble",
+     "bp": "bp:5127665",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -421,7 +439,10 @@
      "minute": 33,
      "artist": "Wen",
      "title": "Signal",
-     "label": "Keysound"
+     "label": "Keysound",
+     "bp": "bp:5126066",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 36,
@@ -432,7 +453,10 @@
      "minute": 40,
      "artist": "MA1",
      "title": "Static",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:9803542",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -517,7 +541,10 @@
      "minute": 26,
      "artist": "Skream",
      "title": "Lightning",
-     "label": ""
+     "label": "",
+     "bp": "bp:10888327",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -765,7 +792,10 @@
      "minute": 18,
      "artist": "K-LONE",
      "title": "Cinco",
-     "label": ""
+     "label": "",
+     "bp": "bp:18372005",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -776,7 +806,10 @@
      "minute": 40,
      "artist": "K-LONE",
      "title": "Drumz!",
-     "label": ""
+     "label": "",
+     "bp": "bp:18372010",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -1031,7 +1064,10 @@
      "minute": 4,
      "artist": "''Skream",
      "title": "Untitled''",
-     "label": ""
+     "label": "",
+     "bp": "bp:823402",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -1061,7 +1097,10 @@
      "minute": 32,
      "artist": "Mala",
      "title": "Miracles",
-     "label": "DEEP MEDi MUSIK"
+     "label": "DEEP MEDi MUSIK",
+     "bp": "bp:5943783",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
@@ -1172,7 +1211,10 @@
      "minute": 22,
      "artist": "Joker",
      "title": "S Wave",
-     "label": ""
+     "label": "",
+     "bp": "bp:18634886",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 25,
@@ -1343,7 +1385,10 @@
      "minute": 58,
      "artist": "ZeroFG",
      "title": "Dabber",
-     "label": "Pineapple"
+     "label": "Pineapple",
+     "bp": "bp:20297290",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 61,
@@ -1414,7 +1459,10 @@
      "minute": 97,
      "artist": "Carré",
      "title": "Body Shell",
-     "label": "Tempa"
+     "label": "Tempa",
+     "bp": "bp:20310775",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 100,
@@ -1546,13 +1594,19 @@
      "minute": 46,
      "artist": "Roska & Untold",
      "title": "Myth",
-     "label": "Numbers"
+     "label": "Numbers",
+     "bp": "bp:1429324",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
      "artist": "Tickles",
      "title": "Grinding",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:4645753",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 50,
@@ -1589,7 +1643,10 @@
      "minute": 72,
      "artist": "Princess Nyah",
      "title": "Frontline",
-     "label": "Royletease"
+     "label": "Royletease",
+     "bp": "bp:12181096",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 76,
@@ -1696,7 +1753,10 @@
      "minute": 34,
      "artist": "Carré",
      "title": "Faded Form",
-     "label": "Tempa"
+     "label": "Tempa",
+     "bp": "bp:20310777",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -1737,7 +1797,10 @@
      "minute": 73,
      "artist": "LAS & Mikael",
      "title": "Dem Break",
-     "label": "Innamind"
+     "label": "Innamind",
+     "bp": "bp:5669230",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 77,
@@ -1778,7 +1841,10 @@
      "minute": 97,
      "artist": "Skream",
      "title": "Bakwards",
-     "label": "DEEP MEDi MUSIK"
+     "label": "DEEP MEDi MUSIK",
+     "bp": "bp:5943721",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1905,7 +1971,10 @@
      "minute": 102,
      "artist": "K-Lone",
      "title": "Pressure",
-     "label": "Tempa"
+     "label": "Tempa",
+     "bp": "bp:20733472",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1953,7 +2022,10 @@
      "minute": 26,
      "artist": "Introspekt",
      "title": "Fractal",
-     "label": "Tempa"
+     "label": "Tempa",
+     "bp": "bp:20332996",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -2041,7 +2113,10 @@
      "minute": 87,
      "artist": "Sub Basics & Toura",
      "title": "Cause",
-     "label": "Bait"
+     "label": "Bait",
+     "bp": "bp:19741209",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 90,
@@ -2083,7 +2158,10 @@
      "minute": 113,
      "artist": "S-X",
      "title": "Woooo",
-     "label": "Insatiable"
+     "label": "Insatiable",
+     "bp": "bp:22841801",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 115,

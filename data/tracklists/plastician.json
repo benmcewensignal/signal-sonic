@@ -20,7 +20,10 @@
      "minute": 11,
      "artist": "Baalti",
      "title": "Bodylock",
-     "label": ""
+     "label": "",
+     "bp": "bp:21074413",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -81,7 +84,10 @@
      "minute": 46,
      "artist": "Kode9",
      "title": "UH",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:10888036",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -109,7 +115,10 @@
      "minute": 58,
      "artist": "Mala",
      "title": "Anti War Dub",
-     "label": "I & I Music"
+     "label": "I & I Music",
+     "bp": "bp:15389593",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -843,7 +852,10 @@
      "minute": 86,
      "artist": "Cesco",
      "title": "Obnox",
-     "label": "Skill Issue"
+     "label": "Skill Issue",
+     "bp": "bp:29452784",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,

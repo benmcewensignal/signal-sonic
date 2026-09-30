@@ -35,7 +35,10 @@
      "minute": 3,
      "artist": "GENESI & Laherte",
      "title": "Pressure",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:19716194",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -60,7 +63,10 @@
      "minute": 11,
      "artist": "Deeper Purpose",
      "title": "Operate",
-     "label": ""
+     "label": "",
+     "bp": "bp:20740315",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -84,7 +90,10 @@
      "minute": 19,
      "artist": "FISHER & AR/CO",
      "title": "Ocean",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:19684468",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -314,13 +323,19 @@
      "minute": null,
      "artist": "FISHER & AR/CO",
      "title": "Ocean",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:19684468",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Biscits",
      "title": "Freak",
-     "label": "Wrong."
+     "label": "Wrong.",
+     "bp": "bp:19787118",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -416,7 +431,10 @@
      "minute": null,
      "artist": "OUNAH",
      "title": "Right Now",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19792530",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -512,7 +530,10 @@
      "minute": 3,
      "artist": "GENESI & Laherte",
      "title": "Pressure",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:19716194",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -537,7 +558,10 @@
      "minute": 11,
      "artist": "Deeper Purpose",
      "title": "Operate",
-     "label": ""
+     "label": "",
+     "bp": "bp:20740315",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -561,7 +585,10 @@
      "minute": 19,
      "artist": "FISHER & AR/CO",
      "title": "Ocean",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:19684468",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -891,7 +918,10 @@
      "minute": 5,
      "artist": "FISHER & AR/CO",
      "title": "Ocean",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:19684468",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -934,7 +964,10 @@
      "minute": 20,
      "artist": "Rafael Cerato",
      "title": "TCFS",
-     "label": ""
+     "label": "",
+     "bp": "bp:29375932",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -1030,7 +1063,10 @@
      "minute": 49,
      "artist": "FISHER & Tones And I",
      "title": "Favour",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:27080701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -1454,7 +1490,10 @@
      "minute": null,
      "artist": "Rafael Cerato",
      "title": "TCFS",
-     "label": ""
+     "label": "",
+     "bp": "bp:29375932",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1545,7 +1584,10 @@
      "minute": null,
      "artist": "FISHER & Tones And I",
      "title": "Favour",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:27080701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1605,7 +1647,10 @@
      "minute": 5,
      "artist": "IAN VII & JAVIIER",
      "title": "Sink",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:29140117",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -1681,7 +1726,10 @@
      "minute": 19,
      "artist": "FISHER & Tones And I",
      "title": "Favour",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:27080701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -1776,7 +1824,10 @@
      "minute": 46,
      "artist": "NIIKO X SWAE",
      "title": "3D",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:30490130",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -1831,13 +1882,19 @@
      "minute": null,
      "artist": "IAN VII & JAVIIER",
      "title": "Sink",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:29140117",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Max Styler & Vintage Culture & Ali Love",
      "title": "Freaky 1",
-     "label": "Affairs"
+     "label": "Affairs",
+     "bp": "bp:27913580",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1915,7 +1972,10 @@
      "minute": null,
      "artist": "FISHER & Tones And I",
      "title": "Favour",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:27080701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1978,7 +2038,10 @@
      "minute": null,
      "artist": "Seeing Double & Nevve",
      "title": "Heat",
-     "label": "Thrive"
+     "label": "Thrive",
+     "bp": "bp:26888651",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2322,7 +2385,10 @@
      "minute": null,
      "artist": "IAN VII & JAVIIER",
      "title": "Sink",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:29140117",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2400,7 +2466,10 @@
      "minute": null,
      "artist": "FISHER & Tones And I",
      "title": "Favour",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:27080701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2495,7 +2564,10 @@
      "minute": null,
      "artist": "NIIKO X SWAE",
      "title": "3D",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:30490130",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2700,7 +2772,10 @@
      "minute": null,
      "artist": "William Kiss & DJ Gant-Man",
      "title": "Juke Dat",
-     "label": "Fool's Gold"
+     "label": "Fool's Gold",
+     "bp": "bp:30134564",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2746,13 +2821,19 @@
      "minute": null,
      "artist": "IAN VII & JAVIIER",
      "title": "Sink",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:29140117",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Max Styler & Vintage Culture & Ali Love",
      "title": "Freaky 1",
-     "label": "Affairs"
+     "label": "Affairs",
+     "bp": "bp:27913580",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2830,7 +2911,10 @@
      "minute": null,
      "artist": "FISHER & Tones And I",
      "title": "Favour",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:27080701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2893,7 +2977,10 @@
      "minute": null,
      "artist": "Seeing Double & Nevve",
      "title": "Heat",
-     "label": "Thrive"
+     "label": "Thrive",
+     "bp": "bp:26888651",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

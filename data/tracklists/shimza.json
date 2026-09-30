@@ -9,13 +9,19 @@
      "minute": 0,
      "artist": "Foozak",
      "title": "Parsaloi",
-     "label": "Mahaba"
+     "label": "Mahaba",
+     "bp": "bp:20335738",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
      "artist": "Zakente",
      "title": "My Way",
-     "label": ""
+     "label": "",
+     "bp": "bp:19652741",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -27,7 +33,10 @@
      "minute": 14,
      "artist": "Gumz Feat. Habib Koite",
      "title": "Jakoke",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "bp": "bp:20275494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
@@ -39,7 +48,10 @@
      "minute": 24,
      "artist": "Sky White",
      "title": "Tamba",
-     "label": ""
+     "label": "",
+     "bp": "bp:21250677",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -73,7 +85,10 @@
      "minute": 41,
      "artist": "Ed-Ward",
      "title": "Gijima",
-     "label": ""
+     "label": "",
+     "bp": "bp:20095764",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -255,13 +270,19 @@
      "minute": 0,
      "artist": "Foozak",
      "title": "Parsaloi",
-     "label": "Mahaba"
+     "label": "Mahaba",
+     "bp": "bp:20335738",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
      "artist": "Zakente",
      "title": "My Way",
-     "label": ""
+     "label": "",
+     "bp": "bp:19652741",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,
@@ -273,7 +294,10 @@
      "minute": 14,
      "artist": "Gumz Feat. Habib Koite",
      "title": "Jakoke",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "bp": "bp:20275494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -285,7 +309,10 @@
      "minute": 24,
      "artist": "Sky White",
      "title": "Tamba",
-     "label": ""
+     "label": "",
+     "bp": "bp:21250677",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -319,7 +346,10 @@
      "minute": 42,
      "artist": "Ed-Ward",
      "title": "Gijima",
-     "label": ""
+     "label": "",
+     "bp": "bp:20095764",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 47,
@@ -494,13 +524,19 @@
      "minute": 12,
      "artist": "Rydz",
      "title": "Sunshine",
-     "label": ""
+     "label": "",
+     "bp": "bp:21636876",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
      "artist": "Elson Soares & Zakente Feat. Natash MD",
      "title": "Vula",
-     "label": "DM"
+     "label": "DM",
+     "bp": "bp:21484083",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -555,13 +591,19 @@
      "minute": 49,
      "artist": "Homeboyz & Djeff & Massala",
      "title": "Wassup",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:21762565",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
      "artist": "Idd Aziz & Copal & Chaleee & Jaden Piper",
      "title": "Milele",
-     "label": "My Other Side Of The Moon"
+     "label": "My Other Side Of The Moon",
+     "bp": "bp:21816457",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -598,13 +640,19 @@
      "minute": 12,
      "artist": "Rydz",
      "title": "Sunshine",
-     "label": ""
+     "label": "",
+     "bp": "bp:21636876",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
      "artist": "Elson Soares & Zakente Feat. Natash MD",
      "title": "Vula",
-     "label": "DM"
+     "label": "DM",
+     "bp": "bp:21484083",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -659,13 +707,19 @@
      "minute": 49,
      "artist": "Homeboyz & Djeff & Massala",
      "title": "Wassup",
-     "label": "Deep Root Tribe"
+     "label": "Deep Root Tribe",
+     "bp": "bp:21762565",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
      "artist": "Idd Aziz & Copal & Chaleee & Jaden Piper",
      "title": "Milele",
-     "label": "My Other Side Of The Moon"
+     "label": "My Other Side Of The Moon",
+     "bp": "bp:21816457",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -676,7 +730,10 @@
      "minute": 0,
      "artist": "Cuebur & Ovuyonke",
      "title": "Linda",
-     "label": ""
+     "label": "",
+     "bp": "bp:22998069",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
@@ -708,13 +765,19 @@
      "minute": 12,
      "artist": "Cristian Manolo & Rapha",
      "title": "Alive",
-     "label": ""
+     "label": "",
+     "bp": "bp:23468149",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
      "artist": "Hypaphonik & Privacii",
      "title": "Trichlor",
-     "label": ""
+     "label": "",
+     "bp": "bp:23949352",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -739,19 +802,28 @@
      "minute": 36,
      "artist": "Elderbrook & Shimza",
      "title": "Falling",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:23100022",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
      "artist": "Shooma & Monji-Didit & ÜDORĀ & CHUKWUMA",
      "title": "Work Am",
-     "label": "Kitisuru"
+     "label": "Kitisuru",
+     "bp": "bp:23431277",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
      "artist": "Aytiwan & Harmonique",
      "title": "Believe",
-     "label": "Afrosteria"
+     "label": "Afrosteria",
+     "bp": "bp:23476171",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -774,7 +846,10 @@
      "minute": 0,
      "artist": "Cuebur & Ovuyonke",
      "title": "Linda",
-     "label": ""
+     "label": "",
+     "bp": "bp:22998069",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
@@ -806,13 +881,19 @@
      "minute": 12,
      "artist": "Cristian Manolo & Rapha",
      "title": "Alive",
-     "label": ""
+     "label": "",
+     "bp": "bp:23468149",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
      "artist": "Hypaphonik & Privacii",
      "title": "Trichlor",
-     "label": ""
+     "label": "",
+     "bp": "bp:23949352",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -837,19 +918,28 @@
      "minute": 36,
      "artist": "Elderbrook & Shimza",
      "title": "Falling",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:23100022",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
      "artist": "Shooma & Monji-Didit & ÜDORĀ & CHUKWUMA",
      "title": "Work Am",
-     "label": "Kitisuru"
+     "label": "Kitisuru",
+     "bp": "bp:23431277",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
      "artist": "Aytiwan & Harmonique",
      "title": "Believe",
-     "label": "Afrosteria"
+     "label": "Afrosteria",
+     "bp": "bp:23476171",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -872,7 +962,10 @@
      "minute": 0,
      "artist": "Cuebur & Ovuyonke",
      "title": "Linda",
-     "label": ""
+     "label": "",
+     "bp": "bp:22998069",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
@@ -904,13 +997,19 @@
      "minute": 12,
      "artist": "Cristian Manolo & Rapha",
      "title": "Alive",
-     "label": ""
+     "label": "",
+     "bp": "bp:23468149",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
      "artist": "Hypaphonik & Privacii",
      "title": "Trichlor",
-     "label": ""
+     "label": "",
+     "bp": "bp:23949352",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -935,19 +1034,28 @@
      "minute": 36,
      "artist": "Elderbrook & Shimza",
      "title": "Falling",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:23100022",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
      "artist": "Shooma & Monji-Didit & ÜDORĀ & CHUKWUMA",
      "title": "Work Am",
-     "label": "Kitisuru"
+     "label": "Kitisuru",
+     "bp": "bp:23431277",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
      "artist": "Aytiwan & Harmonique",
      "title": "Believe",
-     "label": "Afrosteria"
+     "label": "Afrosteria",
+     "bp": "bp:23476171",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -970,7 +1078,10 @@
      "minute": 0,
      "artist": "Cuebur & Ovuyonke",
      "title": "Linda",
-     "label": ""
+     "label": "",
+     "bp": "bp:22998069",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
@@ -1002,13 +1113,19 @@
      "minute": 12,
      "artist": "Cristian Manolo & Rapha",
      "title": "Alive",
-     "label": ""
+     "label": "",
+     "bp": "bp:23468149",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
      "artist": "Hypaphonik & Privacii",
      "title": "Trichlor",
-     "label": ""
+     "label": "",
+     "bp": "bp:23949352",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -1033,19 +1150,28 @@
      "minute": 36,
      "artist": "Elderbrook & Shimza",
      "title": "Falling",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:23100022",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
      "artist": "Shooma & Monji-Didit & ÜDORĀ & CHUKWUMA",
      "title": "Work Am",
-     "label": "Kitisuru"
+     "label": "Kitisuru",
+     "bp": "bp:23431277",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
      "artist": "Aytiwan & Harmonique",
      "title": "Believe",
-     "label": "Afrosteria"
+     "label": "Afrosteria",
+     "bp": "bp:23476171",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,

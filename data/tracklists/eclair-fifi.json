@@ -609,7 +609,10 @@
      "minute": 56,
      "artist": "Skee Mask",
      "title": "The Bills",
-     "label": ""
+     "label": "",
+     "bp": "bp:18867224",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -952,7 +955,10 @@
      "minute": 107,
      "artist": "Traumer",
      "title": "Nectar",
-     "label": "Fuse London"
+     "label": "Fuse London",
+     "bp": "bp:18838163",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 113,
@@ -1392,7 +1398,10 @@
      "minute": 78,
      "artist": "Miss Kittin & The Hacker",
      "title": "Upstart",
-     "label": ""
+     "label": "",
+     "bp": "bp:10712854",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 80,
@@ -2278,7 +2287,10 @@
      "minute": 85,
      "artist": "Sam Goku",
      "title": "Radiants",
-     "label": ""
+     "label": "",
+     "bp": "bp:19037935",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 88,
@@ -2574,7 +2586,10 @@
      "minute": 31,
      "artist": "Mammo",
      "title": "Tages",
-     "label": ""
+     "label": "",
+     "bp": "bp:24278558",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

@@ -53,7 +53,10 @@
      "minute": 19,
      "artist": "Michel Lauriola",
      "title": "Complete",
-     "label": "Mord"
+     "label": "Mord",
+     "bp": "bp:18579491",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -77,7 +80,10 @@
      "minute": 24,
      "artist": "Inox Traxx",
      "title": "Close",
-     "label": ""
+     "label": "",
+     "bp": "bp:18718307",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -445,7 +451,10 @@
      "minute": 73,
      "artist": "Rory Marshall & Josh Heywood",
      "title": "Overdrive",
-     "label": "Bush"
+     "label": "Bush",
+     "bp": "bp:19135782",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 77,
@@ -648,7 +657,10 @@
      "minute": 143,
      "artist": "Donato Diana",
      "title": "Vortex",
-     "label": ""
+     "label": "",
+     "bp": "bp:19148426",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 147,
@@ -921,7 +933,10 @@
      "minute": 82,
      "artist": "Luciid",
      "title": "Era Of Us",
-     "label": "Exhale"
+     "label": "Exhale",
+     "bp": "bp:19203014",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 85,
@@ -1340,7 +1355,10 @@
      "minute": 108,
      "artist": "Donato Diana",
      "title": "Vortex",
-     "label": "Gain"
+     "label": "Gain",
+     "bp": "bp:19148426",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 116,
@@ -2343,7 +2361,10 @@
      "minute": 151,
      "artist": "Jerry Ropero & Denis The Menace Feat. Jaqueline",
      "title": "Coraçao",
-     "label": ""
+     "label": "",
+     "bp": "bp:19213673",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 155,
@@ -2519,7 +2540,10 @@
      "minute": 243,
      "artist": "Calussa & Natti Natasha & Marco Tropeano",
      "title": "No Pare",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:20579191",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 246,
@@ -3422,7 +3446,10 @@
      "minute": 111,
      "artist": "Simone Liberali",
      "title": "Vibration",
-     "label": "Origins"
+     "label": "Origins",
+     "bp": "bp:23111585",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 114,
@@ -3439,7 +3466,10 @@
      "minute": null,
      "artist": "[11?] iiO Feat. Nadia Ali",
      "title": "Rapture",
-     "label": "UMG"
+     "label": "UMG",
+     "bp": "bp:19050745",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 119,
@@ -3641,7 +3671,10 @@
      "minute": 6,
      "artist": "LondonGround",
      "title": "Breath",
-     "label": "Sight"
+     "label": "Sight",
+     "bp": "bp:22180125",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3870,7 +3903,10 @@
      "minute": 109,
      "artist": "Freenzy Music",
      "title": "Like This",
-     "label": "Tamango"
+     "label": "Tamango",
+     "bp": "bp:18540516",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 114,

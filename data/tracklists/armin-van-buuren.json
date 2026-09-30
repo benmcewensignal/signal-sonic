@@ -9,7 +9,10 @@
      "minute": 0,
      "artist": "Agents Of Time & FORS",
      "title": "Oblivion",
-     "label": "Time Machine"
+     "label": "Time Machine",
+     "bp": "bp:28186610",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -34,7 +37,10 @@
      "minute": 12,
      "artist": "Tiësto Feat. Olivia Sebastianelli",
      "title": "Don't Lose Your Head (Extended Mix)",
-     "label": "Musical Freedom/Atlantic"
+     "label": "Musical Freedom/Atlantic",
+     "bp": "bp:29078827",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -147,13 +153,19 @@
      "minute": null,
      "artist": "ANOTR Feat. 3DDY",
      "title": "Like It",
-     "label": "No Art"
+     "label": "No Art",
+     "bp": "bp:28859081",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "MEDUZA & RANI",
      "title": "Silence",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:28903456",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -194,7 +206,10 @@
      "minute": null,
      "artist": "Tiësto Feat. Olivia Sebastianelli",
      "title": "Don't Lose Your Head",
-     "label": "Musical Freedom"
+     "label": "Musical Freedom",
+     "bp": "bp:29078827",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -586,7 +601,10 @@
      "minute": null,
      "artist": "Disco Lines & Maesic Feat. Mason vs Princess Superstar",
      "title": "Push It",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:29186668",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -814,7 +832,10 @@
      "minute": null,
      "artist": "Hot Since 82 & Shades Of Rhythm",
      "title": "Shaded",
-     "label": "Knee Deep In Sound"
+     "label": "Knee Deep In Sound",
+     "bp": "bp:28911210",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1152,7 +1173,10 @@
      "minute": 69,
      "artist": "Daxson Feat. Andy Ruiz",
      "title": "Insomnia",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "bp": "bp:23354355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 71,
@@ -1349,7 +1373,10 @@
      "minute": null,
      "artist": "Disco Lines & Maesic Feat. Mason vs Princess Superstar",
      "title": "Push It",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:29186668",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1368,7 +1395,10 @@
      "minute": null,
      "artist": "CamelPhat & Josh Gigante Feat. Kuuda",
      "title": "So Good",
-     "label": "When Stars Align"
+     "label": "When Stars Align",
+     "bp": "bp:28913355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1679,7 +1709,10 @@
      "minute": null,
      "artist": "MEDUZA & RANI",
      "title": "Silence",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:28903456",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2163,7 +2196,10 @@
      "minute": 30,
      "artist": "John Summit Feat. MKLA",
      "title": "Fade Out",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:18057455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -2335,7 +2371,10 @@
      "minute": null,
      "artist": "Disco Lines & Maesic Feat. Mason vs Princess Superstar",
      "title": "Push It",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:29186668",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2354,7 +2393,10 @@
      "minute": null,
      "artist": "ANOTR Feat. 3DDY",
      "title": "Like It",
-     "label": "No Art"
+     "label": "No Art",
+     "bp": "bp:28859081",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2397,7 +2439,10 @@
      "minute": null,
      "artist": "Miss Monique & Nicolas Taboada & FRANCO BA",
      "title": "Ghosts",
-     "label": "Siona"
+     "label": "Siona",
+     "bp": "bp:28946070",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2488,7 +2533,10 @@
      "minute": null,
      "artist": "Kryder",
      "title": "Eivissa",
-     "label": "Size"
+     "label": "Size",
+     "bp": "bp:29106391",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2654,7 +2702,10 @@
      "minute": 30,
      "artist": "John Summit Feat. MKLA",
      "title": "Fade Out",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:18057455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -2935,13 +2986,19 @@
      "minute": null,
      "artist": "Jesús Fernández & Karl8 & Andrea Monta",
      "title": "Music Is The Answer (Dancin' And Prancin')",
-     "label": "Balearico"
+     "label": "Balearico",
+     "bp": "bp:28470056",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Kryder",
      "title": "Eivissa",
-     "label": "Size"
+     "label": "Size",
+     "bp": "bp:29106391",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3586,7 +3643,10 @@
      "minute": null,
      "artist": "Seth Hills",
      "title": "Secretos",
-     "label": "Dharma"
+     "label": "Dharma",
+     "bp": "bp:29430640",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3639,7 +3699,10 @@
      "minute": null,
      "artist": "HUGEL & French Montana & David Guetta & Aidan Martin",
      "title": "Shine",
-     "label": "Make The Girls Dance"
+     "label": "Make The Girls Dance",
+     "bp": "bp:29386526",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3861,7 +3924,10 @@
      "minute": null,
      "artist": "Jerry Ropero & Denis The Menace Feat. Jaqueline",
      "title": "Coraçao",
-     "label": ""
+     "label": "",
+     "bp": "bp:19213673",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4353,7 +4419,10 @@
      "minute": null,
      "artist": "Jesús Fernández & Karl8 & Andrea Monta",
      "title": "Music Is The Answer (Dancin' And Prancin')",
-     "label": "Balearico"
+     "label": "Balearico",
+     "bp": "bp:28470056",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4948,7 +5017,10 @@
      "minute": null,
      "artist": "IAN VII & JAVIIER",
      "title": "Sink",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:29140117",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5026,7 +5098,10 @@
      "minute": null,
      "artist": "FISHER & Tones And I",
      "title": "Favour",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:27080701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5121,7 +5196,10 @@
      "minute": null,
      "artist": "NIIKO X SWAE",
      "title": "3D",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:30490130",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5335,7 +5413,10 @@
      "minute": null,
      "artist": "YOTTO Feat. Dakota",
      "title": "Deep Dive",
-     "label": "Madminds"
+     "label": "Madminds",
+     "bp": "bp:29781638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5492,7 +5573,10 @@
      "minute": null,
      "artist": "Marzo",
      "title": "Embrace",
-     "label": "Sweet Nothing"
+     "label": "Sweet Nothing",
+     "bp": "bp:29629024",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5713,7 +5797,10 @@
      "minute": null,
      "artist": "YOTTO Feat. Dakota",
      "title": "Deep Dive",
-     "label": "Madminds"
+     "label": "Madminds",
+     "bp": "bp:29781638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5776,7 +5863,10 @@
      "minute": null,
      "artist": "Michael Cassette",
      "title": "United",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29850355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

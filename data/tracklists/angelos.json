@@ -160,7 +160,10 @@
      "minute": null,
      "artist": "Armonica Feat. Toshi",
      "title": "Ngeke",
-     "label": "Moblack"
+     "label": "Moblack",
+     "bp": "bp:10375955",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -172,7 +175,10 @@
      "minute": null,
      "artist": "Pablo Fierro & Carlos Francisco Feat. Jaky Amir",
      "title": "Koroka",
-     "label": "We're Here"
+     "label": "We're Here",
+     "bp": "bp:19284164",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -216,13 +222,19 @@
      "minute": null,
      "artist": "Robert Owens & Fiona Kraft & Angelos",
      "title": "Soul Free",
-     "label": "Non Merci Music"
+     "label": "Non Merci Music",
+     "bp": "bp:19521232",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Lilya Mandre & Tommy Kimpton & Zac Martel",
      "title": "Sensa",
-     "label": ""
+     "label": "",
+     "bp": "bp:19783643",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -324,7 +336,10 @@
      "minute": null,
      "artist": "Robert Owens & Fiona Kraft & Angelos",
      "title": "Soul Free",
-     "label": "Non Merci Music"
+     "label": "Non Merci Music",
+     "bp": "bp:19521232",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

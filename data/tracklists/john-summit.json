@@ -387,7 +387,10 @@
      "minute": 16,
      "artist": "Adam Beyer & HNTR Feat. Kyozo",
      "title": "Hypnotic (Extended Mix)",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20404117",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -817,7 +820,10 @@
      "minute": 33,
      "artist": "Emily Nash",
      "title": "Drink",
-     "label": ""
+     "label": "",
+     "bp": "bp:21074296",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 36,
@@ -911,7 +917,10 @@
      "minute": 4,
      "artist": "John Summit Feat. Inéz",
      "title": "Crystallized",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:22095332",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -1016,7 +1025,10 @@
      "minute": 52,
      "artist": "John Summit & VLTRA",
      "title": "Legacy",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:18145087",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -1079,7 +1091,10 @@
      "minute": 75,
      "artist": "Mathame",
      "title": "Koko",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "bp": "bp:21300199",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,
@@ -1334,7 +1349,10 @@
      "minute": 62,
      "artist": "John Summit Feat. Inéz",
      "title": "Crystallized",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:22095332",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 65,
@@ -1429,7 +1447,10 @@
      "minute": 104,
      "artist": "CamelPhat & Zafrir",
      "title": "Destino",
-     "label": "When Stars Align"
+     "label": "When Stars Align",
+     "bp": "bp:20843621",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 107,
@@ -1855,7 +1876,10 @@
      "minute": 102,
      "artist": "TEED",
      "title": "The Echo",
-     "label": ""
+     "label": "",
+     "bp": "bp:23994317",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 107,
@@ -1933,7 +1957,10 @@
      "minute": 8,
      "artist": "R3HAB & Skytech & Pupa Nas T & Kevin McKay Feat. Denise Belfon & Fideles",
      "title": "Work",
-     "label": "Glasgow Underground"
+     "label": "Glasgow Underground",
+     "bp": "bp:17111424",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -1982,7 +2009,10 @@
      "minute": 25,
      "artist": "John Summit Feat. MKLA",
      "title": "Fade Out",
-     "label": "Experts Only/Darkroom"
+     "label": "Experts Only/Darkroom",
+     "bp": "bp:18057455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -2095,7 +2125,10 @@
      "minute": 63,
      "artist": "MEDUZA",
      "title": "No Sleep",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:22250989",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 67,
@@ -2136,7 +2169,10 @@
      "minute": 64,
      "artist": "Mathame",
      "title": "Koko",
-     "label": "Self Released"
+     "label": "Self Released",
+     "bp": "bp:21300199",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 67,
@@ -2188,7 +2224,10 @@
      "minute": 83,
      "artist": "John Summit Feat. Nic Fanciulli",
      "title": "Witch Doctor",
-     "label": "Saved"
+     "label": "Saved",
+     "bp": "bp:15375211",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 86,
@@ -2521,7 +2560,10 @@
      "minute": 21,
      "artist": "Hot Natured Feat. Anabel Englund",
      "title": "Reverse Skydiving",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "bp": "bp:5260193",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -2566,13 +2608,19 @@
      "minute": 35,
      "artist": "AYYBO & Discip",
      "title": "4 YA MIND",
-     "label": "Solid Grooves"
+     "label": "Solid Grooves",
+     "bp": "bp:21359754",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
      "artist": "ARTBAT",
      "title": "Dance",
-     "label": "Upperground"
+     "label": "Upperground",
+     "bp": "bp:22360268",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -2591,13 +2639,19 @@
      "minute": 47,
      "artist": "Deomid",
      "title": "Twisted",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20662221",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
      "artist": "Marsolo",
      "title": "Spaceship",
-     "label": "Positiva"
+     "label": "Positiva",
+     "bp": "bp:22009896",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -2757,7 +2811,10 @@
      "minute": 31,
      "artist": "Emily Nash",
      "title": "Drink",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:21074296",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -2832,13 +2889,19 @@
      "minute": 53,
      "artist": "John Summit Feat. Inéz",
      "title": "Crystallized",
-     "label": "Experts Only/Darkroom"
+     "label": "Experts Only/Darkroom",
+     "bp": "bp:22095332",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
      "artist": "John Summit Feat. Cloves",
      "title": "Focus",
-     "label": "Experts Only/Darkroom"
+     "label": "Experts Only/Darkroom",
+     "bp": "bp:20343154",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 61,
@@ -2898,7 +2961,10 @@
      "minute": 74,
      "artist": "MEDUZA",
      "title": "No Sleep",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:22250989",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,
@@ -3069,7 +3135,10 @@
      "minute": 2,
      "artist": "John Summit Feat. Nic Fanciulli",
      "title": "Witch Doctor",
-     "label": "Saved"
+     "label": "Saved",
+     "bp": "bp:15375211",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -3409,7 +3478,10 @@
      "minute": 106,
      "artist": "John Summit & VLTRA",
      "title": "Legacy",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:18145087",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 109,
@@ -3599,7 +3671,10 @@
      "minute": 47,
      "artist": "Deomid",
      "title": "Twisted",
-     "label": ""
+     "label": "",
+     "bp": "bp:20662221",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 50,
@@ -3852,13 +3927,19 @@
      "minute": null,
      "artist": "FISHER & Tones And I",
      "title": "Favour",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:27080701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Max Styler & Vintage Culture & Ali Love",
      "title": "Freaky 1",
-     "label": "Affairs"
+     "label": "Affairs",
+     "bp": "bp:27913580",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4748,7 +4829,10 @@
      "minute": 30,
      "artist": "John Summit Feat. MKLA",
      "title": "Fade Out",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:18057455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -4920,7 +5004,10 @@
      "minute": null,
      "artist": "Disco Lines & Maesic Feat. Mason vs Princess Superstar",
      "title": "Push It",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:29186668",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4939,7 +5026,10 @@
      "minute": null,
      "artist": "ANOTR Feat. 3DDY",
      "title": "Like It",
-     "label": "No Art"
+     "label": "No Art",
+     "bp": "bp:28859081",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4982,7 +5072,10 @@
      "minute": null,
      "artist": "Miss Monique & Nicolas Taboada & FRANCO BA",
      "title": "Ghosts",
-     "label": "Siona"
+     "label": "Siona",
+     "bp": "bp:28946070",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5073,7 +5166,10 @@
      "minute": null,
      "artist": "Kryder",
      "title": "Eivissa",
-     "label": "Size"
+     "label": "Size",
+     "bp": "bp:29106391",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5239,7 +5335,10 @@
      "minute": 30,
      "artist": "John Summit Feat. MKLA",
      "title": "Fade Out",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:18057455",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -5873,7 +5972,10 @@
      "minute": null,
      "artist": "John Summit Feat. Inéz",
      "title": "Crystallized",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:22095332",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5892,7 +5994,10 @@
      "minute": null,
      "artist": "John Summit & VLTRA",
      "title": "Legacy",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:18145087",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5957,7 +6062,10 @@
      "minute": null,
      "artist": "Alex Wann & JUNO",
      "title": "Allo",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "bp": "bp:28470106",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -6002,7 +6110,10 @@
      "minute": null,
      "artist": "andhim",
      "title": "Acido",
-     "label": "Magnifik"
+     "label": "Magnifik",
+     "bp": "bp:24233384",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

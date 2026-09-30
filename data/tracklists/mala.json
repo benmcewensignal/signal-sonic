@@ -53,7 +53,10 @@
      "minute": 11,
      "artist": "Breakage Feat. Newham Generals & David Rodigan",
      "title": "Hard",
-     "label": "Digital Soundboy"
+     "label": "Digital Soundboy",
+     "bp": "bp:1621311",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -77,7 +80,10 @@
      "minute": 15,
      "artist": "Mala",
      "title": "Changes",
-     "label": "Deep Medi"
+     "label": "Deep Medi",
+     "bp": "bp:5944046",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -92,7 +98,10 @@
      "minute": 19,
      "artist": "Skream",
      "title": "Lemon",
-     "label": ""
+     "label": "",
+     "bp": "bp:14969699",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -622,7 +631,10 @@
      "minute": 88,
      "artist": "Joy Orbison",
      "title": "Hyph Mngo",
-     "label": "Hinge Finger"
+     "label": "Hinge Finger",
+     "bp": "bp:13206139",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
@@ -805,7 +817,10 @@
      "minute": 151,
      "artist": "Joker",
      "title": "S Wave",
-     "label": "Kapsize"
+     "label": "Kapsize",
+     "bp": "bp:18634886",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 154,
@@ -850,7 +865,10 @@
      "minute": 163,
      "artist": "Mala",
      "title": "Anti War Dub",
-     "label": "I & I Music"
+     "label": "I & I Music",
+     "bp": "bp:15389593",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   }

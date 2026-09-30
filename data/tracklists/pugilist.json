@@ -172,7 +172,10 @@
      "minute": null,
      "artist": "Appleblim & Peverelist",
      "title": "Circling",
-     "label": ""
+     "label": "",
+     "bp": "bp:5685910",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -439,7 +442,10 @@
      "minute": 54,
      "artist": "Floating Points",
      "title": "Coorabell",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:12298285",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -451,7 +457,10 @@
      "minute": 59,
      "artist": "Harvey McKay",
      "title": "Footstep",
-     "label": "RSPX"
+     "label": "RSPX",
+     "bp": "bp:19205523",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 62,
@@ -653,7 +662,10 @@
      "minute": 123,
      "artist": "Skream",
      "title": "Mash Up",
-     "label": "Skreamizm"
+     "label": "Skreamizm",
+     "bp": "bp:14969724",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 124,
@@ -1144,7 +1156,10 @@
      "minute": 18,
      "artist": "S-X",
      "title": "Woooo",
-     "label": "Insatiable"
+     "label": "Insatiable",
+     "bp": "bp:22841801",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -1206,7 +1221,10 @@
      "minute": 53,
      "artist": "Barker",
      "title": "Reframing",
-     "label": "Smalltown Supersound"
+     "label": "Smalltown Supersound",
+     "bp": "bp:20022178",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -1545,7 +1563,10 @@
      "minute": null,
      "artist": "Aerae",
      "title": "Nefanda",
-     "label": "Samurai"
+     "label": "Samurai",
+     "bp": "bp:20687204",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 54,
@@ -1881,7 +1902,10 @@
      "minute": 28,
      "artist": "Ex_Libris Feat. A Made Up Sound",
      "title": "#3 (Running Out)",
-     "label": "Ex_Libris"
+     "label": "Ex_Libris",
+     "bp": "bp:20668292",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 32,
@@ -1906,7 +1930,10 @@
      "minute": 44,
      "artist": "Calibre",
      "title": "Blame Dub",
-     "label": "Signature"
+     "label": "Signature",
+     "bp": "bp:20503397",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -1918,7 +1945,10 @@
      "minute": 49,
      "artist": "CAIV",
      "title": "Shimmer",
-     "label": "OODA"
+     "label": "OODA",
+     "bp": "bp:21111031",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 59,
@@ -2616,7 +2646,10 @@
      "minute": 53,
      "artist": "Instra:mental",
      "title": "Shine",
-     "label": "NonPlus"
+     "label": "NonPlus",
+     "bp": "bp:12536149",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -2633,7 +2666,10 @@
      "minute": 0,
      "artist": "Mike Parker",
      "title": "Storia",
-     "label": "Samurai"
+     "label": "Samurai",
+     "bp": "bp:26905628",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3027,7 +3063,10 @@
      "minute": null,
      "artist": "LAS & Mikael",
      "title": "Dem Break",
-     "label": ""
+     "label": "",
+     "bp": "bp:5669230",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3083,7 +3122,10 @@
      "minute": null,
      "artist": "Kahn",
      "title": "Dread",
-     "label": ""
+     "label": "",
+     "bp": "bp:5943601",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3199,7 +3241,10 @@
      "minute": 29,
      "artist": "Kaspiann",
      "title": "Solina",
-     "label": "Delsin"
+     "label": "Delsin",
+     "bp": "bp:18887787",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,

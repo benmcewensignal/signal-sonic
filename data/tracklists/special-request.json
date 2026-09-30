@@ -249,7 +249,10 @@
      "minute": null,
      "artist": "Felipe Gordon",
      "title": "Profundo",
-     "label": ""
+     "label": "",
+     "bp": "bp:20087943",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -305,7 +308,10 @@
      "minute": null,
      "artist": "KW Griff Feat. Pork Chop",
      "title": "Bring In The Katz",
-     "label": "Night Slugs"
+     "label": "Night Slugs",
+     "bp": "bp:18285324",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -381,7 +387,10 @@
      "minute": null,
      "artist": "Olof Dreijer & Diva Cruz",
      "title": "Acuyuye",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:19119888",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -400,7 +409,10 @@
      "minute": null,
      "artist": "Marie Davidson",
      "title": "Y.A.A.M.",
-     "label": "Deewee"
+     "label": "Deewee",
+     "bp": "bp:18824339",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -588,7 +600,10 @@
      "minute": 15,
      "artist": "Fold & Cu.Rve",
      "title": "Business",
-     "label": "Ingram"
+     "label": "Ingram",
+     "bp": "bp:20653660",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
@@ -611,7 +626,10 @@
      "minute": 41,
      "artist": "Harmony",
      "title": "Flair",
-     "label": ""
+     "label": "",
+     "bp": "bp:13572402",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
@@ -809,7 +827,10 @@
      "minute": 49,
      "artist": "Sidney Charles & BUGS",
      "title": "Trip Advisor (Rhythm, Snare, Bass) (2025 Warp Mix)",
-     "label": "Heavy House Society"
+     "label": "Heavy House Society",
+     "bp": "bp:21009164",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -986,7 +1007,10 @@
      "minute": 110,
      "artist": "Harmony",
      "title": "Flair",
-     "label": ""
+     "label": "",
+     "bp": "bp:13572402",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 116,

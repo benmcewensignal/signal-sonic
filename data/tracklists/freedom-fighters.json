@@ -45,7 +45,10 @@
      "minute": 20,
      "artist": "Freedom Fighters",
      "title": "Raw",
-     "label": ""
+     "label": "",
+     "bp": "bp:20005562",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -129,7 +132,10 @@
      "minute": 67,
      "artist": "Freedom Fighters & Dekel",
      "title": "Aura",
-     "label": ""
+     "label": "",
+     "bp": "bp:17013931",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -159,7 +165,10 @@
      "minute": 9,
      "artist": "Freedom Fighters & Dekel",
      "title": "Aura",
-     "label": ""
+     "label": "",
+     "bp": "bp:17013931",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -223,7 +232,10 @@
      "minute": 47,
      "artist": "Freedom Fighters",
      "title": "Raw",
-     "label": ""
+     "label": "",
+     "bp": "bp:20005562",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -319,7 +331,10 @@
      "minute": 101,
      "artist": "Freedom Fighters & Modus",
      "title": "Drumville (Original Mix + Bliss Remix)",
-     "label": ""
+     "label": "",
+     "bp": "bp:17274423",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 108,
@@ -343,7 +358,10 @@
      "minute": null,
      "artist": "Freedom Fighters & Merkaba",
      "title": "One Song",
-     "label": ""
+     "label": "",
+     "bp": "bp:21856727",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -451,7 +469,10 @@
      "minute": null,
      "artist": "Freedom Fighters & Dekel",
      "title": "Aura",
-     "label": ""
+     "label": "",
+     "bp": "bp:17013931",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -816,7 +837,10 @@
      "minute": 15,
      "artist": "Freedom Fighters & Merkaba",
      "title": "One Song",
-     "label": ""
+     "label": "",
+     "bp": "bp:21856727",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -854,7 +878,10 @@
      "minute": 38,
      "artist": "Freedom Fighters",
      "title": "Raw",
-     "label": ""
+     "label": "",
+     "bp": "bp:20005562",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
@@ -924,7 +951,10 @@
      "minute": 73,
      "artist": "Freedom Fighters & Dekel",
      "title": "Aura",
-     "label": ""
+     "label": "",
+     "bp": "bp:17013931",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,
@@ -1101,7 +1131,10 @@
      "minute": null,
      "artist": "Freedom Fighters",
      "title": "Raw",
-     "label": "Stereo Society"
+     "label": "Stereo Society",
+     "bp": "bp:20005562",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1168,7 +1201,10 @@
      "minute": null,
      "artist": "Dekel & Freedom Fighters",
      "title": "Aura",
-     "label": "Stereo Society"
+     "label": "Stereo Society",
+     "bp": "bp:17013931",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   }

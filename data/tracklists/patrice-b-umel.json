@@ -28,7 +28,10 @@
      "minute": 5,
      "artist": "Matter & GMJ",
      "title": "Metanoia",
-     "label": "Replug"
+     "label": "Replug",
+     "bp": "bp:17406084",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -47,7 +50,10 @@
      "minute": 17,
      "artist": "Alex O'Rion",
      "title": "Echium",
-     "label": "Meanwhile"
+     "label": "Meanwhile",
+     "bp": "bp:15215970",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -206,7 +212,10 @@
      "minute": 83,
      "artist": "Patrice Bäumel",
      "title": "The Cave",
-     "label": "Kompakt Extra"
+     "label": "Kompakt Extra",
+     "bp": "bp:19694625",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 90,
@@ -531,7 +540,10 @@
      "minute": 148,
      "artist": "Alex O'Rion",
      "title": "Echium",
-     "label": "Meanwhile"
+     "label": "Meanwhile",
+     "bp": "bp:15215970",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 154,
@@ -562,7 +574,10 @@
      "minute": 175,
      "artist": "Volen Sentir & Makebo",
      "title": "Alchemist",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:17464011",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 181,
@@ -814,7 +829,10 @@
      "minute": 323,
      "artist": "Matter & GMJ",
      "title": "Metanoia",
-     "label": "Replug"
+     "label": "Replug",
+     "bp": "bp:17406084",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 326,
@@ -1055,7 +1073,10 @@
      "minute": 438,
      "artist": "Neil Flynn",
      "title": "Shon",
-     "label": "Lossless"
+     "label": "Lossless",
+     "bp": "bp:9654842",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 444,
@@ -1254,13 +1275,19 @@
      "minute": 2,
      "artist": "Breach",
      "title": "Jack",
-     "label": "Defected"
+     "label": "Defected",
+     "bp": "bp:23941386",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
      "artist": "Makebo & Volen Sentir",
      "title": "Alchemist",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:17464011",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -1279,7 +1306,10 @@
      "minute": 17,
      "artist": "Neil Flynn",
      "title": "Shon",
-     "label": ""
+     "label": "",
+     "bp": "bp:9654842",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -1584,7 +1614,10 @@
      "minute": 80,
      "artist": "GMJ & Matter",
      "title": "Metanoia",
-     "label": "Replug"
+     "label": "Replug",
+     "bp": "bp:17406084",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 85,
@@ -1729,7 +1762,10 @@
      "minute": 71,
      "artist": "Patrice Bäumel",
      "title": "The Cave",
-     "label": ""
+     "label": "",
+     "bp": "bp:19694625",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,

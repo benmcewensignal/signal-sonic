@@ -22,7 +22,10 @@
      "minute": 4,
      "artist": "Adriatique & Rivo",
      "title": "Like A Dream",
-     "label": "X"
+     "label": "X",
+     "bp": "bp:19399655",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -157,7 +160,10 @@
      "minute": 50,
      "artist": "wAFF",
      "title": "Breevin",
-     "label": "Solid Grooves"
+     "label": "Solid Grooves",
+     "bp": "bp:19415706",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 54,
@@ -188,13 +194,19 @@
      "minute": 68,
      "artist": "Rafael Cerato & Laherte",
      "title": "Hustling",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19441464",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
      "artist": "George FitzGerald",
      "title": "Gild",
-     "label": "Domino"
+     "label": "Domino",
+     "bp": "bp:19474535",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 76,
@@ -296,7 +308,10 @@
      "minute": 102,
      "artist": "Deetron",
      "title": "Runnin'",
-     "label": "Nu Groove"
+     "label": "Nu Groove",
+     "bp": "bp:18533710",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 105,
@@ -460,7 +475,10 @@
      "minute": 41,
      "artist": "Myd",
      "title": "The Sun",
-     "label": "Ed Banger"
+     "label": "Ed Banger",
+     "bp": "bp:15173965",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
@@ -666,7 +684,10 @@
      "minute": 28,
      "artist": "Drunky Daniels",
      "title": "Papaya",
-     "label": "Union"
+     "label": "Union",
+     "bp": "bp:14533981",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 31,
@@ -704,7 +725,10 @@
      "minute": 44,
      "artist": "Keinemusik & Alan Dixon Feat. Arabic Piano",
      "title": "Thandaza",
-     "label": "Keinemusik"
+     "label": "Keinemusik",
+     "bp": "bp:18778205",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -799,7 +823,10 @@
      "minute": 89,
      "artist": "Deetron",
      "title": "Runnin'",
-     "label": "Nu Groove"
+     "label": "Nu Groove",
+     "bp": "bp:18533710",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
@@ -818,7 +845,10 @@
      "minute": 96,
      "artist": "Hammer & KILIMANJARO",
      "title": "Muleña",
-     "label": "Remmah"
+     "label": "Remmah",
+     "bp": "bp:16715725",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 100,
@@ -850,7 +880,10 @@
      "minute": 106,
      "artist": "Melé & KILIMANJARO",
      "title": "Log On",
-     "label": "Warehouse Project"
+     "label": "Warehouse Project",
+     "bp": "bp:19293156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 108,
@@ -965,7 +998,10 @@
      "minute": 23,
      "artist": "Drunky Daniels",
      "title": "Papaya",
-     "label": ""
+     "label": "",
+     "bp": "bp:14533981",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -1151,13 +1187,19 @@
      "minute": 9,
      "artist": "Jnr SA",
      "title": "MAYE",
-     "label": ""
+     "label": "",
+     "bp": "bp:19656159",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
      "artist": "Masšh",
      "title": "ILanga",
-     "label": "One People"
+     "label": "One People",
+     "bp": "bp:20051185",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -1228,7 +1270,10 @@
      "minute": 45,
      "artist": "Bonobo",
      "title": "Otomo",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:15921897",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -1362,7 +1407,10 @@
      "minute": 9,
      "artist": "Melé & KILIMANJARO",
      "title": "Log On",
-     "label": "Warehouse Project"
+     "label": "Warehouse Project",
+     "bp": "bp:19293156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -1517,7 +1565,10 @@
      "minute": 76,
      "artist": "Hammer & KILIMANJARO",
      "title": "Muleña",
-     "label": "Remmah"
+     "label": "Remmah",
+     "bp": "bp:16715725",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 81,
@@ -1575,7 +1626,10 @@
      "minute": 96,
      "artist": "Skeptic",
      "title": "Gstar",
-     "label": "MUASO"
+     "label": "MUASO",
+     "bp": "bp:20142537",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 98,
@@ -1751,7 +1805,10 @@
      "minute": 43,
      "artist": "Ossie",
      "title": "Dreams",
-     "label": ""
+     "label": "",
+     "bp": "bp:18589611",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -1931,7 +1988,10 @@
      "minute": 5,
      "artist": "Ossie",
      "title": "Dreams",
-     "label": ""
+     "label": "",
+     "bp": "bp:18589611",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -2028,7 +2088,10 @@
      "minute": 44,
      "artist": "Boris Brejcha",
      "title": "XOXO",
-     "label": "Fckng Serious"
+     "label": "Fckng Serious",
+     "bp": "bp:20347658",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 50,
@@ -2359,7 +2422,10 @@
      "minute": 5,
      "artist": "Melé & KILIMANJARO",
      "title": "Log On",
-     "label": ""
+     "label": "",
+     "bp": "bp:19293156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -2397,7 +2463,10 @@
      "minute": 23,
      "artist": "Bonobo Feat. O'Flynn",
      "title": "Otomo",
-     "label": ""
+     "label": "",
+     "bp": "bp:15921897",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -2561,7 +2630,10 @@
      "minute": 26,
      "artist": "&ME & Rampa & Adam Port & Alan Dixon & Keinemusik",
      "title": "Thandaza",
-     "label": ""
+     "label": "",
+     "bp": "bp:18778205",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 32,
@@ -2580,13 +2652,19 @@
      "minute": 37,
      "artist": "Bonobo",
      "title": "Otomo",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:15921897",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
      "artist": "Ossie",
      "title": "Dreams",
-     "label": ""
+     "label": "",
+     "bp": "bp:18589611",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 50,
@@ -2814,7 +2892,10 @@
      "minute": 60,
      "artist": "Maz & Viot",
      "title": "Ocean",
-     "label": "Dawn Patrol"
+     "label": "Dawn Patrol",
+     "bp": "bp:20643264",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -2839,7 +2920,10 @@
      "minute": 85,
      "artist": "Robag Wruhme",
      "title": "Naila",
-     "label": "Kompakt Extra"
+     "label": "Kompakt Extra",
+     "bp": "bp:19189089",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 90,
@@ -2862,7 +2946,10 @@
      "minute": 106,
      "artist": "William Kiss",
      "title": "XXX",
-     "label": "Warehouse Project"
+     "label": "Warehouse Project",
+     "bp": "bp:20704415",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 113,
@@ -2949,7 +3036,10 @@
      "minute": 35,
      "artist": "Maz & Viot",
      "title": "Ocean",
-     "label": "Dawn Patrol"
+     "label": "Dawn Patrol",
+     "bp": "bp:20643264",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
@@ -3005,7 +3095,10 @@
      "minute": 61,
      "artist": "Sebastian Ledher & Vito & J Centt",
      "title": "Normal",
-     "label": "KINGS"
+     "label": "KINGS",
+     "bp": "bp:19452638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 65,
@@ -3155,13 +3248,19 @@
      "minute": 0,
      "artist": "O'Flynn",
      "title": "Srekye",
-     "label": "Panthus"
+     "label": "Panthus",
+     "bp": "bp:20670850",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
      "artist": "KILIMANJARO",
      "title": "SENTA",
-     "label": ""
+     "label": "",
+     "bp": "bp:22744129",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -3172,7 +3271,10 @@
      "minute": 17,
      "artist": "Myd",
      "title": "The Sun",
-     "label": "Ed Banger"
+     "label": "Ed Banger",
+     "bp": "bp:15173965",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -3327,7 +3429,10 @@
      "minute": null,
      "artist": "Dladla Mshunqisi & Beast RSA & Blacks Jnr",
      "title": "Puku Puku",
-     "label": ""
+     "label": "",
+     "bp": "bp:22404163",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3510,7 +3615,10 @@
      "minute": 32,
      "artist": "Dladla Mshunqisi",
      "title": "Puku Puku",
-     "label": "Njandini Entertainment"
+     "label": "Njandini Entertainment",
+     "bp": "bp:22404163",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
@@ -3534,13 +3642,19 @@
      "minute": 44,
      "artist": "&ME",
      "title": "Garden",
-     "label": "Keinemusik"
+     "label": "Keinemusik",
+     "bp": "bp:12600388",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
      "artist": "San Pacho & TOBEHONEST",
      "title": "Horny",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:19352412",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -3708,7 +3822,10 @@
      "minute": null,
      "artist": "&ME",
      "title": "Garden",
-     "label": "Keinemusik"
+     "label": "Keinemusik",
+     "bp": "bp:12600388",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3775,13 +3892,19 @@
      "minute": null,
      "artist": "Melé & KILIMANJARO",
      "title": "Log On",
-     "label": "Warehouse Project"
+     "label": "Warehouse Project",
+     "bp": "bp:19293156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Dladla Mshunqisi & Beast Rsa & Blacks Jnr",
      "title": "Puku Puku",
-     "label": ""
+     "label": "",
+     "bp": "bp:22404163",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3845,13 +3968,19 @@
      "minute": null,
      "artist": "San Pacho & TOBEHONEST",
      "title": "Horny",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:19352412",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "KILIMANJARO & Dave Nunes",
      "title": "Senta",
-     "label": "Capitol"
+     "label": "Capitol",
+     "bp": "bp:22744129",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3912,7 +4041,10 @@
      "minute": 0,
      "artist": "&ME",
      "title": "Garden",
-     "label": "Keinemusik"
+     "label": "Keinemusik",
+     "bp": "bp:12600388",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
@@ -3966,13 +4098,19 @@
      "minute": 21,
      "artist": "Melé & KILIMANJARO",
      "title": "Log On",
-     "label": "Warehouse Project"
+     "label": "Warehouse Project",
+     "bp": "bp:19293156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
      "artist": "Dladla Mshunqisi",
      "title": "Puku Puku",
-     "label": "Njandini Entertainment"
+     "label": "Njandini Entertainment",
+     "bp": "bp:22404163",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -4023,13 +4161,19 @@
      "minute": 43,
      "artist": "San Pacho & TOBEHONEST",
      "title": "Horny",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:19352412",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
      "artist": "KILIMANJARO",
      "title": "SENTA",
-     "label": "PLG - Capitol"
+     "label": "PLG - Capitol",
+     "bp": "bp:22744129",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -4589,7 +4733,10 @@
      "minute": 58,
      "artist": "Bontan",
      "title": "Forever",
-     "label": "North Drum"
+     "label": "North Drum",
+     "bp": "bp:20528622",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 62,
@@ -4693,7 +4840,10 @@
      "minute": 114,
      "artist": "KILIMANJARO",
      "title": "ELEMENTS",
-     "label": ""
+     "label": "",
+     "bp": "bp:22406309",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 116,

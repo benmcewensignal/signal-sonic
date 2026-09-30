@@ -26,7 +26,10 @@
      "minute": 11,
      "artist": "Fold",
      "title": "Lotion",
-     "label": "FLDIN"
+     "label": "FLDIN",
+     "bp": "bp:19775243",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -147,7 +150,10 @@
      "minute": 58,
      "artist": "Mala",
      "title": "Anti War Dub",
-     "label": "I & I Music"
+     "label": "I & I Music",
+     "bp": "bp:15389593",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -164,7 +170,10 @@
      "minute": 11,
      "artist": "Fold & Cu.Rve",
      "title": "Business",
-     "label": "Ingram"
+     "label": "Ingram",
+     "bp": "bp:20653660",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 16,
@@ -230,7 +239,10 @@
      "minute": 52,
      "artist": "Bicep",
      "title": "Glue",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:9440664",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -259,7 +271,10 @@
      "minute": 7,
      "artist": "Floating Points",
      "title": "ARP3",
-     "label": "Pluto"
+     "label": "Pluto",
+     "bp": "bp:13679374",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -339,7 +354,10 @@
      "minute": 51,
      "artist": "Wilfy D",
      "title": "IDKW",
-     "label": "HOLD A CORNER"
+     "label": "HOLD A CORNER",
+     "bp": "bp:19175510",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -436,7 +454,10 @@
      "minute": 110,
      "artist": "Jacques Greene",
      "title": "Ready",
-     "label": "LUCKYME"
+     "label": "LUCKYME",
+     "bp": "bp:17577358",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 112,
@@ -524,7 +545,10 @@
      "minute": 16,
      "artist": "CAIV",
      "title": "Shimmer",
-     "label": "OODA"
+     "label": "OODA",
+     "bp": "bp:21111031",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -601,7 +625,10 @@
      "minute": 40,
      "artist": "Jacques Greene",
      "title": "Ready",
-     "label": "LUCKYME"
+     "label": "LUCKYME",
+     "bp": "bp:17577358",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -620,7 +647,10 @@
      "minute": 51,
      "artist": "Floating Points",
      "title": "ARP3",
-     "label": "Pluto"
+     "label": "Pluto",
+     "bp": "bp:13679374",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 54,
@@ -685,13 +715,19 @@
      "minute": 81,
      "artist": "Sha Ru",
      "title": "Vibrasum",
-     "label": ""
+     "label": "",
+     "bp": "bp:22176947",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 87,
      "artist": "Fold",
      "title": "Lotion",
-     "label": "FLDIN"
+     "label": "FLDIN",
+     "bp": "bp:19775243",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,

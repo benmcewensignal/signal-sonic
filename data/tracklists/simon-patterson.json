@@ -87,7 +87,10 @@
      "minute": 31,
      "artist": "Simon Patterson",
      "title": "Assassin",
-     "label": "Vii"
+     "label": "Vii",
+     "bp": "bp:18448364",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 36,
@@ -98,7 +101,10 @@
      "minute": null,
      "artist": "Simon Patterson",
      "title": "Us",
-     "label": "Reset"
+     "label": "Reset",
+     "bp": "bp:18982465",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
@@ -115,7 +121,10 @@
      "minute": 51,
      "artist": "Zach Zlov",
      "title": "Mictlan",
-     "label": "Deep In Thought"
+     "label": "Deep In Thought",
+     "bp": "bp:18981572",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -168,7 +177,10 @@
      "minute": 9,
      "artist": "Renato Cohen",
      "title": "Benzine",
-     "label": "Pets"
+     "label": "Pets",
+     "bp": "bp:17744686",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -337,7 +349,10 @@
      "minute": 95,
      "artist": "Key4050",
      "title": "Want More",
-     "label": "Kearnage"
+     "label": "Kearnage",
+     "bp": "bp:19224852",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,
@@ -404,7 +419,10 @@
      "minute": 130,
      "artist": "Airod",
      "title": "Balaclava",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:18626938",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 132,
@@ -490,7 +508,10 @@
      "minute": 166,
      "artist": "Simon Patterson",
      "title": "Assassin",
-     "label": "Vii"
+     "label": "Vii",
+     "bp": "bp:18448364",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 170,
@@ -556,7 +577,10 @@
      "minute": 192,
      "artist": "Nifra",
      "title": "Hypnotize",
-     "label": "Vii"
+     "label": "Vii",
+     "bp": "bp:19402772",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 196,
@@ -606,7 +630,10 @@
      "minute": 214,
      "artist": "Zach Zlov",
      "title": "Mictlan",
-     "label": "Deep In Thought"
+     "label": "Deep In Thought",
+     "bp": "bp:18981572",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 217,
@@ -631,7 +658,10 @@
      "minute": 226,
      "artist": "Simon Patterson",
      "title": "Tank",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:19225624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 231,
@@ -725,7 +755,10 @@
      "minute": 308,
      "artist": "Balthazar & JackRock",
      "title": "Vibrant",
-     "label": "Volta"
+     "label": "Volta",
+     "bp": "bp:17346093",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 313,
@@ -776,7 +809,10 @@
      "minute": 340,
      "artist": "Simon Patterson",
      "title": "Us",
-     "label": "Reset (Spinnin')"
+     "label": "Reset (Spinnin')",
+     "bp": "bp:18982465",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 344,
@@ -791,7 +827,10 @@
      "minute": 348,
      "artist": "Simon Patterson",
      "title": "Up",
-     "label": "Vii"
+     "label": "Vii",
+     "bp": "bp:17799468",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 366,
@@ -868,7 +907,10 @@
      "minute": 405,
      "artist": "Simon Patterson",
      "title": "Smack",
-     "label": "Reset (Spinnin')"
+     "label": "Reset (Spinnin')",
+     "bp": "bp:548612",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 422,
@@ -949,7 +991,10 @@
      "minute": 18,
      "artist": "Simon Patterson",
      "title": "Tank",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:19225624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -996,7 +1041,10 @@
      "minute": 40,
      "artist": "Simon Patterson",
      "title": "Up",
-     "label": "Vii"
+     "label": "Vii",
+     "bp": "bp:17799468",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
@@ -1127,13 +1175,19 @@
      "minute": null,
      "artist": "Simon Patterson",
      "title": "Red",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:20134573",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "WeirDDose",
      "title": "Shinobi",
-     "label": ""
+     "label": "",
+     "bp": "bp:20004737",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1307,7 +1361,10 @@
      "minute": 52,
      "artist": "Greg Downey",
      "title": "Your Eyes",
-     "label": "FSOE"
+     "label": "FSOE",
+     "bp": "bp:20343011",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -1319,13 +1376,19 @@
      "minute": 62,
      "artist": "WeirDDose",
      "title": "Shinobi",
-     "label": "Self Released"
+     "label": "Self Released",
+     "bp": "bp:20004737",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 66,
      "artist": "Simon Patterson",
      "title": "Red",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:20134573",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -1337,7 +1400,10 @@
      "minute": 79,
      "artist": "Zach Zlov",
      "title": "Revenant",
-     "label": "Skullduggery"
+     "label": "Skullduggery",
+     "bp": "bp:20181953",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 83,
@@ -1349,7 +1415,10 @@
      "minute": 87,
      "artist": "Zach Zlov",
      "title": "Drop It",
-     "label": "VII"
+     "label": "VII",
+     "bp": "bp:20076018",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
@@ -1374,7 +1443,10 @@
      "minute": 99,
      "artist": "Space 92",
      "title": "Melodia",
-     "label": "Arcane"
+     "label": "Arcane",
+     "bp": "bp:19421738",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 103,

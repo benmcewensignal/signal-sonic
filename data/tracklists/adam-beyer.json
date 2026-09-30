@@ -427,7 +427,10 @@
      "minute": 149,
      "artist": "Laura Van Dam",
      "title": "Insomnia",
-     "label": "Epic247"
+     "label": "Epic247",
+     "bp": "bp:19730310",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 152,
@@ -744,7 +747,10 @@
      "minute": 244,
      "artist": "Miss Monique & Nicolas Taboada & FRANCO BA",
      "title": "Ghosts",
-     "label": "Siona"
+     "label": "Siona",
+     "bp": "bp:28946070",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 247,
@@ -1180,7 +1186,10 @@
      "minute": 395,
      "artist": "Adam Beyer & GENESI & Aya Anne",
      "title": "DNA",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:23950978",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 400,
@@ -1686,7 +1695,10 @@
      "minute": 542,
      "artist": "Marie Vaunt",
      "title": "That Acid",
-     "label": "Extatic"
+     "label": "Extatic",
+     "bp": "bp:20593053",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 544,
@@ -1823,7 +1835,10 @@
      "minute": 586,
      "artist": "ANTONYM",
      "title": "Bass Go",
-     "label": "Polyamor"
+     "label": "Polyamor",
+     "bp": "bp:20459914",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 589,
@@ -1853,7 +1868,10 @@
      "minute": 0,
      "artist": "Adam Beyer & GENESI",
      "title": "DNA",
-     "label": ""
+     "label": "",
+     "bp": "bp:23950978",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
@@ -2083,7 +2101,10 @@
      "minute": 93,
      "artist": "Layton Giordani",
      "title": "PHANTOM",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:17718732",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2149,7 +2170,10 @@
      "minute": 115,
      "artist": "Daxson Feat. Andy Ruiz",
      "title": "Insomnia",
-     "label": "Spinnin'"
+     "label": "Spinnin'",
+     "bp": "bp:23354355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 118,
@@ -2174,7 +2198,10 @@
      "minute": 126,
      "artist": "Marco V",
      "title": "Loxia",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:22195252",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2330,7 +2357,10 @@
      "minute": 27,
      "artist": "Adam Beyer & HNTR Feat. Kyozo",
      "title": "Hypnotic",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20404117",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -2362,7 +2392,10 @@
      "minute": 36,
      "artist": "Adam Beyer & Julian Jeweil",
      "title": "Loca",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20487776",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -2381,7 +2414,10 @@
      "minute": 41,
      "artist": "Marco V",
      "title": "Loxia",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:22195252",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
@@ -2479,7 +2515,10 @@
      "minute": 0,
      "artist": "Adam Beyer & GENESI",
      "title": "DNA",
-     "label": ""
+     "label": "",
+     "bp": "bp:23950978",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -2504,7 +2543,10 @@
      "minute": 13,
      "artist": "Hidden Empire",
      "title": "No Rules",
-     "label": ""
+     "label": "",
+     "bp": "bp:24207255",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -2675,7 +2717,10 @@
      "minute": 90,
      "artist": "iiO Feat. Nadia Ali",
      "title": "Rapture",
-     "label": "UMG"
+     "label": "UMG",
+     "bp": "bp:19050745",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 94,
@@ -2804,7 +2849,10 @@
      "minute": 20,
      "artist": "KASIA & SOLANCE",
      "title": "Inferno",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:22359270",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -2841,7 +2889,10 @@
      "minute": 35,
      "artist": "KAF3R",
      "title": "Wow",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:21237202",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -2949,7 +3000,10 @@
      "minute": 15,
      "artist": "Hidden Empire",
      "title": "No Rules",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:24207255",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -3003,7 +3057,10 @@
      "minute": 36,
      "artist": "Adam Beyer & GENESI & Aya Anne",
      "title": "DNA",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:23950978",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
@@ -3361,7 +3418,10 @@
      "minute": 5,
      "artist": "Thomas Schumacher & A.D.H.S.",
      "title": "Cold Burn",
-     "label": "K__Zpt"
+     "label": "K__Zpt",
+     "bp": "bp:24289539",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -3372,7 +3432,10 @@
      "minute": 11,
      "artist": "Adam Beyer & Massano Feat. Green Velvet",
      "title": "Lazer Beams",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:17861809",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -3446,7 +3509,10 @@
      "minute": 43,
      "artist": "Kos:mo",
      "title": "Samsara",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:21994588",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -3628,7 +3694,10 @@
      "minute": 23,
      "artist": "Adam Beyer & GENESI & Aya Anne",
      "title": "DNA",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:23950978",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -3807,7 +3876,10 @@
      "minute": 5,
      "artist": "Thomas Schumacher & A.D.H.S.",
      "title": "Cold Burn",
-     "label": "K__Zpt"
+     "label": "K__Zpt",
+     "bp": "bp:24289539",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -3856,7 +3928,10 @@
      "minute": 29,
      "artist": "Bicep",
      "title": "Glue",
-     "label": "Ninja"
+     "label": "Ninja",
+     "bp": "bp:9440664",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -3886,7 +3961,10 @@
      "minute": 46,
      "artist": "Mattia Saviolo",
      "title": "Mindframe",
-     "label": ""
+     "label": "",
+     "bp": "bp:29097100",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -4149,7 +4227,10 @@
      "minute": 33,
      "artist": "Mattia Saviolo",
      "title": "Mindframe",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:29097100",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 36,
@@ -4222,7 +4303,10 @@
      "minute": 65,
      "artist": "Layton Giordani",
      "title": "PHANTOM",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:17718732",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4430,7 +4514,10 @@
      "minute": 30,
      "artist": "Mattia Saviolo",
      "title": "Mindframe",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:29097100",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -4587,7 +4674,10 @@
      "minute": 105,
      "artist": "Karla Blum",
      "title": "Ahogar",
-     "label": "Arcane"
+     "label": "Arcane",
+     "bp": "bp:28400566",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 110,
@@ -4806,7 +4896,10 @@
      "minute": 30,
      "artist": "Argy & ALOK & Adam Beyer",
      "title": "Keep Up",
-     "label": ""
+     "label": "",
+     "bp": "bp:30299867",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -4866,7 +4959,10 @@
      "minute": 60,
      "artist": "Faithless",
      "title": "Insomnia",
-     "label": "Cheeky"
+     "label": "Cheeky",
+     "bp": "bp:22502937",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -4890,7 +4986,10 @@
      "minute": 71,
      "artist": "Kryder",
      "title": "Eivissa",
-     "label": "Size"
+     "label": "Size",
+     "bp": "bp:29106391",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 75,
@@ -5060,7 +5159,10 @@
      "minute": 74,
      "artist": "Charlotte de Witte",
      "title": "Malina",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:23549584",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,
@@ -5079,7 +5181,10 @@
      "minute": 82,
      "artist": "Frank Biazzi",
      "title": "My House",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:19666044",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 84,
@@ -5626,7 +5731,10 @@
      "minute": 65,
      "artist": "Argy & ALOK & Adam Beyer",
      "title": "Keep Up",
-     "label": "Rave The World"
+     "label": "Rave The World",
+     "bp": "bp:30299867",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 67,
@@ -5668,7 +5776,10 @@
      "minute": 83,
      "artist": "IAN VII & JAVIIER",
      "title": "Sink",
-     "label": "Catch & Release"
+     "label": "Catch & Release",
+     "bp": "bp:29140117",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 85,
@@ -5711,13 +5822,19 @@
      "minute": null,
      "artist": "Loleatta Holloway",
      "title": "Dreamin'",
-     "label": "Defected"
+     "label": "Defected",
+     "bp": "bp:23262286",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 102,
      "artist": "Everything But The Girl",
      "title": "Missing",
-     "label": "Buzzin' Fly"
+     "label": "Buzzin' Fly",
+     "bp": "bp:1331132",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 106,
@@ -5900,7 +6017,10 @@
      "minute": 22,
      "artist": "Karla Blum",
      "title": "Ahogar",
-     "label": "Arcane"
+     "label": "Arcane",
+     "bp": "bp:28400566",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -6142,7 +6262,10 @@
      "minute": 79,
      "artist": "Kavinsky",
      "title": "Nightcall",
-     "label": ""
+     "label": "",
+     "bp": "bp:15710735",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 83,
@@ -6262,7 +6385,10 @@
      "minute": 205,
      "artist": "Ali Love",
      "title": "Freaky 1",
-     "label": "Affairs"
+     "label": "Affairs",
+     "bp": "bp:27913580",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 208,
@@ -6411,7 +6537,10 @@
      "minute": 293,
      "artist": "Alan Braxe",
      "title": "Intro",
-     "label": "Smugglers Way"
+     "label": "Smugglers Way",
+     "bp": "bp:23392509",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 297,
@@ -6552,7 +6681,10 @@
      "minute": 369,
      "artist": "Argy",
      "title": "RITMO",
-     "label": "NEWORLD"
+     "label": "NEWORLD",
+     "bp": "bp:19611339",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 371,
@@ -6931,7 +7063,10 @@
      "minute": 496,
      "artist": "You Know Seth",
      "title": "CCamp",
-     "label": "The Sixth Sense//Akashic"
+     "label": "The Sixth Sense//Akashic",
+     "bp": "bp:19961675",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 498,
@@ -6963,7 +7098,10 @@
      "minute": 503,
      "artist": "Federico Scavo",
      "title": "Balada",
-     "label": "Mas / D:vision"
+     "label": "Mas / D:vision",
+     "bp": "bp:5612465",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 507,
@@ -7143,7 +7281,10 @@
      "minute": 595,
      "artist": "Karla Blum",
      "title": "Ahogar",
-     "label": "Arcane"
+     "label": "Arcane",
+     "bp": "bp:28400566",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 598,

@@ -139,13 +139,19 @@
      "minute": 83,
      "artist": "Malin Genie",
      "title": "Phaethon",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "bp": "bp:17174790",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
      "artist": "Chloé Caillet & Luke Alessi Feat. Jocelyn Brown",
      "title": "The One",
-     "label": "Disorder"
+     "label": "Disorder",
+     "bp": "bp:26642970",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 94,
@@ -663,7 +669,10 @@
      "minute": 0,
      "artist": "Kerri Chandler",
      "title": "Rain",
-     "label": "Nervous"
+     "label": "Nervous",
+     "bp": "bp:1096456",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
@@ -872,7 +881,10 @@
      "minute": 83,
      "artist": "Malin Genie",
      "title": "Phaethon",
-     "label": "Up The Stuss"
+     "label": "Up The Stuss",
+     "bp": "bp:17174790",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 86,
@@ -922,7 +934,10 @@
      "minute": 108,
      "artist": "Burnski",
      "title": "Pacific",
-     "label": "Constant Sound"
+     "label": "Constant Sound",
+     "bp": "bp:18303974",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 112,
@@ -1264,7 +1279,10 @@
      "minute": 10,
      "artist": "Sally C & Eliza Rose",
      "title": "I Can Put",
-     "label": "Big Saldo's Chunkers"
+     "label": "Big Saldo's Chunkers",
+     "bp": "bp:19678952",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

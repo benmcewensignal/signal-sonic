@@ -788,7 +788,10 @@
      "minute": 223,
      "artist": "NOTION",
      "title": "TV DREAMS",
-     "label": ""
+     "label": "",
+     "bp": "bp:18796335",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 225,
@@ -991,7 +994,10 @@
      "minute": 327,
      "artist": "Skee Mask",
      "title": "The Bills",
-     "label": ""
+     "label": "",
+     "bp": "bp:18867224",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 330,
@@ -1052,7 +1058,10 @@
      "minute": 360,
      "artist": "Nativ",
      "title": "Shifty",
-     "label": "Tumble"
+     "label": "Tumble",
+     "bp": "bp:5127665",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 361,
@@ -1245,13 +1254,19 @@
      "minute": 446,
      "artist": "Coffintexts & Gaby G",
      "title": "Suave",
-     "label": ""
+     "label": "",
+     "bp": "bp:18611707",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 451,
      "artist": "Faithless",
      "title": "Insomnia",
-     "label": ""
+     "label": "",
+     "bp": "bp:22502937",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 455,
@@ -1631,13 +1646,19 @@
      "minute": 37,
      "artist": "NOTION",
      "title": "TV DREAMS",
-     "label": ""
+     "label": "",
+     "bp": "bp:18796335",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
      "artist": "Conducta",
      "title": "Needed U",
-     "label": ""
+     "label": "",
+     "bp": "bp:19467393",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -1695,7 +1716,10 @@
      "minute": 50,
      "artist": "Conducta",
      "title": "3FALL",
-     "label": ""
+     "label": "",
+     "bp": "bp:17723676",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -1742,7 +1766,10 @@
      "minute": 59,
      "artist": "Conducta",
      "title": "Lessons (Interplanetary Criminal 'Back 2 Skool' Mix)",
-     "label": ""
+     "label": "",
+     "bp": "bp:16972253",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1796,7 +1823,10 @@
      "minute": 16,
      "artist": "Ruze",
      "title": "Journey",
-     "label": ""
+     "label": "",
+     "bp": "bp:18835034",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -1851,7 +1881,10 @@
      "minute": 55,
      "artist": "Plus One",
      "title": "Bonk",
-     "label": ""
+     "label": "",
+     "bp": "bp:18839220",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -1886,7 +1919,10 @@
      "minute": 7,
      "artist": "Ruze",
      "title": "Journey",
-     "label": ""
+     "label": "",
+     "bp": "bp:18835034",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -2027,13 +2063,19 @@
      "minute": 70,
      "artist": "Conducta",
      "title": "Be The 1",
-     "label": ""
+     "label": "",
+     "bp": "bp:20171746",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 74,
      "artist": "Conducta",
      "title": "3FALL",
-     "label": "Kiwi Rekords"
+     "label": "Kiwi Rekords",
+     "bp": "bp:17723676",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 75,
@@ -2267,7 +2309,10 @@
      "minute": 47,
      "artist": "Effy",
      "title": "Mad",
-     "label": "Steel City Dance Discs"
+     "label": "Steel City Dance Discs",
+     "bp": "bp:19689494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,

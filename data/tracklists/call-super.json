@@ -602,13 +602,19 @@
      "minute": 29,
      "artist": "Sofia Kourtesis & Daphni",
      "title": "Unidos",
-     "label": ""
+     "label": "",
+     "bp": "bp:20510647",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
      "artist": "Matt Karmil",
      "title": "Lush",
-     "label": ""
+     "label": "",
+     "bp": "bp:20705182",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -640,7 +646,10 @@
      "minute": 39,
      "artist": "Marie Davidson",
      "title": "Y.A.A.M.",
-     "label": ""
+     "label": "",
+     "bp": "bp:18824339",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -726,7 +735,10 @@
      "minute": 58,
      "artist": "Ruthlss",
      "title": "Ascension",
-     "label": ""
+     "label": "",
+     "bp": "bp:20164086",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 0,

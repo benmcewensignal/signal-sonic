@@ -74,7 +74,10 @@
      "minute": 18,
      "artist": "WhoMadeWho & Kölsch",
      "title": "Heartless",
-     "label": "The Moment"
+     "label": "The Moment",
+     "bp": "bp:19547514",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -93,7 +96,10 @@
      "minute": 25,
      "artist": "RÜFÜS DU SOL",
      "title": "Lately",
-     "label": "Rose Avenue"
+     "label": "Rose Avenue",
+     "bp": "bp:20465079",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -105,7 +111,10 @@
      "minute": 33,
      "artist": "Carl Bee",
      "title": "Sinfonia",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19314110",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -207,7 +216,10 @@
      "minute": 76,
      "artist": "Ben Böhmer",
      "title": "Rust",
-     "label": "Ninja"
+     "label": "Ninja",
+     "bp": "bp:19383555",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 79,
@@ -252,7 +264,10 @@
      "minute": 91,
      "artist": "Shimza & CamelPhat Feat. Idd Aziz",
      "title": "Bado",
-     "label": ""
+     "label": "",
+     "bp": "bp:19465363",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 96,
@@ -647,7 +662,10 @@
      "minute": null,
      "artist": "Black Motion Feat. Xoli M",
      "title": "Rainbow",
-     "label": ""
+     "label": "",
+     "bp": "bp:17380188",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -793,13 +811,19 @@
      "minute": null,
      "artist": "Caiiro",
      "title": "The Akan",
-     "label": "Ownit"
+     "label": "Ownit",
+     "bp": "bp:16566968",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Nitefreak & Emmanuel Jal",
      "title": "Gorah",
-     "label": "Higher Ground (Mad Decent)"
+     "label": "Higher Ground (Mad Decent)",
+     "bp": "bp:18267842",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -811,7 +835,10 @@
      "minute": null,
      "artist": "Zakes Bantwini & Kasango",
      "title": "Osama",
-     "label": "Paradise Sound System"
+     "label": "Paradise Sound System",
+     "bp": "bp:15777209",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1064,7 +1091,10 @@
      "minute": null,
      "artist": "Darque & Thandi Draai",
      "title": "Yonke",
-     "label": "Kunye"
+     "label": "Kunye",
+     "bp": "bp:18691003",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1164,7 +1194,10 @@
      "minute": null,
      "artist": "Shimza & CamelPhat Feat. Idd Aziz",
      "title": "Bado",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:19465363",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1352,7 +1385,10 @@
      "minute": null,
      "artist": "Da Capo & Moojo",
      "title": "Secret ID",
-     "label": "Calamar"
+     "label": "Calamar",
+     "bp": "bp:17873348",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1545,7 +1581,10 @@
      "minute": null,
      "artist": "Foozak",
      "title": "Parsaloi",
-     "label": ""
+     "label": "",
+     "bp": "bp:20335738",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1769,7 +1808,10 @@
      "minute": 106,
      "artist": "andhim",
      "title": "Acido",
-     "label": "Magnifik"
+     "label": "Magnifik",
+     "bp": "bp:24233384",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 111,

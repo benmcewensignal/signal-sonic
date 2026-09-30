@@ -61,7 +61,10 @@
      "minute": 15,
      "artist": "DJ Sprinter",
      "title": "Get Up",
-     "label": ""
+     "label": "",
+     "bp": "bp:20730332",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -367,7 +370,10 @@
      "minute": 40,
      "artist": "Josi Devil",
      "title": "Duinpan",
-     "label": "Nervous Horizon"
+     "label": "Nervous Horizon",
+     "bp": "bp:21696175",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
@@ -428,7 +434,10 @@
      "minute": null,
      "artist": "Shy One",
      "title": "Nort Wess",
-     "label": ""
+     "label": "",
+     "bp": "bp:22376517",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -583,7 +592,10 @@
      "minute": null,
      "artist": "Calm Stiege",
      "title": "Elastico",
-     "label": ""
+     "label": "",
+     "bp": "bp:22225130",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1085,7 +1097,10 @@
      "minute": null,
      "artist": "Martelo",
      "title": "T2b Tool",
-     "label": "Interlink Vol.1 - Forthcoming"
+     "label": "Interlink Vol.1 - Forthcoming",
+     "bp": "bp:27508006",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1193,7 +1208,10 @@
      "minute": 9,
      "artist": "Shy One",
      "title": "Nort Wess",
-     "label": ""
+     "label": "",
+     "bp": "bp:22376517",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1249,7 +1267,10 @@
      "minute": null,
      "artist": "Mak & Pasteman",
      "title": "Hussle",
-     "label": ""
+     "label": "",
+     "bp": "bp:26943734",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -1300,13 +1321,19 @@
      "minute": null,
      "artist": "Buckley",
      "title": "Gawy",
-     "label": ""
+     "label": "",
+     "bp": "bp:28490440",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
      "artist": "Martelo",
      "title": "T2B Tool",
-     "label": "Interlink"
+     "label": "Interlink",
+     "bp": "bp:27508006",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -1382,7 +1409,10 @@
      "minute": 20,
      "artist": "Karizma",
      "title": "Darqness",
-     "label": "R2"
+     "label": "R2",
+     "bp": "bp:17333810",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1490,7 +1520,10 @@
      "minute": null,
      "artist": "Buckley",
      "title": "Gawy",
-     "label": ""
+     "label": "",
+     "bp": "bp:28490440",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1502,7 +1535,10 @@
      "minute": 58,
      "artist": "Only Now",
      "title": "Bound",
-     "label": "Infinite Machine"
+     "label": "Infinite Machine",
+     "bp": "bp:9370973",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1581,7 +1617,10 @@
      "minute": 29,
      "artist": "Only Now",
      "title": "Bound",
-     "label": "Infinite Machine"
+     "label": "Infinite Machine",
+     "bp": "bp:9370973",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 31,
@@ -1801,7 +1840,10 @@
      "minute": null,
      "artist": "Mak & Pasteman",
      "title": "Hussle",
-     "label": ""
+     "label": "",
+     "bp": "bp:26943734",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1855,7 +1897,10 @@
      "minute": null,
      "artist": "Scotti Dee",
      "title": "Vicious",
-     "label": ""
+     "label": "",
+     "bp": "bp:28500598",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1912,7 +1957,10 @@
      "minute": 25,
      "artist": "Beatrice M. Feat. Jay Carder",
      "title": "Here",
-     "label": "Tectonic"
+     "label": "Tectonic",
+     "bp": "bp:27074563",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2371,7 +2419,10 @@
      "minute": 42,
      "artist": "Impérieux",
      "title": "Fena",
-     "label": ""
+     "label": "",
+     "bp": "bp:20465189",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2743,7 +2794,10 @@
      "minute": 11,
      "artist": "Scotti Dee",
      "title": "Vicious",
-     "label": ""
+     "label": "",
+     "bp": "bp:28500598",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 16,

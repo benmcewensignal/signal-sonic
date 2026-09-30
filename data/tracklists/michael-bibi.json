@@ -35,7 +35,10 @@
      "minute": 9,
      "artist": "Francis Mercier & Emmanuel Jal",
      "title": "Hustla",
-     "label": "Higher Ground (Mad Decent)"
+     "label": "Higher Ground (Mad Decent)",
+     "bp": "bp:18594872",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -66,7 +69,10 @@
      "minute": 21,
      "artist": "Alex Wann Feat. Nes Mburu",
      "title": "Peperuke",
-     "label": "One People"
+     "label": "One People",
+     "bp": "bp:18655910",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -91,7 +97,10 @@
      "minute": 32,
      "artist": "Made By Pete",
      "title": "Fires",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "bp": "bp:18612338",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -116,7 +125,10 @@
      "minute": 42,
      "artist": "Ramin Rezaie",
      "title": "Ear Candy",
-     "label": "Silky"
+     "label": "Silky",
+     "bp": "bp:17525653",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 47,
@@ -159,7 +171,10 @@
      "minute": 60,
      "artist": "Reelow Feat. Samira",
      "title": "M.O.N.E.Y.",
-     "label": "Solid Grooves"
+     "label": "Solid Grooves",
+     "bp": "bp:18181312",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 63,
@@ -230,7 +245,10 @@
      "minute": 83,
      "artist": "Moby & Anfisa Letyago",
      "title": "You & Me",
-     "label": "Defected"
+     "label": "Defected",
+     "bp": "bp:19603148",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 87,
@@ -362,7 +380,10 @@
      "minute": 15,
      "artist": "Hot Natured Feat. Anabel Englund",
      "title": "Reverse Skydiving",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "bp": "bp:5260193",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -546,7 +567,10 @@
      "minute": 85,
      "artist": "Patrick Topping",
      "title": "Forget",
-     "label": "Hot Creations"
+     "label": "Hot Creations",
+     "bp": "bp:5279087",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 88,
@@ -571,7 +595,10 @@
      "minute": 94,
      "artist": "Ramin Rezaie",
      "title": "Ear Candy",
-     "label": "Silky"
+     "label": "Silky",
+     "bp": "bp:17525653",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 97,
@@ -621,7 +648,10 @@
      "minute": 112,
      "artist": "Reelow Feat. Samira",
      "title": "M.O.N.E.Y.",
-     "label": "Solid Grooves"
+     "label": "Solid Grooves",
+     "bp": "bp:18181312",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 115,

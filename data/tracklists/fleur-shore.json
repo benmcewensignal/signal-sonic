@@ -193,7 +193,10 @@
      "minute": null,
      "artist": "Bontan",
      "title": "Get Down",
-     "label": ""
+     "label": "",
+     "bp": "bp:18044326",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -239,7 +242,10 @@
      "minute": null,
      "artist": "Fleur Shore",
      "title": "Higher",
-     "label": ""
+     "label": "",
+     "bp": "bp:20280773",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -251,7 +257,10 @@
      "minute": null,
      "artist": "Di Chiara Brothers",
      "title": "Everybody",
-     "label": ""
+     "label": "",
+     "bp": "bp:18669344",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1358,7 +1367,10 @@
      "minute": null,
      "artist": "Jackmaster",
      "title": "Ode 2 U",
-     "label": ""
+     "label": "",
+     "bp": "bp:18858072",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1480,7 +1492,10 @@
      "minute": 63,
      "artist": "Bontan",
      "title": "Get Down",
-     "label": "No Art"
+     "label": "No Art",
+     "bp": "bp:18044326",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 66,
@@ -1497,7 +1512,10 @@
      "minute": 75,
      "artist": "Nick Curly",
      "title": "Altrip",
-     "label": "Cécille"
+     "label": "Cécille",
+     "bp": "bp:18051221",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 77,
@@ -1618,7 +1636,10 @@
      "minute": 114,
      "artist": "Di Chiara Brothers",
      "title": "Everybody",
-     "label": ""
+     "label": "",
+     "bp": "bp:18669344",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 117,
@@ -1841,7 +1862,10 @@
      "minute": null,
      "artist": "Nick Curly",
      "title": "Shelter",
-     "label": ""
+     "label": "",
+     "bp": "bp:19184929",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1866,7 +1890,10 @@
      "minute": null,
      "artist": "Traumer",
      "title": "Nectar",
-     "label": ""
+     "label": "",
+     "bp": "bp:18838163",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1955,7 +1982,10 @@
      "minute": null,
      "artist": "Fleur Shore",
      "title": "Higher",
-     "label": ""
+     "label": "",
+     "bp": "bp:20280773",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1992,7 +2022,10 @@
      "minute": 3,
      "artist": "PAWSA Feat. Malachii",
      "title": "BANG BANG",
-     "label": "Pawz"
+     "label": "Pawz",
+     "bp": "bp:20355579",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -2013,7 +2046,10 @@
      "minute": 13,
      "artist": "Chloé Caillet & Luke Alessi Feat. Jocelyn Brown",
      "title": "The One",
-     "label": "Disorder"
+     "label": "Disorder",
+     "bp": "bp:26642970",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 16,
@@ -2171,7 +2207,10 @@
      "minute": 65,
      "artist": "Fleur Shore",
      "title": "Higher",
-     "label": ""
+     "label": "",
+     "bp": "bp:20280773",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 69,

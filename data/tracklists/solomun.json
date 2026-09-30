@@ -79,7 +79,10 @@
      "minute": 25,
      "artist": "John Summit & VLTRA",
      "title": "Legacy",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:18145087",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -156,7 +159,10 @@
      "minute": 60,
      "artist": "Rafael Cerato & Laherte",
      "title": "Hustling",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19441464",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -533,13 +539,19 @@
      "minute": 115,
      "artist": "Catz 'N Dogz & Nala",
      "title": "Me Me Me",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:18050333",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 118,
      "artist": "Hagop Tchaparian",
      "title": "Treacle",
-     "label": "Text"
+     "label": "Text",
+     "bp": "bp:18943206",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 121,
@@ -692,7 +704,10 @@
      "minute": 185,
      "artist": "Rafael Cerato & Laherte",
      "title": "Hustling",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19441464",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -805,7 +820,10 @@
      "minute": 4,
      "artist": "Rafael & Millero",
      "title": "Say That",
-     "label": ""
+     "label": "",
+     "bp": "bp:20271535",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -908,7 +926,10 @@
      "minute": 71,
      "artist": "OUNAH",
      "title": "Right Now",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19792530",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 76,
@@ -951,7 +972,10 @@
      "minute": 93,
      "artist": "Tigerblind",
      "title": "Vitamin E",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19882882",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,
@@ -986,7 +1010,10 @@
      "minute": 117,
      "artist": "Carl Bee",
      "title": "Sinfonia",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19314110",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 123,
@@ -1079,7 +1106,10 @@
      "minute": 180,
      "artist": "Drax Nelson",
      "title": "Now Do It",
-     "label": "Untidy"
+     "label": "Untidy",
+     "bp": "bp:17365687",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 185,
@@ -1152,7 +1182,10 @@
      "minute": 0,
      "artist": "GENESI & MEDUZA",
      "title": "Take It",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20063136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -1258,13 +1291,19 @@
      "minute": 52,
      "artist": "Torren Foot & OMNOM & F.Physical",
      "title": "La Banda",
-     "label": "Sweat It Out!"
+     "label": "Sweat It Out!",
+     "bp": "bp:20275892",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
      "artist": "Catz 'N Dogz & Nala",
      "title": "Me Me Me",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:18050333",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -1289,7 +1328,10 @@
      "minute": 62,
      "artist": "Alexander Delanois",
      "title": "Bad Mad",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19703658",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 66,
@@ -1349,7 +1391,10 @@
      "minute": 88,
      "artist": "Matt & Juan Brizuela",
      "title": "Vertigo",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19498528",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
@@ -1691,7 +1736,10 @@
      "minute": 5,
      "artist": "Deomid",
      "title": "Twisted",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20662221",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -1744,7 +1792,10 @@
      "minute": 25,
      "artist": "Alexander Delanois",
      "title": "Bad Mad",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19703658",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -1878,7 +1929,10 @@
      "minute": 69,
      "artist": "Matt & Juan Brizuela",
      "title": "Vertigo",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19498528",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -1964,7 +2018,10 @@
      "minute": 9,
      "artist": "Deomid",
      "title": "Twisted",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20662221",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -2113,7 +2170,10 @@
      "minute": 85,
      "artist": "Motel Sazani",
      "title": "G Power",
-     "label": "Modulhead"
+     "label": "Modulhead",
+     "bp": "bp:20826643",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
@@ -2213,7 +2273,10 @@
      "minute": 136,
      "artist": "GENESI & MEDUZA",
      "title": "Take It",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20063136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 139,
@@ -2258,7 +2321,10 @@
      "minute": 153,
      "artist": "Jewel Kid",
      "title": "Go Hard",
-     "label": "Toolroom"
+     "label": "Toolroom",
+     "bp": "bp:19796880",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 158,
@@ -2350,7 +2416,10 @@
      "minute": 24,
      "artist": "GENESI & Meduza",
      "title": "Take It",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:20063136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -2395,7 +2464,10 @@
      "minute": 43,
      "artist": "Jewel Kid",
      "title": "Go Hard",
-     "label": "Toolroom"
+     "label": "Toolroom",
+     "bp": "bp:19796880",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -2449,7 +2521,10 @@
      "minute": null,
      "artist": "Calvin Harris Feat. Clementine Douglas",
      "title": "Blessings",
-     "label": "Columbia"
+     "label": "Columbia",
+     "bp": "bp:20653073",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2668,7 +2743,10 @@
      "minute": null,
      "artist": "MORTEN & ARTBAT",
      "title": "Culture",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:20403640",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2854,7 +2932,10 @@
      "minute": 36,
      "artist": "Motel Sazani",
      "title": "G Power",
-     "label": ""
+     "label": "",
+     "bp": "bp:20826643",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 40,
@@ -3011,13 +3092,19 @@
      "minute": 68,
      "artist": "Volkoder",
      "title": "So Am I",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:23332103",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
      "artist": "Pablo Say",
      "title": "I Want",
-     "label": ""
+     "label": "",
+     "bp": "bp:29471506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 76,
@@ -3169,13 +3256,19 @@
      "minute": 135,
      "artist": "Girls Don't Sync",
      "title": "Come Thru",
-     "label": "Distrokid"
+     "label": "Distrokid",
+     "bp": "bp:19582272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 138,
      "artist": "Jewel Kid",
      "title": "Go Hard",
-     "label": "Toolroom"
+     "label": "Toolroom",
+     "bp": "bp:19796880",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 143,
@@ -3376,13 +3469,19 @@
      "minute": 31,
      "artist": "Drax Nelson",
      "title": "Now Do It",
-     "label": "Untidy"
+     "label": "Untidy",
+     "bp": "bp:17365687",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
      "artist": "The Dare",
      "title": "Girls",
-     "label": "Fire Talk"
+     "label": "Fire Talk",
+     "bp": "bp:23314601",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -3428,7 +3527,10 @@
      "minute": 59,
      "artist": "Girls Don't Sync",
      "title": "Come Thru",
-     "label": "Distrokid"
+     "label": "Distrokid",
+     "bp": "bp:19582272",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -3565,13 +3667,19 @@
      "minute": 50,
      "artist": "TH;EN & Mia Mendi",
      "title": "Fade Away",
-     "label": ""
+     "label": "",
+     "bp": "bp:24292026",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
      "artist": "Luca Luper & Karmon",
      "title": "Frequency",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:21922735",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 59,
@@ -3583,7 +3691,10 @@
      "minute": 63,
      "artist": "Pablo Say",
      "title": "I Want",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:29471506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 67,
@@ -3649,7 +3760,10 @@
      "minute": 91,
      "artist": "Seth Hills",
      "title": "Secretos",
-     "label": ""
+     "label": "",
+     "bp": "bp:29430640",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 94,
@@ -3722,7 +3836,10 @@
      "minute": 125,
      "artist": "The Dare",
      "title": "Girls",
-     "label": "Fire Talk"
+     "label": "Fire Talk",
+     "bp": "bp:23314601",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 128,
@@ -3734,7 +3851,10 @@
      "minute": 131,
      "artist": "Avision",
      "title": "Good Time",
-     "label": "Ellum"
+     "label": "Ellum",
+     "bp": "bp:18689501",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 135,
@@ -4035,13 +4155,19 @@
      "minute": 77,
      "artist": "Drax Nelson",
      "title": "Now Do It",
-     "label": "Untidy"
+     "label": "Untidy",
+     "bp": "bp:17365687",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 83,
      "artist": "The Dare",
      "title": "Girls",
-     "label": "Fire Talk"
+     "label": "Fire Talk",
+     "bp": "bp:23314601",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 87,
@@ -4058,7 +4184,10 @@
      "minute": 92,
      "artist": "Fuzion",
      "title": "Levels",
-     "label": ""
+     "label": "",
+     "bp": "bp:20571986",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 95,
@@ -4083,7 +4212,10 @@
      "minute": 104,
      "artist": "Luca Luper & Karmon",
      "title": "Frequency",
-     "label": ""
+     "label": "",
+     "bp": "bp:21922735",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 109,

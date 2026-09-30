@@ -60,7 +60,10 @@
      "minute": 22,
      "artist": "MORTEN & ARTBAT Feat. Bonn",
      "title": "Hollow",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:19766729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -174,7 +177,10 @@
      "minute": 9,
      "artist": "Max Styler & Oscar L",
      "title": "Addiction",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:19397831",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -199,7 +205,10 @@
      "minute": 20,
      "artist": "Bigfett",
      "title": "Takatum",
-     "label": "Mahool"
+     "label": "Mahool",
+     "bp": "bp:19527129",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -360,7 +369,10 @@
      "minute": null,
      "artist": "Maesic & Marshall Jefferson Feat. Salomé Das",
      "title": "Life Is Simple (Move Your Body) (Extended Mix)",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:20128472",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -547,7 +559,10 @@
      "minute": 9,
      "artist": "Max Styler & Oscar L",
      "title": "Addiction",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:19397831",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -572,7 +587,10 @@
      "minute": 20,
      "artist": "Bigfett",
      "title": "Takatum",
-     "label": "Mahool"
+     "label": "Mahool",
+     "bp": "bp:19527129",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -900,7 +918,10 @@
      "minute": 5,
      "artist": "ARTBAT & JOA",
      "title": "The Spot",
-     "label": ""
+     "label": "",
+     "bp": "bp:20644409",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -919,13 +940,19 @@
      "minute": 12,
      "artist": "ARTBAT",
      "title": "Dance",
-     "label": ""
+     "label": "",
+     "bp": "bp:22360268",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
      "artist": "Eric Prydz",
      "title": "Generate",
-     "label": ""
+     "label": "",
+     "bp": "bp:15744364",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
@@ -944,7 +971,10 @@
      "minute": 23,
      "artist": "ARTBAT",
      "title": "Galaxy",
-     "label": ""
+     "label": "",
+     "bp": "bp:20691265",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -1015,13 +1045,19 @@
      "minute": 49,
      "artist": "MORTEN & ARTBAT Feat. Bonn",
      "title": "Hollow",
-     "label": ""
+     "label": "",
+     "bp": "bp:19766729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 54,
      "artist": "MORTEN & ARTBAT",
      "title": "Culture",
-     "label": ""
+     "label": "",
+     "bp": "bp:20403640",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -1088,7 +1124,10 @@
      "minute": 4,
      "artist": "ARTBAT & JOA",
      "title": "The Spot",
-     "label": "UPPERGROUND"
+     "label": "UPPERGROUND",
+     "bp": "bp:20644409",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -1168,7 +1207,10 @@
      "minute": 67,
      "artist": "MORTEN & ARTBAT Feat. Bonn",
      "title": "Hollow",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:19766729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 71,
@@ -1247,7 +1289,10 @@
      "minute": 6,
      "artist": "Maesic & Marshall Jefferson Feat. Salomé Das",
      "title": "Life Is Simple (Move Your Body) (Extended Mix)",
-     "label": "Helix"
+     "label": "Helix",
+     "bp": "bp:20128472",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -1298,7 +1343,10 @@
      "minute": 21,
      "artist": "HUGEL & Kurd Maverick",
      "title": "PYHU (Put Your Hands Up) (Extended Mix)",
-     "label": "Cr2"
+     "label": "Cr2",
+     "bp": "bp:20969830",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -1478,7 +1526,10 @@
      "minute": null,
      "artist": "James Hype",
      "title": "Wild",
-     "label": "Stereohype"
+     "label": "Stereohype",
+     "bp": "bp:19189488",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1727,7 +1778,10 @@
      "minute": null,
      "artist": "Max Styler & Oscar L",
      "title": "Addiction",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:19397831",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1828,7 +1882,10 @@
      "minute": null,
      "artist": "Marian (BR) & Freenzy Music",
      "title": "Pakit Ban",
-     "label": "Mood Child"
+     "label": "Mood Child",
+     "bp": "bp:18920000",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

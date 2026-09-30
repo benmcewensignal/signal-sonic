@@ -257,7 +257,10 @@
      "minute": 83,
      "artist": "Reinier Zonneveld",
      "title": "Hard Gaan",
-     "label": "Filth On Acid"
+     "label": "Filth On Acid",
+     "bp": "bp:18394222",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -492,7 +495,10 @@
      "minute": 98,
      "artist": "Reinier Zonneveld",
      "title": "Hard Gaan",
-     "label": "Filth On Acid"
+     "label": "Filth On Acid",
+     "bp": "bp:18394222",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 101,
@@ -748,7 +754,10 @@
      "minute": 208,
      "artist": "R.M.K",
      "title": "Muscle",
-     "label": ""
+     "label": "",
+     "bp": "bp:17107671",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 209,
@@ -889,7 +898,10 @@
      "minute": 327,
      "artist": "Hertz",
      "title": "Timballe",
-     "label": ""
+     "label": "",
+     "bp": "bp:18201494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 330,
@@ -990,7 +1002,10 @@
      "minute": 439,
      "artist": "Airod",
      "title": "Balaclava",
-     "label": ""
+     "label": "",
+     "bp": "bp:18626938",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 443,
@@ -1218,7 +1233,10 @@
      "minute": 688,
      "artist": "Ignez",
      "title": "Oceanid",
-     "label": ""
+     "label": "",
+     "bp": "bp:18542665",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 689,
@@ -1583,7 +1601,10 @@
      "minute": null,
      "artist": "Reinier Zonneveld",
      "title": "Cse",
-     "label": ""
+     "label": "",
+     "bp": "bp:15612321",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1737,7 +1758,10 @@
      "minute": 6,
      "artist": "Reinier Zonneveld",
      "title": "CSE",
-     "label": "Filth On Acid"
+     "label": "Filth On Acid",
+     "bp": "bp:15612321",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -2195,7 +2219,10 @@
      "minute": 4,
      "artist": "Thomas Newson & Marco V",
      "title": "Vibr8",
-     "label": "Filth On Acid"
+     "label": "Filth On Acid",
+     "bp": "bp:26891760",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -2373,7 +2400,10 @@
      "minute": 20,
      "artist": "Me & My Toothbrush",
      "title": "Air Miles",
-     "label": ""
+     "label": "",
+     "bp": "bp:7934064",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -2392,7 +2422,10 @@
      "minute": 28,
      "artist": "Bendel",
      "title": "Disco",
-     "label": ""
+     "label": "",
+     "bp": "bp:24284381",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -2493,7 +2526,10 @@
      "minute": 5,
      "artist": "Thomas Newson & Marco V",
      "title": "Vibr8",
-     "label": "Filth On Acid"
+     "label": "Filth On Acid",
+     "bp": "bp:26891760",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -2843,7 +2879,10 @@
      "minute": 67,
      "artist": "Thomas Newson",
      "title": "Vibr8",
-     "label": "Filth On Acid"
+     "label": "Filth On Acid",
+     "bp": "bp:26891760",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 71,
@@ -3034,7 +3073,10 @@
      "minute": 11,
      "artist": "Max Styler",
      "title": "Freaky 1 (Extended)",
-     "label": "Affairs"
+     "label": "Affairs",
+     "bp": "bp:27913580",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -3199,7 +3241,10 @@
      "minute": 4,
      "artist": "Thomas Newson & Marco V",
      "title": "Vibr8",
-     "label": "Filth On Acid"
+     "label": "Filth On Acid",
+     "bp": "bp:26891760",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,

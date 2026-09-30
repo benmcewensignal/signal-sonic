@@ -82,7 +82,10 @@
      "minute": 41,
      "artist": "Estiva X Ruben De Ronde",
      "title": "Rainbow",
-     "label": "Statement!"
+     "label": "Statement!",
+     "bp": "bp:10378695",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -213,7 +216,10 @@
      "minute": 31,
      "artist": "Elevven",
      "title": "Good Love",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:20540001",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -244,7 +250,10 @@
      "minute": 48,
      "artist": "Estiva X Ruben De Ronde",
      "title": "Rainbow",
-     "label": "Statement!"
+     "label": "Statement!",
+     "bp": "bp:10378695",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -269,7 +278,10 @@
      "minute": 59,
      "artist": "Ferry Corsten & Superstrings",
      "title": "Remember",
-     "label": "Flashover"
+     "label": "Flashover",
+     "bp": "bp:19593869",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -404,7 +416,10 @@
      "minute": 25,
      "artist": "Estiva X Ruben De Ronde",
      "title": "Rainbow",
-     "label": "Statement!"
+     "label": "Statement!",
+     "bp": "bp:10378695",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -815,7 +830,10 @@
      "minute": 35,
      "artist": "SinSonic",
      "title": "Paradigm",
-     "label": "FSOE Clandestine"
+     "label": "FSOE Clandestine",
+     "bp": "bp:20607484",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -1012,7 +1030,10 @@
      "minute": 99,
      "artist": "ARTBAT & JOA",
      "title": "The Spot",
-     "label": "Upperground"
+     "label": "Upperground",
+     "bp": "bp:20644409",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 102,
@@ -1695,13 +1716,19 @@
      "minute": 157,
      "artist": "Elevven",
      "title": "Good Love",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:20540001",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 157,
      "artist": "Estiva",
      "title": "KFIL",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:20060216",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 157,
@@ -2044,7 +2071,10 @@
      "minute": 35,
      "artist": "Mind Against, Tharat",
      "title": "Cloud",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:21994587",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
@@ -2434,7 +2464,10 @@
      "minute": 34,
      "artist": "Chicane & Larse",
      "title": "Offshore",
-     "label": "Modena"
+     "label": "Modena",
+     "bp": "bp:16618155",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -2505,7 +2538,10 @@
      "minute": 55,
      "artist": "KASIA & SOLANCE",
      "title": "Inferno",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:22359270",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -2650,7 +2686,10 @@
      "minute": 42,
      "artist": "Estiva",
      "title": "Mirador",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:23098226",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -2802,7 +2841,10 @@
      "minute": 34,
      "artist": "Estiva",
      "title": "Désir",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:23098227",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -2834,13 +2876,19 @@
      "minute": 44,
      "artist": "EBENEZER",
      "title": "Heaven",
-     "label": "A State Of Trance"
+     "label": "A State Of Trance",
+     "bp": "bp:29093238",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
      "artist": "Estiva",
      "title": "Mirador",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:23098226",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -2909,7 +2957,10 @@
      "minute": 12,
      "artist": "Trilucid",
      "title": "Hiera",
-     "label": "Ionica"
+     "label": "Ionica",
+     "bp": "bp:23430334",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -2941,7 +2992,10 @@
      "minute": 24,
      "artist": "Gai Barone",
      "title": "Limbic",
-     "label": "Univack"
+     "label": "Univack",
+     "bp": "bp:23316610",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -3054,7 +3108,10 @@
      "minute": 0,
      "artist": "EBENEZER",
      "title": "Heaven",
-     "label": "A State Of Trance"
+     "label": "A State Of Trance",
+     "bp": "bp:29093238",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
@@ -3384,7 +3441,10 @@
      "minute": 53,
      "artist": "Statement! Of The Week: Kyau & Albert",
      "title": "Unforgivable",
-     "label": "Euphonic"
+     "label": "Euphonic",
+     "bp": "bp:23386608",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -3407,7 +3467,10 @@
      "minute": 4,
      "artist": "LöKii & Lipless",
      "title": "Still I Run",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:23712250",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -3483,7 +3546,10 @@
      "minute": 33,
      "artist": "Tommy Farrow Feat. 88Birds",
      "title": "Raindrops",
-     "label": "Purified"
+     "label": "Purified",
+     "bp": "bp:23218732",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -3511,7 +3577,10 @@
      "minute": 42,
      "artist": "Hot Since 82 Feat. Kuuda",
      "title": "Forever",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:23597568",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 47,
@@ -3624,7 +3693,10 @@
      "minute": 21,
      "artist": "Gai Barone",
      "title": "Macula",
-     "label": "Univack"
+     "label": "Univack",
+     "bp": "bp:28421347",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -3782,7 +3854,10 @@
      "minute": 21,
      "artist": "EBENEZER",
      "title": "Heaven",
-     "label": "A State Of Trance"
+     "label": "A State Of Trance",
+     "bp": "bp:29093238",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 25,
@@ -4000,7 +4075,10 @@
      "minute": 34,
      "artist": "Tommy Farrow Feat. 88Birds",
      "title": "Raindrops",
-     "label": "Purified"
+     "label": "Purified",
+     "bp": "bp:23218732",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -4169,7 +4247,10 @@
      "minute": 37,
      "artist": "Jochem Hamerling",
      "title": "Octomore",
-     "label": "La Guardería"
+     "label": "La Guardería",
+     "bp": "bp:27979358",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -4201,7 +4282,10 @@
      "minute": 48,
      "artist": "Jaytech",
      "title": "Atmo",
-     "label": "Positronic"
+     "label": "Positronic",
+     "bp": "bp:26895712",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -4443,7 +4527,10 @@
      "minute": 12,
      "artist": "LöKii & Lipless",
      "title": "Still I Run",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:23712250",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -4564,7 +4651,10 @@
      "minute": 0,
      "artist": "Estiva",
      "title": "TCL",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:24254645",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -5299,7 +5389,10 @@
      "minute": 11,
      "artist": "Andy Woldman",
      "title": "Shortline",
-     "label": "AVA"
+     "label": "AVA",
+     "bp": "bp:27075316",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -5545,7 +5638,10 @@
      "minute": 39,
      "artist": "Andy Woldman",
      "title": "Shortline",
-     "label": "AVA"
+     "label": "AVA",
+     "bp": "bp:27075316",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -5564,7 +5660,10 @@
      "minute": 47,
      "artist": "TH;EN & Mia Mendi",
      "title": "Fade Away",
-     "label": "Siona"
+     "label": "Siona",
+     "bp": "bp:24292026",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -5760,7 +5859,10 @@
      "minute": 56,
      "artist": "Joris Voorn & Roddy Lima & Taylr Renee",
      "title": "Machine",
-     "label": "Spectrum"
+     "label": "Spectrum",
+     "bp": "bp:28702504",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -5915,7 +6017,10 @@
      "minute": 0,
      "artist": "Record Of The Week: EYNKA Feat. Låpsley",
      "title": "Promises",
-     "label": "Armada"
+     "label": "Armada",
+     "bp": "bp:28362564",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,

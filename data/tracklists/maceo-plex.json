@@ -15,7 +15,10 @@
      "minute": null,
      "artist": "Zerb & Sofiya Nzau",
      "title": "Mwaki",
-     "label": ""
+     "label": "",
+     "bp": "bp:18362539",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -123,7 +126,10 @@
      "minute": null,
      "artist": "Moeaike",
      "title": "Mala Fama",
-     "label": ""
+     "label": "",
+     "bp": "bp:18473136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -252,7 +258,10 @@
      "minute": null,
      "artist": "Maceo Plex",
      "title": "Wervik",
-     "label": ""
+     "label": "",
+     "bp": "bp:18432297",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -277,7 +286,10 @@
      "minute": null,
      "artist": "Maceo Plex & Tyler Hill",
      "title": "Nasty",
-     "label": ""
+     "label": "",
+     "bp": "bp:18432301",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -315,7 +327,10 @@
      "minute": null,
      "artist": "Maceo Plex Feat. Perry Farrell",
      "title": "Get Out Of Here",
-     "label": ""
+     "label": "",
+     "bp": "bp:18432303",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -333,7 +348,10 @@
      "minute": null,
      "artist": "Maceo Plex Feat. Oscar And The Wolf",
      "title": "All Night",
-     "label": ""
+     "label": "",
+     "bp": "bp:17031300",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -376,7 +394,10 @@
      "minute": 0,
      "artist": "Maceo Plex & Tyler Hill",
      "title": "Nasty",
-     "label": "Lone Romantic"
+     "label": "Lone Romantic",
+     "bp": "bp:18432301",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
@@ -442,7 +463,10 @@
      "minute": 41,
      "artist": "Maceo Plex Feat. Perry Farrell",
      "title": "Get Out Of Here",
-     "label": "Lone Romantic"
+     "label": "Lone Romantic",
+     "bp": "bp:18432303",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -664,7 +688,10 @@
      "minute": 45,
      "artist": "Pangaea",
      "title": "The Slip",
-     "label": "Hessle"
+     "label": "Hessle",
+     "bp": "bp:18182383",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 47,
@@ -783,7 +810,10 @@
      "minute": 98,
      "artist": "Avision",
      "title": "Good Time",
-     "label": "Ellum"
+     "label": "Ellum",
+     "bp": "bp:18689501",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -851,7 +881,10 @@
      "minute": 6,
      "artist": "Maceo Plex & Tyler Hill",
      "title": "Nasty",
-     "label": "Lone Romantic"
+     "label": "Lone Romantic",
+     "bp": "bp:18432301",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -1038,7 +1071,10 @@
      "minute": 96,
      "artist": "Christian Nielsen",
      "title": "Defiant",
-     "label": "Siona"
+     "label": "Siona",
+     "bp": "bp:20142866",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,
@@ -1061,19 +1097,28 @@
      "minute": 114,
      "artist": "Chromatics",
      "title": "Shadow (Maceo Plex Remix)",
-     "label": "Italians Do It Better"
+     "label": "Italians Do It Better",
+     "bp": "bp:14987162",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 119,
      "artist": "Mind Against vs TSHA Feat. Nimmo",
      "title": "OnlyL",
-     "label": "Habitat"
+     "label": "Habitat",
+     "bp": "bp:18595598",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 125,
      "artist": "Maceo Plex",
      "title": "Wervik",
-     "label": "Lone Romantic"
+     "label": "Lone Romantic",
+     "bp": "bp:18432297",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 133,
@@ -1232,7 +1277,10 @@
      "minute": 8,
      "artist": "OZBEK",
      "title": "Like This",
-     "label": "Extvisions"
+     "label": "Extvisions",
+     "bp": "bp:20292571",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -1325,13 +1373,19 @@
      "minute": 47,
      "artist": "Gabss",
      "title": "Dynamite",
-     "label": ""
+     "label": "",
+     "bp": "bp:20712218",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
      "artist": "Maceo Plex & Tyler Hill",
      "title": "Nasty",
-     "label": "Lone Romantic"
+     "label": "Lone Romantic",
+     "bp": "bp:18432301",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -1533,7 +1587,10 @@
      "minute": 24,
      "artist": "OZBEK",
      "title": "Like This",
-     "label": "Extvisions"
+     "label": "Extvisions",
+     "bp": "bp:20292571",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -1544,7 +1601,10 @@
      "minute": 35,
      "artist": "Maceo Plex & Tyler Hill",
      "title": "Nasty",
-     "label": "Lone Romantic"
+     "label": "Lone Romantic",
+     "bp": "bp:18432301",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
@@ -1566,7 +1626,10 @@
      "minute": 53,
      "artist": "Gabss Feat. SebastiAn",
      "title": "Dynamite",
-     "label": "Nervous"
+     "label": "Nervous",
+     "bp": "bp:20712218",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -1593,7 +1656,10 @@
      "minute": 76,
      "artist": "Gregor Tresher",
      "title": "Goliath",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:7914697",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 82,
@@ -1638,7 +1704,10 @@
      "minute": 97,
      "artist": "Christian Nielsen",
      "title": "Defiant",
-     "label": "Siona"
+     "label": "Siona",
+     "bp": "bp:20142866",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 102,
@@ -1688,7 +1757,10 @@
      "minute": 0,
      "artist": "ARTBAT",
      "title": "Galaxy",
-     "label": "Mahool"
+     "label": "Mahool",
+     "bp": "bp:20691265",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
@@ -1707,13 +1779,19 @@
      "minute": 9,
      "artist": "OZBEK",
      "title": "Like This",
-     "label": "Extvisions"
+     "label": "Extvisions",
+     "bp": "bp:20292571",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
      "artist": "Kos:mo",
      "title": "Samsara",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:21994588",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -1738,19 +1816,28 @@
      "minute": 27,
      "artist": "Christian Nielsen",
      "title": "Defiant",
-     "label": "Siona"
+     "label": "Siona",
+     "bp": "bp:20142866",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 31,
      "artist": "Marco V",
      "title": "Loxia",
-     "label": "Be Yourself Music"
+     "label": "Be Yourself Music",
+     "bp": "bp:22195252",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
      "artist": "Gregor Tresher",
      "title": "Goliath",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:7914697",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 40,
@@ -1977,7 +2064,10 @@
      "minute": null,
      "artist": "[0??] Maceo Plex & Tyler Hill",
      "title": "Nasty",
-     "label": "Lone Romantic"
+     "label": "Lone Romantic",
+     "bp": "bp:18432301",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
@@ -2087,7 +2177,10 @@
      "minute": 103,
      "artist": "Christian Nielsen",
      "title": "Defiant",
-     "label": "Siona"
+     "label": "Siona",
+     "bp": "bp:20142866",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 107,
@@ -2136,13 +2229,19 @@
      "minute": 131,
      "artist": "Gabss Feat. SebastiAn",
      "title": "Dynamite",
-     "label": "Nervous"
+     "label": "Nervous",
+     "bp": "bp:20712218",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 135,
      "artist": "Gregor Tresher",
      "title": "Goliath",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:7914697",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 141,
@@ -2419,7 +2518,10 @@
      "minute": 33,
      "artist": "Maceo Plex & Tyler Hill",
      "title": "Nasty",
-     "label": "Lone Romantic"
+     "label": "Lone Romantic",
+     "bp": "bp:18432301",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -2456,7 +2558,10 @@
      "minute": 47,
      "artist": "OZBEK",
      "title": "Like This",
-     "label": "Extvisions"
+     "label": "Extvisions",
+     "bp": "bp:20292571",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -2595,7 +2700,10 @@
      "minute": 111,
      "artist": "Chromatics",
      "title": "Shadow (Maceo Plex Remix)",
-     "label": "Italians Do It Better"
+     "label": "Italians Do It Better",
+     "bp": "bp:14987162",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 115,
@@ -2932,7 +3040,10 @@
      "minute": 53,
      "artist": "Alan Braxe",
      "title": "Intro",
-     "label": "Smugglers Way"
+     "label": "Smugglers Way",
+     "bp": "bp:23392509",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -3101,7 +3212,10 @@
      "minute": 79,
      "artist": "Kavinsky",
      "title": "Nightcall",
-     "label": ""
+     "label": "",
+     "bp": "bp:15710735",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 83,
@@ -3221,7 +3335,10 @@
      "minute": 205,
      "artist": "Ali Love",
      "title": "Freaky 1",
-     "label": "Affairs"
+     "label": "Affairs",
+     "bp": "bp:27913580",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 208,
@@ -3370,7 +3487,10 @@
      "minute": 293,
      "artist": "Alan Braxe",
      "title": "Intro",
-     "label": "Smugglers Way"
+     "label": "Smugglers Way",
+     "bp": "bp:23392509",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 297,
@@ -3511,7 +3631,10 @@
      "minute": 369,
      "artist": "Argy",
      "title": "RITMO",
-     "label": "NEWORLD"
+     "label": "NEWORLD",
+     "bp": "bp:19611339",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 371,
@@ -3890,7 +4013,10 @@
      "minute": 496,
      "artist": "You Know Seth",
      "title": "CCamp",
-     "label": "The Sixth Sense//Akashic"
+     "label": "The Sixth Sense//Akashic",
+     "bp": "bp:19961675",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 498,
@@ -3922,7 +4048,10 @@
      "minute": 503,
      "artist": "Federico Scavo",
      "title": "Balada",
-     "label": "Mas / D:vision"
+     "label": "Mas / D:vision",
+     "bp": "bp:5612465",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 507,
@@ -4102,7 +4231,10 @@
      "minute": 595,
      "artist": "Karla Blum",
      "title": "Ahogar",
-     "label": "Arcane"
+     "label": "Arcane",
+     "bp": "bp:28400566",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 598,

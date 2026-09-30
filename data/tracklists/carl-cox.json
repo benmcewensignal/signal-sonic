@@ -44,7 +44,10 @@
      "minute": 9,
      "artist": "Fiona Kraft",
      "title": "Flashback",
-     "label": "Kazukuta"
+     "label": "Kazukuta",
+     "bp": "bp:17599249",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -63,13 +66,19 @@
      "minute": 15,
      "artist": "Nick Curly",
      "title": "Shelter",
-     "label": "Ltf"
+     "label": "Ltf",
+     "bp": "bp:19184929",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
      "artist": "andhim",
      "title": "Amene",
-     "label": "Superfriends"
+     "label": "Superfriends",
+     "bp": "bp:9632313",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -198,7 +207,10 @@
      "minute": 59,
      "artist": "Nicole Moudaber & Castion",
      "title": "Get Back",
-     "label": "MOOD Collective"
+     "label": "MOOD Collective",
+     "bp": "bp:20594822",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 63,
@@ -300,7 +312,10 @@
      "minute": 94,
      "artist": "Check One",
      "title": "Bastian",
-     "label": "Mtwat"
+     "label": "Mtwat",
+     "bp": "bp:18130354",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 97,
@@ -349,13 +364,19 @@
      "minute": 111,
      "artist": "&ME",
      "title": "Garden",
-     "label": "Keinemusik"
+     "label": "Keinemusik",
+     "bp": "bp:12600388",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 114,
      "artist": "JPA Feat. Kate Watts",
      "title": "Fierce",
-     "label": "Visions"
+     "label": "Visions",
+     "bp": "bp:20603297",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 118,
@@ -400,7 +421,10 @@
      "minute": 131,
      "artist": "Toman",
      "title": "Courtyard",
-     "label": "Cécille"
+     "label": "Cécille",
+     "bp": "bp:19292793",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 135,
@@ -470,7 +494,10 @@
      "minute": 0,
      "artist": "Toman",
      "title": "Courtyard",
-     "label": "Cécille"
+     "label": "Cécille",
+     "bp": "bp:19292793",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
@@ -489,7 +516,10 @@
      "minute": 8,
      "artist": "Fiona Kraft",
      "title": "Flashback",
-     "label": "Kazukuta"
+     "label": "Kazukuta",
+     "bp": "bp:17599249",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -508,7 +538,10 @@
      "minute": 17,
      "artist": "&ME",
      "title": "Garden",
-     "label": "Keinemusik"
+     "label": "Keinemusik",
+     "bp": "bp:12600388",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -578,7 +611,10 @@
      "minute": 36,
      "artist": "Check One",
      "title": "Bastian",
-     "label": "My Techno Weighs A Ton"
+     "label": "My Techno Weighs A Ton",
+     "bp": "bp:18130354",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 40,
@@ -783,7 +819,10 @@
      "minute": 85,
      "artist": "Wehbba",
      "title": "Trust",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:8307415",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -953,7 +992,10 @@
      "minute": 68,
      "artist": "JPA Feat. Kate Watts",
      "title": "Fierce",
-     "label": "Visions"
+     "label": "Visions",
+     "bp": "bp:20603297",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -1023,7 +1065,10 @@
      "minute": 98,
      "artist": "Jon Rundell",
      "title": "Wildcat",
-     "label": "Intec"
+     "label": "Intec",
+     "bp": "bp:20295481",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 101,
@@ -1139,7 +1184,10 @@
      "minute": 141,
      "artist": "Hilit Kolet Feat. Kameelah Waheed",
      "title": "Snap Talk",
-     "label": "Rekids"
+     "label": "Rekids",
+     "bp": "bp:19195839",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 144,
@@ -1219,7 +1267,10 @@
      "minute": 168,
      "artist": "Redraft Memories",
      "title": "305 Night",
-     "label": "23rd Century DGTL"
+     "label": "23rd Century DGTL",
+     "bp": "bp:19650329",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 170,
@@ -1231,7 +1282,10 @@
      "minute": 175,
      "artist": "Trevor Rockcliffe",
      "title": "The Jam",
-     "label": ""
+     "label": "",
+     "bp": "bp:10380728",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 177,
@@ -1291,7 +1345,10 @@
      "minute": 198,
      "artist": "Vikthor",
      "title": "No Reason",
-     "label": "23rd Century Dgtl"
+     "label": "23rd Century Dgtl",
+     "bp": "bp:19681948",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 203,
@@ -1310,7 +1367,10 @@
      "minute": 207,
      "artist": "Robert Hood",
      "title": "Alpha Key",
-     "label": "M-Plant"
+     "label": "M-Plant",
+     "bp": "bp:18795514",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 209,
@@ -1355,7 +1415,10 @@
      "minute": 219,
      "artist": "Fabio Neural",
      "title": "La Peluca",
-     "label": "Deeperfect"
+     "label": "Deeperfect",
+     "bp": "bp:17989049",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 223,
@@ -1400,13 +1463,19 @@
      "minute": 241,
      "artist": "andhim",
      "title": "Amene",
-     "label": "Superfriends"
+     "label": "Superfriends",
+     "bp": "bp:9632313",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 246,
      "artist": "Marian (BR) & Freenzy Music",
      "title": "Pakit Ban",
-     "label": ""
+     "label": "",
+     "bp": "bp:18920000",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 0,
@@ -1561,7 +1630,10 @@
      "minute": 70,
      "artist": "JPA & Kate Watts",
      "title": "Fierce",
-     "label": "Visions"
+     "label": "Visions",
+     "bp": "bp:20603297",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 74,
@@ -1689,7 +1761,10 @@
      "minute": 130,
      "artist": "Check One",
      "title": "Bastian",
-     "label": "My Techno Weighs A Ton"
+     "label": "My Techno Weighs A Ton",
+     "bp": "bp:18130354",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 133,
@@ -1721,7 +1796,10 @@
      "minute": 141,
      "artist": "Hilit Kolet",
      "title": "Snap Talk",
-     "label": "Rekids"
+     "label": "Rekids",
+     "bp": "bp:19195839",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 145,
@@ -1745,7 +1823,10 @@
      "minute": 152,
      "artist": "Wehbba",
      "title": "Nitro",
-     "label": ""
+     "label": "",
+     "bp": "bp:18755928",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 156,
@@ -1769,7 +1850,10 @@
      "minute": 168,
      "artist": "Redraft Memories",
      "title": "305 Night",
-     "label": "23rd Century DGTL"
+     "label": "23rd Century DGTL",
+     "bp": "bp:19650329",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 171,
@@ -1878,7 +1962,10 @@
      "minute": 220,
      "artist": "Fabio Neural",
      "title": "La Peluca",
-     "label": "Deeperfect Shift"
+     "label": "Deeperfect Shift",
+     "bp": "bp:17989049",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 223,
@@ -1921,7 +2008,10 @@
      "minute": 246,
      "artist": "Marian (BR) & Freenzy",
      "title": "Pakit Ban",
-     "label": ""
+     "label": "",
+     "bp": "bp:18920000",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1950,7 +2040,10 @@
      "minute": 9,
      "artist": "Wehbba",
      "title": "Trust",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:8307415",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -2034,7 +2127,10 @@
      "minute": 38,
      "artist": "Space 92",
      "title": "Apollo",
-     "label": "Factory 93"
+     "label": "Factory 93",
+     "bp": "bp:18164614",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -2080,7 +2176,10 @@
      "minute": 56,
      "artist": "Rory Marshall & Josh Heywood",
      "title": "Overdrive",
-     "label": "Bush"
+     "label": "Bush",
+     "bp": "bp:19135782",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 61,
@@ -2143,7 +2242,10 @@
      "minute": 86,
      "artist": "Check One",
      "title": "Bastian",
-     "label": "Mtwat"
+     "label": "Mtwat",
+     "bp": "bp:18130354",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 90,
@@ -2175,7 +2277,10 @@
      "minute": 98,
      "artist": "Vikthor",
      "title": "No Reason",
-     "label": "23rd Century Dgtl"
+     "label": "23rd Century Dgtl",
+     "bp": "bp:19681948",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 103,
@@ -2294,13 +2399,19 @@
      "minute": null,
      "artist": "Alessandro D'Avenia",
      "title": "Lose It",
-     "label": "Kickfire"
+     "label": "Kickfire",
+     "bp": "bp:19007753",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Vikthor",
      "title": "No Reason",
-     "label": "23rd Century Dgtl"
+     "label": "23rd Century Dgtl",
+     "bp": "bp:19681948",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2332,7 +2443,10 @@
      "minute": null,
      "artist": "Hilit Kolet Feat. Kameelah Waheed",
      "title": "Snap Talk",
-     "label": "Rekids"
+     "label": "Rekids",
+     "bp": "bp:19195839",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2377,7 +2491,10 @@
      "minute": null,
      "artist": "Drunken Kong",
      "title": "Bliss",
-     "label": "Tronic"
+     "label": "Tronic",
+     "bp": "bp:18445368",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2422,7 +2539,10 @@
      "minute": null,
      "artist": "Redraft Memories",
      "title": "305 Night",
-     "label": "23rd Century Dgtl"
+     "label": "23rd Century Dgtl",
+     "bp": "bp:19650329",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2447,7 +2567,10 @@
      "minute": null,
      "artist": "JPA Feat. Kate Watts",
      "title": "Fierce",
-     "label": "Visions"
+     "label": "Visions",
+     "bp": "bp:20603297",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2718,7 +2841,10 @@
      "minute": 100,
      "artist": "Carl Cox & Perry Farrell",
      "title": "Joya",
-     "label": "Awesome Sound Wave"
+     "label": "Awesome Sound Wave",
+     "bp": "bp:21355411",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -2966,7 +3092,10 @@
      "minute": 85,
      "artist": "Little Simz Feat. Obongjayar",
      "title": "Lion",
-     "label": "Age 101"
+     "label": "Age 101",
+     "bp": "bp:22968734",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 87,
@@ -3154,7 +3283,10 @@
      "minute": 55,
      "artist": "Nicole Moudaber & Castion",
      "title": "Get Back",
-     "label": "Mood"
+     "label": "Mood",
+     "bp": "bp:20594822",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -3178,7 +3310,10 @@
      "minute": 5,
      "artist": "Vikthor",
      "title": "No Reason",
-     "label": "23rd Century Dgtl"
+     "label": "23rd Century Dgtl",
+     "bp": "bp:19681948",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -3197,7 +3332,10 @@
      "minute": 11,
      "artist": "Horatio",
      "title": "Divertir",
-     "label": "Stellar Techno Nursery"
+     "label": "Stellar Techno Nursery",
+     "bp": "bp:20832932",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -3272,7 +3410,10 @@
      "minute": 39,
      "artist": "Melvin Spix & TimeKube",
      "title": "Stamina",
-     "label": "Union Three"
+     "label": "Union Three",
+     "bp": "bp:19471729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
@@ -3297,13 +3438,19 @@
      "minute": 49,
      "artist": "Wehbba Feat. Misstress Barbara",
      "title": "MIRAGE",
-     "label": "Hifn"
+     "label": "Hifn",
+     "bp": "bp:20386864",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
      "artist": "Vikthor",
      "title": "Get Now",
-     "label": "Vkt"
+     "label": "Vkt",
+     "bp": "bp:22176470",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -3315,7 +3462,10 @@
      "minute": 60,
      "artist": "Thomas Schumacher & A.D.H.S.",
      "title": "Umbra",
-     "label": "Electric Ballroom"
+     "label": "Electric Ballroom",
+     "bp": "bp:20115272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -3457,7 +3607,10 @@
      "minute": 109,
      "artist": "William Kiss & Luke Alessi",
      "title": "Rambla",
-     "label": "Gudu"
+     "label": "Gudu",
+     "bp": "bp:20288874",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 111,
@@ -3628,7 +3781,10 @@
      "minute": 59,
      "artist": "Outlander",
      "title": "Vamp",
-     "label": ""
+     "label": "",
+     "bp": "bp:1139308",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 63,
@@ -4055,7 +4211,10 @@
      "minute": null,
      "artist": "Quench",
      "title": "Dreams",
-     "label": "Infectious"
+     "label": "Infectious",
+     "bp": "bp:7684901",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4124,7 +4283,10 @@
      "minute": null,
      "artist": "Rafael Cerato & Laherte",
      "title": "Hustling",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:19441464",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4149,7 +4311,10 @@
      "minute": null,
      "artist": "Shlomi Aber",
      "title": "Limelight",
-     "label": "CLR"
+     "label": "CLR",
+     "bp": "bp:20022710",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4168,13 +4333,19 @@
      "minute": null,
      "artist": "Jon Rundell",
      "title": "Wildcat",
-     "label": "Intec"
+     "label": "Intec",
+     "bp": "bp:20295481",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Horatio",
      "title": "Divertir",
-     "label": "Stellar Techno Nursery"
+     "label": "Stellar Techno Nursery",
+     "bp": "bp:20832932",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4206,7 +4377,10 @@
      "minute": null,
      "artist": "JPA Feat. Kate Watts",
      "title": "Fierce",
-     "label": "Visions"
+     "label": "Visions",
+     "bp": "bp:20603297",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4272,7 +4446,10 @@
      "minute": null,
      "artist": "William Kiss & Luke Alessi",
      "title": "Rambla",
-     "label": "Gudu"
+     "label": "Gudu",
+     "bp": "bp:20288874",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4348,7 +4525,10 @@
      "minute": null,
      "artist": "Hector Couto & Alejandro Paz",
      "title": "El House",
-     "label": "Cécille"
+     "label": "Cécille",
+     "bp": "bp:20431852",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4509,7 +4689,10 @@
      "minute": null,
      "artist": "Brokenears",
      "title": "Lost Day",
-     "label": "Mood Funk"
+     "label": "Mood Funk",
+     "bp": "bp:15892860",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4573,7 +4756,10 @@
      "minute": null,
      "artist": "&ME",
      "title": "Garden",
-     "label": "Keinemusik"
+     "label": "Keinemusik",
+     "bp": "bp:12600388",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4592,7 +4778,10 @@
      "minute": null,
      "artist": "Trevor Rockcliffe",
      "title": "The Jam",
-     "label": "Mentor"
+     "label": "Mentor",
+     "bp": "bp:10380728",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4661,7 +4850,10 @@
      "minute": 0,
      "artist": "Vikthor",
      "title": "Get Now",
-     "label": "Vkt"
+     "label": "Vkt",
+     "bp": "bp:22176470",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
@@ -4725,7 +4917,10 @@
      "minute": 25,
      "artist": "Vikthor",
      "title": "No Reason",
-     "label": "23rd Century Dgtl"
+     "label": "23rd Century Dgtl",
+     "bp": "bp:19681948",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -4749,7 +4944,10 @@
      "minute": 39,
      "artist": "Horatio",
      "title": "Divertir",
-     "label": "Stellar Techno Nursery"
+     "label": "Stellar Techno Nursery",
+     "bp": "bp:20832932",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -4824,7 +5022,10 @@
      "minute": 68,
      "artist": "Melvin Spix & TimeKube",
      "title": "Stamina",
-     "label": "Union Three"
+     "label": "Union Three",
+     "bp": "bp:19471729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
@@ -4874,7 +5075,10 @@
      "minute": 86,
      "artist": "Thomas Schumacher & A.D.H.S.",
      "title": "Umbra",
-     "label": "Electric Ballroom"
+     "label": "Electric Ballroom",
+     "bp": "bp:20115272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
@@ -4930,7 +5134,10 @@
      "minute": 107,
      "artist": "Adam Beyer & Julian Jeweil",
      "title": "Loca",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20487776",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 111,
@@ -5127,7 +5334,10 @@
      "minute": 175,
      "artist": "Wehbba Feat. Misstress Barbara",
      "title": "MIRAGE",
-     "label": "Hifn"
+     "label": "Hifn",
+     "bp": "bp:20386864",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 180,
@@ -5146,13 +5356,19 @@
      "minute": 182,
      "artist": "Mark Reeve & KLØSET",
      "title": "Seconds",
-     "label": "Mood"
+     "label": "Mood",
+     "bp": "bp:20059371",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 185,
      "artist": "Hertz & Wehbba",
      "title": "Flipped",
-     "label": "Sway"
+     "label": "Sway",
+     "bp": "bp:19986638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 188,
@@ -5422,7 +5638,10 @@
      "minute": 35,
      "artist": "Adam Beyer & Julian Jeweil",
      "title": "Loca",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20487776",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -5516,7 +5735,10 @@
      "minute": 70,
      "artist": "Vikthor & Pianoalani",
      "title": "Legacy",
-     "label": "Intec"
+     "label": "Intec",
+     "bp": "bp:22332129",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -5647,7 +5869,10 @@
      "minute": 59,
      "artist": "Weepers",
      "title": "'96",
-     "label": "Nts Classics"
+     "label": "Nts Classics",
+     "bp": "bp:19484769",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 62,
@@ -5749,13 +5974,19 @@
      "minute": 97,
      "artist": "Adam Beyer & Julian Jeweil",
      "title": "Loca",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20487776",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 101,
      "artist": "Outlander",
      "title": "Vamp",
-     "label": ""
+     "label": "",
+     "bp": "bp:1139308",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 103,
@@ -5774,7 +6005,10 @@
      "minute": 107,
      "artist": "Vikthor & Pianoalani",
      "title": "Legacy",
-     "label": ""
+     "label": "",
+     "bp": "bp:22332129",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 111,
@@ -5853,7 +6087,10 @@
      "minute": 17,
      "artist": "Weepers",
      "title": "96",
-     "label": "NTS Classics"
+     "label": "NTS Classics",
+     "bp": "bp:19484769",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -5944,7 +6181,10 @@
      "minute": 52,
      "artist": "Adam Beyer & Julian Jeweil",
      "title": "Loca",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20487776",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -5969,7 +6209,10 @@
      "minute": 63,
      "artist": "Vikthor",
      "title": "Get Now",
-     "label": "VKT"
+     "label": "VKT",
+     "bp": "bp:22176470",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 67,
@@ -6191,7 +6434,10 @@
      "minute": 36,
      "artist": "ADRIANNA Feat. Dyn Dyn",
      "title": "Breaking Me Open",
-     "label": "Tronic"
+     "label": "Tronic",
+     "bp": "bp:24386988",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
@@ -6260,7 +6506,10 @@
      "minute": 67,
      "artist": "Gregor Tresher",
      "title": "Goliath",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:7914697",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 70,
@@ -6313,7 +6562,10 @@
      "minute": 91,
      "artist": "Horatio",
      "title": "Divertir",
-     "label": "Stellar Techno Nursery"
+     "label": "Stellar Techno Nursery",
+     "bp": "bp:20832932",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 94,
@@ -6367,7 +6619,10 @@
      "minute": 120,
      "artist": "Drumsauw & Melvin Spix",
      "title": "Resist",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:26779727",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 121,
@@ -6436,7 +6691,10 @@
      "minute": 148,
      "artist": "Adam Beyer & Julian Jeweil",
      "title": "Loca",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20487776",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 152,
@@ -6455,7 +6713,10 @@
      "minute": 156,
      "artist": "Marck D",
      "title": "Move",
-     "label": "Sway"
+     "label": "Sway",
+     "bp": "bp:23078322",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 161,
@@ -6524,13 +6785,19 @@
      "minute": 9,
      "artist": "Marck D",
      "title": "Move",
-     "label": "Sway"
+     "label": "Sway",
+     "bp": "bp:23078322",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
      "artist": "Drumsauw & Melvin Spix",
      "title": "Resist",
-     "label": "JAM"
+     "label": "JAM",
+     "bp": "bp:26779727",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -6585,13 +6852,19 @@
      "minute": 37,
      "artist": "ADRIANNA Feat. Dyn Dyn",
      "title": "Breaking Me Open",
-     "label": "Tronic"
+     "label": "Tronic",
+     "bp": "bp:24386988",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
      "artist": "Mark Reeve & KLØSET",
      "title": "Seconds",
-     "label": "Mood"
+     "label": "Mood",
+     "bp": "bp:20059371",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 44,
@@ -6721,7 +6994,10 @@
      "minute": 28,
      "artist": "SAMOH",
      "title": "Breath",
-     "label": "Fra.Ctal"
+     "label": "Fra.Ctal",
+     "bp": "bp:22500364",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -6777,7 +7053,10 @@
      "minute": 54,
      "artist": "Underworld",
      "title": "Rez",
-     "label": "Junior Boy's Own"
+     "label": "Junior Boy's Own",
+     "bp": "bp:15730681",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },

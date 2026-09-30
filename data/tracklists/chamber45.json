@@ -543,7 +543,10 @@
      "minute": null,
      "artist": "Skream",
      "title": "Mash Up",
-     "label": ""
+     "label": "",
+     "bp": "bp:14969724",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -657,7 +660,10 @@
      "minute": null,
      "artist": "Skream",
      "title": "Mash Up",
-     "label": ""
+     "label": "",
+     "bp": "bp:14969724",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -804,7 +810,10 @@
      "minute": null,
      "artist": "Mystry",
      "title": "Pulse 8",
-     "label": ""
+     "label": "",
+     "bp": "bp:9234911",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -954,7 +963,10 @@
      "minute": null,
      "artist": "Smiff",
      "title": "Dish Down",
-     "label": ""
+     "label": "",
+     "bp": "bp:20329828",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1150,7 +1162,10 @@
      "minute": 14,
      "artist": "S-X",
      "title": "Woooo",
-     "label": "Insatiable"
+     "label": "Insatiable",
+     "bp": "bp:22841801",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 16,
@@ -1169,7 +1184,10 @@
      "minute": 18,
      "artist": "Skream",
      "title": "Mash Up",
-     "label": "Skreamizm"
+     "label": "Skreamizm",
+     "bp": "bp:14969724",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -1188,7 +1206,10 @@
      "minute": 39,
      "artist": "Smiff",
      "title": "Dish Down",
-     "label": "Club Glow"
+     "label": "Club Glow",
+     "bp": "bp:20329828",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -1218,7 +1239,10 @@
      "minute": 52,
      "artist": "Kode9",
      "title": "UH",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:10888036",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 54,
@@ -1327,7 +1351,10 @@
      "minute": 54,
      "artist": "Karizma",
      "title": "Darqness",
-     "label": "R2"
+     "label": "R2",
+     "bp": "bp:17333810",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1355,7 +1382,10 @@
      "minute": 29,
      "artist": "Skream",
      "title": "Mash Up",
-     "label": "Skreamizm"
+     "label": "Skreamizm",
+     "bp": "bp:14969724",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -1440,7 +1470,10 @@
      "minute": 59,
      "artist": "Carré",
      "title": "Body Shell",
-     "label": "Tempa"
+     "label": "Tempa",
+     "bp": "bp:20310775",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1469,7 +1502,10 @@
      "minute": 14,
      "artist": "Visionist",
      "title": "New Wave",
-     "label": "Keysound"
+     "label": "Keysound",
+     "bp": "bp:9497911",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1611,7 +1647,10 @@
      "minute": 22,
      "artist": "Roska",
      "title": "Stop & Wave",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:28926805",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,

@@ -240,7 +240,10 @@
      "minute": 37,
      "artist": "Roll Dann",
      "title": "The Mouth",
-     "label": "MORD"
+     "label": "MORD",
+     "bp": "bp:19166731",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
@@ -290,7 +293,10 @@
      "minute": 60,
      "artist": "Assad Harri",
      "title": "Vjeruj",
-     "label": "Diffuse Reality"
+     "label": "Diffuse Reality",
+     "bp": "bp:18949231",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 70,
@@ -302,7 +308,10 @@
      "minute": 72,
      "artist": "AeFe",
      "title": "Gossypium",
-     "label": "Rekktor"
+     "label": "Rekktor",
+     "bp": "bp:18786498",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 80,

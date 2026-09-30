@@ -78,7 +78,10 @@
      "minute": null,
      "artist": "Space 92",
      "title": "Melodia",
-     "label": "Arcane"
+     "label": "Arcane",
+     "bp": "bp:19421738",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -97,7 +100,10 @@
      "minute": null,
      "artist": "Ace Ventura & Protonica",
      "title": "Nova",
-     "label": "Mutant Disco"
+     "label": "Mutant Disco",
+     "bp": "bp:19982762",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -253,7 +259,10 @@
      "minute": null,
      "artist": "Viapo",
      "title": "The Knob",
-     "label": "Soupherb"
+     "label": "Soupherb",
+     "bp": "bp:19376363",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -438,7 +447,10 @@
      "minute": null,
      "artist": "Giorgia Angiuli & Volcano On Mars & Vini Vici",
      "title": "All One",
-     "label": "Alteza"
+     "label": "Alteza",
+     "bp": "bp:20059609",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -647,7 +659,10 @@
      "minute": null,
      "artist": "Simon Patterson",
      "title": "Red",
-     "label": ""
+     "label": "",
+     "bp": "bp:20134573",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -726,7 +741,10 @@
      "minute": null,
      "artist": "Volcano On Mars, Vini Vici, Giorgia Angiuli",
      "title": "All One",
-     "label": ""
+     "label": "",
+     "bp": "bp:20059609",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -871,7 +889,10 @@
      "minute": null,
      "artist": "Haldolium",
      "title": "Julie",
-     "label": "Blue Tunes"
+     "label": "Blue Tunes",
+     "bp": "bp:20225133",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1082,7 +1103,10 @@
      "minute": null,
      "artist": "Viapo",
      "title": "No Light",
-     "label": "Subios"
+     "label": "Subios",
+     "bp": "bp:20448055",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1107,7 +1131,10 @@
      "minute": null,
      "artist": "Kaufmann",
      "title": "Mother",
-     "label": "VOLTA"
+     "label": "VOLTA",
+     "bp": "bp:20502224",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1405,7 +1432,10 @@
      "minute": null,
      "artist": "Haldolium",
      "title": "Ethereal",
-     "label": "Blue Tunes"
+     "label": "Blue Tunes",
+     "bp": "bp:20336679",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1437,7 +1467,10 @@
      "minute": null,
      "artist": "Viapo",
      "title": "No Light",
-     "label": "SUBIOS"
+     "label": "SUBIOS",
+     "bp": "bp:20448055",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1481,7 +1514,10 @@
      "minute": null,
      "artist": "Viapo",
      "title": "The Knob",
-     "label": "SOUPHERB"
+     "label": "SOUPHERB",
+     "bp": "bp:19376363",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1588,7 +1624,10 @@
      "minute": null,
      "artist": "ARTBAT",
      "title": "Galaxy",
-     "label": "MAHOOL"
+     "label": "MAHOOL",
+     "bp": "bp:20691265",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1677,7 +1716,10 @@
      "minute": null,
      "artist": "Adam Beyer, Julian Jeweil",
      "title": "Loca",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:20487776",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1988,7 +2030,10 @@
      "minute": null,
      "artist": "Haldolium",
      "title": "Julie",
-     "label": ""
+     "label": "",
+     "bp": "bp:20225133",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2020,7 +2065,10 @@
      "minute": null,
      "artist": "Haldolium",
      "title": "Ethereal",
-     "label": ""
+     "label": "",
+     "bp": "bp:20336679",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2139,7 +2187,10 @@
      "minute": null,
      "artist": "James Wesson",
      "title": "Elevate",
-     "label": "Enter"
+     "label": "Enter",
+     "bp": "bp:21793721",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2662,7 +2713,10 @@
      "minute": null,
      "artist": "Charlotte de Witte",
      "title": "The Realm",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20289327",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3088,7 +3142,10 @@
      "minute": null,
      "artist": "James Wesson",
      "title": "Right Now",
-     "label": ""
+     "label": "",
+     "bp": "bp:23728271",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3604,7 +3661,10 @@
      "minute": null,
      "artist": "Thomas Schumacher, A.D.H.S.",
      "title": "Cold Burn",
-     "label": ""
+     "label": "",
+     "bp": "bp:24289539",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3713,7 +3773,10 @@
      "minute": null,
      "artist": "James Wesson",
      "title": "Right Now",
-     "label": ""
+     "label": "",
+     "bp": "bp:23728271",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3764,7 +3827,10 @@
      "minute": null,
      "artist": "James Wesson",
      "title": "Elevate",
-     "label": ""
+     "label": "",
+     "bp": "bp:21793721",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4262,7 +4328,10 @@
      "minute": null,
      "artist": "KAF3R",
      "title": "Wow",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:21237202",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

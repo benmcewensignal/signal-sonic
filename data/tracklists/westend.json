@@ -719,7 +719,10 @@
      "minute": 84,
      "artist": "Andruss",
      "title": "Frikitona",
-     "label": "Drop Low"
+     "label": "Drop Low",
+     "bp": "bp:18823689",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 85,
@@ -813,7 +816,10 @@
      "minute": 4,
      "artist": "Cherry Tooth & Avilo",
      "title": "How We Do",
-     "label": "Trace Amounts"
+     "label": "Trace Amounts",
+     "bp": "bp:19291821",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -1002,7 +1008,10 @@
      "minute": 0,
      "artist": "Max Styler & Oscar L",
      "title": "Addiction",
-     "label": "Truesoul"
+     "label": "Truesoul",
+     "bp": "bp:19397831",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -1233,7 +1242,10 @@
      "minute": 13,
      "artist": "Scilo",
      "title": "Lowkey",
-     "label": "Trace Amounts"
+     "label": "Trace Amounts",
+     "bp": "bp:21501348",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -1340,7 +1352,10 @@
      "minute": 55,
      "artist": "Westend & Darla Jade",
      "title": "Lighter",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:21331525",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1364,7 +1379,10 @@
      "minute": null,
      "artist": "DJ Seinfeld & Confidence Man",
      "title": "The Right",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:22210731",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1624,7 +1642,10 @@
      "minute": null,
      "artist": "'''Vibe Dance Chart #4:''' John Summit Feat. Inéz",
      "title": "Crystallized",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:22095332",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1713,7 +1734,10 @@
      "minute": null,
      "artist": "Westend & Darla Jade",
      "title": "Lighter",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:21331525",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   }

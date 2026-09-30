@@ -242,7 +242,10 @@
      "minute": 8,
      "artist": "Gumz Feat. Habib Koite",
      "title": "Jakoke",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "bp": "bp:20275494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -257,7 +260,10 @@
      "minute": 18,
      "artist": "Pablo Fierro & Carlos Francisco Feat. Jaky Amir",
      "title": "Koroka",
-     "label": "We're Here"
+     "label": "We're Here",
+     "bp": "bp:19284164",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -478,7 +484,10 @@
      "minute": 87,
      "artist": "Liva K",
      "title": "The Drill",
-     "label": "Madorasindahouse"
+     "label": "Madorasindahouse",
+     "bp": "bp:18986928",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 92,
@@ -703,7 +712,10 @@
      "minute": 5,
      "artist": "Hercules & Love Affair",
      "title": "Blind",
-     "label": ""
+     "label": "",
+     "bp": "bp:22085458",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,

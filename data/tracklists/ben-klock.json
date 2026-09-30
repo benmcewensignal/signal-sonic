@@ -84,7 +84,10 @@
      "minute": 24,
      "artist": "Ribé & Roll Dann",
      "title": "Demencia",
-     "label": "Klockworks"
+     "label": "Klockworks",
+     "bp": "bp:20755876",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -219,7 +222,10 @@
      "minute": 73,
      "artist": "Stef Mendesidis",
      "title": "Minore",
-     "label": "Klockworks"
+     "label": "Klockworks",
+     "bp": "bp:19133342",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 77,
@@ -331,7 +337,10 @@
      "minute": 35,
      "artist": "Sterac",
      "title": "Solidify",
-     "label": "Token"
+     "label": "Token",
+     "bp": "bp:16625370",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -342,7 +351,10 @@
      "minute": 45,
      "artist": "Kaiser (K S R)",
      "title": "Esco",
-     "label": "MORD"
+     "label": "MORD",
+     "bp": "bp:17012723",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -411,7 +423,10 @@
      "minute": 83,
      "artist": "R.M.K",
      "title": "Muscle",
-     "label": ""
+     "label": "",
+     "bp": "bp:17107671",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 88,
@@ -594,7 +609,10 @@
      "minute": 35,
      "artist": "R.M.K",
      "title": "Muscle",
-     "label": ""
+     "label": "",
+     "bp": "bp:17107671",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
@@ -626,7 +644,10 @@
      "minute": 45,
      "artist": "Hurdslenk",
      "title": "Futures",
-     "label": "Hardgroove"
+     "label": "Hardgroove",
+     "bp": "bp:18781267",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -684,7 +705,10 @@
      "minute": 68,
      "artist": "Alexander Johansson & Mattias Fridell",
      "title": "Hicka",
-     "label": ""
+     "label": "",
+     "bp": "bp:18805292",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
@@ -1005,7 +1029,10 @@
      "minute": 208,
      "artist": "R.M.K",
      "title": "Muscle",
-     "label": ""
+     "label": "",
+     "bp": "bp:17107671",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 209,
@@ -1146,7 +1173,10 @@
      "minute": 327,
      "artist": "Hertz",
      "title": "Timballe",
-     "label": ""
+     "label": "",
+     "bp": "bp:18201494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 330,
@@ -1247,7 +1277,10 @@
      "minute": 439,
      "artist": "Airod",
      "title": "Balaclava",
-     "label": ""
+     "label": "",
+     "bp": "bp:18626938",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 443,
@@ -1475,7 +1508,10 @@
      "minute": 688,
      "artist": "Ignez",
      "title": "Oceanid",
-     "label": ""
+     "label": "",
+     "bp": "bp:18542665",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 689,
@@ -1569,7 +1605,10 @@
      "minute": 20,
      "artist": "Sterac",
      "title": "Solidify",
-     "label": ""
+     "label": "",
+     "bp": "bp:16625370",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -1626,7 +1665,10 @@
      "minute": 43,
      "artist": "Confidential Recipe",
      "title": "La Danza",
-     "label": "Rspx (Rekids)"
+     "label": "Rspx (Rekids)",
+     "bp": "bp:16475968",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -1660,7 +1702,10 @@
      "minute": 69,
      "artist": "Alexander Johansson & Mattias Fridell",
      "title": "Hicka",
-     "label": "Truncate"
+     "label": "Truncate",
+     "bp": "bp:18805292",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -1846,7 +1891,10 @@
      "minute": 147,
      "artist": "R.M.K",
      "title": "Muscle",
-     "label": ""
+     "label": "",
+     "bp": "bp:17107671",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 151,
@@ -1935,7 +1983,10 @@
      "minute": 6,
      "artist": "Dxrvo",
      "title": "Rabies",
-     "label": "PRTL WRX"
+     "label": "PRTL WRX",
+     "bp": "bp:19303037",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -2014,7 +2065,10 @@
      "minute": 34,
      "artist": "EL Joven Prisionero",
      "title": "La Raya",
-     "label": "PoleGroup"
+     "label": "PoleGroup",
+     "bp": "bp:19080233",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -2025,7 +2079,10 @@
      "minute": 40,
      "artist": "Confidential Recipe",
      "title": "La Danza",
-     "label": "RSPX"
+     "label": "RSPX",
+     "bp": "bp:16475968",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -2036,7 +2093,10 @@
      "minute": 45,
      "artist": "Len Faki",
      "title": "Temple (Ø",
-     "label": "Phase) Remix) [Figure"
+     "label": "Phase) Remix) [Figure",
+     "bp": "bp:18662919",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 47,
@@ -2128,7 +2188,10 @@
      "minute": 82,
      "artist": "Ignez",
      "title": "Bliss",
-     "label": ""
+     "label": "",
+     "bp": "bp:18542662",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 86,
@@ -2158,7 +2221,10 @@
      "minute": 92,
      "artist": "Vxlr",
      "title": "Upfront",
-     "label": ""
+     "label": "",
+     "bp": "bp:18595879",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 96,
@@ -2244,7 +2310,10 @@
      "minute": 15,
      "artist": "Harvey McKay",
      "title": "Footstep",
-     "label": "RSPX"
+     "label": "RSPX",
+     "bp": "bp:19205523",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -2332,19 +2401,28 @@
      "minute": 40,
      "artist": "Talismann",
      "title": "Lolabo",
-     "label": "TALISMANN"
+     "label": "TALISMANN",
+     "bp": "bp:19259633",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
      "artist": "Stef Mendesidis",
      "title": "Minore",
-     "label": "Klockworks"
+     "label": "Klockworks",
+     "bp": "bp:19133342",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
      "artist": "EL Joven Prisionero",
      "title": "La Raya",
-     "label": "PoleGroup"
+     "label": "PoleGroup",
+     "bp": "bp:19080233",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -2363,7 +2441,10 @@
      "minute": 50,
      "artist": "Len Faki",
      "title": "Temple (Ø",
-     "label": "Phase) Remix) - Figure"
+     "label": "Phase) Remix) - Figure",
+     "bp": "bp:18662919",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -2555,7 +2636,10 @@
      "minute": 64,
      "artist": "Dxrvo",
      "title": "Rabies",
-     "label": "PRTL WRX"
+     "label": "PRTL WRX",
+     "bp": "bp:19303037",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 77,
@@ -2672,7 +2756,10 @@
      "minute": 19,
      "artist": "Edgar De Ramon",
      "title": "TL2",
-     "label": "TUTU"
+     "label": "TUTU",
+     "bp": "bp:20504120",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -2723,7 +2810,10 @@
      "minute": 39,
      "artist": "Van Sorgen",
      "title": "Tanker",
-     "label": "Diffuse Reality"
+     "label": "Diffuse Reality",
+     "bp": "bp:20369541",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -2748,13 +2838,19 @@
      "minute": 49,
      "artist": "Dxrvo & Ynk",
      "title": "Modul",
-     "label": "Trau-Ma"
+     "label": "Trau-Ma",
+     "bp": "bp:20252651",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
      "artist": "Nørbak",
      "title": "Sinto",
-     "label": "Clergy"
+     "label": "Clergy",
+     "bp": "bp:20393689",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -3157,7 +3253,10 @@
      "minute": 48,
      "artist": "Van Sorgen",
      "title": "Tanker",
-     "label": "Diffuse Reality"
+     "label": "Diffuse Reality",
+     "bp": "bp:20369541",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -3290,7 +3389,10 @@
      "minute": 88,
      "artist": "Cirkle",
      "title": "Shamanic",
-     "label": "Sublunar"
+     "label": "Sublunar",
+     "bp": "bp:20094472",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
@@ -3343,7 +3445,10 @@
      "minute": 110,
      "artist": "Sub Basics",
      "title": "Anomaly",
-     "label": "TH Tar Hallow"
+     "label": "TH Tar Hallow",
+     "bp": "bp:20778550",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 115,
@@ -3368,7 +3473,10 @@
      "minute": 120,
      "artist": "Nørbak",
      "title": "Sinto",
-     "label": "Clergy"
+     "label": "Clergy",
+     "bp": "bp:20393689",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 122,
@@ -3572,7 +3680,10 @@
      "minute": 12,
      "artist": "Sira",
      "title": "Arsun",
-     "label": "Export Berlin"
+     "label": "Export Berlin",
+     "bp": "bp:29546104",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -3680,7 +3791,10 @@
      "minute": 69,
      "artist": "Metapattern",
      "title": "Lusitano",
-     "label": "Truncate"
+     "label": "Truncate",
+     "bp": "bp:28351696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
@@ -3726,13 +3840,19 @@
      "minute": 7,
      "artist": "Sira",
      "title": "Arsun",
-     "label": "Export Berlin"
+     "label": "Export Berlin",
+     "bp": "bp:29546104",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,
      "artist": "Metapattern",
      "title": "Lusitano",
-     "label": "Truncate"
+     "label": "Truncate",
+     "bp": "bp:28351696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,

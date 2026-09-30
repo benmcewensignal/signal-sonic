@@ -188,7 +188,10 @@
      "minute": 37,
      "artist": "Roll Dann",
      "title": "The Mouth",
-     "label": "MORD"
+     "label": "MORD",
+     "bp": "bp:19166731",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
@@ -238,7 +241,10 @@
      "minute": 60,
      "artist": "Assad Harri",
      "title": "Vjeruj",
-     "label": "Diffuse Reality"
+     "label": "Diffuse Reality",
+     "bp": "bp:18949231",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 70,
@@ -250,7 +256,10 @@
      "minute": 72,
      "artist": "AeFe",
      "title": "Gossypium",
-     "label": "Rekktor"
+     "label": "Rekktor",
+     "bp": "bp:18786498",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 80,
@@ -690,7 +699,10 @@
      "minute": 72,
      "artist": "AeFe",
      "title": "Gossypium",
-     "label": "Rekktor"
+     "label": "Rekktor",
+     "bp": "bp:18786498",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 75,
@@ -714,7 +726,10 @@
      "minute": 82,
      "artist": "Lars Huismann",
      "title": "Orbital",
-     "label": "Monnom Black"
+     "label": "Monnom Black",
+     "bp": "bp:19761245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 88,
@@ -764,7 +779,10 @@
      "minute": 106,
      "artist": "Dax J",
      "title": "The Train",
-     "label": "Monnom Black"
+     "label": "Monnom Black",
+     "bp": "bp:16951365",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 114,
@@ -940,7 +958,10 @@
      "minute": 70,
      "artist": "AeFe",
      "title": "Gossypium",
-     "label": "Rekktor"
+     "label": "Rekktor",
+     "bp": "bp:18786498",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -964,7 +985,10 @@
      "minute": 79,
      "artist": "Lars Huismann",
      "title": "Orbital",
-     "label": "Monnom Black"
+     "label": "Monnom Black",
+     "bp": "bp:19761245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 86,
@@ -1014,7 +1038,10 @@
      "minute": 105,
      "artist": "Dax J",
      "title": "The Train",
-     "label": "Monnom Black"
+     "label": "Monnom Black",
+     "bp": "bp:16951365",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 112,
@@ -1057,7 +1084,10 @@
      "minute": 7,
      "artist": "Assad Harri",
      "title": "Vjeruj",
-     "label": "Diffuse Reality"
+     "label": "Diffuse Reality",
+     "bp": "bp:18949231",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -1082,7 +1112,10 @@
      "minute": 17,
      "artist": "Dax J",
      "title": "Ares",
-     "label": "Analogue"
+     "label": "Analogue",
+     "bp": "bp:18831213",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -1107,13 +1140,19 @@
      "minute": 30,
      "artist": "Roll Dann",
      "title": "The Mouth",
-     "label": "MORD"
+     "label": "MORD",
+     "bp": "bp:19166731",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
      "artist": "AeFe",
      "title": "Gossypium",
-     "label": "Rekktor"
+     "label": "Rekktor",
+     "bp": "bp:18786498",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -1250,7 +1289,10 @@
      "minute": 106,
      "artist": "Lars Huismann",
      "title": "Orbital",
-     "label": "Monnom Black"
+     "label": "Monnom Black",
+     "bp": "bp:19761245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 112,
@@ -1307,7 +1349,10 @@
      "minute": 138,
      "artist": "Dax J",
      "title": "The Train",
-     "label": ""
+     "label": "",
+     "bp": "bp:16951365",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

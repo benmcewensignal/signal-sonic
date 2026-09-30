@@ -92,7 +92,10 @@
      "minute": 21,
      "artist": "Ed Chamberlain",
      "title": "Dave",
-     "label": "Lapsus"
+     "label": "Lapsus",
+     "bp": "bp:15267719",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -601,7 +604,10 @@
      "minute": 41,
      "artist": "Siu Mata & Amor Satyr",
      "title": "Frenesi",
-     "label": "WAJANG"
+     "label": "WAJANG",
+     "bp": "bp:20424723",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -1187,7 +1193,10 @@
      "minute": null,
      "artist": "Sha Ru",
      "title": "Vibrasum",
-     "label": "Self Released"
+     "label": "Self Released",
+     "bp": "bp:22176947",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1335,7 +1344,10 @@
      "minute": null,
      "artist": "J:Kenzo",
      "title": "Intalek",
-     "label": "Artikal"
+     "label": "Artikal",
+     "bp": "bp:7398511",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -1827,7 +1839,10 @@
      "minute": 25,
      "artist": "Garrett Fields",
      "title": "Wombo",
-     "label": "Locus Sound"
+     "label": "Locus Sound",
+     "bp": "bp:27159282",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -1889,7 +1904,10 @@
      "minute": 50,
      "artist": "Monty & Visages",
      "title": "TEK",
-     "label": "1985 Music"
+     "label": "1985 Music",
+     "bp": "bp:16860122",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -2096,7 +2114,10 @@
      "minute": 47,
      "artist": "Mr. Ho Feat. Gedvile Bunikyte",
      "title": "Medicine",
-     "label": ""
+     "label": "",
+     "bp": "bp:18334874",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -2115,7 +2136,10 @@
      "minute": 53,
      "artist": "Ed Chamberlain",
      "title": "Dave",
-     "label": ""
+     "label": "",
+     "bp": "bp:15267719",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,

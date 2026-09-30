@@ -276,7 +276,10 @@
      "minute": null,
      "artist": "Piezo",
      "title": "Skinner",
-     "label": ""
+     "label": "",
+     "bp": "bp:17798606",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -301,7 +304,10 @@
      "minute": null,
      "artist": "Siu Mata",
      "title": "Vaalbara",
-     "label": ""
+     "label": "",
+     "bp": "bp:18269795",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -611,7 +617,10 @@
      "minute": null,
      "artist": "Fergus Sweetland",
      "title": "Dub 1",
-     "label": ""
+     "label": "",
+     "bp": "bp:18092803",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -858,7 +867,10 @@
      "minute": null,
      "artist": "Mr. Ho feat. Gedvile Bunikyte",
      "title": "Medicine",
-     "label": ""
+     "label": "",
+     "bp": "bp:18334874",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1001,7 +1013,10 @@
      "minute": null,
      "artist": "Instra:mental",
      "title": "Shine",
-     "label": ""
+     "label": "",
+     "bp": "bp:12536149",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1127,7 +1142,10 @@
      "minute": null,
      "artist": "Al Wootton",
      "title": "Vitus",
-     "label": ""
+     "label": "",
+     "bp": "bp:17535476",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2148,7 +2166,10 @@
      "minute": 11,
      "artist": "Batu",
      "title": "Meridian",
-     "label": "Lethal Press"
+     "label": "Lethal Press",
+     "bp": "bp:20282103",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 16,
@@ -2231,7 +2252,10 @@
      "minute": 13,
      "artist": "K-LONE",
      "title": "Cinco",
-     "label": ""
+     "label": "",
+     "bp": "bp:18372005",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -2253,7 +2277,10 @@
      "minute": 27,
      "artist": "Facta",
      "title": "SLoPE",
-     "label": "Wisdom Teeth"
+     "label": "Wisdom Teeth",
+     "bp": "bp:20446883",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -2374,7 +2401,10 @@
      "minute": 113,
      "artist": "Barker",
      "title": "Reframing",
-     "label": "Smalltown Supersound"
+     "label": "Smalltown Supersound",
+     "bp": "bp:20022178",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -2397,7 +2427,10 @@
      "minute": 4,
      "artist": "Facta",
      "title": "SLoPE",
-     "label": "Wisdom Teeth"
+     "label": "Wisdom Teeth",
+     "bp": "bp:20446883",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -2708,7 +2741,10 @@
      "minute": 29,
      "artist": "Temudo",
      "title": "Over You",
-     "label": "Primal Instinct"
+     "label": "Primal Instinct",
+     "bp": "bp:24196504",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 32,

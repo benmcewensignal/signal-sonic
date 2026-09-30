@@ -192,13 +192,19 @@
      "minute": null,
      "artist": "Alma Negra",
      "title": "The Vibe",
-     "label": ""
+     "label": "",
+     "bp": "bp:19964947",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Soul Of Hex Feat. Motion Parallax",
      "title": "Face Down",
-     "label": "Delusions Of Grandeur"
+     "label": "Delusions Of Grandeur",
+     "bp": "bp:19610653",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -273,7 +279,10 @@
      "minute": null,
      "artist": "Tiger Stripes",
      "title": "Wake Up",
-     "label": "Snatch!"
+     "label": "Snatch!",
+     "bp": "bp:20566694",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1176,7 +1185,10 @@
      "minute": null,
      "artist": "James Kumo",
      "title": "My Way",
-     "label": ""
+     "label": "",
+     "bp": "bp:21065074",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1495,7 +1507,10 @@
      "minute": null,
      "artist": "Osunlade",
      "title": "Sistagurl",
-     "label": ""
+     "label": "",
+     "bp": "bp:19971175",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1513,7 +1528,10 @@
      "minute": null,
      "artist": "Soul Of Hex Feat. Motion Parallax",
      "title": "Face Down",
-     "label": "Delusions Of Grandeur"
+     "label": "Delusions Of Grandeur",
+     "bp": "bp:19610653",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1627,7 +1645,10 @@
      "minute": null,
      "artist": "Darren Emerson",
      "title": "Brooklyn",
-     "label": "Selador"
+     "label": "Selador",
+     "bp": "bp:10213719",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1639,7 +1660,10 @@
      "minute": null,
      "artist": "Underworld",
      "title": "Rez",
-     "label": "Junior Boy's Own"
+     "label": "Junior Boy's Own",
+     "bp": "bp:15730681",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1694,7 +1718,10 @@
      "minute": null,
      "artist": "Space Echo",
      "title": "Got It",
-     "label": ""
+     "label": "",
+     "bp": "bp:22659336",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1751,7 +1778,10 @@
      "minute": null,
      "artist": "James Kumo",
      "title": "My Way",
-     "label": ""
+     "label": "",
+     "bp": "bp:21065074",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2067,7 +2097,10 @@
      "minute": null,
      "artist": "Dubfire",
      "title": "Roadkill",
-     "label": ""
+     "label": "",
+     "bp": "bp:20845397",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2825,7 +2858,10 @@
      "minute": null,
      "artist": "Space Echo",
      "title": "Got It",
-     "label": ""
+     "label": "",
+     "bp": "bp:22659336",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2957,7 +2993,10 @@
      "minute": null,
      "artist": "Soul Of Hex Feat. Motion Parallax",
      "title": "Face Down",
-     "label": ""
+     "label": "",
+     "bp": "bp:19610653",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2989,13 +3028,19 @@
      "minute": null,
      "artist": "Felipe Gordon",
      "title": "Profundo",
-     "label": ""
+     "label": "",
+     "bp": "bp:20087943",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Osunlade",
      "title": "Sistagurl",
-     "label": ""
+     "label": "",
+     "bp": "bp:19971175",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3631,7 +3676,10 @@
      "minute": null,
      "artist": "Tiger Stripes",
      "title": "Wake Up",
-     "label": "Snatch!"
+     "label": "Snatch!",
+     "bp": "bp:20566694",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5092,7 +5140,10 @@
      "minute": null,
      "artist": "Harry Romero",
      "title": "Tania",
-     "label": ""
+     "label": "",
+     "bp": "bp:12521673",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -5260,7 +5311,10 @@
      "minute": null,
      "artist": "Soul Of Hex Feat. Motion Parallax",
      "title": "Face Down",
-     "label": ""
+     "label": "",
+     "bp": "bp:19610653",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -6480,7 +6534,10 @@
      "minute": null,
      "artist": "The Revenge",
      "title": "Squibz",
-     "label": ""
+     "label": "",
+     "bp": "bp:18386372",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -7021,7 +7078,10 @@
      "minute": null,
      "artist": "Darren Emerson",
      "title": "Brooklyn",
-     "label": "Selador"
+     "label": "Selador",
+     "bp": "bp:10213719",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -7554,7 +7614,10 @@
      "minute": null,
      "artist": "DJ Scratch & Q-Tip",
      "title": "Go",
-     "label": ""
+     "label": "",
+     "bp": "bp:12342545",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

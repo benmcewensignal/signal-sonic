@@ -49,7 +49,10 @@
      "minute": 15,
      "artist": "Makebo & Volen Sentir",
      "title": "Alchemist",
-     "label": "Lost Miracle"
+     "label": "Lost Miracle",
+     "bp": "bp:17464011",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -590,7 +593,10 @@
      "minute": 148,
      "artist": "William Kiss",
      "title": "XXX",
-     "label": "Warehouse Project"
+     "label": "Warehouse Project",
+     "bp": "bp:20704415",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 152,

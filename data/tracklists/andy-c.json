@@ -72,7 +72,10 @@
      "minute": 6,
      "artist": "Andy C",
      "title": "Workout",
-     "label": "Ram"
+     "label": "Ram",
+     "bp": "bp:5793219",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -130,7 +133,10 @@
      "minute": 10,
      "artist": "Kanine",
      "title": "Get Down",
-     "label": "Unleashed"
+     "label": "Unleashed",
+     "bp": "bp:16791621",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -250,7 +256,10 @@
      "minute": 16,
      "artist": "SOTA & Primate",
      "title": "Realise",
-     "label": "Sota"
+     "label": "Sota",
+     "bp": "bp:17218933",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -282,7 +291,10 @@
      "minute": 20,
      "artist": "Sub Focus",
      "title": "Siren",
-     "label": ""
+     "label": "",
+     "bp": "bp:12342510",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -352,7 +364,10 @@
      "minute": 26,
      "artist": "Benny L",
      "title": "Replicant",
-     "label": "Tres-2b Music"
+     "label": "Tres-2b Music",
+     "bp": "bp:18201703",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -523,7 +538,10 @@
      "minute": 42,
      "artist": "AIRGLO",
      "title": "Sandstorm",
-     "label": "Device"
+     "label": "Device",
+     "bp": "bp:17294854",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -650,7 +668,10 @@
      "minute": 55,
      "artist": "Andy C Feat. Tonn Piper",
      "title": "Boom",
-     "label": "Ram"
+     "label": "Ram",
+     "bp": "bp:22822268",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -727,7 +748,10 @@
      "minute": 59,
      "artist": "Camo & Krooked & Mefjus",
      "title": "Sientelo",
-     "label": "UKF"
+     "label": "UKF",
+     "bp": "bp:19231980",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -1014,13 +1038,19 @@
      "minute": null,
      "artist": "+ Sub Focus",
      "title": "Triple X",
-     "label": "Ram"
+     "label": "Ram",
+     "bp": "bp:23683696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
      "artist": "Andy C Feat. Tonn Piper",
      "title": "Boom",
-     "label": "Ram"
+     "label": "Ram",
+     "bp": "bp:22822268",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1144,7 +1174,10 @@
      "minute": 30,
      "artist": "Benny L",
      "title": "Replicant",
-     "label": "Tres-2b"
+     "label": "Tres-2b",
+     "bp": "bp:18201703",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -1331,13 +1364,19 @@
      "minute": null,
      "artist": "+ Sub Focus",
      "title": "Siren",
-     "label": "Virgin EMI (UMG)"
+     "label": "Virgin EMI (UMG)",
+     "bp": "bp:12342510",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
      "artist": "Junk Mail",
      "title": "Archive",
-     "label": "R.O.A.M"
+     "label": "R.O.A.M",
+     "bp": "bp:19782832",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1547,7 +1586,10 @@
      "minute": 56,
      "artist": "Camo & Krooked Feat. Mefjus",
      "title": "Sientelo",
-     "label": "UKF"
+     "label": "UKF",
+     "bp": "bp:19231980",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -1559,7 +1601,10 @@
      "minute": null,
      "artist": "+ Andy C",
      "title": "Workout",
-     "label": "Ram"
+     "label": "Ram",
+     "bp": "bp:5793219",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -1845,7 +1890,10 @@
      "minute": 20,
      "artist": "Junk Mail",
      "title": "Archive",
-     "label": "R.O.A.M"
+     "label": "R.O.A.M",
+     "bp": "bp:19782832",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -1997,7 +2045,10 @@
      "minute": 31,
      "artist": "DJ Hazard & D*Minds",
      "title": "Mr. Happy",
-     "label": "Playaz"
+     "label": "Playaz",
+     "bp": "bp:398880",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 31,
@@ -2035,7 +2086,10 @@
      "minute": 32,
      "artist": "Kanine",
      "title": "Get Down",
-     "label": "Unleashed"
+     "label": "Unleashed",
+     "bp": "bp:16791621",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -2085,13 +2139,19 @@
      "minute": 0,
      "artist": "Forum",
      "title": "Empire",
-     "label": ""
+     "label": "",
+     "bp": "bp:23872529",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 1,
      "artist": "REAPER & Basstripper",
      "title": "Moment",
-     "label": ""
+     "label": "",
+     "bp": "bp:20307804",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 2,
@@ -2115,7 +2175,10 @@
      "minute": 6,
      "artist": "Andy C",
      "title": "Workout",
-     "label": "Ram"
+     "label": "Ram",
+     "bp": "bp:5793219",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -2152,7 +2215,10 @@
      "minute": 9,
      "artist": "Sub Focus & Metrik",
      "title": "Trip",
-     "label": ""
+     "label": "",
+     "bp": "bp:17721667",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,
@@ -2428,7 +2494,10 @@
      "minute": 44,
      "artist": "Andy C",
      "title": "Haunting",
-     "label": ""
+     "label": "",
+     "bp": "bp:23635943",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
@@ -2704,7 +2773,10 @@
      "minute": 85,
      "artist": "Sub Focus Feat. Jo Hill",
      "title": "Wildfire",
-     "label": ""
+     "label": "",
+     "bp": "bp:19333162",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
@@ -3307,7 +3379,10 @@
      "minute": 164,
      "artist": "John Summit, Sub Focus & Julia Church",
      "title": "Go Back",
-     "label": ""
+     "label": "",
+     "bp": "bp:19595152",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 166,
@@ -3369,7 +3444,10 @@
      "minute": 174,
      "artist": "Mefjus & Camo & Krooked",
      "title": "Sientelo",
-     "label": ""
+     "label": "",
+     "bp": "bp:19231980",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 174,
@@ -3401,7 +3479,10 @@
      "minute": 175,
      "artist": "+ DJ Hazard & D Minds",
      "title": "Mr. Happy",
-     "label": "Playaz"
+     "label": "Playaz",
+     "bp": "bp:398880",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 176,
@@ -3433,7 +3514,10 @@
      "minute": 177,
      "artist": "+ DJ Hazard & D Minds",
      "title": "Mr. Happy",
-     "label": "Playaz"
+     "label": "Playaz",
+     "bp": "bp:398880",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -3876,7 +3960,10 @@
      "minute": null,
      "artist": "Simula",
      "title": "Monolith",
-     "label": ""
+     "label": "",
+     "bp": "bp:20503272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4007,7 +4094,10 @@
      "minute": null,
      "artist": "Macky Gee",
      "title": "Tour",
-     "label": ""
+     "label": "",
+     "bp": "bp:9744110",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -4085,7 +4175,10 @@
      "minute": 7,
      "artist": "REAPER & Basstripper",
      "title": "MOMENT",
-     "label": "Bassrush"
+     "label": "Bassrush",
+     "bp": "bp:20307804",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,
@@ -4207,7 +4300,10 @@
      "minute": 41,
      "artist": "Andy C Feat. Tonn Piper",
      "title": "Boom",
-     "label": ""
+     "label": "",
+     "bp": "bp:22822268",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -4341,7 +4437,10 @@
      "minute": 9,
      "artist": "+ Sub Focus",
      "title": "Triple X",
-     "label": "RAM"
+     "label": "RAM",
+     "bp": "bp:23683696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -4385,7 +4484,10 @@
      "minute": 13,
      "artist": "Sub Focus",
      "title": "Triple X",
-     "label": "RAM"
+     "label": "RAM",
+     "bp": "bp:23683696",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -4607,7 +4709,10 @@
      "minute": 32,
      "artist": "+ Spirit",
      "title": "Raygun",
-     "label": "Function"
+     "label": "Function",
+     "bp": "bp:22795125",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -4794,7 +4899,10 @@
      "minute": 52,
      "artist": "Andy C",
      "title": "Haunting",
-     "label": "RAM"
+     "label": "RAM",
+     "bp": "bp:23635943",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -5585,7 +5693,10 @@
      "minute": 118,
      "artist": "Mefjus, Camo & Krooked",
      "title": "Sientelo",
-     "label": "UKF"
+     "label": "UKF",
+     "bp": "bp:19231980",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 119,
@@ -5617,7 +5728,10 @@
      "minute": 119,
      "artist": "+ DJ Hazard & D Minds",
      "title": "Mr. Happy",
-     "label": "Playaz"
+     "label": "Playaz",
+     "bp": "bp:398880",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 120,

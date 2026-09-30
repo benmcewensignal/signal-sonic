@@ -120,7 +120,10 @@
      "minute": 11,
      "artist": "Joachim Spieth",
      "title": "Recall",
-     "label": "Affin"
+     "label": "Affin",
+     "bp": "bp:19279544",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -717,7 +720,10 @@
      "minute": 46,
      "artist": "Djrum",
      "title": "Waxcap",
-     "label": "Houndstooth"
+     "label": "Houndstooth",
+     "bp": "bp:20149189",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -810,7 +816,10 @@
      "minute": 38,
      "artist": "Loidis",
      "title": "Dollarama",
-     "label": "Incienso"
+     "label": "Incienso",
+     "bp": "bp:19199478",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1224,7 +1233,10 @@
      "minute": 44,
      "artist": "Maara",
      "title": "Come Home",
-     "label": "Naff"
+     "label": "Naff",
+     "bp": "bp:23034101",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,

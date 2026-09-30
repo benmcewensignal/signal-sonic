@@ -220,7 +220,10 @@
      "minute": 18,
      "artist": "Carl Cox",
      "title": "Dr. Funk",
-     "label": "Bush"
+     "label": "Bush",
+     "bp": "bp:12030787",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -331,7 +334,10 @@
      "minute": 80,
      "artist": "Us Two",
      "title": "Time To",
-     "label": "Eastenderz"
+     "label": "Eastenderz",
+     "bp": "bp:17811692",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 86,
@@ -531,7 +537,10 @@
      "minute": 25,
      "artist": "DJ Minx",
      "title": "Forget",
-     "label": "Yes Yes Yes"
+     "label": "Yes Yes Yes",
+     "bp": "bp:20191882",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 31,
@@ -1104,7 +1113,10 @@
      "minute": null,
      "artist": "[0??] Hot Since 82 Feat. Kuuda",
      "title": "Forever",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:23597568",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 80,
@@ -1359,7 +1371,10 @@
      "minute": 0,
      "artist": "Hot Since 82 & Shades Of Rhythm",
      "title": "Shaded",
-     "label": "Knee Deep In Sound"
+     "label": "Knee Deep In Sound",
+     "bp": "bp:28911210",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 2,

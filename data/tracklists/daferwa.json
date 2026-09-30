@@ -763,7 +763,10 @@
      "minute": null,
      "artist": "Bad Bunny",
      "title": "DTMF",
-     "label": ""
+     "label": "",
+     "bp": "bp:23981090",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1186,7 +1189,10 @@
      "minute": null,
      "artist": "Kassian",
      "title": "Sun",
-     "label": ""
+     "label": "",
+     "bp": "bp:20677565",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1572,7 +1578,10 @@
      "minute": null,
      "artist": "DJ Motu & Logan OLM",
      "title": "Wickedest",
-     "label": ""
+     "label": "",
+     "bp": "bp:20621365",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1750,7 +1759,10 @@
      "minute": null,
      "artist": "Ape Drums & JAMIIE",
      "title": "111",
-     "label": ""
+     "label": "",
+     "bp": "bp:20780011",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1826,7 +1838,10 @@
      "minute": null,
      "artist": "Matt Karmil",
      "title": "Lush",
-     "label": ""
+     "label": "",
+     "bp": "bp:20705182",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2169,7 +2184,10 @@
      "minute": null,
      "artist": "Conducta",
      "title": "Be The 1",
-     "label": ""
+     "label": "",
+     "bp": "bp:20171746",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3262,7 +3280,10 @@
      "minute": null,
      "artist": "Stones Taro, MFS",
      "title": "Odoriko",
-     "label": ""
+     "label": "",
+     "bp": "bp:29108561",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

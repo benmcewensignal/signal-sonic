@@ -119,7 +119,10 @@
      "minute": 77,
      "artist": "WhoMadeWho & Adriatique",
      "title": "Miracle",
-     "label": "The Moment"
+     "label": "The Moment",
+     "bp": "bp:17998451",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 82,
@@ -169,7 +172,10 @@
      "minute": 104,
      "artist": "Rodriguez Jr",
      "title": "Calypso",
-     "label": "Feathers & Bones"
+     "label": "Feathers & Bones",
+     "bp": "bp:19027813",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 108,
@@ -199,7 +205,10 @@
      "minute": 119,
      "artist": "M.E.M.O.",
      "title": "Loca",
-     "label": "Mobilee"
+     "label": "Mobilee",
+     "bp": "bp:18831557",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -210,19 +219,28 @@
      "minute": null,
      "artist": "Röyksopp Feat. Pixx",
      "title": "How The Flowers Grow",
-     "label": "Dog Triumph Profound Mysteries"
+     "label": "Dog Triumph Profound Mysteries",
+     "bp": "bp:16669950",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Jan Blomqvist Feat. Mahri",
      "title": "Deeper Grounds",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "bp": "bp:16722156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Adriatique & WhoMadeWho",
      "title": "Miracle",
-     "label": "Rose Avenue"
+     "label": "Rose Avenue",
+     "bp": "bp:17998451",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -241,19 +259,28 @@
      "minute": null,
      "artist": "Darque X Thandi Draai",
      "title": "Yonke",
-     "label": "Kunye"
+     "label": "Kunye",
+     "bp": "bp:18691003",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Dot Major",
      "title": "Navi",
-     "label": "Second Phase"
+     "label": "Second Phase",
+     "bp": "bp:18704893",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Rodriguez Jr",
      "title": "Calypso",
-     "label": "Feathers & Bones"
+     "label": "Feathers & Bones",
+     "bp": "bp:19027813",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -272,13 +299,19 @@
      "minute": null,
      "artist": "Rodriguez Jr",
      "title": "Atlantis",
-     "label": "Systematic"
+     "label": "Systematic",
+     "bp": "bp:19245468",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "M.E.M.O.",
      "title": "Loca",
-     "label": ""
+     "label": "",
+     "bp": "bp:18831557",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -416,19 +449,28 @@
      "minute": null,
      "artist": "Röyksopp Feat. Pixx",
      "title": "How The Flowers Grow",
-     "label": "Dog Triumph Profound Mysteries"
+     "label": "Dog Triumph Profound Mysteries",
+     "bp": "bp:16669950",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Jan Blomqvist Feat. Mahri",
      "title": "Deeper Grounds",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "bp": "bp:16722156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Adriatique & WhoMadeWho",
      "title": "Miracle",
-     "label": "Rose Avenue"
+     "label": "Rose Avenue",
+     "bp": "bp:17998451",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -447,19 +489,28 @@
      "minute": null,
      "artist": "Darque X Thandi Draai",
      "title": "Yonke",
-     "label": "Kunye"
+     "label": "Kunye",
+     "bp": "bp:18691003",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Dot Major",
      "title": "Navi",
-     "label": "Second Phase"
+     "label": "Second Phase",
+     "bp": "bp:18704893",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Rodriguez Jr",
      "title": "Calypso",
-     "label": "Feathers & Bones"
+     "label": "Feathers & Bones",
+     "bp": "bp:19027813",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -478,13 +529,19 @@
      "minute": null,
      "artist": "Rodriguez Jr",
      "title": "Atlantis",
-     "label": "Systematic"
+     "label": "Systematic",
+     "bp": "bp:19245468",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "M.E.M.O.",
      "title": "Loca",
-     "label": ""
+     "label": "",
+     "bp": "bp:18831557",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -804,7 +861,10 @@
      "minute": null,
      "artist": "Renato Cohen",
      "title": "Benzine",
-     "label": ""
+     "label": "",
+     "bp": "bp:17744686",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -863,7 +923,10 @@
      "minute": null,
      "artist": "Deetron",
      "title": "Photon",
-     "label": ""
+     "label": "",
+     "bp": "bp:5986998",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -982,7 +1045,10 @@
      "minute": 0,
      "artist": "Jan Blomqvist Feat. Elena Pitoulis",
      "title": "More",
-     "label": "Armada Deep"
+     "label": "Armada Deep",
+     "bp": "bp:7570829",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -1104,7 +1170,10 @@
      "minute": 62,
      "artist": "Jan Blomqvist Feat. Mahri",
      "title": "Deeper Grounds",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "bp": "bp:16722156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 69,
@@ -1985,19 +2054,28 @@
      "minute": null,
      "artist": "Röyksopp Feat. Pixx",
      "title": "How The Flowers Grow",
-     "label": "Dog Triumph Profound Mysteries"
+     "label": "Dog Triumph Profound Mysteries",
+     "bp": "bp:16669950",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Jan Blomqvist Feat. Mahri",
      "title": "Deeper Grounds",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "bp": "bp:16722156",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Adriatique & WhoMadeWho",
      "title": "Miracle",
-     "label": "Rose Avenue"
+     "label": "Rose Avenue",
+     "bp": "bp:17998451",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2016,19 +2094,28 @@
      "minute": null,
      "artist": "Darque X Thandi Draai",
      "title": "Yonke",
-     "label": "Kunye"
+     "label": "Kunye",
+     "bp": "bp:18691003",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Dot Major",
      "title": "Navi",
-     "label": "Second Phase"
+     "label": "Second Phase",
+     "bp": "bp:18704893",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Rodriguez Jr",
      "title": "Calypso",
-     "label": "Feathers & Bones"
+     "label": "Feathers & Bones",
+     "bp": "bp:19027813",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -2136,7 +2223,10 @@
      "minute": 37,
      "artist": "Jiggler",
      "title": "Delight",
-     "label": "Kling Klong"
+     "label": "Kling Klong",
+     "bp": "bp:19321217",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 40,

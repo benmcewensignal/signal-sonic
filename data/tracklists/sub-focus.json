@@ -331,7 +331,10 @@
      "minute": 0,
      "artist": "Sub Focus & Metrik",
      "title": "Trip",
-     "label": ""
+     "label": "",
+     "bp": "bp:17721667",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -583,7 +586,10 @@
      "minute": 36,
      "artist": "Sub Focus",
      "title": "Wildfire",
-     "label": "Positiva"
+     "label": "Positiva",
+     "bp": "bp:19333162",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -640,7 +646,10 @@
      "minute": 44,
      "artist": "Sub Focus",
      "title": "Siren",
-     "label": ""
+     "label": "",
+     "bp": "bp:12342510",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -833,7 +842,10 @@
      "minute": 19,
      "artist": "John Summit & Sub Focus & Julia Church",
      "title": "Go Back",
-     "label": "Darkroom P&D"
+     "label": "Darkroom P&D",
+     "bp": "bp:19595152",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -923,7 +935,10 @@
      "minute": 38,
      "artist": "Sub Focus",
      "title": "Wildfire",
-     "label": ""
+     "label": "",
+     "bp": "bp:19333162",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,

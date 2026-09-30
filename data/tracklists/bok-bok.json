@@ -33,7 +33,10 @@
      "minute": 6,
      "artist": "DJ Timbawolf",
      "title": "CRASH",
-     "label": "Housupa"
+     "label": "Housupa",
+     "bp": "bp:18956078",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -69,7 +72,10 @@
      "minute": 19,
      "artist": "Bakongo",
      "title": "Crosspipe",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:18965229",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -242,7 +248,10 @@
      "minute": 31,
      "artist": "Bakongo",
      "title": "Crosspipe",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:18965229",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -264,7 +273,10 @@
      "minute": 51,
      "artist": "DJ Timbawolf",
      "title": "CRASH",
-     "label": "Housupa"
+     "label": "Housupa",
+     "bp": "bp:18956078",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -285,13 +297,19 @@
      "minute": 7,
      "artist": "Karizma",
      "title": "Spirit",
-     "label": "R2"
+     "label": "R2",
+     "bp": "bp:19604674",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
      "artist": "General C'mamane",
      "title": "Sub 6",
-     "label": ""
+     "label": "",
+     "bp": "bp:18613218",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -826,7 +844,10 @@
      "minute": 15,
      "artist": "Karizma",
      "title": "Spirit",
-     "label": "R2"
+     "label": "R2",
+     "bp": "bp:19604674",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -1046,7 +1067,10 @@
      "minute": 65,
      "artist": "OSSX",
      "title": "336",
-     "label": "Night Slugs"
+     "label": "Night Slugs",
+     "bp": "bp:20343484",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 77,
@@ -1185,7 +1209,10 @@
      "minute": 40,
      "artist": "Ivy Lab",
      "title": "Innocence",
-     "label": "Twenty Twenty London"
+     "label": "Twenty Twenty London",
+     "bp": "bp:20326931",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -1237,7 +1264,10 @@
      "minute": 16,
      "artist": "DJ Lag",
      "title": "Switz",
-     "label": "Goon Club Allstars"
+     "label": "Goon Club Allstars",
+     "bp": "bp:14485367",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -1269,7 +1299,10 @@
      "minute": 48,
      "artist": "Karizma",
      "title": "Spirit",
-     "label": "R2"
+     "label": "R2",
+     "bp": "bp:19604674",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -1309,7 +1342,10 @@
      "minute": 10,
      "artist": "General C'mamane",
      "title": "Sub 6",
-     "label": ""
+     "label": "",
+     "bp": "bp:18613218",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
@@ -1525,7 +1561,10 @@
      "minute": 58,
      "artist": "Bok Bok",
      "title": "Duetto",
-     "label": "Night Slugs"
+     "label": "Night Slugs",
+     "bp": "bp:17624312",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },

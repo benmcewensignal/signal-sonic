@@ -588,7 +588,10 @@
      "minute": 19,
      "artist": "Sofia Kourtesis & Daphni",
      "title": "Unidos",
-     "label": ""
+     "label": "",
+     "bp": "bp:20510647",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -703,7 +706,10 @@
      "minute": 43,
      "artist": "Ploy",
      "title": "Admirer",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:20145803",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -815,7 +821,10 @@
      "minute": 92,
      "artist": "Floating Points",
      "title": "Key103",
-     "label": "Ninja Tune"
+     "label": "Ninja Tune",
+     "bp": "bp:19252070",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 97,

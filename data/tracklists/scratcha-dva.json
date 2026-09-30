@@ -82,7 +82,10 @@
      "minute": 91,
      "artist": "Dlala Thukzin & Goldmax",
      "title": "VAR",
-     "label": "Dlala (PTY)"
+     "label": "Dlala (PTY)",
+     "bp": "bp:19561050",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 111,
@@ -159,7 +162,10 @@
      "minute": 30,
      "artist": "Princess Nyah",
      "title": "Frontline",
-     "label": "Royletease"
+     "label": "Royletease",
+     "bp": "bp:12181096",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -178,7 +184,10 @@
      "minute": 40,
      "artist": "Roska & Jus Now & Fox",
      "title": "Eediat Ting",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:9830395",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -210,7 +219,10 @@
      "minute": 49,
      "artist": "Nativ",
      "title": "Shifty",
-     "label": "Tumble"
+     "label": "Tumble",
+     "bp": "bp:5127665",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -240,7 +252,10 @@
      "minute": 0,
      "artist": "DJ Lag",
      "title": "Switz",
-     "label": "Goon Club Allstars"
+     "label": "Goon Club Allstars",
+     "bp": "bp:14485367",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -306,7 +321,10 @@
      "minute": 35,
      "artist": "Sam Binga & Skream & Bianca Oblivion & Toya Delazy",
      "title": "FIYA SELECTA",
-     "label": "HARD"
+     "label": "HARD",
+     "bp": "bp:19540576",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -343,7 +361,10 @@
      "minute": 63,
      "artist": "DJ Arabic",
      "title": "No ID",
-     "label": "Content Connect Africa"
+     "label": "Content Connect Africa",
+     "bp": "bp:20730229",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 74,
@@ -562,7 +583,10 @@
      "minute": 49,
      "artist": "Wilfy D",
      "title": "IDKW",
-     "label": "HOLD A CORNER"
+     "label": "HOLD A CORNER",
+     "bp": "bp:19175510",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -1003,7 +1027,10 @@
      "minute": 68,
      "artist": "Jill Scott",
      "title": "Pressha",
-     "label": "Blues Babe"
+     "label": "Blues Babe",
+     "bp": "bp:23365298",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
@@ -1106,7 +1133,10 @@
      "minute": 8,
      "artist": "RDX",
      "title": "Jump",
-     "label": "Apt 19 Music"
+     "label": "Apt 19 Music",
+     "bp": "bp:20847164",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -1186,7 +1216,10 @@
      "minute": 91,
      "artist": "Sam Binga & Skream & Bianca Oblivion & Toya Delazy",
      "title": "FIYA SELECTA",
-     "label": "HARD"
+     "label": "HARD",
+     "bp": "bp:19540576",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 101,
@@ -1216,7 +1249,10 @@
      "minute": 110,
      "artist": "Dlala Thukzin & Goldmax",
      "title": "VAR",
-     "label": "Dlala (PTY)"
+     "label": "Dlala (PTY)",
+     "bp": "bp:19561050",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 112,
@@ -1469,7 +1505,10 @@
      "minute": 54,
      "artist": "RDX",
      "title": "Jump",
-     "label": "Apt 19 Music"
+     "label": "Apt 19 Music",
+     "bp": "bp:20847164",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -1593,13 +1632,19 @@
      "minute": 66,
      "artist": "Roska",
      "title": "Stop & Wave",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:28926805",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 71,
      "artist": "Princess Nyah",
      "title": "Frontline",
-     "label": "Royletease"
+     "label": "Royletease",
+     "bp": "bp:12181096",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 74,
@@ -1873,7 +1918,10 @@
      "minute": 109,
      "artist": "Lil Silva",
      "title": "Seasons",
-     "label": "Nowhere"
+     "label": "Nowhere",
+     "bp": "bp:16127067",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   }

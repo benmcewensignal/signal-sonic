@@ -2184,7 +2184,10 @@
      "minute": null,
      "artist": "Harmony",
      "title": "Pieces",
-     "label": "Deep Jungle - Forthcoming"
+     "label": "Deep Jungle - Forthcoming",
+     "bp": "bp:29848183",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2700,7 +2703,10 @@
      "minute": null,
      "artist": "Harmony",
      "title": "Pieces",
-     "label": ""
+     "label": "",
+     "bp": "bp:29848183",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -3308,7 +3314,10 @@
      "minute": null,
      "artist": "Sl8r",
      "title": "Callisto",
-     "label": "Play:Musik - Forthcoming"
+     "label": "Play:Musik - Forthcoming",
+     "bp": "bp:30272181",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3495,7 +3504,10 @@
      "minute": null,
      "artist": "SL8r",
      "title": "Callisto",
-     "label": ""
+     "label": "",
+     "bp": "bp:30272181",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

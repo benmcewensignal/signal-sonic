@@ -69,13 +69,19 @@
      "minute": 24,
      "artist": "Impérieux",
      "title": "Fena",
-     "label": "Hessle"
+     "label": "Hessle",
+     "bp": "bp:20465189",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
      "artist": "COIDO & TRAKA",
      "title": "Gruz",
-     "label": "YUKU"
+     "label": "YUKU",
+     "bp": "bp:20359109",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -155,7 +161,10 @@
      "minute": 53,
      "artist": "Simula",
      "title": "Monolith",
-     "label": "Dance Macabre"
+     "label": "Dance Macabre",
+     "bp": "bp:20503272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -199,7 +208,10 @@
      "minute": 3,
      "artist": "Josi Devil",
      "title": "No More",
-     "label": ""
+     "label": "",
+     "bp": "bp:21583840",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -214,7 +226,10 @@
      "minute": null,
      "artist": "ODF",
      "title": "Deep Step",
-     "label": ""
+     "label": "",
+     "bp": "bp:20772727",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -351,7 +366,10 @@
      "minute": null,
      "artist": "Josi Devil",
      "title": "Duinpan",
-     "label": ""
+     "label": "",
+     "bp": "bp:21696175",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -699,7 +717,10 @@
      "minute": 16,
      "artist": "G Jones & Eprom",
      "title": "1000 Cuts",
-     "label": "Illusory"
+     "label": "Illusory",
+     "bp": "bp:22651860",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -832,7 +853,10 @@
      "minute": 47,
      "artist": "Simula",
      "title": "Monolith",
-     "label": "Dance Macabre"
+     "label": "Dance Macabre",
+     "bp": "bp:20503272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 50,
@@ -857,7 +881,10 @@
      "minute": 53,
      "artist": "Waeys",
      "title": "Dredge",
-     "label": "Critical"
+     "label": "Critical",
+     "bp": "bp:20767489",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,

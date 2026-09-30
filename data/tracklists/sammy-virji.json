@@ -274,7 +274,10 @@
      "minute": 55,
      "artist": "Sammy Virji",
      "title": "Moonlight",
-     "label": ""
+     "label": "",
+     "bp": "bp:18583701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -788,7 +791,10 @@
      "minute": null,
      "artist": "Skeptic",
      "title": "Gstar",
-     "label": ""
+     "label": "",
+     "bp": "bp:20142537",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -800,7 +806,10 @@
      "minute": null,
      "artist": "ODF",
      "title": "Deep Step",
-     "label": ""
+     "label": "",
+     "bp": "bp:20772727",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -862,7 +871,10 @@
      "minute": null,
      "artist": "JIALING & Farsight",
      "title": "Twister",
-     "label": "Clasico"
+     "label": "Clasico",
+     "bp": "bp:19417975",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -874,7 +886,10 @@
      "minute": null,
      "artist": "Conducta",
      "title": "Needed U",
-     "label": ""
+     "label": "",
+     "bp": "bp:19467393",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1019,7 +1034,10 @@
      "minute": null,
      "artist": "Lxury",
      "title": "J.A.W.S",
-     "label": "Method"
+     "label": "Method",
+     "bp": "bp:4777162",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1258,7 +1276,10 @@
      "minute": null,
      "artist": "Sammy Virji",
      "title": "Moonlight",
-     "label": "Positiva"
+     "label": "Positiva",
+     "bp": "bp:18583701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1283,7 +1304,10 @@
      "minute": null,
      "artist": "NOTION",
      "title": "TV Dreams",
-     "label": "Self Released"
+     "label": "Self Released",
+     "bp": "bp:18796335",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1926,7 +1950,10 @@
      "minute": null,
      "artist": "DB Selective",
      "title": "Dub Train",
-     "label": "Plastik People"
+     "label": "Plastik People",
+     "bp": "bp:10775333",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1999,7 +2026,10 @@
      "minute": null,
      "artist": "MJ Cole Feat. Elisabeth Troy",
      "title": "Crazy Love",
-     "label": "Mercury (Umg)"
+     "label": "Mercury (Umg)",
+     "bp": "bp:15372575",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2024,7 +2054,10 @@
      "minute": null,
      "artist": "Kerri Chandler",
      "title": "Rain",
-     "label": "Nervous"
+     "label": "Nervous",
+     "bp": "bp:1096456",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2223,7 +2256,10 @@
      "minute": null,
      "artist": "Sammy Virji",
      "title": "Daga Da",
-     "label": "Sammy Virji"
+     "label": "Sammy Virji",
+     "bp": "bp:15288972",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2261,7 +2297,10 @@
      "minute": null,
      "artist": "Lil Silva",
      "title": "Seasons",
-     "label": "Night Slugs"
+     "label": "Night Slugs",
+     "bp": "bp:16127067",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2273,7 +2312,10 @@
      "minute": null,
      "artist": "Sammy Virji",
      "title": "Bogeyman",
-     "label": "Sammy Virji"
+     "label": "Sammy Virji",
+     "bp": "bp:19498336",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2539,7 +2581,10 @@
      "minute": 0,
      "artist": "Fred Again.. & Sammy Virji & Winny",
      "title": "Winny",
-     "label": ""
+     "label": "",
+     "bp": "bp:22672318",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -2564,7 +2609,10 @@
      "minute": null,
      "artist": "Timbaland Feat. Dr. Dre & Missy Elliott & Justin Timberlake",
      "title": "Bounce",
-     "label": "Mosley"
+     "label": "Mosley",
+     "bp": "bp:20903627",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2601,7 +2649,10 @@
      "minute": null,
      "artist": "Silas",
      "title": "Dune",
-     "label": "Mean Streets"
+     "label": "Mean Streets",
+     "bp": "bp:18497513",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2646,7 +2697,10 @@
      "minute": 67,
      "artist": "Fred Again.. & Sammy Virji & Winny",
      "title": "Winny",
-     "label": ""
+     "label": "",
+     "bp": "bp:22672318",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -2754,7 +2808,10 @@
      "minute": 14,
      "artist": "Sammy Virji",
      "title": "Moonlight",
-     "label": "Positiva"
+     "label": "Positiva",
+     "bp": "bp:18583701",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -2921,7 +2978,10 @@
      "minute": 67,
      "artist": "Fred Again.. & BEAM & Danny Brown & PARISI & JPEGMAFIA",
      "title": "OK OK",
-     "label": "Warner UK"
+     "label": "Warner UK",
+     "bp": "bp:23853832",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
@@ -2959,7 +3019,10 @@
      "minute": 87,
      "artist": "Fred Again.. & Sammy Virji & Winny",
      "title": "Winny",
-     "label": ""
+     "label": "",
+     "bp": "bp:22672318",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
@@ -3068,13 +3131,19 @@
      "minute": 130,
      "artist": "Fred Again.. & Lil Yachty & Overmono",
      "title": "Stayinit",
-     "label": ""
+     "label": "",
+     "bp": "bp:18767182",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 134,
      "artist": "Timbaland Feat. Dr. Dre & Missy Elliott & Justin Timberlake",
      "title": "Bounce",
-     "label": "Mosley"
+     "label": "Mosley",
+     "bp": "bp:20903627",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3172,7 +3241,10 @@
      "minute": 153,
      "artist": "Fred Again.. & Sammy Virji & Winny",
      "title": "Winny",
-     "label": ""
+     "label": "",
+     "bp": "bp:22672318",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 158,

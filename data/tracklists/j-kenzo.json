@@ -257,7 +257,10 @@
      "minute": 56,
      "artist": "V.I.V.E.K",
      "title": "GONE W3ST",
-     "label": "Tectonic"
+     "label": "Tectonic",
+     "bp": "bp:20454095",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -368,7 +371,10 @@
      "minute": 15,
      "artist": "N-Type, Nomine",
      "title": "Believe",
-     "label": "Wheel & Deal"
+     "label": "Wheel & Deal",
+     "bp": "bp:22235329",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
@@ -656,13 +662,19 @@
      "minute": 100,
      "artist": "Subjects",
      "title": "Horns",
-     "label": ""
+     "label": "",
+     "bp": "bp:22787652",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 103,
      "artist": "Molecular",
      "title": "One Dub",
-     "label": "1985 Music"
+     "label": "1985 Music",
+     "bp": "bp:22975835",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 105,
@@ -740,7 +752,10 @@
      "minute": 16,
      "artist": "V.I.V.E.K",
      "title": "Gone W3st",
-     "label": "Tectonic"
+     "label": "Tectonic",
+     "bp": "bp:20454095",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -905,7 +920,10 @@
      "minute": 55,
      "artist": "Subjects",
      "title": "Horns",
-     "label": ""
+     "label": "",
+     "bp": "bp:22787652",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -999,7 +1017,10 @@
      "minute": 103,
      "artist": "Jonny L",
      "title": "Burnt Out",
-     "label": "Soul In Motion"
+     "label": "Soul In Motion",
+     "bp": "bp:23681154",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1122,7 +1143,10 @@
      "minute": null,
      "artist": "J:Kenzo",
      "title": "Intalek",
-     "label": ""
+     "label": "",
+     "bp": "bp:7398511",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1305,7 +1329,10 @@
      "minute": 43,
      "artist": "Garrett Fields",
      "title": "Wombo",
-     "label": "Locus Sound"
+     "label": "Locus Sound",
+     "bp": "bp:27159282",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 46,
@@ -1469,7 +1496,10 @@
      "minute": 30,
      "artist": "Om Unit",
      "title": "Tapped",
-     "label": "Om Unit Self Released"
+     "label": "Om Unit Self Released",
+     "bp": "bp:22324225",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 32,
@@ -1916,7 +1946,10 @@
      "minute": 103,
      "artist": "Breakage",
      "title": "Dread",
-     "label": "Digital Soundboy"
+     "label": "Digital Soundboy",
+     "bp": "bp:27749728",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 106,
@@ -1941,7 +1974,10 @@
      "minute": null,
      "artist": "Need For Mirrors",
      "title": "Flowers",
-     "label": ""
+     "label": "",
+     "bp": "bp:29094428",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2239,13 +2275,19 @@
      "minute": null,
      "artist": "Molecular",
      "title": "One Dub",
-     "label": ""
+     "label": "",
+     "bp": "bp:22975835",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Need For Mirrors",
      "title": "Flowers",
-     "label": ""
+     "label": "",
+     "bp": "bp:29094428",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2277,13 +2319,19 @@
      "minute": null,
      "artist": "Subjects",
      "title": "Horns",
-     "label": ""
+     "label": "",
+     "bp": "bp:22787652",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Jonny L",
      "title": "Burnt Out",
-     "label": ""
+     "label": "",
+     "bp": "bp:23681154",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

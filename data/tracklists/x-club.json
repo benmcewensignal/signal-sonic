@@ -9,7 +9,10 @@
      "minute": 0,
      "artist": "Yaleesa Hall",
      "title": "Cleanse",
-     "label": "EXERSOUND"
+     "label": "EXERSOUND",
+     "bp": "bp:19153442",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -64,7 +67,10 @@
      "minute": 31,
      "artist": "Andrew Bon Bosher",
      "title": "La7eav",
-     "label": "Bounce Kastle"
+     "label": "Bounce Kastle",
+     "bp": "bp:18778175",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -166,7 +172,10 @@
      "minute": 13,
      "artist": "Hertz",
      "title": "Timballe",
-     "label": ""
+     "label": "",
+     "bp": "bp:18201494",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -244,7 +253,10 @@
      "minute": 50,
      "artist": "Andrew Bon Bosher",
      "title": "La7eav",
-     "label": "Bounce Kastle"
+     "label": "Bounce Kastle",
+     "bp": "bp:18778175",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -589,7 +601,10 @@
      "minute": 62,
      "artist": "Skepta",
      "title": "I Spy",
-     "label": "Boy Better Know"
+     "label": "Boy Better Know",
+     "bp": "bp:377661",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -1451,7 +1466,10 @@
      "minute": 106,
      "artist": "Fold & Cu.Rve",
      "title": "Business",
-     "label": "Ingram"
+     "label": "Ingram",
+     "bp": "bp:20653660",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 110,
@@ -1509,7 +1527,10 @@
      "minute": 26,
      "artist": "Josi Devil",
      "title": "No More",
-     "label": "Nervous Horizon"
+     "label": "Nervous Horizon",
+     "bp": "bp:21583840",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -1678,7 +1699,10 @@
      "minute": 15,
      "artist": "Ploy",
      "title": "Admirer",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:20145803",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
@@ -1715,7 +1739,10 @@
      "minute": 33,
      "artist": "Identified Patient",
      "title": "Light",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:21136196",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
@@ -1751,7 +1778,10 @@
      "minute": 57,
      "artist": "Siu Mata & Amor Satyr",
      "title": "Frenesi",
-     "label": "WAJANG"
+     "label": "WAJANG",
+     "bp": "bp:20424723",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -1807,7 +1837,10 @@
      "minute": 75,
      "artist": "You Know Seth",
      "title": "CCamp",
-     "label": "The Sixth Sense//Akashic"
+     "label": "The Sixth Sense//Akashic",
+     "bp": "bp:19961675",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 92,
@@ -2069,7 +2102,10 @@
      "minute": 39,
      "artist": "Weepers",
      "title": "96",
-     "label": "NTS Classics"
+     "label": "NTS Classics",
+     "bp": "bp:19484769",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -2576,7 +2612,10 @@
      "minute": 105,
      "artist": "Club Angel & MAR VISTA",
      "title": "Outrun",
-     "label": "Higher Ground"
+     "label": "Higher Ground",
+     "bp": "bp:22110649",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 109,
@@ -2910,7 +2949,10 @@
      "minute": null,
      "artist": "Luuk Van Dijk & Kolter",
      "title": "Good 4 U",
-     "label": "TSZR"
+     "label": "TSZR",
+     "bp": "bp:19324209",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3570,7 +3612,10 @@
      "minute": 94,
      "artist": "Temudo",
      "title": "Over You",
-     "label": "Primal Instinct"
+     "label": "Primal Instinct",
+     "bp": "bp:24196504",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,

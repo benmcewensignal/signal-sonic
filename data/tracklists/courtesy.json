@@ -319,7 +319,10 @@
      "minute": null,
      "artist": "Joe Koshin, Chez",
      "title": "Watch Me",
-     "label": ""
+     "label": "",
+     "bp": "bp:20401441",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -380,7 +383,10 @@
      "minute": null,
      "artist": "Carré",
      "title": "Faded Form",
-     "label": ""
+     "label": "",
+     "bp": "bp:20310777",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -619,7 +625,10 @@
      "minute": 11,
      "artist": "Joe Koshin, Chez",
      "title": "Watch Me",
-     "label": ""
+     "label": "",
+     "bp": "bp:20401441",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -985,7 +994,10 @@
      "minute": 28,
      "artist": "Ondo Fudd",
      "title": "Limelight",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:20755833",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -1657,7 +1669,10 @@
      "minute": 50,
      "artist": "DJ Sprinter",
      "title": "Subby",
-     "label": "Fable"
+     "label": "Fable",
+     "bp": "bp:23576284",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -1802,7 +1817,10 @@
      "minute": null,
      "artist": "Yesca",
      "title": "Work It",
-     "label": ""
+     "label": "",
+     "bp": "bp:28307229",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },

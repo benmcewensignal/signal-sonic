@@ -14,7 +14,10 @@
      "minute": 5,
      "artist": "Skream",
      "title": "Lemon",
-     "label": "Ifeel"
+     "label": "Ifeel",
+     "bp": "bp:14969699",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -415,7 +418,10 @@
      "minute": 62,
      "artist": "DJ Fudge",
      "title": "Escapade",
-     "label": "Big Love"
+     "label": "Big Love",
+     "bp": "bp:18856386",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 66,
@@ -604,7 +610,10 @@
      "minute": 11,
      "artist": "Breakage Feat. Newham Generals & David Rodigan",
      "title": "Hard",
-     "label": "Digital Soundboy"
+     "label": "Digital Soundboy",
+     "bp": "bp:1621311",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -628,7 +637,10 @@
      "minute": 15,
      "artist": "Mala",
      "title": "Changes",
-     "label": "Deep Medi"
+     "label": "Deep Medi",
+     "bp": "bp:5944046",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -643,7 +655,10 @@
      "minute": 19,
      "artist": "Skream",
      "title": "Lemon",
-     "label": ""
+     "label": "",
+     "bp": "bp:14969699",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -1379,7 +1394,10 @@
      "minute": 59,
      "artist": "Joy Orbison",
      "title": "Hyph Mngo",
-     "label": "Hinge Finger"
+     "label": "Hinge Finger",
+     "bp": "bp:13206139",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 68,

@@ -28,7 +28,10 @@
      "minute": null,
      "artist": "Dennis Ferrer",
      "title": "Hey Hey",
-     "label": "Defected"
+     "label": "Defected",
+     "bp": "bp:1077199",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -119,7 +122,10 @@
      "minute": null,
      "artist": "Pantejra & Paul Mond",
      "title": "Encaixa",
-     "label": ""
+     "label": "",
+     "bp": "bp:20057941",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -830,7 +836,10 @@
      "minute": null,
      "artist": "Olof Dreijer & Diva Cruz",
      "title": "Acuyuye",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:19119888",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -917,7 +926,10 @@
      "minute": null,
      "artist": "Roska",
      "title": "The Mack",
-     "label": "Kicks & Snares"
+     "label": "Kicks & Snares",
+     "bp": "bp:21342506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1167,7 +1179,10 @@
      "minute": null,
      "artist": "Pantejra & Paul Mond",
      "title": "Encaixa",
-     "label": ""
+     "label": "",
+     "bp": "bp:20057941",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1385,7 +1400,10 @@
      "minute": null,
      "artist": "Anz",
      "title": "Panrico",
-     "label": "Self Released"
+     "label": "Self Released",
+     "bp": "bp:9600535",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

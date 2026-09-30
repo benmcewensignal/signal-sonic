@@ -45,7 +45,10 @@
      "minute": null,
      "artist": "Joris Voorn & Roddy Lima & Taylr Renee",
      "title": "Machine",
-     "label": "Spectrum"
+     "label": "Spectrum",
+     "bp": "bp:28702504",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -185,7 +188,10 @@
      "minute": null,
      "artist": "CamelPhat & Josh Gigante Feat. Kuuda",
      "title": "So Good",
-     "label": "When Stars Align"
+     "label": "When Stars Align",
+     "bp": "bp:28913355",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -257,7 +263,10 @@
      "minute": null,
      "artist": "Agents Of Time & FORS",
      "title": "Oblivion",
-     "label": "Time Machine"
+     "label": "Time Machine",
+     "bp": "bp:28186610",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -300,7 +309,10 @@
      "minute": null,
      "artist": "Alex Wann & JUNO",
      "title": "Allo",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "bp": "bp:28470106",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,

@@ -194,7 +194,10 @@
      "minute": null,
      "artist": "Boys Shorts Feat. DJ City",
      "title": "On The High Line",
-     "label": ""
+     "label": "",
+     "bp": "bp:18779729",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -860,7 +863,10 @@
      "minute": 56,
      "artist": "Dim City",
      "title": "Extasis",
-     "label": ""
+     "label": "",
+     "bp": "bp:19309234",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,

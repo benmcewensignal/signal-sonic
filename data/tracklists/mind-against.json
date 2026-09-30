@@ -9,7 +9,10 @@
      "minute": 0,
      "artist": "Mind Against & Sideral",
      "title": "Colossal",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "bp": "bp:19252519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -127,7 +130,10 @@
      "minute": 74,
      "artist": "Mind Against vs TSHA Feat. Nimmo",
      "title": "OnlyL",
-     "label": "Habitat"
+     "label": "Habitat",
+     "bp": "bp:18595598",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 81,
@@ -151,7 +157,10 @@
      "minute": 0,
      "artist": "Prospa",
      "title": "Motions",
-     "label": "Circoloco"
+     "label": "Circoloco",
+     "bp": "bp:19050824",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -386,13 +395,19 @@
      "minute": 87,
      "artist": "Floating Points",
      "title": "Key103",
-     "label": "Ninja"
+     "label": "Ninja",
+     "bp": "bp:19252070",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
      "artist": "Mind Against & Sideral",
      "title": "Colossal",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "bp": "bp:19252519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 96,
@@ -545,7 +560,10 @@
      "minute": 51,
      "artist": "Mind Against & Tharat",
      "title": "Cloud",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:21994587",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -642,7 +660,10 @@
      "minute": 96,
      "artist": "Mind Against vs TSHA Feat. Nimmo",
      "title": "OnlyL",
-     "label": "Habitat"
+     "label": "Habitat",
+     "bp": "bp:18595598",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -668,7 +689,10 @@
      "minute": null,
      "artist": "DJ Seinfeld & Confidence Man",
      "title": "The Right",
-     "label": "Ninja"
+     "label": "Ninja",
+     "bp": "bp:22210731",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -751,7 +775,10 @@
      "minute": null,
      "artist": "Marsolo",
      "title": "Spaceship",
-     "label": "Positiva"
+     "label": "Positiva",
+     "bp": "bp:22009896",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -847,7 +874,10 @@
      "minute": null,
      "artist": "Luca Luper & Karmon",
      "title": "Frequency",
-     "label": "Diynamic"
+     "label": "Diynamic",
+     "bp": "bp:21922735",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -900,13 +930,19 @@
      "minute": null,
      "artist": "Cassius",
      "title": "Dance On",
-     "label": ""
+     "label": "",
+     "bp": "bp:21986169",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Djrum",
      "title": "Waxcap",
-     "label": "Houndstooth"
+     "label": "Houndstooth",
+     "bp": "bp:20149189",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -963,7 +999,10 @@
      "minute": null,
      "artist": "Mind Against & Tharat",
      "title": "Cloud",
-     "label": "Drumcode"
+     "label": "Drumcode",
+     "bp": "bp:21994587",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

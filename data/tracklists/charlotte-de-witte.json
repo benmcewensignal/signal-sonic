@@ -15,7 +15,10 @@
      "minute": null,
      "artist": "Inox Traxx",
      "title": "Close",
-     "label": ""
+     "label": "",
+     "bp": "bp:18718307",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -195,7 +198,10 @@
      "minute": 19,
      "artist": "Charlotte de Witte",
      "title": "Overdrive",
-     "label": ""
+     "label": "",
+     "bp": "bp:17661010",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -282,7 +288,10 @@
      "minute": 2,
      "artist": "Charlotte de Witte",
      "title": "The Realm",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20289327",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -406,7 +415,10 @@
      "minute": 22,
      "artist": "Charlotte de Witte Feat. XSALT",
      "title": "No Division",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20457519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -485,13 +497,19 @@
      "minute": 0,
      "artist": "Charlotte de Witte",
      "title": "Overdrive",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:17661010",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 2,
      "artist": "Charlotte de Witte",
      "title": "The Realm",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20289327",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -516,7 +534,10 @@
      "minute": 15,
      "artist": "Charlotte de Witte",
      "title": "Vidmahe",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:21487176",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -528,7 +549,10 @@
      "minute": 24,
      "artist": "Charlotte de Witte",
      "title": "Malina",
-     "label": ""
+     "label": "",
+     "bp": "bp:23549584",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -648,7 +672,10 @@
      "minute": 74,
      "artist": "Charlotte de Witte Feat. XSALT",
      "title": "No Division",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20457519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 79,
@@ -667,7 +694,10 @@
      "minute": 84,
      "artist": "Charlotte de Witte",
      "title": "Overdrive",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:17661010",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -708,7 +738,10 @@
      "minute": 12,
      "artist": "Charlotte de Witte",
      "title": "Hymn",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:21487187",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -759,13 +792,19 @@
      "minute": 35,
      "artist": "Charlotte de Witte Feat. XSALT",
      "title": "No Division",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20457519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
      "artist": "Charlotte de Witte",
      "title": "Overdrive",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:17661010",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -783,7 +822,10 @@
      "minute": 49,
      "artist": "Marie Vaunt",
      "title": "That Acid",
-     "label": "Extatic"
+     "label": "Extatic",
+     "bp": "bp:20593053",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -833,7 +875,10 @@
      "minute": 6,
      "artist": "Charlotte de Witte",
      "title": "Vidmahe",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:21487176",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -962,7 +1007,10 @@
      "minute": 61,
      "artist": "Charlotte de Witte",
      "title": "Hymn",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:21487187",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 66,
@@ -997,7 +1045,10 @@
      "minute": 85,
      "artist": "Charlotte de Witte Feat. XSALT",
      "title": "No Division",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20457519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
@@ -1028,7 +1079,10 @@
      "minute": 104,
      "artist": "Charlotte de Witte",
      "title": "Overdrive",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:17661010",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 108,
@@ -1083,7 +1137,10 @@
      "minute": 6,
      "artist": "Charlotte de Witte Feat. XSALT",
      "title": "No Division",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:20457519",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -1150,7 +1207,10 @@
      "minute": 35,
      "artist": "Charlotte de Witte",
      "title": "Overdrive",
-     "label": "KNTXT"
+     "label": "KNTXT",
+     "bp": "bp:17661010",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,

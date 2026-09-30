@@ -135,7 +135,10 @@
      "minute": 55,
      "artist": "DJ Babatr",
      "title": "To-K",
-     "label": "International Chrome"
+     "label": "International Chrome",
+     "bp": "bp:19136695",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -241,7 +244,10 @@
      "minute": 109,
      "artist": "Rising Dust & Astrix",
      "title": "Universo",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "bp": "bp:14232994",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 116,
@@ -313,7 +319,10 @@
      "minute": 23,
      "artist": "DJ Babatr",
      "title": "To-K",
-     "label": "International Chrome"
+     "label": "International Chrome",
+     "bp": "bp:19136695",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 25,
@@ -449,7 +458,10 @@
      "minute": 80,
      "artist": "Rising Dust & Astrix",
      "title": "Universo",
-     "label": "Shamanic Tales"
+     "label": "Shamanic Tales",
+     "bp": "bp:14232994",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 87,
@@ -507,7 +519,10 @@
      "minute": 30,
      "artist": "Ron Brown",
      "title": "Hello Man",
-     "label": ""
+     "label": "",
+     "bp": "bp:20326194",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
@@ -618,7 +633,10 @@
      "minute": 25,
      "artist": "Ruthlss",
      "title": "Ascension",
-     "label": ""
+     "label": "",
+     "bp": "bp:20164086",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -769,7 +787,10 @@
      "minute": 20,
      "artist": "Ron Brown",
      "title": "Hello Man",
-     "label": ""
+     "label": "",
+     "bp": "bp:20326194",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -1456,7 +1477,10 @@
      "minute": 87,
      "artist": "Proxy",
      "title": "Raven",
-     "label": ""
+     "label": "",
+     "bp": "bp:19163167",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 88,
@@ -1777,7 +1801,10 @@
      "minute": 41,
      "artist": "Fold & Cu.Rve",
      "title": "Business",
-     "label": "Fold"
+     "label": "Fold",
+     "bp": "bp:20653660",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
@@ -1808,7 +1835,10 @@
      "minute": 54,
      "artist": "Kassian",
      "title": "Replicate",
-     "label": ""
+     "label": "",
+     "bp": "bp:19309629",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,

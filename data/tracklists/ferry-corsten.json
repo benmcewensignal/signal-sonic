@@ -65,7 +65,10 @@
      "minute": null,
      "artist": "John Summit Feat. Inéz",
      "title": "Crystallized",
-     "label": "Experts Only"
+     "label": "Experts Only",
+     "bp": "bp:22095332",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -257,7 +260,10 @@
      "minute": null,
      "artist": "Ferry Corsten & Superstrings",
      "title": "Remember",
-     "label": "Flashover"
+     "label": "Flashover",
+     "bp": "bp:19593869",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -276,7 +282,10 @@
      "minute": null,
      "artist": "Ferry Corsten",
      "title": "Yes Man",
-     "label": "Flashover"
+     "label": "Flashover",
+     "bp": "bp:18157385",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -949,13 +958,19 @@
      "minute": 157,
      "artist": "Elevven",
      "title": "Good Love",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:20540001",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 157,
      "artist": "Estiva",
      "title": "KFIL",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:20060216",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 157,

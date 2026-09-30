@@ -134,7 +134,10 @@
      "minute": 55,
      "artist": "Pearson Sound",
      "title": "Hornet",
-     "label": "Hessle"
+     "label": "Hessle",
+     "bp": "bp:19160103",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -149,7 +152,10 @@
      "minute": 62,
      "artist": "ZJ",
      "title": "Temba",
-     "label": "Borne Fruits"
+     "label": "Borne Fruits",
+     "bp": "bp:19022768",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -223,7 +229,10 @@
      "minute": 95,
      "artist": "Skee Mask",
      "title": "The Bills",
-     "label": "Ilian Skee Series"
+     "label": "Ilian Skee Series",
+     "bp": "bp:18867224",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 98,
@@ -365,7 +374,10 @@
      "minute": 32,
      "artist": "Piezo",
      "title": "Skinner",
-     "label": "Nervous Horizon"
+     "label": "Nervous Horizon",
+     "bp": "bp:17798606",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
@@ -396,7 +408,10 @@
      "minute": 46,
      "artist": "Siu Mata",
      "title": "Vaalbara",
-     "label": "Nervous Horizon"
+     "label": "Nervous Horizon",
+     "bp": "bp:18269795",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -792,7 +807,10 @@
      "minute": 99,
      "artist": "Burnski",
      "title": "Pacific",
-     "label": "Constant Sound"
+     "label": "Constant Sound",
+     "bp": "bp:18303974",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 103,
@@ -823,7 +841,10 @@
      "minute": 112,
      "artist": "JIALING & Farsight",
      "title": "Twister",
-     "label": "Clasico"
+     "label": "Clasico",
+     "bp": "bp:19417975",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 115,
@@ -1280,7 +1301,10 @@
      "minute": 35,
      "artist": "Simo Cell",
      "title": "Circuits",
-     "label": "Temet"
+     "label": "Temet",
+     "bp": "bp:20453064",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 40,
@@ -1553,7 +1577,10 @@
      "minute": 5,
      "artist": "ZJ",
      "title": "Temba",
-     "label": "Borne Fruits"
+     "label": "Borne Fruits",
+     "bp": "bp:19022768",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -1635,7 +1662,10 @@
      "minute": 39,
      "artist": "Yaleesa Hall",
      "title": "Cleanse",
-     "label": "EXERSOUND"
+     "label": "EXERSOUND",
+     "bp": "bp:19153442",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -1921,7 +1951,10 @@
      "minute": 28,
      "artist": "Entrañas",
      "title": "Corviche",
-     "label": "TraTraTrax"
+     "label": "TraTraTrax",
+     "bp": "bp:20157175",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 32,
@@ -2087,7 +2120,10 @@
      "minute": 90,
      "artist": "Formula II",
      "title": "Festa",
-     "label": "Noise Pollution"
+     "label": "Noise Pollution",
+     "bp": "bp:20194761",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
@@ -2383,7 +2419,10 @@
      "minute": 37,
      "artist": "Sub Basics",
      "title": "Anomaly",
-     "label": "TH Tar Hallow"
+     "label": "TH Tar Hallow",
+     "bp": "bp:20778550",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -2520,7 +2559,10 @@
      "minute": 46,
      "artist": "Ex_Libris Feat. A Made Up Sound",
      "title": "#3 (Running Out)",
-     "label": "Ex_Libris"
+     "label": "Ex_Libris",
+     "bp": "bp:20668292",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -2703,7 +2745,10 @@
      "minute": 49,
      "artist": "Breaka",
      "title": "Mangled",
-     "label": ""
+     "label": "",
+     "bp": "bp:29281652",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2916,7 +2961,10 @@
      "minute": 16,
      "artist": "Batu & Donato Dozzy",
      "title": "Spiral",
-     "label": ""
+     "label": "",
+     "bp": "bp:28353953",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3106,7 +3154,10 @@
      "minute": 33,
      "artist": "Stones Taro",
      "title": "Odoriko",
-     "label": "Rhythm Section International"
+     "label": "Rhythm Section International",
+     "bp": "bp:29108561",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 36,
@@ -3143,7 +3194,10 @@
      "minute": 48,
      "artist": "Cesco",
      "title": "Obnox",
-     "label": "Skill Issue"
+     "label": "Skill Issue",
+     "bp": "bp:29452784",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,

@@ -226,7 +226,10 @@
      "minute": 16,
      "artist": "Roska",
      "title": "Cancelled",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301890",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -260,7 +263,10 @@
      "minute": 25,
      "artist": "Roska Feat. なかむらみなみ, Serocee, Sweetie Irie & Flowdan",
      "title": "Call Mi",
-     "label": ""
+     "label": "",
+     "bp": "bp:17135920",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -277,7 +283,10 @@
      "minute": 31,
      "artist": "Roska",
      "title": "Pressure",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301896",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 32,
@@ -289,7 +298,10 @@
      "minute": 34,
      "artist": "KTM",
      "title": "Love Dem",
-     "label": ""
+     "label": "",
+     "bp": "bp:18295438",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
@@ -368,7 +380,10 @@
      "minute": 50,
      "artist": "DJ Motu",
      "title": "Wurk",
-     "label": ""
+     "label": "",
+     "bp": "bp:17608339",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -430,7 +445,10 @@
      "minute": 0,
      "artist": "Pestman Feat. Tanesha",
      "title": "My Body",
-     "label": "Invasion"
+     "label": "Invasion",
+     "bp": "bp:1813316",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -477,7 +495,10 @@
      "minute": 22,
      "artist": "KTM",
      "title": "Balance",
-     "label": ""
+     "label": "",
+     "bp": "bp:18295435",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -489,7 +510,10 @@
      "minute": 34,
      "artist": "Arinola",
      "title": "Same Way",
-     "label": "88 ENTERTAINMENT"
+     "label": "88 ENTERTAINMENT",
+     "bp": "bp:20256912",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -586,7 +610,10 @@
      "minute": 57,
      "artist": "Roska & Aleisha Lee",
      "title": "Over You",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894419",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -597,7 +624,10 @@
      "minute": 63,
      "artist": "Roska & Kristie Killick & Manga Saint Hilare",
      "title": "Kingdom",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:19973833",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -648,7 +678,10 @@
      "minute": 79,
      "artist": "Bakongo",
      "title": "3 X 2",
-     "label": "Livity Sound"
+     "label": "Livity Sound",
+     "bp": "bp:14261173",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 85,
@@ -686,13 +719,19 @@
      "minute": 91,
      "artist": "KTM",
      "title": "Medz",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17536106",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 95,
      "artist": "Jook 10",
      "title": "Darker",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17126902",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 97,
@@ -755,7 +794,10 @@
      "minute": 112,
      "artist": "Bakongo",
      "title": "Crosspipe",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:18965229",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -766,7 +808,10 @@
      "minute": 0,
      "artist": "NameBrandSound",
      "title": "Head Down",
-     "label": "CoOp Presents"
+     "label": "CoOp Presents",
+     "bp": "bp:20405863",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 2,
@@ -864,13 +909,19 @@
      "minute": 90,
      "artist": "Roska Feat. Mz Bratt",
      "title": "Go",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:3500110",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
      "artist": "Hardhouse Banton",
      "title": "Export",
-     "label": ""
+     "label": "",
+     "bp": "bp:13567589",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 95,
@@ -894,7 +945,10 @@
      "minute": 0,
      "artist": "NameBrandSound",
      "title": "Head Down",
-     "label": "CoOp Presents"
+     "label": "CoOp Presents",
+     "bp": "bp:20405863",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 2,
@@ -992,13 +1046,19 @@
      "minute": 90,
      "artist": "Roska Feat. Mz Bratt",
      "title": "Go",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:3500110",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
      "artist": "Hardhouse Banton",
      "title": "Export",
-     "label": ""
+     "label": "",
+     "bp": "bp:13567589",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 95,
@@ -1041,7 +1101,10 @@
      "minute": 21,
      "artist": "Roska",
      "title": "Pressure",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301896",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 22,
@@ -1103,13 +1166,19 @@
      "minute": 46,
      "artist": "Roska",
      "title": "Cancelled",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301890",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
      "artist": "Roska Feat. Vanya",
      "title": "Desire",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:10888150",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 50,
@@ -1261,7 +1330,10 @@
      "minute": 107,
      "artist": "KTM",
      "title": "Medz",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17536106",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 108,
@@ -1355,7 +1427,10 @@
      "minute": 12,
      "artist": "Princess Nyah",
      "title": "My Power",
-     "label": "Ohemma"
+     "label": "Ohemma",
+     "bp": "bp:22324272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -1367,13 +1442,19 @@
      "minute": 24,
      "artist": "Roska & Aleisha Lee",
      "title": "Lose Ya Mind",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894428",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
      "artist": "MA1",
      "title": "Static",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:9803542",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -1488,7 +1569,10 @@
      "minute": 58,
      "artist": "KTM",
      "title": "Balance",
-     "label": ""
+     "label": "",
+     "bp": "bp:18295435",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 68,
@@ -1520,13 +1604,19 @@
      "minute": 73,
      "artist": "KTM",
      "title": "Love Dem",
-     "label": ""
+     "label": "",
+     "bp": "bp:18295438",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,
      "artist": "Bakongo",
      "title": "3 X 2",
-     "label": "Livity Sound"
+     "label": "Livity Sound",
+     "bp": "bp:14261173",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 79,
@@ -1596,7 +1686,10 @@
      "minute": 94,
      "artist": "Roska",
      "title": "No Sense",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301891",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,
@@ -1642,7 +1735,10 @@
      "minute": 117,
      "artist": "Jook 10",
      "title": "Darker",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17126902",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1695,13 +1791,19 @@
      "minute": 20,
      "artist": "Roska & Aleisha Lee",
      "title": "Tonight",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:13567598",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
      "artist": "Roska",
      "title": "Green Tea",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342507",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 29,
@@ -1791,7 +1893,10 @@
      "minute": 52,
      "artist": "Roska",
      "title": "Call Mi",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17135920",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 54,
@@ -1979,7 +2084,10 @@
      "minute": 91,
      "artist": "Roska",
      "title": "The Mack",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 94,
@@ -2011,7 +2119,10 @@
      "minute": 99,
      "artist": "Roska & Kristie Killick & Manga Saint Hilare",
      "title": "Kingdom",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:19973833",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 101,
@@ -2039,19 +2150,28 @@
      "minute": 105,
      "artist": "KTM",
      "title": "Love Dem",
-     "label": ""
+     "label": "",
+     "bp": "bp:18295438",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 106,
      "artist": "Roska & Lu.Re & DJ Motu",
      "title": "Charge",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17549395",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 109,
      "artist": "Roska & Untold",
      "title": "Myth",
-     "label": "Numbers"
+     "label": "Numbers",
+     "bp": "bp:1429324",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 111,
@@ -2076,7 +2196,10 @@
      "minute": 115,
      "artist": "Roska & Chrystal & Simbad",
      "title": "Running",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894430",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -2092,7 +2215,10 @@
      "minute": 3,
      "artist": "Calm Stiege",
      "title": "Elastico",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:22225130",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 8,
@@ -2124,7 +2250,10 @@
      "minute": 20,
      "artist": "Roska & Lu.Re",
      "title": "Lay Low",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17549396",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -2179,7 +2308,10 @@
      "minute": 47,
      "artist": "Hardhouse Banton",
      "title": "Export",
-     "label": ""
+     "label": "",
+     "bp": "bp:13567589",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -2198,7 +2330,10 @@
      "minute": 52,
      "artist": "Roska",
      "title": "Green Tea",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342507",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -2230,7 +2365,10 @@
      "minute": 57,
      "artist": "Roska & Kristie Killick & Manga Saint Hilare",
      "title": "Kingdom",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:19973833",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -2262,7 +2400,10 @@
      "minute": 65,
      "artist": "DJ Motu & Logan OLM",
      "title": "Wickedest",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:20621365",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 68,
@@ -2273,7 +2414,10 @@
      "minute": 72,
      "artist": "Calm Stiege",
      "title": "Traction",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:22225131",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 74,
@@ -2311,13 +2455,19 @@
      "minute": 85,
      "artist": "Calm Stiege",
      "title": "20 Deck",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:22225129",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
      "artist": "Roska",
      "title": "No Sense",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301891",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
@@ -2407,7 +2557,10 @@
      "minute": 0,
      "artist": "Roska",
      "title": "Leapfrog",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:3011638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -2419,7 +2572,10 @@
      "minute": 13,
      "artist": "Calm Stiege",
      "title": "Traction",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:22225131",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -2469,7 +2625,10 @@
      "minute": 30,
      "artist": "Roska",
      "title": "Level 17",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:19211732",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -2528,7 +2687,10 @@
      "minute": 53,
      "artist": "Wen",
      "title": "Signal",
-     "label": "Keysound"
+     "label": "Keysound",
+     "bp": "bp:5126066",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 56,
@@ -2595,13 +2757,19 @@
      "minute": 86,
      "artist": "Roska & Aleisha Lee",
      "title": "Lose Ya Mind",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894428",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 90,
      "artist": "MA1",
      "title": "Static",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:9803542",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 93,
@@ -2718,7 +2886,10 @@
      "minute": 15,
      "artist": "Roska Feat. Nikki",
      "title": "Energy",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:10887937",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 18,
@@ -2729,7 +2900,10 @@
      "minute": 23,
      "artist": "MA1",
      "title": "Static",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:9803542",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -2817,7 +2991,10 @@
      "minute": 50,
      "artist": "Calm Stiege",
      "title": "Traction",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:22225131",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -2841,13 +3018,19 @@
      "minute": 62,
      "artist": "Roska",
      "title": "Cool Down",
-     "label": "HMUSA"
+     "label": "HMUSA",
+     "bp": "bp:9478849",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 63,
      "artist": "Roska & Jus Now & Fox",
      "title": "Eediat Ting",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:9830395",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 66,
@@ -2903,13 +3086,19 @@
      "minute": 83,
      "artist": "Roska",
      "title": "The Mack",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 86,
      "artist": "Roska Feat. Vanya",
      "title": "Desire",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:10888150",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
@@ -2967,7 +3156,10 @@
      "minute": 108,
      "artist": "Roska",
      "title": "Green Tea",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342507",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 110,
@@ -3012,7 +3204,10 @@
      "minute": 118,
      "artist": "Roska",
      "title": "Pressure",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301896",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -3091,7 +3286,10 @@
      "minute": 25,
      "artist": "Roska & Aleisha Lee",
      "title": "Lose Ya Mind",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894428",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -3110,13 +3308,19 @@
      "minute": 33,
      "artist": "Roska",
      "title": "Green Tea",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342507",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
      "artist": "Roska",
      "title": "The Mack",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
@@ -3128,7 +3332,10 @@
      "minute": 42,
      "artist": "Roska & Aleisha Lee",
      "title": "Over You",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894419",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -3147,7 +3354,10 @@
      "minute": 53,
      "artist": "Roska & Aleisha Lee",
      "title": "Tonight",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:13567598",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -3172,7 +3382,10 @@
      "minute": 61,
      "artist": "Roska & Jus Now & Fox",
      "title": "Eediat Ting",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:9830395",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -3200,7 +3413,10 @@
      "minute": 68,
      "artist": "DJ Motu & Logan OLM",
      "title": "Wickedest",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:20621365",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 71,
@@ -3252,7 +3468,10 @@
      "minute": 91,
      "artist": "Roska",
      "title": "Level 17",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:19211732",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 92,
@@ -3430,7 +3649,10 @@
      "minute": 24,
      "artist": "Roska",
      "title": "Pressure",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301896",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
@@ -3487,7 +3709,10 @@
      "minute": 37,
      "artist": "Roska & Untold",
      "title": "Myth",
-     "label": "Numbers"
+     "label": "Numbers",
+     "bp": "bp:1429324",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 39,
@@ -3518,13 +3743,19 @@
      "minute": 47,
      "artist": "Roska",
      "title": "Level 17",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:19211732",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
      "artist": "Roska & Kristie Killick & Manga Saint Hilare",
      "title": "Kingdom",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:19973833",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -3563,7 +3794,10 @@
      "minute": 69,
      "artist": "Roska & Aleisha Lee",
      "title": "Lose Ya Mind",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894428",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 76,
@@ -3595,7 +3829,10 @@
      "minute": 79,
      "artist": "Roska & Lu.Re",
      "title": "Lay Low",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17549396",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 82,
@@ -3629,7 +3866,10 @@
      "minute": 89,
      "artist": "Roska",
      "title": "T-800",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:23944251",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 92,
@@ -3648,7 +3888,10 @@
      "minute": 96,
      "artist": "Roska",
      "title": "Call Mi",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17135920",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,
@@ -3762,13 +4005,19 @@
      "minute": 9,
      "artist": "Pestman Feat. Tanesha",
      "title": "My Body",
-     "label": "Invasion"
+     "label": "Invasion",
+     "bp": "bp:1813316",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 12,
      "artist": "Calm Stiege",
      "title": "Elastico",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:22225130",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -3838,7 +4087,10 @@
      "minute": 33,
      "artist": "DJ Motu & Logan OLM",
      "title": "Wickedest",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:20621365",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -3866,7 +4118,10 @@
      "minute": 55,
      "artist": "Roska & Kristie Killick & Manga Saint Hilare",
      "title": "Kingdom",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:19973833",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -3900,13 +4155,19 @@
      "minute": 70,
      "artist": "Roska",
      "title": "T-800",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:23944251",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 75,
      "artist": "Roska",
      "title": "The Mack",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 81,
@@ -3973,7 +4234,10 @@
      "minute": 99,
      "artist": "Douvelle19 & Manga Saint Hilare",
      "title": "Shook",
-     "label": ""
+     "label": "",
+     "bp": "bp:18204532",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 104,
@@ -3992,13 +4256,19 @@
      "minute": 106,
      "artist": "Arinola",
      "title": "Same Way",
-     "label": "88 ENTERTAINMENT"
+     "label": "88 ENTERTAINMENT",
+     "bp": "bp:20256912",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 107,
      "artist": "Roska",
      "title": "Leapfrog",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:3011638",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 111,
@@ -4017,7 +4287,10 @@
      "minute": 113,
      "artist": "Roska & Aleisha Lee",
      "title": "Lose Ya Mind",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894428",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -4151,7 +4424,10 @@
      "minute": 52,
      "artist": "Murder He Wrote",
      "title": "Operate",
-     "label": "Rhythm Athletic"
+     "label": "Rhythm Athletic",
+     "bp": "bp:16518626",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,
@@ -4182,7 +4458,10 @@
      "minute": 60,
      "artist": "Tickles",
      "title": "Grinding",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:4645753",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 64,
@@ -4248,13 +4527,19 @@
      "minute": 86,
      "artist": "Roska",
      "title": "The Mack",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:21342506",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
      "artist": "Princess Nyah",
      "title": "My Power",
-     "label": "Ohemma"
+     "label": "Ohemma",
+     "bp": "bp:22324272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 92,
@@ -4278,7 +4563,10 @@
      "minute": 98,
      "artist": "Roska & Aleisha Lee",
      "title": "Lose Ya Mind",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894428",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 101,
@@ -4310,7 +4598,10 @@
      "minute": 105,
      "artist": "DJ Motu",
      "title": "Wurk",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17608339",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 111,
@@ -4329,13 +4620,19 @@
      "minute": 115,
      "artist": "Roska",
      "title": "Cool Down",
-     "label": "HMUSA"
+     "label": "HMUSA",
+     "bp": "bp:9478849",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 116,
      "artist": "Roska Feat. Nikki",
      "title": "Energy",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:10887937",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -4346,7 +4643,10 @@
      "minute": 0,
      "artist": "Roska & Aleisha Lee",
      "title": "Lose Ya Mind",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894428",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
@@ -4384,7 +4684,10 @@
      "minute": 18,
      "artist": "Roska & Aleisha Lee",
      "title": "Over You",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894419",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -4403,7 +4706,10 @@
      "minute": 28,
      "artist": "Roska & Lu.Re & DJ Motu",
      "title": "Charge",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:17549395",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 31,
@@ -4415,7 +4721,10 @@
      "minute": 34,
      "artist": "Murder He Wrote",
      "title": "Operate",
-     "label": "Rhythm Athletic"
+     "label": "Rhythm Athletic",
+     "bp": "bp:16518626",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 37,
@@ -4471,7 +4780,10 @@
      "minute": 54,
      "artist": "Roska",
      "title": "No Sense",
-     "label": ""
+     "label": "",
+     "bp": "bp:18301891",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -4483,7 +4795,10 @@
      "minute": 70,
      "artist": "Roska Feat. Mz Bratt",
      "title": "Go",
-     "label": "Rinse"
+     "label": "Rinse",
+     "bp": "bp:3500110",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -4494,13 +4809,19 @@
      "minute": 77,
      "artist": "Tickles",
      "title": "Grinding",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:4645753",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 80,
      "artist": "Roska",
      "title": "Stop & Wave",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:28926805",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 83,
@@ -4519,13 +4840,19 @@
      "minute": 86,
      "artist": "Roska & Chrystal & Simbad",
      "title": "Running",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:10894430",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
      "artist": "Calm Stiege",
      "title": "20 Deck",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:22225129",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
@@ -4607,13 +4934,19 @@
      "minute": 115,
      "artist": "IZCO Feat. PK",
      "title": "Longest Road",
-     "label": "Brownswood"
+     "label": "Brownswood",
+     "bp": "bp:28716766",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 117,
      "artist": "Roska",
      "title": "T-800",
-     "label": "Roska Kicks & Snares"
+     "label": "Roska Kicks & Snares",
+     "bp": "bp:23944251",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 118,

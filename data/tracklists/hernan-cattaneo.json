@@ -77,7 +77,10 @@
      "minute": null,
      "artist": "Hernan Cattaneo & Soundexile",
      "title": "Mad Zen",
-     "label": ""
+     "label": "",
+     "bp": "bp:23903448",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -308,7 +311,10 @@
      "minute": null,
      "artist": "Dabeat",
      "title": "Naural",
-     "label": ""
+     "label": "",
+     "bp": "bp:29497272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -345,7 +351,10 @@
      "minute": 36,
      "artist": "Frankey & Sandrino",
      "title": "Matar",
-     "label": "Sum Over Histories"
+     "label": "Sum Over Histories",
+     "bp": "bp:23937347",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
@@ -417,7 +426,10 @@
      "minute": 0,
      "artist": "Yunus Guvenen",
      "title": "Tresor",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:24294926",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -559,7 +571,10 @@
      "minute": 96,
      "artist": "Hernan Cattaneo & Soundexile",
      "title": "Mad Zen",
-     "label": "Einmusika"
+     "label": "Einmusika",
+     "bp": "bp:23903448",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 102,
@@ -683,7 +698,10 @@
      "minute": null,
      "artist": "Hernán Cattáneo & Marc Romboy",
      "title": "The Insanity Of Infinty",
-     "label": ""
+     "label": "",
+     "bp": "bp:23758158",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -707,7 +725,10 @@
      "minute": null,
      "artist": "Khen & Yotam Avni",
      "title": "Do I Feel",
-     "label": ""
+     "label": "",
+     "bp": "bp:28287344",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -879,7 +900,10 @@
      "minute": null,
      "artist": "Dabeat",
      "title": "Naural",
-     "label": ""
+     "label": "",
+     "bp": "bp:29497272",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -930,7 +954,10 @@
      "minute": null,
      "artist": "Yunus Guvenen",
      "title": "Tresor",
-     "label": ""
+     "label": "",
+     "bp": "bp:24294926",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1671,7 +1698,10 @@
      "minute": null,
      "artist": "Marco Boarelli",
      "title": "Cloudy",
-     "label": ""
+     "label": "",
+     "bp": "bp:28619158",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1919,7 +1949,10 @@
      "minute": null,
      "artist": "Durante & Mayro",
      "title": "Mantra",
-     "label": ""
+     "label": "",
+     "bp": "bp:28913525",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

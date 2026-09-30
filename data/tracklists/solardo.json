@@ -120,7 +120,10 @@
      "minute": 51,
      "artist": "N-Joi",
      "title": "Anthem",
-     "label": "Deconstruction"
+     "label": "Deconstruction",
+     "bp": "bp:11214913",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -281,7 +284,10 @@
      "minute": null,
      "artist": "Prospa",
      "title": "Motions",
-     "label": ""
+     "label": "",
+     "bp": "bp:19050824",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -475,7 +481,10 @@
      "minute": 113,
      "artist": "N-Joi",
      "title": "Anthem",
-     "label": "Deconstruction"
+     "label": "Deconstruction",
+     "bp": "bp:11214913",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 117,
@@ -641,7 +650,10 @@
      "minute": null,
      "artist": "Laura Van Dam",
      "title": "Insomnia",
-     "label": "Epic247"
+     "label": "Epic247",
+     "bp": "bp:19730310",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

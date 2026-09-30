@@ -9,19 +9,28 @@
      "minute": 0,
      "artist": "Nils Hoffmann",
      "title": "Closer",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18224303",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
      "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
      "title": "Next Life",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,
      "artist": "Nils Hoffmann Feat. Kite String Tangle",
      "title": "Holding Me Back",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18481374",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -33,7 +42,10 @@
      "minute": 20,
      "artist": "Nils Hoffmann",
      "title": "Immunity",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:16699710",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -52,7 +64,10 @@
      "minute": 29,
      "artist": "Nils Hoffmann & Natascha Polké",
      "title": "Cranes",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:16570971",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -64,7 +79,10 @@
      "minute": 39,
      "artist": "Nils Hoffmann",
      "title": "Collide",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583619",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -98,7 +116,10 @@
      "minute": 56,
      "artist": "Nils Hoffmann Feat. Will Hyde",
      "title": "Say Goodbye",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583625",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -271,7 +292,10 @@
      "minute": null,
      "artist": "Above & Beyond Feat. Zoë Johnston",
      "title": "Crazy Love",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:18580712",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -361,25 +385,37 @@
      "minute": null,
      "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
      "title": "Next Life",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Nils Hoffmann Feat. The Kite String Tangle",
      "title": "Holding Me Back",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18481374",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Nils Hoffmann Feat. Rae Morris",
      "title": "Lonely",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:17816637",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Nils Hoffmann",
      "title": "Closer",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18224303",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -585,7 +621,10 @@
      "minute": 69,
      "artist": "Nils Hoffmann",
      "title": "Collide",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583619",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -673,13 +712,19 @@
      "minute": 114,
      "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
      "title": "Next Life",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 119,
      "artist": "Nils Hoffmann Feat. Rae Morris",
      "title": "Lonely",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:17816637",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -735,7 +780,10 @@
      "minute": null,
      "artist": "Keinemusik & Alan Dixon Feat. Arabic Piano",
      "title": "Thandaza",
-     "label": "Keinemusik"
+     "label": "Keinemusik",
+     "bp": "bp:18778205",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -785,19 +833,28 @@
      "minute": 60,
      "artist": "Nils Hoffmann",
      "title": "Closer",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18224303",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 65,
      "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
      "title": "Next Life",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 70,
      "artist": "Nils Hoffmann Feat. Kite String Tangle",
      "title": "Holding Me Back",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18481374",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 76,
@@ -809,7 +866,10 @@
      "minute": 81,
      "artist": "Nils Hoffmann",
      "title": "Immunity",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:16699710",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 85,
@@ -828,7 +888,10 @@
      "minute": 90,
      "artist": "Nils Hoffmann & Natascha Polké",
      "title": "Cranes",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:16570971",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 94,
@@ -840,7 +903,10 @@
      "minute": 99,
      "artist": "Nils Hoffmann",
      "title": "Collide",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583619",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 103,
@@ -874,7 +940,10 @@
      "minute": 117,
      "artist": "Nils Hoffmann Feat. Will Hyde",
      "title": "Say Goodbye",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:18583625",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -917,7 +986,10 @@
      "minute": 12,
      "artist": "Nils Hoffmann",
      "title": "Collide",
-     "label": ""
+     "label": "",
+     "bp": "bp:18583619",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -993,13 +1065,19 @@
      "minute": 34,
      "artist": "Nils Hoffmann Feat. Rae Morris",
      "title": "Lonely",
-     "label": ""
+     "label": "",
+     "bp": "bp:17816637",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
      "artist": "Nils Hoffmann",
      "title": "Closer",
-     "label": ""
+     "label": "",
+     "bp": "bp:18224303",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -1018,13 +1096,19 @@
      "minute": 46,
      "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
      "title": "Next Life",
-     "label": ""
+     "label": "",
+     "bp": "bp:18583624",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
      "artist": "Nils Hoffmann Feat. The Kite String Tangle",
      "title": "Holding Me Back",
-     "label": ""
+     "label": "",
+     "bp": "bp:18481374",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 53,

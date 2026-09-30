@@ -85,7 +85,10 @@
      "minute": 38,
      "artist": "Andrew Azara",
      "title": "Get It Up",
-     "label": "Cécille"
+     "label": "Cécille",
+     "bp": "bp:18988731",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -520,7 +523,10 @@
      "minute": 115,
      "artist": "Adriatique & WhoMadeWho",
      "title": "Miracle",
-     "label": "Rose Avenue"
+     "label": "Rose Avenue",
+     "bp": "bp:17998451",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -592,7 +598,10 @@
      "minute": 17,
      "artist": "Flex (UK) & Ciara",
      "title": "So & So",
-     "label": "Funkshway"
+     "label": "Funkshway",
+     "bp": "bp:20465122",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -741,7 +750,10 @@
      "minute": 76,
      "artist": "'''Eclectic Selection:''' Sofia Kourtesis & Daphni",
      "title": "Unidos",
-     "label": "Ninja"
+     "label": "Ninja",
+     "bp": "bp:20510647",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 80,
@@ -1072,7 +1084,10 @@
      "minute": 94,
      "artist": "Manu Chao",
      "title": "La Vie à 2",
-     "label": "Radio Bemba"
+     "label": "Radio Bemba",
+     "bp": "bp:22839314",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 97,

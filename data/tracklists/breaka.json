@@ -238,7 +238,10 @@
      "minute": 40,
      "artist": "Monibi",
      "title": "Boss Bish",
-     "label": "YUKU"
+     "label": "YUKU",
+     "bp": "bp:20147259",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -345,13 +348,19 @@
      "minute": 9,
      "artist": "Mikey Sebastian & Harry Wills",
      "title": "Sweatbox",
-     "label": "Method 808 X Ba Dum Tish"
+     "label": "Method 808 X Ba Dum Tish",
+     "bp": "bp:20730775",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
      "artist": "ZeroFG",
      "title": "Dabber",
-     "label": "Pineapple"
+     "label": "Pineapple",
+     "bp": "bp:20297290",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -591,7 +600,10 @@
      "minute": 57,
      "artist": "OSSX",
      "title": "336",
-     "label": "Night Slugs"
+     "label": "Night Slugs",
+     "bp": "bp:20343484",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -640,13 +652,19 @@
      "minute": 18,
      "artist": "Ivy Lab",
      "title": "Innocence",
-     "label": "Twenty Twenty London"
+     "label": "Twenty Twenty London",
+     "bp": "bp:20326931",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
      "artist": "Impérieux",
      "title": "Fena",
-     "label": "Hessle"
+     "label": "Hessle",
+     "bp": "bp:20465189",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -728,7 +746,10 @@
      "minute": 34,
      "artist": "Simo Cell",
      "title": "Circuits",
-     "label": "Temet"
+     "label": "Temet",
+     "bp": "bp:20453064",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 40,
@@ -800,7 +821,10 @@
      "minute": 22,
      "artist": "Bodhi",
      "title": "Dwndwn",
-     "label": "Hotflush"
+     "label": "Hotflush",
+     "bp": "bp:20478867",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -839,7 +863,10 @@
      "minute": 12,
      "artist": "Dayzero",
      "title": "Step Inna",
-     "label": "Nerve Collect"
+     "label": "Nerve Collect",
+     "bp": "bp:20637655",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -995,7 +1022,10 @@
      "minute": 25,
      "artist": "Lurka",
      "title": "Swirl",
-     "label": "Wisdom Teeth"
+     "label": "Wisdom Teeth",
+     "bp": "bp:20338753",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -1100,13 +1130,19 @@
      "minute": 26,
      "artist": "Lurka",
      "title": "Swirl",
-     "label": "Wisdom Teeth"
+     "label": "Wisdom Teeth",
+     "bp": "bp:20338753",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
      "artist": "Josi Devil",
      "title": "Duinpan",
-     "label": "Nervous Horizon"
+     "label": "Nervous Horizon",
+     "bp": "bp:21696175",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -1303,7 +1339,10 @@
      "minute": 51,
      "artist": "Identified Patient",
      "title": "Light",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:21136196",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 54,
@@ -1472,7 +1511,10 @@
      "minute": 21,
      "artist": "N-Type, Nomine",
      "title": "Believe",
-     "label": "Wheel & Deal"
+     "label": "Wheel & Deal",
+     "bp": "bp:22235329",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 24,
@@ -1490,7 +1532,10 @@
      "minute": 30,
      "artist": "Sha Ru",
      "title": "Vibrasum",
-     "label": ""
+     "label": "",
+     "bp": "bp:22176947",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 43,
@@ -1660,7 +1705,10 @@
      "minute": 9,
      "artist": "K-Lone",
      "title": "Midnite",
-     "label": "Tempa"
+     "label": "Tempa",
+     "bp": "bp:20733476",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -1677,7 +1725,10 @@
      "minute": 20,
      "artist": "Ondo Fudd",
      "title": "Limelight",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:20755833",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -1890,7 +1941,10 @@
      "minute": 32,
      "artist": "LWS",
      "title": "Gubbins",
-     "label": "TraTraTrax"
+     "label": "TraTraTrax",
+     "bp": "bp:23952419",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 35,
@@ -1901,7 +1955,10 @@
      "minute": 38,
      "artist": "DJ Sprinter",
      "title": "Subby",
-     "label": "Fable"
+     "label": "Fable",
+     "bp": "bp:23576284",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 40,
@@ -1939,7 +1996,10 @@
      "minute": 48,
      "artist": "Breaka",
      "title": "Mangled",
-     "label": "FABRICLIVE."
+     "label": "FABRICLIVE.",
+     "bp": "bp:29281652",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,
@@ -2065,7 +2125,10 @@
      "minute": 50,
      "artist": "IZCO Feat. PK",
      "title": "Longest Road",
-     "label": "Brownswood"
+     "label": "Brownswood",
+     "bp": "bp:28716766",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 52,

@@ -85,7 +85,10 @@
      "minute": 28,
      "artist": "Bontan",
      "title": "Forever",
-     "label": "North Drum"
+     "label": "North Drum",
+     "bp": "bp:20528622",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 31,
@@ -241,7 +244,10 @@
      "minute": 92,
      "artist": "Sascha Funke",
      "title": "MZ",
-     "label": ""
+     "label": "",
+     "bp": "bp:20539508",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 97,
@@ -630,7 +636,10 @@
      "minute": 148,
      "artist": "William Kiss",
      "title": "XXX",
-     "label": "Warehouse Project"
+     "label": "Warehouse Project",
+     "bp": "bp:20704415",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 152,

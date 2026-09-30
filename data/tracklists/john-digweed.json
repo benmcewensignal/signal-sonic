@@ -9,7 +9,10 @@
      "minute": 0,
      "artist": "Yunus Guvenen",
      "title": "Tresor",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:24294926",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -137,7 +140,10 @@
      "minute": 95,
      "artist": "CamelPhat & Kölsch",
      "title": "Waste My Time",
-     "label": "IPSO"
+     "label": "IPSO",
+     "bp": "bp:20483136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 100,
@@ -268,7 +274,10 @@
      "minute": 26,
      "artist": "Remcord",
      "title": "Out Of It",
-     "label": "Reba"
+     "label": "Reba",
+     "bp": "bp:28544862",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 33,
@@ -306,7 +315,10 @@
      "minute": 50,
      "artist": "Marco Boarelli",
      "title": "Cloudy",
-     "label": ""
+     "label": "",
+     "bp": "bp:28619158",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -446,7 +458,10 @@
      "minute": 114,
      "artist": "Artic White",
      "title": "Paradigm",
-     "label": "Glasgow Underground"
+     "label": "Glasgow Underground",
+     "bp": "bp:24522775",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -463,7 +478,10 @@
      "minute": 11,
      "artist": "Spooky",
      "title": "Perpetual",
-     "label": "49 North"
+     "label": "49 North",
+     "bp": "bp:28186910",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
@@ -552,7 +570,10 @@
      "minute": 67,
      "artist": "Khen",
      "title": "Do I Feel",
-     "label": "Last Night On Earth"
+     "label": "Last Night On Earth",
+     "bp": "bp:28287344",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 73,
@@ -577,7 +598,10 @@
      "minute": 84,
      "artist": "Frankey & Sandrino",
      "title": "Matar",
-     "label": "Sum Over Histories"
+     "label": "Sum Over Histories",
+     "bp": "bp:23937347",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
@@ -699,7 +723,10 @@
      "minute": 141,
      "artist": "Remcord",
      "title": "Out Of It",
-     "label": "Reba"
+     "label": "Reba",
+     "bp": "bp:28544862",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 147,
@@ -1110,7 +1137,10 @@
      "minute": 88,
      "artist": "Human Space Machine",
      "title": "Substance",
-     "label": "Sohaso"
+     "label": "Sohaso",
+     "bp": "bp:18766418",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 94,
@@ -1406,7 +1436,10 @@
      "minute": null,
      "artist": "Klartraum",
      "title": "Prazeres",
-     "label": "Lucidflow"
+     "label": "Lucidflow",
+     "bp": "bp:28699444",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1475,7 +1508,10 @@
      "minute": null,
      "artist": "Dany Rodriguez",
      "title": "R3d Moon",
-     "label": "EPM"
+     "label": "EPM",
+     "bp": "bp:28542001",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1626,7 +1662,10 @@
      "minute": 39,
      "artist": "DAVI",
      "title": "No Mercy",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:28951245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
@@ -1663,7 +1702,10 @@
      "minute": 68,
      "artist": "Lb Honne",
      "title": "Brücke",
-     "label": "Smallville"
+     "label": "Smallville",
+     "bp": "bp:22455567",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
@@ -1751,7 +1793,10 @@
      "minute": 122,
      "artist": "Spooky",
      "title": "Perpetual",
-     "label": "49north"
+     "label": "49north",
+     "bp": "bp:28186910",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -1801,7 +1846,10 @@
      "minute": 18,
      "artist": "Steve Lawler",
      "title": "Sass",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:29203881",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -1838,7 +1886,10 @@
      "minute": 51,
      "artist": "Klartraum",
      "title": "Prazeres",
-     "label": "Lucidflow"
+     "label": "Lucidflow",
+     "bp": "bp:28699444",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 58,
@@ -1870,7 +1921,10 @@
      "minute": 66,
      "artist": "Khen",
      "title": "Do I Feel",
-     "label": "Last Night On Earth"
+     "label": "Last Night On Earth",
+     "bp": "bp:28287344",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 72,
@@ -1934,7 +1988,10 @@
      "minute": 100,
      "artist": "Jiggler",
      "title": "Delight",
-     "label": "Kling Klong"
+     "label": "Kling Klong",
+     "bp": "bp:19321217",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 105,
@@ -1990,7 +2047,10 @@
      "minute": 13,
      "artist": "Steve Lawler",
      "title": "Sass",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:29203881",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 21,
@@ -2047,7 +2107,10 @@
      "minute": 52,
      "artist": "DAVI",
      "title": "No Mercy",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:28951245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 57,
@@ -2421,7 +2484,10 @@
      "minute": 11,
      "artist": "Edu Imbernon & Triumph",
      "title": "Veranoski",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:4508603",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -2465,7 +2531,10 @@
      "minute": 37,
      "artist": "DAVI",
      "title": "No Mercy",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:28951245",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 42,
@@ -2532,7 +2601,10 @@
      "minute": 71,
      "artist": "Remcord",
      "title": "Out Of It",
-     "label": "Reba"
+     "label": "Reba",
+     "bp": "bp:28544862",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 76,
@@ -2569,7 +2641,10 @@
      "minute": 97,
      "artist": "Dany Rodriguez",
      "title": "R3d Moon",
-     "label": "EPM"
+     "label": "EPM",
+     "bp": "bp:28542001",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 101,
@@ -2693,7 +2768,10 @@
      "minute": 43,
      "artist": "OMRI.",
      "title": "Scenius",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "bp": "bp:29535276",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 48,
@@ -2930,7 +3008,10 @@
      "minute": 12,
      "artist": "Yunus Guvenen",
      "title": "Tresor",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:24294926",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -2949,7 +3030,10 @@
      "minute": 17,
      "artist": "Elliot Moriarty",
      "title": "Only Time",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:29899867",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -3058,7 +3142,10 @@
      "minute": 48,
      "artist": "Frankey & Sandrino",
      "title": "Matar",
-     "label": "Sum Over Histories"
+     "label": "Sum Over Histories",
+     "bp": "bp:23937347",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,
@@ -3240,7 +3327,10 @@
      "minute": 6,
      "artist": "OMRI.",
      "title": "Scenius",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "bp": "bp:29535276",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
@@ -3606,7 +3696,10 @@
      "minute": 101,
      "artist": "Artic White",
      "title": "Paradigm",
-     "label": "Glasgow Underground"
+     "label": "Glasgow Underground",
+     "bp": "bp:24522775",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 108,
@@ -3668,7 +3761,10 @@
      "minute": 9,
      "artist": "Yunus Guvenen",
      "title": "Tresor",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:24294926",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -3749,7 +3845,10 @@
      "minute": 57,
      "artist": "Edu Imbernon & Triumph",
      "title": "Veranoski",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:4508603",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -3856,7 +3955,10 @@
      "minute": 8,
      "artist": "Quivver",
      "title": "Visitor",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:29899953",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
@@ -4176,7 +4278,10 @@
      "minute": 56,
      "artist": "Elliot Moriarty",
      "title": "Only Time",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:29899867",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 61,
@@ -4194,7 +4299,10 @@
      "minute": 73,
      "artist": "Quivver",
      "title": "Visitor",
-     "label": "Bedrock"
+     "label": "Bedrock",
+     "bp": "bp:29899953",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 79,

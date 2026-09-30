@@ -172,7 +172,10 @@
      "minute": 0,
      "artist": "Croft",
      "title": "Popchips",
-     "label": "Faux Poly"
+     "label": "Faux Poly",
+     "bp": "bp:19698282",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
@@ -184,7 +187,10 @@
      "minute": 7,
      "artist": "Pearson Sound",
      "title": "Hornet",
-     "label": "Hessle"
+     "label": "Hessle",
+     "bp": "bp:19160103",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,
@@ -298,7 +304,10 @@
      "minute": 44,
      "artist": "INVT",
      "title": "WE INSIDE (CULEBRA VIP)",
-     "label": "INVT"
+     "label": "INVT",
+     "bp": "bp:17640984",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -339,7 +348,10 @@
      "minute": 0,
      "artist": "Kassian",
      "title": "Replicate",
-     "label": "Unknown - Untitled"
+     "label": "Unknown - Untitled",
+     "bp": "bp:19309629",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 5,
@@ -358,7 +370,10 @@
      "minute": 13,
      "artist": "Villager",
      "title": "Sósia",
-     "label": "Method 808"
+     "label": "Method 808",
+     "bp": "bp:19358110",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -459,7 +474,10 @@
      "minute": 41,
      "artist": "INVT",
      "title": "WE INSIDE (CULEBRA VIP)",
-     "label": "INVT"
+     "label": "INVT",
+     "bp": "bp:17640984",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 45,
@@ -709,7 +727,10 @@
      "minute": 0,
      "artist": "Kassian",
      "title": "Sun",
-     "label": ""
+     "label": "",
+     "bp": "bp:20677565",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 3,
@@ -909,7 +930,10 @@
      "minute": 3,
      "artist": "Bastian Benjamin",
      "title": "Mycelium",
-     "label": ""
+     "label": "",
+     "bp": "bp:19847598",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 6,
@@ -934,7 +958,10 @@
      "minute": 11,
      "artist": "Baalti",
      "title": "Bodylock",
-     "label": ""
+     "label": "",
+     "bp": "bp:21074413",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1027,7 +1054,10 @@
      "minute": 31,
      "artist": "ZeroFG",
      "title": "Dabber",
-     "label": "Pineapple"
+     "label": "Pineapple",
+     "bp": "bp:20297290",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1319,7 +1349,10 @@
      "minute": 17,
      "artist": "Frankydrama",
      "title": "And One",
-     "label": "Faux Poly"
+     "label": "Faux Poly",
+     "bp": "bp:20167382",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 20,
@@ -1538,7 +1571,10 @@
      "minute": 22,
      "artist": "Coni",
      "title": "Flip",
-     "label": "ClekClekBoom"
+     "label": "ClekClekBoom",
+     "bp": "bp:5583706",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 25,
@@ -1673,7 +1709,10 @@
      "minute": 10,
      "artist": "Olof Dreijer & Diva Cruz",
      "title": "Acuyuye",
-     "label": "Dekmantel"
+     "label": "Dekmantel",
+     "bp": "bp:19119888",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 13,
@@ -1831,7 +1870,10 @@
      "minute": 7,
      "artist": "Dayzero",
      "title": "Step Inna",
-     "label": ""
+     "label": "",
+     "bp": "bp:20637655",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1886,7 +1928,10 @@
      "minute": 28,
      "artist": "Villager",
      "title": "Sósia",
-     "label": "Method 808"
+     "label": "Method 808",
+     "bp": "bp:19358110",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -2208,7 +2253,10 @@
      "minute": 24,
      "artist": "O'Flynn",
      "title": "Srekye",
-     "label": "DJ EDIT MSTR"
+     "label": "DJ EDIT MSTR",
+     "bp": "bp:20670850",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2480,7 +2528,10 @@
      "minute": 7,
      "artist": "Croft",
      "title": "Popchips",
-     "label": "Faux Poly"
+     "label": "Faux Poly",
+     "bp": "bp:19698282",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 10,
@@ -2492,7 +2543,10 @@
      "minute": 13,
      "artist": "Frankydrama",
      "title": "And One",
-     "label": "Faux Poly"
+     "label": "Faux Poly",
+     "bp": "bp:20167382",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
@@ -2511,7 +2565,10 @@
      "minute": 22,
      "artist": "Rose Holland",
      "title": "Dawn",
-     "label": "Faux Poly"
+     "label": "Faux Poly",
+     "bp": "bp:21672620",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 25,
@@ -2552,7 +2609,10 @@
      "minute": 47,
      "artist": "Kassian",
      "title": "Locked",
-     "label": "Faux Poly"
+     "label": "Faux Poly",
+     "bp": "bp:21906930",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 50,
@@ -2589,7 +2649,10 @@
      "minute": 0,
      "artist": "Kassian",
      "title": "Locked",
-     "label": "Faux Poly"
+     "label": "Faux Poly",
+     "bp": "bp:21906930",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 4,
@@ -2928,7 +2991,10 @@
      "minute": 21,
      "artist": "LWS",
      "title": "Gubbins",
-     "label": "TraTraTrax"
+     "label": "TraTraTrax",
+     "bp": "bp:23952419",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 26,
@@ -2952,7 +3018,10 @@
      "minute": 45,
      "artist": "Yesca",
      "title": "Work It",
-     "label": "Homebass"
+     "label": "Homebass",
+     "bp": "bp:28307229",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 51,

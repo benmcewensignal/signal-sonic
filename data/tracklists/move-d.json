@@ -324,7 +324,10 @@
      "minute": 181,
      "artist": "Lauer & Johannes Albert",
      "title": "Four 44",
-     "label": ""
+     "label": "",
+     "bp": "bp:17432441",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 186,
@@ -697,13 +700,19 @@
      "minute": 4,
      "artist": "Partiboi69",
      "title": "Bodies",
-     "label": "Partiboi"
+     "label": "Partiboi",
+     "bp": "bp:18635650",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
      "artist": "Digitalism",
      "title": "4th Floor",
-     "label": ""
+     "label": "",
+     "bp": "bp:17547645",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 14,
@@ -931,7 +940,10 @@
      "minute": 118,
      "artist": "Lauer & Johannes Albert",
      "title": "Four 44",
-     "label": ""
+     "label": "",
+     "bp": "bp:17432441",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 121,
@@ -1248,7 +1260,10 @@
      "minute": 56,
      "artist": "Partiboi69",
      "title": "Bodies",
-     "label": ""
+     "label": "",
+     "bp": "bp:18635650",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 60,
@@ -1283,7 +1298,10 @@
      "minute": 77,
      "artist": "Digitalism",
      "title": "4th Floor",
-     "label": ""
+     "label": "",
+     "bp": "bp:17547645",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 82,
@@ -1406,7 +1424,10 @@
      "minute": 58,
      "artist": "Tilman & Will Buck",
      "title": "Footwork",
-     "label": ""
+     "label": "",
+     "bp": "bp:19149754",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 66,
@@ -1645,7 +1666,10 @@
      "minute": 87,
      "artist": "Lis Sarroca",
      "title": "Atacote",
-     "label": ""
+     "label": "",
+     "bp": "bp:19649989",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 91,
@@ -1669,7 +1693,10 @@
      "minute": 101,
      "artist": "Last Magpie",
      "title": "Roots",
-     "label": "Losing Suki"
+     "label": "Losing Suki",
+     "bp": "bp:4160102",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 106,
@@ -1701,7 +1728,10 @@
      "minute": 117,
      "artist": "Max Lessig",
      "title": "Arthur",
-     "label": ""
+     "label": "",
+     "bp": "bp:17137459",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 121,
@@ -1881,7 +1911,10 @@
      "minute": 208,
      "artist": "Partiboi69",
      "title": "Bodies",
-     "label": ""
+     "label": "",
+     "bp": "bp:18635650",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 216,
@@ -1900,7 +1933,10 @@
      "minute": 220,
      "artist": "Tilman & Will Buck",
      "title": "Footwork",
-     "label": ""
+     "label": "",
+     "bp": "bp:19149754",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 224,
@@ -2110,7 +2146,10 @@
      "minute": 44,
      "artist": "Lis Sarroca",
      "title": "Atacote",
-     "label": ""
+     "label": "",
+     "bp": "bp:19649989",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 49,
@@ -2192,7 +2231,10 @@
      "minute": 84,
      "artist": "Max Lessig",
      "title": "Arthur",
-     "label": ""
+     "label": "",
+     "bp": "bp:17137459",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 89,
@@ -2292,7 +2334,10 @@
      "minute": 130,
      "artist": "Rhythm Of Paradise",
      "title": "Drive Me",
-     "label": "Housewax"
+     "label": "Housewax",
+     "bp": "bp:20450946",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 135,
@@ -2311,7 +2356,10 @@
      "minute": 140,
      "artist": "Last Magpie",
      "title": "Roots",
-     "label": "Losing Suki"
+     "label": "Losing Suki",
+     "bp": "bp:4160102",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 144,
@@ -2349,7 +2397,10 @@
      "minute": 153,
      "artist": "Digitalism",
      "title": "4th Floor",
-     "label": ""
+     "label": "",
+     "bp": "bp:17547645",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 158,
@@ -2477,7 +2528,10 @@
      "minute": 25,
      "artist": "Takuya Matsumoto",
      "title": "Twilight",
-     "label": ""
+     "label": "",
+     "bp": "bp:20062029",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 30,
@@ -2744,7 +2798,10 @@
      "minute": 157,
      "artist": "Rhythm Of Paradise",
      "title": "Drive Me",
-     "label": "Housewax"
+     "label": "Housewax",
+     "bp": "bp:20450946",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 162,
@@ -3424,7 +3481,10 @@
      "minute": 412,
      "artist": "Takuya Matsumoto",
      "title": "Twilight",
-     "label": ""
+     "label": "",
+     "bp": "bp:20062029",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 418,
@@ -3436,7 +3496,10 @@
      "minute": 422,
      "artist": "Rhythm Of Paradise",
      "title": "Drive Me",
-     "label": "Housewax"
+     "label": "Housewax",
+     "bp": "bp:20450946",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 427,
@@ -4046,7 +4109,10 @@
      "minute": null,
      "artist": "Plastikman",
      "title": "Krakpot",
-     "label": ""
+     "label": "",
+     "bp": "bp:1226783",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

@@ -241,7 +241,10 @@
      "minute": null,
      "artist": "Bontan",
      "title": "Get Down",
-     "label": "No Art"
+     "label": "No Art",
+     "bp": "bp:18044326",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -539,19 +542,28 @@
      "minute": 8,
      "artist": "Made By Pete",
      "title": "Fires",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "bp": "bp:18612338",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 11,
      "artist": "Fred Again.. & Lil Yachty & Overmono",
      "title": "Stayinit",
-     "label": "Atlantic (Warner Music)"
+     "label": "Atlantic (Warner Music)",
+     "bp": "bp:18767182",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 15,
      "artist": "Steve Angello & Sebastian Ingrosso",
      "title": "Skip",
-     "label": "Superhuman"
+     "label": "Superhuman",
+     "bp": "bp:18691556",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 19,
@@ -674,7 +686,10 @@
      "minute": 66,
      "artist": "Adriatique & The Element MT",
      "title": "The Echo",
-     "label": "X"
+     "label": "X",
+     "bp": "bp:18728095",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 71,
@@ -737,7 +752,10 @@
      "minute": 93,
      "artist": "Alex Wann Feat. Nes Mburu",
      "title": "Peperuke",
-     "label": "One People (Defected)"
+     "label": "One People (Defected)",
+     "bp": "bp:18655910",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 99,
@@ -797,7 +815,10 @@
      "minute": null,
      "artist": "Steve Angello & Sebastian Ingrosso",
      "title": "Skip",
-     "label": "Superhuman"
+     "label": "Superhuman",
+     "bp": "bp:18691556",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1001,7 +1022,10 @@
      "minute": null,
      "artist": "Joris Voorn",
      "title": "Horizon",
-     "label": "Spectrum"
+     "label": "Spectrum",
+     "bp": "bp:29377481",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1109,7 +1133,10 @@
      "minute": null,
      "artist": "Alex Wann Feat. Nes Mburu",
      "title": "Peperuke",
-     "label": "One People"
+     "label": "One People",
+     "bp": "bp:18655910",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -1271,13 +1298,19 @@
      "minute": 27,
      "artist": "Atish & Nhii",
      "title": "Shola",
-     "label": "Rebellion (Crosstown Rebels)"
+     "label": "Rebellion (Crosstown Rebels)",
+     "bp": "bp:18834265",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 32,
      "artist": "Alex Wann Feat. Nes Mburu",
      "title": "Peperuke",
-     "label": "One People (Defected)"
+     "label": "One People (Defected)",
+     "bp": "bp:18655910",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 38,
@@ -1969,7 +2002,10 @@
      "minute": null,
      "artist": "Zerb & Sofiya Nzau",
      "title": "Mwaki",
-     "label": "Th3rd Brain"
+     "label": "Th3rd Brain",
+     "bp": "bp:18362539",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -2085,7 +2121,10 @@
      "minute": 29,
      "artist": "Demayä",
      "title": "Nasty",
-     "label": "Calamar"
+     "label": "Calamar",
+     "bp": "bp:18156703",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -2341,7 +2380,10 @@
      "minute": 29,
      "artist": "Demayä",
      "title": "Nasty",
-     "label": "Calamar"
+     "label": "Calamar",
+     "bp": "bp:18156703",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 34,
@@ -2679,7 +2721,10 @@
      "minute": 36,
      "artist": "Alex Wann Feat. Nes Mburu",
      "title": "Peperuke",
-     "label": "One People"
+     "label": "One People",
+     "bp": "bp:18655910",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 41,
@@ -2751,13 +2796,19 @@
      "minute": 12,
      "artist": "CamelPhat",
      "title": "NYP2",
-     "label": "Ambient Wave"
+     "label": "Ambient Wave",
+     "bp": "bp:8856287",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 17,
      "artist": "Notre Dame",
      "title": "Yumi",
-     "label": "Diynamic/Three Six Zero"
+     "label": "Diynamic/Three Six Zero",
+     "bp": "bp:17061810",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 23,
@@ -2986,13 +3037,19 @@
      "minute": 71,
      "artist": "CamelPhat",
      "title": "Nyp2",
-     "label": "Ambient Wave"
+     "label": "Ambient Wave",
+     "bp": "bp:8856287",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 76,
      "artist": "Notre Dame",
      "title": "Yumi",
-     "label": "Diynamic/Three Six Zero"
+     "label": "Diynamic/Three Six Zero",
+     "bp": "bp:17061810",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 81,
@@ -3130,13 +3187,19 @@
      "minute": null,
      "artist": "CamelPhat",
      "title": "Nyp2",
-     "label": "Ambient Wave"
+     "label": "Ambient Wave",
+     "bp": "bp:8856287",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Notre Dame",
      "title": "Yumi",
-     "label": "Diynamic/Three Six Zero"
+     "label": "Diynamic/Three Six Zero",
+     "bp": "bp:17061810",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3312,7 +3375,10 @@
      "minute": null,
      "artist": "Noizu & Westend Feat. No/Me",
      "title": "Push To Start",
-     "label": "Insomniac"
+     "label": "Insomniac",
+     "bp": "bp:17375482",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -3440,7 +3506,10 @@
      "minute": null,
      "artist": "Anyma & Chris Avantgarde",
      "title": "Eternity",
-     "label": "Afterlife"
+     "label": "Afterlife",
+     "bp": "bp:17370693",
+     "via": "corpus",
+     "score": 1.0
     }
    ]
   },
@@ -3451,7 +3520,10 @@
      "minute": 2,
      "artist": "Alex Wann & JUNO",
      "title": "Allo",
-     "label": "Crosstown Rebels"
+     "label": "Crosstown Rebels",
+     "bp": "bp:28470106",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 7,
@@ -3482,7 +3554,10 @@
      "minute": 22,
      "artist": "Bontan",
      "title": "Forever",
-     "label": "North Drum"
+     "label": "North Drum",
+     "bp": "bp:20528622",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,

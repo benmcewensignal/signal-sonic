@@ -43,7 +43,10 @@
      "minute": 21,
      "artist": "Tim Green",
      "title": "Minds",
-     "label": ""
+     "label": "",
+     "bp": "bp:20633756",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 28,
@@ -199,7 +202,10 @@
      "minute": 18,
      "artist": "Tim Green",
      "title": "Minds",
-     "label": "All Day I Dream"
+     "label": "All Day I Dream",
+     "bp": "bp:20633756",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 25,
@@ -248,7 +254,10 @@
      "minute": 51,
      "artist": "Rafael & Millero",
      "title": "Say That",
-     "label": "Three Six Zero"
+     "label": "Three Six Zero",
+     "bp": "bp:20271535",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 55,
@@ -390,7 +399,10 @@
      "minute": null,
      "artist": "Fuenka",
      "title": "Nitidus",
-     "label": "FSOE"
+     "label": "FSOE",
+     "bp": "bp:29392635",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -422,7 +434,10 @@
      "minute": null,
      "artist": "Durante & Mayro",
      "title": "Mantra",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28913525",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -441,7 +456,10 @@
      "minute": null,
      "artist": "Dusky Feat. Rromarin",
      "title": "Next Life",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:29182912",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -492,19 +510,28 @@
      "minute": null,
      "artist": "Trilucid",
      "title": "Too Good",
-     "label": "Anjunadeep Explorations"
+     "label": "Anjunadeep Explorations",
+     "bp": "bp:29034137",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "M.O.S.",
      "title": "One Love",
-     "label": "Plaisirs Sonores"
+     "label": "Plaisirs Sonores",
+     "bp": "bp:29599623",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
      "artist": "Estiva",
      "title": "Palma",
-     "label": "Colorize"
+     "label": "Colorize",
+     "bp": "bp:29349203",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -523,7 +550,10 @@
      "minute": null,
      "artist": "AVNT",
      "title": "Brazil",
-     "label": "Anjunabeats"
+     "label": "Anjunabeats",
+     "bp": "bp:29203279",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,
@@ -574,7 +604,10 @@
      "minute": null,
      "artist": "Proff & Tim Green",
      "title": "Sopia",
-     "label": "Anjunadeep"
+     "label": "Anjunadeep",
+     "bp": "bp:28658293",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": null,

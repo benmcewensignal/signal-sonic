@@ -418,7 +418,10 @@
      "minute": 97,
      "artist": "Maara",
      "title": "Burn Up",
-     "label": ""
+     "label": "",
+     "bp": "bp:23034089",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 100,
@@ -630,7 +633,10 @@
      "minute": 88,
      "artist": "Beatrice M. Feat. Jay Carder",
      "title": "Here",
-     "label": ""
+     "label": "",
+     "bp": "bp:27074563",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 92,
@@ -889,7 +895,10 @@
      "minute": 4,
      "artist": "Kraftwerk",
      "title": "Spacelab",
-     "label": "PLG Frontline"
+     "label": "PLG Frontline",
+     "bp": "bp:5260185",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 9,
@@ -2086,7 +2095,10 @@
      "minute": 73,
      "artist": "808 State Feat. Björk",
      "title": "Ooops",
-     "label": ""
+     "label": "",
+     "bp": "bp:12495693",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 78,
@@ -2143,7 +2155,10 @@
      "minute": 101,
      "artist": "808 State",
      "title": "Ancodia",
-     "label": ""
+     "label": "",
+     "bp": "bp:15611917",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 106,
@@ -2646,7 +2661,10 @@
      "minute": 145,
      "artist": "808 State",
      "title": "Lift",
-     "label": ""
+     "label": "",
+     "bp": "bp:15200136",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 150,
@@ -3147,7 +3165,10 @@
      "minute": 23,
      "artist": "808 State",
      "title": "Joyrider",
-     "label": ""
+     "label": "",
+     "bp": "bp:14525822",
+     "via": "corpus",
+     "score": 1.0
     },
     {
      "minute": 27,
