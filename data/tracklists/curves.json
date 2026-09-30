@@ -29928,7 +29928,7 @@
        "sets": 10
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 10
@@ -31580,7 +31580,7 @@
        "sets": 10
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 10
@@ -32462,7 +32462,7 @@
      "sets": 10
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 10
@@ -38743,7 +38743,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -39548,7 +39548,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -40003,7 +40003,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -49384,7 +49384,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 3
       },
       "loudness": {
@@ -56784,7 +56784,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -57710,7 +57710,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -58226,7 +58226,7 @@
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 4
@@ -61493,9 +61493,9 @@
        "sets": 6
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": 0.0,
+       "hi": -0.0,
        "sets": 6
       },
       "loudness": {
@@ -62541,7 +62541,7 @@
        "sets": 5
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 5
@@ -63191,9 +63191,9 @@
      "sets": 6
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
-     "hi": 0.0,
+     "hi": -0.0,
      "sets": 6
     },
     "loudness": {
@@ -71628,7 +71628,7 @@
        "sets": 8
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 8
@@ -73038,7 +73038,7 @@
        "sets": 8
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 8
@@ -73798,7 +73798,7 @@
      "sets": 8
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 8
@@ -83030,7 +83030,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -83494,7 +83494,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -92074,8 +92074,8 @@
        "sets": 6
       },
       "bass_weight": {
-       "start_to_end": -0.0,
-       "lo": -0.0,
+       "start_to_end": 0.0,
+       "lo": 0.0,
        "hi": 0.0,
        "sets": 6
       },
@@ -93242,8 +93242,8 @@
        "sets": 6
       },
       "bass_weight": {
-       "start_to_end": -0.0,
-       "lo": -0.0,
+       "start_to_end": 0.0,
+       "lo": 0.0,
        "hi": 0.0,
        "sets": 6
       },
@@ -93880,8 +93880,8 @@
      "sets": 6
     },
     "bass_weight": {
-     "start_to_end": -0.0,
-     "lo": -0.0,
+     "start_to_end": 0.0,
+     "lo": 0.0,
      "hi": 0.0,
      "sets": 6
     },
@@ -104208,7 +104208,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -123110,7 +123110,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": 0.0,
+       "hi": -0.0,
        "sets": 4
       },
       "loudness": {
@@ -124036,7 +124036,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": 0.0,
+       "hi": -0.0,
        "sets": 4
       },
       "loudness": {
@@ -124557,7 +124557,7 @@
     "bass_weight": {
      "start_to_end": -0.0,
      "lo": -0.0,
-     "hi": 0.0,
+     "hi": -0.0,
      "sets": 4
     },
     "loudness": {
@@ -204946,7 +204946,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -205752,7 +205752,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -206267,7 +206267,7 @@
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 4
@@ -218280,7 +218280,7 @@
        "sets": 9
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 9
@@ -219811,7 +219811,7 @@
        "sets": 9
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 9
@@ -220649,7 +220649,7 @@
      "sets": 9
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 9
@@ -253335,7 +253335,7 @@
        "sets": 18
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 18
@@ -255835,7 +255835,7 @@
        "sets": 17
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 17
@@ -257204,7 +257204,7 @@
      "sets": 18
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 18
@@ -309184,7 +309184,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -309989,7 +309989,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -310444,7 +310444,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -311370,7 +311370,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -312708,7 +312708,7 @@
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 4
@@ -324753,7 +324753,7 @@
        "sets": 5
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 5
@@ -326277,7 +326277,7 @@
      "sets": 5
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 5
@@ -343315,7 +343315,7 @@
        "sets": 5
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 5
@@ -347045,7 +347045,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -347500,7 +347500,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -351185,7 +351185,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 3
       },
       "loudness": {
@@ -351990,7 +351990,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 3
       },
       "loudness": {
@@ -352445,7 +352445,7 @@
     "bass_weight": {
      "start_to_end": -0.0,
      "lo": -0.0,
-     "hi": -0.0,
+     "hi": 0.0,
      "sets": 3
     },
     "loudness": {
@@ -394026,7 +394026,7 @@
        "sets": 15
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 15
@@ -396283,7 +396283,7 @@
        "sets": 15
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 15
@@ -397491,7 +397491,7 @@
      "sets": 15
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 15
@@ -410308,7 +410308,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -410824,7 +410824,7 @@
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 4
@@ -411750,7 +411750,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -412676,7 +412676,7 @@
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 4
@@ -413192,7 +413192,7 @@
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 4
@@ -420518,7 +420518,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": 0.0,
+       "hi": -0.0,
        "sets": 3
       },
       "loudness": {
@@ -439732,7 +439732,7 @@
        "sets": 6
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 6
@@ -440900,7 +440900,7 @@
        "sets": 6
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 6
@@ -441538,7 +441538,7 @@
      "sets": 6
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 6
@@ -466720,7 +466720,7 @@
        "sets": 6
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 6
@@ -468305,7 +468305,7 @@
      "sets": 6
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 6
@@ -478559,7 +478559,7 @@
        "sets": 5
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 5
@@ -479606,7 +479606,7 @@
        "sets": 5
       },
       "bass_weight": {
-       "start_to_end": -0.0,
+       "start_to_end": 0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 5
@@ -480183,7 +480183,7 @@
      "sets": 5
     },
     "bass_weight": {
-     "start_to_end": -0.0,
+     "start_to_end": 0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 5
@@ -486342,7 +486342,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -487147,7 +487147,7 @@
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0,
+       "start_to_end": -0.0,
        "lo": -0.0,
        "hi": 0.0,
        "sets": 3
@@ -487607,7 +487607,7 @@
      "sets": 3
     },
     "bass_weight": {
-     "start_to_end": 0.0,
+     "start_to_end": -0.0,
      "lo": -0.0,
      "hi": 0.0,
      "sets": 3
@@ -490095,7 +490095,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 17
       },
       "loudness": {
@@ -493039,7 +493039,7 @@
       "bass_weight": {
        "start_to_end": -0.0,
        "lo": -0.0,
-       "hi": -0.0,
+       "hi": 0.0,
        "sets": 14
       },
       "loudness": {
@@ -494350,7 +494350,7 @@
     "bass_weight": {
      "start_to_end": -0.0,
      "lo": -0.0,
-     "hi": -0.0,
+     "hi": 0.0,
      "sets": 17
     },
     "loudness": {
