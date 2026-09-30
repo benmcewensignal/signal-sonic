@@ -23,14 +23,22 @@ jobs:
         run: |
           python -m sonic.preview_urls | tee /tmp/p.log
           LEFT=$(grep -o '"left": [0-9]*' /tmp/p.log | tail -1 | grep -o '[0-9]*' || true); echo "left=${LEFT:-0}" >> "$GITHUB_OUTPUT"
-      - name: keep the links
+      - name: keep the results
         id: keep
         run: |
+          # this job's file is authoritative: lay it over the latest main rather than rebasing, so another job's
+          # commit meanwhile cannot turn into a conflict (on 29 September a stale copy did, and 6,145 charts were lost)
+          rm -f sonic.db; mkdir -p "$RUNNER_TEMP/keep"; cp -a data/listening-previews.json "$RUNNER_TEMP/keep/"
           git config user.name "sonic-bot"; git config user.email "sonic@earlysignal.live"
-          git add data/listening-previews.json
-          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
-          git commit -qm "listening check: preview links $(date -u +%FT%TZ)"
-          for i in 1 2 3; do if git pull -q --rebase origin main && git push -q origin HEAD:main; then echo "pushed=1" >> "$GITHUB_OUTPUT"; exit 0; fi; sleep $((i*10)); done
+          for i in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp -a "$RUNNER_TEMP/keep/$(basename data/listening-previews.json)" "$(dirname data/listening-previews.json)/"
+            git add data/listening-previews.json
+            if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+            git commit -qm "previews: $(date -u +%FT%TZ)"
+            if git push -q origin HEAD:main; then echo "pushed=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+            sleep $((i*15))
+          done
           echo "::error title=previews::push failed"; exit 1
       - name: chain while records remain
         if: steps.keep.outputs.pushed == '1' && steps.l.outputs.left != '0'
