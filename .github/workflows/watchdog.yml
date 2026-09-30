@@ -11,7 +11,7 @@ permissions:
   actions: write
 concurrency:
   group: sonic-watchdog          # never shares a group with the pipeline it unblocks
-  cancel-in-progress: true
+  cancel-in-progress: false      # the heartbeat dispatches the next check in its last seconds; queueing lets it finish rather than record every run as cancelled
 jobs:
   check:
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest becomes Ubuntu 26 from 19 Oct 2026, under the audio decoding
@@ -86,8 +86,10 @@ jobs:
           NOW=$(date -u +%s)
           for R in signal-sonic-features:phone-e2e.yml:1500 signal-sonic-features:worker-deploy.yml:1500 signalgood:site-data.yml:1500 signal-sonic-features:ear-walk.yml:10080 signal-sonic:tracklist-batches.yml:1440; do
             REPO=benmcewensignal/${R%%:*}; REST=${R#*:}; WF=${REST%%:*}; QUIET=${REST#*:}
-            LAST=$(gh api "repos/${REPO}/actions/workflows/${WF}/runs?per_page=1" --jq '.workflow_runs[0].created_at' 2>/dev/null)
+            LAST=$(gh api "repos/${REPO}/actions/workflows/${WF}/runs?per_page=1" --jq '.workflow_runs[0].created_at // "never"' 2>/dev/null)
             if [ -z "$LAST" ]; then echo "${WF}: could not read runs"; continue; fi
+            # a workflow that has never run has no last run: it is due, not unreadable (the ear walk sat unrun this way)
+            if [ "$LAST" = "never" ]; then echo "${WF}: never run"; timeout 60 gh workflow run "$WF" --repo "$REPO" --ref main && echo "  run" || echo "  could not run it"; continue; fi
             AGE=$(( (NOW - $(date -u -d "$LAST" +%s)) / 60 ))
             echo "${WF}: last run ${AGE}m ago"
             if [ "$AGE" -gt "$QUIET" ]; then timeout 60 gh workflow run "$WF" --repo "$REPO" --ref main && echo "  run" || echo "  could not run it (needs PIPELINE_PAT for another repository)"; fi
