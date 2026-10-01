@@ -1,0 +1,243 @@
+{
+"dj": "Dilby",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-12-12 - Dilby - Tanzhaus FM 001",
+"records": [
+{
+"minute": 0,
+"artist": "Hicky & Kalo",
+"title": "Gateway (Mihai Popoviciu Remix)",
+"label": "Warung",
+"bp": "bp:19684362",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d6f7777-64c4-4c49-8a6a-364520f70afe.LOFI.mp3",
+"name": "Gateway",
+"mix": "Mihai Popoviciu Remix",
+"genre": "deep-house",
+"released": "2024-11-08"
+},
+{
+"minute": 6,
+"artist": "Big Al & Music P",
+"title": "Raise My Spirit",
+"label": "Katchuli",
+"bp": "bp:19782056",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/ca1b6c83-22c4-454e-be38-5a4c225b57eb.LOFI.mp3",
+"name": "Raise My Spirit",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-12-06"
+},
+{
+"minute": 10,
+"artist": "Le Brousse",
+"title": "In A Hurry",
+"label": "Degree",
+"bp": "bp:19643823",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/fefd1ade-f3e9-4871-9bff-bb9abf0a56f3.LOFI.mp3",
+"name": "In A Hurry",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-11-22"
+},
+{
+"minute": 15,
+"artist": "Julian Millan",
+"title": "In A Circle (Gareth Cole Remix)",
+"label": "Monday Social Music",
+"bp": "bp:19394088",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c60a15f2-a992-4a8a-8ca9-78479d1e030f.LOFI.mp3",
+"name": "In a Circle",
+"mix": "Gareth Cole Remix",
+"genre": "deep-house",
+"released": "2024-09-20"
+},
+{
+"minute": 20,
+"artist": "Dilby & Downpour",
+"title": "Connected (Extended Mix)",
+"label": "Deepalma",
+"bp": "bp:19345204",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d1427c1f-5b8a-489d-ad62-e100e6ad7b54.LOFI.mp3",
+"name": "Connected",
+"mix": "Extended Mix",
+"genre": "deep-house",
+"released": "2024-08-30"
+},
+{
+"minute": 24,
+"artist": "Circulation",
+"title": "Azure (Dilby Remix)",
+"label": "VIVa",
+"bp": "bp:19409846",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bb1bd1f6-9738-4fbb-ac01-411d126befd5.LOFI.mp3",
+"name": "Azure",
+"mix": "Dilby Remix",
+"genre": "afro-house",
+"released": "2024-09-20"
+},
+{
+"minute": 28,
+"artist": "JPA & Hugo Bladel",
+"title": "In Your Eyes",
+"label": "ORIGINS RCRDS",
+"bp": "bp:19724976",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/a3bd7c60-ee1a-46ad-94d1-8f352c01349d.LOFI.mp3",
+"name": "In Your Eyes",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-11-29"
+},
+{
+"minute": 32,
+"artist": "Acrobat",
+"title": "Tribe Vibe (Dilby Remix Extended)",
+"label": "SoundFocus",
+"bp": "bp:19059622",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ba894dd5-6628-4aca-a432-b37ff0d16e20.LOFI.mp3",
+"name": "Tribe Vibe",
+"mix": "Dilby Remix extended",
+"genre": "deep-house",
+"released": "2024-06-07"
+},
+{
+"minute": 38,
+"artist": "Sandy Rivera",
+"title": "I Can't Stop (Joseph Capriati Deep Remix)",
+"label": "Defected",
+"bp": "bp:19536746",
+"score": 0.938,
+"preview": "https://geo-samples.beatport.com/track/2971c5fe-b7d0-47d6-9a84-1611f30300ae.LOFI.mp3",
+"name": "I Can't Stop",
+"mix": "Joseph Capriati Extended Deep Remix",
+"genre": "afro-house",
+"released": "2024-10-04"
+},
+{
+"minute": 42,
+"artist": "Patch Park",
+"title": "Don't Stop (Guy J Remix)",
+"label": "District",
+"bp": "bp:19489334",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/85c88955-388e-4c88-b6aa-74d82f817698.LOFI.mp3",
+"name": "Don't Stop",
+"mix": "Guy J Remix",
+"genre": "progressive-house",
+"released": "2024-11-08"
+},
+{
+"minute": 47,
+"artist": "Quivver",
+"title": "Infinity",
+"label": "Controlled Substance",
+"bp": "bp:19481836",
+"score": 0.769,
+"preview": "https://geo-samples.beatport.com/track/b240a270-81d7-4f32-a46f-fc8b49609ae3.LOFI.mp3",
+"name": "Infinity",
+"mix": "Radio Mix",
+"genre": "progressive-house",
+"released": "2024-10-11"
+},
+{
+"minute": 52,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 60,
+"artist": "Spencer Brown",
+"title": "Stereo Afterglow",
+"label": "",
+"bp": "bp:18917003",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/228c6131-03f2-4286-a32b-d282dec184ec.LOFI.mp3",
+"name": "Stereo Afterglow",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-04-26"
+},
+{
+"minute": 65,
+"artist": "QuiQui",
+"title": "Let There Be Light (Jamie Stevens Acid Test Remix)",
+"label": "Dreaming Awake",
+"bp": "bp:18611413",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/914eadda-e51f-4f40-8040-204ee2b02ad4.LOFI.mp3",
+"name": "Let There Be Light",
+"mix": "Jamie Stevens Acid Test Remix",
+"genre": "melodic-house-techno",
+"released": "2024-04-12"
+},
+{
+"minute": 69,
+"artist": "Mark Tammo",
+"title": "Scupperbolt",
+"label": "Keep Thinking",
+"bp": "bp:19599119",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/e0948275-cc44-43ea-99a4-6fc8486a3d48.LOFI.mp3",
+"name": "Scupperbolt",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-11-20"
+},
+{
+"minute": 72,
+"artist": "Hot Since 82",
+"title": "Sondedo (Extended)",
+"label": "Hot Creations",
+"bp": "bp:17837217",
+"score": 0.767,
+"preview": "https://geo-samples.beatport.com/track/ce37fefe-067e-404a-9b25-5a81e6f8ff9d.LOFI.mp3",
+"name": "Love Me",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2023-06-30"
+},
+{
+"minute": 78,
+"artist": "Jimi Latifi",
+"title": "Chase The Sun",
+"label": "Knee Deep In Sound",
+"bp": "bp:19617442",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/b484e8c4-4b36-401b-8657-d9b52cc3576c.LOFI.mp3",
+"name": "Chase The Sun",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-11-01"
+},
+{
+"minute": 82,
+"artist": "Sergio Parrado",
+"title": "Michelo",
+"label": "Great Stuff"
+},
+{
+"minute": 86,
+"artist": "Dilby & D\u00c9 SAINT.",
+"title": "Give It Up Again",
+"label": "Selador",
+"bp": "bp:19808079",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/0543011b-d59e-4983-867c-52192151494f.LOFI.mp3",
+"name": "Give It Up Again",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-12-06"
+}
+]
+}
+]
+}

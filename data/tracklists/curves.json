@@ -3,6 +3,54 @@
  "axes": false,
  "djs": [
   {
+   "dj": "A.D.H.S.",
+   "sets_total": 15,
+   "sets_timed": 8,
+   "records_other_version": 43,
+   "by_format": {},
+   "profile": {
+    "entries": 148,
+    "own_share": 0.345,
+    "genres": [
+     [
+      "trance-main-floor",
+      0.451
+     ],
+     [
+      "techno-peak-time-driving",
+      0.366
+     ],
+     [
+      "melodic-house-techno",
+      0.028
+     ],
+     [
+      "progressive-house",
+      0.028
+     ],
+     [
+      "dance-pop",
+      0.028
+     ]
+    ],
+    "signatures": [
+     [
+      4,
+      "A.D.H.S. \u2013 In The Dark"
+     ]
+    ],
+    "release_dates": 16,
+    "median_days_after_release": 85,
+    "share_within_90_days": 0.562
+   },
+   "matched": 63,
+   "in_charts": 17,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Aaron Sevilla",
    "sets_total": 0,
    "sets_timed": 0,
@@ -16434,6 +16482,28 @@
      "sets": 3
     }
    }
+  },
+  {
+   "dj": "Aedan Terra",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "AFTRL1FE",
@@ -40051,6 +40121,28 @@
    "slopes": {}
   },
   {
+   "dj": "Argy",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Armin van Buuren",
    "sets_total": 20,
    "sets_timed": 9,
@@ -50954,6 +51046,28 @@
   },
   {
    "dj": "AV\u00d6",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Avilo",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -63217,6 +63331,28 @@
    }
   },
   {
+   "dj": "BONNOT",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Breaka",
    "sets_total": 20,
    "sets_timed": 20,
@@ -68180,6 +68316,28 @@
      "sets": 13
     }
    }
+  },
+  {
+   "dj": "BRK (BR)",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Brodinski",
@@ -73822,6 +73980,37 @@
      "sets": 8
     }
    }
+  },
+  {
+   "dj": "Cafius_",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 9,
+   "by_format": {},
+   "profile": {
+    "entries": 13,
+    "own_share": 0.0,
+    "genres": [
+     [
+      "indie-dance",
+      0.778
+     ],
+     [
+      "melodic-house-techno",
+      0.222
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 1,
+    "median_days_after_release": 26,
+    "share_within_90_days": 1.0
+   },
+   "matched": 9,
+   "in_charts": 1,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Caiiro",
@@ -82205,6 +82394,28 @@
      "sets": 20
     }
    }
+  },
+  {
+   "dj": "Carlos A",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "CC:Disco!",
@@ -93904,6 +94115,49 @@
      "sets": 6
     }
    }
+  },
+  {
+   "dj": "Christian Smith",
+   "sets_total": 3,
+   "sets_timed": 1,
+   "records_other_version": 8,
+   "by_format": {},
+   "profile": {
+    "entries": 15,
+    "own_share": 0.267,
+    "genres": [
+     [
+      "techno-raw-deep-hypnotic",
+      0.3
+     ],
+     [
+      "techno-peak-time-driving",
+      0.3
+     ],
+     [
+      "dance-pop",
+      0.1
+     ],
+     [
+      "tech-house",
+      0.1
+     ],
+     [
+      "progressive-house",
+      0.1
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 2,
+    "median_days_after_release": 239,
+    "share_within_90_days": 0.0
+   },
+   "matched": 10,
+   "in_charts": 2,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Christopher Lawrence",
@@ -126828,6 +127082,28 @@
    }
   },
   {
+   "dj": "Deroz",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Dev/Null",
    "sets_total": 20,
    "sets_timed": 0,
@@ -133993,6 +134269,49 @@
    }
   },
   {
+   "dj": "Dilby",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 16,
+   "by_format": {},
+   "profile": {
+    "entries": 18,
+    "own_share": 0.222,
+    "genres": [
+     [
+      "deep-house",
+      0.471
+     ],
+     [
+      "progressive-house",
+      0.235
+     ],
+     [
+      "afro-house",
+      0.176
+     ],
+     [
+      "melodic-house-techno",
+      0.059
+     ],
+     [
+      "tech-house",
+      0.059
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 1,
+    "median_days_after_release": 34,
+    "share_within_90_days": 1.0
+   },
+   "matched": 17,
+   "in_charts": 1,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Dimension",
    "sets_total": 0,
    "sets_timed": 0,
@@ -139466,6 +139785,28 @@
    },
    "matched": 29,
    "in_charts": 17,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Dj Patisso",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -153859,6 +154200,28 @@
    "slopes": {}
   },
   {
+   "dj": "Escobar_TR",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Ewan Rill",
    "sets_total": 0,
    "sets_timed": 0,
@@ -153875,6 +154238,49 @@
    },
    "matched": 0,
    "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": ".EXA",
+   "sets_total": 1,
+   "sets_timed": 0,
+   "records_other_version": 12,
+   "by_format": {},
+   "profile": {
+    "entries": 16,
+    "own_share": 0.25,
+    "genres": [
+     [
+      "mainstage",
+      0.308
+     ],
+     [
+      "dance-pop",
+      0.154
+     ],
+     [
+      "techno-peak-time-driving",
+      0.154
+     ],
+     [
+      "melodic-house-techno",
+      0.077
+     ],
+     [
+      "trance-main-floor",
+      0.077
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 1,
+    "median_days_after_release": 111,
+    "share_within_90_days": 0.0
+   },
+   "matched": 13,
+   "in_charts": 1,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -172798,6 +173204,28 @@
    }
   },
   {
+   "dj": "Flavor Plus",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Fleur Shore",
    "sets_total": 8,
    "sets_timed": 3,
@@ -189888,6 +190316,28 @@
    }
   },
   {
+   "dj": "Fred Everything",
+   "sets_total": 2,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Freedom Fighters",
    "sets_total": 7,
    "sets_timed": 3,
@@ -197469,6 +197919,28 @@
    "slopes": {}
   },
   {
+   "dj": "Gettoblaster",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Giuseppe Ottaviani",
    "sets_total": 0,
    "sets_timed": 0,
@@ -197485,6 +197957,37 @@
    },
    "matched": 0,
    "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Glowal",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 4,
+   "by_format": {},
+   "profile": {
+    "entries": 15,
+    "own_share": 0.467,
+    "genres": [
+     [
+      "melodic-house-techno",
+      0.889
+     ],
+     [
+      "indie-dance",
+      0.111
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 4,
+    "median_days_after_release": 28,
+    "share_within_90_days": 1.0
+   },
+   "matched": 9,
+   "in_charts": 4,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -208659,6 +209162,28 @@
      "sets": 4
     }
    }
+  },
+  {
+   "dj": "Hi3ND",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Honey Dijon",
@@ -220675,6 +221200,28 @@
    }
   },
   {
+   "dj": "J. Worra",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Jamie Jones",
    "sets_total": 4,
    "sets_timed": 2,
@@ -224808,6 +225355,63 @@
    }
   },
   {
+   "dj": "Jason Kinetic",
+   "sets_total": 1,
+   "sets_timed": 0,
+   "records_other_version": 8,
+   "by_format": {},
+   "profile": {
+    "entries": 14,
+    "own_share": 0.071,
+    "genres": [
+     [
+      "trance-main-floor",
+      0.778
+     ],
+     [
+      "techno-peak-time-driving",
+      0.111
+     ],
+     [
+      "hard-dance-hardcore-neo-rave",
+      0.111
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 1,
+    "median_days_after_release": 432,
+    "share_within_90_days": 0.0
+   },
+   "matched": 9,
+   "in_charts": 1,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Jats (ofc)",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Jim Carson",
    "sets_total": 0,
    "sets_timed": 0,
@@ -227700,6 +228304,28 @@
      "sets": 6
     }
    }
+  },
+  {
+   "dj": "Johan Gielen",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "John Askew",
@@ -246356,6 +246982,49 @@
    }
   },
   {
+   "dj": "Jordan Peak",
+   "sets_total": 2,
+   "sets_timed": 0,
+   "records_other_version": 7,
+   "by_format": {},
+   "profile": {
+    "entries": 36,
+    "own_share": 0.139,
+    "genres": [
+     [
+      "house",
+      0.333
+     ],
+     [
+      "dance-pop",
+      0.238
+     ],
+     [
+      "electronica",
+      0.095
+     ],
+     [
+      "breaks-breakbeat-uk-bass",
+      0.095
+     ],
+     [
+      "minimal-deep-tech",
+      0.048
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 12,
+    "median_days_after_release": 1247,
+    "share_within_90_days": 0.25
+   },
+   "matched": 21,
+   "in_charts": 6,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Joseph Capriati",
    "sets_total": 12,
    "sets_timed": 11,
@@ -250612,6 +251281,49 @@
    },
    "matched": 0,
    "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Julian Fijma",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 9,
+   "by_format": {},
+   "profile": {
+    "entries": 27,
+    "own_share": 0.074,
+    "genres": [
+     [
+      "melodic-house-techno",
+      0.286
+     ],
+     [
+      "dance-pop",
+      0.214
+     ],
+     [
+      "house",
+      0.071
+     ],
+     [
+      "trance-main-floor",
+      0.071
+     ],
+     [
+      "uk-garage-bassline",
+      0.071
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 5,
+    "median_days_after_release": 21,
+    "share_within_90_days": 0.8
+   },
+   "matched": 14,
+   "in_charts": 4,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -257228,6 +257940,49 @@
      "sets": 18
     }
    }
+  },
+  {
+   "dj": "Katrin Souza",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 13,
+   "by_format": {},
+   "profile": {
+    "entries": 22,
+    "own_share": 0.091,
+    "genres": [
+     [
+      "progressive-house",
+      0.562
+     ],
+     [
+      "deep-house",
+      0.188
+     ],
+     [
+      "electronica",
+      0.125
+     ],
+     [
+      "melodic-house-techno",
+      0.062
+     ],
+     [
+      "tech-house",
+      0.062
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 3,
+    "median_days_after_release": 63,
+    "share_within_90_days": 0.667
+   },
+   "matched": 16,
+   "in_charts": 3,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "KENN",
@@ -272000,6 +272755,28 @@
    },
    "matched": 23,
    "in_charts": 12,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Kyle Watson",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -312734,6 +313511,28 @@
    }
   },
   {
+   "dj": "Mike Kohl",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Mind Against",
    "sets_total": 4,
    "sets_timed": 3,
@@ -314174,6 +314973,28 @@
      "sets": 4
     }
    }
+  },
+  {
+   "dj": "Mjoi",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "MoBlack",
@@ -322291,6 +323112,28 @@
    }
   },
   {
+   "dj": "Nico Banfi",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Nico Stojan",
    "sets_total": 4,
    "sets_timed": 2,
@@ -326340,6 +327183,28 @@
    },
    "matched": 11,
    "in_charts": 8,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "No Boundariez",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -375272,6 +376137,50 @@
    }
   },
   {
+   "dj": "rapham",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "REBRN",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Redspace",
    "sets_total": 0,
    "sets_timed": 0,
@@ -413218,6 +414127,28 @@
    }
   },
   {
+   "dj": "Sama (US)",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Sammy Virji",
    "sets_total": 9,
    "sets_timed": 1,
@@ -436038,6 +436969,41 @@
    }
   },
   {
+   "dj": "Sian",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 10,
+   "by_format": {},
+   "profile": {
+    "entries": 12,
+    "own_share": 0.167,
+    "genres": [
+     [
+      "indie-dance",
+      0.727
+     ],
+     [
+      "melodic-house-techno",
+      0.182
+     ],
+     [
+      "house",
+      0.091
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 1,
+    "median_days_after_release": 42,
+    "share_within_90_days": 1.0
+   },
+   "matched": 11,
+   "in_charts": 1,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Simon Patterson",
    "sets_total": 7,
    "sets_timed": 4,
@@ -453577,18 +454543,18 @@
    "dj": "Stoneface & Terminal",
    "sets_total": 29,
    "sets_timed": 13,
-   "records_other_version": 13,
+   "records_other_version": 12,
    "by_format": {
     "all": {
      "sets_used": 29,
-     "records_measured": 443,
+     "records_measured": 445,
      "curves": {
       "tempo": {
        "mean": [
         130.0805,
         137.1624,
-        140.5229,
-        142.2493,
+        140.3489,
+        142.0261,
         141.6917,
         142.5046,
         143.2797,
@@ -453599,8 +454565,8 @@
        "lo": [
         128.787,
         135.2379,
-        136.3428,
-        136.8727,
+        136.3282,
+        136.8382,
         138.357,
         139.6951,
         138.9723,
@@ -453611,8 +454577,8 @@
        "hi": [
         131.374,
         139.0868,
-        144.703,
-        147.6259,
+        144.3696,
+        147.214,
         145.0263,
         145.314,
         147.587,
@@ -453781,7 +454747,7 @@
          null,
          134.0643,
          137.4094,
-         null,
+         135.9984,
          162.0795,
          135.9966,
          142.4767,
@@ -453876,7 +454842,7 @@
         [
          137.4033,
          134.4759,
-         null,
+         135.9984,
          144.3386,
          139.8871,
          140.6646,
@@ -453975,8 +454941,8 @@
        "mean": [
         1.0,
         1.0,
-        0.9803,
-        0.9818,
+        0.9811,
+        0.9825,
         1.0,
         1.0,
         1.0,
@@ -453987,8 +454953,8 @@
        "lo": [
         1.0,
         1.0,
-        0.9488,
         0.9508,
+        0.9526,
         1.0,
         1.0,
         1.0,
@@ -453999,8 +454965,8 @@
        "hi": [
         1.0,
         1.0,
-        1.0118,
-        1.0128,
+        1.0113,
+        1.0123,
         1.0,
         1.0,
         1.0,
@@ -454169,7 +455135,7 @@
          null,
          1.0,
          1.0,
-         null,
+         1.0,
          1.0,
          1.0,
          1.0,
@@ -454264,7 +455230,7 @@
         [
          1.0,
          1.0,
-         null,
+         1.0,
          1.0,
          1.0,
          1.0,
@@ -454363,8 +455329,8 @@
        "mean": [
         -12.6651,
         -12.8281,
-        -12.8517,
-        -12.8847,
+        -12.75,
+        -12.7891,
         -12.4022,
         -12.2721,
         -12.1207,
@@ -454375,8 +455341,8 @@
        "lo": [
         -13.2918,
         -13.4641,
-        -13.5209,
-        -13.5376,
+        -13.415,
+        -13.4381,
         -12.9783,
         -12.832,
         -12.5716,
@@ -454387,8 +455353,8 @@
        "hi": [
         -12.0383,
         -12.1922,
-        -12.1825,
-        -12.2318,
+        -12.0849,
+        -12.14,
         -11.8261,
         -11.7122,
         -11.6699,
@@ -454557,7 +455523,7 @@
          null,
          -11.8042,
          -9.9828,
-         null,
+         -10.206,
          -14.089,
          -11.4015,
          -9.9227,
@@ -454652,7 +455618,7 @@
         [
          -14.4532,
          -15.3061,
-         null,
+         -10.206,
          -11.4132,
          -9.9947,
          -13.647,
@@ -454751,8 +455717,8 @@
        "mean": [
         0.7737,
         0.7252,
-        0.7886,
-        0.7752,
+        0.7904,
+        0.7773,
         0.7678,
         0.767,
         0.8221,
@@ -454763,8 +455729,8 @@
        "lo": [
         0.7186,
         0.6642,
-        0.7415,
-        0.7162,
+        0.7451,
+        0.7204,
         0.721,
         0.7213,
         0.7849,
@@ -454775,7 +455741,7 @@
        "hi": [
         0.8288,
         0.7861,
-        0.8357,
+        0.8356,
         0.8341,
         0.8147,
         0.8128,
@@ -454945,7 +455911,7 @@
          null,
          0.8401,
          0.7771,
-         null,
+         0.8344,
          0.7115,
          0.8073,
          0.7844,
@@ -455040,7 +456006,7 @@
         [
          0.7812,
          0.8542,
-         null,
+         0.8344,
          0.9984,
          0.5354,
          0.9089,
@@ -455139,8 +456105,8 @@
        "mean": [
         0.2314,
         0.232,
-        0.2213,
-        0.2283,
+        0.2211,
+        0.2279,
         0.2359,
         0.206,
         0.2153,
@@ -455151,8 +456117,8 @@
        "lo": [
         0.1931,
         0.2012,
-        0.1778,
-        0.18,
+        0.1793,
+        0.1813,
         0.1918,
         0.1686,
         0.1905,
@@ -455163,8 +456129,8 @@
        "hi": [
         0.2698,
         0.2628,
-        0.2649,
-        0.2767,
+        0.2629,
+        0.2744,
         0.28,
         0.2435,
         0.2401,
@@ -455333,7 +456299,7 @@
          null,
          0.217,
          0.1593,
-         null,
+         0.2146,
          0.5894,
          0.0758,
          0.1341,
@@ -455428,7 +456394,7 @@
         [
          0.238,
          0.382,
-         null,
+         0.2146,
          0.2405,
          0.0859,
          0.1997,
@@ -455529,8 +456495,8 @@
        "mean": [
         0.0,
         6.4099,
-        10.1682,
-        11.8077,
+        9.7231,
+        11.455,
         10.8647,
         11.8965,
         12.4934,
@@ -455541,8 +456507,8 @@
        "lo": [
         0.0,
         3.9983,
-        5.8567,
-        6.4105,
+        5.518,
+        6.2267,
         7.0083,
         8.8737,
         7.9938,
@@ -455553,8 +456519,8 @@
        "hi": [
         0.0,
         8.8215,
-        14.4797,
-        17.2048,
+        13.9281,
+        16.6834,
         14.7212,
         14.9192,
         16.993,
@@ -455723,7 +456689,7 @@
          null,
          0.0,
          3.345,
-         null,
+         1.9341,
          28.0152,
          1.9323,
          8.4123,
@@ -455818,7 +456784,7 @@
         [
          0.0,
          -2.9274,
-         null,
+         -1.4049,
          6.9353,
          2.4838,
          3.2613,
@@ -455917,8 +456883,8 @@
        "mean": [
         0.0,
         0.0,
-        -0.0197,
-        -0.0182,
+        -0.0189,
+        -0.0175,
         0.0,
         0.0,
         0.0,
@@ -455929,8 +456895,8 @@
        "lo": [
         0.0,
         0.0,
-        -0.0512,
         -0.0492,
+        -0.0474,
         0.0,
         0.0,
         0.0,
@@ -455941,8 +456907,8 @@
        "hi": [
         0.0,
         0.0,
-        0.0118,
-        0.0128,
+        0.0113,
+        0.0123,
         0.0,
         0.0,
         0.0,
@@ -456111,7 +457077,7 @@
          null,
          0.0,
          0.0,
-         null,
+         0.0,
          0.0,
          0.0,
          0.0,
@@ -456206,7 +457172,7 @@
         [
          0.0,
          0.0,
-         null,
+         0.0,
          0.0,
          0.0,
          0.0,
@@ -456305,8 +457271,8 @@
        "mean": [
         0.0,
         -0.4591,
-        -0.0559,
-        -0.1874,
+        0.1096,
+        -0.1236,
         0.0094,
         0.4384,
         0.4675,
@@ -456317,8 +457283,8 @@
        "lo": [
         0.0,
         -1.216,
-        -0.8599,
-        -1.054,
+        -0.7118,
+        -0.9646,
         -0.7124,
         -0.417,
         -0.328,
@@ -456329,8 +457295,8 @@
        "hi": [
         0.0,
         0.2978,
-        0.7481,
-        0.6793,
+        0.931,
+        0.7174,
         0.7311,
         1.2938,
         1.2631,
@@ -456499,7 +457465,7 @@
          null,
          0.0,
          1.8213,
-         null,
+         1.5981,
          -2.2848,
          0.4026,
          1.8815,
@@ -456594,7 +457560,7 @@
         [
          0.0,
          -0.8529,
-         null,
+         4.2472,
          3.04,
          4.4585,
          0.8062,
@@ -456693,8 +457659,8 @@
        "mean": [
         0.0,
         -0.0658,
-        0.0163,
-        0.0063,
+        0.0178,
+        0.0059,
         -0.0267,
         -0.0015,
         0.0439,
@@ -456705,8 +457671,8 @@
        "lo": [
         0.0,
         -0.1362,
-        -0.0495,
-        -0.0666,
+        -0.0454,
+        -0.0643,
         -0.0955,
         -0.0749,
         -0.0294,
@@ -456717,8 +457683,8 @@
        "hi": [
         0.0,
         0.0045,
-        0.0821,
-        0.0793,
+        0.0809,
+        0.0761,
         0.0421,
         0.0719,
         0.1172,
@@ -456887,7 +457853,7 @@
          null,
          0.0,
          -0.063,
-         null,
+         -0.0057,
          -0.1286,
          -0.0328,
          -0.0557,
@@ -456982,7 +457948,7 @@
         [
          0.0,
          0.0729,
-         null,
+         0.0531,
          0.2172,
          -0.2458,
          0.1276,
@@ -457081,7 +458047,7 @@
        "mean": [
         0.0,
         0.0206,
-        -0.0159,
+        -0.0162,
         -0.0019,
         0.0164,
         -0.0241,
@@ -457093,8 +458059,8 @@
        "lo": [
         0.0,
         -0.0164,
-        -0.0748,
-        -0.0659,
+        -0.0727,
+        -0.0635,
         -0.0416,
         -0.0767,
         -0.0657,
@@ -457105,8 +458071,8 @@
        "hi": [
         0.0,
         0.0576,
-        0.043,
-        0.062,
+        0.0403,
+        0.0596,
         0.0745,
         0.0284,
         0.0259,
@@ -457275,7 +458241,7 @@
          null,
          0.0,
          -0.0577,
-         null,
+         -0.0024,
          0.3724,
          -0.1412,
          -0.0829,
@@ -457370,7 +458336,7 @@
         [
          0.0,
          0.144,
-         null,
+         -0.0234,
          0.0025,
          -0.1521,
          -0.0383,
@@ -457468,9 +458434,9 @@
      },
      "slopes": {
       "tempo": {
-       "start_to_end": 7.8632,
-       "lo": 4.8154,
-       "hi": 10.911,
+       "start_to_end": 7.9473,
+       "lo": 4.9193,
+       "hi": 10.9754,
        "sets": 29
       },
       "bass_weight": {
@@ -457480,21 +458446,21 @@
        "sets": 29
       },
       "loudness": {
-       "start_to_end": 0.15,
-       "lo": -0.3806,
-       "hi": 0.6806,
+       "start_to_end": 0.1165,
+       "lo": -0.415,
+       "hi": 0.6481,
        "sets": 29
       },
       "drum_density": {
-       "start_to_end": 0.0469,
-       "lo": -0.0011,
-       "hi": 0.095,
+       "start_to_end": 0.0467,
+       "lo": -0.0014,
+       "hi": 0.0948,
        "sets": 29
       },
       "vocal_presence": {
-       "start_to_end": 0.0243,
-       "lo": -0.0059,
-       "hi": 0.0545,
+       "start_to_end": 0.0249,
+       "lo": -0.0053,
+       "hi": 0.0551,
        "sets": 29
       }
      },
@@ -457532,14 +458498,14 @@
     },
     "radio": {
      "sets_used": 29,
-     "records_measured": 443,
+     "records_measured": 445,
      "curves": {
       "tempo": {
        "mean": [
         130.0805,
         137.1624,
-        140.5229,
-        142.2493,
+        140.3489,
+        142.0261,
         141.6917,
         142.5046,
         143.2797,
@@ -457550,8 +458516,8 @@
        "lo": [
         128.787,
         135.2379,
-        136.3428,
-        136.8727,
+        136.3282,
+        136.8382,
         138.357,
         139.6951,
         138.9723,
@@ -457562,8 +458528,8 @@
        "hi": [
         131.374,
         139.0868,
-        144.703,
-        147.6259,
+        144.3696,
+        147.214,
         145.0263,
         145.314,
         147.587,
@@ -457732,7 +458698,7 @@
          null,
          134.0643,
          137.4094,
-         null,
+         135.9984,
          162.0795,
          135.9966,
          142.4767,
@@ -457827,7 +458793,7 @@
         [
          137.4033,
          134.4759,
-         null,
+         135.9984,
          144.3386,
          139.8871,
          140.6646,
@@ -457926,8 +458892,8 @@
        "mean": [
         1.0,
         1.0,
-        0.9803,
-        0.9818,
+        0.9811,
+        0.9825,
         1.0,
         1.0,
         1.0,
@@ -457938,8 +458904,8 @@
        "lo": [
         1.0,
         1.0,
-        0.9488,
         0.9508,
+        0.9526,
         1.0,
         1.0,
         1.0,
@@ -457950,8 +458916,8 @@
        "hi": [
         1.0,
         1.0,
-        1.0118,
-        1.0128,
+        1.0113,
+        1.0123,
         1.0,
         1.0,
         1.0,
@@ -458120,7 +459086,7 @@
          null,
          1.0,
          1.0,
-         null,
+         1.0,
          1.0,
          1.0,
          1.0,
@@ -458215,7 +459181,7 @@
         [
          1.0,
          1.0,
-         null,
+         1.0,
          1.0,
          1.0,
          1.0,
@@ -458314,8 +459280,8 @@
        "mean": [
         -12.6651,
         -12.8281,
-        -12.8517,
-        -12.8847,
+        -12.75,
+        -12.7891,
         -12.4022,
         -12.2721,
         -12.1207,
@@ -458326,8 +459292,8 @@
        "lo": [
         -13.2918,
         -13.4641,
-        -13.5209,
-        -13.5376,
+        -13.415,
+        -13.4381,
         -12.9783,
         -12.832,
         -12.5716,
@@ -458338,8 +459304,8 @@
        "hi": [
         -12.0383,
         -12.1922,
-        -12.1825,
-        -12.2318,
+        -12.0849,
+        -12.14,
         -11.8261,
         -11.7122,
         -11.6699,
@@ -458508,7 +459474,7 @@
          null,
          -11.8042,
          -9.9828,
-         null,
+         -10.206,
          -14.089,
          -11.4015,
          -9.9227,
@@ -458603,7 +459569,7 @@
         [
          -14.4532,
          -15.3061,
-         null,
+         -10.206,
          -11.4132,
          -9.9947,
          -13.647,
@@ -458702,8 +459668,8 @@
        "mean": [
         0.7737,
         0.7252,
-        0.7886,
-        0.7752,
+        0.7904,
+        0.7773,
         0.7678,
         0.767,
         0.8221,
@@ -458714,8 +459680,8 @@
        "lo": [
         0.7186,
         0.6642,
-        0.7415,
-        0.7162,
+        0.7451,
+        0.7204,
         0.721,
         0.7213,
         0.7849,
@@ -458726,7 +459692,7 @@
        "hi": [
         0.8288,
         0.7861,
-        0.8357,
+        0.8356,
         0.8341,
         0.8147,
         0.8128,
@@ -458896,7 +459862,7 @@
          null,
          0.8401,
          0.7771,
-         null,
+         0.8344,
          0.7115,
          0.8073,
          0.7844,
@@ -458991,7 +459957,7 @@
         [
          0.7812,
          0.8542,
-         null,
+         0.8344,
          0.9984,
          0.5354,
          0.9089,
@@ -459090,8 +460056,8 @@
        "mean": [
         0.2314,
         0.232,
-        0.2213,
-        0.2283,
+        0.2211,
+        0.2279,
         0.2359,
         0.206,
         0.2153,
@@ -459102,8 +460068,8 @@
        "lo": [
         0.1931,
         0.2012,
-        0.1778,
-        0.18,
+        0.1793,
+        0.1813,
         0.1918,
         0.1686,
         0.1905,
@@ -459114,8 +460080,8 @@
        "hi": [
         0.2698,
         0.2628,
-        0.2649,
-        0.2767,
+        0.2629,
+        0.2744,
         0.28,
         0.2435,
         0.2401,
@@ -459284,7 +460250,7 @@
          null,
          0.217,
          0.1593,
-         null,
+         0.2146,
          0.5894,
          0.0758,
          0.1341,
@@ -459379,7 +460345,7 @@
         [
          0.238,
          0.382,
-         null,
+         0.2146,
          0.2405,
          0.0859,
          0.1997,
@@ -459480,8 +460446,8 @@
        "mean": [
         0.0,
         6.4099,
-        10.1682,
-        11.8077,
+        9.7231,
+        11.455,
         10.8647,
         11.8965,
         12.4934,
@@ -459492,8 +460458,8 @@
        "lo": [
         0.0,
         3.9983,
-        5.8567,
-        6.4105,
+        5.518,
+        6.2267,
         7.0083,
         8.8737,
         7.9938,
@@ -459504,8 +460470,8 @@
        "hi": [
         0.0,
         8.8215,
-        14.4797,
-        17.2048,
+        13.9281,
+        16.6834,
         14.7212,
         14.9192,
         16.993,
@@ -459674,7 +460640,7 @@
          null,
          0.0,
          3.345,
-         null,
+         1.9341,
          28.0152,
          1.9323,
          8.4123,
@@ -459769,7 +460735,7 @@
         [
          0.0,
          -2.9274,
-         null,
+         -1.4049,
          6.9353,
          2.4838,
          3.2613,
@@ -459868,8 +460834,8 @@
        "mean": [
         0.0,
         0.0,
-        -0.0197,
-        -0.0182,
+        -0.0189,
+        -0.0175,
         0.0,
         0.0,
         0.0,
@@ -459880,8 +460846,8 @@
        "lo": [
         0.0,
         0.0,
-        -0.0512,
         -0.0492,
+        -0.0474,
         0.0,
         0.0,
         0.0,
@@ -459892,8 +460858,8 @@
        "hi": [
         0.0,
         0.0,
-        0.0118,
-        0.0128,
+        0.0113,
+        0.0123,
         0.0,
         0.0,
         0.0,
@@ -460062,7 +461028,7 @@
          null,
          0.0,
          0.0,
-         null,
+         0.0,
          0.0,
          0.0,
          0.0,
@@ -460157,7 +461123,7 @@
         [
          0.0,
          0.0,
-         null,
+         0.0,
          0.0,
          0.0,
          0.0,
@@ -460256,8 +461222,8 @@
        "mean": [
         0.0,
         -0.4591,
-        -0.0559,
-        -0.1874,
+        0.1096,
+        -0.1236,
         0.0094,
         0.4384,
         0.4675,
@@ -460268,8 +461234,8 @@
        "lo": [
         0.0,
         -1.216,
-        -0.8599,
-        -1.054,
+        -0.7118,
+        -0.9646,
         -0.7124,
         -0.417,
         -0.328,
@@ -460280,8 +461246,8 @@
        "hi": [
         0.0,
         0.2978,
-        0.7481,
-        0.6793,
+        0.931,
+        0.7174,
         0.7311,
         1.2938,
         1.2631,
@@ -460450,7 +461416,7 @@
          null,
          0.0,
          1.8213,
-         null,
+         1.5981,
          -2.2848,
          0.4026,
          1.8815,
@@ -460545,7 +461511,7 @@
         [
          0.0,
          -0.8529,
-         null,
+         4.2472,
          3.04,
          4.4585,
          0.8062,
@@ -460644,8 +461610,8 @@
        "mean": [
         0.0,
         -0.0658,
-        0.0163,
-        0.0063,
+        0.0178,
+        0.0059,
         -0.0267,
         -0.0015,
         0.0439,
@@ -460656,8 +461622,8 @@
        "lo": [
         0.0,
         -0.1362,
-        -0.0495,
-        -0.0666,
+        -0.0454,
+        -0.0643,
         -0.0955,
         -0.0749,
         -0.0294,
@@ -460668,8 +461634,8 @@
        "hi": [
         0.0,
         0.0045,
-        0.0821,
-        0.0793,
+        0.0809,
+        0.0761,
         0.0421,
         0.0719,
         0.1172,
@@ -460838,7 +461804,7 @@
          null,
          0.0,
          -0.063,
-         null,
+         -0.0057,
          -0.1286,
          -0.0328,
          -0.0557,
@@ -460933,7 +461899,7 @@
         [
          0.0,
          0.0729,
-         null,
+         0.0531,
          0.2172,
          -0.2458,
          0.1276,
@@ -461032,7 +461998,7 @@
        "mean": [
         0.0,
         0.0206,
-        -0.0159,
+        -0.0162,
         -0.0019,
         0.0164,
         -0.0241,
@@ -461044,8 +462010,8 @@
        "lo": [
         0.0,
         -0.0164,
-        -0.0748,
-        -0.0659,
+        -0.0727,
+        -0.0635,
         -0.0416,
         -0.0767,
         -0.0657,
@@ -461056,8 +462022,8 @@
        "hi": [
         0.0,
         0.0576,
-        0.043,
-        0.062,
+        0.0403,
+        0.0596,
         0.0745,
         0.0284,
         0.0259,
@@ -461226,7 +462192,7 @@
          null,
          0.0,
          -0.0577,
-         null,
+         -0.0024,
          0.3724,
          -0.1412,
          -0.0829,
@@ -461321,7 +462287,7 @@
         [
          0.0,
          0.144,
-         null,
+         -0.0234,
          0.0025,
          -0.1521,
          -0.0383,
@@ -461419,9 +462385,9 @@
      },
      "slopes": {
       "tempo": {
-       "start_to_end": 7.8632,
-       "lo": 4.8154,
-       "hi": 10.911,
+       "start_to_end": 7.9473,
+       "lo": 4.9193,
+       "hi": 10.9754,
        "sets": 29
       },
       "bass_weight": {
@@ -461431,21 +462397,21 @@
        "sets": 29
       },
       "loudness": {
-       "start_to_end": 0.15,
-       "lo": -0.3806,
-       "hi": 0.6806,
+       "start_to_end": 0.1165,
+       "lo": -0.415,
+       "hi": 0.6481,
        "sets": 29
       },
       "drum_density": {
-       "start_to_end": 0.0469,
-       "lo": -0.0011,
-       "hi": 0.095,
+       "start_to_end": 0.0467,
+       "lo": -0.0014,
+       "hi": 0.0948,
        "sets": 29
       },
       "vocal_presence": {
-       "start_to_end": 0.0243,
-       "lo": -0.0059,
-       "hi": 0.0545,
+       "start_to_end": 0.0249,
+       "lo": -0.0053,
+       "hi": 0.0551,
        "sets": 29
       }
      },
@@ -461532,14 +462498,14 @@
    "matched": 428,
    "in_charts": 379,
    "sets_used": 29,
-   "records_measured": 443,
+   "records_measured": 445,
    "curves": {
     "tempo": {
      "mean": [
       130.0805,
       137.1624,
-      140.5229,
-      142.2493,
+      140.3489,
+      142.0261,
       141.6917,
       142.5046,
       143.2797,
@@ -461550,8 +462516,8 @@
      "lo": [
       128.787,
       135.2379,
-      136.3428,
-      136.8727,
+      136.3282,
+      136.8382,
       138.357,
       139.6951,
       138.9723,
@@ -461562,8 +462528,8 @@
      "hi": [
       131.374,
       139.0868,
-      144.703,
-      147.6259,
+      144.3696,
+      147.214,
       145.0263,
       145.314,
       147.587,
@@ -461732,7 +462698,7 @@
        null,
        134.0643,
        137.4094,
-       null,
+       135.9984,
        162.0795,
        135.9966,
        142.4767,
@@ -461827,7 +462793,7 @@
       [
        137.4033,
        134.4759,
-       null,
+       135.9984,
        144.3386,
        139.8871,
        140.6646,
@@ -461926,8 +462892,8 @@
      "mean": [
       1.0,
       1.0,
-      0.9803,
-      0.9818,
+      0.9811,
+      0.9825,
       1.0,
       1.0,
       1.0,
@@ -461938,8 +462904,8 @@
      "lo": [
       1.0,
       1.0,
-      0.9488,
       0.9508,
+      0.9526,
       1.0,
       1.0,
       1.0,
@@ -461950,8 +462916,8 @@
      "hi": [
       1.0,
       1.0,
-      1.0118,
-      1.0128,
+      1.0113,
+      1.0123,
       1.0,
       1.0,
       1.0,
@@ -462120,7 +463086,7 @@
        null,
        1.0,
        1.0,
-       null,
+       1.0,
        1.0,
        1.0,
        1.0,
@@ -462215,7 +463181,7 @@
       [
        1.0,
        1.0,
-       null,
+       1.0,
        1.0,
        1.0,
        1.0,
@@ -462314,8 +463280,8 @@
      "mean": [
       -12.6651,
       -12.8281,
-      -12.8517,
-      -12.8847,
+      -12.75,
+      -12.7891,
       -12.4022,
       -12.2721,
       -12.1207,
@@ -462326,8 +463292,8 @@
      "lo": [
       -13.2918,
       -13.4641,
-      -13.5209,
-      -13.5376,
+      -13.415,
+      -13.4381,
       -12.9783,
       -12.832,
       -12.5716,
@@ -462338,8 +463304,8 @@
      "hi": [
       -12.0383,
       -12.1922,
-      -12.1825,
-      -12.2318,
+      -12.0849,
+      -12.14,
       -11.8261,
       -11.7122,
       -11.6699,
@@ -462508,7 +463474,7 @@
        null,
        -11.8042,
        -9.9828,
-       null,
+       -10.206,
        -14.089,
        -11.4015,
        -9.9227,
@@ -462603,7 +463569,7 @@
       [
        -14.4532,
        -15.3061,
-       null,
+       -10.206,
        -11.4132,
        -9.9947,
        -13.647,
@@ -462702,8 +463668,8 @@
      "mean": [
       0.7737,
       0.7252,
-      0.7886,
-      0.7752,
+      0.7904,
+      0.7773,
       0.7678,
       0.767,
       0.8221,
@@ -462714,8 +463680,8 @@
      "lo": [
       0.7186,
       0.6642,
-      0.7415,
-      0.7162,
+      0.7451,
+      0.7204,
       0.721,
       0.7213,
       0.7849,
@@ -462726,7 +463692,7 @@
      "hi": [
       0.8288,
       0.7861,
-      0.8357,
+      0.8356,
       0.8341,
       0.8147,
       0.8128,
@@ -462896,7 +463862,7 @@
        null,
        0.8401,
        0.7771,
-       null,
+       0.8344,
        0.7115,
        0.8073,
        0.7844,
@@ -462991,7 +463957,7 @@
       [
        0.7812,
        0.8542,
-       null,
+       0.8344,
        0.9984,
        0.5354,
        0.9089,
@@ -463090,8 +464056,8 @@
      "mean": [
       0.2314,
       0.232,
-      0.2213,
-      0.2283,
+      0.2211,
+      0.2279,
       0.2359,
       0.206,
       0.2153,
@@ -463102,8 +464068,8 @@
      "lo": [
       0.1931,
       0.2012,
-      0.1778,
-      0.18,
+      0.1793,
+      0.1813,
       0.1918,
       0.1686,
       0.1905,
@@ -463114,8 +464080,8 @@
      "hi": [
       0.2698,
       0.2628,
-      0.2649,
-      0.2767,
+      0.2629,
+      0.2744,
       0.28,
       0.2435,
       0.2401,
@@ -463284,7 +464250,7 @@
        null,
        0.217,
        0.1593,
-       null,
+       0.2146,
        0.5894,
        0.0758,
        0.1341,
@@ -463379,7 +464345,7 @@
       [
        0.238,
        0.382,
-       null,
+       0.2146,
        0.2405,
        0.0859,
        0.1997,
@@ -463477,9 +464443,9 @@
    },
    "slopes": {
     "tempo": {
-     "start_to_end": 7.8632,
-     "lo": 4.8154,
-     "hi": 10.911,
+     "start_to_end": 7.9473,
+     "lo": 4.9193,
+     "hi": 10.9754,
      "sets": 29
     },
     "bass_weight": {
@@ -463489,21 +464455,21 @@
      "sets": 29
     },
     "loudness": {
-     "start_to_end": 0.15,
-     "lo": -0.3806,
-     "hi": 0.6806,
+     "start_to_end": 0.1165,
+     "lo": -0.415,
+     "hi": 0.6481,
      "sets": 29
     },
     "drum_density": {
-     "start_to_end": 0.0469,
-     "lo": -0.0011,
-     "hi": 0.095,
+     "start_to_end": 0.0467,
+     "lo": -0.0014,
+     "hi": 0.0948,
      "sets": 29
     },
     "vocal_presence": {
-     "start_to_end": 0.0243,
-     "lo": -0.0059,
-     "hi": 0.0545,
+     "start_to_end": 0.0249,
+     "lo": -0.0053,
+     "hi": 0.0551,
      "sets": 29
     }
    }
@@ -469592,6 +470558,28 @@
    }
   },
   {
+   "dj": "Supernova",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Surgeon",
    "sets_total": 7,
    "sets_timed": 4,
@@ -472164,6 +473152,50 @@
   },
   {
    "dj": "Taleon",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Tao Andra",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Tatan Bilbao",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -480246,6 +481278,28 @@
    },
    "matched": 27,
    "in_charts": 14,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Tuccillo",
+   "sets_total": 3,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -500588,6 +501642,28 @@
      "sets": 17
     }
    }
+  },
+  {
+   "dj": "YellowHeads",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Yu Su",
