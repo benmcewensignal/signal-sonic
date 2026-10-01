@@ -2,7 +2,7 @@ name: djcharts
 # Beatport DJ charts since July 2024 (sonic/djcharts.py --resume): what DJs say they are playing, dated and global, as a
 # DJ signal for Catalogue's demand panel and its lead-lag test. Reads new charts within a time budget and chains while
 # charts remain. Writes data/djcharts/; it never touches the database.
-on: { workflow_dispatch: {} }
+on: { workflow_dispatch: {}, schedule: [ { cron: "40 6 * * *" } ] }   # daily: the history is complete, so a scheduled run reads only the newest charts
 concurrency: { group: sonic-djcharts, cancel-in-progress: false }
 permissions: { contents: write, actions: write }
 jobs:
@@ -27,7 +27,10 @@ jobs:
       - name: charts
         id: c
         run: |
-          python -m sonic.djcharts --db sonic.db --since 2024-07-01 --max-charts 200000 --resume --budget-minutes 50 | tee /tmp/c.log
+          SINCE=2024-07-01
+          # a scheduled run lists only the last 45 days (older months are complete); a dispatched run lists everything
+          if [ "${{ github.event_name }}" = "schedule" ]; then SINCE=$(date -u -d '45 days ago' +%F); fi
+          python -m sonic.djcharts --db sonic.db --since "$SINCE" --max-charts 200000 --resume --budget-minutes 50 | tee /tmp/c.log
           LEFT=$(grep -o '"left": [0-9]*' /tmp/c.log | tail -1 | grep -o '[0-9]*' || true); echo "left=${LEFT:-0}" >> "$GITHUB_OUTPUT"
       - name: keep the results
         id: keep
