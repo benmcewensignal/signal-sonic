@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-01T06:04:02Z",
+ "ran": "2026-10-01T01:55:41Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -177,13 +177,13 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.9,
+   "minutes": 4.5,
    "tail": [
     "identity checks applied; 2 joins cut",
     "artist records for 11358 artists; sounds-like for 3155",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-01T06:02:20Z\",",
+    " \"generated\": \"2026-10-01T01:53:47Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -207,10 +207,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.5,
+   "minutes": 1.7,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-01T06:04:01Z\",",
+    " \"generated\": \"2026-10-01T01:55:40Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
