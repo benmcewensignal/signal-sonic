@@ -1,0 +1,303 @@
+{
+"dj": "Konfusia",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-07-12 - Konfusia @ Noisily Festival, Leicestershire, UK",
+"records": [
+{
+"minute": 0,
+"artist": "Neumann & Bendtsen & Konfusia & CNTRBND",
+"title": "Blow",
+"label": "INVICTA"
+},
+{
+"minute": 6,
+"artist": "Lewis.",
+"title": "Looking For Light",
+"label": "AlpaKa MuziK",
+"bp": "bp:18963908",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/d49c43cb-8ae6-4fbb-a791-cfe66457a442.LOFI.mp3",
+"name": "Looking for Light",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-05-03"
+},
+{
+"minute": 11,
+"artist": "Justus Reim",
+"title": "Disconnected",
+"label": "Nova Collective",
+"bp": "bp:19248540",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/0f6ef85f-0293-4a33-bfcc-20a121c0830e.LOFI.mp3",
+"name": "Disconnected",
+"mix": "Extended Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-07-12"
+},
+{
+"minute": 15,
+"artist": "Justus Reim",
+"title": "Disconnected (Extende Mix)",
+"label": "Nova Collective",
+"bp": "bp:19248540",
+"score": 0.988,
+"preview": "https://geo-samples.beatport.com/track/0f6ef85f-0293-4a33-bfcc-20a121c0830e.LOFI.mp3",
+"name": "Disconnected",
+"mix": "Extended Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-07-12"
+},
+{
+"minute": 16,
+"artist": "Nico Banfi",
+"title": "Little Crazy",
+"label": "INVICTA",
+"bp": "bp:19569592",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/7d4c25df-7e5d-43ef-9e17-3f93a42e1d1a.LOFI.mp3",
+"name": "Little Crazy",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-10-18"
+},
+{
+"minute": 19,
+"artist": "Artur Achziger",
+"title": "Spirit Of India",
+"label": "",
+"bp": "bp:18740497",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/86a82d99-ba98-42c0-91e0-e8250e90b0b0.LOFI.mp3",
+"name": "Spirit of India",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-04-12"
+},
+{
+"minute": 24,
+"artist": "Cosmic Boys & Franco Smith",
+"title": "Visionnaire",
+"label": "",
+"bp": "bp:18683355",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/1902af4b-aeb5-466f-ad04-8cff927fbc8c.LOFI.mp3",
+"name": "Visionnaire",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-03-29"
+},
+{
+"minute": 27,
+"artist": "Justus Reim",
+"title": "Anemoia",
+"label": "Synthetic Affect"
+},
+{
+"minute": 32,
+"artist": "Sean Paul",
+"title": "Get Busy (Odd Mob Club Mix)",
+"label": "",
+"bp": "bp:20846436",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6803152e-3416-42d1-a9f0-7fda9620afa7.LOFI.mp3",
+"name": "Get Busy",
+"mix": "Odd Mob Club Mix",
+"genre": "dance-pop",
+"released": "2024-05-24"
+},
+{
+"minute": 35,
+"artist": "HiBoo",
+"title": "Gypsy Woman",
+"label": "Psy4Aliens",
+"bp": "bp:18643769",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/804f9398-aad9-4ffb-822f-ac66451a0760.LOFI.mp3",
+"name": "Gypsy Woman",
+"mix": "Original Mix",
+"genre": "psy-trance",
+"released": "2024-03-07"
+},
+{
+"minute": 39,
+"artist": "Kos:mo",
+"title": "Ananda",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "Layton Giordani",
+"title": "New Generation (Space 92 Remix) [Extended Version)",
+"label": "",
+"bp": "bp:18916320",
+"score": 0.864,
+"preview": "https://geo-samples.beatport.com/track/5ecc794c-2632-43da-b2bd-41b13e8508ac.LOFI.mp3",
+"name": "New Generation",
+"mix": "Space 92 Remix",
+"genre": "techno-peak-time-driving",
+"released": "2024-04-26"
+},
+{
+"minute": 48,
+"artist": "Neumann & Bendtsen",
+"title": "Goodbye",
+"label": "EXTIMA"
+},
+{
+"minute": 51,
+"artist": "TERIAL",
+"title": "Human Energy (Shadowmaw & Darius Rose Remix)",
+"label": "Crypt",
+"bp": "bp:19189784",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8aa3a756-a6ce-491b-ae6d-6c03765a598f.LOFI.mp3",
+"name": "Human Energy",
+"mix": "Shadowmaw & Darius Rose Remix",
+"genre": "techno-peak-time-driving",
+"released": "2024-07-12"
+},
+{
+"minute": 55,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 58,
+"artist": "HngT",
+"title": "Interplanetary",
+"label": "",
+"bp": "bp:18005150",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/e9c8be3e-15d9-40f3-9f7a-168b495305f7.LOFI.mp3",
+"name": "Interplanetary",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-08-18"
+},
+{
+"minute": 63,
+"artist": "Phoenix Movement",
+"title": "Reflex",
+"label": ""
+},
+{
+"minute": 66,
+"artist": "Marco Miranda",
+"title": "Revolution",
+"label": "",
+"bp": "bp:18119062",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/4159b789-5535-4022-827f-2fb62ecf1471.LOFI.mp3",
+"name": "Revolution",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-11-03"
+},
+{
+"minute": 70,
+"artist": "Konfusia & Hiboo",
+"title": "Adi\u00f3s",
+"label": ""
+},
+{
+"minute": 74,
+"artist": "Lautaro Iba\u00f1ez & Agustina Aliaga",
+"title": "Go Together",
+"label": "",
+"bp": "bp:17993282",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/7b0c14fb-60ef-455d-b74e-0d9dd0c14c3f.LOFI.mp3",
+"name": "Go Together",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-09-29"
+},
+{
+"minute": 78,
+"artist": "Neumann & Murch",
+"title": "Proud",
+"label": ""
+},
+{
+"minute": 85,
+"artist": "Lautaro Iba\u00f1ez",
+"title": "Pegasus",
+"label": ""
+},
+{
+"minute": 88,
+"artist": "Nrico",
+"title": "Singularity (Neumann Remix)",
+"label": "",
+"bp": "bp:18296139",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5bfb88a3-903c-42de-97e5-d8dcf501fc5f.LOFI.mp3",
+"name": "Singularity",
+"mix": "Neumann Remix",
+"genre": "techno-peak-time-driving",
+"released": "2023-11-24"
+},
+{
+"minute": 92,
+"artist": "Den's Vibe",
+"title": "Here To Jack",
+"label": "Bully Beatz",
+"bp": "bp:18607628",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/63d2da1d-174e-4c57-84e5-7a4b78911693.LOFI.mp3",
+"name": "Here to Jack",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-03-29"
+},
+{
+"minute": 97,
+"artist": "TiM TASTE",
+"title": "Abyss",
+"label": "Shadow Wulf"
+},
+{
+"minute": 101,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 108,
+"artist": "Bruno",
+"title": "Otherside",
+"label": "PHOBIA"
+},
+{
+"minute": 109,
+"artist": "Konfusia",
+"title": "20 Seconds",
+"label": "",
+"bp": "bp:18571429",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/8fcf7d84-5c36-4893-aaa6-87538acb69b7.LOFI.mp3",
+"name": "20 Seconds",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-02-16"
+},
+{
+"minute": 114,
+"artist": "Patrick Scuro & Clap Codex",
+"title": "Animarum",
+"label": "Animarum"
+}
+]
+},
+{
+"title": "2024-12-30 - Konfusia - Mix Mission",
+"records": []
+},
+{
+"title": "2026-06-25 - Konfusia @ Fusion Festival, Germany",
+"records": []
+}
+]
+}
