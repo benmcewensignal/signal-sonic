@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-04T09:58:21Z",
+ "ran": "2026-10-04T10:29:27Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -180,10 +180,10 @@
    "minutes": 4.6,
    "tail": [
     "identity checks applied; 2 joins cut",
-    "artist records for 11371 artists; sounds-like for 3171",
+    "artist records for 11501 artists; sounds-like for 3228",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-04T09:57:13Z\",",
+    " \"generated\": \"2026-10-04T10:28:22Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -196,10 +196,10 @@
     "  \"2026-09-28\",",
     "  \"2026-10-01\"",
     " ],",
-    " \"artists_total\": 56095,",
+    " \"artists_total\": 56160,",
     " \"booking_side\": 28844,",
-    " \"release_side\": 30580,",
-    " \"joined\": 3329,",
+    " \"release_side\": 30654,",
+    " \"joined\": 3338,",
     " \"tracks_with_metadata\": 61198,",
     " \"join_rate_release_side\": 0.109",
     "}"
@@ -211,7 +211,7 @@
    "minutes": 0.9,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-04T09:58:21Z\",",
+    " \"generated\": \"2026-10-04T10:29:26Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -227,7 +227,7 @@
     " \"latest\": \"2026-10-01\",",
     " \"venues\": 4136,",
     " \"venues_with_3plus\": 1186,",
-    " \"leadership_artists\": 11371,",
+    " \"leadership_artists\": 11501,",
     " \"tiered_rooms\": 845",
     "}"
    ]
