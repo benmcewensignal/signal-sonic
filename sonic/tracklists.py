@@ -121,21 +121,33 @@ def match(tok, rec, cache):
     except Exception:
         res = []
     best, bs = None, 0.0
+    # a line naming two records ("A / B", a mashup) is not one record: left unmatched (hand check, 5 Oct 2026)
+    if re.search(r"\s/\s", rec["title"]): cache[key] = None; return None
     want_t = " ".join(norm(rec["title"])); want_a = set(norm(rec["artist"]))
+    core = lambda s: " ".join(norm(re.sub(r"[\(\[][^\)\]]*[\)\]]", " ", s or "")))
+    want_core = core(rec["title"])
     for t in res:
         full = f'{t.get("name","")} {t.get("mix_name","") or ""}'
-        ts = difflib.SequenceMatcher(None, want_t, " ".join(norm(full))).ratio()
+        # titles are compared without their versions: two different songs both "(Extended Mix)" read alike on the full
+        # title (Max Styler's Need You Tonight was matched to his You & Me; Wait So Long to Ray of Solar)
+        ts = difflib.SequenceMatcher(None, want_core, core(t.get("name", ""))).ratio()
         arts = set(w for a in (t.get("artists") or []) for w in norm(a.get("name")))
         ov = len(want_a & arts) / max(1, len(want_a))
         lab = 0.1 if rec.get("label") and norm(rec["label"])[:1] == norm((t.get("label") or {}).get("name"))[:1] else 0.0
         sc = 0.6 * ts + 0.4 * ov + lab
+        gm_ = " ".join(norm(t.get("mix_name") or ""))
+        generic = (not gm_) or bool(re.fullmatch(r"(original|extended|club|main|radio)?\s*(mix|edit|version)?|original|extended|clean|explicit|dirty", gm_))
         # when the tracklist names a mix, the match must be that mix: a different remix of the
         # same song can sound nothing like it (Delta Heavy's Voodoo People was matched to Pendulum's)
-        want_mix = re.search(r"\(([^)]*(?:mix|remix|dub|edit|version|vip|rework)[^)]*)\)", rec["title"], re.I)
+        want_mix = re.search(r"\(([^)]*(?:mix|remix|dub|edit|version|vip|rework|acapella|accapella|a cappella|bootleg|instrumental|live|re-?recorded|intro|outro)[^)]*)\)", rec["title"], re.I)
         if want_mix:
             wm = " ".join(norm(want_mix.group(1))); gm = " ".join(norm(t.get("mix_name") or ""))
             if difflib.SequenceMatcher(None, wm, gm).ratio() < 0.7: continue
-        if ts >= 0.6 and ov >= 0.5 and sc > bs: best, bs = t, sc
+        elif not generic:
+            # no version named: an original, extended or club mix is far likelier than a named remix, dub, intro or
+            # acapella (the hand check found 8% of matches on another version, mostly this)
+            sc -= 0.25
+        if ts >= 0.75 and ov >= 0.5 and sc > bs: best, bs = t, sc
     out = None if best is None else {"bp": "bp:%d" % best["id"], "score": round(bs, 3), "preview": best.get("sample_url"),
                                      "name": best.get("name"), "mix": best.get("mix_name"), "genre": (best.get("genre") or {}).get("slug"),
                                      "released": best.get("new_release_date") or best.get("publish_date")}
