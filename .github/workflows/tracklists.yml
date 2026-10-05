@@ -9,6 +9,7 @@ on:
       since:    { description: "first year of sets", default: "2023" }
       measure:  { description: "records to measure this run", default: "300" }
       max_sets: { description: "most recent sets per DJ", default: "40" }
+      chain:    { description: "start the next tracklist batch afterwards", default: "no" }
       measure_only: { description: "only work through the measuring backlog", default: "false" }
 permissions:
   contents: write
@@ -87,3 +88,7 @@ jobs:
         run: |
           LEFT=$(( $(cat /tmp/tracklists_left.txt 2>/dev/null || echo 0) + $(cat /tmp/classics_left.txt 2>/dev/null || echo 0) ))   # records the sets play, and classics
           if [ "$LEFT" -gt 0 ]; then gh workflow run tracklists.yml -f measure_only=true -f measure=1200 -f djs=none; echo "booked a measuring run for $LEFT records"; fi
+      - name: the next batch
+        if: always() && inputs.chain == 'yes'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: gh workflow run tracklist-batches.yml --repo "${{ github.repository }}" --ref main -f since="${{ inputs.since }}" -f max_sets="${{ inputs.max_sets }}" -f chain=yes
