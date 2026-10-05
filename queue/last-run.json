@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-05T03:53:12Z",
+ "ran": "2026-10-05T06:32:05Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -177,13 +177,13 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.1,
+   "minutes": 5.1,
    "tail": [
     "identity checks applied; 2 joins cut",
     "artist records for 11501 artists; sounds-like for 3228",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-05T03:51:50Z\",",
+    " \"generated\": \"2026-10-05T06:30:40Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -194,14 +194,15 @@
     "  \"2026-09-21\",",
     "  \"2026-09-24\",",
     "  \"2026-09-28\",",
-    "  \"2026-10-01\"",
+    "  \"2026-10-01\",",
+    "  \"2026-10-05\"",
     " ],",
-    " \"artists_total\": 56160,",
-    " \"booking_side\": 28844,",
+    " \"artists_total\": 56942,",
+    " \"booking_side\": 29681,",
     " \"release_side\": 30654,",
-    " \"joined\": 3338,",
+    " \"joined\": 3393,",
     " \"tracks_with_metadata\": 61198,",
-    " \"join_rate_release_side\": 0.109",
+    " \"join_rate_release_side\": 0.111",
     "}"
    ]
   },
@@ -211,7 +212,7 @@
    "minutes": 1.2,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-05T03:53:12Z\",",
+    " \"generated\": \"2026-10-05T06:32:04Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -222,13 +223,14 @@
     "  \"2026-09-21\",",
     "  \"2026-09-24\",",
     "  \"2026-09-28\",",
-    "  \"2026-10-01\"",
+    "  \"2026-10-01\",",
+    "  \"2026-10-05\"",
     " ],",
-    " \"latest\": \"2026-10-01\",",
-    " \"venues\": 4136,",
-    " \"venues_with_3plus\": 1186,",
+    " \"latest\": \"2026-10-05\",",
+    " \"venues\": 3855,",
+    " \"venues_with_3plus\": 1085,",
     " \"leadership_artists\": 11501,",
-    " \"tiered_rooms\": 845",
+    " \"tiered_rooms\": 723",
     "}"
    ]
   }

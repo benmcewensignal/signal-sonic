@@ -2079,7 +2079,7 @@
 "date": "2026-10-05",
 "scene": "140-deep-dubstep-grime",
 "regime": "mixed",
-"established": 16
+"established": 17
 },
 {
 "date": "2026-10-05",
@@ -2091,25 +2091,25 @@
 "date": "2026-10-05",
 "scene": "tech-house",
 "regime": "mixed",
-"established": 31
+"established": 32
 },
 {
 "date": "2026-10-05",
 "scene": "techno-peak-time",
 "regime": "stars lead",
-"established": 29
+"established": 30
 },
 {
 "date": "2026-10-05",
 "scene": "techno-raw-deep-hypnotic",
-"regime": "mixed",
-"established": 32
+"regime": "stars lead",
+"established": 33
 },
 {
 "date": "2026-10-05",
 "scene": "house",
 "regime": "mixed",
-"established": 42
+"established": 43
 },
 {
 "date": "2026-10-05",
@@ -2121,19 +2121,25 @@
 "date": "2026-10-05",
 "scene": "melodic-house-techno",
 "regime": "mixed",
-"established": 46
+"established": 47
 },
 {
 "date": "2026-10-05",
 "scene": "drum-and-bass",
 "regime": "mixed",
-"established": 23
+"established": 25
+},
+{
+"date": "2026-10-05",
+"scene": "mainstage",
+"regime": "stars lead",
+"established": 4
 },
 {
 "date": "2026-10-05",
 "scene": "hard-techno",
 "regime": "mixed",
-"established": 6
+"established": 7
 },
 {
 "date": "2026-10-05",
@@ -2157,7 +2163,7 @@
 "date": "2026-10-05",
 "scene": "indie-dance",
 "regime": "stars behind",
-"established": 4
+"established": 5
 },
 {
 "date": "2026-10-05",
