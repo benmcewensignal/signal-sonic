@@ -3,6 +3,548 @@
 "source": "MixesDB (CC BY-SA 3.0)",
 "sets": [
 {
+"title": "2020-03-18 - VA @ United We Stream, Watergate, Berlin",
+"records": []
+},
+{
+"title": "2021-04-16 - Yulia Niko - Balance Selections 164",
+"records": [
+{
+"minute": 0,
+"artist": "Deep Dive Corp.",
+"title": "Little Ditty",
+"label": "Scuba",
+"bp": "bp:3480980",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/e546031a-c94d-49ce-89e6-94f548c90d90.LOFI.mp3",
+"name": "Little Ditty",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2012-05-28"
+},
+{
+"minute": 9,
+"artist": "SIS",
+"title": "Devran",
+"label": "Inner Shah"
+},
+{
+"minute": 14,
+"artist": "Yulia Niko Feat. Coro Coro",
+"title": "Molly & Sally",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Den Ishu & Arado",
+"title": "Uganda Express",
+"label": "",
+"bp": "bp:14753591",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/e1269458-8ff4-4dc9-b254-3dce0813e8c6.LOFI.mp3",
+"name": "Uganda Express",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2021-01-29"
+},
+{
+"minute": 23,
+"artist": "Latin Groover",
+"title": "Conga (Latin Afro Mix)",
+"label": "South American Grooves",
+"bp": "bp:14856924",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1f6fd1fc-8a36-4b25-bb3a-6a34a787ec16.LOFI.mp3",
+"name": "Conga",
+"mix": "Latin Afro Mix",
+"genre": "afro-house",
+"released": "2021-02-04"
+},
+{
+"minute": 26,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 33,
+"artist": "BP & Hermanez",
+"title": "Fast Capture",
+"label": "",
+"bp": "bp:6779404",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/5243dfbc-5965-4873-b879-cf344099a1f5.LOFI.mp3",
+"name": "Fast Capture",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2015-06-15"
+},
+{
+"minute": 37,
+"artist": "Nick Anthony Simoncino",
+"title": "Tikid\u00f2",
+"label": "Tropical Animals"
+},
+{
+"minute": 40,
+"artist": "Eelke Kleijn",
+"title": "De Orde Van De Nacht (Part 2) (Raxon Extended Remix)",
+"label": "DAYS Like NIGHTS",
+"bp": "bp:12686335",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5c5dbd9c-d8e3-4442-9e69-809c281762a6.LOFI.mp3",
+"name": "De Orde Van De Nacht (Part 2)",
+"mix": "Raxon Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2019-11-14"
+},
+{
+"minute": 46,
+"artist": "Dense & Pika Feat. Matthew Dear",
+"title": "Honey",
+"label": ""
+},
+{
+"minute": 50,
+"artist": "Eli Escobar",
+"title": "ANGR (Country Music)",
+"label": "Classic",
+"bp": "bp:10025382",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/852cf6d4-83e3-483f-97ab-1d449e95c621.LOFI.mp3",
+"name": "ANGR (Country Music)",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2018-01-19"
+},
+{
+"minute": 57,
+"artist": "Quenum",
+"title": "Little Secret (Yulia Niko Remix)",
+"label": "Rebellion",
+"bp": "bp:14970433",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2a4488cc-db98-4cec-ac9d-d2b3b553461c.LOFI.mp3",
+"name": "Little Secret",
+"mix": "Yulia Niko Remix",
+"genre": "organic-house",
+"released": "2021-03-19"
+},
+{
+"minute": 62,
+"artist": "Patrice B\u00e4umel",
+"title": "Clair (Cioz Neapolis Remix)",
+"label": ""
+}
+]
+},
+{
+"title": "2021-06-01 - Yulia Niko - In The Mood Radio 370",
+"records": [
+{
+"minute": null,
+"artist": "Mehari",
+"title": "Fame (Luciano Vocal Remix)",
+"label": "Cadenza",
+"bp": "bp:15237599",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7bff0104-700c-4a3e-90ea-3d7755e6d1d1.LOFI.mp3",
+"name": "Fame",
+"mix": "Luciano Vocal Remix",
+"genre": "melodic-house-techno",
+"released": "2021-04-30"
+},
+{
+"minute": null,
+"artist": "Omaro & Lio & Prah",
+"title": "Teresa (Sebastian Rivero Remix)",
+"label": "Supersonica",
+"bp": "bp:15186939",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d0f1c8f-e7b3-439b-b325-90c1ad7e10a8.LOFI.mp3",
+"name": "Teresa",
+"mix": "Sebastian Rivero Remix",
+"genre": "afro-house",
+"released": "2021-04-30"
+},
+{
+"minute": null,
+"artist": "Dosem & Supernova",
+"title": "The Good Way",
+"label": "Break New Soil",
+"bp": "bp:20493249",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/004a6af4-fd08-4d91-9b3b-a054276ed3d3.LOFI.mp3",
+"name": "The Good Way",
+"mix": "Original mix",
+"genre": "techno-peak-time-driving",
+"released": "2025-05-23"
+},
+{
+"minute": null,
+"artist": "Tigerhook & Randall Jones",
+"title": "Beautiful Thang (Bushwacka! Remix)",
+"label": "Bedrock",
+"bp": "bp:14991123",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/baf59b1f-540c-4671-a907-a1fb689c95f6.LOFI.mp3",
+"name": "Beautiful Thang",
+"mix": "Bushwacka Remix",
+"genre": "deep-house",
+"released": "2021-03-05"
+},
+{
+"minute": null,
+"artist": "Yulia Niko",
+"title": "Kalimera",
+"label": "Mood"
+},
+{
+"minute": null,
+"artist": "Ezekiel Feat. Bisou",
+"title": "Ecstasy Hoes (Jens Lissat Remix)",
+"label": "Studio3000",
+"bp": "bp:15197748",
+"score": 0.774,
+"preview": "https://geo-samples.beatport.com/track/fc6af4ec-10ba-4e22-bcd5-e58469416d47.LOFI.mp3",
+"name": "Ecstasy Hoes Feat. Bisou",
+"mix": "Jens Lissat Remix",
+"genre": "techno-peak-time-driving",
+"released": "2021-05-21"
+},
+{
+"minute": null,
+"artist": "Girls Of The Internet",
+"title": "Flat Earth",
+"label": "Drab Queen",
+"bp": "bp:17251185",
+"score": 0.564,
+"preview": "https://geo-samples.beatport.com/track/18723c7c-d7e2-4b46-8976-29199e8a1baa.LOFI.mp3",
+"name": "Flat Earth",
+"mix": "Original Mix",
+"genre": "hard-techno",
+"released": "2023-02-03"
+},
+{
+"minute": null,
+"artist": "ANDC",
+"title": "Flat Console",
+"label": "Primitive State",
+"bp": "bp:15082297",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/ec7a98fc-a85e-4156-9bbb-e73f05cf3ad6.LOFI.mp3",
+"name": "Flat Console",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-04-23"
+},
+{
+"minute": null,
+"artist": "Yulia Niko & Pig&Dan",
+"title": "Mozzarella",
+"label": "Mood",
+"bp": "bp:15269867",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/aedbf3a2-cb93-43e7-ae99-67ab9bc65a88.LOFI.mp3",
+"name": "Mozzarella",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-05-21"
+},
+{
+"minute": null,
+"artist": "Prins Thomas",
+"title": "Bringing Mum To Berghain (Norman Nodge Remix)",
+"label": "Prins Thomas Musikk",
+"bp": "bp:12828424",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49da1860-849c-48c3-b99f-0930d2e058a2.LOFI.mp3",
+"name": "Bringing Mum To Berghain",
+"mix": "Norman Nodge Remix",
+"genre": "indie-dance",
+"released": "2020-02-14"
+},
+{
+"minute": null,
+"artist": "Ecco",
+"title": "We Want Your Soul",
+"label": "Kiss My Beat",
+"bp": "bp:15007811",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/3ddfbfef-0613-4d19-a460-00425a58a350.LOFI.mp3",
+"name": "We Want Your Soul",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2021-03-26"
+},
+{
+"minute": null,
+"artist": "Butterbandz",
+"title": "Hellraiser",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Moby",
+"title": "Go (Luigi Tozzi Edit)",
+"label": "Outer Rhythm"
+},
+{
+"minute": null,
+"artist": "Lana Del Rey",
+"title": "Doin' Time (Patrice B\u00e4umel Remix)",
+"label": "Free"
+}
+]
+},
+{
+"title": "2022-09-24 - Yulia Niko @ Hi Ibiza, Ibiza",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 5,
+"artist": "Come Closer",
+"title": "Glory",
+"label": ""
+},
+{
+"minute": 8,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 15,
+"artist": "Kohra",
+"title": "Vedanta (Kotelett & Zadak Remix)",
+"label": "",
+"bp": "bp:11516402",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c036a8bb-48e7-4e49-8927-8b66b06f1f33.LOFI.mp3",
+"name": "Vedanta",
+"mix": "Kotelett & Zadak Remix",
+"genre": "melodic-house-techno",
+"released": "2019-03-04"
+},
+{
+"minute": 19,
+"artist": "Ben Juno & Ramm\u00f6",
+"title": "Your Mess",
+"label": "ABRACADABRA"
+},
+{
+"minute": 25,
+"artist": "Dilby & Oliver Wickham",
+"title": "Wilderness (Nick Curly Remix)",
+"label": "",
+"bp": "bp:16775409",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/803fcebd-4f2f-473c-93ac-777c71e13c07.LOFI.mp3",
+"name": "Wilderness",
+"mix": "Nick Curly Remix",
+"genre": "progressive-house",
+"released": "2022-08-19"
+},
+{
+"minute": 29,
+"artist": "Moisees & ZEA",
+"title": "Wasen",
+"label": "Duro"
+},
+{
+"minute": 32,
+"artist": "Tom Peters",
+"title": "Vulkan",
+"label": "Innervisions"
+},
+{
+"minute": 36,
+"artist": "ID ID",
+"title": "Inlakesh",
+"label": "Ritual"
+},
+{
+"minute": 42,
+"artist": "Tomy Wahl",
+"title": "Matka",
+"label": "Eleatics"
+},
+{
+"minute": 46,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 50,
+"artist": "Mulya",
+"title": "Olden Daze",
+"label": "Innervisions",
+"bp": "bp:16605955",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/d69fbc8f-5e1e-431d-a01a-5bc2d7943094.LOFI.mp3",
+"name": "Olden Daze",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2022-06-24"
+},
+{
+"minute": 56,
+"artist": "Fedele",
+"title": "Spike Express",
+"label": "Obscura",
+"bp": "bp:17299684",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/d59836aa-9553-4af8-9114-f2546216b03f.LOFI.mp3",
+"name": "Spike Express",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-02-24"
+},
+{
+"minute": 60,
+"artist": "B-Series",
+"title": "Painkiller",
+"label": ""
+},
+{
+"minute": 66,
+"artist": "Dos Locos",
+"title": "Together",
+"label": "Phisica"
+},
+{
+"minute": 69,
+"artist": "Dos Locos",
+"title": "Acid Jungle",
+"label": "HEARec",
+"bp": "bp:17185378",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/d64a9ee0-c09d-492b-bc80-0d9bf13cc24b.LOFI.mp3",
+"name": "Acid Jungle",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2022-12-29"
+},
+{
+"minute": 73,
+"artist": "Ivan Masa",
+"title": "Crash Your Hands",
+"label": "Diynamic",
+"bp": "bp:17182009",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/c2f8c0dd-bb77-494e-a7a6-3622880e89ef.LOFI.mp3",
+"name": "Crash Your Hands",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2022-12-09"
+},
+{
+"minute": 77,
+"artist": "Mark Henning Feat. Dejan",
+"title": "Exit Acid",
+"label": "Senso Sounds"
+},
+{
+"minute": 83,
+"artist": "Crille & Tamalt",
+"title": "Demon",
+"label": "HEARec"
+},
+{
+"minute": 86,
+"artist": "Everything But The Girl",
+"title": "Missing",
+"label": "Chrysalis"
+},
+{
+"minute": 87,
+"artist": "Everything But The Girl",
+"title": "Missing (CL McSpadden Powerhouse Mix)",
+"label": "Chrysalis",
+"bp": "bp:15740139",
+"score": 0.992,
+"preview": "https://geo-samples.beatport.com/track/b39ae33d-6f84-4b8b-b107-b94c13da086c.LOFI.mp3",
+"name": "Missing",
+"mix": "C L McSpadden Powerhouse Mix",
+"genre": "dance-pop",
+"released": "2005-01-01"
+},
+{
+"minute": 89,
+"artist": "Everything But The Girl",
+"title": "Missing",
+"label": "Chrysalis"
+},
+{
+"minute": 91,
+"artist": "Braxton",
+"title": "The River (Extended Mix)",
+"label": "",
+"bp": "bp:16525841",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3fed005a-e8cc-4371-9541-36c9a452b297.LOFI.mp3",
+"name": "The River",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-05-30"
+},
+{
+"minute": 95,
+"artist": "Jeremy Olander",
+"title": "Steps",
+"label": ""
+},
+{
+"minute": 100,
+"artist": "Dino Lenny",
+"title": "Living In A Song (Remix)",
+"label": "Fine Human",
+"bp": "bp:16962279",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/351df17e-82ae-42f3-b2fa-e954393727ce.LOFI.mp3",
+"name": "Living In a Song",
+"mix": "Remix",
+"genre": "melodic-house-techno",
+"released": "2022-10-21"
+},
+{
+"minute": 107,
+"artist": "X-Press 2, Tim Deluxe",
+"title": "Lost The Feelin'",
+"label": "",
+"bp": "bp:8333863",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/28f3c04a-0ea2-49d1-a70d-e410010ca8d7.LOFI.mp3",
+"name": "Lost the Feelin'",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2012-01-16"
+}
+]
+},
+{
+"title": "2023-01-29 - Yulia Niko @ SIGHT Pres., Pacha, Barcelona",
+"records": []
+},
+{
+"title": "2023-03-26 - Korolova B2B Yulia Niko @ MMW Closing Party, Factory Town, Miami, MMW",
+"records": []
+},
+{
+"title": "2023-06-02 - Yulia Niko @ Input, Barcelona",
+"records": []
+},
+{
+"title": "2023-10-13 - Yulia Niko @ Jubil\u00e4um, Ritter Butzke, Berlin",
+"records": []
+},
+{
+"title": "2023-10-19 - Yulia Niko b2b Maxim Lany @ Armada Electronic Elements, Lagerwal, Amsterdam, ADE",
+"records": []
+},
+{
 "title": "2024-09-13 - Yulia Niko - Awakenings Podcast 320",
 "records": []
 },

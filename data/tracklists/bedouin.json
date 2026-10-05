@@ -1,5 +1,1212 @@
 {
 "dj": "Bedouin",
 "source": "MixesDB (CC BY-SA 3.0)",
-"sets": []
+"sets": [
+{
+"title": "2019-08-30 - Bedouin @ Mayan Warrior, Burning Man",
+"records": [
+{
+"minute": 0,
+"artist": "Makossa & Megablast",
+"title": "Kunuaka (DJ T. Body Contact Remix)",
+"label": "Stripped Down",
+"bp": "bp:12492286",
+"score": 0.981,
+"preview": "https://geo-samples.beatport.com/track/cae4985b-f4cf-4a6f-9d05-1c5754aaf2ed.LOFI.mp3",
+"name": "Kunuaka",
+"mix": "DJ T.'s Body Contact Remix",
+"genre": "afro-house",
+"released": "2019-09-20"
+},
+{
+"minute": 5,
+"artist": "Juan Hansen",
+"title": "Kul\u00fa",
+"label": "Human By Default"
+},
+{
+"minute": 12,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 17,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 20,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[0:23:??] Bedouin",
+"title": "Petra",
+"label": "Cercle"
+},
+{
+"minute": 26,
+"artist": "Yamil",
+"title": "Bumblebee",
+"label": "Nulu"
+},
+{
+"minute": 30,
+"artist": "dOP",
+"title": "Carousel (Bedouin Remix)",
+"label": "Eleatics",
+"bp": "bp:17337822",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7c658745-7a88-4a29-915a-717ea0d43a2f.LOFI.mp3",
+"name": "Carousel",
+"mix": "Bedouin Remix",
+"genre": "organic-house",
+"released": "2023-01-27"
+},
+{
+"minute": 37,
+"artist": "Dr John",
+"title": "I Walk On Gilded Splinters (Nathan Micay Gumbo Theremin Edit)",
+"label": ""
+},
+{
+"minute": 42,
+"artist": "Night Talk",
+"title": "Divination",
+"label": "Atlant",
+"bp": "bp:11887901",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/c0f13e23-0975-47bd-963f-0f43089502eb.LOFI.mp3",
+"name": "Divination",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-05-24"
+},
+{
+"minute": 49,
+"artist": "&lez",
+"title": "Sharma",
+"label": "Visile"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 60,
+"artist": "Vini Pistori",
+"title": "Ruah",
+"label": "Monaberry"
+},
+{
+"minute": 66,
+"artist": "The Prodigy",
+"title": "Breathe",
+"label": "XL",
+"bp": "bp:14183675",
+"score": 0.842,
+"preview": "https://geo-samples.beatport.com/track/99ebd1ea-a2a6-4524-b8e6-9b74817608f3.LOFI.mp3",
+"name": "Breathe",
+"mix": "Edit",
+"genre": "electronica",
+"released": "1996-11-11"
+},
+{
+"minute": 67,
+"artist": "Federico Fioretti",
+"title": "Westworld",
+"label": "This And That Lab"
+},
+{
+"minute": 72,
+"artist": "Bedouin",
+"title": "Voodoo",
+"label": "Human By Default"
+},
+{
+"minute": 76,
+"artist": "Nandu",
+"title": "But Only For Now",
+"label": "Human By Default",
+"bp": "bp:14162356",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/01d7b1c1-8abc-479a-ab82-f77f3ba8a639.LOFI.mp3",
+"name": "But Only For Now",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-09-25"
+},
+{
+"minute": 81,
+"artist": "Yael Naim",
+"title": "Toxic (Luciano Edit)",
+"label": "Zomba"
+},
+{
+"minute": 88,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 94,
+"id": null,
+"raw": "Jacob Groening Feat. Joy Tyson"
+},
+{
+"minute": 99,
+"artist": "Madonna",
+"title": "Justify My Love (ID Remix)",
+"label": ""
+},
+{
+"minute": 103,
+"artist": "Keope",
+"title": "Yenkl (Trikk Sol Remix)",
+"label": "Bigamo",
+"bp": "bp:12486601",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0428f58d-25c5-47a1-8f72-0fab7caf519c.LOFI.mp3",
+"name": "Yenkl",
+"mix": "Trikk Sol Remix",
+"genre": "electronica",
+"released": "2019-09-05"
+},
+{
+"minute": 108,
+"artist": "?",
+"title": "Ijzeren Rots",
+"label": "Digwah"
+},
+{
+"minute": 115,
+"artist": "Toto Chiavetta Feat. Sead Ajaz Ensemble Edition",
+"title": "Ederlezi",
+"label": "Borders Of Light"
+},
+{
+"minute": 121,
+"artist": "Umami",
+"title": "Soltornet",
+"label": "Human By Default"
+},
+{
+"minute": 126,
+"artist": "Kevin Morby",
+"title": "Harlem River (ID Remix)",
+"label": "Woodsist"
+},
+{
+"minute": 133,
+"artist": "The Beatles",
+"title": "Because (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": 139,
+"artist": "Michael Jackson",
+"title": "Liberian Girl (ID Remix)",
+"label": ""
+}
+]
+},
+{
+"title": "2020-03-07 - Bedouin - Essential Mix",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Intro"
+},
+{
+"minute": 1,
+"artist": "Bedouin",
+"title": "Set The Controls For The Heart Of The Sun",
+"label": "",
+"bp": "bp:9625060",
+"score": 0.918,
+"preview": "https://geo-samples.beatport.com/track/83906b56-51cd-4064-b721-7842fad33155.LOFI.mp3",
+"name": "Set The Controls For The Heart Of The Sun",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2017-08-25"
+},
+{
+"minute": null,
+"artist": "[0??] Bedouin",
+"title": "Beach Dust",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] The Knife",
+"title": "Seeds (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Just Friends",
+"title": "Avalanche (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Bedouin",
+"title": "Firefly",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Jeff Buckley",
+"title": "Dream Brother (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Frivolous",
+"title": "Serenade Des Excentriques (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bobby McFerrin",
+"title": "Circlesong 6 (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Voodoo",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Carl Craig & P\u00e9p\u00e9 Bradock",
+"title": "Angola (Get Down Dub By P\u00e9p\u00e9 Bradock) (Bedouin Re-Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Queen",
+"title": "A Kind Of Magic (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "dOP",
+"title": "Carousel (Bedouin Remix)",
+"label": "",
+"bp": "bp:17337822",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7c658745-7a88-4a29-915a-717ea0d43a2f.LOFI.mp3",
+"name": "Carousel",
+"mix": "Bedouin Remix",
+"genre": "organic-house",
+"released": "2023-01-27"
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Seven Seas",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Whistleman (Pablo Fierro Remix)",
+"label": "",
+"bp": "bp:13261389",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c0d1dd0d-d667-484c-892c-f9f07f055871.LOFI.mp3",
+"name": "Whistleman",
+"mix": "Pablo Fierro Remix",
+"genre": "afro-house",
+"released": "2020-03-27"
+},
+{
+"minute": null,
+"artist": "Yma Sumac",
+"title": "Ataypura (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bobby McFerrin",
+"title": "Improvisation 1 (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bedouin & Larry Heard",
+"title": "Shared Delusion (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bedouin Feat. SIS",
+"title": "Zikra",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The Doors",
+"title": "Orange County Suite (Bedouin Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Radiohead",
+"title": "All I Need (Bedouin Edit)",
+"label": ""
+}
+]
+},
+{
+"title": "2022-03-21 - Bedouin (Live PA) @ Cercle, Petra, Jordan",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Intro"
+},
+{
+"minute": 2,
+"artist": "DakhaBrakha",
+"title": "Svyryd (Bedouin Rework)",
+"label": "",
+"bp": "bp:16212539",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d8238caa-69f6-445f-8fb4-c10b030aaf25.LOFI.mp3",
+"name": "Svyryd",
+"mix": "Bedouin Rework",
+"genre": "organic-house",
+"released": "2022-02-25"
+},
+{
+"minute": 8,
+"artist": "Little Junior Parker",
+"title": "Tomorrow Never Knows (Bedouin Private Remix)",
+"label": ""
+},
+{
+"minute": 15,
+"artist": "Bedouin",
+"title": "Tijuana",
+"label": ""
+},
+{
+"minute": 21,
+"artist": "Bedouin",
+"title": "Shared Delusion",
+"label": ""
+},
+{
+"minute": 26,
+"artist": "Bedouin",
+"title": "Petra",
+"label": ""
+},
+{
+"minute": 32,
+"artist": "The Frog Collective",
+"title": "Into Your Tribe (Bedouin Remix) (Unreleased)",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Bedouin",
+"title": "Aliens",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "Bedouin",
+"title": "Khazna",
+"label": ""
+},
+{
+"minute": 51,
+"artist": "DakhaBrakha",
+"title": "Doshchynk Nakrapai (Bedouin Rework)",
+"label": "",
+"bp": "bp:16212537",
+"score": 0.947,
+"preview": "https://geo-samples.beatport.com/track/81a87043-3d5e-4160-81fe-6a3712f6fcf6.LOFI.mp3",
+"name": "A Doshchyk Nakrapaye",
+"mix": "Bedouin Rework",
+"genre": "organic-house",
+"released": "2022-02-25"
+},
+{
+"minute": 58,
+"artist": "Bedouin",
+"title": "Love And Hate",
+"label": "",
+"bp": "bp:18534439",
+"score": 0.811,
+"preview": "https://geo-samples.beatport.com/track/01f4ab35-54ba-4f6b-92a0-e6a4ef22f44e.LOFI.mp3",
+"name": "Love and Hate",
+"mix": "Nandu Remix",
+"genre": "melodic-house-techno",
+"released": "2024-01-26"
+},
+{
+"minute": 64,
+"artist": "Bedouin",
+"title": "Indecision",
+"label": "",
+"bp": "bp:5350214",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/ce945d8f-4ddf-45a1-b695-8581cf6e0a4d.LOFI.mp3",
+"name": "Indecision",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2019-08-02"
+},
+{
+"minute": 68,
+"artist": "Bedouin",
+"title": "Firefly",
+"label": ""
+},
+{
+"minute": 74,
+"artist": "Bobby McFerrin",
+"title": "Improvisacio 1 (Bedouin Private Remix)",
+"label": ""
+},
+{
+"minute": 80,
+"artist": "Bedouin",
+"title": "Set The Controls For The Heart Of The Sun",
+"label": "",
+"bp": "bp:9625060",
+"score": 0.918,
+"preview": "https://geo-samples.beatport.com/track/83906b56-51cd-4064-b721-7842fad33155.LOFI.mp3",
+"name": "Set The Controls For The Heart Of The Sun",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2017-08-25"
+},
+{
+"minute": 95,
+"id": null,
+"raw": "Interview"
+}
+]
+},
+{
+"title": "2022-07-03 - Bedouin @ FuturFestival, Turin",
+"records": [
+{
+"minute": 0,
+"artist": "Underground Solution Feat. Jasmine",
+"title": "Luv Dancin' (Harry Romero Bambossa Remix)",
+"label": "Strictly Rhythm",
+"bp": "bp:1170354",
+"score": 0.718,
+"preview": "https://geo-samples.beatport.com/track/0ea1bf28-dabb-4131-9e49-094fdf13157b.LOFI.mp3",
+"name": "Luv Dancin'",
+"mix": "Harry Choo Choo Romero's Bambossa Remix",
+"genre": "progressive-house",
+"released": "2010-04-02"
+},
+{
+"minute": 4,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 10,
+"artist": "Collective Machine",
+"title": "Kickwave (Chus & Ceballos Remix)",
+"label": "Stereo",
+"bp": "bp:13671336",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/672ea60e-33a9-4a0a-8904-bc7dd403fa45.LOFI.mp3",
+"name": "Kickwave",
+"mix": "Chus & Ceballos Remix",
+"genre": "techno-peak-time-driving",
+"released": "2020-06-15"
+},
+{
+"minute": 15,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 20,
+"artist": "D.O.N.S. Feat. Technotronic",
+"title": "Pump Up The Jam (Kurd Maverick aka Gians Crowd Is Jumpin' Mix)",
+"label": "Data",
+"bp": "bp:540962",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/bccfc7ef-e59b-48c8-bbd0-155e74741ffc.LOFI.mp3",
+"name": "Pump Up The Jam",
+"mix": "Kurd Maverick Aka Gians Crowd Is Jumpin Mix",
+"genre": "house",
+"released": "2007-02-19"
+},
+{
+"minute": 23,
+"artist": "Phil Kieran & Green Velvet",
+"title": "Michael Jackson",
+"label": "Phil Kieran",
+"bp": "bp:3101021",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/0a7bfd30-7430-4814-9f59-1b4e2aabccb3.LOFI.mp3",
+"name": "Michael Jackson",
+"mix": "Marc Houle Mix",
+"genre": "techno-peak-time-driving",
+"released": "2011-12-06"
+},
+{
+"minute": 26,
+"artist": "Afro Medusa",
+"title": "Pasilda",
+"label": "Reverb",
+"bp": "bp:14955456",
+"score": 0.765,
+"preview": "https://geo-samples.beatport.com/track/75746cc1-5684-4b11-a745-0ecf77cb07f8.LOFI.mp3",
+"name": "Pasilda",
+"mix": "Acapella",
+"genre": "dj-tools-acapellas",
+"released": "2021-03-12"
+}
+]
+},
+{
+"title": "2022-12-28 - Bedouin - Mix Mission",
+"records": []
+},
+{
+"title": "2023-05-19 - Pete Tong, Nic Fanciulli, Bedouin - Global Dance HQ",
+"records": [
+{
+"minute": null,
+"artist": "MEDUZA & Poppy Baskombe",
+"title": "Upside Down",
+"label": "",
+"bp": "bp:18237412",
+"score": 0.692,
+"preview": "https://geo-samples.beatport.com/track/df594553-e963-4f24-ae98-63c52481b5ae.LOFI.mp3",
+"name": "Upside Down",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2023-10-13"
+},
+{
+"minute": null,
+"artist": "Ti\u00ebsto & Mathame",
+"title": "Feel Your Ghost",
+"label": "",
+"bp": "bp:27309434",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/b7fcda5e-e866-4ce5-b4da-323a1404efb4.LOFI.mp3",
+"name": "Feel Your Ghost",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2023-05-19"
+},
+{
+"minute": null,
+"artist": "Rex The Dog",
+"title": "Change This Pain For Ecstasy",
+"label": "",
+"bp": "bp:17534888",
+"score": 0.887,
+"preview": "https://geo-samples.beatport.com/track/d2107b10-48b1-4c40-aef3-da77a8b23bf1.LOFI.mp3",
+"name": "Change This Pain For Ecstasy",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-04-21"
+},
+{
+"minute": null,
+"artist": "KAS:ST",
+"title": "2084",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Jayda G",
+"title": "Scars",
+"label": ""
+},
+{
+"minute": null,
+"artist": "HDSN",
+"title": "Stronger",
+"label": ""
+},
+{
+"minute": null,
+"artist": "TMPLE",
+"title": "Move",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The Chemical Brothers",
+"title": "All Of A Sudden",
+"label": "",
+"bp": "bp:17671960",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/54c7534b-a81f-4d47-bcb6-1e4e8961aac9.LOFI.mp3",
+"name": "All Of A Sudden",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-04-28"
+},
+{
+"minute": null,
+"artist": "Depeche Mode",
+"title": "My Cosmos Is Mine (ANNA Remix)",
+"label": "",
+"bp": "bp:17844766",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b3b09994-7535-4ee2-b429-13735f03fb22.LOFI.mp3",
+"name": "My Cosmos Is Mine",
+"mix": "ANNA Remix",
+"genre": "melodic-house-techno",
+"released": "2023-06-16"
+},
+{
+"minute": null,
+"artist": "Kiimi",
+"title": "Sun Goes Down",
+"label": "",
+"bp": "bp:17649045",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3c830957-e276-442f-8f99-a64a57c06b82.LOFI.mp3",
+"name": "Sun Goes Down",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2023-05-17"
+},
+{
+"minute": null,
+"artist": "BUTCH & Nic Fanciulli",
+"title": "I Want You",
+"label": "",
+"bp": "bp:17640333",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/7a2ac486-1040-4f3e-9c0b-e9df9fe28f13.LOFI.mp3",
+"name": "I Want You",
+"mix": "Butch Dub",
+"genre": "house",
+"released": "2023-05-05"
+},
+{
+"minute": null,
+"artist": "Cafius",
+"title": "Catan",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Th;en",
+"title": "London",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ben Sterling Feat. Superchumbo",
+"title": "All Over My Body",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Josh Kalker",
+"title": "Disco Fat",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Jansons",
+"title": "Feed The Night",
+"label": "",
+"bp": "bp:17629914",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/0388a5fd-b5eb-44f1-a45c-b5f57c3b39ad.LOFI.mp3",
+"name": "Feed The Night",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-05-05"
+},
+{
+"minute": null,
+"artist": "ANOTR & Abel Balder",
+"title": "Relax My Eyes (Nic Fanciulli Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "MAD.AGAIN",
+"title": "Steppin'",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Karretero",
+"title": "Croc",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Primal Scream & Andrew Weatherall",
+"title": "Loaded (Andrew Weatherall Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Chlo\u00e9 Caillet & Kaleta Feat. Falle Nioke & Wekafor\u00e9",
+"title": "In The Middle",
+"label": ""
+},
+{
+"minute": null,
+"artist": "R\u00f3is\u00edn Murphy",
+"title": "The Universe",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Skatman",
+"title": "Funkadelic",
+"label": "",
+"bp": "bp:17488203",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/a62826d7-02d0-4126-800b-276c9c7707a8.LOFI.mp3",
+"name": "Funkadelic",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-24"
+},
+{
+"minute": null,
+"artist": "Charlotte de Witte",
+"title": "Overdrive",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Wash Away",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Khazna",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Tijuana",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Aliens (Santiago Garcia Remix)",
+"label": "",
+"bp": "bp:18534443",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7a062277-bee0-47fd-b001-f35cccb96883.LOFI.mp3",
+"name": "Aliens",
+"mix": "Santiago Garcia Remix",
+"genre": "melodic-house-techno",
+"released": "2024-01-26"
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Love And Hate (Nandu Remix)",
+"label": "",
+"bp": "bp:18534439",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/01f4ab35-54ba-4f6b-92a0-e6a4ef22f44e.LOFI.mp3",
+"name": "Love and Hate",
+"mix": "Nandu Remix",
+"genre": "melodic-house-techno",
+"released": "2024-01-26"
+},
+{
+"minute": null,
+"artist": "Bedouin",
+"title": "Flore Chico (Harry Romero Remix)",
+"label": "",
+"bp": "bp:18309166",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/abdf7e5d-6421-48fe-81ec-16585f27ec4f.LOFI.mp3",
+"name": "Flore Chico feat. Chico Castillo",
+"mix": "Harry Romero Remix",
+"genre": "organic-house",
+"released": "2023-11-24"
+}
+]
+},
+{
+"title": "2023-07-29 - Bedouin @ Echoes From Agartha, Cappadocia, Turkey",
+"records": [
+{
+"minute": 3,
+"artist": "Ed-Ward",
+"title": "Time Zone",
+"label": ""
+},
+{
+"minute": 8,
+"artist": "TMPLE",
+"title": "Move",
+"label": "Self Released"
+},
+{
+"minute": 12,
+"artist": "Calussa & Darmon",
+"title": "Sutra",
+"label": "Human By Default"
+},
+{
+"minute": 21,
+"artist": "Stylo & Space Motion",
+"title": "Yeke Yeke",
+"label": "Space Motion"
+},
+{
+"minute": 30,
+"artist": "SIS",
+"title": "Chan Chan",
+"label": "Stride"
+},
+{
+"minute": 38,
+"artist": "Mili & DiMO",
+"title": "Verona",
+"label": "Hurry Up Slowly"
+},
+{
+"minute": 44,
+"artist": "Yali Bachata",
+"title": "Muteng",
+"label": ""
+},
+{
+"minute": 47,
+"artist": "Marc DePulse & Rafael Cerato Feat. Hadar",
+"title": "Make A Show (Malandra Jr Remix)",
+"label": "Jeahmon!",
+"bp": "bp:16839399",
+"score": 0.838,
+"preview": "https://geo-samples.beatport.com/track/a32ef0b0-31db-40a5-b792-5f2776566e31.LOFI.mp3",
+"name": "Make a Show feat. Hadar",
+"mix": "Malandra Jr. Remix",
+"genre": "indie-dance",
+"released": "2022-09-16"
+},
+{
+"minute": 55,
+"artist": "Nandu Feat. Ida Corr",
+"title": "Tell Me",
+"label": "Innervisions"
+},
+{
+"minute": 60,
+"artist": "Filippos Feat. Dimp",
+"title": "Stray Man",
+"label": "Human By Default"
+},
+{
+"minute": 66,
+"artist": "Bedouin",
+"title": "Crazy (Catz 'N Dogz Remix)",
+"label": "Human By Default",
+"bp": "bp:18180426",
+"score": 0.812,
+"preview": "https://geo-samples.beatport.com/track/1f9826ba-8f72-4352-bce2-6d19ee7c9017.LOFI.mp3",
+"name": "Crazy feat. Iveta Mukuchyan",
+"mix": "Catz 'n Dogz Remix",
+"genre": "melodic-house-techno",
+"released": "2023-10-20"
+},
+{
+"minute": 71,
+"artist": "Bedouin",
+"title": "No Trace",
+"label": "Truecolors"
+},
+{
+"minute": 76,
+"artist": "Nandu & Radeckt Feat. Keena",
+"title": "Aman",
+"label": "Out Of Options"
+},
+{
+"minute": 82,
+"artist": "Malandra Jr",
+"title": "Memories From The Future",
+"label": "Watergate",
+"bp": "bp:18276251",
+"score": 0.872,
+"preview": "https://geo-samples.beatport.com/track/58a7d481-6c74-4e9e-8b3d-d62319a1eb13.LOFI.mp3",
+"name": "Memories From the Future",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-11-17"
+},
+{
+"minute": 86,
+"artist": "Bedouin",
+"title": "Tijuana (Vintage Culture Remix)",
+"label": "Human By Default",
+"bp": "bp:18003966",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/88cfe886-15c3-4c53-87dc-bc7b2ef8bd55.LOFI.mp3",
+"name": "Tijuana",
+"mix": "Vintage Culture Remix",
+"genre": "melodic-house-techno",
+"released": "2023-08-25"
+},
+{
+"minute": 92,
+"artist": "DJ T.",
+"title": "Inside Ur Mind",
+"label": "Recovery Tech",
+"bp": "bp:9940184",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/8aac700e-1ea5-430c-a787-7b3e3d32b982.LOFI.mp3",
+"name": "Inside Ur Mind",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2017-12-01"
+},
+{
+"minute": 97,
+"artist": "Umami & Atsou & Djupa Hav",
+"title": "Never Wanted To Be",
+"label": "Human By Default",
+"bp": "bp:18046709",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/576e8568-080f-4907-8f31-8a308e8b4b9a.LOFI.mp3",
+"name": "Never Wanted To Be",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2023-09-08"
+},
+{
+"minute": 103,
+"artist": "Radeckt",
+"title": "Invisible Guard",
+"label": "Tau",
+"bp": "bp:14746214",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/436f36d1-1ddc-4093-8ec2-3044b7b70a3d.LOFI.mp3",
+"name": "Invisible Guard",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2021-01-22"
+},
+{
+"minute": 113,
+"artist": "QMore & Exotic",
+"title": "Shake It Out",
+"label": "Exotic Music Sas",
+"bp": "bp:20173003",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/a54cf5ad-0bd2-4d8a-912e-fa4ef9edd588.LOFI.mp3",
+"name": "Shake It Out",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2022-09-02"
+},
+{
+"minute": 127,
+"artist": "Red Axes",
+"title": "Relax Shiva (DJ Gregory Remix)",
+"label": "Crosstown Rebels",
+"bp": "bp:17698061",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a1c57582-db66-45eb-bedd-92dd77b5ddc0.LOFI.mp3",
+"name": "Relax Shiva",
+"mix": "DJ Gregory Remix",
+"genre": "organic-house",
+"released": "2023-05-26"
+},
+{
+"minute": 134,
+"artist": "Bedouin Feat. Delaram Kamareh",
+"title": "Hokema",
+"label": "Human By Default"
+},
+{
+"minute": 150,
+"artist": "Tooker Feat. Aquarius Heaven",
+"title": "Divided We Fall",
+"label": ""
+},
+{
+"minute": 156,
+"artist": "Tal Fussman",
+"title": "Persona",
+"label": "Innervisions"
+},
+{
+"minute": 161,
+"artist": "NEZ Feat. Schoolboy Q",
+"title": "Wild Youngster",
+"label": "Entertainment One"
+},
+{
+"minute": 164,
+"artist": "Butch",
+"title": "Yallah!!!",
+"label": "Watergate",
+"bp": "bp:11512262",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/9317f124-48c9-4eca-95a9-27fd0d00b48e.LOFI.mp3",
+"name": "Yallah!!!",
+"mix": "Dub",
+"genre": "tech-house",
+"released": "2019-02-04"
+},
+{
+"minute": 179,
+"artist": "Swedish House Mafia Feat. Sting",
+"title": "Redlight",
+"label": "Ssa (Republic)"
+},
+{
+"minute": 189,
+"artist": "Zakem",
+"title": "When We Meet",
+"label": "Bosom",
+"bp": "bp:15920561",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/c02c865b-f203-49da-a14f-a91a389a4b31.LOFI.mp3",
+"name": "When We Meet",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2021-11-29"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 201,
+"artist": "Rony Seikaly Feat. P. Diddy",
+"title": "Bad Boys (Matthias Tanzmann Remix)",
+"label": "Stride"
+},
+{
+"minute": 205,
+"artist": "Molla & Joezi Feat. Toshi",
+"title": "Vula",
+"label": "Sirup"
+},
+{
+"minute": 215,
+"artist": "Notre Dame",
+"title": "Mundo",
+"label": ""
+},
+{
+"minute": 221,
+"artist": "Re.You",
+"title": "Nian",
+"label": "Moon Harbour"
+},
+{
+"minute": 222,
+"artist": "Sergio Pardo",
+"title": "Missing",
+"label": ""
+},
+{
+"minute": 224,
+"artist": "Re.You",
+"title": "Nian",
+"label": "Moon Harbour"
+},
+{
+"minute": 228,
+"artist": "Noro Morales & His Quintet",
+"title": "Saona",
+"label": ""
+},
+{
+"minute": 231,
+"artist": "Bedouin Feat. Nathan Daisy",
+"title": "Coldman",
+"label": "Human By Default"
+},
+{
+"minute": 245,
+"artist": "Ten Walls",
+"title": "Walking With Elephants",
+"label": "Mer",
+"bp": "bp:7819640",
+"score": 0.863,
+"preview": "https://geo-samples.beatport.com/track/b6ea81d5-0797-41e3-9aa4-8e3dbda51a6d.LOFI.mp3",
+"name": "Walking with Elephants",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2014-08-17"
+},
+{
+"minute": 253,
+"artist": "Fred Again.. & Skrillex & Four Tet Feat. Lil Baby",
+"title": "Baby Again..",
+"label": "Owslaatlantic",
+"bp": "bp:17525023",
+"score": 0.614,
+"preview": "https://geo-samples.beatport.com/track/a69a0e07-6dba-4192-99c9-ad3306d84bb9.LOFI.mp3",
+"name": "Baby again..",
+"mix": "Original Mix",
+"genre": "bass-house",
+"released": "2023-03-17"
+},
+{
+"minute": 258,
+"artist": "Tamir Regev",
+"title": "The Old Days",
+"label": "Human By Default",
+"bp": "bp:17954662",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/92cb7cc2-39fa-41ec-9834-1e183b935160.LOFI.mp3",
+"name": "The Old Days",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2023-08-11"
+},
+{
+"minute": 263,
+"artist": "Bedouin",
+"title": "Wash Away",
+"label": "Human By Default"
+},
+{
+"minute": 268,
+"artist": "Bedouin Feat. Nathan Daisy",
+"title": "Enjoy The Rain",
+"label": "",
+"bp": "bp:17661023",
+"score": 0.71,
+"preview": "https://geo-samples.beatport.com/track/5a39ac1e-548e-4e76-912f-b64d3263c36c.LOFI.mp3",
+"name": "Enjoy The Rain",
+"mix": "Original Mix",
+"genre": "downtempo",
+"released": "2023-05-19"
+}
+]
+},
+{
+"title": "2026-09-07 - Bedouin @ Circoloco, DC-10 (Terrace), Ibiza",
+"records": []
+}
+]
 }

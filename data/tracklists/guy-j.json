@@ -1,1298 +1,3301 @@
 {
- "dj": "Guy J",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2024-01-05 - Guy J - When The Time Is Right (January Promo Mix)",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Charles Webster Feat. Sio",
-     "title": "Love Lives (Girls Of The Internet Remix)",
-     "label": "",
-     "bp": "bp:17669943",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/d49fce1a-58cb-4ce5-80a0-5d3926b9f0cb.LOFI.mp3",
-     "name": "Love Lives",
-     "mix": "Girls of the Internet Remix",
-     "genre": "deep-house",
-     "released": "2023-05-05"
-    },
-    {
-     "minute": 5,
-     "artist": "Manuel Tur",
-     "title": "Soft Clip",
-     "label": "Spaced Repetitions"
-    },
-    {
-     "minute": 10,
-     "artist": "Pantha Du Prince",
-     "title": "Heaven Is Where You Are (Dave DK Remix)",
-     "label": "Modern",
-     "bp": "bp:22864109",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/8e393ee2-8a12-4ed8-9353-9790e4a692b0.LOFI.mp3",
-     "name": "Heaven Is Where You Are",
-     "mix": "Dave DK Remix",
-     "genre": "dance-pop",
-     "released": "2023-08-04"
-    },
-    {
-     "minute": 15,
-     "artist": "Jamie Stevens & Zankee Gulati",
-     "title": "Low Tide",
-     "label": "Bedrock",
-     "bp": "bp:19797844",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 22,
-     "artist": "DAVI",
-     "title": "Down Memory Lane",
-     "label": "8Bit",
-     "bp": "bp:18093120",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/28f6febf-a123-42c2-a0c0-d77ae86dbfaf.LOFI.mp3",
-     "name": "Down Memory Lane",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2023-09-22"
-    },
-    {
-     "minute": 30,
-     "artist": "Andrés Moris",
-     "title": "Wired",
-     "label": "Myrrha Sounds Music"
-    },
-    {
-     "minute": 34,
-     "artist": "Foglight",
-     "title": "Circuit Valley (Praveen Achary Remix)",
-     "label": "Juicebox",
-     "bp": "bp:18471645",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/9091a87a-e5c9-4b4a-9600-494bce340bd2.LOFI.mp3",
-     "name": "Circuit Valley",
-     "mix": "Praveen Achary Remix",
-     "genre": "progressive-house",
-     "released": "2024-01-12"
-    },
-    {
-     "minute": 41,
-     "artist": "Guy J",
-     "title": "Cosmos",
-     "label": "Dantze"
-    },
-    {
-     "minute": 47,
-     "artist": "Jamie Stevens",
-     "title": "Kanlan",
-     "label": "Meanwhile"
-    },
-    {
-     "minute": 55,
-     "artist": "Kasey Taylor & Karl Pilbrow",
-     "title": "Sublimate",
-     "label": "Sudbeat"
-    },
-    {
-     "minute": 61,
-     "artist": "Dinky",
-     "title": "She's Got Nowhere To Go",
-     "label": "Rhythm Cult",
-     "bp": "bp:18079386",
-     "score": 0.893,
-     "preview": "https://geo-samples.beatport.com/track/7beb43dc-117a-4747-a0db-acf185c81174.LOFI.mp3",
-     "name": "She's Got Nowhere To Go",
-     "mix": "dOP Remix",
-     "genre": "deep-house",
-     "released": "2023-10-03"
-    },
-    {
-     "minute": 66,
-     "id": null,
-     "raw": "?"
-    }
-   ]
-  },
-  {
-   "title": "2024-06-27 - Guy J @ Racos Volcano, Romania",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Guy J",
-     "title": "Forja 2022 Intro ID",
-     "label": ""
-    },
-    {
-     "minute": 4,
-     "artist": "Cornucopia",
-     "title": "Tithorea ID",
-     "label": ""
-    },
-    {
-     "minute": 11,
-     "artist": "Cornucopia",
-     "title": "Other Side Of The World",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 17,
-     "artist": "Cornucopia",
-     "title": "Deeper Side",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 23,
-     "artist": "Guy J",
-     "title": "Barutana 2021 ID01",
-     "label": ""
-    },
-    {
-     "minute": 29,
-     "artist": "Cornucopia",
-     "title": "Dopamine",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 36,
-     "artist": "Guy J",
-     "title": "OSC",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 40,
-     "artist": "Volen Sentir",
-     "title": "The Great Escape (Cornucopia Remix)",
-     "label": "Lost & Found",
-     "bp": "bp:16891316",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/7199983d-0709-4111-b181-5fb96a5ce2b6.LOFI.mp3",
-     "name": "The Great Escape",
-     "mix": "Cornucopia Remix",
-     "genre": "organic-house",
-     "released": "2022-09-23"
-    },
-    {
-     "minute": 47,
-     "artist": "Timo Chinala",
-     "title": "Somerville (Guy J Edit)",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 54,
-     "artist": "Guy J",
-     "title": "Ivy ID01",
-     "label": ""
-    },
-    {
-     "minute": 60,
-     "artist": "Guy J",
-     "title": "Blind Side Unreleased",
-     "label": ""
-    },
-    {
-     "minute": 64,
-     "artist": "Guy J",
-     "title": "Las Palapas ID01",
-     "label": ""
-    },
-    {
-     "minute": 71,
-     "artist": "Guy J",
-     "title": "Virtu Unreleased",
-     "label": ""
-    },
-    {
-     "minute": 76,
-     "artist": "Guy J",
-     "title": "Living On A Cloud",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 83,
-     "artist": "Cornucopia",
-     "title": "Early Mornings",
-     "label": "Unreleased",
-     "bp": "bp:20080276",
-     "score": 0.79,
-     "preview": "https://geo-samples.beatport.com/track/f0ab6023-2305-41eb-bbf5-1830518f9c9c.LOFI.mp3",
-     "name": "Early Morning",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-02-28"
-    },
-    {
-     "minute": 89,
-     "artist": "Guy J",
-     "title": "Next To Me",
-     "label": "Unreleased",
-     "bp": "bp:28036048",
-     "score": 0.564,
-     "preview": "https://geo-samples.beatport.com/track/1fda032f-9f11-4132-bf12-03f344c0ff81.LOFI.mp3",
-     "name": "Next To Me",
-     "mix": "Original Mix",
-     "genre": "country",
-     "released": "2013-11-12"
-    },
-    {
-     "minute": 96,
-     "artist": "Guy J",
-     "title": "Forum",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 103,
-     "artist": "Guy J",
-     "title": "Anonymous",
-     "label": "Lost & Found"
-    },
-    {
-     "minute": 109,
-     "artist": "Guy J",
-     "title": "Cosmos Dantze",
-     "label": ""
-    },
-    {
-     "minute": 115,
-     "artist": "Stephan Bodzin",
-     "title": "Odyssee (Guy J Remix)",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 122,
-     "artist": "Guy J",
-     "title": "TithoreaID",
-     "label": ""
-    },
-    {
-     "minute": 132,
-     "artist": "Cornucopia",
-     "title": "Dream Machine",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 138,
-     "artist": "Guy J",
-     "title": "Got No Sleep Unreleased",
-     "label": ""
-    },
-    {
-     "minute": 146,
-     "artist": "Cornucopia",
-     "title": "Falling Into Your Eyes",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 152,
-     "artist": "Ryuichi Sakamoto",
-     "title": "The Revenant (Guy J Edit)",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 159,
-     "artist": "Guy J",
-     "title": "Elevate Unreleased",
-     "label": ""
-    },
-    {
-     "minute": 165,
-     "artist": "Guy J",
-     "title": "Barutana 2021 ID02",
-     "label": ""
-    },
-    {
-     "minute": 181,
-     "artist": "Guy J",
-     "title": "'The Track' ID",
-     "label": ""
-    },
-    {
-     "minute": 189,
-     "artist": "Karol XVII & MB Valence",
-     "title": "Waterfall Drops (Guy J Remix)",
-     "label": "Get Physical",
-     "bp": "bp:18090574",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/06f6a1b3-fe0f-4529-93d8-f2f1e3f2421a.LOFI.mp3",
-     "name": "Waterfall Drops",
-     "mix": "Guy J Remix",
-     "genre": "progressive-house",
-     "released": "2023-10-06"
-    },
-    {
-     "minute": 195,
-     "artist": "Guy J",
-     "title": "Annilate ID",
-     "label": ""
-    },
-    {
-     "minute": 199,
-     "artist": "Guy J",
-     "title": "Into The Void",
-     "label": ""
-    },
-    {
-     "minute": 208,
-     "artist": "Cornucopia",
-     "title": "Las Palapas Intro ID",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[3:??:??] Guy J",
-     "title": "Scarlett ID",
-     "label": ""
-    },
-    {
-     "minute": 223,
-     "artist": "Cornucopia",
-     "title": "ADE2022 ID",
-     "label": ""
-    },
-    {
-     "minute": 229,
-     "artist": "Marsh",
-     "title": "Healer (Guy J Extended Remix)",
-     "label": "Anjunadeep",
-     "bp": "bp:14957080",
-     "score": 0.977,
-     "preview": "https://geo-samples.beatport.com/track/700936fc-970d-4bf7-a30e-170eccb1383b.LOFI.mp3",
-     "name": "Healer",
-     "mix": "Guy J Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2021-03-16"
-    },
-    {
-     "minute": 236,
-     "artist": "Guy J",
-     "title": "Life Is A Journey ID",
-     "label": ""
-    },
-    {
-     "minute": 242,
-     "artist": "Guy J",
-     "title": "Monster",
-     "label": "Unreleased"
-    },
-    {
-     "minute": 248,
-     "artist": "Guy J",
-     "title": "Quantum",
-     "label": "Unreleased"
-    },
-    {
-     "minute": null,
-     "artist": "[4:??:??] Grandbrothers",
-     "title": "Bloodflow (Guy J Edit)",
-     "label": "Unreleased"
-    },
-    {
-     "minute": null,
-     "artist": "[4:??:??] Omid 16B",
-     "title": "Escape (Driving To Heaven)",
-     "label": "(Guy J Remix) - Alola",
-     "bp": "bp:1060651",
-     "score": 0.739,
-     "preview": "https://geo-samples.beatport.com/track/3eab36f1-2c24-4d12-b607-eeb2ebc46601.LOFI.mp3",
-     "name": "Escape (Driving To Heaven)",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2010-01-04"
-    }
-   ]
-  },
-  {
-   "title": "2024-09-13 - Guy J @ Edge & Boson Pres. Guy J, Club Vaag, Antwerpen",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Cornucopia",
-     "title": "Metro 2024 ID",
-     "label": ""
-    },
-    {
-     "minute": 7,
-     "artist": "Valon",
-     "title": "Utopia",
-     "label": ""
-    },
-    {
-     "minute": 11,
-     "artist": "Florian Rietze Feat. Lu Ciało",
-     "title": "No News (Lesterr Interpretation)",
-     "label": "",
-     "bp": "bp:18844715",
-     "score": 0.767,
-     "preview": "https://geo-samples.beatport.com/track/310357ca-3737-44b1-8b83-635874afd491.LOFI.mp3",
-     "name": "No News (Lesterr Interpretation)",
-     "mix": "Lesterr Interpretation",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2024-05-03"
-    },
-    {
-     "minute": 16,
-     "artist": "Dave Gahan",
-     "title": "Dirty, Sticky Floors (Junkie XL Vocal Mix) (Reprise)",
-     "label": "",
-     "bp": "bp:1400036",
-     "score": 0.932,
-     "preview": "https://geo-samples.beatport.com/track/73924efc-41fa-49eb-b9ae-8c3b67f8aea9.LOFI.mp3",
-     "name": "Dirty Sticky Floors",
-     "mix": "Junkie XL Vocal Remix",
-     "genre": "progressive-house",
-     "released": "2003-04-29"
-    },
-    {
-     "minute": 21,
-     "artist": "D-Nox & DJ Zombi",
-     "title": "There Is Hope (Mike Griego Psychofunk Remix)",
-     "label": "Sprout",
-     "bp": "bp:19359694",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/4cc7c07a-dbc5-4aa0-81ea-9043f2c38444.LOFI.mp3",
-     "name": "There Is Hope",
-     "mix": "Mike Griego PsychoFunk Remix",
-     "genre": "progressive-house",
-     "released": "2024-09-13"
-    },
-    {
-     "minute": 27,
-     "artist": "Peace Division",
-     "title": "Blacklight Sleaze (Mike Rish Remix)",
-     "label": "Dogmatik"
-    },
-    {
-     "minute": null,
-     "artist": "Djolée & Gespona",
-     "title": "Malabares (CIOZ Remix)",
-     "label": "Rummel"
-    },
-    {
-     "minute": 37,
-     "artist": "Enamour",
-     "title": "Zizzy",
-     "label": "Frau Blau",
-     "bp": "bp:19638418",
-     "score": 0.775,
-     "preview": "https://geo-samples.beatport.com/track/29eb53fc-cb9a-4391-ba87-a08a32825456.LOFI.mp3",
-     "name": "Zizzy",
-     "mix": "Mixed",
-     "genre": "melodic-house-techno",
-     "released": "2024-10-18"
-    },
-    {
-     "minute": 42,
-     "artist": "Josh Butler Feat. Shyam P",
-     "title": "Find You Again",
-     "label": "Gruuv",
-     "bp": "bp:18595311",
-     "score": 0.73,
-     "preview": "https://geo-samples.beatport.com/track/364dc7f8-8e37-4bba-83e6-cc6c970aa414.LOFI.mp3",
-     "name": "Find You Again",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-02-23"
-    },
-    {
-     "minute": 47,
-     "artist": "Seyah",
-     "title": "Dope (Maze 28 & Kyotto Remix)",
-     "label": "Mango Alley",
-     "bp": "bp:19047533",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/f208c02c-03c1-48c1-816b-20021d219ffb.LOFI.mp3",
-     "name": "Dope",
-     "mix": "Maze 28 & Kyotto Remix",
-     "genre": "progressive-house",
-     "released": "2024-06-13"
-    },
-    {
-     "minute": 53,
-     "artist": "Guy J",
-     "title": "Everyday",
-     "label": "Bedrock",
-     "bp": "bp:20110411",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 60,
-     "artist": "Moshic",
-     "title": "Love Made Me Do It (Guy J Remix)",
-     "label": "Bedrock",
-     "bp": "bp:19797839",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/af7a5607-9e99-4cd4-8403-07b766d6d183.LOFI.mp3",
-     "name": "Love Made Me Do It",
-     "mix": "Guy J Remix",
-     "genre": "progressive-house",
-     "released": "2024-12-06"
-    }
-   ]
-  },
-  {
-   "title": "2025-02-28 - John Digweed (Metropolitano, Rosario, Part 1), Guy J - Transitions 1070",
-   "records": [
-    {
-     "minute": null,
-     "artist": ";[[2025-01-25",
-     "title": "John Digweed @ Metropolitano, Rosario, Argentina]]",
-     "label": ""
-    },
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 8,
-     "artist": "David Calo",
-     "title": "Spooner (Fabricio Mosoni Remix)",
-     "label": "Flown",
-     "bp": "bp:20119859",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/9fd2e798-bc67-4e9a-b104-ea2b4d1ab244.LOFI.mp3",
-     "name": "Spooner",
-     "mix": "Fabricio Mosoni Remix",
-     "genre": "melodic-house-techno",
-     "released": "2025-02-28"
-    },
-    {
-     "minute": 13,
-     "artist": "David Calo",
-     "title": "Deku Boy",
-     "label": ""
-    },
-    {
-     "minute": 22,
-     "artist": "Kadosh & Magit Cacoon",
-     "title": "L.O.V.E (Nico Stojan Remix)",
-     "label": "Frau Blau",
-     "bp": "bp:20033712",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/b632450e-b51d-4aba-bacd-2e91de69513e.LOFI.mp3",
-     "name": "L.O.V.E",
-     "mix": "Nico Stojan Remix",
-     "genre": "electronica",
-     "released": "2025-02-21"
-    },
-    {
-     "minute": 26,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 31,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 35,
-     "artist": "Hermanez",
-     "title": "Eight Years",
-     "label": "Bedrock",
-     "bp": "bp:20336671",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/7731ec17-e321-4ac8-a05b-2e03c992fd29.LOFI.mp3",
-     "name": "Eight Years",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-04-25"
-    },
-    {
-     "minute": 41,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 47,
-     "artist": "Danny Tenaglia & George Vidal",
-     "title": "Danny Tenaglia Pres. George Vidal: Out From Obscurity",
-     "label": "Nervous"
-    },
-    {
-     "minute": 52,
-     "artist": "Bengoa Feat. Ian",
-     "title": "En Route",
-     "label": "Sublease"
-    },
-    {
-     "minute": 58,
-     "artist": "Bengoa",
-     "title": "Let's Try Again",
-     "label": "Sublease",
-     "bp": "bp:19725384",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/0ad5dbd6-cd5a-47bc-9cde-e1a1cea27019.LOFI.mp3",
-     "name": "Let's Try Again",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-12-06"
-    },
-    {
-     "minute": 60,
-     "artist": "Guy J",
-     "title": "Blue Garden",
-     "label": "",
-     "bp": "bp:7793960",
-     "score": 0.577,
-     "preview": "https://geo-samples.beatport.com/track/3ed43cf0-3758-4ae8-b8bc-4649daa96469.LOFI.mp3",
-     "name": "Blue Garden",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2016-04-14"
-    },
-    {
-     "minute": 69,
-     "artist": "Sasheen & Ashtenn",
-     "title": "Rabbit Hole (Dave DK Remix)",
-     "label": "Shanti Radio",
-     "bp": "bp:19834287",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/4c414991-d98d-4541-bfdc-ec4bc29aafca.LOFI.mp3",
-     "name": "Rabbit Hole",
-     "mix": "Dave DK Remix",
-     "genre": "progressive-house",
-     "released": "2024-12-20"
-    },
-    {
-     "minute": 74,
-     "artist": "Cornucopia",
-     "title": "Infinity Pool",
-     "label": ""
-    },
-    {
-     "minute": 79,
-     "artist": "Cornucopia",
-     "title": "Remember Me",
-     "label": "Early Morning",
-     "bp": "bp:20080275",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/9110df00-6303-4ba1-8f49-435200092f17.LOFI.mp3",
-     "name": "Remember Me",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-02-28"
-    },
-    {
-     "minute": 86,
-     "artist": "Guy J",
-     "title": "Silver Lake",
-     "label": "Early Morning",
-     "bp": "bp:19796872",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/2205b148-bef6-4e39-85df-95219db08676.LOFI.mp3",
-     "name": "Silver Lake",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2024-12-20"
-    },
-    {
-     "minute": 91,
-     "artist": "Guy J",
-     "title": "Everyday",
-     "label": "Bedrock",
-     "bp": "bp:20110411",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 98,
-     "artist": "Cornucopia",
-     "title": "Early Morning",
-     "label": "Early Morning",
-     "bp": "bp:20080276",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/f0ab6023-2305-41eb-bbf5-1830518f9c9c.LOFI.mp3",
-     "name": "Early Morning",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-02-28"
-    },
-    {
-     "minute": 104,
-     "artist": "Moshic",
-     "title": "Love Made Me Do It (Guy J Remix)",
-     "label": "Bedrock",
-     "bp": "bp:19797839",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/af7a5607-9e99-4cd4-8403-07b766d6d183.LOFI.mp3",
-     "name": "Love Made Me Do It",
-     "mix": "Guy J Remix",
-     "genre": "progressive-house",
-     "released": "2024-12-06"
-    },
-    {
-     "minute": 109,
-     "artist": "Guy J",
-     "title": "Stranger In A Strange World",
-     "label": "Bedrock",
-     "bp": "bp:20110412",
-     "score": 0.884,
-     "preview": "https://geo-samples.beatport.com/track/be804719-1b90-4c9e-a629-f5d36390f43c.LOFI.mp3",
-     "name": "Stranger In A Strange World",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-02-28"
-    },
-    {
-     "minute": 115,
-     "artist": "Chopstick & Johnjon Feat. Signaljacker",
-     "title": "Roots (Cornucopia Remix)",
-     "label": "Suol",
-     "bp": "bp:20713967",
-     "score": 0.726,
-     "preview": "https://geo-samples.beatport.com/track/d30a1526-ecb8-4a5d-be8f-514ff0207611.LOFI.mp3",
-     "name": "Roots feat. Signaljacker",
-     "mix": "Cornucopia Remix",
-     "genre": "progressive-house",
-     "released": "2025-07-25"
-    }
-   ]
-  },
-  {
-   "title": "2025-05-07 - Guy J - Into The Rhythm (May Promo Mix)",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Westseven & Miguel Matoz",
-     "title": "Brainchild (Mono Electric Orchestra Ambient Mix)",
-     "label": "Mango Alley",
-     "bp": "bp:14575158",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/5ccaa948-a34a-4567-83ed-aff8b3a5b8df.LOFI.mp3",
-     "name": "Brainchild",
-     "mix": "Mono Electric Orchestra Ambient Mix",
-     "genre": "electronica",
-     "released": "2020-12-14"
-    },
-    {
-     "minute": 7,
-     "artist": "Pantha Du Prince",
-     "title": "Heaven Is Where You Are (Dave DK Remix)",
-     "label": "Modern",
-     "bp": "bp:22864109",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/8e393ee2-8a12-4ed8-9353-9790e4a692b0.LOFI.mp3",
-     "name": "Heaven Is Where You Are",
-     "mix": "Dave DK Remix",
-     "genre": "dance-pop",
-     "released": "2023-08-04"
-    },
-    {
-     "minute": 12,
-     "artist": "Arodes & Fahlberg",
-     "title": "She Asked Me To Dance",
-     "label": "Unreleased",
-     "bp": "bp:19704855",
-     "score": 0.858,
-     "preview": "https://geo-samples.beatport.com/track/b241c568-fdf3-4df3-9723-06cd2edc2c2c.LOFI.mp3",
-     "name": "She Asked Me To Dance",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2024-11-22"
-    },
-    {
-     "minute": 17,
-     "artist": "Mike Rish",
-     "title": "Shokl",
-     "label": "Meanwhile"
-    },
-    {
-     "minute": 25,
-     "artist": "Mario Bianco",
-     "title": "Ikigai",
-     "label": "Hoomidaas"
-    },
-    {
-     "minute": 32,
-     "artist": "Ellroy",
-     "title": "That Was Patricia",
-     "label": "Mango Alley",
-     "bp": "bp:20062505",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/ad085fe6-06a2-40d1-8fc4-f690579b9ac6.LOFI.mp3",
-     "name": "That Was Patricia",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-03-06"
-    },
-    {
-     "minute": 38,
-     "artist": "FJL",
-     "title": "Rare Wizards",
-     "label": "Proportion",
-     "bp": "bp:20152985",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/1637cbf8-5057-42c9-a140-5ebb64cc8348.LOFI.mp3",
-     "name": "Rare Wizards",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": 44,
-     "artist": "Kebin Van Reeken",
-     "title": "Monster",
-     "label": "Kitchen"
-    },
-    {
-     "minute": 49,
-     "artist": "Chicola",
-     "title": "Samerano",
-     "label": "Early Morning"
-    },
-    {
-     "minute": 54,
-     "artist": "Blomfelt",
-     "title": "An Ending",
-     "label": "Oathcreations"
-    }
-   ]
-  },
-  {
-   "title": "2025-08-10 - Guy J @ Loveland Festival, Circle Stage, Sloterpark, Amsterdam (Loveland Legacy, LL278)",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Berni Turletti",
-     "title": "Onix",
-     "label": "Solis",
-     "bp": "bp:20311211",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 5,
-     "artist": "Yeadon",
-     "title": "What Is Real",
-     "label": "10 Steps North",
-     "bp": "bp:19954700",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/5361e202-df1d-48d2-8201-53abbd5883b4.LOFI.mp3",
-     "name": "What Is Real",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2025-02-07"
-    },
-    {
-     "minute": 14,
-     "artist": "Guy J",
-     "title": "No Drama",
-     "label": "Global Underground"
-    },
-    {
-     "minute": null,
-     "artist": "Guy J",
-     "title": "We Are Lost",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Guy J",
-     "title": "Element",
-     "label": "Global Underground"
-    },
-    {
-     "minute": null,
-     "artist": "Guy J",
-     "title": "A Moment Of Clarity",
-     "label": "Global Underground",
-     "bp": "bp:22048498",
-     "score": 0.847,
-     "preview": "https://geo-samples.beatport.com/track/4df4f98c-3502-467b-88cf-7d34eb9acdbe.LOFI.mp3",
-     "name": "A Moment Of Clarity",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-10-17"
-    },
-    {
-     "minute": 38,
-     "artist": "Guy J",
-     "title": "Surreal",
-     "label": "Early Morning",
-     "bp": "bp:21809460",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 45,
-     "artist": "Guy J",
-     "title": "Elasis",
-     "label": ""
-    },
-    {
-     "minute": 50,
-     "artist": "Kasper Koman",
-     "title": "Biome (Mike Rish Remix)",
-     "label": "Meanwhile",
-     "bp": "bp:20751423",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/fa8c4608-8e69-4911-a440-924fadea1057.LOFI.mp3",
-     "name": "Biome",
-     "mix": "Mike Rish Remix",
-     "genre": "progressive-house",
-     "released": "2025-07-25"
-    },
-    {
-     "minute": 55,
-     "artist": "Out Of Orbit",
-     "title": "Scorpion (Guy J Remix)",
-     "label": "Shamanic Tales"
-    },
-    {
-     "minute": null,
-     "artist": "Guy J",
-     "title": "Nirvana (Dub)",
-     "label": ""
-    },
-    {
-     "minute": 68,
-     "artist": "Guy J",
-     "title": "Worlds Apart",
-     "label": "Early Morning",
-     "bp": "bp:21809459",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/7aac72c3-0778-4076-8d28-3d23d971661a.LOFI.mp3",
-     "name": "Worlds Apart",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-09-26"
-    },
-    {
-     "minute": 75,
-     "artist": "Tantum",
-     "title": "Unblur",
-     "label": "Early Morning"
-    },
-    {
-     "minute": null,
-     "artist": "Guy J",
-     "title": "Eureka",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "The Acid",
-     "title": "Accidents (Guy J Remix)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "The Chemical Brothers",
-     "title": "The Pills Won't Help You Now (Guy J Remix)",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2026-04-04 - Guy J @ Alma De Mar, Silk Beach Club, Buzios, Rio de Janeiro",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Kasey Taylor & Jamie Stevens",
-     "title": "Round Around (Patch Park Remix)",
-     "label": "District",
-     "bp": "bp:19732400",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/691de63e-5dd2-4287-8204-b6944cc0ec25.LOFI.mp3",
-     "name": "Round Around",
-     "mix": "Patch Park Remix",
-     "genre": "progressive-house",
-     "released": "2024-12-13"
-    },
-    {
-     "minute": 3,
-     "artist": "Roger Martinez",
-     "title": "Shunyata",
-     "label": "Timeless Moment"
-    },
-    {
-     "minute": 10,
-     "artist": "Gorge",
-     "title": "Beat Trippin'",
-     "label": "8Bit",
-     "bp": "bp:21634400",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/9165b488-3b78-4ae1-8c0b-03fd62b0acb3.LOFI.mp3",
-     "name": "Beat Trippin'",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-09-26"
-    },
-    {
-     "minute": 13,
-     "artist": "Josh Butler",
-     "title": "Back",
-     "label": ""
-    },
-    {
-     "minute": 17,
-     "artist": "Analog Jungs",
-     "title": "Arcturiano Gold",
-     "label": "Constellation",
-     "bp": "bp:19906699",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/8b62502f-be9e-4586-991e-e2d9460b92e1.LOFI.mp3",
-     "name": "Arcturiano Gold",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-01-09"
-    },
-    {
-     "minute": 21,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 27,
-     "artist": "Enamour",
-     "title": "Zizzy",
-     "label": "Frau Blau",
-     "bp": "bp:19638418",
-     "score": 0.775,
-     "preview": "https://geo-samples.beatport.com/track/29eb53fc-cb9a-4391-ba87-a08a32825456.LOFI.mp3",
-     "name": "Zizzy",
-     "mix": "Mixed",
-     "genre": "melodic-house-techno",
-     "released": "2024-10-18"
-    },
-    {
-     "minute": 32,
-     "artist": "Josh Butler & Shyam",
-     "title": "Find You Again",
-     "label": "Gruuv",
-     "bp": "bp:18595311",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/364dc7f8-8e37-4bba-83e6-cc6c970aa414.LOFI.mp3",
-     "name": "Find You Again",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-02-23"
-    },
-    {
-     "minute": 37,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 41,
-     "artist": "Brett Kelso",
-     "title": "Mothership",
-     "label": "Late Night Music",
-     "bp": "bp:16274099",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/fc175bae-2feb-4420-9a15-ffb1bf221f4e.LOFI.mp3",
-     "name": "Mothership",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2022-04-03"
-    },
-    {
-     "minute": 46,
-     "artist": "Nōpi",
-     "title": "Liquid Week (Hrag Mikkel & Pambouk Remix)",
-     "label": "",
-     "bp": "bp:14917954",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/da7d460a-d877-4f80-9bc8-f009da904fce.LOFI.mp3",
-     "name": "Liquid Week",
-     "mix": "Hrag Mikkel & Pambouk Remix",
-     "genre": "progressive-house",
-     "released": "2021-04-23"
-    },
-    {
-     "minute": 52,
-     "artist": "Berni Turletti",
-     "title": "Onix",
-     "label": "Solis",
-     "bp": "bp:20311211",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 57,
-     "artist": "M.O.S.",
-     "title": "Nanda (Roger Martinez Remix)",
-     "label": "Mango Alley",
-     "bp": "bp:20469758",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/6ad4bab7-25f5-414d-9f5c-02b2cfdf6264.LOFI.mp3",
-     "name": "Nanda",
-     "mix": "Roger Martinez Remix",
-     "genre": "progressive-house",
-     "released": "2025-07-10"
-    },
-    {
-     "minute": 62,
-     "artist": "Moshic",
-     "title": "Love Made Me Do It (Guy J Remix)",
-     "label": "Bedrock",
-     "bp": "bp:19797839",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/af7a5607-9e99-4cd4-8403-07b766d6d183.LOFI.mp3",
-     "name": "Love Made Me Do It",
-     "mix": "Guy J Remix",
-     "genre": "progressive-house",
-     "released": "2024-12-06"
-    },
-    {
-     "minute": 67,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 71,
-     "artist": "Josh Butler",
-     "title": "Change The Line",
-     "label": "MOOD",
-     "bp": "bp:15583100",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/8aa9565e-2f50-4c86-91de-8f6e0af67394.LOFI.mp3",
-     "name": "Change The Line",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2021-08-27"
-    },
-    {
-     "minute": 76,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 81,
-     "artist": "Ruls",
-     "title": "Sonoluminesence (Tonaco Remix)",
-     "label": "Undergroove",
-     "bp": "bp:26893623",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/71ea02aa-4ba5-4b41-a000-4a34cbd649c4.LOFI.mp3",
-     "name": "Sonoluminesence",
-     "mix": "Tonaco Remix",
-     "genre": "progressive-house",
-     "released": "2026-03-31"
-    },
-    {
-     "minute": 85,
-     "artist": "Dave Seaman",
-     "title": "Racket Abuse (Theus Mago Remix)",
-     "label": "",
-     "bp": "bp:14651302",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/be881801-d5e5-43eb-9ad3-d9fdfe2c4da2.LOFI.mp3",
-     "name": "Racket Abuse",
-     "mix": "Theus Mago Remix",
-     "genre": "indie-dance",
-     "released": "2020-12-18"
-    },
-    {
-     "minute": 90,
-     "artist": "Sam Scheme",
-     "title": "Bas Khalar",
-     "label": "Mango Alley",
-     "bp": "bp:22215282",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/4b302bb3-15bd-4ce4-a1d1-96f6f4ca9414.LOFI.mp3",
-     "name": "Bas Khalar",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-11-20"
-    },
-    {
-     "minute": 95,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 100,
-     "artist": "Made By Pete",
-     "title": "In My Head (Remixes) (Jonathan Kaspar Remix)",
-     "label": "Life In Colour"
-    },
-    {
-     "minute": 106,
-     "artist": "Simon Vuarambon & Tantum",
-     "title": "Arcade",
-     "label": "Bedrock"
-    },
-    {
-     "minute": 110,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 116,
-     "artist": "Astrix & Guy J",
-     "title": "River",
-     "label": "Moments"
-    },
-    {
-     "minute": 124,
-     "artist": "Mark Reeve",
-     "title": "Parallel (Alberto Ruiz Remix)",
-     "label": "Bedrock",
-     "bp": "bp:7938988",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/4f6f7cbe-dec6-4ef4-b1a3-e2f23af13482.LOFI.mp3",
-     "name": "Parallel",
-     "mix": "Alberto Ruiz Remix",
-     "genre": "techno-peak-time-driving",
-     "released": "2016-05-27"
-    },
-    {
-     "minute": 128,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 148,
-     "artist": "Guy J",
-     "title": "Surreal",
-     "label": "Early Morning",
-     "bp": "bp:21809460",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 169,
-     "artist": "Guy J",
-     "title": "Worlds Apart",
-     "label": "Early Morning",
-     "bp": "bp:21809459",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/7aac72c3-0778-4076-8d28-3d23d971661a.LOFI.mp3",
-     "name": "Worlds Apart",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-09-26"
-    },
-    {
-     "minute": 175,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 178,
-     "artist": "Khen",
-     "title": "Usual Madness",
-     "label": "No Drama",
-     "bp": "bp:20538249",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/a4c0201f-eb51-40d5-b4a9-1d69ce7574cb.LOFI.mp3",
-     "name": "Usual Madness",
-     "mix": "Original Mix",
-     "genre": "progressive-house",
-     "released": "2025-07-25"
-    },
-    {
-     "minute": 184,
-     "artist": "Just Fine",
-     "title": "Mr. Tetris",
-     "label": "Highway"
-    }
-   ]
-  }
- ]
+"dj": "Guy J",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-02-11 - Guy J - February 'Above The Clouds And beneath The Sky' Mix",
+"records": [
+{
+"minute": 0,
+"artist": "Vince Watson",
+"title": "A Very Different World (Guy J Edit)",
+"label": ""
+},
+{
+"minute": 8,
+"artist": "Matthias Schuell",
+"title": "Rooftops Of Berlin (Niko Schwind Remix)",
+"label": "Ritter Butzke Studio",
+"bp": "bp:11176872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2b15806d-938e-4d75-ae0f-80dd509406a4.LOFI.mp3",
+"name": "Rooftops of Berlin",
+"mix": "Niko Schwind Remix",
+"genre": "deep-house",
+"released": "2018-11-16"
+},
+{
+"minute": 14,
+"artist": "Kate Simko & Tevo Howard",
+"title": "Welcome To PolyRhythmic (Frankey & Sandrino Remix)",
+"label": "Last Night On Earth",
+"bp": "bp:11499825",
+"score": 0.993,
+"preview": "https://geo-samples.beatport.com/track/30091918-bbd9-4fb1-866b-b2604f3320b6.LOFI.mp3",
+"name": "Welcome To PolyRythmic",
+"mix": "Frankey & Sandrino Remix",
+"genre": "deep-house",
+"released": "2019-02-15"
+},
+{
+"minute": 19,
+"artist": "Budakid Feat. Zweers",
+"title": "Estersveld",
+"label": "Lost & Found"
+},
+{
+"minute": 24,
+"artist": "Kamilo Sanclemente & Dabeat",
+"title": "Your Smile Is Priceless",
+"label": "Mango Alley",
+"bp": "bp:11525990",
+"score": 0.868,
+"preview": "https://geo-samples.beatport.com/track/5ffe532b-517e-42ce-959d-7011552c0f30.LOFI.mp3",
+"name": "Your Smile Is Priceless",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2019-02-11"
+},
+{
+"minute": 30,
+"artist": "Guy J",
+"title": "Dynasty",
+"label": ""
+},
+{
+"minute": 35,
+"artist": "Anton Make",
+"title": "Divo",
+"label": "Replug"
+},
+{
+"minute": 39,
+"artist": "Sides",
+"title": "Lost Connection",
+"label": "Songspire",
+"bp": "bp:11534429",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/91f7b05a-04c1-4fc8-a724-6755fd57ebe5.LOFI.mp3",
+"name": "Lost Connection",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-02-22"
+},
+{
+"minute": 44,
+"artist": "S\u00e9bastien L\u00e9ger",
+"title": "Lanarka",
+"label": "Lost & Found"
+},
+{
+"minute": 52,
+"artist": "Guy J",
+"title": "Vivid Symphony",
+"label": ""
+},
+{
+"minute": 57,
+"artist": "Dynacom & Bodai",
+"title": "Symbiosis (Ambient Mix)",
+"label": "Amitabha",
+"bp": "bp:17768182",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dafc0910-18c0-4c4e-91dd-bceca3552764.LOFI.mp3",
+"name": "Symbiosis",
+"mix": "Ambient Mix",
+"genre": "electronica",
+"released": "2023-06-09"
+}
+]
+},
+{
+"title": "2019-04-24 - Guy J - April 'Another Moon' Mix",
+"records": [
+{
+"minute": null,
+"artist": "Tencion",
+"title": "Amador",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Antrim",
+"title": "The Beauty Of The Unexpected",
+"label": "Edge",
+"bp": "bp:11589255",
+"score": 0.887,
+"preview": "https://geo-samples.beatport.com/track/6ffef3f6-93c4-4276-8cff-5b742fd0cd32.LOFI.mp3",
+"name": "The Beauty of the Unexpected",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2019-03-18"
+},
+{
+"minute": null,
+"artist": "Eli Nissan",
+"title": "Arpu",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Chaim",
+"title": "Gnawa (Sabo Remix)",
+"label": "",
+"bp": "bp:11827808",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dc7d1443-b9aa-4fee-b031-b88dc966aab9.LOFI.mp3",
+"name": "Gnawa",
+"mix": "Sabo Remix",
+"genre": "organic-house",
+"released": "2019-04-19"
+},
+{
+"minute": null,
+"artist": "Dilby",
+"title": "Modern Love",
+"label": "",
+"bp": "bp:10737535",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/9940a774-a8b1-4a46-86af-970c547d7894.LOFI.mp3",
+"name": "Modern Love",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2018-07-16"
+},
+{
+"minute": null,
+"artist": "Olivier Weiter",
+"title": "Bombay",
+"label": "Ritual"
+},
+{
+"minute": null,
+"artist": "Fluente",
+"title": "Daydreaming (Kamilo Sanclemente & Juan Pablo Torrez Remix)",
+"label": "Onedotsixtwo",
+"bp": "bp:11814187",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d0b1a987-3f94-477f-a001-5869649d4f0c.LOFI.mp3",
+"name": "Daydreaming",
+"mix": "Kamilo Sanclemente & Juan Pablo Torrez Remix",
+"genre": "progressive-house",
+"released": "2019-04-15"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Synthopia",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Alex O'Rion & Paul Kardos",
+"title": "Timeless",
+"label": "Hope"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Cicada",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Polynation",
+"title": "Cascade",
+"label": "Atomnation"
+},
+{
+"minute": null,
+"artist": "Roman Fahls",
+"title": "Mediolanum",
+"label": "",
+"bp": "bp:11826138",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/5ed6eabc-6a49-4a92-8b0a-e8af105be6be.LOFI.mp3",
+"name": "Mediolanum ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-04-29"
+}
+]
+},
+{
+"title": "2019-07-05 - Guy J - Balance Selections 100",
+"records": [
+{
+"minute": 0,
+"artist": "Grandbrothers",
+"title": "Bloodflow (Guy J Edit)",
+"label": "City Slang"
+},
+{
+"minute": 6,
+"artist": "Guy Mantzur & Lonya Feat. Adam Gorlizki",
+"title": "Dynasty (Kotelett & Zadak Remix)",
+"label": "Selador",
+"bp": "bp:11840598",
+"score": 0.781,
+"preview": "https://geo-samples.beatport.com/track/65b48d67-74cc-44b4-a116-f30827edf8f2.LOFI.mp3",
+"name": "Dynasty Feat. Adam Gorlizki",
+"mix": "Kotelett & Zadak Remix",
+"genre": "melodic-house-techno",
+"released": "2019-04-19"
+},
+{
+"minute": 12,
+"artist": "Ferher",
+"title": "Unity (Erdi Irmak & Noom Reinterpretation)",
+"label": "Stripped",
+"bp": "bp:10937934",
+"score": 0.985,
+"preview": "https://geo-samples.beatport.com/track/b92c02db-088c-4afc-b97c-0a99b0eb0533.LOFI.mp3",
+"name": "Unity",
+"mix": "Erdi Irmak X Noom Reinterpretation",
+"genre": "organic-house",
+"released": "2018-09-03"
+},
+{
+"minute": 18,
+"artist": "Frankey & Sandrino",
+"title": "Lambda",
+"label": "Diynamic"
+},
+{
+"minute": 26,
+"artist": "Antrim",
+"title": "Trip To Red (Orsen Remix)",
+"label": "Replug",
+"bp": "bp:12006201",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d5bd0007-0bae-4c29-8507-ed25f1fa3a7c.LOFI.mp3",
+"name": "Trip to Red",
+"mix": "Orsen Remix",
+"genre": "progressive-house",
+"released": "2019-06-10"
+},
+{
+"minute": 31,
+"artist": "Guy J",
+"title": "Utopia",
+"label": "Lost & Found"
+},
+{
+"minute": 36,
+"artist": "Brian Cid",
+"title": "Rebirth",
+"label": "Lost & Found"
+},
+{
+"minute": 42,
+"artist": "Josh Butler",
+"title": "The Hydra",
+"label": "Rejected",
+"bp": "bp:11758211",
+"score": 0.891,
+"preview": "https://geo-samples.beatport.com/track/a4ba55b3-c035-4589-a089-4b95d0937ff0.LOFI.mp3",
+"name": "The Hydra",
+"mix": "Dub",
+"genre": "tech-house",
+"released": "2019-04-05"
+},
+{
+"minute": 46,
+"artist": "Brina Knauss",
+"title": "Sledi Toku",
+"label": "RebelLion",
+"bp": "bp:11810087",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/877913cb-92b0-48fe-8c69-45b6cb0f7d5c.LOFI.mp3",
+"name": "Sledi Toku",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-04-19"
+},
+{
+"minute": 52,
+"artist": "Eitan Reiter",
+"title": "Fade Away (Guy J Remix)",
+"label": "Lost & Found",
+"bp": "bp:10486732",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1e007625-9e16-4a0b-8615-92b4b7092a54.LOFI.mp3",
+"name": "Fade Away",
+"mix": "Guy J Remix",
+"genre": "melodic-house-techno",
+"released": "2018-04-27"
+},
+{
+"minute": 58,
+"artist": "Juan Deminicis",
+"title": "Disorder (Andrea Cassino Remix)",
+"label": "Soundteller",
+"bp": "bp:11883274",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a238427-bc8a-4264-9ebd-7d1890db43eb.LOFI.mp3",
+"name": "Disorder",
+"mix": "Andrea Cassino Remix",
+"genre": "progressive-house",
+"released": "2019-05-27"
+},
+{
+"minute": 63,
+"artist": "Guy J",
+"title": "Stay Cow (AM Mix)",
+"label": "Bedrock",
+"bp": "bp:1862076",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/64b6d7ed-67ea-4af9-81d3-407c8fa70486.LOFI.mp3",
+"name": "Stay Cow",
+"mix": "AM Mix",
+"genre": "progressive-house",
+"released": "2011-04-25"
+},
+{
+"minute": 71,
+"artist": "Kamandi",
+"title": "Let Them Be",
+"label": "Kamandi",
+"bp": "bp:12078692",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/19e6bdbe-11e5-48bb-970b-b2f54e262ef3.LOFI.mp3",
+"name": "Let Them Be",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-06-14"
+}
+]
+},
+{
+"title": "2020-07-27 - Guy J - How I Met The Bass 182",
+"records": [
+{
+"minute": 0,
+"artist": "Faithless",
+"title": "Take The Long Way Home",
+"label": "Cheeky",
+"bp": "bp:6904746",
+"score": 0.863,
+"preview": "https://geo-samples.beatport.com/track/c51205e2-073c-47a5-9101-9fe5784924d1.LOFI.mp3",
+"name": "Take the Long Way Home",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2004-07-24"
+},
+{
+"minute": 8,
+"artist": "Depeche Mode",
+"title": "It's No Good",
+"label": "Mute",
+"bp": "bp:16375197",
+"score": 0.897,
+"preview": "https://geo-samples.beatport.com/track/845fb1e3-534b-4346-876e-d91348f3f518.LOFI.mp3",
+"name": "It's No Good",
+"mix": "Live",
+"genre": "dance-pop",
+"released": "2022-04-15"
+},
+{
+"minute": 13,
+"artist": "The Chemical Brothers",
+"title": "Block Rockin Beats",
+"label": "Astralwerks (Umg)",
+"bp": "bp:12393010",
+"score": 0.86,
+"preview": "https://geo-samples.beatport.com/track/6f231c82-72d0-41f2-bf48-55821f90fd95.LOFI.mp3",
+"name": "Block Rockin' Beats",
+"mix": "Radio Edit",
+"genre": "dance-pop",
+"released": "1997-03-24"
+},
+{
+"minute": 18,
+"artist": "Way Out West",
+"title": "Blue",
+"label": "Deconstruction"
+},
+{
+"minute": 23,
+"artist": "Beck",
+"title": "Loser",
+"label": "Dgc",
+"bp": "bp:24371220",
+"score": 0.775,
+"preview": "https://geo-samples.beatport.com/track/80658e13-0272-4616-961c-b15919d52466.LOFI.mp3",
+"name": "Loser",
+"mix": "Intro",
+"genre": "pop",
+"released": "1994-01-01"
+},
+{
+"minute": 27,
+"artist": "The Prodigy",
+"title": "Smack My Bitch Up",
+"label": "XL",
+"bp": "bp:14210450",
+"score": 0.923,
+"preview": "https://geo-samples.beatport.com/track/d54cea38-8d22-4f1b-9e6b-45f8983cfd0c.LOFI.mp3",
+"name": "Smack My Bitch Up",
+"mix": "Edit",
+"genre": "electronica",
+"released": "1997-11-10"
+},
+{
+"minute": 32,
+"artist": "Veracocha",
+"title": "Carte Blanche",
+"label": "Positiva",
+"bp": "bp:209208",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/901d8077-d09a-4516-8f02-98cd6bb152a5.LOFI.mp3",
+"name": "Carte Blanche",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2006-11-13"
+},
+{
+"minute": 38,
+"artist": "Cass & Slide",
+"title": "Perception",
+"label": "Automatic"
+},
+{
+"minute": 46,
+"artist": "C.M.",
+"title": "Dream Universe",
+"label": "Hooj Choons",
+"bp": "bp:190024",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/7a855cbc-513e-4c15-bb79-6481aa2c8151.LOFI.mp3",
+"name": "Dream Universe",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "1998-09-28"
+},
+{
+"minute": 52,
+"artist": "Armin van Buuren",
+"title": "Communication",
+"label": "Armind (Armada)",
+"bp": "bp:1141502",
+"score": 0.873,
+"preview": "https://geo-samples.beatport.com/track/b1955d6a-2335-48b6-8da8-b4a23cde48d9.LOFI.mp3",
+"name": "Communication",
+"mix": "Part 3",
+"genre": "trance-main-floor",
+"released": "2010-03-15"
+},
+{
+"minute": 57,
+"artist": "Shpongle",
+"title": "Dorset Perception",
+"label": "Twisted",
+"bp": "bp:11764742",
+"score": 0.923,
+"preview": "https://geo-samples.beatport.com/track/15d4657f-add9-4286-a7ae-bdb0cbeb7ce2.LOFI.mp3",
+"name": "Dorset Perception",
+"mix": "Live",
+"genre": "electronica",
+"released": "2019-04-01"
+},
+{
+"minute": 66,
+"artist": "James Holden",
+"title": "Horizons",
+"label": "Incredible"
+},
+{
+"minute": 68,
+"artist": "Brian Eno",
+"title": "An Ending",
+"label": ""
+},
+{
+"minute": 71,
+"artist": "Jeff Buckley",
+"title": "Hallelujah",
+"label": "Columbia (Sony)",
+"bp": "bp:28480247",
+"score": 0.787,
+"preview": "https://geo-samples.beatport.com/track/3cfd677b-2c3f-4d3c-9c06-534707e79a15.LOFI.mp3",
+"name": "Hallelujah",
+"mix": "Radio Edit",
+"genre": "pop",
+"released": "2007-05-22"
+}
+]
+},
+{
+"title": "2021-12-30 - Guy J - Unity (December Promo Mix)",
+"records": [
+{
+"minute": 0,
+"artist": "Guy J",
+"title": "Small Alarms",
+"label": "Lost & Found",
+"bp": "bp:15121116",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/51c034bb-8d52-4301-b667-f461dd15ef2d.LOFI.mp3",
+"name": "Small Alarms",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2021-05-28"
+},
+{
+"minute": 9,
+"artist": "Guy J",
+"title": "Discovery",
+"label": ""
+},
+{
+"minute": 14,
+"artist": "Guy J",
+"title": "Tree Of Life",
+"label": "Moments",
+"bp": "bp:16158567",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/56eb8d14-0f05-407d-a1ed-31e62edec243.LOFI.mp3",
+"name": "Tree of Life",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2022-02-11"
+},
+{
+"minute": 21,
+"artist": "X-Press 2",
+"title": "AC/DC (Guy J Remix)",
+"label": "Lost & Found",
+"bp": "bp:15916912",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8b456483-645a-43ee-b4d1-0399fc73f171.LOFI.mp3",
+"name": "AC/DC",
+"mix": "Guy J Remix",
+"genre": "melodic-house-techno",
+"released": "2021-11-26"
+},
+{
+"minute": 27,
+"artist": "Guy J",
+"title": "The Fall",
+"label": "Lost & Found"
+},
+{
+"minute": 35,
+"artist": "Henry Saiz",
+"title": "DMT (Guy J Remix)",
+"label": "Natura Sonoris"
+},
+{
+"minute": 40,
+"artist": "Guy J",
+"title": "Reflex",
+"label": ""
+},
+{
+"minute": 47,
+"artist": "Navar & Sarah Chilanti",
+"title": "Come As You Are (Guy J Remix)",
+"label": "Edge"
+},
+{
+"minute": 55,
+"artist": "Guy J",
+"title": "Fire",
+"label": "Lost & Found"
+},
+{
+"minute": 61,
+"artist": "Guy J",
+"title": "Top Of The World",
+"label": "",
+"bp": "bp:28759605",
+"score": 0.668,
+"preview": "https://geo-samples.beatport.com/track/b44d8ad3-9555-47d5-a69e-6b4877114dd4.LOFI.mp3",
+"name": "Top of the World",
+"mix": "Electric",
+"genre": "rock",
+"released": "2014-08-25"
+}
+]
+},
+{
+"title": "2022-02-20 - Guy J @ Las Palapas, Mendoza, Argentina",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Cornucopia -&#160;?"
+},
+{
+"minute": null,
+"artist": "Ayala",
+"title": "Sacred Piano (Osunlade Yoruba Soul Mix)",
+"label": "Sol Selectas",
+"bp": "bp:16213460",
+"score": 0.917,
+"preview": "https://geo-samples.beatport.com/track/e51a256e-5069-4f40-b4b7-7026def7f4cd.LOFI.mp3",
+"name": "Sacred Piano",
+"mix": "Yoruba Soul Mix",
+"genre": "afro-house",
+"released": "2022-03-04"
+},
+{
+"minute": null,
+"artist": "Volen Sentir",
+"title": "The Great Escape (Cornucopia Remix)",
+"label": "Lost & Found",
+"bp": "bp:16891316",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7199983d-0709-4111-b181-5fb96a5ce2b6.LOFI.mp3",
+"name": "The Great Escape",
+"mix": "Cornucopia Remix",
+"genre": "organic-house",
+"released": "2022-09-23"
+},
+{
+"minute": null,
+"artist": "Miraval",
+"title": "Yuna (Pambouk Remix)",
+"label": "Melody Of The Soul"
+},
+{
+"minute": null,
+"artist": "Charles Webster Feat. Sara Jay",
+"title": "Forget The Past",
+"label": "Miso",
+"bp": "bp:13743385",
+"score": 0.739,
+"preview": "https://geo-samples.beatport.com/track/ceee8fd4-45ac-476d-82f2-9f078492c0e6.LOFI.mp3",
+"name": "Forget the Past",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2020-06-22"
+},
+{
+"minute": null,
+"artist": "Tuba Twooz",
+"title": "People",
+"label": "Get Physical"
+},
+{
+"minute": null,
+"artist": "Frankey & Sandrino",
+"title": "Optical",
+"label": "Crosstown Rebels"
+},
+{
+"minute": null,
+"artist": "Thommie G",
+"title": "Mentalist (Tuba Twooz Remix)",
+"label": "Sofa Beats",
+"bp": "bp:15790411",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c6a1a434-75e6-4eda-a0e9-eddcf74240ad.LOFI.mp3",
+"name": "Mentalist",
+"mix": "Tuba Twooz Remix",
+"genre": "organic-house",
+"released": "2021-10-22"
+},
+{
+"minute": null,
+"artist": "Charm",
+"title": "Lay Your Soul Down On The Floor (Jimpster Remix)",
+"label": "Flaneurecordings",
+"bp": "bp:16113469",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/baa2590d-68b1-416d-851f-71b13d17a1d6.LOFI.mp3",
+"name": "Lay your Soul down on the Floor",
+"mix": "Jimpster Remix",
+"genre": "deep-house",
+"released": "2022-01-28"
+},
+{
+"minute": null,
+"artist": "Brigade & Acud",
+"title": "Meet Me On Pluto!",
+"label": "Laut & Luise",
+"bp": "bp:14112334",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/6afd3933-3b9b-4dd6-b698-a5a6be2eadc9.LOFI.mp3",
+"name": "Meet Me on Pluto!",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2020-09-04"
+},
+{
+"minute": null,
+"id": null,
+"raw": "Guy J -&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "Guy J -&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "Guy J -&#160;?"
+},
+{
+"minute": null,
+"artist": "Serge Devant",
+"title": "Third Planet",
+"label": "Rebellion (Crosstown Rebels)",
+"bp": "bp:14163051",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/dfe2f283-993a-4dc6-9b5b-410b1c5375b0.LOFI.mp3",
+"name": "Third Planet",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2020-09-25"
+},
+{
+"minute": null,
+"artist": "Melchior Sultana & Janelle Pulo",
+"title": "Being Me",
+"label": "Profound Sound"
+},
+{
+"minute": null,
+"id": null,
+"raw": "Guy J -&#160;?"
+},
+{
+"minute": 89,
+"artist": "Jonas Rathsman",
+"title": "Heartbeat",
+"label": "Elements"
+},
+{
+"minute": null,
+"artist": "Aquarius Heaven & Dilby",
+"title": "Modern Love",
+"label": "Bondage",
+"bp": "bp:10737535",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/9940a774-a8b1-4a46-86af-970c547d7894.LOFI.mp3",
+"name": "Modern Love",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2018-07-16"
+},
+{
+"minute": null,
+"artist": "N\u014dpi",
+"title": "Liquid Week (Hrag Mikkel & Pambouk Remix)",
+"label": "Proton",
+"bp": "bp:14917954",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/da7d460a-d877-4f80-9bc8-f009da904fce.LOFI.mp3",
+"name": "Liquid Week",
+"mix": "Hrag Mikkel & Pambouk Remix",
+"genre": "progressive-house",
+"released": "2021-04-23"
+},
+{
+"minute": null,
+"artist": "Honeydripper",
+"title": "Feel Something",
+"label": "Substation",
+"bp": "bp:13548577",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/ffb38195-6b69-4996-8b38-f9e902de09f4.LOFI.mp3",
+"name": "Feel Something",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2020-05-14"
+},
+{
+"minute": null,
+"artist": "Iorie",
+"title": "More (Sam Shure Remix)",
+"label": "Happy Camper",
+"bp": "bp:11393910",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/27793a63-e982-473e-830f-e24a6b952077.LOFI.mp3",
+"name": "More",
+"mix": "Sam Shure Remix",
+"genre": "deep-house",
+"released": "2019-01-18"
+},
+{
+"minute": null,
+"artist": "Harry Romero",
+"title": "Welcome To My House",
+"label": "Bambossa",
+"bp": "bp:12244535",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/3b2afd22-5be1-46be-a3fd-c45097dbb3b0.LOFI.mp3",
+"name": "Welcome To My House",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2019-07-15"
+},
+{
+"minute": null,
+"artist": "Jansons",
+"title": "Evolver",
+"label": "Knee Deep In Sound"
+},
+{
+"minute": null,
+"artist": "Level Groove",
+"title": "Nemia",
+"label": ""
+}
+]
+},
+{
+"title": "2022-03-26 - Guy J @ All Night Long, Warehouse Experience, ReelWorks, Denver",
+"records": [
+{
+"minute": 0,
+"artist": "Jamie Woon",
+"title": "Shoulda (UONE 2020 Bootleg)",
+"label": "UMG"
+},
+{
+"minute": null,
+"artist": "[00?] Sahar Z",
+"title": "Mixed Feelings",
+"label": "Lost & Found",
+"bp": "bp:13440625",
+"score": 0.676,
+"preview": "https://geo-samples.beatport.com/track/596e9a4a-b790-4413-b66f-18136a5dce9a.LOFI.mp3",
+"name": "Mixed Feelings",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2020-05-04"
+},
+{
+"minute": 6,
+"artist": "Powel",
+"title": "The Grand Opening",
+"label": "Dawn Till Dusk",
+"bp": "bp:12396002",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/e5ea0635-4fa3-4faf-9f70-5abbb9eaa96f.LOFI.mp3",
+"name": "The Grand Opening",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-09-06"
+},
+{
+"minute": 11,
+"artist": "Adisyn",
+"title": "Nova",
+"label": "Kindisch"
+},
+{
+"minute": 16,
+"artist": "Enamour",
+"title": "Undone",
+"label": "Kindisch"
+},
+{
+"minute": 22,
+"artist": "Gatara",
+"title": "Driving Solo (Volksfreude Remix)",
+"label": "Spaghetti Monster",
+"bp": "bp:11869768",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae0d04d8-bfe5-4791-8493-43102c9c165e.LOFI.mp3",
+"name": "Driving Solo",
+"mix": "Volksfreude Remix",
+"genre": "deep-house",
+"released": "2019-05-06"
+},
+{
+"minute": 27,
+"artist": "Hernan Bass",
+"title": "Siete",
+"label": ""
+},
+{
+"minute": 32,
+"artist": "AudioHell",
+"title": "Ghost In Town",
+"label": "",
+"bp": "bp:9457228",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/6ef066da-00d5-4baf-9b93-af0e2354e087.LOFI.mp3",
+"name": "Ghost In Town",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2017-07-24"
+},
+{
+"minute": 36,
+"artist": "Adisyn & Prime Edge",
+"title": "Isten (Desert Mix)",
+"label": "Akbal",
+"bp": "bp:12370367",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/429ae2f8-9633-4b68-ab02-d6139426fb13.LOFI.mp3",
+"name": "Isten",
+"mix": "Desert Mix",
+"genre": "organic-house",
+"released": "2019-08-16"
+},
+{
+"minute": 42,
+"artist": "RVNZ",
+"title": "Sketch Five",
+"label": ""
+},
+{
+"minute": 46,
+"artist": "Sascha Dive",
+"title": "Inner Circle",
+"label": "Deep Vibes",
+"bp": "bp:5328749",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/56703753-7e0f-48b1-b00a-e87fb358556f.LOFI.mp3",
+"name": "Inner Circle",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2014-05-02"
+},
+{
+"minute": 52,
+"artist": "Phalguna Somraj",
+"title": "Fluorescence",
+"label": "",
+"bp": "bp:10261862",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/336548bf-e28b-488c-af7a-77e0a2d139e5.LOFI.mp3",
+"name": "Fluorescence",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2018-03-05"
+},
+{
+"minute": 58,
+"artist": "Trippin Jaguar",
+"title": "Arecibo (Zebra Centauri Remix)",
+"label": "",
+"bp": "bp:9184567",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96d24293-c7c3-49bd-8fed-7fa788cbaec6.LOFI.mp3",
+"name": "Arecibo",
+"mix": "Zebra Centauri Remix",
+"genre": "electronica",
+"released": "2017-06-09"
+},
+{
+"minute": 63,
+"artist": "Tim Green",
+"title": "Coriolis",
+"label": "All Day I Dream"
+},
+{
+"minute": 71,
+"artist": "Jiminy Hop",
+"title": "Adam (Kamilo Sanclemente Remix) (Aboriginal)",
+"label": "",
+"bp": "bp:14077808",
+"score": 0.904,
+"preview": "https://geo-samples.beatport.com/track/90f0ac53-f80a-4554-b42f-8be21b3aa6a9.LOFI.mp3",
+"name": "Adam",
+"mix": "Kamilo Sanclemente Remix",
+"genre": "organic-house",
+"released": "2020-09-02"
+},
+{
+"minute": 77,
+"artist": "Roy RosenfelD",
+"title": "What Happened To Me",
+"label": "Rumors",
+"bp": "bp:13140528",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/8e121e3f-bb61-4b31-a362-a92d80fbafc4.LOFI.mp3",
+"name": "What Happened To Me",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-02-28"
+},
+{
+"minute": 83,
+"artist": "Cornucopia",
+"title": "Next Door",
+"label": ""
+},
+{
+"minute": 89,
+"artist": "Volen Sentir",
+"title": "Hael",
+"label": "Lost & Found"
+},
+{
+"minute": 93,
+"artist": "Guy J",
+"title": "Cosmos",
+"label": "Dantze"
+},
+{
+"minute": 100,
+"artist": "Nure",
+"title": "Deathco (LADS Remix)",
+"label": "Mango Alley",
+"bp": "bp:12003942",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c45428e9-0d59-439e-964b-bf8d42166ae8.LOFI.mp3",
+"name": "Deathco",
+"mix": "LADS Remix",
+"genre": "progressive-house",
+"released": "2019-06-03"
+},
+{
+"minute": 105,
+"artist": "Simon Vuarambon",
+"title": "Delusion",
+"label": ""
+},
+{
+"minute": 111,
+"artist": "Facundo Mohrr",
+"title": "I Have A Summer In My Eye",
+"label": "Trybesof",
+"bp": "bp:15458793",
+"score": 0.876,
+"preview": "https://geo-samples.beatport.com/track/555fa7b2-14a2-4a65-adf6-2b85d725bc76.LOFI.mp3",
+"name": "I Have a Summer in My Eye",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-07-09"
+},
+{
+"minute": 117,
+"artist": "Kasper Koman",
+"title": "The Observer",
+"label": "Lost Miracle",
+"bp": "bp:16423578",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/4c18ae52-9495-4f76-8078-786c55c5f75c.LOFI.mp3",
+"name": "The Observer",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-04-29"
+},
+{
+"minute": 122,
+"artist": "Guy J",
+"title": "Melter",
+"label": ""
+},
+{
+"minute": 129,
+"artist": "Guy J",
+"title": "Parallel Universe",
+"label": ""
+},
+{
+"minute": 136,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2022-03-26 - Guy J @ ReelWorks, Denver",
+"records": [
+{
+"minute": 0,
+"artist": "Jamie Woon",
+"title": "Shoulda (UONE 2020 Bootleg)",
+"label": "UMG"
+},
+{
+"minute": null,
+"artist": "[00?] Sahar Z",
+"title": "Mixed Feelings",
+"label": "Lost & Found",
+"bp": "bp:13440625",
+"score": 0.676,
+"preview": "https://geo-samples.beatport.com/track/596e9a4a-b790-4413-b66f-18136a5dce9a.LOFI.mp3",
+"name": "Mixed Feelings",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2020-05-04"
+},
+{
+"minute": 6,
+"artist": "Powel",
+"title": "The Grand Opening",
+"label": "Dawn Till Dusk",
+"bp": "bp:12396002",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/e5ea0635-4fa3-4faf-9f70-5abbb9eaa96f.LOFI.mp3",
+"name": "The Grand Opening",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-09-06"
+},
+{
+"minute": 11,
+"artist": "Adisyn",
+"title": "Nova",
+"label": "Kindisch"
+},
+{
+"minute": 16,
+"artist": "Enamour",
+"title": "Undone",
+"label": "Kindisch"
+},
+{
+"minute": 22,
+"artist": "Gatara",
+"title": "Driving Solo (Volksfreude Remix)",
+"label": "Spaghetti Monster",
+"bp": "bp:11869768",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae0d04d8-bfe5-4791-8493-43102c9c165e.LOFI.mp3",
+"name": "Driving Solo",
+"mix": "Volksfreude Remix",
+"genre": "deep-house",
+"released": "2019-05-06"
+},
+{
+"minute": 27,
+"artist": "Hernan Bass",
+"title": "Siete",
+"label": ""
+},
+{
+"minute": 32,
+"artist": "AudioHell",
+"title": "Ghost In Town",
+"label": "",
+"bp": "bp:9457228",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/6ef066da-00d5-4baf-9b93-af0e2354e087.LOFI.mp3",
+"name": "Ghost In Town",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2017-07-24"
+},
+{
+"minute": 36,
+"artist": "Adisyn & Prime Edge",
+"title": "Isten (Desert Mix)",
+"label": "Akbal",
+"bp": "bp:12370367",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/429ae2f8-9633-4b68-ab02-d6139426fb13.LOFI.mp3",
+"name": "Isten",
+"mix": "Desert Mix",
+"genre": "organic-house",
+"released": "2019-08-16"
+},
+{
+"minute": 42,
+"artist": "RVNZ",
+"title": "Sketch Five",
+"label": ""
+},
+{
+"minute": 46,
+"artist": "Sascha Dive",
+"title": "Inner Circle",
+"label": "Deep Vibes",
+"bp": "bp:5328749",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/56703753-7e0f-48b1-b00a-e87fb358556f.LOFI.mp3",
+"name": "Inner Circle",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2014-05-02"
+},
+{
+"minute": 52,
+"artist": "Phalguna Somraj",
+"title": "Fluorescence",
+"label": "",
+"bp": "bp:10261862",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/336548bf-e28b-488c-af7a-77e0a2d139e5.LOFI.mp3",
+"name": "Fluorescence",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2018-03-05"
+},
+{
+"minute": 58,
+"artist": "Trippin Jaguar",
+"title": "Arecibo (Zebra Centauri Remix)",
+"label": "",
+"bp": "bp:9184567",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96d24293-c7c3-49bd-8fed-7fa788cbaec6.LOFI.mp3",
+"name": "Arecibo",
+"mix": "Zebra Centauri Remix",
+"genre": "electronica",
+"released": "2017-06-09"
+},
+{
+"minute": 63,
+"artist": "Tim Green",
+"title": "Coriolis",
+"label": "All Day I Dream"
+},
+{
+"minute": 71,
+"artist": "Jiminy Hop",
+"title": "Adam (Kamilo Sanclemente Remix) (Aboriginal)",
+"label": "",
+"bp": "bp:14077808",
+"score": 0.904,
+"preview": "https://geo-samples.beatport.com/track/90f0ac53-f80a-4554-b42f-8be21b3aa6a9.LOFI.mp3",
+"name": "Adam",
+"mix": "Kamilo Sanclemente Remix",
+"genre": "organic-house",
+"released": "2020-09-02"
+},
+{
+"minute": 77,
+"artist": "Roy RosenfelD",
+"title": "What Happened To Me",
+"label": "Rumors",
+"bp": "bp:13140528",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/8e121e3f-bb61-4b31-a362-a92d80fbafc4.LOFI.mp3",
+"name": "What Happened To Me",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-02-28"
+},
+{
+"minute": 83,
+"artist": "Cornucopia",
+"title": "Next Door",
+"label": ""
+},
+{
+"minute": 89,
+"artist": "Volen Sentir",
+"title": "Hael",
+"label": "Lost & Found"
+},
+{
+"minute": 93,
+"artist": "Guy J",
+"title": "Cosmos",
+"label": "Dantze"
+},
+{
+"minute": 100,
+"artist": "Nure",
+"title": "Deathco (LADS Remix)",
+"label": "Mango Alley",
+"bp": "bp:12003942",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c45428e9-0d59-439e-964b-bf8d42166ae8.LOFI.mp3",
+"name": "Deathco",
+"mix": "LADS Remix",
+"genre": "progressive-house",
+"released": "2019-06-03"
+},
+{
+"minute": 105,
+"artist": "Simon Vuarambon",
+"title": "Delusion",
+"label": ""
+},
+{
+"minute": 111,
+"artist": "Facundo Mohrr",
+"title": "I Have A Summer In My Eye",
+"label": "Trybesof",
+"bp": "bp:15458793",
+"score": 0.876,
+"preview": "https://geo-samples.beatport.com/track/555fa7b2-14a2-4a65-adf6-2b85d725bc76.LOFI.mp3",
+"name": "I Have a Summer in My Eye",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-07-09"
+},
+{
+"minute": 117,
+"artist": "Kasper Koman",
+"title": "The Observer",
+"label": "Lost Miracle",
+"bp": "bp:16423578",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/4c18ae52-9495-4f76-8078-786c55c5f75c.LOFI.mp3",
+"name": "The Observer",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-04-29"
+},
+{
+"minute": 122,
+"artist": "Guy J",
+"title": "Melter",
+"label": ""
+},
+{
+"minute": 129,
+"artist": "Guy J",
+"title": "Parallel Universe",
+"label": ""
+},
+{
+"minute": 136,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2022-06-16 - Guy J - Into Sunrise (June Promo Mix)",
+"records": [
+{
+"minute": 0,
+"artist": "Eli Nissan",
+"title": "Valhalla",
+"label": "Lost & Found"
+},
+{
+"minute": 8,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 13,
+"artist": "Josh Butler & SOHMI",
+"title": "Sunday Sunset",
+"label": "Origins",
+"bp": "bp:14283231",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/78e3f709-9aa9-47a8-b000-4e7d6c526ddb.LOFI.mp3",
+"name": "Sunday Sunset",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-10-23"
+},
+{
+"minute": 15,
+"artist": "Hernan Bass",
+"title": "Tandilenses",
+"label": "Dpe",
+"bp": "bp:18326481",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/7c91bb80-744f-41bf-a66d-5f92baf595db.LOFI.mp3",
+"name": "Tandilenses",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2023-12-01"
+},
+{
+"minute": 20,
+"artist": "Felix Raphael & Ghenwa Nemnom",
+"title": "Miracle (M.O.S. Remix)",
+"label": "Melody Of The Soul",
+"bp": "bp:16617763",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f130e7d-a511-43f6-b14a-a9548f158461.LOFI.mp3",
+"name": "Miracle",
+"mix": "M.O.S. Remix",
+"genre": "organic-house",
+"released": "2022-07-08"
+},
+{
+"minute": 26,
+"artist": "GMJ",
+"title": "Stage Flight",
+"label": "Meanwhile",
+"bp": "bp:16652706",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/ee624d90-b8d5-4fa6-9d3b-e9c1a9e34933.LOFI.mp3",
+"name": "Stage Flight",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2022-07-08"
+},
+{
+"minute": 30,
+"artist": "Foglight",
+"title": "Feel Again (Kostya Outta & Anton Borin Remix)",
+"label": "Mango Alley"
+},
+{
+"minute": 35,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 41,
+"artist": "Storgards",
+"title": "Miss U (Jody Wisternoff Remix)",
+"label": "Where The Heart Is",
+"bp": "bp:16567958",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f25de68-831c-423e-b267-2e11b610dbd9.LOFI.mp3",
+"name": "Miss U",
+"mix": "Jody Wisternoff Remix",
+"genre": "organic-house",
+"released": "2022-06-17"
+},
+{
+"minute": 46,
+"artist": "DJ Island",
+"title": "One Love",
+"label": "Hovse"
+},
+{
+"minute": 50,
+"artist": "Connor Mac",
+"title": "Kopfkino",
+"label": "Late Night Music"
+},
+{
+"minute": 57,
+"artist": "Georgia",
+"title": "24 Hours (Sofia Kourtesis Remix)",
+"label": "Domino",
+"bp": "bp:14657229",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/efc7a036-6410-4fb7-98fd-65df63cd9a49.LOFI.mp3",
+"name": "24 Hours",
+"mix": "Sofia Kourtesis Remix",
+"genre": "house",
+"released": "2020-12-11"
+}
+]
+},
+{
+"title": "2022-08-14 - Guy J B2B Guy Mantzur @ Loveland Festival, Sloterpark, Amsterdam (Loveland Legacy, LL186)",
+"records": [
+{
+"minute": 0,
+"artist": "Serge Devant",
+"title": "White Groove",
+"label": "Crosstown Rebels",
+"bp": "bp:10476203",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/789e7e73-2eca-495c-9b0a-70f2527a3147.LOFI.mp3",
+"name": "White Groove",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2018-04-27"
+},
+{
+"minute": 5,
+"artist": "Alex O'Rion & Ezequiel Arias",
+"title": "Solis",
+"label": "Meanwhile"
+},
+{
+"minute": 10,
+"artist": "Eli Nissan",
+"title": "Wonders",
+"label": "Lost Miracle"
+},
+{
+"minute": 14,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 18,
+"artist": "Kasper Koman",
+"title": "Loco Motif (Tantum Remix)",
+"label": "Lost & Found",
+"bp": "bp:16891320",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/639d8992-065a-4b36-9469-c32b56017d4e.LOFI.mp3",
+"name": "Loco Motif",
+"mix": "Tantum Remix",
+"genre": "progressive-house",
+"released": "2022-09-23"
+},
+{
+"minute": 24,
+"artist": "Kamilo Sanclemente & Dabeat",
+"title": "Seriously",
+"label": "Plattenbank"
+},
+{
+"minute": 27,
+"artist": "Mike Griego",
+"title": "Desert's Bane",
+"label": "Tale & Tone",
+"bp": "bp:17689578",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/98e9ba5d-e703-4255-b512-933a952f85a3.LOFI.mp3",
+"name": "Desert's Bane",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2023-05-26"
+},
+{
+"minute": 30,
+"artist": "Guy J",
+"title": "Promise At Sundown",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Forerunners",
+"title": "The Watchers (John Cosani Remix)",
+"label": "Onedotsixtwo",
+"bp": "bp:16570888",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae4412a0-5f99-4818-860e-ac012a48ed25.LOFI.mp3",
+"name": "The Watchers",
+"mix": "John Cosani Remix",
+"genre": "progressive-house",
+"released": "2022-06-10"
+},
+{
+"minute": 40,
+"artist": "The Scumfrog",
+"title": "Dionysian",
+"label": ""
+},
+{
+"minute": 45,
+"artist": "Alex O'Rion",
+"title": "The Serpent (Imran Khan Remix)",
+"label": "Meanwhile",
+"bp": "bp:16927710",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2caafa97-d476-4025-b4ef-fb62c31f600e.LOFI.mp3",
+"name": "The Serpent",
+"mix": "Imran Khan Remix",
+"genre": "progressive-house",
+"released": "2022-09-30"
+},
+{
+"minute": 50,
+"artist": "Guy J",
+"title": "Elevate",
+"label": ""
+},
+{
+"minute": 55,
+"artist": "Jamie Stevens & GMJ",
+"title": "Force Of Nature",
+"label": "Balance",
+"bp": "bp:16731217",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/f6b797d3-8041-41ee-a22d-71412200f6b4.LOFI.mp3",
+"name": "Force of Nature",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2022-08-19"
+},
+{
+"minute": 59,
+"artist": "Chihaka",
+"title": "Hupenyu (Imran Khan Remix)",
+"label": "Particles (Proton)",
+"bp": "bp:16196811",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bb37ccc8-141f-4e16-871e-c1bc822f6da7.LOFI.mp3",
+"name": "Hupenyu",
+"mix": "Imran Khan Remix",
+"genre": "progressive-house",
+"released": "2022-02-18"
+},
+{
+"minute": 64,
+"artist": "Roy RosenfelD",
+"title": "Kala",
+"label": "Vod"
+},
+{
+"minute": 69,
+"artist": "Guy J",
+"title": "Elevate",
+"label": ""
+},
+{
+"minute": 75,
+"artist": "Above & Beyond Feat. Richard Bedford",
+"title": "Every Little Beat (Khen Remix)",
+"label": "Anjunabeats"
+},
+{
+"minute": 81,
+"artist": "Da Luka & Aman Anand",
+"title": "Mythical Creatures (Kamilo Sanclemente & Golan Zocher Remix)",
+"label": "Roku"
+},
+{
+"minute": 84,
+"artist": "Roy RosenfelD",
+"title": "Simi",
+"label": "All Day I Dream"
+},
+{
+"minute": 90,
+"artist": "S\u00e9bastien L\u00e9ger",
+"title": "Extassy",
+"label": "Lost & Found"
+},
+{
+"minute": 97,
+"artist": "Freedom Fighters & Khen",
+"title": "Levantine",
+"label": "Lost & Found"
+},
+{
+"minute": 103,
+"artist": "Spirit & The Guide",
+"title": "Alafia (Golan Zocher Remix)",
+"label": "Rabbit",
+"bp": "bp:17006524",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4ef20f81-af04-4a97-8459-cd70ed9f00e6.LOFI.mp3",
+"name": "Alafia",
+"mix": "Golan Zocher Remix",
+"genre": "progressive-house",
+"released": "2022-10-22"
+},
+{
+"minute": 109,
+"artist": "Pink Floyd",
+"title": "Sheep (DOMA Remix)",
+"label": ""
+},
+{
+"minute": 116,
+"artist": "Guy J",
+"title": "Fire",
+"label": "Lost & Found"
+},
+{
+"minute": 123,
+"artist": "Guy J",
+"title": "Dynasty",
+"label": ""
+},
+{
+"minute": 128,
+"artist": "Golan Zocher & Choopie",
+"title": "Pinko",
+"label": "Agnosia Black"
+},
+{
+"minute": 134,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 137,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 144,
+"artist": "Guy J",
+"title": "Annilate ID",
+"label": ""
+},
+{
+"minute": 148,
+"artist": "Will Dekeizer",
+"title": "Emerald",
+"label": "Plattenbank"
+},
+{
+"minute": 155,
+"artist": "James Beetham",
+"title": "Silicon (Golan Zocher Remix)",
+"label": "Late Nite",
+"bp": "bp:16777941",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/33e399b7-2bf1-4570-b9b8-e1f6301fb6d4.LOFI.mp3",
+"name": "Silicon",
+"mix": "Golan Zocher Remix",
+"genre": "progressive-house",
+"released": "2022-09-20"
+},
+{
+"minute": 161,
+"artist": "Guy J",
+"title": "Loveland ID03",
+"label": ""
+},
+{
+"minute": 169,
+"artist": "Guy J",
+"title": "Middlemen",
+"label": ""
+},
+{
+"minute": 173,
+"artist": "Guy J",
+"title": "Last Standing",
+"label": "Lost & Found",
+"bp": "bp:16710366",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/4f03fbdc-d8f8-4c6d-9ff1-e76977edabd6.LOFI.mp3",
+"name": "Last Standing",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2022-07-22"
+}
+]
+},
+{
+"title": "2022-12-31 - Guy J - The Optimist (December Promo Mix)",
+"records": [
+{
+"minute": 0,
+"artist": "Nick Stoynoff",
+"title": "High Supply (Ashhen Beatless Dubscape)",
+"label": "",
+"bp": "bp:16634083",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96fac7c8-9c48-4081-8c57-57f8af9d4a21.LOFI.mp3",
+"name": "High Supply",
+"mix": "Ashhen Beatless Dubscape",
+"genre": "ambient-experimental",
+"released": "2022-07-01"
+},
+{
+"minute": 9,
+"artist": "Namito",
+"title": "Relentless (Stimmhalt Remix)",
+"label": "Bar 25",
+"bp": "bp:15559744",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9c8c7913-60df-4028-9169-68f6ac3cc002.LOFI.mp3",
+"name": "Relentless",
+"mix": "Stimmhalt Remix",
+"genre": "organic-house",
+"released": "2021-09-03"
+},
+{
+"minute": 17,
+"artist": "Stevie R & Parisinos Feat. Ellivia",
+"title": "The Way We Play (Meloko & Mozambo Remix)",
+"label": "Azzur",
+"bp": "bp:17206702",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/e020e4c0-1605-4fa4-a5a4-36377fccd80f.LOFI.mp3",
+"name": "The Way We Play",
+"mix": "Meloko & Mozambo Remix",
+"genre": "melodic-house-techno",
+"released": "2023-01-06"
+},
+{
+"minute": 21,
+"artist": "Agust\u00edn Ficarra",
+"title": "Lonely Heart",
+"label": "Mango Alley",
+"bp": "bp:17061444",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/7d98bf13-941f-445a-bb27-62519b275d1d.LOFI.mp3",
+"name": "Lonely Heart",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2022-12-08"
+},
+{
+"minute": 26,
+"artist": "Timo Chinala",
+"title": "Somerville",
+"label": "Nie Wieder Schlafen",
+"bp": "bp:12640980",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/50ec48d3-724f-4aa9-91f1-9d1d66a3e220.LOFI.mp3",
+"name": "Somerville",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-10-21"
+},
+{
+"minute": 32,
+"artist": "Oleg Espo Feat. Boume",
+"title": "Svadhisthana (Swami Harami Remix)",
+"label": "",
+"bp": "bp:16471672",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/9c813a96-8214-4f8a-a1cf-485f7454c424.LOFI.mp3",
+"name": "Svadhisthana feat. Boume",
+"mix": "Swami Harami Remix",
+"genre": "organic-house",
+"released": "2022-05-13"
+},
+{
+"minute": 37,
+"artist": "GMJ",
+"title": "Into Fruition (NOIYSE PROJECT Remix)",
+"label": "Deep Down",
+"bp": "bp:17104133",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4798573f-9e70-497e-bf52-1dd503237448.LOFI.mp3",
+"name": "Into Fruition",
+"mix": "NOIYSE PROJECT Remix",
+"genre": "progressive-house",
+"released": "2022-12-02"
+},
+{
+"minute": 45,
+"artist": "Mike Rish",
+"title": "District",
+"label": "Lost & Found"
+},
+{
+"minute": 50,
+"artist": "BLR",
+"title": "Stay",
+"label": "Frcst"
+},
+{
+"minute": 54,
+"artist": "Guy J",
+"title": "State Of Trance",
+"label": "Lost & Found",
+"bp": "bp:17481810",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/a037e493-e125-4e59-9249-a99b247fd7c5.LOFI.mp3",
+"name": "State Of Trance",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2023-03-31"
+},
+{
+"minute": 61,
+"artist": "DNCN & Freddy Be & S.O.U.L. ViBRaTioN",
+"title": "Knock Me Off My Feet (LA Riots Remix)",
+"label": "Monday Social Music",
+"bp": "bp:17036397",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a2f823e-b07c-401a-b548-4e755bc10263.LOFI.mp3",
+"name": "Knock Me Off My Feet",
+"mix": "LA RIOTS Remix",
+"genre": "tech-house",
+"released": "2022-11-25"
+},
+{
+"minute": 66,
+"artist": "Mike Rish",
+"title": "Tunnel People",
+"label": "Lost & Found",
+"bp": "bp:17210199",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/e4078877-b7d9-4699-99a7-3a622de235b8.LOFI.mp3",
+"name": "Tunnel People",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2022-12-30"
+},
+{
+"minute": 72,
+"artist": "Ballroom",
+"title": "Passenger (Guy J Remix)",
+"label": "Lost Language"
+},
+{
+"minute": 78,
+"artist": "Agents Of Time",
+"title": "20 Seconds To Mars",
+"label": "Curle",
+"bp": "bp:9334980",
+"score": 0.841,
+"preview": "https://geo-samples.beatport.com/track/491b6326-271e-409d-9fab-45c81a856e14.LOFI.mp3",
+"name": "20 Seconds To Mars",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-06-09"
+},
+{
+"minute": 81,
+"artist": "Bonobo",
+"title": "Linked",
+"label": "Ninja"
+}
+]
+},
+{
+"title": "2023-06-01 - Guy J - Ritual (June Promo Mix)",
+"records": [
+{
+"minute": 0,
+"artist": "UONE Feat. Joe Moran",
+"title": "Irish Campfire (Interlude)",
+"label": ""
+},
+{
+"minute": 3,
+"artist": "Soulfeed",
+"title": "Temple Of Mind",
+"label": "Zenebona",
+"bp": "bp:17733164",
+"score": 0.81,
+"preview": "https://geo-samples.beatport.com/track/d838de91-495b-4975-9d12-b6931101d356.LOFI.mp3",
+"name": "Temple of Mind",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2023-06-16"
+},
+{
+"minute": 7,
+"artist": "Doyeq",
+"title": "Speed Test",
+"label": "Highway",
+"bp": "bp:17427180",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/a258c8fa-48fb-44fe-b535-aa648c3ecf03.LOFI.mp3",
+"name": "Speed Test",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2023-03-10"
+},
+{
+"minute": 11,
+"artist": "M.O.S. & Matur",
+"title": "Ka",
+"label": "Melody Of The Soul"
+},
+{
+"minute": 16,
+"artist": "HAUMS",
+"title": "The Otherside (Weird Sounding Dude Remix)",
+"label": "Quantum Feels",
+"bp": "bp:17647495",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/28757372-c7e5-459a-b870-0f6601346165.LOFI.mp3",
+"name": "The Otherside",
+"mix": "Weird Sounding Dude Remix",
+"genre": "organic-house",
+"released": "2023-05-19"
+},
+{
+"minute": 21,
+"artist": "Khen",
+"title": "Homeboy",
+"label": "Closure"
+},
+{
+"minute": 27,
+"artist": "Anton Borin",
+"title": "Anatman (Subconscious Tales Remix)",
+"label": "Mango Alley",
+"bp": "bp:17596689",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3d7f38e7-10b8-44fe-bc4f-c1a84cc76aea.LOFI.mp3",
+"name": "Anatman",
+"mix": "Subconscious Tales Remix",
+"genre": "progressive-house",
+"released": "2023-05-11"
+},
+{
+"minute": 36,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 41,
+"artist": "Sebastian Sellares",
+"title": "Melomaniac",
+"label": "Edge",
+"bp": "bp:19071112",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/d85aca38-b2ad-4051-a773-0ab2a397f083.LOFI.mp3",
+"name": "Melomaniac",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-06-14"
+},
+{
+"minute": 47,
+"artist": "Out Of Sorts Feat. T-Bone",
+"title": "The Key (Jamie Stevens Deeper Undersanding Remix)",
+"label": "Beat & Path",
+"bp": "bp:17614119",
+"score": 0.732,
+"preview": "https://geo-samples.beatport.com/track/1e34aa02-b91e-4271-a978-70f2609645a1.LOFI.mp3",
+"name": "The Key feat. T-Bone",
+"mix": "Jamie Stevens Deeper Undersanding Remix",
+"genre": "organic-house",
+"released": "2023-05-05"
+},
+{
+"minute": 53,
+"artist": "Blindsmyth",
+"title": "Gryllidae (Dave DK Remix)",
+"label": "Connaisseur",
+"bp": "bp:14226882",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5e721349-b7f6-4044-911c-ab7d69072824.LOFI.mp3",
+"name": "Gryllidae",
+"mix": "Dave DK Remix",
+"genre": "melodic-house-techno",
+"released": "2020-10-09"
+},
+{
+"minute": 58,
+"artist": "Guy J",
+"title": "94 Blossom",
+"label": "Armadillo",
+"bp": "bp:17560156",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/422033d2-a9c1-4b72-8b5c-b7da7a3de72e.LOFI.mp3",
+"name": "94 Blossom",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-05-05"
+}
+]
+},
+{
+"title": "2023-07-22 - Guy J @ Cave Romane, Vinkuran, Croatia",
+"records": [
+{
+"minute": 0,
+"artist": "Guy J",
+"title": "Metal Dreams",
+"label": "Lost & Found",
+"bp": "bp:17876816",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/859185c0-6906-4492-9ba4-9aa2db0b447d.LOFI.mp3",
+"name": "Metal Dreams",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2023-07-14"
+},
+{
+"minute": 3,
+"artist": "Khen",
+"title": "Golden Key",
+"label": "Lost & Found",
+"bp": "bp:17876827",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/9bb37ab5-f9b8-40f5-aa40-48dc8e9d0c4d.LOFI.mp3",
+"name": "Golden Key",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2023-07-14"
+},
+{
+"minute": 9,
+"artist": "Patrice B\u00e4umel Feat. Sylvain Chauveau",
+"title": "Zero Gravity",
+"label": "Halo"
+},
+{
+"minute": 15,
+"artist": "Guy J & Astrix",
+"title": "River",
+"label": "Moments"
+},
+{
+"minute": 22,
+"artist": "Jiminy Hop",
+"title": "A Tour (Simos Tagias Remix)",
+"label": "Shambhala",
+"bp": "bp:17690112",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1458dc26-89c3-4659-a229-e8cd3e1f677f.LOFI.mp3",
+"name": "A Tour",
+"mix": "Simos Tagias Remix",
+"genre": "progressive-house",
+"released": "2023-05-26"
+},
+{
+"minute": 28,
+"artist": "Guy J",
+"title": "Heatwave",
+"label": ""
+},
+{
+"minute": 35,
+"artist": "Guy J",
+"title": "America",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "Kamilo Sanclemente & Juan Pablo Torrez",
+"title": "Mantura",
+"label": "Plattenbank"
+},
+{
+"minute": 47,
+"artist": "Guy J",
+"title": "Catfish",
+"label": "Lost & Found"
+},
+{
+"minute": 52,
+"artist": "Julian Millan",
+"title": "Face Reflection (Marcelo Vasami Remix)",
+"label": "Monday Social Music",
+"bp": "bp:17327342",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eaf1ed02-245e-4a06-ac6f-505b38058ee8.LOFI.mp3",
+"name": "Face Reflection",
+"mix": "Marcelo Vasami Remix",
+"genre": "progressive-house",
+"released": "2023-03-10"
+},
+{
+"minute": 58,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Mother Earth",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Plastic",
+"label": ""
+},
+{
+"minute": 76,
+"artist": "Stereo Underground",
+"title": "Zooz",
+"label": "Lost & Found"
+},
+{
+"minute": null,
+"artist": "Tibi Dabo",
+"title": "Evol",
+"label": ""
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Ivy ID 02",
+"label": ""
+},
+{
+"minute": 98,
+"artist": "Guy J",
+"title": "Illusions",
+"label": "Lost & Found",
+"bp": "bp:8801652",
+"score": 0.572,
+"preview": "https://geo-samples.beatport.com/track/65fe829b-0f46-4648-a7b5-d95ba6c65dc9.LOFI.mp3",
+"name": "Illusions",
+"mix": "Radio Edit",
+"genre": "trance-main-floor",
+"released": "2017-01-28"
+}
+]
+},
+{
+"title": "2023-07-27 - Guy J @ Echoes From Agartha, Cappadocia, Turkey",
+"records": []
+},
+{
+"title": "2023-08-13 - Guy J @ Loveland Festival, Sloterpark, Amsterdam (Loveland Legacy, LL219)",
+"records": [
+{
+"minute": 0,
+"artist": "South Bloom",
+"title": "Let Me In (Volen Sentir Secret Technique)",
+"label": "Forestrip",
+"bp": "bp:18216504",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36f64b50-4104-445e-bd10-4078b9ded994.LOFI.mp3",
+"name": "Let Me In",
+"mix": "Volen Sentir Secret Technique",
+"genre": "organic-house",
+"released": "2023-10-19"
+},
+{
+"minute": 7,
+"artist": "Fran Garay",
+"title": "Illusion",
+"label": "Mango Alley"
+},
+{
+"minute": 10,
+"id": null,
+"raw": "Tuba Twooz -&#160;?"
+},
+{
+"minute": null,
+"artist": "Sudhaus & The Wash",
+"title": "Spectron (Jamie Stevens Remix)",
+"label": "Mango Alley",
+"bp": "bp:17503822",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3004f4ae-885e-4185-b55d-6466e4de3689.LOFI.mp3",
+"name": "Spectron",
+"mix": "Jamie Stevens Remix",
+"genre": "progressive-house",
+"released": "2023-04-20"
+},
+{
+"minute": null,
+"artist": "Timo Chinala",
+"title": "Somerville (Guy J Edit)",
+"label": ""
+},
+{
+"minute": 27,
+"artist": "Andr\u00e9s Moris & Roc\u00edo Portillo",
+"title": "Evolver",
+"label": "Sudbeat"
+},
+{
+"minute": null,
+"id": null,
+"raw": "Tantum -&#160;?"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Cave2023 ID01",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Karma",
+"label": "No Drama"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Awakening",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Million Years From Now",
+"label": "Early Morning",
+"bp": "bp:19385350",
+"score": 0.863,
+"preview": "https://geo-samples.beatport.com/track/b1ef1314-5d30-4f63-b4b4-2739279da671.LOFI.mp3",
+"name": "Million Years from Now",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-09-27"
+},
+{
+"minute": 55,
+"artist": "Guy J",
+"title": "Evo",
+"label": "Early Morning"
+},
+{
+"minute": 60,
+"artist": "Guy J",
+"title": "Factory Reset",
+"label": ""
+},
+{
+"minute": 66,
+"artist": "Guy Gerber",
+"title": "Rainchecks In Montreal (Roy RosenfelD Remix)",
+"label": "Rumors",
+"bp": "bp:18066387",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/416bdb88-c74f-4341-91a6-eaa1835f592e.LOFI.mp3",
+"name": "Rainchecks In Montreal",
+"mix": "Roy Rosenfeld Remix",
+"genre": "melodic-house-techno",
+"released": "2023-09-15"
+},
+{
+"minute": 72,
+"artist": "Guy J",
+"title": "Metro",
+"label": ""
+},
+{
+"minute": 78,
+"artist": "Guy J",
+"title": "Lost & Found",
+"label": "Lost & Found",
+"bp": "bp:17880922",
+"score": 0.844,
+"preview": "https://geo-samples.beatport.com/track/aba23641-3ffa-4f74-b93b-b946e65d0c4c.LOFI.mp3",
+"name": "Lost & Found",
+"mix": "AM Mix",
+"genre": "electronica",
+"released": "2023-08-11"
+}
+]
+},
+{
+"title": "2024-01-05 - Guy J - When The Time Is Right (January Promo Mix)",
+"records": [
+{
+"minute": 0,
+"artist": "Charles Webster Feat. Sio",
+"title": "Love Lives (Girls Of The Internet Remix)",
+"label": "",
+"bp": "bp:17669943",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/d49fce1a-58cb-4ce5-80a0-5d3926b9f0cb.LOFI.mp3",
+"name": "Love Lives",
+"mix": "Girls of the Internet Remix",
+"genre": "deep-house",
+"released": "2023-05-05"
+},
+{
+"minute": 5,
+"artist": "Manuel Tur",
+"title": "Soft Clip",
+"label": "Spaced Repetitions"
+},
+{
+"minute": 10,
+"artist": "Pantha Du Prince",
+"title": "Heaven Is Where You Are (Dave DK Remix)",
+"label": "Modern",
+"bp": "bp:22864109",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8e393ee2-8a12-4ed8-9353-9790e4a692b0.LOFI.mp3",
+"name": "Heaven Is Where You Are",
+"mix": "Dave DK Remix",
+"genre": "dance-pop",
+"released": "2023-08-04"
+},
+{
+"minute": 15,
+"artist": "Jamie Stevens & Zankee Gulati",
+"title": "Low Tide",
+"label": "Bedrock"
+},
+{
+"minute": 22,
+"artist": "DAVI",
+"title": "Down Memory Lane",
+"label": "8Bit",
+"bp": "bp:18093120",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/28f6febf-a123-42c2-a0c0-d77ae86dbfaf.LOFI.mp3",
+"name": "Down Memory Lane",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-09-22"
+},
+{
+"minute": 30,
+"artist": "Andr\u00e9s Moris",
+"title": "Wired",
+"label": "Myrrha Sounds Music"
+},
+{
+"minute": 34,
+"artist": "Foglight",
+"title": "Circuit Valley (Praveen Achary Remix)",
+"label": "Juicebox",
+"bp": "bp:18471645",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9091a87a-e5c9-4b4a-9600-494bce340bd2.LOFI.mp3",
+"name": "Circuit Valley",
+"mix": "Praveen Achary Remix",
+"genre": "progressive-house",
+"released": "2024-01-12"
+},
+{
+"minute": 41,
+"artist": "Guy J",
+"title": "Cosmos",
+"label": "Dantze"
+},
+{
+"minute": 47,
+"artist": "Jamie Stevens",
+"title": "Kanlan",
+"label": "Meanwhile"
+},
+{
+"minute": 55,
+"artist": "Kasey Taylor & Karl Pilbrow",
+"title": "Sublimate",
+"label": "Sudbeat"
+},
+{
+"minute": 61,
+"artist": "Dinky",
+"title": "She's Got Nowhere To Go",
+"label": "Rhythm Cult",
+"bp": "bp:18079386",
+"score": 0.893,
+"preview": "https://geo-samples.beatport.com/track/7beb43dc-117a-4747-a0db-acf185c81174.LOFI.mp3",
+"name": "She's Got Nowhere To Go",
+"mix": "dOP Remix",
+"genre": "deep-house",
+"released": "2023-10-03"
+},
+{
+"minute": 66,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2024-06-27 - Guy J @ Racos Volcano, Romania",
+"records": [
+{
+"minute": 0,
+"artist": "Guy J",
+"title": "Forja 2022 Intro ID",
+"label": ""
+},
+{
+"minute": 4,
+"artist": "Cornucopia",
+"title": "Tithorea ID",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Cornucopia",
+"title": "Other Side Of The World",
+"label": "Unreleased"
+},
+{
+"minute": 17,
+"artist": "Cornucopia",
+"title": "Deeper Side",
+"label": "Unreleased"
+},
+{
+"minute": 23,
+"artist": "Guy J",
+"title": "Barutana 2021 ID01",
+"label": ""
+},
+{
+"minute": 29,
+"artist": "Cornucopia",
+"title": "Dopamine",
+"label": "Unreleased"
+},
+{
+"minute": 36,
+"artist": "Guy J",
+"title": "OSC",
+"label": "Unreleased"
+},
+{
+"minute": 40,
+"artist": "Volen Sentir",
+"title": "The Great Escape (Cornucopia Remix)",
+"label": "Lost & Found",
+"bp": "bp:16891316",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7199983d-0709-4111-b181-5fb96a5ce2b6.LOFI.mp3",
+"name": "The Great Escape",
+"mix": "Cornucopia Remix",
+"genre": "organic-house",
+"released": "2022-09-23"
+},
+{
+"minute": 47,
+"artist": "Timo Chinala",
+"title": "Somerville (Guy J Edit)",
+"label": "Unreleased"
+},
+{
+"minute": 54,
+"artist": "Guy J",
+"title": "Ivy ID01",
+"label": ""
+},
+{
+"minute": 60,
+"artist": "Guy J",
+"title": "Blind Side Unreleased",
+"label": ""
+},
+{
+"minute": 64,
+"artist": "Guy J",
+"title": "Las Palapas ID01",
+"label": ""
+},
+{
+"minute": 71,
+"artist": "Guy J",
+"title": "Virtu Unreleased",
+"label": ""
+},
+{
+"minute": 76,
+"artist": "Guy J",
+"title": "Living On A Cloud",
+"label": "Unreleased"
+},
+{
+"minute": 83,
+"artist": "Cornucopia",
+"title": "Early Mornings",
+"label": "Unreleased",
+"bp": "bp:20080276",
+"score": 0.79,
+"preview": "https://geo-samples.beatport.com/track/f0ab6023-2305-41eb-bbf5-1830518f9c9c.LOFI.mp3",
+"name": "Early Morning",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-02-28"
+},
+{
+"minute": 89,
+"artist": "Guy J",
+"title": "Next To Me",
+"label": "Unreleased",
+"bp": "bp:26580279",
+"score": 0.564,
+"preview": "https://geo-samples.beatport.com/track/c3406d78-6df7-4391-964e-fa925ed216ed.LOFI.mp3",
+"name": "Next To Me",
+"mix": "Original Mix",
+"genre": "country",
+"released": "2019-01-23"
+},
+{
+"minute": 96,
+"artist": "Guy J",
+"title": "Forum",
+"label": "Unreleased"
+},
+{
+"minute": 103,
+"artist": "Guy J",
+"title": "Anonymous",
+"label": "Lost & Found"
+},
+{
+"minute": 109,
+"artist": "Guy J",
+"title": "Cosmos Dantze",
+"label": ""
+},
+{
+"minute": 115,
+"artist": "Stephan Bodzin",
+"title": "Odyssee (Guy J Remix)",
+"label": "Unreleased"
+},
+{
+"minute": 122,
+"artist": "Guy J",
+"title": "TithoreaID",
+"label": ""
+},
+{
+"minute": 132,
+"artist": "Cornucopia",
+"title": "Dream Machine",
+"label": "Unreleased"
+},
+{
+"minute": 138,
+"artist": "Guy J",
+"title": "Got No Sleep Unreleased",
+"label": ""
+},
+{
+"minute": 146,
+"artist": "Cornucopia",
+"title": "Falling Into Your Eyes",
+"label": "Unreleased"
+},
+{
+"minute": 152,
+"artist": "Ryuichi Sakamoto",
+"title": "The Revenant (Guy J Edit)",
+"label": "Unreleased"
+},
+{
+"minute": 159,
+"artist": "Guy J",
+"title": "Elevate Unreleased",
+"label": ""
+},
+{
+"minute": 165,
+"artist": "Guy J",
+"title": "Barutana 2021 ID02",
+"label": ""
+},
+{
+"minute": 181,
+"artist": "Guy J",
+"title": "'The Track' ID",
+"label": ""
+},
+{
+"minute": 189,
+"artist": "Karol XVII & MB Valence",
+"title": "Waterfall Drops (Guy J Remix)",
+"label": "Get Physical",
+"bp": "bp:18090574",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/06f6a1b3-fe0f-4529-93d8-f2f1e3f2421a.LOFI.mp3",
+"name": "Waterfall Drops",
+"mix": "Guy J Remix",
+"genre": "progressive-house",
+"released": "2023-10-06"
+},
+{
+"minute": 195,
+"artist": "Guy J",
+"title": "Annilate ID",
+"label": ""
+},
+{
+"minute": 199,
+"artist": "Guy J",
+"title": "Into The Void",
+"label": ""
+},
+{
+"minute": 208,
+"artist": "Cornucopia",
+"title": "Las Palapas Intro ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[3:??:??] Guy J",
+"title": "Scarlett ID",
+"label": ""
+},
+{
+"minute": 223,
+"artist": "Cornucopia",
+"title": "ADE2022 ID",
+"label": ""
+},
+{
+"minute": 229,
+"artist": "Marsh",
+"title": "Healer (Guy J Extended Remix)",
+"label": "Anjunadeep",
+"bp": "bp:14957080",
+"score": 0.977,
+"preview": "https://geo-samples.beatport.com/track/700936fc-970d-4bf7-a30e-170eccb1383b.LOFI.mp3",
+"name": "Healer",
+"mix": "Guy J Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2021-03-16"
+},
+{
+"minute": 236,
+"artist": "Guy J",
+"title": "Life Is A Journey ID",
+"label": ""
+},
+{
+"minute": 242,
+"artist": "Guy J",
+"title": "Monster",
+"label": "Unreleased"
+},
+{
+"minute": 248,
+"artist": "Guy J",
+"title": "Quantum",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "[4:??:??] Grandbrothers",
+"title": "Bloodflow (Guy J Edit)",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "[4:??:??] Omid 16B",
+"title": "Escape (Driving To Heaven)",
+"label": "(Guy J Remix) - Alola",
+"bp": "bp:1060651",
+"score": 0.739,
+"preview": "https://geo-samples.beatport.com/track/3eab36f1-2c24-4d12-b607-eeb2ebc46601.LOFI.mp3",
+"name": "Escape (Driving To Heaven)",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2010-01-04"
+}
+]
+},
+{
+"title": "2024-09-13 - Guy J @ Edge & Boson Pres. Guy J, Club Vaag, Antwerpen",
+"records": [
+{
+"minute": 0,
+"artist": "Cornucopia",
+"title": "Metro 2024 ID",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "Valon",
+"title": "Utopia",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Florian Rietze Feat. Lu Cia\u0142o",
+"title": "No News (Lesterr Interpretation)",
+"label": "",
+"bp": "bp:18844715",
+"score": 0.767,
+"preview": "https://geo-samples.beatport.com/track/310357ca-3737-44b1-8b83-635874afd491.LOFI.mp3",
+"name": "No News (Lesterr Interpretation)",
+"mix": "Lesterr Interpretation",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2024-05-03"
+},
+{
+"minute": 16,
+"artist": "Dave Gahan",
+"title": "Dirty, Sticky Floors (Junkie XL Vocal Mix) (Reprise)",
+"label": "",
+"bp": "bp:1400036",
+"score": 0.932,
+"preview": "https://geo-samples.beatport.com/track/73924efc-41fa-49eb-b9ae-8c3b67f8aea9.LOFI.mp3",
+"name": "Dirty Sticky Floors",
+"mix": "Junkie XL Vocal Remix",
+"genre": "progressive-house",
+"released": "2003-04-29"
+},
+{
+"minute": 21,
+"artist": "D-Nox & DJ Zombi",
+"title": "There Is Hope (Mike Griego Psychofunk Remix)",
+"label": "Sprout",
+"bp": "bp:19359694",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4cc7c07a-dbc5-4aa0-81ea-9043f2c38444.LOFI.mp3",
+"name": "There Is Hope",
+"mix": "Mike Griego PsychoFunk Remix",
+"genre": "progressive-house",
+"released": "2024-09-13"
+},
+{
+"minute": 27,
+"artist": "Peace Division",
+"title": "Blacklight Sleaze (Mike Rish Remix)",
+"label": "Dogmatik"
+},
+{
+"minute": null,
+"artist": "Djol\u00e9e & Gespona",
+"title": "Malabares (CIOZ Remix)",
+"label": "Rummel"
+},
+{
+"minute": 37,
+"artist": "Enamour",
+"title": "Zizzy",
+"label": "Frau Blau",
+"bp": "bp:19638418",
+"score": 0.775,
+"preview": "https://geo-samples.beatport.com/track/29eb53fc-cb9a-4391-ba87-a08a32825456.LOFI.mp3",
+"name": "Zizzy",
+"mix": "Mixed",
+"genre": "melodic-house-techno",
+"released": "2024-10-18"
+},
+{
+"minute": 42,
+"artist": "Josh Butler Feat. Shyam P",
+"title": "Find You Again",
+"label": "Gruuv",
+"bp": "bp:18595311",
+"score": 0.73,
+"preview": "https://geo-samples.beatport.com/track/364dc7f8-8e37-4bba-83e6-cc6c970aa414.LOFI.mp3",
+"name": "Find You Again",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-02-23"
+},
+{
+"minute": 47,
+"artist": "Seyah",
+"title": "Dope (Maze 28 & Kyotto Remix)",
+"label": "Mango Alley",
+"bp": "bp:19047533",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f208c02c-03c1-48c1-816b-20021d219ffb.LOFI.mp3",
+"name": "Dope",
+"mix": "Maze 28 & Kyotto Remix",
+"genre": "progressive-house",
+"released": "2024-06-13"
+},
+{
+"minute": 53,
+"artist": "Guy J",
+"title": "Everyday",
+"label": "Bedrock"
+},
+{
+"minute": 60,
+"artist": "Moshic",
+"title": "Love Made Me Do It (Guy J Remix)",
+"label": "Bedrock",
+"bp": "bp:19797839",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af7a5607-9e99-4cd4-8403-07b766d6d183.LOFI.mp3",
+"name": "Love Made Me Do It",
+"mix": "Guy J Remix",
+"genre": "progressive-house",
+"released": "2024-12-06"
+}
+]
+},
+{
+"title": "2025-02-28 - John Digweed (Metropolitano, Rosario, Part 1), Guy J - Transitions 1070",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 8,
+"artist": "David Calo",
+"title": "Spooner (Fabricio Mosoni Remix)",
+"label": "Flown",
+"bp": "bp:20119859",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9fd2e798-bc67-4e9a-b104-ea2b4d1ab244.LOFI.mp3",
+"name": "Spooner",
+"mix": "Fabricio Mosoni Remix",
+"genre": "melodic-house-techno",
+"released": "2025-02-28"
+},
+{
+"minute": 13,
+"artist": "David Calo",
+"title": "Deku Boy",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "Kadosh & Magit Cacoon",
+"title": "L.O.V.E (Nico Stojan Remix)",
+"label": "Frau Blau",
+"bp": "bp:20033712",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b632450e-b51d-4aba-bacd-2e91de69513e.LOFI.mp3",
+"name": "L.O.V.E",
+"mix": "Nico Stojan Remix",
+"genre": "electronica",
+"released": "2025-02-21"
+},
+{
+"minute": 26,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 35,
+"artist": "Hermanez",
+"title": "Eight Years",
+"label": "Bedrock",
+"bp": "bp:20336671",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/7731ec17-e321-4ac8-a05b-2e03c992fd29.LOFI.mp3",
+"name": "Eight Years",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-04-25"
+},
+{
+"minute": 41,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 47,
+"artist": "Danny Tenaglia & George Vidal",
+"title": "Danny Tenaglia Pres. George Vidal: Out From Obscurity",
+"label": "Nervous"
+},
+{
+"minute": 52,
+"artist": "Bengoa Feat. Ian",
+"title": "En Route",
+"label": "Sublease"
+},
+{
+"minute": 58,
+"artist": "Bengoa",
+"title": "Let's Try Again",
+"label": "Sublease",
+"bp": "bp:19725384",
+"score": 0.819,
+"preview": "https://geo-samples.beatport.com/track/0ad5dbd6-cd5a-47bc-9cde-e1a1cea27019.LOFI.mp3",
+"name": "Let's Try Again",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-12-06"
+},
+{
+"minute": 60,
+"artist": "Guy J",
+"title": "Blue Garden",
+"label": "",
+"bp": "bp:4536909",
+"score": 0.577,
+"preview": "https://geo-samples.beatport.com/track/4e4d18b0-def9-42a0-975b-0749e4f8d2e3.LOFI.mp3",
+"name": "Blue Garden",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2013-07-25"
+},
+{
+"minute": 69,
+"artist": "Sasheen & Ashtenn",
+"title": "Rabbit Hole (Dave DK Remix)",
+"label": "Shanti Radio",
+"bp": "bp:19834287",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c414991-d98d-4541-bfdc-ec4bc29aafca.LOFI.mp3",
+"name": "Rabbit Hole",
+"mix": "Dave DK Remix",
+"genre": "progressive-house",
+"released": "2024-12-20"
+},
+{
+"minute": 74,
+"artist": "Cornucopia",
+"title": "Infinity Pool",
+"label": ""
+},
+{
+"minute": 79,
+"artist": "Cornucopia",
+"title": "Remember Me",
+"label": "Early Morning",
+"bp": "bp:20080275",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/9110df00-6303-4ba1-8f49-435200092f17.LOFI.mp3",
+"name": "Remember Me",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-02-28"
+},
+{
+"minute": 86,
+"artist": "Guy J",
+"title": "Silver Lake",
+"label": "Early Morning",
+"bp": "bp:19796872",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/2205b148-bef6-4e39-85df-95219db08676.LOFI.mp3",
+"name": "Silver Lake",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-12-20"
+},
+{
+"minute": 91,
+"artist": "Guy J",
+"title": "Everyday",
+"label": "Bedrock"
+},
+{
+"minute": 98,
+"artist": "Cornucopia",
+"title": "Early Morning",
+"label": "Early Morning",
+"bp": "bp:20080276",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f0ab6023-2305-41eb-bbf5-1830518f9c9c.LOFI.mp3",
+"name": "Early Morning",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-02-28"
+},
+{
+"minute": 104,
+"artist": "Moshic",
+"title": "Love Made Me Do It (Guy J Remix)",
+"label": "Bedrock",
+"bp": "bp:19797839",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af7a5607-9e99-4cd4-8403-07b766d6d183.LOFI.mp3",
+"name": "Love Made Me Do It",
+"mix": "Guy J Remix",
+"genre": "progressive-house",
+"released": "2024-12-06"
+},
+{
+"minute": 109,
+"artist": "Guy J",
+"title": "Stranger In A Strange World",
+"label": "Bedrock",
+"bp": "bp:20110412",
+"score": 0.884,
+"preview": "https://geo-samples.beatport.com/track/be804719-1b90-4c9e-a629-f5d36390f43c.LOFI.mp3",
+"name": "Stranger In A Strange World",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-02-28"
+},
+{
+"minute": 115,
+"artist": "Chopstick & Johnjon Feat. Signaljacker",
+"title": "Roots (Cornucopia Remix)",
+"label": "Suol",
+"bp": "bp:20713967",
+"score": 0.726,
+"preview": "https://geo-samples.beatport.com/track/d30a1526-ecb8-4a5d-be8f-514ff0207611.LOFI.mp3",
+"name": "Roots feat. Signaljacker",
+"mix": "Cornucopia Remix",
+"genre": "progressive-house",
+"released": "2025-07-25"
+}
+]
+},
+{
+"title": "2025-05-07 - Guy J - Into The Rhythm (May Promo Mix)",
+"records": [
+{
+"minute": 0,
+"artist": "Westseven & Miguel Matoz",
+"title": "Brainchild (Mono Electric Orchestra Ambient Mix)",
+"label": "Mango Alley",
+"bp": "bp:14575158",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5ccaa948-a34a-4567-83ed-aff8b3a5b8df.LOFI.mp3",
+"name": "Brainchild",
+"mix": "Mono Electric Orchestra Ambient Mix",
+"genre": "electronica",
+"released": "2020-12-14"
+},
+{
+"minute": 7,
+"artist": "Pantha Du Prince",
+"title": "Heaven Is Where You Are (Dave DK Remix)",
+"label": "Modern",
+"bp": "bp:22864109",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8e393ee2-8a12-4ed8-9353-9790e4a692b0.LOFI.mp3",
+"name": "Heaven Is Where You Are",
+"mix": "Dave DK Remix",
+"genre": "dance-pop",
+"released": "2023-08-04"
+},
+{
+"minute": 12,
+"artist": "Arodes & Fahlberg",
+"title": "She Asked Me To Dance",
+"label": "Unreleased",
+"bp": "bp:19704855",
+"score": 0.858,
+"preview": "https://geo-samples.beatport.com/track/b241c568-fdf3-4df3-9723-06cd2edc2c2c.LOFI.mp3",
+"name": "She Asked Me To Dance",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-11-22"
+},
+{
+"minute": 17,
+"artist": "Mike Rish",
+"title": "Shokl",
+"label": "Meanwhile"
+},
+{
+"minute": 25,
+"artist": "Mario Bianco",
+"title": "Ikigai",
+"label": "Hoomidaas"
+},
+{
+"minute": 32,
+"artist": "Ellroy",
+"title": "That Was Patricia",
+"label": "Mango Alley",
+"bp": "bp:20062505",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/ad085fe6-06a2-40d1-8fc4-f690579b9ac6.LOFI.mp3",
+"name": "That Was Patricia",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-03-06"
+},
+{
+"minute": 38,
+"artist": "FJL",
+"title": "Rare Wizards",
+"label": "Proportion",
+"bp": "bp:20152985",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/1637cbf8-5057-42c9-a140-5ebb64cc8348.LOFI.mp3",
+"name": "Rare Wizards",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-03-21"
+},
+{
+"minute": 44,
+"artist": "Kebin Van Reeken",
+"title": "Monster",
+"label": "Kitchen"
+},
+{
+"minute": 49,
+"artist": "Chicola",
+"title": "Samerano",
+"label": "Early Morning"
+},
+{
+"minute": 54,
+"artist": "Blomfelt",
+"title": "An Ending",
+"label": "Oathcreations"
+}
+]
+},
+{
+"title": "2025-08-10 - Guy J @ Loveland Festival, Circle Stage, Sloterpark, Amsterdam (Loveland Legacy, LL278)",
+"records": [
+{
+"minute": 0,
+"artist": "Berni Turletti",
+"title": "Onix",
+"label": "Solis"
+},
+{
+"minute": 5,
+"artist": "Yeadon",
+"title": "What Is Real",
+"label": "10 Steps North",
+"bp": "bp:19954700",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/5361e202-df1d-48d2-8201-53abbd5883b4.LOFI.mp3",
+"name": "What Is Real",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2025-02-07"
+},
+{
+"minute": 14,
+"artist": "Guy J",
+"title": "No Drama",
+"label": "Global Underground"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "We Are Lost",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Element",
+"label": "Global Underground"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "A Moment Of Clarity",
+"label": "Global Underground",
+"bp": "bp:22048498",
+"score": 0.847,
+"preview": "https://geo-samples.beatport.com/track/4df4f98c-3502-467b-88cf-7d34eb9acdbe.LOFI.mp3",
+"name": "A Moment Of Clarity",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-10-17"
+},
+{
+"minute": 38,
+"artist": "Guy J",
+"title": "Surreal",
+"label": "Early Morning"
+},
+{
+"minute": 45,
+"artist": "Guy J",
+"title": "Elasis",
+"label": ""
+},
+{
+"minute": 50,
+"artist": "Kasper Koman",
+"title": "Biome (Mike Rish Remix)",
+"label": "Meanwhile",
+"bp": "bp:20751423",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fa8c4608-8e69-4911-a440-924fadea1057.LOFI.mp3",
+"name": "Biome",
+"mix": "Mike Rish Remix",
+"genre": "progressive-house",
+"released": "2025-07-25"
+},
+{
+"minute": 55,
+"artist": "Out Of Orbit",
+"title": "Scorpion (Guy J Remix)",
+"label": "Shamanic Tales"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Nirvana (Dub)",
+"label": ""
+},
+{
+"minute": 68,
+"artist": "Guy J",
+"title": "Worlds Apart",
+"label": "Early Morning",
+"bp": "bp:21809459",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/7aac72c3-0778-4076-8d28-3d23d971661a.LOFI.mp3",
+"name": "Worlds Apart",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-09-26"
+},
+{
+"minute": 75,
+"artist": "Tantum",
+"title": "Unblur",
+"label": "Early Morning"
+},
+{
+"minute": null,
+"artist": "Guy J",
+"title": "Eureka",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The Acid",
+"title": "Accidents (Guy J Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The Chemical Brothers",
+"title": "The Pills Won't Help You Now (Guy J Remix)",
+"label": ""
+}
+]
+},
+{
+"title": "2026-04-04 - Guy J @ Alma De Mar, Silk Beach Club, Buzios, Rio de Janeiro",
+"records": []
+}
+]
 }

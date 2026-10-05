@@ -1,5 +1,227 @@
 {
 "dj": "Piem",
 "source": "MixesDB (CC BY-SA 3.0)",
-"sets": []
+"sets": [
+{
+"title": "2019-08-19 - Piem - Big Beat Radio EP 060 (Summer Essentials Mix)",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 5,
+"artist": "wAFF",
+"title": "Josie",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "John Summit",
+"title": "Viva Voce",
+"label": "Repopulate Mars - RPM064"
+},
+{
+"minute": 15,
+"artist": "Cloonee",
+"title": "That Gurl",
+"label": "Material - 149"
+},
+{
+"minute": 19,
+"artist": "DJ Fronter",
+"title": "Gang",
+"label": "UNDER NO ILLUSION"
+},
+{
+"minute": 23,
+"artist": "Dale Howard",
+"title": "Don't Touch",
+"label": "Club Sweat - CLUBSWE176",
+"bp": "bp:11911856",
+"score": 0.777,
+"preview": "https://geo-samples.beatport.com/track/42ed9159-824e-487a-896a-4210f18b3b8d.LOFI.mp3",
+"name": "Don't Touch",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2019-07-19"
+},
+{
+"minute": 26,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 30,
+"artist": "The Deepshakerz & Solo Tamas",
+"title": "Nasty Flow",
+"label": "Under No Illusion - UNI135",
+"bp": "bp:11695099",
+"score": 0.764,
+"preview": "https://geo-samples.beatport.com/track/7b277ae4-4183-4f22-85b6-97363932d445.LOFI.mp3",
+"name": "Nasty Flow",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-05-03"
+},
+{
+"minute": 35,
+"artist": "Piem",
+"title": "Weekend Girl",
+"label": "Relief - RR2203",
+"bp": "bp:12329407",
+"score": 0.789,
+"preview": "https://geo-samples.beatport.com/track/f5565a6e-5c4f-4b35-a7ce-2bf5f3bfbaa5.LOFI.mp3",
+"name": "Weekend Girl",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-07-26"
+},
+{
+"minute": 39,
+"artist": "Miane",
+"title": "Put It In Motion",
+"label": "Moon Harbour - MHD064",
+"bp": "bp:11998237",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/7a39847c-fe6a-4bbf-8cf3-d70758736a73.LOFI.mp3",
+"name": "Put It in Motion",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-06-13"
+},
+{
+"minute": 44,
+"artist": "Leonardo Gonnelli & Adne",
+"title": "Feeling Your Body",
+"label": "Play It Say It - PLAY040",
+"bp": "bp:12085455",
+"score": 0.834,
+"preview": "https://geo-samples.beatport.com/track/e8bcb64e-fa41-44d6-a521-878a6cedb4c3.LOFI.mp3",
+"name": "Feeling Your Body",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-06-28"
+},
+{
+"minute": 49,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 52,
+"artist": "Caal & Baum Feat. Menesix",
+"title": "Chinese Girl (Eskuche Extended Mix)",
+"label": "Abode - ABR026",
+"bp": "bp:12022204",
+"score": 0.801,
+"preview": "https://geo-samples.beatport.com/track/8b054096-0049-436d-ad34-68ed29ad331d.LOFI.mp3",
+"name": "Chinese Girl (feat. Menesix)",
+"mix": "Eskuche Extended Mix",
+"genre": "tech-house",
+"released": "2019-06-14"
+},
+{
+"minute": 57,
+"artist": "Meduza Feat. GOODBOYS",
+"title": "Piece Of Your Heart (Lee Foss Remix)",
+"label": "",
+"bp": "bp:12275613",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/45834c69-606b-4e15-b91c-565b55fe0f8b.LOFI.mp3",
+"name": "Piece Of Your Heart",
+"mix": "Lee Foss Remix",
+"genre": "tech-house",
+"released": "2019-07-12"
+}
+]
+},
+{
+"title": "2023-03-23 - Ryan McDermott, Piem - Cafe Mambo Ibiza Podcast 070",
+"records": [
+{
+"minute": 0,
+"artist": "Tensnake",
+"title": "Coma Cat (Chloe Caillet Remix)",
+"label": "",
+"bp": "bp:17400305",
+"score": 0.917,
+"preview": "https://geo-samples.beatport.com/track/813b5339-a239-4297-9b0d-a79690dcb16d.LOFI.mp3",
+"name": "Coma Cat",
+"mix": "Chloe Caillet Extended Remix",
+"genre": "house",
+"released": "2023-02-24"
+},
+{
+"minute": null,
+"artist": "Pete Griffiths Feat. Ebony Soul & Ann Nesby",
+"title": "Get Together",
+"label": "",
+"bp": "bp:26216274",
+"score": 0.732,
+"preview": "https://geo-samples.beatport.com/track/ae60cd58-7cd1-44df-ab97-f8e630cf9641.LOFI.mp3",
+"name": "Get Together",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2023-12-15"
+},
+{
+"minute": null,
+"artist": "Jamie Jones",
+"title": "Lose My Mind",
+"label": "",
+"bp": "bp:26769971",
+"score": 0.88,
+"preview": "https://geo-samples.beatport.com/track/287a7235-070f-4529-9265-9a82b54c5453.LOFI.mp3",
+"name": "Lose My Mind",
+"mix": "Intro",
+"genre": "house",
+"released": "2023-03-10"
+},
+{
+"minute": null,
+"artist": "Sandy Rivera (Kings Of Tomorrow) & Jame Starck Feat. Alexis Victoria, Zetaphunk & Yvvan Back",
+"title": "Set You Free",
+"label": ""
+},
+{
+"minute": null,
+"artist": "James Cole Feat. Ledniczky",
+"title": "I'm Sorry",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Saison",
+"title": "Feel This",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Tommy Mambretti",
+"title": "Love Us",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Gorgon City",
+"title": "Voodoo",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mambo Memories: Guti",
+"title": "Hope",
+"label": ""
+},
+{
+"minute": 55,
+"artist": "Sunset Track: G Club Pres. Banda Sonira",
+"title": "Guitarra G (Afterlife Mix)",
+"label": ""
+}
+]
+}
+]
 }
