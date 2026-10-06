@@ -2253,7 +2253,7 @@
 "date": "2026-10-06",
 "scene": "mainstage",
 "regime": "stars lead",
-"established": 5
+"established": 6
 },
 {
 "date": "2026-10-06",
@@ -2271,7 +2271,7 @@
 "date": "2026-10-06",
 "scene": "trance-main-floor",
 "regime": "stars behind",
-"established": 5
+"established": 6
 },
 {
 "date": "2026-10-06",
@@ -2295,6 +2295,12 @@
 "date": "2026-10-06",
 "scene": "nu-disco-disco",
 "regime": "stars behind",
+"established": 5
+},
+{
+"date": "2026-10-06",
+"scene": "trance-raw-deep-hypnotic",
+"regime": "stars lead",
 "established": 5
 }
 ]
