@@ -1,0 +1,304 @@
+{
+"dj": "Flowdan",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2020-12-11 - Youngsta & Flowdan - FOLD x Sentry Records",
+"records": []
+},
+{
+"title": "2023-04-03 - Neffa T & Flowdan @ H\u00d6R London Takeover",
+"records": []
+},
+{
+"title": "2024-01-27 - Skream & Flowdan @ Boiler Room Liverpool",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Featuring Flowdan:&#160;?"
+},
+{
+"minute": 5,
+"artist": "Skream",
+"title": "Lemon",
+"label": "Ifeel",
+"bp": "bp:14969699",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/58f8457d-b1f2-49bb-8b7f-c1edcc2db114.LOFI.mp3",
+"name": "Lemon",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2021-03-12"
+},
+{
+"minute": 6,
+"artist": "Darqwan",
+"title": "Said The Spider VIP",
+"label": "",
+"bp": "bp:3676479",
+"score": 0.929,
+"preview": "https://geo-samples.beatport.com/track/e507e47d-5ec3-42fa-8ffe-b24dd14f8338.LOFI.mp3",
+"name": "Said The Spider",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2012-08-13"
+},
+{
+"minute": 9,
+"artist": "TMSV",
+"title": "Prism",
+"label": "",
+"bp": "bp:18488543",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e8352be6-877b-4584-9236-7559d1a99cc8.LOFI.mp3",
+"name": "Prism",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2024-01-12"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 11,
+"artist": "Skream",
+"title": "Oskillatah",
+"label": "Tempa",
+"bp": "bp:818901",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4edb5870-f9e7-42de-869d-bea35752f952.LOFI.mp3",
+"name": "Oskillatah",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2008-01-21"
+},
+{
+"minute": 13,
+"artist": "Chase & Status & Bou Feat. Trigga & IRAH & Flowdan & Takura",
+"title": "Baddadan (Torcha Flip)",
+"label": "",
+"bp": "bp:17963469",
+"score": 0.95,
+"preview": "https://geo-samples.beatport.com/track/c70c8605-a678-43af-9ff4-93ccc7ba650f.LOFI.mp3",
+"name": "Baddadan",
+"mix": "Extended Mix",
+"genre": "drum-bass",
+"released": "2023-07-27"
+},
+{
+"minute": 16,
+"artist": "Bounty Killer",
+"title": "Warlord Walk",
+"label": "",
+"bp": "bp:27385066",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0020c9c-ad50-4696-822d-8be7f31abb47.LOFI.mp3",
+"name": "Warlord Walk",
+"mix": "Original Mix",
+"genre": "caribbean",
+"released": "2005-03-21"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 21,
+"artist": "Skream",
+"title": "Bang That (Chef Boyarbeatz Bootleg)",
+"label": ""
+},
+{
+"minute": 23,
+"artist": "Basura & Persy",
+"title": "Death Threats (Wraz Remix)",
+"label": ""
+},
+{
+"minute": 24,
+"artist": "Lost",
+"title": "White Noise",
+"label": "",
+"bp": "bp:18915179",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/469631d7-27a6-4ab9-ab0d-b89b3119d87e.LOFI.mp3",
+"name": "White Noise",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2024-05-02"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 32,
+"artist": "Claybrook",
+"title": "Stonecold Dub (VIP)",
+"label": "Dpmo",
+"bp": "bp:19207070",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8810475d-3606-4db2-8502-998a940c1cba.LOFI.mp3",
+"name": "STONECOLD DUB",
+"mix": "VIP",
+"genre": "dubstep",
+"released": "2024-07-10"
+},
+{
+"minute": 33,
+"artist": "?",
+"title": "Skream X Coki",
+"label": "ID (Foxy Brown 'Tables Will Turn' Remix)"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 42,
+"artist": "SEEK",
+"title": "Orbit",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "SEEK",
+"title": "Debunk",
+"label": "",
+"bp": "bp:18555403",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eef0cdc9-44d7-40c3-b38a-b6897e80016f.LOFI.mp3",
+"name": "DEBUNK",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2024-01-25"
+},
+{
+"minute": 46,
+"artist": "Truth",
+"title": "Elephant Scatter (Basura Remix)",
+"label": "Deep Dark & Dangerous",
+"bp": "bp:18926387",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1304360-ba0d-46d6-80be-777eb98ffcab.LOFI.mp3",
+"name": "Elephant Scatter",
+"mix": "Basura Remix",
+"genre": "140-deep-dubstep-grime",
+"released": "2024-04-19"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Double 99",
+"title": "Rip Groove",
+"label": "Ice Cream",
+"bp": "bp:4862141",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/12d186fc-431e-4afc-ad86-971e84035560.LOFI.mp3",
+"name": "RIP Groove",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2013-10-14"
+},
+{
+"minute": 52,
+"artist": "Jammin",
+"title": "Kinda Funky",
+"label": "Bingo Bass",
+"bp": "bp:11518229",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/442829a1-cdcf-4308-9220-1664fa2031bf.LOFI.mp3",
+"name": "Kinda Funky",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2019-01-09"
+},
+{
+"minute": 53,
+"artist": "Sticky",
+"title": "Golly Gosh",
+"label": "Perpetuity",
+"bp": "bp:4627057",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18b0f4b2-02ae-4e87-913e-466c8ec25536.LOFI.mp3",
+"name": "Golly Gosh",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2011-03-27"
+},
+{
+"minute": null,
+"artist": "[5?] DJ Zinc",
+"title": "138 Trek",
+"label": "True Playaz",
+"bp": "bp:20059789",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/53f1b6df-4c19-457c-8553-f43cceeff514.LOFI.mp3",
+"name": "138 Trek",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-01-28"
+},
+{
+"minute": null,
+"artist": "[5?] Skream",
+"title": "Thinking Of You",
+"label": "Skreamizm",
+"bp": "bp:17936807",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/9ac37343-0011-4125-b916-cab9d5320de8.LOFI.mp3",
+"name": "Thinking Of You",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2023-08-02"
+}
+]
+},
+{
+"title": "2024-02-23 - Neffa-T & Flowdan @ Boiler Room Leeds",
+"records": []
+},
+{
+"title": "2025-02-24 - D Double E & MCs - D Double E Presents Reload Kings",
+"records": []
+},
+{
+"title": "2025-06-25 - Youngsta & Flowdan - Youngsta. & Friends EPO01",
+"records": []
+},
+{
+"title": "2025-07-26 - Plastician b2b Oneman & Neffa-T & MC's @ Outlook Origins, Croatia (OUTMIX005)",
+"records": []
+}
+]
+}
