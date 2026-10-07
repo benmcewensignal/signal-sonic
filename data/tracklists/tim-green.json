@@ -1,639 +1,1034 @@
 {
- "dj": "Tim Green",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2025-04-18 - Tim Green - Balance Croatia 019",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Greg Ochman",
-     "title": "Ikigai",
-     "label": ""
-    },
-    {
-     "minute": 6,
-     "artist": "Come Closer",
-     "title": "Hillary Queen",
-     "label": "Phagamast",
-     "bp": "bp:19283511",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/41eba377-7708-45fd-9380-e486b5530c57.LOFI.mp3",
-     "name": "Hillary Queen",
-     "mix": "Original Mix",
-     "genre": "organic-house",
-     "released": "2024-08-02"
-    },
-    {
-     "minute": 10,
-     "artist": "Obbie & Dulus",
-     "title": "Creme Brulee",
-     "label": "",
-     "bp": "bp:20782665",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 16,
-     "artist": "''Mredrollo",
-     "title": "ID''",
-     "label": ""
-    },
-    {
-     "minute": 21,
-     "artist": "Tim Green",
-     "title": "Minds",
-     "label": "",
-     "bp": "bp:20633756",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 28,
-     "artist": "Yuvèe",
-     "title": "Freydies",
-     "label": "Anjunadeep Explorations"
-    },
-    {
-     "minute": 32,
-     "artist": "''Max Wexem & Ventt",
-     "title": "ID''",
-     "label": ""
-    },
-    {
-     "minute": 36,
-     "artist": "Above & Beyond",
-     "title": "Homecoming (Tim Green Remix) [Anjunabeats]''",
-     "label": "",
-     "bp": "bp:29296704",
-     "score": 0.823,
-     "preview": "https://geo-samples.beatport.com/track/43b934e3-8d5a-4d77-9fc4-500935b58225.LOFI.mp3",
-     "name": "Homecoming",
-     "mix": "Tim Green Extended Mix",
-     "genre": "organic-house",
-     "released": "2026-07-06"
-    },
-    {
-     "minute": 43,
-     "artist": "''Dulus",
-     "title": "ID''",
-     "label": ""
-    },
-    {
-     "minute": 48,
-     "artist": "Jiggler",
-     "title": "Delight [Kling Klong]''",
-     "label": ""
-    },
-    {
-     "minute": 51,
-     "artist": "Molac & Nicolas Viana",
-     "title": "Soma",
-     "label": "Sendas"
-    },
-    {
-     "minute": 57,
-     "artist": "Tim Green",
-     "title": "Ambush Oceans",
-     "label": ""
-    },
-    {
-     "minute": 63,
-     "artist": "Somelee",
-     "title": "Alegria",
-     "label": ""
-    },
-    {
-     "minute": 68,
-     "artist": "Foglight",
-     "title": "Circuit Valley (Praveen Achary Remix)",
-     "label": "Juicebox",
-     "bp": "bp:18471645",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/9091a87a-e5c9-4b4a-9600-494bce340bd2.LOFI.mp3",
-     "name": "Circuit Valley",
-     "mix": "Praveen Achary Remix",
-     "genre": "progressive-house",
-     "released": "2024-01-12"
-    },
-    {
-     "minute": 74,
-     "artist": "Mayro",
-     "title": "Same Idea (Digital Mess Material Remix)",
-     "label": "Traful",
-     "bp": "bp:19169285",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/b706d8bb-d6e1-4d7c-8577-a3002d504d34.LOFI.mp3",
-     "name": "Same Idea",
-     "mix": "Digital Mess Material Remix",
-     "genre": "progressive-house",
-     "released": "2024-07-19"
-    },
-    {
-     "minute": 80,
-     "artist": "''Tim Green & PROFF",
-     "title": "ID''",
-     "label": ""
-    },
-    {
-     "minute": 85,
-     "artist": "Tim Green",
-     "title": "Flower Salts",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2025-08-10 - Tim Green @ Balance Croatia, The Garden Tisno, Croatia",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Anonimat",
-     "title": "Jump Or Swim (Mredrollo Remix)",
-     "label": "WORDS NOT ENOUGH",
-     "bp": "bp:21870784",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/bba1c00c-3c57-49dc-a82e-6dba443b0f92.LOFI.mp3",
-     "name": "Jump or Swim",
-     "mix": "mredrollo Remix",
-     "genre": "organic-house",
-     "released": "2025-10-17"
-    },
-    {
-     "minute": 3,
-     "artist": "Avar Garden",
-     "title": "Highkey (Audio Junkies Remix)",
-     "label": "Manitox",
-     "bp": "bp:20670072",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/f4882ff7-46fb-4553-b684-bffddfcf21c8.LOFI.mp3",
-     "name": "Highkey",
-     "mix": "Audio Junkies Remix",
-     "genre": "indie-dance",
-     "released": "2025-08-01"
-    },
-    {
-     "minute": 8,
-     "artist": "Taleman & Max Wexem",
-     "title": "Nova Beat (Extended Mix)",
-     "label": "Try To Find Sound",
-     "bp": "bp:21075816",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/ed56c68d-0bbe-4e02-9da0-1dbadedbaf9d.LOFI.mp3",
-     "name": "Nova Beat",
-     "mix": "Extended Mix",
-     "genre": "organic-house",
-     "released": "2025-09-12"
-    },
-    {
-     "minute": 13,
-     "artist": "Obbie & Dulus",
-     "title": "Crème Brûlée",
-     "label": "For A Memory",
-     "bp": "bp:20782665",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/1b0c8979-7c9f-45fd-8c51-ba3147faabe1.LOFI.mp3",
-     "name": "Crème Brûlée",
-     "mix": "Original Mix",
-     "genre": "organic-house",
-     "released": "2025-08-22"
-    },
-    {
-     "minute": 18,
-     "artist": "Tim Green",
-     "title": "Minds",
-     "label": "All Day I Dream",
-     "bp": "bp:20633756",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 25,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 30,
-     "artist": "Dor Danino & Yamagucci",
-     "title": "Snare Roll",
-     "label": "Maccabi House",
-     "bp": "bp:19869481",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/54244b0d-3c8c-4c20-acf4-c89f7c2fe801.LOFI.mp3",
-     "name": "Snare Roll",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2023-08-04"
-    },
-    {
-     "minute": 34,
-     "artist": "Cour T.",
-     "title": "4DP",
-     "label": "IN / ROTATION (Insomniac Records)"
-    },
-    {
-     "minute": 38,
-     "artist": "Cour T.",
-     "title": "4DP",
-     "label": "IN / ROTATION (Insomniac Records)"
-    },
-    {
-     "minute": 44,
-     "artist": "Dub Taylor",
-     "title": "So Called Life",
-     "label": "Balance",
-     "bp": "bp:23673487",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/2b864070-7f4a-4e1b-8462-cca628d5bb3d.LOFI.mp3",
-     "name": "So Called Life",
-     "mix": "Original Mix",
-     "genre": "dance-pop",
-     "released": "2013-09-30"
-    },
-    {
-     "minute": 51,
-     "artist": "Rafael & Millero",
-     "title": "Say That",
-     "label": "Three Six Zero",
-     "bp": "bp:20271535",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 55,
-     "artist": "Ameme",
-     "title": "Your Vibe (NenaHalena Remix)",
-     "label": "Rise",
-     "bp": "bp:14791185",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/2d3e9e78-4c7e-48d1-8c1c-19072032a401.LOFI.mp3",
-     "name": "Your Vibe",
-     "mix": "NenaHalena Remix",
-     "genre": "afro-house",
-     "released": "2021-02-05"
-    },
-    {
-     "minute": 60,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 65,
-     "artist": "Tim Green",
-     "title": "Body Stars",
-     "label": "All Day I Dream",
-     "bp": "bp:20633755",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/53e9644b-5d00-4a0a-9bd9-566cbfcdc3b3.LOFI.mp3",
-     "name": "Body Stars",
-     "mix": "Original Mix",
-     "genre": "organic-house",
-     "released": "2025-07-25"
-    },
-    {
-     "minute": 73,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 86,
-     "artist": "Yuzza",
-     "title": "Pray (Rebrn & Snirco Remix)",
-     "label": "Kitchen",
-     "bp": "bp:17584693",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/97ac20c0-51e5-4643-b519-5405fc66528b.LOFI.mp3",
-     "name": "Pray",
-     "mix": "Rebrn & Snirco Remix",
-     "genre": "indie-dance",
-     "released": "2023-05-19"
-    },
-    {
-     "minute": 92,
-     "artist": "John Monkman",
-     "title": "Jungle",
-     "label": "Anjunadeep"
-    },
-    {
-     "minute": 97,
-     "artist": "Underworld",
-     "title": "Two Months Off",
-     "label": "",
-     "bp": "bp:27271926",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/ad087673-14b2-482c-88df-6187abdb6dcf.LOFI.mp3",
-     "name": "Two Months Off",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2021-05-27"
-    },
-    {
-     "minute": 111,
-     "artist": "Mredrollo",
-     "title": "Funkinmusic",
-     "label": "All Day I Dream",
-     "bp": "bp:21546687",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/82cb0d68-3dbd-4916-b4f3-201c3348af69.LOFI.mp3",
-     "name": "Funkinmusic",
-     "mix": "Original Mix",
-     "genre": "organic-house",
-     "released": "2025-09-26"
-    },
-    {
-     "minute": 117,
-     "id": null,
-     "raw": "?"
-    }
-   ]
-  },
-  {
-   "title": "2026-07-10 - Above & Beyond, Tim Green - Group Therapy Radio (ABGT 685)",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Xira",
-     "title": "Feel (J Ribbon Remix)",
-     "label": "Anjunabeats",
-     "bp": "bp:29299289",
-     "score": 0.88,
-     "preview": "https://geo-samples.beatport.com/track/8bf043d0-5fc3-4acd-9fcd-b97f9c8d4348.LOFI.mp3",
-     "name": "Feel",
-     "mix": "J Ribbon Extended Mix",
-     "genre": "dance-pop",
-     "released": "2026-07-08"
-    },
-    {
-     "minute": null,
-     "artist": "Super8 & Tab Feat. Hero Baldwin",
-     "title": "Burn (Matt Fax Remix)",
-     "label": "Armada Captivating",
-     "bp": "bp:29297119",
-     "score": 0.885,
-     "preview": "https://geo-samples.beatport.com/track/9638abc5-97a3-4c83-a50d-6bd195a5af9b.LOFI.mp3",
-     "name": "Burn",
-     "mix": "Matt Fax Extended Remix",
-     "genre": "melodic-house-techno",
-     "released": "2026-07-03",
-     "via": "retry"
-    },
-    {
-     "minute": null,
-     "artist": "Harry Diamond & K-MRK",
-     "title": "Found Myself",
-     "label": "Mecha",
-     "bp": "bp:29407165",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/f310e953-a219-4191-b29f-c152d589e124.LOFI.mp3",
-     "name": "Found Myself ",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2026-07-24"
-    },
-    {
-     "minute": null,
-     "artist": "Simon Gregory",
-     "title": "Keep Moving On",
-     "label": "Anjunabeats",
-     "bp": "bp:29482098",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/9c6672fd-5c1e-4b91-a5af-de90c20d0eaf.LOFI.mp3",
-     "name": "Keep Moving On",
-     "mix": "Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2026-07-22"
-    },
-    {
-     "minute": null,
-     "artist": "Fuenka",
-     "title": "Nitidus",
-     "label": "FSOE",
-     "bp": "bp:29392635",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Eric Luttrell Feat. LeyeT",
-     "title": "How Will I Know?",
-     "label": "Anjunadeep",
-     "bp": "bp:29284642",
-     "score": 0.719,
-     "preview": "https://geo-samples.beatport.com/track/5a21d3a3-5ca2-473e-9c0b-fbda08eac8d1.LOFI.mp3",
-     "name": "How Will I Know?",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-07-07"
-    },
-    {
-     "minute": null,
-     "artist": "Ezequiel Arias",
-     "title": "Sin Control",
-     "label": "Anjunadeep",
-     "bp": "bp:29204932",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/e3763bd8-b6c2-440b-acf5-7ac5fce38936.LOFI.mp3",
-     "name": "Sin Control",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2026-06-30"
-    },
-    {
-     "minute": null,
-     "artist": "Durante & Mayro",
-     "title": "Mantra",
-     "label": "Anjunadeep",
-     "bp": "bp:28913525",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Matt Fax & 88Birds",
-     "title": "High On Life",
-     "label": "Colorize",
-     "bp": "bp:29119003",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/fd7f99dd-9ebe-4c77-9c42-431bd38f59ba.LOFI.mp3",
-     "name": "High On Life",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2026-06-24"
-    },
-    {
-     "minute": null,
-     "artist": "Dusky Feat. Rromarin",
-     "title": "Next Life",
-     "label": "Anjunadeep",
-     "bp": "bp:29182912",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Atlantis vs Avatar Feat. Miriam Stockley",
-     "title": "Fiji (Yeadon Remix)",
-     "label": "Anjunabeats",
-     "bp": "bp:29470226",
-     "score": 0.868,
-     "preview": "https://geo-samples.beatport.com/track/c1afbe55-d05d-49ad-bd05-ce9bbdf3c855.LOFI.mp3",
-     "name": "Fiji",
-     "mix": "Yeadon Extended Mix",
-     "genre": "progressive-house",
-     "released": "2026-07-15",
-     "via": "retry"
-    },
-    {
-     "minute": null,
-     "artist": "Maze 28",
-     "title": "Tell Me Again",
-     "label": "Anjunadeep Explorations",
-     "bp": "bp:29202912",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/5226f184-df93-486b-9545-c2683aa60c7b.LOFI.mp3",
-     "name": "Tell Me Again",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2026-07-01"
-    },
-    {
-     "minute": null,
-     "artist": "Peter Illias & Igor Garanin",
-     "title": "Forest Echoes",
-     "label": "Freegrant",
-     "bp": "bp:29284548",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/cb728d02-1ce8-4da4-886d-9a4aa8a0449d.LOFI.mp3",
-     "name": "Forest Echoes ",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2026-07-03"
-    },
-    {
-     "minute": null,
-     "artist": "Kiskadee, Jody Wisternoff & James Grant Feat. Ren Ocean",
-     "title": "Friendly Fire",
-     "label": "Anjunadeep",
-     "bp": "bp:29218037",
-     "score": 0.75,
-     "preview": "https://geo-samples.beatport.com/track/947bd080-d66f-4c57-b317-87636196705e.LOFI.mp3",
-     "name": "Friendly Fire",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-07-03"
-    },
-    {
-     "minute": null,
-     "artist": "Trilucid",
-     "title": "Too Good",
-     "label": "Anjunadeep Explorations",
-     "bp": "bp:29034137",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "M.O.S.",
-     "title": "One Love",
-     "label": "Plaisirs Sonores",
-     "bp": "bp:29599623",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Estiva",
-     "title": "Palma",
-     "label": "Colorize",
-     "bp": "bp:29349203",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Darren Tate & Sxcha",
-     "title": "Colours (Nümind Club Mix)",
-     "label": "Mondo",
-     "bp": "bp:29833550",
-     "score": 0.902,
-     "preview": "https://geo-samples.beatport.com/track/91aed34b-bd45-4693-aed2-1fc5de8880cb.LOFI.mp3",
-     "name": "Colours ",
-     "mix": "nümind Remix",
-     "genre": "trance-main-floor",
-     "released": "2026-07-31"
-    },
-    {
-     "minute": null,
-     "artist": "AVNT",
-     "title": "Brazil",
-     "label": "Anjunabeats",
-     "bp": "bp:29203279",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Signum",
-     "title": "First Strike (Juventa Club Mix)",
-     "label": "Armada",
-     "bp": "bp:4130163",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/994f7a5a-02b5-404a-8e42-4800e333f851.LOFI.mp3",
-     "name": "First Strike",
-     "mix": "Juventa Club Mix",
-     "genre": "trance-main-floor",
-     "released": "2013-02-01"
-    },
-    {
-     "minute": null,
-     "artist": "Above & Beyond",
-     "title": "Homecoming (Tim Green Remix)",
-     "label": "Anjunabeats",
-     "bp": "bp:29296704",
-     "score": 0.908,
-     "preview": "https://geo-samples.beatport.com/track/43b934e3-8d5a-4d77-9fc4-500935b58225.LOFI.mp3",
-     "name": "Homecoming",
-     "mix": "Tim Green Extended Mix",
-     "genre": "organic-house",
-     "released": "2026-07-06"
-    },
-    {
-     "minute": null,
-     "artist": "Trilucid",
-     "title": "One Day At A Time (Tim Green Remix)",
-     "label": "Colorize",
-     "bp": "bp:30082016",
-     "score": 0.928,
-     "preview": "https://geo-samples.beatport.com/track/affbbede-5e95-4e49-a0e3-c04378d1d55c.LOFI.mp3",
-     "name": "One Day At A Time",
-     "mix": "Tim Green Extended Remix",
-     "genre": "organic-house",
-     "released": "2026-08-10"
-    },
-    {
-     "minute": null,
-     "artist": "Mredrollo",
-     "title": "What To Call You",
-     "label": "For A Memory",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Proff & Tim Green",
-     "title": "Sopia",
-     "label": "Anjunadeep",
-     "bp": "bp:28658293",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Tim Green",
-     "title": "Furnace Creek",
-     "label": "Anjunadeep",
-     "retry": 1
-    }
-   ]
-  }
- ]
+"dj": "Tim Green",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2021-06-03 - Tim Green - When We Dip 121",
+"records": [
+{
+"minute": 0,
+"artist": "Tim Green & Izhevski",
+"title": "Icicle",
+"label": "For A Memory",
+"bp": "bp:16590186",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/34558cbd-b394-4fe9-a6eb-4c7f87d56e6e.LOFI.mp3",
+"name": "Icicle",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-06-24"
+},
+{
+"minute": 7,
+"artist": "Liquidlab",
+"title": "Kurkuma",
+"label": "Souksonic",
+"bp": "bp:15334422",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e280db17-e9b5-4daa-b7d1-50ba00da34f5.LOFI.mp3",
+"name": "Kurkuma",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-06-18"
+},
+{
+"minute": 10,
+"artist": "Y.LOH",
+"title": "Illusione (Nhii Remix)",
+"label": "Wayu",
+"bp": "bp:15239315",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e11c8f1a-06ff-4c56-93ac-f440aa0b5150.LOFI.mp3",
+"name": "Illusione",
+"mix": "Nhii Remix",
+"genre": "organic-house",
+"released": "2021-05-28"
+},
+{
+"minute": 15,
+"artist": "Glass Slipper & Atjazz",
+"title": "Unification Vibration",
+"label": "Foliage",
+"bp": "bp:17320812",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9169969-4f7d-447f-b532-55d29d2694d1.LOFI.mp3",
+"name": "Unification Vibration",
+"mix": "Main Mix",
+"genre": "afro-house",
+"released": "2023-03-03"
+},
+{
+"minute": 19,
+"artist": "Mariner + Domingo",
+"title": "Inertia",
+"label": "Sound Avenue",
+"bp": "bp:15617585",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7f366835-9cda-4679-b288-6b2f0ad98ab8.LOFI.mp3",
+"name": "Inertia",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-09-13"
+},
+{
+"minute": 23,
+"artist": "Tim Green",
+"title": "Coriolis",
+"label": "All Day I Dream",
+"bp": "bp:15090312",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/05992f21-037f-4fcb-9754-7cabf6da62c3.LOFI.mp3",
+"name": "Coriolis",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-05-28"
+},
+{
+"minute": 31,
+"artist": "Ventt",
+"title": "Hidden Things",
+"label": "Amulanga",
+"bp": "bp:15431283",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/915ab5d7-4406-487e-aecf-bfadb0f2b5b1.LOFI.mp3",
+"name": "Hidden Things",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-07-02"
+},
+{
+"minute": 38,
+"artist": "Travertia",
+"title": "Auwald",
+"label": "Forestrip",
+"bp": "bp:17518823",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db93197e-d699-446d-a14f-4a6ae1425e49.LOFI.mp3",
+"name": "Auwald",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2023-05-05"
+},
+{
+"minute": 42,
+"artist": "Zone+",
+"title": "Mountain High",
+"label": "",
+"bp": "bp:16192742",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3430bc95-205a-40d3-880e-07a33c995842.LOFI.mp3",
+"name": "Mountain High",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-02-25"
+},
+{
+"minute": 48,
+"artist": "Vadim Basov",
+"title": "Spring Story (DP-6 Remix)",
+"label": "Dp-6",
+"bp": "bp:17886590",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7fc1da1-2fcb-44bf-b848-caa3a5afe102.LOFI.mp3",
+"name": "Spring Story",
+"mix": "DP-6 Remix",
+"genre": "organic-house",
+"released": "2023-07-21"
+},
+{
+"minute": 54,
+"artist": "Tim Green",
+"title": "We've Been Here Before",
+"label": "All Day I Dream",
+"bp": "bp:16918532",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/21ecb161-0e10-4939-abd5-d8dc3c0fbead.LOFI.mp3",
+"name": "We've Been Here Before",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-10-28"
+},
+{
+"minute": 61,
+"artist": "Modd",
+"title": "Bumerang",
+"label": "Something Special",
+"bp": "bp:15851657",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0302e01f-d76d-43bb-9abc-86b680d0cdd1.LOFI.mp3",
+"name": "Bumerang",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-11-05"
+},
+{
+"minute": 67,
+"artist": "Latteo Feat. Valeriya",
+"title": "Gypsy",
+"label": "Amselcom"
+},
+{
+"minute": 71,
+"artist": "Eelke Kleijn",
+"title": "The Hierophant (Tim Green Remix)",
+"label": "Days Like Nights (Armada)",
+"bp": "bp:15511499",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c2b80583-8817-44e8-9cec-534d45e17c82.LOFI.mp3",
+"name": "The Hierophant",
+"mix": "Tim Green Extended Remix",
+"genre": "progressive-house",
+"released": "2021-08-06"
+},
+{
+"minute": 78,
+"artist": "Tim Green",
+"title": "Moss",
+"label": "All Day I Dream",
+"bp": "bp:15090307",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b21d5b2d-a1ba-483e-92d5-321d0c58377d.LOFI.mp3",
+"name": "Moss",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-05-28"
+},
+{
+"minute": 86,
+"artist": "Tim Green",
+"title": "Among Wolves (Volen Sentir Remix)",
+"label": "For A Memory",
+"bp": "bp:15601510",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a3674fc-df09-4c64-b8c7-4a35510bbe7c.LOFI.mp3",
+"name": "Among Wolves",
+"mix": "Volen Sentir Remix",
+"genre": "organic-house",
+"released": "2021-09-03"
+},
+{
+"minute": 92,
+"artist": "Replicanth & Ismaehl",
+"title": "Alithir",
+"label": "",
+"bp": "bp:15312405",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/73b0dd9a-ff34-43ba-ae7c-80e3839c2913.LOFI.mp3",
+"name": "Alithir",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-06-04"
+},
+{
+"minute": 96,
+"artist": "S\u00e9bastien L\u00e9ger",
+"title": "Lava",
+"label": "All Day I Dream",
+"bp": "bp:15351499",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/339aee40-e754-41de-b5f5-501ae1f211a4.LOFI.mp3",
+"name": "Lava",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-08-06"
+},
+{
+"minute": 103,
+"artist": "Tim Green",
+"title": "Battle Illusion",
+"label": "Trybesof",
+"bp": "bp:16206841",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5233e487-0aac-4579-9410-fbb9d1013fd4.LOFI.mp3",
+"name": "Battle Illusion",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-03-04"
+},
+{
+"minute": 109,
+"artist": "Eli Nissan",
+"title": "Lyla",
+"label": "Lost Miracle",
+"bp": "bp:15367955",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/765a6f61-d77e-4255-ad7d-80d9168178de.LOFI.mp3",
+"name": "Lyla",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-06-25"
+},
+{
+"minute": 116,
+"artist": "Enamour",
+"title": "Ergot",
+"label": "Get Physical",
+"bp": "bp:16431460",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/62f550a3-0101-483e-8d58-0bc1610717a7.LOFI.mp3",
+"name": "Ergot",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-05-13"
+},
+{
+"minute": 121,
+"artist": "Tim Green",
+"title": "Lune",
+"label": "All Day I Dream",
+"bp": "bp:16918530",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fabd0c99-dcc9-4e1f-ab68-98246242d797.LOFI.mp3",
+"name": "Lune",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-10-28"
+},
+{
+"minute": 128,
+"artist": "Wassu & Bona Fide",
+"title": "Sila",
+"label": "Seven Villas",
+"bp": "bp:15182590",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/43f33131-2c93-4e63-bbc0-cb0a936d0615.LOFI.mp3",
+"name": "Sila",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2021-04-30"
+},
+{
+"minute": 134,
+"artist": "DSF",
+"title": "Natural Feelings",
+"label": "Tale & Tone",
+"bp": "bp:16687885",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/28ad0b3b-19d8-4771-9d58-54576ad7dd4e.LOFI.mp3",
+"name": "Natural Feelings",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-07-22"
+},
+{
+"minute": 141,
+"artist": "Clavis",
+"title": "Matinada",
+"label": "Freerange",
+"bp": "bp:13296400",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e4e0659f-149a-4a67-b4e6-cd44b5fbb515.LOFI.mp3",
+"name": "Matinada",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2020-04-24"
+},
+{
+"minute": 147,
+"artist": "Tim Green",
+"title": "Colliding (Janus Rasmussen Remix)",
+"label": "For A Memory",
+"bp": "bp:15669758",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/753bf76a-3d0e-47aa-a62c-6bc147cb03e5.LOFI.mp3",
+"name": "Colliding",
+"mix": "Janus Rasmussen Remix",
+"genre": "melodic-house-techno",
+"released": "2021-11-26"
+}
+]
+},
+{
+"title": "2025-04-18 - Tim Green - Balance Croatia 019",
+"records": [
+{
+"minute": 0,
+"artist": "Greg Ochman",
+"title": "Ikigai",
+"label": "",
+"bp": "bp:22040001",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60987d85-9e07-4edd-9e73-cfb32f2b53d1.LOFI.mp3",
+"name": "Ikigai",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2025-11-28"
+},
+{
+"minute": 6,
+"artist": "Come Closer",
+"title": "Hillary Queen",
+"label": "Phagamast",
+"bp": "bp:19283511",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/41eba377-7708-45fd-9380-e486b5530c57.LOFI.mp3",
+"name": "Hillary Queen",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2024-08-02"
+},
+{
+"minute": 10,
+"artist": "Obbie & Dulus",
+"title": "Creme Brulee",
+"label": ""
+},
+{
+"minute": 16,
+"artist": "Mredrollo",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 21,
+"artist": "Tim Green",
+"title": "Minds",
+"label": "",
+"bp": "bp:20633756",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/965247eb-325b-40fe-b90d-c9b0d74857c4.LOFI.mp3",
+"name": "Minds",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2025-07-25"
+},
+{
+"minute": 28,
+"artist": "Yuv\u00e8e",
+"title": "Freydies",
+"label": "Anjunadeep Explorations",
+"bp": "bp:20279912",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/575b7d81-b8e1-4c1a-87b4-724041359ec9.LOFI.mp3",
+"name": "Freydies",
+"mix": "Extended Mix",
+"genre": "deep-house",
+"released": "2025-04-16"
+},
+{
+"minute": 32,
+"artist": "Max Wexem & Ventt",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 36,
+"artist": "Above & Beyond",
+"title": "Homecoming (Tim Green Remix)",
+"label": "Anjunabeats",
+"bp": "bp:29296704",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/43b934e3-8d5a-4d77-9fc4-500935b58225.LOFI.mp3",
+"name": "Homecoming",
+"mix": "Tim Green Extended Mix",
+"genre": "organic-house",
+"released": "2026-07-06"
+},
+{
+"minute": 43,
+"artist": "Dulus",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 48,
+"artist": "Jiggler",
+"title": "Delight",
+"label": "Kling Klong",
+"bp": "bp:19321217",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1dfbba09-85a8-4dc0-9c43-0202585560bf.LOFI.mp3",
+"name": "Delight",
+"mix": "Extended Mix",
+"genre": "organic-house",
+"released": "2024-08-23"
+},
+{
+"minute": 51,
+"artist": "Molac & Nicolas Viana",
+"title": "Soma",
+"label": "Sendas",
+"bp": "bp:20320952",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/30583158-0341-4e08-9470-dd25f31418fb.LOFI.mp3",
+"name": "Soma",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2025-05-08"
+},
+{
+"minute": 57,
+"artist": "Tim Green",
+"title": "Ambush Oceans",
+"label": ""
+},
+{
+"minute": 63,
+"artist": "Somelee",
+"title": "Alegria",
+"label": "",
+"bp": "bp:20599147",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/85684879-f899-43eb-bb68-1cc24c1b9771.LOFI.mp3",
+"name": "Alegria",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2025-07-04"
+},
+{
+"minute": 68,
+"artist": "Foglight",
+"title": "Circuit Valley (Praveen Achary Remix)",
+"label": "Juicebox",
+"bp": "bp:18471645",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9091a87a-e5c9-4b4a-9600-494bce340bd2.LOFI.mp3",
+"name": "Circuit Valley",
+"mix": "Praveen Achary Remix",
+"genre": "progressive-house",
+"released": "2024-01-12"
+},
+{
+"minute": 74,
+"artist": "Mayro",
+"title": "Same Idea (Digital Mess Material Remix)",
+"label": "Traful",
+"bp": "bp:19169285",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b706d8bb-d6e1-4d7c-8577-a3002d504d34.LOFI.mp3",
+"name": "Same Idea",
+"mix": "Digital Mess Material Remix",
+"genre": "progressive-house",
+"released": "2024-07-19"
+},
+{
+"minute": 80,
+"artist": "Tim Green & PROFF",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 85,
+"artist": "Tim Green",
+"title": "Flower Salts",
+"label": ""
+}
+]
+},
+{
+"title": "2025-08-10 - Tim Green @ Balance Croatia, The Garden Tisno, Croatia",
+"records": []
+},
+{
+"title": "2026-07-10 - Above & Beyond, Tim Green - Group Therapy Radio (ABGT 685)",
+"records": [
+{
+"minute": null,
+"artist": "Xira",
+"title": "Feel (J Ribbon Remix)",
+"label": "Anjunabeats",
+"bp": "bp:29299289",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8bf043d0-5fc3-4acd-9fcd-b97f9c8d4348.LOFI.mp3",
+"name": "Feel",
+"mix": "J Ribbon Extended Mix",
+"genre": "dance-pop",
+"released": "2026-07-08"
+},
+{
+"minute": null,
+"artist": "Super8 & Tab Feat. Hero Baldwin",
+"title": "Burn (Matt Fax Remix)",
+"label": "Armada Captivating"
+},
+{
+"minute": null,
+"artist": "Harry Diamond & K-MRK",
+"title": "Found Myself",
+"label": "Mecha",
+"bp": "bp:29407165",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f310e953-a219-4191-b29f-c152d589e124.LOFI.mp3",
+"name": "Found Myself ",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "Simon Gregory",
+"title": "Keep Moving On",
+"label": "Anjunabeats",
+"bp": "bp:29482098",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9c6672fd-5c1e-4b91-a5af-de90c20d0eaf.LOFI.mp3",
+"name": "Keep Moving On",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2026-07-22"
+},
+{
+"minute": null,
+"artist": "Fuenka",
+"title": "Nitidus",
+"label": "FSOE",
+"bp": "bp:29392635",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9c5e20a9-8f77-4661-8890-5d98b646e246.LOFI.mp3",
+"name": "Nitidus ",
+"mix": "Extended Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2026-07-17"
+},
+{
+"minute": null,
+"artist": "Eric Luttrell Feat. LeyeT",
+"title": "How Will I Know?",
+"label": "Anjunadeep",
+"bp": "bp:29284642",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/5a21d3a3-5ca2-473e-9c0b-fbda08eac8d1.LOFI.mp3",
+"name": "How Will I Know?",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-07-07"
+},
+{
+"minute": null,
+"artist": "Ezequiel Arias",
+"title": "Sin Control",
+"label": "Anjunadeep",
+"bp": "bp:29204932",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e3763bd8-b6c2-440b-acf5-7ac5fce38936.LOFI.mp3",
+"name": "Sin Control",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-06-30"
+},
+{
+"minute": null,
+"artist": "Durante & Mayro",
+"title": "Mantra",
+"label": "Anjunadeep",
+"bp": "bp:28913525",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cbe10ac3-f3c6-489e-91ea-03627063fa6a.LOFI.mp3",
+"name": "Mantra",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-07-10"
+},
+{
+"minute": null,
+"artist": "Matt Fax & 88Birds",
+"title": "High On Life",
+"label": "Colorize",
+"bp": "bp:29119003",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fd7f99dd-9ebe-4c77-9c42-431bd38f59ba.LOFI.mp3",
+"name": "High On Life",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2026-06-24"
+},
+{
+"minute": null,
+"artist": "Dusky Feat. Rromarin",
+"title": "Next Life",
+"label": "Anjunadeep",
+"bp": "bp:30441487",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/261445f9-4739-49b7-ac51-3b851cd650fa.LOFI.mp3",
+"name": "Next Life",
+"mix": "Extended Mix",
+"genre": "deep-house",
+"released": "2026-09-25"
+},
+{
+"minute": null,
+"artist": "Atlantis vs Avatar Feat. Miriam Stockley",
+"title": "Fiji (Yeadon Remix)",
+"label": "Anjunabeats"
+},
+{
+"minute": null,
+"artist": "Maze 28",
+"title": "Tell Me Again",
+"label": "Anjunadeep Explorations",
+"bp": "bp:29202912",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5226f184-df93-486b-9545-c2683aa60c7b.LOFI.mp3",
+"name": "Tell Me Again",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-07-01"
+},
+{
+"minute": null,
+"artist": "Peter Illias & Igor Garanin",
+"title": "Forest Echoes",
+"label": "Freegrant",
+"bp": "bp:29284548",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb728d02-1ce8-4da4-886d-9a4aa8a0449d.LOFI.mp3",
+"name": "Forest Echoes ",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-07-03"
+},
+{
+"minute": null,
+"artist": "Kiskadee, Jody Wisternoff & James Grant Feat. Ren Ocean",
+"title": "Friendly Fire",
+"label": "Anjunadeep",
+"bp": "bp:29218037",
+"score": 0.95,
+"preview": "https://geo-samples.beatport.com/track/947bd080-d66f-4c57-b317-87636196705e.LOFI.mp3",
+"name": "Friendly Fire",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-07-03"
+},
+{
+"minute": null,
+"artist": "Trilucid",
+"title": "Too Good",
+"label": "Anjunadeep Explorations",
+"bp": "bp:29034137",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f58eca2-ec9a-4fe4-93df-bc619450fd02.LOFI.mp3",
+"name": "Too Good",
+"mix": "Extended Mix",
+"genre": "organic-house",
+"released": "2026-06-17"
+},
+{
+"minute": null,
+"artist": "M.O.S.",
+"title": "One Love",
+"label": "Plaisirs Sonores",
+"bp": "bp:29599623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e048f732-cd23-4c98-a1f3-bf9af87d312b.LOFI.mp3",
+"name": "One Love",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-07-24"
+},
+{
+"minute": null,
+"artist": "Estiva",
+"title": "Palma",
+"label": "Colorize",
+"bp": "bp:29349203",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/94f972dc-947a-47b0-891f-1a00433a7be1.LOFI.mp3",
+"name": "Palma",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-07-08"
+},
+{
+"minute": null,
+"artist": "Darren Tate & Sxcha",
+"title": "Colours (N\u00fcmind Club Mix)",
+"label": "Mondo",
+"bp": "bp:29833550",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/91aed34b-bd45-4693-aed2-1fc5de8880cb.LOFI.mp3",
+"name": "Colours ",
+"mix": "n\u00fcmind Remix",
+"genre": "trance-main-floor",
+"released": "2026-07-31"
+},
+{
+"minute": null,
+"artist": "AVNT",
+"title": "Brazil",
+"label": "Anjunabeats",
+"bp": "bp:29203279",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0db89528-f088-40b7-b263-bc8b1ebf3849.LOFI.mp3",
+"name": "Brazil",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2026-07-03"
+},
+{
+"minute": null,
+"artist": "Signum",
+"title": "First Strike (Juventa Club Mix)",
+"label": "Armada",
+"bp": "bp:4130163",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/994f7a5a-02b5-404a-8e42-4800e333f851.LOFI.mp3",
+"name": "First Strike",
+"mix": "Juventa Club Mix",
+"genre": "trance-main-floor",
+"released": "2013-02-01"
+},
+{
+"minute": null,
+"artist": "Above & Beyond",
+"title": "Homecoming (Tim Green Remix)",
+"label": "Anjunabeats",
+"bp": "bp:29296704",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/43b934e3-8d5a-4d77-9fc4-500935b58225.LOFI.mp3",
+"name": "Homecoming",
+"mix": "Tim Green Extended Mix",
+"genre": "organic-house",
+"released": "2026-07-06"
+},
+{
+"minute": null,
+"artist": "Trilucid",
+"title": "One Day At A Time (Tim Green Remix)",
+"label": "Colorize",
+"bp": "bp:30082016",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/affbbede-5e95-4e49-a0e3-c04378d1d55c.LOFI.mp3",
+"name": "One Day At A Time",
+"mix": "Tim Green Extended Remix",
+"genre": "organic-house",
+"released": "2026-08-10"
+},
+{
+"minute": null,
+"artist": "Mredrollo",
+"title": "What To Call You",
+"label": "For A Memory"
+},
+{
+"minute": null,
+"artist": "Proff & Tim Green",
+"title": "Sopia",
+"label": "Anjunadeep",
+"bp": "bp:28658293",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d9633be-8081-4bc3-b99e-67dca754b6d7.LOFI.mp3",
+"name": "Sopia",
+"mix": "Extended Mix",
+"genre": "organic-house",
+"released": "2026-05-26"
+},
+{
+"minute": null,
+"artist": "Tim Green",
+"title": "Furnace Creek",
+"label": "Anjunadeep"
+}
+]
+},
+{
+"title": "2026-09-18 - John Digweed, Tim Green - Transitions 1151",
+"records": [
+{
+"minute": 0,
+"artist": "Tim Green Feat. Josefina Silveyra",
+"title": "La Joda",
+"label": "Bedrock",
+"bp": "bp:30408758",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/b8416415-2f02-422b-810b-9a91b1c804eb.LOFI.mp3",
+"name": "La Joda ",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2026-09-11"
+},
+{
+"minute": 7,
+"artist": "Robag Wruhme",
+"title": "Sabrah Desha",
+"label": "Kompakt",
+"bp": "bp:30012671",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0e8f2ba-132a-4cd6-a732-f16fbf10b812.LOFI.mp3",
+"name": "Sabrah Desha",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-08-06"
+},
+{
+"minute": 13,
+"artist": "Magnetik Source",
+"title": "Eastpointe (Brian Kage Remix)",
+"label": "Rhythm Cult"
+},
+{
+"minute": 18,
+"artist": "Christopher Mohn",
+"title": "Tarot Temple",
+"label": "We Are Here",
+"bp": "bp:30225291",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e5cd4fef-eaab-4bf5-87ae-fbdc6ee95ad9.LOFI.mp3",
+"name": "Tarot Temple",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2026-09-18"
+},
+{
+"minute": 26,
+"artist": "Culoe De Song",
+"title": "The Spiker (Manoo Club Remix)",
+"label": "Crosstown Rebels",
+"bp": "bp:29830821",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f610cb25-56eb-4b4e-9851-9e87f4abe234.LOFI.mp3",
+"name": "The Spiker",
+"mix": "Manoo Club Remix",
+"genre": "afro-house",
+"released": "2026-08-14"
+},
+{
+"minute": 34,
+"artist": "Frankey & Sandrino",
+"title": "Hold On",
+"label": "Sum Over Histories"
+},
+{
+"minute": 40,
+"artist": "Frankey & Sandrino",
+"title": "Disruption",
+"label": "Kompakt",
+"bp": "bp:30030426",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/37327be7-097e-49e6-bf67-0fae6eabc48c.LOFI.mp3",
+"name": "Disruption",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-09-25"
+},
+{
+"minute": 45,
+"artist": "Dave Seaman",
+"title": "Night Falls (Cioz Remix)",
+"label": "Selador",
+"bp": "bp:29221233",
+"score": 0.971,
+"preview": "https://geo-samples.beatport.com/track/7dc606c3-f1d3-4ab5-a31d-741b64453e3b.LOFI.mp3",
+"name": "Nightfalls",
+"mix": "Cioz Remix",
+"genre": "melodic-house-techno",
+"released": "2026-07-10"
+},
+{
+"minute": 51,
+"artist": "Dino Lenny",
+"title": "New York Motordrone",
+"label": "Fine Human",
+"bp": "bp:29701755",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8b4a2655-68e2-4abd-9156-c48065ccd062.LOFI.mp3",
+"name": "New York Motordrone",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-08-14"
+},
+{
+"minute": 60,
+"artist": "Max Wexem & Ventt",
+"title": "Here Now",
+"label": "For A Memory"
+},
+{
+"minute": null,
+"artist": "[06?] Mredrollo",
+"title": "Totem",
+"label": "For A Memory"
+},
+{
+"minute": null,
+"artist": "[0??] Artic White",
+"title": "Prisma",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Dave Seaman",
+"title": "So Damn Beautiful (Tim Green Remix)",
+"label": "Selador"
+},
+{
+"minute": null,
+"artist": "[08?] Taleman",
+"title": "Acid Aikido",
+"label": "Try To Find Sound",
+"bp": "bp:30431896",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f1a12376-f021-43d7-bfef-485d233a2cbf.LOFI.mp3",
+"name": "Acid Aikido",
+"mix": "Extended Mix",
+"genre": "organic-house",
+"released": "2026-10-09"
+},
+{
+"minute": 88,
+"artist": "Tim Green Feat. Josefina Silveyra",
+"title": "La Joda",
+"label": "Bedrock",
+"bp": "bp:30408758",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/b8416415-2f02-422b-810b-9a91b1c804eb.LOFI.mp3",
+"name": "La Joda ",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2026-09-11"
+},
+{
+"minute": 94,
+"artist": "Foglight",
+"title": "Shapeshifter",
+"label": "WARPP",
+"bp": "bp:29481639",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/82c7d061-ff3a-4ade-8d61-4372b19b6c0a.LOFI.mp3",
+"name": "Shapeshifter",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2026-07-10"
+},
+{
+"minute": 98,
+"artist": "Tim Green",
+"title": "Tonka",
+"label": "Bedrock",
+"bp": "bp:30408759",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/55ea6fb2-7425-422b-9563-b0412533e782.LOFI.mp3",
+"name": "Tonka ",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2026-09-11"
+},
+{
+"minute": 103,
+"artist": "Alex O'Rion & Tonaco",
+"title": "Vektra",
+"label": "Solis"
+},
+{
+"minute": null,
+"artist": "[1??] Peter Gabriel",
+"title": "Love To Be Loved (Tim Green Edit)",
+"label": ""
+},
+{
+"minute": 114,
+"artist": "Gavin Rochford",
+"title": "Zinc (Dabeat Remix)",
+"label": "3rd Avenue",
+"bp": "bp:17656117",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/464bf150-50a0-4939-b393-3f6ec8dd423f.LOFI.mp3",
+"name": "Zinc",
+"mix": "Dabeat Remix",
+"genre": "progressive-house",
+"released": "2023-05-26"
+}
+]
+}
+]
 }

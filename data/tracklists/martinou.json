@@ -1,1165 +1,2877 @@
 {
- "dj": "Martinou",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2024-09-07 - Mama Snake b2b Martinou @ Draaimolen Festival, Tilburg, Netherlands",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Eletun Selona",
-     "title": "Sayaan",
-     "label": "Sewer Sender"
-    },
-    {
-     "minute": 4,
-     "artist": "Sisilisko",
-     "title": "Behind The Sun",
-     "label": "Amniote Editions",
-     "bp": "bp:17979163",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/398978cb-763e-4c9d-b773-1d6b384d1e58.LOFI.mp3",
-     "name": "Behind The Sun",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2023-06-16"
-    },
-    {
-     "minute": 8,
-     "artist": "Mikkel Metal",
-     "title": "Decline",
-     "label": "Kompakt"
-    },
-    {
-     "minute": 11,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 16,
-     "artist": "David Granström",
-     "title": "Waning Moon",
-     "label": "Xkatedral"
-    },
-    {
-     "minute": 20,
-     "artist": "Snog (Coluber)",
-     "title": "Wave Of Awe",
-     "label": "Amniote Editions",
-     "bp": "bp:17979197",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/f181ebb7-ff12-440b-a82f-c091f7064159.LOFI.mp3",
-     "name": "Wave Of Awe",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2023-06-16"
-    },
-    {
-     "minute": 25,
-     "artist": "Evigt Mörker",
-     "title": "Du Som Är Född",
-     "label": "Northern Electronics"
-    },
-    {
-     "minute": 29,
-     "artist": "Wa Wu We",
-     "title": "And The Drowned Sea",
-     "label": "Hypnus",
-     "bp": "bp:14587770",
-     "score": 0.847,
-     "preview": "https://geo-samples.beatport.com/track/d0e38bd6-6a48-48e2-ab06-18972794f852.LOFI.mp3",
-     "name": "and the Drowned Sea",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2020-12-14"
-    },
-    {
-     "minute": 33,
-     "artist": "Dorisburg & Sebastian Mullaert",
-     "title": "Archway",
-     "label": "Spazio Disponibile"
-    },
-    {
-     "minute": 36,
-     "artist": "Kaspiann",
-     "title": "Solina",
-     "label": "Delsin",
-     "bp": "bp:18887787",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 42,
-     "artist": "Eletun Selona",
-     "title": "Samlad",
-     "label": "Sewer Sender"
-    },
-    {
-     "minute": 46,
-     "artist": "Primal Code",
-     "title": "Elixir",
-     "label": "Hypnus"
-    },
-    {
-     "minute": 51,
-     "artist": "Klara",
-     "title": "Jetsun Dölma (Toffes Värld Remix)",
-     "label": "Lāsya"
-    },
-    {
-     "minute": 54,
-     "artist": "Kaspiann",
-     "title": "Satakieli",
-     "label": "Delsin"
-    },
-    {
-     "minute": 58,
-     "artist": "Fjäder",
-     "title": "En Liten Saga",
-     "label": "Nordanvind"
-    },
-    {
-     "minute": 62,
-     "artist": "Feral",
-     "title": "Rara Lake",
-     "label": "Hypnus"
-    },
-    {
-     "minute": 67,
-     "artist": "Mr. Tophat & Art Alfie",
-     "title": "Don't Step On The Baby",
-     "label": "Karlovak Chrome"
-    },
-    {
-     "minute": 71,
-     "artist": "Cold",
-     "title": "Goosebumps",
-     "label": "æ",
-     "bp": "bp:13141910",
-     "score": 0.864,
-     "preview": "https://geo-samples.beatport.com/track/2a1237d8-07a9-489d-b9bd-f41e964dda6b.LOFI.mp3",
-     "name": "Goosebumps",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2020-03-06"
-    },
-    {
-     "minute": 74,
-     "artist": "Mikkel Metal",
-     "title": "Wahomi",
-     "label": "Echocord"
-    },
-    {
-     "minute": 78,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 84,
-     "artist": "Hannu Ikola",
-     "title": "Pylon",
-     "label": "Etherwerks"
-    },
-    {
-     "minute": 88,
-     "artist": "OHM & Octal Industries",
-     "title": "Útkall",
-     "label": "Thule"
-    },
-    {
-     "minute": 93,
-     "artist": "Eletun Selona",
-     "title": "Safe",
-     "label": "Sewer Sender"
-    },
-    {
-     "minute": 98,
-     "artist": "OHM & Kvadrant",
-     "title": "Langebro (The Persuader Remix)",
-     "label": "Kontakt",
-     "bp": "bp:16228268",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/ad9ecb06-c31f-4101-bbde-9da304e7183e.LOFI.mp3",
-     "name": "Langebro",
-     "mix": "The Persuader Remix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2022-04-08"
-    },
-    {
-     "minute": 102,
-     "artist": "Amandra",
-     "title": "Brera Som Som (Martinou Remix)",
-     "label": "Music_Is"
-    },
-    {
-     "minute": 105,
-     "artist": "Moy Santana",
-     "title": "Dafne (Arkajo Remix)",
-     "label": "Sungate",
-     "bp": "bp:17708699",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/fc2bb061-0a5d-4567-b269-c68cd29db028.LOFI.mp3",
-     "name": "Dafne",
-     "mix": "Arkajo Remix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2023-05-26"
-    },
-    {
-     "minute": 108,
-     "artist": "Karl Bult",
-     "title": "Kvarlevor",
-     "label": "Nordanvind"
-    },
-    {
-     "minute": 113,
-     "artist": "Birds Ov Paradise",
-     "title": "Plaskis",
-     "label": "Konstrukt"
-    },
-    {
-     "minute": 117,
-     "artist": "Ntogn",
-     "title": "Spott, Blod & Jord",
-     "label": "Tome",
-     "bp": "bp:14146909",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/18c726a3-8599-44cf-843b-b6f653b149cd.LOFI.mp3",
-     "name": "Spott, Blod & Jord",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2020-09-22"
-    },
-    {
-     "minute": 121,
-     "artist": "Kaspiann",
-     "title": "Ethereal",
-     "label": "Planet Rhythm"
-    },
-    {
-     "minute": 127,
-     "artist": "Evigt Mörker",
-     "title": "Häll I Mig",
-     "label": "Evigt Mörker"
-    },
-    {
-     "minute": 132,
-     "artist": "Härdstedt",
-     "title": "Sanyo Blue (Luigi Tozzi Dub Mix)",
-     "label": "Hypnus"
-    },
-    {
-     "minute": 135,
-     "artist": "Kuf & Dold",
-     "title": "Track 3",
-     "label": "Arsenik"
-    },
-    {
-     "minute": 139,
-     "artist": "Kaspiann",
-     "title": "Taming Submarines",
-     "label": "Vala"
-    },
-    {
-     "minute": 144,
-     "artist": "Mikkel Metal",
-     "title": "Ripe D",
-     "label": "Echocord Colour"
-    },
-    {
-     "minute": 148,
-     "artist": "Cold",
-     "title": "Phased Out",
-     "label": "æ",
-     "bp": "bp:13141907",
-     "score": 0.864,
-     "preview": "https://geo-samples.beatport.com/track/90dc6d9b-3b1d-46d5-b315-8d685a1769d9.LOFI.mp3",
-     "name": "Phased Out",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2020-03-06"
-    },
-    {
-     "minute": 152,
-     "artist": "Gilb'R",
-     "title": "Chàm (Gilb'r & DJ Sotofett Version One)",
-     "label": "Versatile"
-    },
-    {
-     "minute": 156,
-     "artist": "Dorisburg",
-     "title": "Computer Drumming 128",
-     "label": "Bossmusik"
-    },
-    {
-     "minute": 160,
-     "artist": "Martinou",
-     "title": "ID",
-     "label": ""
-    },
-    {
-     "minute": 166,
-     "artist": "Ohm & Philipp Priebe",
-     "title": "Sacred Nights",
-     "label": "æ",
-     "bp": "bp:17713050",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/fea7fd77-2201-475d-8b67-606d1fe56df6.LOFI.mp3",
-     "name": "Sacred Nights",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2023-06-16"
-    },
-    {
-     "minute": 170,
-     "artist": "Henrik Bergqvist",
-     "title": "Skyrunner",
-     "label": "Bossmusik"
-    },
-    {
-     "minute": 175,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 179,
-     "artist": "Eletun Selona",
-     "title": "Our Prophecy",
-     "label": "Sewer Sender",
-     "bp": "bp:19677509",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/616b672d-f6ff-41d3-a899-2a0310447611.LOFI.mp3",
-     "name": "Our Prophecy",
-     "mix": "Orion Remix",
-     "genre": "house",
-     "released": "2024-11-14"
-    },
-    {
-     "minute": 186,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 190,
-     "artist": "Jesper Dahlbäck Pres.The Persuader",
-     "title": "What's The Time, Mr. Templar?",
-     "label": "Svek"
-    },
-    {
-     "minute": 195,
-     "artist": "Birds Ov Paradise",
-     "title": "Ängarna",
-     "label": "Hypnus"
-    },
-    {
-     "minute": 201,
-     "artist": "Martinou",
-     "title": "Glider",
-     "label": "Nous'klaer"
-    },
-    {
-     "minute": 206,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 210,
-     "artist": "The Knife",
-     "title": "Like A Pen",
-     "label": "Brille",
-     "bp": "bp:1720391",
-     "score": 0.787,
-     "preview": "https://geo-samples.beatport.com/track/dab4c7e4-b28b-4d36-b1d0-4dd2b8555d97.LOFI.mp3",
-     "name": "Like A Pen",
-     "mix": "Radio Edit",
-     "genre": "electronica",
-     "released": "2006-11-28"
-    },
-    {
-     "minute": 217,
-     "artist": "Headless Ghost",
-     "title": "Swept Illusions (Arkajo Remix)",
-     "label": "Clone Royal Oak",
-     "bp": "bp:17615343",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/f5ec4e03-ffa9-436d-b3f1-b0a8e5b4aab1.LOFI.mp3",
-     "name": "Swept Illusions",
-     "mix": "Arkajo Remix",
-     "genre": "deep-house",
-     "released": "2023-04-12"
-    },
-    {
-     "minute": 222,
-     "artist": "Martinou",
-     "title": "ID",
-     "label": ""
-    },
-    {
-     "minute": 226,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 230,
-     "artist": "Martinou",
-     "title": "Reality Bends",
-     "label": "Mule Musiq",
-     "bp": "bp:19522917",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/f9846a11-4004-4356-9680-c9076d0d12fe.LOFI.mp3",
-     "name": "Reality Bends",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-09-27"
-    },
-    {
-     "minute": 233,
-     "artist": "Sunday Brunch",
-     "title": "Midsummer Night",
-     "label": "Svek",
-     "bp": "bp:456911",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/a229fc59-2d7c-4e05-9ae3-4786549ae7dd.LOFI.mp3",
-     "name": "Midsummer Night",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "1999-05-03"
-    }
-   ]
-  },
-  {
-   "title": "2024-09-26 - Martinou - A Far Blue Concept: Ecotone",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "Martinou -&#160;?"
-    },
-    {
-     "minute": 3,
-     "artist": "Martinou",
-     "title": "Hold Then Release",
-     "label": "Fauxpas",
-     "bp": "bp:20173771",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/8c1d97c3-5d71-4a23-9847-97fa4370282f.LOFI.mp3",
-     "name": "Hold Then Release",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": 8,
-     "artist": "Martinou",
-     "title": "Woven",
-     "label": "Fauxpas"
-    },
-    {
-     "minute": 13,
-     "id": null,
-     "raw": "Martinou -&#160;?"
-    },
-    {
-     "minute": 17,
-     "artist": "Martinou",
-     "title": "The Last Hour",
-     "label": "Fauxpas",
-     "bp": "bp:20173769",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/c1856f3f-f792-43eb-98aa-68351b30e4f2.LOFI.mp3",
-     "name": "The Last Hour",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": 23,
-     "id": null,
-     "raw": "Martinou -&#160;?"
-    },
-    {
-     "minute": 29,
-     "id": null,
-     "raw": "Martinou -&#160;?"
-    },
-    {
-     "minute": 36,
-     "artist": "Martinou",
-     "title": "Allting",
-     "label": "Kontra"
-    },
-    {
-     "minute": 40,
-     "artist": "Martinou",
-     "title": "Continuum",
-     "label": "Mule Musiq"
-    },
-    {
-     "minute": 45,
-     "artist": "Martinou",
-     "title": "Somewhere",
-     "label": "Studio Barnhus",
-     "bp": "bp:20029594",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 52,
-     "id": null,
-     "raw": "Martinou -&#160;?"
-    }
-   ]
-  },
-  {
-   "title": "2025-04-26 - Martinou @ Radio Panini, Baggen, Copenhagen",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 3,
-     "artist": "George FitzGerald",
-     "title": "Passing Trains (Kornél Kovács Remix)",
-     "label": ""
-    },
-    {
-     "minute": 7,
-     "artist": "Lb Honne",
-     "title": "Sky Funk",
-     "label": "Project Indigo"
-    },
-    {
-     "minute": 10,
-     "artist": "Simic",
-     "title": "COROT-7b",
-     "label": "Acid Camp"
-    },
-    {
-     "minute": 16,
-     "id": null,
-     "raw": "Eletun Selona -&#160;?"
-    },
-    {
-     "minute": 22,
-     "artist": "Tibi Dabo",
-     "title": "Somewhere Beach",
-     "label": "Crosstown Rebels",
-     "bp": "bp:18075703",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/343245b7-55a8-49cd-be76-2618207ccd1f.LOFI.mp3",
-     "name": "Somewhere Beach",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2023-09-29"
-    },
-    {
-     "minute": 27,
-     "artist": "R.O.W.S.",
-     "title": "2.35.1",
-     "label": "St. Odes"
-    },
-    {
-     "minute": 32,
-     "artist": "Blue Channel",
-     "title": "Complete With U",
-     "label": "Kontakt",
-     "bp": "bp:23027613",
-     "score": 0.767,
-     "preview": "https://geo-samples.beatport.com/track/7b8e8eea-f0f3-4c54-b10d-724d57db6908.LOFI.mp3",
-     "name": "Complete",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2026-01-23"
-    },
-    {
-     "minute": 35,
-     "artist": "Martinou",
-     "title": "Mutlitudes",
-     "label": "Mule Musiq",
-     "bp": "bp:29263767",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/d818999f-aeb8-4a98-86e7-c69891412c4a.LOFI.mp3",
-     "name": "Mutlitudes",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-07-17"
-    },
-    {
-     "minute": 41,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 44,
-     "artist": "Ovend",
-     "title": "Confidence",
-     "label": "Ahrpe",
-     "bp": "bp:8372120",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/fda80299-b45d-4ae8-b9c6-29052eda9916.LOFI.mp3",
-     "name": "Confidence",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2016-09-12"
-    },
-    {
-     "minute": 48,
-     "artist": "Martinou",
-     "title": "Through You",
-     "label": "Mule Musiq",
-     "bp": "bp:29263765",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/c6641822-dd43-482f-9e83-2eed5234966e.LOFI.mp3",
-     "name": "Through You",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-07-17"
-    },
-    {
-     "minute": 52,
-     "artist": "Eletun Selona",
-     "title": "Breathing Quieter",
-     "label": "Sewer Sender",
-     "bp": "bp:20250579",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/8d22cee8-eef4-4b79-b48c-50606af727bd.LOFI.mp3",
-     "name": "Breathing Quieter",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2025-03-31"
-    }
-   ]
-  },
-  {
-   "title": "2025-06-18 - Martinou - The Memoir Page 156",
-   "records": []
-  },
-  {
-   "title": "2025-07-30 - Martinou (Live PA) @ KUNE Festival, Denmark (Untitled 909 Podcast 245, 2025-10-30)",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "FRQNCY LDN",
-     "title": "Soaring Above the Nave (Martinou Live Edit Remix)",
-     "label": ""
-    },
-    {
-     "minute": 10,
-     "artist": "Martinou",
-     "title": "Hold Then Release",
-     "label": "Fauxpas",
-     "bp": "bp:20173771",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/8c1d97c3-5d71-4a23-9847-97fa4370282f.LOFI.mp3",
-     "name": "Hold Then Release",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": 13,
-     "artist": "Martinou",
-     "title": "Hollow",
-     "label": "ARTS"
-    },
-    {
-     "minute": 18,
-     "artist": "Martinou",
-     "title": "Don't Fall",
-     "label": "ARTS",
-     "bp": "bp:21791625",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/60b348e1-b9af-4e9a-90ee-e4ac6098289b.LOFI.mp3",
-     "name": "Don't Fall",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2025-11-28"
-    },
-    {
-     "minute": 24,
-     "artist": "R.O.W.S.",
-     "title": "2.35.1",
-     "label": "St. Odes"
-    },
-    {
-     "minute": 31,
-     "artist": "Martinou",
-     "title": "Unfold",
-     "label": "Mule Musiq"
-    },
-    {
-     "minute": 38,
-     "artist": "Martinou",
-     "title": "Thoughtless",
-     "label": "Fauxpas"
-    },
-    {
-     "minute": 42,
-     "artist": "Martinou",
-     "title": "Through You",
-     "label": "Mule Musiq",
-     "bp": "bp:29263765",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/c6641822-dd43-482f-9e83-2eed5234966e.LOFI.mp3",
-     "name": "Through You",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-07-17"
-    },
-    {
-     "minute": 48,
-     "artist": "Martinou",
-     "title": "Somewhere",
-     "label": "Studio Barnhus",
-     "bp": "bp:20029594",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 55,
-     "artist": "Martinou",
-     "title": "Mutlitudes",
-     "label": "Mule Musiq",
-     "bp": "bp:29263767",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/d818999f-aeb8-4a98-86e7-c69891412c4a.LOFI.mp3",
-     "name": "Mutlitudes",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-07-17"
-    }
-   ]
-  },
-  {
-   "title": "2026-03-26 - Martinou - EPM Podcast 198",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Malibu",
-     "title": "Cheirosa '94",
-     "label": "UNO",
-     "bp": "bp:16954274",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/ea92e582-b161-4bf9-a3b8-b00675c1a526.LOFI.mp3",
-     "name": "Cheirosa '94",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2022-11-18"
-    },
-    {
-     "minute": 2,
-     "artist": "Mike Schommer",
-     "title": "Lost In You (Freund Der Familie's Downunder Cut)",
-     "label": "Primary Colours",
-     "bp": "bp:18424770",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/19fb536e-84bf-43ee-a71e-87096719b808.LOFI.mp3",
-     "name": "Lost in You",
-     "mix": "Freund der Familie's Downunder Cut",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2023-12-29"
-    },
-    {
-     "minute": 7,
-     "artist": "Cv313",
-     "title": "Stars Above Elmwood",
-     "label": "Minimood"
-    },
-    {
-     "minute": 12,
-     "artist": "Zefzeed",
-     "title": "Trecet",
-     "label": "Mayak"
-    },
-    {
-     "minute": 18,
-     "artist": "J.S.",
-     "title": "JS-01R [JS - MCMLXV]]",
-     "label": ""
-    },
-    {
-     "minute": 25,
-     "artist": "Bergqvist",
-     "title": "Earth Creatures",
-     "label": "Aniara",
-     "bp": "bp:22234775",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/a40f58bb-fcbb-498a-8b61-c46d1bad3c25.LOFI.mp3",
-     "name": "Earth Creatures",
-     "mix": "Original Mix",
-     "genre": "minimal-deep-tech",
-     "released": "2025-11-21"
-    },
-    {
-     "minute": 29,
-     "artist": "URA",
-     "title": "Hash",
-     "label": "NAFF"
-    },
-    {
-     "minute": 33,
-     "artist": "Sei A",
-     "title": "Hyper Venom",
-     "label": "Life And Death",
-     "bp": "bp:6898022",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/167b36e8-a8e4-4aa3-8cd9-2cf82dcaceac.LOFI.mp3",
-     "name": "Hyper Venom",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2015-10-09"
-    },
-    {
-     "minute": 39,
-     "artist": "Vardae",
-     "title": "Kaipo",
-     "label": "Ooda"
-    },
-    {
-     "minute": 42,
-     "artist": "Ben Kaczor",
-     "title": "Tramuntana (Efdemin Remix)",
-     "label": "Dial"
-    },
-    {
-     "minute": 47,
-     "artist": "Anthony Naples",
-     "title": "Bounce",
-     "label": "ANS"
-    },
-    {
-     "minute": 52,
-     "artist": "Martinou",
-     "title": "Surge",
-     "label": "Nous'Klaer"
-    },
-    {
-     "minute": 57,
-     "artist": "Martin Jarl",
-     "title": "Speak No Evil",
-     "label": "Djuphavet"
-    },
-    {
-     "minute": 60,
-     "artist": "Tren",
-     "title": "Aether",
-     "label": "Not Meant To Happen"
-    },
-    {
-     "minute": 64,
-     "artist": "Cocoo",
-     "title": "Ide",
-     "label": "Metro Juice"
-    },
-    {
-     "minute": 68,
-     "artist": "Danny Daze",
-     "title": "Antigravity Machine (Vril Remix)",
-     "label": "OMNIDISC",
-     "bp": "bp:22320708",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/9ed9d915-b02a-4425-b1b9-a065603c86b7.LOFI.mp3",
-     "name": "Antigravity Machine",
-     "mix": "Vril Remix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2025-11-06"
-    },
-    {
-     "minute": 73,
-     "artist": "Dean Grenier",
-     "title": "Sweet Dreams",
-     "label": "OMNIDISC",
-     "bp": "bp:20438992",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/3a2dc18e-c540-4e85-866d-372524245ec1.LOFI.mp3",
-     "name": "Sweet Dreams",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2020-12-08"
-    },
-    {
-     "minute": 80,
-     "artist": "Edit Select",
-     "title": "You",
-     "label": "Edit Select"
-    },
-    {
-     "minute": 84,
-     "artist": "Martinou",
-     "title": "Exit (To Bliss)",
-     "label": "Nous'Klaer",
-     "bp": "bp:17912503",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/e8ff48f2-6954-48cd-ba93-d16d64b6417d.LOFI.mp3",
-     "name": "Exit",
-     "mix": "To Bliss",
-     "genre": "electronica",
-     "released": "2023-09-22"
-    }
-   ]
-  },
-  {
-   "title": "2026-04-17 - Martinou - Ute Mix Series 122",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 6,
-     "artist": "Philipp Priebe",
-     "title": "You Made It Easy",
-     "label": "Paradijs Boogie",
-     "bp": "bp:24586253",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/caab408b-50eb-4106-b260-cb589d94ff28.LOFI.mp3",
-     "name": "You Made It Easy",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2026-03-20"
-    },
-    {
-     "minute": 11,
-     "artist": "Mørbeck",
-     "title": "Room 506",
-     "label": "Mechanisms Industries"
-    },
-    {
-     "minute": 14,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 21,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 25,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 29,
-     "artist": "Dynamo Dreesen",
-     "title": "SUE013 (A1)",
-     "label": "Sued"
-    },
-    {
-     "minute": 33,
-     "artist": "Peter Van Hoesen",
-     "title": "Last One At 1080",
-     "label": "Time To Express",
-     "bp": "bp:3068145",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/2238dd1a-1416-471e-a1c9-958583ed000b.LOFI.mp3",
-     "name": "Last One At 1080",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2011-10-31"
-    },
-    {
-     "minute": 37,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 43,
-     "artist": "Substance",
-     "title": "Sensualize",
-     "label": "Chain Reaction",
-     "bp": "bp:5201056",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/8afc2cbb-b4d0-44c9-8028-1a38bb26a4fa.LOFI.mp3",
-     "name": "Sensualize",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2013-01-01"
-    },
-    {
-     "minute": 46,
-     "artist": "Roberto Bosco",
-     "title": "I Just Can't Breathe",
-     "label": "Figure",
-     "bp": "bp:3194530",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/a382c51f-269f-44f1-beb6-960a1621fcd1.LOFI.mp3",
-     "name": "I Just Can't Breathe",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2012-01-23"
-    },
-    {
-     "minute": 50,
-     "artist": "The Rumours",
-     "title": "Prestige (Oliver Kapp Remix)",
-     "label": "Stockholm",
-     "bp": "bp:3093452",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/785173ff-2c9b-4d50-83bc-bbd36f83b618.LOFI.mp3",
-     "name": "Prestige",
-     "mix": "Oliver Kapp Remix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2011-11-18"
-    },
-    {
-     "minute": 54,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 59,
-     "artist": "Iori",
-     "title": "Axis",
-     "label": "Semantica"
-    },
-    {
-     "minute": 65,
-     "artist": "Claudio PRC",
-     "title": "Manifestazione",
-     "label": "Delsin",
-     "bp": "bp:20407419",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/a9bb93a7-9ffc-4f5a-9679-8a92b429389d.LOFI.mp3",
-     "name": "Manifestazione",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2025-05-23"
-    },
-    {
-     "minute": 68,
-     "artist": "Skudge",
-     "title": "Eleven",
-     "label": "Skudge"
-    },
-    {
-     "minute": 73,
-     "artist": "Eletun Selona",
-     "title": "Dimersa",
-     "label": "Sewer Sender"
-    },
-    {
-     "minute": 77,
-     "artist": "Martinou",
-     "title": "Rise",
-     "label": "Horoom"
-    },
-    {
-     "minute": 82,
-     "artist": "Mikkel Metal",
-     "title": "Untitled (Jan Jelinek's Loop-Finding-Mix)",
-     "label": "Echocord",
-     "bp": "bp:6570867",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/9882f51c-9272-48ad-8af9-7e9850b0ace6.LOFI.mp3",
-     "name": "Untitled",
-     "mix": "Jan Jelinek's Loop-Finding-Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2015-04-27"
-    },
-    {
-     "minute": 86,
-     "id": null,
-     "raw": "&#160;?"
-    }
-   ]
-  },
-  {
-   "title": "2026-04-18 - Martinou - Sauna Radio",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "SVN",
-     "title": "2014",
-     "label": "Acido"
-    },
-    {
-     "minute": 5,
-     "artist": "Glob Deejay",
-     "title": "Clowns",
-     "label": "Naff"
-    },
-    {
-     "minute": 10,
-     "artist": "Track & Trace",
-     "title": "Enchanted",
-     "label": "Nes"
-    },
-    {
-     "minute": 16,
-     "artist": "R.O.W.S.",
-     "title": "11.1",
-     "label": "St. Odes"
-    },
-    {
-     "minute": 21,
-     "artist": "Irini",
-     "title": "Dreamuniverse Pt.II",
-     "label": "All Possible Worlds"
-    },
-    {
-     "minute": 25,
-     "artist": "Velv.93",
-     "title": "Jiloma",
-     "label": "Fauna"
-    },
-    {
-     "minute": 30,
-     "artist": "Harald Björk",
-     "title": "Schwarm (Martinou Remix)",
-     "label": "Kranglan Broadcast"
-    },
-    {
-     "minute": 35,
-     "artist": "Lb Honne",
-     "title": "Heaven GW",
-     "label": "St. Odes"
-    },
-    {
-     "minute": 39,
-     "artist": "Mandar",
-     "title": "Nellio",
-     "label": "Oscillat"
-    },
-    {
-     "minute": 44,
-     "artist": "Sahin Meyer",
-     "title": "World Cup Of The Future",
-     "label": "Best Works",
-     "bp": "bp:15477648",
-     "score": 0.868,
-     "preview": "https://geo-samples.beatport.com/track/d40cb16e-09d7-4c24-b4a0-72c17623302b.LOFI.mp3",
-     "name": "World Cup Of The Future",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2016-06-17"
-    },
-    {
-     "minute": 50,
-     "artist": "Tor Goffer",
-     "title": "Samara",
-     "label": "No Waves"
-    },
-    {
-     "minute": 54,
-     "artist": "Orion",
-     "title": "My Streets",
-     "label": "Rdv",
-     "bp": "bp:15389648",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/ffa3248b-f921-4a68-86d7-eb891cf2edc2.LOFI.mp3",
-     "name": "My streets",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2021-06-15"
-    }
-   ]
-  },
-  {
-   "title": "2026-06-09 - Martinou - Truancy Volume 366",
-   "records": []
-  }
- ]
+"dj": "Martinou",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-04-26 - Martinou @ Organik Festival, Taiwan",
+"records": [
+{
+"minute": null,
+"artist": "Xyl\u00e8me",
+"title": "Opening",
+"label": "\u014ctium - \u014cTM4"
+},
+{
+"minute": null,
+"artist": "DJ Healer",
+"title": "Protectionspell",
+"label": "All Possible Worlds -APW-2"
+},
+{
+"minute": null,
+"artist": "Mattheis",
+"title": "Ben_M (Tidal Fields Version)",
+"label": "Nous'klaer - NOUSLP001",
+"bp": "bp:7349908",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e58573c-a522-46c1-9ad9-0f179c8c2011.LOFI.mp3",
+"name": "Ben_m",
+"mix": "Tidal Fields Version",
+"genre": "electronica",
+"released": "2015-12-21"
+},
+{
+"minute": null,
+"artist": "Jean Nipon",
+"title": "Eerie II",
+"label": "ClekClekBoom - CCB12016",
+"bp": "bp:6043569",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d97ea560-5de2-438c-8723-63d1e7d1975d.LOFI.mp3",
+"name": "Eerie II",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-11-24"
+},
+{
+"minute": null,
+"artist": "S. Channel",
+"title": "Smoking Futur (2AM Hazy Mix)",
+"label": "Outskirts - 000002"
+},
+{
+"minute": null,
+"artist": "Anna Caragnano & Donato Dozzy",
+"title": "Parola",
+"label": "Spectrum Spools - SP038",
+"bp": "bp:20334024",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90d63b7a-b7cd-4533-8b87-9324515011fa.LOFI.mp3",
+"name": "Parola",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2015-03-27"
+},
+{
+"minute": null,
+"artist": "John Beltran",
+"title": "Brilliant Flood",
+"label": "Delsin - 88DSR",
+"bp": "bp:209040",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b8ff33dd-6bc9-4fae-98d3-361f0c8516e2.LOFI.mp3",
+"name": "Brilliant Flood",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2006-11-14"
+},
+{
+"minute": null,
+"artist": "O\u043b\u0435\u0433 \u0411\u0443\u044f\u043d\u043e\u0432",
+"title": "\u0414\u0430\u0432\u0430\u0439 \u041f\u043e\u0433\u043e\u0432\u043e\u0440\u0438\u043c",
+"label": "\u0413\u041e\u0421\u0422 \u0417\u0412\u0423\u041a - \u0413\u041e\u0421\u0422003"
+},
+{
+"minute": null,
+"artist": "Minor Science",
+"title": "Foggy Situation",
+"label": "TTT018"
+},
+{
+"minute": null,
+"artist": "Loop LF",
+"title": "Moon GZ",
+"label": "WSR001",
+"bp": "bp:14287733",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/42ff41ef-80e4-464c-8a18-7046d08a1f11.LOFI.mp3",
+"name": "Moon GZ",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-06-15"
+},
+{
+"minute": null,
+"artist": "Martinou",
+"title": "Now Is Not Our Time",
+"label": "BAGA005"
+},
+{
+"minute": null,
+"artist": "Ahu",
+"title": "DX Dream",
+"label": "ISEE005"
+},
+{
+"minute": null,
+"artist": "M\u00e4teriet",
+"title": "Rolling Thud (Shine Grooves Acoustic Remix)",
+"label": "SSNDR005"
+},
+{
+"minute": null,
+"artist": "Lemmi Ash",
+"title": "Horror Vacui",
+"label": "ESP050",
+"bp": "bp:12462186",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b094d0a-248d-4c0d-a067-05710b37b2b1.LOFI.mp3",
+"name": "Horror Vacui",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2019-08-30"
+},
+{
+"minute": null,
+"artist": "Molly",
+"title": "Where It Never Ends",
+"label": "GIEGLING 22"
+},
+{
+"minute": null,
+"artist": "Lawrence",
+"title": "Transitions",
+"label": "Dial LP 041",
+"bp": "bp:11120488",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2d059b10-60c5-4731-944f-b2eb8b5694f8.LOFI.mp3",
+"name": "TRANSITIONS",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2018-10-05"
+},
+{
+"minute": null,
+"artist": "Samo DJ",
+"title": "Tai Po Kau",
+"label": "LIES-BLK-03",
+"bp": "bp:15827419",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5bc28a24-a773-47cd-8257-de4fef4362c4.LOFI.mp3",
+"name": "Tai Po Kau",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2013-11-11"
+},
+{
+"minute": null,
+"artist": "Martinou",
+"title": "Guide Pattern",
+"label": "CB04"
+},
+{
+"minute": null,
+"artist": "Rixdorfer Grau",
+"title": "Blue Barbone",
+"label": "777_07",
+"bp": "bp:12041240",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b9a19e9b-45b0-4e64-95a8-631b0cf98828.LOFI.mp3",
+"name": "Blue Barbone",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "Miltiades",
+"title": "W-Ww",
+"label": "Us001"
+},
+{
+"minute": null,
+"artist": "Martinou",
+"title": "Excessive, Surely",
+"label": "UMHS 11"
+},
+{
+"minute": null,
+"artist": "Matthew Wieck",
+"title": "Space Station 09 (Juniper's Salford Central Station Remix)",
+"label": "UMHS003"
+},
+{
+"minute": null,
+"artist": "Minor Science",
+"title": "Closing Acts",
+"label": "WHYT004",
+"bp": "bp:7025540",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2c29e2b9-1be4-4925-8433-b95bb5cb2488.LOFI.mp3",
+"name": "Closing Acts",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2015-06-15"
+},
+{
+"minute": null,
+"artist": "Karen Gwyer",
+"title": "Why Does Your Father Look So Nervous (M/R Remix)",
+"label": "DBALP003R",
+"bp": "bp:10070313",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cc17061f-c60c-447c-ae81-677b2eeb17ff.LOFI.mp3",
+"name": "Why Does Your Father Look so Nervous",
+"mix": "M/R Remix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2018-02-02"
+},
+{
+"minute": null,
+"artist": "Primal Code",
+"title": "Acaulis",
+"label": "KON008",
+"bp": "bp:10147052",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/972ecb51-aaea-4473-a966-d5620d92a63c.LOFI.mp3",
+"name": "Acaulis",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-02-23"
+},
+{
+"minute": null,
+"artist": "Alkini",
+"title": "Myosis (Andrea Cossu Remix)",
+"label": "KORNARION003"
+},
+{
+"minute": null,
+"artist": "DJ Healer",
+"title": "Gods Creation",
+"label": "All Possible Worlds - APW-2"
+},
+{
+"minute": null,
+"artist": "ESHU",
+"title": "Hookshot",
+"label": "SPC04"
+},
+{
+"minute": null,
+"artist": "Andy Kolwes",
+"title": "YSL",
+"label": "PTXS 006"
+},
+{
+"minute": null,
+"artist": "N/A",
+"title": "CCC",
+"label": "UTIQUE002",
+"bp": "bp:29966314",
+"score": 0.55,
+"preview": "https://geo-samples.beatport.com/track/a3874a62-4706-417a-aba6-364c124760f6.LOFI.mp3",
+"name": "CCC",
+"mix": "En Vivo",
+"genre": "latin",
+"released": "2023-12-29"
+},
+{
+"minute": null,
+"artist": "Ekeko",
+"title": "Beyond Good And Evil",
+"label": "Untilmyheartstops 013"
+},
+{
+"minute": null,
+"artist": "Eletun Selona",
+"title": "Untitled A2",
+"label": "SSNDR004"
+},
+{
+"minute": null,
+"artist": "Ma Spaventi",
+"title": "Tape Noodles",
+"label": "MOS-LP4",
+"bp": "bp:8161853",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d239b9f2-8046-4fa2-8919-b2e3211cdaf9.LOFI.mp3",
+"name": "Tape Noodles",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2016-07-25"
+},
+{
+"minute": null,
+"artist": "SYS",
+"title": "Exoplanet",
+"label": "ESHU008",
+"bp": "bp:11537563",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/50d90779-1030-4f3e-97ed-cac974b5ac6a.LOFI.mp3",
+"name": "Exoplanet",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-02-27"
+},
+{
+"minute": null,
+"artist": "Martinou",
+"title": "Let's Get Out Of Here",
+"label": "AD93 WHYTBLU08"
+},
+{
+"minute": null,
+"artist": "Molly",
+"title": "Calypso",
+"label": "GIEGLING 22"
+},
+{
+"minute": null,
+"artist": "Martinou",
+"title": "Velvet",
+"label": "Nous'klaer - NOUSLP006",
+"bp": "bp:15829599",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0362748-3c36-4f44-a334-8a8ab9e6902a.LOFI.mp3",
+"name": "Velvet",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-11-26"
+},
+{
+"minute": null,
+"artist": "Bambounou",
+"title": "Tour",
+"label": "WHYT021",
+"bp": "bp:28786054",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6ebe774c-e790-4e36-a46a-3ce04d0ace2d.LOFI.mp3",
+"name": "Tour",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-02-22"
+},
+{
+"minute": null,
+"artist": "FDF",
+"title": "Hydra (Radio Edit)",
+"label": "FDF RAW 2",
+"bp": "bp:3872677",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/025fdcdf-815d-4086-9c12-f6602b242cfe.LOFI.mp3",
+"name": "Hydra",
+"mix": "Radio Edit",
+"genre": "minimal-deep-tech",
+"released": "2012-10-29"
+},
+{
+"minute": null,
+"artist": "Mike Parker & Donato Dozzy",
+"title": "Fullonica Di Stephanus",
+"label": "DZR-003"
+},
+{
+"minute": null,
+"artist": "Perm",
+"title": "03-VIII",
+"label": "Shtum014",
+"bp": "bp:9624664",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ad19514b-cc95-4c9e-a1bb-b5dac8c845b5.LOFI.mp3",
+"name": "03-VIII",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-09-18"
+},
+{
+"minute": null,
+"artist": "Prince Of Denmark",
+"title": "Squidcall",
+"label": "FORUM V"
+},
+{
+"minute": null,
+"artist": "Mosam Howieson",
+"title": "IV",
+"label": "SSX03"
+},
+{
+"minute": null,
+"artist": "Martinou",
+"title": "Shimmer",
+"label": "BAGA005"
+}
+]
+},
+{
+"title": "2020-02-12 - Martinou - Rosa 002",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 7,
+"artist": "Move D & Benjamin Brunn",
+"title": "C-Sick",
+"label": "Smallville",
+"bp": "bp:12934623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5eb9a40-159b-48f3-bc6c-4343b77b2ad9.LOFI.mp3",
+"name": "C-Sick",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-02-14"
+},
+{
+"minute": 11,
+"artist": "Loop LF",
+"title": "Natural XT",
+"label": "Well Street",
+"bp": "bp:14287590",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/72d15a6d-7c62-4e9f-9ac5-5bb8092dd1f6.LOFI.mp3",
+"name": "Natural XT",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-07-05"
+},
+{
+"minute": 16,
+"artist": "Bas Dobbelaer & Vand",
+"title": "Body-Electric",
+"label": "Something Happening Somewhere",
+"bp": "bp:19699609",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/552a6d21-cdd9-47d3-b0e7-1603f561a1ee.LOFI.mp3",
+"name": "Body-Electric",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2024-11-11"
+},
+{
+"minute": 22,
+"artist": "Ben Kaczor",
+"title": "Alternation",
+"label": "KCZ"
+},
+{
+"minute": 28,
+"artist": "Mohlao",
+"title": "Aperture",
+"label": "Konstrukt",
+"bp": "bp:11015723",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f8a4604c-6278-4e7c-bd1c-6f15244f9fdf.LOFI.mp3",
+"name": "Aperture",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-10-12"
+},
+{
+"minute": 32,
+"artist": "Area",
+"title": "Notice",
+"label": "Idle Hands",
+"bp": "bp:9400373",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae803a1c-7ea9-4897-a525-8e1378a75879.LOFI.mp3",
+"name": "Notice",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2017-06-30"
+},
+{
+"minute": 38,
+"artist": "Kassem Mosse",
+"title": "Untitled B2",
+"label": "Workshop - 19",
+"bp": "bp:900565",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/42f9eaff-6d0d-435b-9438-dff4053ef4e7.LOFI.mp3",
+"name": "Untitled B2",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2013-01-01"
+},
+{
+"minute": 41,
+"artist": "Tresque",
+"title": "Terapung-Apung",
+"label": "-Ous",
+"bp": "bp:9667602",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4426bfc7-859e-4a09-bf64-e6d08575c5ab.LOFI.mp3",
+"name": "Terapung-apung",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-10-06"
+},
+{
+"minute": 44,
+"artist": "D Man",
+"title": "Untitled B3",
+"label": "Workshop - 25",
+"bp": "bp:11043949",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/261dc977-0ec0-4d01-95da-56f848cc51ac.LOFI.mp3",
+"name": "Untitled B3",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2018-09-07"
+},
+{
+"minute": 46,
+"artist": "Forest Drive West",
+"title": "Ricochet",
+"label": "Midgar"
+},
+{
+"minute": 54,
+"artist": "R.O.W.S",
+"title": "2.5",
+"label": "\u00c6X"
+},
+{
+"minute": 60,
+"artist": "Mattheis",
+"title": "Blue Robins",
+"label": "Nous'klaer",
+"bp": "bp:13097555",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4d415501-9cca-4c20-a875-010ccad93677.LOFI.mp3",
+"name": "Blue Robins",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-02-14"
+},
+{
+"minute": 65,
+"artist": "Aleks",
+"title": "RZ1to9150",
+"label": "Shimmering Moods"
+},
+{
+"minute": 72,
+"artist": "SVN",
+"title": "Dark Plan 8",
+"label": "SUED"
+}
+]
+},
+{
+"title": "2020-11-26 - Martinou, Tammo Hesselink - Sewer Sender, Rinse FM France",
+"records": []
+},
+{
+"title": "2021-04-22 - Martinou - Sewer Sender, Rinse FM France",
+"records": []
+},
+{
+"title": "2021-06-21 - Martinou - Sure Thing Mix 105",
+"records": [
+{
+"minute": 0,
+"artist": "LF58",
+"title": "Iniziazione",
+"label": "Astral Industries",
+"bp": "bp:13264962",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2177c8e-1daa-480f-af2c-748952e8f356.LOFI.mp3",
+"name": "Iniziazione",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-04-06"
+},
+{
+"minute": 5,
+"artist": "Pavel Milyakov",
+"title": "January",
+"label": "Psy X",
+"bp": "bp:16724165",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/147d3866-49a6-4c4f-ae42-1c04267fecc2.LOFI.mp3",
+"name": "January",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2020-03-20"
+},
+{
+"minute": 8,
+"artist": "Efdemin",
+"title": "Oh, Lovely Appearance Of Death",
+"label": "Ostgut",
+"bp": "bp:11409580",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/545c7c83-9705-4aa7-a7c8-41de7c881ff1.LOFI.mp3",
+"name": "Oh, Lovely Appearance of Death",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-02-15"
+},
+{
+"minute": 12,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 15,
+"artist": "Solitary Dancer",
+"title": "La Donna",
+"label": "Optimo Trax",
+"bp": "bp:10285867",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c5fef1a5-1acd-42a6-ab37-9919ab85a539.LOFI.mp3",
+"name": "La Donna",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2018-03-09"
+},
+{
+"minute": 20,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 25,
+"artist": "Porn Sword Tobacco",
+"title": "Magnifik Botanik",
+"label": "Aniara"
+},
+{
+"minute": 33,
+"artist": "Freund Der Familie",
+"title": "PRS (Roger Gerressen Remix)",
+"label": "Freund Der Familie"
+},
+{
+"minute": 37,
+"artist": "Rambadu",
+"title": "Mescam",
+"label": "Rambadu"
+},
+{
+"minute": 43,
+"artist": "Yone-Ko",
+"title": "Strip Down To E",
+"label": "Workshop",
+"bp": "bp:14154472",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c447bdd8-1827-48bf-bde9-38267de0d966.LOFI.mp3",
+"name": "Strip Down To E",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-08-28"
+},
+{
+"minute": 49,
+"artist": "Martinou",
+"title": "Thunder Road",
+"label": "Nous'klaer",
+"bp": "bp:15829592",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/14cfa9d1-07c2-4e98-ba0a-969cd3c8030d.LOFI.mp3",
+"name": "Thunder Road",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-26"
+},
+{
+"minute": 54,
+"artist": "C-Rau",
+"title": "Project Condenser",
+"label": "Die Orakel"
+},
+{
+"minute": 58,
+"artist": "Efdemin",
+"title": "Night Train",
+"label": "Dial",
+"bp": "bp:1245138",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b3f4d1f4-2c7a-40a8-8be3-d8d187bbe8a8.LOFI.mp3",
+"name": "Night Train",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2010-06-07"
+},
+{
+"minute": 63,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 66,
+"artist": "Chaos In The CBD & Jon Sable",
+"title": "Te Puke Thunder",
+"label": "In Dust We Trust",
+"bp": "bp:15057913",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0e4c5933-6752-44d9-8813-b41f56741068.LOFI.mp3",
+"name": "Te Puke Thunder",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-04-02"
+},
+{
+"minute": 71,
+"artist": "Tetelepta",
+"title": "I Don't Give A F**K",
+"label": "Eshu",
+"bp": "bp:14416783",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9937988-d3c3-42aa-af83-e2ecd5b998e2.LOFI.mp3",
+"name": "I Don't Give a F**K",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-11-09"
+},
+{
+"minute": 77,
+"artist": "Placid Angles",
+"title": "Scarlett Season",
+"label": "Peacefrog",
+"bp": "bp:1447820",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/71d04d6e-30f7-4edf-936a-1b28aad0cb03.LOFI.mp3",
+"name": "Scarlett Season",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2010-09-20"
+},
+{
+"minute": 81,
+"artist": "Ben Kaczor",
+"title": "Spinning Wheels",
+"label": "Kcz"
+},
+{
+"minute": 85,
+"artist": "PST & SVN",
+"title": "Recording 4",
+"label": "Recording"
+},
+{
+"minute": 90,
+"artist": "Gacha Bakradze",
+"title": "Saysea",
+"label": "Transfigured Time",
+"bp": "bp:9336661",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d18888f5-c8d9-4715-b035-7526b4458302.LOFI.mp3",
+"name": "Saysea",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2017-06-09"
+},
+{
+"minute": 95,
+"artist": "Martinou",
+"title": "G\u00f6mmaren",
+"label": "Nous'klaer"
+}
+]
+},
+{
+"title": "2021-12-09 - Martinou - Nous'klaer Radio 35",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 3,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 8,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 11,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 16,
+"artist": "Martinou",
+"title": "Locked In",
+"label": "Nous'klaer Audio",
+"bp": "bp:17912486",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/964a96b4-c9b2-4ca5-a42d-36434a04f15e.LOFI.mp3",
+"name": "Locked In",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-09-22"
+},
+{
+"minute": 20,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 24,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 28,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 30,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 34,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 38,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 40,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 44,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 48,
+"artist": "Martinou",
+"title": "Reverie",
+"label": "Nous'klaer Audio",
+"bp": "bp:17912476",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bfe3b193-f02d-41bb-aa3b-21ae2bd92284.LOFI.mp3",
+"name": "Reverie",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-09-22"
+},
+{
+"minute": 53,
+"artist": "Martinou",
+"title": "Exit To Bliss",
+"label": "Nous'klaer Audio"
+}
+]
+},
+{
+"title": "2022-09-10 - Martinou (Live PA) @ Draaimolen Festival, Tilburg, Netherlands",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 2,
+"artist": "Martinou",
+"title": "Guardian",
+"label": "Nous'klaer - NOUSLP008"
+},
+{
+"minute": 6,
+"artist": "Martinou",
+"title": "G\u00f6mmaren",
+"label": "Nous'klaer - NOUSLP006"
+},
+{
+"minute": 12,
+"artist": "Martinou",
+"title": "Rose Suffix",
+"label": "Nous'klaer - NOUSLP006",
+"bp": "bp:15829594",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1d74688-0c8d-41f9-9a59-963c22b26623.LOFI.mp3",
+"name": "Rose Suffix",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-26"
+},
+{
+"minute": 17,
+"artist": "Martinou",
+"title": "Take Me There",
+"label": "Nous'klaer - NOUSLP008",
+"bp": "bp:17912494",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc73dd9a-f1e0-4597-9314-abf5115f28bb.LOFI.mp3",
+"name": "Take Me There",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-09-22"
+},
+{
+"minute": 22,
+"artist": "Martinou",
+"title": "Reverie",
+"label": "Nous'klaer - NOUSLP008",
+"bp": "bp:17912476",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bfe3b193-f02d-41bb-aa3b-21ae2bd92284.LOFI.mp3",
+"name": "Reverie",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-09-22"
+},
+{
+"minute": 26,
+"artist": "Martinou",
+"title": "Om Und Draag (Enlightened Mix)",
+"label": "Nous'klaer - NOUSLP006"
+},
+{
+"minute": 32,
+"artist": "Martinou",
+"title": "Thunder Road",
+"label": "Nous'klaer - NOUSLP006",
+"bp": "bp:15829592",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/14cfa9d1-07c2-4e98-ba0a-969cd3c8030d.LOFI.mp3",
+"name": "Thunder Road",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-26"
+},
+{
+"minute": 37,
+"artist": "Martinou",
+"title": "Epilogue",
+"label": "Lost In Translation - LOST001"
+},
+{
+"minute": 43,
+"artist": "Martinou",
+"title": "In Time We'll Know",
+"label": "Nous'klaer - NOUSLP006",
+"bp": "bp:15829595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f422504c-ba35-44b5-9e57-de39fdbe1707.LOFI.mp3",
+"name": "In time we'll know",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2021-11-26"
+},
+{
+"minute": 49,
+"artist": "Martinou",
+"title": "Let's Get Out Of Here",
+"label": "AD 93 - WHYTBLU08"
+},
+{
+"minute": 56,
+"artist": "Martinou",
+"title": "This Is Not The End",
+"label": "Studio Barnhus - BARN114",
+"bp": "bp:20029610",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a683117c-9a5b-4311-8361-bc6180daf6f5.LOFI.mp3",
+"name": "This is not the End",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-04-11"
+}
+]
+},
+{
+"title": "2022-09-16 - Motherwise, Martinou - Sewer Sender, Rinse FM France",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 5,
+"artist": "Mateis e.aqir",
+"title": "Chimbo Ra",
+"label": "Jungle Gym"
+},
+{
+"minute": 8,
+"artist": "See Other",
+"title": "Waitin",
+"label": "Lobster Theremin",
+"bp": "bp:9224239",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8b63c406-8b39-4f07-8da1-17702b5e49e6.LOFI.mp3",
+"name": "Waitin",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2017-04-21"
+},
+{
+"minute": 12,
+"artist": "Imre Kiss",
+"title": "Love",
+"label": "M\u00f6rk",
+"bp": "bp:10378788",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/11ee8324-df0f-43af-a4a5-c5179db312f2.LOFI.mp3",
+"name": "Love",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2018-03-30"
+},
+{
+"minute": 18,
+"artist": "Mandar",
+"title": "Ascend",
+"label": "Oscillat",
+"bp": "bp:11251814",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b380f0a2-7bbf-4be7-b722-13a5e29fbd2c.LOFI.mp3",
+"name": "Ascend",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2016-11-21"
+},
+{
+"minute": 26,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 31,
+"artist": "Central",
+"title": "Ment",
+"label": "Yield"
+},
+{
+"minute": 37,
+"artist": "Na Nich",
+"title": "Manipulation",
+"label": "Oblique",
+"bp": "bp:15146059",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1e23be14-52b3-42f2-ad8e-1bd6b4a95d9a.LOFI.mp3",
+"name": "Manipulation",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2021-05-14"
+},
+{
+"minute": 42,
+"artist": "Ross From Friends",
+"title": "Would You Still Be Here",
+"label": "Magicwire",
+"bp": "bp:9502421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/985a2f94-e675-4a2c-8509-151368d7b605.LOFI.mp3",
+"name": "Would You Still Be Here",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2017-07-08"
+},
+{
+"minute": 48,
+"artist": "DJ Slyngshot",
+"title": "High Times",
+"label": "YAPPIN",
+"bp": "bp:18181645",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3df31a6d-963f-40d1-8bd4-785655503e47.LOFI.mp3",
+"name": "High Times",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-09-29"
+},
+{
+"minute": 55,
+"artist": "Supreems",
+"title": "Close Your Eyes (And Feel)",
+"label": "Lobster Theremin",
+"bp": "bp:10730015",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d81f4e03-d8b0-42da-95be-348a2dce580e.LOFI.mp3",
+"name": "Close Your Eyes (And Feel)",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2018-06-29"
+},
+{
+"minute": 59,
+"artist": "Lord Of The Isles",
+"title": "Inheritance",
+"label": "AD"
+},
+{
+"minute": 66,
+"artist": "Amandra X Mattheis",
+"title": "Droning Poem",
+"label": "Nous'klaer Audio",
+"bp": "bp:14448232",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/f5c2293f-9ef5-4dec-a438-1a7d2562721c.LOFI.mp3",
+"name": "Droning Poem",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2021-02-26"
+},
+{
+"minute": 69,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 75,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 81,
+"artist": "Adam Str\u00f6mstedt",
+"title": "It's A Simple Switch",
+"label": "Kann"
+},
+{
+"minute": 85,
+"artist": "Amandra",
+"title": "Brera Som Som (Martinou Remix)",
+"label": "Music_is"
+},
+{
+"minute": 90,
+"artist": "Carsten Jost",
+"title": "VII (Ben Kaczor Remix)",
+"label": "Dial"
+},
+{
+"minute": 96,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 102,
+"artist": "Rising Sun",
+"title": "Oskar (Le Petit Prince Mix)",
+"label": "Fauxpas"
+},
+{
+"minute": 104,
+"artist": "Lb Honne",
+"title": "Making Matters (Martinou Remix)",
+"label": "Vorgott"
+},
+{
+"minute": 110,
+"artist": "Oceanic",
+"title": "Other Side Of The Shell",
+"label": "Nous'klaer Audio",
+"bp": "bp:16964241",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1d233609-b6b8-4aa9-844a-ee9bd1b666e1.LOFI.mp3",
+"name": "Other Side of the Shell",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2022-10-17"
+},
+{
+"minute": 116,
+"artist": "Martinou",
+"title": "Take Me There",
+"label": "Nous'klaer Audio",
+"bp": "bp:17912494",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc73dd9a-f1e0-4597-9314-abf5115f28bb.LOFI.mp3",
+"name": "Take Me There",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-09-22"
+}
+]
+},
+{
+"title": "2023-03-17 - Nokato Nomer, Martinou - Sewer Sender, Rinse FM France",
+"records": []
+},
+{
+"title": "2023-09-09 - Martinou (Live PA) @ Transition: September 2023, About:Blank, Berlin (9th Transition, 2023-09-27)",
+"records": [
+{
+"minute": 0,
+"artist": "Martinou",
+"title": "You Took Me In",
+"label": "Studio Barnhus",
+"bp": "bp:20029585",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a95ec96b-af7d-405e-af41-e7b23ef679d0.LOFI.mp3",
+"name": "You took me in",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2025-04-11"
+},
+{
+"minute": 6,
+"artist": "Martinou",
+"title": "G\u00f6mmaren",
+"label": "Nous'klaer - NOUSLP006"
+},
+{
+"minute": 12,
+"artist": "Martinou",
+"title": "Paean",
+"label": "Nous'klaer - NOUS043",
+"bp": "bp:22263183",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c95eb637-dbc6-470c-9056-9cdfc729a6b5.LOFI.mp3",
+"name": "Paean",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2025-12-05"
+},
+{
+"minute": 19,
+"artist": "Martinou",
+"title": "Locked In",
+"label": "Nous'klaer - NOUSLP008",
+"bp": "bp:17912486",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/964a96b4-c9b2-4ca5-a42d-36434a04f15e.LOFI.mp3",
+"name": "Locked In",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-09-22"
+},
+{
+"minute": 23,
+"artist": "Martinou",
+"title": "Exhilaration",
+"label": "Turbo - TURBO230",
+"bp": "bp:18256508",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8e972d61-aebe-4d93-93d7-4c3d973943c5.LOFI.mp3",
+"name": "Exhilaration",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-11-24"
+},
+{
+"minute": 29,
+"artist": "Martinou",
+"title": "Demise",
+"label": "Nous'klaer - NOUSLP008",
+"bp": "bp:17912482",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/21eda8ce-1d53-4a68-95c1-c9bc5fd5244a.LOFI.mp3",
+"name": "Demise",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-09-22"
+},
+{
+"minute": 34,
+"artist": "Martinou",
+"title": "Sanctuary",
+"label": "Melifera"
+},
+{
+"minute": 39,
+"artist": "Martinou",
+"title": "Open Up The Blinds",
+"label": "Nous'klaer - NOUSLP008",
+"bp": "bp:17912479",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cd7c3fcc-f3e5-4bef-8c69-9f91d23ea844.LOFI.mp3",
+"name": "Open up the Blinds",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2023-09-22"
+},
+{
+"minute": 45,
+"artist": "Martinou",
+"title": "I Told You We'd Make It",
+"label": "Turbo - TURBO230",
+"bp": "bp:18256505",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60c0af1e-5ef4-4add-85aa-eec08421d5a6.LOFI.mp3",
+"name": "I Told You We'd Make It",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-11-24"
+},
+{
+"minute": 50,
+"artist": "Amandra",
+"title": "Brera Som Som (Martinou Remix)",
+"label": "Music_Is - MIS010"
+},
+{
+"minute": 55,
+"artist": "Martinou",
+"title": "Cirrus Apparition",
+"label": "Nous'klaer - NOUSLP006",
+"bp": "bp:15829593",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/48bddcf2-3dbd-479c-9c3b-96595cff9773.LOFI.mp3",
+"name": "Cirrus Apparition",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-26"
+},
+{
+"minute": 61,
+"artist": "Martinou",
+"title": "Devotion",
+"label": "Nous'klaer - NOUSLP008",
+"bp": "bp:17912498",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2a9a4872-8bd0-4739-829c-c70aaa68c2d2.LOFI.mp3",
+"name": "Devotion",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-09-22"
+},
+{
+"minute": 65,
+"artist": "Martinou",
+"title": "Take Me There",
+"label": "Nous'klaer - NOUSLP008",
+"bp": "bp:17912494",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc73dd9a-f1e0-4597-9314-abf5115f28bb.LOFI.mp3",
+"name": "Take Me There",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-09-22"
+},
+{
+"minute": 70,
+"artist": "Martinou",
+"title": "An Inclination",
+"label": "Nous'klaer - NOUSLP008",
+"bp": "bp:17912501",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ccf86ab7-3077-4fdc-b2ad-ffa5f8b05aff.LOFI.mp3",
+"name": "An Inclination",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-09-22"
+}
+]
+},
+{
+"title": "2023-10-26 - Martinou - Monument Podcast 389",
+"records": [
+{
+"minute": 0,
+"artist": "Aponogeton",
+"title": "The Night Sky Is Falling (Sixth Seal)",
+"label": "Stroom",
+"bp": "bp:12863178",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f48138e5-bd5f-4aff-a1e4-6d7999f2bfa4.LOFI.mp3",
+"name": "The Night Sky Is Falling (Sixth Seal)",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-12-16"
+},
+{
+"minute": 5,
+"artist": "Space Dimension Controller",
+"title": "Cro\u00b2ma",
+"label": "Hypercolour",
+"bp": "bp:17009098",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3cfba697-18b6-406a-b4f5-eea415c3cbf6.LOFI.mp3",
+"name": "Cro\u00b2ma",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-04-03"
+},
+{
+"minute": 10,
+"artist": "Alvin Aronson",
+"title": "Fog City",
+"label": "White Material"
+},
+{
+"minute": 13,
+"artist": "Martinou",
+"title": "Exhilaration",
+"label": "Turbo",
+"bp": "bp:18256508",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8e972d61-aebe-4d93-93d7-4c3d973943c5.LOFI.mp3",
+"name": "Exhilaration",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-11-24"
+},
+{
+"minute": 19,
+"artist": "Orion",
+"title": "Dear Blue",
+"label": "Orion"
+},
+{
+"minute": 24,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 29,
+"artist": "Martinou",
+"title": "Paean",
+"label": "Nous'klaer",
+"bp": "bp:22263183",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c95eb637-dbc6-470c-9056-9cdfc729a6b5.LOFI.mp3",
+"name": "Paean",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2025-12-05"
+},
+{
+"minute": 35,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 40,
+"artist": "Skudge",
+"title": "Convolution (Levon Vincent Scream Version)",
+"label": "Skudge"
+},
+{
+"minute": 45,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 50,
+"artist": "R.O.W.S",
+"title": "7.7",
+"label": "KCZ"
+},
+{
+"minute": 57,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 62,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 68,
+"artist": "Evigt M\u00f6rker",
+"title": "Dromsyn",
+"label": "Reclaim Your City"
+},
+{
+"minute": 72,
+"artist": "Eletun Selona",
+"title": "Experimada",
+"label": "Sewer Sender",
+"bp": "bp:20250578",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36cc7cbe-1ce5-4331-adba-5058100d26dc.LOFI.mp3",
+"name": "Experimada",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-03-31"
+}
+]
+},
+{
+"title": "2024-09-07 - Mama Snake b2b Martinou @ Draaimolen Festival, Tilburg, Netherlands",
+"records": [
+{
+"minute": 0,
+"artist": "Eletun Selona",
+"title": "Sayaan",
+"label": "Sewer Sender",
+"bp": "bp:20250567",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1d784bc3-0ca8-481e-8c0a-dce95d361131.LOFI.mp3",
+"name": "Sayaan",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-03-31"
+},
+{
+"minute": 4,
+"artist": "Sisilisko",
+"title": "Behind The Sun",
+"label": "Amniote Editions",
+"bp": "bp:17979163",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/398978cb-763e-4c9d-b773-1d6b384d1e58.LOFI.mp3",
+"name": "Behind The Sun",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-06-16"
+},
+{
+"minute": 8,
+"artist": "Mikkel Metal",
+"title": "Decline",
+"label": "Kompakt",
+"bp": "bp:653987",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4fbe3707-ce35-4627-9f09-852f3fe911a3.LOFI.mp3",
+"name": "Decline",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2005-11-14"
+},
+{
+"minute": 11,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 16,
+"artist": "David Granstr\u00f6m",
+"title": "Waning Moon",
+"label": "Xkatedral"
+},
+{
+"minute": 20,
+"artist": "Snog (Coluber)",
+"title": "Wave Of Awe",
+"label": "Amniote Editions",
+"bp": "bp:17979197",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f181ebb7-ff12-440b-a82f-c091f7064159.LOFI.mp3",
+"name": "Wave Of Awe",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-06-16"
+},
+{
+"minute": 25,
+"artist": "Evigt M\u00f6rker",
+"title": "Du Som \u00c4r F\u00f6dd",
+"label": "Northern Electronics"
+},
+{
+"minute": 29,
+"artist": "Wa Wu We",
+"title": "And The Drowned Sea",
+"label": "Hypnus",
+"bp": "bp:14587770",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d0e38bd6-6a48-48e2-ab06-18972794f852.LOFI.mp3",
+"name": "and the Drowned Sea",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-12-14"
+},
+{
+"minute": 33,
+"artist": "Dorisburg & Sebastian Mullaert",
+"title": "Archway",
+"label": "Spazio Disponibile",
+"bp": "bp:17700946",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/722a7785-8d10-4bc3-be3a-ee6cee4dbbd0.LOFI.mp3",
+"name": "Archway",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-06-30"
+},
+{
+"minute": 36,
+"artist": "Kaspiann",
+"title": "Solina",
+"label": "Delsin",
+"bp": "bp:18887787",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/73865859-88aa-420d-9ee7-054085e3590f.LOFI.mp3",
+"name": "Solina",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-04-26"
+},
+{
+"minute": 42,
+"artist": "Eletun Selona",
+"title": "Samlad",
+"label": "Sewer Sender",
+"bp": "bp:20250573",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9369380b-65c0-4ce3-913c-ccc39c7c4f00.LOFI.mp3",
+"name": "Samlad",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-03-31"
+},
+{
+"minute": 46,
+"artist": "Primal Code",
+"title": "Elixir",
+"label": "Hypnus",
+"bp": "bp:13688268",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b3f7403d-1e0d-4687-b6a3-0893a4354a60.LOFI.mp3",
+"name": "Elixir",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-06-05"
+},
+{
+"minute": 51,
+"artist": "Klara",
+"title": "Jetsun D\u00f6lma (Toffes V\u00e4rld Remix)",
+"label": "L\u0101sya"
+},
+{
+"minute": 54,
+"artist": "Kaspiann",
+"title": "Satakieli",
+"label": "Delsin",
+"bp": "bp:18887780",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/42ad9f84-ad40-4f4e-94af-5815d3ee9e58.LOFI.mp3",
+"name": "Satakieli",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-04-26"
+},
+{
+"minute": 58,
+"artist": "Fj\u00e4der",
+"title": "En Liten Saga",
+"label": "Nordanvind"
+},
+{
+"minute": 62,
+"artist": "Feral",
+"title": "Rara Lake",
+"label": "Hypnus",
+"bp": "bp:10431860",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ae216ac-5adb-44b7-94db-c75af46b3d1a.LOFI.mp3",
+"name": "Rara Lake",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-05-07"
+},
+{
+"minute": 67,
+"artist": "Mr. Tophat & Art Alfie",
+"title": "Don't Step On The Baby",
+"label": "Karlovak Chrome"
+},
+{
+"minute": 71,
+"artist": "Cold",
+"title": "Goosebumps",
+"label": "\u00e6",
+"bp": "bp:13141910",
+"score": 1.1,
+"preview": "https://geo-samples.beatport.com/track/2a1237d8-07a9-489d-b9bd-f41e964dda6b.LOFI.mp3",
+"name": "Goosebumps",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-03-06"
+},
+{
+"minute": 74,
+"artist": "Mikkel Metal",
+"title": "Wahomi",
+"label": "Echocord",
+"bp": "bp:1822882",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cd18a2c2-3551-40f4-aece-daaefd65513e.LOFI.mp3",
+"name": "Wahomi",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2011-04-11"
+},
+{
+"minute": 78,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 84,
+"artist": "Hannu Ikola",
+"title": "Pylon",
+"label": "Etherwerks"
+},
+{
+"minute": 88,
+"artist": "OHM & Octal Industries",
+"title": "\u00datkall",
+"label": "Thule",
+"bp": "bp:13159447",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4b879877-cfc9-41c8-929a-ffcebf00f177.LOFI.mp3",
+"name": "\u00datkall",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-03-13"
+},
+{
+"minute": 93,
+"artist": "Eletun Selona",
+"title": "Safe",
+"label": "Sewer Sender",
+"bp": "bp:19198165",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9332555-49f1-4657-9cc1-41934798cb5d.LOFI.mp3",
+"name": "Safe",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-07-25"
+},
+{
+"minute": 98,
+"artist": "OHM & Kvadrant",
+"title": "Langebro (The Persuader Remix)",
+"label": "Kontakt",
+"bp": "bp:16228268",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ad9ecb06-c31f-4101-bbde-9da304e7183e.LOFI.mp3",
+"name": "Langebro",
+"mix": "The Persuader Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-04-08"
+},
+{
+"minute": 102,
+"artist": "Amandra",
+"title": "Brera Som Som (Martinou Remix)",
+"label": "Music_Is"
+},
+{
+"minute": 105,
+"artist": "Moy Santana",
+"title": "Dafne (Arkajo Remix)",
+"label": "Sungate",
+"bp": "bp:17708699",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc2bb061-0a5d-4567-b269-c68cd29db028.LOFI.mp3",
+"name": "Dafne",
+"mix": "Arkajo Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-05-26"
+},
+{
+"minute": 108,
+"artist": "Karl Bult",
+"title": "Kvarlevor",
+"label": "Nordanvind"
+},
+{
+"minute": 113,
+"artist": "Birds Ov Paradise",
+"title": "Plaskis",
+"label": "Konstrukt",
+"bp": "bp:11671820",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2792b148-a802-4cb9-8c62-0b10b4bd1de5.LOFI.mp3",
+"name": "Plaskis",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-03-15"
+},
+{
+"minute": 117,
+"artist": "Ntogn",
+"title": "Spott, Blod & Jord",
+"label": "Tome",
+"bp": "bp:14146909",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18c726a3-8599-44cf-843b-b6f653b149cd.LOFI.mp3",
+"name": "Spott, Blod & Jord",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-09-22"
+},
+{
+"minute": 121,
+"artist": "Kaspiann",
+"title": "Ethereal",
+"label": "Planet Rhythm",
+"bp": "bp:10789499",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b4370fd6-497a-4e1f-9ec8-3608ebefa3a4.LOFI.mp3",
+"name": "Ethereal",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-09-17"
+},
+{
+"minute": 127,
+"artist": "Evigt M\u00f6rker",
+"title": "H\u00e4ll I Mig",
+"label": "Evigt M\u00f6rker"
+},
+{
+"minute": 132,
+"artist": "H\u00e4rdstedt",
+"title": "Sanyo Blue (Luigi Tozzi Dub Mix)",
+"label": "Hypnus"
+},
+{
+"minute": 135,
+"artist": "Kuf & Dold",
+"title": "Track 3",
+"label": "Arsenik",
+"bp": "bp:21595753",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/604b9355-b3a3-4fb6-85f2-bcee8c9aa973.LOFI.mp3",
+"name": "Track 3",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2022-11-28"
+},
+{
+"minute": 139,
+"artist": "Kaspiann",
+"title": "Taming Submarines",
+"label": "Vala"
+},
+{
+"minute": 144,
+"artist": "Mikkel Metal",
+"title": "Ripe D",
+"label": "Echocord Colour",
+"bp": "bp:1691309",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8cf891e2-9130-40e1-8c84-2eada2f62277.LOFI.mp3",
+"name": "Ripe D",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2011-02-14"
+},
+{
+"minute": 148,
+"artist": "Cold",
+"title": "Phased Out",
+"label": "\u00e6",
+"bp": "bp:13141907",
+"score": 1.1,
+"preview": "https://geo-samples.beatport.com/track/90dc6d9b-3b1d-46d5-b315-8d685a1769d9.LOFI.mp3",
+"name": "Phased Out",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-03-06"
+},
+{
+"minute": 152,
+"artist": "Gilb'R",
+"title": "Ch\u00e0m (Gilb'r & DJ Sotofett Version One)",
+"label": "Versatile"
+},
+{
+"minute": 156,
+"artist": "Dorisburg",
+"title": "Computer Drumming 128",
+"label": "Bossmusik"
+},
+{
+"minute": 160,
+"artist": "Martinou",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 166,
+"artist": "Ohm & Philipp Priebe",
+"title": "Sacred Nights",
+"label": "\u00e6",
+"bp": "bp:17713050",
+"score": 1.1,
+"preview": "https://geo-samples.beatport.com/track/fea7fd77-2201-475d-8b67-606d1fe56df6.LOFI.mp3",
+"name": "Sacred Nights",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-06-16"
+},
+{
+"minute": 170,
+"artist": "Henrik Bergqvist",
+"title": "Skyrunner",
+"label": "Bossmusik"
+},
+{
+"minute": 175,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 179,
+"artist": "Eletun Selona",
+"title": "Our Prophecy",
+"label": "Sewer Sender",
+"bp": "bp:19198167",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a45974ea-b24d-45eb-8541-d51bc3037cf2.LOFI.mp3",
+"name": "Our Prophecy",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2024-07-25"
+},
+{
+"minute": 186,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 190,
+"artist": "Jesper Dahlb\u00e4ck Pres.The Persuader",
+"title": "What's The Time, Mr. Templar?",
+"label": "Svek"
+},
+{
+"minute": 195,
+"artist": "Birds Ov Paradise",
+"title": "\u00c4ngarna",
+"label": "Hypnus",
+"bp": "bp:13094695",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8c4ecb5f-e61a-4505-bdc3-3f489a9618ea.LOFI.mp3",
+"name": "\u00c4ngarna",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-03-09"
+},
+{
+"minute": 201,
+"artist": "Martinou",
+"title": "Glider",
+"label": "Nous'klaer",
+"bp": "bp:19824596",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b9964d06-c887-4b82-8d3d-72d3ac579df3.LOFI.mp3",
+"name": "Glider",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-01-17"
+},
+{
+"minute": 206,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 210,
+"artist": "The Knife",
+"title": "Like A Pen",
+"label": "Brille",
+"bp": "bp:146917",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a7ef9fed-9ded-461c-8cb7-a1dbf2ed2002.LOFI.mp3",
+"name": "Like A Pen",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2006-06-09"
+},
+{
+"minute": 217,
+"artist": "Headless Ghost",
+"title": "Swept Illusions (Arkajo Remix)",
+"label": "Clone Royal Oak",
+"bp": "bp:17615343",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5ec4e03-ffa9-436d-b3f1-b0a8e5b4aab1.LOFI.mp3",
+"name": "Swept Illusions",
+"mix": "Arkajo Remix",
+"genre": "deep-house",
+"released": "2023-04-12"
+},
+{
+"minute": 222,
+"artist": "Martinou",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 226,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 230,
+"artist": "Martinou",
+"title": "Reality Bends",
+"label": "Mule Musiq",
+"bp": "bp:19522917",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9846a11-4004-4356-9680-c9076d0d12fe.LOFI.mp3",
+"name": "Reality Bends",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-09-27"
+},
+{
+"minute": 233,
+"artist": "Sunday Brunch",
+"title": "Midsummer Night",
+"label": "Svek",
+"bp": "bp:456911",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a229fc59-2d7c-4e05-9ae3-4786549ae7dd.LOFI.mp3",
+"name": "Midsummer Night",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "1999-05-03"
+}
+]
+},
+{
+"title": "2024-09-26 - Martinou - A Far Blue Concept: Ecotone",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 3,
+"artist": "Martinou",
+"title": "Hold Then Release",
+"label": "Fauxpas",
+"bp": "bp:20173771",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8c1d97c3-5d71-4a23-9847-97fa4370282f.LOFI.mp3",
+"name": "Hold Then Release",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-03-21"
+},
+{
+"minute": 8,
+"artist": "Martinou",
+"title": "Woven",
+"label": "Fauxpas",
+"bp": "bp:20173770",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0c1151fc-8317-44bb-9696-773fb2f72cfc.LOFI.mp3",
+"name": "Woven",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-03-21"
+},
+{
+"minute": 13,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 17,
+"artist": "Martinou",
+"title": "The Last Hour",
+"label": "Fauxpas",
+"bp": "bp:20173769",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1856f3f-f792-43eb-98aa-68351b30e4f2.LOFI.mp3",
+"name": "The Last Hour",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-03-21"
+},
+{
+"minute": 23,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 29,
+"id": null,
+"raw": "Martinou -&#160;?"
+},
+{
+"minute": 36,
+"artist": "Martinou",
+"title": "Allting",
+"label": "Kontra",
+"bp": "bp:24594038",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c956969-ec66-47a7-a224-7afecf8739ac.LOFI.mp3",
+"name": "Allting",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2026-03-23"
+},
+{
+"minute": 40,
+"artist": "Martinou",
+"title": "Continuum",
+"label": "Mule Musiq",
+"bp": "bp:29263768",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f1a9c751-3299-44a9-b58b-65d60fb25756.LOFI.mp3",
+"name": "Continuum",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-07-17"
+},
+{
+"minute": 45,
+"artist": "Martinou",
+"title": "Somewhere",
+"label": "Studio Barnhus",
+"bp": "bp:20029594",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5fda35d8-ee19-40ab-a21f-46094004a9c1.LOFI.mp3",
+"name": "Somewhere",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-04-11"
+},
+{
+"minute": 52,
+"id": null,
+"raw": "Martinou -&#160;?"
+}
+]
+},
+{
+"title": "2025-04-26 - Martinou @ Radio Panini, Baggen, Copenhagen",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 3,
+"artist": "George FitzGerald",
+"title": "Passing Trains (Korn\u00e9l Kov\u00e1cs Remix)",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "Lb Honne",
+"title": "Sky Funk",
+"label": "Project Indigo"
+},
+{
+"minute": 10,
+"artist": "Simic",
+"title": "COROT-7b",
+"label": "Acid Camp",
+"bp": "bp:8798920",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fa7aec6d-c869-423d-9c39-6ecbbdb5034e.LOFI.mp3",
+"name": "COROT-7b",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2017-01-20"
+},
+{
+"minute": 16,
+"id": null,
+"raw": "Eletun Selona -&#160;?"
+},
+{
+"minute": 22,
+"artist": "Tibi Dabo",
+"title": "Somewhere Beach",
+"label": "Crosstown Rebels",
+"bp": "bp:18075703",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/343245b7-55a8-49cd-be76-2618207ccd1f.LOFI.mp3",
+"name": "Somewhere Beach",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2023-09-29"
+},
+{
+"minute": 27,
+"artist": "R.O.W.S.",
+"title": "2.35.1",
+"label": "St. Odes"
+},
+{
+"minute": 32,
+"artist": "Blue Channel",
+"title": "Complete With U",
+"label": "Kontakt"
+},
+{
+"minute": 35,
+"artist": "Martinou",
+"title": "Mutlitudes",
+"label": "Mule Musiq",
+"bp": "bp:29263767",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d818999f-aeb8-4a98-86e7-c69891412c4a.LOFI.mp3",
+"name": "Mutlitudes",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-07-17"
+},
+{
+"minute": 41,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 44,
+"artist": "Ovend",
+"title": "Confidence",
+"label": "Ahrpe",
+"bp": "bp:8372120",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fda80299-b45d-4ae8-b9c6-29052eda9916.LOFI.mp3",
+"name": "Confidence",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2016-09-12"
+},
+{
+"minute": 48,
+"artist": "Martinou",
+"title": "Through You",
+"label": "Mule Musiq",
+"bp": "bp:29263765",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c6641822-dd43-482f-9e83-2eed5234966e.LOFI.mp3",
+"name": "Through You",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-07-17"
+},
+{
+"minute": 52,
+"artist": "Eletun Selona",
+"title": "Breathing Quieter",
+"label": "Sewer Sender",
+"bp": "bp:20250579",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d22cee8-eef4-4b79-b48c-50606af727bd.LOFI.mp3",
+"name": "Breathing Quieter",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-03-31"
+}
+]
+},
+{
+"title": "2025-06-18 - Martinou - The Memoir Page 156",
+"records": []
+},
+{
+"title": "2025-07-30 - Martinou (Live PA) @ KUNE Festival, Denmark (Untitled 909 Podcast 245, 2025-10-30)",
+"records": [
+{
+"minute": 0,
+"artist": "FRQNCY LDN",
+"title": "Soaring Above the Nave (Martinou Live Edit Remix)",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Martinou",
+"title": "Hold Then Release",
+"label": "Fauxpas",
+"bp": "bp:20173771",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8c1d97c3-5d71-4a23-9847-97fa4370282f.LOFI.mp3",
+"name": "Hold Then Release",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-03-21"
+},
+{
+"minute": 13,
+"artist": "Martinou",
+"title": "Hollow",
+"label": "ARTS",
+"bp": "bp:21791623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2722d3e2-0912-430f-a255-02445f07a0ee.LOFI.mp3",
+"name": "Hollow",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-11-28"
+},
+{
+"minute": 18,
+"artist": "Martinou",
+"title": "Don't Fall",
+"label": "ARTS",
+"bp": "bp:21791625",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60b348e1-b9af-4e9a-90ee-e4ac6098289b.LOFI.mp3",
+"name": "Don't Fall",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-11-28"
+},
+{
+"minute": 24,
+"artist": "R.O.W.S.",
+"title": "2.35.1",
+"label": "St. Odes"
+},
+{
+"minute": 31,
+"artist": "Martinou",
+"title": "Unfold",
+"label": "Mule Musiq",
+"bp": "bp:29263766",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a4a30ef-1180-44c5-8c79-298b99bf61ea.LOFI.mp3",
+"name": "Unfold",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-07-17"
+},
+{
+"minute": 38,
+"artist": "Martinou",
+"title": "Thoughtless",
+"label": "Fauxpas"
+},
+{
+"minute": 42,
+"artist": "Martinou",
+"title": "Through You",
+"label": "Mule Musiq",
+"bp": "bp:29263765",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c6641822-dd43-482f-9e83-2eed5234966e.LOFI.mp3",
+"name": "Through You",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-07-17"
+},
+{
+"minute": 48,
+"artist": "Martinou",
+"title": "Somewhere",
+"label": "Studio Barnhus",
+"bp": "bp:20029594",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5fda35d8-ee19-40ab-a21f-46094004a9c1.LOFI.mp3",
+"name": "Somewhere",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-04-11"
+},
+{
+"minute": 55,
+"artist": "Martinou",
+"title": "Mutlitudes",
+"label": "Mule Musiq",
+"bp": "bp:29263767",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d818999f-aeb8-4a98-86e7-c69891412c4a.LOFI.mp3",
+"name": "Mutlitudes",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-07-17"
+}
+]
+},
+{
+"title": "2026-03-26 - Martinou - EPM Podcast 198",
+"records": [
+{
+"minute": 0,
+"artist": "Malibu",
+"title": "Cheirosa '94",
+"label": "UNO",
+"bp": "bp:16954274",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ea92e582-b161-4bf9-a3b8-b00675c1a526.LOFI.mp3",
+"name": "Cheirosa '94",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2022-11-18"
+},
+{
+"minute": 2,
+"artist": "Mike Schommer",
+"title": "Lost In You (Freund Der Familie's Downunder Cut)",
+"label": "Primary Colours",
+"bp": "bp:13824480",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/388a1b2b-92e5-419f-ac9f-dca73b3b29db.LOFI.mp3",
+"name": "Lost in You",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2020-08-07"
+},
+{
+"minute": 7,
+"artist": "Cv313",
+"title": "Stars Above Elmwood",
+"label": "Minimood"
+},
+{
+"minute": 12,
+"artist": "Zefzeed",
+"title": "Trecet",
+"label": "Mayak"
+},
+{
+"minute": 18,
+"artist": "J.S.",
+"title": "JS-01R [JS - MCMLXV]]",
+"label": ""
+},
+{
+"minute": 25,
+"artist": "Bergqvist",
+"title": "Earth Creatures",
+"label": "Aniara",
+"bp": "bp:22234775",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a40f58bb-fcbb-498a-8b61-c46d1bad3c25.LOFI.mp3",
+"name": "Earth Creatures",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-11-21"
+},
+{
+"minute": 29,
+"artist": "URA",
+"title": "Hash",
+"label": "NAFF",
+"bp": "bp:13626850",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5cd88498-5fb9-44ac-8bda-86f3dd930fdd.LOFI.mp3",
+"name": "Hash",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-05-22"
+},
+{
+"minute": 33,
+"artist": "Sei A",
+"title": "Hyper Venom",
+"label": "Life And Death",
+"bp": "bp:6898022",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/167b36e8-a8e4-4aa3-8cd9-2cf82dcaceac.LOFI.mp3",
+"name": "Hyper Venom",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2015-10-09"
+},
+{
+"minute": 39,
+"artist": "Vardae",
+"title": "Kaipo",
+"label": "Ooda",
+"bp": "bp:17856497",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1400d232-a303-4dd1-8fa6-190239c86c31.LOFI.mp3",
+"name": "Kaipo",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-07-07"
+},
+{
+"minute": 42,
+"artist": "Ben Kaczor",
+"title": "Tramuntana (Efdemin Remix)",
+"label": "Dial"
+},
+{
+"minute": 47,
+"artist": "Anthony Naples",
+"title": "Bounce",
+"label": "ANS",
+"bp": "bp:20330590",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cf4bb389-85dc-4f59-a7b0-ee3baca7e002.LOFI.mp3",
+"name": "Bounce",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-05-02"
+},
+{
+"minute": 52,
+"artist": "Martinou",
+"title": "Surge",
+"label": "Nous'Klaer",
+"bp": "bp:22301403",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eb983483-91e8-4492-947c-f5c8e5e3d24e.LOFI.mp3",
+"name": "Surge",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2026-01-16"
+},
+{
+"minute": 57,
+"artist": "Martin Jarl",
+"title": "Speak No Evil",
+"label": "Djuphavet"
+},
+{
+"minute": 60,
+"artist": "Tren",
+"title": "Aether",
+"label": "Not Meant To Happen",
+"bp": "bp:20579335",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9579cff-d193-432c-a4e8-4d4b54bcae9d.LOFI.mp3",
+"name": "Aether",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-06-13"
+},
+{
+"minute": 64,
+"artist": "Cocoo",
+"title": "Ide",
+"label": "Metro Juice"
+},
+{
+"minute": 68,
+"artist": "Danny Daze",
+"title": "Antigravity Machine (Vril Remix)",
+"label": "OMNIDISC",
+"bp": "bp:22320708",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9ed9d915-b02a-4425-b1b9-a065603c86b7.LOFI.mp3",
+"name": "Antigravity Machine",
+"mix": "Vril Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-11-06"
+},
+{
+"minute": 73,
+"artist": "Dean Grenier",
+"title": "Sweet Dreams",
+"label": "OMNIDISC",
+"bp": "bp:20438992",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a2dc18e-c540-4e85-866d-372524245ec1.LOFI.mp3",
+"name": "Sweet Dreams",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-12-08"
+},
+{
+"minute": 80,
+"artist": "Edit Select",
+"title": "You",
+"label": "Edit Select",
+"bp": "bp:20225656",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60390bf7-b23c-4e78-8de8-9ab91cc64774.LOFI.mp3",
+"name": "You",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-05-16"
+},
+{
+"minute": 84,
+"artist": "Martinou",
+"title": "Exit (To Bliss)",
+"label": "Nous'Klaer",
+"bp": "bp:17912503",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/e8ff48f2-6954-48cd-ba93-d16d64b6417d.LOFI.mp3",
+"name": "Exit",
+"mix": "To Bliss",
+"genre": "electronica",
+"released": "2023-09-22"
+}
+]
+},
+{
+"title": "2026-04-17 - Martinou - Ute Mix Series 122",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 6,
+"artist": "Philipp Priebe",
+"title": "You Made It Easy",
+"label": "Paradijs Boogie",
+"bp": "bp:24586253",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/caab408b-50eb-4106-b260-cb589d94ff28.LOFI.mp3",
+"name": "You Made It Easy",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-03-20"
+},
+{
+"minute": 11,
+"artist": "M\u00f8rbeck",
+"title": "Room 506",
+"label": "Mechanisms Industries"
+},
+{
+"minute": 14,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 21,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 25,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 29,
+"artist": "Dynamo Dreesen",
+"title": "SUE013 (A1)",
+"label": "Sued"
+},
+{
+"minute": 33,
+"artist": "Peter Van Hoesen",
+"title": "Last One At 1080",
+"label": "Time To Express",
+"bp": "bp:3068145",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2238dd1a-1416-471e-a1c9-958583ed000b.LOFI.mp3",
+"name": "Last One At 1080",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2011-10-31"
+},
+{
+"minute": 37,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 43,
+"artist": "Substance",
+"title": "Sensualize",
+"label": "Chain Reaction",
+"bp": "bp:5201056",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8afc2cbb-b4d0-44c9-8028-1a38bb26a4fa.LOFI.mp3",
+"name": "Sensualize",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2013-01-01"
+},
+{
+"minute": 46,
+"artist": "Roberto Bosco",
+"title": "I Just Can't Breathe",
+"label": "Figure",
+"bp": "bp:3194530",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a382c51f-269f-44f1-beb6-960a1621fcd1.LOFI.mp3",
+"name": "I Just Can't Breathe",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2012-01-23"
+},
+{
+"minute": 50,
+"artist": "The Rumours",
+"title": "Prestige (Oliver Kapp Remix)",
+"label": "Stockholm",
+"bp": "bp:3093452",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/785173ff-2c9b-4d50-83bc-bbd36f83b618.LOFI.mp3",
+"name": "Prestige",
+"mix": "Oliver Kapp Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2011-11-18"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 59,
+"artist": "Iori",
+"title": "Axis",
+"label": "Semantica",
+"bp": "bp:24234449",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b4be68e1-1cdc-424c-875f-1e19f63fae47.LOFI.mp3",
+"name": "Axis",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2026-02-27"
+},
+{
+"minute": 65,
+"artist": "Claudio PRC",
+"title": "Manifestazione",
+"label": "Delsin",
+"bp": "bp:20407419",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9bb93a7-9ffc-4f5a-9679-8a92b429389d.LOFI.mp3",
+"name": "Manifestazione",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-05-23"
+},
+{
+"minute": 68,
+"artist": "Skudge",
+"title": "Eleven",
+"label": "Skudge"
+},
+{
+"minute": 73,
+"artist": "Eletun Selona",
+"title": "Dimersa",
+"label": "Sewer Sender",
+"bp": "bp:20250570",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/539b045b-516b-4aa6-9661-50692f60a938.LOFI.mp3",
+"name": "Dimersa",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-03-31"
+},
+{
+"minute": 77,
+"artist": "Martinou",
+"title": "Rise",
+"label": "Horoom"
+},
+{
+"minute": 82,
+"artist": "Mikkel Metal",
+"title": "Untitled (Jan Jelinek's Loop-Finding-Mix)",
+"label": "Echocord",
+"bp": "bp:6570867",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9882f51c-9272-48ad-8af9-7e9850b0ace6.LOFI.mp3",
+"name": "Untitled",
+"mix": "Jan Jelinek's Loop-Finding-Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-04-27"
+},
+{
+"minute": 86,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2026-04-18 - Martinou - Sauna Radio",
+"records": [
+{
+"minute": 0,
+"artist": "SVN",
+"title": "2014",
+"label": "Acido"
+},
+{
+"minute": 5,
+"artist": "Glob Deejay",
+"title": "Clowns",
+"label": "Naff",
+"bp": "bp:24225090",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6af22f78-b937-4e9a-8b5c-396aa40b8897.LOFI.mp3",
+"name": "clowns",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-03-10"
+},
+{
+"minute": 10,
+"artist": "Track & Trace",
+"title": "Enchanted",
+"label": "Nes"
+},
+{
+"minute": 16,
+"artist": "R.O.W.S.",
+"title": "11.1",
+"label": "St. Odes"
+},
+{
+"minute": 21,
+"artist": "Irini",
+"title": "Dreamuniverse Pt.II",
+"label": "All Possible Worlds"
+},
+{
+"minute": 25,
+"artist": "Velv.93",
+"title": "Jiloma",
+"label": "Fauna"
+},
+{
+"minute": 30,
+"artist": "Harald Bj\u00f6rk",
+"title": "Schwarm (Martinou Remix)",
+"label": "Kranglan Broadcast"
+},
+{
+"minute": 35,
+"artist": "Lb Honne",
+"title": "Heaven GW",
+"label": "St. Odes"
+},
+{
+"minute": 39,
+"artist": "Mandar",
+"title": "Nellio",
+"label": "Oscillat"
+},
+{
+"minute": 44,
+"artist": "Sahin Meyer",
+"title": "World Cup Of The Future",
+"label": "Best Works",
+"bp": "bp:15477648",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d40cb16e-09d7-4c24-b4a0-72c17623302b.LOFI.mp3",
+"name": "World Cup Of The Future",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2016-06-17"
+},
+{
+"minute": 50,
+"artist": "Tor Goffer",
+"title": "Samara",
+"label": "No Waves"
+},
+{
+"minute": 54,
+"artist": "Orion",
+"title": "My Streets",
+"label": "Rdv",
+"bp": "bp:15389648",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ffa3248b-f921-4a68-86d7-eb891cf2edc2.LOFI.mp3",
+"name": "My streets",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-06-15"
+}
+]
+},
+{
+"title": "2026-06-09 - Martinou - Truancy Volume 366",
+"records": []
+}
+]
 }

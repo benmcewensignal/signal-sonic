@@ -1,5 +1,545 @@
 {
 "dj": "Uncle Waffles",
 "source": "MixesDB (CC BY-SA 3.0)",
-"sets": []
+"sets": [
+{
+"title": "2022-09-01 - Uncle Waffles - Residency, BBC Radio 1",
+"records": [
+{
+"minute": null,
+"artist": "Jazzidisciples",
+"title": "Squbu Se Monati",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Kabza De Small",
+"title": "Sondela",
+"label": "",
+"bp": "bp:16627083",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cf61a3fc-dfa0-4d8b-9eb9-3ac0f6a429df.LOFI.mp3",
+"name": "Sondela",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-06-15"
+},
+{
+"minute": null,
+"artist": "Uncle Waffles",
+"title": "Love I Need",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mathandos & Nacho",
+"title": "Get Some Sgija Remix",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Jay Music & Mellow And Sleezy",
+"title": "Fxcking Injury",
+"label": "",
+"bp": "bp:19733252",
+"score": 0.743,
+"preview": "https://geo-samples.beatport.com/track/c54302ed-c244-4799-8080-3bef282ce0c7.LOFI.mp3",
+"name": "The Fxckin Injury",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-07-21"
+},
+{
+"minute": null,
+"artist": "Nielic",
+"title": "Down The Drain",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Uncle Waffles",
+"title": "Tanzania",
+"label": "",
+"bp": "bp:19465947",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/270511ee-bb32-430b-95a6-a2ac5606faa9.LOFI.mp3",
+"name": "Tanzania (feat. Sino Msolo, Boibizza)",
+"mix": "Rampa Remix",
+"genre": "afro-house",
+"released": "2024-09-06"
+},
+{
+"minute": null,
+"artist": "Felo Le Tee & Toss",
+"title": "Manca",
+"label": "",
+"bp": "bp:16576176",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d541ae1a-46ad-408b-bd63-19ec8ddb1d80.LOFI.mp3",
+"name": "Manca",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-05-25"
+},
+{
+"minute": null,
+"artist": "Mr. Jazzi Q",
+"title": "Imbanie",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Maphorisa & Kabza De Small & Focalistic & Mpura",
+"title": "Trust Fund",
+"label": "",
+"bp": "bp:16659413",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/7176c4e9-67c5-496e-8987-2c150dbe2381.LOFI.mp3",
+"name": "Trust Fund",
+"mix": "Live",
+"genre": "amapiano",
+"released": "2022-06-23"
+},
+{
+"minute": null,
+"artist": "DJ Stresser & Given",
+"title": "Umlame Wakho",
+"label": "",
+"bp": "bp:18799119",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/5385b3dd-f69c-4a76-8284-ad901db6cea1.LOFI.mp3",
+"name": "uMalume Wako (feat. DJ Stresser and Given Kau)",
+"mix": "feat. DJ Stresser and Given Kau",
+"genre": "amapiano",
+"released": "2022-03-16"
+}
+]
+},
+{
+"title": "2022-09-15 - Uncle Waffles - Residency, BBC Radio 1",
+"records": [
+{
+"minute": null,
+"artist": "Dzo 729",
+"title": "Ba Xolele",
+"label": "",
+"bp": "bp:27732625",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/4c6f0f3e-0dfc-40c0-a721-793c9856681e.LOFI.mp3",
+"name": "Ba Xolele (feat. Guyu Payne & Young Stunna)",
+"mix": "feat. Guyu Payne & Young Stunna",
+"genre": "amapiano",
+"released": "2021-09-03"
+},
+{
+"minute": null,
+"artist": "Njelic & Boohle",
+"title": "Wamhule",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Kabza De Small & DJ Maphorisa & Njelic",
+"title": "Nana Thula",
+"label": "",
+"bp": "bp:17588281",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/831ea871-1650-49b0-9d0e-48958ec3be01.LOFI.mp3",
+"name": "Nana Thula",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2019-10-01"
+},
+{
+"minute": null,
+"artist": "Cyfred",
+"title": "Alostro Effect",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Vigro Deep",
+"title": "Vula Vula",
+"label": "",
+"bp": "bp:12454659",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/0866c795-87b7-48ed-a886-758da9544cef.LOFI.mp3",
+"name": "Vula vala",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2019-09-13"
+},
+{
+"minute": null,
+"artist": "De Mthuda",
+"title": "John Wick",
+"label": "",
+"bp": "bp:14853348",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f0513e1-81ee-4e3c-96af-a7fbd45fc912.LOFI.mp3",
+"name": "John Wick",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2021-01-29"
+},
+{
+"minute": null,
+"artist": "Mr. JazziQ & 9umba",
+"title": "ULazi",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Kabza De Small & DJ Maphorisa",
+"title": "Sandton",
+"label": "",
+"bp": "bp:17591987",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d3b33cb-0349-4b75-bd15-74417d11ee82.LOFI.mp3",
+"name": "Sandton",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2019-11-29"
+},
+{
+"minute": null,
+"artist": "JazziDisciples",
+"title": "Zlele",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DBN Gogo & Musa Keys & Dinho",
+"title": "French Kiss",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Tyler ICU & Nicole Elocin",
+"title": "Bela Ciao",
+"label": "",
+"bp": "bp:17592855",
+"score": 0.968,
+"preview": "https://geo-samples.beatport.com/track/1ab236e2-c912-4ee3-9901-af3fe10e5cdb.LOFI.mp3",
+"name": "Bella Ciao",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2020-09-04"
+},
+{
+"minute": null,
+"artist": "DBN Gogo & Musa Keys & Dinho",
+"title": "Possible",
+"label": "",
+"bp": "bp:16258255",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6b90130e-0c1e-40c1-8f80-cc75b07d217d.LOFI.mp3",
+"name": "Possible",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2021-07-23"
+},
+{
+"minute": null,
+"artist": "Junior De Rocka & Lady Du",
+"title": "Catalia",
+"label": "",
+"bp": "bp:22903549",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/ca3c515a-fda0-4ab3-9ece-19840e7907d0.LOFI.mp3",
+"name": "Catalia",
+"mix": "Mixed",
+"genre": "amapiano",
+"released": "2024-07-04"
+},
+{
+"minute": null,
+"artist": "Busta 929 & Mpura",
+"title": "Umsebenzi Wethu",
+"label": "",
+"bp": "bp:15841586",
+"score": 0.929,
+"preview": "https://geo-samples.beatport.com/track/413f9945-ed07-4c78-8736-13a9332749f9.LOFI.mp3",
+"name": "Umsebenzi Wethu 2.0",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2021-10-29"
+},
+{
+"minute": null,
+"artist": "Major League & Abidoza",
+"title": "Dinaledi",
+"label": "",
+"bp": "bp:17579337",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e4774ade-7a5c-4cdd-9e11-6f0bb819ddb0.LOFI.mp3",
+"name": "Dinaledi",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2020-07-31"
+},
+{
+"minute": null,
+"artist": "DJ Melzi",
+"title": "Isidilso",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Musa Keys",
+"title": "Vula Mlomo",
+"label": "",
+"bp": "bp:16210175",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9a51b3f8-03c1-4d7f-b74b-4300079b42b5.LOFI.mp3",
+"name": "Vula Mlomo",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2021-02-26"
+},
+{
+"minute": null,
+"artist": "Jay Music",
+"title": "Ibiza",
+"label": "",
+"bp": "bp:18038957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5a72c33f-e6ed-476a-a3e2-68ea843f6358.LOFI.mp3",
+"name": "Ibiza",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2023-03-24"
+},
+{
+"minute": null,
+"artist": "Mr. JazziQ & Kabza De Small & Lady Du",
+"title": "Woza",
+"label": "",
+"bp": "bp:26768406",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/d7bef3a2-980e-408b-a37a-f3173b9aeb86.LOFI.mp3",
+"name": "Woza",
+"mix": "Intro",
+"genre": "amapiano",
+"released": "2021-03-19"
+}
+]
+},
+{
+"title": "2022-09-22 - Uncle Waffles - Residency, BBC Radio 1",
+"records": [
+{
+"minute": null,
+"artist": "Mathandos",
+"title": "Get Some Wood Revamp",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Jay Music",
+"title": "Freaking Injury",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Njelic & Thabza Tee",
+"title": "Down The Drain",
+"label": "",
+"bp": "bp:16803051",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c46d32bf-74db-481a-b9ba-9c6ce4d222af.LOFI.mp3",
+"name": "Down The Drain",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-08-05"
+},
+{
+"minute": null,
+"artist": "DBN Gogo & TNK MusiQ",
+"title": "Life Changing",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Uncle Waffles & DJ Stresser & Given Kanu",
+"title": "Umalume Wako",
+"label": "",
+"bp": "bp:18799119",
+"score": 0.683,
+"preview": "https://geo-samples.beatport.com/track/5385b3dd-f69c-4a76-8284-ad901db6cea1.LOFI.mp3",
+"name": "uMalume Wako (feat. DJ Stresser and Given Kau)",
+"mix": "feat. DJ Stresser and Given Kau",
+"genre": "amapiano",
+"released": "2022-03-16"
+},
+{
+"minute": null,
+"artist": "Felo Le Tee & Uncle Waffles",
+"title": "Hayi",
+"label": "",
+"bp": "bp:16576179",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f1754351-fa69-4b2d-8041-ffc860d046d0.LOFI.mp3",
+"name": "Hayi",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-05-25"
+},
+{
+"minute": null,
+"artist": "Mellow & Sleazy & Justin99",
+"title": "Chipi Ke Chipi",
+"label": "",
+"bp": "bp:16800861",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b1741fd7-b47b-47e6-8058-6f77d54b609c.LOFI.mp3",
+"name": "Chipi ke Chipi",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-04-20"
+},
+{
+"minute": null,
+"artist": "Kabza De Small",
+"title": "Ziwa Ngale",
+"label": "",
+"bp": "bp:16800862",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/487c687e-9fca-4b3c-80c7-3aea3c9b569a.LOFI.mp3",
+"name": "Ziwa Ngale",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-04-21"
+},
+{
+"minute": null,
+"artist": "Felo Le Tee & TOSS",
+"title": "Manca",
+"label": "",
+"bp": "bp:16576176",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d541ae1a-46ad-408b-bd63-19ec8ddb1d80.LOFI.mp3",
+"name": "Manca",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-05-25"
+},
+{
+"minute": null,
+"artist": "Deep London & Boohle",
+"title": "Hamba Wena",
+"label": "",
+"bp": "bp:17695965",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0333aa4a-9091-4725-9ee0-2bafdf51a63b.LOFI.mp3",
+"name": "Hamba Wena",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-07-29"
+},
+{
+"minute": null,
+"artist": "Mr. JazziQ",
+"title": "Imbanje",
+"label": "",
+"bp": "bp:16796560",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d5706c1c-91cd-42c4-9f7d-ba4d764d4a9c.LOFI.mp3",
+"name": "Imbanje",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-08-11"
+},
+{
+"minute": null,
+"artist": "Jay Music",
+"title": "Anger Management",
+"label": "",
+"bp": "bp:18819383",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d37b1f9b-c271-4323-9a58-1a006bcf7afd.LOFI.mp3",
+"name": "Anger Management",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2023-09-22"
+},
+{
+"minute": null,
+"artist": "Daliwonga",
+"title": "Abo Mvelo",
+"label": "",
+"bp": "bp:16800837",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/412560b3-32c6-4af7-a275-a346906c058a.LOFI.mp3",
+"name": "Abo Mvelo",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-03-17"
+},
+{
+"minute": null,
+"artist": "Reece Madlisa & Zuma",
+"title": "Iy'ntsimbi Zase Envy",
+"label": ""
+},
+{
+"minute": null,
+"artist": "TOSS & Mdoovar & 9umba",
+"title": "Umlando",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Musa Keys & Loui$",
+"title": "Selema",
+"label": "",
+"bp": "bp:16210168",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e45decb7-4864-4226-8c93-3d0655da1468.LOFI.mp3",
+"name": "Selema (Po Po)",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2021-10-22"
+},
+{
+"minute": null,
+"artist": "Tiwa Savage & Amaarae & Uncle Waffles & Musa Keys",
+"title": "Tales By Moonlight (Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "2Kultured & Uncle Waffles",
+"title": "Afrika Mayo",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mr. JazziQ & Kay Invictus & M.J",
+"title": "Halala",
+"label": "",
+"bp": "bp:16496477",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ac465f7b-67c6-44ed-8c28-2a6136406a29.LOFI.mp3",
+"name": "Halala",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2021-12-09"
+},
+{
+"minute": null,
+"artist": "Uncle Waffles & Jay Music",
+"title": "Woza Pack",
+"label": "",
+"bp": "bp:26494283",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/5a7add47-b4ce-46b4-b3df-e6c94ce97937.LOFI.mp3",
+"name": "Woza La",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-10-11"
+}
+]
+}
+]
 }

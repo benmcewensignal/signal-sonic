@@ -1,0 +1,987 @@
+{
+"dj": "Guy Gerber",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-07-18 - Guy Gerber - Ibiza S\u00f3nica Studio",
+"records": []
+},
+{
+"title": "2019-08-30 - Guy Gerber @ Robot Heart, Burning Man",
+"records": [
+{
+"minute": 0,
+"artist": "Tom Flynn",
+"title": "Anna",
+"label": "Planet E Communications",
+"bp": "bp:10905801",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d5c4dcfc-926b-4fb6-b749-19cfa543436a.LOFI.mp3",
+"name": "Anna",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2018-08-31"
+},
+{
+"minute": 4,
+"artist": "Maalem Mahmoud Guinia & Floating Points",
+"title": "Mimoun Marhaba",
+"label": "Eglo",
+"bp": "bp:6520388",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4b549f9c-5878-4a02-9025-ed277e146ba8.LOFI.mp3",
+"name": "Mimoun Marhaba",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2015-04-20"
+},
+{
+"minute": 8,
+"artist": "TB",
+"title": "Glitter",
+"label": "Permanent Vacation"
+},
+{
+"minute": 12,
+"artist": "Sfire",
+"title": "Sfire 3 (John Talabot's Warehouse Dub)",
+"label": "Cocktail D'Amore",
+"bp": "bp:8342757",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7af8cfd4-ddf3-47a3-90a0-fac542f4f027.LOFI.mp3",
+"name": "Sfire 3",
+"mix": "John Talabot's Warehouse Dub",
+"genre": "indie-dance",
+"released": "2016-09-09"
+},
+{
+"minute": 18,
+"artist": "&ME Feat. Atelier",
+"title": "Starting Again",
+"label": "Keinemusik",
+"bp": "bp:12383234",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/242077bf-02e1-4c6d-9fd8-b5cfe680adf4.LOFI.mp3",
+"name": "Starting Again",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-08-23"
+},
+{
+"minute": 22,
+"artist": "Raidho Feat. T.Etno",
+"title": "Dreamin (El Mundo Remix)",
+"label": "Acker",
+"bp": "bp:17950328",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/228ef15b-e603-4e30-b9ea-0e799036a059.LOFI.mp3",
+"name": "Dreamin",
+"mix": "El Mundo Remix",
+"genre": "organic-house",
+"released": "2023-08-04"
+},
+{
+"minute": 27,
+"artist": "Da Mike & Lazarusman",
+"title": "The Thing",
+"label": "Connected Frontline",
+"bp": "bp:12294206",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d86841a-d130-4ac1-8b8e-cdd538b0ce01.LOFI.mp3",
+"name": "The Thing",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2019-07-26"
+},
+{
+"minute": 32,
+"artist": "Parks & Wilson",
+"title": "The Dragon (Enter The Dub Mix)",
+"label": "Hooj Choons",
+"bp": "bp:170976",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7a4cd43-4884-45cc-9ad7-2e50cbde2823.LOFI.mp3",
+"name": "The Dragon",
+"mix": "Enter The Dub Mix",
+"genre": "progressive-house",
+"released": "2000-08-28"
+},
+{
+"minute": 35,
+"artist": "Yotam Avni",
+"title": "Midas Touch",
+"label": "Innervisions",
+"bp": "bp:9891390",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6c5b7ec5-0edc-4290-abd5-29a9aa6fe9c6.LOFI.mp3",
+"name": "Midas Touch",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-11-24"
+},
+{
+"minute": 38,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 41,
+"artist": "Emanuel Satie",
+"title": "Planet XXX",
+"label": "Cocoon",
+"bp": "bp:12360747",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/86649158-2fcd-4e54-bfa8-e6c55f1f6c0d.LOFI.mp3",
+"name": "Planet XXX",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-08-23"
+},
+{
+"minute": 46,
+"artist": "Roy RosenfelD",
+"title": "The Biggest Heart",
+"label": "TRYBESof",
+"bp": "bp:12067270",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7da57e1d-76c2-493b-a14e-b7baff040012.LOFI.mp3",
+"name": "The Biggest Heart",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2019-06-17"
+},
+{
+"minute": 51,
+"artist": "Palamino",
+"title": "Oh My! (Manoo Remix)",
+"label": "King Street Sounds",
+"bp": "bp:11110878",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4f5df378-3c35-4f3c-9abf-9da4d605c7b2.LOFI.mp3",
+"name": "Oh My!",
+"mix": "Manoo Remix",
+"genre": "afro-house",
+"released": "2018-11-09"
+},
+{
+"minute": 53,
+"artist": "DJ Sneak & Tripmastaz Pres. Rare Two Inc.",
+"title": "Ass 9 Hunnit Fitty",
+"label": "Cuttin' Headz",
+"bp": "bp:12439109",
+"score": 0.829,
+"preview": "https://geo-samples.beatport.com/track/663e2e68-c490-45f2-a89a-6db29ff59820.LOFI.mp3",
+"name": "Ass 9 Hunnit Fitty",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-08-16"
+},
+{
+"minute": 55,
+"artist": "Blaze",
+"title": "My Beat (Spaced Out Beat) (David Harness Remix)",
+"label": "Blaze Imprints",
+"bp": "bp:10679408",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4bea1f51-920f-468c-942c-38d2cb325083.LOFI.mp3",
+"name": "My Beat (Spaced Out Beat)",
+"mix": "David Harness Remix",
+"genre": "house",
+"released": "2018-06-15"
+},
+{
+"minute": 59,
+"artist": "Roland Leesker",
+"title": "Believe (Man Power Remix)",
+"label": "Get Physical",
+"bp": "bp:11791498",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d09aecbc-5bfd-4f79-9beb-5d1c7d14746f.LOFI.mp3",
+"name": "Believe",
+"mix": "Man Power Remix",
+"genre": "house",
+"released": "2019-04-08"
+},
+{
+"minute": 61,
+"artist": "Aaaron & Deckert Feat. Oluhle",
+"title": "Ilanga",
+"label": "MoBlack",
+"bp": "bp:30133657",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/343c762a-3105-45a6-822f-c163dc5ed3ef.LOFI.mp3",
+"name": "Ilanga",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-07"
+},
+{
+"minute": 65,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 67,
+"artist": "Youssou N'Dour",
+"title": "Kirik\u00f9 (Hostox Remix)",
+"label": ""
+},
+{
+"minute": 72,
+"artist": "Cassius",
+"title": "The Sound Of Violence (Franco Cinelli Remix)",
+"label": "Cassius",
+"bp": "bp:2089016",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/599bc84a-39d3-48c4-aeee-a92cd57ed4a1.LOFI.mp3",
+"name": "The Sound Of Violence",
+"mix": "Franco Cinelli Remix",
+"genre": "house",
+"released": "2011-08-15"
+},
+{
+"minute": 77,
+"artist": "Nick Holder",
+"title": "Summer Daze",
+"label": "DNH",
+"bp": "bp:393230",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7872399a-7c43-46ef-a11e-fc53df1c4ee5.LOFI.mp3",
+"name": "Summer Daze",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2001-08-15"
+},
+{
+"minute": 81,
+"artist": "Guy Gerber",
+"title": "Pyramid Of The Moon",
+"label": "",
+"bp": "bp:16276282",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/51231e4a-b49b-4dc1-89a9-1f96a29336cf.LOFI.mp3",
+"name": "Pyramid Of The Moon",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2022-03-18"
+},
+{
+"minute": 87,
+"artist": "Rampa & WhoMadeWho",
+"title": "Tell Me Are We",
+"label": "Innervisions",
+"bp": "bp:11998713",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bfdb6c6d-ff08-4153-a708-b1538e187238.LOFI.mp3",
+"name": "Tell Me Are We",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-05-31"
+},
+{
+"minute": 92,
+"artist": "Pavel Petrov",
+"title": "Friends Forever",
+"label": "Gruuv",
+"bp": "bp:3322576",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d883f311-a9cc-4881-a4fe-4261d16262e4.LOFI.mp3",
+"name": "Friends Forever",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2012-03-05"
+},
+{
+"minute": 97,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 103,
+"artist": "Guy Gerber",
+"title": "What To Do (&ME Remix)",
+"label": "Rumors",
+"bp": "bp:11128941",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3957aca3-ffc5-413e-b1eb-71fd7b911a2a.LOFI.mp3",
+"name": "What To Do",
+"mix": "&ME Remix",
+"genre": "melodic-house-techno",
+"released": "2018-10-26"
+},
+{
+"minute": 110,
+"artist": "Johnny Dangerous",
+"title": "Emerald City (Sublevel LADM Alternate Vocal Edit)",
+"label": "King Street Sounds",
+"bp": "bp:18553923",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b0fa60f1-2349-47c6-9dfa-18e0269ff08d.LOFI.mp3",
+"name": "Emerald City",
+"mix": "Sublevel / LADM Vocal Edit",
+"genre": "house",
+"released": "2010-08-02"
+},
+{
+"minute": 113,
+"artist": "The Aztec Mystic",
+"title": "Knights Of The Jaguar",
+"label": "Underground Resistance",
+"bp": "bp:4162102",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/e5afcd06-2980-4407-8f57-f099a3cf884a.LOFI.mp3",
+"name": "Knights Of The Jaguar",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2013-03-18"
+},
+{
+"minute": 117,
+"artist": "Alex Dimou",
+"title": "What Keeps You There",
+"label": "Crosstown Rebels",
+"bp": "bp:12267752",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0819399e-7ff2-4140-a931-5cbe8d452d40.LOFI.mp3",
+"name": "What Keeps You There",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2019-07-26"
+},
+{
+"minute": 121,
+"artist": "Butch & C.Vogt",
+"title": "The Infamous (Robytek vs Shield Re-Edit)",
+"label": "Rebirth",
+"bp": "bp:5573935",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/438aebb7-f843-4dee-8a6c-27f4fe403c02.LOFI.mp3",
+"name": "The Infamous",
+"mix": "Robytek Vs Shield Re-Edit",
+"genre": "deep-house",
+"released": "2014-06-09"
+},
+{
+"minute": 126,
+"artist": "Salif Keita",
+"title": "Madan (Martin Solveig Exotic Disco Mix)",
+"label": "Mixture Stereophonic",
+"bp": "bp:6753881",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3ead1485-57c1-4dd3-858f-c9290cd943d9.LOFI.mp3",
+"name": "Madan",
+"mix": "Martin Solveig Exotic Disco Mix",
+"genre": "house",
+"released": "2015-06-01"
+},
+{
+"minute": 130,
+"artist": "Jerome Sydenham & Dennis Ferrer",
+"title": "The Wj",
+"label": "Ibadan",
+"bp": "bp:1474845",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3347bd6a-848b-4f44-8466-9a26eb3d31a2.LOFI.mp3",
+"name": "The WJ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2001-12-05"
+},
+{
+"minute": 133,
+"artist": "LTJ X-Perience",
+"title": "I Don't Want This Groove To Ever End",
+"label": "Pyramide"
+},
+{
+"minute": 136,
+"artist": "CJ Bolland And The Advent",
+"title": "Camargue 19",
+"label": "Drumcode",
+"bp": "bp:12446983",
+"score": 0.87,
+"preview": "https://geo-samples.beatport.com/track/c66dfa69-3988-4143-b6cc-7934dd419281.LOFI.mp3",
+"name": "Camargue 2019",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-09-02"
+},
+{
+"minute": 139,
+"artist": "Omar S",
+"title": "The Further You Look (The Less You Will See)",
+"label": "FXHE"
+},
+{
+"minute": 143,
+"artist": "Daso",
+"title": "Meine",
+"label": "Spectral Sound",
+"bp": "bp:403844",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3592bb2f-5422-404b-b877-6ebb626473e4.LOFI.mp3",
+"name": "Meine",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2007-10-31"
+},
+{
+"minute": 146,
+"artist": "Connan Mockasin",
+"title": "Forever Dolphin Love (Erol Alkan Extended Rework)",
+"label": "Phantasy Sound",
+"bp": "bp:9764597",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49931fa1-ca26-4885-b4c6-25d6ef84f58e.LOFI.mp3",
+"name": "Forever Dolphin Love",
+"mix": "Erol Alkan Rework",
+"genre": "indie-dance",
+"released": "2017-09-21"
+},
+{
+"minute": 150,
+"artist": "Butch",
+"title": "LSD-25",
+"label": "C\u00e9cille"
+},
+{
+"minute": 159,
+"artist": "Carl Craig",
+"title": "Angel",
+"label": "",
+"bp": "bp:506530",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95595fd1-18c8-4f82-a2d6-bc2041fb720a.LOFI.mp3",
+"name": "Angel",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2008-02-26"
+}
+]
+},
+{
+"title": "2020-03-20 - Pete Tong, Guy Gerber - Essential Selection",
+"records": [
+{
+"minute": null,
+"artist": "H.O.S.H. & 1979",
+"title": "Midnight (The Hanging Tree)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bontan",
+"title": "Shake It",
+"label": "DFTD",
+"bp": "bp:13297950",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9da7cb78-7429-4b23-a337-ef0ca4519667.LOFI.mp3",
+"name": "Shake It",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2020-03-27"
+},
+{
+"minute": null,
+"artist": "Anabel Englund",
+"title": "See The Sky",
+"label": "ULTRA",
+"bp": "bp:18263474",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/67098f61-1452-457e-b3e5-404087052328.LOFI.mp3",
+"name": "See The Sky",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2021-05-21"
+},
+{
+"minute": null,
+"artist": "Calvin Harris & Love Regenerator",
+"title": "Give Me Strength",
+"label": "Columbia",
+"bp": "bp:13296736",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/136a0946-907d-454d-82f3-fb49eb3f98ac.LOFI.mp3",
+"name": "Give Me Strength",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-03-13"
+},
+{
+"minute": null,
+"artist": "The Vision",
+"title": "Mountains",
+"label": "Defected",
+"bp": "bp:28457440",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f995a37e-0bbb-4af6-b559-da5b511d83b2.LOFI.mp3",
+"name": "Mountains",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2026-06-02"
+},
+{
+"minute": null,
+"artist": "Fatboy Slim & Eats Everything",
+"title": "All The Ladies",
+"label": "Southern Fried",
+"bp": "bp:13192169",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/81ae4bb4-c56a-40be-9761-816fed2e3903.LOFI.mp3",
+"name": "All the Ladies",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-02-19"
+},
+{
+"minute": null,
+"artist": "Peggy Gou",
+"title": "Jigoo",
+"label": "Gudu",
+"bp": "bp:13186694",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/996948a4-03dc-478f-a650-5ed96adcb47c.LOFI.mp3",
+"name": "Jigoo",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-03-13"
+},
+{
+"minute": null,
+"artist": "Four Tet",
+"title": "Teenage Birdsong",
+"label": "TEXT",
+"bp": "bp:11890564",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f3b0edd-8cc1-49e3-a739-bc2b4ea045bb.LOFI.mp3",
+"name": "Teenage Birdsong",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-04-18"
+},
+{
+"minute": null,
+"artist": "Mind Against",
+"title": "Walking Away",
+"label": "AFTERLIFE",
+"bp": "bp:13232943",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e4bccf72-6322-464c-9eb8-dda49605e36c.LOFI.mp3",
+"name": "Walking Away",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-03-13"
+},
+{
+"minute": null,
+"artist": "Tunnelvisions",
+"title": "Forever",
+"label": "Diynamic",
+"bp": "bp:13362773",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b0ea31f1-c2d7-495a-b69d-302a17f91f13.LOFI.mp3",
+"name": "Forever",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-07-10"
+},
+{
+"minute": null,
+"artist": "East End Dubs",
+"title": "Bossy",
+"label": "Defected",
+"bp": "bp:13822048",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/1fa2c81f-23f8-4c98-a5e4-9d9ac6f8314d.LOFI.mp3",
+"name": "Bossy",
+"mix": "Dub",
+"genre": "minimal-deep-tech",
+"released": "2020-06-26"
+},
+{
+"minute": null,
+"artist": "Rudimental",
+"title": "Easy On Me",
+"label": "Major Toms",
+"bp": "bp:13335249",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/333093c6-d53e-4a9c-ac39-c096e4172956.LOFI.mp3",
+"name": "Easy On Me",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2020-03-20"
+},
+{
+"minute": null,
+"artist": "Jamie Jones & Alan Fitzpatrick",
+"title": "Fairytale Frequency",
+"label": "Hot Creations",
+"bp": "bp:13260861",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ec9dc0bf-617b-4911-86fe-4797267a623c.LOFI.mp3",
+"name": "Fairytale Frequency",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-03-27"
+},
+{
+"minute": null,
+"artist": "CamelPhat",
+"title": "Freak (Matthias Tanzmann Remix)",
+"label": "Moon Harbour",
+"bp": "bp:28414327",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d944fc22-faf9-43e4-9bbd-365b27d8e0cf.LOFI.mp3",
+"name": "Freak ",
+"mix": "Matthias Tanzmann Remix",
+"genre": "tech-house",
+"released": "2026-04-10"
+},
+{
+"minute": null,
+"artist": "Righteous Mind",
+"title": "Throwing Snow",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Monolink",
+"title": "Sinner",
+"label": "",
+"bp": "bp:13173147",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/867bdb50-e09c-44b9-aeb6-300b8b992c8a.LOFI.mp3",
+"name": "Sinner",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-03-13"
+},
+{
+"minute": null,
+"artist": "Omar S",
+"title": "Second Life",
+"label": "FXHE"
+},
+{
+"minute": null,
+"artist": "Agoria",
+"title": "Wish Me Luck (Mozaik Remiz)",
+"label": "Sapiens",
+"bp": "bp:13092490",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c9e7431e-eb50-426b-999f-9056848dfba2.LOFI.mp3",
+"name": "Wish Me Luck",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-02-26"
+},
+{
+"minute": null,
+"artist": "Mark Broom",
+"title": "Midnight",
+"label": "Rekids",
+"bp": "bp:13260616",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ff735313-ff1e-4ef9-b8bc-e1ee3721de0a.LOFI.mp3",
+"name": "Midnight",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-03-27"
+},
+{
+"minute": null,
+"artist": "Maribou State",
+"title": "Mother",
+"label": "Counter",
+"bp": "bp:13213307",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6dab7f46-3720-4680-8b00-e982ec259098.LOFI.mp3",
+"name": "Mother",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2020-03-11"
+},
+{
+"minute": null,
+"artist": "Four Tet",
+"title": "Something In The Sadness",
+"label": "TEXT",
+"bp": "bp:13295677",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2e172c59-3168-4948-8a3b-59113f0f389e.LOFI.mp3",
+"name": "Something in the Sadness",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-03-13"
+},
+{
+"minute": null,
+"artist": "Editors",
+"title": "Upside Down",
+"label": "",
+"bp": "bp:13283132",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/037a392b-ddf2-4d7d-aa09-9f7ed7588d05.LOFI.mp3",
+"name": "Upside Down",
+"mix": "Joris Voorn Remix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2020-03-20"
+},
+{
+"minute": null,
+"artist": "Chaos In The CBD",
+"title": "Emotional Itelligence",
+"label": "",
+"bp": "bp:13288928",
+"score": 0.986,
+"preview": "https://geo-samples.beatport.com/track/076d44ae-25d3-48e3-85c5-d08048cfc587.LOFI.mp3",
+"name": "Emotional Intelligence",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-03-10"
+},
+{
+"minute": null,
+"artist": "Overmono",
+"title": "Le Tigre",
+"label": "",
+"bp": "bp:12644002",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49732d70-56e9-4097-8108-cd3d4b33338a.LOFI.mp3",
+"name": "Le Tigre",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-11-01"
+},
+{
+"minute": null,
+"artist": "Adiel",
+"title": "Melodica",
+"label": "",
+"bp": "bp:13169597",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/303d92b1-22ce-4848-bc94-937e7cc700e2.LOFI.mp3",
+"name": "Melodica",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-07-26"
+},
+{
+"minute": null,
+"artist": "Robin Kampschoer",
+"title": "ID (Luke Hess Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Joyce Muniz",
+"title": "Give Me The Taste (Alinka Remix)",
+"label": "",
+"bp": "bp:12361492",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fececd20-c9a1-4638-84c0-22f7c975a1a4.LOFI.mp3",
+"name": "Give Me the Taste",
+"mix": "Alinka Remix",
+"genre": "house",
+"released": "2019-08-23"
+},
+{
+"minute": null,
+"artist": "Benedikt Frey",
+"title": "Out Of Here (Roman Fl\u00fcgel's Cosmic Disco Drama Rework)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Roy RosenfelD",
+"title": "No Drama",
+"label": ""
+}
+]
+},
+{
+"title": "2020-04-25 - Guy Gerber @ Rio de Janeiro, Brazil",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 9,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 15,
+"artist": "Barbara Courtney-King",
+"title": "Origins (ID Remix)",
+"label": ""
+},
+{
+"minute": 21,
+"artist": "Pleasure Pool",
+"title": "Night Scars",
+"label": "Optimo Music Digital Danceforce",
+"bp": "bp:13194718",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a897a075-ca71-4b36-9cf4-4c7f8743d2b9.LOFI.mp3",
+"name": "Night Scars",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2020-03-13"
+},
+{
+"minute": 26,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 28,
+"artist": "Bedouin",
+"title": "Firefly",
+"label": "Human By Default - HBD001",
+"bp": "bp:13261387",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0953d329-1e68-4caf-a5b1-eb356884f119.LOFI.mp3",
+"name": "Firefly",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-03-27"
+},
+{
+"minute": 33,
+"artist": "Baeka",
+"title": "Right At It",
+"label": "Rekids - 041",
+"bp": "bp:900412",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1cdb4693-38b6-4664-a389-2f7984d0f9a7.LOFI.mp3",
+"name": "Right At It",
+"mix": "Radio Edit",
+"genre": "house",
+"released": "2009-07-19"
+},
+{
+"minute": 35,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 42,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 48,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 50,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 58,
+"artist": "INV\u014cKER",
+"title": "Churches",
+"label": "Innervisions - IV91",
+"bp": "bp:13074099",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/50e1d5a3-18f1-4e27-bd50-c47ace62ff99.LOFI.mp3",
+"name": "Churches",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-02-07"
+},
+{
+"minute": 64,
+"artist": "Guy Gerber",
+"title": "Rainchecks In Montreal",
+"label": "Rumors - RMS020",
+"bp": "bp:18066389",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d1de5955-24ee-4a50-914f-92417a3e6686.LOFI.mp3",
+"name": "Rainchecks In Montreal",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2023-09-15"
+},
+{
+"minute": 68,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 73,
+"artist": "Desire",
+"title": "Don't Call (Guy Gerber Rework)",
+"label": "Rumors - RMS017",
+"bp": "bp:13687742",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3e761fc2-8390-491f-9fa4-17fc470a5716.LOFI.mp3",
+"name": "Don't Call",
+"mix": "Guy Gerber Rework - Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-06-17"
+},
+{
+"minute": 81,
+"artist": "Guy Gerber",
+"title": "The Untold Glory Of Mr. Nobody",
+"label": "Rumors - RMS023",
+"bp": "bp:16276284",
+"score": 0.961,
+"preview": "https://geo-samples.beatport.com/track/d7a5ec37-db26-4a60-ba56-ff60f0e42540.LOFI.mp3",
+"name": "The Untold Glory of Mister Nobody",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2022-03-18"
+},
+{
+"minute": 84,
+"artist": "Guy Gerber",
+"title": "Pyramid Of The Moon",
+"label": "Rumors - RMS023",
+"bp": "bp:16276282",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/51231e4a-b49b-4dc1-89a9-1f96a29336cf.LOFI.mp3",
+"name": "Pyramid Of The Moon",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2022-03-18"
+},
+{
+"minute": 91,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 98,
+"artist": "Gay Marvine",
+"title": "I Luv Music",
+"label": "Bath House Etiquette - BHE 5"
+},
+{
+"minute": 101,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 107,
+"artist": "Guy Gerber",
+"title": "What To Do (&ME Remix)",
+"label": "Rumors - RMS015",
+"bp": "bp:11128941",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3957aca3-ffc5-413e-b1eb-71fd7b911a2a.LOFI.mp3",
+"name": "What To Do",
+"mix": "&ME Remix",
+"genre": "melodic-house-techno",
+"released": "2018-10-26"
+}
+]
+}
+]
+}

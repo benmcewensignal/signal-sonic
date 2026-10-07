@@ -1,1413 +1,2369 @@
 {
- "dj": "Shimza",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2025-06-18 - Shimza - Karma Karma Radio 040",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Foozak",
-     "title": "Parsaloi",
-     "label": "Mahaba",
-     "bp": "bp:20335738",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 4,
-     "artist": "Zakente",
-     "title": "My Way",
-     "label": "",
-     "bp": "bp:19652741",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 9,
-     "artist": "Kususa & Argento Dust",
-     "title": "Sinners",
-     "label": ""
-    },
-    {
-     "minute": 14,
-     "artist": "Gumz Feat. Habib Koite",
-     "title": "Jakoke",
-     "label": "Madorasindahouse",
-     "bp": "bp:20275494",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 19,
-     "artist": "Afrokillerz",
-     "title": "Go Draft",
-     "label": ""
-    },
-    {
-     "minute": 24,
-     "artist": "Sky White",
-     "title": "Tamba",
-     "label": "",
-     "bp": "bp:21250677",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 29,
-     "artist": "Shimza & AR/CO & Kasango",
-     "title": "Fire Fire",
-     "label": "Helix",
-     "bp": "bp:20614372",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 33,
-     "artist": "DJEFF",
-     "title": "Loyalty",
-     "label": ""
-    },
-    {
-     "minute": 37,
-     "artist": "DJ Vitoto & Bun Xapa & ZIDDO",
-     "title": "Saharian Girl",
-     "label": "Kunye",
-     "bp": "bp:21074324",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/5393c1c6-81f8-481c-bf6a-a4444850f72a.LOFI.mp3",
-     "name": "Saharian Girl",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2025-08-22"
-    },
-    {
-     "minute": 41,
-     "artist": "Ed-Ward",
-     "title": "Gijima",
-     "label": "",
-     "bp": "bp:20095764",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 46,
-     "artist": "The Weeknd & Playboi Carti",
-     "title": "Timeless (Arodes Remix)",
-     "label": "Xo"
-    },
-    {
-     "minute": 52,
-     "artist": "Drumeticboyz",
-     "title": "Feeling",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2025-09-13 - Moguai, Shimza, Topic - 1LIVE DJ Session",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Empire Of The Sun & BLOND:ISH",
-     "title": "Walking On A Dream (BLOND:ISH Extended Remix)",
-     "label": "",
-     "bp": "bp:20832384",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/fd90bd6d-be58-40bb-a14e-0f8077de5b79.LOFI.mp3",
-     "name": "Walking On A Dream",
-     "mix": "BLOND:ISH Extended Remix",
-     "genre": "dance-pop",
-     "released": "2025-07-28"
-    },
-    {
-     "minute": 5,
-     "artist": "Julian Fijma",
-     "title": "Get Stupid (Extended Mix)",
-     "label": "Three Six Zero",
-     "bp": "bp:22328312",
-     "score": 0.847,
-     "preview": "https://geo-samples.beatport.com/track/236270bf-52e3-487a-8256-6314b92a0e74.LOFI.mp3",
-     "name": "Up & Down ",
-     "mix": "Extended Mix",
-     "genre": "house",
-     "released": "2025-11-28"
-    },
-    {
-     "minute": 10,
-     "artist": "RSquared",
-     "title": "Fantasy (Extended Mix)",
-     "label": "Defected",
-     "bp": "bp:21886530",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/7d0e4a87-5e3c-4bf7-84b8-c1d67be85138.LOFI.mp3",
-     "name": "Fantasy",
-     "mix": "Extended Mix",
-     "genre": "indie-tech",
-     "released": "2025-09-30"
-    },
-    {
-     "minute": 15,
-     "artist": "Will K",
-     "title": "Lick It (Extended Mix)",
-     "label": "Sweat It Out",
-     "bp": "bp:21299595",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/ad863568-d601-411c-9b45-afaedb16faca.LOFI.mp3",
-     "name": "Lick It",
-     "mix": "Extended Mix",
-     "genre": "tech-house",
-     "released": "2025-09-05"
-    },
-    {
-     "minute": 17,
-     "artist": "Bingo Players X Truth X Lies vs Marlon Hofstadt",
-     "title": "It's That Time X Rattle (Deejay Lil'Boy Mashup)",
-     "label": ""
-    },
-    {
-     "minute": 19,
-     "artist": "Tiësto & Odd Mob & Goodboys",
-     "title": "Won't Be Possible (Sak Noel Extended Remix)",
-     "label": "Atlantic/Musical Freedom"
-    },
-    {
-     "minute": 22,
-     "artist": "Sak Noel vs David Guetta & Jaden Bojsen",
-     "title": "Loca People vs Let's Go (Monreal Mashup)",
-     "label": ""
-    },
-    {
-     "minute": 25,
-     "artist": "Sven Lochenhoer",
-     "title": "Keep Guessing",
-     "label": "Rules Don't Apply",
-     "bp": "bp:20244366",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/a56908f4-0816-4779-8727-e5e35a581d35.LOFI.mp3",
-     "name": "Keep Guessing ",
-     "mix": "Original Mix",
-     "genre": "bass-house",
-     "released": "2025-04-04"
-    },
-    {
-     "minute": 28,
-     "artist": "Ultra Naté",
-     "title": "Free (Sammy Porter Remix)",
-     "label": ""
-    },
-    {
-     "minute": 32,
-     "artist": "HI-LO vs Green Velvet, Dajae vs Indeep",
-     "title": "KOALA vs Brighter Days vs Saved My Life (OH Mashup)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 36,
-     "artist": "Bad Bunny X Showtek",
-     "title": "Cafe Con Ron vs Booyah (Monreal Rework Mashup)",
-     "label": ""
-    },
-    {
-     "minute": 39,
-     "artist": "Eats Everything & Diffrent & HQA",
-     "title": "The Sanctuary (Love Like That) (Diffrent Remix) (Extended)",
-     "label": "Three Six Zero"
-    },
-    {
-     "minute": 43,
-     "artist": "Calvin Harris & Clementine Douglas",
-     "title": "Blessings (Max Styler Remix)",
-     "label": "Columbia",
-     "bp": "bp:20653073",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/daa89fa9-c2dc-4902-b0a7-c585a1e3c1fd.LOFI.mp3",
-     "name": "Blessings",
-     "mix": "Max Styler Remix",
-     "genre": "dance-pop",
-     "released": "2025-06-20"
-    },
-    {
-     "minute": 47,
-     "artist": "Maiba",
-     "title": "So Good (Extended)",
-     "label": "More Than Talent",
-     "bp": "bp:20884973",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/386b4df2-e3d0-4262-93b4-67301aefc7f5.LOFI.mp3",
-     "name": "So Good",
-     "mix": "Extended",
-     "genre": "melodic-house-techno",
-     "released": "2025-08-29"
-    },
-    {
-     "minute": 52,
-     "artist": "Delerium & Sarah McLachlan & John Summit",
-     "title": "Silence (John Summit Extended Remix)",
-     "label": "Tomorrowland",
-     "bp": "bp:20488876",
-     "score": 0.858,
-     "preview": "https://geo-samples.beatport.com/track/a3898c44-fd00-4a74-9cb4-faaf606a3663.LOFI.mp3",
-     "name": "Silence feat. Sarah McLachlan",
-     "mix": "John Summit Extended Remix",
-     "genre": "dance-pop",
-     "released": "2025-05-14"
-    },
-    {
-     "minute": 56,
-     "artist": "Gianni Romano & Emanuele Esposito & &friends Feat. Helen Tesfazghi",
-     "title": "It's Not Right (&friends Remake)",
-     "label": "Ulu",
-     "bp": "bp:20156008",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/821b33df-7565-4979-8559-5d620dafcdc2.LOFI.mp3",
-     "name": "It's Not Right",
-     "mix": "&friends Remake",
-     "genre": "afro-house",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": 0,
-     "artist": "Foozak",
-     "title": "Parsaloi",
-     "label": "Mahaba",
-     "bp": "bp:20335738",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 5,
-     "artist": "Zakente",
-     "title": "My Way",
-     "label": "",
-     "bp": "bp:19652741",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 10,
-     "artist": "Kususa & Argento Dust",
-     "title": "Sinners",
-     "label": ""
-    },
-    {
-     "minute": 14,
-     "artist": "Gumz Feat. Habib Koite",
-     "title": "Jakoke",
-     "label": "Madorasindahouse",
-     "bp": "bp:20275494",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 20,
-     "artist": "Afrokillerz",
-     "title": "Go Draft",
-     "label": ""
-    },
-    {
-     "minute": 24,
-     "artist": "Sky White",
-     "title": "Tamba",
-     "label": "",
-     "bp": "bp:21250677",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 30,
-     "artist": "Shimza & AR/CO & Kasango",
-     "title": "Fire Fire",
-     "label": "Helix",
-     "bp": "bp:20614372",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 34,
-     "artist": "DJEFF",
-     "title": "Loyalty",
-     "label": ""
-    },
-    {
-     "minute": 38,
-     "artist": "DJ Vitoto & Bun Xapa & ZIDDO",
-     "title": "Saharian Girl",
-     "label": "Kunye",
-     "bp": "bp:21074324",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/5393c1c6-81f8-481c-bf6a-a4444850f72a.LOFI.mp3",
-     "name": "Saharian Girl",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2025-08-22"
-    },
-    {
-     "minute": 42,
-     "artist": "Ed-Ward",
-     "title": "Gijima",
-     "label": "",
-     "bp": "bp:20095764",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 47,
-     "artist": "The Weeknd & Playboi Carti",
-     "title": "Timeless (Arodes Remix)",
-     "label": "Xo"
-    },
-    {
-     "minute": 53,
-     "artist": "Drumeticboyz",
-     "title": "Feeling",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Topic Feat. Fireboy DML & & Nico Santos",
-     "title": "Body",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Adriatique & Samm (BE) & Jaimes",
-     "title": "Back To Life",
-     "label": "X",
-     "bp": "bp:20159790",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/92094b58-37ae-499a-bfd5-5352b9f2f8d7.LOFI.mp3",
-     "name": "Back To Life",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2025-03-14"
-    },
-    {
-     "minute": null,
-     "artist": "Topic Feat. A7S",
-     "title": "Breaking Me (VIP Mix)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Topic & Sofiya Nzau",
-     "title": "Away",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Robin Tordjman & Anthony P.",
-     "title": "Deee-Life",
-     "label": "Abracadabra"
-    },
-    {
-     "minute": null,
-     "artist": "Vanco Feat. Aya",
-     "title": "Ma Tnsani (Yalla Habibi) (Faul & Wad No One Remix)",
-     "label": "Afro Repuplik"
-    },
-    {
-     "minute": null,
-     "artist": "Non Grata",
-     "title": "Ganja",
-     "label": "Deep Root Tribe"
-    },
-    {
-     "minute": null,
-     "artist": "HUGEL & Topic & Arash Feat. Daecolm",
-     "title": "I Adore You (Extended Mix)",
-     "label": "Virgin/Polydor",
-     "bp": "bp:19253776",
-     "score": 0.92,
-     "preview": "https://geo-samples.beatport.com/track/6de258b2-03b7-494c-ba63-42644b9d0b1e.LOFI.mp3",
-     "name": "I Adore You",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2024-07-19"
-    },
-    {
-     "minute": null,
-     "artist": "Andrea Oliva & Arodes",
-     "title": "Change",
-     "label": "Unreleased"
-    },
-    {
-     "minute": null,
-     "artist": "Oktave & JUNO",
-     "title": "Kiddo",
-     "label": "Palosanto"
-    },
-    {
-     "minute": null,
-     "artist": "Jonas Blue & Malive",
-     "title": "Edge Of Desire (Extended Mix)",
-     "label": "Defected",
-     "bp": "bp:20625808",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/33023792-b827-4316-ac15-9a44608d9c86.LOFI.mp3",
-     "name": "Edge of Desire",
-     "mix": "Extended Mix",
-     "genre": "house",
-     "released": "2025-07-18"
-    },
-    {
-     "minute": null,
-     "artist": "Alex Wann",
-     "title": "Right (Extended Mix)",
-     "label": "Defected",
-     "bp": "bp:20637754",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/db0036d9-ef23-426f-a125-c922830fcc5c.LOFI.mp3",
-     "name": "Right",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2025-07-09"
-    },
-    {
-     "minute": null,
-     "artist": "Shimza & AR/CO & Kasango",
-     "title": "Fire Fire (Extended Mix)",
-     "label": "Helix",
-     "bp": "bp:20614372",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/ef80f530-169e-4fea-9739-343724b142bd.LOFI.mp3",
-     "name": "Fire Fire",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2025-06-13"
-    },
-    {
-     "minute": null,
-     "artist": "Topic & Daecolm",
-     "title": "Control Of Me",
-     "label": "",
-     "bp": "bp:20035547",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/ab43939b-861f-40f3-97ee-fb0b5cf28966.LOFI.mp3",
-     "name": "Control Of Me",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2025-01-24"
-    }
-   ]
-  },
-  {
-   "title": "2025-09-24 - Shimza - Karma Karma Radio 054",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Kgzoo & Pierre Johnson & Zeleah",
-     "title": "Find Your Way",
-     "label": "Klub",
-     "bp": "bp:21630017",
-     "score": 0.846,
-     "preview": "https://geo-samples.beatport.com/track/806f3e13-6740-465a-bcd7-88581bf26df6.LOFI.mp3",
-     "name": "Find Your Way",
-     "mix": "Extended",
-     "genre": "afro-house",
-     "released": "2025-10-03"
-    },
-    {
-     "minute": 6,
-     "artist": "Meith & Biggi Da Vine Feat. S.A.N.E",
-     "title": "Love Language (Kususa Remix)",
-     "label": "",
-     "bp": "bp:21473455",
-     "score": 0.867,
-     "preview": "https://geo-samples.beatport.com/track/524b3c0b-35d8-41a7-b133-47e2f8d2ca7e.LOFI.mp3",
-     "name": "Love Language",
-     "mix": "Kususa Extended Remix",
-     "genre": "afro-house",
-     "released": "2025-10-10"
-    },
-    {
-     "minute": 12,
-     "artist": "Rydz",
-     "title": "Sunshine",
-     "label": "",
-     "bp": "bp:21636876",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 17,
-     "artist": "Elson Soares & Zakente Feat. Natash MD",
-     "title": "Vula",
-     "label": "DM",
-     "bp": "bp:21484083",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 24,
-     "artist": "Fonsa & ROVADO",
-     "title": "First Class",
-     "label": "",
-     "bp": "bp:21869562",
-     "score": 0.826,
-     "preview": "https://geo-samples.beatport.com/track/18379c6e-f135-43eb-a45a-cf8d3c09f738.LOFI.mp3",
-     "name": "First Class",
-     "mix": "Extended",
-     "genre": "afro-house",
-     "released": "2025-10-10"
-    },
-    {
-     "minute": 29,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 34,
-     "artist": "Dairo & Alex Twin",
-     "title": "Don't Let Go",
-     "label": "",
-     "bp": "bp:22041892",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/48ca7d27-f818-47b4-a22a-5937ba7af659.LOFI.mp3",
-     "name": "Don't Let Go ",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2025-10-10"
-    },
-    {
-     "minute": 38,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 44,
-     "artist": "Moblack & Gruwski & LevyM",
-     "title": "Sweet Reminder",
-     "label": "Moblack",
-     "bp": "bp:21580839",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/726ac76e-4446-442d-8777-2c868c3bd13b.LOFI.mp3",
-     "name": "Sweet Reminder",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2025-09-19"
-    },
-    {
-     "minute": 49,
-     "artist": "Homeboyz & Djeff & Massala",
-     "title": "Wassup",
-     "label": "Deep Root Tribe",
-     "bp": "bp:21762565",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 52,
-     "artist": "Idd Aziz & Copal & Chaleee & Jaden Piper",
-     "title": "Milele",
-     "label": "My Other Side Of The Moon",
-     "bp": "bp:21816457",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2025-10-15 - Shimza - DJ Mag Sessions",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Kgzoo & Pierre Johnson & Zeleah",
-     "title": "Find Your Way",
-     "label": "Klub",
-     "bp": "bp:21630017",
-     "score": 0.846,
-     "preview": "https://geo-samples.beatport.com/track/806f3e13-6740-465a-bcd7-88581bf26df6.LOFI.mp3",
-     "name": "Find Your Way",
-     "mix": "Extended",
-     "genre": "afro-house",
-     "released": "2025-10-03"
-    },
-    {
-     "minute": 6,
-     "artist": "Meith & Biggi Da Vine Feat. S.A.N.E",
-     "title": "Love Language (Kususa Remix)",
-     "label": "",
-     "bp": "bp:21473455",
-     "score": 0.867,
-     "preview": "https://geo-samples.beatport.com/track/524b3c0b-35d8-41a7-b133-47e2f8d2ca7e.LOFI.mp3",
-     "name": "Love Language",
-     "mix": "Kususa Extended Remix",
-     "genre": "afro-house",
-     "released": "2025-10-10"
-    },
-    {
-     "minute": 12,
-     "artist": "Rydz",
-     "title": "Sunshine",
-     "label": "",
-     "bp": "bp:21636876",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 17,
-     "artist": "Elson Soares & Zakente Feat. Natash MD",
-     "title": "Vula",
-     "label": "DM",
-     "bp": "bp:21484083",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 24,
-     "artist": "Fonsa & ROVADO",
-     "title": "First Class",
-     "label": "",
-     "bp": "bp:21869562",
-     "score": 0.826,
-     "preview": "https://geo-samples.beatport.com/track/18379c6e-f135-43eb-a45a-cf8d3c09f738.LOFI.mp3",
-     "name": "First Class",
-     "mix": "Extended",
-     "genre": "afro-house",
-     "released": "2025-10-10"
-    },
-    {
-     "minute": 29,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 34,
-     "artist": "Dairo & Alex Twin",
-     "title": "Don't Let Go",
-     "label": "",
-     "bp": "bp:22041892",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/48ca7d27-f818-47b4-a22a-5937ba7af659.LOFI.mp3",
-     "name": "Don't Let Go ",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2025-10-10"
-    },
-    {
-     "minute": 38,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 44,
-     "artist": "Moblack & Gruwski & LevyM",
-     "title": "Sweet Reminder",
-     "label": "Moblack",
-     "bp": "bp:21580839",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/726ac76e-4446-442d-8777-2c868c3bd13b.LOFI.mp3",
-     "name": "Sweet Reminder",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2025-09-19"
-    },
-    {
-     "minute": 49,
-     "artist": "Homeboyz & Djeff & Massala",
-     "title": "Wassup",
-     "label": "Deep Root Tribe",
-     "bp": "bp:21762565",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 52,
-     "artist": "Idd Aziz & Copal & Chaleee & Jaden Piper",
-     "title": "Milele",
-     "label": "My Other Side Of The Moon",
-     "bp": "bp:21816457",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2026-01-26 - Shimza - Karma Karma Radio 070",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Cuebur & Ovuyonke",
-     "title": "Linda",
-     "label": "",
-     "bp": "bp:22998069",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 4,
-     "artist": "Jigar & Roland Clark",
-     "title": "Masters Of Destiny",
-     "label": "Deep In Your Soul",
-     "bp": "bp:23446872",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/471d7dae-b688-4437-94dc-4212919a4c8a.LOFI.mp3",
-     "name": "Masters of Destiny",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": 9,
-     "artist": "Liva K",
-     "title": "Track With The Organ",
-     "label": "Defected",
-     "bp": "bp:23440957",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/95d827b1-3ffb-49c4-a0c7-1343e1320862.LOFI.mp3",
-     "name": "Track With The Organ",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-01-30"
-    },
-    {
-     "minute": 12,
-     "artist": "Cristian Manolo & Rapha",
-     "title": "Alive",
-     "label": "",
-     "bp": "bp:23468149",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 14,
-     "artist": "Hypaphonik & Privacii",
-     "title": "Trichlor",
-     "label": "",
-     "bp": "bp:23949352",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 24,
-     "artist": "Non Grata & RBØR",
-     "title": "Dogs On Acid",
-     "label": "Deep Root Tribe",
-     "bp": "bp:23424831",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/1736d77a-d83f-40e2-9972-fe16466545de.LOFI.mp3",
-     "name": "Dogs On Acid",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2026-02-13"
-    },
-    {
-     "minute": 30,
-     "artist": "Schorschi",
-     "title": "Beggin",
-     "label": "Villahangar"
-    },
-    {
-     "minute": 36,
-     "artist": "Elderbrook & Shimza",
-     "title": "Falling",
-     "label": "Helix",
-     "bp": "bp:23100022",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 39,
-     "artist": "Shooma & Monji-Didit & ÜDORĀ & CHUKWUMA",
-     "title": "Work Am",
-     "label": "Kitisuru",
-     "bp": "bp:23431277",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 44,
-     "artist": "Aytiwan & Harmonique",
-     "title": "Believe",
-     "label": "Afrosteria",
-     "bp": "bp:23476171",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 48,
-     "artist": "Bedouin",
-     "title": "Reasons (Robin M Remix)",
-     "label": "Human By Default"
-    },
-    {
-     "minute": 54,
-     "artist": "McFly",
-     "title": "Baye",
-     "label": "Cercle"
-    }
-   ]
-  },
-  {
-   "title": "2026-02-15 - Shimza - House Club Set Radio Show 850",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Cuebur & Ovuyonke",
-     "title": "Linda",
-     "label": "",
-     "bp": "bp:22998069",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 4,
-     "artist": "Jigar & Roland Clark",
-     "title": "Masters Of Destiny",
-     "label": "Deep In Your Soul",
-     "bp": "bp:23446872",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/471d7dae-b688-4437-94dc-4212919a4c8a.LOFI.mp3",
-     "name": "Masters of Destiny",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": 9,
-     "artist": "Liva K",
-     "title": "Track With The Organ",
-     "label": "Defected",
-     "bp": "bp:23440957",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/95d827b1-3ffb-49c4-a0c7-1343e1320862.LOFI.mp3",
-     "name": "Track With The Organ",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-01-30"
-    },
-    {
-     "minute": 12,
-     "artist": "Cristian Manolo & Rapha",
-     "title": "Alive",
-     "label": "",
-     "bp": "bp:23468149",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 14,
-     "artist": "Hypaphonik & Privacii",
-     "title": "Trichlor",
-     "label": "",
-     "bp": "bp:23949352",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 24,
-     "artist": "Non Grata & RBØR",
-     "title": "Dogs On Acid",
-     "label": "Deep Root Tribe",
-     "bp": "bp:23424831",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/1736d77a-d83f-40e2-9972-fe16466545de.LOFI.mp3",
-     "name": "Dogs On Acid",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2026-02-13"
-    },
-    {
-     "minute": 30,
-     "artist": "Schorschi",
-     "title": "Beggin",
-     "label": "Villahangar"
-    },
-    {
-     "minute": 36,
-     "artist": "Elderbrook & Shimza",
-     "title": "Falling",
-     "label": "Helix",
-     "bp": "bp:23100022",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 39,
-     "artist": "Shooma & Monji-Didit & ÜDORĀ & CHUKWUMA",
-     "title": "Work Am",
-     "label": "Kitisuru",
-     "bp": "bp:23431277",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 44,
-     "artist": "Aytiwan & Harmonique",
-     "title": "Believe",
-     "label": "Afrosteria",
-     "bp": "bp:23476171",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 48,
-     "artist": "Bedouin",
-     "title": "Reasons (Robin M Remix)",
-     "label": "Human By Default"
-    },
-    {
-     "minute": 54,
-     "artist": "McFly",
-     "title": "Baye",
-     "label": "Cercle"
-    }
-   ]
-  },
-  {
-   "title": "2026-04-22 - Shimza - DJ Mag Sessions",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Cuebur & Ovuyonke",
-     "title": "Linda",
-     "label": "",
-     "bp": "bp:22998069",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 4,
-     "artist": "Jigar & Roland Clark",
-     "title": "Masters Of Destiny",
-     "label": "Deep In Your Soul",
-     "bp": "bp:23446872",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/471d7dae-b688-4437-94dc-4212919a4c8a.LOFI.mp3",
-     "name": "Masters of Destiny",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": 9,
-     "artist": "Liva K",
-     "title": "Track With The Organ",
-     "label": "Defected",
-     "bp": "bp:23440957",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/95d827b1-3ffb-49c4-a0c7-1343e1320862.LOFI.mp3",
-     "name": "Track With The Organ",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-01-30"
-    },
-    {
-     "minute": 12,
-     "artist": "Cristian Manolo & Rapha",
-     "title": "Alive",
-     "label": "",
-     "bp": "bp:23468149",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 14,
-     "artist": "Hypaphonik & Privacii",
-     "title": "Trichlor",
-     "label": "",
-     "bp": "bp:23949352",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 24,
-     "artist": "Non Grata & RBØR",
-     "title": "Dogs On Acid",
-     "label": "Deep Root Tribe",
-     "bp": "bp:23424831",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/1736d77a-d83f-40e2-9972-fe16466545de.LOFI.mp3",
-     "name": "Dogs On Acid",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2026-02-13"
-    },
-    {
-     "minute": 30,
-     "artist": "Schorschi",
-     "title": "Beggin",
-     "label": "Villahangar"
-    },
-    {
-     "minute": 36,
-     "artist": "Elderbrook & Shimza",
-     "title": "Falling",
-     "label": "Helix",
-     "bp": "bp:23100022",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 39,
-     "artist": "Shooma & Monji-Didit & ÜDORĀ & CHUKWUMA",
-     "title": "Work Am",
-     "label": "Kitisuru",
-     "bp": "bp:23431277",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 44,
-     "artist": "Aytiwan & Harmonique",
-     "title": "Believe",
-     "label": "Afrosteria",
-     "bp": "bp:23476171",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 48,
-     "artist": "Bedouin",
-     "title": "Reasons (Robin M Remix)",
-     "label": "Human By Default"
-    },
-    {
-     "minute": 54,
-     "artist": "McFly",
-     "title": "Baye",
-     "label": "Cercle"
-    }
-   ]
-  },
-  {
-   "title": "2026-05-02 - Shimza - Sputnik Club",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Cuebur & Ovuyonke",
-     "title": "Linda",
-     "label": "",
-     "bp": "bp:22998069",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 4,
-     "artist": "Jigar & Roland Clark",
-     "title": "Masters Of Destiny",
-     "label": "Deep In Your Soul",
-     "bp": "bp:23446872",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/471d7dae-b688-4437-94dc-4212919a4c8a.LOFI.mp3",
-     "name": "Masters of Destiny",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": 9,
-     "artist": "Liva K",
-     "title": "Track With The Organ",
-     "label": "Defected",
-     "bp": "bp:23440957",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/95d827b1-3ffb-49c4-a0c7-1343e1320862.LOFI.mp3",
-     "name": "Track With The Organ",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-01-30"
-    },
-    {
-     "minute": 12,
-     "artist": "Cristian Manolo & Rapha",
-     "title": "Alive",
-     "label": "",
-     "bp": "bp:23468149",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 14,
-     "artist": "Hypaphonik & Privacii",
-     "title": "Trichlor",
-     "label": "",
-     "bp": "bp:23949352",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 24,
-     "artist": "Non Grata & RBØR",
-     "title": "Dogs On Acid",
-     "label": "Deep Root Tribe",
-     "bp": "bp:23424831",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/1736d77a-d83f-40e2-9972-fe16466545de.LOFI.mp3",
-     "name": "Dogs On Acid",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2026-02-13"
-    },
-    {
-     "minute": 30,
-     "artist": "Schorschi",
-     "title": "Beggin",
-     "label": "Villahangar"
-    },
-    {
-     "minute": 36,
-     "artist": "Elderbrook & Shimza",
-     "title": "Falling",
-     "label": "Helix",
-     "bp": "bp:23100022",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 39,
-     "artist": "Shooma & Monji-Didit & ÜDORĀ & CHUKWUMA",
-     "title": "Work Am",
-     "label": "Kitisuru",
-     "bp": "bp:23431277",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 44,
-     "artist": "Aytiwan & Harmonique",
-     "title": "Believe",
-     "label": "Afrosteria",
-     "bp": "bp:23476171",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 48,
-     "artist": "Bedouin",
-     "title": "Reasons (Robin M Remix)",
-     "label": "Human By Default"
-    },
-    {
-     "minute": 54,
-     "artist": "McFly",
-     "title": "Baye",
-     "label": "Cercle"
-    }
-   ]
-  },
-  {
-   "title": "2026-07-18 - Shimza - Essential Mix",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Shimza & Demayä",
-     "title": "Sunset In Pretoria",
-     "label": "Kunye",
-     "bp": "bp:29052822",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/734ee394-e554-4d24-acf8-f56480777ac9.LOFI.mp3",
-     "name": "Sunset In Pretoria",
-     "mix": "Extended Mix",
-     "genre": "afro-house",
-     "released": "2026-06-19"
-    },
-    {
-     "minute": 6,
-     "artist": "Shimza & David Mackay & Ewerseen",
-     "title": "Wait",
-     "label": ""
-    },
-    {
-     "minute": 10,
-     "artist": "Oskido & Salima & Argento Dust Feat. Bun Xapa",
-     "title": "Tiki Tiki 2.0",
-     "label": "Kunye",
-     "bp": "bp:29659608",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/577cee5d-1e93-43a6-8803-049e2af104b8.LOFI.mp3",
-     "name": "Tiki Tiki 2.0",
-     "mix": "Extended",
-     "genre": "afro-house",
-     "released": "2026-07-10"
-    },
-    {
-     "minute": 16,
-     "artist": "Ochok",
-     "title": "Sexy People",
-     "label": "Revolution",
-     "bp": "bp:30410149",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/a2433e43-32e3-4672-a3e4-be5c8d678651.LOFI.mp3",
-     "name": "Sexy People ",
-     "mix": "Radio edit",
-     "genre": "afro-house",
-     "released": "2026-04-10"
-    },
-    {
-     "minute": 19,
-     "artist": "Shimza & Darque",
-     "title": "Something Just Like This",
-     "label": ""
-    },
-    {
-     "minute": 24,
-     "artist": "LevyM & Caiiro",
-     "title": "Without Name",
-     "label": "ópalo",
-     "bp": "bp:29317093",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/4681f1e5-8bfb-42eb-b146-4ef8d8ec6b34.LOFI.mp3",
-     "name": "Without Name ",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2026-07-10"
-    },
-    {
-     "minute": 30,
-     "artist": "DJ Shimza & Piero Farho",
-     "title": "Hunting",
-     "label": ""
-    },
-    {
-     "minute": 33,
-     "artist": "DJEFF & Niraj Naik",
-     "title": "My Love",
-     "label": "Kunyer"
-    },
-    {
-     "minute": 39,
-     "artist": "Cebow M & Mentmusik & Maxi Ofe & Wagathoni",
-     "title": "Gbao",
-     "label": "Kunye"
-    },
-    {
-     "minute": 44,
-     "artist": "AJNA (BE) Feat. Abrahamblue",
-     "title": "You Make Me Fall In Love",
-     "label": "Magnifik",
-     "bp": "bp:29456738",
-     "score": 0.772,
-     "preview": "https://geo-samples.beatport.com/track/c1c2f61d-cccf-4fe5-8dbe-a9a26bff56f8.LOFI.mp3",
-     "name": "You Make Me Fall In Love ",
-     "mix": "Original Mix",
-     "genre": "tech-house",
-     "released": "2026-07-17"
-    },
-    {
-     "minute": 48,
-     "artist": "Pa Ngu",
-     "title": "Hondo (Dr Feel Remix)",
-     "label": "Iziki",
-     "bp": "bp:28995572",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/e0f4454e-5702-4c5f-a039-dcb518038e8b.LOFI.mp3",
-     "name": "Hondo",
-     "mix": "Dr Feel remix",
-     "genre": "afro-house",
-     "released": "2026-06-12"
-    },
-    {
-     "minute": 53,
-     "artist": "Piero Farho",
-     "title": "247",
-     "label": ""
-    },
-    {
-     "minute": 58,
-     "artist": "Shimza & JUNO",
-     "title": "Killa",
-     "label": ""
-    },
-    {
-     "minute": 63,
-     "artist": "Letta Mbulu",
-     "title": "Nomalizo (Shimza Remix)",
-     "label": "Heavenly Sweetness"
-    },
-    {
-     "minute": 67,
-     "artist": "THEMBA & Vanco",
-     "title": "Yele",
-     "label": "",
-     "bp": "bp:29887102",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 72,
-     "artist": "Arodes & Analog Sol",
-     "title": "Trinidad Dreams",
-     "label": "Unreleased",
-     "bp": "bp:29030111",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/13699828-8701-410a-abbb-877a5ffdf5e2.LOFI.mp3",
-     "name": "Trinidad Dreams",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2026-06-12"
-    },
-    {
-     "minute": 77,
-     "artist": "Kitty Amor",
-     "title": "In Your Eyes",
-     "label": ""
-    },
-    {
-     "minute": 82,
-     "artist": "Shimza & AR/CO & Kasango",
-     "title": "Fire Fire (Tefo Foxx Edit)",
-     "label": ""
-    },
-    {
-     "minute": 87,
-     "artist": "Alex Wann",
-     "title": "IDONE",
-     "label": "Crosstown Rebels",
-     "retry": 1
-    },
-    {
-     "minute": 92,
-     "artist": "NAAK & Thami The Unknown & Sibu Manzini",
-     "title": "Bangathini",
-     "label": "Platoon",
-     "bp": "bp:29375149",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/925b1369-e240-41ea-91da-7d3c8fc4557b.LOFI.mp3",
-     "name": "Bangathini",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2026-06-26"
-    },
-    {
-     "minute": 97,
-     "artist": "Raise",
-     "title": "Lost (Manoo Remix)",
-     "label": "Rythmica",
-     "bp": "bp:29259657",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/a7547d20-2052-4ca6-a12c-0334af4f5090.LOFI.mp3",
-     "name": "Lost",
-     "mix": "Manoo Remix",
-     "genre": "afro-house",
-     "released": "2026-06-19"
-    },
-    {
-     "minute": 103,
-     "artist": "Tyla",
-     "title": "CHANEL (Shimza Remix)",
-     "label": "Fax"
-    },
-    {
-     "minute": 107,
-     "artist": "Darque & ZIDDO Feat. Section Five",
-     "title": "Unembeza",
-     "label": "Kunye"
-    },
-    {
-     "minute": 113,
-     "artist": "AFROJACK & Shimza",
-     "title": "Quasar",
-     "label": ""
-    },
-    {
-     "minute": 117,
-     "id": null,
-     "raw": "Shimza -&#160;?"
-    }
-   ]
-  }
- ]
+"dj": "Shimza",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-07-02 - Shimza @ Cercle, Citadelle de Sisteron, France",
+"records": [
+{
+"minute": 0,
+"artist": "Shimza",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "Shimza & Charlee",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 13,
+"artist": "Shimza & Franky Wah",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 16,
+"artist": "Culoe De Song",
+"title": "Dubdogs",
+"label": "Unreleased",
+"bp": "bp:19630576",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e5e3fe27-c840-469d-9594-10ba16b7e709.LOFI.mp3",
+"name": "Dubdogs",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-25"
+},
+{
+"minute": 20,
+"artist": "Chopstar",
+"title": "Mash Up",
+"label": "Unreleased"
+},
+{
+"minute": 26,
+"artist": "DJEFF",
+"title": "Zua Ngai Lelo (Instrumental)",
+"label": "Unreleased"
+},
+{
+"minute": 32,
+"artist": "Afrokillerz",
+"title": "Happy",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Shimza",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "Dorian Craft Feat. Ren Ocean",
+"title": "All I Can",
+"label": ""
+},
+{
+"minute": 47,
+"artist": "Caiiro",
+"title": "Batumi",
+"label": "",
+"bp": "bp:19226391",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/54b205fd-da2a-467f-9e90-e5447d4c47e2.LOFI.mp3",
+"name": "Batumi",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-07-05"
+},
+{
+"minute": 52,
+"artist": "Shimza & Klement Bonelli",
+"title": "Sail Away",
+"label": "Unreleased"
+},
+{
+"minute": 57,
+"artist": "Shimza & Jnr SA",
+"title": "Euphoria",
+"label": "Unreleased",
+"bp": "bp:19572518",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/994a4bad-d667-43db-8cb8-553420516e11.LOFI.mp3",
+"name": "Euphoria",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-18"
+},
+{
+"minute": 64,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 68,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 73,
+"artist": "Elderbrook & Shimza",
+"title": "Places (Shimza Club Mix)",
+"label": "",
+"bp": "bp:20069917",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/47ba3dea-e81f-4bf6-8860-b47857ed1eb5.LOFI.mp3",
+"name": "Places",
+"mix": "Shimza Club Edit",
+"genre": "afro-house",
+"released": "2025-02-14"
+},
+{
+"minute": 79,
+"artist": "NIKIA SUNCHILD Feat. Shoba",
+"title": "Mapenzi Maji (Afro Worriers Remix)",
+"label": "",
+"bp": "bp:18809247",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/4e95a934-1999-4bf0-a12f-8887571be1a1.LOFI.mp3",
+"name": "Mapenzi Maji",
+"mix": "Afro Warriors Remix",
+"genre": "afro-house",
+"released": "2024-04-19"
+},
+{
+"minute": 83,
+"artist": "Shimza & CamelPhat Feat. Idd Aziz",
+"title": "Bado",
+"label": "",
+"bp": "bp:19465363",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/62f2afef-e910-488f-b547-14c39bd37cf0.LOFI.mp3",
+"name": "BADO",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-09-06"
+},
+{
+"minute": 88,
+"artist": "Bun Xapa",
+"title": "Stockholm",
+"label": "Unreleased",
+"bp": "bp:19573464",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3c4ba5b0-c940-4dd8-9489-e58666af0728.LOFI.mp3",
+"name": "Stockholm",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-25"
+},
+{
+"minute": 93,
+"artist": "Shimza",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 99,
+"artist": "Shimza & Alex Wann",
+"title": "Skill Of Love",
+"label": "Unreleased",
+"bp": "bp:20349114",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b975205a-b86b-4d88-85e8-933ca318771c.LOFI.mp3",
+"name": "Skill Of Love",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-04-18"
+},
+{
+"minute": 104,
+"artist": "Breyth",
+"title": "12 Bells",
+"label": "Unreleased",
+"bp": "bp:19579468",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5c6f26d-805c-4302-b81b-27758f549ae2.LOFI.mp3",
+"name": "12 Bells",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-18"
+},
+{
+"minute": 112,
+"artist": "Shimza & Aloe Blacc",
+"title": "Darling",
+"label": "",
+"bp": "bp:18744569",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7074cfd1-3b0a-4b0e-a615-97399a8bb8a6.LOFI.mp3",
+"name": "Darling",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-02-23"
+},
+{
+"minute": 117,
+"artist": "Shimza Feat. Rachael Chinouriri",
+"title": "Parachute",
+"label": "",
+"bp": "bp:19038004",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/6d5bf06a-c365-47b9-ab3b-2fb66b3f057a.LOFI.mp3",
+"name": "Parachute",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-05-08"
+},
+{
+"minute": 120,
+"artist": "Shimza, Maline Aura",
+"title": "Citadelle",
+"label": "Cercle",
+"bp": "bp:19358389",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7d3a9937-7553-4c8d-89b7-d4d9c4b3c2c2.LOFI.mp3",
+"name": "Citadelle",
+"mix": "Extended Version",
+"genre": "afro-house",
+"released": "2024-09-19"
+}
+]
+},
+{
+"title": "2024-08-26 - Shimza b2b Arodes @ Robot Heart, Burning Man",
+"records": [
+{
+"minute": 0,
+"artist": "Shimza & CamelPhat & Idd Aziz",
+"title": "BADO (Extended Mix)",
+"label": "Helix",
+"bp": "bp:19465363",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/62f2afef-e910-488f-b547-14c39bd37cf0.LOFI.mp3",
+"name": "BADO",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-09-06"
+},
+{
+"minute": 6,
+"artist": "Shimza & Jnr SA",
+"title": "Euphoria",
+"label": "KUNYE",
+"bp": "bp:19572518",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/994a4bad-d667-43db-8cb8-553420516e11.LOFI.mp3",
+"name": "Euphoria",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-18"
+},
+{
+"minute": 9,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 17,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 21,
+"artist": "Arodes & Andrea Oliva & Moeaike",
+"title": "Stronger Than Before",
+"label": "",
+"bp": "bp:20007135",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8429d6da-0c42-4d97-a75c-a20cea3eafe9.LOFI.mp3",
+"name": "Stronger Than Before",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-04-05"
+},
+{
+"minute": 25,
+"artist": "Francis Mercier & Faul & Wad & African Children's Choir",
+"title": "Sauti",
+"label": "Insomniac",
+"bp": "bp:20439367",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4fb25215-d17a-4fac-9ef5-01fca351cf3b.LOFI.mp3",
+"name": "Sauti",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2025-05-09"
+},
+{
+"minute": 29,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 32,
+"artist": "Arodes",
+"title": "Kidz",
+"label": "Kontor",
+"bp": "bp:19609675",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/852a3da6-6b96-493b-a80c-2299987a99bd.LOFI.mp3",
+"name": "Kidz",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-10-25"
+},
+{
+"minute": 35,
+"artist": "Moojo & Caiiro & Starving Yet Full",
+"title": "NGWINO",
+"label": "",
+"bp": "bp:18700866",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/91418230-4d62-4016-90e9-fea97d0000d4.LOFI.mp3",
+"name": "NGWINO ",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-03-08"
+},
+{
+"minute": 42,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 45,
+"artist": "Mpho.Wav",
+"title": "UNDERGROUND",
+"label": "Platoon",
+"bp": "bp:19475396",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/42662968-af0d-47c4-9d9c-18435e640cd2.LOFI.mp3",
+"name": "UNDERGROUND",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-09-27"
+},
+{
+"minute": 51,
+"artist": "Bastin & Ajna",
+"title": "Taawa",
+"label": "Magnifik",
+"bp": "bp:19543520",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3743f40c-e2a7-4203-98a7-426b35ddc0c9.LOFI.mp3",
+"name": "Taawa ",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-04"
+},
+{
+"minute": 56,
+"artist": "Arodes & Redd",
+"title": "Use Somebody (Extended Mix)",
+"label": "Kontor",
+"bp": "bp:19413421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dea79bf2-75e7-4682-beea-9dcf99e9596f.LOFI.mp3",
+"name": "Use Somebody",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-09-13"
+}
+]
+},
+{
+"title": "2024-10-31 - Shimza - Residency, BBC Radio 1",
+"records": [
+{
+"minute": null,
+"artist": "Shimza & CamelPhat Feat. Idd Aziz",
+"title": "Bado",
+"label": "Helix",
+"bp": "bp:19465363",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/62f2afef-e910-488f-b547-14c39bd37cf0.LOFI.mp3",
+"name": "BADO",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-09-06"
+},
+{
+"minute": null,
+"artist": "DJ Kent & Thakzin Feat. M\u00d6T & M\u00d6RDA & Brenden Praise",
+"title": "Horns In The Sun (Thakzin Remix)",
+"label": "Spinnin' Deep"
+},
+{
+"minute": null,
+"artist": "Arodes & REDD",
+"title": "Use Somebody",
+"label": "Unreleased",
+"bp": "bp:19413421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dea79bf2-75e7-4682-beea-9dcf99e9596f.LOFI.mp3",
+"name": "Use Somebody",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-09-13"
+},
+{
+"minute": null,
+"artist": "Shimza Feat. Mikhaela Faye",
+"title": "Calling Out Your Name",
+"label": "Kunye",
+"bp": "bp:14476576",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/5bc0e854-3496-4e0f-983c-392f4b3730e0.LOFI.mp3",
+"name": "Calling Out Your Name",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2020-11-06"
+},
+{
+"minute": null,
+"artist": "Zakes Bantwini & Kasango",
+"title": "Osama",
+"label": "Paradise Sound System",
+"bp": "bp:15777209",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6c7d099-7568-4bae-9ec4-f821548a810d.LOFI.mp3",
+"name": "Osama",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2021-12-03"
+},
+{
+"minute": null,
+"artist": "Elderbrook & Shimza",
+"title": "Places",
+"label": "Mine",
+"bp": "bp:19203531",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e2f381d4-6d3e-426a-be60-80adf45d5e80.LOFI.mp3",
+"name": "Places",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-07-19"
+},
+{
+"minute": null,
+"artist": "Shimza & Jnr SA",
+"title": "Euphoria",
+"label": "Kunye",
+"bp": "bp:19572518",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/994a4bad-d667-43db-8cb8-553420516e11.LOFI.mp3",
+"name": "Euphoria",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-18"
+},
+{
+"minute": null,
+"artist": "Shimza & DJ Vitoto & Zano",
+"title": "Dreaming",
+"label": "",
+"bp": "bp:19572515",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/52c2396c-0edf-4cb6-88ff-78ed79fd1f2e.LOFI.mp3",
+"name": "Dreaming",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-10-18"
+},
+{
+"minute": null,
+"artist": "Shimza & Ma\u00f1ana",
+"title": "Ain't It Amazing",
+"label": ""
+},
+{
+"minute": null,
+"artist": "MoBlack & Benja & Franc Fala Feat. Salif Ke\u00efta & Ces\u00e1ria \u00c9vora",
+"title": "Yamore (FNX Omar Remix)",
+"label": "Umsm"
+},
+{
+"minute": null,
+"artist": "Badbox & Afrokillerz",
+"title": "Erro Pt II",
+"label": "",
+"bp": "bp:19630536",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/39fa9b8d-925b-486b-8172-4c1d37be68e2.LOFI.mp3",
+"name": "Erro Pt II",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-18"
+},
+{
+"minute": null,
+"artist": "Andrea Oliva & Moeaike",
+"title": "I Love You So",
+"label": "",
+"bp": "bp:20044826",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/05239242-270e-440b-bdf1-a1be7b5ffd85.LOFI.mp3",
+"name": "I Love You So",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-02-14"
+},
+{
+"minute": null,
+"artist": "Bun Xapa",
+"title": "Stockholm",
+"label": "Kunye",
+"bp": "bp:19573464",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3c4ba5b0-c940-4dd8-9489-e58666af0728.LOFI.mp3",
+"name": "Stockholm",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-25"
+},
+{
+"minute": null,
+"artist": "Keinemusik Feat. Chuala",
+"title": "Say What",
+"label": "Keinemusik",
+"bp": "bp:19657454",
+"score": 0.617,
+"preview": "https://geo-samples.beatport.com/track/28a1c0b7-588d-4efd-b90f-94a0badc6ebe.LOFI.mp3",
+"name": "Say What (feat. Chuala)",
+"mix": "feat. Chuala",
+"genre": "afro-house",
+"released": "2024-10-25"
+},
+{
+"minute": null,
+"artist": "Vanco Feat. JAMILA",
+"title": "Breathe",
+"label": "Kunye",
+"bp": "bp:27294335",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/e22be35f-b498-44a0-a795-4ba24dee7210.LOFI.mp3",
+"name": "Breathe",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-07-01"
+},
+{
+"minute": null,
+"artist": "Darque X Thandi Draai",
+"title": "Yonke (Rodriguez Jr. Remix)",
+"label": "Kunye",
+"bp": "bp:18691003",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/4e238c0c-9ad4-4892-8bc4-e92d8a3255f5.LOFI.mp3",
+"name": "Yonke",
+"mix": "Rodriguez Jr. Remix",
+"genre": "afro-house",
+"released": "2024-03-08"
+},
+{
+"minute": null,
+"artist": "DJEFF Feat. Boule Mpanya",
+"title": "Lelo",
+"label": "Klub",
+"bp": "bp:19514591",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/ac143926-7fc8-466a-b60a-c035e1286c34.LOFI.mp3",
+"name": "Lelo",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-04"
+},
+{
+"minute": null,
+"artist": "Adam Port & Stryv Feat. Malachii",
+"title": "Move",
+"label": "Keinemusik",
+"bp": "bp:19119572",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/7e0708b4-6d32-4deb-aca4-8a579508e40b.LOFI.mp3",
+"name": "Move (feat. Malachiii)",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2024-06-07"
+},
+{
+"minute": null,
+"artist": "Eleven Feat. Winyo",
+"title": "Kendo",
+"label": "Calamar",
+"bp": "bp:19387440",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/00ed08aa-2c53-4286-87aa-f48241d1d440.LOFI.mp3",
+"name": "Kendo",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-09-20"
+},
+{
+"minute": null,
+"artist": "Mpho.Wav",
+"title": "Underground",
+"label": "",
+"bp": "bp:19475396",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/42662968-af0d-47c4-9d9c-18435e640cd2.LOFI.mp3",
+"name": "UNDERGROUND",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-09-27"
+},
+{
+"minute": null,
+"artist": "Sun-El Musician Feat. Mpho Wav",
+"title": "In The Den",
+"label": "El World"
+},
+{
+"minute": null,
+"artist": "Shimza & Maline Aura",
+"title": "Citadelle",
+"label": "Cercle",
+"bp": "bp:19358389",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7d3a9937-7553-4c8d-89b7-d4d9c4b3c2c2.LOFI.mp3",
+"name": "Citadelle",
+"mix": "Extended Version",
+"genre": "afro-house",
+"released": "2024-09-19"
+},
+{
+"minute": null,
+"artist": "Shimza & Kabza De Small & Vitoto",
+"title": "2 Step",
+"label": "",
+"bp": "bp:19572517",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4faa3f0c-099c-4704-a99a-1f0e9f54df80.LOFI.mp3",
+"name": "2 Step",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-10-18"
+},
+{
+"minute": null,
+"artist": "Lilya Mandre & Zac Martel & Tommy Kimpton",
+"title": "Sensa (Manoo Vocal Remix)",
+"label": "",
+"bp": "bp:19783643",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93004fdb-6cbc-4ac7-a7f4-2af7ad813699.LOFI.mp3",
+"name": "Sensa",
+"mix": "Manoo Remix",
+"genre": "afro-house",
+"released": "2024-12-06"
+},
+{
+"minute": null,
+"artist": "Ti\u00ebsto & Poppy Baskcomb",
+"title": "Drifting (Arodes Remix)",
+"label": "Musical Freedom",
+"bp": "bp:20847717",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3e891776-04b1-4005-ba5e-34aaa25ee758.LOFI.mp3",
+"name": "Drifting ",
+"mix": "Arodes Remix",
+"genre": "trance-main-floor",
+"released": "2025-08-01"
+},
+{
+"minute": null,
+"artist": "Oumou Sangar\u00e9",
+"title": "Djama Kaissoumou",
+"label": "Afrokillerz Bootleg",
+"bp": "bp:23662665",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/4bd0e3f0-89b7-49f0-8ff8-60d2087b1e4b.LOFI.mp3",
+"name": "Djama Kaissoumou",
+"mix": "Original Mix",
+"genre": "african",
+"released": "1991-01-01"
+},
+{
+"minute": null,
+"artist": "Kususa & BlaQRhythm",
+"title": "Umkhumbi Ka Noah",
+"label": "",
+"bp": "bp:19734877",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/15fcf65b-3b78-4934-b1e5-9b830f8fdb50.LOFI.mp3",
+"name": "Umkhumbi Ka Noah",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-11-01"
+}
+]
+},
+{
+"title": "2025-06-18 - Shimza - Karma Karma Radio 040",
+"records": [
+{
+"minute": 0,
+"artist": "Foozak",
+"title": "Parsaloi",
+"label": "Mahaba",
+"bp": "bp:20335738",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aa70de50-61c4-4364-aaed-3848df02da3d.LOFI.mp3",
+"name": "Parsaloi",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-04-18"
+},
+{
+"minute": 4,
+"artist": "Zakente",
+"title": "My Way",
+"label": "",
+"bp": "bp:19652741",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0eec4313-9913-4b02-8469-9aeeb6f485b8.LOFI.mp3",
+"name": "My Way",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-11-07"
+},
+{
+"minute": 9,
+"artist": "Kususa & Argento Dust",
+"title": "Sinners",
+"label": ""
+},
+{
+"minute": 14,
+"artist": "Gumz Feat. Habib Koite",
+"title": "Jakoke",
+"label": "Madorasindahouse",
+"bp": "bp:20275494",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/b368bde1-b4c8-4161-998b-ca22bd391c7a.LOFI.mp3",
+"name": "Jakoke",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-03-28"
+},
+{
+"minute": 19,
+"artist": "Afrokillerz",
+"title": "Go Draft",
+"label": ""
+},
+{
+"minute": 24,
+"artist": "Sky White",
+"title": "Tamba",
+"label": "",
+"bp": "bp:21250677",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0b025f44-16b7-4875-8853-f9f34a597ef7.LOFI.mp3",
+"name": "Tamba",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-09-26"
+},
+{
+"minute": 29,
+"artist": "Shimza & AR/CO & Kasango",
+"title": "Fire Fire",
+"label": "Helix",
+"bp": "bp:20614372",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ef80f530-169e-4fea-9739-343724b142bd.LOFI.mp3",
+"name": "Fire Fire",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-06-13"
+},
+{
+"minute": 33,
+"artist": "DJEFF",
+"title": "Loyalty",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "DJ Vitoto & Bun Xapa & ZIDDO",
+"title": "Saharian Girl",
+"label": "Kunye",
+"bp": "bp:21074324",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5393c1c6-81f8-481c-bf6a-a4444850f72a.LOFI.mp3",
+"name": "Saharian Girl",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-08-22"
+},
+{
+"minute": 41,
+"artist": "Ed-Ward",
+"title": "Gijima",
+"label": "",
+"bp": "bp:20095764",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7a089c31-c61b-428f-8e41-cfa2432f0fe6.LOFI.mp3",
+"name": "Gijima",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-02-28"
+},
+{
+"minute": 46,
+"artist": "The Weeknd & Playboi Carti",
+"title": "Timeless (Arodes Remix)",
+"label": "Xo"
+},
+{
+"minute": 52,
+"artist": "Drumeticboyz",
+"title": "Feeling",
+"label": ""
+}
+]
+},
+{
+"title": "2025-09-13 - Moguai, Shimza, Topic - 1LIVE DJ Session",
+"records": [
+{
+"minute": 0,
+"artist": "Empire Of The Sun & BLOND:ISH",
+"title": "Walking On A Dream (BLOND:ISH Extended Remix)",
+"label": "",
+"bp": "bp:20832384",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fd90bd6d-be58-40bb-a14e-0f8077de5b79.LOFI.mp3",
+"name": "Walking On A Dream",
+"mix": "BLOND:ISH Extended Remix",
+"genre": "dance-pop",
+"released": "2025-07-28"
+},
+{
+"minute": 5,
+"artist": "Julian Fijma",
+"title": "Get Stupid (Extended Mix)",
+"label": "Three Six Zero"
+},
+{
+"minute": 10,
+"artist": "RSquared",
+"title": "Fantasy (Extended Mix)",
+"label": "Defected",
+"bp": "bp:21886530",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7d0e4a87-5e3c-4bf7-84b8-c1d67be85138.LOFI.mp3",
+"name": "Fantasy",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2025-09-30"
+},
+{
+"minute": 15,
+"artist": "Will K",
+"title": "Lick It (Extended Mix)",
+"label": "Sweat It Out",
+"bp": "bp:21299595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ad863568-d601-411c-9b45-afaedb16faca.LOFI.mp3",
+"name": "Lick It",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2025-09-05"
+},
+{
+"minute": 17,
+"artist": "Bingo Players X Truth X Lies vs Marlon Hofstadt",
+"title": "It's That Time X Rattle (Deejay Lil'Boy Mashup)",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "Ti\u00ebsto & Odd Mob & Goodboys",
+"title": "Won't Be Possible (Sak Noel Extended Remix)",
+"label": "Atlantic/Musical Freedom"
+},
+{
+"minute": 22,
+"artist": "Sak Noel vs David Guetta & Jaden Bojsen",
+"title": "Loca People vs Let's Go (Monreal Mashup)",
+"label": ""
+},
+{
+"minute": 25,
+"artist": "Sven Lochenhoer",
+"title": "Keep Guessing",
+"label": "Rules Don't Apply",
+"bp": "bp:20244366",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a56908f4-0816-4779-8727-e5e35a581d35.LOFI.mp3",
+"name": "Keep Guessing ",
+"mix": "Original Mix",
+"genre": "bass-house",
+"released": "2025-04-04"
+},
+{
+"minute": 28,
+"artist": "Ultra Nat\u00e9",
+"title": "Free (Sammy Porter Remix)",
+"label": ""
+},
+{
+"minute": 32,
+"artist": "HI-LO vs Green Velvet, Dajae vs Indeep",
+"title": "KOALA vs Brighter Days vs Saved My Life (OH Mashup)",
+"label": ""
+},
+{
+"minute": 36,
+"artist": "Bad Bunny X Showtek",
+"title": "Cafe Con Ron vs Booyah (Monreal Rework Mashup)",
+"label": ""
+},
+{
+"minute": 39,
+"artist": "Eats Everything & Diffrent & HQA",
+"title": "The Sanctuary (Love Like That) (Diffrent Remix) (Extended)",
+"label": "Three Six Zero"
+},
+{
+"minute": 43,
+"artist": "Calvin Harris & Clementine Douglas",
+"title": "Blessings (Max Styler Remix)",
+"label": "Columbia",
+"bp": "bp:20653073",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/daa89fa9-c2dc-4902-b0a7-c585a1e3c1fd.LOFI.mp3",
+"name": "Blessings",
+"mix": "Max Styler Remix",
+"genre": "dance-pop",
+"released": "2025-06-20"
+},
+{
+"minute": 47,
+"artist": "Maiba",
+"title": "So Good (Extended)",
+"label": "More Than Talent",
+"bp": "bp:20884973",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/386b4df2-e3d0-4262-93b4-67301aefc7f5.LOFI.mp3",
+"name": "So Good",
+"mix": "Extended",
+"genre": "melodic-house-techno",
+"released": "2025-08-29"
+},
+{
+"minute": 52,
+"artist": "Delerium & Sarah McLachlan & John Summit",
+"title": "Silence (John Summit Extended Remix)",
+"label": "Tomorrowland"
+},
+{
+"minute": 56,
+"artist": "Gianni Romano & Emanuele Esposito & &friends Feat. Helen Tesfazghi",
+"title": "It's Not Right (&friends Remake)",
+"label": "Ulu",
+"bp": "bp:18721072",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/88104e67-cffc-4b6b-8230-f12c9c719f1e.LOFI.mp3",
+"name": "It's Not Right",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-03-15"
+},
+{
+"minute": 0,
+"artist": "Foozak",
+"title": "Parsaloi",
+"label": "Mahaba",
+"bp": "bp:20335738",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aa70de50-61c4-4364-aaed-3848df02da3d.LOFI.mp3",
+"name": "Parsaloi",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-04-18"
+},
+{
+"minute": 5,
+"artist": "Zakente",
+"title": "My Way",
+"label": "",
+"bp": "bp:19652741",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0eec4313-9913-4b02-8469-9aeeb6f485b8.LOFI.mp3",
+"name": "My Way",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-11-07"
+},
+{
+"minute": 10,
+"artist": "Kususa & Argento Dust",
+"title": "Sinners",
+"label": ""
+},
+{
+"minute": 14,
+"artist": "Gumz Feat. Habib Koite",
+"title": "Jakoke",
+"label": "Madorasindahouse",
+"bp": "bp:20275494",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/b368bde1-b4c8-4161-998b-ca22bd391c7a.LOFI.mp3",
+"name": "Jakoke",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-03-28"
+},
+{
+"minute": 20,
+"artist": "Afrokillerz",
+"title": "Go Draft",
+"label": ""
+},
+{
+"minute": 24,
+"artist": "Sky White",
+"title": "Tamba",
+"label": "",
+"bp": "bp:21250677",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0b025f44-16b7-4875-8853-f9f34a597ef7.LOFI.mp3",
+"name": "Tamba",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-09-26"
+},
+{
+"minute": 30,
+"artist": "Shimza & AR/CO & Kasango",
+"title": "Fire Fire",
+"label": "Helix",
+"bp": "bp:20614372",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ef80f530-169e-4fea-9739-343724b142bd.LOFI.mp3",
+"name": "Fire Fire",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-06-13"
+},
+{
+"minute": 34,
+"artist": "DJEFF",
+"title": "Loyalty",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "DJ Vitoto & Bun Xapa & ZIDDO",
+"title": "Saharian Girl",
+"label": "Kunye",
+"bp": "bp:21074324",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5393c1c6-81f8-481c-bf6a-a4444850f72a.LOFI.mp3",
+"name": "Saharian Girl",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-08-22"
+},
+{
+"minute": 42,
+"artist": "Ed-Ward",
+"title": "Gijima",
+"label": "",
+"bp": "bp:20095764",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7a089c31-c61b-428f-8e41-cfa2432f0fe6.LOFI.mp3",
+"name": "Gijima",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-02-28"
+},
+{
+"minute": 47,
+"artist": "The Weeknd & Playboi Carti",
+"title": "Timeless (Arodes Remix)",
+"label": "Xo"
+},
+{
+"minute": 53,
+"artist": "Drumeticboyz",
+"title": "Feeling",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Topic Feat. Fireboy DML & & Nico Santos",
+"title": "Body",
+"label": "",
+"bp": "bp:21411915",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/a5d50624-a2d2-4c9a-98c4-49577046cabe.LOFI.mp3",
+"name": "Body",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2025-08-29"
+},
+{
+"minute": null,
+"artist": "Adriatique & Samm (BE) & Jaimes",
+"title": "Back To Life",
+"label": "X",
+"bp": "bp:20159790",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/92094b58-37ae-499a-bfd5-5352b9f2f8d7.LOFI.mp3",
+"name": "Back To Life",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2025-03-14"
+},
+{
+"minute": null,
+"artist": "Topic Feat. A7S",
+"title": "Breaking Me (VIP Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Topic & Sofiya Nzau",
+"title": "Away",
+"label": "",
+"bp": "bp:20518455",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/63d4681a-4d7c-45ba-87d5-7d516afe1586.LOFI.mp3",
+"name": "Away",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2025-05-16"
+},
+{
+"minute": null,
+"artist": "Robin Tordjman & Anthony P.",
+"title": "Deee-Life",
+"label": "Abracadabra",
+"bp": "bp:20453757",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a253ad56-1072-49df-8795-bdd8f5b9a5a8.LOFI.mp3",
+"name": "Deee-Life",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2025-05-23"
+},
+{
+"minute": null,
+"artist": "Vanco Feat. Aya",
+"title": "Ma Tnsani (Yalla Habibi) (Faul & Wad No One Remix)",
+"label": "Afro Repuplik"
+},
+{
+"minute": null,
+"artist": "Non Grata",
+"title": "Ganja",
+"label": "Deep Root Tribe",
+"bp": "bp:20141425",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5c2f8072-111c-4d63-bce8-abfa5a6293e7.LOFI.mp3",
+"name": "Ganja",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-03-21"
+},
+{
+"minute": null,
+"artist": "HUGEL & Topic & Arash Feat. Daecolm",
+"title": "I Adore You (Extended Mix)",
+"label": "Virgin/Polydor",
+"bp": "bp:19253776",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/6de258b2-03b7-494c-ba63-42644b9d0b1e.LOFI.mp3",
+"name": "I Adore You",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-07-19"
+},
+{
+"minute": null,
+"artist": "Andrea Oliva & Arodes",
+"title": "Change",
+"label": "Unreleased",
+"bp": "bp:20150771",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f9bca6e-1f62-4caa-8b3f-62e01bee7815.LOFI.mp3",
+"name": "Change",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-03-14"
+},
+{
+"minute": null,
+"artist": "Oktave & JUNO",
+"title": "Kiddo",
+"label": "Palosanto",
+"bp": "bp:20489784",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e43eb324-6f2a-4bc5-92cd-0b71a8ad8fb3.LOFI.mp3",
+"name": "Kiddo",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-06-27"
+},
+{
+"minute": null,
+"artist": "Jonas Blue & Malive",
+"title": "Edge Of Desire (Extended Mix)",
+"label": "Defected",
+"bp": "bp:20625808",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/33023792-b827-4316-ac15-9a44608d9c86.LOFI.mp3",
+"name": "Edge of Desire",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2025-07-18"
+},
+{
+"minute": null,
+"artist": "Alex Wann",
+"title": "Right (Extended Mix)",
+"label": "Defected",
+"bp": "bp:20637754",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db0036d9-ef23-426f-a125-c922830fcc5c.LOFI.mp3",
+"name": "Right",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-07-09"
+},
+{
+"minute": null,
+"artist": "Shimza & AR/CO & Kasango",
+"title": "Fire Fire (Extended Mix)",
+"label": "Helix",
+"bp": "bp:20614372",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ef80f530-169e-4fea-9739-343724b142bd.LOFI.mp3",
+"name": "Fire Fire",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-06-13"
+},
+{
+"minute": null,
+"artist": "Topic & Daecolm",
+"title": "Control Of Me",
+"label": "",
+"bp": "bp:20035547",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ab43939b-861f-40f3-97ee-fb0b5cf28966.LOFI.mp3",
+"name": "Control Of Me",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2025-01-24"
+}
+]
+},
+{
+"title": "2025-09-24 - Shimza - Karma Karma Radio 054",
+"records": [
+{
+"minute": 0,
+"artist": "Kgzoo & Pierre Johnson & Zeleah",
+"title": "Find Your Way",
+"label": "Klub",
+"bp": "bp:21630017",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/806f3e13-6740-465a-bcd7-88581bf26df6.LOFI.mp3",
+"name": "Find Your Way",
+"mix": "Extended",
+"genre": "afro-house",
+"released": "2025-10-03"
+},
+{
+"minute": 6,
+"artist": "Meith & Biggi Da Vine Feat. S.A.N.E",
+"title": "Love Language (Kususa Remix)",
+"label": "",
+"bp": "bp:21473455",
+"score": 0.956,
+"preview": "https://geo-samples.beatport.com/track/524b3c0b-35d8-41a7-b133-47e2f8d2ca7e.LOFI.mp3",
+"name": "Love Language",
+"mix": "Kususa Extended Remix",
+"genre": "afro-house",
+"released": "2025-10-10"
+},
+{
+"minute": 12,
+"artist": "Rydz",
+"title": "Sunshine",
+"label": "",
+"bp": "bp:21636876",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5d3a04b-2ec9-4db2-a37d-bf0dba47c827.LOFI.mp3",
+"name": "Sunshine",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-09-26"
+},
+{
+"minute": 17,
+"artist": "Elson Soares & Zakente Feat. Natash MD",
+"title": "Vula",
+"label": "DM",
+"bp": "bp:21484083",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/39aca407-20fa-43e0-b1ca-141fe1d0cdfa.LOFI.mp3",
+"name": "Vula",
+"mix": "Radio Edit",
+"genre": "afro-house",
+"released": "2025-09-12"
+},
+{
+"minute": 24,
+"artist": "Fonsa & ROVADO",
+"title": "First Class",
+"label": "",
+"bp": "bp:21869562",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18379c6e-f135-43eb-a45a-cf8d3c09f738.LOFI.mp3",
+"name": "First Class",
+"mix": "Extended",
+"genre": "afro-house",
+"released": "2025-10-10"
+},
+{
+"minute": 29,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 34,
+"artist": "Dairo & Alex Twin",
+"title": "Don't Let Go",
+"label": "",
+"bp": "bp:22041892",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/48ca7d27-f818-47b4-a22a-5937ba7af659.LOFI.mp3",
+"name": "Don't Let Go ",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-10-10"
+},
+{
+"minute": 38,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 44,
+"artist": "Moblack & Gruwski & LevyM",
+"title": "Sweet Reminder",
+"label": "Moblack",
+"bp": "bp:21580839",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/726ac76e-4446-442d-8777-2c868c3bd13b.LOFI.mp3",
+"name": "Sweet Reminder",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-09-19"
+},
+{
+"minute": 49,
+"artist": "Homeboyz & Djeff & Massala",
+"title": "Wassup",
+"label": "Deep Root Tribe",
+"bp": "bp:21762565",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/17070e39-696d-4ee0-9bd1-1def7ed09ad9.LOFI.mp3",
+"name": "WASSUP",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-10-10"
+},
+{
+"minute": 52,
+"artist": "Idd Aziz & Copal & Chaleee & Jaden Piper",
+"title": "Milele",
+"label": "My Other Side Of The Moon",
+"bp": "bp:21816457",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/47aeea47-a697-494e-b4f4-431bbc311308.LOFI.mp3",
+"name": "Milele",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-09-26"
+}
+]
+},
+{
+"title": "2025-10-15 - Shimza - DJ Mag Sessions",
+"records": [
+{
+"minute": 0,
+"artist": "Kgzoo & Pierre Johnson & Zeleah",
+"title": "Find Your Way",
+"label": "Klub",
+"bp": "bp:21630017",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/806f3e13-6740-465a-bcd7-88581bf26df6.LOFI.mp3",
+"name": "Find Your Way",
+"mix": "Extended",
+"genre": "afro-house",
+"released": "2025-10-03"
+},
+{
+"minute": 6,
+"artist": "Meith & Biggi Da Vine Feat. S.A.N.E",
+"title": "Love Language (Kususa Remix)",
+"label": "",
+"bp": "bp:21473455",
+"score": 0.956,
+"preview": "https://geo-samples.beatport.com/track/524b3c0b-35d8-41a7-b133-47e2f8d2ca7e.LOFI.mp3",
+"name": "Love Language",
+"mix": "Kususa Extended Remix",
+"genre": "afro-house",
+"released": "2025-10-10"
+},
+{
+"minute": 12,
+"artist": "Rydz",
+"title": "Sunshine",
+"label": "",
+"bp": "bp:21636876",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5d3a04b-2ec9-4db2-a37d-bf0dba47c827.LOFI.mp3",
+"name": "Sunshine",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-09-26"
+},
+{
+"minute": 17,
+"artist": "Elson Soares & Zakente Feat. Natash MD",
+"title": "Vula",
+"label": "DM",
+"bp": "bp:21484083",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/39aca407-20fa-43e0-b1ca-141fe1d0cdfa.LOFI.mp3",
+"name": "Vula",
+"mix": "Radio Edit",
+"genre": "afro-house",
+"released": "2025-09-12"
+},
+{
+"minute": 24,
+"artist": "Fonsa & ROVADO",
+"title": "First Class",
+"label": "",
+"bp": "bp:21869562",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18379c6e-f135-43eb-a45a-cf8d3c09f738.LOFI.mp3",
+"name": "First Class",
+"mix": "Extended",
+"genre": "afro-house",
+"released": "2025-10-10"
+},
+{
+"minute": 29,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 34,
+"artist": "Dairo & Alex Twin",
+"title": "Don't Let Go",
+"label": "",
+"bp": "bp:22041892",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/48ca7d27-f818-47b4-a22a-5937ba7af659.LOFI.mp3",
+"name": "Don't Let Go ",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-10-10"
+},
+{
+"minute": 38,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 44,
+"artist": "Moblack & Gruwski & LevyM",
+"title": "Sweet Reminder",
+"label": "Moblack",
+"bp": "bp:21580839",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/726ac76e-4446-442d-8777-2c868c3bd13b.LOFI.mp3",
+"name": "Sweet Reminder",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-09-19"
+},
+{
+"minute": 49,
+"artist": "Homeboyz & Djeff & Massala",
+"title": "Wassup",
+"label": "Deep Root Tribe",
+"bp": "bp:21762565",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/17070e39-696d-4ee0-9bd1-1def7ed09ad9.LOFI.mp3",
+"name": "WASSUP",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-10-10"
+},
+{
+"minute": 52,
+"artist": "Idd Aziz & Copal & Chaleee & Jaden Piper",
+"title": "Milele",
+"label": "My Other Side Of The Moon",
+"bp": "bp:21816457",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/47aeea47-a697-494e-b4f4-431bbc311308.LOFI.mp3",
+"name": "Milele",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-09-26"
+}
+]
+},
+{
+"title": "2026-01-26 - Shimza - Karma Karma Radio 070",
+"records": [
+{
+"minute": 0,
+"artist": "Cuebur & Ovuyonke",
+"title": "Linda",
+"label": "",
+"bp": "bp:22998069",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b7691c66-99f1-4b3a-8338-5fd20c69ca09.LOFI.mp3",
+"name": "Linda",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-01-29"
+},
+{
+"minute": 4,
+"artist": "Jigar & Roland Clark",
+"title": "Masters Of Destiny",
+"label": "Deep In Your Soul",
+"bp": "bp:23446872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/471d7dae-b688-4437-94dc-4212919a4c8a.LOFI.mp3",
+"name": "Masters of Destiny",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-06"
+},
+{
+"minute": 9,
+"artist": "Liva K",
+"title": "Track With The Organ",
+"label": "Defected",
+"bp": "bp:23440957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95d827b1-3ffb-49c4-a0c7-1343e1320862.LOFI.mp3",
+"name": "Track With The Organ",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 12,
+"artist": "Cristian Manolo & Rapha",
+"title": "Alive",
+"label": "",
+"bp": "bp:23468149",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/caeb69e8-daf2-4297-868f-04902804eead.LOFI.mp3",
+"name": "Alive ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 14,
+"artist": "Hypaphonik & Privacii",
+"title": "Trichlor",
+"label": "",
+"bp": "bp:23949352",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6b1eebd-c91a-48e3-aabb-ade3dfc5efb2.LOFI.mp3",
+"name": "Trichlor",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-06"
+},
+{
+"minute": 24,
+"artist": "Non Grata & RB\u00d8R",
+"title": "Dogs On Acid",
+"label": "Deep Root Tribe",
+"bp": "bp:23424831",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1736d77a-d83f-40e2-9972-fe16466545de.LOFI.mp3",
+"name": "Dogs On Acid",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-02-13"
+},
+{
+"minute": 30,
+"artist": "Schorschi",
+"title": "Beggin",
+"label": "Villahangar",
+"bp": "bp:23468148",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93b34fe8-d2ee-4b5a-a648-4b8c89efdc12.LOFI.mp3",
+"name": "Beggin ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 36,
+"artist": "Elderbrook & Shimza",
+"title": "Falling",
+"label": "Helix",
+"bp": "bp:23100022",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dedcdabf-b914-4edc-9487-c8c3ff60fda5.LOFI.mp3",
+"name": "Falling",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-01-16"
+},
+{
+"minute": 39,
+"artist": "Shooma & Monji-Didit & \u00dcDOR\u0100 & CHUKWUMA",
+"title": "Work Am",
+"label": "Kitisuru",
+"bp": "bp:23431277",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/47db8896-2ae8-41b8-a6ea-510bc8bae350.LOFI.mp3",
+"name": "Work AM",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-01-30"
+},
+{
+"minute": 44,
+"artist": "Aytiwan & Harmonique",
+"title": "Believe",
+"label": "Afrosteria",
+"bp": "bp:23476171",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1ed9c35-cdaa-44be-bf87-1a595289aa5b.LOFI.mp3",
+"name": "Believe",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-27"
+},
+{
+"minute": 48,
+"artist": "Bedouin",
+"title": "Reasons (Robin M Remix)",
+"label": "Human By Default"
+},
+{
+"minute": 54,
+"artist": "McFly",
+"title": "Baye",
+"label": "Cercle"
+}
+]
+},
+{
+"title": "2026-02-15 - Shimza - House Club Set Radio Show 850",
+"records": [
+{
+"minute": 0,
+"artist": "Cuebur & Ovuyonke",
+"title": "Linda",
+"label": "",
+"bp": "bp:22998069",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b7691c66-99f1-4b3a-8338-5fd20c69ca09.LOFI.mp3",
+"name": "Linda",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-01-29"
+},
+{
+"minute": 4,
+"artist": "Jigar & Roland Clark",
+"title": "Masters Of Destiny",
+"label": "Deep In Your Soul",
+"bp": "bp:23446872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/471d7dae-b688-4437-94dc-4212919a4c8a.LOFI.mp3",
+"name": "Masters of Destiny",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-06"
+},
+{
+"minute": 9,
+"artist": "Liva K",
+"title": "Track With The Organ",
+"label": "Defected",
+"bp": "bp:23440957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95d827b1-3ffb-49c4-a0c7-1343e1320862.LOFI.mp3",
+"name": "Track With The Organ",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 12,
+"artist": "Cristian Manolo & Rapha",
+"title": "Alive",
+"label": "",
+"bp": "bp:23468149",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/caeb69e8-daf2-4297-868f-04902804eead.LOFI.mp3",
+"name": "Alive ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 14,
+"artist": "Hypaphonik & Privacii",
+"title": "Trichlor",
+"label": "",
+"bp": "bp:23949352",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6b1eebd-c91a-48e3-aabb-ade3dfc5efb2.LOFI.mp3",
+"name": "Trichlor",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-06"
+},
+{
+"minute": 24,
+"artist": "Non Grata & RB\u00d8R",
+"title": "Dogs On Acid",
+"label": "Deep Root Tribe",
+"bp": "bp:23424831",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1736d77a-d83f-40e2-9972-fe16466545de.LOFI.mp3",
+"name": "Dogs On Acid",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-02-13"
+},
+{
+"minute": 30,
+"artist": "Schorschi",
+"title": "Beggin",
+"label": "Villahangar",
+"bp": "bp:23468148",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93b34fe8-d2ee-4b5a-a648-4b8c89efdc12.LOFI.mp3",
+"name": "Beggin ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 36,
+"artist": "Elderbrook & Shimza",
+"title": "Falling",
+"label": "Helix",
+"bp": "bp:23100022",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dedcdabf-b914-4edc-9487-c8c3ff60fda5.LOFI.mp3",
+"name": "Falling",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-01-16"
+},
+{
+"minute": 39,
+"artist": "Shooma & Monji-Didit & \u00dcDOR\u0100 & CHUKWUMA",
+"title": "Work Am",
+"label": "Kitisuru",
+"bp": "bp:23431277",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/47db8896-2ae8-41b8-a6ea-510bc8bae350.LOFI.mp3",
+"name": "Work AM",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-01-30"
+},
+{
+"minute": 44,
+"artist": "Aytiwan & Harmonique",
+"title": "Believe",
+"label": "Afrosteria",
+"bp": "bp:23476171",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1ed9c35-cdaa-44be-bf87-1a595289aa5b.LOFI.mp3",
+"name": "Believe",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-27"
+},
+{
+"minute": 48,
+"artist": "Bedouin",
+"title": "Reasons (Robin M Remix)",
+"label": "Human By Default"
+},
+{
+"minute": 54,
+"artist": "McFly",
+"title": "Baye",
+"label": "Cercle"
+}
+]
+},
+{
+"title": "2026-04-22 - Shimza - DJ Mag Sessions",
+"records": [
+{
+"minute": 0,
+"artist": "Cuebur & Ovuyonke",
+"title": "Linda",
+"label": "",
+"bp": "bp:22998069",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b7691c66-99f1-4b3a-8338-5fd20c69ca09.LOFI.mp3",
+"name": "Linda",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-01-29"
+},
+{
+"minute": 4,
+"artist": "Jigar & Roland Clark",
+"title": "Masters Of Destiny",
+"label": "Deep In Your Soul",
+"bp": "bp:23446872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/471d7dae-b688-4437-94dc-4212919a4c8a.LOFI.mp3",
+"name": "Masters of Destiny",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-06"
+},
+{
+"minute": 9,
+"artist": "Liva K",
+"title": "Track With The Organ",
+"label": "Defected",
+"bp": "bp:23440957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95d827b1-3ffb-49c4-a0c7-1343e1320862.LOFI.mp3",
+"name": "Track With The Organ",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 12,
+"artist": "Cristian Manolo & Rapha",
+"title": "Alive",
+"label": "",
+"bp": "bp:23468149",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/caeb69e8-daf2-4297-868f-04902804eead.LOFI.mp3",
+"name": "Alive ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 14,
+"artist": "Hypaphonik & Privacii",
+"title": "Trichlor",
+"label": "",
+"bp": "bp:23949352",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6b1eebd-c91a-48e3-aabb-ade3dfc5efb2.LOFI.mp3",
+"name": "Trichlor",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-06"
+},
+{
+"minute": 24,
+"artist": "Non Grata & RB\u00d8R",
+"title": "Dogs On Acid",
+"label": "Deep Root Tribe",
+"bp": "bp:23424831",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1736d77a-d83f-40e2-9972-fe16466545de.LOFI.mp3",
+"name": "Dogs On Acid",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-02-13"
+},
+{
+"minute": 30,
+"artist": "Schorschi",
+"title": "Beggin",
+"label": "Villahangar",
+"bp": "bp:23468148",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93b34fe8-d2ee-4b5a-a648-4b8c89efdc12.LOFI.mp3",
+"name": "Beggin ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 36,
+"artist": "Elderbrook & Shimza",
+"title": "Falling",
+"label": "Helix",
+"bp": "bp:23100022",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dedcdabf-b914-4edc-9487-c8c3ff60fda5.LOFI.mp3",
+"name": "Falling",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-01-16"
+},
+{
+"minute": 39,
+"artist": "Shooma & Monji-Didit & \u00dcDOR\u0100 & CHUKWUMA",
+"title": "Work Am",
+"label": "Kitisuru",
+"bp": "bp:23431277",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/47db8896-2ae8-41b8-a6ea-510bc8bae350.LOFI.mp3",
+"name": "Work AM",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-01-30"
+},
+{
+"minute": 44,
+"artist": "Aytiwan & Harmonique",
+"title": "Believe",
+"label": "Afrosteria",
+"bp": "bp:23476171",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1ed9c35-cdaa-44be-bf87-1a595289aa5b.LOFI.mp3",
+"name": "Believe",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-27"
+},
+{
+"minute": 48,
+"artist": "Bedouin",
+"title": "Reasons (Robin M Remix)",
+"label": "Human By Default"
+},
+{
+"minute": 54,
+"artist": "McFly",
+"title": "Baye",
+"label": "Cercle"
+}
+]
+},
+{
+"title": "2026-05-02 - Shimza - Sputnik Club",
+"records": [
+{
+"minute": 0,
+"artist": "Cuebur & Ovuyonke",
+"title": "Linda",
+"label": "",
+"bp": "bp:22998069",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b7691c66-99f1-4b3a-8338-5fd20c69ca09.LOFI.mp3",
+"name": "Linda",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-01-29"
+},
+{
+"minute": 4,
+"artist": "Jigar & Roland Clark",
+"title": "Masters Of Destiny",
+"label": "Deep In Your Soul",
+"bp": "bp:23446872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/471d7dae-b688-4437-94dc-4212919a4c8a.LOFI.mp3",
+"name": "Masters of Destiny",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-06"
+},
+{
+"minute": 9,
+"artist": "Liva K",
+"title": "Track With The Organ",
+"label": "Defected",
+"bp": "bp:23440957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95d827b1-3ffb-49c4-a0c7-1343e1320862.LOFI.mp3",
+"name": "Track With The Organ",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 12,
+"artist": "Cristian Manolo & Rapha",
+"title": "Alive",
+"label": "",
+"bp": "bp:23468149",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/caeb69e8-daf2-4297-868f-04902804eead.LOFI.mp3",
+"name": "Alive ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 14,
+"artist": "Hypaphonik & Privacii",
+"title": "Trichlor",
+"label": "",
+"bp": "bp:23949352",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6b1eebd-c91a-48e3-aabb-ade3dfc5efb2.LOFI.mp3",
+"name": "Trichlor",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-06"
+},
+{
+"minute": 24,
+"artist": "Non Grata & RB\u00d8R",
+"title": "Dogs On Acid",
+"label": "Deep Root Tribe",
+"bp": "bp:23424831",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1736d77a-d83f-40e2-9972-fe16466545de.LOFI.mp3",
+"name": "Dogs On Acid",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-02-13"
+},
+{
+"minute": 30,
+"artist": "Schorschi",
+"title": "Beggin",
+"label": "Villahangar",
+"bp": "bp:23468148",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93b34fe8-d2ee-4b5a-a648-4b8c89efdc12.LOFI.mp3",
+"name": "Beggin ",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-30"
+},
+{
+"minute": 36,
+"artist": "Elderbrook & Shimza",
+"title": "Falling",
+"label": "Helix",
+"bp": "bp:23100022",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dedcdabf-b914-4edc-9487-c8c3ff60fda5.LOFI.mp3",
+"name": "Falling",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-01-16"
+},
+{
+"minute": 39,
+"artist": "Shooma & Monji-Didit & \u00dcDOR\u0100 & CHUKWUMA",
+"title": "Work Am",
+"label": "Kitisuru",
+"bp": "bp:23431277",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/47db8896-2ae8-41b8-a6ea-510bc8bae350.LOFI.mp3",
+"name": "Work AM",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-01-30"
+},
+{
+"minute": 44,
+"artist": "Aytiwan & Harmonique",
+"title": "Believe",
+"label": "Afrosteria",
+"bp": "bp:23476171",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1ed9c35-cdaa-44be-bf87-1a595289aa5b.LOFI.mp3",
+"name": "Believe",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-02-27"
+},
+{
+"minute": 48,
+"artist": "Bedouin",
+"title": "Reasons (Robin M Remix)",
+"label": "Human By Default"
+},
+{
+"minute": 54,
+"artist": "McFly",
+"title": "Baye",
+"label": "Cercle"
+}
+]
+},
+{
+"title": "2026-07-18 - Shimza - Essential Mix",
+"records": [
+{
+"minute": 0,
+"artist": "Shimza & Demay\u00e4",
+"title": "Sunset In Pretoria",
+"label": "Kunye",
+"bp": "bp:29052822",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/734ee394-e554-4d24-acf8-f56480777ac9.LOFI.mp3",
+"name": "Sunset In Pretoria",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2026-06-19"
+},
+{
+"minute": 6,
+"artist": "Shimza & David Mackay & Ewerseen",
+"title": "Wait",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Oskido & Salima & Argento Dust Feat. Bun Xapa",
+"title": "Tiki Tiki 2.0",
+"label": "Kunye",
+"bp": "bp:29659608",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/577cee5d-1e93-43a6-8803-049e2af104b8.LOFI.mp3",
+"name": "Tiki Tiki 2.0",
+"mix": "Extended",
+"genre": "afro-house",
+"released": "2026-07-10"
+},
+{
+"minute": 16,
+"artist": "Ochok",
+"title": "Sexy People",
+"label": "Revolution",
+"bp": "bp:30410148",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7e5d323a-fa85-42fc-a5fb-c03b05a3f269.LOFI.mp3",
+"name": "Sexy People",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-04-10"
+},
+{
+"minute": 19,
+"artist": "Shimza & Darque",
+"title": "Something Just Like This",
+"label": ""
+},
+{
+"minute": 24,
+"artist": "LevyM & Caiiro",
+"title": "Without Name",
+"label": "\u00f3palo",
+"bp": "bp:29317093",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4681f1e5-8bfb-42eb-b146-4ef8d8ec6b34.LOFI.mp3",
+"name": "Without Name ",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-07-10"
+},
+{
+"minute": 30,
+"artist": "DJ Shimza & Piero Farho",
+"title": "Hunting",
+"label": ""
+},
+{
+"minute": 33,
+"artist": "DJEFF & Niraj Naik",
+"title": "My Love",
+"label": "Kunyer"
+},
+{
+"minute": 39,
+"artist": "Cebow M & Mentmusik & Maxi Ofe & Wagathoni",
+"title": "Gbao",
+"label": "Kunye"
+},
+{
+"minute": 44,
+"artist": "AJNA (BE) Feat. Abrahamblue",
+"title": "You Make Me Fall In Love",
+"label": "Magnifik",
+"bp": "bp:29456738",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/c1c2f61d-cccf-4fe5-8dbe-a9a26bff56f8.LOFI.mp3",
+"name": "You Make Me Fall In Love ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2026-07-17"
+},
+{
+"minute": 48,
+"artist": "Pa Ngu",
+"title": "Hondo (Dr Feel Remix)",
+"label": "Iziki",
+"bp": "bp:28995572",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0f4454e-5702-4c5f-a039-dcb518038e8b.LOFI.mp3",
+"name": "Hondo",
+"mix": "Dr Feel remix",
+"genre": "afro-house",
+"released": "2026-06-12"
+},
+{
+"minute": 53,
+"artist": "Piero Farho",
+"title": "247",
+"label": ""
+},
+{
+"minute": 58,
+"artist": "Shimza & JUNO",
+"title": "Killa",
+"label": ""
+},
+{
+"minute": 63,
+"artist": "Letta Mbulu",
+"title": "Nomalizo (Shimza Remix)",
+"label": "Heavenly Sweetness"
+},
+{
+"minute": 67,
+"artist": "THEMBA & Vanco",
+"title": "Yele",
+"label": "",
+"bp": "bp:29887102",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/42ccef16-5f65-4b32-aa86-851d13e02b1b.LOFI.mp3",
+"name": "YELE",
+"mix": "EXTENDED MIX",
+"genre": "afro-house",
+"released": "2026-08-07"
+},
+{
+"minute": 72,
+"artist": "Arodes & Analog Sol",
+"title": "Trinidad Dreams",
+"label": "Unreleased",
+"bp": "bp:29030111",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/13699828-8701-410a-abbb-877a5ffdf5e2.LOFI.mp3",
+"name": "Trinidad Dreams",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-06-12"
+},
+{
+"minute": 77,
+"artist": "Kitty Amor",
+"title": "In Your Eyes",
+"label": "",
+"bp": "bp:21066311",
+"score": 0.714,
+"preview": "https://geo-samples.beatport.com/track/9cf40d5b-13f2-4e3f-ae87-fb4b15a94f82.LOFI.mp3",
+"name": "Your Eyes",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2025-08-22"
+},
+{
+"minute": 82,
+"artist": "Shimza & AR/CO & Kasango",
+"title": "Fire Fire (Tefo Foxx Edit)",
+"label": ""
+},
+{
+"minute": 87,
+"artist": "Alex Wann",
+"title": "IDONE",
+"label": "Crosstown Rebels",
+"bp": "bp:28470107",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b34d7894-2081-4094-8a18-7653533f8206.LOFI.mp3",
+"name": "IDONE",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-05-08"
+},
+{
+"minute": 92,
+"artist": "NAAK & Thami The Unknown & Sibu Manzini",
+"title": "Bangathini",
+"label": "Platoon",
+"bp": "bp:29375149",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/925b1369-e240-41ea-91da-7d3c8fc4557b.LOFI.mp3",
+"name": "Bangathini",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-06-26"
+},
+{
+"minute": 97,
+"artist": "Raise",
+"title": "Lost (Manoo Remix)",
+"label": "Rythmica",
+"bp": "bp:29259657",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a7547d20-2052-4ca6-a12c-0334af4f5090.LOFI.mp3",
+"name": "Lost",
+"mix": "Manoo Remix",
+"genre": "afro-house",
+"released": "2026-06-19"
+},
+{
+"minute": 103,
+"artist": "Tyla",
+"title": "CHANEL (Shimza Remix)",
+"label": "Fax"
+},
+{
+"minute": 107,
+"artist": "Darque & ZIDDO Feat. Section Five",
+"title": "Unembeza",
+"label": "Kunye",
+"bp": "bp:22306686",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/34e3dabe-67e9-405e-94a4-42dadc69329e.LOFI.mp3",
+"name": "Unembeza",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-11-07"
+},
+{
+"minute": 113,
+"artist": "AFROJACK & Shimza",
+"title": "Quasar",
+"label": ""
+},
+{
+"minute": 117,
+"id": null,
+"raw": "Shimza -&#160;?"
+}
+]
+}
+]
 }
