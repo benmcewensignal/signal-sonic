@@ -1,87 +1,87 @@
 {
- "charts": 72976,
- "djs": 18805,
- "djs_with_30_plus_tracks": 7594,
- "djs_already_from_tracklists": 359,
- "track_entries": 1155650,
- "distinct_tracks": 417252,
- "in_corpus": 35951,
+ "charts": 73048,
+ "djs": 18817,
+ "djs_with_30_plus_tracks": 7599,
+ "djs_already_from_tracklists": 719,
+ "track_entries": 1156614,
+ "distinct_tracks": 417541,
+ "in_corpus": 39471,
  "genres": [
   [
    "house",
-   104888
+   105025
   ],
   [
    "melodic-house-techno",
-   104148
+   104224
   ],
   [
    "tech-house",
-   102509
+   102600
   ],
   [
    "afro-house",
-   74572
+   74579
   ],
   [
    "progressive-house",
-   70550
+   70618
   ],
   [
    "techno-peak-time-driving",
-   65415
+   65500
   ],
   [
    "trance-main-floor",
-   52934
+   53020
   ],
   [
    "deep-house",
-   51899
+   51960
   ],
   [
    "minimal-deep-tech",
-   48330
+   48372
   ],
   [
    "techno-raw-deep-hypnotic",
-   45665
+   45710
   ],
   [
    "indie-tech",
-   42829
+   42868
   ],
   [
    "indie-dance",
-   38773
+   38791
   ],
   [
    "organic-house",
-   33073
+   33077
   ],
   [
    "drum-bass",
-   32832
+   32833
   ],
   [
    "dance-pop",
-   29755
+   29769
   ],
   [
    "psy-trance",
-   24224
+   24248
   ],
   [
    "mainstage",
-   19909
+   19916
   ],
   [
    "electronica",
-   17314
+   17319
   ],
   [
    "hard-techno",
-   16301
+   16326
   ],
   [
    "jackin-house",
@@ -89,23 +89,23 @@
   ],
   [
    "breaks-breakbeat-uk-bass",
-   15677
+   15682
   ],
   [
    "hard-dance-hardcore-neo-rave",
-   15473
+   15491
   ],
   [
    "uk-garage-bassline",
-   14823
+   14874
   ],
   [
    "nu-disco-disco",
-   13245
+   13249
   ],
   [
    "bass-house",
-   11084
+   11110
   ]
  ],
  "sample_fields": [
