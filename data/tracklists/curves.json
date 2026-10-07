@@ -26259,6 +26259,28 @@
    "slopes": {}
   },
   {
+   "dj": "AGENT K",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Aggresivnes",
    "sets_total": 0,
    "sets_timed": 0,
@@ -35937,6 +35959,49 @@
    }
   },
   {
+   "dj": "Aldo Cadiz",
+   "sets_total": 2,
+   "sets_timed": 0,
+   "records_other_version": 25,
+   "by_format": {},
+   "profile": {
+    "entries": 32,
+    "own_share": 0.125,
+    "genres": [
+     [
+      "house",
+      0.483
+     ],
+     [
+      "jackin-house",
+      0.241
+     ],
+     [
+      "nu-disco-disco",
+      0.103
+     ],
+     [
+      "deep-house",
+      0.103
+     ],
+     [
+      "tech-house",
+      0.069
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 4,
+    "median_days_after_release": 214,
+    "share_within_90_days": 0.25
+   },
+   "matched": 29,
+   "in_charts": 2,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Aldor",
    "sets_total": 0,
    "sets_timed": 0,
@@ -43593,6 +43658,58 @@
    },
    "matched": 0,
    "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Allen Watts",
+   "sets_total": 11,
+   "sets_timed": 8,
+   "records_other_version": 153,
+   "by_format": {},
+   "profile": {
+    "entries": 255,
+    "own_share": 0.196,
+    "genres": [
+     [
+      "trance-main-floor",
+      0.789
+     ],
+     [
+      "dance-pop",
+      0.05
+     ],
+     [
+      "psy-trance",
+      0.05
+     ],
+     [
+      "mainstage",
+      0.045
+     ],
+     [
+      "melodic-house-techno",
+      0.03
+     ]
+    ],
+    "signatures": [
+     [
+      5,
+      "Allen Watts \u2013 Set Me Free"
+     ],
+     [
+      4,
+      "DJ Kim \u2013 Jetlag (Ben Gold & Allen Watts Remix)"
+     ]
+    ],
+    "release_dates": 23,
+    "median_days_after_release": 76,
+    "share_within_90_days": 0.609
+   },
+   "matched": 186,
+   "in_charts": 7,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -112720,6 +112837,28 @@
    "slopes": {}
   },
   {
+   "dj": "Andy Belak",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Andy C",
    "sets_total": 1,
    "sets_timed": 0,
@@ -119389,6 +119528,28 @@
   },
   {
    "dj": "Ariel Music",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Armendariz",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -126465,6 +126626,28 @@
    }
   },
   {
+   "dj": "Arthur Davidson",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "ARUHTRA",
    "sets_total": 0,
    "sets_timed": 0,
@@ -129250,6 +129433,49 @@
    },
    "matched": 0,
    "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Avi Sic",
+   "sets_total": 2,
+   "sets_timed": 1,
+   "records_other_version": 18,
+   "by_format": {},
+   "profile": {
+    "entries": 43,
+    "own_share": 0.093,
+    "genres": [
+     [
+      "tech-house",
+      0.257
+     ],
+     [
+      "dance-pop",
+      0.229
+     ],
+     [
+      "bass-house",
+      0.171
+     ],
+     [
+      "indie-tech",
+      0.086
+     ],
+     [
+      "house",
+      0.057
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 12,
+    "median_days_after_release": 19,
+    "share_within_90_days": 0.667
+   },
+   "matched": 35,
+   "in_charts": 5,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -149561,6 +149787,28 @@
   },
   {
    "dj": "Blanka Mazimela",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Blaqq&Why'd",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -177542,6 +177790,28 @@
    "slopes": {}
   },
   {
+   "dj": "CANVI",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Carl Cox",
    "sets_total": 20,
    "sets_timed": 18,
@@ -187706,6 +187976,28 @@
    },
    "matched": 36,
    "in_charts": 13,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Cause4Concern",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -243531,6 +243823,28 @@
    }
   },
   {
+   "dj": "dan sherman",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Dan Tanev",
    "sets_total": 0,
    "sets_timed": 0,
@@ -243622,6 +243936,49 @@
    },
    "matched": 0,
    "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Danny Faber",
+   "sets_total": 2,
+   "sets_timed": 0,
+   "records_other_version": 14,
+   "by_format": {},
+   "profile": {
+    "entries": 18,
+    "own_share": 0.0,
+    "genres": [
+     [
+      "indie-dance",
+      0.412
+     ],
+     [
+      "organic-house",
+      0.176
+     ],
+     [
+      "deep-house",
+      0.118
+     ],
+     [
+      "melodic-house-techno",
+      0.118
+     ],
+     [
+      "tech-house",
+      0.118
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 2,
+    "median_days_after_release": 12,
+    "share_within_90_days": 1.0
+   },
+   "matched": 17,
+   "in_charts": 3,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -247428,6 +247785,71 @@
    },
    "matched": 0,
    "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Dejan (SE)",
+   "sets_total": 1,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Demuir",
+   "sets_total": 6,
+   "sets_timed": 1,
+   "records_other_version": 89,
+   "by_format": {},
+   "profile": {
+    "entries": 148,
+    "own_share": 0.209,
+    "genres": [
+     [
+      "house",
+      0.204
+     ],
+     [
+      "jackin-house",
+      0.175
+     ],
+     [
+      "drum-bass",
+      0.155
+     ],
+     [
+      "tech-house",
+      0.068
+     ],
+     [
+      "deep-house",
+      0.068
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 8,
+    "median_days_after_release": 112,
+    "share_within_90_days": 0.5
+   },
+   "matched": 100,
+   "in_charts": 2,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -259121,11 +259543,11 @@
    "dj": "DIM3NSION",
    "sets_total": 4,
    "sets_timed": 1,
-   "records_other_version": 10,
+   "records_other_version": 0,
    "by_format": {
     "all": {
      "sets_used": 4,
-     "records_measured": 248,
+     "records_measured": 258,
      "curves": {
       "tempo": {
        "mean": [
@@ -259136,9 +259558,9 @@
         130.684,
         132.275,
         136.7,
-        132.3154,
-        134.1686,
-        142.7621
+        132.3509,
+        136.7553,
+        141.6268
        ],
        "lo": [
         131.0206,
@@ -259148,9 +259570,9 @@
         123.3281,
         124.6822,
         128.7198,
-        125.8937,
-        131.4402,
-        136.9383
+        125.9387,
+        130.4724,
+        134.7269
        ],
        "hi": [
         131.4739,
@@ -259160,9 +259582,9 @@
         138.0399,
         139.8678,
         144.6802,
-        138.7372,
-        136.897,
-        148.5859
+        138.7632,
+        143.0382,
+        148.5267
        ],
        "sets": [
         [
@@ -259209,9 +259631,9 @@
          135.728,
          141.9161,
          143.623,
-         131.3313,
-         null,
-         142.4828
+         131.4733,
+         144.5154,
+         139.077
         ]
        ]
       },
@@ -259225,7 +259647,7 @@
         0.9782,
         0.9993,
         1.0,
-        0.9849,
+        0.9887,
         0.9988
        ],
        "lo": [
@@ -259237,7 +259659,7 @@
         0.932,
         0.9975,
         1.0,
-        0.941,
+        0.9621,
         0.9952
        ],
        "hi": [
@@ -259249,7 +259671,7 @@
         1.0245,
         1.001,
         1.0,
-        1.0289,
+        1.0153,
         1.0023
        ],
        "sets": [
@@ -259298,7 +259720,7 @@
          0.9935,
          0.997,
          1.0,
-         null,
+         1.0,
          1.0
         ]
        ]
@@ -259312,9 +259734,9 @@
         -12.8802,
         -13.3911,
         -14.348,
-        -13.071,
-        -13.0194,
-        -12.6938
+        -13.0844,
+        -12.8943,
+        -13.5926
        ],
        "lo": [
         -15.2483,
@@ -259324,9 +259746,9 @@
         -14.4871,
         -14.3541,
         -16.5812,
-        -13.8767,
-        -13.7336,
-        -14.0155
+        -13.8795,
+        -13.3966,
+        -15.9408
        ],
        "hi": [
         -12.4404,
@@ -259336,9 +259758,9 @@
         -11.2733,
         -12.4281,
         -12.1148,
-        -12.2654,
-        -12.3052,
-        -11.3721
+        -12.2893,
+        -12.392,
+        -11.2444
        ],
        "sets": [
         [
@@ -259385,9 +259807,9 @@
          -13.9723,
          -13.5835,
          -13.8261,
-         -12.7099,
-         null,
-         -12.2866
+         -12.7635,
+         -12.5192,
+         -14.983
         ]
        ]
       },
@@ -259400,9 +259822,9 @@
         0.7224,
         0.6695,
         0.6493,
-        0.7826,
-        0.6779,
-        0.663
+        0.7782,
+        0.6617,
+        0.5991
        ],
        "lo": [
         0.5725,
@@ -259412,9 +259834,9 @@
         0.6045,
         0.5644,
         0.506,
-        0.5739,
-        0.6379,
-        0.5873
+        0.5674,
+        0.6171,
+        0.3796
        ],
        "hi": [
         0.6792,
@@ -259424,9 +259846,9 @@
         0.8403,
         0.7746,
         0.7927,
-        0.9913,
-        0.718,
-        0.7387
+        0.989,
+        0.7062,
+        0.8186
        ],
        "sets": [
         [
@@ -259473,9 +259895,9 @@
          0.6884,
          0.6283,
          0.5654,
-         0.7354,
-         null,
-         0.649
+         0.7177,
+         0.6128,
+         0.4573
         ]
        ]
       },
@@ -259488,9 +259910,9 @@
         0.3209,
         0.4,
         0.3669,
-        0.2811,
-        0.3779,
-        0.3503
+        0.2793,
+        0.3652,
+        0.3534
        ],
        "lo": [
         0.2106,
@@ -259500,9 +259922,9 @@
         0.1393,
         0.3212,
         0.2494,
-        0.2101,
-        0.3073,
-        0.3355
+        0.2072,
+        0.3151,
+        0.3461
        ],
        "hi": [
         0.5415,
@@ -259512,9 +259934,9 @@
         0.5024,
         0.4788,
         0.4845,
-        0.352,
-        0.4486,
-        0.3652
+        0.3514,
+        0.4154,
+        0.3607
        ],
        "sets": [
         [
@@ -259561,9 +259983,9 @@
          0.2604,
          0.3137,
          0.4014,
-         0.2576,
-         null,
-         0.3409
+         0.2505,
+         0.3271,
+         0.3501
         ]
        ]
       }
@@ -259578,9 +260000,9 @@
         0.1853,
         1.7763,
         6.2013,
-        1.8167,
-        3.9285,
-        11.5148
+        1.8522,
+        6.2565,
+        10.3796
        ],
        "lo": [
         0.0,
@@ -259590,9 +260012,9 @@
         -6.498,
         -5.5322,
         -1.0524,
-        -4.934,
-        -0.901,
-        5.9105
+        -4.8819,
+        0.1254,
+        3.644
        ],
        "hi": [
         0.0,
@@ -259602,9 +260024,9 @@
         6.8686,
         9.0848,
         13.455,
-        8.5674,
-        8.7581,
-        17.1192
+        8.5863,
+        12.3877,
+        17.1151
        ],
        "sets": [
         [
@@ -259651,9 +260073,9 @@
          4.4532,
          10.6413,
          12.3482,
-         0.0564,
-         null,
-         11.208
+         0.1985,
+         13.2406,
+         7.8022
         ]
        ]
       },
@@ -259667,7 +260089,7 @@
         -0.0051,
         0.0159,
         0.0166,
-        0.0071,
+        0.0053,
         0.021
        ],
        "lo": [
@@ -259679,7 +260101,7 @@
         -0.013,
         -0.0239,
         -0.0225,
-        -0.0137,
+        -0.0072,
         -0.0456
        ],
        "hi": [
@@ -259691,7 +260113,7 @@
         0.0027,
         0.0556,
         0.0558,
-        0.0279,
+        0.0179,
         0.0875
        ],
        "sets": [
@@ -259740,7 +260162,7 @@
          -0.0065,
          -0.003,
          0.0,
-         null,
+         0.0,
          0.0
         ]
        ]
@@ -259754,9 +260176,9 @@
         1.0438,
         0.5328,
         -0.4241,
-        0.8529,
-        0.6165,
-        1.1505
+        0.8395,
+        1.0296,
+        0.2517
        ],
        "lo": [
         0.0,
@@ -259766,9 +260188,9 @@
         -0.6539,
         -0.2528,
         -2.4809,
-        -0.2798,
-        0.5076,
-        -1.022
+        -0.2666,
+        0.0555,
+        -0.8686
        ],
        "hi": [
         0.0,
@@ -259778,9 +260200,9 @@
         2.7414,
         1.3184,
         1.6328,
-        1.9856,
-        0.7254,
-        3.323
+        1.9456,
+        2.0037,
+        1.372
        ],
        "sets": [
         [
@@ -259827,9 +260249,9 @@
          0.8157,
          1.2045,
          0.9619,
-         2.0781,
-         null,
-         2.5014
+         2.0245,
+         2.2689,
+         -0.1949
         ]
        ]
       },
@@ -259842,9 +260264,9 @@
         0.1539,
         0.101,
         0.0809,
-        0.2141,
-        0.1338,
-        0.0371
+        0.2097,
+        0.0932,
+        -0.0268
        ],
        "lo": [
         0.0,
@@ -259854,9 +260276,9 @@
         -0.101,
         -0.1404,
         -0.1944,
-        -0.1246,
-        -0.1254,
-        -0.0914
+        -0.132,
+        -0.0829,
+        -0.2867
        ],
        "hi": [
         0.0,
@@ -259866,9 +260288,9 @@
         0.4089,
         0.3423,
         0.3561,
-        0.5528,
-        0.3931,
-        0.1657
+        0.5515,
+        0.2692,
+        0.2332
        ],
        "sets": [
         [
@@ -259915,9 +260337,9 @@
          0.0467,
          -0.0134,
          -0.0763,
-         0.0938,
-         null,
-         0.0073
+         0.076,
+         -0.0288,
+         -0.1844
         ]
        ]
       },
@@ -259930,9 +260352,9 @@
         -0.0743,
         0.0048,
         -0.0282,
-        -0.1141,
-        -0.0604,
-        -0.0257
+        -0.1159,
+        -0.0299,
+        -0.0227
        ],
        "lo": [
         0.0,
@@ -259942,9 +260364,9 @@
         -0.2675,
         -0.0567,
         -0.2036,
-        -0.2347,
-        -0.1286,
-        -0.1792
+        -0.2336,
+        -0.1115,
+        -0.1848
        ],
        "hi": [
         0.0,
@@ -259954,9 +260376,9 @@
         0.1189,
         0.0664,
         0.1472,
-        0.0065,
-        0.0079,
-        0.1277
+        0.0019,
+        0.0516,
+        0.1394
        ],
        "sets": [
         [
@@ -260003,42 +260425,42 @@
          -0.0053,
          0.048,
          0.1358,
-         -0.008,
-         null,
-         0.0752
+         -0.0151,
+         0.0615,
+         0.0844
         ]
        ]
       }
      },
      "slopes": {
       "tempo": {
-       "start_to_end": 10.3698,
-       "lo": 4.2621,
-       "hi": 16.4774,
+       "start_to_end": 10.0481,
+       "lo": 4.5236,
+       "hi": 15.5727,
        "sets": 4
       },
       "bass_weight": {
-       "start_to_end": 0.0033,
-       "lo": -0.0096,
+       "start_to_end": 0.004,
+       "lo": -0.0081,
        "hi": 0.0162,
        "sets": 4
       },
       "loudness": {
-       "start_to_end": 0.1294,
-       "lo": -0.9046,
-       "hi": 1.1635,
+       "start_to_end": -0.0428,
+       "lo": -0.896,
+       "hi": 0.8104,
        "sets": 4
       },
       "drum_density": {
-       "start_to_end": 0.1843,
-       "lo": -0.1318,
-       "hi": 0.5003,
+       "start_to_end": 0.1624,
+       "lo": -0.1774,
+       "hi": 0.5021,
        "sets": 4
       },
       "vocal_presence": {
-       "start_to_end": -0.0358,
-       "lo": -0.1512,
-       "hi": 0.0795,
+       "start_to_end": -0.036,
+       "lo": -0.1511,
+       "hi": 0.0791,
        "sets": 4
       }
      },
@@ -260051,7 +260473,7 @@
     },
     "radio": {
      "sets_used": 3,
-     "records_measured": 237,
+     "records_measured": 247,
      "curves": {
       "tempo": {
        "mean": [
@@ -260062,9 +260484,9 @@
         132.0009,
         133.1116,
         138.2163,
-        132.3689,
-        133.7967,
-        142.7621
+        132.4163,
+        137.3696,
+        141.6268
        ],
        "lo": [
         131.0206,
@@ -260074,9 +260496,9 @@
         120.2948,
         120.2441,
         125.6912,
-        121.1028,
-        124.4226,
-        136.9383
+        121.1678,
+        126.6408,
+        134.7269
        ],
        "hi": [
         131.4739,
@@ -260086,9 +260508,9 @@
         143.707,
         145.9791,
         150.7414,
-        143.6351,
-        143.1709,
-        148.5859
+        143.6647,
+        148.0985,
+        148.5267
        ],
        "sets": [
         [
@@ -260123,9 +260545,9 @@
          135.728,
          141.9161,
          143.623,
-         131.3313,
-         null,
-         142.4828
+         131.4733,
+         144.5154,
+         139.077
         ]
        ]
       },
@@ -260139,7 +260561,7 @@
         0.971,
         0.999,
         1.0,
-        0.9774,
+        0.9849,
         0.9988
        ],
        "lo": [
@@ -260151,7 +260573,7 @@
         0.8955,
         0.9961,
         1.0,
-        0.8349,
+        0.941,
         0.9952
        ],
        "hi": [
@@ -260163,7 +260585,7 @@
         1.0465,
         1.0019,
         1.0,
-        1.12,
+        1.0289,
         1.0023
        ],
        "sets": [
@@ -260200,7 +260622,7 @@
          0.9935,
          0.997,
          1.0,
-         null,
+         1.0,
          1.0
         ]
        ]
@@ -260214,9 +260636,9 @@
         -13.4625,
         -13.0357,
         -13.4158,
-        -12.9372,
-        -12.7933,
-        -12.6938
+        -12.9551,
+        -12.7019,
+        -13.5926
        ],
        "lo": [
         -15.2483,
@@ -260226,9 +260648,9 @@
         -14.935,
         -13.8734,
         -14.1493,
-        -14.2384,
-        -13.8132,
-        -14.0155
+        -14.244,
+        -13.0831,
+        -15.9408
        ],
        "hi": [
         -12.4404,
@@ -260238,9 +260660,9 @@
         -11.99,
         -12.198,
         -12.6823,
-        -11.636,
-        -11.7733,
-        -11.3721
+        -11.6662,
+        -12.3207,
+        -11.2444
        ],
        "sets": [
         [
@@ -260275,9 +260697,9 @@
          -13.9723,
          -13.5835,
          -13.8261,
-         -12.7099,
-         null,
-         -12.2866
+         -12.7635,
+         -12.5192,
+         -14.983
         ]
        ]
       },
@@ -260290,9 +260712,9 @@
         0.6744,
         0.6294,
         0.6009,
-        0.7102,
-        0.6643,
-        0.663
+        0.7043,
+        0.6471,
+        0.5991
        ],
        "lo": [
         0.5725,
@@ -260302,9 +260724,9 @@
         0.6148,
         0.5483,
         0.4485,
-        0.499,
-        0.6483,
-        0.5873
+        0.4954,
+        0.5969,
+        0.3796
        ],
        "hi": [
         0.6792,
@@ -260314,9 +260736,9 @@
         0.734,
         0.7104,
         0.7532,
-        0.9213,
-        0.6803,
-        0.7387
+        0.9131,
+        0.6974,
+        0.8186
        ],
        "sets": [
         [
@@ -260351,9 +260773,9 @@
          0.6884,
          0.6283,
          0.5654,
-         0.7354,
-         null,
-         0.649
+         0.7177,
+         0.6128,
+         0.4573
         ]
        ]
       },
@@ -260366,9 +260788,9 @@
         0.3837,
         0.4059,
         0.4128,
-        0.3049,
-        0.3936,
-        0.3503
+        0.3025,
+        0.3714,
+        0.3534
        ],
        "lo": [
         0.2106,
@@ -260378,9 +260800,9 @@
         0.199,
         0.2698,
         0.3315,
-        0.2286,
-        0.1913,
-        0.3355
+        0.2199,
+        0.2871,
+        0.3461
        ],
        "hi": [
         0.5415,
@@ -260390,9 +260812,9 @@
         0.5684,
         0.542,
         0.4941,
-        0.3812,
-        0.5958,
-        0.3652
+        0.3851,
+        0.4557,
+        0.3607
        ],
        "sets": [
         [
@@ -260427,9 +260849,9 @@
          0.2604,
          0.3137,
          0.4014,
-         0.2576,
-         null,
-         0.3409
+         0.2505,
+         0.3271,
+         0.3501
         ]
        ]
       }
@@ -260444,9 +260866,9 @@
         0.7536,
         1.8644,
         6.969,
-        1.1217,
-        2.5633,
-        11.5148
+        1.169,
+        6.1224,
+        10.3796
        ],
        "lo": [
         0.0,
@@ -260456,9 +260878,9 @@
         -10.7364,
         -10.9548,
         -5.358,
-        -10.371,
-        -7.6464,
-        5.9105
+        -10.3058,
+        -4.6218,
+        3.644
        ],
        "hi": [
         0.0,
@@ -260468,9 +260890,9 @@
         12.2437,
         14.6836,
         19.296,
-        12.6143,
-        12.7729,
-        17.1192
+        12.6438,
+        16.8665,
+        17.1151
        ],
        "sets": [
         [
@@ -260505,9 +260927,9 @@
          4.4532,
          10.6413,
          12.3482,
-         0.0564,
-         null,
-         11.208
+         0.1985,
+         13.2406,
+         7.8022
         ]
        ]
       },
@@ -260521,7 +260943,7 @@
         -0.0068,
         0.0212,
         0.0222,
-        0.0107,
+        0.0071,
         0.021
        ],
        "lo": [
@@ -260533,7 +260955,7 @@
         -0.0187,
         -0.0451,
         -0.0426,
-        -0.0567,
+        -0.0137,
         -0.0456
        ],
        "hi": [
@@ -260545,7 +260967,7 @@
         0.005,
         0.0874,
         0.0869,
-        0.0781,
+        0.0279,
         0.0875
        ],
        "sets": [
@@ -260582,7 +261004,7 @@
          -0.0065,
          -0.003,
          0.0,
-         null,
+         0.0,
          0.0
         ]
        ]
@@ -260596,9 +261018,9 @@
         0.3819,
         0.8086,
         0.4285,
-        0.9071,
-        0.5792,
-        1.1505
+        0.8893,
+        1.1425,
+        0.2517
        ],
        "lo": [
         0.0,
@@ -260608,9 +261030,9 @@
         -0.8027,
         0.0321,
         -0.3652,
-        -1.0678,
-        0.5687,
-        -1.022
+        -1.0407,
+        -0.5021,
+        -0.8686
        ],
        "hi": [
         0.0,
@@ -260620,9 +261042,9 @@
         1.5664,
         1.5851,
         1.2223,
-        2.8821,
-        0.5898,
-        3.323
+        2.8192,
+        2.787,
+        1.372
        ],
        "sets": [
         [
@@ -260657,9 +261079,9 @@
          0.8157,
          1.2045,
          0.9619,
-         2.0781,
-         null,
-         2.5014
+         2.0245,
+         2.2689,
+         -0.1949
         ]
        ]
       },
@@ -260672,9 +261094,9 @@
         0.0486,
         0.0035,
         -0.025,
-        0.0843,
-        0.0463,
-        0.0371
+        0.0784,
+        0.0213,
+        -0.0268
        ],
        "lo": [
         0.0,
@@ -260684,9 +261106,9 @@
         -0.0556,
         -0.1279,
         -0.2305,
-        -0.1721,
-        -0.1177,
-        -0.0914
+        -0.1776,
+        -0.064,
+        -0.2867
        ],
        "hi": [
         0.0,
@@ -260696,9 +261118,9 @@
         0.1527,
         0.1349,
         0.1805,
-        0.3407,
-        0.2104,
-        0.1657
+        0.3344,
+        0.1065,
+        0.2332
        ],
        "sets": [
         [
@@ -260733,9 +261155,9 @@
          0.0467,
          -0.0134,
          -0.0763,
-         0.0938,
-         null,
-         0.0073
+         0.076,
+         -0.0288,
+         -0.1844
         ]
        ]
       },
@@ -260748,9 +261170,9 @@
         0.0077,
         0.0298,
         0.0368,
-        -0.0712,
-        -0.0377,
-        -0.0257
+        -0.0735,
+        -0.0046,
+        -0.0227
        ],
        "lo": [
         0.0,
@@ -260760,9 +261182,9 @@
         -0.0116,
         -0.0018,
         -0.1138,
-        -0.1869,
-        -0.1001,
-        -0.1792
+        -0.1839,
+        -0.1026,
+        -0.1848
        ],
        "hi": [
         0.0,
@@ -260772,9 +261194,9 @@
         0.0269,
         0.0615,
         0.1873,
-        0.0446,
-        0.0247,
-        0.1277
+        0.0368,
+        0.0933,
+        0.1394
        ],
        "sets": [
         [
@@ -260809,42 +261231,42 @@
          -0.0053,
          0.048,
          0.1358,
-         -0.008,
-         null,
-         0.0752
+         -0.0151,
+         0.0615,
+         0.0844
         ]
        ]
       }
      },
      "slopes": {
       "tempo": {
-       "start_to_end": 10.8471,
-       "lo": 0.3127,
-       "hi": 21.3815,
+       "start_to_end": 10.4183,
+       "lo": 0.8455,
+       "hi": 19.9911,
        "sets": 3
       },
       "bass_weight": {
-       "start_to_end": 0.0044,
-       "lo": -0.0178,
-       "hi": 0.0266,
+       "start_to_end": 0.0054,
+       "lo": -0.0151,
+       "hi": 0.0259,
        "sets": 3
       },
       "loudness": {
-       "start_to_end": 0.3189,
-       "lo": -1.3181,
-       "hi": 1.956,
+       "start_to_end": 0.0893,
+       "lo": -1.3049,
+       "hi": 1.4835,
        "sets": 3
       },
       "drum_density": {
-       "start_to_end": 0.0589,
-       "lo": -0.1396,
-       "hi": 0.2573,
+       "start_to_end": 0.0296,
+       "lo": -0.205,
+       "hi": 0.2642,
        "sets": 3
       },
       "vocal_presence": {
-       "start_to_end": 0.0059,
-       "lo": -0.1001,
-       "hi": 0.112,
+       "start_to_end": 0.0057,
+       "lo": -0.0998,
+       "hi": 0.1113,
        "sets": 3
       }
      },
@@ -260893,7 +261315,7 @@
    "matched": 248,
    "in_charts": 21,
    "sets_used": 4,
-   "records_measured": 248,
+   "records_measured": 258,
    "curves": {
     "tempo": {
      "mean": [
@@ -260904,9 +261326,9 @@
       130.684,
       132.275,
       136.7,
-      132.3154,
-      134.1686,
-      142.7621
+      132.3509,
+      136.7553,
+      141.6268
      ],
      "lo": [
       131.0206,
@@ -260916,9 +261338,9 @@
       123.3281,
       124.6822,
       128.7198,
-      125.8937,
-      131.4402,
-      136.9383
+      125.9387,
+      130.4724,
+      134.7269
      ],
      "hi": [
       131.4739,
@@ -260928,9 +261350,9 @@
       138.0399,
       139.8678,
       144.6802,
-      138.7372,
-      136.897,
-      148.5859
+      138.7632,
+      143.0382,
+      148.5267
      ],
      "sets": [
       [
@@ -260977,9 +261399,9 @@
        135.728,
        141.9161,
        143.623,
-       131.3313,
-       null,
-       142.4828
+       131.4733,
+       144.5154,
+       139.077
       ]
      ]
     },
@@ -260993,7 +261415,7 @@
       0.9782,
       0.9993,
       1.0,
-      0.9849,
+      0.9887,
       0.9988
      ],
      "lo": [
@@ -261005,7 +261427,7 @@
       0.932,
       0.9975,
       1.0,
-      0.941,
+      0.9621,
       0.9952
      ],
      "hi": [
@@ -261017,7 +261439,7 @@
       1.0245,
       1.001,
       1.0,
-      1.0289,
+      1.0153,
       1.0023
      ],
      "sets": [
@@ -261066,7 +261488,7 @@
        0.9935,
        0.997,
        1.0,
-       null,
+       1.0,
        1.0
       ]
      ]
@@ -261080,9 +261502,9 @@
       -12.8802,
       -13.3911,
       -14.348,
-      -13.071,
-      -13.0194,
-      -12.6938
+      -13.0844,
+      -12.8943,
+      -13.5926
      ],
      "lo": [
       -15.2483,
@@ -261092,9 +261514,9 @@
       -14.4871,
       -14.3541,
       -16.5812,
-      -13.8767,
-      -13.7336,
-      -14.0155
+      -13.8795,
+      -13.3966,
+      -15.9408
      ],
      "hi": [
       -12.4404,
@@ -261104,9 +261526,9 @@
       -11.2733,
       -12.4281,
       -12.1148,
-      -12.2654,
-      -12.3052,
-      -11.3721
+      -12.2893,
+      -12.392,
+      -11.2444
      ],
      "sets": [
       [
@@ -261153,9 +261575,9 @@
        -13.9723,
        -13.5835,
        -13.8261,
-       -12.7099,
-       null,
-       -12.2866
+       -12.7635,
+       -12.5192,
+       -14.983
       ]
      ]
     },
@@ -261168,9 +261590,9 @@
       0.7224,
       0.6695,
       0.6493,
-      0.7826,
-      0.6779,
-      0.663
+      0.7782,
+      0.6617,
+      0.5991
      ],
      "lo": [
       0.5725,
@@ -261180,9 +261602,9 @@
       0.6045,
       0.5644,
       0.506,
-      0.5739,
-      0.6379,
-      0.5873
+      0.5674,
+      0.6171,
+      0.3796
      ],
      "hi": [
       0.6792,
@@ -261192,9 +261614,9 @@
       0.8403,
       0.7746,
       0.7927,
-      0.9913,
-      0.718,
-      0.7387
+      0.989,
+      0.7062,
+      0.8186
      ],
      "sets": [
       [
@@ -261241,9 +261663,9 @@
        0.6884,
        0.6283,
        0.5654,
-       0.7354,
-       null,
-       0.649
+       0.7177,
+       0.6128,
+       0.4573
       ]
      ]
     },
@@ -261256,9 +261678,9 @@
       0.3209,
       0.4,
       0.3669,
-      0.2811,
-      0.3779,
-      0.3503
+      0.2793,
+      0.3652,
+      0.3534
      ],
      "lo": [
       0.2106,
@@ -261268,9 +261690,9 @@
       0.1393,
       0.3212,
       0.2494,
-      0.2101,
-      0.3073,
-      0.3355
+      0.2072,
+      0.3151,
+      0.3461
      ],
      "hi": [
       0.5415,
@@ -261280,9 +261702,9 @@
       0.5024,
       0.4788,
       0.4845,
-      0.352,
-      0.4486,
-      0.3652
+      0.3514,
+      0.4154,
+      0.3607
      ],
      "sets": [
       [
@@ -261329,42 +261751,42 @@
        0.2604,
        0.3137,
        0.4014,
-       0.2576,
-       null,
-       0.3409
+       0.2505,
+       0.3271,
+       0.3501
       ]
      ]
     }
    },
    "slopes": {
     "tempo": {
-     "start_to_end": 10.3698,
-     "lo": 4.2621,
-     "hi": 16.4774,
+     "start_to_end": 10.0481,
+     "lo": 4.5236,
+     "hi": 15.5727,
      "sets": 4
     },
     "bass_weight": {
-     "start_to_end": 0.0033,
-     "lo": -0.0096,
+     "start_to_end": 0.004,
+     "lo": -0.0081,
      "hi": 0.0162,
      "sets": 4
     },
     "loudness": {
-     "start_to_end": 0.1294,
-     "lo": -0.9046,
-     "hi": 1.1635,
+     "start_to_end": -0.0428,
+     "lo": -0.896,
+     "hi": 0.8104,
      "sets": 4
     },
     "drum_density": {
-     "start_to_end": 0.1843,
-     "lo": -0.1318,
-     "hi": 0.5003,
+     "start_to_end": 0.1624,
+     "lo": -0.1774,
+     "hi": 0.5021,
      "sets": 4
     },
     "vocal_presence": {
-     "start_to_end": -0.0358,
-     "lo": -0.1512,
-     "hi": 0.0795,
+     "start_to_end": -0.036,
+     "lo": -0.1511,
+     "hi": 0.0791,
      "sets": 4
     }
    }
@@ -261415,6 +261837,28 @@
   },
   {
    "dj": "DIMO",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Discotron",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -264215,7 +264659,51 @@
    "slopes": {}
   },
   {
+   "dj": "DJ CHUS",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "DJ Colin Gaff",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Dj  Dukster",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -282499,6 +282987,28 @@
    "slopes": {}
   },
   {
+   "dj": "Dub Legacy",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Dub Maestro",
    "sets_total": 0,
    "sets_timed": 0,
@@ -297047,7 +297557,51 @@
    }
   },
   {
+   "dj": "eescobedo",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "efan",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Ego (COL)",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -297145,6 +297699,28 @@
    },
    "matched": 18,
    "in_charts": 16,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "electrospr",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -371125,6 +371701,28 @@
    }
   },
   {
+   "dj": "Funktastik",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Funky Blackman",
    "sets_total": 0,
    "sets_timed": 0,
@@ -371252,6 +371850,28 @@
    "slopes": {}
   },
   {
+   "dj": "Garrett Pedicini",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Gassan",
    "sets_total": 0,
    "sets_timed": 0,
@@ -371342,6 +371962,28 @@
   {
    "dj": "Gerard FM",
    "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "German Brigante",
+   "sets_total": 1,
    "sets_timed": 0,
    "records_other_version": 0,
    "by_format": {},
@@ -429132,6 +429774,49 @@
    "slopes": {}
   },
   {
+   "dj": "Husky",
+   "sets_total": 2,
+   "sets_timed": 1,
+   "records_other_version": 13,
+   "by_format": {},
+   "profile": {
+    "entries": 38,
+    "own_share": 0.184,
+    "genres": [
+     [
+      "house",
+      0.6
+     ],
+     [
+      "nu-disco-disco",
+      0.171
+     ],
+     [
+      "deep-house",
+      0.114
+     ],
+     [
+      "dance-pop",
+      0.057
+     ],
+     [
+      "indie-dance",
+      0.029
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 17,
+    "median_days_after_release": 35,
+    "share_within_90_days": 0.765
+   },
+   "matched": 32,
+   "in_charts": 1,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Huxley",
    "sets_total": 9,
    "sets_timed": 2,
@@ -465315,6 +466000,28 @@
     "share_within_90_days": 0.571
    },
    "matched": 9,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Jazzmik",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
    "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
@@ -508337,6 +509044,28 @@
    "slopes": {}
   },
   {
+   "dj": "Jourdan Bordes",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Joy Orbison",
    "sets_total": 18,
    "sets_timed": 2,
@@ -527551,6 +528280,28 @@
   {
    "dj": "Justin Tinderdate",
    "sets_total": 6,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "justkrob",
+   "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
    "by_format": {},
@@ -560393,6 +561144,28 @@
    "slopes": {}
   },
   {
+   "dj": "Kirk",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Kitty Amor",
    "sets_total": 7,
    "sets_timed": 3,
@@ -571944,6 +572717,49 @@
    },
    "matched": 0,
    "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "L\u00dcRUM",
+   "sets_total": 3,
+   "sets_timed": 1,
+   "records_other_version": 49,
+   "by_format": {},
+   "profile": {
+    "entries": 68,
+    "own_share": 0.206,
+    "genres": [
+     [
+      "trance-main-floor",
+      0.344
+     ],
+     [
+      "melodic-house-techno",
+      0.295
+     ],
+     [
+      "progressive-house",
+      0.262
+     ],
+     [
+      "dance-pop",
+      0.033
+     ],
+     [
+      "techno-peak-time-driving",
+      0.016
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 6,
+    "median_days_after_release": 69,
+    "share_within_90_days": 1.0
+   },
+   "matched": 60,
+   "in_charts": 8,
    "sets_used": 0,
    "records_measured": 0,
    "curves": {},
@@ -662039,6 +662855,28 @@
    }
   },
   {
+   "dj": "Marasi",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Marck Frost",
    "sets_total": 0,
    "sets_timed": 0,
@@ -692632,6 +693470,28 @@
    "slopes": {}
   },
   {
+   "dj": "MARY MESK",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Maryline K",
    "sets_total": 4,
    "sets_timed": 0,
@@ -709911,6 +710771,49 @@
    }
   },
   {
+   "dj": "Matteo Dentone",
+   "sets_total": 1,
+   "sets_timed": 0,
+   "records_other_version": 9,
+   "by_format": {},
+   "profile": {
+    "entries": 15,
+    "own_share": 0.6,
+    "genres": [
+     [
+      "jackin-house",
+      0.417
+     ],
+     [
+      "indie-tech",
+      0.167
+     ],
+     [
+      "house",
+      0.167
+     ],
+     [
+      "latin",
+      0.083
+     ],
+     [
+      "tech-house",
+      0.083
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 1,
+    "median_days_after_release": 45,
+    "share_within_90_days": 1.0
+   },
+   "matched": 12,
+   "in_charts": 2,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Mattia Saviolo",
    "sets_total": 2,
    "sets_timed": 2,
@@ -715260,6 +716163,28 @@
    "slopes": {}
   },
   {
+   "dj": "MAXI MERAKI",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Maxxim",
    "sets_total": 0,
    "sets_timed": 0,
@@ -718010,6 +718935,49 @@
      "sets": 6
     }
    }
+  },
+  {
+   "dj": "Mayro",
+   "sets_total": 2,
+   "sets_timed": 2,
+   "records_other_version": 20,
+   "by_format": {},
+   "profile": {
+    "entries": 37,
+    "own_share": 0.324,
+    "genres": [
+     [
+      "progressive-house",
+      0.694
+     ],
+     [
+      "trance-raw-deep-hypnotic",
+      0.083
+     ],
+     [
+      "melodic-house-techno",
+      0.056
+     ],
+     [
+      "indie-tech",
+      0.056
+     ],
+     [
+      "techno-peak-time-driving",
+      0.028
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 9,
+    "median_days_after_release": 60,
+    "share_within_90_days": 0.556
+   },
+   "matched": 31,
+   "in_charts": 6,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Meith",
@@ -722576,6 +723544,49 @@
     "share_within_90_days": null
    },
    "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Milan Marino",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 24,
+   "by_format": {},
+   "profile": {
+    "entries": 27,
+    "own_share": 0.0,
+    "genres": [
+     [
+      "minimal-deep-tech",
+      0.458
+     ],
+     [
+      "tech-house",
+      0.333
+     ],
+     [
+      "deep-house",
+      0.125
+     ],
+     [
+      "house",
+      0.042
+     ],
+     [
+      "techno-peak-time-driving",
+      0.042
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 24,
    "in_charts": 0,
    "sets_used": 0,
    "records_measured": 0,
@@ -743552,6 +744563,28 @@
    "slopes": {}
   },
   {
+   "dj": "Moodtronic",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Mor Kessel",
    "sets_total": 0,
    "sets_timed": 0,
@@ -749064,6 +750097,28 @@
    "slopes": {}
   },
   {
+   "dj": "NAHUEL ORTIZ ACADEMY",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Najeh",
    "sets_total": 1,
    "sets_timed": 0,
@@ -749271,6 +750326,28 @@
   },
   {
    "dj": "Neverdogs",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "New Music",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -759394,6 +760471,28 @@
   },
   {
    "dj": "OFFICIALDJEFFMUSIC",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "OKEN",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -819507,6 +820606,80 @@
    }
   },
   {
+   "dj": "R3WIRE",
+   "sets_total": 3,
+   "sets_timed": 0,
+   "records_other_version": 52,
+   "by_format": {},
+   "profile": {
+    "entries": 101,
+    "own_share": 0.01,
+    "genres": [
+     [
+      "tech-house",
+      0.392
+     ],
+     [
+      "dance-pop",
+      0.139
+     ],
+     [
+      "house",
+      0.089
+     ],
+     [
+      "indie-tech",
+      0.089
+     ],
+     [
+      "techno-peak-time-driving",
+      0.089
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 22,
+    "median_days_after_release": 208,
+    "share_within_90_days": 0.273
+   },
+   "matched": 79,
+   "in_charts": 7,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "RaCmin",
+   "sets_total": 1,
+   "sets_timed": 1,
+   "records_other_version": 10,
+   "by_format": {},
+   "profile": {
+    "entries": 13,
+    "own_share": 0.0,
+    "genres": [
+     [
+      "trance-main-floor",
+      0.909
+     ],
+     [
+      "trance-raw-deep-hypnotic",
+      0.091
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 1,
+    "median_days_after_release": 4471,
+    "share_within_90_days": 0.0
+   },
+   "matched": 11,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "RAFAEL CERATO",
    "sets_total": 0,
    "sets_timed": 0,
@@ -860839,6 +862012,49 @@
    "slopes": {}
   },
   {
+   "dj": "Sagia",
+   "sets_total": 14,
+   "sets_timed": 0,
+   "records_other_version": 144,
+   "by_format": {},
+   "profile": {
+    "entries": 163,
+    "own_share": 0.08,
+    "genres": [
+     [
+      "melodic-house-techno",
+      0.391
+     ],
+     [
+      "techno-peak-time-driving",
+      0.321
+     ],
+     [
+      "progressive-house",
+      0.167
+     ],
+     [
+      "indie-dance",
+      0.032
+     ],
+     [
+      "house",
+      0.032
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 10,
+    "median_days_after_release": 24,
+    "share_within_90_days": 0.7
+   },
+   "matched": 156,
+   "in_charts": 1,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Saint Ludo",
    "sets_total": 0,
    "sets_timed": 0,
@@ -867615,6 +868831,28 @@
   },
   {
    "dj": "Samtroy",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "SANDRO BANI",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -880240,6 +881478,28 @@
   {
    "dj": "Scratcha",
    "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Scuba",
+   "sets_total": 2,
    "sets_timed": 0,
    "records_other_version": 0,
    "by_format": {},
@@ -896783,6 +898043,28 @@
    "slopes": {}
   },
   {
+   "dj": "Sol Novaro",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Solardo",
    "sets_total": 3,
    "sets_timed": 1,
@@ -911434,6 +912716,28 @@
      "sets": 5
     }
    }
+  },
+  {
+   "dj": "Spectral Sun",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Spinnage | Hideo Teramoto",
@@ -935418,6 +936722,28 @@
    "slopes": {}
   },
   {
+   "dj": "Tali Muss",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Tantrum Desire",
    "sets_total": 2,
    "sets_timed": 0,
@@ -935441,6 +936767,28 @@
   },
   {
    "dj": "Tao Andra",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Taras Zubov",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -964461,6 +965809,2697 @@
    }
   },
   {
+   "dj": "Todd Terry",
+   "sets_total": 20,
+   "sets_timed": 5,
+   "records_other_version": 205,
+   "by_format": {
+    "all": {
+     "sets_used": 5,
+     "records_measured": 54,
+     "curves": {
+      "tempo": {
+       "mean": [
+        123.6,
+        128.5507,
+        127.023,
+        127.4443,
+        146.182,
+        123.1052,
+        135.1551,
+        123.2851,
+        125.0355,
+        126.6412
+       ],
+       "lo": [
+        121.085,
+        115.2615,
+        125.016,
+        118.4242,
+        -0.2182,
+        118.7757,
+        114.2815,
+        117.2726,
+        120.4947,
+        123.9136
+       ],
+       "hi": [
+        126.115,
+        141.84,
+        129.0299,
+        136.4645,
+        292.5822,
+        127.4346,
+        156.0287,
+        129.2976,
+        129.5762,
+        129.3687
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         124.4944,
+         null,
+         null,
+         121.1453,
+         123.7306,
+         125.22,
+         null,
+         125.0524
+        ],
+        [
+         123.3667,
+         130.6556,
+         127.9287,
+         null,
+         169.3695,
+         null,
+         174.2695,
+         124.4944,
+         121.9906,
+         124.6841
+        ],
+        [
+         125.1947,
+         null,
+         128.1477,
+         null,
+         122.9945,
+         122.1578,
+         124.9667,
+         112.3114,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         126.0157,
+         null,
+         null,
+         126.4106,
+         126.0158,
+         126.009,
+         129.7328
+        ],
+        [
+         122.2385,
+         126.4459,
+         127.5211,
+         128.873,
+         null,
+         126.0124,
+         126.3982,
+         128.384,
+         127.1068,
+         127.0955
+        ]
+       ]
+      },
+      "bass_weight": {
+       "mean": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "lo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "hi": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         1.0,
+         null,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         null,
+         1.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         null,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         1.0,
+         null,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ]
+       ]
+      },
+      "loudness": {
+       "mean": [
+        -13.3781,
+        -12.9928,
+        -13.3545,
+        -13.279,
+        -13.7088,
+        -12.9665,
+        -12.163,
+        -14.8282,
+        -12.9622,
+        -13.6612
+       ],
+       "lo": [
+        -18.8581,
+        -13.4664,
+        -14.4829,
+        -18.2695,
+        -18.817,
+        -13.9426,
+        -12.8207,
+        -16.0582,
+        -13.5088,
+        -15.1709
+       ],
+       "hi": [
+        -7.898,
+        -12.5193,
+        -12.2261,
+        -8.2884,
+        -8.6006,
+        -11.9905,
+        -11.5053,
+        -13.5982,
+        -12.4156,
+        -12.1514
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         -14.3797,
+         null,
+         null,
+         -13.3585,
+         -11.2604,
+         -16.5568,
+         null,
+         -15.0459
+        ],
+        [
+         -14.1509,
+         -12.9178,
+         -12.2343,
+         null,
+         -14.5179,
+         null,
+         -12.388,
+         -14.3797,
+         -12.7354,
+         -14.2115
+        ],
+        [
+         -16.1726,
+         null,
+         -12.9284,
+         null,
+         -12.8998,
+         -12.3016,
+         -12.7577,
+         -14.5021,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         -12.4885,
+         null,
+         null,
+         -11.6209,
+         -13.1455,
+         -13.3336,
+         -12.0431
+        ],
+        [
+         -9.8107,
+         -13.0678,
+         -13.8755,
+         -14.0694,
+         null,
+         -13.2396,
+         -12.7881,
+         -15.5569,
+         -12.8177,
+         -13.3442
+        ]
+       ]
+      },
+      "drum_density": {
+       "mean": [
+        0.64,
+        0.6482,
+        0.6914,
+        0.651,
+        0.5914,
+        0.6943,
+        0.6917,
+        0.6175,
+        0.7241,
+        0.5835
+       ],
+       "lo": [
+        0.592,
+        0.344,
+        0.6644,
+        0.6313,
+        0.3496,
+        0.6126,
+        0.5599,
+        0.5293,
+        0.6917,
+        0.5087
+       ],
+       "hi": [
+        0.6881,
+        0.9523,
+        0.7184,
+        0.6708,
+        0.8332,
+        0.7759,
+        0.8234,
+        0.7057,
+        0.7565,
+        0.6583
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.7208,
+         null,
+         null,
+         0.7333,
+         0.7234,
+         0.5906,
+         null,
+         0.5656
+        ],
+        [
+         0.6534,
+         0.6,
+         0.6677,
+         null,
+         0.6297,
+         null,
+         0.5573,
+         0.7208,
+         0.7444,
+         0.6121
+        ],
+        [
+         0.6073,
+         null,
+         0.6969,
+         null,
+         0.5531,
+         0.7094,
+         0.5365,
+         0.7021,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.6542,
+         null,
+         null,
+         0.8187,
+         0.574,
+         0.7062,
+         0.5042
+        ],
+        [
+         0.6594,
+         0.6963,
+         0.6802,
+         0.6479,
+         null,
+         0.6401,
+         0.8224,
+         0.5,
+         0.7215,
+         0.6521
+        ]
+       ]
+      },
+      "vocal_presence": {
+       "mean": [
+        0.3017,
+        0.3191,
+        0.2104,
+        0.2144,
+        0.3196,
+        0.1935,
+        0.1916,
+        0.2665,
+        0.3255,
+        0.2319
+       ],
+       "lo": [
+        0.057,
+        -0.0363,
+        0.1007,
+        0.16,
+        -0.6143,
+        0.0271,
+        0.1219,
+        0.0933,
+        0.0678,
+        0.106
+       ],
+       "hi": [
+        0.5463,
+        0.6744,
+        0.3202,
+        0.2688,
+        1.2534,
+        0.3598,
+        0.2613,
+        0.4396,
+        0.5833,
+        0.3577
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.2669,
+         null,
+         null,
+         0.1869,
+         0.2897,
+         0.5535,
+         null,
+         0.1243
+        ],
+        [
+         0.2711,
+         0.3754,
+         0.3118,
+         null,
+         0.1717,
+         null,
+         0.0835,
+         0.2669,
+         0.2292,
+         0.3145
+        ],
+        [
+         0.1743,
+         null,
+         0.1225,
+         null,
+         0.4675,
+         0.0983,
+         0.1908,
+         0.2888,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.2058,
+         null,
+         null,
+         0.1999,
+         0.0887,
+         0.5019,
+         0.3327
+        ],
+        [
+         0.4597,
+         0.2628,
+         0.1404,
+         0.2231,
+         null,
+         0.2953,
+         0.1939,
+         0.1345,
+         0.2456,
+         0.156
+        ]
+       ]
+      }
+     },
+     "curves_rel": {
+      "tempo": {
+       "mean": [
+        0.0,
+        5.7481,
+        3.1994,
+        3.3172,
+        21.9013,
+        -0.8707,
+        10.8931,
+        -0.9769,
+        1.1618,
+        2.6123
+       ],
+       "lo": [
+        0.0,
+        -3.9795,
+        0.4404,
+        -17.627,
+        -130.2695,
+        -7.6568,
+        -10.5099,
+        -7.7314,
+        -4.3714,
+        0.2437
+       ],
+       "hi": [
+        0.0,
+        15.4757,
+        5.9584,
+        24.2615,
+        174.072,
+        5.9154,
+        32.2961,
+        5.7776,
+        6.695,
+        4.981
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         -3.3491,
+         -0.7639,
+         0.7256,
+         null,
+         0.5579
+        ],
+        [
+         0.0,
+         7.2888,
+         4.5619,
+         null,
+         46.0027,
+         null,
+         50.9027,
+         1.1277,
+         -1.3761,
+         1.3173
+        ],
+        [
+         0.0,
+         null,
+         2.9531,
+         null,
+         -2.2002,
+         -3.0369,
+         -0.228,
+         -12.8833,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.3949,
+         0.0001,
+         -0.0067,
+         3.7171
+        ],
+        [
+         0.0,
+         4.2074,
+         5.2826,
+         6.6345,
+         null,
+         3.7738,
+         4.1596,
+         6.1454,
+         4.8683,
+         4.857
+        ]
+       ]
+      },
+      "bass_weight": {
+       "mean": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "lo": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "hi": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         null,
+         0.0
+        ],
+        [
+         0.0,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        [
+         0.0,
+         null,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "loudness": {
+       "mean": [
+        0.0,
+        -1.012,
+        0.274,
+        -2.1294,
+        1.4529,
+        0.4878,
+        1.2375,
+        -1.4277,
+        -0.8122,
+        -0.9537
+       ],
+       "lo": [
+        0.0,
+        -15.1871,
+        -3.473,
+        -15.5736,
+        -10.0375,
+        -5.7146,
+        -1.2147,
+        -4.075,
+        -4.5404,
+        -3.0469
+       ],
+       "hi": [
+        0.0,
+        13.163,
+        4.021,
+        11.3149,
+        12.9434,
+        6.6902,
+        3.6896,
+        1.2196,
+        2.916,
+        1.1395
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         1.0212,
+         3.1193,
+         -2.1771,
+         null,
+         -0.6662
+        ],
+        [
+         0.0,
+         1.2331,
+         1.9166,
+         null,
+         -0.367,
+         null,
+         1.7629,
+         -0.2288,
+         1.4155,
+         -0.0605
+        ],
+        [
+         0.0,
+         null,
+         3.2442,
+         null,
+         3.2729,
+         3.8711,
+         3.415,
+         1.6706,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.8676,
+         -0.657,
+         -0.845,
+         0.4454
+        ],
+        [
+         0.0,
+         -3.2572,
+         -4.0648,
+         -4.2587,
+         null,
+         -3.4289,
+         -2.9774,
+         -5.7462,
+         -3.007,
+         -3.5335
+        ]
+       ]
+      },
+      "drum_density": {
+       "mean": [
+        0.0,
+        -0.0082,
+        0.0312,
+        -0.0057,
+        -0.0389,
+        0.0318,
+        0.0327,
+        -0.0415,
+        0.0684,
+        -0.0884
+       ],
+       "lo": [
+        0.0,
+        -0.2935,
+        -0.0158,
+        -0.0419,
+        -0.1352,
+        -0.0743,
+        -0.0866,
+        -0.152,
+        0.0343,
+        -0.1772
+       ],
+       "hi": [
+        0.0,
+        0.2771,
+        0.0781,
+        0.0304,
+        0.0573,
+        0.1379,
+        0.1519,
+        0.069,
+        0.1025,
+        0.0003
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.0125,
+         0.0026,
+         -0.1302,
+         null,
+         -0.1552
+        ],
+        [
+         0.0,
+         -0.0534,
+         0.0143,
+         null,
+         -0.0237,
+         null,
+         -0.0961,
+         0.0674,
+         0.0911,
+         -0.0412
+        ],
+        [
+         0.0,
+         null,
+         0.0896,
+         null,
+         -0.0542,
+         0.1021,
+         -0.0708,
+         0.0948,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.1646,
+         -0.0802,
+         0.0521,
+         -0.15
+        ],
+        [
+         0.0,
+         0.037,
+         0.0208,
+         -0.0115,
+         null,
+         -0.0193,
+         0.163,
+         -0.1594,
+         0.0622,
+         -0.0073
+        ]
+       ]
+      },
+      "vocal_presence": {
+       "mean": [
+        0.0,
+        -0.0463,
+        -0.0826,
+        -0.1183,
+        0.0969,
+        -0.1068,
+        -0.084,
+        -0.0091,
+        0.0134,
+        -0.069
+       ],
+       "lo": [
+        0.0,
+        -0.997,
+        -0.2735,
+        -0.8652,
+        -1.1424,
+        -0.1909,
+        -0.2113,
+        -0.2298,
+        -0.4241,
+        -0.2958
+       ],
+       "hi": [
+        0.0,
+        0.9045,
+        0.1084,
+        0.6286,
+        1.3363,
+        -0.0227,
+        0.0434,
+        0.2116,
+        0.4508,
+        0.1578
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         -0.08,
+         0.0228,
+         0.2866,
+         null,
+         -0.1426
+        ],
+        [
+         0.0,
+         0.1043,
+         0.0408,
+         null,
+         -0.0994,
+         null,
+         -0.1875,
+         -0.0042,
+         -0.0419,
+         0.0434
+        ],
+        [
+         0.0,
+         null,
+         -0.0518,
+         null,
+         0.2932,
+         -0.076,
+         0.0165,
+         0.1145,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         -0.0059,
+         -0.1171,
+         0.296,
+         0.1269
+        ],
+        [
+         0.0,
+         -0.1969,
+         -0.3192,
+         -0.2366,
+         null,
+         -0.1644,
+         -0.2658,
+         -0.3251,
+         -0.214,
+         -0.3037
+        ]
+       ]
+      }
+     },
+     "slopes": {
+      "tempo": {
+       "start_to_end": -1.324,
+       "lo": -7.9837,
+       "hi": 5.3358,
+       "sets": 5
+      },
+      "bass_weight": {
+       "start_to_end": 0.0,
+       "lo": -0.0,
+       "hi": 0.0,
+       "sets": 5
+      },
+      "loudness": {
+       "start_to_end": -0.0282,
+       "lo": -1.6502,
+       "hi": 1.5938,
+       "sets": 5
+      },
+      "drum_density": {
+       "start_to_end": -0.0851,
+       "lo": -0.2317,
+       "hi": 0.0615,
+       "sets": 5
+      },
+      "vocal_presence": {
+       "start_to_end": 0.0412,
+       "lo": -0.0975,
+       "hi": 0.1799,
+       "sets": 5
+      }
+     },
+     "titles": [
+      "2019-06-21 - Andi Durrant, Todd Terry - The Electrik Playground",
+      "2019-06-21 - Charlie Tee, Ed:it, Andi Durrant, Todd Terry - Friday Night Kiss Fresh",
+      "2023-07-24 - Todd Terry - RA Podcast (RA.894)",
+      "2025-03-21 - Mark Knight, Crackazat, Todd Terry - KISS Dance",
+      "2026-01-02 - VA - KISS Dance"
+     ]
+    },
+    "radio": {
+     "sets_used": 5,
+     "records_measured": 54,
+     "curves": {
+      "tempo": {
+       "mean": [
+        123.6,
+        128.5507,
+        127.023,
+        127.4443,
+        146.182,
+        123.1052,
+        135.1551,
+        123.2851,
+        125.0355,
+        126.6412
+       ],
+       "lo": [
+        121.085,
+        115.2615,
+        125.016,
+        118.4242,
+        -0.2182,
+        118.7757,
+        114.2815,
+        117.2726,
+        120.4947,
+        123.9136
+       ],
+       "hi": [
+        126.115,
+        141.84,
+        129.0299,
+        136.4645,
+        292.5822,
+        127.4346,
+        156.0287,
+        129.2976,
+        129.5762,
+        129.3687
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         124.4944,
+         null,
+         null,
+         121.1453,
+         123.7306,
+         125.22,
+         null,
+         125.0524
+        ],
+        [
+         123.3667,
+         130.6556,
+         127.9287,
+         null,
+         169.3695,
+         null,
+         174.2695,
+         124.4944,
+         121.9906,
+         124.6841
+        ],
+        [
+         125.1947,
+         null,
+         128.1477,
+         null,
+         122.9945,
+         122.1578,
+         124.9667,
+         112.3114,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         126.0157,
+         null,
+         null,
+         126.4106,
+         126.0158,
+         126.009,
+         129.7328
+        ],
+        [
+         122.2385,
+         126.4459,
+         127.5211,
+         128.873,
+         null,
+         126.0124,
+         126.3982,
+         128.384,
+         127.1068,
+         127.0955
+        ]
+       ]
+      },
+      "bass_weight": {
+       "mean": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "lo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "hi": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         1.0,
+         null,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         null,
+         1.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         null,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         1.0,
+         null,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         null,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ]
+       ]
+      },
+      "loudness": {
+       "mean": [
+        -13.3781,
+        -12.9928,
+        -13.3545,
+        -13.279,
+        -13.7088,
+        -12.9665,
+        -12.163,
+        -14.8282,
+        -12.9622,
+        -13.6612
+       ],
+       "lo": [
+        -18.8581,
+        -13.4664,
+        -14.4829,
+        -18.2695,
+        -18.817,
+        -13.9426,
+        -12.8207,
+        -16.0582,
+        -13.5088,
+        -15.1709
+       ],
+       "hi": [
+        -7.898,
+        -12.5193,
+        -12.2261,
+        -8.2884,
+        -8.6006,
+        -11.9905,
+        -11.5053,
+        -13.5982,
+        -12.4156,
+        -12.1514
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         -14.3797,
+         null,
+         null,
+         -13.3585,
+         -11.2604,
+         -16.5568,
+         null,
+         -15.0459
+        ],
+        [
+         -14.1509,
+         -12.9178,
+         -12.2343,
+         null,
+         -14.5179,
+         null,
+         -12.388,
+         -14.3797,
+         -12.7354,
+         -14.2115
+        ],
+        [
+         -16.1726,
+         null,
+         -12.9284,
+         null,
+         -12.8998,
+         -12.3016,
+         -12.7577,
+         -14.5021,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         -12.4885,
+         null,
+         null,
+         -11.6209,
+         -13.1455,
+         -13.3336,
+         -12.0431
+        ],
+        [
+         -9.8107,
+         -13.0678,
+         -13.8755,
+         -14.0694,
+         null,
+         -13.2396,
+         -12.7881,
+         -15.5569,
+         -12.8177,
+         -13.3442
+        ]
+       ]
+      },
+      "drum_density": {
+       "mean": [
+        0.64,
+        0.6482,
+        0.6914,
+        0.651,
+        0.5914,
+        0.6943,
+        0.6917,
+        0.6175,
+        0.7241,
+        0.5835
+       ],
+       "lo": [
+        0.592,
+        0.344,
+        0.6644,
+        0.6313,
+        0.3496,
+        0.6126,
+        0.5599,
+        0.5293,
+        0.6917,
+        0.5087
+       ],
+       "hi": [
+        0.6881,
+        0.9523,
+        0.7184,
+        0.6708,
+        0.8332,
+        0.7759,
+        0.8234,
+        0.7057,
+        0.7565,
+        0.6583
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.7208,
+         null,
+         null,
+         0.7333,
+         0.7234,
+         0.5906,
+         null,
+         0.5656
+        ],
+        [
+         0.6534,
+         0.6,
+         0.6677,
+         null,
+         0.6297,
+         null,
+         0.5573,
+         0.7208,
+         0.7444,
+         0.6121
+        ],
+        [
+         0.6073,
+         null,
+         0.6969,
+         null,
+         0.5531,
+         0.7094,
+         0.5365,
+         0.7021,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.6542,
+         null,
+         null,
+         0.8187,
+         0.574,
+         0.7062,
+         0.5042
+        ],
+        [
+         0.6594,
+         0.6963,
+         0.6802,
+         0.6479,
+         null,
+         0.6401,
+         0.8224,
+         0.5,
+         0.7215,
+         0.6521
+        ]
+       ]
+      },
+      "vocal_presence": {
+       "mean": [
+        0.3017,
+        0.3191,
+        0.2104,
+        0.2144,
+        0.3196,
+        0.1935,
+        0.1916,
+        0.2665,
+        0.3255,
+        0.2319
+       ],
+       "lo": [
+        0.057,
+        -0.0363,
+        0.1007,
+        0.16,
+        -0.6143,
+        0.0271,
+        0.1219,
+        0.0933,
+        0.0678,
+        0.106
+       ],
+       "hi": [
+        0.5463,
+        0.6744,
+        0.3202,
+        0.2688,
+        1.2534,
+        0.3598,
+        0.2613,
+        0.4396,
+        0.5833,
+        0.3577
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.2669,
+         null,
+         null,
+         0.1869,
+         0.2897,
+         0.5535,
+         null,
+         0.1243
+        ],
+        [
+         0.2711,
+         0.3754,
+         0.3118,
+         null,
+         0.1717,
+         null,
+         0.0835,
+         0.2669,
+         0.2292,
+         0.3145
+        ],
+        [
+         0.1743,
+         null,
+         0.1225,
+         null,
+         0.4675,
+         0.0983,
+         0.1908,
+         0.2888,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.2058,
+         null,
+         null,
+         0.1999,
+         0.0887,
+         0.5019,
+         0.3327
+        ],
+        [
+         0.4597,
+         0.2628,
+         0.1404,
+         0.2231,
+         null,
+         0.2953,
+         0.1939,
+         0.1345,
+         0.2456,
+         0.156
+        ]
+       ]
+      }
+     },
+     "curves_rel": {
+      "tempo": {
+       "mean": [
+        0.0,
+        5.7481,
+        3.1994,
+        3.3172,
+        21.9013,
+        -0.8707,
+        10.8931,
+        -0.9769,
+        1.1618,
+        2.6123
+       ],
+       "lo": [
+        0.0,
+        -3.9795,
+        0.4404,
+        -17.627,
+        -130.2695,
+        -7.6568,
+        -10.5099,
+        -7.7314,
+        -4.3714,
+        0.2437
+       ],
+       "hi": [
+        0.0,
+        15.4757,
+        5.9584,
+        24.2615,
+        174.072,
+        5.9154,
+        32.2961,
+        5.7776,
+        6.695,
+        4.981
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         -3.3491,
+         -0.7639,
+         0.7256,
+         null,
+         0.5579
+        ],
+        [
+         0.0,
+         7.2888,
+         4.5619,
+         null,
+         46.0027,
+         null,
+         50.9027,
+         1.1277,
+         -1.3761,
+         1.3173
+        ],
+        [
+         0.0,
+         null,
+         2.9531,
+         null,
+         -2.2002,
+         -3.0369,
+         -0.228,
+         -12.8833,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.3949,
+         0.0001,
+         -0.0067,
+         3.7171
+        ],
+        [
+         0.0,
+         4.2074,
+         5.2826,
+         6.6345,
+         null,
+         3.7738,
+         4.1596,
+         6.1454,
+         4.8683,
+         4.857
+        ]
+       ]
+      },
+      "bass_weight": {
+       "mean": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "lo": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "hi": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         null,
+         0.0
+        ],
+        [
+         0.0,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        [
+         0.0,
+         null,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        [
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         null,
+         0.0,
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "loudness": {
+       "mean": [
+        0.0,
+        -1.012,
+        0.274,
+        -2.1294,
+        1.4529,
+        0.4878,
+        1.2375,
+        -1.4277,
+        -0.8122,
+        -0.9537
+       ],
+       "lo": [
+        0.0,
+        -15.1871,
+        -3.473,
+        -15.5736,
+        -10.0375,
+        -5.7146,
+        -1.2147,
+        -4.075,
+        -4.5404,
+        -3.0469
+       ],
+       "hi": [
+        0.0,
+        13.163,
+        4.021,
+        11.3149,
+        12.9434,
+        6.6902,
+        3.6896,
+        1.2196,
+        2.916,
+        1.1395
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         1.0212,
+         3.1193,
+         -2.1771,
+         null,
+         -0.6662
+        ],
+        [
+         0.0,
+         1.2331,
+         1.9166,
+         null,
+         -0.367,
+         null,
+         1.7629,
+         -0.2288,
+         1.4155,
+         -0.0605
+        ],
+        [
+         0.0,
+         null,
+         3.2442,
+         null,
+         3.2729,
+         3.8711,
+         3.415,
+         1.6706,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.8676,
+         -0.657,
+         -0.845,
+         0.4454
+        ],
+        [
+         0.0,
+         -3.2572,
+         -4.0648,
+         -4.2587,
+         null,
+         -3.4289,
+         -2.9774,
+         -5.7462,
+         -3.007,
+         -3.5335
+        ]
+       ]
+      },
+      "drum_density": {
+       "mean": [
+        0.0,
+        -0.0082,
+        0.0312,
+        -0.0057,
+        -0.0389,
+        0.0318,
+        0.0327,
+        -0.0415,
+        0.0684,
+        -0.0884
+       ],
+       "lo": [
+        0.0,
+        -0.2935,
+        -0.0158,
+        -0.0419,
+        -0.1352,
+        -0.0743,
+        -0.0866,
+        -0.152,
+        0.0343,
+        -0.1772
+       ],
+       "hi": [
+        0.0,
+        0.2771,
+        0.0781,
+        0.0304,
+        0.0573,
+        0.1379,
+        0.1519,
+        0.069,
+        0.1025,
+        0.0003
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.0125,
+         0.0026,
+         -0.1302,
+         null,
+         -0.1552
+        ],
+        [
+         0.0,
+         -0.0534,
+         0.0143,
+         null,
+         -0.0237,
+         null,
+         -0.0961,
+         0.0674,
+         0.0911,
+         -0.0412
+        ],
+        [
+         0.0,
+         null,
+         0.0896,
+         null,
+         -0.0542,
+         0.1021,
+         -0.0708,
+         0.0948,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         0.1646,
+         -0.0802,
+         0.0521,
+         -0.15
+        ],
+        [
+         0.0,
+         0.037,
+         0.0208,
+         -0.0115,
+         null,
+         -0.0193,
+         0.163,
+         -0.1594,
+         0.0622,
+         -0.0073
+        ]
+       ]
+      },
+      "vocal_presence": {
+       "mean": [
+        0.0,
+        -0.0463,
+        -0.0826,
+        -0.1183,
+        0.0969,
+        -0.1068,
+        -0.084,
+        -0.0091,
+        0.0134,
+        -0.069
+       ],
+       "lo": [
+        0.0,
+        -0.997,
+        -0.2735,
+        -0.8652,
+        -1.1424,
+        -0.1909,
+        -0.2113,
+        -0.2298,
+        -0.4241,
+        -0.2958
+       ],
+       "hi": [
+        0.0,
+        0.9045,
+        0.1084,
+        0.6286,
+        1.3363,
+        -0.0227,
+        0.0434,
+        0.2116,
+        0.4508,
+        0.1578
+       ],
+       "sets": [
+        [
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         -0.08,
+         0.0228,
+         0.2866,
+         null,
+         -0.1426
+        ],
+        [
+         0.0,
+         0.1043,
+         0.0408,
+         null,
+         -0.0994,
+         null,
+         -0.1875,
+         -0.0042,
+         -0.0419,
+         0.0434
+        ],
+        [
+         0.0,
+         null,
+         -0.0518,
+         null,
+         0.2932,
+         -0.076,
+         0.0165,
+         0.1145,
+         null,
+         null
+        ],
+        [
+         null,
+         null,
+         null,
+         0.0,
+         null,
+         null,
+         -0.0059,
+         -0.1171,
+         0.296,
+         0.1269
+        ],
+        [
+         0.0,
+         -0.1969,
+         -0.3192,
+         -0.2366,
+         null,
+         -0.1644,
+         -0.2658,
+         -0.3251,
+         -0.214,
+         -0.3037
+        ]
+       ]
+      }
+     },
+     "slopes": {
+      "tempo": {
+       "start_to_end": -1.324,
+       "lo": -7.9837,
+       "hi": 5.3358,
+       "sets": 5
+      },
+      "bass_weight": {
+       "start_to_end": 0.0,
+       "lo": -0.0,
+       "hi": 0.0,
+       "sets": 5
+      },
+      "loudness": {
+       "start_to_end": -0.0282,
+       "lo": -1.6502,
+       "hi": 1.5938,
+       "sets": 5
+      },
+      "drum_density": {
+       "start_to_end": -0.0851,
+       "lo": -0.2317,
+       "hi": 0.0615,
+       "sets": 5
+      },
+      "vocal_presence": {
+       "start_to_end": 0.0412,
+       "lo": -0.0975,
+       "hi": 0.1799,
+       "sets": 5
+      }
+     },
+     "titles": [
+      "2019-06-21 - Andi Durrant, Todd Terry - The Electrik Playground",
+      "2019-06-21 - Charlie Tee, Ed:it, Andi Durrant, Todd Terry - Friday Night Kiss Fresh",
+      "2023-07-24 - Todd Terry - RA Podcast (RA.894)",
+      "2025-03-21 - Mark Knight, Crackazat, Todd Terry - KISS Dance",
+      "2026-01-02 - VA - KISS Dance"
+     ]
+    }
+   },
+   "profile": {
+    "entries": 387,
+    "own_share": 0.204,
+    "genres": [
+     [
+      "house",
+      0.484
+     ],
+     [
+      "drum-bass",
+      0.119
+     ],
+     [
+      "tech-house",
+      0.113
+     ],
+     [
+      "dance-pop",
+      0.082
+     ],
+     [
+      "nu-disco-disco",
+      0.028
+     ]
+    ],
+    "signatures": [
+     [
+      4,
+      "Childish Gambino \u2013 This Is America (Todd Terry, Louie Vega & Kenny Dope Remix)"
+     ],
+     [
+      3,
+      "Tough Love \u2013 Power"
+     ],
+     [
+      3,
+      "Todd Terry \u2013 Mind Games"
+     ],
+     [
+      3,
+      "Todd Terry & Junior Sanchez \u2013 Figure Of Jazz"
+     ],
+     [
+      3,
+      "PEZNT \u2013 Freedom"
+     ]
+    ],
+    "release_dates": 65,
+    "median_days_after_release": 182,
+    "share_within_90_days": 0.385
+   },
+   "matched": 259,
+   "in_charts": 11,
+   "sets_used": 5,
+   "records_measured": 54,
+   "curves": {
+    "tempo": {
+     "mean": [
+      123.6,
+      128.5507,
+      127.023,
+      127.4443,
+      146.182,
+      123.1052,
+      135.1551,
+      123.2851,
+      125.0355,
+      126.6412
+     ],
+     "lo": [
+      121.085,
+      115.2615,
+      125.016,
+      118.4242,
+      -0.2182,
+      118.7757,
+      114.2815,
+      117.2726,
+      120.4947,
+      123.9136
+     ],
+     "hi": [
+      126.115,
+      141.84,
+      129.0299,
+      136.4645,
+      292.5822,
+      127.4346,
+      156.0287,
+      129.2976,
+      129.5762,
+      129.3687
+     ],
+     "sets": [
+      [
+       null,
+       null,
+       124.4944,
+       null,
+       null,
+       121.1453,
+       123.7306,
+       125.22,
+       null,
+       125.0524
+      ],
+      [
+       123.3667,
+       130.6556,
+       127.9287,
+       null,
+       169.3695,
+       null,
+       174.2695,
+       124.4944,
+       121.9906,
+       124.6841
+      ],
+      [
+       125.1947,
+       null,
+       128.1477,
+       null,
+       122.9945,
+       122.1578,
+       124.9667,
+       112.3114,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       126.0157,
+       null,
+       null,
+       126.4106,
+       126.0158,
+       126.009,
+       129.7328
+      ],
+      [
+       122.2385,
+       126.4459,
+       127.5211,
+       128.873,
+       null,
+       126.0124,
+       126.3982,
+       128.384,
+       127.1068,
+       127.0955
+      ]
+     ]
+    },
+    "bass_weight": {
+     "mean": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "lo": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "hi": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "sets": [
+      [
+       null,
+       null,
+       1.0,
+       null,
+       null,
+       1.0,
+       1.0,
+       1.0,
+       null,
+       1.0
+      ],
+      [
+       1.0,
+       1.0,
+       1.0,
+       null,
+       1.0,
+       null,
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      [
+       1.0,
+       null,
+       1.0,
+       null,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       1.0,
+       null,
+       null,
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      [
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       null,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     ]
+    },
+    "loudness": {
+     "mean": [
+      -13.3781,
+      -12.9928,
+      -13.3545,
+      -13.279,
+      -13.7088,
+      -12.9665,
+      -12.163,
+      -14.8282,
+      -12.9622,
+      -13.6612
+     ],
+     "lo": [
+      -18.8581,
+      -13.4664,
+      -14.4829,
+      -18.2695,
+      -18.817,
+      -13.9426,
+      -12.8207,
+      -16.0582,
+      -13.5088,
+      -15.1709
+     ],
+     "hi": [
+      -7.898,
+      -12.5193,
+      -12.2261,
+      -8.2884,
+      -8.6006,
+      -11.9905,
+      -11.5053,
+      -13.5982,
+      -12.4156,
+      -12.1514
+     ],
+     "sets": [
+      [
+       null,
+       null,
+       -14.3797,
+       null,
+       null,
+       -13.3585,
+       -11.2604,
+       -16.5568,
+       null,
+       -15.0459
+      ],
+      [
+       -14.1509,
+       -12.9178,
+       -12.2343,
+       null,
+       -14.5179,
+       null,
+       -12.388,
+       -14.3797,
+       -12.7354,
+       -14.2115
+      ],
+      [
+       -16.1726,
+       null,
+       -12.9284,
+       null,
+       -12.8998,
+       -12.3016,
+       -12.7577,
+       -14.5021,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       -12.4885,
+       null,
+       null,
+       -11.6209,
+       -13.1455,
+       -13.3336,
+       -12.0431
+      ],
+      [
+       -9.8107,
+       -13.0678,
+       -13.8755,
+       -14.0694,
+       null,
+       -13.2396,
+       -12.7881,
+       -15.5569,
+       -12.8177,
+       -13.3442
+      ]
+     ]
+    },
+    "drum_density": {
+     "mean": [
+      0.64,
+      0.6482,
+      0.6914,
+      0.651,
+      0.5914,
+      0.6943,
+      0.6917,
+      0.6175,
+      0.7241,
+      0.5835
+     ],
+     "lo": [
+      0.592,
+      0.344,
+      0.6644,
+      0.6313,
+      0.3496,
+      0.6126,
+      0.5599,
+      0.5293,
+      0.6917,
+      0.5087
+     ],
+     "hi": [
+      0.6881,
+      0.9523,
+      0.7184,
+      0.6708,
+      0.8332,
+      0.7759,
+      0.8234,
+      0.7057,
+      0.7565,
+      0.6583
+     ],
+     "sets": [
+      [
+       null,
+       null,
+       0.7208,
+       null,
+       null,
+       0.7333,
+       0.7234,
+       0.5906,
+       null,
+       0.5656
+      ],
+      [
+       0.6534,
+       0.6,
+       0.6677,
+       null,
+       0.6297,
+       null,
+       0.5573,
+       0.7208,
+       0.7444,
+       0.6121
+      ],
+      [
+       0.6073,
+       null,
+       0.6969,
+       null,
+       0.5531,
+       0.7094,
+       0.5365,
+       0.7021,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       0.6542,
+       null,
+       null,
+       0.8187,
+       0.574,
+       0.7062,
+       0.5042
+      ],
+      [
+       0.6594,
+       0.6963,
+       0.6802,
+       0.6479,
+       null,
+       0.6401,
+       0.8224,
+       0.5,
+       0.7215,
+       0.6521
+      ]
+     ]
+    },
+    "vocal_presence": {
+     "mean": [
+      0.3017,
+      0.3191,
+      0.2104,
+      0.2144,
+      0.3196,
+      0.1935,
+      0.1916,
+      0.2665,
+      0.3255,
+      0.2319
+     ],
+     "lo": [
+      0.057,
+      -0.0363,
+      0.1007,
+      0.16,
+      -0.6143,
+      0.0271,
+      0.1219,
+      0.0933,
+      0.0678,
+      0.106
+     ],
+     "hi": [
+      0.5463,
+      0.6744,
+      0.3202,
+      0.2688,
+      1.2534,
+      0.3598,
+      0.2613,
+      0.4396,
+      0.5833,
+      0.3577
+     ],
+     "sets": [
+      [
+       null,
+       null,
+       0.2669,
+       null,
+       null,
+       0.1869,
+       0.2897,
+       0.5535,
+       null,
+       0.1243
+      ],
+      [
+       0.2711,
+       0.3754,
+       0.3118,
+       null,
+       0.1717,
+       null,
+       0.0835,
+       0.2669,
+       0.2292,
+       0.3145
+      ],
+      [
+       0.1743,
+       null,
+       0.1225,
+       null,
+       0.4675,
+       0.0983,
+       0.1908,
+       0.2888,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       0.2058,
+       null,
+       null,
+       0.1999,
+       0.0887,
+       0.5019,
+       0.3327
+      ],
+      [
+       0.4597,
+       0.2628,
+       0.1404,
+       0.2231,
+       null,
+       0.2953,
+       0.1939,
+       0.1345,
+       0.2456,
+       0.156
+      ]
+     ]
+    }
+   },
+   "slopes": {
+    "tempo": {
+     "start_to_end": -1.324,
+     "lo": -7.9837,
+     "hi": 5.3358,
+     "sets": 5
+    },
+    "bass_weight": {
+     "start_to_end": 0.0,
+     "lo": -0.0,
+     "hi": 0.0,
+     "sets": 5
+    },
+    "loudness": {
+     "start_to_end": -0.0282,
+     "lo": -1.6502,
+     "hi": 1.5938,
+     "sets": 5
+    },
+    "drum_density": {
+     "start_to_end": -0.0851,
+     "lo": -0.2317,
+     "hi": 0.0615,
+     "sets": 5
+    },
+    "vocal_presence": {
+     "start_to_end": 0.0412,
+     "lo": -0.0975,
+     "hi": 0.1799,
+     "sets": 5
+    }
+   }
+  },
+  {
    "dj": "tohny",
    "sets_total": 0,
    "sets_timed": 0,
@@ -964725,6 +968764,28 @@
   {
    "dj": "Tuccillo",
    "sets_total": 3,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "TWINSET23",
+   "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
    "by_format": {},
@@ -969028,6 +973089,71 @@
    "slopes": {}
   },
   {
+   "dj": "UNWA",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Upercent",
+   "sets_total": 4,
+   "sets_timed": 3,
+   "records_other_version": 27,
+   "by_format": {},
+   "profile": {
+    "entries": 33,
+    "own_share": 0.212,
+    "genres": [
+     [
+      "melodic-house-techno",
+      0.4
+     ],
+     [
+      "indie-dance",
+      0.4
+     ],
+     [
+      "deep-house",
+      0.067
+     ],
+     [
+      "electro-classic-detroit-modern",
+      0.033
+     ],
+     [
+      "electronica",
+      0.033
+     ]
+    ],
+    "signatures": [],
+    "release_dates": 3,
+    "median_days_after_release": 63,
+    "share_within_90_days": 0.667
+   },
+   "matched": 30,
+   "in_charts": 2,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
    "dj": "Vakabular",
    "sets_total": 0,
    "sets_timed": 0,
@@ -969073,6 +973199,28 @@
   },
   {
    "dj": "Valerio Angeli",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "Valeron",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
@@ -974750,6 +978898,28 @@
      "sets": 13
     }
    }
+  },
+  {
+   "dj": "Victoria Rawlins",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
   },
   {
    "dj": "Vin Vega",
@@ -1035656,6 +1039826,28 @@
   },
   {
    "dj": "Zero",
+   "sets_total": 0,
+   "sets_timed": 0,
+   "records_other_version": 0,
+   "by_format": {},
+   "profile": {
+    "entries": 0,
+    "own_share": null,
+    "genres": [],
+    "signatures": [],
+    "release_dates": 0,
+    "median_days_after_release": null,
+    "share_within_90_days": null
+   },
+   "matched": 0,
+   "in_charts": 0,
+   "sets_used": 0,
+   "records_measured": 0,
+   "curves": {},
+   "slopes": {}
+  },
+  {
+   "dj": "ZIGGY X",
    "sets_total": 0,
    "sets_timed": 0,
    "records_other_version": 0,
