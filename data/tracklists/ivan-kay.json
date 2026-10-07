@@ -1,5 +1,133 @@
 {
 "dj": "Ivan Kay",
 "source": "MixesDB (CC BY-SA 3.0)",
-"sets": []
+"sets": [
+{
+"title": "2019-12-14 - Rio Dela Duna, Ivan Kay - Vamos Radio Show 347",
+"records": [
+{
+"minute": null,
+"artist": "Fatboy Slim",
+"title": "Praise You (Purple Disco Machine Extended Remix)",
+"label": "Defected",
+"bp": "bp:11829756",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6bb591e-ca76-4eba-bd82-9f6865031ea1.LOFI.mp3",
+"name": "Praise You",
+"mix": "Purple Disco Machine Extended Remix",
+"genre": "house",
+"released": "2019-04-19"
+},
+{
+"minute": null,
+"artist": "Joey Negro Feat. Taka Boom",
+"title": "Can't Get High Without U (Joey Negro Club Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Joey Negro & Horse Meat Disco",
+"title": "Candidate For Love (Joey Negro Disco Blend)",
+"label": "",
+"bp": "bp:12011511",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/5dd70673-3554-45c6-a481-0b1605f442ec.LOFI.mp3",
+"name": "Candidate For Love",
+"mix": "Joey Negro Disco Blend",
+"genre": "house",
+"released": "2019-06-21"
+},
+{
+"minute": null,
+"artist": "Debbie Jacobs",
+"title": "Don't You Want My Love (Joe Claussell Edit)",
+"label": "Harlequin"
+},
+{
+"minute": null,
+"artist": "Mistura Feat. Bridgett Grace",
+"title": "Love To The Limit (Shur-I-Kan Club Mix)",
+"label": "",
+"bp": "bp:10333341",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/b9e4132c-78ea-4d14-94bf-9aebea5d2eb1.LOFI.mp3",
+"name": "Love To The Limit",
+"mix": "Shur-i-kan Club Mix",
+"genre": "house",
+"released": "2018-03-23"
+},
+{
+"minute": null,
+"artist": "Ivan Kay",
+"title": "Give Me Stick",
+"label": "Vamos",
+"bp": "bp:13011509",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/477b42ff-d096-485f-a80e-6d0a1ed30c3e.LOFI.mp3",
+"name": "Give Me Stick",
+"mix": "Original Mix",
+"genre": "funky-house",
+"released": "2020-01-16"
+},
+{
+"minute": null,
+"artist": "DJ Wady & Rio Dela Duna",
+"title": "Take Yours (Extended Mix)",
+"label": "Toolroom",
+"bp": "bp:13494378",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/69705a0a-3932-4b69-848c-62de73bc5e9d.LOFI.mp3",
+"name": "Take Yours",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2020-06-12"
+},
+{
+"minute": null,
+"artist": "Ivan Kay",
+"title": "Party People In The House",
+"label": "World Sound",
+"bp": "bp:8741708",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f1caf47d-bdd8-4096-90e8-37d8d137c15f.LOFI.mp3",
+"name": "Party People In The House",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2016-12-29"
+},
+{
+"minute": null,
+"artist": "Reza & JJ Mullor",
+"title": "Never Pirate",
+"label": "2dutch",
+"bp": "bp:12467496",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ff91f63-9ef0-45f1-ab03-74df21cb545e.LOFI.mp3",
+"name": "Never Pirate",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2019-09-24"
+},
+{
+"minute": null,
+"artist": "Ivan Kay",
+"title": "Cuba, Cuba",
+"label": "Whore House",
+"bp": "bp:12396519",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c0beae43-abb7-4e8a-90f4-b4da7609b7a9.LOFI.mp3",
+"name": "Cuba Cuba",
+"mix": "Original Mix",
+"genre": "funky-house",
+"released": "2019-08-16"
+},
+{
+"minute": null,
+"artist": "Sugarstarr vs Frankie Goes To Hollywood",
+"title": "R.E.L.A.X. (Sugarstarr Private Mix)",
+"label": ""
+}
+]
+}
+]
 }
