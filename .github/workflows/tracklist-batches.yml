@@ -1,6 +1,6 @@
 name: tracklist-batches
-# The next 40 DJs who chart and are artists Signal knows (sonic/tracklist_batches.py) sent to the tracklist job, and
-# recorded as tried. The watchdog runs this daily, so the candidate list works through about 40 DJs a day.
+# The next batch of DJs (sonic/tracklist_batches.py) sent to the tracklist job, and recorded as tried. Started by the
+# crawl itself once a batch's records are measured, and by the watchdog whenever the crawl has gone idle.
 on:
   workflow_dispatch:
     inputs:
@@ -34,4 +34,8 @@ jobs:
             git add data/tracklists-tried-$S.json; git diff --cached --quiet || git commit -qm "tracklist batch: $(date -u +%FT%TZ)"
             if git push -q origin HEAD:main; then break; fi; sleep $((i*10))
           done
-          gh workflow run tracklists.yml --repo "${{ github.repository }}" --ref main -f djs="${{ steps.b.outputs.djs }}" -f since="${{ inputs.since || '2019' }}" -f measure=300 -f max_sets="${{ inputs.max_sets || '150' }}" -f chain="${{ inputs.chain || 'yes' }}"
+          for i in 1 2 3 4 5; do
+            if timeout 60 gh workflow run tracklists.yml --repo "${{ github.repository }}" --ref main -f djs="${{ steps.b.outputs.djs }}" -f since="${{ inputs.since || '2019' }}" -f measure=300 -f max_sets="${{ inputs.max_sets || '150' }}" -f chain="${{ inputs.chain || 'yes' }}"; then echo "batch sent"; exit 0; fi
+            echo "could not send the batch (try $i)"; sleep $((i*20))
+          done
+          exit 1

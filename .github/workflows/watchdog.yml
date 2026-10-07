@@ -84,7 +84,7 @@ jobs:
           # the kicks above they do not wait for their repository to go quiet: only for 25 hours since their last run.
           set +e
           NOW=$(date -u +%s)
-          for R in signal-sonic-features:phone-e2e.yml:1500 signal-sonic-features:worker-deploy.yml:1500 signalgood:site-data.yml:1500 signal-sonic-features:ear-walk.yml:10080 signal-sonic:tracklist-batches.yml:1440; do
+          for R in signal-sonic-features:phone-e2e.yml:1500 signal-sonic-features:worker-deploy.yml:1500 signalgood:site-data.yml:1500 signal-sonic-features:ear-walk.yml:10080; do
             REPO=benmcewensignal/${R%%:*}; REST=${R#*:}; WF=${REST%%:*}; QUIET=${REST#*:}
             LAST=$(gh api "repos/${REPO}/actions/workflows/${WF}/runs?per_page=1" --jq '.workflow_runs[0].created_at // "never"' 2>/dev/null)
             if [ -z "$LAST" ]; then echo "${WF}: could not read runs"; continue; fi
@@ -94,6 +94,22 @@ jobs:
             echo "${WF}: last run ${AGE}m ago"
             if [ "$AGE" -gt "$QUIET" ]; then timeout 60 gh workflow run "$WF" --repo "$REPO" --ref main && echo "  run" || echo "  could not run it (needs PIPELINE_PAT for another repository)"; fi
           done
+          # the tracklist crawl hands itself on run to run; one failed hand-off (17:00 on 7 Oct, during GitHub internal
+          # errors) left it idle, and the old rule here waited a day. Now: if no crawl run or batch is queued or running
+          # and the last crawl run ended over 45 minutes ago, start the next batch (it does nothing once no DJs are due)
+          TLA=$(gh api "repos/benmcewensignal/signal-sonic/actions/workflows/tracklists.yml/runs?per_page=10" --jq '[.workflow_runs[] | select(.status != "completed")] | length' 2>/dev/null)
+          TBA=$(gh api "repos/benmcewensignal/signal-sonic/actions/workflows/tracklist-batches.yml/runs?per_page=10" --jq '[.workflow_runs[] | select(.status != "completed")] | length' 2>/dev/null)
+          TLE=$(gh api "repos/benmcewensignal/signal-sonic/actions/workflows/tracklists.yml/runs?per_page=10" --jq '[.workflow_runs[] | select(.status == "completed")][0].updated_at // ""' 2>/dev/null)
+          TBS=$(gh api "repos/benmcewensignal/signal-sonic/actions/workflows/tracklist-batches.yml/runs?per_page=1" --jq '.workflow_runs[0].created_at // ""' 2>/dev/null)
+          if [ -n "$TLA" ] && [ -n "$TBA" ] && [ -n "$TLE" ] && [ -n "$TBS" ]; then
+            AGE=$(( (NOW - $(date -u -d "$TLE" +%s)) / 60 )); BAGE=$(( (NOW - $(date -u -d "$TBS" +%s)) / 60 ))
+            echo "tracklist crawl: ${TLA} crawl and ${TBA} batch runs active, last crawl run ended ${AGE}m ago, last batch started ${BAGE}m ago"
+            # at most one restart every two hours; and none once the crawl has been idle three days, which happens only
+            # when every candidate has been read (a batch with no DJs due starts no crawl run)
+            if [ "$TLA" = 0 ] && [ "$TBA" = 0 ] && [ "$AGE" -gt 45 ] && [ "$BAGE" -gt 120 ] && [ "$AGE" -lt 4320 ]; then
+              for i in 1 2 3; do timeout 60 gh workflow run tracklist-batches.yml --repo benmcewensignal/signal-sonic --ref main && { echo "  idle: next batch started"; break; }; sleep $((i*15)); done
+            fi
+          else echo "tracklist crawl: could not read its runs"; fi
           # the live recognition index: rebuilt when a day old, since its own daily cron rarely fires; the age comes from
           # the index file's last commit, because the audio workflow's other tasks run all day and would mask it
           LASTIDX=$(gh api "repos/benmcewensignal/signal-sonic-audio/commits?path=out/index.json&per_page=1" --jq '.[0].commit.committer.date' 2>/dev/null)

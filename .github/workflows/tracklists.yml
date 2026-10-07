@@ -88,9 +88,21 @@ jobs:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
           LEFT=$(( $(cat /tmp/tracklists_left.txt 2>/dev/null || echo 0) + $(cat /tmp/classics_left.txt 2>/dev/null || echo 0) ))   # records the sets play, and classics
-          if [ "$LEFT" -gt 0 ]; then gh workflow run tracklists.yml -f measure_only=true -f measure=1200 -f djs=none -f chain="${{ inputs.chain || 'no' }}" -f since="${{ inputs.since }}" -f max_sets="${{ inputs.max_sets }}"; echo "booked a measuring run for $LEFT records"; echo "LEFT=$LEFT" >> "$GITHUB_ENV"; fi
+          # retried: a single failed dispatch ends the chain (17:00 on 7 Oct); if every try fails, LEFT stays unset and the next step starts a batch, which measures too
+          if [ "$LEFT" -gt 0 ]; then
+            for i in 1 2 3 4 5; do
+              if timeout 60 gh workflow run tracklists.yml -f measure_only=true -f measure=1200 -f djs=none -f chain="${{ inputs.chain || 'no' }}" -f since="${{ inputs.since }}" -f max_sets="${{ inputs.max_sets }}"; then echo "booked a measuring run for $LEFT records"; echo "LEFT=$LEFT" >> "$GITHUB_ENV"; break; fi
+              echo "could not book it (try $i)"; sleep $((i*20))
+            done
+          fi
       - name: the next batch
         # the chain carries through the measuring runs, and only the run that leaves nothing unmeasured starts the next batch
         if: always() && inputs.chain == 'yes' && env.LEFT == ''
         env: { GH_TOKEN: "${{ github.token }}" }
-        run: gh workflow run tracklist-batches.yml --repo "${{ github.repository }}" --ref main -f since="${{ inputs.since }}" -f max_sets="${{ inputs.max_sets }}" -f chain=yes
+        run: |
+          # retried, as the watchdog's own hand-off is; if it still fails, the watchdog restarts the crawl within the hour
+          for i in 1 2 3 4 5; do
+            if timeout 60 gh workflow run tracklist-batches.yml --repo "${{ github.repository }}" --ref main -f since="${{ inputs.since }}" -f max_sets="${{ inputs.max_sets }}" -f chain=yes; then echo "next batch started"; exit 0; fi
+            echo "could not start the next batch (try $i)"; sleep $((i*20))
+          done
+          exit 1
