@@ -14,6 +14,23 @@ MEASURES = ("tempo", "bass_weight", "loudness", "drum_density", "vocal_presence"
 BINS = 10
 
 
+_MEASURED = {}
+
+
+def measured(ver, p="data/tracklists/measured.jsonl"):
+    """data/tracklists/measured.jsonl read once per run: each record's first line on this analyser version. It was read
+    in full for every DJ, which made the step grow with DJs times records measured (15 minutes of a 40-minute run at
+    945 DJs and 31,000 lines)."""
+    if ver not in _MEASURED:
+        M = {}
+        if os.path.exists(p):
+            for ln in open(p):
+                r = json.loads(ln)
+                if str(r.get("analyser_ver", "")).startswith(ver): M.setdefault(r["track_id"], r["features"])
+        _MEASURED[ver] = M
+    return _MEASURED[ver]
+
+
 def features(db, ver, want):
     F = {}
     if os.path.exists(db):
@@ -22,11 +39,9 @@ def features(db, ver, want):
             if str(v).startswith(ver):
                 try: F[tid] = json.loads(f)
                 except Exception: pass
-    p = "data/tracklists/measured.jsonl"
-    if os.path.exists(p):
-        for ln in open(p):
-            r = json.loads(ln)
-            if r["track_id"] in want and str(r.get("analyser_ver", "")).startswith(ver): F.setdefault(r["track_id"], r["features"])
+    M = measured(ver)
+    for t in want:
+        if t in M: F.setdefault(t, M[t])
     return F
 
 
