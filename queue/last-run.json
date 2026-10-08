@@ -1,8 +1,8 @@
 {
- "ran": "2026-10-08T08:12:06Z",
+ "ran": "2026-10-08T08:45:23Z",
  "log": [
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -10,7 +10,7 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.scene_import --db sonic.db",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.scene_import --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -18,7 +18,7 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
    "rc": 0,
    "minutes": 0.2,
    "tail": [
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredients --db sonic.db --out data/ingredient-series.json",
    "rc": 0,
    "minutes": 0.1,
    "tail": [
@@ -41,7 +41,7 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.links --db sonic.db --out data/links.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.links --db sonic.db --out data/links.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.ingredient_series --db sonic.db --out data/ingredient-series.json",
    "rc": 0,
    "minutes": 0.1,
    "tail": [
@@ -63,7 +63,7 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
    "rc": 1,
    "minutes": 0.1,
    "tail": [
@@ -81,17 +81,17 @@
     "  File \"/home/runner/work/signal-sonic/signal-sonic/sonic/turns.py\", line 42, in series",
     "    out[scene] = (ms, np.array([np.mean(months[m], axis=0) for m in ms]))",
     "                                ^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/numpy/_core/fromnumeric.py\", line 3862, in mean",
+    "  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/numpy/_core/fromnumeric.py\", line 3862, in mean",
     "    return _methods._mean(a, axis=axis, dtype=dtype,",
     "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-    "  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/numpy/_core/_methods.py\", line 116, in _mean",
+    "  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/numpy/_core/_methods.py\", line 116, in _mean",
     "    arr = asanyarray(a)",
     "          ^^^^^^^^^^^^^",
     "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (156,) + inhomogeneous part."
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.chainlink --db sonic.db --out data/chainlink.json",
    "rc": 0,
    "minutes": 0.1,
    "tail": [
@@ -108,7 +108,7 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.reach --db sonic.db --out data/reach.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -140,13 +140,13 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.texture --db sonic.db --out data/texture.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": []
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.supply --db sonic.db --out data/supply.json",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
@@ -175,14 +175,14 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 5.5,
+   "minutes": 6.4,
    "tail": [
     "artist records for 11672 artists; sounds-like for 3585",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-08T08:10:39Z\",",
+    " \"generated\": \"2026-10-08T08:42:59Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -207,12 +207,12 @@
    ]
   },
   {
-   "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
+   "cmd": "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.2,
+   "minutes": 2.1,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-08T08:12:05Z\",",
+    " \"generated\": \"2026-10-08T08:45:22Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
