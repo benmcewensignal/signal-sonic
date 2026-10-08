@@ -75,7 +75,7 @@
 "title": "Wild Ride (Ryos Extended Remix)",
 "label": "Dharma",
 "bp": "bp:20606496",
-"score": 0.918,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/db11d7d1-4245-485f-8021-6403452a6ff2.LOFI.mp3",
 "name": "Wild Ride",
 "mix": "Extended Mix",
@@ -139,13 +139,13 @@
 "artist": "Calvin Harris Feat. Clementine Douglas",
 "title": "Blessings (.EXA Remix)",
 "label": "Columbia",
-"bp": "bp:20706257",
-"score": 0.847,
-"preview": "https://geo-samples.beatport.com/track/7312635b-a3cd-4789-b517-4989365e0a43.LOFI.mp3",
+"bp": "bp:20764123",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/b67f6c7d-a567-4511-9005-a3d0c3121606.LOFI.mp3",
 "name": "Blessings",
-"mix": "THEMBA Remix",
-"genre": "afro-house",
-"released": "2025-07-04"
+"mix": "KETTAMA Remix",
+"genre": "dance-pop",
+"released": "2025-07-11"
 },
 {
 "minute": null,
@@ -179,7 +179,7 @@
 "title": "Life Sentence",
 "label": "Ibogatech",
 "bp": "bp:20480077",
-"score": 0.8,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/a966a111-9d88-4eee-86d9-ca11375f24fa.LOFI.mp3",
 "name": "Life Sentence",
 "mix": "Original mix",
@@ -190,7 +190,14 @@
 "minute": null,
 "artist": "LUSU",
 "title": "Siren",
-"label": "Arcane"
+"label": "Arcane",
+"bp": "bp:20295740",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/28eea904-dcca-4bbe-a462-c11894773d02.LOFI.mp3",
+"name": "Siren",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2025-04-18"
 }
 ]
 }
