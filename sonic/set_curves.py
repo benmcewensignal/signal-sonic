@@ -1,7 +1,7 @@
 """How a DJ's sets move over time: each measure by position in the set, across a DJ's sets.
 
 Reads data/tracklists/<dj>.json (records at their minute) and each matched record's measures,
-from the corpus database or data/tracklists/measured.jsonl, on ONE analyser version (records on
+from the corpus database or data/tracklists/measured*.jsonl, on ONE analyser version (records on
 another version are counted and left out). Position is minute over the set's length (the last
 stamp plus five minutes); sets without stamps use running order. Uncertainty resamples whole
 sets, since records inside a set are not independent: the unit is the DJ's set, not the record.
@@ -17,16 +17,16 @@ BINS = 10
 _MEASURED = {}
 
 
-def measured(ver, p="data/tracklists/measured.jsonl"):
-    """data/tracklists/measured.jsonl read once per run: each record's first line on this analyser version. It was read
-    in full for every DJ, which made the step grow with DJs times records measured (15 minutes of a 40-minute run at
-    945 DJs and 31,000 lines)."""
+def measured(ver, folder="data/tracklists"):
+    """data/tracklists/measured.jsonl and its later parts (measured-2.jsonl and on: GitHub's 100 MB limit), read once per
+    run: each record's first line on this analyser version. It was read in full for every DJ, which made the step grow
+    with DJs times records measured (15 minutes of a 40-minute run at 945 DJs and 31,000 lines)."""
     if ver not in _MEASURED:
+        from sonic import measured_parts as MP
         M = {}
-        if os.path.exists(p):
-            for ln in open(p):
-                r = json.loads(ln)
-                if str(r.get("analyser_ver", "")).startswith(ver): M.setdefault(r["track_id"], r["features"])
+        for ln in MP.lines(folder):
+            r = json.loads(ln)
+            if str(r.get("analyser_ver", "")).startswith(ver): M.setdefault(r["track_id"], r["features"])
         _MEASURED[ver] = M
     return _MEASURED[ver]
 

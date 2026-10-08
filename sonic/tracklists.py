@@ -165,8 +165,9 @@ def main():
     have = set()
     if os.path.exists(a.db):
         have = {r[0] for r in sqlite3.connect(a.db).execute("select track_id from tracks where analyser_id='local'")}
-    measured_path = f"{OUT}/measured.jsonl"
-    done = {json.loads(l)["track_id"] for l in open(measured_path)} if os.path.exists(measured_path) else set()
+    from sonic import measured_parts as MP   # measured.jsonl reached GitHub's 100 MB limit: new lines go to measured-2.jsonl and on
+    done = {json.loads(l)["track_id"] for l in MP.lines(OUT)}
+    measured_path = MP.current(OUT)
     to_measure = {}
     if a.measure_only:
         # work through the backlog: matched records in every saved set that the corpus still lacks

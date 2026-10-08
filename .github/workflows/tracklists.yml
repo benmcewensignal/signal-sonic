@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   sets:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # pinned: ubuntu-latest becomes Ubuntu 26 from 19 Oct 2026, under the audio decoding
     timeout-minutes: 330
     env:
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
@@ -78,6 +78,10 @@ jobs:
           git config user.name sonic-bot; git config user.email sonic@earlysignal.live
           git add data/tracklists || true
           git diff --cached --quiet && exit 0
+          # GitHub refuses any file over 100 MB, and every retry below fails the same way: measured.jsonl reached it on
+          # 8 Oct (run 120) and now rolls into measured-2.jsonl and on. Name any file near the limit rather than retrying
+          BIG=$(find data/tracklists -type f -size +95M -printf '%p %s bytes\n')
+          [ -z "$BIG" ] || { echo "::error title=save::files near GitHub's 100 MB limit, which it refuses: $BIG"; exit 1; }
           git commit -qm "tracklists: ${{ inputs.djs }} since ${{ inputs.since }}"
           # this folder is the job's own (the queue keeps main's copy), so on a conflict the run's files win
           ok=0; for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && { ok=1; break; }; sleep $((i*4)); done

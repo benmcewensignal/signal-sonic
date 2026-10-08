@@ -1,6 +1,6 @@
 """Bring the records DJ sets play into the corpus database.
 
-From data/tracklists/measured.jsonl (records the corpus lacked, measured on the corpus analyser)
+From data/tracklists/measured.jsonl and its later parts, measured-2.jsonl and on (records the corpus lacked, measured on the corpus analyser)
 and data/tracklists/<dj>.json (who played them, in which set, at which minute):
   tracks            the measure, source 'tracklist'
   track_meta        name, mix, artists and label as Beatport gave them, where the corpus lacks it
@@ -18,9 +18,9 @@ def main():
                  track_id text, entry text, primary key (set_title, position))""")
     now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     meas = {}
-    if os.path.exists("data/tracklists/measured.jsonl"):
-        for ln in open("data/tracklists/measured.jsonl"):
-            r = json.loads(ln); meas[r["track_id"]] = r
+    from sonic import measured_parts as MP   # measured.jsonl, then measured-2.jsonl and on (GitHub's 100 MB limit)
+    for ln in MP.lines("data/tracklists"):
+        r = json.loads(ln); meas[r["track_id"]] = r
     n_t = n_m = n_p = n_plays = 0
     for f in sorted(glob.glob("data/tracklists/*.json")):
         if f.endswith("curves.json"): continue
