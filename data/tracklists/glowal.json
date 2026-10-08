@@ -3,13 +3,143 @@
 "source": "MixesDB (CC BY-SA 3.0)",
 "sets": [
 {
+"title": "2019-11-01 - Glowal - TAU Cast 013",
+"records": [
+{
+"minute": 0,
+"artist": "Glowal",
+"title": "Parallel People",
+"label": "TAU",
+"bp": "bp:12593204",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0d62b82b-fcee-4fad-a7a5-6c48bd154f93.LOFI.mp3",
+"name": "Parallel People",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-10-25"
+},
+{
+"minute": 6,
+"artist": "Brrd",
+"title": "Untitled 20",
+"label": "Blueberry"
+},
+{
+"minute": 12,
+"artist": "Tunnelvisions",
+"title": "M.G.M.M. (Whitesquare Remix)",
+"label": "",
+"bp": "bp:12497246",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0dc489d9-5691-4f2a-88ac-bb840f4f178a.LOFI.mp3",
+"name": "M.G.M.M.",
+"mix": "Whitesquare Remix",
+"genre": "indie-dance",
+"released": "2019-10-25"
+},
+{
+"minute": 17,
+"artist": "Phunkadelica",
+"title": "Pensiero Stupendo (Musumeci Remix)",
+"label": "Multinotes",
+"bp": "bp:12496276",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4f508364-73e0-4e83-9379-4f041f94436f.LOFI.mp3",
+"name": "Pensiero Stupendo",
+"mix": "Musumeci Remix",
+"genre": "indie-dance",
+"released": "2019-10-18"
+},
+{
+"minute": 22,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 28,
+"artist": "Theus Mago",
+"title": "Zango Zango",
+"label": "Correspondant"
+},
+{
+"minute": 34,
+"artist": "Angelov",
+"title": "Retrida",
+"label": "Diynamic",
+"bp": "bp:12617807",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b719c198-a615-47a7-80ac-9ee65f9aaa0c.LOFI.mp3",
+"name": "Retrida",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-10-11"
+},
+{
+"minute": 41,
+"artist": "Glowal",
+"title": "Ram",
+"label": "TAU",
+"bp": "bp:12593203",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a50ffa55-4640-4d51-bec0-9c9b03e392b0.LOFI.mp3",
+"name": "Ram",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-10-25"
+},
+{
+"minute": 46,
+"artist": "Suspensus",
+"title": "The Feet (Listener Edition)",
+"label": "Polyptych"
+},
+{
+"minute": 52,
+"artist": "Adana Twins",
+"title": "D.J.A.M.H.",
+"label": "TAU",
+"bp": "bp:12629350",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/39958c68-f4ac-4e84-97a6-e9e839c40ca4.LOFI.mp3",
+"name": "D.J.A.M.H.",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2019-11-22"
+},
+{
+"minute": 58,
+"artist": "Alan Dixon",
+"title": "Motel 4000",
+"label": "",
+"bp": "bp:12546564",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bccdeb8c-cf2b-40a3-9ff9-0084b0bc84ac.LOFI.mp3",
+"name": "Motel 4000",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2019-10-18"
+}
+]
+},
+{
+"title": "2022-12-26 - Glowal - Mix Mission",
+"records": []
+},
+{
 "title": "2026-01-09 - Korolova, Glowal - Captive Soul 083",
 "records": [
 {
 "minute": 2,
 "artist": "Rafael Cerato & MORGANJ",
 "title": "Slow Down",
-"label": "Captive Soul"
+"label": "Captive Soul",
+"bp": "bp:22878539",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/59139b7b-5f88-43d0-83ec-b99537a0758a.LOFI.mp3",
+"name": "Slow Down ",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-09"
 },
 {
 "minute": 5,
@@ -17,7 +147,7 @@
 "title": "Lost In Orbit",
 "label": "Area Verde",
 "bp": "bp:23051942",
-"score": 0.8,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/617c3644-ab23-4dd7-8481-7fcbae45d98f.LOFI.mp3",
 "name": "Lost in Orbit",
 "mix": "Original Mix",
@@ -36,7 +166,7 @@
 "title": "Smoke & Mirrors",
 "label": "Create",
 "bp": "bp:22171345",
-"score": 0.8,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/16e75dc1-dd64-4a12-82f7-2032cc57b748.LOFI.mp3",
 "name": "Smoke & Mirrors",
 "mix": "Extended Mix",
@@ -49,7 +179,7 @@
 "title": "This Is The End",
 "label": "Lelantus",
 "bp": "bp:22916611",
-"score": 0.819,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/17e10cae-f0fe-4570-bd93-9afa3b10bc3d.LOFI.mp3",
 "name": "This is the end",
 "mix": "Original Mix",
@@ -62,7 +192,7 @@
 "title": "All I See Is Us",
 "label": "Interstellar",
 "bp": "bp:22795867",
-"score": 0.819,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/7ae548ae-1914-4682-a950-2e1dd5eea4b6.LOFI.mp3",
 "name": "All I See Is Us",
 "mix": "Extended Mix",
@@ -73,13 +203,27 @@
 "minute": 23,
 "artist": "Jordy Wess",
 "title": "Life",
-"label": "Polyptych"
+"label": "Polyptych",
+"bp": "bp:23230809",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c9509ec7-a7f9-45ad-8a76-b6a53cc3d1b9.LOFI.mp3",
+"name": "Life",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-01-26"
 },
 {
 "minute": 27,
 "artist": "David Guetta & MORTEN Feat. Trippie Redd",
 "title": "Locked In",
-"label": "Future Rave"
+"label": "Future Rave",
+"bp": "bp:23561119",
+"score": 0.683,
+"preview": "https://geo-samples.beatport.com/track/41799287-91c6-4b83-b678-2a37a4637734.LOFI.mp3",
+"name": "Locked In (feat. Trippie Redd)",
+"mix": "feat. Trippie Redd",
+"genre": "mainstage",
+"released": "2026-01-23"
 },
 {
 "minute": 30,
@@ -138,7 +282,7 @@
 "title": "In My Blood",
 "label": "Now",
 "bp": "bp:22884604",
-"score": 0.777,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/67587785-a4fa-4dc7-bf09-55c896233abe.LOFI.mp3",
 "name": "In My Blood",
 "mix": "Original Mix",
