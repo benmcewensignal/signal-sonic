@@ -1,0 +1,178 @@
+{
+"dj": "Jack Orley",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2024-06-14 - Jack Orley - SLAM! MixMarathon",
+"records": [
+{
+"minute": 1,
+"artist": "Dennis Cruz",
+"title": "Bonito",
+"label": "Solid Grooves",
+"bp": "bp:18804445",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/356bf5fa-4536-476a-bd80-1679d55002f9.LOFI.mp3",
+"name": "Bonito",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-03-22"
+},
+{
+"minute": 5,
+"artist": "Super Flu",
+"title": "We You (Adam Ten Extended Remix)",
+"label": "Realm",
+"bp": "bp:18669600",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/46c733ba-06c2-4b2a-b687-c75866e921a6.LOFI.mp3",
+"name": "We You",
+"mix": "Adam Ten Extended Remix",
+"genre": "indie-tech",
+"released": "2024-03-01"
+},
+{
+"minute": 9,
+"artist": "Chris Lake Feat. Aluna",
+"title": "More Baby (Extended Mix)",
+"label": "Black Book",
+"bp": "bp:18094566",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/f34a7d90-aa50-40ca-9ca2-c55ee9c98224.LOFI.mp3",
+"name": "More Baby",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2023-09-15"
+},
+{
+"minute": 12,
+"artist": "Chicks Luv Us & EdiP",
+"title": "Nuthin' On (Extended Mix)",
+"label": "Kaluki",
+"bp": "bp:18581269",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b35895bf-0f87-4f7c-8f48-1ff957bdb877.LOFI.mp3",
+"name": "Nuthin' On",
+"mix": "Extended Mix",
+"genre": "minimal-deep-tech",
+"released": "2024-02-09"
+},
+{
+"minute": 15,
+"artist": "Sem Jacobs & Tagmann",
+"title": "Blue Berries (Extended Mix)",
+"label": "Funkiman",
+"bp": "bp:18902937",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/74566953-7586-49c6-8374-258a348fb09f.LOFI.mp3",
+"name": "Blue Berries",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-05-16"
+},
+{
+"minute": 20,
+"artist": "Chris Lake Feat. Aatig",
+"title": "In The Yuma",
+"label": "Black Book/Astralwerks",
+"bp": "bp:16947146",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/6a615d0b-b51a-4e44-8a79-7d0aef6b58d1.LOFI.mp3",
+"name": "In The Yuma",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-11-11"
+},
+{
+"minute": 23,
+"artist": "Paul Johnson",
+"title": "Get Get Down (Original Radio)",
+"label": "Rise",
+"bp": "bp:4654480",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3032d880-1df6-4356-ad47-61bea13b8e09.LOFI.mp3",
+"name": "Get Get Down",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2013-08-25"
+},
+{
+"minute": 24,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 28,
+"artist": "John Summit & VLTRA",
+"title": "Legacy (Extended Mix)",
+"label": "Experts Only",
+"bp": "bp:18145087",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2bc6bfcb-d16f-4fe8-aaeb-dcb23b7d85a6.LOFI.mp3",
+"name": "Legacy",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2023-09-29"
+},
+{
+"minute": 30,
+"artist": "Diplo & HUGEL Feat. Julia Church",
+"title": "Stay High (VIP Mix) (Extended)",
+"label": "Higher Ground"
+},
+{
+"minute": 35,
+"artist": "Andruss",
+"title": "Frikitona (Extended Mix)",
+"label": "Helix",
+"bp": "bp:18843317",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fbdb0d85-52a5-4d24-aaad-38612c202f3c.LOFI.mp3",
+"name": "Frikitona",
+"mix": "Odd Mob Extended Remix",
+"genre": "tech-house",
+"released": "2024-03-29"
+},
+{
+"minute": 40,
+"artist": "Roger Sanchez",
+"title": "Again (Ren\u00e9 Amesz Remix)",
+"label": "I'm Dance",
+"bp": "bp:6533487",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e587122a-4916-4789-a73b-6eceada51aa6.LOFI.mp3",
+"name": "Again",
+"mix": "Ren\u00e9 Amesz Remix",
+"genre": "mainstage",
+"released": "2007-06-15"
+},
+{
+"minute": 43,
+"artist": "Juos",
+"title": "Dile",
+"label": "Hellbent",
+"bp": "bp:18684228",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b479ee3-a853-458e-baca-f6373fff2e00.LOFI.mp3",
+"name": "Dile ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-03-15"
+},
+{
+"minute": 46,
+"artist": "Joshwa & Fallon",
+"title": "Papi",
+"label": "Insomniac",
+"bp": "bp:16932769",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6f64037-91de-4bb2-bb3e-f67da4ebdbd1.LOFI.mp3",
+"name": "Papi",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2022-10-07"
+}
+]
+}
+]
+}
