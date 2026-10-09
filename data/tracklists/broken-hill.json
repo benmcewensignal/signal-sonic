@@ -1,0 +1,179 @@
+{
+"dj": "Broken Hill",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2026-06-01 - Meduza, Broken Hill - Aeterna Radio 014",
+"records": [
+{
+"minute": 0,
+"artist": "Cloonee & Groove Theory",
+"title": "One Question",
+"label": "Epic/Legacy",
+"bp": "bp:28705962",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b449c2c1-aa9d-4771-bb61-e5f9782f5c31.LOFI.mp3",
+"name": "One Question",
+"mix": "Extended Version",
+"genre": "house",
+"released": "2026-05-01"
+},
+{
+"minute": 5,
+"artist": "Unfazed",
+"title": "A Gira (Extended Mix)",
+"label": "Spinnin' Deep",
+"bp": "bp:19880090",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7822d781-5193-4d3d-b4b3-6b2afccbc139.LOFI.mp3",
+"name": "A Gira",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2025-01-10"
+},
+{
+"minute": 10,
+"artist": "Snooko",
+"title": "Places",
+"label": "2night",
+"bp": "bp:26842924",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6f09f72-14cb-4e58-a57b-a4685f5d2b14.LOFI.mp3",
+"name": "Places",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2026-05-07"
+},
+{
+"minute": 16,
+"artist": "ALADAG",
+"title": "Awake",
+"label": "Diynamic",
+"bp": "bp:22766113",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6dab5dc-7bfe-490d-a5ac-9e776efbada8.LOFI.mp3",
+"name": "Awake",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2025-12-05"
+},
+{
+"minute": 20,
+"artist": "Notre Dame",
+"title": "No Rules",
+"label": "Diynamic",
+"bp": "bp:28540966",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/83d1d7c5-78a2-4fbe-bc0c-ca885443e4b7.LOFI.mp3",
+"name": "No Rules",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2026-05-01"
+},
+{
+"minute": 25,
+"artist": "Max Styler & Greggio",
+"title": "Oldskool Flavor",
+"label": "Nu Moda",
+"bp": "bp:28792028",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a81e51f0-5d62-4755-9fb5-c628b5083e16.LOFI.mp3",
+"name": "Oldskool Flavor",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2026-05-22"
+},
+{
+"minute": 28,
+"artist": "Green Velvet vs MEDUZA & GENESI & ESSENTIA",
+"title": "La La Land",
+"label": "Broke",
+"bp": "bp:28628634",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/559eeefd-cad5-46f3-a0cb-01eeaa108c3e.LOFI.mp3",
+"name": "La La Land",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2026-05-15"
+},
+{
+"minute": 34,
+"artist": "SIDEPIECE",
+"title": "Function (Extended Mix)",
+"label": "Catch & Release",
+"bp": "bp:28444598",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7f8f5deb-799f-48d9-b6a7-3a844f37a47f.LOFI.mp3",
+"name": "Function ",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2026-05-01"
+},
+{
+"minute": 37,
+"artist": "MEDUZA & RANI",
+"title": "Silence",
+"label": "Insomniac",
+"bp": "bp:28903456",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a7f749c2-276f-411b-9ecd-a719d8c9df82.LOFI.mp3",
+"name": "Silence",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2026-06-05"
+},
+{
+"minute": 42,
+"artist": "Broken Hill",
+"title": "Zero Tolerance (Extended Mix)",
+"label": "Aeterna",
+"bp": "bp:28935709",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/252788d1-d6af-47cf-8512-803496ae2e0b.LOFI.mp3",
+"name": "Zero Tolerance",
+"mix": "Extended",
+"genre": "tech-house",
+"released": "2026-05-22"
+},
+{
+"minute": 46,
+"artist": "GUDFELLA Feat. Jitwam",
+"title": "Morning Coffee (JATO Remix)",
+"label": "Thrive"
+},
+{
+"minute": 50,
+"artist": "Nariman Feat. Rhys From The Sticks & Charmy",
+"title": "U Up?",
+"label": "Displaced",
+"bp": "bp:29225417",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/6c36f2a8-47af-4565-89b9-e9d5bc9ebe1b.LOFI.mp3",
+"name": "u up?",
+"mix": "extended",
+"genre": "indie-tech",
+"released": "2026-06-03"
+},
+{
+"minute": 53,
+"artist": "Broken Hill & DvirNuns & Roland Clark",
+"title": "WTF (Extended Mix)",
+"label": "Thrive",
+"bp": "bp:29158075",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/00e9c1ff-b5d5-4729-9f17-ae5b17ad6ca2.LOFI.mp3",
+"name": "wtf",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2026-06-26"
+},
+{
+"minute": 57,
+"artist": "Broken Hill",
+"title": "ID",
+"label": ""
+}
+]
+}
+]
+}
