@@ -1,0 +1,571 @@
+{
+"dj": "Dompe",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-11-28 - Dompe - Ghetto Tape 51",
+"records": [
+{
+"minute": 0,
+"artist": "Dompe",
+"title": "Hope",
+"label": "Jackfruit - 010",
+"bp": "bp:11780392",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6dd9abec-3172-447b-adde-e1f7edd45224.LOFI.mp3",
+"name": "Hope",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-05-03"
+},
+{
+"minute": 5,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 9,
+"artist": "Dompe",
+"title": "French",
+"label": "Jackfruit - 010",
+"bp": "bp:13069169",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/83259ab9-a770-4ce5-8158-c8159b06951e.LOFI.mp3",
+"name": "French",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-02-21"
+},
+{
+"minute": 14,
+"artist": "Dompe",
+"title": "Space Mountain",
+"label": "Jackfruit - 010",
+"bp": "bp:16214590",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/520c4eb0-880d-4916-88db-3aec70f99597.LOFI.mp3",
+"name": "Space Mountain",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2022-03-21"
+},
+{
+"minute": 19,
+"artist": "Dompe",
+"title": "Gimme Fonk",
+"label": "Jackfruit - 010",
+"bp": "bp:12682652",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/258a235b-5f56-4259-a443-818999749595.LOFI.mp3",
+"name": "Gimme Fonk",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-11-08"
+},
+{
+"minute": 23,
+"artist": "Dompe",
+"title": "Honey",
+"label": "Jackfruit - 010",
+"bp": "bp:11780394",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d1ee0dbc-7cec-4a0c-8209-9123ac335cb1.LOFI.mp3",
+"name": "Honey",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-05-03"
+},
+{
+"minute": 28,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 32,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 36,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 41,
+"artist": "Dompe",
+"title": "Goldenmalz",
+"label": "Jackfruit - 010",
+"bp": "bp:14254425",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9e7c8d4a-3c1f-48fe-89f6-4316db5fef3b.LOFI.mp3",
+"name": "Goldenmalz",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-10-02"
+},
+{
+"minute": 46,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 50,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 55,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2019-12-02 - Dompe - Chicago Calling 68",
+"records": [
+{
+"minute": null,
+"artist": "Tiptoes",
+"title": "Stay",
+"label": "Guesthouse",
+"bp": "bp:12538693",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/20e595ad-1db5-46cb-87a0-976025cc9540.LOFI.mp3",
+"name": "Stay",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2019-09-26"
+},
+{
+"minute": null,
+"artist": "Claus Casper & Jean Philips",
+"title": "This Place",
+"label": "No Brainer",
+"bp": "bp:12375325",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5a6465ab-d025-45fb-9a71-d831fef605e9.LOFI.mp3",
+"name": "This Place",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-08-23"
+},
+{
+"minute": null,
+"artist": "Riva Starr & Mark Broom Pres. Star B",
+"title": "Gotta Have You",
+"label": "Snatch!",
+"bp": "bp:12494520",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/af9507ab-7c03-4dc5-9585-6471dca4436f.LOFI.mp3",
+"name": "Gotta Have You",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-09-13"
+},
+{
+"minute": null,
+"artist": "Daniel Steinberg",
+"title": "The Beat Trick",
+"label": "Arms & Legs",
+"bp": "bp:12549076",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b32134f1-dbaf-4241-bee8-a65773183d14.LOFI.mp3",
+"name": "The Beat Trick",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-10-04"
+},
+{
+"minute": null,
+"artist": "Danny Howells & Daniel Dubb",
+"title": "Bring Em Back (Gorge Remix)",
+"label": "Dv8",
+"bp": "bp:12459656",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5d24c05-2eb0-4dd9-9aa4-33258c87c1e5.LOFI.mp3",
+"name": "Bring 'Em Back",
+"mix": "Gorge Remix",
+"genre": "house",
+"released": "2019-08-30"
+},
+{
+"minute": null,
+"artist": "Dompe",
+"title": "Strrong Enough",
+"label": "Jackfruit",
+"bp": "bp:13226343",
+"score": 0.978,
+"preview": "https://geo-samples.beatport.com/track/df8ded52-892b-403c-9671-031d2801e644.LOFI.mp3",
+"name": "Strong Enough",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-03-20"
+},
+{
+"minute": null,
+"artist": "Carl Cox Feat. Yousef",
+"title": "I Want You (Forever) (Josh Butler Remix)",
+"label": "Cr2",
+"bp": "bp:9618436",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/ceb8587f-f326-433d-ae91-4954152986e3.LOFI.mp3",
+"name": "I Want You (Forever)",
+"mix": "Josh Butler Remix",
+"genre": "tech-house",
+"released": "2017-08-18"
+},
+{
+"minute": null,
+"artist": "Todd Terry",
+"title": "Go House",
+"label": "Inhouse",
+"bp": "bp:12492109",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6e6afa2f-5c43-4158-850a-6387f5b01f4c.LOFI.mp3",
+"name": "Go House",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2019-09-13"
+},
+{
+"minute": null,
+"artist": "Audiojack",
+"title": "On The Run",
+"label": "Origins Rcrds",
+"bp": "bp:12430134",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3ec1529a-3a86-4824-a48e-2297f891438e.LOFI.mp3",
+"name": "On the Run",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-08-30"
+},
+{
+"minute": null,
+"artist": "Mihalis Safras",
+"title": "Afrodance",
+"label": "Moon Harbour",
+"bp": "bp:13043450",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6088d29-04a6-49e2-add2-dbf9ab82453c.LOFI.mp3",
+"name": "Afrodance",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-01-25"
+},
+{
+"minute": null,
+"artist": "M.in & Gunman",
+"title": "I Believe",
+"label": "My Favourite Freaks",
+"bp": "bp:12421716",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9ab75586-76d6-4f25-be28-9ea1cff7c6d5.LOFI.mp3",
+"name": "I Believe",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-09-06"
+},
+{
+"minute": null,
+"artist": "Dompe",
+"title": "My Beat",
+"label": "Jackfruit",
+"bp": "bp:13175035",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/31fec1ba-971f-4059-a901-3e5738b256ff.LOFI.mp3",
+"name": "My Beat",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-03-06"
+},
+{
+"minute": null,
+"artist": "Mark Laird",
+"title": "Sneakin'",
+"label": "Madhouse",
+"bp": "bp:12360460",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a67b0384-d555-4ce3-a3b9-b929c2339f66.LOFI.mp3",
+"name": "Sneakin'",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-09-13"
+},
+{
+"minute": null,
+"artist": "Sidney Charles",
+"title": "Fkn Hrd",
+"label": "Saved",
+"bp": "bp:12085416",
+"score": 0.914,
+"preview": "https://geo-samples.beatport.com/track/5cd691f3-9b5c-49e2-8dbb-af6290e98aa1.LOFI.mp3",
+"name": "Fnk Hrd",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2019-06-28"
+},
+{
+"minute": null,
+"artist": "Ruff Stuff",
+"title": "Last Chance",
+"label": "Ruff Stuff Music",
+"bp": "bp:12394234",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6ac6cf8-3995-476c-a706-f1123575ccd0.LOFI.mp3",
+"name": "Last Chance",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-09-02"
+},
+{
+"minute": null,
+"artist": "Laurent Garnier & Chambray",
+"title": "Feelin' Good",
+"label": "Rekids",
+"bp": "bp:12208032",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cf41acaa-2046-4684-af79-2b19ba6a3372.LOFI.mp3",
+"name": "Feelin' Good",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-07-12"
+},
+{
+"minute": null,
+"artist": "Dompe",
+"title": "Good Vibration",
+"label": "",
+"bp": "bp:13001193",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2a0d75e4-2842-450c-923b-53cd9691c688.LOFI.mp3",
+"name": "Good Vibration",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-02-10"
+},
+{
+"minute": null,
+"artist": "Darius Syrossian",
+"title": "Unnamed 3",
+"label": "Moxy Muzik",
+"bp": "bp:11783210",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3af3940a-4147-4e73-86d1-e605c6b66bb4.LOFI.mp3",
+"name": "Unnamed 3",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-04-26"
+},
+{
+"minute": null,
+"artist": "Dompe",
+"title": "Twine Time",
+"label": ""
+}
+]
+},
+{
+"title": "2024-04-20 - Dompe - Digital Night Music Podcast 364",
+"records": [
+{
+"minute": 0,
+"artist": "Dompe",
+"title": "Speak Easy",
+"label": "",
+"bp": "bp:17615805",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/05557717-a5c8-4390-b7a1-8b0a358baaea.LOFI.mp3",
+"name": "Speak Easy",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-05-05"
+},
+{
+"minute": 4,
+"artist": "Dompe",
+"title": "Hard Life",
+"label": "Heat Up Music",
+"bp": "bp:17605559",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cfef25d8-4217-4d69-8f62-affc1d68f7f5.LOFI.mp3",
+"name": "Hard Life",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2023-05-26"
+},
+{
+"minute": 6,
+"artist": "Dompe",
+"title": "Reach Out",
+"label": "Jackfruit",
+"bp": "bp:17713387",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/05e9f509-4279-4526-8dc1-bfa40e056734.LOFI.mp3",
+"name": "Reach Out",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-06-02"
+},
+{
+"minute": 9,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 11,
+"artist": "Dompe",
+"title": "In Your Face",
+"label": "Jackfruit",
+"bp": "bp:18301141",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd016374-6c0b-4ae8-9667-91c7bf229b03.LOFI.mp3",
+"name": "In Your Face",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-12-01"
+},
+{
+"minute": 13,
+"artist": "Dompe",
+"title": "Triple Y",
+"label": "Heat Up Music",
+"bp": "bp:17605558",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a35a3a40-242a-45e1-9c7c-a04d88e6e7ad.LOFI.mp3",
+"name": "Triple Y",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2023-05-26"
+},
+{
+"minute": 17,
+"artist": "Wild & Kins",
+"title": "Losing Control (Dompe Remix)",
+"label": "Sweed",
+"bp": "bp:17153988",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b0472c5f-9848-4693-84db-9a3130a9d093.LOFI.mp3",
+"name": "Losing Control",
+"mix": "Dompe Remix",
+"genre": "house",
+"released": "2022-12-16"
+},
+{
+"minute": 20,
+"artist": "Dompe",
+"title": "Roots",
+"label": "Jackfruit",
+"bp": "bp:17795021",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/69e37737-3dc5-4bed-973b-c22e77845494.LOFI.mp3",
+"name": "Roots",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-06-30"
+},
+{
+"minute": 24,
+"artist": "Dompe",
+"title": "Work",
+"label": "Jackfruit",
+"bp": "bp:17853445",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/59c042d7-98a3-42b3-837f-d902b58cfc7a.LOFI.mp3",
+"name": "Work",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-07-14"
+},
+{
+"minute": 27,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 30,
+"artist": "Dompe",
+"title": "Step One",
+"label": "",
+"bp": "bp:17795022",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/80e001a9-f1dd-4efb-95d3-f742e750a111.LOFI.mp3",
+"name": "Step One",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2023-06-30"
+},
+{
+"minute": 36,
+"artist": "Dompe",
+"title": "Ice Cream",
+"label": "Jackfruit",
+"bp": "bp:17713386",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/102c4b47-038c-48d1-8ffa-10a8dd7bf39f.LOFI.mp3",
+"name": "Ice Cream",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-06-02"
+},
+{
+"minute": 39,
+"artist": "Dompe",
+"title": "Fat Banana",
+"label": "",
+"bp": "bp:18150817",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d094b4bd-aca7-4853-88c4-761ee32c65df.LOFI.mp3",
+"name": "Fat Banana",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2023-10-27"
+},
+{
+"minute": 44,
+"artist": "Dompe",
+"title": "Burning",
+"label": "Jackfruit",
+"bp": "bp:18658829",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b01fe809-4886-4ad8-94e1-29ca155e38b8.LOFI.mp3",
+"name": "Burning",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2024-02-23"
+},
+{
+"minute": 49,
+"artist": "Dompe",
+"title": "Rumba",
+"label": "Jackfruit",
+"bp": "bp:16658712",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/81a3474c-f7af-400c-b6fd-eb3321cdd9bb.LOFI.mp3",
+"name": "Rumba",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-07-22"
+},
+{
+"minute": 52,
+"artist": "Dompe",
+"title": "Jack Is Back",
+"label": "Jackfruit",
+"bp": "bp:18493445",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cf62b096-eb7f-4ef0-a592-256823d4fdad.LOFI.mp3",
+"name": "Jack Is Back",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-02-02"
+},
+{
+"minute": 57,
+"id": null,
+"raw": "&#160;?"
+}
+]
+}
+]
+}
