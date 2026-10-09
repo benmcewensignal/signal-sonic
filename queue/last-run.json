@@ -1,12 +1,12 @@
 {
- "ran": "2026-10-09T12:46:55Z",
+ "ran": "2026-10-09T13:17:01Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: could not list the worker repo (HTTPError); nothing to do"
+    "import: no new files"
    ]
   },
   {
@@ -177,12 +177,12 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 6.2,
+   "minutes": 4.9,
    "tail": [
-    "artist records for 11788 artists; sounds-like for 3710",
+    "artist records for 11788 artists; sounds-like for 3714",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-09T12:44:49Z\",",
+    " \"generated\": \"2026-10-09T13:15:08Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -201,7 +201,7 @@
     " \"booking_side\": 30957,",
     " \"release_side\": 30932,",
     " \"joined\": 3535,",
-    " \"tracks_with_metadata\": 115675,",
+    " \"tracks_with_metadata\": 116029,",
     " \"join_rate_release_side\": 0.114",
     "}"
    ]
@@ -209,10 +209,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.8,
+   "minutes": 1.7,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-09T12:46:54Z\",",
+    " \"generated\": \"2026-10-09T13:17:00Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
