@@ -1,0 +1,635 @@
+{
+"dj": "North Base",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2020-05-09 - North Base @ RAMLive House Party",
+"records": []
+},
+{
+"title": "2022-04-01 - North Base - PLFM Mix 004",
+"records": []
+},
+{
+"title": "2023-05-09 - North Base - Kool FM",
+"records": [
+{
+"minute": 0,
+"artist": "North Base X Kitcha",
+"title": "Vauxhall Cavalier",
+"label": "Technique",
+"bp": "bp:17525845",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/4b059bd6-165e-4d44-9fd2-bc0058af7489.LOFI.mp3",
+"name": "Vauxhall Cavalier",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-04-28"
+},
+{
+"minute": null,
+"artist": "[0??] North Base",
+"title": "It's That Guy (Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] North Base X Kitcha",
+"title": "Roar",
+"label": "Technique",
+"bp": "bp:17525847",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/4f988818-dac5-4c1a-920a-d17a00a68f7b.LOFI.mp3",
+"name": "Roar",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-04-28"
+},
+{
+"minute": null,
+"artist": "[0??] Deekline & North Base",
+"title": "I Be On It",
+"label": "Jungle Cakes",
+"bp": "bp:17667967",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/f7a8e414-e52e-4f43-a41a-a5ac524e6118.LOFI.mp3",
+"name": "I Be On It",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-26"
+},
+{
+"minute": null,
+"artist": "[0??] Hedex Feat. Eksman",
+"title": "MHITR (Semi Automatic)",
+"label": "DnB Allstars",
+"bp": "bp:17576495",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/b0c9b6ec-6f23-4967-b5bd-9e28bc050e83.LOFI.mp3",
+"name": "MHITR (Semi-Automatic) [feat. Eksman]",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-04-20"
+},
+{
+"minute": null,
+"artist": "[0??] Toxinate",
+"title": "Nope",
+"label": "Dubz",
+"bp": "bp:17476383",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/568b725c-a5d2-44c4-a6f8-0c2bd83e74e5.LOFI.mp3",
+"name": "Nope",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-03-24"
+},
+{
+"minute": null,
+"artist": "[0??] Airglo",
+"title": "Lights Out",
+"label": "Bassrush",
+"bp": "bp:18726692",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/c0be9762-ed82-48f5-93e7-97e9c434ba02.LOFI.mp3",
+"name": "LIGHTS OUT",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-03-22"
+},
+{
+"minute": null,
+"artist": "[0??] Turno X North Base",
+"title": "Third Eye (VIP)",
+"label": "Viper - Unreleased"
+},
+{
+"minute": null,
+"artist": "[0??] Dez",
+"title": "Vibration",
+"label": "VISION",
+"bp": "bp:17587241",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/1dd81463-c3dd-433f-aefc-56a86e5406b0.LOFI.mp3",
+"name": "Vibration",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-04-14"
+},
+{
+"minute": null,
+"artist": "[0??] Pengo",
+"title": "Flex",
+"label": "Pick The Lot",
+"bp": "bp:17673008",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/5f46cb27-ae3e-42de-b6be-af3f546f2d05.LOFI.mp3",
+"name": "Flex",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-26"
+},
+{
+"minute": null,
+"artist": "[0??] North Base X Chords X Ewan Sim",
+"title": "Paradigm",
+"label": "Viper",
+"bp": "bp:16791341",
+"score": 0.886,
+"preview": "https://geo-samples.beatport.com/track/1e3e77d4-c9a5-4234-846a-ba661b0c2e71.LOFI.mp3",
+"name": "Paradigm",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2022-09-02"
+},
+{
+"minute": null,
+"artist": "[0??] Bad Company",
+"title": "Torpedo (InsideInfo Remix)",
+"label": "Bad Taste",
+"bp": "bp:22347610",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/02d4087f-abd5-4b32-8093-14324114e56f.LOFI.mp3",
+"name": "Torpedo",
+"mix": "Insideinfo Remix",
+"genre": "drum-bass",
+"released": "2025-10-29"
+},
+{
+"minute": null,
+"artist": "[0??] Oliver Tree X Robin Schultz",
+"title": "Miss You (Bou & Hedex Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] North Base X Kitcha",
+"title": "The Set Up",
+"label": "Nemesis",
+"bp": "bp:17398027",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/91f360bd-2260-4484-b35e-10a783c811ae.LOFI.mp3",
+"name": "The Set Up",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-03-17"
+},
+{
+"minute": null,
+"artist": "[0??] Odd Mob",
+"title": "Left To Right (Subsonic Remix)",
+"label": "",
+"bp": "bp:17426190",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/b175aa55-151a-4d46-af72-601bb9b8bd2f.LOFI.mp3",
+"name": "LEFT TO RIGHT",
+"mix": "Subsonic Remix",
+"genre": "drum-bass",
+"released": "2023-03-03"
+},
+{
+"minute": null,
+"artist": "[0??] MK X Dom Dolla",
+"title": "Rhyme Dust (Dimension Remix)",
+"label": "",
+"bp": "bp:17691428",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/b7f61a69-8b09-4d89-8335-51b3d0b3ba90.LOFI.mp3",
+"name": "Rhyme Dust",
+"mix": "Dimension Extended Remix",
+"genre": "drum-bass",
+"released": "2023-05-05"
+},
+{
+"minute": null,
+"artist": "[0??] Wilkinson X ILIRA X Iiola X Tom Cane",
+"title": "Infinity",
+"label": "",
+"bp": "bp:22879227",
+"score": 0.886,
+"preview": "https://geo-samples.beatport.com/track/6d9336e2-c5bf-46c0-993c-79ecbe0d8b91.LOFI.mp3",
+"name": "Infinity",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-03-31"
+},
+{
+"minute": 34,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[0??] Sub Focus Feat. AR/CO",
+"title": "Vibration",
+"label": "One More Time",
+"bp": "bp:17721676",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/14768500-4551-4ffb-9ed6-ef625833a4fd.LOFI.mp3",
+"name": "Vibration (One More Time)",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-12"
+},
+{
+"minute": null,
+"artist": "[0??] Vengaboys",
+"title": "We Like To Party (Airglo Bootleg)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Sota",
+"title": "Harter Street (VIP)",
+"label": "Elevate"
+},
+{
+"minute": null,
+"artist": "[0??] Alibi X Sl8r",
+"title": "Framed",
+"label": "V",
+"bp": "bp:17770055",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f7e16b6e-8790-4f7e-9e59-7678ad6c7f17.LOFI.mp3",
+"name": "Framed",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "[0??] 2DB",
+"title": "Higher",
+"label": "Technique",
+"bp": "bp:18213078",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/ede691a8-716d-4804-8d5d-ffa2559ef875.LOFI.mp3",
+"name": "Higher",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-10-20"
+},
+{
+"minute": null,
+"artist": "[0??] Module",
+"title": "Classical Music",
+"label": "Sleep Less",
+"bp": "bp:17682786",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/043f72e1-897f-46a1-844c-f8f4bb5f1189.LOFI.mp3",
+"name": "Classical Music",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-06-07"
+},
+{
+"minute": null,
+"artist": "[0??] Haribo & T&gt;I",
+"title": "Dark Paradise",
+"label": "Born On Road",
+"bp": "bp:18345849",
+"score": 0.816,
+"preview": "https://geo-samples.beatport.com/track/981c30ff-2df8-4375-886f-3493a662d54f.LOFI.mp3",
+"name": "Dark Pardise",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-11-17"
+},
+{
+"minute": null,
+"artist": "[0??] Pengo",
+"title": "Modulate",
+"label": "Pick The Lot",
+"bp": "bp:17673003",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/855e5765-49a0-4de8-962b-f0bc32ce37cb.LOFI.mp3",
+"name": "Modulate",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-26"
+},
+{
+"minute": null,
+"artist": "[0??] Gino",
+"title": "Big Mistake",
+"label": "Crucast",
+"bp": "bp:17635009",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/bbeadfbf-ee55-4af3-b0cb-3a13bba49fe5.LOFI.mp3",
+"name": "Big Mistake",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-05"
+},
+{
+"minute": null,
+"artist": "[0??] The Prototypes",
+"title": "Unplug The Clock",
+"label": "Get Hype",
+"bp": "bp:17508169",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/3fa09534-cac6-4daf-b8b2-740c020273c6.LOFI.mp3",
+"name": "Unplug The Clock",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-04-21"
+},
+{
+"minute": null,
+"artist": "[0??] Jam Thieves",
+"title": "Goodbye",
+"label": "",
+"bp": "bp:23638784",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/3f5df8f6-fe21-4f58-a6b0-668ad38f97f7.LOFI.mp3",
+"name": "Goodbye",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-19"
+},
+{
+"minute": null,
+"artist": "[0??] Tantrum Desire",
+"title": "Rhythm",
+"label": "Technique",
+"bp": "bp:17800841",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/0659c3b6-a3b2-466f-b081-85a4874cf963.LOFI.mp3",
+"name": "Rhythm",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-06-16"
+},
+{
+"minute": null,
+"artist": "[0??] Killer Hertz",
+"title": "Apollo",
+"label": "Killer Hertz",
+"bp": "bp:17592531",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/cf7efac6-d05f-43f0-be18-730c5a71361a.LOFI.mp3",
+"name": "Apollo",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-04-28"
+},
+{
+"minute": 55,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[0??] Matrix",
+"title": "Temperament 23",
+"label": "Metro",
+"bp": "bp:17608642",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/e6145888-a052-4e96-a95d-a61b817440fe.LOFI.mp3",
+"name": "Temperament 23",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-06"
+},
+{
+"minute": null,
+"artist": "[0??] Imanu & The Caracal Project",
+"title": "Neiges",
+"label": "Critical",
+"bp": "bp:16047762",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/9cc44e25-6825-432c-b464-d4c2046b0f0b.LOFI.mp3",
+"name": "Neiges",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2022-01-04"
+},
+{
+"minute": null,
+"artist": "[0??] L3MMY DUBZ",
+"title": "Parasite",
+"label": "Nemesis",
+"bp": "bp:19322159",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/e928804c-9a9c-4bfc-abd3-3b140d2f7986.LOFI.mp3",
+"name": "Parasite",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-08-23"
+},
+{
+"minute": null,
+"artist": "[0??] Dez",
+"title": "Selecta",
+"label": "VISION",
+"bp": "bp:17587235",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/7c40f4ce-6ad5-4825-aeb9-ee18fa087120.LOFI.mp3",
+"name": "Selecta",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-04-14"
+},
+{
+"minute": null,
+"artist": "[0??] Kanye West",
+"title": "Fade (The Caracal Project Bootleg)",
+"label": ""
+},
+{
+"minute": 62,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[0??] Dom & Roland",
+"title": "Can't Punish Me (Crissy Criss Punish Me Again Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Dillinja",
+"title": "Nasty Ways (Audio Remix)",
+"label": "Valve - Unreleased"
+},
+{
+"minute": null,
+"artist": "[0??] Alex Reece",
+"title": "Pulp Fiction (Benny L Remix)",
+"label": "Metalheadz",
+"bp": "bp:20785162",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/13250f8f-f9cd-496e-b8cb-a557a9cf8575.LOFI.mp3",
+"name": "Pulp Fiction",
+"mix": "Benny L Remix",
+"genre": "drum-bass",
+"released": "2025-08-15"
+},
+{
+"minute": null,
+"artist": "[0??] Dillinja Feat. Skibadee",
+"title": "Twist Em Out (North Base Special)",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "[0??] DJ Hazard",
+"title": "Going On",
+"label": "Hazardous"
+},
+{
+"minute": 80,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[08?] The Caracal Project",
+"title": "The Lights On Your Face (VIP) (Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[08?] Enta",
+"title": "Slash",
+"label": "RUN",
+"bp": "bp:17238151",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/1fb14e6f-7fc3-4db6-8885-4f5dc3d8e40c.LOFI.mp3",
+"name": "Slash",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2022-12-30"
+},
+{
+"minute": null,
+"artist": "[08?] Gang Related & Mask",
+"title": "Ready Or Not",
+"label": "Dope Dragon"
+},
+{
+"minute": 90,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[09?] DJ Ss",
+"title": "Black",
+"label": "Formation",
+"bp": "bp:11632581",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/ebcde035-c564-472a-be9c-1abf235a3119.LOFI.mp3",
+"name": "Black",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2019-02-18"
+},
+{
+"minute": 98,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Levela X Eksman",
+"title": "Zone Out",
+"label": "LVL",
+"bp": "bp:16032854",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/9b834d1a-2134-4d82-8869-ead81c6d428f.LOFI.mp3",
+"name": "Zone Out",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2022-01-18"
+},
+{
+"minute": null,
+"artist": "The Funk Hunters X KillWill",
+"title": "Eleanor Rigby (TC Remix)",
+"label": "",
+"bp": "bp:17515990",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/0df08980-0e07-4e8b-bbd3-93b4ba08472c.LOFI.mp3",
+"name": "Eleanor Rigby",
+"mix": "TC Remix",
+"genre": "drum-bass",
+"released": "2023-03-24"
+},
+{
+"minute": null,
+"artist": "[1??] I Wayne",
+"title": "Can't Satisfy Her (ID Bootleg)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[1??] Buju Banton",
+"title": "Driver (Tommy Boy aka TC Remix)",
+"label": "Not On - BC 002"
+},
+{
+"minute": null,
+"artist": "[1??] Dawn Penn",
+"title": "You Don't Love Me (TC Bootleg)",
+"label": ""
+},
+{
+"minute": 108,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[1??] Serum",
+"title": "Shredder",
+"label": "Souped Up",
+"bp": "bp:17315877",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/357b3dd1-7d6b-445d-9707-e726ff1b3405.LOFI.mp3",
+"name": "Shredder",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-07-02"
+},
+{
+"minute": 113,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[11?] North Base X Issac Maya",
+"title": "Sounds Of The Underground",
+"label": "Bassrush",
+"bp": "bp:18065964",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/b7990224-e13c-462a-85d9-817df478395e.LOFI.mp3",
+"name": "Sounds Of The Underground",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-09-29"
+},
+{
+"minute": 116,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[1??] Dima Pulsar Feat. Ayah Marar",
+"title": "Only Us",
+"label": "Nemesis",
+"bp": "bp:21343248",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/2021c52a-94a1-42b8-b63a-14fad78a73c5.LOFI.mp3",
+"name": "Only Us ",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-09-26"
+}
+]
+}
+]
+}
