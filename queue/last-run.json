@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-09T01:53:12Z",
+ "ran": "2026-10-09T02:23:04Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -177,12 +177,12 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 5.7,
+   "minutes": 5.5,
    "tail": [
-    "artist records for 11728 artists; sounds-like for 3652",
+    "artist records for 11731 artists; sounds-like for 3657",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-09T01:50:48Z\",",
+    " \"generated\": \"2026-10-09T02:21:35Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -197,11 +197,11 @@
     "  \"2026-10-05\",",
     "  \"2026-10-08\"",
     " ],",
-    " \"artists_total\": 58304,",
+    " \"artists_total\": 58306,",
     " \"booking_side\": 30957,",
-    " \"release_side\": 30870,",
+    " \"release_side\": 30872,",
     " \"joined\": 3523,",
-    " \"tracks_with_metadata\": 105717,",
+    " \"tracks_with_metadata\": 107321,",
     " \"join_rate_release_side\": 0.114",
     "}"
    ]
@@ -209,10 +209,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 2.2,
+   "minutes": 1.2,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-09T01:53:11Z\",",
+    " \"generated\": \"2026-10-09T02:23:03Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -230,7 +230,7 @@
     " \"latest\": \"2026-10-08\",",
     " \"venues\": 4308,",
     " \"venues_with_3plus\": 1228,",
-    " \"leadership_artists\": 11728,",
+    " \"leadership_artists\": 11731,",
     " \"tiered_rooms\": 873",
     "}"
    ]
