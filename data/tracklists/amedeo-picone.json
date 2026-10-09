@@ -9,13 +9,27 @@
 "minute": null,
 "artist": "Amedeo Picone",
 "title": "Me Beija",
-"label": "Machaca La Membrana"
+"label": "Machaca La Membrana",
+"bp": "bp:21997496",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b6f4bbe-1c1d-4d97-a277-e52337da9efb.LOFI.mp3",
+"name": "Me Beija ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2025-10-10"
 },
 {
 "minute": null,
 "artist": "Mellizos & Rami",
 "title": "Snakes",
-"label": "Elrow"
+"label": "Elrow",
+"bp": "bp:23424924",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0045b5fc-70f4-4c5b-88f1-38a4a170f109.LOFI.mp3",
+"name": "Snakes ",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-01-16"
 },
 {
 "minute": null,
@@ -23,7 +37,7 @@
 "title": "Lover's Walk",
 "label": "Maccabi House",
 "bp": "bp:20572953",
-"score": 0.789,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/087e0fa4-5375-4082-8647-ef4bf30b458b.LOFI.mp3",
 "name": "Lover's Walk",
 "mix": "Original Mix",
@@ -40,7 +54,14 @@
 "minute": null,
 "artist": "Ronnie Spiteri",
 "title": "Nowhere",
-"label": "Knee Deep In Sound"
+"label": "Knee Deep In Sound",
+"bp": "bp:20224616",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3811808a-0be0-43c5-b1ed-4ba3a4ce8a86.LOFI.mp3",
+"name": "Nowhere",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-04-04"
 },
 {
 "minute": null,
@@ -66,7 +87,7 @@
 "title": "Please Don't Stop Me Now",
 "label": "Metamorfosi",
 "bp": "bp:23293801",
-"score": 0.872,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/092f9eba-83c2-4c84-9c41-48db30e849ca.LOFI.mp3",
 "name": "Please Don't Stop Me Now",
 "mix": "Extended Mix",
@@ -77,7 +98,14 @@
 "minute": null,
 "artist": "Nelly Furtado",
 "title": "Maneater",
-"label": "Geffen"
+"label": "Geffen",
+"bp": "bp:20896878",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c7ae989f-8b07-4dd5-abd4-3e31d6b84269.LOFI.mp3",
+"name": "Maneater",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2006-01-01"
 },
 {
 "minute": null,
@@ -98,7 +126,7 @@
 "title": "Get Naughty",
 "label": "Metamorfosi",
 "bp": "bp:23293798",
-"score": 0.777,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/0af3a6c3-b4a7-4f0a-ad66-56e1ed9f71aa.LOFI.mp3",
 "name": "Get Naughty",
 "mix": "Extended Mix",
@@ -111,7 +139,7 @@
 "title": "Unity, Love & Having Fun",
 "label": "Snatch!",
 "bp": "bp:22215180",
-"score": 0.858,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/c7da160b-1ec5-4a3e-82c5-81f5e8d82fe1.LOFI.mp3",
 "name": "Unity, Love & Having Fun ",
 "mix": "Extended Mix",
