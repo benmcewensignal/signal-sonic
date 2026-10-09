@@ -9,7 +9,14 @@
 "minute": null,
 "artist": "Zac, Tiefstone, Camila",
 "title": "Nobody",
-"label": "VOLT CREW"
+"label": "VOLT CREW",
+"bp": "bp:26883841",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eef65078-9694-402e-8120-67b884736a87.LOFI.mp3",
+"name": "Nobody",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-04-03"
 },
 {
 "minute": null,
@@ -17,7 +24,7 @@
 "title": "The Sequence",
 "label": "UV",
 "bp": "bp:23952094",
-"score": 0.789,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/fb20e56c-38f8-4677-981c-59918bb16f13.LOFI.mp3",
 "name": "The Sequence",
 "mix": "Extended Mix",
@@ -30,7 +37,7 @@
 "title": "Silver Bullet",
 "label": "UV Noir",
 "bp": "bp:28469244",
-"score": 0.8,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/3b8ee524-6e98-4776-9b5d-9342ad404da6.LOFI.mp3",
 "name": "Silver Bullet",
 "mix": "Extended Mix",
@@ -41,13 +48,27 @@
 "minute": null,
 "artist": "Tiefstone",
 "title": "The Pitt",
-"label": "UV Noir"
+"label": "UV Noir",
+"bp": "bp:28469245",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/576d7220-93d8-4d52-9e2f-3b6f321f481c.LOFI.mp3",
+"name": "The Pitt",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-05-29"
 },
 {
 "minute": null,
 "artist": "Tiefstone",
 "title": "Neo",
-"label": "UV Noir"
+"label": "UV Noir",
+"bp": "bp:29646447",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/79e2c132-1bac-44bb-97df-59ce3a151958.LOFI.mp3",
+"name": "Neo",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2026-08-07"
 },
 {
 "minute": null,
@@ -59,20 +80,20 @@
 "minute": null,
 "artist": "Tiefstone",
 "title": "Annatar",
-"label": "UV Noir"
+"label": "UV Noir",
+"bp": "bp:20171794",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fff8278e-7116-4f74-bb45-e658dab8801a.LOFI.mp3",
+"name": "Annatar",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2025-04-04"
 },
 {
 "minute": null,
 "artist": "Tiefstone, Camila",
 "title": "Morph TRONIC]",
-"label": "",
-"bp": "bp:28703911",
-"score": 0.76,
-"preview": "https://geo-samples.beatport.com/track/399ecd1b-7830-4994-b503-bd6b334a5275.LOFI.mp3",
-"name": "Morph",
-"mix": "Original Mix",
-"genre": "progressive-house",
-"released": "2026-05-08"
+"label": ""
 }
 ]
 }
