@@ -42,7 +42,10 @@ jobs:
         id: width
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
-        run: python3 scripts/idle_slots.py "${{ steps.count.outputs.backlog }}" "${{ inputs.per_shard || '300' }}" "${{ inputs.max_shards || '20' }}" >> "$GITHUB_OUTPUT"
+        run: |
+          # the sizing, as a notice: the run's annotations are readable where its logs are not
+          python3 scripts/idle_slots.py "${{ steps.count.outputs.backlog }}" "${{ inputs.per_shard || '300' }}" "${{ inputs.max_shards || '20' }}" >> "$GITHUB_OUTPUT" 2> "$RUNNER_TEMP/plan.txt"
+          cat "$RUNNER_TEMP/plan.txt"; echo "::notice title=measuring plan::$(tail -1 "$RUNNER_TEMP/plan.txt")"
       - name: one list per shard
         if: steps.width.outputs.n != '0'
         run: |
