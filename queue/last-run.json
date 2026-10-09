@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-09T13:17:01Z",
+ "ran": "2026-10-09T13:51:12Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -25,7 +25,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 6",
+    " \"deezer usable\": 7",
     "}"
    ]
   },
@@ -177,12 +177,12 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 4.9,
+   "minutes": 6.4,
    "tail": [
-    "artist records for 11788 artists; sounds-like for 3714",
+    "artist records for 11790 artists; sounds-like for 3716",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-09T13:15:08Z\",",
+    " \"generated\": \"2026-10-09T13:48:48Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -197,11 +197,11 @@
     "  \"2026-10-05\",",
     "  \"2026-10-08\"",
     " ],",
-    " \"artists_total\": 58354,",
+    " \"artists_total\": 58355,",
     " \"booking_side\": 30957,",
-    " \"release_side\": 30932,",
-    " \"joined\": 3535,",
-    " \"tracks_with_metadata\": 116029,",
+    " \"release_side\": 30934,",
+    " \"joined\": 3536,",
+    " \"tracks_with_metadata\": 116362,",
     " \"join_rate_release_side\": 0.114",
     "}"
    ]
@@ -209,10 +209,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.7,
+   "minutes": 2.2,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-09T13:17:00Z\",",
+    " \"generated\": \"2026-10-09T13:51:12Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -230,7 +230,7 @@
     " \"latest\": \"2026-10-08\",",
     " \"venues\": 4308,",
     " \"venues_with_3plus\": 1228,",
-    " \"leadership_artists\": 11788,",
+    " \"leadership_artists\": 11790,",
     " \"tiered_rooms\": 873",
     "}"
    ]
