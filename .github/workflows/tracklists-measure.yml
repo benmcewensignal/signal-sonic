@@ -1,0 +1,181 @@
+name: tracklists measure
+# Measures the records DJ sets play that the corpus lacks, alongside the crawl rather than in turn with it. Until 9 Oct
+# the crawl (tracklists.yml) fetched a batch, measured, and booked measuring-only runs before it fetched again: over a
+# day 41% of its time went to fetching and 42% to measuring, on one job, while most of the account's job slots sat idle.
+# Now the crawl only fetches and matches, and this chain measures. A plan job counts the backlog and the idle job slots
+# and splits the backlog into one list per shard; the shards measure their lists; one job writes their lines to
+# data/tracklists/measured/<pass>.jsonl, a file nothing else writes, and into the release database.
+# Started by every crawl run, and by itself while records remain and its last pass measured some. One pass at a time.
+on:
+  workflow_dispatch:
+    inputs:
+      per_shard:  { description: "records each shard measures (300 is about twelve minutes)", default: "300" }
+      max_shards: { description: "widest a pass may be, whatever is idle", default: "20" }
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: tracklists-measure
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    outputs:
+      n: ${{ steps.width.outputs.n }}
+      shards: ${{ steps.width.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: fetch the database (read only)
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/db"
+          for i in 1 2 3; do gh release download deepened --pattern sonic.db --clobber --dir "$RUNNER_TEMP/db" && [ -s "$RUNNER_TEMP/db/sonic.db" ] && break; sleep 20; done
+      - name: count the backlog
+        id: count
+        run: |
+          B=$(python3 -m sonic.tracklists --djs none --measure-only --count --list-out "$RUNNER_TEMP/backlog.json" --db "$RUNNER_TEMP/db/sonic.db" | tail -1)
+          case "$B" in ''|*[!0-9]*) echo "::error::could not count the backlog: $B"; exit 1;; esac
+          echo "backlog=$B" >> "$GITHUB_OUTPUT"; echo "records waiting to be measured: $B"
+      - name: size the pass to the idle job slots
+        id: width
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: python3 scripts/idle_slots.py "${{ steps.count.outputs.backlog }}" "${{ inputs.per_shard || '300' }}" "${{ inputs.max_shards || '20' }}" >> "$GITHUB_OUTPUT"
+      - name: one list per shard
+        if: steps.width.outputs.n != '0'
+        run: |
+          mkdir -p todo
+          python3 -c "
+          import json, sys
+          L = json.load(open(sys.argv[1])); n, p = int(sys.argv[2]), int(sys.argv[3])
+          json.dump({str(k): L[k * p:(k + 1) * p] for k in range(n)}, open('todo/todo.json', 'w'))
+          print(f'{min(len(L), n * p)} of {len(L)} records in {n} lists')
+          " "$RUNNER_TEMP/backlog.json" "${{ steps.width.outputs.n }}" "${{ inputs.per_shard || '300' }}"
+      - name: keep the lists
+        if: steps.width.outputs.n != '0'
+        uses: actions/upload-artifact@v4
+        with: { name: todo, path: todo/todo.json, retention-days: 7 }
+
+  shard:
+    needs: plan
+    if: needs.plan.outputs.n != '0'
+    runs-on: ubuntu-24.04   # pinned: ubuntu-latest becomes Ubuntu 26 from 19 Oct 2026, under the audio decoding
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false        # one shard failing must not discard the others' records
+      matrix:
+        shard: ${{ fromJSON(needs.plan.outputs.shards) }}
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # the code alone: a shard's records come in the plan's list, so it needs neither the sets nor the database
+          sparse-checkout: |
+            /sonic/
+            /requirements.txt
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: install
+        run: |
+          sudo apt-get install -y -q ffmpeg >/dev/null
+          pip install -q -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with: { name: todo, path: todo }
+      - name: measure this shard's records
+        run: |
+          mkdir -p out
+          python -m sonic.tracklists --djs none --measure-only --todo todo/todo.json --shard ${{ matrix.shard }} --measure "${{ inputs.per_shard || '300' }}" \
+            --out out/measured-${{ matrix.shard }}.jsonl --failed-out out/failed-${{ matrix.shard }}.txt
+      - name: keep this shard's lines
+        if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: "measured-${{ matrix.shard }}", path: out/, retention-days: 7, if-no-files-found: warn }
+
+  collect:
+    needs: [plan, shard]
+    if: always() && needs.plan.result == 'success' && needs.plan.outputs.n != '0'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: gather the shards' lines
+        uses: actions/download-artifact@v4
+        with: { pattern: "measured-*", path: inbox, merge-multiple: true }
+        continue-on-error: true
+      - name: one file for the pass
+        id: pass
+        run: |
+          python3 - <<'EOF'
+          import glob, json, os, sys
+          sys.path.insert(0, ".")
+          from sonic import measured_parts as MP
+          have = {json.loads(l)["track_id"] for l in MP.lines()}
+          seen, out = set(), []
+          for f in sorted(glob.glob("inbox/measured-*.jsonl")):
+              for ln in open(f):
+                  if not ln.strip(): continue
+                  t = json.loads(ln)["track_id"]
+                  if t in have or t in seen: continue
+                  seen.add(t); out.append(ln if ln.endswith("\n") else ln + "\n")
+          fails = [ln.strip() for f in sorted(glob.glob("inbox/failed-*.txt")) for ln in open(f) if ln.strip() and ln.strip() not in seen]
+          # two failures and a record leaves the backlog, so a pass where many fail is the server's fault, not the
+          # records': it is not held against them
+          if fails and len(fails) > 0.2 * (len(out) + len(fails)):
+              print(f"::warning title=measuring pass::{len(fails)} of {len(out) + len(fails)} failed: not recorded against the records")
+              fails = []
+          open(os.environ["RUNNER_TEMP"] + "/pass.jsonl", "w").writelines(out)
+          open(os.environ["RUNNER_TEMP"] + "/failed.txt", "w").writelines(t + "\n" for t in fails)
+          shards = len(glob.glob("inbox/measured-*.jsonl"))
+          msg = f"{len(out)} records measured by {shards} shards, {len(fails)} that could not be"
+          print(msg); print(f"::notice title=measuring pass::{msg}")
+          open(os.environ["GITHUB_OUTPUT"], "a").write(f"measured={len(out)}\nfailed={len(fails)}\n")
+          EOF
+      - name: import into the corpus database and save it through the merge
+        if: steps.pass.outputs.measured != '0'
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/db"
+          for i in 1 2 3; do gh release download deepened --pattern sonic.db --clobber --dir "$RUNNER_TEMP/db" && [ -s "$RUNNER_TEMP/db/sonic.db" ] && break; sleep 20; done
+          cp "$RUNNER_TEMP/db/sonic.db" /tmp/base.db
+          gh api "repos/${{ github.repository }}/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id' > /tmp/base.id
+          python -m sonic.tracklists_import --db "$RUNNER_TEMP/db/sonic.db" --tracks-only "$RUNNER_TEMP/pass.jsonl"
+          # if this save fails, the lines committed below still reach the database: every crawl run imports every part
+          bash scripts/release_save.sh "${{ github.repository }}" "${{ github.run_id }}" /tmp/base.db /tmp/base.id "$RUNNER_TEMP/db/sonic.db"
+      - name: save the pass's lines
+        if: always() && (steps.pass.outputs.measured != '0' || steps.pass.outputs.failed != '0')
+        run: |
+          git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          # applied afresh to the newest main on every try, so a crawl run's push in between is never a conflict
+          ok=0
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main || { sleep $((i*5)); continue; }
+            mkdir -p data/tracklists/measured
+            cp "$RUNNER_TEMP/pass.jsonl" "data/tracklists/measured/${{ github.run_number }}.jsonl"
+            cat "$RUNNER_TEMP/failed.txt" >> data/tracklists/measured/failed.txt
+            [ -s "data/tracklists/measured/${{ github.run_number }}.jsonl" ] || rm -f "data/tracklists/measured/${{ github.run_number }}.jsonl"
+            git add data/tracklists/measured
+            git diff --cached --quiet && { ok=1; break; }
+            git commit -qm "measured: pass ${{ github.run_number }}, ${{ steps.pass.outputs.measured }} records"
+            git push -q origin HEAD:main && { ok=1; break; }
+            sleep $((i*5))
+          done
+          [ "$ok" = 1 ] || { echo "::error::the pass's lines were not saved to the repository (the shards' artifacts hold them)"; exit 1; }
+      - name: the next pass while records remain
+        if: always() && steps.pass.outputs.measured != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # counted against this pass's database and main as it now is, so the crawl's newest sets count too
+          LEFT=$(python3 -m sonic.tracklists --djs none --measure-only --count --db "$RUNNER_TEMP/db/sonic.db" | tail -1)
+          echo "records still waiting: ${LEFT:-unknown}"
+          case "${LEFT:-}" in ''|*[!0-9]*) LEFT=1;; esac
+          [ "$LEFT" -gt 0 ] || { echo "nothing left to measure"; exit 0; }
+          for i in 1 2 3; do timeout 60 gh workflow run tracklists-measure.yml --ref main && { echo "next pass booked"; exit 0; }; sleep $((i*15)); done
+          echo "::warning::could not book the next pass; the crawl's next run starts one"

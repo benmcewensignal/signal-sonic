@@ -155,21 +155,39 @@ def match(tok, rec, cache):
     return out
 
 
+def lasting(e):
+    """Whether a failure to measure is the record's own (no preview at that address, audio that will not decode or
+    analyse) rather than the moment's (a dropped connection, a timeout, a server error), which is not held against it."""
+    import socket, urllib.error
+    if isinstance(e, urllib.error.HTTPError): return 400 <= e.code < 500
+    if isinstance(e, (urllib.error.URLError, TimeoutError, ConnectionError, socket.timeout)): return False
+    return True
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--djs", default="Carl Cox,Andy C"); ap.add_argument("--since", type=int, default=2023)
     ap.add_argument("--db", default="sonic.db"); ap.add_argument("--measure", type=int, default=300)
     ap.add_argument("--max-sets", type=int, default=40); ap.add_argument("--measure-only", action="store_true")
+    # the measuring chain (tracklists-measure.yml): its plan counts the backlog (--count, --list-out) and splits it into a
+    # todo file, one list per shard; each shard measures its list (--todo, --shard) into its own file (--out)
+    ap.add_argument("--count", action="store_true"); ap.add_argument("--list-out", default="")
+    ap.add_argument("--todo", default=""); ap.add_argument("--shard", type=int, default=0)
+    ap.add_argument("--out", default=""); ap.add_argument("--failed-out", default="")
     a = ap.parse_args(); os.makedirs(OUT, exist_ok=True)
-    tok = B.get_token(); cache = {}
-    have = set()
-    if os.path.exists(a.db):
-        have = {r[0] for r in sqlite3.connect(a.db).execute("select track_id from tracks where analyser_id='local'")}
+    # previews need no Beatport token, so measuring alone does not log in (twenty shards would log in at once)
+    tok = None if a.measure_only else B.get_token(); cache = {}
+    have = set(); done = set()
     from sonic import measured_parts as MP   # measured.jsonl reached GitHub's 100 MB limit: new lines go to measured-2.jsonl and on
-    done = {json.loads(l)["track_id"] for l in MP.lines(OUT)}
-    measured_path = MP.current(OUT)
+    if not a.todo:   # a shard's list was drawn against both already
+        if os.path.exists(a.db):
+            have = {r[0] for r in sqlite3.connect(a.db).execute("select track_id from tracks where analyser_id='local'")}
+        done = {json.loads(l)["track_id"] for l in MP.lines(OUT)} | MP.failed(OUT)   # twice-failed records are not retried
+    measured_path = a.out or MP.current(OUT)
     to_measure = {}
-    if a.measure_only:
+    if a.todo:
+        to_measure = {bp: url for bp, url in json.load(open(a.todo)).get(str(a.shard), [])}
+    elif a.measure_only:
         # work through the backlog: matched records in every saved set that the corpus still lacks
         import glob
         for f in glob.glob(f"{OUT}/*.json"):
@@ -177,6 +195,9 @@ def main():
             for st in json.load(open(f)).get("sets", []):
                 for r in st["records"]:
                     if r.get("bp") and r["bp"] not in have and r["bp"] not in done and r.get("preview"): to_measure[r["bp"]] = r["preview"]
+    if a.count:
+        if a.list_out: json.dump(list(to_measure.items()), open(a.list_out, "w"))
+        print(len(to_measure)); return
     for dj in ([] if a.measure_only else [d.strip() for d in a.djs.split(",") if d.strip()]):
         titles = sets_for(dj, a.since)[-a.max_sets:]
         sets = []
@@ -200,6 +221,8 @@ def main():
     # grow the corpus: measure what the sets play and the corpus lacks, on the corpus analyser
     from sonic.analyser_local import LocalAnalyser
     A = LocalAnalyser(); n_ok = 0
+    if os.path.dirname(measured_path): os.makedirs(os.path.dirname(measured_path), exist_ok=True)
+    fails = open(a.failed_out, "a") if a.failed_out else None
     with open(measured_path, "a") as f:
         for bp, url in list(to_measure.items())[:a.measure]:
             try:
@@ -208,6 +231,8 @@ def main():
                 f.write(json.dumps({"track_id": bp, "analyser_ver": A.version, "features": d}, default=float) + "\n"); n_ok += 1
             except Exception as e:
                 print(f"measure {bp}: {type(e).__name__}", flush=True)
+                if fails and lasting(e): fails.write(f"{bp}\n")
+    if fails: fails.close()
     left = max(0, len(to_measure) - a.measure)
     open("/tmp/tracklists_left.txt", "w").write(str(left))
     msg = f"measured {n_ok} records the sets play and the corpus lacked, on analyser {A.version}; {left} left for the next run"

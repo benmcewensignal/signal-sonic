@@ -12,11 +12,24 @@ import argparse, glob, json, os, sqlite3, time
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--db", default="sonic.db"); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--db", default="sonic.db")
+    # the measuring chain imports only what one pass measured: the crawl's runs import the plays, names and previews
+    ap.add_argument("--tracks-only", default=""); a = ap.parse_args()
     c = sqlite3.connect(a.db)
     c.execute("""create table if not exists tracklist_plays (dj text, set_title text, minute integer, position integer,
                  track_id text, entry text, primary key (set_title, position))""")
     now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    if a.tracks_only:
+        n_t = n_l = 0
+        for ln in open(a.tracks_only):
+            if not ln.strip(): continue
+            m = json.loads(ln); n_l += 1
+            c.execute("insert or ignore into tracks (track_id, analyser_id, analyser_ver, features, source, first_seen, created_at) values (?,?,?,?,?,?,?)",
+                      (m["track_id"], "local", m["analyser_ver"], json.dumps(m["features"], default=float), "tracklist", now, time.time()))
+            n_t += c.execute("select changes()").fetchone()[0]
+        c.commit()
+        msg = f"imported {n_t} of {n_l} measured records (the rest were in the corpus already)"
+        print(msg); print(f"::notice title=tracklist import::{msg}"); return
     meas = {}
     from sonic import measured_parts as MP   # measured.jsonl, then measured-2.jsonl and on (GitHub's 100 MB limit)
     for ln in MP.lines("data/tracklists"):

@@ -1,7 +1,8 @@
 name: tracklists
-# DJ sets from MixesDB tracklists (CC BY-SA 3.0): timestamped records matched to Beatport, and
-# records the sets play that the corpus lacks measured on the corpus analyser. Reads the release
-# database without writing it; results are committed under data/tracklists/.
+# DJ sets from MixesDB tracklists (CC BY-SA 3.0): timestamped records matched to Beatport. The records
+# the sets play that the corpus lacks are measured on the corpus analyser by tracklists-measure.yml,
+# alongside this crawl, since 9 Oct (MEASURE_ALONGSIDE below; before that, here, in turn with fetching).
+# Results are committed under data/tracklists/, and imported into the release database.
 on:
   workflow_dispatch:
     inputs:
@@ -18,10 +19,28 @@ concurrency:
   group: tracklists
   cancel-in-progress: false
 jobs:
+  handover:
+    # measuring runs alongside the crawl from 9 Oct (tracklists-measure.yml). A measuring run booked by a crawl run that
+    # started before the change hands the backlog to that chain and starts the next batch, as it would have on finishing
+    if: inputs.measure_only == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          for i in 1 2 3; do timeout 60 gh workflow run tracklists-measure.yml --repo "${{ github.repository }}" --ref main && { echo "measuring chain started"; break; }; sleep $((i*15)); done
+          if [ "${{ inputs.chain }}" = "yes" ]; then
+            for i in 1 2 3 4 5; do timeout 60 gh workflow run tracklist-batches.yml --repo "${{ github.repository }}" --ref main -f since="${{ inputs.since }}" -f max_sets="${{ inputs.max_sets }}" -f chain=yes && { echo "next batch started"; exit 0; }; sleep $((i*20)); done
+            exit 1
+          fi
   sets:
+    if: inputs.measure_only != 'true'
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest becomes Ubuntu 26 from 19 Oct 2026, under the audio decoding
     timeout-minutes: 330
     env:
+      # yes: this job fetches and matches only, and tracklists-measure.yml measures the backlog alongside it, in shards
+      # as wide as the idle job slots. no: the old way, measuring here and booking measuring-only runs before fetching more
+      MEASURE_ALONGSIDE: "yes"
       BEATPORT_USERNAME: ${{ secrets.BEATPORT_USERNAME }}
       BEATPORT_PASSWORD: ${{ secrets.BEATPORT_PASSWORD }}
       BEATPORT_TOKEN: ${{ secrets.BEATPORT_TOKEN }}
@@ -60,6 +79,7 @@ jobs:
           git commit -qm "tracklists: ${{ inputs.djs }} since ${{ inputs.since }} (matched)"
           for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && break; sleep $((i*4)); done
       - name: measure the records the sets play and the corpus lacks
+        if: env.MEASURE_ALONGSIDE != 'yes'
         run: python -m sonic.tracklists --djs none --measure "${{ inputs.measure }}" --measure-only
       - name: keep the results whatever happens to the push
         if: always()
@@ -89,7 +109,7 @@ jobs:
           ok=0; for i in 1 2 3 4 5; do git pull -q --rebase --autostash -X theirs origin main && git push -q origin HEAD:main && { ok=1; break; }; sleep $((i*4)); done
           [ "$ok" = 1 ] || { echo "::error::tracklists were not saved to the repository (the artifact holds them)"; exit 1; }
       - name: book the next run while records remain unmeasured
-        if: success()
+        if: success() && env.MEASURE_ALONGSIDE != 'yes'
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
@@ -101,6 +121,13 @@ jobs:
               echo "could not book it (try $i)"; sleep $((i*20))
             done
           fi
+      - name: hand the backlog to the measuring chain
+        # one pass at a time (its own concurrency group), so a pass already under way just gains a successor
+        if: always() && env.MEASURE_ALONGSIDE == 'yes'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          for i in 1 2 3; do timeout 60 gh workflow run tracklists-measure.yml --repo "${{ github.repository }}" --ref main && { echo "measuring pass requested"; exit 0; }; sleep $((i*15)); done
+          echo "::warning::could not start a measuring pass; the next crawl run asks again"
       - name: the next batch
         # the chain carries through the measuring runs, and only the run that leaves nothing unmeasured starts the next batch
         if: always() && inputs.chain == 'yes' && env.LEFT == ''
