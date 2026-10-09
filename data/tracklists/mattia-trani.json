@@ -1,0 +1,914 @@
+{
+"dj": "Mattia Trani",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-06-07 - Mattia Trani (Live PA) @ Extrema Outdoor, Houthalen-Helchteren, Belgium",
+"records": []
+},
+{
+"title": "2019-06-07 - VA @ Extrema Outdoor, Houthalen-Helchteren, Belgium",
+"records": [
+{
+"minute": 5,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Architectural",
+"title": "Temptation",
+"label": "Ellum",
+"bp": "bp:8967500",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/745b3346-e8ad-46e8-b5ff-6b3657ba305d.LOFI.mp3",
+"name": "Temptation",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-03-31"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Mind Against",
+"title": "Forevermore",
+"label": "",
+"bp": "bp:11975694",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/976d72d9-4010-4da9-a8aa-7f340957ee7e.LOFI.mp3",
+"name": "Forevermore",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "Mathame",
+"title": "Fade Into You",
+"label": "Afterlife",
+"bp": "bp:10950394",
+"score": 0.978,
+"preview": "https://geo-samples.beatport.com/track/192641c5-8e61-48f2-9492-93b373a10f34.LOFI.mp3",
+"name": "Fade In To You",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2018-09-07"
+},
+{
+"minute": null,
+"artist": "Kodem",
+"title": "Vault Lines",
+"label": "Kodem",
+"bp": "bp:12023707",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d003dbbf-36a6-4959-9f38-57e28fe3dc03.LOFI.mp3",
+"name": "Vault Lines",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-06-04"
+},
+{
+"minute": null,
+"artist": "Woo York",
+"title": "Burning With You",
+"label": "Afterlife",
+"bp": "bp:10476663",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d283fb21-febe-4215-a66c-0048182a3be8.LOFI.mp3",
+"name": "Burning With You",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2018-05-04"
+},
+{
+"minute": null,
+"artist": "Yotam Avni",
+"title": "Ma\u00f1ana Ma\u00f1ana",
+"label": "Kompakt"
+},
+{
+"minute": null,
+"artist": "Jody Barr",
+"title": "Violet Apogee",
+"label": "Last Night On Earth",
+"bp": "bp:11982646",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3b299dbd-02dc-49c2-b268-c87774cf8106.LOFI.mp3",
+"name": "Violet Apogee",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "Heiko Laux",
+"title": "Fernweh",
+"label": "Downpitch",
+"bp": "bp:5934030",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8e08ab28-3af6-4ec3-94db-1c8cbebdd3c5.LOFI.mp3",
+"name": "Fernweh",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-12-12"
+},
+{
+"minute": null,
+"artist": "R\u00f8dh\u00e5d Feat. Vril",
+"title": "Target Line",
+"label": "Dystopian",
+"bp": "bp:18316252",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/f2a529d6-42bb-4203-baad-791f3c8ad74c.LOFI.mp3",
+"name": "Target Line",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2017-10-20"
+},
+{
+"minute": null,
+"artist": "Dubspeeka",
+"title": "Bedlam",
+"label": "Drumcode",
+"bp": "bp:5469503",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c33d7c8a-ec65-4cb2-becf-dc2abcbe34af.LOFI.mp3",
+"name": "Bedlam",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-06-09"
+},
+{
+"minute": null,
+"artist": "Moderat",
+"title": "Bad Kingdom (Marcel Dettmann Remix)",
+"label": "50 Weapons",
+"bp": "bp:4822512",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/97461fd2-33be-450d-be9c-d09bada55255.LOFI.mp3",
+"name": "Bad Kingdom",
+"mix": "Marcel Dettmann Remix",
+"genre": "techno-peak-time-driving",
+"released": "2013-11-29"
+},
+{
+"minute": null,
+"artist": "Laherte",
+"title": "Anna",
+"label": "Frequenza",
+"bp": "bp:12036497",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36b7f843-c03c-4959-95ec-74ab489d7984.LOFI.mp3",
+"name": "Anna",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Yotam Avni",
+"title": "Track For Agoria",
+"label": "Kompakt",
+"bp": "bp:11857377",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1986888a-2f75-4240-8cb8-9e98d2c979f5.LOFI.mp3",
+"name": "Track for Agoria",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "Quenum",
+"title": "Blue Mountain",
+"label": "Cocoon",
+"bp": "bp:11320033",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b5958d40-2bff-4805-8a74-4138eaf0c771.LOFI.mp3",
+"name": "Blue Mountain",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2019-01-18"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Emmanuel",
+"title": "Bethide",
+"label": "Arts",
+"bp": "bp:11888209",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0b7edd3b-aedc-4d9a-86ee-6152a6ee221e.LOFI.mp3",
+"name": "Bethide",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-05-06"
+},
+{
+"minute": null,
+"artist": "Jeff Rushin",
+"title": "Lead Me",
+"label": "Odd Even",
+"bp": "bp:11624094",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a48032d-0017-49a5-b4ac-eeb8e01e152e.LOFI.mp3",
+"name": "Lead Me",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-02-28"
+},
+{
+"minute": null,
+"artist": "3 Channels",
+"title": "Rucola Apocalypse",
+"label": "Kompakt Exklusiv",
+"bp": "bp:7335690",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/926a492f-7c16-4709-9b33-63fa6a892a68.LOFI.mp3",
+"name": "Rucola Apocalypse",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-12-01"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Beswerda",
+"title": "Van Melle",
+"label": "Infinite Depth",
+"bp": "bp:11089728",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7209bcda-7b89-45c1-b0be-bc911bd3b423.LOFI.mp3",
+"name": "Van Melle",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-10-26"
+},
+{
+"minute": null,
+"artist": "Spiros Kaloumenos",
+"title": "Floating Point",
+"label": "Tronic",
+"bp": "bp:10921185",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/30d5ef51-2519-4955-ae8f-2884af81dc1f.LOFI.mp3",
+"name": "Floating Point",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-08-24"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Sinfol & Octual",
+"title": "Pale Blue Dot",
+"label": "Anagram",
+"bp": "bp:8557052",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2a350adb-7f9c-443b-9ab9-44fe36ceea24.LOFI.mp3",
+"name": "Pale Blue Dot",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2016-12-19"
+},
+{
+"minute": null,
+"artist": "Inland",
+"title": "Time Leak",
+"label": "Figure",
+"bp": "bp:11695085",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3445019a-2378-4f4c-8f5b-c657383b2c36.LOFI.mp3",
+"name": "Time Leak",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-03-18"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Reset Robot",
+"title": "Self Existence",
+"label": "Drumcode",
+"bp": "bp:10967186",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/13f02f47-2c2d-40c6-8661-738b2cbbf081.LOFI.mp3",
+"name": "Self Existence",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-09-10"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 206,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Winx",
+"title": "Don't Laugh",
+"label": "Nervous",
+"bp": "bp:256084",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b3c02bb4-453b-4e1f-8dfe-94525afb628c.LOFI.mp3",
+"name": "Don't Laugh",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "1995-02-26"
+},
+{
+"minute": null,
+"artist": "Victor Ruiz",
+"title": "Nimbus",
+"label": "Drumcode",
+"bp": "bp:11914548",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3ea971f5-10a3-4541-9efc-f0a744380526.LOFI.mp3",
+"name": "Nimbus",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-05-13"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Thomas Schumacher",
+"title": "Golden Hour",
+"label": "Electric Ballroom",
+"bp": "bp:11772194",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/88dbd880-ebd2-42e2-813b-11d320ce52d3.LOFI.mp3",
+"name": "Golden Hour",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-04-12"
+},
+{
+"minute": null,
+"artist": "Drumcomplex",
+"title": "Joy",
+"label": "Terminal M",
+"bp": "bp:17838562",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fd01a7bc-f3d6-4aae-a2d9-7c919fd70ae7.LOFI.mp3",
+"name": "Joy",
+"mix": "Original mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-06-26"
+},
+{
+"minute": null,
+"artist": "Cosmic Boys",
+"title": "The Bast",
+"label": "Legend",
+"bp": "bp:11430976",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/868644d5-015b-4648-b06e-8af7cb9c8caf.LOFI.mp3",
+"name": "The Bast",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-02-01"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 270,
+"artist": "Rudosa",
+"title": "Circles",
+"label": "Misfit",
+"bp": "bp:11859622",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eb1da279-09dc-4bbd-8e1c-fef11e2b1a80.LOFI.mp3",
+"name": "Circles",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-03-22"
+},
+{
+"minute": null,
+"artist": "Pete Lazonby",
+"title": "Sacred Cycles (Adam Beyer & Bart Skils & Layton Giordani Renaissance Remix)",
+"label": "Renaissance",
+"bp": "bp:12266262",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dca03346-5481-4478-972f-093c675a4f5a.LOFI.mp3",
+"name": "Sacred Cycles",
+"mix": "Adam Beyer, Bart Skils, Layton Giordani Renaissance Remix",
+"genre": "melodic-house-techno",
+"released": "2019-07-12"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Dave Sinner & Pleasurekraft",
+"title": "Alien Body Double",
+"label": "Kraftek",
+"bp": "bp:11883096",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/66a971c8-85e5-442c-aaa8-db837e6e2a0a.LOFI.mp3",
+"name": "Alien Body Double",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-05-10"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Superstrobe & Dominik Vaillant",
+"title": "Triangle",
+"label": "Phobiq",
+"bp": "bp:11990864",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d8fe8c1b-be37-4e28-8d5b-3cf3782fb14e.LOFI.mp3",
+"name": "Triangle",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "Nicolas Taboada",
+"title": "Poseidon (Wex 10] Remix)",
+"label": "Funk'n Deep Black"
+},
+{
+"minute": null,
+"artist": "Joyhauser",
+"title": "Entropy",
+"label": "Phobiq",
+"bp": "bp:11500956",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e1cde41e-d0e6-4feb-ae0c-fd5acd8656e5.LOFI.mp3",
+"name": "Entropy",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-02-01"
+},
+{
+"minute": null,
+"artist": "Brennen Grey",
+"title": "In A Dream",
+"label": "Kraftek",
+"bp": "bp:12003065",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0c213821-826e-4c5a-9c92-162937ac72ee.LOFI.mp3",
+"name": "In a Dream",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-06-07"
+},
+{
+"minute": null,
+"artist": "OC & Verde",
+"title": "Menace",
+"label": "Filth On Acid",
+"bp": "bp:11993758",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/493c2322-a7bd-4d2d-9f7e-c06a51c5d714.LOFI.mp3",
+"name": "Menace ",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "Spektre",
+"title": "Planet Noir",
+"label": "Noir",
+"bp": "bp:11946295",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ac860293-1507-4261-bf05-2e339b5aca96.LOFI.mp3",
+"name": "Planet Noir",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-06-21"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Amelie Lens",
+"title": "Hypnotized (Joyhauser Remix)",
+"label": "Second State Audio",
+"bp": "bp:11978187",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bdc38987-4a2e-40d2-bf26-09a031dc661a.LOFI.mp3",
+"name": "Hypnotized",
+"mix": "Joyhauser Remix",
+"genre": "techno-peak-time-driving",
+"released": "2019-06-28"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Joyhauser",
+"title": "Killer Queen",
+"label": "Terminal M",
+"bp": "bp:11556053",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3964d14e-dc36-4aee-b816-9dab363c2054.LOFI.mp3",
+"name": "Killer Queen",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-03-08"
+},
+{
+"minute": null,
+"artist": "KlangKuenstler",
+"title": "Dimension Null",
+"label": "Stil Vor Talent",
+"bp": "bp:11084836",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/35292e79-c056-47f5-a359-7040575427d5.LOFI.mp3",
+"name": "Dimension Null",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-10-12"
+},
+{
+"minute": null,
+"artist": "THE-PR\u00d8PHECY",
+"title": "Jam Master (T78 Robpm Remix)",
+"label": "Autektone"
+},
+{
+"minute": null,
+"artist": "DurtysoxXx & Optimuss",
+"title": "Aberrant",
+"label": "Odd",
+"bp": "bp:12085648",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b1f0dc10-3889-46fd-bd8e-8dea2d5fe1cc.LOFI.mp3",
+"name": "Aberrant",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-06-28"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "Joyhauser",
+"title": "C166W",
+"label": "Terminal M",
+"bp": "bp:11089460",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f71d1c25-c850-46f1-95cf-5e088cbf1346.LOFI.mp3",
+"name": "C166W",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-11-12"
+},
+{
+"minute": null,
+"artist": "KlangKuenstler",
+"title": "Balthazar",
+"label": "Outworld",
+"bp": "bp:11812898",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db470126-688d-4c8a-8fe4-29f4580b1d34.LOFI.mp3",
+"name": "Balthazar",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-04-26"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "The Southern",
+"title": "R4V3",
+"label": "Odd",
+"bp": "bp:11982727",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4db9bf3b-f325-4197-b45d-a2e9e5ed1ba9.LOFI.mp3",
+"name": "R4V3",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "Joyhauser",
+"title": "Galaxy Phase",
+"label": "Kraftek",
+"bp": "bp:10970749",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/39e219ff-b05a-4b3b-bf45-6490e8427e99.LOFI.mp3",
+"name": "Galaxy Phase",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2018-09-07"
+},
+{
+"minute": null,
+"artist": "Joyhauser",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mark Reeve",
+"title": "Far Away",
+"label": "Drumcode",
+"bp": "bp:10377076",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d090e8d2-541c-4341-a340-e58bcbf6fb1f.LOFI.mp3",
+"name": "Far Away",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-04-02"
+}
+]
+},
+{
+"title": "2020-02-14 - Mattia Trani @ KHIDI, Tbilisi",
+"records": []
+},
+{
+"title": "2020-02-25 - Mattia Trani - OECUS Podcast 186",
+"records": []
+},
+{
+"title": "2021-01-19 - Mattia Trani - Voxnox Podcast 096",
+"records": []
+},
+{
+"title": "2021-07-29 - Mattia Trani - We Are The Brave Radio 170",
+"records": [
+{
+"minute": null,
+"artist": "Indira Paganotto",
+"title": "Red Ninja",
+"label": "",
+"bp": "bp:15440974",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c0385b4a-29e8-4ac5-819e-d83ed931f7da.LOFI.mp3",
+"name": "Red Ninja",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-08-13"
+},
+{
+"minute": null,
+"artist": "Oscar Mulero",
+"title": "Straight Line",
+"label": "",
+"bp": "bp:15498792",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6048cf9-1853-4b94-8be0-dd635b5c9299.LOFI.mp3",
+"name": "Straight Line",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-08-13"
+},
+{
+"minute": null,
+"artist": "Blackness",
+"title": "Track 2 (Mattia Trani Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ackermann",
+"title": "Aphiphobia",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Rayme",
+"title": "Black Jaguar",
+"label": "",
+"bp": "bp:15284269",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/882d1c92-8968-4c1e-904d-efacd3600747.LOFI.mp3",
+"name": "Black Jaguar",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-06-04"
+},
+{
+"minute": null,
+"artist": "Slam",
+"title": "Sd 00.02",
+"label": "",
+"bp": "bp:15391354",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/00182b6c-cf04-4cce-a1c5-949c48c86d7d.LOFI.mp3",
+"name": "SD 00.02",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-07-09"
+},
+{
+"minute": null,
+"artist": "Dax J",
+"title": "Simulated Reality",
+"label": "",
+"bp": "bp:15839915",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5de9b7c1-d2af-4a16-86e2-da1f6c833532.LOFI.mp3",
+"name": "Simulated Reality (Terafactory AI Electronics)",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-10-22"
+},
+{
+"minute": null,
+"artist": "Dlv",
+"title": "Der Teufel Gazometr (98 Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Cleric",
+"title": "Fujiwara",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Julian Muller",
+"title": "Juicy",
+"label": "",
+"bp": "bp:15141801",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bcdbf54d-22b8-46d2-bc40-1b6a921a958f.LOFI.mp3",
+"name": "Juicy",
+"mix": "Original Mix",
+"genre": "hard-techno",
+"released": "2021-04-09"
+},
+{
+"minute": null,
+"artist": "Mattia Trani",
+"title": "Scenery",
+"label": "",
+"bp": "bp:15174988",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d2670f9-be10-440f-b053-4029f3524723.LOFI.mp3",
+"name": "SCENERY",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-10-17"
+},
+{
+"minute": null,
+"artist": "Dax J",
+"title": "Universal Future Sound",
+"label": "",
+"bp": "bp:15296408",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d99c7f70-e643-4343-9448-e6237466cf73.LOFI.mp3",
+"name": "Universal Future Sound",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-06-18"
+},
+{
+"minute": null,
+"artist": "Stef Mendesidis",
+"title": "Core 33",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Julian Muller",
+"title": "Wet Cost",
+"label": "",
+"bp": "bp:15141799",
+"score": 0.965,
+"preview": "https://geo-samples.beatport.com/track/7801d0f6-8fd7-4d8b-8f87-813b5b6af673.LOFI.mp3",
+"name": "Wet Coast",
+"mix": "Original Mix",
+"genre": "hard-techno",
+"released": "2021-04-09"
+},
+{
+"minute": null,
+"artist": "Rayme",
+"title": "Ghost Of The Jungle",
+"label": "",
+"bp": "bp:15284270",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8667d425-8f1c-477d-a16f-680905873892.LOFI.mp3",
+"name": "Ghost of The Jungle",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-06-04"
+}
+]
+},
+{
+"title": "2023-01-06 - Mattia Trani - Awakenings Podcast 234",
+"records": []
+}
+]
+}
