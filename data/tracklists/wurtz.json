@@ -1,0 +1,147 @@
+{
+"dj": "Wurtz",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2020-07-02 - Wurtz - WATcast 022",
+"records": []
+},
+{
+"title": "2023-12-25 - Wurtz - Jeden Tag Ein Set Podcast 112",
+"records": [
+{
+"minute": 0,
+"artist": "Toto Chiavetta",
+"title": "The Outbound Collection",
+"label": "",
+"bp": "bp:18342095",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8fea250a-cbcd-44cf-8648-732c74da5474.LOFI.mp3",
+"name": "The Outbound Collection",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2023-12-01"
+},
+{
+"minute": 6,
+"artist": "Unseen. & Patrick Ruprecht",
+"title": "Philomena (Nihil Young's Chronicles Remix)",
+"label": "",
+"bp": "bp:18465869",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d737f17-d042-4a80-9082-a2a56838e1a0.LOFI.mp3",
+"name": "Philomena",
+"mix": "Nihil Young's Chronicles Remix",
+"genre": "melodic-house-techno",
+"released": "2024-02-23"
+},
+{
+"minute": 11,
+"artist": "Goom Gum",
+"title": "Devotion",
+"label": "",
+"bp": "bp:19632868",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7906f0f8-4e40-48e8-a33a-c7beb9e0d621.LOFI.mp3",
+"name": "Devotion",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-11-08"
+},
+{
+"minute": 17,
+"artist": "Wurtz & Iberian Muse",
+"title": "The Guardian",
+"label": "KOMBUST",
+"bp": "bp:18350445",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/381fef77-cf20-412d-8d66-e6d21bf9230d.LOFI.mp3",
+"name": "The Guardian",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2023-11-17"
+},
+{
+"minute": 22,
+"artist": "Nebs Jack",
+"title": "After Pain",
+"label": "Natura Viva",
+"bp": "bp:18297523",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c44c49da-6fe6-4e79-9833-640dcf15f614.LOFI.mp3",
+"name": "After Pain",
+"mix": "Original mix",
+"genre": "melodic-house-techno",
+"released": "2023-12-08"
+},
+{
+"minute": 27,
+"artist": "Ian Lamparte",
+"title": "Illusionary Horizon",
+"label": "Natura Viva Black",
+"bp": "bp:18867403",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/abf3265a-ba25-4d65-931f-b211d6d3baed.LOFI.mp3",
+"name": "Illusionary Horizon",
+"mix": "Original mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-05-24"
+},
+{
+"minute": 32,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 37,
+"artist": "Wurtz & Nebs Jack",
+"title": "I UNDERSTAND PERFECTLY",
+"label": "",
+"bp": "bp:18618077",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b3aa5f62-27c7-4a03-b5c8-3c2693afa27e.LOFI.mp3",
+"name": "I UNDERSTAND PERFECTLY",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2024-02-02"
+},
+{
+"minute": 40,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 45,
+"artist": "Jono Stephenson",
+"title": "Colours In The Sky (Mark Hoffen 2AM Deconstruction Mix)",
+"label": "",
+"bp": "bp:18485109",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/79c3ae6f-7225-4543-8a79-f592b793e33a.LOFI.mp3",
+"name": "Colours In The Sky",
+"mix": "Mark Hoffen 2Am Deconstruction Mix",
+"genre": "melodic-house-techno",
+"released": "2024-01-12"
+},
+{
+"minute": 50,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 59,
+"artist": "Wurtz & Iberian Muse",
+"title": "Prometheus",
+"label": "",
+"bp": "bp:18342098",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dda66a52-b834-47c4-ba58-8597b0cef0db.LOFI.mp3",
+"name": "Prometheus",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2023-12-01"
+}
+]
+}
+]
+}
