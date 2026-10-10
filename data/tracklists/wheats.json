@@ -1,0 +1,444 @@
+{
+"dj": "Wheats",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-05-17 - Charlie Tee, Wheats, Andi Durrant, Illyus & Barrientos - Friday Night Kiss Fresh",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 4,
+"artist": "Jamie Lewis & Michelle Weeks",
+"title": "The Light (Toolappella)",
+"label": "Purple - PMCL 01",
+"bp": "bp:3649797",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/02afc93d-3ae1-4c67-a2fc-aa94e4769b1d.LOFI.mp3",
+"name": "The Light",
+"mix": "Toolappella",
+"genre": "house",
+"released": "2012-07-09"
+},
+{
+"minute": 4,
+"artist": "Darius Syrossian",
+"title": "Hi, It's Me",
+"label": "Hot Creations - HOTC 106",
+"bp": "bp:10082900",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af7c2be0-eef4-4e61-abc7-1c029d9a49ab.LOFI.mp3",
+"name": "Hi, It's Me",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2018-01-19"
+},
+{
+"minute": 9,
+"artist": "Lord Leopard",
+"title": "The Bumps",
+"label": "",
+"bp": "bp:10146856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d431af39-1c8c-4da9-8316-f510c0e68798.LOFI.mp3",
+"name": "The Bumps",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2018-01-26"
+},
+{
+"minute": 15,
+"artist": "Kinnerman",
+"title": "Horns & Hats",
+"label": "Elrow - ERM 121",
+"bp": "bp:10035633",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c51d53a-6b5f-4178-9753-ad17af0d68e4.LOFI.mp3",
+"name": "Horns & Hats",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2018-01-05"
+},
+{
+"minute": 19,
+"artist": "Under_Score",
+"title": "History",
+"label": "Dusty Grooves - DG 013",
+"bp": "bp:10187968",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b39dfa31-69f7-445e-aeed-ff11e99f56b1.LOFI.mp3",
+"name": "History",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2018-02-17"
+},
+{
+"minute": 22,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 27,
+"artist": "Wheats",
+"title": "Give It",
+"label": "Toolroom - TOOL 72201Z",
+"bp": "bp:10205204",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/30e6ffb6-ce25-42bc-a391-aba00f3baa63.LOFI.mp3",
+"name": "Give It",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2018-02-16"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 34,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 37,
+"artist": "Loco & Jam",
+"title": "Break It Down",
+"label": "Toolroom - TOOL 44101Z",
+"bp": "bp:6694624",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f83b4de6-3c38-4b8e-b9ae-53c1e8e66876.LOFI.mp3",
+"name": "Break It Down",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-06-08"
+},
+{
+"minute": 42,
+"artist": "Jo Cooper",
+"title": "Hourglass (Mr. E Dub)",
+"label": "LW - IBIZA 201805",
+"bp": "bp:10304939",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bcea88fb-3c79-4ab0-bd22-3a98130ccb4f.LOFI.mp3",
+"name": "Hourglass",
+"mix": "Mr E Dub",
+"genre": "tech-house",
+"released": "2018-02-23"
+},
+{
+"minute": 46,
+"artist": "Danny Howard",
+"title": "Cosmic Girl",
+"label": "Toolroom - TOOL 65201Z",
+"bp": "bp:10229662",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c54696fc-8ac4-44fb-845d-d93b01291776.LOFI.mp3",
+"name": "Cosmic Girl",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2018-02-16"
+},
+{
+"minute": 51,
+"artist": "Wheats",
+"title": "Do It",
+"label": "Toolroom - TOOL 584/01Z",
+"bp": "bp:9550169",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/202e7c6f-1e71-48a8-8956-1d3fb6866bde.LOFI.mp3",
+"name": "Do It",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2017-08-04"
+},
+{
+"minute": 56,
+"artist": "Ivan Pica",
+"title": "The Trick",
+"label": "Recovery House - RHCOMP 1336",
+"bp": "bp:5131651",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a5761cff-e0ae-407d-a98c-380f3bd443bf.LOFI.mp3",
+"name": "The Trick",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2014-02-06"
+},
+{
+"minute": null,
+"artist": "Ellie Goulding",
+"title": "Sixteen (Don Diablo Remix)",
+"label": "Polydor",
+"bp": "bp:21239769",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96021d5b-98e2-4247-92e2-d335ed8cfd26.LOFI.mp3",
+"name": "Sixteen",
+"mix": "Don Diablo Remix",
+"genre": "pop",
+"released": "2019-12-20"
+},
+{
+"minute": null,
+"artist": "Fisher",
+"title": "You Little Beauty",
+"label": "Catch & Release - CR0002B",
+"bp": "bp:11867846",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a298353e-062d-4b8a-a2bd-c41bc4051033.LOFI.mp3",
+"name": "You Little Beauty",
+"mix": "Extended",
+"genre": "tech-house",
+"released": "2019-05-10"
+},
+{
+"minute": null,
+"artist": "Apollo",
+"title": "Trippin'",
+"label": "New State - NEW 277BD",
+"bp": "bp:26930167",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95d6a802-71d9-42a7-a6e4-48bc26201ce9.LOFI.mp3",
+"name": "Trippin'",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-05-10"
+},
+{
+"minute": null,
+"artist": "Jonas Blue Feat. Theresa Rex",
+"title": "What I Like About You (M-22 Remix)",
+"label": "Positiva",
+"bp": "bp:21239752",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/14b08f0a-7d08-4945-8ff3-98f50789a986.LOFI.mp3",
+"name": "What I Like About You",
+"mix": "M-22 Remix",
+"genre": "dance-pop",
+"released": "2019-12-20"
+},
+{
+"minute": null,
+"artist": "Axwell",
+"title": "Nobody Else",
+"label": "Axtone - AXT 112E",
+"bp": "bp:11309981",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/653a85c9-83c0-492c-b6b1-5378feca8536.LOFI.mp3",
+"name": "Nobody Else",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2018-11-30"
+},
+{
+"minute": null,
+"artist": "Meduza Feat. GOODBOYS",
+"title": "Piece Of Your Heart (Tommy MC VIP Bootleg)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Offaiah Feat. Cat Connors",
+"title": "Somewhere Special (Club Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Luis Pergo",
+"title": "Aitatxe",
+"label": "NOPRESET",
+"bp": "bp:18491626",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b76d8fe9-3c27-47e6-9041-d7e92bf3ded6.LOFI.mp3",
+"name": "Aitatxe",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-04-29"
+},
+{
+"minute": null,
+"artist": "Ming",
+"title": "The ReAnimator",
+"label": "Insurgent"
+},
+{
+"minute": null,
+"artist": "Rony Rex & Carla Monroe",
+"title": "Milk It",
+"label": "Youth Control - YOU 032",
+"bp": "bp:11890444",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/94c692ab-ad45-4add-a03a-7333b728bfc3.LOFI.mp3",
+"name": "Milk It",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-05-17"
+},
+{
+"minute": null,
+"artist": "Jaded",
+"title": "Move It (Extended Mix)",
+"label": "Spinnin' Deep",
+"bp": "bp:11868483",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0d45a632-55b3-49ca-9a43-c2deff79758d.LOFI.mp3",
+"name": "Move It",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2019-05-10"
+},
+{
+"minute": null,
+"artist": "Acen",
+"title": "Play 2092 (Part 1)",
+"label": "Hardcore Energy - HE 002",
+"bp": "bp:11895906",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/949a960d-a7ab-4af7-bbb7-1b22d48cc8ea.LOFI.mp3",
+"name": "Play 2092",
+"mix": "Part 1",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2019-05-10"
+},
+{
+"minute": null,
+"artist": "Tibasko",
+"title": "Body Wrap",
+"label": "Another Rhythm - AWD 405424",
+"bp": "bp:12317484",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/983ddaa1-ad22-4bc9-8399-f433b5a712c3.LOFI.mp3",
+"name": "Body Wrap",
+"mix": "Extended Edit",
+"genre": "indie-tech",
+"released": "2019-08-02"
+},
+{
+"minute": null,
+"artist": "Pegboard Nerds",
+"title": "Back To Me",
+"label": "Monstercat - MCS837",
+"bp": "bp:11923371",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/26b57172-4d17-40b5-b25d-0d3f2ad589cc.LOFI.mp3",
+"name": "Back To Me",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-05-06"
+},
+{
+"minute": null,
+"artist": "Dua Lipa",
+"title": "Swan Song (Aboutagirl Remix)",
+"label": "Urban"
+},
+{
+"minute": null,
+"artist": "Elizabeth Gandolfo & Robbie Rivera",
+"title": "My Body Moves",
+"label": "Snatch! - SNATCH 129",
+"bp": "bp:11732765",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/906ad155-3e8a-4250-aa33-dbf73b840d2c.LOFI.mp3",
+"name": "My Body Moves",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-03-22"
+},
+{
+"minute": null,
+"artist": "Demuir Feat. DJ Sneak",
+"title": "Good Ol Days (Extended Mix)",
+"label": "Toolroom - TOOL 81301Z",
+"bp": "bp:12317447",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/c5b6077f-12ab-4aca-ac8c-39401c38b4a7.LOFI.mp3",
+"name": "Good Ol Days (feat. DJ Sneak)",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2019-08-02"
+},
+{
+"minute": null,
+"artist": "Paul Woolford",
+"title": "Jack Factory",
+"label": "Robsoul - CD 19",
+"bp": "bp:11676612",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ddc3ac6-37da-483c-b621-598bc33b9f40.LOFI.mp3",
+"name": "Jack Factory",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2019-03-15"
+},
+{
+"minute": null,
+"artist": "Nice7",
+"title": "No Romance (Dario D'Attis Remix)",
+"label": "D-Floor Music - DFL 038",
+"bp": "bp:10927882",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0d78f24-1601-4754-a88b-ea78f34ded3c.LOFI.mp3",
+"name": "No Romance",
+"mix": "Dario D'Attis Remix",
+"genre": "house",
+"released": "2018-09-14"
+},
+{
+"minute": null,
+"artist": "Alexander Aurel",
+"title": "Down The Rabbit Hole",
+"label": "Moon Harbour - MHD 056",
+"bp": "bp:12037406",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/010e7206-8d99-4695-abb0-a5b627c5d3b0.LOFI.mp3",
+"name": "Down the Rabbit Hole",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "James Curd Feat. Likasto",
+"title": "I Got A Problem (Bas Roos Remix)",
+"label": "Exploited - EXPDIGITAL 179D"
+},
+{
+"minute": null,
+"artist": "Gotta Feat. Tiana",
+"title": "Daddy Is Home (Harry Romero Extended Remix)",
+"label": "Subliminal - SUB 394"
+},
+{
+"minute": null,
+"artist": "Raretwo Inc.",
+"title": "Ups & Downs",
+"label": "Rawthentic - RWM 010"
+}
+]
+},
+{
+"title": "2019-09-19 - Wheats - We Are The Brave Radio 73",
+"records": []
+},
+{
+"title": "2019-09-26 - Wheats - Select Cuts 172",
+"records": []
+},
+{
+"title": "2021-05-04 - Wheats - 93WAVES006",
+"records": []
+},
+{
+"title": "2021-09-08 - Wheats - Galactic Radio Transmission 025",
+"records": []
+},
+{
+"title": "2023-06-24 - Wheats, Max Dean - Paradise, Rinse FM",
+"records": []
+}
+]
+}
