@@ -1,0 +1,943 @@
+{
+"dj": "Cheyenne Giles",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2022-11-19 - Cheyenne Giles @ New City Gas, Montreal",
+"records": [
+{
+"minute": 0,
+"artist": "Kanye West Feat. Rihanna",
+"title": "All Of The Lights (Cheyenne Giles & TWINSICK Remix) (Intro)",
+"label": "ROC-A-FELLA"
+},
+{
+"minute": 2,
+"artist": "Fred Again.. & Swedish House Mafia Feat. Future",
+"title": "Turn On The Lights Again.. (Knock2 Remix)",
+"label": "Atlantic/Free"
+},
+{
+"minute": null,
+"artist": "+ Nelly Furtado",
+"title": "Say It Right (Acapella)",
+"label": "Geffen"
+},
+{
+"minute": 5,
+"artist": "Knock2",
+"title": "Gettin' Hott",
+"label": "Night Mode",
+"bp": "bp:16454134",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e59ef477-c271-473a-9793-6176da10b329.LOFI.mp3",
+"name": "gettin' hott",
+"mix": "Extended",
+"genre": "bass-house",
+"released": "2022-04-29"
+},
+{
+"minute": null,
+"artist": "+ Nelly",
+"title": "Hot In Herre (Acapella)",
+"label": "UMG",
+"bp": "bp:24360126",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a04e0f2-d355-4517-abde-c04c77b5bce4.LOFI.mp3",
+"name": "Hot In Herre",
+"mix": "Acapella",
+"genre": "hip-hop",
+"released": "2002-05-28"
+},
+{
+"minute": 6,
+"artist": "Sam Smith Feat. Kim Petras",
+"title": "Unholy (Cheyenne Giles Remix)",
+"label": "EMI"
+},
+{
+"minute": 8,
+"artist": "Dimitri Vegas & Like Mike & Martin Garrix",
+"title": "Tremor (Sensation 2014 Anthem) (Cheyenne Giles 2022 VIP Festival Mix)",
+"label": "Spinnin'"
+},
+{
+"minute": null,
+"artist": "+ Flosstradamus Feat. Waka Flocka Flame",
+"title": "TTU (Too Turnt Up) (Acapella)",
+"label": "Ultra"
+},
+{
+"minute": 10,
+"artist": "The Bloody Beetroots Feat. Steve Aoki",
+"title": "Warp 1.9 (Cheyenne Giles Festival Flip)",
+"label": "Dim Mak",
+"bp": "bp:824990",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/c238cd8c-3ec7-4fe1-b21e-a95279a96a56.LOFI.mp3",
+"name": "Warp 1.9",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2008-11-10"
+},
+{
+"minute": null,
+"artist": "+ Knock2",
+"title": "ID",
+"label": "It's Rewind"
+},
+{
+"minute": null,
+"artist": "+ Flume Feat. Kai",
+"title": "Never Be Like You (Acapella)",
+"label": "Future Classic"
+},
+{
+"minute": 11,
+"artist": "Knock2",
+"title": "PARANOiD",
+"label": "Night Mode",
+"bp": "bp:16126456",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ba9d8ba-1b57-4bde-895a-eb25005b0d7a.LOFI.mp3",
+"name": "PARANOiD",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2022-01-28"
+},
+{
+"minute": null,
+"artist": "+ Benny Benassi Feat. Gary Go",
+"title": "Cinema (Acapella)",
+"label": "Ultra"
+},
+{
+"minute": null,
+"artist": "+ Rihanna",
+"title": "Don't Stop The Music (Acapella)",
+"label": "Def Jam"
+},
+{
+"minute": null,
+"artist": "+ Daft Punk",
+"title": "Harder Better Faster Stronger (Acapella)",
+"label": ""
+},
+{
+"minute": 14,
+"artist": "Chocolate Puma & Tommie Sunshine Feat. DJ Funk",
+"title": "Scrub The Ground",
+"label": "Heldeep",
+"bp": "bp:7100729",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/ee99614a-38f3-4174-9d10-5b519ce10cd1.LOFI.mp3",
+"name": "Scrub The Ground (feat. DJ Funk)",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2015-10-16"
+},
+{
+"minute": 14,
+"artist": "David Guetta & Sia vs Showtek & Ookay",
+"title": "Booyah Bounce (Cheyenne Giles & Knock2 Festival Flip)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "+ Travis Scott Feat. Juice WRLD & Sheck Wes",
+"title": "No Bystanders (Acapella)",
+"label": "Epic"
+},
+{
+"minute": 18,
+"artist": "Cheyenne Giles & Knock2",
+"title": "DVNCEFLOOR (VIP)",
+"label": "Musical Freedom"
+},
+{
+"minute": null,
+"artist": "+ Dennis Ferrer",
+"title": "Hey Hey (Acapella)",
+"label": "Strictly Rhythm"
+},
+{
+"minute": 19,
+"artist": "Ty Dolla $ign Feat. Kanye West & FKA Twigs & Skrillex",
+"title": "Ego Death (Knock2 Remix)",
+"label": "Atlantic"
+},
+{
+"minute": null,
+"artist": "+ Lady GaGa Feat. Colby O'Donis",
+"title": "Just Dance (Acapella)",
+"label": "Interscope"
+},
+{
+"minute": 21,
+"artist": "Rihanna Feat. Calvin Harris",
+"title": "We Found Love (Cheyenne Giles Remix)",
+"label": "Mercury"
+},
+{
+"minute": null,
+"artist": "+ Yeah Yeah Yeahs",
+"title": "Heads Will Roll (A-Trak Remix)",
+"label": "Dgc",
+"bp": "bp:19164758",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/51e54de4-2a68-4cad-9a83-657e6d270719.LOFI.mp3",
+"name": "Heads Will Roll",
+"mix": "A-Trak Remix",
+"genre": "dance-pop",
+"released": "2010-01-01"
+},
+{
+"minute": 24,
+"artist": "Skrillex & Habstrakt",
+"title": "Chicken Soup",
+"label": "Owsla",
+"bp": "bp:9317012",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8a8303f4-0294-4e0e-bedf-c46d84d35817.LOFI.mp3",
+"name": "Chicken Soup",
+"mix": "Original Mix",
+"genre": "bass-house",
+"released": "2017-05-05"
+},
+{
+"minute": null,
+"artist": "+ Space Laces vs Teriyaki Boyz",
+"title": "Dominate vs Tokyo Drift (Knock2 Edit)",
+"label": "Umg/Never Say Die"
+},
+{
+"minute": null,
+"artist": "+ Queen",
+"title": "We Will Rock You",
+"label": "UMG",
+"bp": "bp:30445903",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e3d2b144-c311-4dd1-886b-bbef71848298.LOFI.mp3",
+"name": "We Will Rock You",
+"mix": "Original Mix",
+"genre": "rock",
+"released": "2009-11-16"
+},
+{
+"minute": null,
+"artist": "+ Kanye West",
+"title": "Power (Knock2 Remix)",
+"label": "ROC-A-FELLA"
+},
+{
+"minute": null,
+"artist": "+ Ray Volpe",
+"title": "Laserbeam",
+"label": "Disciple",
+"bp": "bp:16476832",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b58f973b-896c-41df-8644-6851b69e4892.LOFI.mp3",
+"name": "Laserbeam",
+"mix": "Original Mix",
+"genre": "dubstep",
+"released": "2022-06-24"
+},
+{
+"minute": 27,
+"artist": "Internet Money Feat. Don Toliver & Gunna & NAV",
+"title": "Lemonade (Cheyenne Giles Remix)",
+"label": "Free/Internet Money"
+},
+{
+"minute": null,
+"artist": "+ AFROJACK Feat. Eva Simons",
+"title": "Take Over Control (Acapella)",
+"label": "Wall"
+},
+{
+"minute": 28,
+"artist": "James Hype & Miggy Dela Rosa",
+"title": "Ferrari (Cheyenne Giles Edit)",
+"label": "The Cross"
+},
+{
+"minute": 29,
+"artist": "TUJAMO & Sidney Samson",
+"title": "Riverside (Reloaded) (Cheyenne Giles Remix)",
+"label": "Spinnin'"
+},
+{
+"minute": null,
+"artist": "+ Soulja Boy Tell 'Em",
+"title": "Turn My Swag On (Acapella)",
+"label": "Interscope"
+},
+{
+"minute": null,
+"artist": "+ Cheyenne Giles",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 32,
+"artist": "The Chainsmokers & Cheyenne Giles",
+"title": "Make Me Feel",
+"label": "Musical Freedom",
+"bp": "bp:17261893",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c570028e-c07e-46c7-a19e-436969918f51.LOFI.mp3",
+"name": "Make Me Feel",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2023-01-13"
+},
+{
+"minute": null,
+"artist": "+ Ti\u00ebsto & Ty Dolla $ign",
+"title": "The Business, Pt.II (Acapella)",
+"label": "Atlantic/Musical Freedom"
+},
+{
+"minute": 35,
+"artist": "Cheyenne Giles",
+"title": "Let's Rock",
+"label": "",
+"bp": "bp:18602902",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/57bf5ba2-de98-43dd-8667-8777c6eafb5a.LOFI.mp3",
+"name": "Let's Rock",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2024-02-02"
+},
+{
+"minute": null,
+"artist": "+ Rihanna & Calvin Harris",
+"title": "We Found Love (Acapella)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "+ Shouse",
+"title": "Love Tonight (Acapella)",
+"label": "Hell Beach"
+},
+{
+"minute": 37,
+"artist": "Giveon",
+"title": "Favorite Mistake (Knock2 Remix)",
+"label": "Free"
+},
+{
+"minute": 38,
+"artist": "FISHER",
+"title": "Losing It (Cheyenne Giles & Knock2 Festival Flip)",
+"label": "Catch & Release/Astralwerks",
+"bp": "bp:10766349",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b3371de0-8025-4cd9-9220-839d81d663e5.LOFI.mp3",
+"name": "Losing It",
+"mix": "Extended",
+"genre": "indie-tech",
+"released": "2018-07-13"
+},
+{
+"minute": null,
+"artist": "+ Lil Jon Feat. LMFAO",
+"title": "Outta Your Mind (Let's Fuckin Loose It Acapella)",
+"label": "UMG"
+},
+{
+"minute": null,
+"artist": "+ Sebastian Ingrosso & Alesso Feat. Ryan Tedder",
+"title": "Calling (Lose My Mind)",
+"label": "Cheyenne Giles & Knock2 Flip",
+"bp": "bp:5821802",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/da859cd0-1716-4936-b715-43b4f9af4928.LOFI.mp3",
+"name": "Calling (Lose My Mind)",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2014-09-12"
+},
+{
+"minute": null,
+"artist": "+ Adam Beyer & Bart Skils",
+"title": "Your Mind (Acapella)",
+"label": "Drumcode"
+},
+{
+"minute": null,
+"artist": "+ Basement Jaxx",
+"title": "Where's Your Head At? (Cheyenne Giles Remix)",
+"label": "Musical Freedom",
+"bp": "bp:15498032",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/127512ac-0f97-4321-8b0d-e1ff3e15be86.LOFI.mp3",
+"name": "Where's Your Head At",
+"mix": "Cheyenne Giles Extended Remix",
+"genre": "mainstage",
+"released": "2021-08-06"
+},
+{
+"minute": 41,
+"artist": "Sebastian Ingrosso & Tommy Trash Feat. John Martin",
+"title": "Reload (Cheyenne Giles Remix)",
+"label": "Refune"
+},
+{
+"minute": null,
+"artist": "+ Kaskade Feat. Ella Vos",
+"title": "Eyes V3 (Acapella)",
+"label": ""
+},
+{
+"minute": 43,
+"artist": "David Guetta Feat. Bebe Rexha",
+"title": "I'm Good (Blue) (Cheyenne Giles Edit)",
+"label": "Parlophone"
+},
+{
+"minute": null,
+"artist": "+ Swedish House Mafia Feat. John Martin",
+"title": "Save The World (Cheyenne Giles Festival Flip)",
+"label": "",
+"bp": "bp:15720436",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/487caff8-f0e1-4576-99dd-11800ffc2b91.LOFI.mp3",
+"name": "Save The World",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2011-05-13"
+},
+{
+"minute": 47,
+"artist": "Farruko Feat. Victor Cardenas",
+"title": "Pepas (Cheyenne Giles Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "+ Deniz Koyu",
+"title": "Tung! (Acapella)",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "MARTEN H\u00d8RGER & Neon Steve",
+"title": "Hip Hop (Cheyenne Giles Remix)",
+"label": "Musical Freedom",
+"bp": "bp:24373575",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95cf4e74-4b4f-45cb-9a5d-72d2313768de.LOFI.mp3",
+"name": "Hip Hop",
+"mix": "Cheyenne Giles Remix - Intro",
+"genre": "bass-house",
+"released": "2022-06-24"
+},
+{
+"minute": 51,
+"artist": "SLANDER & NGHTMRE Feat. Matthew Santos",
+"title": "Feeling Gud (Cheyenne Giles Festival Flip)",
+"label": "Gud Vibrations"
+},
+{
+"minute": null,
+"artist": "+ Cheyenne Giles",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 54,
+"artist": "The White Stripes",
+"title": "Seven Nation Army",
+"label": "XL",
+"bp": "bp:21618115",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3d1a1f2c-6af5-40f4-bd53-9ed42f4da626.LOFI.mp3",
+"name": "Seven Nation Army",
+"mix": "Original Mix",
+"genre": "rock",
+"released": "2003-04-01"
+},
+{
+"minute": null,
+"artist": "+ Knock2",
+"title": "Dashstar* (VIP)",
+"label": "Night Mode",
+"bp": "bp:17282811",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/57377f04-d1ed-4b6e-9d8b-ca2d52bccf80.LOFI.mp3",
+"name": "dashstar*",
+"mix": "VIP",
+"genre": "bass-house",
+"released": "2022-07-29"
+},
+{
+"minute": null,
+"artist": "+ Malaa",
+"title": "Notorious (Cheyenne Giles Remix)",
+"label": "Free/Confession"
+},
+{
+"minute": null,
+"artist": "+ Skrillex & Habstrakt",
+"title": "Chicken Soup",
+"label": "Owsla",
+"bp": "bp:9317012",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8a8303f4-0294-4e0e-bedf-c46d84d35817.LOFI.mp3",
+"name": "Chicken Soup",
+"mix": "Original Mix",
+"genre": "bass-house",
+"released": "2017-05-05"
+},
+{
+"minute": null,
+"artist": "+ Knock2",
+"title": "Dashstar*",
+"label": "Night Mode",
+"bp": "bp:14792645",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/235474f9-a511-450b-b164-a5155e42ccb0.LOFI.mp3",
+"name": "dashstar*",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2021-02-05"
+},
+{
+"minute": 56,
+"artist": "Kid Cudi vs David Guetta",
+"title": "Kid Cudi's Happy Memories (Cheyenne Giles & Knock2 Festival Flip)",
+"label": "Parlophone/Republic"
+},
+{
+"minute": null,
+"artist": "+ Henry Fong & Knock2 Feat. General Degree",
+"title": "What's The Move",
+"label": "Dim Mak",
+"bp": "bp:13930003",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/434e6f75-68ca-4f32-b438-0ff5348b369b.LOFI.mp3",
+"name": "What's The Move (feat. General Degree)",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2020-07-17"
+},
+{
+"minute": 58,
+"artist": "Cheyenne Giles",
+"title": "ID (Extended Mix)",
+"label": "STMPD RCRDS"
+},
+{
+"minute": null,
+"artist": "+ Cheyenne Giles",
+"title": "Blow The Whistle",
+"label": "Musical Freedom",
+"bp": "bp:12207268",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cc77401d-973d-43a7-b7f7-acf95ec6434f.LOFI.mp3",
+"name": "Blow The Whistle",
+"mix": "Original Mix",
+"genre": "bass-house",
+"released": "2019-07-12"
+},
+{
+"minute": 59,
+"artist": "Lil Nas X Feat. Jack Harlow",
+"title": "INDUSTRY BABY (F\u00c4T TONY Remix)",
+"label": "Columbia"
+},
+{
+"minute": null,
+"artist": "+ Nightcrawlers",
+"title": "Push The Feeling On",
+"label": "Island",
+"bp": "bp:21908768",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/28a46653-768d-4aba-b437-c57ce2da9716.LOFI.mp3",
+"name": "Push the Feeling On",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2009-06-05"
+},
+{
+"minute": 62,
+"artist": "Lana Del Rey",
+"title": "Summertime Sadness (Cheyenne Giles Flip)",
+"label": "",
+"bp": "bp:23444249",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eb9ccbbb-b420-415c-a699-32c9d235344a.LOFI.mp3",
+"name": "Summertime Sadness",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2012-01-27"
+},
+{
+"minute": 63,
+"artist": "The Kid LAROI & Justin Bieber",
+"title": "Stay (Cheyenne Giles Remix)",
+"label": "Columbia"
+},
+{
+"minute": null,
+"artist": "+ The Killers",
+"title": "Mr. Brightside (Acapella)",
+"label": "Island",
+"bp": "bp:24362062",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5fe45cd5-17f7-4c0d-ae79-77f1fe96d5bb.LOFI.mp3",
+"name": "Mr. Brightside",
+"mix": "Acapella",
+"genre": "rock",
+"released": "2013-01-01"
+},
+{
+"minute": 66,
+"artist": "Robert Miles vs Disclosure & Sam Smith & Cheyenne Giles",
+"title": "Children vs Latch VIP (Cheyenne Giles Set Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "+ Bleu Clair & Cheyenne Giles",
+"title": "Chemistry",
+"label": "Insomniac",
+"bp": "bp:15901524",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/084e993c-34f6-4863-85a1-49da923498c5.LOFI.mp3",
+"name": "Chemistry",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-12-10"
+},
+{
+"minute": 69,
+"artist": "ACRAZE Feat. GOODBOYS",
+"title": "Believe (Cheyenne Giles Remix)",
+"label": "Thrive"
+}
+]
+},
+{
+"title": "2023-01-16 - DJ Promotion, Cheyenne Giles - After Weekend 079",
+"records": [
+{
+"minute": null,
+"artist": "Dubdogz, Zuffo & Rh\u014dden",
+"title": "Mission Impossible (Extended Mix)",
+"label": "Smash The House",
+"bp": "bp:17315831",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1d223832-103c-4812-aba2-ceeb994318eb.LOFI.mp3",
+"name": "Mission Impossible",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2023-01-13"
+},
+{
+"minute": null,
+"artist": "Bougenvilla & NOME. Feat. Chris Alain",
+"title": "Long Train (Extended Mix)",
+"label": "Spinnin'"
+},
+{
+"minute": null,
+"artist": "Imanbek, Brando & Crazy Donkey Feat. Paradigm",
+"title": "Fake (Extended Mix)",
+"label": "Liquid state"
+},
+{
+"minute": null,
+"artist": "Mike Tunes & Luc Rushmere",
+"title": "Ghost (Extended Mix)",
+"label": "LoveStyle"
+},
+{
+"minute": null,
+"artist": "Frivolous Jackson",
+"title": "House Your Body (Extended Mix)",
+"label": "Hysteria",
+"bp": "bp:17238414",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9ca825c5-0e62-43b4-ba06-f177673839ac.LOFI.mp3",
+"name": "House Your Body",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2023-01-06"
+},
+{
+"minute": null,
+"artist": "PBH & Jack X Alex Hosking",
+"title": "Lost In The Moment (Extended Version)",
+"label": "Island",
+"bp": "bp:17310404",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/29ca03ed-ce74-484e-9653-7962044653b2.LOFI.mp3",
+"name": "Lost In The Moment",
+"mix": "Extended Version",
+"genre": "dance-pop",
+"released": "2023-01-13"
+},
+{
+"minute": null,
+"artist": "Stefy De Cicco X Shibui X Andrea Zelletta",
+"title": "Superstar (Extended Mix)",
+"label": "Nitron",
+"bp": "bp:17245041",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/dd0dfa46-d1c9-4cd7-8fe5-6d66b2481227.LOFI.mp3",
+"name": "Superstar",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-01-13"
+},
+{
+"minute": null,
+"artist": "Ten City & Wh0",
+"title": "I Love Me (Extended Mix)",
+"label": "Helix",
+"bp": "bp:17279824",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/afc4ca31-2b67-423d-9de3-598b0f78338a.LOFI.mp3",
+"name": "I Love Me",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2023-01-13"
+},
+{
+"minute": null,
+"artist": "Milos Feat. Ima Sob\u00e9",
+"title": "Daydreaming",
+"label": "Soave",
+"bp": "bp:17262160",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/9a4842fb-3f13-4db9-b206-d15cd36b7114.LOFI.mp3",
+"name": "Daydreaming",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-01-13"
+},
+{
+"minute": null,
+"artist": "Kanye West Feat. Rihanna",
+"title": "All Of The Lights (Cheyenne Giles & TWINSICK Remix) (Intro)",
+"label": "ROC-A-FELLA"
+},
+{
+"minute": null,
+"artist": "Fred Again.. & Swedish House Mafia Feat. Future",
+"title": "Turn On The Lights Again.. (Knock2 Remix)",
+"label": "Atlantic/Free"
+},
+{
+"minute": null,
+"artist": "+ Nelly Furtado",
+"title": "Say It Right (Acapella)",
+"label": "Geffen"
+},
+{
+"minute": null,
+"artist": "Knock2",
+"title": "Gettin' Hott",
+"label": "Night Mode",
+"bp": "bp:16454134",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e59ef477-c271-473a-9793-6176da10b329.LOFI.mp3",
+"name": "gettin' hott",
+"mix": "Extended",
+"genre": "bass-house",
+"released": "2022-04-29"
+},
+{
+"minute": null,
+"artist": "+ Nelly",
+"title": "Hot In Herre (Acapella)",
+"label": "UMG",
+"bp": "bp:24360126",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a04e0f2-d355-4517-abde-c04c77b5bce4.LOFI.mp3",
+"name": "Hot In Herre",
+"mix": "Acapella",
+"genre": "hip-hop",
+"released": "2002-05-28"
+},
+{
+"minute": null,
+"artist": "Sam Smith Feat. Kim Petras",
+"title": "Unholy (Cheyenne Giles Remix)",
+"label": "EMI"
+},
+{
+"minute": null,
+"artist": "Dimitri Vegas & Like Mike & Martin Garrix",
+"title": "Tremor (Sensation 2014 Anthem) (Cheyenne Giles 2022 VIP Festival Mix)",
+"label": "Spinnin'"
+},
+{
+"minute": null,
+"artist": "+ Flosstradamus Feat. Waka Flocka Flame",
+"title": "TTU (Too Turnt Up) (Acapella)",
+"label": "Ultra"
+},
+{
+"minute": null,
+"artist": "Knock2",
+"title": "PARANOiD",
+"label": "Night Mode",
+"bp": "bp:16126456",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ba9d8ba-1b57-4bde-895a-eb25005b0d7a.LOFI.mp3",
+"name": "PARANOiD",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2022-01-28"
+},
+{
+"minute": null,
+"artist": "+ Benny Benassi Feat. Gary Go",
+"title": "Cinema (Acapella)",
+"label": "Ultra"
+},
+{
+"minute": null,
+"artist": "David Guetta & Sia vs Showtek & Ookay",
+"title": "Booyah Bounce (Cheyenne Giles & Knock2 Festival Flip)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "+ Travis Scott Feat. Juice WRLD & Sheck Wes",
+"title": "No Bystanders (Acapella)",
+"label": "Epic"
+},
+{
+"minute": null,
+"artist": "Cheyenne Giles & Knock2",
+"title": "DVNCEFLOOR (VIP)",
+"label": "Musical Freedom"
+},
+{
+"minute": null,
+"artist": "+ Dennis Ferrer",
+"title": "Hey Hey (Acapella)",
+"label": "Strictly Rhythm"
+},
+{
+"minute": null,
+"artist": "TUJAMO & Sidney Samson",
+"title": "Riverside (Reloaded) (Cheyenne Giles Remix)",
+"label": "Spinnin'"
+},
+{
+"minute": null,
+"artist": "+ Soulja Boy Tell 'Em",
+"title": "Turn My Swag On (Acapella)",
+"label": "Interscope"
+},
+{
+"minute": null,
+"artist": "The Chainsmokers & Cheyenne Giles",
+"title": "Make Me Feel",
+"label": "Musical Freedom",
+"bp": "bp:17261893",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c570028e-c07e-46c7-a19e-436969918f51.LOFI.mp3",
+"name": "Make Me Feel",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2023-01-13"
+},
+{
+"minute": null,
+"artist": "+ Ti\u00ebsto & Ty Dolla $ign",
+"title": "The Business, Pt.II (Acapella)",
+"label": "Atlantic/Musical Freedom"
+},
+{
+"minute": null,
+"artist": "Cheyenne Giles",
+"title": "Let's Rock",
+"label": "",
+"bp": "bp:18602902",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/57bf5ba2-de98-43dd-8667-8777c6eafb5a.LOFI.mp3",
+"name": "Let's Rock",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2024-02-02"
+},
+{
+"minute": null,
+"artist": "+ Rihanna & Calvin Harris",
+"title": "We Found Love (Acapella)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Sebastian Ingrosso & Tommy Trash Feat. John Martin",
+"title": "Reload (Cheyenne Giles Remix)",
+"label": "Refune"
+},
+{
+"minute": null,
+"artist": "+ Kaskade Feat. Ella Vos",
+"title": "Eyes V3 (Acapella)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "David Guetta Feat. Bebe Rexha",
+"title": "I'm Good (Blue) (Cheyenne Giles Edit)",
+"label": "Parlophone"
+},
+{
+"minute": null,
+"artist": "+ Swedish House Mafia Feat. John Martin",
+"title": "Save The World (Cheyenne Giles Festival Flip)",
+"label": "",
+"bp": "bp:15720436",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/487caff8-f0e1-4576-99dd-11800ffc2b91.LOFI.mp3",
+"name": "Save The World",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2011-05-13"
+},
+{
+"minute": null,
+"artist": "Farruko Feat. Victor Cardenas",
+"title": "Pepas (Cheyenne Giles Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "+ Deniz Koyu",
+"title": "Tung! (Acapella)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "MARTEN H\u00d8RGER & Neon Steve",
+"title": "Hip Hop (Cheyenne Giles Remix)",
+"label": "Musical Freedom",
+"bp": "bp:24373575",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95cf4e74-4b4f-45cb-9a5d-72d2313768de.LOFI.mp3",
+"name": "Hip Hop",
+"mix": "Cheyenne Giles Remix - Intro",
+"genre": "bass-house",
+"released": "2022-06-24"
+},
+{
+"minute": 69,
+"artist": "ACRAZE Feat. GOODBOYS",
+"title": "Believe (Cheyenne Giles Remix)",
+"label": "Thrive"
+}
+]
+}
+]
+}
