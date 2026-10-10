@@ -1,0 +1,828 @@
+{
+"dj": "Urbandawn",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-07-24 - Chris Goss, Lens, Urbandawn - Hospital Radio, Rinse FM",
+"records": []
+},
+{
+"title": "2020-02-09 - Andi Durrant, Urbandawn - The Electrik Playground",
+"records": []
+},
+{
+"title": "2020-05-02 - Urbandawn - Beatport ReConnect: Drum & Bass",
+"records": [
+{
+"minute": 0,
+"artist": "DJ Marky & A.I. aka Artificial Intelligence Feat. Ben Westbeech",
+"title": "Shame",
+"label": ""
+},
+{
+"minute": 4,
+"artist": "Urbandawn",
+"title": "Pavlov's Dog",
+"label": "Hospital",
+"bp": "bp:7346640",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6e33a65-b4e8-4d1a-b871-c37eeb3aecb1.LOFI.mp3",
+"name": "Pavlov's Dog",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2015-12-04"
+},
+{
+"minute": 6,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 7,
+"artist": "DJ Hazard",
+"title": "Death Sport",
+"label": "Playaz",
+"bp": "bp:5690699",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/72c90ef3-48af-4cca-bfc2-890a9a5675d7.LOFI.mp3",
+"name": "Death Sport",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2014-08-25"
+},
+{
+"minute": 9,
+"artist": "Break Feat. MC GQ",
+"title": "Whispers In My Ear",
+"label": "Symmetry",
+"bp": "bp:15393330",
+"score": 0.884,
+"preview": "https://geo-samples.beatport.com/track/af24dab6-6508-46ac-a7d6-5716430442f3.LOFI.mp3",
+"name": "Whispers In My Ears",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2021-07-16"
+},
+{
+"minute": 11,
+"artist": "Andy C & Shimon",
+"title": "Quest (Bladerunner Remix)",
+"label": "Ram",
+"bp": "bp:23887960",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/10619d1b-a071-4a48-84dd-94b37dde2af6.LOFI.mp3",
+"name": "Quest",
+"mix": "Bladerunner Remix",
+"genre": "drum-bass",
+"released": "2026-01-28"
+},
+{
+"minute": 12,
+"artist": "Alibi (BR) & Command Strange",
+"title": "Ahead Of Me (VIP)",
+"label": "V",
+"bp": "bp:10375442",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/f839098d-6b37-44f5-8538-d2846a9cecc7.LOFI.mp3",
+"name": "Ahead of Me",
+"mix": "VIP",
+"genre": "drum-bass",
+"released": "2018-03-16"
+},
+{
+"minute": 14,
+"artist": "Bad Company",
+"title": "Digital Nation",
+"label": ""
+},
+{
+"minute": 17,
+"artist": "Origin Unknown",
+"title": "Valley Of The Shadows (Chase & Status Remix)",
+"label": "Ram",
+"bp": "bp:14392810",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/16a12aa9-828b-4e96-a62c-ec99385ef075.LOFI.mp3",
+"name": "Valley Of The Shadows",
+"mix": "Chase & Status Remix",
+"genre": "drum-bass",
+"released": "2020-10-30"
+},
+{
+"minute": 18,
+"artist": "Concord Dawn",
+"title": "Fly Away Home (Frankee Remix)",
+"label": "Ram",
+"bp": "bp:23887962",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7738898d-7276-4afe-9f36-f2a20567a6c2.LOFI.mp3",
+"name": "Fly Away Home",
+"mix": "Frankee Remix",
+"genre": "drum-bass",
+"released": "2026-01-28"
+},
+{
+"minute": 20,
+"artist": "Darkzy",
+"title": "It's You (Turno Remix)",
+"label": "Crucast",
+"bp": "bp:12870247",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b2f493d1-90ac-489e-b8e6-c42382b3907f.LOFI.mp3",
+"name": "It's You",
+"mix": "Turno Remix",
+"genre": "drum-bass",
+"released": "2019-11-27"
+},
+{
+"minute": 22,
+"artist": "Chaka Demus",
+"title": "Forward And Pull Up (Urbandawn Remix)",
+"label": "Hospital",
+"bp": "bp:12204442",
+"score": 0.929,
+"preview": "https://geo-samples.beatport.com/track/a86ae096-91c2-4d36-aacf-6d317411c212.LOFI.mp3",
+"name": "Forward & Pull Up",
+"mix": "Urbandawn Remix",
+"genre": "drum-bass",
+"released": "2019-07-26"
+},
+{
+"minute": 25,
+"artist": "Urbandawn Feat. Tyson Kelly",
+"title": "Come Together",
+"label": "Hospital",
+"bp": "bp:11949192",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/ee3f8a86-ab97-493a-b8ba-e118bab7b9e2.LOFI.mp3",
+"name": "Come Together",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2019-05-24"
+},
+{
+"minute": 27,
+"artist": "Makoto Feat. Urbandawn",
+"title": "Liberta",
+"label": "Hospital",
+"bp": "bp:12391309",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/d27bb433-199d-4950-b220-9b9c22bdb645.LOFI.mp3",
+"name": "Liberta",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2019-09-06"
+},
+{
+"minute": 29,
+"artist": "Urbandawn",
+"title": "Together Again (I Pray)",
+"label": "Hospital",
+"bp": "bp:8634347",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36a6b19f-1003-43b2-bde8-569d4c8ef479.LOFI.mp3",
+"name": "Together Again",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2016-12-02"
+},
+{
+"minute": 32,
+"artist": "Urbandawn",
+"title": "Like What",
+"label": "Hospital",
+"bp": "bp:9392844",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fe24b973-0329-4f4f-ba2f-a260fa77972e.LOFI.mp3",
+"name": "Like What",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2017-07-28"
+},
+{
+"minute": 33,
+"artist": "Zeds Dead & Urbandawn",
+"title": "Sound Of The Underground",
+"label": "Deadbeats",
+"bp": "bp:12862676",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/636d7e3c-8a15-4e05-ba7e-4b70e8401fe8.LOFI.mp3",
+"name": "Sound Of The Underground",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2019-12-04"
+},
+{
+"minute": 35,
+"artist": "Urbandawn",
+"title": "Sleeping Awake",
+"label": "Hospital",
+"bp": "bp:10763173",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ad16ecf-25c0-4373-b613-44ea526661a9.LOFI.mp3",
+"name": "Sleeping Awake",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2018-08-03"
+},
+{
+"minute": 37,
+"artist": "Bungle",
+"title": "Mutant",
+"label": "Thirtyone",
+"bp": "bp:12558876",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d701381f-b3f1-4619-973d-66d441db6bf6.LOFI.mp3",
+"name": "Mutant",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2019-10-04"
+},
+{
+"minute": 40,
+"artist": "Klute",
+"title": "We R The Ones",
+"label": "VIP",
+"bp": "bp:11258939",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/7f8a3401-a51f-4e10-9089-235d371e96e6.LOFI.mp3",
+"name": "We R the Ones",
+"mix": "Ulterior Motive Remix",
+"genre": "drum-bass",
+"released": "2018-12-03"
+},
+{
+"minute": 42,
+"artist": "Cause 4 Concern",
+"title": "Peep Show",
+"label": "Virus"
+},
+{
+"minute": 44,
+"artist": "Matrix & Fierce",
+"title": "Climate",
+"label": "Metro",
+"bp": "bp:3142982",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9b3b73bf-04c2-456f-afff-5471170495b6.LOFI.mp3",
+"name": "Climate",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2000-10-16"
+},
+{
+"minute": 45,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 47,
+"artist": "Ed Rush & Optical",
+"title": "Compound",
+"label": "Virus",
+"bp": "bp:912007",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6a2f9bb8-c18e-46ff-a2e7-99e20bab179a.LOFI.mp3",
+"name": "Compound",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "1998-01-01"
+},
+{
+"minute": 49,
+"artist": "Cause 4 Concern & Fierce",
+"title": "Carrier",
+"label": "Quarantine",
+"bp": "bp:709117",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/17bcb64c-6650-456e-b84b-ef808c6572f5.LOFI.mp3",
+"name": "Carrier",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2003-04-07"
+},
+{
+"minute": 50,
+"artist": "Klute",
+"title": "Tranceformat",
+"label": "Commercial Suicide",
+"bp": "bp:471748",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ecc14108-b2d4-43ed-99ba-1f638198cdf1.LOFI.mp3",
+"name": "Tranceformat",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2001-01-15"
+},
+{
+"minute": 53,
+"artist": "Kemal (DNB) & Rob Data",
+"title": "Star Trails",
+"label": "Audio Blueprint",
+"bp": "bp:20058620",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/2ca16fc6-3e67-43a4-b6c7-d78fbe520964.LOFI.mp3",
+"name": "Star Trails",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2014-07-21"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 55,
+"artist": "Lil' Louis",
+"title": "French Kiss (The Original Underground Mix)",
+"label": ""
+},
+{
+"minute": 57,
+"artist": "Dillinja",
+"title": "Hard Noize (Break Remix)",
+"label": "Valve",
+"bp": "bp:13431133",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6dd4c7d9-73ac-4f38-82bd-104b1a6d78be.LOFI.mp3",
+"name": "Hard Noize",
+"mix": "Break Remix",
+"genre": "drum-bass",
+"released": "2020-05-29"
+},
+{
+"minute": 59,
+"artist": "Urbandawn",
+"title": "Gothenburg Cluster",
+"label": "Hospital",
+"bp": "bp:8414714",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb80c6e0-639d-438a-97ff-590942cc1473.LOFI.mp3",
+"name": "Gothenburg Cluster",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2016-11-11"
+}
+]
+},
+{
+"title": "2025-08-02 - Urbandawn @ Let It Roll, Czech Republic",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Urbandawn -&#160;?"
+},
+{
+"minute": 2,
+"id": null,
+"raw": "Urbandawn -&#160;?"
+},
+{
+"minute": 3,
+"artist": "Zeds Dead & Urbandawn",
+"title": "Sound Of The Underground",
+"label": "Deadbeats",
+"bp": "bp:12862676",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/636d7e3c-8a15-4e05-ba7e-4b70e8401fe8.LOFI.mp3",
+"name": "Sound Of The Underground",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2019-12-04"
+},
+{
+"minute": 4,
+"artist": "Break",
+"title": "Headshot (VIP)",
+"label": "Symmetry"
+},
+{
+"minute": 6,
+"artist": "S.P.Y",
+"title": "Rock Da House",
+"label": "Hospital",
+"bp": "bp:11078935",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/72e84a5d-daf0-414b-b551-3a955c668c75.LOFI.mp3",
+"name": "Rock Da House",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2018-10-26"
+},
+{
+"minute": 7,
+"artist": "Crissy Criss Feat. Inja",
+"title": "Launch (Urbandawn Remix)",
+"label": "War On Silence"
+},
+{
+"minute": 8,
+"artist": "UK Apache & Shy FX",
+"title": "Original Nuttah 25 (Chase & Status Remix)",
+"label": "Cult.Ure"
+},
+{
+"minute": 9,
+"artist": "The In Crowd",
+"title": "Mango Walk (Urbandawn Remix)",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "House Of Pain",
+"title": "Jump Around (Urbandawn Bootleg)",
+"label": ""
+},
+{
+"minute": 12,
+"id": null,
+"raw": "Urbandawn -&#160;?"
+},
+{
+"minute": 13,
+"artist": "Noisia",
+"title": "Tentacles",
+"label": "Vision",
+"bp": "bp:8239353",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d6e06fd7-96f0-41f5-b57f-8dc6f76d1d16.LOFI.mp3",
+"name": "Tentacles",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2016-08-05"
+},
+{
+"minute": 14,
+"artist": "Urbandawn",
+"title": "Caffeine",
+"label": "Hospital",
+"bp": "bp:11078927",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6d4dec9-84cd-44fb-9433-b239b73c6c6a.LOFI.mp3",
+"name": "Caffeine",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2018-10-26"
+},
+{
+"minute": 15,
+"artist": "Break",
+"title": "Bury A Sound",
+"label": "Symmetry",
+"bp": "bp:17606466",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3b97a2c0-65f6-43e8-9fc1-8626659cfc69.LOFI.mp3",
+"name": "Bury a Sound",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-12"
+},
+{
+"minute": 17,
+"artist": "Rage Against The Machine",
+"title": "Guerrilla Radio (Urbandawn Bootleg)",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "Netsky & Urbandawn",
+"title": "Power",
+"label": "Hospital",
+"bp": "bp:14163525",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/adca11c3-251b-4db9-b3a3-01b313d0062f.LOFI.mp3",
+"name": "Power",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2020-10-30"
+},
+{
+"minute": 20,
+"id": null,
+"raw": "Urbandawn -&#160;?"
+},
+{
+"minute": 22,
+"artist": "Chaka Demus",
+"title": "Forward And Pull Up (Urbandawn Remix)",
+"label": "Hospital",
+"bp": "bp:12204442",
+"score": 0.929,
+"preview": "https://geo-samples.beatport.com/track/a86ae096-91c2-4d36-aacf-6d317411c212.LOFI.mp3",
+"name": "Forward & Pull Up",
+"mix": "Urbandawn Remix",
+"genre": "drum-bass",
+"released": "2019-07-26"
+},
+{
+"minute": 24,
+"artist": "Urbandawn Feat. Tyson Kelly",
+"title": "Come Together",
+"label": "Hospital",
+"bp": "bp:11949192",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/ee3f8a86-ab97-493a-b8ba-e118bab7b9e2.LOFI.mp3",
+"name": "Come Together",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2019-05-24"
+},
+{
+"minute": 25,
+"artist": "Urbandawn Feat. Tyson Kelly",
+"title": "Come Together (VIP)",
+"label": "Hospital"
+},
+{
+"minute": 27,
+"artist": "Sub Focus",
+"title": "Siren",
+"label": "",
+"bp": "bp:12342510",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ef404ae2-983d-4719-8f49-513dd5163d05.LOFI.mp3",
+"name": "Siren",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2019-07-26"
+},
+{
+"minute": 28,
+"artist": "Basstripper",
+"title": "In The City",
+"label": "Dnb Allstars",
+"bp": "bp:17892705",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/66167429-e61a-4452-b73a-5d021a4b780d.LOFI.mp3",
+"name": "In The City",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-07-14"
+},
+{
+"minute": 29,
+"artist": "A.M.C (UK) & SUUNE Feat. MC Phantom",
+"title": "Gas",
+"label": "UKF",
+"bp": "bp:20676017",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/738bd86c-80b2-4999-a925-c6426b15ccf2.LOFI.mp3",
+"name": "Gas",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-08-07"
+},
+{
+"minute": 30,
+"artist": "Mefjus & Maksim MC",
+"title": "Dopamine Hits",
+"label": "UKF",
+"bp": "bp:19589273",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/44606565-e5e2-4e85-a2cf-235a7c0129ab.LOFI.mp3",
+"name": "Dopamine Hits",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-10-24"
+},
+{
+"minute": 31,
+"artist": "Culture Shock",
+"title": "Deconstruct",
+"label": "Ram",
+"bp": "bp:23332315",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a4d212ce-7d6c-4898-b108-9f93a2cd3411.LOFI.mp3",
+"name": "Deconstruct",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2022-02-25"
+},
+{
+"minute": 33,
+"artist": "Urbandawn",
+"title": "Bailejungle",
+"label": "Hospital",
+"bp": "bp:19208269",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1c4382c5-74e5-4461-82a6-c9fd0aee89b7.LOFI.mp3",
+"name": "bailejungle",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-08-23"
+},
+{
+"minute": 34,
+"artist": "Urbandawn & Alibi",
+"title": "Misfit",
+"label": "V",
+"bp": "bp:18643612",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bf5f81f6-d1f2-44aa-bbd4-23f7617fccc2.LOFI.mp3",
+"name": "Misfit",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-02-16"
+},
+{
+"minute": 35,
+"artist": "Noisia",
+"title": "Concussion (Mefjus Remix)",
+"label": "Vision",
+"bp": "bp:16992825",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7990150e-f64d-400a-a7e9-ff9191378dcd.LOFI.mp3",
+"name": "Concussion",
+"mix": "Mefjus Remix",
+"genre": "drum-bass",
+"released": "2022-10-14"
+},
+{
+"minute": 36,
+"artist": "Teddy Killerz",
+"title": "Can't Stop Me",
+"label": "Neuropunk",
+"bp": "bp:13754046",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/02adc5e8-b3e5-4b19-b063-8355383b462a.LOFI.mp3",
+"name": "Can't Stop Me",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2020-06-30"
+},
+{
+"minute": 37,
+"artist": "Urbandawn",
+"title": "Egregor",
+"label": "Hospital",
+"bp": "bp:12931605",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8c51b4a6-e9cc-4a8c-a5fc-54e335b17691.LOFI.mp3",
+"name": "Egregor",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2020-01-31"
+},
+{
+"minute": 39,
+"artist": "Unglued X Urbandawn",
+"title": "Staccato",
+"label": "Hospital"
+},
+{
+"minute": 40,
+"artist": "Camo & Krooked & Mefjus",
+"title": "Sientelo (SOTA & Circadian Remix)",
+"label": "UKF",
+"bp": "bp:19231980",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/72e8bef0-7afc-4e7c-9253-6275555aff89.LOFI.mp3",
+"name": "Sientelo",
+"mix": "Sota & Circadian Remix",
+"genre": "drum-bass",
+"released": "2024-08-29"
+},
+{
+"minute": 41,
+"artist": "Mozey & Circadian",
+"title": "Louder",
+"label": "Rinse / Kool",
+"bp": "bp:20310810",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/50720d2b-27b9-42dc-a190-20b50629ad6c.LOFI.mp3",
+"name": "LOUDER",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-04-23"
+},
+{
+"minute": 43,
+"artist": "Spor",
+"title": "Sabretooth",
+"label": "Sotto Voce",
+"bp": "bp:19398612",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/224dd81b-6030-462a-9fab-1aa48c1540d5.LOFI.mp3",
+"name": "Sabretooth",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-09-06"
+},
+{
+"minute": 44,
+"artist": "Pendulum & Bullet For My Valentine",
+"title": "Halo (Urbandawn Remix)",
+"label": "Liberator",
+"bp": "bp:18032293",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0247fc2d-8d44-4765-8d92-e599293b27e2.LOFI.mp3",
+"name": "Halo",
+"mix": "Urbandawn Remix",
+"genre": "drum-bass",
+"released": "2023-08-25"
+},
+{
+"minute": 47,
+"id": null,
+"raw": "Urbandawn -&#160;?"
+},
+{
+"minute": 49,
+"artist": "Fatboy Slim",
+"title": "Right Here, Right Now (Friction & Killer Hertz Remix)",
+"label": "Skint",
+"bp": "bp:22929755",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ea64bfe2-dab8-4151-b00b-5b89452d1e71.LOFI.mp3",
+"name": "Right Here, Right Now",
+"mix": "Friction & Killer Hertz Remix",
+"genre": "dance-pop",
+"released": "2018-05-01"
+},
+{
+"minute": 51,
+"id": null,
+"raw": "Urbandawn -&#160;?"
+},
+{
+"minute": 52,
+"artist": "Blooom & Maksim",
+"title": "Purpose",
+"label": "Pilot",
+"bp": "bp:20443344",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/943106a7-3ff3-4739-8881-a667a6c280af.LOFI.mp3",
+"name": "PURPOSE",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-05-13"
+},
+{
+"minute": 53,
+"artist": "Lumia & B-Line",
+"title": "Darkness",
+"label": "",
+"bp": "bp:20572516",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4ba56d32-e20f-4fe1-8bbb-c588128a834a.LOFI.mp3",
+"name": "Darkness",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-06-20"
+},
+{
+"minute": 54,
+"artist": "Latte",
+"title": "Everybody Skank",
+"label": "Invicta",
+"bp": "bp:20430079",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c77586a1-624c-4bac-b7f2-88ab484a9375.LOFI.mp3",
+"name": "Everybody Skank",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-05-09"
+},
+{
+"minute": 55,
+"artist": "Crissy Criss",
+"title": "DANCE",
+"label": "War On Silence",
+"bp": "bp:20549253",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f37d4a94-2b8b-4cd1-8018-22c0612ec3e1.LOFI.mp3",
+"name": "DANCE",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-06-13"
+},
+{
+"minute": 56,
+"artist": "Noisia Feat. Foreign Beggars",
+"title": "Shellshock (Synergy Remix)",
+"label": "Vision"
+},
+{
+"minute": 58,
+"id": null,
+"raw": "Urbandawn -&#160;?"
+},
+{
+"minute": 61,
+"artist": "Urbandawn",
+"title": "The 5th",
+"label": "Hospital",
+"bp": "bp:20759606",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a24c463-960f-45ea-8f79-91639e500ac5.LOFI.mp3",
+"name": "The 5th",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-07-25"
+}
+]
+}
+]
+}
