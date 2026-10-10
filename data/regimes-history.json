@@ -2763,13 +2763,13 @@
 "date": "2026-10-10",
 "scene": "mainstage",
 "regime": "stars lead",
-"established": 10
+"established": 11
 },
 {
 "date": "2026-10-10",
 "scene": "hard-techno",
 "regime": "mixed",
-"established": 12
+"established": 17
 },
 {
 "date": "2026-10-10",
@@ -2803,6 +2803,12 @@
 },
 {
 "date": "2026-10-10",
+"scene": "hard-dance-hardcore",
+"regime": "mixed",
+"established": 6
+},
+{
+"date": "2026-10-10",
 "scene": "minimal-deep-tech",
 "regime": "mixed",
 "established": 12
@@ -2816,7 +2822,7 @@
 {
 "date": "2026-10-10",
 "scene": "trance-raw-deep-hypnotic",
-"regime": "mixed",
-"established": 7
+"regime": "stars behind",
+"established": 8
 }
 ]
