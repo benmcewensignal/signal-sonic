@@ -3,6 +3,343 @@
 "source": "MixesDB (CC BY-SA 3.0)",
 "sets": [
 {
+"title": "2022-07-23 - Calvin Clarke, Lauren Lane - Paradise, Rinse FM",
+"records": []
+},
+{
+"title": "2023-05-06 - Ale De Tuglie B2B Calvin Clarke @ Music On Festival, Meerpark, Amsterdam",
+"records": []
+},
+{
+"title": "2023-12-09 - Calvin Clarke, Joshwa - Paradise, Rinse FM",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 5,
+"artist": "Shermanology",
+"title": "Get Loose",
+"label": "Rawthentic",
+"bp": "bp:14700074",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d532436d-ce27-4190-a815-d0f88af601fb.LOFI.mp3",
+"name": "Get Loose",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2021-01-22"
+},
+{
+"minute": 9,
+"artist": "Andy Sherman & Max C",
+"title": "Oldskool",
+"label": "D'EAUPE",
+"bp": "bp:19087296",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/777d1699-7d40-44ce-b2bf-94112a54a6b7.LOFI.mp3",
+"name": "Oldskool",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-06-21"
+},
+{
+"minute": 13,
+"artist": "Shermanology Feat. Conquer Jones",
+"title": "OK",
+"label": "Cool (Aight) - Hot Creations"
+},
+{
+"minute": 17,
+"artist": "Shermanology",
+"title": "Tribe (Extended Mix)",
+"label": "D'EAUPE",
+"bp": "bp:16107456",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9f25b235-44c5-4ac5-b948-9ffa694949b4.LOFI.mp3",
+"name": "Tribe",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-02-04"
+},
+{
+"minute": 22,
+"artist": "Ren\u00e9 Amesz & Jay Colin",
+"title": "Freak Ya Tail",
+"label": "",
+"bp": "bp:18178876",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/481c9e89-bdc5-4cb1-81db-ab8c5a91e692.LOFI.mp3",
+"name": "Freak Ya Tail",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-10-20"
+},
+{
+"minute": 26,
+"artist": "Shermanology",
+"title": "Touch",
+"label": "",
+"bp": "bp:18097668",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b4ca32ad-d33c-4ad9-8133-a44d07ea8e1e.LOFI.mp3",
+"name": "Touch",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2023-09-29"
+},
+{
+"minute": 30,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 36,
+"artist": "Shermanology",
+"title": "Souljack",
+"label": "Elrow",
+"bp": "bp:16980949",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0c02d3dd-c73d-4dd8-ab42-4a24102d5b14.LOFI.mp3",
+"name": "Souljack",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2022-10-14"
+},
+{
+"minute": 39,
+"artist": "Shermanology",
+"title": "Soldier March",
+"label": "",
+"bp": "bp:13656088",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/504fbb45-bd29-49c0-8d62-be3871593902.LOFI.mp3",
+"name": "Soldier March",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-06-12"
+},
+{
+"minute": 43,
+"artist": "Todd Edwards Feat. Conquer Jones",
+"title": "Show Me A Sign (Shermanology Extended Remix)",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "Dennis Quin & Shermanology",
+"title": "Move Out Of My Way",
+"label": "Be Yourself Music",
+"bp": "bp:10496546",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a2c43b90-089c-4748-9fa9-c406f66bf7d4.LOFI.mp3",
+"name": "Move out of My Way",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2018-06-15"
+},
+{
+"minute": 52,
+"artist": "Amine Edge & DANCE",
+"title": "It Was (Shermanology Remix)",
+"label": "Hot Creations",
+"bp": "bp:18092791",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/73c5eba2-33bb-44aa-bb1d-d2414e3b0a60.LOFI.mp3",
+"name": "It Was",
+"mix": "Shermanology Remix",
+"genre": "house",
+"released": "2023-09-22"
+},
+{
+"minute": 56,
+"artist": "Shermanology",
+"title": "Jabula",
+"label": "",
+"bp": "bp:18097666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cd15393f-47d9-417f-b37c-fe9ddcfed81b.LOFI.mp3",
+"name": "Jabula",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2023-09-29"
+},
+{
+"minute": 60,
+"artist": "Shermanology",
+"title": "Sometimes (Extended Mix)",
+"label": "Defected",
+"bp": "bp:17819982",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4b4534fd-4499-4ca9-a394-013fda34d00d.LOFI.mp3",
+"name": "Sometimes",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2023-06-22"
+},
+{
+"minute": 65,
+"artist": "Shermanology & Boyz II Men",
+"title": "Motown Philly (Extended)",
+"label": "",
+"bp": "bp:18283385",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c5f92d5a-1445-44f3-9e9f-18b6ffffc3d6.LOFI.mp3",
+"name": "Motown Philly (Extended)",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-11-10"
+},
+{
+"minute": 70,
+"artist": "Shermanology",
+"title": "Boyz N Da Club",
+"label": "D'EAUPE",
+"bp": "bp:15217795",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cd2752e4-4d4d-48fd-8ba0-92d964d00bff.LOFI.mp3",
+"name": "Boyz N Da Club",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2021-04-30"
+},
+{
+"minute": 74,
+"artist": "Shermanology",
+"title": "Bon Bini",
+"label": "",
+"bp": "bp:14102612",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3eee67de-701e-415b-a415-7149e1814ad0.LOFI.mp3",
+"name": "Bon Bini",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-09-11"
+},
+{
+"minute": 78,
+"artist": "Lata Mangeshkar",
+"title": "Thoda Resham Lagta Hai",
+"label": "Saregama India"
+},
+{
+"minute": 81,
+"artist": "Hero & King Of Jhankar Studio & Lata Mangeshkar",
+"title": "Thoda Resham Lagta Hai (Binaca Jhankar Beats)",
+"label": "Saregama India"
+},
+{
+"minute": 84,
+"artist": "Douvelle19 & Manga Saint Hilare",
+"title": "Shook",
+"label": "",
+"bp": "bp:18204532",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8e36a1bb-72eb-43e6-8177-88447c4627b8.LOFI.mp3",
+"name": "Shook",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2023-11-09"
+},
+{
+"minute": 87,
+"artist": "Tkay Maidza Feat. Duckwrth",
+"title": "Gone To The West (Clean Version)",
+"label": ""
+},
+{
+"minute": 91,
+"artist": "RIMON & Kelz2busy",
+"title": "Can't Forget",
+"label": "",
+"bp": "bp:22695948",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b12feed-3ba5-4b23-ba97-a40e379d59e5.LOFI.mp3",
+"name": "Can't Forget ",
+"mix": "Original Mix",
+"genre": "rb",
+"released": "2023-11-17"
+},
+{
+"minute": 95,
+"artist": "Biig Piig",
+"title": "Watch Me",
+"label": "",
+"bp": "bp:21608840",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fd4a1f4e-3039-4d06-90a3-dfdcb2bf8dfe.LOFI.mp3",
+"name": "Watch Me",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2023-11-15"
+},
+{
+"minute": 98,
+"artist": "Tierra Whack",
+"title": "Chanel Pit",
+"label": "",
+"bp": "bp:21469806",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3e5bcefe-52cf-418a-8184-bfafb5760f90.LOFI.mp3",
+"name": "CHANEL PIT",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2024-03-15"
+},
+{
+"minute": 101,
+"artist": "A2 Anti",
+"title": "22",
+"label": "",
+"bp": "bp:26208575",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1f57b672-9089-465c-9809-2517025d3dbf.LOFI.mp3",
+"name": "22",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2023-11-16"
+},
+{
+"minute": 104,
+"artist": "Lord Apex & Greentea Peng",
+"title": "In Your Heart",
+"label": ""
+},
+{
+"minute": 108,
+"artist": "Wilfy D & Ghost Phone",
+"title": "After Dark",
+"label": "",
+"bp": "bp:18297121",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cf8b65a0-0b28-4888-ab60-a9d08e6fc29a.LOFI.mp3",
+"name": "After Dark",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-11-17"
+},
+{
+"minute": 111,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 114,
+"artist": "Tom Brock",
+"title": "I Love You More And More",
+"label": "Mango",
+"bp": "bp:21858259",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4480138e-85ce-4d43-8e03-4a3b23d1e94f.LOFI.mp3",
+"name": "I Love You More And More",
+"mix": "Original Mix",
+"genre": "rb",
+"released": "2019-02-22"
+}
+]
+},
+{
 "title": "2024-05-12 - Calvin Clarke @ Music On Festival, Meerpark, Amsterdam",
 "records": []
 }

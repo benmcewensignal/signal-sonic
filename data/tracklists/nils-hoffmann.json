@@ -1,1121 +1,5486 @@
 {
- "dj": "Nils Hoffmann",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2024-01-18 - Nils Hoffmann - The Anjunadeep Edition 483",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Nils Hoffmann",
-     "title": "Closer",
-     "label": "Anjunadeep",
-     "bp": "bp:18224303",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 4,
-     "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
-     "title": "Next Life",
-     "label": "Anjunadeep",
-     "bp": "bp:18583624",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 10,
-     "artist": "Nils Hoffmann Feat. Kite String Tangle",
-     "title": "Holding Me Back",
-     "label": "Anjunadeep",
-     "bp": "bp:18481374",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 15,
-     "artist": "Nils Hoffmann Feat. Rae Morris",
-     "title": "Lonely (Live Edit)",
-     "label": "Anjunadeep"
-    },
-    {
-     "minute": 20,
-     "artist": "Nils Hoffmann",
-     "title": "Immunity",
-     "label": "Anjunadeep",
-     "bp": "bp:16699710",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 24,
-     "artist": "Nils Hoffmann",
-     "title": "Higher Power",
-     "label": "Anjunadeep",
-     "bp": "bp:18583623",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
-     "name": "Higher Power",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": 29,
-     "artist": "Nils Hoffmann & Natascha Polké",
-     "title": "Cranes",
-     "label": "Anjunadeep",
-     "bp": "bp:16570971",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 33,
-     "artist": "Emmit Fenn",
-     "title": "Amman (Nils Hoffmann Remix)",
-     "label": "Cercle"
-    },
-    {
-     "minute": 39,
-     "artist": "Nils Hoffmann",
-     "title": "Collide",
-     "label": "Anjunadeep",
-     "bp": "bp:18583619",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 43,
-     "artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
-     "title": "Running In A Dream",
-     "label": "Anjunadeep",
-     "bp": "bp:18393478",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 48,
-     "artist": "Eli & Fur",
-     "title": "Otherside (Nils Hoffmann Remix)",
-     "label": "Spinnin' Deep",
-     "bp": "bp:27587043",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/56f40233-d7be-49cc-9f31-b14c3f789089.LOFI.mp3",
-     "name": "Otherside",
-     "mix": "Nils Hoffmann Remix",
-     "genre": "dance-pop",
-     "released": "2020-11-27"
-    },
-    {
-     "minute": 53,
-     "artist": "Nils Hoffmann",
-     "title": "Afterglow (Live Edit)",
-     "label": "Anjunadeep"
-    },
-    {
-     "minute": 56,
-     "artist": "Nils Hoffmann Feat. Will Hyde",
-     "title": "Say Goodbye",
-     "label": "Anjunadeep",
-     "bp": "bp:18583625",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2024-02-09 - Above & Beyond, Nils Hoffmann - Group Therapy Radio (ABGT 565)",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Ferry Corsten X Marsh",
-     "title": "Fulfillment (Extended Mix)",
-     "label": "Flashover",
-     "bp": "bp:18554437",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/2389a120-c910-4bd7-972d-61f1125cadba.LOFI.mp3",
-     "name": "Fulfillment",
-     "mix": "Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2024-02-02"
-    },
-    {
-     "minute": null,
-     "artist": "GVN",
-     "title": "Thinking About You",
-     "label": "Anjunabeats",
-     "bp": "bp:18683577",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/694acb61-b537-4247-813e-9174aeee9983.LOFI.mp3",
-     "name": "Thinking About You",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2024-02-14"
-    },
-    {
-     "minute": null,
-     "artist": "Pete K",
-     "title": "For Love",
-     "label": "Stress",
-     "bp": "bp:26490220",
-     "score": 0.836,
-     "preview": "https://geo-samples.beatport.com/track/b3010cc0-f3d6-4fc7-893d-18be63e5d1af.LOFI.mp3",
-     "name": "For Love",
-     "mix": "Mixed",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2024-12-13"
-    },
-    {
-     "minute": null,
-     "artist": "Darren Tate & Solarstone Feat. Julie Scott",
-     "title": "A Long Way From Home (Timeless Mix)",
-     "label": "Anjunabeats",
-     "bp": "bp:18580761",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/9b7d592f-f4e9-4181-a756-39f75ff4693e.LOFI.mp3",
-     "name": "A Long Way From Home feat. Julie Scott",
-     "mix": "Timeless Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2024-02-16"
-    },
-    {
-     "minute": null,
-     "artist": "Durante Feat. Hana",
-     "title": "Hot Night (Extended Mix)",
-     "label": "Anjunadeep",
-     "bp": "bp:18522775",
-     "score": 0.756,
-     "preview": "https://geo-samples.beatport.com/track/ad158ae5-94ba-4177-afdb-29d149905d6d.LOFI.mp3",
-     "name": "Hot Night feat. HANA",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2024-01-23"
-    },
-    {
-     "minute": null,
-     "artist": "Anuqram",
-     "title": "Hold Up (Extended Mix)",
-     "label": "Anjunabeats",
-     "bp": "bp:18581268",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/1e8594c1-37d2-4265-88f7-a68b914d7499.LOFI.mp3",
-     "name": "Hold Up",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2024-01-26"
-    },
-    {
-     "minute": null,
-     "artist": "Scorz & Silvio Soul",
-     "title": "This Feeling",
-     "label": "Armada",
-     "bp": "bp:18557416",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/bc1e8f69-9a1d-4adf-a1b3-9aba4b9be5dd.LOFI.mp3",
-     "name": "This Feeling",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2024-02-02"
-    },
-    {
-     "minute": null,
-     "artist": "Kiholm",
-     "title": "Bittersweet",
-     "label": "Fluentia",
-     "bp": "bp:18428245",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/b0e22898-81d2-42da-be30-f7440f33aaa3.LOFI.mp3",
-     "name": "Bittersweet",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2024-02-23"
-    },
-    {
-     "minute": null,
-     "artist": "Nitrous Oxide & Seb Hennig",
-     "title": "Constellation",
-     "label": "Argento",
-     "bp": "bp:18591804",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/51912f43-049d-4a16-a496-7c7e407f11bc.LOFI.mp3",
-     "name": "Constellation",
-     "mix": "Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": null,
-     "artist": "Avenue One",
-     "title": "Rio (Extended Mix)",
-     "label": "Colorize",
-     "bp": "bp:18532697",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/4226b026-7acb-471b-808e-b2d1ceb65313.LOFI.mp3",
-     "name": "Rio",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": null,
-     "artist": "Yotto vs Anden",
-     "title": "Will You Remember Me?",
-     "label": "Odd One Out"
-    },
-    {
-     "minute": null,
-     "artist": "Mees Salome",
-     "title": "Beyond Us (Extended Mix)",
-     "label": "This Never Happened",
-     "bp": "bp:18541695",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/f51951cb-6150-46d9-b23e-70cbce0a5777.LOFI.mp3",
-     "name": "Beyond Us",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2024-01-30"
-    },
-    {
-     "minute": null,
-     "artist": "Kill The Noise, Feed Me & Tasha Baxter",
-     "title": "Mirage (Mat Zo Remix)",
-     "label": "Ophelia",
-     "bp": "bp:18555974",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/6b48efa9-7d8b-41b0-b56b-ce24a3508b2b.LOFI.mp3",
-     "name": "Mirage",
-     "mix": "Mat Zo Remix",
-     "genre": "dance-pop",
-     "released": "2024-02-02"
-    },
-    {
-     "minute": null,
-     "artist": "Above & Beyond Feat. Zoë Johnston",
-     "title": "Crazy Love",
-     "label": "Anjunabeats",
-     "bp": "bp:18580712",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Grum",
-     "title": "Come With Me",
-     "label": "Being",
-     "bp": "bp:18757251",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/c390a4e6-93e2-475d-8174-c28a9d59df24.LOFI.mp3",
-     "name": "Come With Me",
-     "mix": "Original Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2024-03-14"
-    },
-    {
-     "minute": null,
-     "artist": "Jon Gurd & Reset Robot",
-     "title": "Takerimba",
-     "label": "Anjunadeep"
-    },
-    {
-     "minute": null,
-     "artist": "Sunny Lax",
-     "title": "Waves (Extended Mix)",
-     "label": "Enhanced Progressive",
-     "bp": "bp:18514644",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/d0c32f8f-d134-4012-8ea0-b045dc106e32.LOFI.mp3",
-     "name": "Waves",
-     "mix": "Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2024-02-02"
-    },
-    {
-     "minute": null,
-     "artist": "Boom Jinx, Andy Moor & Noise Zoo Feat. Ashley Tomberlin",
-     "title": "Pinpricks Of Life",
-     "label": "Enhanced Progressive",
-     "bp": "bp:18532692",
-     "score": 0.79,
-     "preview": "https://geo-samples.beatport.com/track/2f0b1dce-d334-428f-aa38-525b113db593.LOFI.mp3",
-     "name": "Pinpricks of Life",
-     "mix": "Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": null,
-     "artist": "Above & Beyond Feat. Alex Vargas",
-     "title": "Sink The Lighthouse (Maor Levi Remix)",
-     "label": "Anjunabeats",
-     "bp": "bp:8554862",
-     "score": 0.803,
-     "preview": "https://geo-samples.beatport.com/track/f27f46eb-a6c5-4408-b5b3-4591fc7d39b7.LOFI.mp3",
-     "name": "Sink The Lighthouse feat. Alex Vargas",
-     "mix": "Maor Levi Remix",
-     "genre": "trance-main-floor",
-     "released": "2016-12-02"
-    },
-    {
-     "minute": null,
-     "artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
-     "title": "Running In A Dream (Extended Mix)",
-     "label": "Anjunadeep",
-     "bp": "bp:18393478",
-     "score": 0.756,
-     "preview": "https://geo-samples.beatport.com/track/a177dbdc-4a96-4dc5-bb1d-cc063803f9cf.LOFI.mp3",
-     "name": "Running In A Dream feat. Vancouver Sleep Clinic",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2023-12-01"
-    },
-    {
-     "minute": null,
-     "artist": "Nils Hoffmann",
-     "title": "Higher Power",
-     "label": "Anjunadeep",
-     "bp": "bp:18583623",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
-     "name": "Higher Power",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": null,
-     "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
-     "title": "Next Life",
-     "label": "Anjunadeep",
-     "bp": "bp:18583624",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Nils Hoffmann Feat. The Kite String Tangle",
-     "title": "Holding Me Back",
-     "label": "Anjunadeep",
-     "bp": "bp:18481374",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Nils Hoffmann Feat. Rae Morris",
-     "title": "Lonely",
-     "label": "Anjunadeep",
-     "bp": "bp:17816637",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Nils Hoffmann",
-     "title": "Closer",
-     "label": "Anjunadeep",
-     "bp": "bp:18224303",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2024-03-14 - Armin van Buuren, Nils Hoffmann - A State Of Trance 1164",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Tune Of The Week: MaRLo Feat. Mila Josef",
-     "title": "You Are Not Alone",
-     "label": "Armind"
-    },
-    {
-     "minute": 5,
-     "artist": "7 Skies",
-     "title": "Used To Know",
-     "label": "Standalone",
-     "bp": "bp:19882606",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/e597dc4b-c851-4b0a-9b87-b1018914df8a.LOFI.mp3",
-     "name": "Used To Know",
-     "mix": "Original Mix",
-     "genre": "dance-pop",
-     "released": "2024-03-22"
-    },
-    {
-     "minute": 8,
-     "artist": "Rowland Giles",
-     "title": "Come Thru (Eugenio Tokarev Remix)",
-     "label": "Nomads",
-     "bp": "bp:18722398",
-     "score": 0.924,
-     "preview": "https://geo-samples.beatport.com/track/387af89e-f6c7-47ce-86fb-49c9a95e7c67.LOFI.mp3",
-     "name": "Come Thru",
-     "mix": "Eugenio Tokarev Extended Remix",
-     "genre": "trance-main-floor",
-     "released": "2024-03-15"
-    },
-    {
-     "minute": 12,
-     "artist": "Future Favorite: Ruben De Ronde & Farius & David Frank",
-     "title": "Radiant (Datskie Remix)",
-     "label": "Enhanced Progressive",
-     "bp": "bp:18614634",
-     "score": 0.794,
-     "preview": "https://geo-samples.beatport.com/track/afa8d650-5562-43e4-a1bd-31b476827f55.LOFI.mp3",
-     "name": "Radiant",
-     "mix": "Datskie Extended Remix",
-     "genre": "progressive-house",
-     "released": "2024-02-21"
-    },
-    {
-     "minute": 14,
-     "artist": "Progressive Pick: Ferry Corsten Feat. Chris Howard",
-     "title": "Where The Mountains Grow",
-     "label": "Flashover",
-     "bp": "bp:18782930",
-     "score": 0.593,
-     "preview": "https://geo-samples.beatport.com/track/6aaa396f-f8cd-420a-9d87-4416f5f64ed4.LOFI.mp3",
-     "name": "Where The Mountains Grow feat. Chris Howard",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2024-03-29"
-    },
-    {
-     "minute": 17,
-     "artist": "Maor Levi",
-     "title": "I Know",
-     "label": "Ophelia"
-    },
-    {
-     "minute": 22,
-     "artist": "DT8 Project Feat. Roxanne Wilde",
-     "title": "Destination (Super8 & Tab Remix)",
-     "label": "A State Of Trance"
-    },
-    {
-     "minute": 26,
-     "artist": "LSR/CITY",
-     "title": "Killshot",
-     "label": "We'll Be Ok"
-    },
-    {
-     "minute": 29,
-     "artist": "Mall Grab & Effy",
-     "title": "Iluv",
-     "label": "Fragrance",
-     "bp": "bp:19417979",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/dae6a375-d576-4e2e-a4b6-f60d6eaa9d6f.LOFI.mp3",
-     "name": "iluv",
-     "mix": "vip",
-     "genre": "drum-bass",
-     "released": "2024-08-22"
-    },
-    {
-     "minute": 31,
-     "artist": "LÜRUM",
-     "title": "Pendulum",
-     "label": "A State Of Trance"
-    },
-    {
-     "minute": 35,
-     "artist": "Casepeat & Plutian",
-     "title": "Theory Of Everything",
-     "label": "Infrasonic Pure",
-     "bp": "bp:18667562",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/498c437e-d67c-48c4-94e5-9dca24891ae1.LOFI.mp3",
-     "name": "Theory of Everything",
-     "mix": "Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2024-03-15"
-    },
-    {
-     "minute": 38,
-     "artist": "Craig Connelly",
-     "title": "Perseverance",
-     "label": "FSOE",
-     "bp": "bp:18723755",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/a43c0d91-7708-4202-ab93-c1d2f51a520a.LOFI.mp3",
-     "name": "Perseverance",
-     "mix": "Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2024-03-29"
-    },
-    {
-     "minute": 43,
-     "artist": "Ben Nicky & Hannah Laing & Paul Findlay X Signum Feat. Scott Mac",
-     "title": "Coming On Strong (Trance Mix)",
-     "label": "Armada",
-     "bp": "bp:19368363",
-     "score": 0.759,
-     "preview": "https://geo-samples.beatport.com/track/750eb90c-bb1f-4920-84c3-960d0e3b1db6.LOFI.mp3",
-     "name": "Coming On Strong (Mixed) feat. Scott Mac",
-     "mix": "Trance Mix",
-     "genre": "dance-pop",
-     "released": "2024-05-17"
-    },
-    {
-     "minute": 46,
-     "artist": "Sneijder",
-     "title": "In And Out Of My Life (Will Rees Remix)",
-     "label": "Afterdark",
-     "bp": "bp:19846763",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/0d7bd155-fbb3-42f5-9685-b57b8b447c14.LOFI.mp3",
-     "name": "In and Out of My Life",
-     "mix": "Will Rees Remix",
-     "genre": "trance-main-floor",
-     "released": "2024-12-06"
-    },
-    {
-     "minute": 49,
-     "artist": "ELV",
-     "title": "I Wanna Dance",
-     "label": "Edge One",
-     "bp": "bp:18732908",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/5665b68f-0dd0-4b1f-b9ec-5660e5a24d70.LOFI.mp3",
-     "name": "I Wanna Dance",
-     "mix": "Extended Mix",
-     "genre": "trance-main-floor",
-     "released": "2024-03-15"
-    },
-    {
-     "minute": 52,
-     "artist": "BK & Steve Hill",
-     "title": "Power Of Bass",
-     "label": "Armada",
-     "bp": "bp:18759110",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/609772fd-b7ab-40db-adec-4355a2741789.LOFI.mp3",
-     "name": "Power Of Bass",
-     "mix": "Extended Mix",
-     "genre": "hard-dance-hardcore-neo-rave",
-     "released": "2024-03-15"
-    },
-    {
-     "minute": 56,
-     "artist": "Service For Dreamers: Armin van Buuren & Avian Grays Feat. Jordan Shaw",
-     "title": "Something Real (Giuseppe Ottaviani Remix)",
-     "label": "Armind",
-     "bp": "bp:22866619",
-     "score": 0.747,
-     "preview": "https://geo-samples.beatport.com/track/315b390c-185f-4cb7-a87d-48ea0ef8a2b6.LOFI.mp3",
-     "name": "Something Real feat. Jordan Shaw",
-     "mix": "Giuseppe Ottaviani Remix",
-     "genre": "dance-pop",
-     "released": "2020-03-20"
-    },
-    {
-     "minute": 63,
-     "artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
-     "title": "Running In A Dream",
-     "label": "Anjunadeep",
-     "bp": "bp:18393478",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 69,
-     "artist": "Nils Hoffmann",
-     "title": "Collide",
-     "label": "Anjunadeep",
-     "bp": "bp:18583619",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 73,
-     "artist": "Nils Hoffmann",
-     "title": "Higher Power",
-     "label": "Anjunadeep",
-     "bp": "bp:18583623",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
-     "name": "Higher Power",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": 78,
-     "artist": "AUTOFLOWER",
-     "title": "Wallflower",
-     "label": "Raving Society",
-     "bp": "bp:18439521",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/d7eebc25-8656-4a46-a7da-d009bd6d6eba.LOFI.mp3",
-     "name": "Wallflower",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2024-01-05"
-    },
-    {
-     "minute": 81,
-     "artist": "Azzecca",
-     "title": "Mantra (Super Flu Remix)",
-     "label": "Realm",
-     "bp": "bp:18028497",
-     "score": 0.898,
-     "preview": "https://geo-samples.beatport.com/track/cdc11a52-10e6-41b7-bdf9-f1a861df8480.LOFI.mp3",
-     "name": "Mantra",
-     "mix": "Super Flu Extended Remix",
-     "genre": "melodic-house-techno",
-     "released": "2023-08-18"
-    },
-    {
-     "minute": 86,
-     "artist": "CamelPhat",
-     "title": "Running Man",
-     "label": "Mahool",
-     "bp": "bp:18453665",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/f48d1321-fbf2-4915-aef9-c17478c51958.LOFI.mp3",
-     "name": "Running Man",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2024-01-11"
-    },
-    {
-     "minute": 91,
-     "id": null,
-     "raw": "&#160;?"
-    },
-    {
-     "minute": 97,
-     "artist": "YOTTO",
-     "title": "Just Over (Franky Wah Remix)",
-     "label": "Odd One Out",
-     "bp": "bp:18384976",
-     "score": 0.911,
-     "preview": "https://geo-samples.beatport.com/track/4873e2e7-ce32-45a8-b8e2-278988886111.LOFI.mp3",
-     "name": "Just Over",
-     "mix": "Franky Wah Extended Remix",
-     "genre": "electronica",
-     "released": "2024-01-04"
-    },
-    {
-     "minute": 101,
-     "artist": "Above & Beyond Pres. Oceanlab",
-     "title": "Sirens Of The Sea (Marsh Remix)",
-     "label": "Anjunabeats"
-    },
-    {
-     "minute": 109,
-     "artist": "Joris Voorn Feat. Nathan Nicholson",
-     "title": "You & I",
-     "label": "Spectrum"
-    },
-    {
-     "minute": 114,
-     "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
-     "title": "Next Life",
-     "label": "Anjunadeep",
-     "bp": "bp:18583624",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 119,
-     "artist": "Nils Hoffmann Feat. Rae Morris",
-     "title": "Lonely",
-     "label": "Anjunadeep",
-     "bp": "bp:17816637",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2024-03-18 - Florian Schumacher, Nils Hoffmann - ClubDing",
-   "records": [
-    {
-     "minute": null,
-     "artist": "LATIN MAFIA & Humbe",
-     "title": "Patadas De Ahogado (HUGEL Extended Rework)",
-     "label": "Columbia"
-    },
-    {
-     "minute": null,
-     "artist": "Christian Löffler Feat. Mogli",
-     "title": "Portals (Extended Club Version)",
-     "label": "Ki",
-     "bp": "bp:18753676",
-     "score": 0.92,
-     "preview": "https://geo-samples.beatport.com/track/f8874861-9d9b-48a1-90b1-333c579ead2a.LOFI.mp3",
-     "name": "Portals",
-     "mix": "Extended Club Version",
-     "genre": "dance-pop",
-     "released": "2024-03-01"
-    },
-    {
-     "minute": null,
-     "artist": "Thomas Beyer",
-     "title": "Mission Of Light",
-     "label": "Bunte Träumerei - BNTT010",
-     "bp": "bp:18764094",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/fc5c5f86-6543-4610-8b6c-b7723d3df4e7.LOFI.mp3",
-     "name": "Mission of Light",
-     "mix": "Original Mix",
-     "genre": "melodic-house-techno",
-     "released": "2024-03-15"
-    },
-    {
-     "minute": null,
-     "artist": "Booka Shade",
-     "title": "The Player (Extended Mix)",
-     "label": "Blaufield",
-     "bp": "bp:26799275",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/b8c687c1-8049-46e9-9b47-5404b7cf9d86.LOFI.mp3",
-     "name": "The Player",
-     "mix": "Extended Mix",
-     "genre": "melodic-house-techno",
-     "released": "2024-06-07"
-    },
-    {
-     "minute": null,
-     "artist": "Keinemusik & Alan Dixon Feat. Arabic Piano",
-     "title": "Thandaza",
-     "label": "Keinemusik",
-     "bp": "bp:18778205",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Sharam Jey & Jonathan Touch & Max Gazer",
-     "title": "Grabbing Hands",
-     "label": "Pimp My Booty",
-     "bp": "bp:18401764",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/284d28a1-517b-47fc-8dad-917a67328d73.LOFI.mp3",
-     "name": "Grabbing Hands",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2023-12-15"
-    },
-    {
-     "minute": null,
-     "artist": "Sascha Braemer & UNDERHER",
-     "title": "Hear Out",
-     "label": "Ritter Butzke"
-    },
-    {
-     "minute": null,
-     "artist": "Peredel",
-     "title": "WMB",
-     "label": "Diynamic"
-    },
-    {
-     "minute": null,
-     "artist": "WAHM",
-     "title": "Una Canción",
-     "label": "Diynamic - 195",
-     "bp": "bp:18729228",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/c731e6f8-8548-4e08-addf-a147a6d6aaaf.LOFI.mp3",
-     "name": "Una Canción",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2024-03-08"
-    },
-    {
-     "minute": null,
-     "artist": "Aio",
-     "title": "Dilemma",
-     "label": "Senso Sounds"
-    },
-    {
-     "minute": 60,
-     "artist": "Nils Hoffmann",
-     "title": "Closer",
-     "label": "Anjunadeep",
-     "bp": "bp:18224303",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 65,
-     "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
-     "title": "Next Life",
-     "label": "Anjunadeep",
-     "bp": "bp:18583624",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 70,
-     "artist": "Nils Hoffmann Feat. Kite String Tangle",
-     "title": "Holding Me Back",
-     "label": "Anjunadeep",
-     "bp": "bp:18481374",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 76,
-     "artist": "Nils Hoffmann Feat. Rae Morris",
-     "title": "Lonely (Live Edit)",
-     "label": "Anjunadeep"
-    },
-    {
-     "minute": 81,
-     "artist": "Nils Hoffmann",
-     "title": "Immunity",
-     "label": "Anjunadeep",
-     "bp": "bp:16699710",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 85,
-     "artist": "Nils Hoffmann",
-     "title": "Higher Power",
-     "label": "Anjunadeep",
-     "bp": "bp:18583623",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
-     "name": "Higher Power",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": 90,
-     "artist": "Nils Hoffmann & Natascha Polké",
-     "title": "Cranes",
-     "label": "Anjunadeep",
-     "bp": "bp:16570971",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 94,
-     "artist": "Emmit Fenn",
-     "title": "Amman (Nils Hoffmann Remix)",
-     "label": "Cercle"
-    },
-    {
-     "minute": 99,
-     "artist": "Nils Hoffmann",
-     "title": "Collide",
-     "label": "Anjunadeep",
-     "bp": "bp:18583619",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 103,
-     "artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
-     "title": "Running In A Dream",
-     "label": "Anjunadeep",
-     "bp": "bp:18393478",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 109,
-     "artist": "Eli & Fur",
-     "title": "Otherside (Nils Hoffmann Remix)",
-     "label": "Spinnin' Deep",
-     "bp": "bp:27587043",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/56f40233-d7be-49cc-9f31-b14c3f789089.LOFI.mp3",
-     "name": "Otherside",
-     "mix": "Nils Hoffmann Remix",
-     "genre": "dance-pop",
-     "released": "2020-11-27"
-    },
-    {
-     "minute": 113,
-     "artist": "Nils Hoffmann",
-     "title": "Afterglow (Live Edit)",
-     "label": "Anjunadeep"
-    },
-    {
-     "minute": 117,
-     "artist": "Nils Hoffmann Feat. Will Hyde",
-     "title": "Say Goodbye",
-     "label": "Anjunadeep",
-     "bp": "bp:18583625",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2024-08-24 - Nils Hoffmann (Live PA) @ Anjunadeep Open Air, Gas Works Park, Seattle",
-   "records": []
-  },
-  {
-   "title": "2024-10-20 - Nils Hoffmann (Live PA) @ Anjunadeep Open Air, Hipódromo De Las Américas, Mexico City",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
-     "title": "Running In A Dream",
-     "label": "",
-     "bp": "bp:18393478",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 6,
-     "artist": "Nils Hoffmann Feat. Julia Church",
-     "title": "9 Days",
-     "label": ""
-    },
-    {
-     "minute": 10,
-     "artist": "Nils Hoffmann",
-     "title": "Once In A Blue Moon",
-     "label": "",
-     "bp": "bp:12443890",
-     "score": 0.847,
-     "preview": "https://geo-samples.beatport.com/track/4e4ace00-557c-410a-9c75-4be8d757d3bd.LOFI.mp3",
-     "name": "Once in a Blue Moon",
-     "mix": "Extended Mix",
-     "genre": "progressive-house",
-     "released": "2019-09-06"
-    },
-    {
-     "minute": 12,
-     "artist": "Nils Hoffmann",
-     "title": "Collide",
-     "label": "",
-     "bp": "bp:18583619",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 17,
-     "artist": "TWO LANES",
-     "title": "Never Enough (Nils Hoffmann Remix)",
-     "label": "",
-     "bp": "bp:23072271",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/1ca6ea8c-294e-4bc8-877f-a06df11eaa99.LOFI.mp3",
-     "name": "Never Enough",
-     "mix": "Nils Hoffmann Remix",
-     "genre": "electronica",
-     "released": "2020-11-20"
-    },
-    {
-     "minute": null,
-     "artist": "+ Nils Hoffmann",
-     "title": "Higher Power",
-     "label": "",
-     "bp": "bp:18583623",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
-     "name": "Higher Power",
-     "mix": "Extended Mix",
-     "genre": "dance-pop",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": 21,
-     "artist": "Emmit Fenn",
-     "title": "Amman (Nils Hoffmann Remix)",
-     "label": ""
-    },
-    {
-     "minute": 25,
-     "artist": "Yotto Feat. Julia Church",
-     "title": "No Ending (Nils Hoffmann Remix)",
-     "label": "",
-     "bp": "bp:18087783",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/d4959c00-fc5a-413c-bf8b-c429447ddaf8.LOFI.mp3",
-     "name": "No Ending",
-     "mix": "Nils Hoffmann Extended Remix",
-     "genre": "melodic-house-techno",
-     "released": "2023-10-05"
-    },
-    {
-     "minute": null,
-     "artist": "+ Nils Hoffmann",
-     "title": "Reflections",
-     "label": "",
-     "bp": "bp:16699708",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/b8dcd1f3-ae3e-4e88-9213-fd09582c06c9.LOFI.mp3",
-     "name": "Reflections",
-     "mix": "Extended Mix",
-     "genre": "electronica",
-     "released": "2022-09-02"
-    },
-    {
-     "minute": 30,
-     "artist": "Nils Hoffmann",
-     "title": "Tiderays",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "+ Tameimpala",
-     "title": "Borderline",
-     "label": ""
-    },
-    {
-     "minute": 34,
-     "artist": "Nils Hoffmann Feat. Rae Morris",
-     "title": "Lonely",
-     "label": "",
-     "bp": "bp:17816637",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 38,
-     "artist": "Nils Hoffmann",
-     "title": "Closer",
-     "label": "",
-     "bp": "bp:18224303",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 42,
-     "artist": "Ben Böhmer & Nils Hoffmann Feat. Malou",
-     "title": "Breathing",
-     "label": "",
-     "bp": "bp:13877062",
-     "score": 0.729,
-     "preview": "https://geo-samples.beatport.com/track/5ee8a7e1-74b8-4e54-a68c-f4fc20561eb0.LOFI.mp3",
-     "name": "Breathing",
-     "mix": "CRi Remix",
-     "genre": "melodic-house-techno",
-     "released": "2020-07-14"
-    },
-    {
-     "minute": 46,
-     "artist": "Nils Hoffmann Feat. Dustin Tebbutt",
-     "title": "Next Life",
-     "label": "",
-     "bp": "bp:18583624",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 49,
-     "artist": "Nils Hoffmann Feat. The Kite String Tangle",
-     "title": "Holding Me Back",
-     "label": "",
-     "bp": "bp:18481374",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 53,
-     "id": null,
-     "raw": "&#160;?"
-    }
-   ]
-  }
- ]
+"dj": "Nils Hoffmann",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-10-05 - Nils Hoffmann - Sputnik Club",
+"records": []
+},
+{
+"title": "2020-01-02 - Nils Hoffmann - The Anjunadeep Edition 285",
+"records": [
+{
+"minute": 0,
+"artist": "Nils Hoffmann",
+"title": "1.16699016 X 10^-8 Hertz",
+"label": "Poesie - Forthcoming",
+"bp": "bp:12508851",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1619e1f5-c996-469a-b48d-c0df77c1d7df.LOFI.mp3",
+"name": "1.16699016 x 10^-8 hertz",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-03-06"
+},
+{
+"minute": 2,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Extended Mix)",
+"label": "Poesie - POM094C",
+"bp": "bp:12443890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e4ace00-557c-410a-9c75-4be8d757d3bd.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2019-09-06"
+},
+{
+"minute": 7,
+"artist": "Nils Hoffmann",
+"title": "Balloons (OIABM Version)",
+"label": "Poesie - POM099",
+"bp": "bp:13115241",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8836409f-283d-44e4-b6ea-3e5a4bc897a9.LOFI.mp3",
+"name": "Balloons",
+"mix": "OIABM Version",
+"genre": "progressive-house",
+"released": "2020-02-21"
+},
+{
+"minute": 11,
+"artist": "Nils Hoffmann Feat. Margaret",
+"title": "Wherever You Are (Extended Mix)",
+"label": "Poesie Musik - POM089"
+},
+{
+"minute": 16,
+"artist": "Kidnap Feat. Leo Stannard",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Extended Remix)",
+"label": "Armada Electronic Elements - AREE114"
+},
+{
+"minute": 21,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 27,
+"artist": "Nils Hoffmann Feat. Max Joni",
+"title": "Parachute",
+"label": "Poesie - Forthcoming"
+},
+{
+"minute": 31,
+"artist": "Nils Hoffmann",
+"title": "Drift",
+"label": "Poesie",
+"bp": "bp:10320176",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/87596480-7448-49f8-b2c0-ff2c9074fdc3.LOFI.mp3",
+"name": "Drift",
+"mix": "Extended Version",
+"genre": "progressive-house",
+"released": "2018-03-23"
+},
+{
+"minute": 34,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 40,
+"artist": "Nils Hoffmann Feat. Magnolia",
+"title": "Limelight",
+"label": "Der Turnbeutel - TURNBEUTEL40",
+"bp": "bp:7282455",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/7d7fc50d-3bd7-4926-9b2b-67854b9199da.LOFI.mp3",
+"name": "Limelight",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2015-12-07"
+},
+{
+"minute": 46,
+"artist": "Nils Hoffmann",
+"title": "The Clouds Silver Lining",
+"label": "Poesie",
+"bp": "bp:12508856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2213de3-cf69-420d-aed4-14a839350fd1.LOFI.mp3",
+"name": "The Clouds Silver Lining",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2020-03-06"
+},
+{
+"minute": 50,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann Feat. Malou",
+"title": "Breathing (Extended Mix)",
+"label": "Anjunadeep - ANJCD 074D",
+"bp": "bp:12537039",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/9b8cdb09-ebff-4d38-869e-5d0b04aad7f0.LOFI.mp3",
+"name": "Breathing",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2019-09-17"
+},
+{
+"minute": 55,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann",
+"title": "Second Sun",
+"label": "Poesie",
+"bp": "bp:12950759",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a433aabc-318e-4a10-9132-2e174ad80a0c.LOFI.mp3",
+"name": "Second Sun",
+"mix": "Extended Mix",
+"genre": "deep-house",
+"released": "2020-01-10"
+}
+]
+},
+{
+"title": "2020-04-04 - Nils Hoffmann - Sputnik Club",
+"records": [
+{
+"minute": 0,
+"artist": "Nils Hoffmann",
+"title": "1.16699016 X 10^-8 Hertz",
+"label": "Poesie - Forthcoming",
+"bp": "bp:12508851",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1619e1f5-c996-469a-b48d-c0df77c1d7df.LOFI.mp3",
+"name": "1.16699016 x 10^-8 hertz",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-03-06"
+},
+{
+"minute": 2,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Extended Mix)",
+"label": "Poesie - POM094C",
+"bp": "bp:12443890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e4ace00-557c-410a-9c75-4be8d757d3bd.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2019-09-06"
+},
+{
+"minute": 7,
+"artist": "Nils Hoffmann",
+"title": "Balloons (OIABM Version)",
+"label": "Poesie - POM099",
+"bp": "bp:13115241",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8836409f-283d-44e4-b6ea-3e5a4bc897a9.LOFI.mp3",
+"name": "Balloons",
+"mix": "OIABM Version",
+"genre": "progressive-house",
+"released": "2020-02-21"
+},
+{
+"minute": 11,
+"artist": "Nils Hoffmann Feat. Margaret",
+"title": "Wherever You Are (Extended Mix)",
+"label": "Poesie Musik - POM089"
+},
+{
+"minute": 16,
+"artist": "Kidnap Feat. Leo Stannard",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Extended Remix)",
+"label": "Armada Electronic Elements - AREE114"
+},
+{
+"minute": 21,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 27,
+"artist": "Nils Hoffmann Feat. Max Joni",
+"title": "Parachute",
+"label": "Poesie - Forthcoming"
+},
+{
+"minute": 31,
+"artist": "Nils Hoffmann",
+"title": "Drift",
+"label": "Poesie",
+"bp": "bp:10320176",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/87596480-7448-49f8-b2c0-ff2c9074fdc3.LOFI.mp3",
+"name": "Drift",
+"mix": "Extended Version",
+"genre": "progressive-house",
+"released": "2018-03-23"
+},
+{
+"minute": 34,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 40,
+"artist": "Nils Hoffmann Feat. Magnolia",
+"title": "Limelight",
+"label": "Der Turnbeutel - TURNBEUTEL40",
+"bp": "bp:7282455",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/7d7fc50d-3bd7-4926-9b2b-67854b9199da.LOFI.mp3",
+"name": "Limelight",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2015-12-07"
+},
+{
+"minute": 46,
+"artist": "Nils Hoffmann",
+"title": "The Clouds Silver Lining",
+"label": "Poesie",
+"bp": "bp:12508856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2213de3-cf69-420d-aed4-14a839350fd1.LOFI.mp3",
+"name": "The Clouds Silver Lining",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2020-03-06"
+},
+{
+"minute": 50,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann Feat. Malou",
+"title": "Breathing (Extended Mix)",
+"label": "Anjunadeep - ANJCD 074D",
+"bp": "bp:12537039",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/9b8cdb09-ebff-4d38-869e-5d0b04aad7f0.LOFI.mp3",
+"name": "Breathing",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2019-09-17"
+},
+{
+"minute": 55,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann",
+"title": "Second Sun",
+"label": "Poesie",
+"bp": "bp:12950759",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a433aabc-318e-4a10-9132-2e174ad80a0c.LOFI.mp3",
+"name": "Second Sun",
+"mix": "Extended Mix",
+"genre": "deep-house",
+"released": "2020-01-10"
+}
+]
+},
+{
+"title": "2020-12-13 - Florian Schumacher, Nils Hoffmann - ClubDing",
+"records": [
+{
+"minute": null,
+"artist": "SG Lewis Feat. Rhye",
+"title": "Time",
+"label": "PMR",
+"bp": "bp:14942995",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/69b8d763-f3de-4738-98fe-fc0fdf6e86c3.LOFI.mp3",
+"name": "Time",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2021-02-19"
+},
+{
+"minute": null,
+"artist": "Selace",
+"title": "So Hooked On Your Lovin (Larse Extended Remix)",
+"label": "Defected - DFTD550D7",
+"bp": "bp:14581856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eefa697b-6b93-4415-bc89-892f0c9bc290.LOFI.mp3",
+"name": "So Hooked On Your Lovin",
+"mix": "Larse Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "CamelPhat Feat. LOWES",
+"title": "Easier (MK Extended Remix)",
+"label": "RCA",
+"bp": "bp:14582622",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/8385d52c-8f54-4bee-a1f6-46e00fd6566d.LOFI.mp3",
+"name": "Easier",
+"mix": "MK Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Vintage Culture Feat. Elise LeGrow",
+"title": "It Is What It Is (Club Mix)",
+"label": "Defected - DFTD612D2"
+},
+{
+"minute": null,
+"artist": "Solardo X Rowetta",
+"title": "Enough (Extended Mix)",
+"label": "Ultra - UL02416",
+"bp": "bp:14537891",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/6eb3f405-4a6b-4396-a6da-7394539ce7a8.LOFI.mp3",
+"name": "Enough",
+"mix": "Extended Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2020-12-04"
+},
+{
+"minute": null,
+"artist": "Icona Pop X SOFI TUKKER",
+"title": "Spa (Lee Foss Extended Mix)",
+"label": "Ultra - UL02441",
+"bp": "bp:14582458",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/939bd98e-78aa-4749-bb22-3ad8d2db0218.LOFI.mp3",
+"name": "Spa",
+"mix": "Lee Foss Extended Mix",
+"genre": "house",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Tiga",
+"title": "Colours So Bright",
+"label": "Turbo - 211D",
+"bp": "bp:19188915",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/99159d1e-938e-46d4-a848-c55cfa300e65.LOFI.mp3",
+"name": "Colours so Bright",
+"mix": "Extended Mix",
+"genre": "indie-dance",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Bob Moses & ZHU",
+"title": "Desire (Charlotte de Witte Extended Remix)",
+"label": "Domino",
+"bp": "bp:14638542",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/454c64de-4949-4fe0-adfe-3eeaec052d1c.LOFI.mp3",
+"name": "Desire",
+"mix": "Charlotte de Witte Remix",
+"genre": "techno-peak-time-driving",
+"released": "2020-12-07"
+},
+{
+"minute": null,
+"artist": "Joris Voorn",
+"title": "Shallow (Edwin Oosterwal Remix)",
+"label": "Spectrum - SPCTRM015",
+"bp": "bp:14615732",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95bdbc73-7158-4e3e-a692-176647982612.LOFI.mp3",
+"name": "Shallow",
+"mix": "Edwin Oosterwal Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Nocturnal Sunshine",
+"title": "Watchem Go",
+"label": "BMG Rights Management",
+"bp": "bp:27349044",
+"score": 0.894,
+"preview": "https://geo-samples.beatport.com/track/171e3f13-5560-4521-a1f0-7d1cd5605df6.LOFI.mp3",
+"name": "Watchem",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2026-01-28"
+},
+{
+"minute": null,
+"artist": "Two Lanes",
+"title": "Never Enough (Nils Hoffmann Remix)",
+"label": "Bitbird - BBX029",
+"bp": "bp:23072271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ca6ea8c-294e-4bc8-877f-a06df11eaa99.LOFI.mp3",
+"name": "Never Enough",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Crooked Colours",
+"title": "Falling (Nils Hoffmann Extended Remix)",
+"label": "Parametric",
+"bp": "bp:14624666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3dd1f474-ad94-4cca-8673-d8bb14a0bfd7.LOFI.mp3",
+"name": "Falling",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-03"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Eightfold Remix)",
+"label": "",
+"bp": "bp:14923421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb9b9457-c292-4878-8248-da838dd61fc5.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Eightfold Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Balloons (Made In Paris Remix)",
+"label": "",
+"bp": "bp:14923433",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90d71ce5-e89d-43eb-9244-8e512a84c4ad.LOFI.mp3",
+"name": "Balloons",
+"mix": "PARIS Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Max Joni",
+"title": "Parachute (Monkey Safari Remix)",
+"label": "Poesie - POM120"
+},
+{
+"minute": null,
+"artist": "Fritz Kalkbrenner",
+"title": "Daylight Is Falling (Nils Hoffmann Remix)",
+"label": "BMG Rights Management",
+"bp": "bp:23731661",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49ae726b-80af-4ea9-beab-c5318f267a0a.LOFI.mp3",
+"name": "Daylight Is Falling",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-10-23"
+},
+{
+"minute": null,
+"artist": "Kidnap",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Extended Remix)",
+"label": "Armada Electronic Elements - AREE114",
+"bp": "bp:17735593",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7808f7ff-49ca-450a-bb4c-494c55b520c7.LOFI.mp3",
+"name": "Moments",
+"mix": "Ben B\u00f6hmer & Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2023-06-01"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "The Clouds Silver Lining",
+"label": "Poesie - POM101",
+"bp": "bp:12508856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2213de3-cf69-420d-aed4-14a839350fd1.LOFI.mp3",
+"name": "The Clouds Silver Lining",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2020-03-06"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann & Ben B\u00f6hmer",
+"title": "Second Sun (Monkey Safari Remix)",
+"label": "Poesie - POM120",
+"bp": "bp:14399978",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a628560f-fcb3-4400-9f31-f669cddd4854.LOFI.mp3",
+"name": "Second Sun",
+"mix": "Monkey Safari Remix",
+"genre": "progressive-house",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann Feat. Malou",
+"title": "Breathing (Dominik Eulberg Extended Remix)",
+"label": "Anjunadeep - ANJDEE 434RD",
+"bp": "bp:13877065",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/6a24e952-ec0f-4c38-8be8-97b28ce5bc57.LOFI.mp3",
+"name": "Breathing",
+"mix": "Dominik Eulberg Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-07-14"
+},
+{
+"minute": null,
+"artist": "Hot Chip",
+"title": "Positive (Marcel Vogel & Adam Port Remix)",
+"label": "Domino - DOMDIG4892",
+"bp": "bp:14326793",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96960401-6b03-4cb6-b5ae-e7f258fd17c3.LOFI.mp3",
+"name": "Positive",
+"mix": "Marcel Vogel & Adam Port Remix",
+"genre": "melodic-house-techno",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "Colyn",
+"title": "Patterns",
+"label": "Afterlife - AL043"
+},
+{
+"minute": null,
+"artist": "CamelPhat",
+"title": "Hypercolour (Patrice B\u00e4umel Remix)",
+"label": "RCA",
+"bp": "bp:13966924",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/80501044-9e7d-439f-9dcc-5f9e617e570a.LOFI.mp3",
+"name": "Hypercolour",
+"mix": "Patrice B\u00e4umel Remix",
+"genre": "melodic-house-techno",
+"released": "2020-08-07"
+}
+]
+},
+{
+"title": "2020-12-18 - Takedown, Markus Haase, Ingo Bergsen, Nils Hoffmann - Nightwax, Planet Radio",
+"records": [
+{
+"minute": null,
+"artist": "Going Deeper & Biatlone",
+"title": "Fascinated",
+"label": "",
+"bp": "bp:6751070",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f918d7ae-970f-4543-b4d7-fdff411a6bbb.LOFI.mp3",
+"name": "Fascinated",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2015-06-12"
+},
+{
+"minute": null,
+"artist": "Amine Edge & Dance",
+"title": "Lost",
+"label": "",
+"bp": "bp:26831906",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/62506eb7-4d42-42a0-b29a-7ff118c5bb20.LOFI.mp3",
+"name": "Lost",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-03-27"
+},
+{
+"minute": null,
+"artist": "Tyga",
+"title": "Rack City Bitch (ID Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Dance",
+"title": "Let It Bump",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Pete Gooding",
+"title": "It Goes Boom",
+"label": "",
+"bp": "bp:3519115",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/d199b9e7-7b49-4942-8feb-16786e4c00b2.LOFI.mp3",
+"name": "It Goes Boom",
+"mix": "Tyrell's Vox Rework",
+"genre": "house",
+"released": "2012-05-23"
+},
+{
+"minute": null,
+"artist": "R\u00dcF\u00dcS DU SOL",
+"title": "Tonight",
+"label": "",
+"bp": "bp:18407255",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/85d440c6-702d-4398-b4ad-e6c3cbbd14e5.LOFI.mp3",
+"name": "Tonight",
+"mix": "Extended Edit",
+"genre": "electronica",
+"released": "2014-12-01"
+},
+{
+"minute": null,
+"artist": "Aura Dione & Da French Connexion",
+"title": "Breathe",
+"label": "",
+"bp": "bp:8833052",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/85cf8d7a-1d24-42de-a43c-5715b48cb6e6.LOFI.mp3",
+"name": "Breathe",
+"mix": "Main Version",
+"genre": "dance-pop",
+"released": "2014-05-09"
+},
+{
+"minute": null,
+"artist": "Outstrip",
+"title": "Rainbow",
+"label": "",
+"bp": "bp:15579302",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3700072b-eff4-4524-966e-128e8518b9b9.LOFI.mp3",
+"name": "Rainbow",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2013-05-07"
+},
+{
+"minute": null,
+"artist": "Etienne De Crecy",
+"title": "We Computers (Miami Jaime Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Caspar",
+"title": "Supersonic",
+"label": "",
+"bp": "bp:6822288",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/74ea98f6-b108-4251-8bfa-a55de779ef3e.LOFI.mp3",
+"name": "Supersonic",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2015-07-08"
+},
+{
+"minute": null,
+"artist": "Sodda",
+"title": "Crush On You",
+"label": "",
+"bp": "bp:4089749",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e1e10693-11e5-49e1-9cf9-0120062f3c39.LOFI.mp3",
+"name": "Crush On You",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2013-01-24"
+},
+{
+"minute": null,
+"artist": "?",
+"title": "Mistakes",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Amine Edge",
+"title": "They Call Me Jack",
+"label": "",
+"bp": "bp:4554584",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4585543d-f61b-4d42-8d62-4072d5947bdd.LOFI.mp3",
+"name": "They Call Me Jack",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2013-07-29"
+},
+{
+"minute": null,
+"artist": "?",
+"title": "Bit***es In The Project",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Victor Ruiz",
+"title": "Work (Simple Jack Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Kenneth Bager Experience",
+"title": "Follow The Beat",
+"label": "",
+"bp": "bp:4601460",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1e1efde9-7a0c-469b-81f2-a7bb207e23cf.LOFI.mp3",
+"name": "Follow the Beat",
+"mix": "Original Version",
+"genre": "house",
+"released": "2013-08-01"
+},
+{
+"minute": null,
+"artist": "Edgy",
+"title": "My Girl",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Meda",
+"title": "For Love (Art Of Tones Classic Mix)",
+"label": "",
+"bp": "bp:14167415",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ed11335-5a4b-4546-8bcf-6e0aff6f5705.LOFI.mp3",
+"name": "For Love",
+"mix": "Art Of Tones Classic Mix",
+"genre": "deep-house",
+"released": "2020-11-13"
+},
+{
+"minute": null,
+"artist": "Sebb Junior",
+"title": "U Got 2 (Extended Mix)",
+"label": "",
+"bp": "bp:14379660",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/48c222b5-12bd-401a-92c5-bf3aae6341bd.LOFI.mp3",
+"name": "U Got 2",
+"mix": "Extended Mix",
+"genre": "deep-house",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Pandar",
+"title": "All I Want To Do",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Fela Kuti",
+"title": "International Thief Thief (I.T.T.) (Armonica & Moblack Extended Mix)",
+"label": "",
+"bp": "bp:14515848",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/403187c8-f049-45c5-b568-839872e6086d.LOFI.mp3",
+"name": "International Thief Thief (I.T.T.)",
+"mix": "Armonica & MoBlack Extended Mix",
+"genre": "afro-house",
+"released": "2020-11-27"
+},
+{
+"minute": null,
+"artist": "Caldera (uk) & Omar",
+"title": "Get It Right (Extended Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Pandar",
+"title": "Missing You",
+"label": "",
+"bp": "bp:20508736",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2794ddba-f4fa-4d64-9c0a-20cac741f99c.LOFI.mp3",
+"name": "Missing You",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-06-20"
+},
+{
+"minute": null,
+"artist": "COEO",
+"title": "Sorry For The Late Reply",
+"label": "",
+"bp": "bp:14221825",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/156ada36-0d63-4a56-8e8d-8122c4744ac3.LOFI.mp3",
+"name": "Sorry for the Late Reply",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2020-10-16"
+},
+{
+"minute": null,
+"artist": "Fex",
+"title": "Heavenly",
+"label": "",
+"bp": "bp:14693644",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5785c7e4-a74e-45e2-af09-925470260a3e.LOFI.mp3",
+"name": "Heavenly",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-12-28"
+},
+{
+"minute": null,
+"artist": "Eddie Amador, Robosonic",
+"title": "House Music (Robosonic Remix)",
+"label": "",
+"bp": "bp:5891106",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/7c91e237-a569-4deb-9e2b-dfd20384413b.LOFI.mp3",
+"name": "House Music",
+"mix": "Robosonic Remix",
+"genre": "deep-house",
+"released": "2014-10-06"
+},
+{
+"minute": null,
+"artist": "DJ Le Roi",
+"title": "I Loved You First",
+"label": "",
+"bp": "bp:7764543",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/676a9f6c-59d1-43c6-bc6e-5f1cb2c61ec1.LOFI.mp3",
+"name": "I Loved You First",
+"mix": "Nikola Gala Remix",
+"genre": "techno-peak-time-driving",
+"released": "2016-04-08"
+},
+{
+"minute": null,
+"artist": "Djoko",
+"title": "Hold Your Tears",
+"label": ""
+},
+{
+"minute": 0,
+"artist": "Tyga & Curtis Roach",
+"title": "Bored In The House (Ingo Bergsen Bootleg)",
+"label": ""
+},
+{
+"minute": 2,
+"artist": "Jack Rush",
+"title": "Dark Side",
+"label": "",
+"bp": "bp:14761674",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a431add2-fec4-4dc3-8fe2-bc9ab24eec3e.LOFI.mp3",
+"name": "Dark Side",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2021-01-06"
+},
+{
+"minute": 5,
+"artist": "Far East Movement Feat. The Cataracs & DEV",
+"title": "Like A G6 (Clay Clemens & Ferington & Drezlo Edit)",
+"label": "Cherrytree"
+},
+{
+"minute": 6,
+"artist": "Jey Aux Platines",
+"title": "Lie Machine",
+"label": "Pyro Nxt",
+"bp": "bp:14152503",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/87810db3-97dc-4d07-b6f5-57e3b0e0309c.LOFI.mp3",
+"name": "Lie Machine",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2020-09-04"
+},
+{
+"minute": 7,
+"artist": "SAINt JHN",
+"title": "Roses (James Hype VIP)",
+"label": "B1"
+},
+{
+"minute": 8,
+"artist": "Danny Chris & ELYX",
+"title": "Humps (ELYX VIP Mix)",
+"label": "Actuation"
+},
+{
+"minute": 9,
+"artist": "PM8",
+"title": "Work",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Zuffo & Cazt",
+"title": "Count On You",
+"label": "STMPD Rcrds",
+"bp": "bp:14317484",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/519ae06d-605a-48a2-b3ae-2b33aa798478.LOFI.mp3",
+"name": "Count On You",
+"mix": "Extended Mix",
+"genre": "bass-house",
+"released": "2020-10-08"
+},
+{
+"minute": 12,
+"artist": "L\u00f6st Memories & Thonig",
+"title": "Get Shaky",
+"label": "Free Track"
+},
+{
+"minute": 13,
+"artist": "MorganJ",
+"title": "My Body",
+"label": "The Myth Of Nyx",
+"bp": "bp:13942212",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9dfe801-2eb1-47f3-8a77-ed80fca553e4.LOFI.mp3",
+"name": "My Body",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2020-08-14"
+},
+{
+"minute": 14,
+"artist": "Lackmus & Tsebster",
+"title": "Run The Show",
+"label": "Zero Claim",
+"bp": "bp:19293390",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/10e1861b-57f8-4684-9fc1-0ce9d1d32ef5.LOFI.mp3",
+"name": "Run The Show",
+"mix": "Original Mix",
+"genre": "bass-house",
+"released": "2020-08-07"
+},
+{
+"minute": 15,
+"artist": "Cheyenne Giles & Gamuel Sori",
+"title": "Heat",
+"label": "Musical Freedom",
+"bp": "bp:25419481",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/843b84da-759d-4277-bbbc-1f081c1c917c.LOFI.mp3",
+"name": "Heat",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2020-11-06"
+},
+{
+"minute": 17,
+"artist": "Funkin Matt Feat. Mingue",
+"title": "Fight Or Flight",
+"label": "Future House Music",
+"bp": "bp:14407778",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/77300749-dec6-4995-b76c-4bf1965e4f21.LOFI.mp3",
+"name": "Fight Or Flight",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2020-11-13"
+},
+{
+"minute": 18,
+"artist": "DubVision & Pontifexx",
+"title": "Stand By You",
+"label": "STMPD Rcrds",
+"bp": "bp:14462891",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4178bc50-15b9-4988-b2fd-5fc6e82151b2.LOFI.mp3",
+"name": "Stand By You",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2020-11-06"
+},
+{
+"minute": 21,
+"artist": "Bancali",
+"title": "Nothing To Do",
+"label": "Spinnin' Premium",
+"bp": "bp:26988881",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2c7b28d0-c9b5-4a71-ab26-024b05f32631.LOFI.mp3",
+"name": "Nothing To Do",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2019-10-28"
+},
+{
+"minute": 22,
+"artist": "MEDUZA Feat. Dermot Kennedy",
+"title": "Paradise (DJ Spicy Remix)",
+"label": "Universal Island"
+},
+{
+"minute": 25,
+"artist": "DJ Tim Bayer Feat. Scarlett",
+"title": "Better Off Without You (Ingo Bergsen Remix)",
+"label": ""
+},
+{
+"minute": 28,
+"artist": "Joel Corry X MNEK",
+"title": "Head & Heart (Ingo Bergsen Bootleg)",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "Ava Max",
+"title": "Kings & Queens (Ingo Bergsen & EXYT Bootleg)",
+"label": ""
+},
+{
+"minute": 34,
+"artist": "Kanye West vs Clambake & Rav3era",
+"title": "90s Stronger (Mairee & Criminal Noise Mashup)",
+"label": ""
+},
+{
+"minute": 35,
+"artist": "Eminem",
+"title": "The Real Slim Shady (Ingo Bergsen & Danny Ventura Bootleg)",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "EXYT",
+"title": "DOTD",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Trevor Daniel",
+"title": "Falling (EXYT & EA-Project Bootleg)",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "Kazden & EXYT & SEEQ",
+"title": "Move It Down",
+"label": "Fanfare",
+"bp": "bp:14533907",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ebdda420-fbb6-4706-8141-7ab76392b8fa.LOFI.mp3",
+"name": "Move It Down",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-12-04"
+},
+{
+"minute": 43,
+"artist": "Tom Bourra",
+"title": "Silence",
+"label": "Diverge",
+"bp": "bp:18502359",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/85dcee67-c5df-4e22-a8d0-2441fc4a7172.LOFI.mp3",
+"name": "Silence",
+"mix": "Extended",
+"genre": "trance-main-floor",
+"released": "2024-01-26"
+},
+{
+"minute": 46,
+"artist": "EXYT Feat. Lackmus",
+"title": "Rave Thing",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "Tom Bourra & Vahlan",
+"title": "Take You Higher",
+"label": "Skink",
+"bp": "bp:14458727",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/540a46aa-6bb1-4941-ac3f-a9be6ab08ae1.LOFI.mp3",
+"name": "Take You Higher",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2020-12-11"
+},
+{
+"minute": 51,
+"artist": "Tom Bourra & Vahlan & Ingo Bergsen",
+"title": "Nitro",
+"label": "Skink",
+"bp": "bp:14086345",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b515b35f-c3d0-4f3d-9122-2c5f36abfbcc.LOFI.mp3",
+"name": "Nitro",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2020-09-25"
+},
+{
+"minute": 54,
+"artist": "Tom Bourra",
+"title": "Takeover",
+"label": "Independent"
+},
+{
+"minute": null,
+"artist": "Two Lanes",
+"title": "Never Enough (Nils Hoffmann Remix)",
+"label": "Bitbird - BBX029",
+"bp": "bp:23072271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ca6ea8c-294e-4bc8-877f-a06df11eaa99.LOFI.mp3",
+"name": "Never Enough",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Crooked Colours",
+"title": "Falling (Nils Hoffmann Extended Remix)",
+"label": "Parametric",
+"bp": "bp:14624666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3dd1f474-ad94-4cca-8673-d8bb14a0bfd7.LOFI.mp3",
+"name": "Falling",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-03"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Eightfold Remix)",
+"label": "",
+"bp": "bp:14923421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb9b9457-c292-4878-8248-da838dd61fc5.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Eightfold Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Balloons (Made In Paris Remix)",
+"label": "",
+"bp": "bp:14923433",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90d71ce5-e89d-43eb-9244-8e512a84c4ad.LOFI.mp3",
+"name": "Balloons",
+"mix": "PARIS Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Max Joni",
+"title": "Parachute (Monkey Safari Remix)",
+"label": "Poesie - POM120"
+},
+{
+"minute": null,
+"artist": "Fritz Kalkbrenner",
+"title": "Daylight Is Falling (Nils Hoffmann Remix)",
+"label": "BMG Rights Management",
+"bp": "bp:23731661",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49ae726b-80af-4ea9-beab-c5318f267a0a.LOFI.mp3",
+"name": "Daylight Is Falling",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-10-23"
+},
+{
+"minute": null,
+"artist": "Kidnap",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Extended Remix)",
+"label": "Armada Electronic Elements - AREE114",
+"bp": "bp:17735593",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7808f7ff-49ca-450a-bb4c-494c55b520c7.LOFI.mp3",
+"name": "Moments",
+"mix": "Ben B\u00f6hmer & Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2023-06-01"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "The Clouds Silver Lining",
+"label": "Poesie - POM101",
+"bp": "bp:12508856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2213de3-cf69-420d-aed4-14a839350fd1.LOFI.mp3",
+"name": "The Clouds Silver Lining",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2020-03-06"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann & Ben B\u00f6hmer",
+"title": "Second Sun (Monkey Safari Remix)",
+"label": "Poesie - POM120",
+"bp": "bp:14399978",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a628560f-fcb3-4400-9f31-f669cddd4854.LOFI.mp3",
+"name": "Second Sun",
+"mix": "Monkey Safari Remix",
+"genre": "progressive-house",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann Feat. Malou",
+"title": "Breathing (Dominik Eulberg Extended Remix)",
+"label": "Anjunadeep - ANJDEE 434RD",
+"bp": "bp:13877065",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/6a24e952-ec0f-4c38-8be8-97b28ce5bc57.LOFI.mp3",
+"name": "Breathing",
+"mix": "Dominik Eulberg Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-07-14"
+},
+{
+"minute": null,
+"artist": "Hot Chip",
+"title": "Positive (Marcel Vogel & Adam Port Remix)",
+"label": "Domino - DOMDIG4892",
+"bp": "bp:14326793",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96960401-6b03-4cb6-b5ae-e7f258fd17c3.LOFI.mp3",
+"name": "Positive",
+"mix": "Marcel Vogel & Adam Port Remix",
+"genre": "melodic-house-techno",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "Colyn",
+"title": "Patterns",
+"label": "Afterlife - AL043"
+},
+{
+"minute": null,
+"artist": "CamelPhat",
+"title": "Hypercolour (Patrice B\u00e4umel Remix)",
+"label": "RCA",
+"bp": "bp:13966924",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/80501044-9e7d-439f-9dcc-5f9e617e570a.LOFI.mp3",
+"name": "Hypercolour",
+"mix": "Patrice B\u00e4umel Remix",
+"genre": "melodic-house-techno",
+"released": "2020-08-07"
+}
+]
+},
+{
+"title": "2020-12-29 - Nils Hoffmann - Mix Mission",
+"records": [
+{
+"minute": null,
+"artist": "SG Lewis Feat. Rhye",
+"title": "Time",
+"label": "PMR",
+"bp": "bp:14942995",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/69b8d763-f3de-4738-98fe-fc0fdf6e86c3.LOFI.mp3",
+"name": "Time",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2021-02-19"
+},
+{
+"minute": null,
+"artist": "Selace",
+"title": "So Hooked On Your Lovin (Larse Extended Remix)",
+"label": "Defected - DFTD550D7",
+"bp": "bp:14581856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eefa697b-6b93-4415-bc89-892f0c9bc290.LOFI.mp3",
+"name": "So Hooked On Your Lovin",
+"mix": "Larse Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "CamelPhat Feat. LOWES",
+"title": "Easier (MK Extended Remix)",
+"label": "RCA",
+"bp": "bp:14582622",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/8385d52c-8f54-4bee-a1f6-46e00fd6566d.LOFI.mp3",
+"name": "Easier",
+"mix": "MK Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Vintage Culture Feat. Elise LeGrow",
+"title": "It Is What It Is (Club Mix)",
+"label": "Defected - DFTD612D2"
+},
+{
+"minute": null,
+"artist": "Solardo X Rowetta",
+"title": "Enough (Extended Mix)",
+"label": "Ultra - UL02416",
+"bp": "bp:14537891",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/6eb3f405-4a6b-4396-a6da-7394539ce7a8.LOFI.mp3",
+"name": "Enough",
+"mix": "Extended Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2020-12-04"
+},
+{
+"minute": null,
+"artist": "Icona Pop X SOFI TUKKER",
+"title": "Spa (Lee Foss Extended Mix)",
+"label": "Ultra - UL02441",
+"bp": "bp:14582458",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/939bd98e-78aa-4749-bb22-3ad8d2db0218.LOFI.mp3",
+"name": "Spa",
+"mix": "Lee Foss Extended Mix",
+"genre": "house",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Tiga",
+"title": "Colours So Bright",
+"label": "Turbo - 211D",
+"bp": "bp:19188915",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/99159d1e-938e-46d4-a848-c55cfa300e65.LOFI.mp3",
+"name": "Colours so Bright",
+"mix": "Extended Mix",
+"genre": "indie-dance",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Bob Moses & ZHU",
+"title": "Desire (Charlotte de Witte Extended Remix)",
+"label": "Domino",
+"bp": "bp:14638542",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/454c64de-4949-4fe0-adfe-3eeaec052d1c.LOFI.mp3",
+"name": "Desire",
+"mix": "Charlotte de Witte Remix",
+"genre": "techno-peak-time-driving",
+"released": "2020-12-07"
+},
+{
+"minute": null,
+"artist": "Joris Voorn",
+"title": "Shallow (Edwin Oosterwal Remix)",
+"label": "Spectrum - SPCTRM015",
+"bp": "bp:14615732",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95bdbc73-7158-4e3e-a692-176647982612.LOFI.mp3",
+"name": "Shallow",
+"mix": "Edwin Oosterwal Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Nocturnal Sunshine",
+"title": "Watchem Go",
+"label": "BMG Rights Management",
+"bp": "bp:27349044",
+"score": 0.894,
+"preview": "https://geo-samples.beatport.com/track/171e3f13-5560-4521-a1f0-7d1cd5605df6.LOFI.mp3",
+"name": "Watchem",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2026-01-28"
+},
+{
+"minute": null,
+"artist": "Two Lanes",
+"title": "Never Enough (Nils Hoffmann Remix)",
+"label": "Bitbird - BBX029",
+"bp": "bp:23072271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ca6ea8c-294e-4bc8-877f-a06df11eaa99.LOFI.mp3",
+"name": "Never Enough",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Crooked Colours",
+"title": "Falling (Nils Hoffmann Extended Remix)",
+"label": "Parametric",
+"bp": "bp:14624666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3dd1f474-ad94-4cca-8673-d8bb14a0bfd7.LOFI.mp3",
+"name": "Falling",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-03"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Eightfold Remix)",
+"label": "",
+"bp": "bp:14923421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb9b9457-c292-4878-8248-da838dd61fc5.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Eightfold Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Balloons (Made In Paris Remix)",
+"label": "",
+"bp": "bp:14923433",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90d71ce5-e89d-43eb-9244-8e512a84c4ad.LOFI.mp3",
+"name": "Balloons",
+"mix": "PARIS Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Max Joni",
+"title": "Parachute (Monkey Safari Remix)",
+"label": "Poesie - POM120"
+},
+{
+"minute": null,
+"artist": "Fritz Kalkbrenner",
+"title": "Daylight Is Falling (Nils Hoffmann Remix)",
+"label": "BMG Rights Management",
+"bp": "bp:23731661",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49ae726b-80af-4ea9-beab-c5318f267a0a.LOFI.mp3",
+"name": "Daylight Is Falling",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-10-23"
+},
+{
+"minute": null,
+"artist": "Kidnap",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Extended Remix)",
+"label": "Armada Electronic Elements - AREE114",
+"bp": "bp:17735593",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7808f7ff-49ca-450a-bb4c-494c55b520c7.LOFI.mp3",
+"name": "Moments",
+"mix": "Ben B\u00f6hmer & Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2023-06-01"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "The Clouds Silver Lining",
+"label": "Poesie - POM101",
+"bp": "bp:12508856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2213de3-cf69-420d-aed4-14a839350fd1.LOFI.mp3",
+"name": "The Clouds Silver Lining",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2020-03-06"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann & Ben B\u00f6hmer",
+"title": "Second Sun (Monkey Safari Remix)",
+"label": "Poesie - POM120",
+"bp": "bp:14399978",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a628560f-fcb3-4400-9f31-f669cddd4854.LOFI.mp3",
+"name": "Second Sun",
+"mix": "Monkey Safari Remix",
+"genre": "progressive-house",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann Feat. Malou",
+"title": "Breathing (Dominik Eulberg Extended Remix)",
+"label": "Anjunadeep - ANJDEE 434RD",
+"bp": "bp:13877065",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/6a24e952-ec0f-4c38-8be8-97b28ce5bc57.LOFI.mp3",
+"name": "Breathing",
+"mix": "Dominik Eulberg Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-07-14"
+},
+{
+"minute": null,
+"artist": "Hot Chip",
+"title": "Positive (Marcel Vogel & Adam Port Remix)",
+"label": "Domino - DOMDIG4892",
+"bp": "bp:14326793",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96960401-6b03-4cb6-b5ae-e7f258fd17c3.LOFI.mp3",
+"name": "Positive",
+"mix": "Marcel Vogel & Adam Port Remix",
+"genre": "melodic-house-techno",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "Colyn",
+"title": "Patterns",
+"label": "Afterlife - AL043"
+},
+{
+"minute": null,
+"artist": "CamelPhat",
+"title": "Hypercolour (Patrice B\u00e4umel Remix)",
+"label": "RCA",
+"bp": "bp:13966924",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/80501044-9e7d-439f-9dcc-5f9e617e570a.LOFI.mp3",
+"name": "Hypercolour",
+"mix": "Patrice B\u00e4umel Remix",
+"genre": "melodic-house-techno",
+"released": "2020-08-07"
+}
+]
+},
+{
+"title": "2020-12-29 - Nils Hoffmann - Winter Mixtape 2020",
+"records": [
+{
+"minute": null,
+"artist": "Two Lanes",
+"title": "Never Enough (Nils Hoffmann Remix)",
+"label": "Bitbird",
+"bp": "bp:23072271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ca6ea8c-294e-4bc8-877f-a06df11eaa99.LOFI.mp3",
+"name": "Never Enough",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Kidnap",
+"title": "Silence",
+"label": "Anjunadeep",
+"bp": "bp:14242828",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a38a9fef-5809-4ea5-9b2a-0b5cc293c8a7.LOFI.mp3",
+"name": "Silence",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-10-06"
+},
+{
+"minute": null,
+"artist": "Crooked Colours",
+"title": "Falling (Nils Hoffmann Remix)",
+"label": "Parametric",
+"bp": "bp:14624666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3dd1f474-ad94-4cca-8673-d8bb14a0bfd7.LOFI.mp3",
+"name": "Falling",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-03"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Eightfold Remix)",
+"label": "Poesie",
+"bp": "bp:14923421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb9b9457-c292-4878-8248-da838dd61fc5.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Eightfold Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Balloons (Oiabm Version)",
+"label": "Poesie",
+"bp": "bp:13115241",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8836409f-283d-44e4-b6ea-3e5a4bc897a9.LOFI.mp3",
+"name": "Balloons",
+"mix": "OIABM Version",
+"genre": "progressive-house",
+"released": "2020-02-21"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Different Ray Remix)",
+"label": "Poesie",
+"bp": "bp:14923427",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f2f19c6f-a6bf-4879-a7e5-17524f9fce0e.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Different Ray Interpretation",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Kollektiv Turmstrasse",
+"title": "Was Bleibt (Blindsmyth Remix)",
+"label": "Connaisseur",
+"bp": "bp:14321980",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a786b73-a0e8-4359-8692-21860bd6a7e5.LOFI.mp3",
+"name": "Was Bleibt",
+"mix": "Blindsmyth Remix",
+"genre": "melodic-house-techno",
+"released": "2020-10-30"
+},
+{
+"minute": null,
+"artist": "Innellea",
+"title": "The Invention Of Flying",
+"label": "Innervisions",
+"bp": "bp:14621844",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0d6b3a4-3e56-4215-9152-3ccabf39091d.LOFI.mp3",
+"name": "The Invention Of Flying",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Ambassadeurs",
+"title": "Nocturnes",
+"label": "Phases"
+},
+{
+"minute": null,
+"artist": "Eli & Fur",
+"title": "Otherside (Nils Hoffmann Remix) SPINNIN' DEEP]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "P\u00f8laroit",
+"title": "Cala",
+"label": "Ki",
+"bp": "bp:13981853",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a346efcc-fee4-4c7d-a6b2-fbfdae17faee.LOFI.mp3",
+"name": "Cala",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2020-10-23"
+},
+{
+"minute": null,
+"artist": "Ambassadeurs",
+"title": "Remants",
+"label": "PHASES"
+},
+{
+"minute": null,
+"artist": "Kasbo Feat. Vancouver Sleep Clinic",
+"title": "Lune",
+"label": "COUNTER"
+},
+{
+"minute": null,
+"artist": "Bicep Feat. Clara La San",
+"title": "Saku",
+"label": "Ninja Tune"
+},
+{
+"minute": null,
+"artist": "Christian L\u00f6ffler",
+"title": "Ronda",
+"label": "Cercle",
+"bp": "bp:14331434",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b1470a3-0126-49dc-a5bd-da64cba31421.LOFI.mp3",
+"name": "Ronda",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2020-10-21"
+},
+{
+"minute": null,
+"artist": "Leaving Laurel",
+"title": "A Secret Place",
+"label": "Anjunadeep",
+"bp": "bp:20507837",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5d957bdc-c3a8-4a9d-ba74-51ce36edca63.LOFI.mp3",
+"name": "A Secret Place",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2025-06-09"
+},
+{
+"minute": null,
+"artist": "Gidge",
+"title": "The Cascades",
+"label": "Atomnation",
+"bp": "bp:14191292",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2110c45e-cf41-4655-96ab-7bb903ad68e9.LOFI.mp3",
+"name": "The Cascades",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-11-06"
+},
+{
+"minute": null,
+"artist": "Shiffer",
+"title": "Voodoo Robotics",
+"label": "Innervisions",
+"bp": "bp:14621849",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/998b17fc-a943-4921-b015-aa1b4360e890.LOFI.mp3",
+"name": "Voodoo Robotics",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Michael Cassette",
+"title": "Shadows Movement (MC's Extended Solar Energy Remake)",
+"label": "Anjunadeep",
+"bp": "bp:23107097",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0ae574d2-f053-4898-bfa2-9b6b7a09ce5e.LOFI.mp3",
+"name": "Shadows Movement",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2025-12-26"
+},
+{
+"minute": null,
+"artist": "MEDUZA Feat. Dermot Kennedy",
+"title": "Paradise (Cassian Remix)",
+"label": "Island",
+"bp": "bp:14593507",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/dd7de112-1eed-425d-943f-9a91bc806f6a.LOFI.mp3",
+"name": "Paradise",
+"mix": "Cassian Remix / Extended",
+"genre": "dance-pop",
+"released": "2020-11-27"
+},
+{
+"minute": null,
+"artist": "Verboten Berlin",
+"title": "Symmetry (Rodriguez Jr Remix)",
+"label": "Stone Free Berlin",
+"bp": "bp:14600338",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7227fbe7-59ea-4789-86e5-0ccdb7059764.LOFI.mp3",
+"name": "Symmetry",
+"mix": "Rodriguez Jr. Remix",
+"genre": "deep-house",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "WestBam Feat. Richard Butler",
+"title": "You Need The Drugs (&ME Remix)",
+"label": "Keinemusik",
+"bp": "bp:14474560",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/24610091-b72b-41cf-9638-e8b2e369e27a.LOFI.mp3",
+"name": "You Need The Drugs",
+"mix": "&ME Remix",
+"genre": "melodic-house-techno",
+"released": "2020-11-27"
+},
+{
+"minute": null,
+"artist": "Mike Tohr & Amari",
+"title": "Borax (Oliver Koletzki Rework)",
+"label": "Stil Vor Talent",
+"bp": "bp:14124260",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9f526bb0-2c68-40d3-ba45-72d1cf83457c.LOFI.mp3",
+"name": "Borax",
+"mix": "Oliver Koletzki Rework",
+"genre": "melodic-house-techno",
+"released": "2020-09-11"
+},
+{
+"minute": null,
+"artist": "Moa & Jackarta",
+"title": "Empyrean (Anderholm Remix)",
+"label": "Songspire",
+"bp": "bp:15023206",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db55eb7f-dd9e-4257-bcad-2e98fbc56cca.LOFI.mp3",
+"name": "Empyrean",
+"mix": "Anderholm Remix",
+"genre": "melodic-house-techno",
+"released": "2021-03-15"
+},
+{
+"minute": null,
+"artist": "Estiva & Diana Miro",
+"title": "All Of Me (Kh\u00e5en Remix)",
+"label": "Colorize",
+"bp": "bp:14293332",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9d19c66-4404-451a-be44-c4316da0aff2.LOFI.mp3",
+"name": "All Of Me",
+"mix": "Kh\u00e5en Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2020-10-28"
+},
+{
+"minute": null,
+"artist": "Catching Flies",
+"title": "Satisfied (Marsh Extended Remix)",
+"label": "Anjunadeep",
+"bp": "bp:14582574",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1dbbd604-e13b-4e2b-b654-35ce43e48500.LOFI.mp3",
+"name": "Satisfied",
+"mix": "Marsh Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-12-15"
+},
+{
+"minute": null,
+"artist": "Nordfold",
+"title": "Down Memory Lane",
+"label": "Anjunadeep",
+"bp": "bp:14376240",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/69da11b8-693c-408d-82fa-ad6989a440a3.LOFI.mp3",
+"name": "Down Memory Lane",
+"mix": "Extended Mix",
+"genre": "organic-house",
+"released": "2020-11-03"
+},
+{
+"minute": null,
+"artist": "ONR Feat. Phantogram",
+"title": "Must Stop (Falling In Love) (Icarus Better Daze Mix)",
+"label": "Warner Bros."
+},
+{
+"minute": null,
+"artist": "Thomfjord",
+"title": "Intrastellar (Le Youth Remix)",
+"label": "PRGRSSN",
+"bp": "bp:14582433",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96c789a1-62c7-4597-b544-95de227e0a61.LOFI.mp3",
+"name": "Intrastellar",
+"mix": "Le Youth Remix",
+"genre": "progressive-house",
+"released": "2020-04-17"
+},
+{
+"minute": null,
+"artist": "Rylan Taggart",
+"title": "The Room",
+"label": "Purified",
+"bp": "bp:14376219",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a072e16e-f136-4f61-af72-6b627fcfe8a0.LOFI.mp3",
+"name": "The Room",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-11-27"
+},
+{
+"minute": null,
+"artist": "Trance Wax",
+"title": "Alone Again",
+"label": "Anjunabeats",
+"bp": "bp:14258084",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/28c0c48a-f2b1-4edc-8e62-95b0275e300a.LOFI.mp3",
+"name": "Alone Again",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2020-11-06"
+},
+{
+"minute": null,
+"artist": "Robag Wruhme & WhoMadeWho",
+"title": "If You Leave",
+"label": "Kompakt",
+"bp": "bp:14347954",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c5d799c4-384e-4425-886c-eaecc2b3edb9.LOFI.mp3",
+"name": "If You Leave",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2020-11-13"
+},
+{
+"minute": null,
+"artist": "+ WhoMadeWho & Mano Le Tough",
+"title": "Oblivion",
+"label": "Kompakt",
+"bp": "bp:18068013",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9da23724-93b3-47ca-ba6e-d7fc2e26a9b5.LOFI.mp3",
+"name": "Oblivion",
+"mix": "Original mix",
+"genre": "indie-dance",
+"released": "2023-09-18"
+},
+{
+"minute": null,
+"artist": "Blindsmyth",
+"title": "Hold On",
+"label": "Ki",
+"bp": "bp:14380592",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0971c872-fe5d-475c-88ba-31326868130e.LOFI.mp3",
+"name": "Hold On",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Leaving Laurel",
+"title": "Guardian Angels Watch Down On You",
+"label": "Anjunadeep",
+"bp": "bp:14431480",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5bb35764-64f4-46f4-a523-9d60a91bbd85.LOFI.mp3",
+"name": "Guardian Angels Watch Down On You",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-11-06"
+},
+{
+"minute": null,
+"artist": "Rival Consoles",
+"title": "Forwardism",
+"label": "Erased Tapes",
+"bp": "bp:13646662",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5687e10e-26bc-43d1-805c-9ea8c1b5a72b.LOFI.mp3",
+"name": "Forwardism",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-07-31"
+},
+{
+"minute": null,
+"artist": "Yotto & Cassian",
+"title": "Grains",
+"label": "Odd One Out",
+"bp": "bp:14554738",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96a8254e-921f-496e-a842-6e80496d0f09.LOFI.mp3",
+"name": "Grains",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-11-19"
+},
+{
+"minute": null,
+"artist": "Joris Voorn",
+"title": "Life (GHEIST Remix)",
+"label": "Spectrum",
+"bp": "bp:14615733",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fad5d715-23c4-4f89-9f99-1dde8ca2a5e4.LOFI.mp3",
+"name": "Life",
+"mix": "GHEIST Remix",
+"genre": "melodic-house-techno",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Worakls Feat. Eiv\u00f8r",
+"title": "Red Dressed (Ben B\u00f6hmer Remix)",
+"label": "Hungry"
+},
+{
+"minute": null,
+"artist": "Jonsi",
+"title": "Shiver",
+"label": "Krunk",
+"bp": "bp:26984822",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/88a847dc-8aa1-456d-b56e-592c50c28787.LOFI.mp3",
+"name": "Shiver",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2020-10-02"
+}
+]
+},
+{
+"title": "2021-01-09 - Nils Hoffmann - Sputnik Club",
+"records": [
+{
+"minute": null,
+"artist": "SG Lewis Feat. Rhye",
+"title": "Time",
+"label": "PMR",
+"bp": "bp:14942995",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/69b8d763-f3de-4738-98fe-fc0fdf6e86c3.LOFI.mp3",
+"name": "Time",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2021-02-19"
+},
+{
+"minute": null,
+"artist": "Selace",
+"title": "So Hooked On Your Lovin (Larse Extended Remix)",
+"label": "Defected - DFTD550D7",
+"bp": "bp:14581856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eefa697b-6b93-4415-bc89-892f0c9bc290.LOFI.mp3",
+"name": "So Hooked On Your Lovin",
+"mix": "Larse Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "CamelPhat Feat. LOWES",
+"title": "Easier (MK Extended Remix)",
+"label": "RCA",
+"bp": "bp:14582622",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/8385d52c-8f54-4bee-a1f6-46e00fd6566d.LOFI.mp3",
+"name": "Easier",
+"mix": "MK Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Vintage Culture Feat. Elise LeGrow",
+"title": "It Is What It Is (Club Mix)",
+"label": "Defected - DFTD612D2"
+},
+{
+"minute": null,
+"artist": "Solardo X Rowetta",
+"title": "Enough (Extended Mix)",
+"label": "Ultra - UL02416",
+"bp": "bp:14537891",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/6eb3f405-4a6b-4396-a6da-7394539ce7a8.LOFI.mp3",
+"name": "Enough",
+"mix": "Extended Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2020-12-04"
+},
+{
+"minute": null,
+"artist": "Icona Pop X SOFI TUKKER",
+"title": "Spa (Lee Foss Extended Mix)",
+"label": "Ultra - UL02441",
+"bp": "bp:14582458",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/939bd98e-78aa-4749-bb22-3ad8d2db0218.LOFI.mp3",
+"name": "Spa",
+"mix": "Lee Foss Extended Mix",
+"genre": "house",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Tiga",
+"title": "Colours So Bright",
+"label": "Turbo - 211D",
+"bp": "bp:19188915",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/99159d1e-938e-46d4-a848-c55cfa300e65.LOFI.mp3",
+"name": "Colours so Bright",
+"mix": "Extended Mix",
+"genre": "indie-dance",
+"released": "2020-12-11"
+},
+{
+"minute": null,
+"artist": "Bob Moses & ZHU",
+"title": "Desire (Charlotte de Witte Extended Remix)",
+"label": "Domino",
+"bp": "bp:14638542",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/454c64de-4949-4fe0-adfe-3eeaec052d1c.LOFI.mp3",
+"name": "Desire",
+"mix": "Charlotte de Witte Remix",
+"genre": "techno-peak-time-driving",
+"released": "2020-12-07"
+},
+{
+"minute": null,
+"artist": "Joris Voorn",
+"title": "Shallow (Edwin Oosterwal Remix)",
+"label": "Spectrum - SPCTRM015",
+"bp": "bp:14615732",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95bdbc73-7158-4e3e-a692-176647982612.LOFI.mp3",
+"name": "Shallow",
+"mix": "Edwin Oosterwal Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Nocturnal Sunshine",
+"title": "Watchem Go",
+"label": "BMG Rights Management",
+"bp": "bp:27349044",
+"score": 0.894,
+"preview": "https://geo-samples.beatport.com/track/171e3f13-5560-4521-a1f0-7d1cd5605df6.LOFI.mp3",
+"name": "Watchem",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2026-01-28"
+},
+{
+"minute": null,
+"artist": "Two Lanes",
+"title": "Never Enough (Nils Hoffmann Remix)",
+"label": "Bitbird - BBX029",
+"bp": "bp:23072271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ca6ea8c-294e-4bc8-877f-a06df11eaa99.LOFI.mp3",
+"name": "Never Enough",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Crooked Colours",
+"title": "Falling (Nils Hoffmann Extended Remix)",
+"label": "Parametric",
+"bp": "bp:14624666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3dd1f474-ad94-4cca-8673-d8bb14a0bfd7.LOFI.mp3",
+"name": "Falling",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-03"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Eightfold Remix)",
+"label": "",
+"bp": "bp:14923421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb9b9457-c292-4878-8248-da838dd61fc5.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Eightfold Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Balloons (Made In Paris Remix)",
+"label": "",
+"bp": "bp:14923433",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90d71ce5-e89d-43eb-9244-8e512a84c4ad.LOFI.mp3",
+"name": "Balloons",
+"mix": "PARIS Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Max Joni",
+"title": "Parachute (Monkey Safari Remix)",
+"label": "Poesie - POM120"
+},
+{
+"minute": null,
+"artist": "Fritz Kalkbrenner",
+"title": "Daylight Is Falling (Nils Hoffmann Remix)",
+"label": "BMG Rights Management",
+"bp": "bp:23731661",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49ae726b-80af-4ea9-beab-c5318f267a0a.LOFI.mp3",
+"name": "Daylight Is Falling",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-10-23"
+},
+{
+"minute": null,
+"artist": "Kidnap",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Extended Remix)",
+"label": "Armada Electronic Elements - AREE114",
+"bp": "bp:17735593",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7808f7ff-49ca-450a-bb4c-494c55b520c7.LOFI.mp3",
+"name": "Moments",
+"mix": "Ben B\u00f6hmer & Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2023-06-01"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "The Clouds Silver Lining",
+"label": "Poesie - POM101",
+"bp": "bp:12508856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2213de3-cf69-420d-aed4-14a839350fd1.LOFI.mp3",
+"name": "The Clouds Silver Lining",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2020-03-06"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann & Ben B\u00f6hmer",
+"title": "Second Sun (Monkey Safari Remix)",
+"label": "Poesie - POM120",
+"bp": "bp:14399978",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a628560f-fcb3-4400-9f31-f669cddd4854.LOFI.mp3",
+"name": "Second Sun",
+"mix": "Monkey Safari Remix",
+"genre": "progressive-house",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann Feat. Malou",
+"title": "Breathing (Dominik Eulberg Extended Remix)",
+"label": "Anjunadeep - ANJDEE 434RD",
+"bp": "bp:13877065",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/6a24e952-ec0f-4c38-8be8-97b28ce5bc57.LOFI.mp3",
+"name": "Breathing",
+"mix": "Dominik Eulberg Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-07-14"
+},
+{
+"minute": null,
+"artist": "Hot Chip",
+"title": "Positive (Marcel Vogel & Adam Port Remix)",
+"label": "Domino - DOMDIG4892",
+"bp": "bp:14326793",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96960401-6b03-4cb6-b5ae-e7f258fd17c3.LOFI.mp3",
+"name": "Positive",
+"mix": "Marcel Vogel & Adam Port Remix",
+"genre": "melodic-house-techno",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "Colyn",
+"title": "Patterns",
+"label": "Afterlife - AL043"
+},
+{
+"minute": null,
+"artist": "CamelPhat",
+"title": "Hypercolour (Patrice B\u00e4umel Remix)",
+"label": "RCA",
+"bp": "bp:13966924",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/80501044-9e7d-439f-9dcc-5f9e617e570a.LOFI.mp3",
+"name": "Hypercolour",
+"mix": "Patrice B\u00e4umel Remix",
+"genre": "melodic-house-techno",
+"released": "2020-08-07"
+}
+]
+},
+{
+"title": "2021-01-13 - K-Paul, Nils Hoffmann - Komisch Elektronisch",
+"records": [
+{
+"minute": null,
+"artist": "Dee Montero",
+"title": "Aria (Newman (I Love) Remix)",
+"label": "Futurescope"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once I A Blue Moon",
+"label": "Poesie",
+"bp": "bp:12443890",
+"score": 0.984,
+"preview": "https://geo-samples.beatport.com/track/4e4ace00-557c-410a-9c75-4be8d757d3bd.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2019-09-06"
+},
+{
+"minute": null,
+"artist": "Bronson Feat. Gallant",
+"title": "Know Me (Cassian Remix)",
+"label": "Ninja Tune",
+"bp": "bp:14382406",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/f2dc7e55-d9f0-4cc5-98f9-2ea0ec8184e1.LOFI.mp3",
+"name": "KNOW ME",
+"mix": "Cassian Remix",
+"genre": "melodic-house-techno",
+"released": "2020-10-16"
+},
+{
+"minute": null,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann Feat. Malou",
+"title": "Breathing (Anjunadeep Remix)",
+"label": "Armada Electronic Elements"
+},
+{
+"minute": null,
+"artist": "Coeus",
+"title": "The Mirror Game",
+"label": "Oddity",
+"bp": "bp:13744431",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/92615092-e418-4a88-a55a-7a574e0238e9.LOFI.mp3",
+"name": "The Mirror Game",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2020-06-12"
+},
+{
+"minute": null,
+"artist": "Kidnap Feat. Leo Stannard",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Two Lanes",
+"title": "Never Enough (Nils Hoffmann Remix)",
+"label": "Bitbird",
+"bp": "bp:23072271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ca6ea8c-294e-4bc8-877f-a06df11eaa99.LOFI.mp3",
+"name": "Never Enough",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Kidnap",
+"title": "Silence",
+"label": "Anjunadeep",
+"bp": "bp:14242828",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a38a9fef-5809-4ea5-9b2a-0b5cc293c8a7.LOFI.mp3",
+"name": "Silence",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2020-10-06"
+},
+{
+"minute": null,
+"artist": "Crooked Colours",
+"title": "Falling (Nils Hoffmann Remix)",
+"label": "Parametric",
+"bp": "bp:14624666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3dd1f474-ad94-4cca-8673-d8bb14a0bfd7.LOFI.mp3",
+"name": "Falling",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "dance-pop",
+"released": "2020-12-03"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Eightfold Remix)",
+"label": "Poesie",
+"bp": "bp:14923421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb9b9457-c292-4878-8248-da838dd61fc5.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Eightfold Remix",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Balloons (Oiabm Version)",
+"label": "Poesie",
+"bp": "bp:13115241",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8836409f-283d-44e4-b6ea-3e5a4bc897a9.LOFI.mp3",
+"name": "Balloons",
+"mix": "OIABM Version",
+"genre": "progressive-house",
+"released": "2020-02-21"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon (Different Ray Remix)",
+"label": "Poesie",
+"bp": "bp:14923427",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f2f19c6f-a6bf-4879-a7e5-17524f9fce0e.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Different Ray Interpretation",
+"genre": "progressive-house",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Kollektiv Turmstrasse",
+"title": "Was Bleibt (Blindsmyth Remix)",
+"label": "Connaisseur",
+"bp": "bp:14321980",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a786b73-a0e8-4359-8692-21860bd6a7e5.LOFI.mp3",
+"name": "Was Bleibt",
+"mix": "Blindsmyth Remix",
+"genre": "melodic-house-techno",
+"released": "2020-10-30"
+},
+{
+"minute": null,
+"artist": "Innellea",
+"title": "The Invention Of Flying",
+"label": "Innervisions",
+"bp": "bp:14621844",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0d6b3a4-3e56-4215-9152-3ccabf39091d.LOFI.mp3",
+"name": "The Invention Of Flying",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Ambassadeurs",
+"title": "Nocturnes",
+"label": "Phases"
+},
+{
+"minute": null,
+"artist": "Bayker & GHEIST",
+"title": "Echoes",
+"label": "Radau",
+"bp": "bp:19794824",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a06921ce-741e-433b-8b4a-52c3e90b1ccf.LOFI.mp3",
+"name": "Echoes",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-03-13"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Max Joni",
+"title": "Parachute (Monkey Safari Remix)",
+"label": "Poesie Musik"
+},
+{
+"minute": null,
+"artist": "Tycho",
+"title": "Easy (Mild Minds Remix)",
+"label": "Ninja Tune",
+"bp": "bp:14699995",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dd422b5f-a7eb-48aa-95db-d7a85bc62134.LOFI.mp3",
+"name": "Easy",
+"mix": "Mild Minds Remix",
+"genre": "dance-pop",
+"released": "2020-12-18"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Margret",
+"title": "Wherever You Are (Tinlicker Remix)",
+"label": "Poesie Musik",
+"bp": "bp:19816530",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/4a7c29c0-9fbd-466a-bb26-a1c547d0e9c5.LOFI.mp3",
+"name": "Wherever You Are",
+"mix": "Tinlicker Remix",
+"genre": "progressive-house",
+"released": "2024-12-20"
+},
+{
+"minute": null,
+"artist": "Justus K\u00f6hncke",
+"title": "Timecode",
+"label": "Kompakt"
+},
+{
+"minute": null,
+"artist": "Kalipo Feat. Nils Hoffmann",
+"title": "Strategien Gegen Die Endlichkeit",
+"label": "Ki",
+"bp": "bp:11166002",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/5fe07d2a-5168-427c-963c-1b4cdcd7c7aa.LOFI.mp3",
+"name": "Strategien gegen die Endlichkeit (feat. Nils Hoffmann)",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2018-12-07"
+}
+]
+},
+{
+"title": "2022-07-21 - Nils Hoffmann - The Anjunadeep Edition 409",
+"records": [
+{
+"minute": 0,
+"artist": "Nils Hoffmann",
+"title": "Silhouettes",
+"label": "",
+"bp": "bp:16699702",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a25959b-7fa1-493c-965d-71da4cd0c001.LOFI.mp3",
+"name": "Silhouettes",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-09-02"
+},
+{
+"minute": 3,
+"artist": "Nils Hoffmann Feat. Hi Frisco",
+"title": "Guiding Light",
+"label": "Anjunadeep"
+},
+{
+"minute": 6,
+"artist": "Nils Hoffmann Feat. Tender",
+"title": "Let Me Go",
+"label": "Anjunadeep",
+"bp": "bp:17465551",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/40b6b7cb-fa96-4b33-853c-b760dab6d93f.LOFI.mp3",
+"name": "Let Me Go",
+"mix": "OLAN Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": 10,
+"artist": "Eli & Fur",
+"title": "Otherside (Nils Hoffmann Remix)",
+"label": "Spinnin' Deep",
+"bp": "bp:14775150",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd055c15-a8be-46dd-a912-067790bc7dda.LOFI.mp3",
+"name": "Otherside",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2021-02-01"
+},
+{
+"minute": 16,
+"artist": "Nils Hoffmann Feat. Bailey",
+"title": "I Won't Be Running",
+"label": "Anjunadeep",
+"bp": "bp:16886135",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/09a837db-14b3-4c00-9549-4949e95f06f3.LOFI.mp3",
+"name": "I Won't Be Running feat. bailey",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-10-25"
+},
+{
+"minute": 20,
+"artist": "Kidnap Feat. Leo Stannard",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Remix)",
+"label": "Armada Electronic Elements"
+},
+{
+"minute": 25,
+"artist": "Nils Hoffmann Feat. Panama",
+"title": "Far Behind",
+"label": "Anjunadeep",
+"bp": "bp:17465549",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/70d693ca-74a4-427c-9227-6204a9448316.LOFI.mp3",
+"name": "Far Behind",
+"mix": "Jeremy Olander Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": 30,
+"artist": "Nils Hoffmann Feat. Julia Church",
+"title": "9 Days",
+"label": "Anjunadeep"
+},
+{
+"minute": 34,
+"artist": "Nils Hoffmann",
+"title": "Immunity",
+"label": "Anjunadeep",
+"bp": "bp:16699710",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af08876a-447c-43c0-9eec-9b05b1ead7a5.LOFI.mp3",
+"name": "Immunity",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 39,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon",
+"label": "Poesie",
+"bp": "bp:12443890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e4ace00-557c-410a-9c75-4be8d757d3bd.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2019-09-06"
+},
+{
+"minute": 45,
+"artist": "Nils Hoffmann & Natascha Polk\u00e9",
+"title": "Cranes",
+"label": "Anjunadeep",
+"bp": "bp:16570971",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0f1e3a7-9951-4690-8ac7-e3c6507e2f69.LOFI.mp3",
+"name": "Cranes",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-06-13"
+},
+{
+"minute": 48,
+"artist": "Nils Hoffmann",
+"title": "Tiderays",
+"label": "Anjunadeep",
+"bp": "bp:16699701",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49a26c59-3e92-4fd8-a46a-ca5483815c18.LOFI.mp3",
+"name": "Tiderays",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 53,
+"artist": "Nils Hoffmann",
+"title": "Afterglow",
+"label": "Anjunadeep",
+"bp": "bp:16722529",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/615b4f0b-8c6b-490a-b56f-995a206cfb13.LOFI.mp3",
+"name": "Afterglow",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-08-02"
+},
+{
+"minute": 57,
+"artist": "Nils Hoffmann Feat. Malou",
+"title": "About You",
+"label": "Anjunadeep"
+},
+{
+"minute": 62,
+"artist": "Nils Hoffmann Feat. Gordi",
+"title": "No One Else",
+"label": "Anjunadeep"
+}
+]
+},
+{
+"title": "2022-09-02 - Above & Beyond, Nils Hoffmann - Group Therapy Radio (ABGT 497)",
+"records": [
+{
+"minute": null,
+"artist": "Alex Sonata & TheRio",
+"title": "Breath Of The Wild (Extended Mix)",
+"label": "Anjunabeats",
+"bp": "bp:16809125",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/32611398-7f71-4b41-bbe7-73abbc4ba99e.LOFI.mp3",
+"name": "Breath Of The Wild",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2022-08-29"
+},
+{
+"minute": null,
+"artist": "Oliver Smith",
+"title": "Make Me Feel (Extended Mix)",
+"label": "Anjunabeats",
+"bp": "bp:16818802",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d850e707-58d9-4f66-9281-c1e16cebea8b.LOFI.mp3",
+"name": "Make Me Feel",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2022-08-31"
+},
+{
+"minute": null,
+"artist": "Volaris",
+"title": "Slow Motion (Extended Mix)",
+"label": "Off The Grid",
+"bp": "bp:16773005",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/336d9700-0b44-4690-833d-dcf19dfc9952.LOFI.mp3",
+"name": "Slow Motion",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-08-12"
+},
+{
+"minute": null,
+"artist": "Andrew Bayer Feat. Vok",
+"title": "What Is Real",
+"label": "Anjunabeats",
+"bp": "bp:16827173",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/5bfeb0f1-c2be-4143-99ee-40ee0370b23c.LOFI.mp3",
+"name": "What Is Real",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-09-02"
+},
+{
+"minute": null,
+"artist": "Joda",
+"title": "No One Walks Away",
+"label": "Anjunabeats",
+"bp": "bp:16585451",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8d84afd-44aa-432f-b3fe-bb8c44216c11.LOFI.mp3",
+"name": "No One Walks Away",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-08-26"
+},
+{
+"minute": null,
+"artist": "ADZ",
+"title": "Falling",
+"label": "Anjunabeats",
+"bp": "bp:16835198",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3bdc2b63-dd5d-4dd7-9a86-6c2f2dadeec9.LOFI.mp3",
+"name": "Falling",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2022-09-05"
+},
+{
+"minute": null,
+"artist": "Above & Beyond Feat. Marty Longstaff",
+"title": "Chains",
+"label": "Anjunabeats"
+},
+{
+"minute": null,
+"artist": "Nox Vahn & Joseph Ray",
+"title": "Inhibitions",
+"label": "Anjunadeep",
+"bp": "bp:16818803",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9de8f273-ff4e-47e5-a450-e03f5a46a395.LOFI.mp3",
+"name": "Inhibitions",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2022-08-31"
+},
+{
+"minute": null,
+"artist": "Deeparture Feat. Belle Doron",
+"title": "Brake (Extended Mix)",
+"label": "Anjunabeats"
+},
+{
+"minute": null,
+"artist": "Joda",
+"title": "Spark",
+"label": "Anjunabeats",
+"bp": "bp:16585447",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e7f4be00-3d15-4c1a-85d3-097f454f303f.LOFI.mp3",
+"name": "Spark",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-08-26"
+},
+{
+"minute": null,
+"artist": "Cubicolor",
+"title": "Cowboy",
+"label": "Anjunadeep",
+"bp": "bp:16762026",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ad61da77-4388-4c7d-a7da-00564f4ff9ba.LOFI.mp3",
+"name": "Cowboy",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-10-28"
+},
+{
+"minute": null,
+"artist": "Embrz",
+"title": "Finally We're Here",
+"label": "This Never Happened",
+"bp": "bp:16774992",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e607bc8a-4980-4ab2-992f-ba40dee63b88.LOFI.mp3",
+"name": "Finally We're Here",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-08-23"
+},
+{
+"minute": null,
+"artist": "Tommy Farrow",
+"title": "Maybe, It's Possible (Extended Mix)",
+"label": "Armada",
+"bp": "bp:16755419",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/230203bf-08d0-461f-b67c-a1fa57fe7437.LOFI.mp3",
+"name": "Maybe, It's Possible",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2022-08-19"
+},
+{
+"minute": null,
+"artist": "Igor Garanin",
+"title": "Daydreams",
+"label": "Reflections",
+"bp": "bp:16809130",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/20b6527e-b0f7-4100-9aa2-cec87dbfe5bf.LOFI.mp3",
+"name": "Daydreams",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-08-29"
+},
+{
+"minute": null,
+"artist": "My Friend",
+"title": "Came Here For Love (Extended Mix)",
+"label": "Anjunadeep",
+"bp": "bp:16802891",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4b93cc9e-2a52-4468-a68c-ab5fb6733706.LOFI.mp3",
+"name": "Came Here For Love",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-08-26"
+},
+{
+"minute": null,
+"artist": "Massane",
+"title": "Floating",
+"label": "This Never Happened",
+"bp": "bp:16722542",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0fe5fb87-4e28-49f7-b7ae-ef47c68b2cf9.LOFI.mp3",
+"name": "Floating",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-08-02"
+},
+{
+"minute": null,
+"artist": "Marc Romboy & Stephan Bodzin",
+"title": "Atlas (Shall Ocin & Artbat Remix)",
+"label": "Systematic",
+"bp": "bp:16420907",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a66f7d16-6690-45ae-994a-cbb32a4b0d4a.LOFI.mp3",
+"name": "Atlas",
+"mix": "Shall Ocin & Artbat Remix",
+"genre": "melodic-house-techno",
+"released": "2022-09-30"
+},
+{
+"minute": null,
+"artist": "Genix",
+"title": "Your Destiny",
+"label": "Anjunabeats",
+"bp": "bp:16777837",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/62a11223-82a7-4609-9c0c-d67647225f8c.LOFI.mp3",
+"name": "Your Destiny",
+"mix": "Extended Mix",
+"genre": "techno-peak-time-driving",
+"released": "2022-08-19"
+},
+{
+"minute": null,
+"artist": "Kyau & Albert",
+"title": "Are You Fine (John Grant & Kristina Sky Extended Remix)",
+"label": "Euphonic",
+"bp": "bp:16718970",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/893ef071-7b75-4550-86fa-4903daea6230.LOFI.mp3",
+"name": "Are You Fine",
+"mix": "John Grand & Kristina Sky Extended Remix",
+"genre": "trance-main-floor",
+"released": "2022-08-05"
+},
+{
+"minute": null,
+"artist": "Underworld",
+"title": "Dark & Long (Jerome Isma-Ae & Maor Levi Remix)",
+"label": "Anjunabeats"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann & Niklas Paschburg",
+"title": "A Radiant Sign",
+"label": "Anjunadeep",
+"bp": "bp:16699695",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/903eabea-a6ec-4590-8667-174ed878d00c.LOFI.mp3",
+"name": "A Radiant Sign",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-09-02"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Panama",
+"title": "Far Behind",
+"label": "Anjunadeep",
+"bp": "bp:17465549",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/70d693ca-74a4-427c-9227-6204a9448316.LOFI.mp3",
+"name": "Far Behind",
+"mix": "Jeremy Olander Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Julia Church",
+"title": "9 Days",
+"label": "Anjunadeep"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Afterglow",
+"label": "Anjunadeep",
+"bp": "bp:16722529",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/615b4f0b-8c6b-490a-b56f-995a206cfb13.LOFI.mp3",
+"name": "Afterglow",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-08-02"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Malou",
+"title": "About You",
+"label": "Anjunadeep"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Tender",
+"title": "Let Me Go",
+"label": "Anjunadeep",
+"bp": "bp:17465551",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/40b6b7cb-fa96-4b33-853c-b760dab6d93f.LOFI.mp3",
+"name": "Let Me Go",
+"mix": "OLAN Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Bailey",
+"title": "I Won't Be Running",
+"label": "Anjunadeep",
+"bp": "bp:16886135",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/09a837db-14b3-4c00-9549-4949e95f06f3.LOFI.mp3",
+"name": "I Won't Be Running feat. bailey",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-10-25"
+}
+]
+},
+{
+"title": "2022-10-07 - VA - La Boum De Luxe",
+"records": [
+{
+"minute": null,
+"artist": "Anunaku",
+"title": "Bronze Age",
+"label": "",
+"bp": "bp:12551184",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d91b0c1b-8d09-4634-b23b-a21c4337af35.LOFI.mp3",
+"name": "Bronze Age",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2019-10-18"
+},
+{
+"minute": null,
+"artist": "I Hate Models",
+"title": "Warehouse Memories",
+"label": "ARTS - 20",
+"bp": "bp:8013107",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/31742c90-0be7-44f0-86f7-e57234a7d10f.LOFI.mp3",
+"name": "Warehouse Memories",
+"mix": "Original Mix",
+"genre": "hard-techno",
+"released": "2016-08-08"
+},
+{
+"minute": null,
+"artist": "Moonchild Sanelly",
+"title": "Bashiri (Ebow & Aramboa Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Aramboa Feat. Sarnilo",
+"title": "Goodbye/Tiwonana",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Oumou Sangare",
+"title": "Kounkoun (PEDRO Remix)",
+"label": "",
+"bp": "bp:10231907",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/736e0645-d65d-4997-accd-e95a79ccb0c1.LOFI.mp3",
+"name": "Kounkoun",
+"mix": "Pedro da Linha Remix",
+"genre": "bass-club",
+"released": "2018-03-02"
+},
+{
+"minute": null,
+"artist": "Sugar Hill & Wasabi",
+"title": "It`s On You (Purple Disco Machine Remix)",
+"label": "",
+"bp": "bp:6154719",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db127ca5-59f5-4444-8c76-8e1756d940ac.LOFI.mp3",
+"name": "It's On You",
+"mix": "Purple Disco Machine Remix",
+"genre": "funky-house",
+"released": "2015-01-12"
+},
+{
+"minute": null,
+"artist": "Fu-Gee-La (Edit) Richard Grey & Lissat",
+"title": "Fu-Gee-La (Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Falco",
+"title": "Der Kommissar (Mousse T. Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Peggy Gou",
+"title": "It Makes You Forget (Itgehane)",
+"label": "",
+"bp": "bp:10181142",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6891f195-5758-473d-93fb-a6a839253aa0.LOFI.mp3",
+"name": "It Makes You Forget (Itgehane)",
+"mix": "Edit",
+"genre": "indie-dance",
+"released": "2018-01-24"
+},
+{
+"minute": null,
+"artist": "TURN OFF THE LIGHTS",
+"title": "Dog Blood",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Tondo",
+"title": "Disclosure & Eko Roosevelt",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Agua Sin Gas",
+"title": "Noire",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Vem",
+"title": "Ozadya, Pekodjinn & Talita Quero",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Diplo Feat. Kah-Lo",
+"title": "Give Dem (Michael Brun Remix)",
+"label": "",
+"bp": "bp:12247521",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/9e671930-a7b2-45c1-9e3b-29e8396c565e.LOFI.mp3",
+"name": "Give Dem (feat. Kah-Lo)",
+"mix": "Michael Brun Remix",
+"genre": "dance-pop",
+"released": "2019-06-27"
+},
+{
+"minute": null,
+"artist": "Pont Des Arts",
+"title": "St Germain",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Sun Goes Down",
+"title": "Capo Lee",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Okwe",
+"title": "Jowaa",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Multiple Dub",
+"title": "Salute",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Fayudan",
+"title": "Rolv. K & Pekodjinn",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Just Know Feat. Henry Wu & Venna",
+"title": "JD. Reid",
+"label": ""
+},
+{
+"minute": null,
+"artist": "A Little Bit Of Ecstasy",
+"title": "Jocelyn Enriquez",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Could Heaven Ever Be Like This",
+"title": "Idris Muhammad",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Alejandro Mono",
+"title": "Ares",
+"label": "Hivern Discs - HVN040",
+"bp": "bp:9110902",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/8ae10e25-1f54-4689-9ea8-4f92e0b87f5f.LOFI.mp3",
+"name": "Ares",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2017-04-28"
+},
+{
+"minute": null,
+"artist": "Terranova",
+"title": "Take My Hands",
+"label": "",
+"bp": "bp:13115297",
+"score": 0.976,
+"preview": "https://geo-samples.beatport.com/track/017a5f0f-153a-4a51-8171-a4939a46ff20.LOFI.mp3",
+"name": "Take My Hand",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2016-04-14"
+},
+{
+"minute": null,
+"artist": "Juliet",
+"title": "Avalon (Jacques Lu Cont Versus Remix)",
+"label": "",
+"bp": "bp:16858581",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1454119-7431-438c-8b1d-2bfb1bbba458.LOFI.mp3",
+"name": "Avalon",
+"mix": "Jacques Lu Cont Versus Remix",
+"genre": "house",
+"released": "2022-11-04"
+},
+{
+"minute": null,
+"artist": "Mano Le Tough",
+"title": "Primative People (Tale Of Us Remix)",
+"label": "",
+"bp": "bp:4645775",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/13b5acf5-3e04-4922-a9fa-6735af52c9fc.LOFI.mp3",
+"name": "Primative People",
+"mix": "Tale Of Us Remix",
+"genre": "melodic-house-techno",
+"released": "2013-09-13"
+},
+{
+"minute": null,
+"artist": "Theo Parrish & Carl Craig",
+"title": "Falling Up (Carl Craig 2013 Remaster)",
+"label": "",
+"bp": "bp:269191",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3ae8d0af-e7d1-48f3-ac45-09f3cf184ec5.LOFI.mp3",
+"name": "Falling Up (Carl Craig remix)",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2007-03-16"
+},
+{
+"minute": null,
+"artist": "Matthew Dekay & Lee Burridge",
+"title": "Lost In A Moment (Dixon Rework)",
+"label": "",
+"bp": "bp:3540898",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f16bde67-a1b8-4ef3-9d40-770d70a6a998.LOFI.mp3",
+"name": "Lost In A Moment",
+"mix": "Dixon Rework",
+"genre": "deep-house",
+"released": "2012-06-18"
+},
+{
+"minute": null,
+"artist": "Paperclip People",
+"title": "Oscillator (Sebastien San Remix)",
+"label": "",
+"bp": "bp:19650098",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af0c7b75-b04c-486a-8742-fc5be51b8bbf.LOFI.mp3",
+"name": "Oscillator ",
+"mix": "Sebastien San Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2012-10-15"
+},
+{
+"minute": null,
+"artist": "Minilogue",
+"title": "Ahck",
+"label": "",
+"bp": "bp:4414672",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cbc084ed-7609-417e-aa9f-5cd982f00d9c.LOFI.mp3",
+"name": "Ahck",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2013-06-07"
+},
+{
+"minute": null,
+"artist": "Sebastien San",
+"title": "Wuxia (Dub Mix)",
+"label": "",
+"bp": "bp:19656916",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/01673f4a-ba03-4fa7-b991-eee56d5d882e.LOFI.mp3",
+"name": "Wuxia ",
+"mix": "Dub Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2006-10-02"
+},
+{
+"minute": null,
+"artist": "Roma Zuckerman",
+"title": "I Like You",
+"label": "",
+"bp": "bp:14803197",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6cf0d0db-bb51-43dc-b641-5787c55051bb.LOFI.mp3",
+"name": "i like you",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2021-01-22"
+},
+{
+"minute": null,
+"artist": "Howling",
+"title": "Howling (\u00c2me Remix)",
+"label": "",
+"bp": "bp:6200137",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4d470bb4-d4e5-4307-bc68-473709867658.LOFI.mp3",
+"name": "Howling",
+"mix": "Ame Remix",
+"genre": "deep-house",
+"released": "2012-07-27"
+},
+{
+"minute": null,
+"artist": "Armand Van Helden",
+"title": "Flowerz",
+"label": "",
+"bp": "bp:13115886",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/51487680-073f-418e-98dd-d5a24ba826f4.LOFI.mp3",
+"name": "Flowerz (feat. Roland Clark)",
+"mix": "feat. Roland Clark",
+"genre": "dance-pop",
+"released": "1998-01-01"
+},
+{
+"minute": null,
+"artist": "Pvssy",
+"title": "Asi Me Gusta",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Pearson Sound X Clara!",
+"title": "Mi Cuerpo",
+"label": "",
+"bp": "bp:14079700",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/5d11ff1c-037f-4436-b720-b9d85b2415f4.LOFI.mp3",
+"name": "Mi Cuerpo",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2020-08-14"
+},
+{
+"minute": null,
+"artist": "Anunaku",
+"title": "Bronze Age",
+"label": "",
+"bp": "bp:12551184",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d91b0c1b-8d09-4634-b23b-a21c4337af35.LOFI.mp3",
+"name": "Bronze Age",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2019-10-18"
+},
+{
+"minute": null,
+"artist": "Gaile",
+"title": "Wrack",
+"label": ""
+},
+{
+"minute": null,
+"artist": "I Hate Models",
+"title": "Warehouse Memories",
+"label": "ARTS - 20",
+"bp": "bp:8013107",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/31742c90-0be7-44f0-86f7-e57234a7d10f.LOFI.mp3",
+"name": "Warehouse Memories",
+"mix": "Original Mix",
+"genre": "hard-techno",
+"released": "2016-08-08"
+},
+{
+"minute": null,
+"artist": "Miss Jay",
+"title": "Insomnia",
+"label": "",
+"bp": "bp:11875205",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/4b35da84-72e6-40c9-990b-7458dd4d462e.LOFI.mp3",
+"name": "Insomnia",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2011-09-11"
+},
+{
+"minute": null,
+"artist": "Bitter Babe&Nick Leon",
+"title": "Tranki",
+"label": "",
+"bp": "bp:16651120",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a3ee9fc5-951f-476d-9208-d883f50c982f.LOFI.mp3",
+"name": "Tranki",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2022-06-03"
+},
+{
+"minute": null,
+"artist": "Bolam",
+"title": "Break Yo' Self.",
+"label": "",
+"bp": "bp:14796282",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bf947d9b-9c35-4856-b0c7-dd20858eb5d3.LOFI.mp3",
+"name": "Break Yo' Self",
+"mix": "Original Mix",
+"genre": "dubstep",
+"released": "2020-02-29"
+},
+{
+"minute": null,
+"artist": "Jerry Horny",
+"title": "Seeds",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Natanael Cano",
+"title": "El De La Codeina",
+"label": "",
+"bp": "bp:29860099",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/12fa75c0-5c61-4038-90db-4fca056b0ec3.LOFI.mp3",
+"name": "El De La Codeina",
+"mix": "Original Mix",
+"genre": "latin",
+"released": "2019-04-11"
+},
+{
+"minute": null,
+"artist": "Simo Cell",
+"title": "Whispers",
+"label": "",
+"bp": "bp:15468192",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fbde95ba-02ab-4cab-a347-849a8bccf81e.LOFI.mp3",
+"name": "Whispers",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2021-09-21"
+},
+{
+"minute": null,
+"artist": "Exieve",
+"title": "Bomb Has Been Planted",
+"label": "",
+"bp": "bp:16262623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/92aaaf72-ea6c-4e48-93c9-887c48bc1c37.LOFI.mp3",
+"name": "Bomb Has Been Planted",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2022-02-25"
+},
+{
+"minute": null,
+"artist": "J:Kenzo (Mani Festo Remix)",
+"title": "Deadbull",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Exieve",
+"title": "Encomia",
+"label": "",
+"bp": "bp:16269443",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90884489-3ee8-4585-ba50-3fa672d7d6fc.LOFI.mp3",
+"name": "encomia",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2022-02-25"
+},
+{
+"minute": null,
+"artist": "Bitter Babe&Nick Leon",
+"title": "Goce",
+"label": "",
+"bp": "bp:16651121",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7bfdc812-cfcd-4a24-aa0e-9b1ab92fb118.LOFI.mp3",
+"name": "Goce",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2022-06-03"
+},
+{
+"minute": null,
+"artist": "Bitter Babe&Nick Leon",
+"title": "Delirio",
+"label": "",
+"bp": "bp:16651122",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d4285573-88a7-4c10-bf5c-e52db1adee7a.LOFI.mp3",
+"name": "Delirio",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2022-06-03"
+},
+{
+"minute": null,
+"artist": "Exium",
+"title": "Erosion",
+"label": "",
+"bp": "bp:15727212",
+"score": 0.925,
+"preview": "https://geo-samples.beatport.com/track/7c3fddef-79f7-4c48-922c-7b89e0c773cc.LOFI.mp3",
+"name": "Erosion 2",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-10-15"
+},
+{
+"minute": null,
+"artist": "FJAAK",
+"title": "Falcon Punch",
+"label": ""
+},
+{
+"minute": null,
+"artist": "De Grandi",
+"title": "Permafrost",
+"label": "",
+"bp": "bp:16957923",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f099995-01c7-4dd5-8e82-4ffe409d82d8.LOFI.mp3",
+"name": "Permafrost",
+"mix": "Original Mix",
+"genre": "psy-trance",
+"released": "2021-11-26"
+},
+{
+"minute": null,
+"artist": "Leo RD Feat. EL Cherry Scom",
+"title": "El Tiki Tiki (Siu Mata Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "UZI (SIu Mata Edit)",
+"title": "El Alfa El Jefe",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Siu Mata & Amor Satyr",
+"title": "Jiggy Bow",
+"label": "",
+"bp": "bp:20747040",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/30ce42ce-3777-4caa-82a2-4bbd59d134f5.LOFI.mp3",
+"name": "Jiggy Bow",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2025-03-22"
+},
+{
+"minute": null,
+"artist": "Siu Mata",
+"title": "Jiggybow",
+"label": ""
+},
+{
+"minute": null,
+"artist": "European Canon",
+"title": "Manteca",
+"label": "Rawa Club",
+"bp": "bp:16186933",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18f514a1-fac7-4bbb-9102-536919e0f468.LOFI.mp3",
+"name": "Manteca",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-02-03"
+},
+{
+"minute": null,
+"artist": "DJ \u3053\u308c\u304b\u3089\u306e\u7dca\u6025\u707d\u5bb3",
+"title": "Addicted Whore Who Looks Like Fergie",
+"label": "",
+"bp": "bp:14919790",
+"score": 0.984,
+"preview": "https://geo-samples.beatport.com/track/a183bd55-27fd-4a08-a99e-785741869676.LOFI.mp3",
+"name": "Addicted Whore Who Looks Like Fergie 2",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2021-02-16"
+},
+{
+"minute": null,
+"artist": "DJ Meddle Feat. 100 Roque",
+"title": "Rosa Imunda",
+"label": ""
+},
+{
+"minute": null,
+"artist": "G. Love & Special Sauce",
+"title": "Rhyme For The Summertime",
+"label": "OKeh",
+"bp": "bp:28454628",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/6fa62f2c-39bb-47d7-9d05-9fa906dcd579.LOFI.mp3",
+"name": "Rhyme for the Summertime",
+"mix": "Acoustic Version",
+"genre": "rock",
+"released": "1998-05-01"
+},
+{
+"minute": null,
+"artist": "Washed Out",
+"title": "Burn Out Blues",
+"label": "Stones Throw",
+"bp": "bp:9490678",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f2b6508-1a8d-44f8-9308-68b013927572.LOFI.mp3",
+"name": "Burn Out Blues",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2017-06-30"
+},
+{
+"minute": null,
+"artist": "Nu Genea",
+"title": "Straniero",
+"label": "NG"
+},
+{
+"minute": null,
+"artist": "Benny Sings",
+"title": "For Your Love",
+"label": "Sonar Kollektiv",
+"bp": "bp:27336144",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cdd478a6-b2cd-4ffd-92dc-c1c00525b5e4.LOFI.mp3",
+"name": "For Your Love",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2007-05-11"
+},
+{
+"minute": null,
+"artist": "Aiden Aysers",
+"title": "Some Kinda Harm",
+"label": "Public Possesion",
+"bp": "bp:15514322",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/c38a39dd-4b65-4eda-af7f-d3f2968988dd.LOFI.mp3",
+"name": "Some Kinda Harm",
+"mix": "Original Mix",
+"genre": "downtempo",
+"released": "2021-07-23"
+},
+{
+"minute": null,
+"artist": "Midnight Magic",
+"title": "Drop Me A Line Mano Le Tough Mix",
+"label": "Permanent Vacation"
+},
+{
+"minute": null,
+"artist": "Brijean",
+"title": "Show And Tell",
+"label": "US",
+"bp": "bp:14034740",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3d46bf9f-efc6-4895-9bbd-b34653a26409.LOFI.mp3",
+"name": "Show and Tell",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-06-28"
+},
+{
+"minute": null,
+"artist": "Nu Genea",
+"title": "Vesuvio",
+"label": "NG"
+},
+{
+"minute": null,
+"artist": "Von Spar",
+"title": "One Human Minute",
+"label": "Italic",
+"bp": "bp:5898341",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1b9c1416-e1bc-496f-87d3-cf28f233c302.LOFI.mp3",
+"name": "One Human Minute",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2014-10-27"
+},
+{
+"minute": null,
+"artist": "Kindness",
+"title": "I'll Be Back",
+"label": "Mom + Pop",
+"bp": "bp:5861207",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7d2aff08-c1df-4f82-9d9f-8e1ec2cb559c.LOFI.mp3",
+"name": "I'll Be Back",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2014-10-10"
+},
+{
+"minute": null,
+"artist": "4AM",
+"title": "Passion",
+"label": "Emotional Rescue"
+},
+{
+"minute": null,
+"artist": "Mildlife",
+"title": "The Magnificant Moon Tornado Wallace Remix",
+"label": "Research"
+},
+{
+"minute": null,
+"artist": "Nese Karabocek",
+"title": "Yali Yali Todd Terje Remix",
+"label": "TTJ"
+},
+{
+"minute": 0,
+"artist": "Nils Hoffmann",
+"title": "Silhouettes",
+"label": "",
+"bp": "bp:16699702",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a25959b-7fa1-493c-965d-71da4cd0c001.LOFI.mp3",
+"name": "Silhouettes",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-09-02"
+},
+{
+"minute": 3,
+"artist": "Nils Hoffmann Feat. Hi Frisco",
+"title": "Guiding Light",
+"label": "Anjunadeep"
+},
+{
+"minute": 6,
+"artist": "Nils Hoffmann Feat. Tender",
+"title": "Let Me Go",
+"label": "Anjunadeep",
+"bp": "bp:17465551",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/40b6b7cb-fa96-4b33-853c-b760dab6d93f.LOFI.mp3",
+"name": "Let Me Go",
+"mix": "OLAN Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": 10,
+"artist": "Eli & Fur",
+"title": "Otherside (Nils Hoffmann Remix)",
+"label": "Spinnin' Deep",
+"bp": "bp:14775150",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd055c15-a8be-46dd-a912-067790bc7dda.LOFI.mp3",
+"name": "Otherside",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2021-02-01"
+},
+{
+"minute": 16,
+"artist": "Nils Hoffmann Feat. Bailey",
+"title": "I Won't Be Running",
+"label": "Anjunadeep",
+"bp": "bp:16886135",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/09a837db-14b3-4c00-9549-4949e95f06f3.LOFI.mp3",
+"name": "I Won't Be Running feat. bailey",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-10-25"
+},
+{
+"minute": 20,
+"artist": "Kidnap Feat. Leo Stannard",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Remix)",
+"label": "Armada Electronic Elements"
+},
+{
+"minute": 25,
+"artist": "Nils Hoffmann Feat. Panama",
+"title": "Far Behind",
+"label": "Anjunadeep",
+"bp": "bp:17465549",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/70d693ca-74a4-427c-9227-6204a9448316.LOFI.mp3",
+"name": "Far Behind",
+"mix": "Jeremy Olander Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": 30,
+"artist": "Nils Hoffmann Feat. Julia Church",
+"title": "9 Days",
+"label": "Anjunadeep"
+},
+{
+"minute": 34,
+"artist": "Nils Hoffmann",
+"title": "Immunity",
+"label": "Anjunadeep",
+"bp": "bp:16699710",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af08876a-447c-43c0-9eec-9b05b1ead7a5.LOFI.mp3",
+"name": "Immunity",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 39,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon",
+"label": "Poesie",
+"bp": "bp:12443890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e4ace00-557c-410a-9c75-4be8d757d3bd.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2019-09-06"
+},
+{
+"minute": 45,
+"artist": "Nils Hoffmann & Natascha Polk\u00e9",
+"title": "Cranes",
+"label": "Anjunadeep",
+"bp": "bp:16570971",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0f1e3a7-9951-4690-8ac7-e3c6507e2f69.LOFI.mp3",
+"name": "Cranes",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-06-13"
+},
+{
+"minute": 48,
+"artist": "Nils Hoffmann",
+"title": "Tiderays",
+"label": "Anjunadeep",
+"bp": "bp:16699701",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49a26c59-3e92-4fd8-a46a-ca5483815c18.LOFI.mp3",
+"name": "Tiderays",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 53,
+"artist": "Nils Hoffmann",
+"title": "Afterglow",
+"label": "Anjunadeep",
+"bp": "bp:16722529",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/615b4f0b-8c6b-490a-b56f-995a206cfb13.LOFI.mp3",
+"name": "Afterglow",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-08-02"
+},
+{
+"minute": 57,
+"artist": "Nils Hoffmann Feat. Malou",
+"title": "About You",
+"label": "Anjunadeep"
+},
+{
+"minute": 62,
+"artist": "Nils Hoffmann Feat. Gordi",
+"title": "No One Else",
+"label": "Anjunadeep"
+},
+{
+"minute": null,
+"artist": "Peter Juergens",
+"title": "Momentaufnahme",
+"label": ""
+},
+{
+"minute": null,
+"artist": "B.U.R.N.E.D.",
+"title": "Schneid (Nudisco Remix)",
+"label": "",
+"bp": "bp:100224",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bc457a45-764b-4fc8-a210-eda7a2eda1d6.LOFI.mp3",
+"name": "Schneid",
+"mix": "Nudisco Remix",
+"genre": "progressive-house",
+"released": "2006-04-14"
+},
+{
+"minute": null,
+"artist": "Daniel Solar",
+"title": "Drowning (Patryk Molinari Siren Dub)",
+"label": "",
+"bp": "bp:7692096",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1fc0f5bc-08e9-4721-982b-2285dc966010.LOFI.mp3",
+"name": "Drowning",
+"mix": "Patryk Molinari Siren Dub",
+"genre": "tech-house",
+"released": "2016-03-14"
+},
+{
+"minute": null,
+"artist": "Shero, JNM The Naked MC",
+"title": "FAME (Megablast Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Audiojack, Polarbear",
+"title": "Introspection (Nick Curly Remix)",
+"label": "",
+"bp": "bp:14026838",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2a71ea9f-f98a-43d7-be2d-71d49c706586.LOFI.mp3",
+"name": "Introspection",
+"mix": "Nick Curly Remix",
+"genre": "deep-house",
+"released": "2020-09-04"
+},
+{
+"minute": null,
+"artist": "Robag Wruhme",
+"title": "No",
+"label": "",
+"bp": "bp:15446966",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9138fdd-8f4a-415f-beed-0681e6310f9b.LOFI.mp3",
+"name": "No",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2021-07-30"
+},
+{
+"minute": null,
+"artist": "Tocadisco",
+"title": "Morumbi (Stefan Obermaier Remix)",
+"label": "",
+"bp": "bp:15349408",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/be68e09f-a180-4161-ad26-3b7683c34899.LOFI.mp3",
+"name": "Morumbi",
+"mix": "Stefan Obermaier Remix",
+"genre": "tech-house",
+"released": "2021-07-02"
+}
+]
+},
+{
+"title": "2022-10-22 - Nils Hoffmann - Sputnik Club",
+"records": [
+{
+"minute": 0,
+"artist": "Nils Hoffmann",
+"title": "Silhouettes",
+"label": "",
+"bp": "bp:16699702",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a25959b-7fa1-493c-965d-71da4cd0c001.LOFI.mp3",
+"name": "Silhouettes",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-09-02"
+},
+{
+"minute": 3,
+"artist": "Nils Hoffmann Feat. Hi Frisco",
+"title": "Guiding Light",
+"label": "Anjunadeep"
+},
+{
+"minute": 6,
+"artist": "Nils Hoffmann Feat. Tender",
+"title": "Let Me Go",
+"label": "Anjunadeep",
+"bp": "bp:17465551",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/40b6b7cb-fa96-4b33-853c-b760dab6d93f.LOFI.mp3",
+"name": "Let Me Go",
+"mix": "OLAN Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": 10,
+"artist": "Eli & Fur",
+"title": "Otherside (Nils Hoffmann Remix)",
+"label": "Spinnin' Deep",
+"bp": "bp:14775150",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd055c15-a8be-46dd-a912-067790bc7dda.LOFI.mp3",
+"name": "Otherside",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2021-02-01"
+},
+{
+"minute": 16,
+"artist": "Nils Hoffmann Feat. Bailey",
+"title": "I Won't Be Running",
+"label": "Anjunadeep",
+"bp": "bp:16886135",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/09a837db-14b3-4c00-9549-4949e95f06f3.LOFI.mp3",
+"name": "I Won't Be Running feat. bailey",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-10-25"
+},
+{
+"minute": 20,
+"artist": "Kidnap Feat. Leo Stannard",
+"title": "Moments (Ben B\u00f6hmer & Nils Hoffmann Remix)",
+"label": "Armada Electronic Elements"
+},
+{
+"minute": 25,
+"artist": "Nils Hoffmann Feat. Panama",
+"title": "Far Behind",
+"label": "Anjunadeep",
+"bp": "bp:17465549",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/70d693ca-74a4-427c-9227-6204a9448316.LOFI.mp3",
+"name": "Far Behind",
+"mix": "Jeremy Olander Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": 30,
+"artist": "Nils Hoffmann Feat. Julia Church",
+"title": "9 Days",
+"label": "Anjunadeep"
+},
+{
+"minute": 34,
+"artist": "Nils Hoffmann",
+"title": "Immunity",
+"label": "Anjunadeep",
+"bp": "bp:16699710",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af08876a-447c-43c0-9eec-9b05b1ead7a5.LOFI.mp3",
+"name": "Immunity",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 39,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon",
+"label": "Poesie",
+"bp": "bp:12443890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e4ace00-557c-410a-9c75-4be8d757d3bd.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2019-09-06"
+},
+{
+"minute": 45,
+"artist": "Nils Hoffmann & Natascha Polk\u00e9",
+"title": "Cranes",
+"label": "Anjunadeep",
+"bp": "bp:16570971",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0f1e3a7-9951-4690-8ac7-e3c6507e2f69.LOFI.mp3",
+"name": "Cranes",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-06-13"
+},
+{
+"minute": 48,
+"artist": "Nils Hoffmann",
+"title": "Tiderays",
+"label": "Anjunadeep",
+"bp": "bp:16699701",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49a26c59-3e92-4fd8-a46a-ca5483815c18.LOFI.mp3",
+"name": "Tiderays",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 53,
+"artist": "Nils Hoffmann",
+"title": "Afterglow",
+"label": "Anjunadeep",
+"bp": "bp:16722529",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/615b4f0b-8c6b-490a-b56f-995a206cfb13.LOFI.mp3",
+"name": "Afterglow",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-08-02"
+},
+{
+"minute": 57,
+"artist": "Nils Hoffmann Feat. Malou",
+"title": "About You",
+"label": "Anjunadeep"
+},
+{
+"minute": 62,
+"artist": "Nils Hoffmann Feat. Gordi",
+"title": "No One Else",
+"label": "Anjunadeep"
+}
+]
+},
+{
+"title": "2022-12-25 - Nils Hoffmann - Mix Mission",
+"records": []
+},
+{
+"title": "2023-07-13 - Nils Hoffmann - The Anjunadeep Edition 458",
+"records": [
+{
+"minute": 0,
+"artist": "Nils Hoffmann & Niklas Paschburg",
+"title": "A Radiant Sign",
+"label": "Reflections",
+"bp": "bp:16699695",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/903eabea-a6ec-4590-8667-174ed878d00c.LOFI.mp3",
+"name": "A Radiant Sign",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2022-09-02"
+},
+{
+"minute": null,
+"artist": "[0?] Nils Hoffmann Feat. Julia Church",
+"title": "9 Days (Extended Mix)",
+"label": "Anjunadeep"
+},
+{
+"minute": 3,
+"artist": "Nils Hoffmann Feat. Panama",
+"title": "Far Behind (Extended Mix)",
+"label": "Anjunadeep",
+"bp": "bp:17465553",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/c6844941-8933-4d4d-9563-3afd3886352a.LOFI.mp3",
+"name": "Far Behind",
+"mix": "TIBASKO Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-03-22"
+},
+{
+"minute": 7,
+"artist": "Sander van Doorn & LVNDSCAPE Feat. Delline Bass",
+"title": "Need To Feel Loved (Nils Hoffmann Extended Remix)",
+"label": "Spinnin' Deep",
+"bp": "bp:16396918",
+"score": 0.829,
+"preview": "https://geo-samples.beatport.com/track/91b72416-70ec-4b7a-a3f3-4156f053cc07.LOFI.mp3",
+"name": "Need To Feel Loved",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "progressive-house",
+"released": "2022-04-15"
+},
+{
+"minute": 13,
+"artist": "Nils Hoffmann",
+"title": "Nightflower (Extended Mix)",
+"label": "Anjunadeep",
+"bp": "bp:17913755",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5ca27589-e41e-4678-97ff-ad09598b9cd4.LOFI.mp3",
+"name": "Nightflower",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-07-28"
+},
+{
+"minute": 17,
+"artist": "Nils Hoffmann",
+"title": "Immunity (Extended Mix)",
+"label": "Anjunadeep",
+"bp": "bp:16699710",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af08876a-447c-43c0-9eec-9b05b1ead7a5.LOFI.mp3",
+"name": "Immunity",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 21,
+"artist": "Nils Hoffmann Feat. Rae Morris",
+"title": "Lonely (Extended Mix)",
+"label": "Anjunadeep"
+},
+{
+"minute": 27,
+"artist": "Nils Hoffmann Feat. The Kite String Tangle",
+"title": "Holding Me Back (Extended Mix)",
+"label": "Anjunadeep"
+},
+{
+"minute": 31,
+"artist": "Emmit Fenn",
+"title": "Amman (Nils Hoffmann Remix)",
+"label": "Cercle"
+},
+{
+"minute": 36,
+"artist": "Nils Hoffman Feat. Vancouver Sleep Cinic & Kasbo",
+"title": "Running In A Dream",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "ODESZA Feat. L\u00e5psley",
+"title": "Equal (Nils Hoffmann Remix)",
+"label": "Foreign Family Collective"
+},
+{
+"minute": 46,
+"artist": "Nils Hoffmann & Natascha Polk\u00e9",
+"title": "Cranes (Extended Mix)",
+"label": "Anjunadeep",
+"bp": "bp:16570971",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0f1e3a7-9951-4690-8ac7-e3c6507e2f69.LOFI.mp3",
+"name": "Cranes",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-06-13"
+},
+{
+"minute": 50,
+"artist": "Nils Hoffmann",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 55,
+"artist": "Nils Hoffmann",
+"title": "Afterglow (Extended Mix)",
+"label": "Anjunadeep",
+"bp": "bp:16722529",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/615b4f0b-8c6b-490a-b56f-995a206cfb13.LOFI.mp3",
+"name": "Afterglow",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-08-02"
+}
+]
+},
+{
+"title": "2024-01-18 - Nils Hoffmann - The Anjunadeep Edition 483",
+"records": [
+{
+"minute": 0,
+"artist": "Nils Hoffmann",
+"title": "Closer",
+"label": "Anjunadeep",
+"bp": "bp:18224303",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c9b4cdc-f09d-455f-b47d-934e42e720cd.LOFI.mp3",
+"name": "Closer",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-10-24"
+},
+{
+"minute": 4,
+"artist": "Nils Hoffmann Feat. Dustin Tebbutt",
+"title": "Next Life",
+"label": "Anjunadeep"
+},
+{
+"minute": 10,
+"artist": "Nils Hoffmann Feat. Kite String Tangle",
+"title": "Holding Me Back",
+"label": "Anjunadeep"
+},
+{
+"minute": 15,
+"artist": "Nils Hoffmann Feat. Rae Morris",
+"title": "Lonely (Live Edit)",
+"label": "Anjunadeep"
+},
+{
+"minute": 20,
+"artist": "Nils Hoffmann",
+"title": "Immunity",
+"label": "Anjunadeep",
+"bp": "bp:16699710",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af08876a-447c-43c0-9eec-9b05b1ead7a5.LOFI.mp3",
+"name": "Immunity",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 24,
+"artist": "Nils Hoffmann",
+"title": "Higher Power",
+"label": "Anjunadeep",
+"bp": "bp:18583623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
+"name": "Higher Power",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": 29,
+"artist": "Nils Hoffmann & Natascha Polk\u00e9",
+"title": "Cranes",
+"label": "Anjunadeep",
+"bp": "bp:16570971",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0f1e3a7-9951-4690-8ac7-e3c6507e2f69.LOFI.mp3",
+"name": "Cranes",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-06-13"
+},
+{
+"minute": 33,
+"artist": "Emmit Fenn",
+"title": "Amman (Nils Hoffmann Remix)",
+"label": "Cercle"
+},
+{
+"minute": 39,
+"artist": "Nils Hoffmann",
+"title": "Collide",
+"label": "Anjunadeep",
+"bp": "bp:18583619",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b25f697d-9a58-4d42-86b9-dc7a4012dad9.LOFI.mp3",
+"name": "Collide",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": 43,
+"artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
+"title": "Running In A Dream",
+"label": "Anjunadeep"
+},
+{
+"minute": 48,
+"artist": "Eli & Fur",
+"title": "Otherside (Nils Hoffmann Remix)",
+"label": "Spinnin' Deep",
+"bp": "bp:14775150",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd055c15-a8be-46dd-a912-067790bc7dda.LOFI.mp3",
+"name": "Otherside",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2021-02-01"
+},
+{
+"minute": 53,
+"artist": "Nils Hoffmann",
+"title": "Afterglow (Live Edit)",
+"label": "Anjunadeep"
+},
+{
+"minute": 56,
+"artist": "Nils Hoffmann Feat. Will Hyde",
+"title": "Say Goodbye",
+"label": "Anjunadeep"
+}
+]
+},
+{
+"title": "2024-02-09 - Above & Beyond, Nils Hoffmann - Group Therapy Radio (ABGT 565)",
+"records": [
+{
+"minute": null,
+"artist": "Ferry Corsten X Marsh",
+"title": "Fulfillment (Extended Mix)",
+"label": "Flashover",
+"bp": "bp:18554437",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/2389a120-c910-4bd7-972d-61f1125cadba.LOFI.mp3",
+"name": "Fulfillment",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-02-02"
+},
+{
+"minute": null,
+"artist": "GVN",
+"title": "Thinking About You",
+"label": "Anjunabeats",
+"bp": "bp:18683577",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/694acb61-b537-4247-813e-9174aeee9983.LOFI.mp3",
+"name": "Thinking About You",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2024-02-14"
+},
+{
+"minute": null,
+"artist": "Pete K",
+"title": "For Love",
+"label": "Stress",
+"bp": "bp:18554497",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/42f1c749-8deb-4639-8b80-ea2eb3a9900a.LOFI.mp3",
+"name": "For Love",
+"mix": "Extended Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2024-02-09"
+},
+{
+"minute": null,
+"artist": "Darren Tate & Solarstone Feat. Julie Scott",
+"title": "A Long Way From Home (Timeless Mix)",
+"label": "Anjunabeats"
+},
+{
+"minute": null,
+"artist": "Durante Feat. Hana",
+"title": "Hot Night (Extended Mix)",
+"label": "Anjunadeep"
+},
+{
+"minute": null,
+"artist": "Anuqram",
+"title": "Hold Up (Extended Mix)",
+"label": "Anjunabeats",
+"bp": "bp:18581268",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1e8594c1-37d2-4265-88f7-a68b914d7499.LOFI.mp3",
+"name": "Hold Up",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2024-01-26"
+},
+{
+"minute": null,
+"artist": "Scorz & Silvio Soul",
+"title": "This Feeling",
+"label": "Armada",
+"bp": "bp:18557416",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bc1e8f69-9a1d-4adf-a1b3-9aba4b9be5dd.LOFI.mp3",
+"name": "This Feeling",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2024-02-02"
+},
+{
+"minute": null,
+"artist": "Kiholm",
+"title": "Bittersweet",
+"label": "Fluentia",
+"bp": "bp:18428245",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b0e22898-81d2-42da-be30-f7440f33aaa3.LOFI.mp3",
+"name": "Bittersweet",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-02-23"
+},
+{
+"minute": null,
+"artist": "Nitrous Oxide & Seb Hennig",
+"title": "Constellation",
+"label": "Argento",
+"bp": "bp:18591804",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/51912f43-049d-4a16-a496-7c7e407f11bc.LOFI.mp3",
+"name": "Constellation",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-02-09"
+},
+{
+"minute": null,
+"artist": "Avenue One",
+"title": "Rio (Extended Mix)",
+"label": "Colorize",
+"bp": "bp:18532697",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4226b026-7acb-471b-808e-b2d1ceb65313.LOFI.mp3",
+"name": "Rio",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2024-02-09"
+},
+{
+"minute": null,
+"artist": "Yotto vs Anden",
+"title": "Will You Remember Me?",
+"label": "Odd One Out",
+"bp": "bp:18490805",
+"score": 0.617,
+"preview": "https://geo-samples.beatport.com/track/dd68a490-e101-4ca2-b080-fb537d9d7e36.LOFI.mp3",
+"name": "Will You Remember Me?",
+"mix": "(YOTTO vs. Anden) Extended Mix",
+"genre": "progressive-house",
+"released": "2024-01-25"
+},
+{
+"minute": null,
+"artist": "Mees Salome",
+"title": "Beyond Us (Extended Mix)",
+"label": "This Never Happened",
+"bp": "bp:18541695",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f51951cb-6150-46d9-b23e-70cbce0a5777.LOFI.mp3",
+"name": "Beyond Us",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2024-01-30"
+},
+{
+"minute": null,
+"artist": "Kill The Noise, Feed Me & Tasha Baxter",
+"title": "Mirage (Mat Zo Remix)",
+"label": "Ophelia",
+"bp": "bp:18555974",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6b48efa9-7d8b-41b0-b56b-ce24a3508b2b.LOFI.mp3",
+"name": "Mirage",
+"mix": "Mat Zo Remix",
+"genre": "dance-pop",
+"released": "2024-02-02"
+},
+{
+"minute": null,
+"artist": "Above & Beyond Feat. Zo\u00eb Johnston",
+"title": "Crazy Love",
+"label": "Anjunabeats"
+},
+{
+"minute": null,
+"artist": "Grum",
+"title": "Come With Me",
+"label": "Being",
+"bp": "bp:18757251",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c390a4e6-93e2-475d-8174-c28a9d59df24.LOFI.mp3",
+"name": "Come With Me",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2024-03-14"
+},
+{
+"minute": null,
+"artist": "Jon Gurd & Reset Robot",
+"title": "Takerimba",
+"label": "Anjunadeep",
+"bp": "bp:18555990",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8b97d079-517a-45e0-b2c3-4b248dfb0af3.LOFI.mp3",
+"name": "Takerimba",
+"mix": "Extended Mix",
+"genre": "electronica",
+"released": "2024-02-02"
+},
+{
+"minute": null,
+"artist": "Sunny Lax",
+"title": "Waves (Extended Mix)",
+"label": "Enhanced Progressive",
+"bp": "bp:18514644",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d0c32f8f-d134-4012-8ea0-b045dc106e32.LOFI.mp3",
+"name": "Waves",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-02-02"
+},
+{
+"minute": null,
+"artist": "Boom Jinx, Andy Moor & Noise Zoo Feat. Ashley Tomberlin",
+"title": "Pinpricks Of Life",
+"label": "Enhanced Progressive",
+"bp": "bp:18532692",
+"score": 0.956,
+"preview": "https://geo-samples.beatport.com/track/2f0b1dce-d334-428f-aa38-525b113db593.LOFI.mp3",
+"name": "Pinpricks of Life",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-02-09"
+},
+{
+"minute": null,
+"artist": "Above & Beyond Feat. Alex Vargas",
+"title": "Sink The Lighthouse (Maor Levi Remix)",
+"label": "Anjunabeats"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
+"title": "Running In A Dream (Extended Mix)",
+"label": "Anjunadeep"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Higher Power",
+"label": "Anjunadeep",
+"bp": "bp:18583623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
+"name": "Higher Power",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Dustin Tebbutt",
+"title": "Next Life",
+"label": "Anjunadeep"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. The Kite String Tangle",
+"title": "Holding Me Back",
+"label": "Anjunadeep"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann Feat. Rae Morris",
+"title": "Lonely",
+"label": "Anjunadeep"
+},
+{
+"minute": null,
+"artist": "Nils Hoffmann",
+"title": "Closer",
+"label": "Anjunadeep",
+"bp": "bp:18224303",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c9b4cdc-f09d-455f-b47d-934e42e720cd.LOFI.mp3",
+"name": "Closer",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-10-24"
+}
+]
+},
+{
+"title": "2024-03-14 - Armin van Buuren, Nils Hoffmann - A State Of Trance 1164",
+"records": [
+{
+"minute": 0,
+"artist": "Tune Of The Week: MaRLo Feat. Mila Josef",
+"title": "You Are Not Alone",
+"label": "Armind"
+},
+{
+"minute": 5,
+"artist": "7 Skies",
+"title": "Used To Know",
+"label": "Standalone",
+"bp": "bp:19882606",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e597dc4b-c851-4b0a-9b87-b1018914df8a.LOFI.mp3",
+"name": "Used To Know",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-03-22"
+},
+{
+"minute": 8,
+"artist": "Rowland Giles",
+"title": "Come Thru (Eugenio Tokarev Remix)",
+"label": "Nomads",
+"bp": "bp:18722398",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/387af89e-f6c7-47ce-86fb-49c9a95e7c67.LOFI.mp3",
+"name": "Come Thru",
+"mix": "Eugenio Tokarev Extended Remix",
+"genre": "trance-main-floor",
+"released": "2024-03-15"
+},
+{
+"minute": 12,
+"artist": "Future Favorite: Ruben De Ronde & Farius & David Frank",
+"title": "Radiant (Datskie Remix)",
+"label": "Enhanced Progressive",
+"bp": "bp:18614634",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/afa8d650-5562-43e4-a1bd-31b476827f55.LOFI.mp3",
+"name": "Radiant",
+"mix": "Datskie Extended Remix",
+"genre": "progressive-house",
+"released": "2024-02-21"
+},
+{
+"minute": 14,
+"artist": "Progressive Pick: Ferry Corsten Feat. Chris Howard",
+"title": "Where The Mountains Grow",
+"label": "Flashover"
+},
+{
+"minute": 17,
+"artist": "Maor Levi",
+"title": "I Know",
+"label": "Ophelia",
+"bp": "bp:18634158",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9b0c9eb5-9f37-4c6a-a70d-4c2d734f017c.LOFI.mp3",
+"name": "I Know",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-02-28"
+},
+{
+"minute": 22,
+"artist": "DT8 Project Feat. Roxanne Wilde",
+"title": "Destination (Super8 & Tab Remix)",
+"label": "A State Of Trance"
+},
+{
+"minute": 26,
+"artist": "LSR/CITY",
+"title": "Killshot",
+"label": "We'll Be Ok",
+"bp": "bp:18742795",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/caecf554-3280-42d3-869e-d3599a4c0007.LOFI.mp3",
+"name": "KILLSHOT",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-03-08"
+},
+{
+"minute": 29,
+"artist": "Mall Grab & Effy",
+"title": "Iluv",
+"label": "Fragrance",
+"bp": "bp:18615671",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6252d061-af36-4a05-a7be-965b0af01f0b.LOFI.mp3",
+"name": "iluv",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2024-02-14"
+},
+{
+"minute": 31,
+"artist": "L\u00dcRUM",
+"title": "Pendulum",
+"label": "A State Of Trance",
+"bp": "bp:18750411",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c5e77e73-357b-4284-8054-4623eb12167d.LOFI.mp3",
+"name": "Pendulum",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-03-15"
+},
+{
+"minute": 35,
+"artist": "Casepeat & Plutian",
+"title": "Theory Of Everything",
+"label": "Infrasonic Pure",
+"bp": "bp:18667562",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/498c437e-d67c-48c4-94e5-9dca24891ae1.LOFI.mp3",
+"name": "Theory of Everything",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-03-15"
+},
+{
+"minute": 38,
+"artist": "Craig Connelly",
+"title": "Perseverance",
+"label": "FSOE",
+"bp": "bp:18723755",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a43c0d91-7708-4202-ab93-c1d2f51a520a.LOFI.mp3",
+"name": "Perseverance",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-03-29"
+},
+{
+"minute": 43,
+"artist": "Ben Nicky & Hannah Laing & Paul Findlay X Signum Feat. Scott Mac",
+"title": "Coming On Strong (Trance Mix)",
+"label": "Armada"
+},
+{
+"minute": 46,
+"artist": "Sneijder",
+"title": "In And Out Of My Life (Will Rees Remix)",
+"label": "Afterdark",
+"bp": "bp:18542331",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/df47c11c-f5a1-45b6-964b-93c370080dd5.LOFI.mp3",
+"name": "In and Out of My Life",
+"mix": "Will Rees Extended Remix",
+"genre": "trance-main-floor",
+"released": "2024-02-23"
+},
+{
+"minute": 49,
+"artist": "ELV",
+"title": "I Wanna Dance",
+"label": "Edge One",
+"bp": "bp:18732908",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5665b68f-0dd0-4b1f-b9ec-5660e5a24d70.LOFI.mp3",
+"name": "I Wanna Dance",
+"mix": "Extended Mix",
+"genre": "trance-main-floor",
+"released": "2024-03-15"
+},
+{
+"minute": 52,
+"artist": "BK & Steve Hill",
+"title": "Power Of Bass",
+"label": "Armada",
+"bp": "bp:18759110",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/609772fd-b7ab-40db-adec-4355a2741789.LOFI.mp3",
+"name": "Power Of Bass",
+"mix": "Extended Mix",
+"genre": "hard-dance-hardcore-neo-rave",
+"released": "2024-03-15"
+},
+{
+"minute": 56,
+"artist": "Service For Dreamers: Armin van Buuren & Avian Grays Feat. Jordan Shaw",
+"title": "Something Real (Giuseppe Ottaviani Remix)",
+"label": "Armind"
+},
+{
+"minute": 63,
+"artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
+"title": "Running In A Dream",
+"label": "Anjunadeep"
+},
+{
+"minute": 69,
+"artist": "Nils Hoffmann",
+"title": "Collide",
+"label": "Anjunadeep",
+"bp": "bp:18583619",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b25f697d-9a58-4d42-86b9-dc7a4012dad9.LOFI.mp3",
+"name": "Collide",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": 73,
+"artist": "Nils Hoffmann",
+"title": "Higher Power",
+"label": "Anjunadeep",
+"bp": "bp:18583623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
+"name": "Higher Power",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": 78,
+"artist": "AUTOFLOWER",
+"title": "Wallflower",
+"label": "Raving Society",
+"bp": "bp:18439521",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7eebc25-8656-4a46-a7da-d009bd6d6eba.LOFI.mp3",
+"name": "Wallflower",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-01-05"
+},
+{
+"minute": 81,
+"artist": "Azzecca",
+"title": "Mantra (Super Flu Remix)",
+"label": "Realm",
+"bp": "bp:18028497",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cdc11a52-10e6-41b7-bdf9-f1a861df8480.LOFI.mp3",
+"name": "Mantra",
+"mix": "Super Flu Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2023-08-18"
+},
+{
+"minute": 86,
+"artist": "CamelPhat",
+"title": "Running Man",
+"label": "Mahool",
+"bp": "bp:18453665",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f48d1321-fbf2-4915-aef9-c17478c51958.LOFI.mp3",
+"name": "Running Man",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2024-01-11"
+},
+{
+"minute": 91,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 97,
+"artist": "YOTTO",
+"title": "Just Over (Franky Wah Remix)",
+"label": "Odd One Out",
+"bp": "bp:18384976",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4873e2e7-ce32-45a8-b8e2-278988886111.LOFI.mp3",
+"name": "Just Over",
+"mix": "Franky Wah Extended Remix",
+"genre": "electronica",
+"released": "2024-01-04"
+},
+{
+"minute": 101,
+"artist": "Above & Beyond Pres. Oceanlab",
+"title": "Sirens Of The Sea (Marsh Remix)",
+"label": "Anjunabeats"
+},
+{
+"minute": 109,
+"artist": "Joris Voorn Feat. Nathan Nicholson",
+"title": "You & I",
+"label": "Spectrum",
+"bp": "bp:18168378",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/f61b90ba-141c-4af1-adb1-8d5b147d1920.LOFI.mp3",
+"name": "You & I",
+"mix": "Original Mix",
+"genre": "progressive-house",
+"released": "2023-10-13"
+},
+{
+"minute": 114,
+"artist": "Nils Hoffmann Feat. Dustin Tebbutt",
+"title": "Next Life",
+"label": "Anjunadeep"
+},
+{
+"minute": 119,
+"artist": "Nils Hoffmann Feat. Rae Morris",
+"title": "Lonely",
+"label": "Anjunadeep"
+}
+]
+},
+{
+"title": "2024-03-18 - Florian Schumacher, Nils Hoffmann - ClubDing",
+"records": [
+{
+"minute": null,
+"artist": "LATIN MAFIA & Humbe",
+"title": "Patadas De Ahogado (HUGEL Extended Rework)",
+"label": "Columbia"
+},
+{
+"minute": null,
+"artist": "Christian L\u00f6ffler Feat. Mogli",
+"title": "Portals (Extended Club Version)",
+"label": "Ki",
+"bp": "bp:18753676",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/f8874861-9d9b-48a1-90b1-333c579ead2a.LOFI.mp3",
+"name": "Portals",
+"mix": "Extended Club Version",
+"genre": "dance-pop",
+"released": "2024-03-01"
+},
+{
+"minute": null,
+"artist": "Thomas Beyer",
+"title": "Mission Of Light",
+"label": "Bunte Tr\u00e4umerei - BNTT010",
+"bp": "bp:18764094",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc5c5f86-6543-4610-8b6c-b7723d3df4e7.LOFI.mp3",
+"name": "Mission of Light",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-03-15"
+},
+{
+"minute": null,
+"artist": "Booka Shade",
+"title": "The Player (Extended Mix)",
+"label": "Blaufield",
+"bp": "bp:26799275",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b8c687c1-8049-46e9-9b47-5404b7cf9d86.LOFI.mp3",
+"name": "The Player",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2024-06-07"
+},
+{
+"minute": null,
+"artist": "Keinemusik & Alan Dixon Feat. Arabic Piano",
+"title": "Thandaza",
+"label": "Keinemusik",
+"bp": "bp:18778205",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/5e16341a-ea8f-4ea8-9587-3909e244bb51.LOFI.mp3",
+"name": "Thandaza (feat. Alan Dixon, Arabic Piano)",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-03-15"
+},
+{
+"minute": null,
+"artist": "Sharam Jey & Jonathan Touch & Max Gazer",
+"title": "Grabbing Hands",
+"label": "Pimp My Booty",
+"bp": "bp:18401764",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/284d28a1-517b-47fc-8dad-917a67328d73.LOFI.mp3",
+"name": "Grabbing Hands",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-12-15"
+},
+{
+"minute": null,
+"artist": "Sascha Braemer & UNDERHER",
+"title": "Hear Out",
+"label": "Ritter Butzke",
+"bp": "bp:18702829",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b3bc959-43e0-40fa-9ed2-a1f5640ce45d.LOFI.mp3",
+"name": "Hear Out",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-03-15"
+},
+{
+"minute": null,
+"artist": "Peredel",
+"title": "WMB",
+"label": "Diynamic",
+"bp": "bp:18750977",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f8a416a-3521-4ebf-bb20-595568436420.LOFI.mp3",
+"name": "WMB",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-03-15"
+},
+{
+"minute": null,
+"artist": "WAHM",
+"title": "Una Canci\u00f3n",
+"label": "Diynamic - 195",
+"bp": "bp:18729228",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c731e6f8-8548-4e08-addf-a147a6d6aaaf.LOFI.mp3",
+"name": "Una Canci\u00f3n",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2024-03-08"
+},
+{
+"minute": null,
+"artist": "Aio",
+"title": "Dilemma",
+"label": "Senso Sounds",
+"bp": "bp:18652967",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36cba0d7-aff7-482e-bb18-48d613622d27.LOFI.mp3",
+"name": "Dilemma",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-03-15"
+},
+{
+"minute": 60,
+"artist": "Nils Hoffmann",
+"title": "Closer",
+"label": "Anjunadeep",
+"bp": "bp:18224303",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c9b4cdc-f09d-455f-b47d-934e42e720cd.LOFI.mp3",
+"name": "Closer",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-10-24"
+},
+{
+"minute": 65,
+"artist": "Nils Hoffmann Feat. Dustin Tebbutt",
+"title": "Next Life",
+"label": "Anjunadeep"
+},
+{
+"minute": 70,
+"artist": "Nils Hoffmann Feat. Kite String Tangle",
+"title": "Holding Me Back",
+"label": "Anjunadeep"
+},
+{
+"minute": 76,
+"artist": "Nils Hoffmann Feat. Rae Morris",
+"title": "Lonely (Live Edit)",
+"label": "Anjunadeep"
+},
+{
+"minute": 81,
+"artist": "Nils Hoffmann",
+"title": "Immunity",
+"label": "Anjunadeep",
+"bp": "bp:16699710",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af08876a-447c-43c0-9eec-9b05b1ead7a5.LOFI.mp3",
+"name": "Immunity",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": 85,
+"artist": "Nils Hoffmann",
+"title": "Higher Power",
+"label": "Anjunadeep",
+"bp": "bp:18583623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
+"name": "Higher Power",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": 90,
+"artist": "Nils Hoffmann & Natascha Polk\u00e9",
+"title": "Cranes",
+"label": "Anjunadeep",
+"bp": "bp:16570971",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0f1e3a7-9951-4690-8ac7-e3c6507e2f69.LOFI.mp3",
+"name": "Cranes",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-06-13"
+},
+{
+"minute": 94,
+"artist": "Emmit Fenn",
+"title": "Amman (Nils Hoffmann Remix)",
+"label": "Cercle"
+},
+{
+"minute": 99,
+"artist": "Nils Hoffmann",
+"title": "Collide",
+"label": "Anjunadeep",
+"bp": "bp:18583619",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b25f697d-9a58-4d42-86b9-dc7a4012dad9.LOFI.mp3",
+"name": "Collide",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": 103,
+"artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
+"title": "Running In A Dream",
+"label": "Anjunadeep"
+},
+{
+"minute": 109,
+"artist": "Eli & Fur",
+"title": "Otherside (Nils Hoffmann Remix)",
+"label": "Spinnin' Deep",
+"bp": "bp:14775150",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd055c15-a8be-46dd-a912-067790bc7dda.LOFI.mp3",
+"name": "Otherside",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2021-02-01"
+},
+{
+"minute": 113,
+"artist": "Nils Hoffmann",
+"title": "Afterglow (Live Edit)",
+"label": "Anjunadeep"
+},
+{
+"minute": 117,
+"artist": "Nils Hoffmann Feat. Will Hyde",
+"title": "Say Goodbye",
+"label": "Anjunadeep"
+}
+]
+},
+{
+"title": "2024-08-24 - Nils Hoffmann (Live PA) @ Anjunadeep Open Air, Gas Works Park, Seattle",
+"records": []
+},
+{
+"title": "2024-10-20 - Nils Hoffmann (Live PA) @ Anjunadeep Open Air, Hip\u00f3dromo De Las Am\u00e9ricas, Mexico City",
+"records": [
+{
+"minute": 0,
+"artist": "Nils Hoffmann & Kasbo Feat. Vancouver Sleep Clinic",
+"title": "Running In A Dream",
+"label": ""
+},
+{
+"minute": 6,
+"artist": "Nils Hoffmann Feat. Julia Church",
+"title": "9 Days",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Nils Hoffmann",
+"title": "Once In A Blue Moon",
+"label": "",
+"bp": "bp:12443890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e4ace00-557c-410a-9c75-4be8d757d3bd.LOFI.mp3",
+"name": "Once in a Blue Moon",
+"mix": "Extended Mix",
+"genre": "progressive-house",
+"released": "2019-09-06"
+},
+{
+"minute": 12,
+"artist": "Nils Hoffmann",
+"title": "Collide",
+"label": "",
+"bp": "bp:18583619",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b25f697d-9a58-4d42-86b9-dc7a4012dad9.LOFI.mp3",
+"name": "Collide",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": 17,
+"artist": "TWO LANES",
+"title": "Never Enough (Nils Hoffmann Remix)",
+"label": "",
+"bp": "bp:23072271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ca6ea8c-294e-4bc8-877f-a06df11eaa99.LOFI.mp3",
+"name": "Never Enough",
+"mix": "Nils Hoffmann Remix",
+"genre": "electronica",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "+ Nils Hoffmann",
+"title": "Higher Power",
+"label": "",
+"bp": "bp:18583623",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9acd4029-df64-4d8d-a8c9-33bbcc9e50cb.LOFI.mp3",
+"name": "Higher Power",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-02-09"
+},
+{
+"minute": 21,
+"artist": "Emmit Fenn",
+"title": "Amman (Nils Hoffmann Remix)",
+"label": ""
+},
+{
+"minute": 25,
+"artist": "Yotto Feat. Julia Church",
+"title": "No Ending (Nils Hoffmann Remix)",
+"label": "",
+"bp": "bp:18087783",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/d4959c00-fc5a-413c-bf8b-c429447ddaf8.LOFI.mp3",
+"name": "No Ending",
+"mix": "Nils Hoffmann Extended Remix",
+"genre": "melodic-house-techno",
+"released": "2023-10-05"
+},
+{
+"minute": null,
+"artist": "+ Nils Hoffmann",
+"title": "Reflections",
+"label": "",
+"bp": "bp:16699708",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b8dcd1f3-ae3e-4e88-9213-fd09582c06c9.LOFI.mp3",
+"name": "Reflections",
+"mix": "Extended Mix",
+"genre": "electronica",
+"released": "2022-09-02"
+},
+{
+"minute": 30,
+"artist": "Nils Hoffmann",
+"title": "Tiderays",
+"label": "",
+"bp": "bp:16699701",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49a26c59-3e92-4fd8-a46a-ca5483815c18.LOFI.mp3",
+"name": "Tiderays",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-09-02"
+},
+{
+"minute": null,
+"artist": "+ Tameimpala",
+"title": "Borderline",
+"label": ""
+},
+{
+"minute": 34,
+"artist": "Nils Hoffmann Feat. Rae Morris",
+"title": "Lonely",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Nils Hoffmann",
+"title": "Closer",
+"label": "",
+"bp": "bp:18224303",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c9b4cdc-f09d-455f-b47d-934e42e720cd.LOFI.mp3",
+"name": "Closer",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-10-24"
+},
+{
+"minute": 42,
+"artist": "Ben B\u00f6hmer & Nils Hoffmann Feat. Malou",
+"title": "Breathing",
+"label": "",
+"bp": "bp:12537039",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/9b8cdb09-ebff-4d38-869e-5d0b04aad7f0.LOFI.mp3",
+"name": "Breathing",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2019-09-17"
+},
+{
+"minute": 46,
+"artist": "Nils Hoffmann Feat. Dustin Tebbutt",
+"title": "Next Life",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "Nils Hoffmann Feat. The Kite String Tangle",
+"title": "Holding Me Back",
+"label": ""
+},
+{
+"minute": 53,
+"id": null,
+"raw": "&#160;?"
+}
+]
+}
+]
 }

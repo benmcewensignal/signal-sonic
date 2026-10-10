@@ -9,13 +9,27 @@
 "minute": 2,
 "artist": "Iajov",
 "title": "Kalpa",
-"label": "Annulled"
+"label": "Annulled",
+"bp": "bp:13230817",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/706a9f63-bf02-4106-90bf-50f41fc6ba92.LOFI.mp3",
+"name": "Kalpa",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-03-03"
 },
 {
 "minute": 6,
 "artist": "Dino Sabatini & Maurizio Cascella",
 "title": "Euphemus",
-"label": ""
+"label": "",
+"bp": "bp:20567512",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7674a69e-c8d0-4aab-afb6-a98047ac150e.LOFI.mp3",
+"name": "Euphemus",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-06-27"
 },
 {
 "minute": 10,
@@ -28,7 +42,7 @@
 "title": "Faded Foil",
 "label": "Semantica",
 "bp": "bp:21337798",
-"score": 0.764,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/26c7ce3e-a985-410d-8180-15be6b4a95dc.LOFI.mp3",
 "name": "Faded Foil",
 "mix": "Original Mix",
@@ -39,7 +53,14 @@
 "minute": 17,
 "artist": "Orbe",
 "title": "Ascender",
-"label": "Token"
+"label": "Token",
+"bp": "bp:20799589",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/66b8b310-9b64-406b-93ad-adf947c78648.LOFI.mp3",
+"name": "Ascender",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-09-12"
 },
 {
 "minute": 20,
@@ -47,7 +68,7 @@
 "title": "Back To Strangers",
 "label": "Semantica",
 "bp": "bp:21337799",
-"score": 0.834,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/557979bb-032a-45d5-96bf-479d7d521198.LOFI.mp3",
 "name": "Back to Strangers",
 "mix": "Original Mix",
@@ -58,7 +79,14 @@
 "minute": 23,
 "artist": "Orbe",
 "title": "W9Y",
-"label": "Token"
+"label": "Token",
+"bp": "bp:20799588",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f8fe455e-7098-4419-8e9b-a60db03779f2.LOFI.mp3",
+"name": "W9Y",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-09-12"
 },
 {
 "minute": 26,
@@ -66,7 +94,7 @@
 "title": "Stockholm Syndrome",
 "label": "Moving Pressure",
 "bp": "bp:20439551",
-"score": 0.841,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/326f3f84-2791-4e22-894c-5473436ce7f9.LOFI.mp3",
 "name": "Stockholm Syndrome",
 "mix": "Original Mix",
@@ -82,7 +110,14 @@
 "minute": 34,
 "artist": "Obscur",
 "title": "Blasphemy",
-"label": "Moving Pressure"
+"label": "Moving Pressure",
+"bp": "bp:20439552",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/273b77f5-7923-450c-a699-d623f5eb4088.LOFI.mp3",
+"name": "Blasphemy",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-06-06"
 },
 {
 "minute": 37,
@@ -90,7 +125,7 @@
 "title": "Fight For Status",
 "label": "",
 "bp": "bp:20322411",
-"score": 0.827,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/a16f1f56-2c25-4e24-82e6-be9b89468f51.LOFI.mp3",
 "name": "Fight for Status",
 "mix": "Original Mix",
@@ -103,7 +138,7 @@
 "title": "Soul Eater",
 "label": "Moving Pressure",
 "bp": "bp:20439550",
-"score": 0.764,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/9ab0ac5f-cc48-4aa5-bb68-673d80bc36f8.LOFI.mp3",
 "name": "Soul Eater",
 "mix": "Original Mix",
@@ -116,7 +151,7 @@
 "title": "Agains The Yoke",
 "label": "",
 "bp": "bp:20322413",
-"score": 0.819,
+"score": 1.0,
 "preview": "https://geo-samples.beatport.com/track/bb1ed52a-3bc0-4790-916d-f05e8ea462d5.LOFI.mp3",
 "name": "Agains the Yoke",
 "mix": "Original Mix",
@@ -156,7 +191,14 @@
 "minute": 58,
 "artist": "Pyramidal Decode",
 "title": "Magma",
-"label": "Loopaina"
+"label": "Loopaina",
+"bp": "bp:21991790",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/19945d19-302e-479c-b393-0046b1e99e2f.LOFI.mp3",
+"name": "Magma",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-12-19"
 }
 ]
 }
