@@ -1,1965 +1,3937 @@
 {
- "dj": "Seamus Haji",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2024-01-31 - Melvo Baptiste & Seamus Haji - Glitterbox Radio Show 355",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "The Shapeshifters Feat. Liisila",
-     "title": "Beautiful Day",
-     "label": "Glitterbox"
-    },
-    {
-     "minute": 5,
-     "artist": "Melvo Baptiste Feat. Annette Bowen",
-     "title": "Pray Today",
-     "label": "Glitterbox"
-    },
-    {
-     "minute": 10,
-     "artist": "Lovebirds",
-     "title": "Burn It Down (Dub Mix)",
-     "label": "Glitterbox"
-    },
-    {
-     "minute": 14,
-     "artist": "Ben Westbeech Feat. Rahh",
-     "title": "Times Are Changin'",
-     "label": "Glitterbox",
-     "bp": "bp:20044064",
-     "score": 0.725,
-     "preview": "https://geo-samples.beatport.com/track/d220cee7-8ea0-41e6-92ca-e5c70cb22848.LOFI.mp3",
-     "name": "Times Are Changing",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2025-02-14"
-    },
-    {
-     "minute": 18,
-     "artist": "JKriv Feat. Fi McClusky",
-     "title": "Waiting 4 2nite",
-     "label": "Glitterbox"
-    },
-    {
-     "minute": 24,
-     "artist": "Lovebirds Feat. NILE",
-     "title": "Shut The Lights Out",
-     "label": "Glitterbox",
-     "bp": "bp:18888011",
-     "score": 0.64,
-     "preview": "https://geo-samples.beatport.com/track/a3697ae1-daea-4a4d-adba-429e940c0f96.LOFI.mp3",
-     "name": "Shut The Lights Out feat. NILE",
-     "mix": "Extended Mix",
-     "genre": "nu-disco-disco",
-     "released": "2024-04-19"
-    },
-    {
-     "minute": 30,
-     "artist": "Dames Brown",
-     "title": "You're The One For Me",
-     "label": "Defected",
-     "bp": "bp:22344556",
-     "score": 0.858,
-     "preview": "https://geo-samples.beatport.com/track/75501cdd-f42a-44a5-8711-61105b8be821.LOFI.mp3",
-     "name": "You're The One For Me",
-     "mix": "Extended Mix",
-     "genre": "nu-disco-disco",
-     "released": "2025-11-05"
-    },
-    {
-     "minute": 36,
-     "artist": "Alan Dixon",
-     "title": "Nothing But Happiness",
-     "label": "Glitterbox",
-     "bp": "bp:19353844",
-     "score": 0.858,
-     "preview": "https://geo-samples.beatport.com/track/6d425e3b-28e5-4224-8a15-27336ee99c68.LOFI.mp3",
-     "name": "Nothing But Happiness",
-     "mix": "Extended Mix",
-     "genre": "house",
-     "released": "2024-08-16"
-    },
-    {
-     "minute": 39,
-     "artist": "Riva Starr",
-     "title": "Love You Till' Tomorrow",
-     "label": "Glitterbox",
-     "bp": "bp:18938986",
-     "score": 0.863,
-     "preview": "https://geo-samples.beatport.com/track/44f37a64-fbbf-497b-86be-13ad6edaf239.LOFI.mp3",
-     "name": "Love You Till Tomorrow",
-     "mix": "Extended Mix",
-     "genre": "house",
-     "released": "2024-05-03"
-    },
-    {
-     "minute": 42,
-     "artist": "Seamus Haji Feat. Mike Dunn",
-     "title": "Serious",
-     "label": "Big Love",
-     "bp": "bp:19844206",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 47,
-     "artist": "Shakedown & Booty Collins",
-     "title": "Funky & You Know It (Myd Remix)",
-     "label": "Glitterbox"
-    },
-    {
-     "minute": 51,
-     "id": null,
-     "raw": "Deepstar feat. Donna Allen – Sugar (Richard Earnshaw Remix)"
-    },
-    {
-     "minute": 56,
-     "artist": "Danou P Feat. Jamie 326",
-     "title": "Fly",
-     "label": "Big Love"
-    },
-    {
-     "minute": 61,
-     "artist": "Kelly G. X Candi Staton",
-     "title": "Power Of One (Kelly G. Shelter Dub)",
-     "label": "Glitterbox"
-    }
-   ]
-  },
-  {
-   "title": "2024-03-18 - Seamus Haji, Lovebirds - Big Love Radio Show March 2024",
-   "records": []
-  },
-  {
-   "title": "2024-04-09 - Seamus Haji, DJ Fudge - Big Love Radio Show April 2024",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Melba Moore",
-     "title": "My Heart Belongs To You (Groove Assassin 90's Groove Mix)",
-     "label": "Soulfuric",
-     "bp": "bp:18855637",
-     "score": 0.906,
-     "preview": "https://geo-samples.beatport.com/track/30e003b8-01a4-4d1c-bdc4-bf2d3fe231fa.LOFI.mp3",
-     "name": "My Heart Belongs To You",
-     "mix": "Groove Assassin Extended Remix",
-     "genre": "house",
-     "released": "2024-04-12"
-    },
-    {
-     "minute": null,
-     "artist": "Michael Gray Feat. Kimberly Brown & The Sultra Gospel Singers",
-     "title": "Fly Away (Extended Mix)",
-     "label": "Sultra"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Fudge",
-     "title": "Escapade",
-     "label": "Big Love",
-     "bp": "bp:18856386",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Shakedown & Bootsy Collins",
-     "title": "Funky & You Know It (Myd Remix)",
-     "label": "Glitterbox"
-    },
-    {
-     "minute": null,
-     "artist": "Seamus Haji Feat. Mike Dunn",
-     "title": "Serious",
-     "label": "Big Love",
-     "bp": "bp:19844206",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Yvonne Gage",
-     "title": "Garden Of Eve (Maurice Joshua Main Mix)",
-     "label": "Maurice Joshua Digital",
-     "bp": "bp:18546323",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/fb66668a-7be5-41d3-b016-ff6fe9fac09b.LOFI.mp3",
-     "name": "Garden Of Eve",
-     "mix": "Maurice Joshua Main Mix",
-     "genre": "house",
-     "released": "2024-02-02"
-    },
-    {
-     "minute": null,
-     "artist": "E. Live",
-     "title": "Hidden Oasis",
-     "label": "Star Creature",
-     "bp": "bp:19077245",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/aaab8391-280b-491f-81f5-673c10ee603b.LOFI.mp3",
-     "name": "Hidden Oasis",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2024-06-07"
-    },
-    {
-     "minute": null,
-     "artist": "Charro Band De Emilio Guerrero",
-     "title": "Movin'",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Black Rascals Feat. Cassio Ware",
-     "title": "So In Love (Atjazz Galaxy Aart Remix)",
-     "label": "Slip'n'Slide",
-     "bp": "bp:18860179",
-     "score": 0.758,
-     "preview": "https://geo-samples.beatport.com/track/da659e86-05a6-4782-8e8c-03c8fc6cacc4.LOFI.mp3",
-     "name": "So In Love feat. Cassio Ware",
-     "mix": "Atjazz Galaxy Aart Extended Remix",
-     "genre": "deep-house",
-     "released": "2024-04-19"
-    },
-    {
-     "minute": null,
-     "artist": "Jamiroquai",
-     "title": "Canned Heat (Album Version)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Jamiroquai",
-     "title": "Canned Heat (FR Rework)",
-     "label": "White"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger Feat. Rimarkable",
-     "title": "Part Of My Soul",
-     "label": "Nu Groove",
-     "bp": "bp:18885557",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Rulers Of The Deep & Ricky Inch Feat. Mr. V",
-     "title": "Let's Work (Extended Version)",
-     "label": "Soulfuric Deep",
-     "bp": "bp:18911850",
-     "score": 0.776,
-     "preview": "https://geo-samples.beatport.com/track/c03a367e-ff36-4129-af3f-b5e71cf53d89.LOFI.mp3",
-     "name": "Let's Work feat. Mr. V",
-     "mix": "Extended Mix",
-     "genre": "deep-house",
-     "released": "2024-04-26"
-    },
-    {
-     "minute": null,
-     "artist": "Mark Broom",
-     "title": "Showtime",
-     "label": "REKIDS"
-    },
-    {
-     "minute": null,
-     "artist": "Wh0 Feat. Anelisa Lamola",
-     "title": "The Power (Extended Mix)",
-     "label": "Sweat It Out!",
-     "bp": "bp:18646453",
-     "score": 0.713,
-     "preview": "https://geo-samples.beatport.com/track/ca6b7d3c-eca3-42c2-9006-06eb2b893664.LOFI.mp3",
-     "name": "The Power feat. Anelisa Lamola",
-     "mix": "Extended Mix",
-     "genre": "house",
-     "released": "2024-02-23"
-    },
-    {
-     "minute": null,
-     "artist": "Geoffrey C",
-     "title": "This Is Hot (CoFlo Edit)",
-     "label": "Unquantize",
-     "bp": "bp:18700325",
-     "score": 0.871,
-     "preview": "https://geo-samples.beatport.com/track/aab27960-cd91-4963-aea5-3e0198d1303f.LOFI.mp3",
-     "name": "This Is Hot (Yes Indeedy)",
-     "mix": "Coflo Edit",
-     "genre": "house",
-     "released": "2024-03-08"
-    },
-    {
-     "minute": null,
-     "artist": "E. Live",
-     "title": "Hidden Oasis",
-     "label": "Star Creature",
-     "bp": "bp:19077245",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/aaab8391-280b-491f-81f5-673c10ee603b.LOFI.mp3",
-     "name": "Hidden Oasis",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2024-06-07"
-    },
-    {
-     "minute": null,
-     "artist": "Sweet Georgie X Ed Ramsey X Peter Mac",
-     "title": "Soul Deep (Emmaculate Extended Remix)",
-     "label": "Category 1 Music",
-     "bp": "bp:18805707",
-     "score": 0.943,
-     "preview": "https://geo-samples.beatport.com/track/3c4d45ea-6b50-4302-b0d6-00db11dd4600.LOFI.mp3",
-     "name": "Soul Deep",
-     "mix": "Emmaculate Extended Remix",
-     "genre": "house",
-     "released": "2024-03-22"
-    },
-    {
-     "minute": null,
-     "artist": "Stacy Kidd",
-     "title": "Nobody (Main Mix)",
-     "label": "House 4 Life"
-    },
-    {
-     "minute": null,
-     "artist": "Simone Green",
-     "title": "Don't Say Nothing (CoFlo Dub)",
-     "label": "Anka Shank Music"
-    },
-    {
-     "minute": null,
-     "artist": "Raffaele Ciavolino",
-     "title": "Coconuts",
-     "label": "White Coffee"
-    },
-    {
-     "minute": null,
-     "artist": "Groove P",
-     "title": "Are They Real (Extended Mix)",
-     "label": "Pleased As Punch",
-     "bp": "bp:18356947",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/5f0503e8-d8fc-4b7d-a964-b5120c280634.LOFI.mp3",
-     "name": "Are They Real",
-     "mix": "Extended Mix",
-     "genre": "nu-disco-disco",
-     "released": "2023-12-15"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Fudge",
-     "title": "Escapade",
-     "label": "Big Love",
-     "bp": "bp:18856386",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "DJ Fudge",
-     "title": "Arrastra",
-     "label": "United",
-     "bp": "bp:18564773",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/b4b71da9-d3a6-4564-85dd-86eeec319ad7.LOFI.mp3",
-     "name": "Arrastra",
-     "mix": "Dub Mix",
-     "genre": "house",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": null,
-     "artist": "Wh0 Feat. Anelisa Lamola",
-     "title": "The Power (Extended Mix)",
-     "label": "Sweat It Out!",
-     "bp": "bp:18646453",
-     "score": 0.713,
-     "preview": "https://geo-samples.beatport.com/track/ca6b7d3c-eca3-42c2-9006-06eb2b893664.LOFI.mp3",
-     "name": "The Power feat. Anelisa Lamola",
-     "mix": "Extended Mix",
-     "genre": "house",
-     "released": "2024-02-23"
-    },
-    {
-     "minute": null,
-     "artist": "Fergie",
-     "title": "Fergalicious (Ralph Session NYC Boot Tapes Mix)",
-     "label": "White"
-    },
-    {
-     "minute": null,
-     "artist": "The Beat-Trayers",
-     "title": "Big Bad City (Mortimer Snerd III Full Dizko Splaz)",
-     "label": "Miggedy Entertainment",
-     "bp": "bp:18603289",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/70afec81-8904-460c-a924-149079bd3f18.LOFI.mp3",
-     "name": "Big Bad City",
-     "mix": "MS III Full Dizko Slapz",
-     "genre": "nu-disco-disco",
-     "released": "2024-03-01"
-    },
-    {
-     "minute": null,
-     "artist": "Yvonne Gage",
-     "title": "Garden Of Eve (Maurice Joshua Main Mix)",
-     "label": "Maurice Joshua Digital",
-     "bp": "bp:18546323",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/fb66668a-7be5-41d3-b016-ff6fe9fac09b.LOFI.mp3",
-     "name": "Garden Of Eve",
-     "mix": "Maurice Joshua Main Mix",
-     "genre": "house",
-     "released": "2024-02-02"
-    }
-   ]
-  },
-  {
-   "title": "2024-04-19 - Seamus Haji, Franck Roger - 4 To The Floor Radio Show 053",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Melba Moore",
-     "title": "My Heart Belongs To You (Groove Assassin 90's Groove Mix)",
-     "label": "Soulfuric",
-     "bp": "bp:18855637",
-     "score": 0.906,
-     "preview": "https://geo-samples.beatport.com/track/30e003b8-01a4-4d1c-bdc4-bf2d3fe231fa.LOFI.mp3",
-     "name": "My Heart Belongs To You",
-     "mix": "Groove Assassin Extended Remix",
-     "genre": "house",
-     "released": "2024-04-12"
-    },
-    {
-     "minute": null,
-     "artist": "Federation X",
-     "title": "Odyssey One (Club Mix)",
-     "label": "Swing City"
-    },
-    {
-     "minute": null,
-     "artist": "Butch Quick",
-     "title": "Always (Smack Club Mix)",
-     "label": "Emotive"
-    },
-    {
-     "minute": null,
-     "artist": "Orange Muse",
-     "title": "Keep The Funk Alive (Jazz-N-Groove Primetime Mix)",
-     "label": "Soulfuric Deep",
-     "bp": "bp:18802594",
-     "score": 0.948,
-     "preview": "https://geo-samples.beatport.com/track/eaf00af5-46ef-4d7d-8eab-a44c0400f0f0.LOFI.mp3",
-     "name": "Keep The Funk Alive",
-     "mix": "Jazz-N-Groove Primetime Extended Mix",
-     "genre": "house",
-     "released": "2024-03-29"
-    },
-    {
-     "minute": null,
-     "artist": "R. Trent / C. Damier",
-     "title": "Morning Factory",
-     "label": "Prescription",
-     "bp": "bp:1440485",
-     "score": 0.619,
-     "preview": "https://geo-samples.beatport.com/track/555af0c0-e364-486f-be30-09648b3f6115.LOFI.mp3",
-     "name": "Morning Factory",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2010-10-05"
-    },
-    {
-     "minute": null,
-     "artist": "USG",
-     "title": "Ncameu",
-     "label": "Clairaudience"
-    },
-    {
-     "minute": null,
-     "artist": "Azymuth",
-     "title": "Fenix (Ron Trent Remix)",
-     "label": "Far Out",
-     "bp": "bp:9044354",
-     "score": 0.971,
-     "preview": "https://geo-samples.beatport.com/track/557b3b90-fd0f-47f1-acc0-aa07e3aaa4f5.LOFI.mp3",
-     "name": "Fênix",
-     "mix": "Ron Trent Remix",
-     "genre": "house",
-     "released": "2017-05-19"
-    },
-    {
-     "minute": null,
-     "artist": "Russ Brown",
-     "title": "Gotta Find A Way",
-     "label": "Jump Street",
-     "bp": "bp:12103703",
-     "score": 0.617,
-     "preview": "https://geo-samples.beatport.com/track/0313cf89-df64-4cf7-951b-d62881dd3732.LOFI.mp3",
-     "name": "Gotta Find A Way",
-     "mix": "Album Version",
-     "genre": "trap-future-bass",
-     "released": "1996-01-01"
-    },
-    {
-     "minute": null,
-     "artist": "Willie Colon",
-     "title": "Set Fire To Me (Latin Jazzbo Version)",
-     "label": "A&M"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger Feat. Rimarkable",
-     "title": "Part Of My Soul",
-     "label": "Nu Groove",
-     "bp": "bp:18885557",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Rulers Of The Deep & Ricky Inch Feat. Mr. V",
-     "title": "Let's Work (Extended Version)",
-     "label": "Soulfuric Deep",
-     "bp": "bp:18911850",
-     "score": 0.776,
-     "preview": "https://geo-samples.beatport.com/track/c03a367e-ff36-4129-af3f-b5e71cf53d89.LOFI.mp3",
-     "name": "Let's Work feat. Mr. V",
-     "mix": "Extended Mix",
-     "genre": "deep-house",
-     "released": "2024-04-26"
-    },
-    {
-     "minute": null,
-     "artist": "Musclecars",
-     "title": "Running Out Of Time",
-     "label": "BBE",
-     "bp": "bp:18489183",
-     "score": 0.847,
-     "preview": "https://geo-samples.beatport.com/track/2e15adab-5795-45cd-a2b1-919621c807b9.LOFI.mp3",
-     "name": "Running Out Of Time",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-01-19"
-    },
-    {
-     "minute": null,
-     "artist": "N.Y. House'n Authority",
-     "title": "Fort Green House (Daniel Steinberg Edit)",
-     "label": "Nu Groove",
-     "bp": "bp:18833254",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/3a00bcf1-ddec-4cc3-a323-6ec4b89ff476.LOFI.mp3",
-     "name": "Fort Green House",
-     "mix": "Daniel Steinberg Edit",
-     "genre": "deep-house",
-     "released": "2024-04-05"
-    },
-    {
-     "minute": null,
-     "artist": "Roach Motel",
-     "title": "The Night (Deep Nite Mix)",
-     "label": "Four To The Floor",
-     "bp": "bp:7571214",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/cf014e50-090d-4034-a4a3-acc5b190af7f.LOFI.mp3",
-     "name": "The Night",
-     "mix": "Deep Nite Mix",
-     "genre": "house",
-     "released": "2016-02-05"
-    },
-    {
-     "minute": null,
-     "artist": "Black Rascals Feat. Cassio Ware",
-     "title": "So In Love (Atjazz Galaxy Aart Remix)",
-     "label": "Slip N Slide",
-     "bp": "bp:18860179",
-     "score": 0.758,
-     "preview": "https://geo-samples.beatport.com/track/da659e86-05a6-4782-8e8c-03c8fc6cacc4.LOFI.mp3",
-     "name": "So In Love feat. Cassio Ware",
-     "mix": "Atjazz Galaxy Aart Extended Remix",
-     "genre": "deep-house",
-     "released": "2024-04-19"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger",
-     "title": "You're The One For Me",
-     "label": "Real Tone",
-     "bp": "bp:18723734",
-     "score": 0.85,
-     "preview": "https://geo-samples.beatport.com/track/ab3a649c-99aa-497b-bbd9-63a670eaf0fe.LOFI.mp3",
-     "name": "You're The One For Me",
-     "mix": "Album Version",
-     "genre": "deep-house",
-     "released": "2024-03-29"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger",
-     "title": "Can't Get Enough",
-     "label": "Real Tone",
-     "bp": "bp:18834919",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/a026fca3-bd1e-40bf-bdd1-937dd0ecc12f.LOFI.mp3",
-     "name": "Can't Get Enough",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-04-26"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger",
-     "title": "Sexuality (Vocal Version)",
-     "label": "Real Tone",
-     "bp": "bp:19042574",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/e88a48dc-276f-4d52-873d-af4895c2e431.LOFI.mp3",
-     "name": "Sexuality",
-     "mix": "Vocal Version",
-     "genre": "deep-house",
-     "released": "2024-06-21"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger",
-     "title": "Imagine",
-     "label": "Earthrumental"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger",
-     "title": "Into The Deep",
-     "label": "Real Tone",
-     "bp": "bp:18603123",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/a35c4679-1688-40d2-b846-496a13527a62.LOFI.mp3",
-     "name": "Into The Deep",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-03-01"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger",
-     "title": "Enchanted (Fred Everything Remix)",
-     "label": "Vibe Me To The Moon",
-     "bp": "bp:18807509",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/1afa3a16-8aeb-40af-81f7-b3732aa2fed1.LOFI.mp3",
-     "name": "Enchanted",
-     "mix": "Fred Everything Remix",
-     "genre": "deep-house",
-     "released": "2024-04-19"
-    },
-    {
-     "minute": null,
-     "artist": "Blaze",
-     "title": "Lovelee Dae (Franck Roger Remix)",
-     "label": "Slip N Slide",
-     "bp": "bp:18991710",
-     "score": 0.922,
-     "preview": "https://geo-samples.beatport.com/track/dd2142b8-736e-4933-84d8-6c714d5dfcb3.LOFI.mp3",
-     "name": "Lovelee Dae",
-     "mix": "Franck Roger Extended Remix",
-     "genre": "deep-house",
-     "released": "2024-05-17"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger",
-     "title": "Missin' Person",
-     "label": "Earthrumental",
-     "bp": "bp:19101105",
-     "score": 0.79,
-     "preview": "https://geo-samples.beatport.com/track/75678ca1-525c-4c9f-b243-900033b74433.LOFI.mp3",
-     "name": "Missing Person",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-07-05"
-    },
-    {
-     "minute": null,
-     "artist": "Frank Roger",
-     "title": "Radik'Hall",
-     "label": "Nu Groove",
-     "bp": "bp:18885560",
-     "score": 0.564,
-     "preview": "https://geo-samples.beatport.com/track/a4ccb226-9200-4d22-9717-2261450753c5.LOFI.mp3",
-     "name": "Radik'Hall",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-04-19"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger",
-     "title": "Limitless",
-     "label": "Earthrumental"
-    },
-    {
-     "minute": null,
-     "artist": "Toby Simpson",
-     "title": "I'm Surprised",
-     "label": "Real Tone",
-     "bp": "bp:18990504",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/c7ac23a1-9741-4568-8276-a96666d6a186.LOFI.mp3",
-     "name": "I'm Surprised",
-     "mix": "Original Mix",
-     "genre": "minimal-deep-tech",
-     "released": "2024-06-07"
-    },
-    {
-     "minute": null,
-     "artist": "Arno E. Mathieu",
-     "title": "Theme Du Soleil (A Casa Edit)",
-     "label": "Earthrumental",
-     "bp": "bp:20036250",
-     "score": 0.978,
-     "preview": "https://geo-samples.beatport.com/track/7e14ca38-7f4e-4938-bb30-058e0d9b078d.LOFI.mp3",
-     "name": "Thème Du Soleil",
-     "mix": "A Casa Edit",
-     "genre": "deep-house",
-     "released": "2024-09-16"
-    }
-   ]
-  },
-  {
-   "title": "2024-12-18 - Seamus Haji, DJ Spen - 4 To The Floor Radio Show 060",
-   "records": [
-    {
-     "minute": null,
-     "artist": "RaShaan Houston",
-     "title": "Be With You (Pound Boys Vocal Mix)",
-     "label": "Guesthouse",
-     "bp": "bp:5978949",
-     "score": 0.886,
-     "preview": "https://geo-samples.beatport.com/track/ae17ae2d-f75d-4b34-aa7f-fb6a93dfe08d.LOFI.mp3",
-     "name": "Be With You",
-     "mix": "Pound Boys Vocal 2014 REMASTER",
-     "genre": "jackin-house",
-     "released": "2014-11-20"
-    },
-    {
-     "minute": null,
-     "artist": "Seamus Haji Pres.Mekah Feat. Steven Granville",
-     "title": "Race Of Survival (Moplen Remix)",
-     "label": "Big Love"
-    },
-    {
-     "minute": null,
-     "artist": "Towa Tei",
-     "title": "Luv Connection (Mousse T Club Mix)",
-     "label": "Elektra"
-    },
-    {
-     "minute": null,
-     "artist": "Sixth Sense",
-     "title": "Don't You Feel It (TMVS Original Club Mix)",
-     "label": "Vjs",
-     "bp": "bp:13765592",
-     "score": 0.924,
-     "preview": "https://geo-samples.beatport.com/track/fd9ba1ba-f8aa-4046-9085-52efd6f95102.LOFI.mp3",
-     "name": "Don't You Feel It",
-     "mix": "Tmvs Club Mix",
-     "genre": "house",
-     "released": "2020-06-01"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Spen Pres. Jasper Street Company",
-     "title": "A Feeling (Paradox Vocal Mix)",
-     "label": "Basement Boys"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Spen",
-     "title": "Craze At Midnight (DJ Spen Live CDJ1000 Remix)",
-     "label": "Ith",
-     "bp": "bp:883136",
-     "score": 0.951,
-     "preview": "https://geo-samples.beatport.com/track/d06dced4-b849-4ebb-8d1f-885662d55304.LOFI.mp3",
-     "name": "Craze At Midnight",
-     "mix": "Spen’s Live CDJ1000 Mix",
-     "genre": "house",
-     "released": "2009-06-29"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Spen & The Muthafunkaz Feat. Ann Nesby",
-     "title": "It's So Easy",
-     "label": "Code Red"
-    },
-    {
-     "minute": null,
-     "artist": "J.M. Silk",
-     "title": "Music Is The Key (House Key)",
-     "label": "D.J. International",
-     "bp": "bp:1239332",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/8151cf6a-0f66-4e59-aa34-e4743779be1c.LOFI.mp3",
-     "name": "Music Is The Key",
-     "mix": "House Key",
-     "genre": "house",
-     "released": "1986-06-01"
-    },
-    {
-     "minute": null,
-     "artist": "Aphrodisiac",
-     "title": "Song Of The Siren (Dazzle Drums Remix)",
-     "label": "Nu Groove",
-     "bp": "bp:20002364",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/060dcb60-5ce7-45d4-9ff5-83bf7fbc35cf.LOFI.mp3",
-     "name": "Song Of The Siren",
-     "mix": "Dazzle Drums Remix",
-     "genre": "deep-house",
-     "released": "2025-02-07"
-    },
-    {
-     "minute": null,
-     "artist": "Lood Feat. Donell Rush",
-     "title": "Shout-N-Out (Dennis Quin Remix)",
-     "label": "Defected",
-     "bp": "bp:20652685",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/ff78ad8c-897d-4fde-9416-1e8d3869a549.LOFI.mp3",
-     "name": "Shout-N-Out ",
-     "mix": "Dennis Quin Remix",
-     "genre": "house",
-     "released": "2025-07-18"
-    },
-    {
-     "minute": null,
-     "artist": "Dreamer G",
-     "title": "I Got That Feeling (Demuir Playboi Edit)",
-     "label": "Champion",
-     "bp": "bp:19449189",
-     "score": 0.977,
-     "preview": "https://geo-samples.beatport.com/track/8fd5b185-3883-4a82-bb53-c71443e0b09f.LOFI.mp3",
-     "name": "I Got That Feelin'",
-     "mix": "Demuir's Playboi Edit",
-     "genre": "house",
-     "released": "2024-09-27"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Steaw",
-     "title": "Holding On",
-     "label": "Phonogramme",
-     "bp": "bp:19799171",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/f86f0afa-83cc-4a01-9d09-2b077f7698b3.LOFI.mp3",
-     "name": "Holding On",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-11-25"
-    },
-    {
-     "minute": null,
-     "artist": "E-N",
-     "title": "The Horn Ride (Danny Tenaglia Remix)",
-     "label": "Tribal America",
-     "bp": "bp:464723",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/8a45eb7e-63b8-48d3-ba9a-f891cbb1f756.LOFI.mp3",
-     "name": "The Horn Ride",
-     "mix": "Danny Tenaglia Remix",
-     "genre": "house",
-     "released": "2007-12-28"
-    },
-    {
-     "minute": null,
-     "artist": "Ralph Falcon",
-     "title": "That Sound (Vox Mix)",
-     "label": "Miami Soul"
-    },
-    {
-     "minute": null,
-     "artist": "UBQ Project Feat. Kathy Summers",
-     "title": "Feel My Soul (Aaron Smith Chicago Mix)",
-     "label": "House-N-Effect"
-    },
-    {
-     "minute": null,
-     "artist": "Soul Central Feat. Kathy Brown",
-     "title": "Strings Of Life (Stronger On My Own) (The Funky Lowlives Remix)",
-     "label": "Defected"
-    },
-    {
-     "minute": null,
-     "artist": "Kahnti",
-     "title": "My Boo Thing (Kahnti & DJ Spen Remix)",
-     "label": "Unquantize",
-     "bp": "bp:19620070",
-     "score": 0.982,
-     "preview": "https://geo-samples.beatport.com/track/f31e4d9c-6027-4edc-aff8-b11461557c29.LOFI.mp3",
-     "name": "My Boo Thang",
-     "mix": "Kahnti & DJ Spen Remix",
-     "genre": "afro-house",
-     "released": "2024-10-25"
-    },
-    {
-     "minute": null,
-     "artist": "Aaron K. Gray & DJ Spen & Gary Hudgins",
-     "title": "Obey",
-     "label": "Quantize"
-    },
-    {
-     "minute": null,
-     "artist": "The Sunburst Band",
-     "title": "Journey To The Sun (Dennis Ferrer Remix)",
-     "label": "",
-     "bp": "bp:599043",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/e32a2281-1830-42ab-aa76-cd621fd1f2cc.LOFI.mp3",
-     "name": "Journey To The Sun",
-     "mix": "Dennis Ferrer Remix",
-     "genre": "deep-house",
-     "released": "2008-06-16"
-    },
-    {
-     "minute": null,
-     "artist": "Seamus Haji Feat. Stephen Granville",
-     "title": "Race Of Survival (DJ Spen & Michele Chiavarini Praise Party Mix)",
-     "label": "Big Love",
-     "bp": "bp:19689120",
-     "score": 0.895,
-     "preview": "https://geo-samples.beatport.com/track/e63b0766-d18e-42f2-a851-a7c0216aa54e.LOFI.mp3",
-     "name": "Race Of Survival",
-     "mix": "DJ Spen & Michele Chiavarini Praise Party Xtra",
-     "genre": "house",
-     "released": "2024-11-08"
-    },
-    {
-     "minute": null,
-     "artist": "Michael Jackson",
-     "title": "Don't Stop 'Til You Get Enough",
-     "label": "",
-     "bp": "bp:24374796",
-     "score": 0.944,
-     "preview": "https://geo-samples.beatport.com/track/0b204508-b09a-47a9-a310-ff66e7bd73d7.LOFI.mp3",
-     "name": "Don't Stop 'Til You Get Enough",
-     "mix": "Intro",
-     "genre": "pop",
-     "released": "1983-07-04"
-    },
-    {
-     "minute": null,
-     "artist": "Bellaire & Aaron K. Gray",
-     "title": "Never Stop Dancing (Kelly G. Shelter Dub)",
-     "label": "Glitterbox",
-     "bp": "bp:19770769",
-     "score": 0.936,
-     "preview": "https://geo-samples.beatport.com/track/d2dc5899-0918-4e2b-b612-29d92eabbc91.LOFI.mp3",
-     "name": "Never Stop Dancing",
-     "mix": "Kelly G. Extended Shelter Dub",
-     "genre": "house",
-     "released": "2024-11-29"
-    },
-    {
-     "minute": null,
-     "artist": "Black Coffee Feat. Bucie",
-     "title": "Superman",
-     "label": "Soulistic",
-     "bp": "bp:3330969",
-     "score": 0.684,
-     "preview": "https://geo-samples.beatport.com/track/105aa9c0-1190-4e42-b621-0989a2c40a4e.LOFI.mp3",
-     "name": "Superman",
-     "mix": "Main Mix",
-     "genre": "house",
-     "released": "2012-02-24"
-    },
-    {
-     "minute": null,
-     "artist": "Tems",
-     "title": "Me & U (Duane Remix)",
-     "label": "Since 93"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Spen & Reelsoul Feat. Cleveland P. Jones",
-     "title": "& Forever",
-     "label": "Unquantize"
-    },
-    {
-     "minute": null,
-     "artist": "Roy Davis Jr. Feat. Peven Everett",
-     "title": "Gabriel",
-     "label": "Large",
-     "bp": "bp:5335044",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Eddie Johns",
-     "title": "More Spell On You",
-     "label": "Wagram"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Spen & Ziggy Funk Feat. Gary Hudgins",
-     "title": "Don't Be Afraid",
-     "label": "Quantize",
-     "bp": "bp:6101890",
-     "score": 0.761,
-     "preview": "https://geo-samples.beatport.com/track/32e11509-d588-4f14-bcf8-64800cfefba5.LOFI.mp3",
-     "name": "Don't Be Afraid",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2014-12-22"
-    },
-    {
-     "minute": null,
-     "artist": "The Vision vs Armand Van Helden & Durane Harden",
-     "title": "Heaven vs You Don't Know Me (Mashup)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Nina Simone",
-     "title": "I Put A Spell On You",
-     "label": "Verve"
-    }
-   ]
-  },
-  {
-   "title": "2025-04-18 - Seamus Haji, Jimpster - 4 To The Floor Radio Show 063",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Ann Nesby & DJ Spen",
-     "title": "I Feel (DJ Spen Disco Dreams Re Edit)",
-     "label": "Quantize"
-    },
-    {
-     "minute": null,
-     "artist": "Ben Westbeech Feat. Dames Brown",
-     "title": "Do Me Right (Crackazat Remix)",
-     "label": "Glitterbox",
-     "bp": "bp:20369703",
-     "score": 0.725,
-     "preview": "https://geo-samples.beatport.com/track/c36d5c6a-9b92-4542-849d-f3b4e3e6a7cd.LOFI.mp3",
-     "name": "Do Me Right feat. Dames Brown",
-     "mix": "Crackazat Extended Remix",
-     "genre": "house",
-     "released": "2025-04-25"
-    },
-    {
-     "minute": null,
-     "artist": "Ten City",
-     "title": "Goin' Up In Smoke",
-     "label": "Columbia",
-     "bp": "bp:4783500",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/ab0c121d-8ee5-496d-b798-e083059e47db.LOFI.mp3",
-     "name": "Goin' Up In Smoke",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2009-02-02"
-    },
-    {
-     "minute": null,
-     "artist": "Roberta Flack",
-     "title": "Uh Uh Ooh Ooh Look Out (Here It Comes)",
-     "label": "Atlantic",
-     "bp": "bp:25146439",
-     "score": 0.902,
-     "preview": "https://geo-samples.beatport.com/track/23e2d3ee-cd09-4dc0-b683-25e503ea909d.LOFI.mp3",
-     "name": "Uh-Uh Ooh-Ooh Look Out (Here It Comes)",
-     "mix": "Here It Comes",
-     "genre": "pop",
-     "released": "1988-11-01"
-    },
-    {
-     "minute": null,
-     "artist": "Jimpster",
-     "title": "Dangly Panther",
-     "label": "Freerange",
-     "bp": "bp:15461970",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/c26b8bd7-c454-41f7-badc-6820c40e63a4.LOFI.mp3",
-     "name": "Dangly Panther",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2021-07-02"
-    },
-    {
-     "minute": null,
-     "artist": "Osunlade",
-     "title": "Momma's Groove (Jimpster Hip Replacement Mix)",
-     "label": "Strictly Rhythm",
-     "bp": "bp:12891099",
-     "score": 0.986,
-     "preview": "https://geo-samples.beatport.com/track/9724db86-5b47-4511-85f0-25ebd3738d5f.LOFI.mp3",
-     "name": "Momma's Groove",
-     "mix": "Jimpster's Hip Replacement Mix",
-     "genre": "house",
-     "released": "2019-12-13"
-    },
-    {
-     "minute": null,
-     "artist": "Mr. V",
-     "title": "Somethin Wit Jazz (Jimpster Remix)",
-     "label": "Razor-N-Tape",
-     "bp": "bp:8422792",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/ca313b69-44d6-4350-bc0e-5696e0d6b2ae.LOFI.mp3",
-     "name": "Somethin' Wit Jazz",
-     "mix": "Jimpster Remix",
-     "genre": "house",
-     "released": "2016-10-24"
-    },
-    {
-     "minute": null,
-     "artist": "Chip E",
-     "title": "Time To Jack",
-     "label": "Houserecordings (Plasmapool)",
-     "bp": "bp:10539903",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Adonis",
-     "title": "No Way Back (Vocal Mix)",
-     "label": "Trax (Phuture Trax)"
-    },
-    {
-     "minute": null,
-     "artist": "John Julius Knight",
-     "title": "Find A Friend (FIMIANI Remix)",
-     "label": "Soulfuric Trax",
-     "bp": "bp:20372459",
-     "score": 0.914,
-     "preview": "https://geo-samples.beatport.com/track/b90ec154-1ca2-4813-b040-0d0b3b3470a9.LOFI.mp3",
-     "name": "Find A Friend",
-     "mix": "Fimiani Extended Remix",
-     "genre": "house",
-     "released": "2025-04-25"
-    },
-    {
-     "minute": null,
-     "artist": "T.Markakis & Blanco K",
-     "title": "Havana Jazz",
-     "label": "Soulfuric Deep",
-     "bp": "bp:20306712",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/16520e33-1fd0-4a85-b923-abc6a59ac0fa.LOFI.mp3",
-     "name": "Havana Jazz",
-     "mix": "Extended Mix",
-     "genre": "deep-house",
-     "released": "2025-04-11"
-    },
-    {
-     "minute": null,
-     "artist": "Abel Feat. Brutha Basil",
-     "title": "Hand Made (Rocco Rodamaal Unreleased Remix)",
-     "label": "Atjazz",
-     "bp": "bp:20240835",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/3a9d9bf2-1d73-471c-a5e3-572e98957fd9.LOFI.mp3",
-     "name": "Hand Made",
-     "mix": "Rocco Rodamaal Unreleased Remix",
-     "genre": "deep-house",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": null,
-     "artist": "Juliette Mendoza",
-     "title": "Juju Love",
-     "label": "Nu Groove"
-    },
-    {
-     "minute": null,
-     "artist": "Francis Overcast",
-     "title": "I Ain't (Kenny Dope Remix)",
-     "label": "Dopewax",
-     "bp": "bp:13616802",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/4c3fc9c8-e9ad-4950-85ee-5546afb7c87e.LOFI.mp3",
-     "name": "I Ain't",
-     "mix": "Kenny Dope Remix",
-     "genre": "afro-house",
-     "released": "2020-05-29"
-    },
-    {
-     "minute": null,
-     "artist": "Arnold Jarvis & Kerri Chandler",
-     "title": "Inspiration",
-     "label": "Soulstar",
-     "bp": "bp:277575",
-     "score": 0.577,
-     "preview": "https://geo-samples.beatport.com/track/73e5320d-6398-4df3-9481-a776d8fee022.LOFI.mp3",
-     "name": "Inspiration",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2001-01-23"
-    },
-    {
-     "minute": null,
-     "artist": "Medlar Feat. DeeVoeNay",
-     "title": "Dot The T's",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Patrick Gibin",
-     "title": "Mo Matter What",
-     "label": "Mother Tongue",
-     "bp": "bp:19832632",
-     "score": 0.78,
-     "preview": "https://geo-samples.beatport.com/track/d08aee29-d040-4fe3-b606-dfc88cb46846.LOFI.mp3",
-     "name": "No Matter What",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-12-05"
-    },
-    {
-     "minute": null,
-     "artist": "Alma Negra",
-     "title": "The Vibe",
-     "label": "Delusions Of Grandeur",
-     "bp": "bp:19964947",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Takuya Matsumoto",
-     "title": "5AM",
-     "label": "Inhale Exhale"
-    },
-    {
-     "minute": null,
-     "artist": "Franck Roger & Arnold Jarvis",
-     "title": "Living My Life (Jimpster Remix)",
-     "label": "Seasons",
-     "bp": "bp:20392042",
-     "score": 0.852,
-     "preview": "https://geo-samples.beatport.com/track/b6879f41-94b5-4ba9-8b2b-d3686ec9e01d.LOFI.mp3",
-     "name": "Living My Life (feat. Arnold Jarvis)",
-     "mix": "Jimpster Remix",
-     "genre": "deep-house",
-     "released": "2025-04-16"
-    },
-    {
-     "minute": null,
-     "artist": "Jimpster",
-     "title": "You Got My Love",
-     "label": "Nu Groove",
-     "bp": "bp:20159557",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/a9226e09-305a-4919-a575-301cc20d4cb4.LOFI.mp3",
-     "name": "You Got My Love",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-03-14"
-    },
-    {
-     "minute": null,
-     "artist": "Playing' 4 The City",
-     "title": "Chicago Nights",
-     "label": "",
-     "bp": "bp:999633",
-     "score": 0.71,
-     "preview": "https://geo-samples.beatport.com/track/1fa3cf9d-fba9-4c87-b94e-6f36265b4b25.LOFI.mp3",
-     "name": "Chicago Nights",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2009-11-06"
-    },
-    {
-     "minute": null,
-     "artist": "Mike Agent X Clark Feat. Dr Tinglefingers",
-     "title": "In The House Club (Jimpster Remix)",
-     "label": "Shadow"
-    },
-    {
-     "minute": null,
-     "artist": "Jimpster Feat. Oliver Night",
-     "title": "Lightening In Me",
-     "label": "Nu Groove"
-    },
-    {
-     "minute": null,
-     "artist": "Denats",
-     "title": "The Truth (Demuir Playboi Edit)",
-     "label": "Purveyor Underground",
-     "bp": "bp:20063674",
-     "score": 0.98,
-     "preview": "https://geo-samples.beatport.com/track/5f80fa6b-006e-4944-aec3-8ac18f7b902c.LOFI.mp3",
-     "name": "The Truth",
-     "mix": "Demuir's Playboi Edit",
-     "genre": "jackin-house",
-     "released": "2025-02-07"
-    },
-    {
-     "minute": null,
-     "artist": "Megatronic",
-     "title": "Casey Screams",
-     "label": "Freerange",
-     "bp": "bp:20108553",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/0c70d489-1a3a-4323-a808-8f44de9b4764.LOFI.mp3",
-     "name": "Casey Screams",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-03-07"
-    },
-    {
-     "minute": null,
-     "artist": "James Kumo",
-     "title": "Loosen Up",
-     "label": "Freerange"
-    },
-    {
-     "minute": null,
-     "artist": "Jaymz Nylon",
-     "title": "Shango (King Britt Pres. Oba Funke Remix)",
-     "label": "Irma",
-     "bp": "bp:3852849",
-     "score": 0.975,
-     "preview": "https://geo-samples.beatport.com/track/d85acd30-ed61-4167-b40f-3850a9340a9b.LOFI.mp3",
-     "name": "Shango",
-     "mix": "King Britt's Oba Funke Remix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2012-10-30"
-    },
-    {
-     "minute": null,
-     "artist": "Vincent Montana Jr.",
-     "title": "The African Track (Louis Benedetti Mix)",
-     "label": "Philly Sound Works"
-    },
-    {
-     "minute": null,
-     "artist": "Jimpster",
-     "title": "Beat Of An Era",
-     "label": "Nu Groove",
-     "bp": "bp:20159556",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/9c404285-7991-4143-b5bb-5f057033ae95.LOFI.mp3",
-     "name": "Beat Of An Era",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-03-14"
-    },
-    {
-     "minute": null,
-     "artist": "Johnny D & NICKYP",
-     "title": "Bone Up!",
-     "label": "4th Floor",
-     "bp": "bp:3243636",
-     "score": 0.632,
-     "preview": "https://geo-samples.beatport.com/track/65056b78-1628-4768-873a-8bec2054708f.LOFI.mp3",
-     "name": "Bone Up",
-     "mix": "Remaster",
-     "genre": "house",
-     "released": "2011-12-20"
-    },
-    {
-     "minute": null,
-     "artist": "Osunlade",
-     "title": "The Way U Left Me",
-     "label": "R2",
-     "bp": "bp:19971184",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/de7f9ad1-bf2a-40e6-88b4-1d2567b03d09.LOFI.mp3",
-     "name": "The Way U Left Me",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-01-31"
-    }
-   ]
-  },
-  {
-   "title": "2025-10-17 - Seamus Haji, Gledd - Big Love Radio Show October 2025",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Leon Ware",
-     "title": "Journey Into You (Love Drop Rework)",
-     "label": "White"
-    },
-    {
-     "minute": null,
-     "artist": "TJM",
-     "title": "Small Circle Of Friends (Moplen Remix)",
-     "label": "High Fashion Music",
-     "bp": "bp:22008227",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/83769457-5ab1-4cc3-a6cd-5dfc78f92a84.LOFI.mp3",
-     "name": "Small Circle Of Friends",
-     "mix": "Moplen Remix",
-     "genre": "dance-pop",
-     "released": "2025-10-24"
-    },
-    {
-     "minute": null,
-     "artist": "ATFC Pres. OnePhatDeeva Feat. Lisa Millett",
-     "title": "Bad Habit (Brian Tappert Edit)",
-     "label": "Defected"
-    },
-    {
-     "minute": null,
-     "artist": "Ron Carroll vs The O'Jays",
-     "title": "Message In The Mashup (Groove Junkiees Edit)",
-     "label": "White"
-    },
-    {
-     "minute": null,
-     "artist": "Melvo Baptiste Feat. Annette Bowen",
-     "title": "Did You Pray Today? (Dave Lee Redemption Odyssey Mix)",
-     "label": "Glitterbox",
-     "bp": "bp:21777701",
-     "score": 0.855,
-     "preview": "https://geo-samples.beatport.com/track/bcbe8b25-80e7-4473-8a1a-5330e83dd911.LOFI.mp3",
-     "name": "Did You Pray Today?",
-     "mix": "Dave Lee Redemption Extended Mix",
-     "genre": "dance-pop",
-     "released": "2025-10-17"
-    },
-    {
-     "minute": null,
-     "artist": "D'Angelo",
-     "title": "Girl You Need A Change Of Mind",
-     "label": "",
-     "bp": "bp:1715385",
-     "score": 0.893,
-     "preview": "https://geo-samples.beatport.com/track/c2ed418c-b47e-4192-8419-ba77f16342d1.LOFI.mp3",
-     "name": "Girl You Need A Change Of Mind",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2008-01-01"
-    },
-    {
-     "minute": null,
-     "artist": "Another Taste",
-     "title": "Run Into Love",
-     "label": "Space Grapes"
-    },
-    {
-     "minute": null,
-     "artist": "Kenny Dope Feat. Roisin Murphy",
-     "title": "Born Under Punches (The Heat Goes On)",
-     "label": "BBE",
-     "bp": "bp:21036450",
-     "score": 0.803,
-     "preview": "https://geo-samples.beatport.com/track/73d1932f-56bc-44e0-a4ea-ec8a71bca132.LOFI.mp3",
-     "name": "Born Under Punches (The Heat Goes On)",
-     "mix": "The Heat Goes On",
-     "genre": "dance-pop",
-     "released": "2025-08-26"
-    },
-    {
-     "minute": null,
-     "artist": "E. Live",
-     "title": "Rollin' Steady",
-     "label": "Star Creature",
-     "bp": "bp:16942297",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/cc09e6d2-0d6d-49e4-9d1f-b16ca037963e.LOFI.mp3",
-     "name": "Rollin' Steady",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2022-10-28"
-    },
-    {
-     "minute": null,
-     "artist": "Recloose Feat. Joe Dukie",
-     "title": "Dust",
-     "label": "Peacefrog",
-     "bp": "bp:22168265",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Recloose Feat. Joe Dukie",
-     "title": "Dust (Aroop Roy Remix)",
-     "label": "Peacefrog",
-     "bp": "bp:22168265",
-     "score": 0.675,
-     "preview": "https://geo-samples.beatport.com/track/d5f9cd80-35fc-4358-a090-c154c7c62c89.LOFI.mp3",
-     "name": "Dust feat. Joe Dukie",
-     "mix": "Aroop Roy Extended Remix",
-     "genre": "house",
-     "released": "2025-10-24"
-    },
-    {
-     "minute": null,
-     "artist": "Jovonn",
-     "title": "Random (Remix)",
-     "label": "Nu Groove"
-    },
-    {
-     "minute": null,
-     "artist": "Ethan Gray Feat. Mandel Turner",
-     "title": "Elevate Your Mind",
-     "label": "Soulfuric Deep"
-    },
-    {
-     "minute": null,
-     "artist": "Demuir",
-     "title": "Disco Ain't Jack",
-     "label": "Desolat",
-     "bp": "bp:12279704",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/e06f5e4b-0b76-4f8f-ada1-060f1052b05b.LOFI.mp3",
-     "name": "Disco Ain't Jack",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2019-07-26"
-    },
-    {
-     "minute": null,
-     "artist": "O'Flynn",
-     "title": "Fara",
-     "label": "Glitterbox",
-     "bp": "bp:23355575",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Hardsoul Feat. Ron Carroll",
-     "title": "Back Together (Seamus Haji Remix)",
-     "label": "Glitterbox",
-     "bp": "bp:5256475",
-     "score": 0.811,
-     "preview": "https://geo-samples.beatport.com/track/b7cf645d-cca0-4312-9000-34ff118ff6d6.LOFI.mp3",
-     "name": "Back Together",
-     "mix": "Seamus Haji Club",
-     "genre": "house",
-     "released": "2012-12-03"
-    },
-    {
-     "minute": null,
-     "artist": "Saint Paul",
-     "title": "Don't Hold Back Da Groove (Gledd Remix)",
-     "label": "Saint Wax",
-     "bp": "bp:21064533",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/d46b2921-3ba5-42e7-bc82-32746b9956e5.LOFI.mp3",
-     "name": "Don't Hold Back da Groove",
-     "mix": "Gledd Remix",
-     "genre": "electronica",
-     "released": "2025-08-22"
-    },
-    {
-     "minute": null,
-     "artist": "The Funk District & Sokur",
-     "title": "Never Satisfied",
-     "label": "Kaninchenbau",
-     "bp": "bp:23679911",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/6c896b56-0e56-40c9-84ea-b2bfa606fc13.LOFI.mp3",
-     "name": "Never Satisfied ",
-     "mix": "Original Mix",
-     "genre": "funky-house",
-     "released": "2026-02-27"
-    },
-    {
-     "minute": null,
-     "artist": "Laroye",
-     "title": "Super Jock (Laroye Rework)",
-     "label": "White"
-    },
-    {
-     "minute": null,
-     "artist": "Sourires",
-     "title": "Friends",
-     "label": "Saint Wax"
-    },
-    {
-     "minute": null,
-     "artist": "Souldynamic",
-     "title": "Sequence 4",
-     "label": "White"
-    },
-    {
-     "minute": null,
-     "artist": "Fango",
-     "title": "South",
-     "label": "Degustibus"
-    },
-    {
-     "minute": null,
-     "artist": "The Funk District",
-     "title": "Alligator Groove",
-     "label": "Saint Wax",
-     "bp": "bp:21064502",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/80ae5ad5-a0fb-43c7-98de-a461cae59a1a.LOFI.mp3",
-     "name": "Alligator Groove",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2025-10-01"
-    },
-    {
-     "minute": null,
-     "artist": "Barbara Tucker Pres. The The BCrew",
-     "title": "Grace (Emmaculate Dub) (Danny Krivit Edit)",
-     "label": "B Star Music",
-     "bp": "bp:18032862",
-     "score": 0.734,
-     "preview": "https://geo-samples.beatport.com/track/324daef8-e32d-4f2a-a9f3-b4caa61a0b32.LOFI.mp3",
-     "name": "Grace",
-     "mix": "Emmaculate Dub",
-     "genre": "house",
-     "released": "2023-08-25"
-    },
-    {
-     "minute": null,
-     "artist": "Gledd Feat. Joi N",
-     "title": "Juno",
-     "label": "Here Come The Horns"
-    },
-    {
-     "minute": null,
-     "artist": "Haverdi",
-     "title": "Teremuca",
-     "label": "Makonga"
-    },
-    {
-     "minute": null,
-     "artist": "Gledd",
-     "title": "Otra Estrella (Glad Rework)",
-     "label": "White"
-    },
-    {
-     "minute": null,
-     "artist": "Gledd",
-     "title": "Move Me",
-     "label": "Big Love"
-    }
-   ]
-  },
-  {
-   "title": "2025-11-21 - Seamus Haji, Rulers Of The Deep - Big Love Radio Show November 2025",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Foremost Poets Feat. Johnny Dangerous",
-     "title": "Beside Myself (Dave Lee Cowbell Party Mix)",
-     "label": "",
-     "bp": "bp:22406137",
-     "score": 0.92,
-     "preview": "https://geo-samples.beatport.com/track/b26f6530-1e4b-4a67-a557-64aed817965a.LOFI.mp3",
-     "name": "Beside Myself",
-     "mix": "Dave Lee Cowbell Party Mix",
-     "genre": "house",
-     "released": "2025-11-21"
-    },
-    {
-     "minute": null,
-     "artist": "Shaka Loves You",
-     "title": "Lowdown Showdown",
-     "label": "Re-Loved",
-     "bp": "bp:23356781",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/ea474316-125c-4b0f-8bd7-12e1e079cc60.LOFI.mp3",
-     "name": "Lowdown Showdown ",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": null,
-     "artist": "Seamus Haji",
-     "title": "2000 Black (Moodena Remix)",
-     "label": "Big Love",
-     "bp": "bp:22371201",
-     "score": 0.905,
-     "preview": "https://geo-samples.beatport.com/track/5f0e9e70-2c09-4cef-a91f-67072b310b87.LOFI.mp3",
-     "name": "2000 Black ",
-     "mix": "Moodena Extended Remix",
-     "genre": "house",
-     "released": "2025-12-05"
-    },
-    {
-     "minute": null,
-     "artist": "Maurice Joshua",
-     "title": "Are You Ready (Maurice Joshua Ron Carroll Tribute Mix)",
-     "label": "Big Love",
-     "bp": "bp:22733059",
-     "score": 0.922,
-     "preview": "https://geo-samples.beatport.com/track/e90238ad-8ae2-4c5d-a3b7-6d0b9079fa79.LOFI.mp3",
-     "name": "Are You Ready ",
-     "mix": "Maurice's Ron Carroll Tribute Extended Mix",
-     "genre": "house",
-     "released": "2025-12-12"
-    },
-    {
-     "minute": null,
-     "artist": "Dames Brown",
-     "title": "You're The One For Me",
-     "label": "Defected",
-     "bp": "bp:22344556",
-     "score": 0.858,
-     "preview": "https://geo-samples.beatport.com/track/75501cdd-f42a-44a5-8711-61105b8be821.LOFI.mp3",
-     "name": "You're The One For Me",
-     "mix": "Extended Mix",
-     "genre": "nu-disco-disco",
-     "released": "2025-11-05"
-    },
-    {
-     "minute": null,
-     "artist": "B.W.H.",
-     "title": "Stop (Danilo Braca Remix)",
-     "label": "Il Discotto"
-    },
-    {
-     "minute": null,
-     "artist": "Alice Russell",
-     "title": "Gravity (Payfone Remix)",
-     "label": "Tru Thoughts",
-     "bp": "bp:19035561",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/60a32a8f-5e62-43a8-b9bd-179237018ddc.LOFI.mp3",
-     "name": "Gravity",
-     "mix": "Payfone Remix",
-     "genre": "house",
-     "released": "2024-06-06"
-    },
-    {
-     "minute": null,
-     "artist": "Rochelle Jordan",
-     "title": "Doing It Too",
-     "label": "Empire",
-     "bp": "bp:20893826",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/969b6e36-045d-4b80-b5da-0514766aa0f5.LOFI.mp3",
-     "name": "Doing It Too ",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2025-08-08"
-    },
-    {
-     "minute": null,
-     "artist": "Musclecars & Toribio Feat. Roland Clark",
-     "title": "That's My Story",
-     "label": "Rhythm Section",
-     "bp": "bp:21303512",
-     "score": 0.739,
-     "preview": "https://geo-samples.beatport.com/track/e2506d6a-6d19-4ddc-9e7d-f4696bb4d1d3.LOFI.mp3",
-     "name": "That's My Story",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2025-09-18"
-    },
-    {
-     "minute": null,
-     "artist": "Rickster",
-     "title": "Night Moves",
-     "label": "High Fashion",
-     "bp": "bp:11432011",
-     "score": 0.812,
-     "preview": "https://geo-samples.beatport.com/track/5a81de38-d754-416a-b639-df9a5b1223c8.LOFI.mp3",
-     "name": "Night Moves",
-     "mix": "Radio Mix",
-     "genre": "house",
-     "released": "1988-05-20"
-    },
-    {
-     "minute": null,
-     "artist": "Rickster",
-     "title": "Night Moves (ROOG Reconstruction Remix)",
-     "label": "Altra Moda",
-     "bp": "bp:22212877",
-     "score": 0.935,
-     "preview": "https://geo-samples.beatport.com/track/d86a5644-328b-4c1c-9b37-4c9bd923ff75.LOFI.mp3",
-     "name": "Night Moves",
-     "mix": "Roog Reconstruction Extended Remix",
-     "genre": "house",
-     "released": "2025-10-31"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Scratch",
-     "title": "Electric Stew (We Can Get Down)",
-     "label": "T's Box",
-     "bp": "bp:28413630",
-     "score": 0.782,
-     "preview": "https://geo-samples.beatport.com/track/67ac12e0-074a-449a-9cb2-b1f7f82b0e46.LOFI.mp3",
-     "name": "Electric Stew (We Can Get Down) feat. Kenny Dope",
-     "mix": "Kenny Dope Remix",
-     "genre": "house",
-     "released": "2026-05-01"
-    },
-    {
-     "minute": null,
-     "artist": "Jimmy Allen & DJ Romain",
-     "title": "Our House",
-     "label": "Big Love"
-    },
-    {
-     "minute": null,
-     "artist": "Roel",
-     "title": "Came To That Day",
-     "label": "Soulfuric Trax",
-     "bp": "bp:22412262",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/63775cd7-8fcc-4d68-8f28-dea907cac754.LOFI.mp3",
-     "name": "Came To That Day",
-     "mix": "Extended Mix",
-     "genre": "house",
-     "released": "2025-12-05"
-    },
-    {
-     "minute": null,
-     "artist": "Dam Swindle",
-     "title": "Backyard Galaxy",
-     "label": "Heist",
-     "bp": "bp:21675380",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/901eff4d-d6f8-44c7-b736-ed4a3f8197bd.LOFI.mp3",
-     "name": "Backyard Galaxy",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-10-24"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Chus & Harry Romero",
-     "title": "Celebrate Life",
-     "label": "Nervous",
-     "bp": "bp:22336885",
-     "score": 0.854,
-     "preview": "https://geo-samples.beatport.com/track/77484efe-6ceb-4301-a7bd-b0b1c23247e7.LOFI.mp3",
-     "name": "Celebrate Life",
-     "mix": "Acapella",
-     "genre": "dj-tools-acapellas",
-     "released": "2025-11-07"
-    },
-    {
-     "minute": null,
-     "artist": "Armand Van Helden",
-     "title": "A Track Called Jack (Low Steppa Deep Vibe)",
-     "label": "Southern Fried",
-     "bp": "bp:5368345",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/e985269c-e027-4b99-a505-6810874f599d.LOFI.mp3",
-     "name": "A Track Called Jack",
-     "mix": "Low Steppa Deep Vibe",
-     "genre": "tech-house",
-     "released": "2014-05-12"
-    },
-    {
-     "minute": null,
-     "artist": "Tensnake & Gerd Janson",
-     "title": "Push",
-     "label": "Armada",
-     "bp": "bp:21992999",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Rulers Of The Deep & Mandel Turner",
-     "title": "So Deep",
-     "label": "Big Love"
-    },
-    {
-     "minute": null,
-     "artist": "The Golden Boy",
-     "title": "Big Mac",
-     "label": "Toolroom"
-    },
-    {
-     "minute": null,
-     "artist": "Rulers Of The Deep",
-     "title": "Imagine Where You Are",
-     "label": "Big Love"
-    },
-    {
-     "minute": null,
-     "artist": "Bushwacka!",
-     "title": "Jack The Groove",
-     "label": "Nu Groove",
-     "bp": "bp:21113041",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/452db14d-1534-4fef-89a4-45f1d146149a.LOFI.mp3",
-     "name": "Jack The Groove",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2025-09-19"
-    },
-    {
-     "minute": null,
-     "artist": "DJ Debauchery",
-     "title": "Life Story",
-     "label": "One",
-     "bp": "bp:20795065",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/b9000e38-a961-46cf-ac95-3acb583ca397.LOFI.mp3",
-     "name": "Life Story ",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2025-07-30"
-    },
-    {
-     "minute": null,
-     "artist": "Rulers Of The Deep",
-     "title": "ID",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Rulers Of The Deep",
-     "title": "Back In Love (At Last)",
-     "label": "Big Love",
-     "bp": "bp:23959699",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/d0391d01-88e9-49be-a087-f0919dec2f1e.LOFI.mp3",
-     "name": "Back In Love ",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2026-03-13"
-    },
-    {
-     "minute": null,
-     "artist": "Rulers Of The Deep",
-     "title": "Track Three",
-     "label": "Manchester Underground",
-     "bp": "bp:1605153",
-     "score": 0.788,
-     "preview": "https://geo-samples.beatport.com/track/3b74b21a-c925-4495-93bc-c2e079355b97.LOFI.mp3",
-     "name": "Track Three",
-     "mix": "Jaimy Remix",
-     "genre": "tech-house",
-     "released": "2010-12-16"
-    },
-    {
-     "minute": null,
-     "artist": "Rulers Of The Deep",
-     "title": "Correction",
-     "label": "Big Love",
-     "bp": "bp:23959698",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/59bb93db-05c1-4158-96e6-15ca296f1dca.LOFI.mp3",
-     "name": "Correction ",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2026-03-13"
-    },
-    {
-     "minute": null,
-     "artist": "Deepmore",
-     "title": "Groove Static",
-     "label": "Dog With A Bone",
-     "bp": "bp:21544247",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/d5d61d61-2912-46a8-8eab-ece9abe9d837.LOFI.mp3",
-     "name": "Groove Static ",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-10-10"
-    }
-   ]
-  }
- ]
+"dj": "Seamus Haji",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-06-29 - Seamus Haji, SAMO - Big Love 392",
+"records": [
+{
+"minute": null,
+"artist": "Melba Moore",
+"title": "My Heart Belongs To You (Ferreck Dawn Remix)",
+"label": "Soulfuric",
+"bp": "bp:12038080",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fe31f9f3-a134-422c-a07f-d328be79fc61.LOFI.mp3",
+"name": "My Heart Belongs To You",
+"mix": "Ferreck Dawn Extended Remix",
+"genre": "house",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "Samo",
+"title": "(You Make Me) Feel So Good (Seamus Haji Remix)",
+"label": "Big Love",
+"bp": "bp:12059407",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/841102de-b5bb-4699-974f-694c48eb4a50.LOFI.mp3",
+"name": "(You Make Me) Feel So Good",
+"mix": "Seamus Haji Extended Remix",
+"genre": "nu-disco-disco",
+"released": "2019-07-05"
+},
+{
+"minute": null,
+"artist": "Dr Packer & Mark Lower",
+"title": "Moods Of Music",
+"label": "Re-Loved"
+},
+{
+"minute": null,
+"artist": "Sammy Deuce",
+"title": "Sweet Surprises",
+"label": "Big Love",
+"bp": "bp:12186606",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6a0229d0-a160-4f3f-b371-f3ee4a3982ac.LOFI.mp3",
+"name": "Sweet Surprises",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-07-19"
+},
+{
+"minute": null,
+"artist": "Peggy Gou",
+"title": "Starry Night",
+"label": "Gudu",
+"bp": "bp:11769642",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dfcd6965-32a5-4b80-a1cd-1e588816ad4c.LOFI.mp3",
+"name": "Starry Night",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2019-04-19"
+},
+{
+"minute": null,
+"artist": "Los Charly's Orchestra",
+"title": "Music For The Soul",
+"label": "Imagenes",
+"bp": "bp:2006319",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/10842ea5-20ec-4593-ad67-d6d8e8f6531e.LOFI.mp3",
+"name": "Music for the Soul",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2011-07-18"
+},
+{
+"minute": null,
+"artist": "Hipnotic",
+"title": "Are You Lonely (Opolopo Remix)",
+"label": "EMG",
+"bp": "bp:11238735",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/31a1ef44-b68a-4ce4-a86e-a756beb4d870.LOFI.mp3",
+"name": "Are You Lonely?",
+"mix": "Opolopo Rework",
+"genre": "electronica",
+"released": "2018-12-14"
+},
+{
+"minute": null,
+"artist": "Frank Virgilio",
+"title": "Bite My Groove",
+"label": "Re-Loved",
+"bp": "bp:12059656",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a3947a20-4c0e-4c02-97a6-f760f56db5f6.LOFI.mp3",
+"name": "Bite My Groove",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2019-07-05"
+},
+{
+"minute": null,
+"artist": "Chewy Rubs",
+"title": "Good People",
+"label": "Re-Loved",
+"bp": "bp:12059659",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6a401055-2c23-41a6-a173-c165143f1efe.LOFI.mp3",
+"name": "Good People",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2019-07-05"
+},
+{
+"minute": null,
+"artist": "MFSB",
+"title": "K-Jee",
+"label": "Philadelphia",
+"bp": "bp:11151857",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/a40847fc-2a96-4276-8b6f-ffc8c5130fad.LOFI.mp3",
+"name": "K-Jee",
+"mix": "From the \"Saturday Night Fever\" Soundtrack",
+"genre": "trap-future-bass",
+"released": "2018-11-02"
+},
+{
+"minute": null,
+"artist": "AC Soul Symphony",
+"title": "K-Jee (Joey Negro Philly World Mix)",
+"label": "",
+"bp": "bp:12011498",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/86af0027-0477-4bcf-9de9-86bcf2769228.LOFI.mp3",
+"name": "K-Jee",
+"mix": "Joey Negro Philly World Mix",
+"genre": "nu-disco-disco",
+"released": "2019-06-21"
+},
+{
+"minute": null,
+"artist": "S-Men",
+"title": "Evolution",
+"label": "S-Men Music",
+"bp": "bp:12038689",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db535de6-d8b2-4ae3-8dcb-f5c8434b9059.LOFI.mp3",
+"name": "Evolution",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-06-28"
+},
+{
+"minute": null,
+"artist": "Mijanos",
+"title": "Suena El Sabor",
+"label": "Union"
+},
+{
+"minute": null,
+"artist": "KiNK",
+"title": "Raw",
+"label": "Running Back",
+"bp": "bp:12028752",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/29b662e2-f20f-4d49-9b99-1215c7831e70.LOFI.mp3",
+"name": "RAW",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-06-07"
+},
+{
+"minute": null,
+"artist": "Alaia & Gallo Feat. Dames Brown",
+"title": "Trippin'",
+"label": "DFTD"
+},
+{
+"minute": null,
+"artist": "Daphne Feat. Paradise",
+"title": "Sizzling",
+"label": "Jialong"
+},
+{
+"minute": null,
+"artist": "Alexander Koning, Dave Leatherman, Bruce Nolan",
+"title": "R U Looking At Me",
+"label": "Blockhead",
+"bp": "bp:12029491",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/876734ba-c172-43df-9115-7f551ce79336.LOFI.mp3",
+"name": "R U Looking At Me",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2019-06-28"
+},
+{
+"minute": null,
+"artist": "Milk & Sugar, Andrey Exx",
+"title": "Riding High (Extended Mix)",
+"label": "Milk & Suger",
+"bp": "bp:11946109",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4adaa6ab-0ab2-4919-9fbb-6b4ce8635068.LOFI.mp3",
+"name": "Riding High",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "SAMO, Kornum & Karma",
+"title": "Dance To Y] Our Song",
+"label": "Spacedisco",
+"bp": "bp:12435348",
+"score": 0.984,
+"preview": "https://geo-samples.beatport.com/track/e5abc3d7-587e-4a41-8a19-449c90588812.LOFI.mp3",
+"name": "Dance To Your Song",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-09-06"
+},
+{
+"minute": null,
+"artist": "Phil Fuldner",
+"title": "Take Me (Low Steppa Extended Remix)",
+"label": "Armada",
+"bp": "bp:11993958",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0dc1f964-2396-4ea2-9838-69ba82388d99.LOFI.mp3",
+"name": "Take Me",
+"mix": "Low Steppa Extended Remix",
+"genre": "house",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "MVZZIK & SAMO",
+"title": "Your Kisses",
+"label": "Let There Be House",
+"bp": "bp:11999019",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ffa93288-4398-43b7-a165-181c648e4d4d.LOFI.mp3",
+"name": "Your Kisses",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-06-21"
+},
+{
+"minute": null,
+"artist": "DJ Rose",
+"title": "My World Comes Alive",
+"label": "Simma Black",
+"bp": "bp:11999024",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8a693604-0534-4d94-bd9c-fb343ff950fd.LOFI.mp3",
+"name": "My World Comes Alive",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-06-21"
+},
+{
+"minute": null,
+"artist": "Daniel Dash",
+"title": "Get A Life",
+"label": "Play And Tonic",
+"bp": "bp:13657958",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9e92af10-51a6-401f-9f29-c9d0fdec3b8d.LOFI.mp3",
+"name": "Get A Life",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-05-29"
+},
+{
+"minute": null,
+"artist": "SAMO",
+"title": "(You Make Me) Feel So Good",
+"label": "Big Love",
+"bp": "bp:12059406",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1671a5df-11d0-4dbf-a52a-5a7141cf116c.LOFI.mp3",
+"name": "(You Make Me) Feel So Good",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2019-07-05"
+},
+{
+"minute": null,
+"artist": "Mark Lower",
+"title": "Do What You Want",
+"label": "Sakura",
+"bp": "bp:11810626",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a22eb7fc-6648-4c1e-9d1f-dd30e153ce65.LOFI.mp3",
+"name": "Do What You Want",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2019-05-03"
+},
+{
+"minute": null,
+"artist": "Peter Brown",
+"title": "I'm Gonna Hold On (Angelo Ferreri 'Funky Touch' Remix)",
+"label": "Let There Be House",
+"bp": "bp:11970220",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93147fa6-f099-44ad-8ba3-16e090e1c75f.LOFI.mp3",
+"name": "I'm Gonna Hold On",
+"mix": "Angelo Ferreri 'Funky Touch' Remix",
+"genre": "house",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "Johan S",
+"title": "Livin'",
+"label": "Hot Stuff",
+"bp": "bp:11944848",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/32b098f7-97c4-4a29-a797-20ab9c841f56.LOFI.mp3",
+"name": "Livin'",
+"mix": "Original Mix",
+"genre": "funky-house",
+"released": "2019-05-27"
+},
+{
+"minute": null,
+"artist": "SAMO",
+"title": "What A Feeling",
+"label": "Cruise",
+"bp": "bp:11953121",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/06fea74c-15be-4dc4-8b06-c31a034a3f06.LOFI.mp3",
+"name": "What A Feeling",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-05-31"
+},
+{
+"minute": null,
+"artist": "CASSIUS",
+"title": "W18 (Club Edit)",
+"label": "Because"
+}
+]
+},
+{
+"title": "2019-07-06 - Seamus Haji, Sammy Deuce - Big Love 393",
+"records": [
+{
+"minute": null,
+"artist": "Dr Packer & Mark Lower",
+"title": "Moods Of Music",
+"label": "Re-Loved"
+},
+{
+"minute": null,
+"artist": "Peggy Gou",
+"title": "Starry Night",
+"label": "Gudu",
+"bp": "bp:11769642",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dfcd6965-32a5-4b80-a1cd-1e588816ad4c.LOFI.mp3",
+"name": "Starry Night",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2019-04-19"
+},
+{
+"minute": null,
+"artist": "Louie Vega, Patrick Adams",
+"title": "Rebel Nation (Felix Da Housecat X Chris Trucher Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "KiNK",
+"title": "Raw",
+"label": "Running Back",
+"bp": "bp:12028752",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/29b662e2-f20f-4d49-9b99-1215c7831e70.LOFI.mp3",
+"name": "RAW",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-06-07"
+},
+{
+"minute": null,
+"artist": "Pete Heller",
+"title": "Big Love (David Penn Remix)",
+"label": "Defected",
+"bp": "bp:12214865",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dd405782-1396-4e0a-ae2b-7571aca1cf92.LOFI.mp3",
+"name": "Big Love",
+"mix": "David Penn Extended Remix",
+"genre": "house",
+"released": "2019-07-05"
+},
+{
+"minute": null,
+"artist": "Michael Kiwanuka & Tom Misch",
+"title": "Money",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Sticks & Stonez & Liv East Feat. Dave Giles II",
+"title": "You're My (Sam & Dave Remix)",
+"label": "Glitterbox"
+},
+{
+"minute": null,
+"artist": "Melba Moore",
+"title": "My Heart Belongs To You (Ferreck Dawn Remix)",
+"label": "Soulfuric",
+"bp": "bp:12038080",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fe31f9f3-a134-422c-a07f-d328be79fc61.LOFI.mp3",
+"name": "My Heart Belongs To You",
+"mix": "Ferreck Dawn Extended Remix",
+"genre": "house",
+"released": "2019-06-14"
+},
+{
+"minute": null,
+"artist": "Ferry Ultra Feat. Alexandra Prince",
+"title": "Sunny (Lego Edit Disco Cut)",
+"label": "Peppermint Jam",
+"bp": "bp:21662877",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/f1606de0-8b73-462a-ab7a-1eabf3484c62.LOFI.mp3",
+"name": "Sunny",
+"mix": "Lego Edit Disco Cut",
+"genre": "electronica",
+"released": "2019-08-23"
+},
+{
+"minute": null,
+"artist": "Sylvester",
+"title": "I Need You",
+"label": "Fantasy",
+"bp": "bp:28568472",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/446c17ec-15f2-44e6-97ff-fdba015edfae.LOFI.mp3",
+"name": "I Need You",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2013-01-01"
+},
+{
+"minute": null,
+"artist": "Sylvester",
+"title": "I Need You (Opolopo Remix)",
+"label": "",
+"bp": "bp:12011499",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c45f7b98-7624-48e6-ad32-6b7387decc9c.LOFI.mp3",
+"name": "I Need You",
+"mix": "Opolopo Remix",
+"genre": "nu-disco-disco",
+"released": "2019-06-21"
+},
+{
+"minute": null,
+"artist": "Samo",
+"title": "(You Make Me) Feel So Good (Seamus Haji Remix)",
+"label": "Big Love",
+"bp": "bp:12059407",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/841102de-b5bb-4699-974f-694c48eb4a50.LOFI.mp3",
+"name": "(You Make Me) Feel So Good",
+"mix": "Seamus Haji Extended Remix",
+"genre": "nu-disco-disco",
+"released": "2019-07-05"
+},
+{
+"minute": null,
+"artist": "Sammy Deuce",
+"title": "Sweet Surprises",
+"label": "Big Love",
+"bp": "bp:12186606",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6a0229d0-a160-4f3f-b371-f3ee4a3982ac.LOFI.mp3",
+"name": "Sweet Surprises",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-07-19"
+},
+{
+"minute": null,
+"artist": "Oliver $ Feat. Nils Ohrmann",
+"title": "John's Church (Mousse T.'s Remix)",
+"label": "Classic"
+},
+{
+"minute": null,
+"artist": "Demuir",
+"title": "High. Alive. And Dirty",
+"label": "Hot Creations",
+"bp": "bp:12208382",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f20ba510-8534-4e97-bccb-bdfe73693982.LOFI.mp3",
+"name": "High. Alive. And Dirty.",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-07-12"
+},
+{
+"minute": null,
+"artist": "Kassady",
+"title": "Low Down Love Drums",
+"label": "Nervous",
+"bp": "bp:12308702",
+"score": 0.659,
+"preview": "https://geo-samples.beatport.com/track/b88352b5-4139-4460-8bae-5d95c9de25cb.LOFI.mp3",
+"name": "Low Down Drums",
+"mix": "Chus & Ceballos Sweet Love Edit",
+"genre": "house",
+"released": "2019-07-19"
+}
+]
+},
+{
+"title": "2019-07-13 - Seamus Haji, Full Intention - Big Love 394",
+"records": [
+{
+"minute": null,
+"artist": "The Montanas",
+"title": "Play It (Seamus Haji Re-Work)",
+"label": "Soul Love",
+"bp": "bp:12280706",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/e3a70556-5a80-4e89-8d57-6f671aee7005.LOFI.mp3",
+"name": "Play It",
+"mix": "Seamus Haji  Extended Re-Work",
+"genre": "house",
+"released": "2019-08-02"
+},
+{
+"minute": null,
+"artist": "Opolopo",
+"title": "Sickla Side Push Shuffle",
+"label": "Toolroom",
+"bp": "bp:14366526",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cadb56dc-4fda-4a90-a367-209464f4ddfc.LOFI.mp3",
+"name": "Sickla Side Push Shuffle",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2020-06-26"
+},
+{
+"minute": null,
+"artist": "Daz-I-Kue, Hadiya George",
+"title": "Pedigree",
+"label": "Foliage",
+"bp": "bp:11875910",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db2e4de1-1b57-4007-9ef8-1b8339244251.LOFI.mp3",
+"name": "Pedigree",
+"mix": "Radio Edit",
+"genre": "house",
+"released": "2019-04-26"
+},
+{
+"minute": null,
+"artist": "Pete Heller",
+"title": "Big Love (David Penn Remix)",
+"label": "Defected",
+"bp": "bp:12214865",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dd405782-1396-4e0a-ae2b-7571aca1cf92.LOFI.mp3",
+"name": "Big Love",
+"mix": "David Penn Extended Remix",
+"genre": "house",
+"released": "2019-07-05"
+},
+{
+"minute": null,
+"artist": "The Vision Feat. Andreya Triana",
+"title": "Heaven",
+"label": "Defected"
+},
+{
+"minute": null,
+"artist": "Sticks & Stonez & Liv East ft Dave Giles II",
+"title": "You\u2019re My (Sam & Dave Remix)",
+"label": "Glitterbox"
+},
+{
+"minute": null,
+"artist": "Alan Dixon",
+"title": "Bless Today",
+"label": "Glitterbox",
+"bp": "bp:16405931",
+"score": 0.928,
+"preview": "https://geo-samples.beatport.com/track/160d4374-55cc-4382-9bdb-4918112a2f40.LOFI.mp3",
+"name": "Bless Me Today ",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2022-04-29"
+},
+{
+"minute": null,
+"artist": "Round Shaped Triangles",
+"title": "Better Apart (Art Of Tones Remix)",
+"label": "Sub_Urban",
+"bp": "bp:11249831",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/73120b1b-5f0c-4078-90a1-d3aebbbc67ed.LOFI.mp3",
+"name": "Better Apart",
+"mix": "Art Of Tones Remix",
+"genre": "nu-disco-disco",
+"released": "2018-11-30"
+},
+{
+"minute": null,
+"artist": "Hotmood",
+"title": "Can\u2019t Give U Up (Kiu D Remix)",
+"label": "Golden Soul Records",
+"bp": "bp:10040543",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f44fb75d-7cf6-40e6-bebd-568f763a6604.LOFI.mp3",
+"name": "Can't Give U Up",
+"mix": "Kiu D Remix",
+"genre": "indie-dance",
+"released": "2018-01-01"
+},
+{
+"minute": null,
+"artist": "Pleasure",
+"title": "Joyous",
+"label": "Fantasy",
+"bp": "bp:11552156",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60ebee8f-fcbb-407f-aff8-4abf2004bb6e.LOFI.mp3",
+"name": "Joyous",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2004-01-24"
+},
+{
+"minute": null,
+"artist": "Reel People",
+"title": "Joyous (Matt Cooper Remix)",
+"label": "Reel People Music"
+},
+{
+"minute": null,
+"artist": "Sammy Deuce",
+"title": "Just One Night",
+"label": "Big Love",
+"bp": "bp:12186608",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b9c2c102-a803-483a-a9d0-9109c2259154.LOFI.mp3",
+"name": "Just One Night",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-07-19"
+},
+{
+"minute": null,
+"artist": "Demuir",
+"title": "High. Alive. And Dirty",
+"label": "Hot Creations",
+"bp": "bp:12208382",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f20ba510-8534-4e97-bccb-bdfe73693982.LOFI.mp3",
+"name": "High. Alive. And Dirty.",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-07-12"
+},
+{
+"minute": null,
+"artist": "Oliver Dollar Feat. Nils Ohrmann",
+"title": "John\u2019s Church (Mousse T.\u2019s Remix)",
+"label": "Classic Music"
+},
+{
+"minute": null,
+"artist": "ATFC & Seamus Haji",
+"title": "Oh Yeah!",
+"label": "Big Love",
+"bp": "bp:12255970",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/63138e2d-ad4b-4449-b4c5-73a5095bb2b8.LOFI.mp3",
+"name": "Oh Yeah!",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2019-08-02"
+},
+{
+"minute": null,
+"artist": "KiNK",
+"title": "Raw",
+"label": "Running Back",
+"bp": "bp:12028752",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/29b662e2-f20f-4d49-9b99-1215c7831e70.LOFI.mp3",
+"name": "RAW",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-06-07"
+},
+{
+"minute": 60,
+"artist": "Advance",
+"title": "Take Me To The Top (Michael Gray Remix)",
+"label": "",
+"bp": "bp:11902525",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c020a743-c039-4088-9aa3-b0c069cfb6fc.LOFI.mp3",
+"name": "Take Me To The Top",
+"mix": "Michael Gray Remix",
+"genre": "house",
+"released": "2019-04-26"
+},
+{
+"minute": 63,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 67,
+"artist": "Masters At Work, India",
+"title": "To Be In Love (Full Intention Dub)",
+"label": ""
+},
+{
+"minute": 71,
+"artist": "Roisto, Powerdress",
+"title": "All Yours (Full Intention Extended Remix)",
+"label": ""
+},
+{
+"minute": 76,
+"artist": "Dajae & Full Intention",
+"title": "What Do You Want? (Vocal Mix)",
+"label": "",
+"bp": "bp:6397",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f6795a33-c805-425d-b285-98de80d33885.LOFI.mp3",
+"name": "What Do You Want",
+"mix": "Vocal Mix",
+"genre": "house",
+"released": "2001-12-01"
+},
+{
+"minute": 79,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 83,
+"artist": "Full Intention",
+"title": "I Miss You (Full Intention Remix)",
+"label": "",
+"bp": "bp:9082762",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f4432a89-a7ed-448c-adec-4cdfdf14d31c.LOFI.mp3",
+"name": "I Miss You",
+"mix": "Full Intention Remix",
+"genre": "house",
+"released": "2017-04-03"
+},
+{
+"minute": 86,
+"artist": "Full Intention",
+"title": "Dancin'",
+"label": "",
+"bp": "bp:8141777",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ed25fdf3-4069-4f47-9efd-d315f162b84f.LOFI.mp3",
+"name": "Dancin'",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2016-07-29"
+},
+{
+"minute": 89,
+"artist": "Julien Jabre",
+"title": "Swimming Places (Purple Disco Machine Re-Work)",
+"label": "",
+"bp": "bp:84812",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/be1a1dc6-b1e1-4551-b780-e363ce595dee.LOFI.mp3",
+"name": "Swimming Places",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2006-02-05"
+},
+{
+"minute": 94,
+"artist": "Smoke & Mirrors",
+"title": "Cut The Gas",
+"label": ""
+},
+{
+"minute": 98,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 104,
+"artist": "Rockers Revenge",
+"title": "Walking On Sunshine (Full Intention Remix)",
+"label": "",
+"bp": "bp:10988386",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c456ad3f-574b-403d-bb99-79b545d0002e.LOFI.mp3",
+"name": "Walking on Sunshine",
+"mix": "Full Intention Remix",
+"genre": "funky-house",
+"released": "2018-09-14"
+},
+{
+"minute": 109,
+"artist": "Joe T Vannelli Project",
+"title": "Sweetest Day Of May (Full Intention Remix)",
+"label": "",
+"bp": "bp:11981533",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3d6822ae-f9f8-43d6-ab88-ea228147a56a.LOFI.mp3",
+"name": "Sweetest Day of May",
+"mix": "Full Intention Remix",
+"genre": "house",
+"released": "2019-05-31"
+},
+{
+"minute": 116,
+"artist": "Debbie Jacobs",
+"title": "Don't You Want My Love (Full Intention Extended Dub)",
+"label": "",
+"bp": "bp:12164464",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eaf8222a-fe13-4bc6-9019-be43815dd743.LOFI.mp3",
+"name": "Don't You Want My Love",
+"mix": "Full Intention Extended Disco Mix",
+"genre": "house",
+"released": "2019-06-28"
+}
+]
+},
+{
+"title": "2019-11-05 - Seamus Haji - KISS Fresh Presents",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 5,
+"artist": "Da Lukas",
+"title": "Be Freak",
+"label": "Re-Loved - RLVD 027",
+"bp": "bp:12709283",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c8f02f1c-5525-4470-a7b8-4be2ca16a763.LOFI.mp3",
+"name": "Be Freak",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2019-11-22"
+},
+{
+"minute": 10,
+"artist": "The Vision Feat. Andreya Triana",
+"title": "Heaven",
+"label": "Defected - DFTD548D"
+},
+{
+"minute": 15,
+"artist": "Doug Willis",
+"title": "Dancin' 2020 (Joey Negro Extended Rebuild)",
+"label": "",
+"bp": "bp:12638913",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/77841dd6-95a4-4cc0-b898-5cae9456d954.LOFI.mp3",
+"name": "Dancin' 2020",
+"mix": "Joey Negro Extended Rebuild",
+"genre": "nu-disco-disco",
+"released": "2019-10-18"
+},
+{
+"minute": 20,
+"artist": "Haji & Emanuel",
+"title": "Take Me Away",
+"label": "Big Love - BL 108",
+"bp": "bp:5396634",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/1dcc51ae-2201-454a-90c4-7841af17d855.LOFI.mp3",
+"name": "Take Me Away",
+"mix": "Haji & Emanuel Vox",
+"genre": "house",
+"released": "2012-07-23"
+},
+{
+"minute": 25,
+"artist": "Selace",
+"title": "So Hooked On Your Lovin (Mousse T.'s Extended Disco Shizzle)",
+"label": "",
+"bp": "bp:10904028",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/aac801cd-2954-467a-862c-41b6cc88e804.LOFI.mp3",
+"name": "So Hooked On Your Lovin",
+"mix": "Mousse T.'s Extended Disco Shizzle",
+"genre": "house",
+"released": "2018-08-31"
+},
+{
+"minute": 30,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 33,
+"artist": "Mike Dunn",
+"title": "Natural High",
+"label": "Glitterbox - GLITS045D2",
+"bp": "bp:12681677",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/b9ff518a-b815-4694-95db-9b6be2dd01c9.LOFI.mp3",
+"name": "Natural High",
+"mix": "Mike Dunn Black Glitter Extended MixX",
+"genre": "house",
+"released": "2019-11-01"
+},
+{
+"minute": 39,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 45,
+"artist": "Seamus Haji",
+"title": "Boogie 2nite (Extended Mix)",
+"label": "Glitterbox - GLITS039D2",
+"bp": "bp:12504784",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b8a3b7c6-afe5-4d69-9308-bdc1bb3c4666.LOFI.mp3",
+"name": "Boogie 2nite",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2019-09-20"
+},
+{
+"minute": 51,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2021-12-13 - Seamus Haji, CASSIMM - Big Love Radio Show December 2021",
+"records": [
+{
+"minute": null,
+"artist": "Donna Allen",
+"title": "He Is The Joy (Groove Junkies & Lenny Fontana Galaxy People Edit)",
+"label": "Soulfuric",
+"bp": "bp:15940166",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/804a8926-3684-40d5-ac41-294dc599bc83.LOFI.mp3",
+"name": "He Is The Joy",
+"mix": "Groove Junkies vs Lenny Fontana Galaxy People Extended Edit",
+"genre": "house",
+"released": "2021-12-03"
+},
+{
+"minute": null,
+"artist": "DJ Meme",
+"title": "I Can't Get You (Out Of My Mind)",
+"label": "Big Love",
+"bp": "bp:16106778",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/93fe2805-2dba-4379-ae07-fc2c3c43d6d6.LOFI.mp3",
+"name": "I Can't Get You (Out Of My Mind)",
+"mix": "Extended Disco Mix",
+"genre": "nu-disco-disco",
+"released": "2022-01-28"
+},
+{
+"minute": null,
+"artist": "D.C. LaRue",
+"title": "Cathedrals (Dr Packer Remix)",
+"label": "Glitterbox",
+"bp": "bp:15939910",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d5d26378-9be1-4965-a826-e4ba93b45505.LOFI.mp3",
+"name": "Cathedrals",
+"mix": "Dr Packer Extended Remix",
+"genre": "nu-disco-disco",
+"released": "2021-12-03"
+},
+{
+"minute": null,
+"artist": "Spenitch",
+"title": "I'm Blessed (Teddy Douglas & DJ Greg Lewis Monday Night Main Mix)",
+"label": "Basement Boys",
+"bp": "bp:12292998",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bb203d74-bb08-4efb-8f38-e2f35ef114c8.LOFI.mp3",
+"name": "I'm Blessed (Remix)",
+"mix": "Teddy's Monday Night Main Mix",
+"genre": "house",
+"released": "2019-07-19"
+},
+{
+"minute": null,
+"artist": "The Big Tune: Spiller Feat. Sophie Ellis-Bextor",
+"title": "Groovejet (If This Ain't Love) (Riva Starr Disco Odyssey Vocal Mix) - Defected]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bellaire",
+"title": "French Coast (Folamour Remix)",
+"label": "Allo Floride",
+"bp": "bp:15772485",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/05a1a280-c6e3-4a6f-a5c9-462a63d02200.LOFI.mp3",
+"name": "French Coast",
+"mix": "Folamour Remix",
+"genre": "house",
+"released": "2021-10-15"
+},
+{
+"minute": null,
+"artist": "Jordan Nocturne",
+"title": "22BB",
+"label": "Nocturne"
+},
+{
+"minute": null,
+"artist": "Kameelah Waheed",
+"title": "America The Beautiful (Bruise Vocal Remix)",
+"label": "F*clr",
+"bp": "bp:18886485",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1a3a5f0f-2712-46b7-9724-121b0c6c34d0.LOFI.mp3",
+"name": "America the Beautiful",
+"mix": "Bruise Vocal Remix",
+"genre": "deep-house",
+"released": "2021-08-13"
+},
+{
+"minute": null,
+"artist": "Lonesome Echo Production",
+"title": "Spirit Of Drums (S.U.M.O Afrobounce)",
+"label": "Wonderwheel",
+"bp": "bp:16498328",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8bd68939-506b-4e21-baf1-743573d4b08e.LOFI.mp3",
+"name": "Spirit of Drums (S.U.M.O Afrobounce)",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2018-12-07"
+},
+{
+"minute": null,
+"artist": "The Original Cut: The Shapeshifters Feat. Teni Tinks",
+"title": "When Love Breaks Down",
+"label": "Glitterbox"
+},
+{
+"minute": null,
+"artist": "The Shapeshifters Feat. Teni Tinks",
+"title": "When Love Breaks Down (Late Nite Tuff Guy Disco Remix)",
+"label": "Glitterbox"
+},
+{
+"minute": null,
+"artist": "The Hot Mix: Delicious",
+"title": "Eau De Chant\u00e9 (For Men) - Flying]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Daniel Steinberg",
+"title": "Feeling Good",
+"label": "Arms & Legs",
+"bp": "bp:15845091",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b67e914a-8f90-4984-b9d2-09105f432457.LOFI.mp3",
+"name": "Feeling Good",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-05"
+},
+{
+"minute": null,
+"artist": "Eli Escobar",
+"title": "Just Work",
+"label": "Night People",
+"bp": "bp:15782788",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60733962-98b8-4004-9004-4f5376643d42.LOFI.mp3",
+"name": "Just Work",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-05"
+},
+{
+"minute": null,
+"artist": "T.U.R.F. & Sondrio",
+"title": "Seeing Stars",
+"label": "True Romance",
+"bp": "bp:15809402",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/713ba5bb-a55a-4ced-95af-f67a1b1c6593.LOFI.mp3",
+"name": "Seeing Stars",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2021-11-19"
+},
+{
+"minute": null,
+"artist": "Hard Drive Library",
+"title": "Gloria",
+"label": "Pomme Frite",
+"bp": "bp:15897397",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/84b9e415-e008-4214-a39f-b5a210df65a3.LOFI.mp3",
+"name": "Gloria",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-19"
+},
+{
+"minute": null,
+"artist": "Vincent Caira",
+"title": "Dr Soul",
+"label": "Spacedisco",
+"bp": "bp:15374523",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f3f0debe-9987-402b-acc7-1d40c44311a9.LOFI.mp3",
+"name": "Dr. Soul",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-07-16"
+},
+{
+"minute": null,
+"artist": "CASSIMM",
+"title": "Is It All Over My Face",
+"label": "Soulfuric Trax",
+"bp": "bp:15862244",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3c129825-6253-4209-ad35-dd1f8ad40f2e.LOFI.mp3",
+"name": "Is It All Over My Face",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2021-11-12"
+},
+{
+"minute": null,
+"artist": "Ewan McVicar",
+"title": "Plain Outta Luck",
+"label": "Kookoo",
+"bp": "bp:15804564",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0e77646c-c189-4db5-86eb-f53170fc364a.LOFI.mp3",
+"name": "Plain Outta Luck",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-19"
+},
+{
+"minute": null,
+"artist": "Sean Finn",
+"title": "Disco Revenge 2021 (CASSIMM Remix)",
+"label": "Tribal Kitchen",
+"bp": "bp:16069060",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b32bfb08-a337-44e8-b5e0-bc908b5386da.LOFI.mp3",
+"name": "Disco Revenge 2021",
+"mix": "CASSIMM Remix",
+"genre": "house",
+"released": "2022-02-04"
+},
+{
+"minute": null,
+"artist": "GotSome Feat. Sharlene Hector",
+"title": "None Of Mine",
+"label": "Armada"
+},
+{
+"minute": null,
+"artist": "Milk & Sugar Feat. Paul Gardner & Peyton",
+"title": "You Can't Hide From Yourself (CASSIMM Remix)",
+"label": "Milk & Sugar"
+},
+{
+"minute": null,
+"artist": "Mind Electric",
+"title": "Party People (Mighty Mouse Extended Remix)",
+"label": "Vicious",
+"bp": "bp:30092567",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2cc338e0-843a-4911-b153-885eeafb1a00.LOFI.mp3",
+"name": "Party People",
+"mix": "Mighty Mouse Extended Remix",
+"genre": "house",
+"released": "2021-07-23"
+},
+{
+"minute": null,
+"artist": "Not So French",
+"title": "Soda Pop",
+"label": "Music For Dreams",
+"bp": "bp:15810715",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/230202d8-e4d0-418d-be2e-a2e09d46375f.LOFI.mp3",
+"name": "Soda Pop",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2021-09-17"
+},
+{
+"minute": null,
+"artist": "Ministry Of Funk",
+"title": "Wayback (Clubzound Remix)",
+"label": "Muzik Xpress",
+"bp": "bp:1439930",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/35c0b2f6-2b84-4c52-8970-51fd44c054b7.LOFI.mp3",
+"name": "Wayback",
+"mix": "Clubzound Remix",
+"genre": "house",
+"released": "2010-10-06"
+},
+{
+"minute": null,
+"artist": "DJ PP aka Gabriel Rocha",
+"title": "Feel So Good",
+"label": "Ppmusic",
+"bp": "bp:16055580",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/99dd6693-1a93-4813-816b-a481e274f9e4.LOFI.mp3",
+"name": "Feel So Good",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-12-24"
+},
+{
+"minute": null,
+"artist": "Mikey Jubbly",
+"title": "Marlena Dub",
+"label": "Sleazy Deep",
+"bp": "bp:15840857",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/324849d9-a339-4a14-b20c-2b6a2e71b9ef.LOFI.mp3",
+"name": "Marlena Dub",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-11-12"
+},
+{
+"minute": null,
+"artist": "CASSIMM",
+"title": "That Sound",
+"label": "Another Rhythm",
+"bp": "bp:18097448",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0698cbe9-e00d-4e82-8e5b-dd122011013a.LOFI.mp3",
+"name": "That Sound (Extended Mix)",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-02-25"
+},
+{
+"minute": null,
+"artist": "Jude & Frank & Cammora",
+"title": "You Are My Love",
+"label": "Wh0 Plays",
+"bp": "bp:15852947",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2fcc7ccd-1194-4d41-a9d7-83fb0d4d1998.LOFI.mp3",
+"name": "You Are My Love",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2021-11-12"
+},
+{
+"minute": null,
+"artist": "Purple Disco Machine",
+"title": "Don't Stop",
+"label": "Positiva",
+"bp": "bp:16063442",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bfeb65a3-695c-4ac2-8732-675abf31ae00.LOFI.mp3",
+"name": "Don't Stop",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2021-12-17"
+}
+]
+},
+{
+"title": "2022-01-13 - Seamus Haji, JKriv - Big Love Radio Show January 2022",
+"records": [
+{
+"minute": null,
+"artist": "DJ Meme",
+"title": "I Can't Get You (Out Of My Mind)",
+"label": "Big Love",
+"bp": "bp:16106778",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/93fe2805-2dba-4379-ae07-fc2c3c43d6d6.LOFI.mp3",
+"name": "I Can't Get You (Out Of My Mind)",
+"mix": "Extended Disco Mix",
+"genre": "nu-disco-disco",
+"released": "2022-01-28"
+},
+{
+"minute": null,
+"artist": "Village Hustle",
+"title": "Jungle Fire (Bosq Remix)",
+"label": "Razor-N-Tape"
+},
+{
+"minute": null,
+"artist": "B Beat Girls",
+"title": "For The Same Man",
+"label": "",
+"bp": "bp:12247301",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a6e4119-20ce-479b-a672-01697a0baa2d.LOFI.mp3",
+"name": "For The Same Man",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2019-06-28"
+},
+{
+"minute": null,
+"artist": "Vincent Montana",
+"title": "That's What Love Does (Louis Benedettis Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The Big Tune: JKriv Feat. Norman Vladimir",
+"title": "The Way",
+"label": "Glitterbox"
+},
+{
+"minute": null,
+"artist": "79.5",
+"title": "Terrorize My Heart",
+"label": "Big Crown",
+"bp": "bp:13593523",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/27d3e95e-19f7-441d-85da-409f0555742c.LOFI.mp3",
+"name": "Terrorize My Heart",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2018-09-28"
+},
+{
+"minute": null,
+"artist": "Dirtywho",
+"title": "Micke Petterson (Crackazat Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Felipe Gordon",
+"title": "Strings Of The Afterlife",
+"label": "Razor-N-Tape",
+"bp": "bp:15884442",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8f1c1dbc-6d38-4393-a41a-7a093d71a962.LOFI.mp3",
+"name": "Strings Of The Afterlife",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2021-12-17"
+},
+{
+"minute": null,
+"artist": "Flight Facilities Feat. Your Smith",
+"title": "Heavy (Folamour Remix)",
+"label": "Glassnote",
+"bp": "bp:16069615",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/33533c72-7837-413f-bc46-654487d57af1.LOFI.mp3",
+"name": "Heavy",
+"mix": "Folamour Remix",
+"genre": "nu-disco-disco",
+"released": "2022-01-14"
+},
+{
+"minute": null,
+"artist": "The Original Cut: Secret Night Gang",
+"title": "Captured",
+"label": "Brownswood",
+"bp": "bp:21864409",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/2b1670d5-658e-48ed-80c8-e94eede019aa.LOFI.mp3",
+"name": "Captured",
+"mix": "Original Mix",
+"genre": "rb",
+"released": "2021-07-23"
+},
+{
+"minute": null,
+"artist": "Secret Night Gang",
+"title": "Captured (Ron Basejam Remix)",
+"label": "Brownswood",
+"bp": "bp:27727914",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2ae6631f-01af-4834-b264-bb5290f38711.LOFI.mp3",
+"name": "Captured ",
+"mix": "Ron Basejam Remix",
+"genre": "dance-pop",
+"released": "2021-09-10"
+},
+{
+"minute": null,
+"artist": "The Hot Mix: John Julius Knight",
+"title": "The Block",
+"label": "",
+"bp": "bp:16573323",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/e4e0c32b-c974-461a-b3c9-cb43736591f2.LOFI.mp3",
+"name": "The Block",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2022-06-03"
+},
+{
+"minute": null,
+"artist": "R.E.A.D. Feat. Sailor Jane",
+"title": "Where's My Phone? (CASAMENA Remix)",
+"label": "DFTD (Defected)"
+},
+{
+"minute": null,
+"artist": "Honey Dijon Feat. Dave Gilles II & Cor.Ece & Mike Dunn",
+"title": "Work",
+"label": "Defected"
+},
+{
+"minute": null,
+"artist": "Spiller Feat. Sophie Ellis-Bextor",
+"title": "Groovejet (If This Ain't Love) (Riva Starr Skylight Hard Dub)",
+"label": "Positiva",
+"bp": "bp:29361796",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/6b34c4ce-fc41-41f7-b91e-9fe21480faa5.LOFI.mp3",
+"name": "Groovejet (If This Ain't Love)",
+"mix": "Riva Starr Skylight Hard Dub",
+"genre": "house",
+"released": "2000-08-14"
+},
+{
+"minute": null,
+"artist": "Hotmood",
+"title": "Together Forever",
+"label": "Discoweey",
+"bp": "bp:16057849",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f360b47-a5e9-4ecc-8acb-16c25c7e019a.LOFI.mp3",
+"name": "Together Forever",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2022-01-17"
+},
+{
+"minute": null,
+"artist": "Gayle Adams",
+"title": "I Loved Every Minute Of It",
+"label": "Prelude",
+"bp": "bp:7216575",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/58b59e16-33f2-4e3e-9a1d-6a0a92e577f7.LOFI.mp3",
+"name": "I Loved Every Minute Of It",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "1992-01-01"
+},
+{
+"minute": null,
+"artist": "Escort",
+"title": "Cocaine Blues (JKriv Disco Bumps Mix)",
+"label": "Glitterbox",
+"bp": "bp:15900855",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/110820ad-462d-4033-b1a2-d63853b2d746.LOFI.mp3",
+"name": "Cocaine Blues",
+"mix": "JKriv Extended Disco Bumps",
+"genre": "nu-disco-disco",
+"released": "2021-11-19"
+},
+{
+"minute": null,
+"artist": "JKriv Feat. Norman Vladimir",
+"title": "The Way (Deep Dub)",
+"label": "Glitterbox"
+},
+{
+"minute": null,
+"artist": "Funky Family",
+"title": "Funk Is On (Psychemagik Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Universal Cave",
+"title": "City Girl",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ben Sun",
+"title": "Red Light",
+"label": "",
+"bp": "bp:16341932",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/668f2d6a-ac66-40d3-8b50-e6a39a2f95da.LOFI.mp3",
+"name": "Red Light",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-04-20"
+},
+{
+"minute": null,
+"artist": "Deee-Lite",
+"title": "Power Of Love (Zanzibar Vocal Mix)",
+"label": "Warner Bros."
+},
+{
+"minute": null,
+"artist": "Gabriels",
+"title": "Love And Hate In A Different Time (Kerri Chandler Remix)",
+"label": "Self Released"
+},
+{
+"minute": null,
+"artist": "Fouk",
+"title": "Money (JKriv & Peter Matson Remix)",
+"label": "Heist",
+"bp": "bp:17462009",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ac9694bf-5294-439e-9832-bc2c27853bc3.LOFI.mp3",
+"name": "Money",
+"mix": "JKriv & Peter Matson Remix",
+"genre": "deep-house",
+"released": "2022-01-11"
+},
+{
+"minute": null,
+"artist": "Saucy Lady",
+"title": "Passport To My Love",
+"label": "Razor-N-Tape",
+"bp": "bp:16072523",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f93a5c18-22e3-4a33-a115-bf5393769d80.LOFI.mp3",
+"name": "Passport To My Love",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2021-12-17"
+},
+{
+"minute": null,
+"artist": "Dez Andr\u00e9s",
+"title": "Tonight's Function",
+"label": ""
+}
+]
+},
+{
+"title": "2022-02-11 - Seamus Haji, DJ Meme - Big Love Radio Show February 2022",
+"records": [
+{
+"minute": null,
+"artist": "Destiny II",
+"title": "Play 2 Win (David Lee Destination Boogie Mix)",
+"label": "",
+"bp": "bp:16606193",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f79b7d6-857c-4db6-b0d0-f21a23ff3b07.LOFI.mp3",
+"name": "Play 2 Win",
+"mix": "Dave Lee Destination Boogie Mix",
+"genre": "nu-disco-disco",
+"released": "2022-06-17"
+},
+{
+"minute": null,
+"artist": "LUXXURY Feat. Jill Lamoureux",
+"title": "Just Like It Was Before (Art Of Tones Remix)",
+"label": "Boogie Angst",
+"bp": "bp:16026548",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/65b29571-f975-4a56-a36a-0ee62174c246.LOFI.mp3",
+"name": "Just Like It Was Before (feat. Jill Lamoureux)",
+"mix": "Art of Tones Remix",
+"genre": "nu-disco-disco",
+"released": "2022-02-04"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "Hold Me Down",
+"label": "Real Tone",
+"bp": "bp:16112154",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7cb6eba8-98b6-474c-92c6-ae562572408e.LOFI.mp3",
+"name": "Hold Me Down",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-01-21"
+},
+{
+"minute": null,
+"artist": "Bugsy",
+"title": "The Time",
+"label": "Take It Easy"
+},
+{
+"minute": null,
+"artist": "The Big Tune: Mike Dunn",
+"title": "It's A Groove Thang (Black Glitter LB Mix)",
+"label": "Big Love"
+},
+{
+"minute": null,
+"artist": "Laroye & Abi Flynn",
+"title": "Rise",
+"label": "Atjazz",
+"bp": "bp:16099548",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f197659c-d5dc-4271-a769-37a52f13f8c9.LOFI.mp3",
+"name": "Rise",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-01-21"
+},
+{
+"minute": null,
+"artist": "Hadiya George",
+"title": "Balance",
+"label": "The Remedy Project",
+"bp": "bp:16185965",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/445912bb-f410-438f-af71-51a6a0d83e8a.LOFI.mp3",
+"name": "Balance",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-02-11"
+},
+{
+"minute": null,
+"artist": "Lady Blackbird",
+"title": "Lost And Looking (Colleen 'Cosmo' Murphy Cosmodelica Remix)",
+"label": "Foundation"
+},
+{
+"minute": null,
+"artist": "Miguel Migs Feat. Lisa Shaw",
+"title": "Promises (Miguel Migs Piano Love Vocal)",
+"label": "Soulfuric Deep"
+},
+{
+"minute": null,
+"artist": "The Original Cut: The Lyman Woodard Organization",
+"title": "Creative Musicians",
+"label": "Strata",
+"bp": "bp:16047273",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/62e2b077-671c-4c18-85dc-441aa49d27e4.LOFI.mp3",
+"name": "Creative Musicians",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-01-21"
+},
+{
+"minute": null,
+"artist": "Jazzanova",
+"title": "Creative Musicians (Henrik Schwarz Remix)",
+"label": "BBE",
+"bp": "bp:16047281",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/43b7633b-a2bf-46f4-8e6f-22cee3d8f282.LOFI.mp3",
+"name": "Creative Musicians",
+"mix": "Henrik Schwarz Dub",
+"genre": "deep-house",
+"released": "2022-01-21"
+},
+{
+"minute": null,
+"artist": "The Hot Mix: Mr. ID",
+"title": "Track ID1 (Kerri Chandler 623 Again Mix) - Kaoz Theory]",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Hardage & Gil Scott-Heron",
+"title": "Hysterical Years (Enea & DJ Lukas Wolf Remix)",
+"label": "Bbr"
+},
+{
+"minute": null,
+"artist": "Risk Assessment Feat. Queen Rose",
+"title": "Dance With Me (Michael Gray Remix)",
+"label": "No Fuss",
+"bp": "bp:16080191",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/5786ab94-53f1-47fb-ae10-b003ba199774.LOFI.mp3",
+"name": "Dance With Me",
+"mix": "Michael Gray Remix",
+"genre": "deep-house",
+"released": "2022-01-14"
+},
+{
+"minute": null,
+"artist": "Austin Ato",
+"title": "What You Want",
+"label": "Classic",
+"bp": "bp:17710030",
+"score": 0.95,
+"preview": "https://geo-samples.beatport.com/track/1a846236-633f-4fbc-8632-f92a0ad1af46.LOFI.mp3",
+"name": "What U Want",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-05-26"
+},
+{
+"minute": null,
+"artist": "Saraga",
+"title": "Love And Happiness",
+"label": "Crosstown Rebels",
+"bp": "bp:15943366",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7094335-2433-4c07-9a1e-0a300a7ad5a6.LOFI.mp3",
+"name": "Love And Happiness",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2021-12-10"
+},
+{
+"minute": null,
+"artist": "Jean Carn",
+"title": "Don't Let It Go To Your Head (Michael Gray Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Per QX",
+"title": "The Time Is Now (Birdee Remix)",
+"label": "Walk Of Shame",
+"bp": "bp:15928869",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/11216d36-25d5-431e-9591-ff17ee4da3c3.LOFI.mp3",
+"name": "The Time Is Now",
+"mix": "Birdee Remix",
+"genre": "nu-disco-disco",
+"released": "2021-12-10"
+},
+{
+"minute": null,
+"artist": "Studio 54 Music & JKriv Feat. RickExpress",
+"title": "Souvenirs (Dub Mix)",
+"label": "Studio 54"
+},
+{
+"minute": null,
+"artist": "Prospect Park",
+"title": "Shake It Up Tonight",
+"label": "Dave Lee Disco Re-Shake",
+"bp": "bp:15713646",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/04dc3330-e185-4367-8861-79525b68351e.LOFI.mp3",
+"name": "Shake It Up Tonight",
+"mix": "Dave Lee's Disco Re-Shake",
+"genre": "nu-disco-disco",
+"released": "2021-10-01"
+},
+{
+"minute": null,
+"artist": "DJ Meme",
+"title": "I Can't Get You (Out Of My Mind) (Disco Mix)",
+"label": "Big Love"
+},
+{
+"minute": null,
+"artist": "First Choice",
+"title": "Let No Man Put Asunder (Dam Swindle Remix)",
+"label": "Salsoul",
+"bp": "bp:22972910",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d0ff695d-60dc-4ebb-b164-f9e26651651e.LOFI.mp3",
+"name": "Let No Man Put Asunder",
+"mix": "Dam Swindle Remix",
+"genre": "dance-pop",
+"released": "2021-07-09"
+},
+{
+"minute": null,
+"artist": "Papik Feat. The Soultrend Orchestra",
+"title": "Touch The Sky (Eric Kupper Remix)",
+"label": "Irma Dancefloor",
+"bp": "bp:17915133",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/e15c0dcb-bf90-417f-9700-38e7d192f920.LOFI.mp3",
+"name": "Touch the Sky",
+"mix": "Eric Kupper Remix Instrumental",
+"genre": "dance-pop",
+"released": "2023-08-03"
+},
+{
+"minute": null,
+"artist": "Folkness",
+"title": "Way Home",
+"label": "Spacedisco",
+"bp": "bp:16035279",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d2df6a2-e3ed-4daa-b636-634a80d45920.LOFI.mp3",
+"name": "Way Home",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2022-01-20"
+},
+{
+"minute": null,
+"artist": "Ten City",
+"title": "Feel It Too",
+"label": "Ultra",
+"bp": "bp:14981695",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dfc1cbf5-184a-4da3-9cc5-6a31f1060aac.LOFI.mp3",
+"name": "Feel It Too",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2021-05-14"
+},
+{
+"minute": null,
+"artist": "Bob Sinclar",
+"title": "I Feel For You",
+"label": "Defected",
+"bp": "bp:6934180",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7c73b0d0-8c92-4d12-b5d0-931022daefa9.LOFI.mp3",
+"name": "I feel for you",
+"mix": "Original",
+"genre": "house",
+"released": "2000-10-01"
+}
+]
+},
+{
+"title": "2024-01-31 - Melvo Baptiste & Seamus Haji - Glitterbox Radio Show 355",
+"records": [
+{
+"minute": 0,
+"artist": "The Shapeshifters Feat. Liisila",
+"title": "Beautiful Day",
+"label": "Glitterbox"
+},
+{
+"minute": 5,
+"artist": "Melvo Baptiste Feat. Annette Bowen",
+"title": "Pray Today",
+"label": "Glitterbox"
+},
+{
+"minute": 10,
+"artist": "Lovebirds",
+"title": "Burn It Down (Dub Mix)",
+"label": "Glitterbox"
+},
+{
+"minute": 14,
+"artist": "Ben Westbeech Feat. Rahh",
+"title": "Times Are Changin'",
+"label": "Glitterbox",
+"bp": "bp:20044064",
+"score": 0.883,
+"preview": "https://geo-samples.beatport.com/track/d220cee7-8ea0-41e6-92ca-e5c70cb22848.LOFI.mp3",
+"name": "Times Are Changing",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2025-02-14"
+},
+{
+"minute": 18,
+"artist": "JKriv Feat. Fi McClusky",
+"title": "Waiting 4 2nite",
+"label": "Glitterbox"
+},
+{
+"minute": 24,
+"artist": "Lovebirds Feat. NILE",
+"title": "Shut The Lights Out",
+"label": "Glitterbox",
+"bp": "bp:18888011",
+"score": 0.742,
+"preview": "https://geo-samples.beatport.com/track/a3697ae1-daea-4a4d-adba-429e940c0f96.LOFI.mp3",
+"name": "Shut The Lights Out feat. NILE",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2024-04-19"
+},
+{
+"minute": 30,
+"artist": "Dames Brown",
+"title": "You're The One For Me",
+"label": "Defected",
+"bp": "bp:22344556",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/75501cdd-f42a-44a5-8711-61105b8be821.LOFI.mp3",
+"name": "You're The One For Me",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2025-11-05"
+},
+{
+"minute": 36,
+"artist": "Alan Dixon",
+"title": "Nothing But Happiness",
+"label": "Glitterbox",
+"bp": "bp:19353844",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6d425e3b-28e5-4224-8a15-27336ee99c68.LOFI.mp3",
+"name": "Nothing But Happiness",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-08-16"
+},
+{
+"minute": 39,
+"artist": "Riva Starr",
+"title": "Love You Till' Tomorrow",
+"label": "Glitterbox",
+"bp": "bp:18938986",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/44f37a64-fbbf-497b-86be-13ad6edaf239.LOFI.mp3",
+"name": "Love You Till Tomorrow",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-05-03"
+},
+{
+"minute": 42,
+"artist": "Seamus Haji Feat. Mike Dunn",
+"title": "Serious",
+"label": "Big Love",
+"bp": "bp:18770768",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/acdec1b4-2e2a-4d10-9222-c2a53e0c78dc.LOFI.mp3",
+"name": "Serious",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-03-29"
+},
+{
+"minute": 47,
+"artist": "Shakedown & Booty Collins",
+"title": "Funky & You Know It (Myd Remix)",
+"label": "Glitterbox"
+},
+{
+"minute": 51,
+"id": null,
+"raw": "Deepstar feat. Donna Allen \u2013 Sugar (Richard Earnshaw Remix)"
+},
+{
+"minute": 56,
+"artist": "Danou P Feat. Jamie 326",
+"title": "Fly",
+"label": "Big Love",
+"bp": "bp:18613707",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/f83e6bca-778f-4a2b-a1be-3bf628cc1ac3.LOFI.mp3",
+"name": "Fly",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2024-02-23"
+},
+{
+"minute": 61,
+"artist": "Kelly G. X Candi Staton",
+"title": "Power Of One (Kelly G. Shelter Dub)",
+"label": "Glitterbox"
+}
+]
+},
+{
+"title": "2024-03-18 - Seamus Haji, Lovebirds - Big Love Radio Show March 2024",
+"records": []
+},
+{
+"title": "2024-04-09 - Seamus Haji, DJ Fudge - Big Love Radio Show April 2024",
+"records": [
+{
+"minute": null,
+"artist": "Melba Moore",
+"title": "My Heart Belongs To You (Groove Assassin 90's Groove Mix)",
+"label": "Soulfuric",
+"bp": "bp:18855637",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/30e003b8-01a4-4d1c-bdc4-bf2d3fe231fa.LOFI.mp3",
+"name": "My Heart Belongs To You",
+"mix": "Groove Assassin Extended Remix",
+"genre": "house",
+"released": "2024-04-12"
+},
+{
+"minute": null,
+"artist": "Michael Gray Feat. Kimberly Brown & The Sultra Gospel Singers",
+"title": "Fly Away (Extended Mix)",
+"label": "Sultra"
+},
+{
+"minute": null,
+"artist": "DJ Fudge",
+"title": "Escapade",
+"label": "Big Love",
+"bp": "bp:18856386",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f14baa3e-23d4-420e-b319-3fdc08a164bd.LOFI.mp3",
+"name": "Escapade",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-04-26"
+},
+{
+"minute": null,
+"artist": "Shakedown & Bootsy Collins",
+"title": "Funky & You Know It (Myd Remix)",
+"label": "Glitterbox"
+},
+{
+"minute": null,
+"artist": "Seamus Haji Feat. Mike Dunn",
+"title": "Serious",
+"label": "Big Love",
+"bp": "bp:18770768",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/acdec1b4-2e2a-4d10-9222-c2a53e0c78dc.LOFI.mp3",
+"name": "Serious",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-03-29"
+},
+{
+"minute": null,
+"artist": "Yvonne Gage",
+"title": "Garden Of Eve (Maurice Joshua Main Mix)",
+"label": "Maurice Joshua Digital",
+"bp": "bp:18546323",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb66668a-7be5-41d3-b016-ff6fe9fac09b.LOFI.mp3",
+"name": "Garden Of Eve",
+"mix": "Maurice Joshua Main Mix",
+"genre": "house",
+"released": "2024-02-02"
+},
+{
+"minute": null,
+"artist": "E. Live",
+"title": "Hidden Oasis",
+"label": "Star Creature",
+"bp": "bp:19077245",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aaab8391-280b-491f-81f5-673c10ee603b.LOFI.mp3",
+"name": "Hidden Oasis",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-06-07"
+},
+{
+"minute": null,
+"artist": "Charro Band De Emilio Guerrero",
+"title": "Movin'",
+"label": "",
+"bp": "bp:18697825",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90e25fd9-fb8a-4206-817b-1162b3094239.LOFI.mp3",
+"name": "Movin",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-03-01"
+},
+{
+"minute": null,
+"artist": "Black Rascals Feat. Cassio Ware",
+"title": "So In Love (Atjazz Galaxy Aart Remix)",
+"label": "Slip'n'Slide"
+},
+{
+"minute": null,
+"artist": "Jamiroquai",
+"title": "Canned Heat (Album Version)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Jamiroquai",
+"title": "Canned Heat (FR Rework)",
+"label": "White"
+},
+{
+"minute": null,
+"artist": "Franck Roger Feat. Rimarkable",
+"title": "Part Of My Soul",
+"label": "Nu Groove"
+},
+{
+"minute": null,
+"artist": "Rulers Of The Deep & Ricky Inch Feat. Mr. V",
+"title": "Let's Work (Extended Version)",
+"label": "Soulfuric Deep"
+},
+{
+"minute": null,
+"artist": "Mark Broom",
+"title": "Showtime",
+"label": "REKIDS",
+"bp": "bp:18633928",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f6e1916-146f-4b51-b039-a9cf47bd81f9.LOFI.mp3",
+"name": "Showtime",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-02-23"
+},
+{
+"minute": null,
+"artist": "Wh0 Feat. Anelisa Lamola",
+"title": "The Power (Extended Mix)",
+"label": "Sweat It Out!"
+},
+{
+"minute": null,
+"artist": "Geoffrey C",
+"title": "This Is Hot (CoFlo Edit)",
+"label": "Unquantize",
+"bp": "bp:18700325",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aab27960-cd91-4963-aea5-3e0198d1303f.LOFI.mp3",
+"name": "This Is Hot (Yes Indeedy)",
+"mix": "Coflo Edit",
+"genre": "house",
+"released": "2024-03-08"
+},
+{
+"minute": null,
+"artist": "E. Live",
+"title": "Hidden Oasis",
+"label": "Star Creature",
+"bp": "bp:19077245",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aaab8391-280b-491f-81f5-673c10ee603b.LOFI.mp3",
+"name": "Hidden Oasis",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-06-07"
+},
+{
+"minute": null,
+"artist": "Sweet Georgie X Ed Ramsey X Peter Mac",
+"title": "Soul Deep (Emmaculate Extended Remix)",
+"label": "Category 1 Music",
+"bp": "bp:18805707",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/3c4d45ea-6b50-4302-b0d6-00db11dd4600.LOFI.mp3",
+"name": "Soul Deep",
+"mix": "Emmaculate Extended Remix",
+"genre": "house",
+"released": "2024-03-22"
+},
+{
+"minute": null,
+"artist": "Stacy Kidd",
+"title": "Nobody (Main Mix)",
+"label": "House 4 Life"
+},
+{
+"minute": null,
+"artist": "Simone Green",
+"title": "Don't Say Nothing (CoFlo Dub)",
+"label": "Anka Shank Music"
+},
+{
+"minute": null,
+"artist": "Raffaele Ciavolino",
+"title": "Coconuts",
+"label": "White Coffee",
+"bp": "bp:18458898",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a192fd80-1624-420b-9d9c-8086376adee5.LOFI.mp3",
+"name": "Coconuts",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2024-04-05"
+},
+{
+"minute": null,
+"artist": "Groove P",
+"title": "Are They Real (Extended Mix)",
+"label": "Pleased As Punch",
+"bp": "bp:18356947",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f0503e8-d8fc-4b7d-a964-b5120c280634.LOFI.mp3",
+"name": "Are They Real",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2023-12-15"
+},
+{
+"minute": null,
+"artist": "DJ Fudge",
+"title": "Escapade",
+"label": "Big Love",
+"bp": "bp:18856386",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f14baa3e-23d4-420e-b319-3fdc08a164bd.LOFI.mp3",
+"name": "Escapade",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-04-26"
+},
+{
+"minute": null,
+"artist": "DJ Fudge",
+"title": "Arrastra",
+"label": "United",
+"bp": "bp:18564771",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e6f9cd04-a193-4e04-aeac-4e0bc8cdad00.LOFI.mp3",
+"name": "Arrastra",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-02-09"
+},
+{
+"minute": null,
+"artist": "Wh0 Feat. Anelisa Lamola",
+"title": "The Power (Extended Mix)",
+"label": "Sweat It Out!"
+},
+{
+"minute": null,
+"artist": "Fergie",
+"title": "Fergalicious (Ralph Session NYC Boot Tapes Mix)",
+"label": "White"
+},
+{
+"minute": null,
+"artist": "The Beat-Trayers",
+"title": "Big Bad City (Mortimer Snerd III Full Dizko Splaz)",
+"label": "Miggedy Entertainment",
+"bp": "bp:18603289",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/70afec81-8904-460c-a924-149079bd3f18.LOFI.mp3",
+"name": "Big Bad City",
+"mix": "MS III Full Dizko Slapz",
+"genre": "nu-disco-disco",
+"released": "2024-03-01"
+},
+{
+"minute": null,
+"artist": "Yvonne Gage",
+"title": "Garden Of Eve (Maurice Joshua Main Mix)",
+"label": "Maurice Joshua Digital",
+"bp": "bp:18546323",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb66668a-7be5-41d3-b016-ff6fe9fac09b.LOFI.mp3",
+"name": "Garden Of Eve",
+"mix": "Maurice Joshua Main Mix",
+"genre": "house",
+"released": "2024-02-02"
+}
+]
+},
+{
+"title": "2024-04-19 - Seamus Haji, Franck Roger - 4 To The Floor Radio Show 053",
+"records": [
+{
+"minute": null,
+"artist": "Melba Moore",
+"title": "My Heart Belongs To You (Groove Assassin 90's Groove Mix)",
+"label": "Soulfuric",
+"bp": "bp:18855637",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/30e003b8-01a4-4d1c-bdc4-bf2d3fe231fa.LOFI.mp3",
+"name": "My Heart Belongs To You",
+"mix": "Groove Assassin Extended Remix",
+"genre": "house",
+"released": "2024-04-12"
+},
+{
+"minute": null,
+"artist": "Federation X",
+"title": "Odyssey One (Club Mix)",
+"label": "Swing City"
+},
+{
+"minute": null,
+"artist": "Butch Quick",
+"title": "Always (Smack Club Mix)",
+"label": "Emotive"
+},
+{
+"minute": null,
+"artist": "Orange Muse",
+"title": "Keep The Funk Alive (Jazz-N-Groove Primetime Mix)",
+"label": "Soulfuric Deep",
+"bp": "bp:18802594",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eaf00af5-46ef-4d7d-8eab-a44c0400f0f0.LOFI.mp3",
+"name": "Keep The Funk Alive",
+"mix": "Jazz-N-Groove Primetime Extended Mix",
+"genre": "house",
+"released": "2024-03-29"
+},
+{
+"minute": null,
+"artist": "R. Trent / C. Damier",
+"title": "Morning Factory",
+"label": "Prescription",
+"bp": "bp:1440485",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/555af0c0-e364-486f-be30-09648b3f6115.LOFI.mp3",
+"name": "Morning Factory",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2010-10-05"
+},
+{
+"minute": null,
+"artist": "USG",
+"title": "Ncameu",
+"label": "Clairaudience",
+"bp": "bp:6723562",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/606d0c96-209a-4637-b23d-5e2136cd1337.LOFI.mp3",
+"name": "Ncameu",
+"mix": "Ron Trent Main Mix",
+"genre": "deep-house",
+"released": "2015-07-06"
+},
+{
+"minute": null,
+"artist": "Azymuth",
+"title": "Fenix (Ron Trent Remix)",
+"label": "Far Out",
+"bp": "bp:9044354",
+"score": 0.88,
+"preview": "https://geo-samples.beatport.com/track/557b3b90-fd0f-47f1-acc0-aa07e3aaa4f5.LOFI.mp3",
+"name": "F\u00eanix",
+"mix": "Ron Trent Remix",
+"genre": "house",
+"released": "2017-05-19"
+},
+{
+"minute": null,
+"artist": "Russ Brown",
+"title": "Gotta Find A Way",
+"label": "Jump Street",
+"bp": "bp:12124071",
+"score": 0.55,
+"preview": "https://geo-samples.beatport.com/track/6b297819-1355-4532-bdbd-3fdb1a6eb55a.LOFI.mp3",
+"name": "Gotta Find A Way",
+"mix": "Album Version",
+"genre": "trap-future-bass",
+"released": "1996-01-01"
+},
+{
+"minute": null,
+"artist": "Willie Colon",
+"title": "Set Fire To Me (Latin Jazzbo Version)",
+"label": "A&M"
+},
+{
+"minute": null,
+"artist": "Franck Roger Feat. Rimarkable",
+"title": "Part Of My Soul",
+"label": "Nu Groove"
+},
+{
+"minute": null,
+"artist": "Rulers Of The Deep & Ricky Inch Feat. Mr. V",
+"title": "Let's Work (Extended Version)",
+"label": "Soulfuric Deep"
+},
+{
+"minute": null,
+"artist": "Musclecars",
+"title": "Running Out Of Time",
+"label": "BBE",
+"bp": "bp:18489183",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2e15adab-5795-45cd-a2b1-919621c807b9.LOFI.mp3",
+"name": "Running Out Of Time",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-01-19"
+},
+{
+"minute": null,
+"artist": "N.Y. House'n Authority",
+"title": "Fort Green House (Daniel Steinberg Edit)",
+"label": "Nu Groove",
+"bp": "bp:18833254",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a00bcf1-ddec-4cc3-a323-6ec4b89ff476.LOFI.mp3",
+"name": "Fort Green House",
+"mix": "Daniel Steinberg Edit",
+"genre": "deep-house",
+"released": "2024-04-05"
+},
+{
+"minute": null,
+"artist": "Roach Motel",
+"title": "The Night (Deep Nite Mix)",
+"label": "Four To The Floor",
+"bp": "bp:7571214",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cf014e50-090d-4034-a4a3-acc5b190af7f.LOFI.mp3",
+"name": "The Night",
+"mix": "Deep Nite Mix",
+"genre": "house",
+"released": "2016-02-05"
+},
+{
+"minute": null,
+"artist": "Black Rascals Feat. Cassio Ware",
+"title": "So In Love (Atjazz Galaxy Aart Remix)",
+"label": "Slip N Slide"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "You're The One For Me",
+"label": "Real Tone",
+"bp": "bp:19704498",
+"score": 0.859,
+"preview": "https://geo-samples.beatport.com/track/d3481f5f-2078-4655-aefe-69ea8f18abed.LOFI.mp3",
+"name": "You're For Me",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-12-06"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "Can't Get Enough",
+"label": "Real Tone",
+"bp": "bp:18834919",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a026fca3-bd1e-40bf-bdd1-937dd0ecc12f.LOFI.mp3",
+"name": "Can't Get Enough",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-04-26"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "Sexuality (Vocal Version)",
+"label": "Real Tone",
+"bp": "bp:19042574",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e88a48dc-276f-4d52-873d-af4895c2e431.LOFI.mp3",
+"name": "Sexuality",
+"mix": "Vocal Version",
+"genre": "deep-house",
+"released": "2024-06-21"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "Imagine",
+"label": "Earthrumental",
+"bp": "bp:18935648",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc671c91-a811-400d-8240-b904c859ce21.LOFI.mp3",
+"name": "Imagine",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-05-24"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "Into The Deep",
+"label": "Real Tone",
+"bp": "bp:19070028",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/69e0fbfb-49c2-49fa-a8aa-bd50330193b0.LOFI.mp3",
+"name": "Into The Deep",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-06-24"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "Enchanted (Fred Everything Remix)",
+"label": "Vibe Me To The Moon",
+"bp": "bp:18807509",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1afa3a16-8aeb-40af-81f7-b3732aa2fed1.LOFI.mp3",
+"name": "Enchanted",
+"mix": "Fred Everything Remix",
+"genre": "deep-house",
+"released": "2024-04-19"
+},
+{
+"minute": null,
+"artist": "Blaze",
+"title": "Lovelee Dae (Franck Roger Remix)",
+"label": "Slip N Slide",
+"bp": "bp:18991710",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dd2142b8-736e-4933-84d8-6c714d5dfcb3.LOFI.mp3",
+"name": "Lovelee Dae",
+"mix": "Franck Roger Extended Remix",
+"genre": "deep-house",
+"released": "2024-05-17"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "Missin' Person",
+"label": "Earthrumental",
+"bp": "bp:19101105",
+"score": 0.978,
+"preview": "https://geo-samples.beatport.com/track/75678ca1-525c-4c9f-b243-900033b74433.LOFI.mp3",
+"name": "Missing Person",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-07-05"
+},
+{
+"minute": null,
+"artist": "Frank Roger",
+"title": "Radik'Hall",
+"label": "Nu Groove",
+"bp": "bp:18885560",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/a4ccb226-9200-4d22-9717-2261450753c5.LOFI.mp3",
+"name": "Radik'Hall",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-04-19"
+},
+{
+"minute": null,
+"artist": "Franck Roger",
+"title": "Limitless",
+"label": "Earthrumental",
+"bp": "bp:18657496",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a059de5-a1dd-4c33-a762-996d4edb76eb.LOFI.mp3",
+"name": "Limitless",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-03-15"
+},
+{
+"minute": null,
+"artist": "Toby Simpson",
+"title": "I'm Surprised",
+"label": "Real Tone",
+"bp": "bp:18990504",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c7ac23a1-9741-4568-8276-a96666d6a186.LOFI.mp3",
+"name": "I'm Surprised",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2024-06-07"
+},
+{
+"minute": null,
+"artist": "Arno E. Mathieu",
+"title": "Theme Du Soleil (A Casa Edit)",
+"label": "Earthrumental",
+"bp": "bp:20036250",
+"score": 0.96,
+"preview": "https://geo-samples.beatport.com/track/7e14ca38-7f4e-4938-bb30-058e0d9b078d.LOFI.mp3",
+"name": "Th\u00e8me Du Soleil",
+"mix": "A Casa Edit",
+"genre": "deep-house",
+"released": "2024-09-16"
+}
+]
+},
+{
+"title": "2024-12-18 - Seamus Haji, DJ Spen - 4 To The Floor Radio Show 060",
+"records": [
+{
+"minute": null,
+"artist": "RaShaan Houston",
+"title": "Be With You (Pound Boys Vocal Mix)",
+"label": "Guesthouse",
+"bp": "bp:5978949",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae17ae2d-f75d-4b34-aa7f-fb6a93dfe08d.LOFI.mp3",
+"name": "Be With You",
+"mix": "Pound Boys Vocal 2014 REMASTER",
+"genre": "jackin-house",
+"released": "2014-11-20"
+},
+{
+"minute": null,
+"artist": "Seamus Haji Pres.Mekah Feat. Steven Granville",
+"title": "Race Of Survival (Moplen Remix)",
+"label": "Big Love"
+},
+{
+"minute": null,
+"artist": "Towa Tei",
+"title": "Luv Connection (Mousse T Club Mix)",
+"label": "Elektra"
+},
+{
+"minute": null,
+"artist": "Sixth Sense",
+"title": "Don't You Feel It (TMVS Original Club Mix)",
+"label": "Vjs",
+"bp": "bp:13765592",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fd9ba1ba-f8aa-4046-9085-52efd6f95102.LOFI.mp3",
+"name": "Don't You Feel It",
+"mix": "Tmvs Club Mix",
+"genre": "house",
+"released": "2020-06-01"
+},
+{
+"minute": null,
+"artist": "DJ Spen Pres. Jasper Street Company",
+"title": "A Feeling (Paradox Vocal Mix)",
+"label": "Basement Boys"
+},
+{
+"minute": null,
+"artist": "DJ Spen",
+"title": "Craze At Midnight (DJ Spen Live CDJ1000 Remix)",
+"label": "Ith",
+"bp": "bp:883136",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d06dced4-b849-4ebb-8d1f-885662d55304.LOFI.mp3",
+"name": "Craze At Midnight",
+"mix": "Spen\u2019s Live CDJ1000 Mix",
+"genre": "house",
+"released": "2009-06-29"
+},
+{
+"minute": null,
+"artist": "DJ Spen & The Muthafunkaz Feat. Ann Nesby",
+"title": "It's So Easy",
+"label": "Code Red"
+},
+{
+"minute": null,
+"artist": "J.M. Silk",
+"title": "Music Is The Key (House Key)",
+"label": "D.J. International",
+"bp": "bp:967955",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/02c4dfac-2adf-4c5f-858e-075725d43c9b.LOFI.mp3",
+"name": "Music Is The Key",
+"mix": "Original Mix",
+"genre": "house",
+"released": "1985-01-01"
+},
+{
+"minute": null,
+"artist": "Aphrodisiac",
+"title": "Song Of The Siren (Dazzle Drums Remix)",
+"label": "Nu Groove",
+"bp": "bp:20002364",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/060dcb60-5ce7-45d4-9ff5-83bf7fbc35cf.LOFI.mp3",
+"name": "Song Of The Siren",
+"mix": "Dazzle Drums Remix",
+"genre": "deep-house",
+"released": "2025-02-07"
+},
+{
+"minute": null,
+"artist": "Lood Feat. Donell Rush",
+"title": "Shout-N-Out (Dennis Quin Remix)",
+"label": "Defected",
+"bp": "bp:20652685",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/ff78ad8c-897d-4fde-9416-1e8d3869a549.LOFI.mp3",
+"name": "Shout-N-Out ",
+"mix": "Dennis Quin Remix",
+"genre": "house",
+"released": "2025-07-18"
+},
+{
+"minute": null,
+"artist": "Dreamer G",
+"title": "I Got That Feeling (Demuir Playboi Edit)",
+"label": "Champion",
+"bp": "bp:19449189",
+"score": 0.983,
+"preview": "https://geo-samples.beatport.com/track/8fd5b185-3883-4a82-bb53-c71443e0b09f.LOFI.mp3",
+"name": "I Got That Feelin'",
+"mix": "Demuir's Playboi Edit",
+"genre": "house",
+"released": "2024-09-27"
+},
+{
+"minute": null,
+"artist": "DJ Steaw",
+"title": "Holding On",
+"label": "Phonogramme",
+"bp": "bp:19799171",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f86f0afa-83cc-4a01-9d09-2b077f7698b3.LOFI.mp3",
+"name": "Holding On",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-11-25"
+},
+{
+"minute": null,
+"artist": "E-N",
+"title": "The Horn Ride (Danny Tenaglia Remix)",
+"label": "Tribal America",
+"bp": "bp:464723",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8a45eb7e-63b8-48d3-ba9a-f891cbb1f756.LOFI.mp3",
+"name": "The Horn Ride",
+"mix": "Danny Tenaglia Remix",
+"genre": "house",
+"released": "2007-12-28"
+},
+{
+"minute": null,
+"artist": "Ralph Falcon",
+"title": "That Sound (Vox Mix)",
+"label": "Miami Soul"
+},
+{
+"minute": null,
+"artist": "UBQ Project Feat. Kathy Summers",
+"title": "Feel My Soul (Aaron Smith Chicago Mix)",
+"label": "House-N-Effect"
+},
+{
+"minute": null,
+"artist": "Soul Central Feat. Kathy Brown",
+"title": "Strings Of Life (Stronger On My Own) (The Funky Lowlives Remix)",
+"label": "Defected"
+},
+{
+"minute": null,
+"artist": "Kahnti",
+"title": "My Boo Thing (Kahnti & DJ Spen Remix)",
+"label": "Unquantize",
+"bp": "bp:19620070",
+"score": 0.95,
+"preview": "https://geo-samples.beatport.com/track/f31e4d9c-6027-4edc-aff8-b11461557c29.LOFI.mp3",
+"name": "My Boo Thang",
+"mix": "Kahnti & DJ Spen Remix",
+"genre": "afro-house",
+"released": "2024-10-25"
+},
+{
+"minute": null,
+"artist": "Aaron K. Gray & DJ Spen & Gary Hudgins",
+"title": "Obey",
+"label": "Quantize",
+"bp": "bp:19063771",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9531321e-5efa-4ce2-bf9e-c287a4ad15a6.LOFI.mp3",
+"name": "Obey",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-06-14"
+},
+{
+"minute": null,
+"artist": "The Sunburst Band",
+"title": "Journey To The Sun (Dennis Ferrer Remix)",
+"label": "",
+"bp": "bp:599043",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e32a2281-1830-42ab-aa76-cd621fd1f2cc.LOFI.mp3",
+"name": "Journey To The Sun",
+"mix": "Dennis Ferrer Remix",
+"genre": "deep-house",
+"released": "2008-06-16"
+},
+{
+"minute": null,
+"artist": "Seamus Haji Feat. Stephen Granville",
+"title": "Race Of Survival (DJ Spen & Michele Chiavarini Praise Party Mix)",
+"label": "Big Love",
+"bp": "bp:19689120",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/e63b0766-d18e-42f2-a851-a7c0216aa54e.LOFI.mp3",
+"name": "Race Of Survival",
+"mix": "DJ Spen & Michele Chiavarini Praise Party Xtra",
+"genre": "house",
+"released": "2024-11-08"
+},
+{
+"minute": null,
+"artist": "Michael Jackson",
+"title": "Don't Stop 'Til You Get Enough",
+"label": "",
+"bp": "bp:6337604",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c6729f96-14a9-495f-9147-c0d0971d797b.LOFI.mp3",
+"name": "Don't Stop 'Til You Get Enough",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "1999-10-08"
+},
+{
+"minute": null,
+"artist": "Bellaire & Aaron K. Gray",
+"title": "Never Stop Dancing (Kelly G. Shelter Dub)",
+"label": "Glitterbox",
+"bp": "bp:19770769",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2dc5899-0918-4e2b-b612-29d92eabbc91.LOFI.mp3",
+"name": "Never Stop Dancing",
+"mix": "Kelly G. Extended Shelter Dub",
+"genre": "house",
+"released": "2024-11-29"
+},
+{
+"minute": null,
+"artist": "Black Coffee Feat. Bucie",
+"title": "Superman",
+"label": "Soulistic",
+"bp": "bp:15757311",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/d74da52d-58de-4008-80ff-9917d0b406aa.LOFI.mp3",
+"name": "Superman",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2012-10-01"
+},
+{
+"minute": null,
+"artist": "Tems",
+"title": "Me & U (Duane Remix)",
+"label": "Since 93"
+},
+{
+"minute": null,
+"artist": "DJ Spen & Reelsoul Feat. Cleveland P. Jones",
+"title": "& Forever",
+"label": "Unquantize",
+"bp": "bp:29284005",
+"score": 0.693,
+"preview": "https://geo-samples.beatport.com/track/a91ed524-cee4-4f48-ac07-27e45c4ed988.LOFI.mp3",
+"name": "& Forever",
+"mix": "Karizma Dub Mix",
+"genre": "deep-house",
+"released": "2026-06-26"
+},
+{
+"minute": null,
+"artist": "Roy Davis Jr. Feat. Peven Everett",
+"title": "Gabriel",
+"label": "Large",
+"bp": "bp:5335044",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/5e55d1dc-8afa-4882-abf5-9f5d893e4f10.LOFI.mp3",
+"name": "Gabriel",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2014-05-11"
+},
+{
+"minute": null,
+"artist": "Eddie Johns",
+"title": "More Spell On You",
+"label": "Wagram"
+},
+{
+"minute": null,
+"artist": "DJ Spen & Ziggy Funk Feat. Gary Hudgins",
+"title": "Don't Be Afraid",
+"label": "Quantize",
+"bp": "bp:6101890",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/32e11509-d588-4f14-bcf8-64800cfefba5.LOFI.mp3",
+"name": "Don't Be Afraid",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2014-12-22"
+},
+{
+"minute": null,
+"artist": "The Vision vs Armand Van Helden & Durane Harden",
+"title": "Heaven vs You Don't Know Me (Mashup)",
+"label": "",
+"bp": "bp:13037295",
+"score": 0.664,
+"preview": "https://geo-samples.beatport.com/track/09e318b6-43df-4a02-a344-beaba3cae40e.LOFI.mp3",
+"name": "You Don't Know Me (feat. Duane Harden)",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "1998-01-01"
+},
+{
+"minute": null,
+"artist": "Nina Simone",
+"title": "I Put A Spell On You",
+"label": "Verve",
+"bp": "bp:30750611",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/64f160fc-b4bf-4863-a75c-7ff0308b6300.LOFI.mp3",
+"name": "I Put A Spell On You",
+"mix": "Austin Millz Remix",
+"genre": "dance-pop",
+"released": "2026-10-14"
+}
+]
+},
+{
+"title": "2025-04-18 - Seamus Haji, Jimpster - 4 To The Floor Radio Show 063",
+"records": [
+{
+"minute": null,
+"artist": "Ann Nesby & DJ Spen",
+"title": "I Feel (DJ Spen Disco Dreams Re Edit)",
+"label": "Quantize"
+},
+{
+"minute": null,
+"artist": "Ben Westbeech Feat. Dames Brown",
+"title": "Do Me Right (Crackazat Remix)",
+"label": "Glitterbox"
+},
+{
+"minute": null,
+"artist": "Ten City",
+"title": "Goin' Up In Smoke",
+"label": "Columbia",
+"bp": "bp:4783500",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ab0c121d-8ee5-496d-b798-e083059e47db.LOFI.mp3",
+"name": "Goin' Up In Smoke",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2009-02-02"
+},
+{
+"minute": null,
+"artist": "Roberta Flack",
+"title": "Uh Uh Ooh Ooh Look Out (Here It Comes)",
+"label": "Atlantic",
+"bp": "bp:25146439",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/23e2d3ee-cd09-4dc0-b683-25e503ea909d.LOFI.mp3",
+"name": "Uh-Uh Ooh-Ooh Look Out (Here It Comes)",
+"mix": "Here It Comes",
+"genre": "pop",
+"released": "1988-11-01"
+},
+{
+"minute": null,
+"artist": "Jimpster",
+"title": "Dangly Panther",
+"label": "Freerange",
+"bp": "bp:15461970",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c26b8bd7-c454-41f7-badc-6820c40e63a4.LOFI.mp3",
+"name": "Dangly Panther",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2021-07-02"
+},
+{
+"minute": null,
+"artist": "Osunlade",
+"title": "Momma's Groove (Jimpster Hip Replacement Mix)",
+"label": "Strictly Rhythm",
+"bp": "bp:12891099",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9724db86-5b47-4511-85f0-25ebd3738d5f.LOFI.mp3",
+"name": "Momma's Groove",
+"mix": "Jimpster's Hip Replacement Mix",
+"genre": "house",
+"released": "2019-12-13"
+},
+{
+"minute": null,
+"artist": "Mr. V",
+"title": "Somethin Wit Jazz (Jimpster Remix)",
+"label": "Razor-N-Tape",
+"bp": "bp:8422792",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ca313b69-44d6-4350-bc0e-5696e0d6b2ae.LOFI.mp3",
+"name": "Somethin' Wit Jazz",
+"mix": "Jimpster Remix",
+"genre": "house",
+"released": "2016-10-24"
+},
+{
+"minute": null,
+"artist": "Chip E",
+"title": "Time To Jack",
+"label": "Houserecordings (Plasmapool)",
+"bp": "bp:30670010",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/59ca36ff-1bc3-44a9-9ad8-de102ed7fe6c.LOFI.mp3",
+"name": "Time To Jack",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-09-29"
+},
+{
+"minute": null,
+"artist": "Adonis",
+"title": "No Way Back (Vocal Mix)",
+"label": "Trax (Phuture Trax)"
+},
+{
+"minute": null,
+"artist": "John Julius Knight",
+"title": "Find A Friend (FIMIANI Remix)",
+"label": "Soulfuric Trax",
+"bp": "bp:20372459",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b90ec154-1ca2-4813-b040-0d0b3b3470a9.LOFI.mp3",
+"name": "Find A Friend",
+"mix": "Fimiani Extended Remix",
+"genre": "house",
+"released": "2025-04-25"
+},
+{
+"minute": null,
+"artist": "T.Markakis & Blanco K",
+"title": "Havana Jazz",
+"label": "Soulfuric Deep",
+"bp": "bp:20306712",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/16520e33-1fd0-4a85-b923-abc6a59ac0fa.LOFI.mp3",
+"name": "Havana Jazz",
+"mix": "Extended Mix",
+"genre": "deep-house",
+"released": "2025-04-11"
+},
+{
+"minute": null,
+"artist": "Abel Feat. Brutha Basil",
+"title": "Hand Made (Rocco Rodamaal Unreleased Remix)",
+"label": "Atjazz",
+"bp": "bp:20240835",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/3a9d9bf2-1d73-471c-a5e3-572e98957fd9.LOFI.mp3",
+"name": "Hand Made",
+"mix": "Rocco Rodamaal Unreleased Remix",
+"genre": "deep-house",
+"released": "2025-03-21"
+},
+{
+"minute": null,
+"artist": "Juliette Mendoza",
+"title": "Juju Love",
+"label": "Nu Groove",
+"bp": "bp:20306374",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/e0e2de3b-a3dd-4987-aca4-55c7b7f789c2.LOFI.mp3",
+"name": "JuJu Love",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-04-11"
+},
+{
+"minute": null,
+"artist": "Francis Overcast",
+"title": "I Ain't (Kenny Dope Remix)",
+"label": "Dopewax",
+"bp": "bp:13616802",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c3fc9c8-e9ad-4950-85ee-5546afb7c87e.LOFI.mp3",
+"name": "I Ain't",
+"mix": "Kenny Dope Remix",
+"genre": "afro-house",
+"released": "2020-05-29"
+},
+{
+"minute": null,
+"artist": "Arnold Jarvis & Kerri Chandler",
+"title": "Inspiration",
+"label": "Soulstar",
+"bp": "bp:277575",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/73e5320d-6398-4df3-9481-a776d8fee022.LOFI.mp3",
+"name": "Inspiration",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2001-01-23"
+},
+{
+"minute": null,
+"artist": "Medlar Feat. DeeVoeNay",
+"title": "Dot The T's",
+"label": "",
+"bp": "bp:20121985",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/29e05f9b-cc82-45ea-a94f-2594f35fa8e1.LOFI.mp3",
+"name": "Dot The T's (feat. DeeVoeNay)",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2025-02-28"
+},
+{
+"minute": null,
+"artist": "Patrick Gibin",
+"title": "Mo Matter What",
+"label": "Mother Tongue",
+"bp": "bp:19832632",
+"score": 0.957,
+"preview": "https://geo-samples.beatport.com/track/d08aee29-d040-4fe3-b606-dfc88cb46846.LOFI.mp3",
+"name": "No Matter What",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-12-05"
+},
+{
+"minute": null,
+"artist": "Alma Negra",
+"title": "The Vibe",
+"label": "Delusions Of Grandeur",
+"bp": "bp:19964947",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3df2b7ff-18c8-4ceb-970c-5b0919eb3a0d.LOFI.mp3",
+"name": "The Vibe",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-02-14"
+},
+{
+"minute": null,
+"artist": "Takuya Matsumoto",
+"title": "5AM",
+"label": "Inhale Exhale",
+"bp": "bp:20062028",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/65f92265-cbfb-4647-b8d5-40014c2cee95.LOFI.mp3",
+"name": "5Am",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-02-14"
+},
+{
+"minute": null,
+"artist": "Franck Roger & Arnold Jarvis",
+"title": "Living My Life (Jimpster Remix)",
+"label": "Seasons",
+"bp": "bp:20392042",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6879f41-94b5-4ba9-8b2b-d3686ec9e01d.LOFI.mp3",
+"name": "Living My Life (feat. Arnold Jarvis)",
+"mix": "Jimpster Remix",
+"genre": "deep-house",
+"released": "2025-04-16"
+},
+{
+"minute": null,
+"artist": "Jimpster",
+"title": "You Got My Love",
+"label": "Nu Groove",
+"bp": "bp:20159557",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9226e09-305a-4919-a575-301cc20d4cb4.LOFI.mp3",
+"name": "You Got My Love",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-03-14"
+},
+{
+"minute": null,
+"artist": "Playing' 4 The City",
+"title": "Chicago Nights",
+"label": "",
+"bp": "bp:999633",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/1fa3cf9d-fba9-4c87-b94e-6f36265b4b25.LOFI.mp3",
+"name": "Chicago Nights",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2009-11-06"
+},
+{
+"minute": null,
+"artist": "Mike Agent X Clark Feat. Dr Tinglefingers",
+"title": "In The House Club (Jimpster Remix)",
+"label": "Shadow"
+},
+{
+"minute": null,
+"artist": "Jimpster Feat. Oliver Night",
+"title": "Lightening In Me",
+"label": "Nu Groove"
+},
+{
+"minute": null,
+"artist": "Denats",
+"title": "The Truth (Demuir Playboi Edit)",
+"label": "Purveyor Underground",
+"bp": "bp:20063674",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f80fa6b-006e-4944-aec3-8ac18f7b902c.LOFI.mp3",
+"name": "The Truth",
+"mix": "Demuir's Playboi Edit",
+"genre": "jackin-house",
+"released": "2025-02-07"
+},
+{
+"minute": null,
+"artist": "Megatronic",
+"title": "Casey Screams",
+"label": "Freerange",
+"bp": "bp:20108553",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0c70d489-1a3a-4323-a808-8f44de9b4764.LOFI.mp3",
+"name": "Casey Screams",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-03-07"
+},
+{
+"minute": null,
+"artist": "James Kumo",
+"title": "Loosen Up",
+"label": "Freerange"
+},
+{
+"minute": null,
+"artist": "Jaymz Nylon",
+"title": "Shango (King Britt Pres. Oba Funke Remix)",
+"label": "Irma",
+"bp": "bp:3852849",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d85acd30-ed61-4167-b40f-3850a9340a9b.LOFI.mp3",
+"name": "Shango",
+"mix": "King Britt's Oba Funke Remix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2012-10-30"
+},
+{
+"minute": null,
+"artist": "Vincent Montana Jr.",
+"title": "The African Track (Louis Benedetti Mix)",
+"label": "Philly Sound Works"
+},
+{
+"minute": null,
+"artist": "Jimpster",
+"title": "Beat Of An Era",
+"label": "Nu Groove",
+"bp": "bp:20159556",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9c404285-7991-4143-b5bb-5f057033ae95.LOFI.mp3",
+"name": "Beat Of An Era",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-03-14"
+},
+{
+"minute": null,
+"artist": "Johnny D & NICKYP",
+"title": "Bone Up!",
+"label": "4th Floor",
+"bp": "bp:16070163",
+"score": 0.617,
+"preview": "https://geo-samples.beatport.com/track/99446373-843f-4ce5-9a22-3dd88cc6a7a0.LOFI.mp3",
+"name": "Bone Up!",
+"mix": "Henry St. Mix",
+"genre": "house",
+"released": "2001-03-09"
+},
+{
+"minute": null,
+"artist": "Osunlade",
+"title": "The Way U Left Me",
+"label": "R2",
+"bp": "bp:19971184",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/de7f9ad1-bf2a-40e6-88b4-1d2567b03d09.LOFI.mp3",
+"name": "The Way U Left Me",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-01-31"
+}
+]
+},
+{
+"title": "2025-10-17 - Seamus Haji, Gledd - Big Love Radio Show October 2025",
+"records": [
+{
+"minute": null,
+"artist": "Leon Ware",
+"title": "Journey Into You (Love Drop Rework)",
+"label": "White"
+},
+{
+"minute": null,
+"artist": "TJM",
+"title": "Small Circle Of Friends (Moplen Remix)",
+"label": "High Fashion Music",
+"bp": "bp:22008227",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/83769457-5ab1-4cc3-a6cd-5dfc78f92a84.LOFI.mp3",
+"name": "Small Circle Of Friends",
+"mix": "Moplen Remix",
+"genre": "dance-pop",
+"released": "2025-10-24"
+},
+{
+"minute": null,
+"artist": "ATFC Pres. OnePhatDeeva Feat. Lisa Millett",
+"title": "Bad Habit (Brian Tappert Edit)",
+"label": "Defected"
+},
+{
+"minute": null,
+"artist": "Ron Carroll vs The O'Jays",
+"title": "Message In The Mashup (Groove Junkiees Edit)",
+"label": "White"
+},
+{
+"minute": null,
+"artist": "Melvo Baptiste Feat. Annette Bowen",
+"title": "Did You Pray Today? (Dave Lee Redemption Odyssey Mix)",
+"label": "Glitterbox",
+"bp": "bp:21777701",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/bcbe8b25-80e7-4473-8a1a-5330e83dd911.LOFI.mp3",
+"name": "Did You Pray Today?",
+"mix": "Dave Lee Redemption Extended Mix",
+"genre": "dance-pop",
+"released": "2025-10-17"
+},
+{
+"minute": null,
+"artist": "D'Angelo",
+"title": "Girl You Need A Change Of Mind",
+"label": "",
+"bp": "bp:1715385",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c2ed418c-b47e-4192-8419-ba77f16342d1.LOFI.mp3",
+"name": "Girl You Need A Change Of Mind",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2008-01-01"
+},
+{
+"minute": null,
+"artist": "Another Taste",
+"title": "Run Into Love",
+"label": "Space Grapes"
+},
+{
+"minute": null,
+"artist": "Kenny Dope Feat. Roisin Murphy",
+"title": "Born Under Punches (The Heat Goes On)",
+"label": "BBE",
+"bp": "bp:21036450",
+"score": 0.67,
+"preview": "https://geo-samples.beatport.com/track/73d1932f-56bc-44e0-a4ea-ec8a71bca132.LOFI.mp3",
+"name": "Born Under Punches (The Heat Goes On)",
+"mix": "The Heat Goes On",
+"genre": "dance-pop",
+"released": "2025-08-26"
+},
+{
+"minute": null,
+"artist": "E. Live",
+"title": "Rollin' Steady",
+"label": "Star Creature",
+"bp": "bp:13903317",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4f6915f6-c319-4563-be07-6fb3166161a6.LOFI.mp3",
+"name": "Rollin' Steady",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2020-09-05"
+},
+{
+"minute": null,
+"artist": "Recloose Feat. Joe Dukie",
+"title": "Dust",
+"label": "Peacefrog"
+},
+{
+"minute": null,
+"artist": "Recloose Feat. Joe Dukie",
+"title": "Dust (Aroop Roy Remix)",
+"label": "Peacefrog"
+},
+{
+"minute": null,
+"artist": "Jovonn",
+"title": "Random (Remix)",
+"label": "Nu Groove"
+},
+{
+"minute": null,
+"artist": "Ethan Gray Feat. Mandel Turner",
+"title": "Elevate Your Mind",
+"label": "Soulfuric Deep"
+},
+{
+"minute": null,
+"artist": "Demuir",
+"title": "Disco Ain't Jack",
+"label": "Desolat",
+"bp": "bp:12279704",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e06f5e4b-0b76-4f8f-ada1-060f1052b05b.LOFI.mp3",
+"name": "Disco Ain't Jack",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-07-26"
+},
+{
+"minute": null,
+"artist": "O'Flynn",
+"title": "Fara",
+"label": "Glitterbox",
+"bp": "bp:23355575",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c8ed6879-fb04-441f-97b0-521ec3b42f93.LOFI.mp3",
+"name": "Fara",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2026-01-30"
+},
+{
+"minute": null,
+"artist": "Hardsoul Feat. Ron Carroll",
+"title": "Back Together (Seamus Haji Remix)",
+"label": "Glitterbox",
+"bp": "bp:5256475",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/b7cf645d-cca0-4312-9000-34ff118ff6d6.LOFI.mp3",
+"name": "Back Together",
+"mix": "Seamus Haji Club",
+"genre": "house",
+"released": "2012-12-03"
+},
+{
+"minute": null,
+"artist": "Saint Paul",
+"title": "Don't Hold Back Da Groove (Gledd Remix)",
+"label": "Saint Wax",
+"bp": "bp:21064533",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d46b2921-3ba5-42e7-bc82-32746b9956e5.LOFI.mp3",
+"name": "Don't Hold Back da Groove",
+"mix": "Gledd Remix",
+"genre": "electronica",
+"released": "2025-08-22"
+},
+{
+"minute": null,
+"artist": "The Funk District & Sokur",
+"title": "Never Satisfied",
+"label": "Kaninchenbau",
+"bp": "bp:23679911",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6c896b56-0e56-40c9-84ea-b2bfa606fc13.LOFI.mp3",
+"name": "Never Satisfied ",
+"mix": "Original Mix",
+"genre": "funky-house",
+"released": "2026-02-27"
+},
+{
+"minute": null,
+"artist": "Laroye",
+"title": "Super Jock (Laroye Rework)",
+"label": "White"
+},
+{
+"minute": null,
+"artist": "Sourires",
+"title": "Friends",
+"label": "Saint Wax",
+"bp": "bp:21385440",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ea992c50-eefc-4a76-a643-63b9510ffbb3.LOFI.mp3",
+"name": "Friends",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-11-14"
+},
+{
+"minute": null,
+"artist": "Souldynamic",
+"title": "Sequence 4",
+"label": "White"
+},
+{
+"minute": null,
+"artist": "Fango",
+"title": "South",
+"label": "Degustibus",
+"bp": "bp:20502279",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1d29803b-ee62-434b-afce-538cd92b7d81.LOFI.mp3",
+"name": "South",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-05-23"
+},
+{
+"minute": null,
+"artist": "The Funk District",
+"title": "Alligator Groove",
+"label": "Saint Wax",
+"bp": "bp:21064502",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/80ae5ad5-a0fb-43c7-98de-a461cae59a1a.LOFI.mp3",
+"name": "Alligator Groove",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-10-01"
+},
+{
+"minute": null,
+"artist": "Barbara Tucker Pres. The The BCrew",
+"title": "Grace (Emmaculate Dub) (Danny Krivit Edit)",
+"label": "B Star Music",
+"bp": "bp:18032862",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/324daef8-e32d-4f2a-a9f3-b4caa61a0b32.LOFI.mp3",
+"name": "Grace",
+"mix": "Emmaculate Dub",
+"genre": "house",
+"released": "2023-08-25"
+},
+{
+"minute": null,
+"artist": "Gledd Feat. Joi N",
+"title": "Juno",
+"label": "Here Come The Horns"
+},
+{
+"minute": null,
+"artist": "Haverdi",
+"title": "Teremuca",
+"label": "Makonga",
+"bp": "bp:21965006",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6595b7d1-fa9e-4003-9db3-2b96c75e9276.LOFI.mp3",
+"name": "Teremuca",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-10-16"
+},
+{
+"minute": null,
+"artist": "Gledd",
+"title": "Otra Estrella (Glad Rework)",
+"label": "White"
+},
+{
+"minute": null,
+"artist": "Gledd",
+"title": "Move Me",
+"label": "Big Love",
+"bp": "bp:22188627",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8208bbe2-7638-4977-90a9-f7703378f302.LOFI.mp3",
+"name": "Move Me ",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2025-11-14"
+}
+]
+},
+{
+"title": "2025-11-21 - Seamus Haji, Rulers Of The Deep - Big Love Radio Show November 2025",
+"records": [
+{
+"minute": null,
+"artist": "Foremost Poets Feat. Johnny Dangerous",
+"title": "Beside Myself (Dave Lee Cowbell Party Mix)",
+"label": "",
+"bp": "bp:22406137",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/b26f6530-1e4b-4a67-a557-64aed817965a.LOFI.mp3",
+"name": "Beside Myself",
+"mix": "Dave Lee Cowbell Party Mix",
+"genre": "house",
+"released": "2025-11-21"
+},
+{
+"minute": null,
+"artist": "Shaka Loves You",
+"title": "Lowdown Showdown",
+"label": "Re-Loved",
+"bp": "bp:23356781",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ea474316-125c-4b0f-8bd7-12e1e079cc60.LOFI.mp3",
+"name": "Lowdown Showdown ",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2026-02-06"
+},
+{
+"minute": null,
+"artist": "Seamus Haji",
+"title": "2000 Black (Moodena Remix)",
+"label": "Big Love",
+"bp": "bp:22371201",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f0e9e70-2c09-4cef-a91f-67072b310b87.LOFI.mp3",
+"name": "2000 Black ",
+"mix": "Moodena Extended Remix",
+"genre": "house",
+"released": "2025-12-05"
+},
+{
+"minute": null,
+"artist": "Maurice Joshua",
+"title": "Are You Ready (Maurice Joshua Ron Carroll Tribute Mix)",
+"label": "Big Love",
+"bp": "bp:22733059",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e90238ad-8ae2-4c5d-a3b7-6d0b9079fa79.LOFI.mp3",
+"name": "Are You Ready ",
+"mix": "Maurice's Ron Carroll Tribute Extended Mix",
+"genre": "house",
+"released": "2025-12-12"
+},
+{
+"minute": null,
+"artist": "Dames Brown",
+"title": "You're The One For Me",
+"label": "Defected",
+"bp": "bp:22344556",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/75501cdd-f42a-44a5-8711-61105b8be821.LOFI.mp3",
+"name": "You're The One For Me",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2025-11-05"
+},
+{
+"minute": null,
+"artist": "B.W.H.",
+"title": "Stop (Danilo Braca Remix)",
+"label": "Il Discotto"
+},
+{
+"minute": null,
+"artist": "Alice Russell",
+"title": "Gravity (Payfone Remix)",
+"label": "Tru Thoughts",
+"bp": "bp:19035561",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60a32a8f-5e62-43a8-b9bd-179237018ddc.LOFI.mp3",
+"name": "Gravity",
+"mix": "Payfone Remix",
+"genre": "house",
+"released": "2024-06-06"
+},
+{
+"minute": null,
+"artist": "Rochelle Jordan",
+"title": "Doing It Too",
+"label": "Empire",
+"bp": "bp:20893826",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/969b6e36-045d-4b80-b5da-0514766aa0f5.LOFI.mp3",
+"name": "Doing It Too ",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-08-08"
+},
+{
+"minute": null,
+"artist": "Musclecars & Toribio Feat. Roland Clark",
+"title": "That's My Story",
+"label": "Rhythm Section",
+"bp": "bp:21303512",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/e2506d6a-6d19-4ddc-9e7d-f4696bb4d1d3.LOFI.mp3",
+"name": "That's My Story",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2025-09-18"
+},
+{
+"minute": null,
+"artist": "Rickster",
+"title": "Night Moves",
+"label": "High Fashion",
+"bp": "bp:11432011",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5a81de38-d754-416a-b639-df9a5b1223c8.LOFI.mp3",
+"name": "Night Moves",
+"mix": "Radio Mix",
+"genre": "house",
+"released": "1988-05-20"
+},
+{
+"minute": null,
+"artist": "Rickster",
+"title": "Night Moves (ROOG Reconstruction Remix)",
+"label": "Altra Moda",
+"bp": "bp:22212877",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d86a5644-328b-4c1c-9b37-4c9bd923ff75.LOFI.mp3",
+"name": "Night Moves",
+"mix": "Roog Reconstruction Extended Remix",
+"genre": "house",
+"released": "2025-10-31"
+},
+{
+"minute": null,
+"artist": "DJ Scratch",
+"title": "Electric Stew (We Can Get Down)",
+"label": "T's Box",
+"bp": "bp:30952684",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/646251ec-fc07-47ff-bc89-dc230adfecae.LOFI.mp3",
+"name": "Electric Stew (We Can Get Down)",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-10-16"
+},
+{
+"minute": null,
+"artist": "Jimmy Allen & DJ Romain",
+"title": "Our House",
+"label": "Big Love",
+"bp": "bp:22733232",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a6255dd8-9e8e-4d58-87fa-723326784289.LOFI.mp3",
+"name": "Our House ",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-12-19"
+},
+{
+"minute": null,
+"artist": "Roel",
+"title": "Came To That Day",
+"label": "Soulfuric Trax",
+"bp": "bp:22412262",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/63775cd7-8fcc-4d68-8f28-dea907cac754.LOFI.mp3",
+"name": "Came To That Day",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2025-12-05"
+},
+{
+"minute": null,
+"artist": "Dam Swindle",
+"title": "Backyard Galaxy",
+"label": "Heist",
+"bp": "bp:21675380",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/901eff4d-d6f8-44c7-b736-ed4a3f8197bd.LOFI.mp3",
+"name": "Backyard Galaxy",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-10-24"
+},
+{
+"minute": null,
+"artist": "DJ Chus & Harry Romero",
+"title": "Celebrate Life",
+"label": "Nervous",
+"bp": "bp:22336884",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/83169244-6106-412f-8967-33ae826b7438.LOFI.mp3",
+"name": "Celebrate Life",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2025-11-07"
+},
+{
+"minute": null,
+"artist": "Armand Van Helden",
+"title": "A Track Called Jack (Low Steppa Deep Vibe)",
+"label": "Southern Fried",
+"bp": "bp:4771560",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/304c087d-a693-408b-9a78-d4ec0ab894ac.LOFI.mp3",
+"name": "A Track Called Jack",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2013-01-01"
+},
+{
+"minute": null,
+"artist": "Tensnake & Gerd Janson",
+"title": "Push",
+"label": "Armada",
+"bp": "bp:21992999",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6458a8dd-16cd-4b6e-8d09-4ec41596a26a.LOFI.mp3",
+"name": "Push",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2025-10-24"
+},
+{
+"minute": null,
+"artist": "Rulers Of The Deep & Mandel Turner",
+"title": "So Deep",
+"label": "Big Love",
+"bp": "bp:22371382",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49f83cf3-a2d8-4f3e-8c04-2d01849c9acc.LOFI.mp3",
+"name": "So Deep ",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-11-28"
+},
+{
+"minute": null,
+"artist": "The Golden Boy",
+"title": "Big Mac",
+"label": "Toolroom",
+"bp": "bp:17833014",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8513ccd9-c0b8-4991-b196-7ab0222d8bff.LOFI.mp3",
+"name": "Big Mac",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2023-07-07"
+},
+{
+"minute": null,
+"artist": "Rulers Of The Deep",
+"title": "Imagine Where You Are",
+"label": "Big Love"
+},
+{
+"minute": null,
+"artist": "Bushwacka!",
+"title": "Jack The Groove",
+"label": "Nu Groove",
+"bp": "bp:21113041",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/452db14d-1534-4fef-89a4-45f1d146149a.LOFI.mp3",
+"name": "Jack The Groove",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-09-19"
+},
+{
+"minute": null,
+"artist": "DJ Debauchery",
+"title": "Life Story",
+"label": "One",
+"bp": "bp:20795065",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b9000e38-a961-46cf-ac95-3acb583ca397.LOFI.mp3",
+"name": "Life Story ",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-07-30"
+},
+{
+"minute": null,
+"artist": "Rulers Of The Deep",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Rulers Of The Deep",
+"title": "Back In Love (At Last)",
+"label": "Big Love",
+"bp": "bp:23959699",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d0391d01-88e9-49be-a087-f0919dec2f1e.LOFI.mp3",
+"name": "Back In Love ",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2026-03-13"
+},
+{
+"minute": null,
+"artist": "Rulers Of The Deep",
+"title": "Track Three",
+"label": "Manchester Underground",
+"bp": "bp:987143",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f91dd6e2-5953-4fcf-b3c2-519b0797e022.LOFI.mp3",
+"name": "Track Three",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2009-10-26"
+},
+{
+"minute": null,
+"artist": "Rulers Of The Deep",
+"title": "Correction",
+"label": "Big Love",
+"bp": "bp:23959698",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/59bb93db-05c1-4158-96e6-15ca296f1dca.LOFI.mp3",
+"name": "Correction ",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2026-03-13"
+},
+{
+"minute": null,
+"artist": "Deepmore",
+"title": "Groove Static",
+"label": "Dog With A Bone",
+"bp": "bp:21544247",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d5d61d61-2912-46a8-8eab-ece9abe9d837.LOFI.mp3",
+"name": "Groove Static ",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-10-10"
+}
+]
+}
+]
 }
