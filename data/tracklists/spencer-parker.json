@@ -1,0 +1,830 @@
+{
+"dj": "Spencer Parker",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-11-29 - Spencer Parker - Is Burning...47",
+"records": []
+},
+{
+"title": "2020-01-15 - Spencer Parker - Invite's Choice Podcast 576",
+"records": []
+},
+{
+"title": "2020-12-01 - Bawrut, Spencer Parker @ Beats In Space 1071",
+"records": [
+{
+"minute": null,
+"artist": "Goran Bregovic",
+"title": "Ederlezi",
+"label": "Time Of The Gypsies OST",
+"bp": "bp:19873249",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/673df314-1411-4877-84e4-67dca144614f.LOFI.mp3",
+"name": "Ederlezi",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-02-07"
+},
+{
+"minute": null,
+"artist": "Paolo Conte",
+"title": "Aguaplano",
+"label": "CGD",
+"bp": "bp:27458049",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db466248-61fd-4ade-98f4-1d77b499511f.LOFI.mp3",
+"name": "Aguaplano",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "1987-07-23"
+},
+{
+"minute": null,
+"artist": "Tornado Wallace",
+"title": "Midnight Mania",
+"label": "Optimo",
+"bp": "bp:13269791",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9eb44ce6-d412-4403-858b-3fb529a6cb91.LOFI.mp3",
+"name": "Midnight Mania",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-03-20"
+},
+{
+"minute": null,
+"artist": "Bawrut",
+"title": "AndreW",
+"label": "Other Goodness",
+"bp": "bp:14596958",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/97e7c1e3-e445-46fe-ab6c-f7da8d5ddccc.LOFI.mp3",
+"name": "AndreW",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-12-04"
+},
+{
+"minute": null,
+"artist": "Brother Nebula",
+"title": "A Snake In Paradise",
+"label": "Legwork",
+"bp": "bp:14508421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4d109268-b125-429d-905c-58a4d2baec88.LOFI.mp3",
+"name": "A Snake In Paradise",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-12-04"
+},
+{
+"minute": null,
+"artist": "Leonidas & Hobbes",
+"title": "Web Of Intrigue (Long Haul Mix)",
+"label": "Hobbes",
+"bp": "bp:15133390",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a311f88-078e-4ffa-a768-b01f425c088f.LOFI.mp3",
+"name": "Web of Intrigue",
+"mix": "Long Haul Mix",
+"genre": "electronica",
+"released": "2021-04-16"
+},
+{
+"minute": null,
+"artist": "La Fura Dels Baus",
+"title": "Marea",
+"label": "DRO",
+"bp": "bp:27174372",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/625fbc49-70fa-4734-bb3f-7c128b01b1ff.LOFI.mp3",
+"name": "Marea",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2013-07-09"
+},
+{
+"minute": null,
+"artist": "JG",
+"title": "Love LUV (KK Beat Tool)",
+"label": "Puss"
+},
+{
+"minute": null,
+"artist": "Ploy",
+"title": "Snorkelling",
+"label": "Timedance",
+"bp": "bp:14569093",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f7588edd-64ee-49ea-8bba-65e45a949889.LOFI.mp3",
+"name": "Snorkelling",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2020-11-27"
+},
+{
+"minute": null,
+"artist": "Kasper Bj\u00f8rke",
+"title": "Oceans Of Time (Bawrut Remix)",
+"label": "HFN"
+},
+{
+"minute": null,
+"artist": "DJ Clea",
+"title": "Cyber 1000",
+"label": "Blue Zone"
+},
+{
+"minute": null,
+"artist": "Bawrut",
+"title": "Ghosts In The Club",
+"label": "PETS",
+"bp": "bp:14539120",
+"score": 0.983,
+"preview": "https://geo-samples.beatport.com/track/931df0a7-d3ff-451e-aa38-23bacb72be1d.LOFI.mp3",
+"name": "Ghost In The Club",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2020-12-04"
+},
+{
+"minute": null,
+"artist": "Bawrut",
+"title": "Sunlight",
+"label": "Other Goodness",
+"bp": "bp:14596957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60408aeb-0ab5-4130-8683-cdc4cea5e6f0.LOFI.mp3",
+"name": "Sunlight",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-12-04"
+},
+{
+"minute": null,
+"artist": "Beigean",
+"title": "Heera Mandi",
+"label": "Hot Concept",
+"bp": "bp:15330106",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a6594ead-04d8-4681-b7e0-da9f0787af0d.LOFI.mp3",
+"name": "Heera Mandi",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-11-27"
+},
+{
+"minute": null,
+"artist": "Aun No",
+"title": "Boxes (Bawrut Cacharpaya Remix)",
+"label": "Fulmen",
+"bp": "bp:14658631",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/91acfb39-17fe-43ae-af7e-9a14029c632e.LOFI.mp3",
+"name": "Boxes",
+"mix": "Bawrut Cacharpaya Remix",
+"genre": "indie-dance",
+"released": "2021-01-15"
+},
+{
+"minute": null,
+"artist": "Le Motel",
+"title": "Work Your Back",
+"label": "XXIII",
+"bp": "bp:14457987",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0b24dca-69ad-4c63-b621-a4c54805d5d7.LOFI.mp3",
+"name": "Work Your Back",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2020-11-27"
+},
+{
+"minute": null,
+"artist": "Bawrut",
+"title": "What Is Dance",
+"label": "Other Goodness",
+"bp": "bp:14596956",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bc82a434-dc7e-4aab-aa1d-850e71dca0f6.LOFI.mp3",
+"name": "What Is Dance",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-12-04"
+},
+{
+"minute": null,
+"artist": "Russell",
+"title": "Sentir",
+"label": "Halcxn"
+},
+{
+"minute": null,
+"artist": "Spencer Parker",
+"title": "Dream The Future",
+"label": "Unreleased",
+"bp": "bp:15393808",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/580f637b-be49-4c77-b1b2-e6048d7fed2d.LOFI.mp3",
+"name": "Dream the Future",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-06-11"
+},
+{
+"minute": null,
+"artist": "Spencer Parker",
+"title": "Rhythm Now",
+"label": "Unreleased",
+"bp": "bp:17234585",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7a1a1cf-e8aa-4db4-8a46-250d90fd594b.LOFI.mp3",
+"name": "Rhythm Now",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-04-14"
+},
+{
+"minute": null,
+"artist": "N/A",
+"title": "Unknown",
+"label": "White",
+"bp": "bp:7243485",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/329e8c35-683b-4d8a-98a3-739be2cb6ed7.LOFI.mp3",
+"name": "Unknown",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2015-10-31"
+},
+{
+"minute": null,
+"artist": "N/A",
+"title": "Unknown",
+"label": "White",
+"bp": "bp:7243485",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/329e8c35-683b-4d8a-98a3-739be2cb6ed7.LOFI.mp3",
+"name": "Unknown",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2015-10-31"
+},
+{
+"minute": null,
+"artist": "The Blow Monkeys Feat. Kym Mazelle",
+"title": "Wait",
+"label": "RCA",
+"bp": "bp:23681196",
+"score": 0.683,
+"preview": "https://geo-samples.beatport.com/track/eb131ae7-7175-4920-9684-1b207d74ccb5.LOFI.mp3",
+"name": "Wait",
+"mix": "Long Version",
+"genre": "pop",
+"released": "2018-06-29"
+},
+{
+"minute": null,
+"artist": "Damiano Von Eckert",
+"title": "Hideaway (SPN EDT)",
+"label": "LARJ"
+},
+{
+"minute": null,
+"artist": "Spencer Parker",
+"title": "Power 99",
+"label": "Unreleased",
+"bp": "bp:16822106",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0bbb5b38-f7e2-459c-887b-2aa73901c473.LOFI.mp3",
+"name": "Power 99",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-09-02"
+},
+{
+"minute": null,
+"artist": "Radio Slave",
+"title": "Variation 4",
+"label": "Rekids"
+},
+{
+"minute": null,
+"artist": "Mode 1",
+"title": "Escape",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "Spencer Parker",
+"title": "We Just Looking For Our Future Baby Mamas (The Remix)",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "Aleksi Per\u00e4l\u00e4",
+"title": "214HII 133.594",
+"label": "Clone CBS"
+},
+{
+"minute": null,
+"artist": "Spencer Parker",
+"title": "Theme",
+"label": "Rekids",
+"bp": "bp:14811616",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a4e50fa4-d243-4f3d-a0c9-480e11529ebb.LOFI.mp3",
+"name": "Theme",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2021-02-12"
+},
+{
+"minute": null,
+"artist": "SRVD",
+"title": "Love Is Worth Fighting For",
+"label": "Unreleased"
+}
+]
+},
+{
+"title": "2021-02-27 - Spencer Parker - Essential Mix",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Intro"
+},
+{
+"minute": null,
+"artist": "[0??] RSvSP",
+"title": "AhhA",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Spencer Parker",
+"title": "Dream The Future",
+"label": "Work Them",
+"bp": "bp:15393808",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/580f637b-be49-4c77-b1b2-e6048d7fed2d.LOFI.mp3",
+"name": "Dream the Future",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-06-11"
+},
+{
+"minute": null,
+"artist": "[0??] Spencer Parker",
+"title": "Rhythm Now",
+"label": "Work Them",
+"bp": "bp:17234585",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/d7a1a1cf-e8aa-4db4-8a46-250d90fd594b.LOFI.mp3",
+"name": "Rhythm Now",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-04-14"
+},
+{
+"minute": null,
+"artist": "[0??] ItaloJohnson",
+"title": "14 (SPN EDT)",
+"label": "Italojohnson"
+},
+{
+"minute": null,
+"artist": "[0??] Spencer Parker",
+"title": "Girl, You Wouldn't Believe What I Heard!",
+"label": "Work Them",
+"bp": "bp:17234199",
+"score": 0.859,
+"preview": "https://geo-samples.beatport.com/track/a46328e8-ca3a-42e2-afa3-0541ad35eb66.LOFI.mp3",
+"name": "Girl You Wouldnt Believe What I Heard!",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-01-20"
+},
+{
+"minute": 19,
+"artist": "ATFC",
+"title": "The Voice",
+"label": "Altra Moda Music - AMM 356",
+"bp": "bp:7422499",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c6d0038b-e5b9-4bbb-a2aa-923cb0a4dc33.LOFI.mp3",
+"name": "The Voice",
+"mix": "Original Mix",
+"genre": "house",
+"released": "1999-04-16"
+},
+{
+"minute": 27,
+"artist": "DJ Disciple",
+"title": "It's Easy",
+"label": "Grand - PMID 0239",
+"bp": "bp:10226662",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd09d8ca-d4ed-4a61-9496-49f3b50d02a9.LOFI.mp3",
+"name": "It's Easy",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2018-03-16"
+},
+{
+"minute": 32,
+"artist": "Taylor Dayne",
+"title": "Tell It To My Heart",
+"label": "Da Crime",
+"bp": "bp:18077524",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f550990c-3dca-4d04-8c7c-e130b6e88ccc.LOFI.mp3",
+"name": "Tell It To My Heart",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-09-15"
+},
+{
+"minute": 37,
+"artist": "D.A.F.",
+"title": "Brothers (SDS Edit)",
+"label": "Cleopatra"
+},
+{
+"minute": null,
+"artist": "[0??] Kolegos",
+"title": "Dunda Ratai (Spencer Parker Works Harder Remix)",
+"label": "Work Them",
+"bp": "bp:15500259",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/73935f22-1d66-48ac-953b-0fb2a9b1c49e.LOFI.mp3",
+"name": "Dunda Ratai",
+"mix": "Spencer Parker Works Harder Remix",
+"genre": "techno-peak-time-driving",
+"released": "2021-07-23"
+},
+{
+"minute": null,
+"artist": "[0??] Depeche Mode",
+"title": "Strange Love (Jonny Rock Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] RSvSP",
+"title": "Boy",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Spencer Parker",
+"title": "Praise B",
+"label": "",
+"bp": "bp:17663687",
+"score": 0.831,
+"preview": "https://geo-samples.beatport.com/track/ab985d56-7a05-4b84-ab6e-b24b43b23c79.LOFI.mp3",
+"name": "Praise Be",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-05-19"
+},
+{
+"minute": null,
+"artist": "[0??] Radio Slave",
+"title": "Variation 02",
+"label": "Rekids"
+},
+{
+"minute": null,
+"artist": "[0??] Radio Slave",
+"title": "Variation 04",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Gianmaria Coccoluto",
+"title": "The Travel Of The Elephant (Raffaele Attanasio Remix) (SPN EDT)",
+"label": "Tete"
+},
+{
+"minute": null,
+"artist": "[0??] Mode 1",
+"title": "Axon",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Spencer Parker",
+"title": "We Just Looking For Our Future Baby Mamas (The Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Robert Hood",
+"title": "The Cure",
+"label": "Rekids",
+"bp": "bp:14251161",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/132c5861-25a6-45cc-8baf-638c464a84b5.LOFI.mp3",
+"name": "The Cure",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-10-09"
+},
+{
+"minute": 93,
+"artist": "False Witness",
+"title": "Devil May Cry",
+"label": "E-Missions - EMS 007",
+"bp": "bp:11510099",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9b28b228-8737-43df-9aae-2be5668312d8.LOFI.mp3",
+"name": "Devil May Cry",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-02-08"
+},
+{
+"minute": 95,
+"artist": "False Witness",
+"title": "Third Space (Silent Servant Remix)",
+"label": "E-Missions",
+"bp": "bp:15111317",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f014a97-aebb-4249-9e22-33b7c79803da.LOFI.mp3",
+"name": "Third Space",
+"mix": "Silent Servant Remix",
+"genre": "techno-peak-time-driving",
+"released": "2021-04-16"
+},
+{
+"minute": null,
+"artist": "Spencer Parker",
+"title": "Power 99",
+"label": "Sound As",
+"bp": "bp:16822106",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0bbb5b38-f7e2-459c-887b-2aa73901c473.LOFI.mp3",
+"name": "Power 99",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-09-02"
+},
+{
+"minute": null,
+"artist": "Spencer Parker",
+"title": "Theme",
+"label": "Rekids",
+"bp": "bp:14811616",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a4e50fa4-d243-4f3d-a0c9-480e11529ebb.LOFI.mp3",
+"name": "Theme",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2021-02-12"
+},
+{
+"minute": null,
+"artist": "Pet Shop Boys",
+"title": "Love Comes Quickly (Dance Mix)",
+"label": "Rhino Entertainment"
+}
+]
+},
+{
+"title": "2021-10-02 - Spencer Parker - Reclaim Your City 455",
+"records": [
+{
+"minute": 0,
+"artist": "Spencer Parker",
+"title": "Droney",
+"label": "Work Them - WTR049",
+"bp": "bp:15914375",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d6a7387-25aa-441a-ad95-f639009f63d8.LOFI.mp3",
+"name": "Droney",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-11-26"
+},
+{
+"minute": 7,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 13,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 20,
+"artist": "Alexander Johansson & Matthias Fridell",
+"title": "Laxunge",
+"label": "Symbolism - SYMDIGI011",
+"bp": "bp:15595157",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/6adcefc6-c7e0-42d3-84c7-9bc70bbe67c9.LOFI.mp3",
+"name": "Laxunge",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-08-20"
+},
+{
+"minute": 24,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 30,
+"artist": "YANT",
+"title": "Solidarity Is On The Line",
+"label": "SK_Eleven - SK11X006",
+"bp": "bp:15105675",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/14f3e840-b498-4a68-9656-1eaad869dc1f.LOFI.mp3",
+"name": "Solidarity is on the line",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-03-26"
+},
+{
+"minute": 34,
+"artist": "YANT",
+"title": "Hydro 3",
+"label": "Blackaxon - BAXN005",
+"bp": "bp:13850233",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e74347f3-c739-4050-9978-0f30208fe8e4.LOFI.mp3",
+"name": "Hydro 3",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-07-31"
+},
+{
+"minute": 40,
+"artist": "CNCPT",
+"title": "Citofono 3",
+"label": "Brenda - 006",
+"bp": "bp:9782111",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a0d241c3-0f09-4239-98d9-b29156f6e92f.LOFI.mp3",
+"name": "Citofono 3",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-09-06"
+},
+{
+"minute": 44,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 49,
+"artist": "Hemissi",
+"title": "G-Blast",
+"label": "Olympian - 17",
+"bp": "bp:15330509",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/acb4405b-9193-4a9d-9ed3-7658fe164db1.LOFI.mp3",
+"name": "G-Blast",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-06-18"
+},
+{
+"minute": 52,
+"artist": "TWCOR",
+"title": "Minor Planets",
+"label": "Planet Rhythm - PRRUKLTDTWCOR",
+"bp": "bp:10485364",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9a2dc344-b2e1-4830-8ab9-28156d276240.LOFI.mp3",
+"name": "Minor Planets",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-05-07"
+},
+{
+"minute": 57,
+"artist": "CNCPT",
+"title": "Peonia 4",
+"label": "Brenda - 009",
+"bp": "bp:10873690",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/925907b3-d072-499c-9e5e-176cae509903.LOFI.mp3",
+"name": "Peonia 4",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-07-30"
+},
+{
+"minute": 62,
+"artist": "Setaoc Mass",
+"title": "Sket",
+"label": "SK_Eleven - SK11002",
+"bp": "bp:8353701",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/08882b64-c7ae-4db7-8b77-8baec9330599.LOFI.mp3",
+"name": "Sket",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2016-09-12"
+},
+{
+"minute": 67,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 73,
+"artist": "Spencer Parker",
+"title": "Power 99",
+"label": "Sound As",
+"bp": "bp:16822106",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0bbb5b38-f7e2-459c-887b-2aa73901c473.LOFI.mp3",
+"name": "Power 99",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-09-02"
+},
+{
+"minute": 78,
+"artist": "Origin Unknown",
+"title": "Valley Of The Shadows (Spencer Parker Remix)",
+"label": ""
+},
+{
+"minute": 85,
+"artist": "Amotik",
+"title": "Ek",
+"label": "Amotik - AMTK001",
+"bp": "bp:7870587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/56da811b-c570-433a-acba-232b56413b84.LOFI.mp3",
+"name": "Ek",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2016-04-01"
+},
+{
+"minute": 91,
+"artist": "AX&P",
+"title": "Joule",
+"label": "AX&P - 001",
+"bp": "bp:4805570",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a3303507-1f1a-46f6-a38b-ce989a7bff14.LOFI.mp3",
+"name": "Joule",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2013-10-14"
+},
+{
+"minute": 96,
+"artist": "Setaoc Mass",
+"title": "Man Ray",
+"label": "Worm Them - WORKTHEMREC023",
+"bp": "bp:7055666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/73d48e5f-d78e-4a5c-8193-3b4a0f0c94d7.LOFI.mp3",
+"name": "Man Ray",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-09-21"
+},
+{
+"minute": 102,
+"artist": "Ren\u00e9 Pawlowitz",
+"title": "A00",
+"label": "Ostgut Ton - O-Ton55"
+},
+{
+"minute": 109,
+"artist": "DJ Rolando",
+"title": "Jaguar (ID Remix)",
+"label": ""
+}
+]
+},
+{
+"title": "2022-10-05 - Spencer Parker - Rote Sonne Podcast 101",
+"records": []
+},
+{
+"title": "2024-01-31 - Spencer Parker - Mantra Podcast Series 41",
+"records": []
+},
+{
+"title": "2024-08-02 - Spencer Parker - SPND20 Mixtape",
+"records": []
+},
+{
+"title": "2024-08-15 - Spencer Parker - House of Rekids 10",
+"records": []
+}
+]
+}
