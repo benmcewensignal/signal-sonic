@@ -1,0 +1,250 @@
+{
+"dj": "Chicago Loop",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2025-09-01 - Chicago Loop - Tronic Podcast 683",
+"records": [
+{
+"minute": 2,
+"artist": "Low Steppa & Jewel Kid",
+"title": "The Roller",
+"label": "Alleanza",
+"bp": "bp:20476729",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3abd72e3-7bcc-49ff-915b-12736cd1301a.LOFI.mp3",
+"name": "The Roller",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2025-05-23"
+},
+{
+"minute": 5,
+"artist": "Josh Wink",
+"title": "How's The Music (Go Higher Mix) (Harry Romero Edit)",
+"label": "Nervous"
+},
+{
+"minute": 7,
+"artist": "Gene Richards Jr.",
+"title": "Ride This D (Mark Broom Remix)",
+"label": "Frenzy",
+"bp": "bp:20483615",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/75599169-3295-4904-89f3-c2392e74acf6.LOFI.mp3",
+"name": "Ride This D",
+"mix": "Mark Broom Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-06-13"
+},
+{
+"minute": 10,
+"artist": "2nd Phase",
+"title": "Talking' Bout",
+"label": "BEK",
+"bp": "bp:18659582",
+"score": 0.974,
+"preview": "https://geo-samples.beatport.com/track/40e7e37c-cb44-453c-b10c-b9c71645fa28.LOFI.mp3",
+"name": "Talkin' Bout",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-02-23"
+},
+{
+"minute": null,
+"artist": "[1?] Chicago Loop",
+"title": "Radioactive",
+"label": "Tronic",
+"bp": "bp:20801941",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/fb73ee19-676b-43c5-a5b7-a2d8d872c04c.LOFI.mp3",
+"name": "Radioactive",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2025-08-29"
+},
+{
+"minute": 15,
+"artist": "Hertz",
+"title": "New Balls",
+"label": "Sway",
+"bp": "bp:20384340",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7fba0f02-097e-418b-9b0e-101686ed7d70.LOFI.mp3",
+"name": "New Balls",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-06-06"
+},
+{
+"minute": 19,
+"artist": "2nd Phase",
+"title": "Pendulums",
+"label": "BEK",
+"bp": "bp:18659579",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/083121db-2e08-405d-93e5-7d654e89b069.LOFI.mp3",
+"name": "Pendulums",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-02-23"
+},
+{
+"minute": null,
+"artist": "[2?] Spektre",
+"title": "Sacrament",
+"label": "Respekt",
+"bp": "bp:18638501",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/873eae50-0895-48c5-8309-01f96404dd5e.LOFI.mp3",
+"name": "Sacrament",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-02-23"
+},
+{
+"minute": 25,
+"artist": "Juheun",
+"title": "Phantom (Hertz Remix)",
+"label": "Tronic",
+"bp": "bp:18577097",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3400e370-daeb-4905-b869-21a841650efd.LOFI.mp3",
+"name": "Phantom",
+"mix": "Hertz Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-02-09"
+},
+{
+"minute": null,
+"artist": "Chicago Loop",
+"title": "Modulate",
+"label": "Tronic",
+"bp": "bp:20801939",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dd927457-56a1-4c43-bf85-275de5349eae.LOFI.mp3",
+"name": "Modulate",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2025-08-29"
+},
+{
+"minute": null,
+"artist": "Aladarus",
+"title": "Judgement Day",
+"label": "Tronic",
+"bp": "bp:19601724",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/65589afb-f8b2-4d8c-bcc6-4f2d0494e029.LOFI.mp3",
+"name": "Judgement Day",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-10-25"
+},
+{
+"minute": null,
+"artist": "Chicago Loop",
+"title": "Two Lane Blacktop",
+"label": "Tronic",
+"bp": "bp:20801940",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fa159ff6-bc5b-4f1a-b981-ab63de177099.LOFI.mp3",
+"name": "Two Lane Blacktop",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2025-08-29"
+},
+{
+"minute": null,
+"artist": "Mihai Popoviciu",
+"title": "Transitions (Bootleg Mix)",
+"label": "Bla Bla"
+},
+{
+"minute": null,
+"artist": "Ken Ishii",
+"title": "Giant Killer",
+"label": "Tronic",
+"bp": "bp:20442010",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2ac7748a-ffe3-4e93-bf9c-2cc2c6022981.LOFI.mp3",
+"name": "Giant Killer",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2025-05-16"
+},
+{
+"minute": null,
+"artist": "Chicago Loop",
+"title": "Motives And Thoughts",
+"label": "Respekt",
+"bp": "bp:6737950",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/276a79d6-939f-48d4-b552-5bc3ecc75ffd.LOFI.mp3",
+"name": "Motives And Thoughts",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-06-15"
+},
+{
+"minute": null,
+"artist": "Chicago Loop, Filipe Barbosa",
+"title": "To The Future (Demo Mix)",
+"label": "Demo"
+},
+{
+"minute": null,
+"artist": "Slam",
+"title": "Beat On The Drum",
+"label": "Soma",
+"bp": "bp:20204928",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4ee9d4bf-c933-4391-a6df-39c3caa84d54.LOFI.mp3",
+"name": "Beat On The Drum",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-05-09"
+},
+{
+"minute": null,
+"artist": "Night Format",
+"title": "Melancholy (Acerbic Remix)",
+"label": "Night Format",
+"bp": "bp:22448332",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f1ad559-491b-48b6-b05b-b8caee39806d.LOFI.mp3",
+"name": "Melancholy",
+"mix": "Acerbic Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-11-28"
+},
+{
+"minute": null,
+"artist": "UFO-C",
+"title": "Beat Locomotive",
+"label": "Naked Lunch",
+"bp": "bp:17704878",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/86014e8b-379e-418f-ba91-e4d78b5aeda4.LOFI.mp3",
+"name": "Beat Locomotive",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-05-18"
+},
+{
+"minute": 56,
+"artist": "Acerbic",
+"title": "Bullitt For A Vampire",
+"label": "SUFHYDRO",
+"bp": "bp:20423019",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/393526b7-8d36-49e4-bdd2-0645bb7999b6.LOFI.mp3",
+"name": "Bullitt For A Vampire ",
+"mix": "Original Mix",
+"genre": "hard-techno",
+"released": "2025-05-30"
+}
+]
+}
+]
+}

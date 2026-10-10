@@ -1,0 +1,1969 @@
+{
+"dj": "Eddie Craig",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2020-07-17 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-07-31 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-10-16 - Eddie Craig, MC Kie - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-10-23 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-10-30 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-11-06 - Eddie Craig, Leanne Brown - Friday Night KISSTORY",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 3,
+"artist": "Blonde Feat. Alex Newell",
+"title": "All Cried Out (Extended Mix)",
+"label": ""
+},
+{
+"minute": 6,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 8,
+"artist": "Barbara Tucker",
+"title": "Stay Together (G-Funk Mix)",
+"label": "",
+"bp": "bp:22959151",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4fc3f479-6f70-41f1-9c38-aa6ab18d9237.LOFI.mp3",
+"name": "Stay Together",
+"mix": "G-Funk Mix",
+"genre": "dance-pop",
+"released": "1995-01-01"
+},
+{
+"minute": 10,
+"artist": "Public Enemy",
+"title": "Bring The Noise (ID Remix)",
+"label": ""
+},
+{
+"minute": 13,
+"artist": "Galantis",
+"title": "Runaway (U & I) (ID Remix)",
+"label": ""
+},
+{
+"minute": 15,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 18,
+"artist": "Tru Faith & Dub Conspiracy",
+"title": "Freak Like Me (Wideboys Vocal Mix)",
+"label": "Positiva - 12TIV-138",
+"bp": "bp:15717665",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/48fbb3e7-6907-4ea8-8d85-57ea49ed4409.LOFI.mp3",
+"name": "Freak Like Me",
+"mix": "Wideboys Vocal Remix",
+"genre": "electronica",
+"released": "2005-01-01"
+},
+{
+"minute": 20,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 22,
+"artist": "Colours Feat. Eska",
+"title": "What U Do",
+"label": ""
+},
+{
+"minute": 24,
+"artist": "The Wideboys, Dennis G",
+"title": "Sambuca (The Return) (Control S Remix Feat. Dennis G.)",
+"label": ""
+},
+{
+"minute": 25,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 30,
+"artist": "Sweet Female Attitude",
+"title": "Flowers (Sunship Remix)",
+"label": "",
+"bp": "bp:15723156",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/05675555-6bc2-46f0-a91b-03e9cbba349b.LOFI.mp3",
+"name": "Flowers",
+"mix": "Sunship Remix",
+"genre": "dance-pop",
+"released": "2015-07-24"
+},
+{
+"minute": 32,
+"artist": "Gisele Jackson",
+"title": "Love Commandments",
+"label": "",
+"bp": "bp:6723556",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/b16f9032-2885-44f1-8a84-f2f6841cdc10.LOFI.mp3",
+"name": "Love Commandments",
+"mix": "Vocal Edit",
+"genre": "deep-house",
+"released": "2015-07-06"
+},
+{
+"minute": 34,
+"artist": "Stanton Warriors",
+"title": "Bring Me Down",
+"label": "",
+"bp": "bp:19120195",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5bd9b644-d7dd-4274-b4c4-19e14546610a.LOFI.mp3",
+"name": "Bring Me Down",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-06-28"
+},
+{
+"minute": 36,
+"artist": "Flume Feat. Kai",
+"title": "Never Be Like You (ID Remix)",
+"label": ""
+},
+{
+"minute": 38,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 41,
+"artist": "MJ Cole, Digga",
+"title": "Gotta Have It (Main Mix)",
+"label": ""
+},
+{
+"minute": 43,
+"artist": "Imani Williams Feat. Sigala & Blonde",
+"title": "Don't Need No Money (ID Remix)",
+"label": ""
+},
+{
+"minute": 45,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 47,
+"artist": "Aaron Smith Feat. Luvli",
+"title": "Dancin (JJ Flores & Steve Smooth Remix)",
+"label": "",
+"bp": "bp:7267306",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/fea7d849-19b7-4312-ba65-33c8f172b4fb.LOFI.mp3",
+"name": "Dancin' (JJ Flores & Steve Smooth Remix)",
+"mix": "JJ Flores & Steve Smooth Remix",
+"genre": "deep-house",
+"released": "2005-12-12"
+},
+{
+"minute": 50,
+"artist": "Simpson Tune",
+"title": "Bring It Down (Da BMR's Club Rework)",
+"label": "",
+"bp": "bp:10588065",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d8f6a2d4-065b-4925-aff8-612441b88152.LOFI.mp3",
+"name": "Bring It Down",
+"mix": "Da BMR's Club Rework",
+"genre": "dance-pop",
+"released": "2001-06-07"
+},
+{
+"minute": 53,
+"artist": "Control-S X Sweet Female Attitude",
+"title": "I Quit",
+"label": "",
+"bp": "bp:11633587",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/c39fc687-7f12-450a-aa73-a9a4310555ba.LOFI.mp3",
+"name": "I Quit",
+"mix": "Radio Edit",
+"genre": "uk-garage-bassline",
+"released": "2017-07-14"
+}
+]
+},
+{
+"title": "2020-11-13 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-11-20 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-11-27 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-12-04 - Eddie Craig - Friday Night KISSTORY",
+"records": [
+{
+"minute": 0,
+"artist": "Cassius",
+"title": "99",
+"label": "",
+"bp": "bp:1215588",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c4a8b36a-f8da-4686-95f1-68325f8d763e.LOFI.mp3",
+"name": "99",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2010-05-10"
+},
+{
+"minute": 2,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 4,
+"artist": "Wookie",
+"title": "What's Going On (Main Mix)",
+"label": "S2S - 001"
+},
+{
+"minute": 6,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 8,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 10,
+"artist": "R.I.P. Productions",
+"title": "Pick Me Up (Licenced Mix)",
+"label": "Ice Cream - FLAKE 001"
+},
+{
+"minute": 12,
+"artist": "Sunship vs Chunky",
+"title": "Dreadest Love",
+"label": "",
+"bp": "bp:11993175",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/11e638fd-874c-453e-95e4-550ebabed56f.LOFI.mp3",
+"name": "Dreadest Love",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2017-05-03"
+},
+{
+"minute": 14,
+"artist": "DJ Luck & MC Neat",
+"title": "A Little Bit Of Luck (Oracles Remix)",
+"label": "Red Rose - CDRROSE001",
+"bp": "bp:15628592",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/032571b5-0008-4784-8a96-5eb88c4e4f3c.LOFI.mp3",
+"name": "A Little Bit Of Luck",
+"mix": "Oracles Mix",
+"genre": "uk-garage-bassline",
+"released": "2021-08-27"
+},
+{
+"minute": 16,
+"artist": "Genius Cru",
+"title": "Boom Selection",
+"label": "Kronik - KNK-015",
+"bp": "bp:9019258",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c690672f-7dc9-4311-8ece-b4fbf130b4ea.LOFI.mp3",
+"name": "Boom Selection",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2000-01-01"
+},
+{
+"minute": 18,
+"artist": "Phats & Small",
+"title": "Turn Around (Hey What's Wrong With You)",
+"label": "Multiply - CDMULTY49",
+"bp": "bp:7866254",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c30dac05-25a4-45d4-b6d5-ed60d7ab3e59.LOFI.mp3",
+"name": "Turn Around (Hey What's Wrong With You)",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2016-05-06"
+},
+{
+"minute": 20,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 22,
+"artist": "Duke Dumont Feat. A*M*E",
+"title": "Need U (100%) (Artful Bootleg Mix)",
+"label": "Downtown"
+},
+{
+"minute": 24,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 26,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 30,
+"artist": "Bran Van 3000 Feat. Curtis Mayfield",
+"title": "Astounded (MJ Cole Master Mix)",
+"label": "Grand Royal/Virgin - VUSTDJ194"
+},
+{
+"minute": 32,
+"artist": "Shift K3Y",
+"title": "Name & Number",
+"label": "",
+"bp": "bp:27232581",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f613b28-a7aa-4c00-8938-9cbc7b7b67a4.LOFI.mp3",
+"name": "Name & Number",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2015-12-04"
+},
+{
+"minute": 35,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 37,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 39,
+"artist": "Dreem Teem vs Artful Dodger Feat. MC Alistair & MZ May",
+"title": "It Ain't Enough",
+"label": "Public Demand",
+"bp": "bp:24590435",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/255197e5-a568-41f8-8e3b-1d56574d22fc.LOFI.mp3",
+"name": "It Ain't Enough (feat. Mz. May & Mc. Alistair)",
+"mix": "Radio Edit",
+"genre": "pop",
+"released": "2000-01-01"
+},
+{
+"minute": 42,
+"artist": "Strike",
+"title": "U Sure Do",
+"label": "",
+"bp": "bp:8380351",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8acfc0ae-c7f3-4790-97f6-922c11427e91.LOFI.mp3",
+"name": "U Sure Do",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2016-09-09"
+},
+{
+"minute": 43,
+"artist": "Banana Republic Feat. Judy O'Beya",
+"title": "Catch The Feeling (Tuff Jam's Catch The Dub)",
+"label": ""
+},
+{
+"minute": 45,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 48,
+"artist": "Mr. Probz",
+"title": "Waves (RobiN Schulz Edit)",
+"label": "Epic",
+"bp": "bp:5049601",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5a425abc-da34-4c4e-a1d2-bb1dc60ce27e.LOFI.mp3",
+"name": "Waves",
+"mix": "Robin Schulz Radio Edit",
+"genre": "house",
+"released": "2020-09-22"
+},
+{
+"minute": 50,
+"artist": "Paleface Feat. Kyla",
+"title": "Do You Mind (Crazy Cousinz Remix)",
+"label": "Maximum Bass - MB12003"
+},
+{
+"minute": 52,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 54,
+"artist": "The Wideboys Feat. Dennis G",
+"title": "Sambuca",
+"label": "The Return",
+"bp": "bp:11779269",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/e0917c0b-2ef5-4793-be43-02f09e0ed005.LOFI.mp3",
+"name": "Sambuca",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2019-04-12"
+}
+]
+},
+{
+"title": "2020-12-11 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2020-12-18 - Eddie Craig - Friday Night KISSTORY",
+"records": [
+{
+"minute": 0,
+"artist": "?",
+"title": "All I Want For Christmas Is You",
+"label": ""
+},
+{
+"minute": 3,
+"artist": "Guru Josh",
+"title": "Infinity",
+"label": "Deconstruction",
+"bp": "bp:9820352",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3d182e03-97dc-4139-9efe-4989da24f1d8.LOFI.mp3",
+"name": "Infinity",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2017-10-13"
+},
+{
+"minute": 3,
+"artist": "+ Eddie Amador",
+"title": "House Music (Acapella)",
+"label": "Yoshitoshi"
+},
+{
+"minute": 4,
+"artist": "Astrotrax",
+"title": "The Energy",
+"label": "Satellite - SATX24",
+"bp": "bp:116701",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/d80386e6-8075-406f-9cba-b8b319c8291c.LOFI.mp3",
+"name": "The Energy",
+"mix": "Astrotrax Master Vocal Mix",
+"genre": "house",
+"released": "2001-02-19"
+},
+{
+"minute": 4,
+"artist": "+ Jaydee",
+"title": "Plastic Dreams",
+"label": "",
+"bp": "bp:9185036",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a83aee0b-b304-4842-9069-197f8ed63b72.LOFI.mp3",
+"name": "Plastic Dreams",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "1993-07-01"
+},
+{
+"minute": 5,
+"artist": "Jaydee",
+"title": "Plastic Dreams",
+"label": "",
+"bp": "bp:9185036",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a83aee0b-b304-4842-9069-197f8ed63b72.LOFI.mp3",
+"name": "Plastic Dreams",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "1993-07-01"
+},
+{
+"minute": 5,
+"artist": "+ Eddie Amador",
+"title": "House Music",
+"label": "Yoshitoshi",
+"bp": "bp:442459",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/317493a6-53ba-4260-9253-004da77ea080.LOFI.mp3",
+"name": "House Music",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2007-10-01"
+},
+{
+"minute": 6,
+"artist": "Eurythmics",
+"title": "Sweet Dreams (Are Made For This)",
+"label": "RCA",
+"bp": "bp:4811824",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9fe031ea-5184-4017-bccd-f0cfc3dfe213.LOFI.mp3",
+"name": "Sweet Dreams (Are Made Of This) ",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2005-11-04"
+},
+{
+"minute": 6,
+"artist": "Artful Dodger & Craig David",
+"title": "Re-Rewind (The Crowd Say Bo Selecta) (ID Remix)",
+"label": "",
+"bp": "bp:19123541",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8aa3600f-9ee0-48cf-9155-d489968f1d6e.LOFI.mp3",
+"name": "Re-Rewind (The Crowd Say Bo Selecta)",
+"mix": "Wideboys Remix",
+"genre": "uk-garage-bassline",
+"released": "2000-08-14"
+},
+{
+"minute": 8,
+"artist": "DJ Luck & MC Neat",
+"title": "A Little Bit Of Luck (ID Remix)",
+"label": ""
+},
+{
+"minute": 10,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 13,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 14,
+"artist": "Storm Queen",
+"title": "Look Right Through (MK Remix)",
+"label": "Environ - ENV034",
+"bp": "bp:26421265",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/70b90c38-3633-4cc0-b917-2c4833ef24a5.LOFI.mp3",
+"name": "Look Right Through",
+"mix": "Mk Remix",
+"genre": "dance-pop",
+"released": "2014-04-14"
+},
+{
+"minute": 17,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 19,
+"artist": "Rhythm On A Loose",
+"title": "Break Of Dawn",
+"label": "Network - NWKT43",
+"bp": "bp:15244335",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/34ac2597-6f4b-4f34-a4d4-9e8fb3406bb0.LOFI.mp3",
+"name": "Break Of Dawn",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-06-04"
+},
+{
+"minute": 21,
+"artist": "Sunship Feat. Anita Kelsey & R.B.",
+"title": "Try Me Out (Let Me Lick It)",
+"label": "Filter - FILT037",
+"bp": "bp:11779235",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/acd03173-3226-421e-91d7-8fc625a7d47e.LOFI.mp3",
+"name": "Try Me Out (Let Me Lick It)",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2019-04-12"
+},
+{
+"minute": 23,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 25,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 30,
+"artist": "Paul McCartney",
+"title": "Wonderful Christmas Time (ID Remix)",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "Dizzie Rascal Feat. Calvin Harris & Chrome",
+"title": "Dance Wiv Me (Agent X Remix)",
+"label": "Dirtee Stank - STANK002CDS",
+"bp": "bp:29231362",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/bbaa7e91-f179-4407-9a89-f2a894a689e4.LOFI.mp3",
+"name": "Dance Wiv Me",
+"mix": "Agent X Remix",
+"genre": "dance-pop",
+"released": "2024-09-13"
+},
+{
+"minute": 33,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 35,
+"artist": "Cassius",
+"title": "Feeling For You (ID Remix)",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Disclosure Feat. Sam Smith",
+"title": "Latch (T. Williams Club Edit)",
+"label": "PMRS - 023",
+"bp": "bp:15729818",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/86aa7a34-4c07-4ab9-bf91-92a4a855a5ad.LOFI.mp3",
+"name": "Latch",
+"mix": "T.Williams Club Remix",
+"genre": "electronica",
+"released": "2012-01-01"
+},
+{
+"minute": 40,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 42,
+"artist": "Artful Dodger Pres. Robbie Craig & Craig David",
+"title": "Woman Trouble (Wideboy's Pickapocket Or Two Vocal)",
+"label": "FFRR - FX 380",
+"bp": "bp:20164446",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/17407a06-689d-42f0-936a-76e57e61f5de.LOFI.mp3",
+"name": "Woman Trouble ",
+"mix": "Radio Edit",
+"genre": "uk-garage-bassline",
+"released": "2000-06-26"
+},
+{
+"minute": 44,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 46,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 48,
+"artist": "MJ Cole & The Wideboys",
+"title": "Nothing But Trouble (Main Mix)",
+"label": "Prolific - PROPH 106"
+},
+{
+"minute": 51,
+"artist": "Underworld",
+"title": "Born Slippy (ID Remix)",
+"label": ""
+},
+{
+"minute": 53,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 55,
+"artist": "Shut Up And Dance Feat. Peter Bouncer",
+"title": "Raving I'm Raving",
+"label": "Shut Up And Dance - SUAD 30"
+}
+]
+},
+{
+"title": "2020-12-25 - Eddie Craig, DJ Luck - Friday Night KISSTORY",
+"records": [
+{
+"minute": 50,
+"artist": "KMA",
+"title": "Kaotic Madness",
+"label": ""
+},
+{
+"minute": 53,
+"artist": "DJ Luck & MC Neat",
+"title": "A Little Bit Of Luck",
+"label": "Red Rose - CD RROSE 001",
+"bp": "bp:10364720",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b7012dd6-7efd-4889-a147-d79b90d7be7e.LOFI.mp3",
+"name": "A Little Bit Of Luck",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "1999-12-01"
+},
+{
+"minute": 55,
+"artist": "Mariah Carey",
+"title": "My All (Dea Project Remix)",
+"label": "Booby Trap - BOOB 14"
+},
+{
+"minute": 58,
+"artist": "DJ Luck & Troublesome",
+"title": "Fire",
+"label": "Lush - 001",
+"bp": "bp:14838290",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e605e799-b36b-45cf-8dea-1f586ec02a83.LOFI.mp3",
+"name": "Fire",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2021-01-27"
+}
+]
+},
+{
+"title": "2021-01-08 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2021-01-29 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2021-05-28 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2021-06-04 - Eddie Craig - Friday Night KISSTORY",
+"records": []
+},
+{
+"title": "2022-03-26 - Eddie Craig - KISS Fresh Presents",
+"records": [
+{
+"minute": null,
+"artist": "Earth, Wind & Fire",
+"title": "Let's Groove (Majestic 2022 Bootleg)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "SUB-X",
+"title": "What You Do To Me (Charlie Hedges & Eddie Craig Remix)",
+"label": "Positiva",
+"bp": "bp:16380595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/601b7f45-531d-4f7d-9631-44ea403a2a4d.LOFI.mp3",
+"name": "What You Do To Me",
+"mix": "Charlie Hedges & Eddie Craig Extended Mix",
+"genre": "dance-pop",
+"released": "2022-03-25"
+},
+{
+"minute": null,
+"artist": "TS7",
+"title": "Slow Down",
+"label": "",
+"bp": "bp:16030699",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c9fb3727-5f54-4493-a430-e264d31782bd.LOFI.mp3",
+"name": "Slow Down",
+"mix": "Extended Mix",
+"genre": "uk-garage-bassline",
+"released": "2022-01-14"
+},
+{
+"minute": null,
+"artist": "Redlight",
+"title": "Sweat",
+"label": "",
+"bp": "bp:15949881",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5fa96ea2-9849-4ce5-8e26-a7e8147c8f91.LOFI.mp3",
+"name": "Sweat",
+"mix": "Club Mix",
+"genre": "tech-house",
+"released": "2021-11-26"
+},
+{
+"minute": null,
+"artist": "S.A.M Feat. Sarah Ikumu",
+"title": "Spotlight",
+"label": ""
+},
+{
+"minute": null,
+"artist": "SHOSH X Kelsey",
+"title": "N Love",
+"label": "",
+"bp": "bp:16267575",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/7f453a5b-3fbf-499e-a62c-8a9dd8f34cfa.LOFI.mp3",
+"name": "N Love",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2022-03-08"
+},
+{
+"minute": null,
+"artist": "Beyond Chicago",
+"title": "Party",
+"label": "",
+"bp": "bp:16349337",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a0db778b-3038-4095-afd7-243455593f9c.LOFI.mp3",
+"name": "Party",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-04-01"
+},
+{
+"minute": null,
+"artist": "Eddie Craig & Liam Craig",
+"title": "Flowers On The Curtains",
+"label": "Upcycle - UR036A",
+"bp": "bp:16230093",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/75a8025d-b019-4c70-a6f5-229affd9bcea.LOFI.mp3",
+"name": "Flowers On The Curtains",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2022-03-18"
+},
+{
+"minute": null,
+"artist": "Nadim X Ev Wilde X Abi Flynn",
+"title": "One More Time",
+"label": "",
+"bp": "bp:17854235",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/d3ddfdec-f822-4314-ab65-5b41d82dcf32.LOFI.mp3",
+"name": "One More Time",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-03-25"
+},
+{
+"minute": null,
+"artist": "Rawdolff Feat. Tara McDonald",
+"title": "Downtown (Who Got The Funk?) (Azello Remix)",
+"label": "",
+"bp": "bp:16292487",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/8591b884-8ace-4a36-9af6-f0141ebf0104.LOFI.mp3",
+"name": "Downtown (Who Got The Funk?)",
+"mix": "Azello Remix",
+"genre": "house",
+"released": "2022-03-04"
+},
+{
+"minute": null,
+"artist": "Hayden Atkins & Ashley Harfield",
+"title": "Want Your Love",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Origin8a & Propa Feat. Nicky Blackmarket",
+"title": "Krunch",
+"label": "",
+"bp": "bp:16240539",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/34cf7bf6-f049-451f-8e45-fd3bc62ff94e.LOFI.mp3",
+"name": "Krunch",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2022-03-11"
+},
+{
+"minute": null,
+"artist": "PBH & Jack",
+"title": "Luvstruck",
+"label": "",
+"bp": "bp:16282202",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6fed48d4-e508-4d99-b751-bfc4f8e94878.LOFI.mp3",
+"name": "Luvstruck",
+"mix": "Extended",
+"genre": "indie-tech",
+"released": "2022-02-25"
+},
+{
+"minute": null,
+"artist": "Bailey P",
+"title": "Go There",
+"label": "",
+"bp": "bp:17453606",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b66f82ad-4de3-4878-a4a4-66bdb334a376.LOFI.mp3",
+"name": "Go There",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-03-18"
+},
+{
+"minute": null,
+"artist": "DJ Fresh",
+"title": "Gold Dust (Krafty Kuts Remix)",
+"label": "Breakbeat Kaos",
+"bp": "bp:16312821",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/25f5e5fe-f607-4ca7-a13d-57d4ec697b0f.LOFI.mp3",
+"name": "Gold Dust",
+"mix": "Krafty Kuts Remix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2022-04-14"
+},
+{
+"minute": null,
+"artist": "FISHER & Shermanology",
+"title": "It's A Killa (Extended Mix)",
+"label": "Catch & Release - CR013B",
+"bp": "bp:16252887",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bce9823e-6c93-495c-a5c2-a5face4332e8.LOFI.mp3",
+"name": "It's A Killa",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2022-03-11"
+},
+{
+"minute": null,
+"artist": "Eddie Craig",
+"title": "Higher",
+"label": "",
+"bp": "bp:16204050",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/89e7dbb3-8719-47fb-bbc4-e6d7936ed22b.LOFI.mp3",
+"name": "Higher",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2022-02-25"
+},
+{
+"minute": null,
+"artist": "Arielle Free & Mortimer Feat. Joe Killington",
+"title": "Soul Full",
+"label": "D4 D4NCE"
+},
+{
+"minute": null,
+"artist": "NOTION",
+"title": "1997",
+"label": "",
+"bp": "bp:16125754",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4f16f4b3-a3d1-4e29-afb8-57bf3d14bc8e.LOFI.mp3",
+"name": "1997",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2022-02-11"
+},
+{
+"minute": null,
+"artist": "Alfie Cridland & Covenants & Micapoan",
+"title": "It Was All A Dream (Extended Mix)",
+"label": "Perfect Havoc",
+"bp": "bp:16142421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a54b3995-3f04-4250-abb3-6ae52b13123f.LOFI.mp3",
+"name": "It Was All a Dream (Extended Mix)",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2022-01-28"
+},
+{
+"minute": null,
+"artist": "Disclosure & Zedd",
+"title": "You've Got To Let Go If You Want To Be Free",
+"label": "Apollo"
+},
+{
+"minute": null,
+"artist": "Freejak",
+"title": "Sandstorm (Extended Mix)",
+"label": "Perfect Havoc",
+"bp": "bp:16227292",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/903af62e-19b8-40ea-b9cd-c948e4fc0415.LOFI.mp3",
+"name": "Sandstorm",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2022-02-18"
+},
+{
+"minute": null,
+"artist": "Billy Da Kid X Selekio Feat. Selena Mastroianni",
+"title": "Hypnotise",
+"label": "",
+"bp": "bp:16132111",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/08cf4cc3-6325-457f-91bf-4f5383c547dc.LOFI.mp3",
+"name": "Hypnotise",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2022-01-21"
+},
+{
+"minute": null,
+"artist": "Sollos",
+"title": "Free Your Mind",
+"label": "",
+"bp": "bp:16316423",
+"score": 0.957,
+"preview": "https://geo-samples.beatport.com/track/641d7e12-c328-408e-9443-0bb584b2ecfe.LOFI.mp3",
+"name": "Feel Your Mind",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-03-25"
+},
+{
+"minute": null,
+"artist": "Low Steppa",
+"title": "Your Dreams (Extended Mix)",
+"label": "Armada Subjekt - ARSBJKT171",
+"bp": "bp:16129500",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/34fdd38e-c3e3-492a-b2f0-0040221c887b.LOFI.mp3",
+"name": "Your Dreams",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2022-02-04"
+},
+{
+"minute": null,
+"artist": "LUUDE Feat. Colin Hay",
+"title": "Down Under (Majestic Remix)",
+"label": "Sweat It Out - SWEATDS670DJ",
+"bp": "bp:16292165",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/00335a12-8ac9-4163-a712-ff6088802b74.LOFI.mp3",
+"name": "Down Under",
+"mix": "Majestic Remix",
+"genre": "dance-pop",
+"released": "2022-02-25"
+},
+{
+"minute": null,
+"artist": "WZA",
+"title": "Got Me Down",
+"label": "",
+"bp": "bp:16275168",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b292993b-9cb5-42c7-820e-1eb282773374.LOFI.mp3",
+"name": "Got Me Down",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2022-03-04"
+},
+{
+"minute": null,
+"artist": "B Live Feat. Becky Hill & JME",
+"title": "Don't Know About You (Extended)",
+"label": "Ministry of Sound"
+},
+{
+"minute": null,
+"artist": "Diplo & Miguel",
+"title": "Don't Forget My Love (Extended)",
+"label": "Higher Ground - HIGH084SE",
+"bp": "bp:16224344",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5b822188-2742-4669-8f42-d6863a9778b4.LOFI.mp3",
+"name": "Don't Forget My Love",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2022-02-11"
+},
+{
+"minute": null,
+"artist": "Slipmatt, Sol Brothers & Jodi",
+"title": "Zipped Up (Going Back To My Roots) (Club Mix)",
+"label": "Flipside - FLP006D",
+"bp": "bp:16130380",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/477bf34e-7f1b-4308-af41-3b8910b2996e.LOFI.mp3",
+"name": "Zipped Up (Going Back To My Roots)",
+"mix": "Club Mix",
+"genre": "house",
+"released": "2022-02-04"
+},
+{
+"minute": null,
+"artist": "Jay Robin & Melody Men",
+"title": "Your Love",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Cristiano Fry",
+"title": "Running Back",
+"label": "",
+"bp": "bp:16437497",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7cd455cf-de5a-496c-a817-9f38f9d4f42f.LOFI.mp3",
+"name": "Running Back",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-05-06"
+},
+{
+"minute": null,
+"artist": "Beyond Therapy X EchoFly & Angie Brown",
+"title": "Higher (Extended Club Mix)",
+"label": "Champion - CHAMPDL889A",
+"bp": "bp:14398465",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/c97fc0a9-6bb6-43af-8dde-4da1581044a6.LOFI.mp3",
+"name": "Higher",
+"mix": "Extended Club Mix",
+"genre": "tech-house",
+"released": "2020-11-20"
+},
+{
+"minute": null,
+"artist": "Reb\u016bke vs Storm",
+"title": "Storm 2022 (Extended)",
+"label": "Ministry of Sound"
+},
+{
+"minute": null,
+"artist": "Simon Field & Adam Griffin & James Hurr Feat. Aya Anne",
+"title": "You On Red (Extended Mix)",
+"label": "Perfect Havoc"
+},
+{
+"minute": null,
+"artist": "Smokey Bubblin B Feat. Smasher",
+"title": "FTC",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Eddie Craig & Liam Craig",
+"title": "Flowers On The Curtains (Garagehouse 4x4 Kinda Blinding Dub)",
+"label": "Upcycle - UR036A",
+"bp": "bp:16230102",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e7de602e-2bc4-45d7-9a91-fa82652569f8.LOFI.mp3",
+"name": "Flowers On The Curtains",
+"mix": "Garagehouse 4x4 Kinda Blinding Dub",
+"genre": "uk-garage-bassline",
+"released": "2022-03-18"
+},
+{
+"minute": null,
+"artist": "Tom Enzy Feat. Victor Perry",
+"title": "Low",
+"label": "",
+"bp": "bp:16223185",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/47b77b95-c4c7-4cf4-8921-08e06ab92f76.LOFI.mp3",
+"name": "Low",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-03-25"
+},
+{
+"minute": null,
+"artist": "Sonny Fodera & Biscits",
+"title": "About You (Extended)",
+"label": "Solotoko - 113",
+"bp": "bp:16254794",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/12eeca16-fb34-4637-8e18-648357eb806b.LOFI.mp3",
+"name": "About You",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-03-04"
+},
+{
+"minute": null,
+"artist": "Jethro Heston",
+"title": "Cut Me Loose (Beyond Chicago Bootleg)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Soulecta X Bitr8",
+"title": "On My Knees (Matt Jam Lamont & Echelon Spiritual Radio Dub)",
+"label": "",
+"bp": "bp:16201838",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/bd60b979-e228-4a9c-b62d-a36c8070061e.LOFI.mp3",
+"name": "On My Knees",
+"mix": "Matt Jam Lamont & Echelon Spiritual Dub Extended",
+"genre": "uk-garage-bassline",
+"released": "2022-02-18"
+},
+{
+"minute": null,
+"artist": "Ridney",
+"title": "DM (Todd Terry Remix)",
+"label": "",
+"bp": "bp:15798413",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cae56907-dab9-4897-9266-c7ac22fcd4e6.LOFI.mp3",
+"name": "DM",
+"mix": "Todd Terry Extended Remix",
+"genre": "house",
+"released": "2021-10-22"
+},
+{
+"minute": null,
+"artist": "R3WIRE",
+"title": "Save Me",
+"label": "",
+"bp": "bp:27868334",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/04f9a8db-dc43-4c61-9aa5-343623ea56e0.LOFI.mp3",
+"name": "Save Me",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-02-18"
+},
+{
+"minute": null,
+"artist": "TCTS & Chameleon Lime Whoopiepie",
+"title": "Rich Girl",
+"label": "VIP Extended",
+"bp": "bp:15984744",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/572f8923-f156-4d5a-94da-44a0dc2ca8da.LOFI.mp3",
+"name": "Rich Girl",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-11-25"
+},
+{
+"minute": null,
+"artist": "DJ S.K.T Feat. Mila Falls",
+"title": "Drip",
+"label": "",
+"bp": "bp:16190036",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/9b8fa8d8-5f51-469a-8aff-6fd7d07eb9d8.LOFI.mp3",
+"name": "Drip",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-02-25"
+},
+{
+"minute": null,
+"artist": "Jaded X Camden Cox",
+"title": "Moment",
+"label": "D4 D4NCE",
+"bp": "bp:16302994",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/4b5467c6-9efb-49df-aaad-3c6311f0acc6.LOFI.mp3",
+"name": "Moment",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-03-18"
+},
+{
+"minute": null,
+"artist": "The Beatmasters",
+"title": "Good Old Daze (Eddie Craig's Warehouse Mix)",
+"label": "",
+"bp": "bp:16435097",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/432bfcfc-aa54-45b8-a6be-193ee6a8f317.LOFI.mp3",
+"name": "Good Old Daze",
+"mix": "Eddie Craig\u2019s Warehouse Mix",
+"genre": "dance-pop",
+"released": "2022-04-15"
+},
+{
+"minute": null,
+"artist": "Purple Disco Machine X Sophie And The Giants",
+"title": "In The Dark (Oliver Heldens Extended Remix)",
+"label": "Sweat It Out - SWEATDS662DJ",
+"bp": "bp:16232753",
+"score": 0.95,
+"preview": "https://geo-samples.beatport.com/track/9cc9b70b-1401-4df0-a21f-4096ab7d2cc5.LOFI.mp3",
+"name": "In the Dark",
+"mix": "Oliver Heldens Extended Remix",
+"genre": "dance-pop",
+"released": "2022-02-18"
+},
+{
+"minute": null,
+"artist": "Emily Nash",
+"title": "Garden",
+"label": "",
+"bp": "bp:16073402",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d208f8d7-41a7-4953-ad6f-92855843340f.LOFI.mp3",
+"name": "Garden",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2022-01-14"
+},
+{
+"minute": null,
+"artist": "Soulecta X Leanne Louise",
+"title": "Something About You (Hans Glader Remix)",
+"label": "",
+"bp": "bp:16059903",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/153cc5f5-f017-43d7-8a75-3591068ef868.LOFI.mp3",
+"name": "Something About You",
+"mix": "Hans Glader Remix",
+"genre": "uk-garage-bassline",
+"released": "2022-01-14"
+},
+{
+"minute": null,
+"artist": "Ms Pink X BIGREDCAP",
+"title": "Bassface",
+"label": "",
+"bp": "bp:16305827",
+"score": 0.865,
+"preview": "https://geo-samples.beatport.com/track/960ebb71-9cc5-4ab1-9d05-f1953b23302e.LOFI.mp3",
+"name": "Bass Face",
+"mix": "Extended Mix",
+"genre": "uk-garage-bassline",
+"released": "2022-03-04"
+},
+{
+"minute": null,
+"artist": "Majestic Feat. Autumn Rowe",
+"title": "Tricky",
+"label": "",
+"bp": "bp:16064422",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/99c534b6-480d-4bcf-a69f-4df2ea41165f.LOFI.mp3",
+"name": "Tricky",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2022-01-07"
+},
+{
+"minute": null,
+"artist": "HIX Feat. Jessica Hammond",
+"title": "Hold You",
+"label": "",
+"bp": "bp:16451515",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/73155fa3-6046-4c65-9f74-dcb1c67f6f86.LOFI.mp3",
+"name": "Hold You (feat. Jessica Hammond)",
+"mix": "feat. Jessica Hammond",
+"genre": "dance-pop",
+"released": "2022-04-15"
+},
+{
+"minute": null,
+"artist": "Martin Ikin vs Astrotrax Feat. Shola Phillips",
+"title": "Feel The Vibe (Extended Mix)",
+"label": "Toolroom - TOOL1102"
+},
+{
+"minute": null,
+"artist": "Dale Howard & Kevin Knapp",
+"title": "Gunny (In The Arms Of House)",
+"label": "Repopulate Mars - RPM125",
+"bp": "bp:16229529",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3493b830-d31a-4e67-89b7-7ce88945b599.LOFI.mp3",
+"name": "Gunny (In The Arms Of House)",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-03-04"
+},
+{
+"minute": null,
+"artist": "Don Diablo X Dominica",
+"title": "Gotta Let U Go (Extended Mix)",
+"label": "Weplay - WP759E",
+"bp": "bp:16255033",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/d1091827-33c3-476d-b859-ef5358c96829.LOFI.mp3",
+"name": "Gotta Let U Go",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2022-03-18"
+},
+{
+"minute": null,
+"artist": "Supafly & De Funk",
+"title": "Pleasure Love",
+"label": "",
+"bp": "bp:16211568",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ea60ea41-6a1f-4483-86de-3b2d5f122c2d.LOFI.mp3",
+"name": "Pleasure Love",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2022-02-25"
+},
+{
+"minute": null,
+"artist": "Young Franco Feat. Jay Prince & Scrufizzer & Close Counters",
+"title": "Rollout",
+"label": "",
+"bp": "bp:17207728",
+"score": 0.7,
+"preview": "https://geo-samples.beatport.com/track/bf14bb58-c407-4b60-8512-134826389ad9.LOFI.mp3",
+"name": "Rollout (feat. Jay Prince, Scrufizzer & Close Counters)",
+"mix": "feat. Jay Prince, Scrufizzer & Close Counters",
+"genre": "dance-pop",
+"released": "2022-03-17"
+},
+{
+"minute": null,
+"artist": "MPH",
+"title": "Screamer",
+"label": "",
+"bp": "bp:15850168",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f18b6050-90a6-409f-b8df-7ef704a05fa1.LOFI.mp3",
+"name": "Screamer",
+"mix": "Original Mix",
+"genre": "bass-house",
+"released": "2022-02-04"
+},
+{
+"minute": null,
+"artist": "Scott Garcia",
+"title": "Closer Than Close",
+"label": "",
+"bp": "bp:14824764",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/53181951-de83-459d-bf34-f119266e9474.LOFI.mp3",
+"name": "Closer Than Close",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2021-01-22"
+},
+{
+"minute": null,
+"artist": "Pink Panda",
+"title": "Obsessed VIP",
+"label": "",
+"bp": "bp:15873664",
+"score": 0.88,
+"preview": "https://geo-samples.beatport.com/track/e4668158-03e1-4e57-92e1-9a44af874183.LOFI.mp3",
+"name": "Obsessed",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2021-11-19"
+},
+{
+"minute": null,
+"artist": "Saffron Stone Feat. Lily Mckenzie",
+"title": "Better Me (Extended Mix)",
+"label": "Solotoko"
+},
+{
+"minute": null,
+"artist": "Wh0 Feat. Joe Killington",
+"title": "Wide Awake",
+"label": "",
+"bp": "bp:18380066",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/4bce04ad-a27b-42ec-8ee3-af9b17fbf0bd.LOFI.mp3",
+"name": "Wide Awake",
+"mix": "Acapella",
+"genre": "dj-tools-acapellas",
+"released": "2023-12-15"
+},
+{
+"minute": null,
+"artist": "James Hype, Miggy Dela Rosa",
+"title": "Ferrari (Extended Mix)",
+"label": "The Cross - TX0002",
+"bp": "bp:16333628",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f4cacf7-6a9e-4424-9f29-ab0401b359ae.LOFI.mp3",
+"name": "Ferrari",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2022-03-15"
+},
+{
+"minute": null,
+"artist": "Sammy Porter & George Mensah",
+"title": "No Good For Me (Extended Mix)",
+"label": "Lovejuice - LJR0044E",
+"bp": "bp:16272800",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2943daf4-310b-4983-b669-646e5185e97a.LOFI.mp3",
+"name": "No Good For Me",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-03-18"
+},
+{
+"minute": null,
+"artist": "Mark Knight & Mason",
+"title": "Givin' Up (Extended Mix)",
+"label": "Toolroom - TOOL1099",
+"bp": "bp:15952945",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/342377c1-3dd0-4df3-8fe2-88810d54c5b6.LOFI.mp3",
+"name": "Givin' Up",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2021-12-10"
+},
+{
+"minute": null,
+"artist": "Joel Corry X Da Hool",
+"title": "The Parade (Extended)",
+"label": "Selected. - SELECTED172",
+"bp": "bp:16164633",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/67e74e94-b48a-4d27-b848-1c6d4066b4eb.LOFI.mp3",
+"name": "The Parade",
+"mix": "Extended",
+"genre": "tech-house",
+"released": "2022-02-04"
+},
+{
+"minute": null,
+"artist": "Gentleman#s Club",
+"title": "Such A Feeling",
+"label": ""
+}
+]
+},
+{
+"title": "2023-03-18 - Eddie Craig - KISS Fresh Presents",
+"records": []
+},
+{
+"title": "2023-04-09 - Eddie Craig - KISS Fresh Presents",
+"records": []
+},
+{
+"title": "2024-10-04 - DJ S.K.T & Eddie Craig - SLAM! MixMarathon",
+"records": [
+{
+"minute": null,
+"artist": "DJ S.K.T & Eddie Craig",
+"title": "Let The Music Play",
+"label": "In / Rotation",
+"bp": "bp:19215101",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/38e6f674-35b8-4404-b9a3-4a2769ad2d99.LOFI.mp3",
+"name": "Let The Music Play",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-07-30"
+},
+{
+"minute": null,
+"artist": "Prospa",
+"title": "Ecstasy (Over & Over) (Ausonia Remix)",
+"label": "Polydor"
+},
+{
+"minute": null,
+"artist": "Eddie Craig & Amy Pearson",
+"title": "Spell",
+"label": "Muscle Memory"
+},
+{
+"minute": null,
+"artist": "Eddie Craig & Amy Pearson",
+"title": "Spell (VIP Mix)",
+"label": "Muscle Memory"
+},
+{
+"minute": null,
+"artist": "Majestic",
+"title": "Brothers And Sisters (Extended Mix)",
+"label": "Sola",
+"bp": "bp:19224099",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/ecad1ad7-670f-40e9-a58a-92a28d5c20df.LOFI.mp3",
+"name": "Brothers & Sisters",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-07-12"
+},
+{
+"minute": null,
+"artist": "DJ S.K.T & Mauro Venti Feat. Joelii",
+"title": "Donde Estas (Extended Mix)",
+"label": "Stashed",
+"bp": "bp:18668813",
+"score": 0.95,
+"preview": "https://geo-samples.beatport.com/track/663dbdad-0499-4810-af56-deef9104f24d.LOFI.mp3",
+"name": "Donde Estas",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2024-03-01"
+},
+{
+"minute": null,
+"artist": "Eddie Craig",
+"title": "Movement Y'all",
+"label": "Rhythm Empire",
+"bp": "bp:18503914",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18c0df61-969e-4270-ad57-b573493a0f6c.LOFI.mp3",
+"name": "Movement Y'all",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-01-12"
+},
+{
+"minute": null,
+"artist": "Angie Stone",
+"title": "Wish I Didn't Miss You (ID Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ S.K.T. & Shaq Rayes",
+"title": "Cintura (Extended Mix)",
+"label": "Nervous",
+"bp": "bp:19375428",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/24f31360-5e68-4baa-8b2a-88029336196d.LOFI.mp3",
+"name": "Cintura",
+"mix": "Extended Mix",
+"genre": "afro-house",
+"released": "2024-08-23"
+},
+{
+"minute": null,
+"artist": "Eddie Craig & PunkPappa",
+"title": "Simple",
+"label": "",
+"bp": "bp:18503912",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0633c168-e6ba-4dae-877a-fcd58bdc749c.LOFI.mp3",
+"name": "Simple",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-01-12"
+},
+{
+"minute": null,
+"artist": "ManyFew & Eddie Craig & Angie Brown",
+"title": "Giving Me More (Extended Mix)",
+"label": "Perfect Havoc",
+"bp": "bp:18757319",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/507e5715-eb9d-483a-b408-e0e3912d27d0.LOFI.mp3",
+"name": "Giving Me More",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-03-29"
+},
+{
+"minute": null,
+"artist": "DJ S.K.T",
+"title": "Babylon (Extended Mix)",
+"label": "Stashed",
+"bp": "bp:18595331",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/09b1dbdc-39d8-4cc1-9687-8d2713552da0.LOFI.mp3",
+"name": "Babylon",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-02-09"
+},
+{
+"minute": null,
+"artist": "DJ S.K.T & Pure Cold Feat. Shaq Rayes",
+"title": "Pelota (Extended Mix)",
+"label": "Stashed",
+"bp": "bp:18761030",
+"score": 0.956,
+"preview": "https://geo-samples.beatport.com/track/8c8b78cd-5738-4774-8481-8e21b8fa18c2.LOFI.mp3",
+"name": "Pelota",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-03-29"
+},
+{
+"minute": null,
+"artist": "John Summit & GUZ",
+"title": "Thin Line (Charlie Hedges & Eddie Craig Extended Remix)",
+"label": "D4 D4NCE",
+"bp": "bp:14703494",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e839fbe8-bad4-48c5-b5dd-2f727bcaedb1.LOFI.mp3",
+"name": "Thin Line",
+"mix": "Charlie Hedges & Eddie Craig Extended Remix",
+"genre": "house",
+"released": "2021-01-14"
+}
+]
+},
+{
+"title": "2024-11-29 - ManyFew, Eddie Craig - Electronic Heaven E083",
+"records": [
+{
+"minute": 1,
+"artist": "ManyFew",
+"title": "Get Up!",
+"label": "ManyFew",
+"bp": "bp:19749941",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1042091f-506c-40a6-9b3e-aeef6c9b4ea7.LOFI.mp3",
+"name": "Get Up!",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-12-06"
+},
+{
+"minute": 4,
+"artist": "Fedde Le Grand",
+"title": "I Am Ready (Extended Mix)",
+"label": "Darklight",
+"bp": "bp:19714256",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b795c17-409a-41fd-a242-fd092c93f97c.LOFI.mp3",
+"name": "I Am Ready",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-11-29"
+},
+{
+"minute": 8,
+"artist": "Bianca Kinane & UR2wo & Paul Sirrell & Bradderz",
+"title": "Do 4 Love (UR2wo & Paul Sirrell & Bradderz Remix)",
+"label": "Crime Scene Chemistry",
+"bp": "bp:19797179",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/575437ee-c1c1-4914-8c76-e10cabb0e114.LOFI.mp3",
+"name": "Do 4 Love",
+"mix": "UR2wo & Paul Sirrell & Bradderz Remix",
+"genre": "house",
+"released": "2024-12-01"
+},
+{
+"minute": 12,
+"artist": "ManyFew",
+"title": "Hold On",
+"label": "ManyFew",
+"bp": "bp:19578616",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3879b0ee-4fd9-4855-b2da-bef380e6304a.LOFI.mp3",
+"name": "Hold On",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-10-18"
+},
+{
+"minute": 15,
+"artist": "Midnight City",
+"title": "Thru The Night (Extended Mix)",
+"label": "All Night Long",
+"bp": "bp:19817513",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5784f5f7-d9ec-45d8-af31-f073d6a55388.LOFI.mp3",
+"name": "Thru The Night",
+"mix": "Extended Mix",
+"genre": "jackin-house",
+"released": "2025-01-03"
+},
+{
+"minute": 19,
+"artist": "CASSIMM",
+"title": "Valerie",
+"label": "Toolroom",
+"bp": "bp:19767513",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6c214783-aeeb-4ca3-b00c-f0e06ad94941.LOFI.mp3",
+"name": "Valerie",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-12-06"
+},
+{
+"minute": 22,
+"artist": "ManyFew Feat. Darah",
+"title": "Wanna Love U (Jowy Remix)",
+"label": "",
+"bp": "bp:19669252",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/68f366d1-580f-4f98-8e84-1f93553847b9.LOFI.mp3",
+"name": "Wanna Love U",
+"mix": "Jowy Remix",
+"genre": "house",
+"released": "2024-10-25"
+},
+{
+"minute": 25,
+"artist": "ManyFew",
+"title": "All Souls Avenue",
+"label": "",
+"bp": "bp:18640847",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8f1d222c-48f9-4081-8a91-3c1c9e0a4cee.LOFI.mp3",
+"name": "All Souls Avenue",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-03-01"
+},
+{
+"minute": 28,
+"artist": "ManyFew",
+"title": "NRG",
+"label": "",
+"bp": "bp:18847304",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/98ec3940-45fc-4dea-890e-e1fd724cd1cd.LOFI.mp3",
+"name": "NRG",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-04-19"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "Eddie Craig -&#160;?"
+},
+{
+"minute": 34,
+"artist": "DJ S.K.T & Eddie Craig",
+"title": "Let The Music Play (VIP)",
+"label": "IN / ROTATION",
+"bp": "bp:19335127",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eed134bf-1ea4-4a42-848c-d4409d033a55.LOFI.mp3",
+"name": "Let The Music Play",
+"mix": "VIP",
+"genre": "dance-pop",
+"released": "2024-07-30"
+},
+{
+"minute": 37,
+"artist": "Prospa",
+"title": "Ecstacy (Ausonia Remix )",
+"label": ""
+},
+{
+"minute": 40,
+"artist": "Eddie Craig & Amy Pearson",
+"title": "Spell",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "Beyond Chicago & Majestic & Alex Mills",
+"title": "Million Dollar Bill (Eddie Craig Norty 90's Edit)",
+"label": "D4 D4NCE"
+},
+{
+"minute": 47,
+"artist": "Eddie Craig",
+"title": "Movement Y'all",
+"label": "",
+"bp": "bp:18503914",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18c0df61-969e-4270-ad57-b573493a0f6c.LOFI.mp3",
+"name": "Movement Y'all",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-01-12"
+},
+{
+"minute": 49,
+"id": null,
+"raw": "Eddie Craig -&#160;?"
+},
+{
+"minute": 51,
+"artist": "ManyFew & Eddie Craig & Angie Brown",
+"title": "Giving Me More",
+"label": "",
+"bp": "bp:18757319",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/507e5715-eb9d-483a-b408-e0e3912d27d0.LOFI.mp3",
+"name": "Giving Me More",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-03-29"
+},
+{
+"minute": 53,
+"artist": "Eddie Craig & Moody Mike & Jasmine Knight",
+"title": "Magic Feeling",
+"label": "",
+"bp": "bp:18503904",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6b07161e-a0c2-4e09-9468-ba9ebd087bcc.LOFI.mp3",
+"name": "Magic Feeling",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2024-01-12"
+},
+{
+"minute": 55,
+"id": null,
+"raw": "Eddie Craig -&#160;?"
+},
+{
+"minute": 57,
+"id": null,
+"raw": "Eddie Craig -&#160;?"
+},
+{
+"minute": 59,
+"artist": "SUB-X",
+"title": "What You Do To Me (Charlie Hedges & Eddie Craig Extended Mix)",
+"label": "",
+"bp": "bp:16380595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/601b7f45-531d-4f7d-9631-44ea403a2a4d.LOFI.mp3",
+"name": "What You Do To Me",
+"mix": "Charlie Hedges & Eddie Craig Extended Mix",
+"genre": "dance-pop",
+"released": "2022-03-25"
+}
+]
+}
+]
+}
