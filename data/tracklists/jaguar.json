@@ -1,0 +1,605 @@
+{
+"dj": "Jaguar",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2020-01-23 - Jaguar - Prima Lux",
+"records": []
+},
+{
+"title": "2021-08-06 - Jaguar - Triple J Friday Mix",
+"records": [
+{
+"minute": null,
+"artist": "Chlo Robinson & DJ ADHD",
+"title": "Pax",
+"label": "",
+"bp": "bp:16836621",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/575512b9-3eef-4a0b-8b46-8b17e95aa959.LOFI.mp3",
+"name": "Pax",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2022-08-31"
+},
+{
+"minute": null,
+"artist": "Cakes da Killa X Proper Villains",
+"title": "Whats The Word (Wax Wings Remix)",
+"label": "",
+"bp": "bp:15665709",
+"score": 0.913,
+"preview": "https://geo-samples.beatport.com/track/537b1546-4100-4928-9a43-fc5a8e64b152.LOFI.mp3",
+"name": "What's the Word",
+"mix": "Wax Wings Remix",
+"genre": "techno-peak-time-driving",
+"released": "2021-09-03"
+},
+{
+"minute": null,
+"artist": "TAAHLIAH",
+"title": "Bourgeoisie",
+"label": ""
+},
+{
+"minute": null,
+"artist": "YTP",
+"title": "D E E P E R",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Cici",
+"title": "Extraneous",
+"label": "",
+"bp": "bp:15379489",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f2f65fe2-8b99-4520-baf6-45d642827a92.LOFI.mp3",
+"name": "Extraneous",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-07-16"
+},
+{
+"minute": null,
+"artist": "Ell Murphy",
+"title": "Hours",
+"label": "",
+"bp": "bp:14956273",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cff846ae-c80b-469b-8031-51ff47c99857.LOFI.mp3",
+"name": "Hours",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2021-05-21"
+},
+{
+"minute": null,
+"artist": "Bailey Ibbs",
+"title": "Helter Skelter",
+"label": "",
+"bp": "bp:15450391",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ec46f85e-cc22-4ad4-8d4b-5a053a9974fe.LOFI.mp3",
+"name": "Helter Skelter",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2021-07-12"
+}
+]
+},
+{
+"title": "2024-03-08 - Jaguar - fabric Podcast IWD24",
+"records": []
+},
+{
+"title": "2024-04-26 - Jaguar B2B DJ Paulette @ IMS, Dalt Vila, Ibiza",
+"records": [
+{
+"minute": 0,
+"artist": "IDRIS",
+"title": "La Trumpeta",
+"label": "Defected",
+"bp": "bp:18744474",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0faf9db-d165-4b73-9da7-bb04162a7d1b.LOFI.mp3",
+"name": "La Trumpeta",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-03-08"
+},
+{
+"minute": 7,
+"artist": "OFFAIAH",
+"title": "Hands",
+"label": "Armada Subjekt",
+"bp": "bp:18777251",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e4152c7b-f598-4b8b-a0d0-204393e43ca9.LOFI.mp3",
+"name": "Hands",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2024-03-22"
+},
+{
+"minute": 14,
+"artist": "Bruno Furlan",
+"title": "Sugar Daddy",
+"label": "",
+"bp": "bp:18776913",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/21be90cf-5a9c-45c6-a34a-42c9a90e7346.LOFI.mp3",
+"name": "Sugar Daddy",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2024-03-22"
+},
+{
+"minute": 22,
+"artist": "Cool Jack",
+"title": "Jus' Come (Marco Lys Remix)",
+"label": "",
+"bp": "bp:18772511",
+"score": 0.965,
+"preview": "https://geo-samples.beatport.com/track/6df5171f-672c-4056-8a15-afeaa468b0d2.LOFI.mp3",
+"name": "Just Come",
+"mix": "Marco Lys Extended Remix",
+"genre": "indie-tech",
+"released": "2024-03-22"
+},
+{
+"minute": 25,
+"artist": "Drumheller",
+"title": "Paprika",
+"label": "Funky Adjacent",
+"bp": "bp:18335830",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f4a01d31-0748-49e2-ad70-da901b38a009.LOFI.mp3",
+"name": "Paprika",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2023-12-14"
+},
+{
+"minute": 28,
+"artist": "Skonka",
+"title": "Purple City",
+"label": "Repopulate Mars",
+"bp": "bp:18731684",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3365a27e-fdcd-42ba-8d83-63aa0ec5226f.LOFI.mp3",
+"name": "Purple City",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2024-03-22"
+},
+{
+"minute": 36,
+"artist": "Tiga vs Audion",
+"title": "Let's Go Dancing (Matroda Remix)",
+"label": "Insomniac",
+"bp": "bp:18525383",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/84f95475-4d04-46cd-a016-23913bc2c541.LOFI.mp3",
+"name": "Let's Go Dancing",
+"mix": "Matroda Remix",
+"genre": "tech-house",
+"released": "2024-02-02"
+},
+{
+"minute": 38,
+"artist": "Lu.Re",
+"title": "Feel For You",
+"label": "Utopia Worldwide",
+"bp": "bp:19019029",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/19f247eb-cd05-4760-803f-84d9c396b1e5.LOFI.mp3",
+"name": "Feel For You",
+"mix": "Extended Mix",
+"genre": "uk-garage-bassline",
+"released": "2024-05-09"
+},
+{
+"minute": 41,
+"artist": "Layo & Bushwacka! vs Kings Of Tomorrow",
+"title": "Love Story vs Finally (Paul Woolford 20th Anniversary Rework)",
+"label": "XL"
+}
+]
+},
+{
+"title": "2025-07-18 - Tim Sweeney, Jaguar - Beats In Space 170, Apple Music",
+"records": [
+{
+"minute": 0,
+"artist": "Baba Stiltz",
+"title": "Day Tripping",
+"label": ""
+},
+{
+"minute": 4,
+"artist": "Patrick Holland & Pacific Spirit",
+"title": "Giving",
+"label": "",
+"bp": "bp:20527767",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5d273276-2373-4e24-af3a-1dbe104d2998.LOFI.mp3",
+"name": "Giving",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-05-30"
+},
+{
+"minute": 9,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 12,
+"artist": "Ora The Molecule",
+"title": "Intergalactic Dance (Lindstr\u00f8m Remix)",
+"label": "",
+"bp": "bp:20751410",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/17d9a95a-4a0b-4565-837a-5c05f54581d2.LOFI.mp3",
+"name": "Intergalactic Dance",
+"mix": "Lindstr\u00f8m Remix",
+"genre": "dance-pop",
+"released": "2025-01-15"
+},
+{
+"minute": 16,
+"artist": "Boys' Shorts Feat. Budino & Elisa Paradiso",
+"title": "Summer's Here And Summer's Missing",
+"label": "",
+"bp": "bp:20705204",
+"score": 0.683,
+"preview": "https://geo-samples.beatport.com/track/884cbd4a-7271-445e-a813-5ae7f73185ee.LOFI.mp3",
+"name": "Summer's Here and Summer's Missing (ft Budino & Elisa Paradiso)",
+"mix": "ft Budino & Elisa Paradiso",
+"genre": "indie-dance",
+"released": "2025-07-11"
+},
+{
+"minute": 21,
+"artist": "Jex Opolis & Cable Toy",
+"title": "Waste Of Time (Cable Toy Remix)",
+"label": "",
+"bp": "bp:20518369",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a5e619aa-62e7-444a-8285-de8d6820373f.LOFI.mp3",
+"name": "Waste of Time",
+"mix": "Cable Toy Remix",
+"genre": "house",
+"released": "2025-06-20"
+},
+{
+"minute": 25,
+"artist": "Juravlove Feat. DJ Stonik1917",
+"title": "\u0418\u043c\u0438\u0434\u0436",
+"label": "",
+"bp": "bp:20536528",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/691e813b-82f1-43b0-a174-629d825d9c33.LOFI.mp3",
+"name": "\u0418\u043c\u0438\u0434\u0436",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-05-30"
+},
+{
+"minute": 30,
+"artist": "Lowheart",
+"title": "Smtimyb (Korn\u00e9l Kov\u00e1cs & Julian Artur Remix)",
+"label": ""
+},
+{
+"minute": 33,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 36,
+"artist": "Lopezhouse Feat. Lannakise",
+"title": "Scorpio Rising (Funk D'Void Remix)",
+"label": "",
+"bp": "bp:20675010",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/bdfbf103-f787-4986-99be-1d27ec3e50f5.LOFI.mp3",
+"name": "Scorpio Rising ",
+"mix": "Funk D'Void Remix",
+"genre": "melodic-house-techno",
+"released": "2025-07-25"
+},
+{
+"minute": 40,
+"artist": "George Feely",
+"title": "Blue Marble",
+"label": "",
+"bp": "bp:20565897",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/844972e6-a082-4a66-ac0e-ea1050662eff.LOFI.mp3",
+"name": "Blue Marble",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2025-06-20"
+},
+{
+"minute": 46,
+"artist": "Fennec",
+"title": "Jaunt",
+"label": "",
+"bp": "bp:20527966",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/230beeab-f034-4afa-bacf-32d7001475e6.LOFI.mp3",
+"name": "Jaunt",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-06-27"
+},
+{
+"minute": 50,
+"artist": "Myd",
+"title": "So High",
+"label": "",
+"bp": "bp:20545593",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60445e5c-b0dc-42ca-a8ca-7d7c25653a64.LOFI.mp3",
+"name": "So High",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-06-06"
+},
+{
+"minute": 54,
+"artist": "Sofia Kourtesis",
+"title": "Canela Pura",
+"label": "",
+"bp": "bp:20655620",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/154b84a6-e74e-4d0d-9e40-a698059aff01.LOFI.mp3",
+"name": "Canela Pura",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-06-19"
+},
+{
+"minute": 57,
+"artist": "Carli",
+"title": "Sea Of Love",
+"label": "",
+"bp": "bp:20583450",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/adbe0565-ecfd-43ac-8a50-8854e2aef546.LOFI.mp3",
+"name": "Sea of Love",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-06-13"
+},
+{
+"minute": 0,
+"artist": "Elkka",
+"title": "Gentle Gaze",
+"label": "",
+"bp": "bp:20445587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f7ae304f-7cea-4bfa-9ead-6b824c564787.LOFI.mp3",
+"name": "Gentle Gaze",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-06-20"
+},
+{
+"minute": 5,
+"artist": "Yesca",
+"title": "Moving House",
+"label": "",
+"bp": "bp:20444218",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/be1980f8-946f-477b-9eec-2716c9f3869f.LOFI.mp3",
+"name": "Moving House",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-06-13"
+},
+{
+"minute": 8,
+"artist": "Junior Simba & Meg Ward",
+"title": "Relentless IV",
+"label": "",
+"bp": "bp:20431890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc4b7f53-7f3d-447e-b730-eb4d5820ccf0.LOFI.mp3",
+"name": "Relentless IV",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2025-05-16"
+},
+{
+"minute": 11,
+"artist": "Osmosis Jones",
+"title": "Inside Da Rave",
+"label": "",
+"bp": "bp:19160867",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ddbbea9d-b047-4eb9-b5af-de612d12717f.LOFI.mp3",
+"name": "Inside Da Rave",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2024-07-05"
+},
+{
+"minute": 14,
+"artist": "Jaguar",
+"title": "WILD!",
+"label": "",
+"bp": "bp:20226706",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b78f12a7-a50f-44a1-a549-871ef7a03cf9.LOFI.mp3",
+"name": "WILD!",
+"mix": "Extended",
+"genre": "bass-house",
+"released": "2025-04-09"
+},
+{
+"minute": 20,
+"artist": "Seth Troxler & Cassie",
+"title": "Evangelion / Long Way 2 Go",
+"label": ""
+},
+{
+"minute": 23,
+"artist": "Bodhi",
+"title": "Without You",
+"label": "",
+"bp": "bp:20473728",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c46f900-b152-4fd0-9d02-38904ba44638.LOFI.mp3",
+"name": "Without You",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2025-05-16"
+},
+{
+"minute": 27,
+"artist": "Ila Brugal",
+"title": "Vienna Blend",
+"label": "",
+"bp": "bp:19504400",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bc532856-284c-44a0-9c03-986b0380590e.LOFI.mp3",
+"name": "Vienna Blend",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2024-09-27"
+},
+{
+"minute": 31,
+"artist": "The Underground Workshop",
+"title": "Does Your Mama Know",
+"label": "",
+"bp": "bp:10729441",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/9e0428fa-ee13-467f-9fa7-ef82f95f1f40.LOFI.mp3",
+"name": "Does Your Mama Know",
+"mix": "Franky G Original Club Mix",
+"genre": "deep-house",
+"released": "2018-07-20"
+},
+{
+"minute": 32,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 36,
+"artist": "Juicy Romance",
+"title": "Famous",
+"label": "",
+"bp": "bp:20539004",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cbbab7a9-3fdb-46d1-ab4e-354ea3c8785c.LOFI.mp3",
+"name": "Famous",
+"mix": "Club Mix",
+"genre": "bass-house",
+"released": "2025-06-20"
+},
+{
+"minute": 40,
+"artist": "Champion & Bklava & Denham Audio",
+"title": "Set Me Free",
+"label": "",
+"bp": "bp:22356109",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e9a54b3c-ab1a-4280-8994-4535ea583bb4.LOFI.mp3",
+"name": "Set Me Free",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2025-03-28"
+},
+{
+"minute": 43,
+"artist": "Jaguar",
+"title": "WHITE PONY",
+"label": "",
+"bp": "bp:20500671",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d0d9baae-9107-4c42-b6a6-b7b01a2df4c4.LOFI.mp3",
+"name": "WHITE PONY",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2025-06-04"
+},
+{
+"minute": 47,
+"artist": "NIGHT Manoeuvres & Dot Major & ABSOLUTE.",
+"title": "Genesis",
+"label": "",
+"bp": "bp:20478009",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/08d82704-089d-4bb3-8249-f0044e6a9c5a.LOFI.mp3",
+"name": "Genesis",
+"mix": "Extended Mix",
+"genre": "bass-club",
+"released": "2025-05-29"
+},
+{
+"minute": 49,
+"artist": "DRIIA",
+"title": "Anyone I Want (Flava D Remix)",
+"label": "",
+"bp": "bp:18341933",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a66572d7-994c-459c-9457-a1c4115b34a4.LOFI.mp3",
+"name": "Anyone I Want",
+"mix": "Flava D Remix",
+"genre": "uk-garage-bassline",
+"released": "2023-12-13"
+},
+{
+"minute": 52,
+"artist": "Dutch Sauce",
+"title": "Exo Exo",
+"label": "",
+"bp": "bp:23222677",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c1e16c0-e7c9-47cd-8332-6e278237a9ce.LOFI.mp3",
+"name": "Exo Exo ",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2026-01-30"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 57,
+"artist": "Ineffekt",
+"title": "Do You Hear Me?",
+"label": "",
+"bp": "bp:20016138",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ff9b2a24-657f-4fb3-ad5a-b506f385f121.LOFI.mp3",
+"name": "do you hear me?",
+"mix": "Extended Version",
+"genre": "bass-club",
+"released": "2025-01-30"
+},
+{
+"minute": 58,
+"artist": "James Indigo",
+"title": "Brain Activity",
+"label": "",
+"bp": "bp:20209658",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ab577475-a5b7-4269-9590-d850ad1b5de8.LOFI.mp3",
+"name": "Brain Activity",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2025-03-26"
+}
+]
+}
+]
+}
