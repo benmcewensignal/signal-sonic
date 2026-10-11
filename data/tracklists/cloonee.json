@@ -1,0 +1,1528 @@
+{
+"dj": "Cloonee",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2023-02-05 - Andrea Oliva b2b Cloonee @ Ants On Tour, Printworks, London",
+"records": [
+{
+"minute": 0,
+"artist": "Blackchild (ITA)",
+"title": "Changes (Acid Mix)",
+"label": "LATEMORNING"
+},
+{
+"minute": 3,
+"artist": "Gianni Firmaio",
+"title": "Long Time (Original Mix)",
+"label": "Rawthentic",
+"bp": "bp:17038876",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5b073843-1deb-4e43-9231-2a574ffbac95.LOFI.mp3",
+"name": "Long Time",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-11-11"
+},
+{
+"minute": 9,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 12,
+"artist": "EDDY M.",
+"title": "Donkey Kongas (Original Mix)",
+"label": "EMrec",
+"bp": "bp:17009818",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8a036397-bde9-4fca-a05a-d4149f32952d.LOFI.mp3",
+"name": "Donkey Kongas",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-10-28"
+},
+{
+"minute": 15,
+"artist": "Andruss & MC Buret",
+"title": "Tranquil\u00e3o (Original Mix)",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Hector Couto",
+"title": "Salimo",
+"label": "Sola",
+"bp": "bp:11482034",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c08c9564-6fc5-4414-95db-12a26dee21c7.LOFI.mp3",
+"name": "Salimo",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2019-02-01"
+},
+{
+"minute": 23,
+"artist": "Julio Bravo, Joaquin Ranz",
+"title": "Say My Name",
+"label": "",
+"bp": "bp:17713077",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1acbc844-9ea5-4c43-b052-8ad5451367d2.LOFI.mp3",
+"name": "Say My Name ",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2023-06-16"
+},
+{
+"minute": 27,
+"artist": "Vinnci, Eric Olliver",
+"title": "Estalanga\u00e7o (Alvaro Smart Remix)",
+"label": "Material",
+"bp": "bp:15433631",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/32338c09-d366-4c38-ab8a-b01f393abc8b.LOFI.mp3",
+"name": "Estalanga\u00e7o",
+"mix": "Alvaro Smart Remix",
+"genre": "tech-house",
+"released": "2022-01-21"
+},
+{
+"minute": 31,
+"artist": "Octaveone",
+"title": "Blackwater (Alex Culross 2023 Rework)",
+"label": "Cr2 Records"
+},
+{
+"minute": 33,
+"artist": "Paco Wegmann, Sirus Hood",
+"title": "Rip Tide",
+"label": "Hot Creations",
+"bp": "bp:13019704",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1d09b28e-45fe-4e99-90a3-cd323e4ef593.LOFI.mp3",
+"name": "Rip Tide",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-01-31"
+},
+{
+"minute": 36,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 40,
+"artist": "Taty Mu\u00f1oz",
+"title": "Alteration",
+"label": "Roush Label"
+},
+{
+"minute": 43,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 48,
+"artist": "Andrea Oliva",
+"title": "Dilemma (Extended Dub Mix)",
+"label": "All I Need",
+"bp": "bp:16747582",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b3ef4192-f0e8-4dbf-9683-a1c69a9a2bef.LOFI.mp3",
+"name": "Dilemma",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2022-08-12"
+},
+{
+"minute": 53,
+"artist": "BeMore",
+"title": "Envolvido",
+"label": "",
+"bp": "bp:18081400",
+"score": 0.94,
+"preview": "https://geo-samples.beatport.com/track/0eb5bc89-3f78-48c9-8836-23043145046d.LOFI.mp3",
+"name": "Envolvida\u0303o",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-09-15"
+},
+{
+"minute": 57,
+"artist": "Jamie Jones",
+"title": "Piano Wax",
+"label": "Hottrax",
+"bp": "bp:17327787",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7ae8e62f-6967-45a8-b119-97754ef3d458.LOFI.mp3",
+"name": "Piano Wax",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-02-03"
+},
+{
+"minute": 59,
+"artist": "Micah Baxter",
+"title": "Gdyz",
+"label": "GRITTY"
+},
+{
+"minute": 65,
+"artist": "Iio Feat. Nadia Ali",
+"title": "Rapture (Paskman Edit)",
+"label": "Made"
+},
+{
+"minute": 69,
+"artist": "Cloonee, Wade",
+"title": "Mi Amor",
+"label": "CLNE",
+"bp": "bp:15269939",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6446afaa-586f-4239-af0b-50545a9714ad.LOFI.mp3",
+"name": "Mi Amor",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2021-05-28"
+},
+{
+"minute": 72,
+"artist": "OFFAIAH",
+"title": "Somewhere Special (Club Mix)",
+"label": "Defected"
+},
+{
+"minute": 77,
+"artist": "Jenia Tarsol, Jinga",
+"title": "Takadoom (Edit)",
+"label": "Blue Shadow"
+},
+{
+"minute": 81,
+"artist": "Green Velvet",
+"title": "Flash (Edit)",
+"label": "Relief"
+},
+{
+"minute": 86,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 89,
+"artist": "James Poole",
+"title": "Make The Dream Work",
+"label": "Hottrax",
+"bp": "bp:17108318",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7fe4a49-accd-49df-bedf-48998bf3801e.LOFI.mp3",
+"name": "Make The Dream Work",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2022-12-02"
+},
+{
+"minute": 94,
+"artist": "Aitor Astiz",
+"title": "El Perd\u00f3n",
+"label": "Hellbent",
+"bp": "bp:17563582",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/657ff6df-f3b8-4fc0-b924-dbd39d32ae05.LOFI.mp3",
+"name": "El Perd\u00f3n",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-04-14"
+},
+{
+"minute": 96,
+"artist": "Danny Serrano",
+"title": "Mantra",
+"label": "Stereo Productions",
+"bp": "bp:17041147",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a5dfc411-661d-4300-85ff-69a71fdfc9b1.LOFI.mp3",
+"name": "Mantra",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2022-10-28"
+},
+{
+"minute": 101,
+"artist": "Cloonee",
+"title": "Sun Goes Down (Extended Mix)",
+"label": "Big Beat",
+"bp": "bp:14771388",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0df04a8a-6a24-425e-b229-36ef52cac9ef.LOFI.mp3",
+"name": "Sun Goes Down",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2021-01-22"
+},
+{
+"minute": 106,
+"artist": "Sirus Hood",
+"title": "Trapped In",
+"label": "Cuttin' Headz",
+"bp": "bp:16923379",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/87eeb8d1-028a-4707-bc70-a76d53410cb1.LOFI.mp3",
+"name": "Trapped In",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2022-09-23"
+},
+{
+"minute": 110,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 113,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 118,
+"artist": "Cloonee, Brisotti",
+"title": "Tripasia (Extended Mix)",
+"label": "Hellbent",
+"bp": "bp:16229223",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dc5b412f-dc6f-43a3-91ad-4da8c810f16d.LOFI.mp3",
+"name": "Tripasia",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-03-25"
+},
+{
+"minute": 122,
+"artist": "Mighty Dub Katz",
+"title": "Let the Drums Speak (Butch Remix)",
+"label": "Southern Fried",
+"bp": "bp:8330612",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/39985c0a-656e-4c02-9637-8504be79ee65.LOFI.mp3",
+"name": "Let the Drums Speak",
+"mix": "Butch Remix",
+"genre": "deep-house",
+"released": "2016-09-23"
+},
+{
+"minute": 126,
+"artist": "Daniel Orpi",
+"title": "La Fiesta",
+"label": "BANDIDOS",
+"bp": "bp:16242490",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9f5030d6-c512-4cd6-95c1-4c71b7aa4f81.LOFI.mp3",
+"name": "La Fiesta",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-03-21"
+},
+{
+"minute": 131,
+"artist": "Marco Tropeano, Sam Koperberg",
+"title": "Libertad",
+"label": "Cuttin' Headz"
+},
+{
+"minute": 133,
+"artist": "Riton, Kah-lo",
+"title": "Fake I.D. (Coke & Rum Edition)",
+"label": "MNRK Music",
+"bp": "bp:23116507",
+"score": 0.96,
+"preview": "https://geo-samples.beatport.com/track/61836beb-4af0-4e03-86e5-fb3778e33c54.LOFI.mp3",
+"name": "Fake ID ",
+"mix": "Coke & Rum Remix",
+"genre": "dance-pop",
+"released": "2022-12-15"
+},
+{
+"minute": 138,
+"artist": "Route 94",
+"title": "Clapped",
+"label": "Solid Grooves Records",
+"bp": "bp:17090305",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e423ecdc-0ca1-4bc0-85e0-c735a05bf1d4.LOFI.mp3",
+"name": "Clapped",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2022-11-11"
+},
+{
+"minute": 141,
+"artist": "Ghost Town DJs",
+"title": "My Boo (Hitman's Club Mix)",
+"label": "RCA/Legacy",
+"bp": "bp:9645657",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/286b5df6-352a-4b53-a634-7beb1f5e9465.LOFI.mp3",
+"name": "My Boo",
+"mix": "Hitman's Club Mix",
+"genre": "trap-future-bass",
+"released": "2017-08-25"
+},
+{
+"minute": 143,
+"artist": "Alex Kennon",
+"title": "Blinding Lights (Joris Voorn Remix)",
+"label": "Acetate Management",
+"bp": "bp:15012402",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/39cdd577-efe5-4c8f-8ffb-1c57b1d03743.LOFI.mp3",
+"name": "Blinding Lights",
+"mix": "Joris Voorn Remix",
+"genre": "melodic-house-techno",
+"released": "2021-04-02"
+},
+{
+"minute": 147,
+"artist": "Gnarls Barkley",
+"title": "Crazy (Max Dean Rework)",
+"label": ""
+}
+]
+},
+{
+"title": "2023-07-27 - Cloonee @ Music On, Destino, Ibiza",
+"records": [
+{
+"minute": null,
+"artist": "Cloonee & Brisotti",
+"title": "Tripasia (Schxzo 'Bongo Drums' Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "PETER BP & DABI",
+"title": "Tutokutu",
+"label": "",
+"bp": "bp:18469582",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/4a22c915-2669-4d0e-810c-5efe0305bbaf.LOFI.mp3",
+"name": "Tutokutu",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-12-22"
+},
+{
+"minute": null,
+"artist": "Freenzy Music & Jack Baron",
+"title": "Feeling Love",
+"label": ""
+},
+{
+"minute": null,
+"artist": "PEDROZ & Abbud",
+"title": "Katness",
+"label": "",
+"bp": "bp:18867593",
+"score": 0.914,
+"preview": "https://geo-samples.beatport.com/track/ddc203c2-25cc-4216-a7f0-12e57084a1c3.LOFI.mp3",
+"name": "Katniss",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-04-12"
+},
+{
+"minute": null,
+"artist": "96 Vibe & DEM2",
+"title": "Sudando",
+"label": "",
+"bp": "bp:18232792",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c16fe5dc-500c-4aa9-bbc7-2c97319a764d.LOFI.mp3",
+"name": "Sudando",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2023-10-27"
+},
+{
+"minute": null,
+"artist": "21 Savage & Metro Boomin",
+"title": "Glock In My Lap (IDK Default Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Draxx (ITA) & Blow",
+"title": "Resistencia",
+"label": "",
+"bp": "bp:18651872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5868b010-6005-46a7-a323-1db2af95eea8.LOFI.mp3",
+"name": "Resistencia",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-02-16"
+},
+{
+"minute": null,
+"artist": "BeMore & Abbud",
+"title": "Effie",
+"label": "",
+"bp": "bp:18867597",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/ab234108-e475-4e95-92ca-a757c381c14a.LOFI.mp3",
+"name": "Effie",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-04-12"
+},
+{
+"minute": null,
+"artist": "Draxx (ITA) , Dave Delly & Steven Gray",
+"title": "Clap Clap",
+"label": "",
+"bp": "bp:18162901",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/556a27e2-44a9-44ba-9453-88143943640b.LOFI.mp3",
+"name": "Clap Clap",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2023-10-20"
+},
+{
+"minute": null,
+"artist": "+ Cloonee",
+"title": "Sun Goes Down",
+"label": "",
+"bp": "bp:14771388",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0df04a8a-6a24-425e-b229-36ef52cac9ef.LOFI.mp3",
+"name": "Sun Goes Down",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2021-01-22"
+},
+{
+"minute": null,
+"artist": "Andruss",
+"title": "Boa Abelinha",
+"label": "",
+"bp": "bp:17880293",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/41573b4d-c5ae-432c-be38-55751f45f007.LOFI.mp3",
+"name": "Boa Abelinha ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-07-14"
+},
+{
+"minute": null,
+"artist": "Sant\u00e9 Sansone",
+"title": "Conversation",
+"label": "",
+"bp": "bp:17902788",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/d2405f74-7b97-46f7-91a8-583820750cd8.LOFI.mp3",
+"name": "Conversation",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2023-07-14"
+},
+{
+"minute": null,
+"artist": "+ Cloonee",
+"title": "Fine Night",
+"label": "",
+"bp": "bp:17920137",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/46886b63-baf1-4cb5-831d-c44ccd41b533.LOFI.mp3",
+"name": "Fine Night",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-07-14"
+},
+{
+"minute": null,
+"artist": "Snooko",
+"title": "Brakutu",
+"label": "",
+"bp": "bp:17938335",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/64db7c73-a6b5-4a9d-bce0-a703bcb88a29.LOFI.mp3",
+"name": "Brakutu",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-07-28"
+},
+{
+"minute": null,
+"artist": "Roddy Lima & Duarte",
+"title": "Dubai Shit",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Eric Ollivier & Gioc",
+"title": "Tcha Tcha Tcha",
+"label": "",
+"bp": "bp:18224125",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/f2ca03e7-c7a6-4023-bc10-4e0e5067eec0.LOFI.mp3",
+"name": "Tcha Tcha Tcha (Extended Mix)",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-10-20"
+},
+{
+"minute": null,
+"artist": "DEM2 & Swav\u00e9",
+"title": "Ser\u00e9",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Draxx (ITA) & Cvmpanile",
+"title": "Classy",
+"label": ""
+},
+{
+"minute": null,
+"artist": "ENNE",
+"title": "No Complaints",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Shaf Huse",
+"title": "Pacos\u00f2",
+"label": "",
+"bp": "bp:17730930",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/20ef1b23-b65c-4965-a226-6eb2cb91d2e4.LOFI.mp3",
+"name": "Pacos\u00f3",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-05-26"
+},
+{
+"minute": null,
+"artist": "Eric Olliver & Gioc",
+"title": "Clandestine",
+"label": "",
+"bp": "bp:18136284",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a5dd4308-9823-4153-a987-3470f676a08a.LOFI.mp3",
+"name": "Clandestine (Extended Mix)",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-09-29"
+},
+{
+"minute": null,
+"artist": "Kendrick Lamar",
+"title": "Bitch, Don't Kill My Vibe (Liquid Rose & Trace Edit)",
+"label": ""
+}
+]
+},
+{
+"title": "2024-05-12 - Cloonee @ Music On Festival, Meerpark, Amsterdam",
+"records": [
+{
+"minute": 0,
+"artist": "Vitor Vinter",
+"title": "Money",
+"label": "",
+"bp": "bp:28913904",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/0d2ad91b-2c7a-4387-b0e0-e23382b1a4ae.LOFI.mp3",
+"name": "Money",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2026-05-29"
+},
+{
+"minute": 3,
+"artist": "Denis Ago",
+"title": "Give Me Bass",
+"label": "Bamboleo",
+"bp": "bp:19658171",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/808ee713-e288-4117-9bc2-39d0082f0ad0.LOFI.mp3",
+"name": "Give Me Bass",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2024-11-22"
+},
+{
+"minute": null,
+"artist": "[0?] Cloonee & Brisotti",
+"title": "Tripasia",
+"label": "Hellbent",
+"bp": "bp:16229223",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/dc5b412f-dc6f-43a3-91ad-4da8c810f16d.LOFI.mp3",
+"name": "Tripasia",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-03-25"
+},
+{
+"minute": 7,
+"artist": "Carvalho",
+"title": "Gas Pedal",
+"label": "",
+"bp": "bp:19293540",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/73d53259-fceb-4b13-9a69-3c9b8982786d.LOFI.mp3",
+"name": "Gas Pedal",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-08-16"
+},
+{
+"minute": 10,
+"artist": "Cloonee",
+"title": "Sippin' Yak",
+"label": "Hellbent",
+"bp": "bp:18770770",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ab8fedb-8025-4c46-bbf4-e9d6e1a05c59.LOFI.mp3",
+"name": "Sippin' Yak ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-03-15"
+},
+{
+"minute": 14,
+"artist": "Caique Carvalho & Justin Fahrmer",
+"title": "Musica",
+"label": "Slap The Club",
+"bp": "bp:19072056",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0ab9e85a-287c-41c9-9678-a3105054a765.LOFI.mp3",
+"name": "Musica",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-05-31"
+},
+{
+"minute": 18,
+"artist": "Empire Of The Sun",
+"title": "Walking On A Dream (Cloonee Edit)",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Draxx (ITA) & CVMPANILE",
+"title": "El Rey",
+"label": "Hellbent",
+"bp": "bp:19758251",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f7bce63-dd72-4d9a-850a-77327d28d860.LOFI.mp3",
+"name": "El Rey",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-12-13"
+},
+{
+"minute": null,
+"artist": "[2?] Cloonee",
+"title": "The Ciggie",
+"label": "Solid Grooves",
+"bp": "bp:11325147",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/15bb4f4c-736f-4354-aa93-4bf69246efa9.LOFI.mp3",
+"name": "The Ciggie",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2018-12-17"
+},
+{
+"minute": 25,
+"artist": "Greg Santos",
+"title": "Ridin",
+"label": "Hellbent",
+"bp": "bp:19714235",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b06b78a9-bed0-40f9-8d34-93de64d0bf64.LOFI.mp3",
+"name": "Ridin\u00a0",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-06-28"
+},
+{
+"minute": 28,
+"artist": "Pedroz & Abbud",
+"title": "Love Affair",
+"label": "Hellbent",
+"bp": "bp:26458726",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/98582689-8c1c-4e8e-866e-ca6706f0b4ea.LOFI.mp3",
+"name": "Love Affair",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-06-28"
+},
+{
+"minute": 32,
+"artist": "GREG 99",
+"title": "Club Drums",
+"label": ""
+},
+{
+"minute": 33,
+"artist": "Travis Scott",
+"title": "I KNOW&#160;? (Lowderz Edit)",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Cloonee & Andruss",
+"title": "Pegao",
+"label": "Helix",
+"bp": "bp:19417541",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f57d82c4-d223-4d11-918f-21c6fb6fd267.LOFI.mp3",
+"name": "Pegao",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-09-06"
+},
+{
+"minute": 40,
+"artist": "Denis Ago",
+"title": "Put Your Hand Up",
+"label": ""
+},
+{
+"minute": 45,
+"artist": "Marian (BR) & Greg Santos",
+"title": "Sugar",
+"label": "Hellbent"
+},
+{
+"minute": 49,
+"artist": "Carloh",
+"title": "One Moment",
+"label": "Solid Grooves Raw",
+"bp": "bp:13663462",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3c0fc6cc-e7f8-428d-bd0d-4b2ba3ecbac8.LOFI.mp3",
+"name": "One Moment",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2020-06-26"
+},
+{
+"minute": 53,
+"artist": "Freenzy Music",
+"title": "Stay Low",
+"label": "La Pera",
+"bp": "bp:19579276",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb1c611a-e260-4237-a6fb-25e9ffcb7669.LOFI.mp3",
+"name": "Stay Low",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2024-12-27"
+},
+{
+"minute": 54,
+"artist": "Artemas",
+"title": "I Like The Way You Kiss Me",
+"label": "10k Projects",
+"bp": "bp:22069725",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2863c2eb-4799-475b-b14f-da8a653c021e.LOFI.mp3",
+"name": "i like the way you kiss me",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2024-02-09"
+},
+{
+"minute": 58,
+"artist": "Angel Heredia & Ramon Bedoya",
+"title": "Dame Sombra",
+"label": "Circus",
+"bp": "bp:18975662",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3cfb33ec-2290-4d08-aa61-942518f37747.LOFI.mp3",
+"name": "Dame Sombra",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-05-10"
+},
+{
+"minute": 61,
+"artist": "GREG 99 & Pitros",
+"title": "Rockstar",
+"label": "2night",
+"bp": "bp:19679275",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f1635039-b9f9-46ef-9052-f29d2a000af4.LOFI.mp3",
+"name": "Rockstar",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2024-11-29"
+},
+{
+"minute": 64,
+"artist": "Chicks Luv Us",
+"title": "Express Yourself",
+"label": "Four Thirty Two",
+"bp": "bp:18799389",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ee70d1d-2447-46c7-ad3f-638d4549c17b.LOFI.mp3",
+"name": "Express Yourself",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2024-04-26"
+},
+{
+"minute": 67,
+"artist": "Sterium & ENNE",
+"title": "Same Man",
+"label": ""
+},
+{
+"minute": 71,
+"artist": "Cloonee & Wade",
+"title": "Mi Amor (GREG 99 Remix)",
+"label": "Clne"
+},
+{
+"minute": 74,
+"artist": "VOID",
+"title": "TBIM",
+"label": "Loving Plague"
+},
+{
+"minute": 77,
+"artist": "Kessin",
+"title": "I WANT UR SOUL",
+"label": ""
+},
+{
+"minute": 79,
+"artist": "Draxx (ITA) & CVMPANILE",
+"title": "DAMN",
+"label": ""
+},
+{
+"minute": 82,
+"artist": "Rosemary Clooney",
+"title": "Mambo Italiano (Blackchild (ITA) Remix)",
+"label": "Concord",
+"bp": "bp:25638086",
+"score": 0.894,
+"preview": "https://geo-samples.beatport.com/track/96a345b2-2dec-4c08-8d49-c0d061e75d67.LOFI.mp3",
+"name": "Mambo Italiano",
+"mix": "Original",
+"genre": "pop",
+"released": "1959-01-01"
+},
+{
+"minute": 85,
+"artist": "Cloonee",
+"title": "Sun Goes Down",
+"label": "Big Beat",
+"bp": "bp:14771388",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0df04a8a-6a24-425e-b229-36ef52cac9ef.LOFI.mp3",
+"name": "Sun Goes Down",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2021-01-22"
+}
+]
+},
+{
+"title": "2024-06-08 - Cloonee @ Brooklyn Mirage, NYC",
+"records": [
+{
+"minute": 0,
+"artist": "Chris Lake Feat. Aatig",
+"title": "In The Yuma (Cloonee At The Sahara Remix)",
+"label": "Black Bookastralwerks",
+"bp": "bp:19231229",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/13c344a6-bf64-405c-a773-dfb34c2017df.LOFI.mp3",
+"name": "In The Yuma",
+"mix": "Cloonee's At The Sahara Extended Remix",
+"genre": "tech-house",
+"released": "2024-07-26"
+},
+{
+"minute": 6,
+"artist": "InntRaw vs Young M.A",
+"title": "Can't Stop vs OOOUUU (Cloonee Mashup)",
+"label": ""
+},
+{
+"minute": 9,
+"artist": "LATENOISE & Groove N' Hat",
+"title": "Mood Swings",
+"label": "",
+"bp": "bp:26842425",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93c97602-932d-49e9-b3c1-e27f9421122a.LOFI.mp3",
+"name": "Mood Swings",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2026-04-02"
+},
+{
+"minute": 13,
+"artist": "GREG",
+"title": "MUAMBA",
+"label": ""
+},
+{
+"minute": 14,
+"artist": "Cloonee & Dances",
+"title": "To The Beat",
+"label": "Hellbent",
+"bp": "bp:18609198",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5600e2e-152e-4313-aba3-a0f504fbf9c6.LOFI.mp3",
+"name": "To The Beat ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-02-09"
+},
+{
+"minute": 17,
+"artist": "Void",
+"title": "Slimed In",
+"label": "Hellbent"
+},
+{
+"minute": 21,
+"artist": "Angelo Morello",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 24,
+"artist": "PAWSA Feat. Nate Dogg",
+"title": "PICK UP THE PHONE (Lowderz Edit)",
+"label": ""
+},
+{
+"minute": 27,
+"artist": "Gabss & Indeck",
+"title": "Disconnected",
+"label": "",
+"bp": "bp:19553770",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90c5da3b-ad2d-4ed0-b7ec-1365afa02d35.LOFI.mp3",
+"name": "Disconnected",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2024-09-27"
+},
+{
+"minute": 30,
+"artist": "Gabss & Pavesi",
+"title": "Entao Vai",
+"label": "",
+"bp": "bp:20056410",
+"score": 0.733,
+"preview": "https://geo-samples.beatport.com/track/5a26286f-58f8-4ea4-ab2b-c706e017382b.LOFI.mp3",
+"name": "Ent\u00e3o Vai",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2025-02-21"
+},
+{
+"minute": 34,
+"artist": "Criminal Element Orchestra",
+"title": "Put The Needle To The Record",
+"label": "",
+"bp": "bp:26928248",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fffe125e-644b-4532-85d0-120004271bb1.LOFI.mp3",
+"name": "Put The Needle To The Record",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2017-02-03"
+},
+{
+"minute": 36,
+"artist": "Noir & Haze",
+"title": "Around (Cyava Edit)",
+"label": ""
+},
+{
+"minute": 39,
+"artist": "Cyava",
+"title": "Never",
+"label": "",
+"bp": "bp:30048983",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c1533fb5-aace-44f0-9a83-706099b591f4.LOFI.mp3",
+"name": "Never",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2026-08-28"
+},
+{
+"minute": 43,
+"artist": "KAYTRANADA",
+"title": "At All (Snooko Edit)",
+"label": ""
+},
+{
+"minute": 47,
+"artist": "Twolate",
+"title": "LQPP",
+"label": "",
+"bp": "bp:20154959",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/707237b4-d637-47f8-937e-89b8491752ed.LOFI.mp3",
+"name": "LQPP",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2025-03-14"
+},
+{
+"minute": 50,
+"artist": "ROKKE",
+"title": "Night Heroes",
+"label": "",
+"bp": "bp:20286242",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d86f4137-d8f2-48ce-9ee2-540c894a1340.LOFI.mp3",
+"name": "Night Heroes",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2025-04-11"
+},
+{
+"minute": 54,
+"artist": "Cloonee",
+"title": "Sippin' Yak",
+"label": "Hellbent",
+"bp": "bp:18770770",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ab8fedb-8025-4c46-bbf4-e9d6e1a05c59.LOFI.mp3",
+"name": "Sippin' Yak ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-03-15"
+},
+{
+"minute": 56,
+"artist": "Cloonee",
+"title": "Sippin' Yak (Morgan Seatree Remix)",
+"label": "Hellbent",
+"bp": "bp:18993089",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4549cdb5-c09d-4a3b-8122-a943de310417.LOFI.mp3",
+"name": "Sippin' Yak ",
+"mix": "Morgan Seatree Remix",
+"genre": "house",
+"released": "2024-05-03"
+},
+{
+"minute": 57,
+"artist": "A$AP Ferg",
+"title": "Work",
+"label": "A$ap",
+"bp": "bp:5044282",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5b2e52c9-c12a-4d4f-811f-8597cdc4d991.LOFI.mp3",
+"name": "Work",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2013-01-22"
+},
+{
+"minute": 60,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 63,
+"artist": "Cloonee & Brisotti",
+"title": "Tripasia",
+"label": "Hellbent",
+"bp": "bp:16229223",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dc5b412f-dc6f-43a3-91ad-4da8c810f16d.LOFI.mp3",
+"name": "Tripasia",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-03-25"
+},
+{
+"minute": 64,
+"artist": "GREG",
+"title": "Gruuv Guy",
+"label": ""
+},
+{
+"minute": 66,
+"artist": "Metro Boomin & Future Feat. Kendrick Lamar",
+"title": "Like That (Gino Zucotti Edit)",
+"label": ""
+},
+{
+"minute": 70,
+"artist": "Hennry",
+"title": "Ready Go",
+"label": "",
+"bp": "bp:21177898",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/295f98ce-bfd7-47e0-9128-2388b8d515e2.LOFI.mp3",
+"name": "Ready Go ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2025-09-12"
+},
+{
+"minute": 74,
+"artist": "Andruss",
+"title": "Pegao",
+"label": "",
+"bp": "bp:19417541",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f57d82c4-d223-4d11-918f-21c6fb6fd267.LOFI.mp3",
+"name": "Pegao",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-09-06"
+},
+{
+"minute": 78,
+"artist": "Joe Arroyo",
+"title": "Por El Suelo",
+"label": "",
+"bp": "bp:25001564",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a1b31a2-e7bc-49e1-8df9-2d5c60ab33af.LOFI.mp3",
+"name": "Por El Suelo",
+"mix": "Original Mix",
+"genre": "latin",
+"released": "2000-04-10"
+},
+{
+"minute": 82,
+"artist": "The Chemical Brothers",
+"title": "Hey Boy, Hey Girl (Glassick Remix)",
+"label": ""
+},
+{
+"minute": 85,
+"artist": "Wayne Le",
+"title": "Non Stop Dance",
+"label": ""
+},
+{
+"minute": 88,
+"artist": "Cloonee",
+"title": "Fine Night",
+"label": "Hellbent",
+"bp": "bp:17920137",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/46886b63-baf1-4cb5-831d-c44ccd41b533.LOFI.mp3",
+"name": "Fine Night",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-07-14"
+},
+{
+"minute": 90,
+"artist": "Marian (BR) & Freenzy Music",
+"title": "La Noite",
+"label": "",
+"bp": "bp:19447111",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d028c0bc-3acf-423e-a708-00e9bf856c38.LOFI.mp3",
+"name": "La Noite",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-09-06"
+},
+{
+"minute": 95,
+"artist": "Empire Of The Sun",
+"title": "Walking On A Dream (Cloonee Edit)",
+"label": ""
+},
+{
+"minute": 97,
+"artist": "LATENOISE",
+"title": "ID",
+"label": ""
+},
+{
+"minute": 99,
+"artist": "Cloonee & Dances",
+"title": "To The Beat",
+"label": "Hellbent",
+"bp": "bp:18609198",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5600e2e-152e-4313-aba3-a0f504fbf9c6.LOFI.mp3",
+"name": "To The Beat ",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-02-09"
+},
+{
+"minute": 103,
+"artist": "Gabss & Indeck",
+"title": "Give Me More",
+"label": ""
+},
+{
+"minute": 107,
+"artist": "Teko",
+"title": "1, 2, 3, 4",
+"label": "",
+"bp": "bp:20260189",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/76df33a5-f027-4838-ac69-b22a5a549f6f.LOFI.mp3",
+"name": "1, 2, 3, 4",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2025-03-21"
+},
+{
+"minute": 111,
+"artist": "Cyava",
+"title": "Not Right",
+"label": "Psicodelica",
+"bp": "bp:18930144",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9914ec48-dc44-43a2-8a5b-3a8e25d1472b.LOFI.mp3",
+"name": "Not Right",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2024-05-24"
+},
+{
+"minute": 113,
+"artist": "Oxia",
+"title": "Domino (ORIED & Bruno Brufatto Edit)",
+"label": ""
+},
+{
+"minute": 117,
+"artist": "Pedroz & Thi Calista",
+"title": "Coconut",
+"label": "Experts Only",
+"bp": "bp:18812508",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4fa796d6-66f1-4530-8547-d9292957ce6c.LOFI.mp3",
+"name": "Coconut",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-03-22"
+},
+{
+"minute": 120,
+"artist": "Cloonee & Brisotti",
+"title": "Tripasia",
+"label": "Hellbent",
+"bp": "bp:16229223",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dc5b412f-dc6f-43a3-91ad-4da8c810f16d.LOFI.mp3",
+"name": "Tripasia",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2022-03-25"
+},
+{
+"minute": 122,
+"artist": "Pave",
+"title": "Vacaxiones",
+"label": "",
+"bp": "bp:19499641",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/056e6466-e656-4445-a8d3-070bebd6504e.LOFI.mp3",
+"name": "Vacaxiones",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2024-10-04"
+},
+{
+"minute": 125,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 127,
+"artist": "Da Hool",
+"title": "Meet Her At The Love Parade",
+"label": "Kosmo",
+"bp": "bp:1312005",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7a21a8c9-1a54-4200-9111-a12b548251d2.LOFI.mp3",
+"name": "Meet Her At The Love Parade",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2010-07-25"
+},
+{
+"minute": 129,
+"artist": "Kanye West Feat. Dwele",
+"title": "Flashing Lights",
+"label": "Roc-A-Fella (Island Def Jam)",
+"bp": "bp:12500810",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/16d7cd36-986c-4f5b-9cab-dd05efae2dae.LOFI.mp3",
+"name": "Flashing Lights",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2007-09-11"
+},
+{
+"minute": 131,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 135,
+"artist": "GREG",
+"title": "Under Artists",
+"label": "",
+"bp": "bp:19768272",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/13ebf4ac-98c1-4bf4-b6a1-748a047a4149.LOFI.mp3",
+"name": "Under Artists",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2024-12-13"
+},
+{
+"minute": 138,
+"artist": "Cloonee",
+"title": "The Ciggie",
+"label": "Solid Grooves",
+"bp": "bp:11325147",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/15bb4f4c-736f-4354-aa93-4bf69246efa9.LOFI.mp3",
+"name": "The Ciggie",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2018-12-17"
+},
+{
+"minute": 139,
+"artist": "Voltech",
+"title": "Dale Dale",
+"label": ""
+},
+{
+"minute": 142,
+"artist": "FloyyMenor Feat. Cris MJ",
+"title": "GATA ONLY (Hern Edit)",
+"label": ""
+},
+{
+"minute": 145,
+"artist": "Greg",
+"title": "Body Party",
+"label": ""
+},
+{
+"minute": 146,
+"artist": "Chris Lake Feat. Alexis Roberts",
+"title": "Turn Off The Lights (Cloonee Remix)",
+"label": "Black Book"
+},
+{
+"minute": 150,
+"artist": "Andruss & Sam Collins",
+"title": "PAPI",
+"label": "Helix",
+"bp": "bp:19101344",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/92fd9b15-66c9-4f4b-81b5-9b6dc8923042.LOFI.mp3",
+"name": "PAPI",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2024-06-14"
+},
+{
+"minute": 154,
+"artist": "Cloonee & Caleb Calloway & Alvaro Diaz",
+"title": "Pe$o",
+"label": "Hellbent",
+"bp": "bp:19102268",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/401beb75-1d2f-4030-a087-79400a28042e.LOFI.mp3",
+"name": "Pe$o ",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2024-07-05"
+},
+{
+"minute": 157,
+"artist": "Usher Feat. Ludacris & Lil Jon",
+"title": "Yeah!",
+"label": "Arista",
+"bp": "bp:4787964",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/49251ef7-0694-488e-90d3-25689b1e60f5.LOFI.mp3",
+"name": "Yeah!",
+"mix": "Original Mix",
+"genre": "rb",
+"released": "2004-03-19"
+},
+{
+"minute": 162,
+"artist": "Cloonee & Wade",
+"title": "Mi Amor",
+"label": "Clne",
+"bp": "bp:15269939",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6446afaa-586f-4239-af0b-50545a9714ad.LOFI.mp3",
+"name": "Mi Amor",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2021-05-28"
+},
+{
+"minute": 165,
+"artist": "Caleb Calloway & Saiko",
+"title": "CARNET (Cloonee Remix)",
+"label": "",
+"bp": "bp:26249357",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/633678dc-a2c0-49c0-b970-ce577b908743.LOFI.mp3",
+"name": "CARNET",
+"mix": "Cloonee Remix",
+"genre": "latin",
+"released": "2023-12-22"
+},
+{
+"minute": 169,
+"artist": "Bruno Mars",
+"title": "Grenade",
+"label": "Warner",
+"bp": "bp:22582522",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a4538e72-4e46-4c3b-8ad3-c977f897d473.LOFI.mp3",
+"name": "Grenade",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2013-04-12"
+},
+{
+"minute": 171,
+"artist": "Ribguga",
+"title": "Smoke",
+"label": ""
+},
+{
+"minute": 175,
+"artist": "LATENOISE vs R\u00dcF\u00dcS DU SOL",
+"title": "Yes Indeed vs Innerbloom (Cloonee Mashup)",
+"label": ""
+}
+]
+}
+]
+}

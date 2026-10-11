@@ -1,0 +1,2548 @@
+{
+"dj": "N\u00f8rbak",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-01-08 - N\u00f8rbak - SCOP\u00c1VIK 98",
+"records": []
+},
+{
+"title": "2019-02-12 - N\u00f8rbak - NB Podcast 059",
+"records": []
+},
+{
+"title": "2019-03-05 - N\u00f8rbak - ESCH Podcast 030",
+"records": []
+},
+{
+"title": "2019-04-17 - N\u00f8rbak - PTEXHIBIT: fifteen",
+"records": []
+},
+{
+"title": "2019-04-24 - N\u00f8rbak - On The 5th Day Podcast 084",
+"records": []
+},
+{
+"title": "2019-05-22 - N\u00f8rbak - Sure Thing Mix 74",
+"records": []
+},
+{
+"title": "2019-06-10 - N\u00f8rbak - Float Records Podcast 016",
+"records": []
+},
+{
+"title": "2019-07-12 - N\u00f8rbak - RVV Podcast 036",
+"records": []
+},
+{
+"title": "2019-08-11 - N\u00f8rbak - Reclaim Your City 343, Rinse FM France",
+"records": []
+},
+{
+"title": "2019-09-02 - N\u00f8rbak - MindTrip Podcast 038",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": 2,
+"artist": "Oisel",
+"title": "Dx3",
+"label": "Float",
+"bp": "bp:12604561",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3fe00f85-6817-4d93-b587-a64ac2d65b76.LOFI.mp3",
+"name": "Dx3",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-12-02"
+},
+{
+"minute": 5,
+"artist": "Samuli Kemppi",
+"title": "Sifting Gravel",
+"label": "Rhod",
+"bp": "bp:12255997",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae320f5b-c047-4884-be5c-ea014503e4f0.LOFI.mp3",
+"name": "Sifting Gravel",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-08-01"
+},
+{
+"minute": 9,
+"artist": "Evod",
+"title": "DVE 9",
+"label": "Float",
+"bp": "bp:12604536",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b8cadb7e-ec44-48a6-ab93-a9e8b4efafe4.LOFI.mp3",
+"name": "DVE 9",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-11-18"
+},
+{
+"minute": 11,
+"artist": "Birth Of Frequency",
+"title": "Gate (Oscar Mulero Remix)",
+"label": "PoleGroup",
+"bp": "bp:8372777",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2b3a49f9-3cc9-4350-81e4-cdb50bfc30dd.LOFI.mp3",
+"name": "Gate",
+"mix": "Oscar Mulero Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2016-09-23"
+},
+{
+"minute": 16,
+"artist": "Shifted",
+"title": "The Light Touch",
+"label": "Stroboscopic Artefacts",
+"bp": "bp:12071288",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bdc107aa-7656-4767-bae7-218b503e2fef.LOFI.mp3",
+"name": "The Light Touch",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-07-05"
+},
+{
+"minute": 20,
+"artist": "Temudo",
+"title": "Dogtooth Falls Out",
+"label": "Soma",
+"bp": "bp:12491872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3371d3c9-1b86-41d8-b3f4-fc57956f23f8.LOFI.mp3",
+"name": "Dogtooth Falls Out",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-10-14"
+},
+{
+"minute": null,
+"artist": "[2?] TBM",
+"title": "RSD (Marco Carola Remix)",
+"label": "Kobayashi",
+"bp": "bp:3948682",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/c15cd031-6cc1-4a18-b2b9-03bd8b6f99d5.LOFI.mp3",
+"name": "RSD",
+"mix": "Marco Carola Remix",
+"genre": "techno-peak-time-driving",
+"released": "1998-06-17"
+},
+{
+"minute": 26,
+"artist": "Roseen",
+"title": "Refused (Version)",
+"label": "AUSGANG"
+},
+{
+"minute": 30,
+"artist": "Oliver Rosemann",
+"title": "Tengo",
+"label": "MindTrip",
+"bp": "bp:12257679",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/474084bd-e586-49b2-810c-4cf9fcc791fa.LOFI.mp3",
+"name": "Tengo",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-08-05"
+},
+{
+"minute": 34,
+"artist": "Vil",
+"title": "Trap",
+"label": "Float",
+"bp": "bp:12469688",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7450ce55-b5ec-4dc1-95ea-f305a01df021.LOFI.mp3",
+"name": "Trap",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-09-23"
+},
+{
+"minute": 37,
+"artist": "N\u00f8rbak",
+"title": "Avadhuta",
+"label": "",
+"bp": "bp:12934482",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eec5b4b8-ce94-49ae-be8c-05a5750ff397.LOFI.mp3",
+"name": "Avadhuta",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-01-13"
+},
+{
+"minute": 41,
+"artist": "Oliver Rosemann",
+"title": "Intermediate World",
+"label": "MindTrip",
+"bp": "bp:12257678",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/635aec4a-ff4c-4319-81e4-270bfa90818c.LOFI.mp3",
+"name": "Intermediate World",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-08-05"
+},
+{
+"minute": 44,
+"artist": "Oscar Mulero",
+"title": "Gas",
+"label": "Granulart",
+"bp": "bp:14746227",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/139d5e0f-c8f0-43c6-b87c-7cc3d1c834c9.LOFI.mp3",
+"name": "GAS",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-01-04"
+},
+{
+"minute": 48,
+"artist": "N\u00f8rbak",
+"title": "Frente",
+"label": "",
+"bp": "bp:19276617",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7a427a88-5467-4456-9535-5330c2a932a3.LOFI.mp3",
+"name": "Frente",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-04-24"
+},
+{
+"minute": 53,
+"artist": "J.C & Kastil",
+"title": "The Ignorance Of Misperception",
+"label": "Cabrera",
+"bp": "bp:10387200",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/633886fd-4553-4339-af8d-c6e8ca05b589.LOFI.mp3",
+"name": "The Ignorance Of Misperception",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-06-04"
+}
+]
+},
+{
+"title": "2019-10-03 - N\u00f8rbak - Weekend Circuit Podcast 04",
+"records": []
+},
+{
+"title": "2019-10-21 - N\u00f8rbak - Intimate Silence 056",
+"records": []
+},
+{
+"title": "2019-11-05 - N\u00f8rbak - Global Vibe Radio 185",
+"records": []
+},
+{
+"title": "2019-11-21 - N\u00f8rbak - Slam Radio 373",
+"records": [
+{
+"minute": 0,
+"artist": "Pessimist",
+"title": "Intro",
+"label": "",
+"bp": "bp:9432811",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d24fd8a0-4b22-44fd-b959-7c48c5102eb4.LOFI.mp3",
+"name": "Intro",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2017-08-25"
+},
+{
+"minute": null,
+"artist": "[0?] Mike Parker",
+"title": "Drain Hum",
+"label": "",
+"bp": "bp:18649428",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/4caff815-7058-48cb-af64-91fe8a47bf50.LOFI.mp3",
+"name": "Drain Hum",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-04-12"
+},
+{
+"minute": null,
+"artist": "[0?] Divide",
+"title": "Unreleased",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Jonas Kopp",
+"title": "Mastery",
+"label": "Tremsix - 003",
+"bp": "bp:12791356",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6ab498e8-7904-496f-9438-b9505b56db7c.LOFI.mp3",
+"name": "Mastery",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-11-18"
+},
+{
+"minute": null,
+"artist": "Oscar Mulero",
+"title": "Unreleased",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Shl\u00f8mo",
+"title": "Brother (Reeko Remix)",
+"label": "",
+"bp": "bp:14472847",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/98572cd0-072f-4a87-812b-1f2a1495fe84.LOFI.mp3",
+"name": "Brother",
+"mix": "Reeko Remix",
+"genre": "techno-peak-time-driving",
+"released": "2019-09-20"
+},
+{
+"minute": null,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": null,
+"artist": "Oscar Mulero",
+"title": "Unreleased",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Oscar Mulero",
+"title": "Unreleased",
+"label": ""
+},
+{
+"minute": null,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": null,
+"artist": "N\u00f8rbak & Temudo",
+"title": "Unreleased",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Divide",
+"title": "Unreleased",
+"label": ""
+},
+{
+"minute": 45,
+"artist": "SSTROM",
+"title": "Drenched 12",
+"label": "Rosten - 8-3",
+"bp": "bp:11830909",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e14c9131-9d57-460e-bf24-24044fa49786.LOFI.mp3",
+"name": "Drenched 12",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-06-10"
+},
+{
+"minute": 47,
+"artist": "Divide",
+"title": "Unreleased",
+"label": ""
+},
+{
+"minute": 51,
+"artist": "Jonas Kopp",
+"title": "False Self",
+"label": "Tremsix - 003",
+"bp": "bp:12791347",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d643520a-cd1e-4e4b-886b-27ff26a123fb.LOFI.mp3",
+"name": "False Self",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-11-18"
+},
+{
+"minute": 52,
+"artist": "LSD",
+"title": "Process 8",
+"label": "LSD - 001",
+"bp": "bp:12198560",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ffab8b4b-ddb6-4d1d-904a-1f96eae871bd.LOFI.mp3",
+"name": "Process 8",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-06-28"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": null,
+"artist": "Pessimist",
+"title": "War Cry",
+"label": "",
+"bp": "bp:9432819",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b0ef93dd-0ee8-48b6-ae3d-d76097a88ed0.LOFI.mp3",
+"name": "War Cry",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2017-08-25"
+}
+]
+},
+{
+"title": "2019-12-19 - N\u00f8rbak - Monument 238",
+"records": []
+},
+{
+"title": "2020-01-15 - N\u00f8rbak - NB Podcast 063",
+"records": []
+},
+{
+"title": "2020-01-31 - N\u00f8rbak (Live PA) @ BAHN x The Loft, Razzmatazz, Barcelona",
+"records": []
+},
+{
+"title": "2020-02-12 - N\u00f8rbak - Lost In Ether Podcast 152",
+"records": []
+},
+{
+"title": "2020-03-14 - N\u00f8rbak, His Master's Voice - Raw Imprint, Rinse FM France",
+"records": []
+},
+{
+"title": "2020-03-16 - N\u00f8rbak - Pole Group Radio",
+"records": [
+{
+"minute": null,
+"artist": "Rib\u00e9",
+"title": "Forthcoming",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Reeko",
+"title": "Electrica Phenomena",
+"label": "",
+"bp": "bp:3924396",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/65863090-cd3d-4a12-9a8e-d421aa0689ff.LOFI.mp3",
+"name": "Electrica Phenomena",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2012-11-12"
+},
+{
+"minute": null,
+"artist": "N\u00f8rbak & Temudo",
+"title": "Battered From The Fall",
+"label": "",
+"bp": "bp:13292319",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f085e5d5-2ebb-4020-9ad3-e84e62ed554c.LOFI.mp3",
+"name": "Battered From The Fall",
+"mix": "Original mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-03-27"
+},
+{
+"minute": null,
+"artist": "Roll Dann",
+"title": "Forthcoming",
+"label": ""
+},
+{
+"minute": null,
+"artist": "N\u00f8rbak & Temudo",
+"title": "Bearing Down",
+"label": "",
+"bp": "bp:13292321",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f430a0a8-fab9-4b17-a119-1e0da13ebae9.LOFI.mp3",
+"name": "Bearing Down",
+"mix": "Original mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-03-27"
+},
+{
+"minute": null,
+"artist": "Conceptual",
+"title": "Forthcoming",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Selecci\u00f3n Natural",
+"title": "Modernist Descents",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Evod",
+"title": "Forthcoming",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Antigone",
+"title": "Printers Devil",
+"label": "",
+"bp": "bp:7403933",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5c7d64ad-bc29-4eed-9b69-0c99c482fe27.LOFI.mp3",
+"name": "Printers Devil",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-12-18"
+},
+{
+"minute": null,
+"artist": "Svreca",
+"title": "How To Become Nothing (Desroi Remix)",
+"label": ""
+}
+]
+},
+{
+"title": "2020-03-29 - N\u00f8rbak - R-Imprint Podcast 077",
+"records": []
+},
+{
+"title": "2020-04-08 - N\u00f8rbak - The Ultimate Journey (Soma Records Promo Mix)",
+"records": []
+},
+{
+"title": "2020-04-09 - N\u00f8rbak - Erratic Podcast 213",
+"records": []
+},
+{
+"title": "2020-05-14 - N\u00f8rbak - Soma x Crow Techno Club Lockdown Session",
+"records": []
+},
+{
+"title": "2020-05-22 - N\u00f8rbak - The Memoir Page 45",
+"records": [
+{
+"minute": null,
+"artist": "N\u00f8rbak",
+"title": "Offer Them Surrender",
+"label": "Evod",
+"bp": "bp:12962098",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/02d9a33d-6034-40bd-8876-3d1fb3b872b4.LOFI.mp3",
+"name": "Offer Them Surrender",
+"mix": "Original mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-01-22"
+},
+{
+"minute": null,
+"artist": "N\u00f8rbak",
+"title": "Avadhuta",
+"label": "MindTrip",
+"bp": "bp:12934482",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eec5b4b8-ce94-49ae-be8c-05a5750ff397.LOFI.mp3",
+"name": "Avadhuta",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-01-13"
+},
+{
+"minute": null,
+"artist": "N\u00f8rbak",
+"title": "Antime",
+"label": "Faut Section",
+"bp": "bp:13429878",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ee0c151-5c3b-48b0-8702-6d9a77036285.LOFI.mp3",
+"name": "Antime",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-06-12"
+},
+{
+"minute": null,
+"artist": "N\u00f8rbak",
+"title": "Frente",
+"label": "MindTrip",
+"bp": "bp:19276617",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7a427a88-5467-4456-9535-5330c2a932a3.LOFI.mp3",
+"name": "Frente",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-04-24"
+}
+]
+},
+{
+"title": "2020-06-16 - N\u00f8rbak - Paradox Podcast 128",
+"records": []
+},
+{
+"title": "2020-06-28 - N\u00f8rbak - HYSPODCAST 011",
+"records": []
+},
+{
+"title": "2020-09-30 - N\u00f8rbak - Invite's Choice Podcast 613",
+"records": []
+},
+{
+"title": "2020-10-21 - N\u00f8rbak - Vault Sessions 024",
+"records": []
+},
+{
+"title": "2020-11-26 - N\u00f8rbak - HEX Transmission 086",
+"records": []
+},
+{
+"title": "2020-12-17 - N\u00f8rbak - Artaphine Series 060",
+"records": []
+},
+{
+"title": "2021-03-12 - N\u00f8rbak - Voxnox Podcast 105",
+"records": []
+},
+{
+"title": "2021-04-25 - N\u00f8rbak - Pole Group Radio",
+"records": []
+},
+{
+"title": "2021-07-10 - N\u00f8rbak - Rote Sonne Podcast 66",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 4,
+"artist": "Quelza",
+"title": "La Malsaine",
+"label": "MORD",
+"bp": "bp:16328121",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/17f61faf-ff19-48e6-806f-7c8e8cb6903c.LOFI.mp3",
+"name": "La Malsaine",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-04-15"
+},
+{
+"minute": 9,
+"artist": "Antigone",
+"title": "Astragral",
+"label": "Token",
+"bp": "bp:6605922",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1e025c8f-825e-4bb2-855c-fc2533cf6765.LOFI.mp3",
+"name": "Astragral",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-05-18"
+},
+{
+"minute": 13,
+"artist": "Temudo",
+"title": "Niiv",
+"label": "Faut Section",
+"bp": "bp:17657991",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5165f8b-b15a-4749-851d-896a3005f8a8.LOFI.mp3",
+"name": "Niiv",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-05-12"
+},
+{
+"minute": 15,
+"artist": "N\u00f8rbak",
+"title": "Early 2000's",
+"label": "HAYES",
+"bp": "bp:16047767",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dd158105-f413-41ef-81c5-172933d17703.LOFI.mp3",
+"name": "Early 2000's",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-12-24"
+},
+{
+"minute": 19,
+"artist": "Volster",
+"title": "The Wolf (Alarico Remix)",
+"label": "Secession",
+"bp": "bp:15389220",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/505cb2f6-ada9-4383-bdb1-5b2a0b796e5f.LOFI.mp3",
+"name": "The Wolf",
+"mix": "Alarico Remix",
+"genre": "techno-peak-time-driving",
+"released": "2021-09-10"
+},
+{
+"minute": 22,
+"artist": "Zadig",
+"title": "Solar Analog",
+"label": "Propaganda Moscow",
+"bp": "bp:9969206",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1056d909-a436-407a-adb5-a0cf8054aee0.LOFI.mp3",
+"name": "Solar Analog",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2017-11-27"
+},
+{
+"minute": 28,
+"artist": "Oscar Mulero",
+"title": "Espectro Rojo",
+"label": "PoleGroup",
+"bp": "bp:14667249",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5be6a18-14ff-4317-839f-5ee71aaf180d.LOFI.mp3",
+"name": "Espectro Rojo",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-01-08"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 35,
+"artist": "N\u00f8rbak",
+"title": "Pragmatically Speaking",
+"label": "Soma",
+"bp": "bp:16106796",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/264abc81-8e9e-42c2-8532-138fa89cc623.LOFI.mp3",
+"name": "Pragmatically Speaking",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-01-21"
+},
+{
+"minute": 37,
+"artist": "N\u00f8rbak",
+"title": "Liberdade",
+"label": "MORD",
+"bp": "bp:15329356",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/66904a4a-f8ee-4eed-bcb1-ea860f1a4902.LOFI.mp3",
+"name": "Liberdade",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-07-02"
+},
+{
+"minute": 40,
+"artist": "Shl\u00f8mo",
+"title": "Golem",
+"label": "",
+"bp": "bp:7891366",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/99492132-b54e-427a-9948-04204c4ebfea.LOFI.mp3",
+"name": "Golem",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2016-05-19"
+},
+{
+"minute": 44,
+"artist": "N\u00f8rbak",
+"title": "His Reign Is Over",
+"label": "Soma",
+"bp": "bp:16106794",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1b949206-16d0-4aa2-a1d7-2b2951759318.LOFI.mp3",
+"name": "His Reign Is Over",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-01-21"
+},
+{
+"minute": 47,
+"artist": "P.E.A.R.L.",
+"title": "Memoria (Oscar Mulero Remix)",
+"label": "PoleGroup"
+},
+{
+"minute": 50,
+"artist": "N\u00f8rbak",
+"title": "Causalidade",
+"label": "MORD",
+"bp": "bp:17110334",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2f74d06a-a711-40c5-b7e5-5e308f691d92.LOFI.mp3",
+"name": "Causalidade",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-01-20"
+},
+{
+"minute": 55,
+"artist": "N\u00f8rbak",
+"title": "There Are Only Victims Left",
+"label": "MORD",
+"bp": "bp:15329354",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ce62dd3c-a175-4399-a77d-d6e6ee91d844.LOFI.mp3",
+"name": "There Are Only Victims Left",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-07-02"
+}
+]
+},
+{
+"title": "2021-10-04 - N\u00f8rbak - MindTrip Podcast 063",
+"records": []
+},
+{
+"title": "2021-11-18 - N\u00f8rbak - IA Podcast 143",
+"records": []
+},
+{
+"title": "2021-12-05 - N\u00f8rbak - HATE Podcast 261",
+"records": []
+},
+{
+"title": "2022-03-14 - N\u00f8rbak - Reclaim Your City 478",
+"records": []
+},
+{
+"title": "2022-06-30 - N\u00f8rbak - Voltage Podcast 32",
+"records": [
+{
+"minute": 0,
+"artist": "Oisel",
+"title": "AP303",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0?] Quelza",
+"title": "Les Bruits Du Matin",
+"label": ""
+},
+{
+"minute": 6,
+"artist": "Reeko",
+"title": "Capitulo 1",
+"label": "Mental Disorder",
+"bp": "bp:6380861",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a276f2c7-875f-4198-93fc-8590735eb672.LOFI.mp3",
+"name": "Capitulo 1",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-03-23"
+},
+{
+"minute": null,
+"artist": "Oscar Mulero",
+"title": "Gas (Substance Remix)",
+"label": "",
+"bp": "bp:14746226",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a7a83e25-5d48-428c-9008-9f65058303f1.LOFI.mp3",
+"name": "GAS",
+"mix": "Substance Remix",
+"genre": "techno-peak-time-driving",
+"released": "2021-01-04"
+},
+{
+"minute": 11,
+"artist": "James Ruskin",
+"title": "Into A Circle",
+"label": "Jealous God",
+"bp": "bp:5036953",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/154d018d-8707-414c-a886-11f6015a22e0.LOFI.mp3",
+"name": "Into a Circle",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-01-20"
+},
+{
+"minute": 14,
+"artist": "Donor / Truss",
+"title": "Endo 4",
+"label": "",
+"bp": "bp:2741184",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2ab45318-ac89-4de9-b8b6-e8bf401eab86.LOFI.mp3",
+"name": "Endo 4",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2011-09-30"
+},
+{
+"minute": 18,
+"artist": "Spherical Coordinates",
+"title": "SCFGM-16",
+"label": "Token",
+"bp": "bp:5529928",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/544889a9-a6ef-4d89-b3d0-2a9b685b6ba6.LOFI.mp3",
+"name": "SCFGM-16",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2014-06-23"
+},
+{
+"minute": null,
+"artist": "Marco Carola",
+"title": "Untitled 3",
+"label": "",
+"bp": "bp:11294726",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/536e058f-0615-4b16-aea4-86e903a2d482.LOFI.mp3",
+"name": "Untitled 3",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2018-11-23"
+},
+{
+"minute": null,
+"artist": "Mathys Lenne",
+"title": "Nothing's For Sure",
+"label": "HAYES",
+"bp": "bp:17298614",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b16e6468-22b7-4faf-b424-6532cd74cafb.LOFI.mp3",
+"name": "Nothing's For Sure",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-01-27"
+},
+{
+"minute": 26,
+"artist": "O/V/R",
+"title": "The World Remade",
+"label": "Downwards",
+"bp": "bp:11377798",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/103c2c13-8fad-4a68-a77a-0c342aebaa90.LOFI.mp3",
+"name": "The World Remade",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-12-14"
+},
+{
+"minute": 29,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": null,
+"artist": "Kaiser",
+"title": "Patience",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "N\u00f8rbak",
+"title": "Repete",
+"label": "HAYES",
+"bp": "bp:17482957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d012143c-c3da-48e1-b26c-439e109242c5.LOFI.mp3",
+"name": "Repete",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-03-17"
+},
+{
+"minute": 40,
+"id": null,
+"raw": "N\u00f8rbak & Quelza -&#160;?"
+},
+{
+"minute": 46,
+"artist": "Head Front Panel",
+"title": "Vocalize",
+"label": "Repetitive Rhythm Research",
+"bp": "bp:15380310",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/939356b8-7f9b-4505-9d58-358b1ddb12b4.LOFI.mp3",
+"name": "Vocalize",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-06-25"
+},
+{
+"minute": null,
+"id": null,
+"raw": "N\u00f8rbak -&#160;?"
+},
+{
+"minute": null,
+"artist": "Divide",
+"title": "Liara",
+"label": "",
+"bp": "bp:16625517",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b2dfd6ce-ff44-478f-a806-beb9c1d9ea73.LOFI.mp3",
+"name": "Liara",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-06-24"
+},
+{
+"minute": null,
+"artist": "Quelza",
+"title": "La Valse 01",
+"label": "",
+"bp": "bp:15263145",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/63edf9f4-20aa-420b-99d6-72253a16b0d5.LOFI.mp3",
+"name": "La Valse 01",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-05-14"
+},
+{
+"minute": null,
+"artist": "Oscar Mulero",
+"title": "Rotar",
+"label": "",
+"bp": "bp:7570400",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b4c33b70-f947-4419-b910-872ba7d14117.LOFI.mp3",
+"name": "Rotar",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2016-02-26"
+},
+{
+"minute": 56,
+"artist": "Martyn",
+"title": "Vancouver",
+"label": "3024",
+"bp": "bp:829703",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7e539d70-469a-44ca-a398-5af373d343e7.LOFI.mp3",
+"name": "Vancouver",
+"mix": "Original Mix",
+"genre": "dubstep",
+"released": "2009-04-20"
+}
+]
+},
+{
+"title": "2022-10-21 - N\u00f8rbak @ Ratherlost, Lofi, ADE",
+"records": []
+},
+{
+"title": "2022-12-20 - N\u00f8rbak - Vault Sessions 123",
+"records": []
+},
+{
+"title": "2023-02-20 - N\u00f8rbak - KHIDI Podcast Nr.85",
+"records": []
+},
+{
+"title": "2023-04-07 - N\u00f8rbak - Awakenings Podcast 247",
+"records": []
+},
+{
+"title": "2023-08-20 - N\u00f8rbak & Quelza - HATE Podcast 348",
+"records": [
+{
+"minute": 0,
+"artist": "Burial",
+"title": "State Forest",
+"label": "Hyperdub - HDB120",
+"bp": "bp:12037606",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93a1318b-8968-4e7e-9651-0a5e3f60c9cf.LOFI.mp3",
+"name": "State Forest",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-06-14"
+},
+{
+"minute": 5,
+"artist": "Shl\u00f8mo & AWB2",
+"title": "Twelve Fortresses",
+"label": "Tapion - TPN002",
+"bp": "bp:10127597",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/a9355f9d-32b6-4649-acf6-4f0002fbed6f.LOFI.mp3",
+"name": "Twelve Fortresses",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2014-06-16"
+},
+{
+"minute": 10,
+"artist": "Peter Van Hoesen",
+"title": "Rift",
+"label": "Time To Express - T2x24",
+"bp": "bp:5707000",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9e9cd0a8-a8bd-474f-82a2-df8aaecf7217.LOFI.mp3",
+"name": "Rift",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2014-09-01"
+},
+{
+"minute": 13,
+"artist": "Reeko",
+"title": "Saturn Sequences",
+"label": "Modularz - 17",
+"bp": "bp:6292545",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8782e551-669e-42c4-bf8e-52a0d06f3e5e.LOFI.mp3",
+"name": "Saturn Sequences",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-02-27"
+},
+{
+"minute": 16,
+"artist": "Marcel Dettmann",
+"title": "Aim",
+"label": "Ostgut Ton - OSTGUTLP14",
+"bp": "bp:4684471",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c3339c0d-f4b3-40c3-878f-35c157c79f82.LOFI.mp3",
+"name": "Aim",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2013-09-16"
+},
+{
+"minute": 18,
+"artist": "Keikari",
+"title": "Teoria (Alderaan Remix)",
+"label": "Binary Cells - BCS005",
+"bp": "bp:11279894",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/449d12df-f264-4935-95fa-7321ac53d29b.LOFI.mp3",
+"name": "Teoria",
+"mix": "Alderaan Remix",
+"genre": "techno-peak-time-driving",
+"released": "2018-11-30"
+},
+{
+"minute": 22,
+"artist": "DVS1",
+"title": "Delta Wave",
+"label": "HUSH - 06",
+"bp": "bp:16444976",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c9a6c442-50e8-4d5b-b07d-24a972789ae0.LOFI.mp3",
+"name": "Delta Wave",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-12-01"
+},
+{
+"minute": 27,
+"artist": "Spherical Coordinates",
+"title": "SCBPA-20",
+"label": "Pole - POLEGROUP027",
+"bp": "bp:5913555",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2b49f7d2-7e4a-4a53-821e-d4594fa40aa7.LOFI.mp3",
+"name": "SCBPA - 20",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2014-11-03"
+},
+{
+"minute": 29,
+"artist": "Oscar Mulero",
+"title": "Tidal Acceleration",
+"label": "Pole - POLE / 010",
+"bp": "bp:5868770",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d84d3cae-7870-40f9-a28f-88c9e5d85408.LOFI.mp3",
+"name": "Tidal Acceleration",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2014-10-06"
+},
+{
+"minute": 32,
+"artist": "Blawan",
+"title": "Blika",
+"label": "XL - XL1197T",
+"bp": "bp:15925302",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/071aee46-1f2c-4d47-8a68-d6ae3ad0a74a.LOFI.mp3",
+"name": "Blika",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2021-11-12"
+},
+{
+"minute": 35,
+"artist": "Detboi",
+"title": "Get On Up",
+"label": "Metalheadz - METHPLA022",
+"bp": "bp:7925639",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4d696e97-21e4-4d63-a67e-381c9808e713.LOFI.mp3",
+"name": "Get on Up",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2016-06-03"
+},
+{
+"minute": 37,
+"artist": "Luke Slater",
+"title": "O-Ton Reassembled 4",
+"label": "Ostgut Ton - O-Ton127",
+"bp": "bp:13334949",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c55c2e30-30f7-40ad-a755-b43a5c4e6341.LOFI.mp3",
+"name": "O-Ton Reassembled 4",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-04-17"
+},
+{
+"minute": 41,
+"artist": "DJ Slip",
+"title": "Every Time It Takes Awhile (Original 1997 Mix)",
+"label": "Sub Static - Sus_53"
+},
+{
+"minute": 45,
+"artist": "Blawan",
+"title": "Lit Up Communicat",
+"label": "Ternesc - TESC 003",
+"bp": "bp:7821299",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f92f8963-6afe-4592-b48d-5ccd096ff99b.LOFI.mp3",
+"name": "Lit Up Communicat",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2016-04-08"
+},
+{
+"minute": 49,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 51,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 53,
+"artist": "UVB",
+"title": "Birth",
+"label": "Mord - LP001",
+"bp": "bp:7265350",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/87cf0c40-4adb-4fe7-bb01-7a05d664d740.LOFI.mp3",
+"name": "Birth",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-11-23"
+},
+{
+"minute": 56,
+"artist": "Oscar Mulero",
+"title": "Rotation [Pole (POLE) - 010]]",
+"label": ""
+},
+{
+"minute": 59,
+"artist": "&#160;? w/ Mihai Popviciu",
+"title": "Transitions",
+"label": ""
+},
+{
+"minute": 65,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 68,
+"artist": "Emmanuel",
+"title": "Entroterra",
+"label": "Arts Collective - ARTSCCV006",
+"bp": "bp:7268198",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/441af82d-039b-4573-aa9b-07cacc2082ea.LOFI.mp3",
+"name": "Entroterra",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-12-14"
+},
+{
+"minute": 72,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 75,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 75,
+"artist": "Reeko",
+"title": "Capitulo 1",
+"label": "Mental Disorder - MD19",
+"bp": "bp:6380861",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a276f2c7-875f-4198-93fc-8590735eb672.LOFI.mp3",
+"name": "Capitulo 1",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-03-23"
+},
+{
+"minute": 81,
+"artist": "Luke Slater",
+"title": "O-Ton Reassembled 1",
+"label": "Ostgut Ton - O-Ton127",
+"bp": "bp:13334946",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4640fc0c-c9dc-4aaf-99b5-ef07fcfac869.LOFI.mp3",
+"name": "O-Ton Reassembled 1",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-04-17"
+},
+{
+"minute": 84,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 86,
+"artist": "Exium",
+"title": "96.1 Mhz (2019 Mix)",
+"label": "Nheoma - NH021",
+"bp": "bp:12060696",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2404d485-1a14-4999-9e3b-0ca9885b7c1c.LOFI.mp3",
+"name": "96.1 Mhz",
+"mix": "2019 Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-06-17"
+},
+{
+"minute": 87,
+"artist": "Regis",
+"title": "S/He 1",
+"label": "Downwards - DWN04"
+},
+{
+"minute": 92,
+"artist": "Surgeon",
+"title": "Right Road To Dubland",
+"label": "SRX007"
+},
+{
+"minute": 94,
+"artist": "UVB",
+"title": "Mixtion",
+"label": "Mord - MORD012",
+"bp": "bp:5564175",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e7a51b37-0121-437a-9eef-6c9eb0e3ca5d.LOFI.mp3",
+"name": "Mixtion",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-07-14"
+},
+{
+"minute": 96,
+"artist": "Staffan Linzatti",
+"title": "Trapping A Wavelength",
+"label": "Axis - ASD038",
+"bp": "bp:16445039",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/76da2f39-ddf5-40ef-bfa8-1a181ee6914a.LOFI.mp3",
+"name": "Trapping a Wavelength",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-07-30"
+},
+{
+"minute": 100,
+"artist": "James Ruskin",
+"title": "Into A Circle",
+"label": "Jealous God - JEL 02",
+"bp": "bp:5036953",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/154d018d-8707-414c-a886-11f6015a22e0.LOFI.mp3",
+"name": "Into a Circle",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-01-20"
+},
+{
+"minute": 104,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 108,
+"artist": "Jeoren Search",
+"title": "Brush",
+"label": "Search - 001",
+"bp": "bp:5979706",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/7536a133-7f8f-403c-94d0-5313c78621df.LOFI.mp3",
+"name": "Brush",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-12-15"
+},
+{
+"minute": 110,
+"artist": "DJ Slip Pres. Emerald City",
+"title": "Snapshot",
+"label": "Music Man - MM 037"
+},
+{
+"minute": 111,
+"artist": "Rhyw",
+"title": "Unpunishable",
+"label": "Arcing Seas - ARCS-06",
+"bp": "bp:10551972",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c2e63c1d-336b-4339-a479-5b416ff8bfc2.LOFI.mp3",
+"name": "Unpunishable",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-05-18"
+},
+{
+"minute": 114,
+"artist": "&#160;? w/ Atom\u2122",
+"title": "Ich Bin Meine Maschine",
+"label": ""
+},
+{
+"minute": 121,
+"artist": "Head Front Panel",
+"title": "Tonedance",
+"label": "Repetitive Rhythm Research - RRR002",
+"bp": "bp:15380308",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/541fcc9c-8821-4a62-a29a-4c9c8502c4b3.LOFI.mp3",
+"name": "Tonedance",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-06-25"
+},
+{
+"minute": 125,
+"artist": "Oscean",
+"title": "Austraal",
+"label": "Tresor - 329",
+"bp": "bp:15803565",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8036af79-90c2-48fc-8568-a6ad4d7cf821.LOFI.mp3",
+"name": "Austraal",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-01-28"
+},
+{
+"minute": 131,
+"artist": "Luke Slater X Barker",
+"title": "9/8 Gumbo",
+"label": "Ostgut Ton - OSTGUTLP36",
+"bp": "bp:19391631",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/c438d875-7c8e-4b49-be14-af14d69aa554.LOFI.mp3",
+"name": "9/8 Gumbo",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2021-11-05"
+},
+{
+"minute": 135,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 137,
+"artist": "VIL",
+"title": "Dothejazz",
+"label": "Hayes - HYS005",
+"bp": "bp:17193871",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af95168a-5b39-4eae-b3ab-8692d3760502.LOFI.mp3",
+"name": "Dothejazz",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-12-16"
+},
+{
+"minute": 140,
+"artist": "Tessela",
+"title": "Headland",
+"label": "Oly Kicks - POLY007",
+"bp": "bp:9773028",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b78bd6c6-2e57-4d44-b36d-fb9681cf7675.LOFI.mp3",
+"name": "Headland",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-10-27"
+},
+{
+"minute": 142,
+"artist": "Dettmann",
+"title": "Klock [The Tenant (Ostgut Ton) - O-Ton100]]",
+"label": ""
+},
+{
+"minute": 143,
+"artist": "Ritzi Lee",
+"title": "Black Dust",
+"label": "Underground Liberation - UL003",
+"bp": "bp:1352595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/58c307dc-526e-4d65-a316-0cc3a5cf28dc.LOFI.mp3",
+"name": "Black Dust",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2010-08-23"
+},
+{
+"minute": 145,
+"artist": "Marcel Dettmann",
+"title": "Throb",
+"label": "Ostgut Ton - OSTGUTLP14",
+"bp": "bp:4684461",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/45680e94-ffe5-4bcb-be13-cff2917666bd.LOFI.mp3",
+"name": "Throb",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2013-09-16"
+},
+{
+"minute": 148,
+"artist": "DVS1",
+"title": "Running",
+"label": "Klockworks - KW 05",
+"bp": "bp:4525402",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0237ef44-e24b-4560-9227-a25b015ad76f.LOFI.mp3",
+"name": "Running",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2009-09-01"
+},
+{
+"minute": 151,
+"artist": "O/V/R",
+"title": "The World Remade",
+"label": "Downwards",
+"bp": "bp:11377798",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/103c2c13-8fad-4a68-a77a-0c342aebaa90.LOFI.mp3",
+"name": "The World Remade",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2018-12-14"
+},
+{
+"minute": 152,
+"artist": "Floorplan",
+"title": "Never Grow Old (Re-Plant)",
+"label": "M-Plant - M.PM20",
+"bp": "bp:6015590",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/174dd6c3-7604-49ae-8055-8cd8f5f01c03.LOFI.mp3",
+"name": "Never Grow Old",
+"mix": "Re-Plant",
+"genre": "techno-peak-time-driving",
+"released": "2014-11-23"
+},
+{
+"minute": 156,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 159,
+"artist": "Reeko",
+"title": "Cyberfunk",
+"label": "Pole - / 007"
+},
+{
+"minute": 163,
+"artist": "Cravo",
+"title": "W Hydrae",
+"label": "Hayes - HYSEP1",
+"bp": "bp:11645157",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/20fcf6df-b087-4606-aae9-1df8dbfbde92.LOFI.mp3",
+"name": "W Hydrae",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-03-01"
+},
+{
+"minute": 166,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 167,
+"artist": "Regis",
+"title": "Blood Witness",
+"label": "Downwards - LINO 100",
+"bp": "bp:5277473",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5866e957-956e-47eb-85ac-efc0cbd9ecaf.LOFI.mp3",
+"name": "Blood Witness",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-02-24"
+},
+{
+"minute": 169,
+"artist": "James Ruskin",
+"title": "Work (Steve Rachmad Remix)",
+"label": "Blueprint - BPLTD 03",
+"bp": "bp:851423",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c95d79db-15b4-49a3-a9ad-896569aab54e.LOFI.mp3",
+"name": "Work",
+"mix": "Steve Rachmad Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2006-02-01"
+},
+{
+"minute": 172,
+"artist": "Cravo",
+"title": "QUI (N\u00f8rbak Remix)",
+"label": "ANA\u00d8H - ANALTD002CA",
+"bp": "bp:16099925",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a470365-27e6-4b5e-963d-416dfc744eec.LOFI.mp3",
+"name": "QUI",
+"mix": "N\u00d8RBAK Remix",
+"genre": "techno-peak-time-driving",
+"released": "2021-12-27"
+},
+{
+"minute": 174,
+"artist": "Mathys Lenne",
+"title": "Zone X",
+"label": "Float - FLOAT057",
+"bp": "bp:15945253",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8cacd5b3-2350-407c-9fb4-383d0be435c2.LOFI.mp3",
+"name": "Zone X",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-12-17"
+},
+{
+"minute": 176,
+"artist": "Quelza",
+"title": "The Free Speech",
+"label": "Mord - 084",
+"bp": "bp:16328115",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fff4d060-ace5-47aa-92f8-b9c7a6be59d5.LOFI.mp3",
+"name": "The Free Speech",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-04-15"
+},
+{
+"minute": 178,
+"artist": "Quelza",
+"title": "Le Malsaine",
+"label": "Mord - 084",
+"bp": "bp:16328121",
+"score": 0.945,
+"preview": "https://geo-samples.beatport.com/track/17f61faf-ff19-48e6-806f-7c8e8cb6903c.LOFI.mp3",
+"name": "La Malsaine",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-04-15"
+},
+{
+"minute": 183,
+"artist": "Regis",
+"title": "Baptism",
+"label": "Downwards - DNCD09",
+"bp": "bp:3485935",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/00613149-cc75-4f28-b896-6d6e4a039cb5.LOFI.mp3",
+"name": "Baptism",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2012-05-20"
+},
+{
+"minute": 186,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 189,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 191,
+"artist": "Regis",
+"title": "White Stains Pt.2",
+"label": "Downwards - Lino30minicd",
+"bp": "bp:3485946",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fe41a763-c029-4eb5-8a39-cd8bfc5f3f95.LOFI.mp3",
+"name": "White Stains Pt.2",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2012-05-20"
+},
+{
+"minute": 194,
+"artist": "Objekt",
+"title": "The Stitch\u200b-\u200bUp",
+"label": "Stitch Up - 000"
+},
+{
+"minute": 197,
+"artist": "WLDERZ",
+"title": "Contraste (TENSAL Remix)",
+"label": "Skrypt\u00f6m - SKRPT38",
+"bp": "bp:11599141",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9662f8e4-be86-4586-8098-636e2d762162.LOFI.mp3",
+"name": "Contraste",
+"mix": "Tensal Remix",
+"genre": "techno-peak-time-driving",
+"released": "2019-02-15"
+},
+{
+"minute": 199,
+"artist": "Shl\u00f8mo & AWB2",
+"title": "Arcades",
+"label": "Taapion - 007",
+"bp": "bp:10255489",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/de118465-9e65-4f0f-9a4e-20f9bc9cba32.LOFI.mp3",
+"name": "Arcades",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2017-07-07"
+},
+{
+"minute": 200,
+"artist": "Peter Van Hoesen",
+"title": "Trim The Facts",
+"label": "Center 91 - C91.002",
+"bp": "bp:12246900",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/875c6ea5-7640-4413-82ba-2ee30e27e892.LOFI.mp3",
+"name": "Trim the Facts",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-07-26"
+},
+{
+"minute": 203,
+"artist": "LSD",
+"title": "Process 12",
+"label": "Ostgut Ton - O-Ton109",
+"bp": "bp:13097370",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2b0f47a9-4b9a-4729-b160-6a4ca9eea310.LOFI.mp3",
+"name": "Process 12",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-02-17"
+},
+{
+"minute": 205,
+"artist": "Force Reaction",
+"title": "Control Abuse",
+"label": "K S R - 007"
+},
+{
+"minute": 208,
+"artist": "Ritzi Lee",
+"title": "Framework",
+"label": "Mord - 029",
+"bp": "bp:8071749",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/92943a51-8011-4b02-a99c-bd20a9d83d39.LOFI.mp3",
+"name": "Framework",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2016-07-01"
+},
+{
+"minute": 213,
+"artist": "Truncate",
+"title": "First Phase (Planetary Assault Systems Remix)",
+"label": "TRUNCATE22",
+"bp": "bp:15773113",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5236eb1b-79a3-4cab-9fd4-03f85f0acdc7.LOFI.mp3",
+"name": "First Phase",
+"mix": "Planetary Assault Systems Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-10-08"
+},
+{
+"minute": 216,
+"artist": "Robert Hood",
+"title": "Unix",
+"label": "Axis - AX-007",
+"bp": "bp:871433",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ccb9945-1bf8-47d8-b4b5-c722c9d5e7cd.LOFI.mp3",
+"name": "Unix",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "1994-06-15"
+},
+{
+"minute": 222,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 224,
+"artist": "Answer Code Request",
+"title": "Calm Down",
+"label": "Marcel Dettmann - MDR 018",
+"bp": "bp:7250960",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2cc0db9c-85c0-4818-b8a4-a9c61b124986.LOFI.mp3",
+"name": "Calm Down",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-10-30"
+},
+{
+"minute": 227,
+"artist": "Aphex Twin",
+"title": "Vordhosbn",
+"label": "Warp - WARPLP92",
+"bp": "bp:1576957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0fb31cfa-e806-4b06-8043-455b103b7b1a.LOFI.mp3",
+"name": "Vordhosbn",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2001-10-22"
+},
+{
+"minute": 230,
+"artist": "&#160;? w/ Closer Musik",
+"title": "One Two Three (No Gravity)",
+"label": "",
+"bp": "bp:647301",
+"score": 0.55,
+"preview": "https://geo-samples.beatport.com/track/2780e6d5-4f66-43d1-b9d4-7bd25fb3e9d7.LOFI.mp3",
+"name": "One Two Three (No Gravity)",
+"mix": "No Gravity",
+"genre": "house",
+"released": "2000-04-01"
+}
+]
+},
+{
+"title": "2023-09-26 - N\u00f8rbak @ H\u00d6R, Berlin",
+"records": []
+},
+{
+"title": "2024-01-01 - N\u00f8rbak vs Quelza @ Ratherlost NYD, Lofi, Amsterdam",
+"records": []
+},
+{
+"title": "2024-03-11 - N\u00f8rbak - CLR Podcast 365",
+"records": [
+{
+"minute": null,
+"artist": "Morganistic",
+"title": "Leaf",
+"label": "",
+"bp": "bp:14362945",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1c95843d-471f-4ded-9e8b-7dfc60bc9527.LOFI.mp3",
+"name": "Leaf",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-11-27"
+},
+{
+"minute": null,
+"artist": "Markus Suckut",
+"title": "Contact",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Lewis Fautzi",
+"title": "Sinister",
+"label": "",
+"bp": "bp:4518979",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/54918a3c-7787-4926-8e63-a6a0e5350b36.LOFI.mp3",
+"name": "Sinister",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2013-08-05"
+},
+{
+"minute": null,
+"artist": "Dustmite",
+"title": "Filaments & Jaws",
+"label": "",
+"bp": "bp:16276890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aa30b8fa-62da-4c62-9ed2-e4443af42534.LOFI.mp3",
+"name": "Filaments & Jaws",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-03-25"
+},
+{
+"minute": null,
+"artist": "Submerge, Ricardo Garduno",
+"title": "Unknown Move (Ritzi Lee Remix)",
+"label": "",
+"bp": "bp:6267483",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8be036e5-e367-40a3-a8c0-49da46e39319.LOFI.mp3",
+"name": "Unknown Move",
+"mix": "Ritzi Lee Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-02-23"
+},
+{
+"minute": null,
+"artist": "Michel Lauriola",
+"title": "Transparent Eyes",
+"label": "",
+"bp": "bp:8807595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/981c1d3c-17f7-42d6-9951-45bf7e2c93e5.LOFI.mp3",
+"name": "Transparent Eyes",
+"mix": "Original mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2017-01-03"
+},
+{
+"minute": null,
+"artist": "Metapattern",
+"title": "Street Sweeper",
+"label": "",
+"bp": "bp:19960401",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ce51d82a-fbab-4ddd-aad4-0e8cf090205a.LOFI.mp3",
+"name": "Street Sweeper",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-01-10"
+},
+{
+"minute": null,
+"artist": "Vil",
+"title": "Driven",
+"label": "",
+"bp": "bp:11922016",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2065dfd3-f49a-40bc-b358-28d424a09891.LOFI.mp3",
+"name": "Driven",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2019-05-06"
+},
+{
+"minute": null,
+"artist": "Jacobworld",
+"title": "Incise",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ben Gibson",
+"title": "Terminal",
+"label": "",
+"bp": "bp:6098225",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fa689504-721a-474b-b2fd-3db29fea0444.LOFI.mp3",
+"name": "Terminal",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2014-12-08"
+},
+{
+"minute": null,
+"artist": "Vangelis",
+"title": "Blade Runner Blues",
+"label": "",
+"bp": "bp:4414686",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0287edab-5ba9-46d1-8123-a291848e9bfc.LOFI.mp3",
+"name": "Blade Runner Blues",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2013-06-17"
+}
+]
+},
+{
+"title": "2024-04-26 - N\u00f8rbak @ Fuse, Brussels (REC025)",
+"records": []
+},
+{
+"title": "2024-05-18 - N\u00f8rbak x Quelza @ Awakenings Upclose, Spaarnwoude Park, Houtrak, NL",
+"records": []
+},
+{
+"title": "2024-07-04 - N\u00f8rbak - Glitch Podcast 077",
+"records": []
+},
+{
+"title": "2024-11-15 - N\u00f8rbak @ Boiler Room Libson",
+"records": []
+},
+{
+"title": "2025-04-09 - N\u00f8rbak - Human Mix 054",
+"records": []
+},
+{
+"title": "2025-05-21 - N\u00f8rbak - Groove Podcast 460",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Hitam -&#160;?"
+},
+{
+"minute": 2,
+"artist": "Obstructor",
+"title": "Paradigm Shift",
+"label": "HAYES",
+"bp": "bp:19156756",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2cd131bd-bb89-41cc-8c72-be5684a93ae1.LOFI.mp3",
+"name": "Paradigm Shift",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-06-21"
+},
+{
+"minute": 6,
+"id": null,
+"raw": "Alarico -&#160;?"
+},
+{
+"minute": 11,
+"artist": "Volster",
+"title": "III. Khu",
+"label": "Secession",
+"bp": "bp:18829890",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/93128ad8-931e-40cc-b925-ddb9fef9aaa8.LOFI.mp3",
+"name": "III. Khu",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-05-03"
+},
+{
+"minute": null,
+"artist": "[1?] Chriz.Jae",
+"title": "Saka",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Drumcell",
+"title": "Departing Comfort (Planetary Assault Systems Remix)",
+"label": "CLR",
+"bp": "bp:6207876",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a700c6d3-b010-4841-a5ef-893668dddb2d.LOFI.mp3",
+"name": "Departing Comfort",
+"mix": "Planetary Assault Systems Remix",
+"genre": "techno-peak-time-driving",
+"released": "2015-01-19"
+},
+{
+"minute": null,
+"artist": "Planetary Assault Systems",
+"title": "Rip The Cut",
+"label": "Ostgut",
+"bp": "bp:2741018",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5120b65b-2318-430a-97a6-e549f40fb646.LOFI.mp3",
+"name": "Rip The Cut",
+"mix": "Original Version",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2011-10-24"
+},
+{
+"minute": null,
+"artist": "Axling",
+"title": "Oktober",
+"label": "",
+"bp": "bp:14200669",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/76db840c-0bc1-4d08-a998-9c25f042e7de.LOFI.mp3",
+"name": "Oktober",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-10-12"
+},
+{
+"minute": null,
+"artist": "Temudo",
+"title": "Float Here Forever",
+"label": "Klockworks",
+"bp": "bp:14814989",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ffd7eb14-2662-4d35-a611-9898ada59fce.LOFI.mp3",
+"name": "Float Here Forever",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-02-19"
+},
+{
+"minute": 34,
+"artist": "Reeko",
+"title": "Day After 2",
+"label": "Mental Disorder",
+"bp": "bp:4428324",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1f417aa5-29c5-46d9-9181-be1837e447c6.LOFI.mp3",
+"name": "Day After 2",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2013-06-17"
+},
+{
+"minute": null,
+"artist": "[3?] Oscar Mulero",
+"title": "Rotula (Truncate Remix)",
+"label": "Modularz",
+"bp": "bp:4529245",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/01f3e2fe-bd7a-4db9-9695-21b250e7838d.LOFI.mp3",
+"name": "Rotula",
+"mix": "Truncate Remix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2013-07-19"
+},
+{
+"minute": 39,
+"artist": "Blawan",
+"title": "My Guide To Dancing On Carpet",
+"label": "Ternesc",
+"bp": "bp:14936647",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c9ad9448-e9db-4e86-8d32-3a85aae01416.LOFI.mp3",
+"name": "My Guide to Dancing on Carpet",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-02-19"
+},
+{
+"minute": 41,
+"artist": "Spherical Coordinates",
+"title": "SCBPA",
+"label": "PoleGroup",
+"bp": "bp:5913559",
+"score": 0.862,
+"preview": "https://geo-samples.beatport.com/track/723992a1-be33-4247-ba08-aa4a0a86e95c.LOFI.mp3",
+"name": "SCBPA - 07",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2014-11-03"
+},
+{
+"minute": 44,
+"artist": "Temudo",
+"title": "Da Haze",
+"label": "HAYES",
+"bp": "bp:17320922",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d43a361-4cb9-4865-8a02-f475cd7bf4ea.LOFI.mp3",
+"name": "Da Haze",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-01-27"
+},
+{
+"minute": 48,
+"artist": "NTTR-909",
+"title": "Hyperbell",
+"label": "",
+"bp": "bp:18304619",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9326737-e506-479b-9968-a6f39658bd9f.LOFI.mp3",
+"name": "Hyperbell",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-11-17"
+},
+{
+"minute": null,
+"artist": "Kwartz",
+"title": "Bleeding",
+"label": ""
+},
+{
+"minute": 53,
+"artist": "Talismann",
+"title": "Dub Rola",
+"label": "TALISMANN",
+"bp": "bp:16782171",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e14d96af-3260-41b9-ba4a-a2429b0f7950.LOFI.mp3",
+"name": "Dub Rola",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2022-08-19"
+},
+{
+"minute": 57,
+"artist": "Border One",
+"title": "Optical Void",
+"label": "SK_Eleven",
+"bp": "bp:18326195",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2c608550-3780-4595-aff0-eca2ec1d0bd0.LOFI.mp3",
+"name": "Optical Void",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-12-08"
+},
+{
+"minute": null,
+"artist": "D. Dan",
+"title": "Vaults",
+"label": "Arsenik"
+},
+{
+"minute": 63,
+"artist": "Tehotu",
+"title": "No Fear",
+"label": "Inguma",
+"bp": "bp:18110356",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9a5ad0e5-40d0-491c-817f-f28c5332f298.LOFI.mp3",
+"name": "No Fear",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-09-22"
+},
+{
+"minute": 68,
+"artist": "UVB",
+"title": "Mixtion",
+"label": "MORD",
+"bp": "bp:5564175",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e7a51b37-0121-437a-9eef-6c9eb0e3ca5d.LOFI.mp3",
+"name": "Mixtion",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-07-14"
+},
+{
+"minute": null,
+"artist": "Peter Van Hoesen",
+"title": "Trim The Facts",
+"label": "Center 91",
+"bp": "bp:12246900",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/875c6ea5-7640-4413-82ba-2ee30e27e892.LOFI.mp3",
+"name": "Trim the Facts",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-07-26"
+},
+{
+"minute": 71,
+"artist": "Ritzi Lee",
+"title": "Sonic Sense",
+"label": "MORD",
+"bp": "bp:7514797",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/799bd62e-1519-400a-b28c-54dcd7ccbedd.LOFI.mp3",
+"name": "Sonic Sense",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2016-02-01"
+},
+{
+"minute": 76,
+"artist": "Ribe",
+"title": "Shapes",
+"label": "Warm Up"
+},
+{
+"minute": null,
+"artist": "[7?] Mike Parker",
+"title": "Spiral Snare",
+"label": "Geophone",
+"bp": "bp:15633039",
+"score": 0.617,
+"preview": "https://geo-samples.beatport.com/track/7f03a27e-59ea-4b3c-b6ba-ff3a8838330e.LOFI.mp3",
+"name": "Spiral Snare",
+"mix": "1998 | Remastered",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-09-24"
+}
+]
+},
+{
+"title": "2025-07-09 - N\u00f8rbak - SPND20 Mixtape",
+"records": []
+},
+{
+"title": "2025-12-17 - N\u00f8rbak - OUTOFCHARACTER 010",
+"records": [
+{
+"minute": null,
+"artist": "Reeko",
+"title": "Segmento 5",
+"label": "",
+"bp": "bp:3830686",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/39588244-a1e5-4347-b5a2-641da86dc0e5.LOFI.mp3",
+"name": "Segmento 5",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2012-10-08"
+},
+{
+"minute": null,
+"artist": "Private Press",
+"title": "Risky",
+"label": "",
+"bp": "bp:11833478",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6ea6b6fa-4ab4-4b17-8706-51e9379fb843.LOFI.mp3",
+"name": "Risky",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-04-19"
+},
+{
+"minute": null,
+"artist": "Malin Genie",
+"title": "Mastodon",
+"label": "",
+"bp": "bp:14599149",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e6ed6866-6d03-4b27-9f44-a3d09499c3fa.LOFI.mp3",
+"name": "Mastodon",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-01-01"
+},
+{
+"minute": null,
+"artist": "Zadig",
+"title": "Dark Nebula",
+"label": "",
+"bp": "bp:6036872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6dcc65ed-afc7-4290-9c39-cb485b966b42.LOFI.mp3",
+"name": "Dark Nebula",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-11-24"
+},
+{
+"minute": null,
+"artist": "Oscar Mulero",
+"title": "Rotar",
+"label": "",
+"bp": "bp:7570400",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b4c33b70-f947-4419-b910-872ba7d14117.LOFI.mp3",
+"name": "Rotar",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2016-02-26"
+},
+{
+"minute": null,
+"artist": "Biemsix",
+"title": "Clear",
+"label": "",
+"bp": "bp:11294239",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f4ddbe5-1f63-497c-a201-b1da74023189.LOFI.mp3",
+"name": "Clear",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-11-30"
+},
+{
+"minute": null,
+"artist": "Fadi Mohem",
+"title": "Submerge",
+"label": "",
+"bp": "bp:20539558",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7b497966-12a1-47e8-917c-33906b1c9aea.LOFI.mp3",
+"name": "Submerge",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2025-05-30"
+},
+{
+"minute": null,
+"artist": "Architectural",
+"title": "Temptation",
+"label": "",
+"bp": "bp:8967500",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/745b3346-e8ad-46e8-b5ff-6b3657ba305d.LOFI.mp3",
+"name": "Temptation",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-03-31"
+},
+{
+"minute": null,
+"artist": "Pjotr G & Dubiosity",
+"title": "Poisoning The Well",
+"label": "",
+"bp": "bp:8892393",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b9f6bbb6-74b1-4f72-8772-5228dc0caa04.LOFI.mp3",
+"name": "Poisoning The Well",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2017-02-27"
+},
+{
+"minute": null,
+"artist": "Adriana Lopez",
+"title": "Estructura",
+"label": "",
+"bp": "bp:3766955",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9929eb86-29a8-480d-96c9-242ff23be873.LOFI.mp3",
+"name": "Estructura",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2012-09-28"
+},
+{
+"minute": null,
+"artist": "M\u00f6d3rn",
+"title": "Mist",
+"label": "",
+"bp": "bp:9515627",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4f844dc9-a944-438a-8d33-1999e47a2b08.LOFI.mp3",
+"name": "Mist",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2017-07-07"
+},
+{
+"minute": null,
+"artist": "Reeko",
+"title": "Star Phases",
+"label": "",
+"bp": "bp:6292544",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0da9de6-f7bf-4954-8271-c9d11408df7b.LOFI.mp3",
+"name": "Star Phases",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2015-02-27"
+},
+{
+"minute": null,
+"artist": "Tarker",
+"title": "Technique",
+"label": "",
+"bp": "bp:15784480",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9abcb3f-1b83-4090-841b-484a2a592f66.LOFI.mp3",
+"name": "Technique",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2021-10-29"
+},
+{
+"minute": null,
+"artist": "Bambounou",
+"title": "The Traitor",
+"label": "",
+"bp": "bp:10127529",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1d634900-c7e9-44bd-a98f-1d818828f2f9.LOFI.mp3",
+"name": "The Traitor",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2017-03-10"
+}
+]
+},
+{
+"title": "2026-02-07 - N\u00f8rbak @ Laster Club, The Bassement Club, Madrid (Laster Mix 034)",
+"records": []
+}
+]
+}
