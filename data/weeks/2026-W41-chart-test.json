@@ -29,9 +29,9 @@
   "2026-W40"
  ],
  "tested_on": "2026-W41",
- "charted_in_test": 3600,
- "uncharted_in_test": 3168,
- "auc": 0.619,
- "shuffled": 0.5065,
+ "charted_in_test": 5004,
+ "uncharted_in_test": 3167,
+ "auc": 0.6187,
+ "shuffled": 0.5035,
  "verdict": "holds"
 }
