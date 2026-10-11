@@ -2959,8 +2959,14 @@
 },
 {
 "date": "2026-10-11",
+"scene": "electro",
+"regime": "stars lead",
+"established": 5
+},
+{
+"date": "2026-10-11",
 "scene": "trance-raw-deep-hypnotic",
-"regime": "stars behind",
-"established": 8
+"regime": "mixed",
+"established": 9
 }
 ]
