@@ -24,29 +24,77 @@ from . import fingerprints as fp
 from .beatport import _get, get_token, download_preview
 
 
+def importance(fpc):
+    """How much a record matters to recognition, as a sort key on its id (smaller first), the same tiers the index
+    build keeps within its limit (audio/build_index.py in signal-sonic-audio): the canon and classics; then records
+    played by two or more DJs or charted top 10; then records played by one DJ or charted at all; then the catalogue
+    sample. Within a tier: more DJs, a higher chart position, the newer record."""
+    import collections
+    djs = collections.defaultdict(set)
+    for r in fpc.execute("select dj, track_id from main_db.tracklist_plays where track_id is not null and track_id != ''"):
+        djs[r[1]].add(r[0])
+    for r in fpc.execute("select mix_url, track_id from main_db.mix_plays where track_id is not null"):
+        djs[r[1]].add("mix:" + str(r[0]))
+    best = {r[0]: r[1] for r in fpc.execute("select track_id, min(chart_rank) from main_db.track_scenes where chart_rank is not null group by track_id")}
+    src, seen = {}, {}
+    for r in fpc.execute("select track_id, source, first_seen from main_db.tracks"):
+        src[r[0]] = r[1] or ""; seen[r[0]] = str(r[2] or "")
+    def key(tid):
+        n = len(djs.get(tid, ())); rk = best.get(tid)
+        if src.get(tid) in ("canon", "classic"): tier = 0
+        elif n >= 2 or (rk is not None and rk <= 10): tier = 1
+        elif n == 1 or rk is not None: tier = 2
+        else: tier = 3
+        newer = -int("".join(ch for ch in seen.get(tid, "")[:10] if ch.isdigit()) or 0)
+        return (tier, -n, rk if rk is not None else 999, newer, tid)
+    return key
+
+
+def lasting(e):
+    """A failure that belongs to the record (no preview at that address, audio that will not decode) rather than to
+    the moment (a dropped connection, a timeout, a server error), which is not held against it."""
+    import socket, urllib.error
+    if isinstance(e, urllib.error.HTTPError): return 400 <= e.code < 500
+    if isinstance(e, (urllib.error.URLError, TimeoutError, ConnectionError, socket.timeout)): return False
+    return True
+
+
 def cmd_reindex(args):
     store = Store(args.db)
     fpc = fp.open_store(args.fp_db)
     fpc.execute("ATTACH DATABASE ? AS main_db", (args.db,))
-    rows = fpc.execute(
+    # Most important first. The order was the table's own, so the index filled with whatever had been measured
+    # first: on 11 Oct it held 32,149 records sampled from the catalogue while 71,388 records DJs play and 60,951
+    # charted records were missing, and the index can address 65,536 at most.
+    fpc.execute("create table if not exists fp_failed (track_id text primary key, n integer, last_error text, at text)")
+    held = {r[0] for r in fpc.execute("select track_id from fp_failed where n >= 2")}   # twice failed for its own reasons
+    todo = [r[0] for r in fpc.execute(
         """SELECT t.track_id FROM main_db.tracks t
            LEFT JOIN fp_tracks f ON f.track_id = t.track_id
-           WHERE f.track_id IS NULL AND t.track_id LIKE 'bp:%'
-           LIMIT ?""", (args.limit,)).fetchall()
+           WHERE f.track_id IS NULL AND t.track_id LIKE 'bp:%'""") if r[0] not in held]
+    key = importance(fpc)
+    todo.sort(key=key)
+    tiers = __import__("collections").Counter(key(t)[0] for t in todo)
+    print(json.dumps({"not yet fingerprinted": len(todo), "by tier": dict(sorted(tiers.items())), "held back after two failures": len(held)}), flush=True)
+    rows = todo[:args.limit]
     if not rows:
         print(json.dumps({"reindex": "nothing to do"}))
         return
+    now = lambda: time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    def note_failure(tid, why):
+        fpc.execute("""insert into fp_failed values (?,1,?,?) on conflict(track_id) do update
+                       set n = n + 1, last_error = excluded.last_error, at = excluded.at""", (tid, why[:120], now()))
+        fpc.commit()
     token = get_token()
     done, failed, t0 = 0, 0, time.time()
-    for r in rows:
-        tid = r["track_id"]
+    for tid in rows:
         bp_id = tid.split(":", 1)[1]
         try:
             d = _get(f"/catalog/tracks/{bp_id}/", token)
             url = (d.get("sample_url") or
                    (d.get("preview") or {}).get("mp3", {}).get("url") or "")
             if not url:
-                failed += 1
+                failed += 1; note_failure(tid, "no preview address")
                 continue
             path = download_preview(url)
             try:
@@ -60,6 +108,7 @@ def cmd_reindex(args):
                     pass
         except Exception as e:
             failed += 1
+            if lasting(e): note_failure(tid, f"{type(e).__name__}: {str(e)[:80]}")
             if failed <= 3:
                 print(f"  fail {tid}: {type(e).__name__}: {str(e)[:80]}", flush=True)
         if (done + failed) % 25 == 0:
