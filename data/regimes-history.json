@@ -2829,7 +2829,7 @@
 "date": "2026-10-11",
 "scene": "uk-garage-speed-garage",
 "regime": "mixed",
-"established": 37
+"established": 38
 },
 {
 "date": "2026-10-11",
@@ -2883,7 +2883,7 @@
 "date": "2026-10-11",
 "scene": "deep-house",
 "regime": "mixed",
-"established": 41
+"established": 42
 },
 {
 "date": "2026-10-11",
@@ -2947,15 +2947,21 @@
 },
 {
 "date": "2026-10-11",
+"scene": "jackin-house",
+"regime": "stars behind",
+"established": 5
+},
+{
+"date": "2026-10-11",
 "scene": "minimal-deep-tech",
 "regime": "stars lead",
-"established": 13
+"established": 15
 },
 {
 "date": "2026-10-11",
 "scene": "nu-disco-disco",
-"regime": "stars behind",
-"established": 6
+"regime": "mixed",
+"established": 7
 },
 {
 "date": "2026-10-11",
