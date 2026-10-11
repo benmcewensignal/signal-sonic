@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-10T23:53:41Z",
+ "ran": "2026-10-11T00:37:24Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -121,7 +121,7 @@
     " \"appetite\": {",
     "  \"afro-house\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 49.5",
+    "   \"plays_per_day_median\": 48.9",
     "  },",
     "  \"techno-peak-time\": {",
     "   \"mixes\": 3,",
@@ -129,11 +129,11 @@
     "  },",
     "  \"deep-house\": {",
     "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 56.3",
+    "   \"plays_per_day_median\": 55.6",
     "  },",
     "  \"melodic-house-techno\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 54.8",
+    "   \"plays_per_day_median\": 54.3",
     "  }",
     " }",
     "}"
@@ -177,12 +177,12 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 5.4,
+   "minutes": 5.8,
    "tail": [
-    "artist records for 11908 artists; sounds-like for 3992",
+    "artist records for 11918 artists; sounds-like for 4010",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-10T23:52:12Z\",",
+    " \"generated\": \"2026-10-11T00:35:27Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -197,11 +197,11 @@
     "  \"2026-10-05\",",
     "  \"2026-10-08\"",
     " ],",
-    " \"artists_total\": 58454,",
+    " \"artists_total\": 58466,",
     " \"booking_side\": 30957,",
-    " \"release_side\": 31047,",
-    " \"joined\": 3550,",
-    " \"tracks_with_metadata\": 142890,",
+    " \"release_side\": 31061,",
+    " \"joined\": 3552,",
+    " \"tracks_with_metadata\": 146322,",
     " \"join_rate_release_side\": 0.114",
     "}"
    ]
@@ -209,10 +209,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.1,
+   "minutes": 1.7,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-10T23:53:40Z\",",
+    " \"generated\": \"2026-10-11T00:37:24Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -230,7 +230,7 @@
     " \"latest\": \"2026-10-08\",",
     " \"venues\": 4308,",
     " \"venues_with_3plus\": 1228,",
-    " \"leadership_artists\": 11908,",
+    " \"leadership_artists\": 11918,",
     " \"tiered_rooms\": 873",
     "}"
    ]
