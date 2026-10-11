@@ -174,6 +174,10 @@ def main():
     ap.add_argument("--count", action="store_true"); ap.add_argument("--list-out", default="")
     ap.add_argument("--todo", default=""); ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--out", default=""); ap.add_argument("--failed-out", default="")
+    # stop starting DJs after this many minutes, and list the ones not reached so the workflow returns them to the
+    # queue: a batch of prolific DJs (run 206, 10 Oct) ran into the job's 5.5-hour limit, and the batch marks its DJs
+    # tried when it starts, so a run cut short loses the ones it never reached
+    ap.add_argument("--budget-minutes", type=float, default=0); ap.add_argument("--unreached-out", default="/tmp/tracklists_unreached.txt")
     a = ap.parse_args(); os.makedirs(OUT, exist_ok=True)
     # previews need no Beatport token, so measuring alone does not log in (twenty shards would log in at once)
     tok = None if a.measure_only else B.get_token(); cache = {}
@@ -198,8 +202,20 @@ def main():
     if a.count:
         if a.list_out: json.dump(list(to_measure.items()), open(a.list_out, "w"))
         print(len(to_measure)); return
-    for dj in ([] if a.measure_only else [d.strip() for d in a.djs.split(",") if d.strip()]):
-        titles = sets_for(dj, a.since)[-a.max_sets:]
+    djs = [] if a.measure_only else [d.strip() for d in a.djs.split(",") if d.strip()]
+    t_start = time.time()
+    for i_dj, dj in enumerate(djs):
+        if a.budget_minutes and (time.time() - t_start) / 60 > a.budget_minutes:
+            rest = djs[i_dj:]
+            open(a.unreached_out, "w").write("\n".join(rest) + "\n")
+            msg = f"time budget of {a.budget_minutes:.0f} minutes reached: {len(rest)} DJs not reached, returned to the queue"
+            print(msg, flush=True); print(f"::notice title=tracklist budget::{msg}", flush=True)
+            break
+        try: titles = sets_for(dj, a.since)[-a.max_sets:]
+        except Exception as e:
+            # one DJ's category page failing ended the whole batch, and the batch had already marked every DJ in it
+            # tried; now the DJ is skipped (and stays tried, so a page that always fails cannot hold the queue)
+            print(f"::warning title={dj}::{dj}: could not read the category page ({type(e).__name__}); skipped", flush=True); continue
         sets = []
         for t in titles:
             try: recs = parse(tracklist_text(page(t)))

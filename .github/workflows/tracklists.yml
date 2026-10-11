@@ -36,7 +36,7 @@ jobs:
   sets:
     if: inputs.measure_only != 'true'
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest becomes Ubuntu 26 from 19 Oct 2026, under the audio decoding
-    timeout-minutes: 330
+    timeout-minutes: 355   # GitHub's ceiling is 360; the DJ loop stops starting DJs at 260
     env:
       # yes: this job fetches and matches only, and tracklists-measure.yml measures the backlog alongside it, in shards
       # as wide as the idle job slots. no: the old way, measuring here and booking measuring-only runs before fetching more
@@ -64,7 +64,9 @@ jobs:
           gh api "repos/${{ github.repository }}/releases/tags/deepened" --jq '.assets[] | select(.name=="sonic.db") | .id' > /tmp/base.id
       - name: sets and matches
         if: inputs.measure_only != 'true'
-        run: python -m sonic.tracklists --djs "${{ inputs.djs }}" --since "${{ inputs.since }}" --measure 0 --max-sets "${{ inputs.max_sets }}"
+        # the budget leaves room for the DJ under way when it runs out (a prolific one takes most of an hour) and the
+        # steps after, inside the job's limit; DJs not reached go back to the queue in the save step
+        run: python -m sonic.tracklists --djs "${{ inputs.djs }}" --since "${{ inputs.since }}" --measure 0 --max-sets "${{ inputs.max_sets }}" --budget-minutes 260
       - name: set curves on 3.0 (records on other versions are counted and left out)
         if: always()
         # every DJ with a file, not just this run's: a measuring run has no DJs, and computing curves for
@@ -96,6 +98,16 @@ jobs:
         if: always()
         run: |
           git config user.name sonic-bot; git config user.email sonic@earlysignal.live
+          # DJs the time budget did not reach come off the tried list, so the next batch reads them
+          if [ -s /tmp/tracklists_unreached.txt ] && [ -f "data/tracklists-tried-${{ inputs.since }}.json" ]; then
+            python3 -c "
+          import json, sys
+          f, back = sys.argv[1], {l.strip() for l in open(sys.argv[2]) if l.strip()}
+          T = json.load(open(f)); json.dump(sorted(set(T) - back), open(f, 'w'), ensure_ascii=False, indent=0)
+          print(len(back), 'DJs back in the queue')
+          " "data/tracklists-tried-${{ inputs.since }}.json" /tmp/tracklists_unreached.txt
+            git add "data/tracklists-tried-${{ inputs.since }}.json"
+          fi
           git add data/tracklists || true
           git diff --cached --quiet && exit 0
           # GitHub refuses any file over 100 MiB (104,857,600 bytes), and every retry below fails the same way: measured.jsonl
