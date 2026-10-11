@@ -1,0 +1,442 @@
+{
+"dj": "Nick Curly",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2022-06-04 - Nick Curly @ Jackies Open Air, La Terrrazza, Barcelona",
+"records": []
+},
+{
+"title": "2023-10-23 - Nick Curly - When We Dip 142",
+"records": [
+{
+"minute": 0,
+"artist": "Nick Curly",
+"title": "Just A Feeling",
+"label": "Mood Child",
+"bp": "bp:18265587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/22b3e1a2-b54f-436c-a00b-211b906aa5ef.LOFI.mp3",
+"name": "Just A Feeling",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-11-03"
+},
+{
+"minute": 6,
+"artist": "Mateo Dufour & Cosenza",
+"title": "Missed Call",
+"label": "Key",
+"bp": "bp:15989658",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bb6e0144-835d-4600-bd83-6556486cde00.LOFI.mp3",
+"name": "Missed Call",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2021-12-31"
+},
+{
+"minute": 10,
+"artist": "Nolga",
+"title": "Amber Gambler",
+"label": "Locus",
+"bp": "bp:17114424",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b71dd736-0afe-4eaf-8458-ed61a7faee38.LOFI.mp3",
+"name": "Amber Gambler",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-03-17"
+},
+{
+"minute": 15,
+"artist": "Daan Steenman & Rool\u00e9h",
+"title": "Keep A Steady",
+"label": "Microhertz",
+"bp": "bp:17121419",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/c005f5a1-7bb4-4c9c-a0fb-a4c14f5c8b06.LOFI.mp3",
+"name": "Keep A Steady",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2022-12-09"
+},
+{
+"minute": 21,
+"artist": "Nick Curly",
+"title": "Aymara",
+"label": "",
+"bp": "bp:1366931",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b2ce0ed6-2a50-4a13-942f-1632ed18aa16.LOFI.mp3",
+"name": "Aymara",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2010-08-17"
+},
+{
+"minute": 28,
+"artist": "D'Julz",
+"title": "Highway",
+"label": "Bassculture",
+"bp": "bp:16161005",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a0d406ad-7ec2-47bb-8aa6-dc9f05a75051.LOFI.mp3",
+"name": "Highway",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-02-18"
+},
+{
+"minute": 32,
+"artist": "D Stone",
+"title": "Total Unison",
+"label": "",
+"bp": "bp:18318161",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/df5f3ac2-269d-4d19-ae51-4c72fdecb186.LOFI.mp3",
+"name": "Total Unison",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-11-10"
+},
+{
+"minute": 40,
+"artist": "Miguel Lobo & Cristian Merino",
+"title": "Last Track At Sunrise",
+"label": "C\u00e9cille",
+"bp": "bp:15673057",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36131058-4827-41d5-a692-2a628d6230ba.LOFI.mp3",
+"name": "Last track at sunrise",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2021-10-08"
+},
+{
+"minute": 44,
+"artist": "Steffen Deux",
+"title": "Dragonfly",
+"label": "Degree",
+"bp": "bp:18331406",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7088eb91-00da-43ac-8e6e-def4c0641ecb.LOFI.mp3",
+"name": "Dragonfly",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2023-11-30"
+},
+{
+"minute": 51,
+"artist": "Josh Butler",
+"title": "Rabbit Hole",
+"label": "8Bit",
+"bp": "bp:10223096",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9b46b73c-bb13-486b-b69b-4ddf0ad0562d.LOFI.mp3",
+"name": "Rabbit Hole",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2018-03-02"
+},
+{
+"minute": 55,
+"artist": "iO (Mulen)",
+"title": "Reponce Profonde",
+"label": "C\u00e9cille",
+"bp": "bp:14291821",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3fccd158-cc67-49c2-9ac5-03fc122a7bcc.LOFI.mp3",
+"name": "Reponce Profonde",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2020-10-30"
+},
+{
+"minute": 61,
+"artist": "Nick Curly",
+"title": "Altrip",
+"label": "C\u00e9cille",
+"bp": "bp:18051221",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a6a8a1c9-f691-4dab-b8bb-d42e1d53b9c1.LOFI.mp3",
+"name": "Altrip",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2023-09-22"
+},
+{
+"minute": 67,
+"artist": "iO (Mulen)",
+"title": "Meuse",
+"label": "C\u00e9cille",
+"bp": "bp:14291819",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c745f6bd-8f0f-44c8-8ca6-6fa6de9bd76b.LOFI.mp3",
+"name": "Meuse",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2020-10-30"
+}
+]
+},
+{
+"title": "2024-12-19 - Nick Curly - Club Room 347",
+"records": []
+},
+{
+"title": "2025-11-21 - Nick Curly @ 20 Years Of Saved, Space, Miami",
+"records": [
+{
+"minute": 0,
+"artist": "Nick Curly",
+"title": "Just A Feeling",
+"label": "",
+"bp": "bp:18265587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/22b3e1a2-b54f-436c-a00b-211b906aa5ef.LOFI.mp3",
+"name": "Just A Feeling",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-11-03"
+},
+{
+"minute": 5,
+"artist": "Chicks Luv Us",
+"title": "Let Me Luv U",
+"label": "8Bit",
+"bp": "bp:22272046",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0c2e8fa5-d9df-42a6-ad04-bf1d0565bc38.LOFI.mp3",
+"name": "Let Me Luv U",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-11-07"
+},
+{
+"minute": 11,
+"artist": "M",
+"title": "High (Soulseeker)",
+"label": "Music For DJ"
+},
+{
+"minute": 16,
+"artist": "Nick Curly",
+"title": "Attention",
+"label": "C\u00e9cille",
+"bp": "bp:22480525",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0b1067e4-b2f5-4645-b0ed-aed838d80948.LOFI.mp3",
+"name": "Attention ",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-12-05"
+},
+{
+"minute": 19,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 24,
+"artist": "Reboot",
+"title": "Danz Danz",
+"label": "C\u00e9cille",
+"bp": "bp:22312616",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e297e11-54b5-449f-965c-d18ccb3d2071.LOFI.mp3",
+"name": "Danz Danz ",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-11-07"
+},
+{
+"minute": 29,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 34,
+"artist": "Julius Strieder",
+"title": "New York Feelings (Extended Mix)",
+"label": "8Bit",
+"bp": "bp:22840629",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f036001a-6c12-4280-aac8-9fe64496a846.LOFI.mp3",
+"name": "New York Feelings",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2025-12-19"
+},
+{
+"minute": 38,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 43,
+"artist": "Chinonegro",
+"title": "Signorina",
+"label": "8Bit",
+"bp": "bp:21995020",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5cf163e0-956c-49ac-be36-c032c5b8c399.LOFI.mp3",
+"name": "Signorina",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-10-24"
+},
+{
+"minute": 48,
+"artist": "Supernova Feat. SLM",
+"title": "Zero Relation (Extended Mix)",
+"label": "Future Disco",
+"bp": "bp:22752266",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/a6f194e6-c8c5-44ec-b41d-d10a18bf8abc.LOFI.mp3",
+"name": "Zero Relation (feat. SLM)",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2025-12-19"
+},
+{
+"minute": 53,
+"artist": "Julius Strieder",
+"title": "That's All (Extended Mix)",
+"label": "8Bit",
+"bp": "bp:22840630",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd08ef76-11aa-4df6-a49c-fc6f4ca30400.LOFI.mp3",
+"name": "That's All",
+"mix": "Extended Mix",
+"genre": "deep-house",
+"released": "2025-12-19"
+},
+{
+"minute": 57,
+"artist": "Mihai Popoviciu & Markus Homm",
+"title": "Follower (Nick Curly Remix)",
+"label": "Kenja",
+"bp": "bp:17099232",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6acf1553-e6c0-4d11-b37f-05cf637c322b.LOFI.mp3",
+"name": "Follower",
+"mix": "Nick Curly Remix",
+"genre": "minimal-deep-tech",
+"released": "2022-11-25"
+},
+{
+"minute": 62,
+"artist": "Hector Couto",
+"title": "El House",
+"label": "C\u00e9cille",
+"bp": "bp:20431852",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96eb3c4b-4807-4a7b-8959-aa3bab49ca50.LOFI.mp3",
+"name": "El House",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-05-09"
+},
+{
+"minute": 65,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 71,
+"artist": "Reboot",
+"title": "Rambo (V666)",
+"label": "C\u00e9cille",
+"bp": "bp:22312615",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/406710b7-d3a5-4578-8b97-c881ceed8af5.LOFI.mp3",
+"name": "Rambo (V666) (Original Mix)",
+"mix": "V666",
+"genre": "house",
+"released": "2025-11-07"
+},
+{
+"minute": 76,
+"artist": "Chinonegro",
+"title": "Funky Beat",
+"label": "8Bit",
+"bp": "bp:20445984",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db9ad88a-1194-4f1b-a6bd-0f598f40f11c.LOFI.mp3",
+"name": "Funky Beat",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-05-23"
+},
+{
+"minute": 81,
+"artist": "Sambo",
+"title": "Sweet Dreams",
+"label": "Machaca La Membrana",
+"bp": "bp:23080501",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6d510df-f26d-49fa-8678-cd5a2491499f.LOFI.mp3",
+"name": "Sweet Dreams ",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-12-26"
+},
+{
+"minute": 86,
+"artist": "Nick Curly",
+"title": "Joystick",
+"label": "C\u00e9cille",
+"bp": "bp:22480524",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c92327e6-5fdb-461b-b07d-b5cffbaba657.LOFI.mp3",
+"name": "Joystick ",
+"mix": "Original Mix",
+"genre": "jackin-house",
+"released": "2025-12-05"
+},
+{
+"minute": 92,
+"artist": "Nick Curly",
+"title": "We Luv",
+"label": "C\u00e9cille",
+"bp": "bp:20036863",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7723fdf6-916b-4515-a724-b96e296f934b.LOFI.mp3",
+"name": "We Luv",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-02-14"
+},
+{
+"minute": 96,
+"artist": "System Of A Down",
+"title": "B.Y.O.B.",
+"label": "American"
+},
+{
+"minute": 110,
+"artist": "Return Of The Jaded",
+"title": "I'm In Love With You",
+"label": "Techne",
+"bp": "bp:15649963",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d1ac0f2e-8daa-4c63-90a1-315094baf648.LOFI.mp3",
+"name": "I'm in Love with You",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2021-09-24"
+},
+{
+"minute": 113,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2026-06-13 - Nick Curly @ Surreal Tour, Beehive Club, Brazil",
+"records": []
+}
+]
+}

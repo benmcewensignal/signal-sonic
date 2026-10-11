@@ -1,0 +1,589 @@
+{
+"dj": "Michel de Hey",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2022-09-12 - Michel de Hey - Awakenings Podcast 219",
+"records": []
+},
+{
+"title": "2022-11-30 - Michel de Hey - Steve Bug Presents Play",
+"records": [
+{
+"minute": 0,
+"artist": "Oli Hanford",
+"title": "If You Wanna (Adesse Version)",
+"label": "Splinter",
+"bp": "bp:13297023",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/4cc3da91-14a4-488b-a877-cf48543aa5a2.LOFI.mp3",
+"name": "If You Wanna",
+"mix": "Adesse Versions Remix",
+"genre": "dance-pop",
+"released": "2020-04-10"
+},
+{
+"minute": 6,
+"id": null,
+"raw": "Pascal Benjamin -&#160;?"
+},
+{
+"minute": 10,
+"artist": "Z-Formation",
+"title": "Sound Waves",
+"label": "Hi-Bias",
+"bp": "bp:6545534",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/2587a82c-f12e-40e3-b1f4-a229db22f9b0.LOFI.mp3",
+"name": "Sound Waves",
+"mix": "Intense EP Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-04-20"
+},
+{
+"minute": 13,
+"artist": "Michel De Hey",
+"title": "Spierpijn",
+"label": "MicroHertz",
+"bp": "bp:16761533",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bb905ab1-ec18-46c9-a993-3cc4162644ab.LOFI.mp3",
+"name": "Spierpijn",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-08-19"
+},
+{
+"minute": 17,
+"artist": "Garret David",
+"title": "Watch Dis",
+"label": "Global Swing - GS001"
+},
+{
+"minute": 22,
+"artist": "Schatrax",
+"title": "Keep On Lovin'",
+"label": "Schatrax - SCHAT 9",
+"bp": "bp:7836134",
+"score": 0.978,
+"preview": "https://geo-samples.beatport.com/track/f1d7e9b8-9485-4b76-8e5a-e925fcd62cb8.LOFI.mp3",
+"name": "Keep On Loving",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2016-04-11"
+},
+{
+"minute": 27,
+"artist": "Bodj",
+"title": "Cosmos 99",
+"label": "Tessellate",
+"bp": "bp:18005007",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90600cdc-2dd6-42be-981c-8e47d29da49d.LOFI.mp3",
+"name": "Cosmos 99",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2023-08-11"
+},
+{
+"minute": 32,
+"artist": "Sisters Underground",
+"title": "In The Neighbourhood (Downtown Remix)",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Michel De Hey",
+"title": "When I Think Of You (Jansons Remix)",
+"label": "Rejected",
+"bp": "bp:16952000",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7d8b7470-15c2-474f-8668-7e37f408c3d8.LOFI.mp3",
+"name": "When I Think Of You",
+"mix": "Jansons Remix",
+"genre": "house",
+"released": "2022-10-14"
+},
+{
+"minute": 42,
+"artist": "Hrdvsion",
+"title": "Star Up",
+"label": "I Love Acid - ILA026"
+},
+{
+"minute": 48,
+"artist": "Laurine",
+"title": "Catch The Flow",
+"label": "Slow Life - SL031"
+},
+{
+"minute": 53,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2023-06-17 - Armin van Buuren, Michel de Hey - Dance Department",
+"records": [
+{
+"minute": null,
+"artist": "Dom Dolla & Nelly Furtado",
+"title": "Eat Your Man (Extended Mix)",
+"label": "Three Six Zero",
+"bp": "bp:26765929",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/735e4b6d-fcd4-454b-b697-bdc6ffb48fc0.LOFI.mp3",
+"name": "Eat Your Man (with Nelly Furtado)",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2023-06-02"
+},
+{
+"minute": null,
+"artist": "Armin van Buuren & The Stickmen Project",
+"title": "No Fun (\u00d6wnboss Remix) (Extended Mix)",
+"label": "Armada",
+"bp": "bp:17733566",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c50a4f1a-328f-42fb-a673-6abd45cf3d22.LOFI.mp3",
+"name": "No Fun",
+"mix": "\u00d6wnboss Extended Remix",
+"genre": "bass-house",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "Lucas & Steve Feat. Alida",
+"title": "Careful What You Wish For (Extended Mix)",
+"label": "Spinnin'"
+},
+{
+"minute": null,
+"artist": "DJ KUBA & NEITAN",
+"title": "Moving To The Beat (Extended Mix)",
+"label": "Spinnin'",
+"bp": "bp:17766984",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b01da3f8-fd2e-463b-9679-48b0884248af.LOFI.mp3",
+"name": "Moving To The Beat",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "AFROJACK",
+"title": "Polkadots (Truth X Lies Extended Remix)",
+"label": "Wall",
+"bp": "bp:17840990",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/afd89615-4107-492a-8cf2-38b8107567c7.LOFI.mp3",
+"name": "Polkadots",
+"mix": "Truth x Lies Remix / Extended Mix",
+"genre": "tech-house",
+"released": "2023-06-16"
+},
+{
+"minute": null,
+"artist": "Swedish House Mafia Feat. Fridayy",
+"title": "See The Light",
+"label": "SSA",
+"bp": "bp:17772667",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/36699ef4-46f0-4136-963f-1158084a68da.LOFI.mp3",
+"name": "See The Light",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2023-05-26"
+},
+{
+"minute": null,
+"artist": "Wade",
+"title": "Do My Thing (Extended Mix)",
+"label": "Musical Freedom",
+"bp": "bp:17766983",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d1f27ddd-2b82-451f-862d-581d4daf6474.LOFI.mp3",
+"name": "Do My Thing",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "Cedric Gervais & Raffi Saint",
+"title": "Missing (Cedric Gervais Version)",
+"label": "Delecta",
+"bp": "bp:17788037",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5903ebfa-dfcd-4c01-afc5-883d1b396655.LOFI.mp3",
+"name": "Missing",
+"mix": "Cedric Gervais Extended Version",
+"genre": "trance-main-floor",
+"released": "2023-06-23"
+},
+{
+"minute": null,
+"artist": "Friend Within",
+"title": "Pilka (Extended Mix)",
+"label": "Toolroom",
+"bp": "bp:17719141",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/99e18ffb-50e5-4abb-9ff6-4f1013f22e7b.LOFI.mp3",
+"name": "Pilka",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2023-06-02"
+},
+{
+"minute": null,
+"artist": "Vessbroz",
+"title": "Rindfleischetikettierungs\u00fcberwachungsaufgaben\u00fcbertragungsgesetz (Extended Mix)",
+"label": "Spinnin'",
+"bp": "bp:17767039",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/945f7b06-29a8-4243-92a3-6c8637523e6e.LOFI.mp3",
+"name": "Rindfleischetikettierungs\u00fcberwachungsaufgaben\u00fcbertragungsgesetz",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "Martin Garrix & Sentinel Feat. Bonn",
+"title": "Hurricane (Extended Mix)",
+"label": "STMPD RCRDS/Tomorrowland",
+"bp": "bp:17794602",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/66a5c0cc-241e-4bc9-8100-1aad4ab0b248.LOFI.mp3",
+"name": "Hurricane",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-06-02"
+},
+{
+"minute": null,
+"artist": "EDX & FREY",
+"title": "The Rhythm Of The Night (Extended Mix)",
+"label": "Pinkstar/Spinnin'",
+"bp": "bp:17713734",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/703b2dae-c757-4cad-aed6-4e6988e0433c.LOFI.mp3",
+"name": "The Rhythm Of The Night",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-06-02"
+},
+{
+"minute": null,
+"artist": "Fisher X Aatig",
+"title": "Take It Off (Extended Mix)",
+"label": "Catch & Release - CR025B",
+"bp": "bp:17716164",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/451f7711-9919-42e9-ace3-a6501c7cc1bc.LOFI.mp3",
+"name": "Take It Off",
+"mix": "Extended Mix",
+"genre": "indie-tech",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "Gorgon City",
+"title": "Voodoo (Matt Guy Extended Remix)",
+"label": "Positiva",
+"bp": "bp:17619384",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ca3e9ec-3e24-46a0-ae2e-187b86addeb7.LOFI.mp3",
+"name": "Voodoo",
+"mix": "Matt Guy Extended Mix",
+"genre": "dance-pop",
+"released": "2023-04-14"
+},
+{
+"minute": null,
+"artist": "GUZ Feat. Sydney Jo Jackson",
+"title": "Gonna Be Mine (Extended Mix)",
+"label": "Sink Or Swim",
+"bp": "bp:17735822",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/f07a535a-b068-472b-8a72-518e4f5283f4.LOFI.mp3",
+"name": "Gonna Be Mine (feat. Sydney Jo Jackson)",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2023-06-02"
+},
+{
+"minute": null,
+"artist": "Solardo & Joshwa",
+"title": "VIP Business",
+"label": "Insomniac - IR0227B",
+"bp": "bp:17721420",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d59b5e6a-5305-4666-b258-ee5bc694a25f.LOFI.mp3",
+"name": "VIP Business",
+"mix": "Original Mix",
+"genre": "indie-tech",
+"released": "2023-06-02"
+},
+{
+"minute": null,
+"artist": "Oliver Heldens",
+"title": "Sound Of Vondel (Extended Mix)",
+"label": "Spinnin'",
+"bp": "bp:17821774",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5b1b0c9f-6af7-4fa2-b798-747b2aa212c1.LOFI.mp3",
+"name": "Sound of Vondel",
+"mix": "Extended Mix",
+"genre": "mainstage",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Chelley",
+"title": "Took The Night (J. Worra Extended Remix)",
+"label": "Ultra",
+"bp": "bp:17750794",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b10d001a-2ce9-4c63-b843-102bb6717b93.LOFI.mp3",
+"name": "Took The Night",
+"mix": "J. Worra Extended Mix",
+"genre": "indie-tech",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "Theresa Rex Feat. AFROJACK",
+"title": "Let Me Go",
+"label": "Mdlbeast",
+"bp": "bp:17817365",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/a7e69feb-f564-4e8d-9777-be0ca07a04e0.LOFI.mp3",
+"name": "Let Me Go",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-06-08"
+},
+{
+"minute": null,
+"artist": "Shouse & David Guetta",
+"title": "Live Without Love (David Guetta Remix)",
+"label": "Hell Beach",
+"bp": "bp:17795301",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e40af9c6-cfe7-4cdd-9582-6c37e27caebf.LOFI.mp3",
+"name": "Live Without Love",
+"mix": "David Guetta Remix",
+"genre": "melodic-house-techno",
+"released": "2023-06-16"
+},
+{
+"minute": null,
+"artist": "Riton & David Guetta & Jozzy",
+"title": "Where You Want",
+"label": "Atlantic",
+"bp": "bp:17808609",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/22d26b73-3a14-423c-be43-20dcdfbcb00c.LOFI.mp3",
+"name": "Where You Want",
+"mix": "Extended",
+"genre": "dance-pop",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "Waterm\u00e4t",
+"title": "Targa (Extended Mix)",
+"label": "Toolroom"
+},
+{
+"minute": null,
+"artist": "World Wide Warning: Grimes & Anyma",
+"title": "Welcome To The Opera",
+"label": "Afterlife"
+},
+{
+"minute": null,
+"artist": "Bolier",
+"title": "Fortaleza (BLR Remix)",
+"label": "Frcst"
+},
+{
+"minute": null,
+"artist": "Ladytron",
+"title": "Destroy Everything You Touch (Space Motion Remix)",
+"label": "Global Underground",
+"bp": "bp:17776452",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/449bd1dc-000f-4308-bad9-53e26aa61e44.LOFI.mp3",
+"name": "Destroy Everything You Touch",
+"mix": "Space Motion Remix",
+"genre": "melodic-house-techno",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "Sevenn & Asher Swissa",
+"title": "The Pulse Of The Machine (Extended Mix)",
+"label": "Revealed",
+"bp": "bp:17729254",
+"score": 0.945,
+"preview": "https://geo-samples.beatport.com/track/87651981-1495-4e3b-bacc-01a551688af7.LOFI.mp3",
+"name": "The Pulse Of Machine",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-06-16"
+},
+{
+"minute": null,
+"artist": "Maxim Lany",
+"title": "Gravity (Adam Sellouk Remix) (Extended Mix)",
+"label": "Armada Electronic Elements"
+},
+{
+"minute": null,
+"artist": "Nico De Andrea & ELI & Fur",
+"title": "Start The Fire (Extended Mix)",
+"label": "Armada",
+"bp": "bp:17729454",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/770e99c6-ea22-4d86-b81c-689e4b40585e.LOFI.mp3",
+"name": "Start The Fire",
+"mix": "Extended Mix",
+"genre": "melodic-house-techno",
+"released": "2023-06-16"
+},
+{
+"minute": null,
+"artist": "Crackazat",
+"title": "Back For You",
+"label": "Nervous",
+"bp": "bp:17812611",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2f5136e8-87cb-4368-a700-c0b49c790b6a.LOFI.mp3",
+"name": "Back For You",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-06-16"
+},
+{
+"minute": null,
+"artist": "Daniel P",
+"title": "All About Music",
+"label": ""
+},
+{
+"minute": null,
+"artist": "M-High",
+"title": "L.T.B.C.Y.B",
+"label": "Salty Nuts",
+"bp": "bp:17697461",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bf09203b-29da-4eee-88d2-9556872adf0a.LOFI.mp3",
+"name": "L.T.B.C.Y.B.",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2023-06-09"
+},
+{
+"minute": null,
+"artist": "Huerta",
+"title": "Liquid Social",
+"label": "",
+"bp": "bp:19398713",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4e941940-6e57-4805-ae74-07883b8596b5.LOFI.mp3",
+"name": "Liquid Social",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2024-10-25"
+},
+{
+"minute": null,
+"artist": "Michel De Hey",
+"title": "When I Think Of You",
+"label": "Rejected",
+"bp": "bp:16951998",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1277818f-7b34-401c-937a-77761d3af368.LOFI.mp3",
+"name": "When I Think Of You",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-10-14"
+},
+{
+"minute": null,
+"artist": "Boss Priester",
+"title": "NRG",
+"label": ""
+},
+{
+"minute": null,
+"artist": "A Bunch Of Guys Feat. Chicago Hustle",
+"title": "Baby Come Dance",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Literon",
+"title": "Thunder",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Redshape",
+"title": "Acid Leak",
+"label": "Running Back",
+"bp": "bp:17666764",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0b9dc5e7-bddc-43ed-bca5-890f60c84023.LOFI.mp3",
+"name": "Acid Leak",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-05-12"
+},
+{
+"minute": null,
+"artist": "Michel De Hey & Bushwacka!",
+"title": "Do What You Want",
+"label": "",
+"bp": "bp:17832971",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5b12fed0-45af-4c3a-9f19-c4140d82f67c.LOFI.mp3",
+"name": "Do What You Want",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-06-28"
+},
+{
+"minute": null,
+"artist": "Grooveyard",
+"title": "Mary Go Wild (Michel De Hey Extended Remix)",
+"label": "Spinnin' Deep",
+"bp": "bp:17924160",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c0a97787-5b57-4d1e-bc13-bd6e2a7aa204.LOFI.mp3",
+"name": "Mary Go Wild ",
+"mix": "Michel De Hey Remix",
+"genre": "melodic-house-techno",
+"released": "2023-07-28"
+},
+{
+"minute": null,
+"artist": "Salute & Sammy Virji",
+"title": "Peach",
+"label": "Technicolour",
+"bp": "bp:17573266",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0f302cd-071c-49a9-8da9-67e9a4184676.LOFI.mp3",
+"name": "Peach",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2023-03-31"
+}
+]
+}
+]
+}

@@ -1,0 +1,376 @@
+{
+"dj": "Omar",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2025-07-24 - SK Vibemaker, Omar, Tyler, the Creator - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "Clipse & Kendrick Lamar & Pharrell Williams & Pusha T & Malice",
+"title": "Chains & Whips",
+"label": "Roc Nation",
+"bp": "bp:26667653",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eb4ea2f8-1027-4f2b-b07d-097a66d2333d.LOFI.mp3",
+"name": "Chains & Whips",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2025-07-11"
+},
+{
+"minute": 6,
+"artist": "Kendrick Lamar",
+"title": "Hey Now",
+"label": "Kendrick Lamar New Deal PS",
+"bp": "bp:20828735",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a31b6b8c-c6ff-4ad1-84dc-c3aa94ba3b4c.LOFI.mp3",
+"name": "hey now",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2024-11-22"
+},
+{
+"minute": 9,
+"artist": "Jim Legxacy & Dave",
+"title": "3x",
+"label": "XL",
+"bp": "bp:20782617",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fcd89fb8-a6a4-41b9-b997-9903ff77573a.LOFI.mp3",
+"name": "3x",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-07-18"
+},
+{
+"minute": 11,
+"artist": "Travis Scott & Tyla & Vybz Kartel",
+"title": "PBT",
+"label": "Cactus Jack / Epic",
+"bp": "bp:20784665",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3b388dc7-9ec1-4fa7-ad23-87484b5a782d.LOFI.mp3",
+"name": "PBT",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2025-07-12"
+},
+{
+"minute": 14,
+"artist": "Omar",
+"title": "There's Nothing Like This",
+"label": "",
+"bp": "bp:12910802",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2547fb99-b464-41e2-ae5f-1634f91b9650.LOFI.mp3",
+"name": "There's Nothing Like This",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2020-01-31"
+},
+{
+"minute": 23,
+"artist": "Omar",
+"title": "We Can Go Anywhere",
+"label": "Impressive Collective",
+"bp": "bp:22970795",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/230f7078-8be2-4f72-b0c0-f87599e345f7.LOFI.mp3",
+"name": "We Can Go Anywhere",
+"mix": "Original Mix",
+"genre": "rb",
+"released": "2025-06-06"
+},
+{
+"minute": 26,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 29,
+"artist": "Omar",
+"title": "Brighter The Days",
+"label": "Impressive Collective",
+"bp": "bp:27336638",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/babc4926-0ef3-4dde-ba81-7cdf54a32aff.LOFI.mp3",
+"name": "Brighter The Days",
+"mix": "Original Mix",
+"genre": "rb",
+"released": "2025-05-09"
+},
+{
+"minute": 33,
+"artist": "Tyler & The Creator",
+"title": "Yonkers",
+"label": "XL",
+"bp": "bp:22444843",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/124afff5-df1f-478c-b150-9472f9f378d7.LOFI.mp3",
+"name": "Yonkers",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2014-08-25"
+},
+{
+"minute": 34,
+"artist": "Game",
+"title": "Martians vs Goblins",
+"label": "Geffen",
+"bp": "bp:21759036",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/409100aa-e7ff-42b6-bee7-f87492e7b85a.LOFI.mp3",
+"name": "Martians Vs Goblins",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2011-08-23"
+},
+{
+"minute": 35,
+"artist": "Tyler & The Creator",
+"title": "LUMBERJACK",
+"label": "",
+"bp": "bp:21365417",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/22ead8d6-4276-4e1d-a231-a304d17de98c.LOFI.mp3",
+"name": "LUMBERJACK",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2021-06-25"
+},
+{
+"minute": 36,
+"artist": "Tyler & The Creator",
+"title": "911 / Mr. Lonely",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Tyler & The Creator",
+"title": "SMUCKERS (Instrumental)",
+"label": "Odd Future"
+},
+{
+"minute": 37,
+"artist": "Tyler & The Creator",
+"title": "SWEET / I THOUGHT YOU WANTED TO DANCE",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Tyler & The Creator",
+"title": "SMUCKERS (Instrumental)",
+"label": "Odd Future"
+},
+{
+"minute": 39,
+"artist": "Tyler & The Creator Feat. Frank Ocean",
+"title": "She",
+"label": "XL",
+"bp": "bp:1928366",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/adca38a9-f061-4398-a053-ef81d08de2d4.LOFI.mp3",
+"name": "She",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2011-05-09"
+},
+{
+"minute": 40,
+"artist": "Tyler & The Creator",
+"title": "RUNNING OUT OF TIME",
+"label": "",
+"bp": "bp:11995227",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/25e95ac3-1956-45a8-bd65-56d0437090c2.LOFI.mp3",
+"name": "RUNNING OUT OF TIME",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2019-05-17"
+},
+{
+"minute": 41,
+"artist": "Tyler & The Creator",
+"title": "See You Again",
+"label": "",
+"bp": "bp:9550006",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c65d8e8b-bc22-4d87-8e1e-a2c61e962cad.LOFI.mp3",
+"name": "See You Again",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2017-07-21"
+},
+{
+"minute": 42,
+"artist": "Tyler & The Creator",
+"title": "EARFQUAKE",
+"label": "",
+"bp": "bp:11995226",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/51a15578-bd46-4acf-9504-32373e152855.LOFI.mp3",
+"name": "EARFQUAKE",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2019-05-17"
+},
+{
+"minute": 42,
+"artist": "Brent Faiyaz",
+"title": "GRAVITY, Dahi",
+"label": "Lost Kids LLC"
+},
+{
+"minute": 43,
+"artist": "Tyler & The Creator",
+"title": "Boredom",
+"label": "",
+"bp": "bp:9550010",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a09a948b-f161-4f9a-b49c-34b59e5ce470.LOFI.mp3",
+"name": "Boredom",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2017-07-21"
+},
+{
+"minute": 45,
+"artist": "Tyler & The Creator",
+"title": "Judge Judy",
+"label": "",
+"bp": "bp:21522937",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5a1a5f46-5d1a-443c-8872-ab7bbeffd3ce.LOFI.mp3",
+"name": "Judge Judy",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2024-10-28"
+},
+{
+"minute": 47,
+"artist": "Tyler & The Creator",
+"title": "SWEET / I THOUGHT YOU WANTED TO DANCE",
+"label": ""
+},
+{
+"minute": 48,
+"artist": "Tyler & The Creator",
+"title": "IFHY",
+"label": "Odd Future",
+"bp": "bp:5402790",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0c00af6d-c686-47ba-bc28-d0ad5213a886.LOFI.mp3",
+"name": "IFHY",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2013-04-01"
+},
+{
+"minute": 50,
+"artist": "Tyler & The Creator",
+"title": "PartyIsntOver/Campfire/Bimmer",
+"label": "Odd Future",
+"bp": "bp:5402791",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/26c710a0-6a2e-4548-ab01-233a38411a51.LOFI.mp3",
+"name": "PartyIsntOver/Campfire/Bimmer",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2013-04-01"
+},
+{
+"minute": 50,
+"artist": "Tyler & The Creator",
+"title": "Sticky",
+"label": "",
+"bp": "bp:21522938",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/61ea40e0-fdb5-490c-8a07-844d82bc9206.LOFI.mp3",
+"name": "Sticky",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2024-10-28"
+},
+{
+"minute": 51,
+"artist": "Tyler & The Creator",
+"title": "DOGTOOTH",
+"label": "",
+"bp": "bp:21510081",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e445ed38-8bd0-4f41-ae4d-e7c5643da460.LOFI.mp3",
+"name": "DOGTOOTH",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2023-03-31"
+},
+{
+"minute": 52,
+"artist": "Tyler & The Creator",
+"title": "WUSYANAME",
+"label": "",
+"bp": "bp:21510064",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3aec0d60-7dea-4a48-b203-e428acd6a476.LOFI.mp3",
+"name": "WUSYANAME",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2023-03-31"
+},
+{
+"minute": 52,
+"artist": "Tyler & The Creator",
+"title": "FUCKING YOUNG / PERFECT (Instrumental)",
+"label": "Odd Future"
+},
+{
+"minute": 54,
+"artist": "Tyler & The Creator",
+"title": "Sucka Free",
+"label": "",
+"bp": "bp:20788986",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/68eae48a-14e3-48e8-840b-19f78019fff1.LOFI.mp3",
+"name": "Sucka Free",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2025-07-21"
+},
+{
+"minute": 55,
+"artist": "Tyler & The Creator",
+"title": "Mommanem",
+"label": "",
+"bp": "bp:20788987",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4cad9057-7bcc-4486-b308-df465c7d324e.LOFI.mp3",
+"name": "Mommanem",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2025-07-21"
+},
+{
+"minute": 56,
+"artist": "Tyler & The Creator",
+"title": "Don't Tap That Glass / Tweakin'",
+"label": ""
+},
+{
+"minute": 58,
+"artist": "Raekwon & Ghostface Killah",
+"title": "600 School",
+"label": "Mass Appeal",
+"bp": "bp:22974852",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4dbbe214-7a6d-4c47-bda2-5c6e8e218b10.LOFI.mp3",
+"name": "600 School",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2025-07-18"
+}
+]
+}
+]
+}
