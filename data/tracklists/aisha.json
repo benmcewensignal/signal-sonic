@@ -3,6 +3,248 @@
 "source": "MixesDB (CC BY-SA 3.0)",
 "sets": [
 {
+"title": "2019-05-23 - AISHA - Tech Clubbers Podcast 111",
+"records": []
+},
+{
+"title": "2020-02-20 - AISHA - Slam Radio 385",
+"records": [
+{
+"minute": 0,
+"artist": "Special Request",
+"title": "E3LS1",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0?] Detroit's FIlthiest",
+"title": "My Soul To Take",
+"label": "",
+"bp": "bp:13839802",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/0b947a60-3052-4ca6-be36-744fba5fefba.LOFI.mp3",
+"name": "My Soul To Take",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2020-06-26"
+},
+{
+"minute": 3,
+"artist": "Martinelli",
+"title": "They Lied",
+"label": "Crobot Muzik - CMUZIK 042"
+},
+{
+"minute": 6,
+"artist": "Random XS",
+"title": "Give Your Body (Delta Funktionen 3AM Mix)",
+"label": "Delsin - DSRX 15",
+"bp": "bp:12422830",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/610bac6d-c881-4469-8dd6-791facb2c0d4.LOFI.mp3",
+"name": "Give Your Body",
+"mix": "Delta Funktionen 3AM Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2019-08-16"
+},
+{
+"minute": 9,
+"artist": "De Sluwe Vos",
+"title": "Trans Magnetic Stimulation (Dexter Remix)",
+"label": "Who's Susan - SUSAN 008",
+"bp": "bp:12090283",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c7af9621-a844-46b5-84f4-83c820d875a0.LOFI.mp3",
+"name": "Trans Magnetic Stimulation",
+"mix": "Dexter Remix",
+"genre": "electro-classic-detroit-modern",
+"released": "2019-07-01"
+},
+{
+"minute": 12,
+"artist": "Assembler Code",
+"title": "Simulant",
+"label": "International Chrome - INTLC 002",
+"bp": "bp:12432125",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/687233ac-4924-495a-885d-2a7eb6659af8.LOFI.mp3",
+"name": "Simulant",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2019-09-06"
+},
+{
+"minute": 14,
+"artist": "The Mover",
+"title": "Shadow Deception",
+"label": "",
+"bp": "bp:10304095",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1d435e68-455c-439e-93b9-136ccafb7b58.LOFI.mp3",
+"name": "Shadow Deception",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2018-03-23"
+},
+{
+"minute": null,
+"artist": "CEM3340",
+"title": "East 7 Miles",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Confluence.",
+"title": "Shed",
+"label": "",
+"bp": "bp:13230948",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8e74592c-ab5a-4f2e-8692-3fd424540fd2.LOFI.mp3",
+"name": "Shed",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2020-03-30"
+},
+{
+"minute": 23,
+"artist": "Pinballspider",
+"title": "Circuit Breaker",
+"label": "Avoidant - AVD 002",
+"bp": "bp:12638735",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7038c50f-1cea-4ec3-b23c-68df55840bb0.LOFI.mp3",
+"name": "Circuit Breaker",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-12-09"
+},
+{
+"minute": 27,
+"artist": "Exzakt",
+"title": "Me & My 808",
+"label": "Monotone - MOND 002",
+"bp": "bp:12768146",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f41590d3-9355-4544-b83c-ccb7adab7f80.LOFI.mp3",
+"name": "Me & My 808",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-12-02"
+},
+{
+"minute": 29,
+"artist": "Dexorcist",
+"title": "Elevator Going Down",
+"label": "Pie Factory - PFPL 003D",
+"bp": "bp:6601455",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd7b4f90-de83-469e-9515-eb8434057121.LOFI.mp3",
+"name": "Elevator Going Down",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-05-01"
+},
+{
+"minute": 32,
+"artist": "Ole Mic Odd",
+"title": "Acid Turbo",
+"label": "",
+"bp": "bp:13793421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/635880ed-d210-4c67-890f-cb9be302e023.LOFI.mp3",
+"name": "Acid Turbo",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-08-14"
+},
+{
+"minute": null,
+"artist": "Krampf",
+"title": "LSD XTC (DJ Gigola & Kev Koko Parnanoia Mix)",
+"label": "",
+"bp": "bp:11806225",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dcf84cf8-84a8-4662-8528-b03d0c0015e3.LOFI.mp3",
+"name": "LSD XTC",
+"mix": "Dj Gigola and Kev Koko Paranoia Mix",
+"genre": "hard-techno",
+"released": "2019-04-19"
+},
+{
+"minute": null,
+"artist": "JKS",
+"title": "Rock The House",
+"label": "",
+"bp": "bp:14318012",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4d88e7ff-5eda-49fc-8ad8-7c7ccec87266.LOFI.mp3",
+"name": "Rock The House",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-05-27"
+},
+{
+"minute": null,
+"artist": "Jan Vercauteren",
+"title": "Nigel On Acid",
+"label": ""
+},
+{
+"minute": 45,
+"artist": "SHDW & Obscure Shape",
+"title": "Bisswunden",
+"label": "From Another Mind - FAM 006",
+"bp": "bp:12008925",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/154969fd-4697-4b26-9289-1f62c9c32ad0.LOFI.mp3",
+"name": "Bisswunden",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-07-19"
+},
+{
+"minute": 47,
+"artist": "Quail + AISHA",
+"title": "Twenty Rapid",
+"label": "",
+"bp": "bp:13137799",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bfda837d-2ad9-4e28-a4ac-a1ffe28fad2c.LOFI.mp3",
+"name": "Twenty Rapid",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2020-02-24"
+},
+{
+"minute": null,
+"artist": "UNAMED",
+"title": "After Sa Mere",
+"label": ""
+},
+{
+"minute": 55,
+"artist": "Drax Ltd. II",
+"title": "Amphetamine",
+"label": "",
+"bp": "bp:16962470",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5d9b3eb5-10af-4b20-a911-d386b0107f37.LOFI.mp3",
+"name": "Amphetamine",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-01-01"
+}
+]
+},
+{
+"title": "2021-03-04 - AISHA - Animal Farm Podcast 031",
+"records": []
+},
+{
+"title": "2021-03-30 - Quail & AISHA - Tech Clubbers Podcast 191",
+"records": []
+},
+{
 "title": "2024-05-28 - AISHA - BCCO Mix Series 373",
 "records": []
 },

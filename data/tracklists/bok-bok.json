@@ -1,2279 +1,5492 @@
 {
- "dj": "Bok Bok",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2024-10-03 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Kwn",
-     "title": "Five More",
-     "label": "Black Butter",
-     "retry": 1
-    },
-    {
-     "minute": 3,
-     "artist": "Redance",
-     "title": "Cavaricci (The Carry Nation Remix)",
-     "label": "",
-     "bp": "bp:18933870",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/54a1cf9d-7900-4f98-9936-76b281a7c273.LOFI.mp3",
-     "name": "Cavaricci",
-     "mix": "The Carry Nation Remix",
-     "genre": "house",
-     "released": "2024-04-26"
-    },
-    {
-     "minute": 5,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 6,
-     "artist": "DJ Timbawolf",
-     "title": "CRASH",
-     "label": "Housupa",
-     "bp": "bp:18956078",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 8,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 11,
-     "artist": "Scotti Dee",
-     "title": "JUNKPAN",
-     "label": "Housupa",
-     "retry": 1
-    },
-    {
-     "minute": 13,
-     "artist": "Deetron Pres. Soulmate",
-     "title": "Path",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 17,
-     "artist": "Bok Bok",
-     "title": "Ouais (Hysterics Remix)",
-     "label": "Night Slugs",
-     "bp": "bp:16755307",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/3a2be8d2-2319-4ad2-b76a-2a122a703316.LOFI.mp3",
-     "name": "Ouais",
-     "mix": "Hysterics Remix",
-     "genre": "bass-club",
-     "released": "2022-07-29"
-    },
-    {
-     "minute": 19,
-     "artist": "Bakongo",
-     "title": "Crosspipe",
-     "label": "Roska Kicks & Snares",
-     "bp": "bp:18965229",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 20,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 26,
-     "artist": "Rosey Gold & Tremic Dah Rockstar & Jay Music",
-     "title": "Toxic Drumz",
-     "label": "Larah",
-     "bp": "bp:20643555",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/56575856-89a2-497a-8ee5-de8f47d9395d.LOFI.mp3",
-     "name": "Toxic Drumz",
-     "mix": "Original Mix",
-     "genre": "amapiano",
-     "released": "2025-06-15"
-    },
-    {
-     "minute": 30,
-     "artist": "James Bangura",
-     "title": "Witness Dub",
-     "label": "",
-     "bp": "bp:17175216",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/311343dc-ac44-484f-b375-57245b27b805.LOFI.mp3",
-     "name": "Witness Dub",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2023-01-25"
-    },
-    {
-     "minute": 32,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 36,
-     "artist": "Kitty Ca$h & Hagan Feat. George Riley",
-     "title": "You Make Me (Hagan Remix)",
-     "label": "A Good Cry",
-     "retry": 1
-    },
-    {
-     "minute": 39,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 41,
-     "artist": "NegoO & DJ ADAMM & DJ Danifox & Ibn Itaka",
-     "title": "Vou Se Banzelar",
-     "label": "MOONSHINE",
-     "bp": "bp:19356319",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/17863e84-38a0-4fe9-8828-d35d71d18657.LOFI.mp3",
-     "name": "Vou se Banzelar",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2024-07-12"
-    },
-    {
-     "minute": 43,
-     "artist": "Griffit Vigo",
-     "title": "Chord",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 45,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 54,
-     "artist": "Karen Nyame KG",
-     "title": "The Remedy (Dub Instrumental)",
-     "label": "One Level",
-     "bp": "bp:19205473",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/09054802-b107-4c83-8286-440a004abe3f.LOFI.mp3",
-     "name": "The Remedy",
-     "mix": "Dub Instrumental",
-     "genre": "dance-pop",
-     "released": "2024-07-26"
-    },
-    {
-     "minute": 56,
-     "id": null,
-     "raw": "?"
-    }
-   ]
-  },
-  {
-   "title": "2024-11-07 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 3,
-     "artist": "Nicholas Ryan Gant & Karizma",
-     "title": "Gypsy Woman (Kaytronik Remix Extended Version)",
-     "label": "R2",
-     "bp": "bp:13117635",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/bdf33b6b-ed3b-4112-8399-687fec1d0110.LOFI.mp3",
-     "name": "Gypsy Woman",
-     "mix": "Kaytronik Remix Extended Version",
-     "genre": "deep-house",
-     "released": "2020-02-21"
-    },
-    {
-     "minute": 8,
-     "artist": "Jay Music & 2woBunnies Feat. Tremic Dah Rockstar",
-     "title": "Casablanca",
-     "label": "Sky Heaven (Pty)",
-     "bp": "bp:19665736",
-     "score": 0.706,
-     "preview": "https://geo-samples.beatport.com/track/a2528aa3-43c3-4e80-a164-cc84e9178bc7.LOFI.mp3",
-     "name": "Casablanca",
-     "mix": "Original Mix",
-     "genre": "amapiano",
-     "released": "2023-03-24"
-    },
-    {
-     "minute": 11,
-     "artist": "Kaytronik",
-     "title": "State We In",
-     "label": "R2",
-     "bp": "bp:13115562",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/5cc6a37e-de28-47d0-9434-38e9d57cbd24.LOFI.mp3",
-     "name": "State We In",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2018-05-18"
-    },
-    {
-     "minute": 15,
-     "artist": "Heavy-K",
-     "title": "Gunsong",
-     "label": "Drumboss Musik",
-     "retry": 1
-    },
-    {
-     "minute": 15,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 20,
-     "artist": "House Gospel Choir",
-     "title": "Shall Not Be Moved",
-     "label": "Swear Down Music",
-     "bp": "bp:21973517",
-     "score": 0.86,
-     "preview": "https://geo-samples.beatport.com/track/a34240e3-b27f-4d50-b81c-e93cc0b7f4c6.LOFI.mp3",
-     "name": "Shall Not Be Moved",
-     "mix": "Ezel Remix",
-     "genre": "house",
-     "released": "2025-10-31"
-    },
-    {
-     "minute": 24,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 31,
-     "artist": "Bakongo",
-     "title": "Crosspipe",
-     "label": "Roska Kicks & Snares",
-     "bp": "bp:18965229",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 33,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 41,
-     "artist": "Karizma",
-     "title": "ICU",
-     "label": "R2",
-     "retry": 1
-    },
-    {
-     "minute": 44,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 51,
-     "artist": "DJ Timbawolf",
-     "title": "CRASH",
-     "label": "Housupa",
-     "bp": "bp:18956078",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 52,
-     "id": null,
-     "raw": "?"
-    }
-   ]
-  },
-  {
-   "title": "2024-12-05 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 7,
-     "artist": "Karizma",
-     "title": "Spirit",
-     "label": "R2",
-     "bp": "bp:19604674",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 11,
-     "artist": "General C'mamane",
-     "title": "Sub 6",
-     "label": "",
-     "bp": "bp:18613218",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 14,
-     "artist": "Leonce & Girl Unit",
-     "title": "Thankful",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 17,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 25,
-     "artist": "Redance",
-     "title": "Cavaricci (The Carry Nation Remix)",
-     "label": "",
-     "bp": "bp:18933870",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/54a1cf9d-7900-4f98-9936-76b281a7c273.LOFI.mp3",
-     "name": "Cavaricci",
-     "mix": "The Carry Nation Remix",
-     "genre": "house",
-     "released": "2024-04-26"
-    },
-    {
-     "minute": 25,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 40,
-     "artist": "Kristian Hamilton",
-     "title": "Pretty PPl (Helix Remix)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 44,
-     "artist": "Ikonika",
-     "title": "Details (Aryu Jassika's You Like Things Remix)",
-     "label": "",
-     "bp": "bp:18861276",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/13dbd17f-8381-4867-8c57-df083a07fe9b.LOFI.mp3",
-     "name": "Details",
-     "mix": "Aryu Jassika's You Like Things Remix",
-     "genre": "bass-club",
-     "released": "2024-04-10"
-    },
-    {
-     "minute": 47,
-     "id": null,
-     "raw": "?"
-    }
-   ]
-  },
-  {
-   "title": "2024-12-22 - Bok Bok b2b Girl Unit - Night Slugs, Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Baltra & FaltyDL & Twin Cities",
-     "title": "Twin Cities (Edit)",
-     "label": "96 And Forever",
-     "bp": "bp:19688321",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/175644ba-52a8-4fc2-aed2-7fea1cef8c57.LOFI.mp3",
-     "name": "Twin Cities",
-     "mix": "Edit",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2024-11-19"
-    },
-    {
-     "minute": 3,
-     "artist": "Breaka",
-     "title": "Heartbreaka",
-     "label": "Breaka",
-     "bp": "bp:19700406",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/c2fdb3b1-fd0d-4e42-be00-3a37873e1ea5.LOFI.mp3",
-     "name": "Heartbreaka",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2024-11-22"
-    },
-    {
-     "minute": 7,
-     "artist": "''JC Napone",
-     "title": "Lifetime? Six6 Dominate Instrumental ?''",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 10,
-     "artist": "Dami Tha Prince",
-     "title": "Cigar Music",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 13,
-     "artist": "Kareem Smith",
-     "title": "Church Bells",
-     "label": "",
-     "bp": "bp:1001576",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/babd51eb-23da-49d2-93b8-028d103c5e17.LOFI.mp3",
-     "name": "Church Bells",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "1996-01-01"
-    },
-    {
-     "minute": 15,
-     "artist": "Zenker Brothers",
-     "title": "Outside",
-     "label": "Ilian Tape",
-     "bp": "bp:6133000",
-     "score": 0.62,
-     "preview": "https://geo-samples.beatport.com/track/94e9efaa-10ea-4ef7-b44a-fa0e41b6abdb.LOFI.mp3",
-     "name": "Outside",
-     "mix": "Clone",
-     "genre": "dance-pop",
-     "released": "2014-12-19"
-    },
-    {
-     "minute": 19,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 21,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 26,
-     "artist": "Skee Mask",
-     "title": "Dachtekker",
-     "label": "",
-     "bp": "bp:18867217",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/85803fbb-200d-4ca5-96eb-7095a09b9f5f.LOFI.mp3",
-     "name": "Dachtekker",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2024-03-30"
-    },
-    {
-     "minute": 29,
-     "artist": "Mozambo",
-     "title": "Dia De Sol",
-     "label": "",
-     "bp": "bp:18577138",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/5a3b5149-7e70-44ce-b7c4-475a8eafff5e.LOFI.mp3",
-     "name": "Dia De Sol",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2024-02-09"
-    },
-    {
-     "minute": 32,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 36,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 39,
-     "artist": "Ice Spice",
-     "title": "Did It First (Instrumental)",
-     "label": "10K Projects/Capitol",
-     "bp": "bp:21983548",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/2786d376-07ce-4cbe-976e-63647b78bed3.LOFI.mp3",
-     "name": "Did It First",
-     "mix": "Instrumental",
-     "genre": "hip-hop",
-     "released": "2024-07-22"
-    },
-    {
-     "minute": 43,
-     "artist": "Terror Danjah",
-     "title": "Green Street",
-     "label": "Planet Mu",
-     "bp": "bp:971277",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/99a29cac-c3c4-4079-bf31-368986e508b7.LOFI.mp3",
-     "name": "Green Street",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2015-10-15"
-    },
-    {
-     "minute": 46,
-     "artist": "Deetron Pres. Soulmate",
-     "title": "Drone",
-     "label": "Ilian Tape",
-     "retry": 1
-    },
-    {
-     "minute": 47,
-     "artist": "Pangaea",
-     "title": "Still Flowing Water",
-     "label": "Hessle",
-     "bp": "bp:16961220",
-     "score": 0.93,
-     "preview": "https://geo-samples.beatport.com/track/8d90649d-b1cb-4ac4-b5a2-8c475d9de0f7.LOFI.mp3",
-     "name": "Still Flowing Water",
-     "mix": "Edit",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2022-10-21"
-    },
-    {
-     "minute": 50,
-     "artist": "Ikonika",
-     "title": "Details (Aryu Jassika's You Like Things Remix)",
-     "label": "",
-     "bp": "bp:18861276",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/13dbd17f-8381-4867-8c57-df083a07fe9b.LOFI.mp3",
-     "name": "Details",
-     "mix": "Aryu Jassika's You Like Things Remix",
-     "genre": "bass-club",
-     "released": "2024-04-10"
-    },
-    {
-     "minute": 54,
-     "artist": "DJ SWISHA & OSSX",
-     "title": "SMOOTH LANDING (VOCAL MIX)",
-     "label": "DJ SWISHA",
-     "bp": "bp:19244590",
-     "score": 0.897,
-     "preview": "https://geo-samples.beatport.com/track/4d2c0e14-9572-48b1-a539-a310fd00cdb2.LOFI.mp3",
-     "name": "SMOOTH LANDING (VOCAL MIX)",
-     "mix": "VOCAL MIX",
-     "genre": "bass-club",
-     "released": "2024-08-02"
-    },
-    {
-     "minute": 56,
-     "artist": "Deetron Pres. Soulmate",
-     "title": "Filter Dub",
-     "label": "Ilian Tape",
-     "bp": "bp:19050688",
-     "score": 0.651,
-     "preview": "https://geo-samples.beatport.com/track/12c0af13-8e18-4799-ab0b-eeea87edec1b.LOFI.mp3",
-     "name": "Filter",
-     "mix": "(Body Mix)",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2024-05-16"
-    },
-    {
-     "minute": 58,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 60,
-     "artist": "Octo Octa",
-     "title": "Let Yourself Go!",
-     "label": "T4T LUV NRG",
-     "bp": "bp:18094987",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/aef9bb8b-7cfb-4cbc-acb4-383c50a8221d.LOFI.mp3",
-     "name": "Let Yourself Go!",
-     "mix": "Original Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2023-09-15"
-    },
-    {
-     "minute": 63,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 66,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 69,
-     "artist": "KiNK",
-     "title": "Beep Beep",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 72,
-     "artist": "Gosub",
-     "title": "Init",
-     "label": "Isophlux",
-     "retry": 1
-    },
-    {
-     "minute": 74,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 76,
-     "artist": "J Heat",
-     "title": "Transit",
-     "label": "Night Slugs",
-     "retry": 1
-    },
-    {
-     "minute": 80,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 83,
-     "id": null,
-     "raw": "Kode9-Sub-Kontinent?"
-    },
-    {
-     "minute": 87,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 90,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 94,
-     "artist": "Ruff Sqwad",
-     "title": "Underground",
-     "label": "No Hats No Hoods",
-     "bp": "bp:12209205",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/d6a8c51e-9baa-4091-abc9-0cb129e7c0b6.LOFI.mp3",
-     "name": "Underground",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2012-12-10"
-    },
-    {
-     "minute": 95,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 103,
-     "artist": "The Analogue Cops",
-     "title": "If We Change",
-     "label": "",
-     "bp": "bp:5048454",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/3f2ae6b6-27a2-4823-b173-63776bab889f.LOFI.mp3",
-     "name": "If We Change",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2014-01-27"
-    },
-    {
-     "minute": 106,
-     "artist": "Girl Unit",
-     "title": "Pure Gold",
-     "label": "Night Slugs",
-     "retry": 1
-    },
-    {
-     "minute": 108,
-     "artist": "Floorplan",
-     "title": "Feel It (Extended Mix)",
-     "label": "Defected - Classic Music",
-     "bp": "bp:19100464",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/95ea5636-13b0-495e-a0dc-35bfb796dbd4.LOFI.mp3",
-     "name": "Feel It",
-     "mix": "Extended Mix",
-     "genre": "house",
-     "released": "2024-05-29"
-    },
-    {
-     "minute": 110,
-     "artist": "Zenker Brothers",
-     "title": "Practice Daily",
-     "label": "Ilian Tape",
-     "bp": "bp:16418269",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/ae7e95b0-aad4-49ae-876b-58ae7968515e.LOFI.mp3",
-     "name": "Practice Daily",
-     "mix": "Original Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2022-04-01"
-    },
-    {
-     "minute": 113,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 115,
-     "artist": "Blaze vs Funk D'Void",
-     "title": "Lovelee Home",
-     "label": "Om",
-     "bp": "bp:383899",
-     "score": 0.709,
-     "preview": "https://geo-samples.beatport.com/track/563aa53e-9abc-4092-acb5-bd0dab5db4a1.LOFI.mp3",
-     "name": "Lovelee Home",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2007-09-18"
-    },
-    {
-     "minute": 117,
-     "artist": "Cooly G",
-     "title": "Hard",
-     "label": "Hyperdub",
-     "retry": 1
-    },
-    {
-     "minute": 120,
-     "id": null,
-     "raw": "?"
-    }
-   ]
-  },
-  {
-   "title": "2025-02-06 - Bok Bok - Rinse FM",
-   "records": []
-  },
-  {
-   "title": "2025-03-06 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 10,
-     "artist": "Griffit Vigo",
-     "title": "Phola",
-     "label": "Maloca",
-     "retry": 1
-    },
-    {
-     "minute": 14,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 30,
-     "artist": "Nicole Moudaber Feat. Jasper Street Co.",
-     "title": "A Feeling",
-     "label": "Nervous",
-     "bp": "bp:20187658",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 33,
-     "artist": "Ossie",
-     "title": "ONCE AGAIN",
-     "label": "",
-     "bp": "bp:23926403",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/636baafc-6e37-4818-93b3-d0c022a9f80f.LOFI.mp3",
-     "name": "Once Again",
-     "mix": "Original Mix",
-     "genre": "dance-pop",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": 36,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 51,
-     "artist": "Mr. Milk Dee",
-     "title": "Make Wanna Dance",
-     "label": "Bush Doctor",
-     "bp": "bp:20136820",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/18578320-9026-4666-9afe-0a4453a2de30.LOFI.mp3",
-     "name": "Make Wanna Dance",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-02-28"
-    },
-    {
-     "minute": 54,
-     "artist": "Leod",
-     "title": "Untitled 04",
-     "label": "",
-     "retry": 1
-    }
-   ]
-  },
-  {
-   "title": "2025-04-03 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Aly-Us",
-     "title": "Follow Me (Bok's Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 5,
-     "artist": "Claude VonStroke",
-     "title": "Move With The Pack",
-     "label": "",
-     "bp": "bp:28874323",
-     "score": 0.88,
-     "preview": "https://geo-samples.beatport.com/track/fa015422-1b32-4d0d-9791-82c4412269fa.LOFI.mp3",
-     "name": "Move With The Pack",
-     "mix": "Extended",
-     "genre": "house",
-     "released": "2026-05-22"
-    },
-    {
-     "minute": null,
-     "artist": "Bok Bok",
-     "title": "Lens Cracked",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 11,
-     "artist": "Ossie",
-     "title": "Once Again",
-     "label": "",
-     "bp": "bp:23926403",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/636baafc-6e37-4818-93b3-d0c022a9f80f.LOFI.mp3",
-     "name": "Once Again",
-     "mix": "Original Mix",
-     "genre": "dance-pop",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": 15,
-     "artist": "Karizma",
-     "title": "Spirit",
-     "label": "R2",
-     "bp": "bp:19604674",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 18,
-     "artist": "Bok Bok",
-     "title": "Quais Part 3",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 21,
-     "artist": "Nicole Moudaber",
-     "title": "A Feeling",
-     "label": "Nervous",
-     "bp": "bp:20187658",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Mad One",
-     "title": "Tump & Kick",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Head High",
-     "title": "It's A Love Thing Mono Xxx (Bok's Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "DJ Polo",
-     "title": "Night Waves",
-     "label": "",
-     "bp": "bp:20437063",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/a3589f35-7b6a-4ca2-9263-e46248cca48f.LOFI.mp3",
-     "name": "Night Waves",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2025-05-21"
-    },
-    {
-     "minute": 32,
-     "artist": "Hieroglyphic Being",
-     "title": "The Fourth Dimensions",
-     "label": "Technicolour",
-     "bp": "bp:5879768",
-     "score": 0.844,
-     "preview": "https://geo-samples.beatport.com/track/cdac9233-fdb9-49f8-99bb-c9ae17c71b2b.LOFI.mp3",
-     "name": "The Fourth Dimension",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2014-10-27"
-    },
-    {
-     "minute": null,
-     "artist": "Bok Bok",
-     "title": "Slip Ouais",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Calyomutc",
-     "title": "Freaks X She Bad",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Braga Circuit",
-     "title": "Filter Freed (Leod Remix)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Nick Leon",
-     "title": "Bikini (Bok's Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Mad One",
-     "title": "Trek",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 46,
-     "artist": "DJ Swisha & Ossx",
-     "title": "Smooth Landing",
-     "label": "DJ SWISHA",
-     "bp": "bp:19244587",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/428eb1de-c91e-4718-9589-c50f67163d17.LOFI.mp3",
-     "name": "SMOOTH LANDING",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2024-08-02"
-    },
-    {
-     "minute": null,
-     "artist": "Nammy Wams",
-     "title": "Mazes",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "DJ Polo",
-     "title": "Currents",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Laya",
-     "title": "Ain't Sad About It (Achibs & Ronnie Loko Remix)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "DFD",
-     "title": "One More Time (Erp Remix)",
-     "label": "",
-     "bp": "bp:20791791",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/d4087c4e-754a-445a-b4ea-8023022108a9.LOFI.mp3",
-     "name": "One More Time",
-     "mix": "ERP Remix",
-     "genre": "electro-classic-detroit-modern",
-     "released": "2025-07-28"
-    },
-    {
-     "minute": null,
-     "artist": "Ossx",
-     "title": "Get A Real Job",
-     "label": "",
-     "retry": 1
-    }
-   ]
-  },
-  {
-   "title": "2025-04-17 - DJ Swisha b2b Bok Bok - SWU.FM",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 8,
-     "artist": "Kings Of Tomorrow",
-     "title": "Finally (Sandy Rivera & C Castel Deeper Mix)",
-     "label": "Defected",
-     "retry": 1
-    },
-    {
-     "minute": 11,
-     "artist": "Mahon",
-     "title": "Closer (Kaytronix Insanely Klose Dub)",
-     "label": "R2",
-     "bp": "bp:13114905",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/78e01593-1a49-4048-8327-bdb3f7704eba.LOFI.mp3",
-     "name": "Closer",
-     "mix": "Kaytronix Insanely Klose Dub",
-     "genre": "house",
-     "released": "2019-12-02"
-    },
-    {
-     "minute": 15,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 35,
-     "artist": "John Beltran",
-     "title": "Androygyn",
-     "label": "Under The Radar",
-     "retry": 1
-    },
-    {
-     "minute": 38,
-     "artist": "DJ Sliink",
-     "title": "Jansen (DJ Sliink Remix)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 46,
-     "artist": "Fixate",
-     "title": "Huh",
-     "label": "Pineapple",
-     "bp": "bp:19661370",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 60,
-     "artist": "CJ Bolland",
-     "title": "Sugar Is Sweeter (Armand Van Helden's Drum 'N' Bass Mix)",
-     "label": "London",
-     "bp": "bp:13104588",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/724860dc-0661-4431-bb81-f70ea3e4b306.LOFI.mp3",
-     "name": "Sugar Is Sweeter",
-     "mix": "Armand Van Helden's Drum 'n' Bass Mix",
-     "genre": "dance-pop",
-     "released": "1996-01-01"
-    },
-    {
-     "minute": 62,
-     "artist": "Deetron Pres. Soulmate",
-     "title": "Filter (Broken Mix)",
-     "label": "Ilian Tape",
-     "bp": "bp:19050689",
-     "score": 0.867,
-     "preview": "https://geo-samples.beatport.com/track/539a1b90-2695-4743-a3cc-762c2e018ab9.LOFI.mp3",
-     "name": "Filter",
-     "mix": "Broken Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2024-05-16"
-    },
-    {
-     "minute": 65,
-     "artist": "OSSX",
-     "title": "336",
-     "label": "Night Slugs",
-     "bp": "bp:20343484",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 77,
-     "artist": "Black Rave Culture",
-     "title": "Crazy Legs (JIALING Remix)",
-     "label": "Black Rave Culture",
-     "bp": "bp:20196869",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/02df8457-a4da-4a5c-b3a5-696efab23b6a.LOFI.mp3",
-     "name": "Crazy Legs",
-     "mix": "JIALING Remix",
-     "genre": "bass-club",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": 80,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 84,
-     "artist": "Deetron Pres. Soulmate",
-     "title": "Drone",
-     "label": "Ilian Tape",
-     "retry": 1
-    },
-    {
-     "minute": 88,
-     "artist": "Leibniz",
-     "title": "GT",
-     "label": "Rat Life",
-     "bp": "bp:20097204",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 91,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 95,
-     "artist": "Leod",
-     "title": "Untitled 04",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 104,
-     "artist": "Terror Danjah",
-     "title": "Green Street",
-     "label": "Planet Mu",
-     "bp": "bp:971277",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/99a29cac-c3c4-4079-bf31-368986e508b7.LOFI.mp3",
-     "name": "Green Street",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2015-10-15"
-    },
-    {
-     "minute": 105,
-     "artist": "CalvoMusic Feat. Zfrek",
-     "title": "Shake My Ass",
-     "label": "Night Slugs",
-     "retry": 1
-    },
-    {
-     "minute": 109,
-     "artist": "Dance Maniacs",
-     "title": "Dance",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 112,
-     "artist": "Deetron Pres. Soulmate",
-     "title": "Monophone Dub",
-     "label": "Ilian Tape",
-     "bp": "bp:17013688",
-     "score": 0.667,
-     "preview": "https://geo-samples.beatport.com/track/f99950b9-4e6f-4539-9141-736872b6cc1d.LOFI.mp3",
-     "name": "Monophone Dub",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2022-10-12"
-    }
-   ]
-  },
-  {
-   "title": "2025-05-01 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Misael Deejay",
-     "title": "Again",
-     "label": "Noentiendo",
-     "retry": 1
-    },
-    {
-     "minute": 4,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 7,
-     "artist": "Royal MusiQ & 2woBunnies & Djy Biza",
-     "title": "Khuphuka",
-     "label": "Kreativekornerr",
-     "retry": 1
-    },
-    {
-     "minute": 11,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 20,
-     "artist": "Kyotic & 2woBunnies & King P Feat. Mac Shawty",
-     "title": "Shona Phansi",
-     "label": "Kyotic",
-     "retry": 1
-    },
-    {
-     "minute": 24,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 34,
-     "artist": "Nicole Moudaber Feat. Jasper Street Co.",
-     "title": "A Feeling (Extended Mix)",
-     "label": "Nervous",
-     "bp": "bp:20187658",
-     "score": 0.733,
-     "preview": "https://geo-samples.beatport.com/track/94d30d71-4f55-460d-9af1-1df4241903e8.LOFI.mp3",
-     "name": "A Feeling (feat. Jasper Street Co.)",
-     "mix": "Extended Mix",
-     "genre": "tech-house",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": 40,
-     "artist": "Ivy Lab",
-     "title": "Innocence",
-     "label": "Twenty Twenty London",
-     "bp": "bp:20326931",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 43,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 58,
-     "artist": "Jamilah Barry",
-     "title": "Fuck It (On-1) (Karen Nyame KG Remix)",
-     "label": "Independent",
-     "retry": 1
-    }
-   ]
-  },
-  {
-   "title": "2025-06-15 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "T. Williams",
-     "title": "Heartbeat (Scotti Dee Remix)",
-     "label": "",
-     "bp": "bp:18398569",
-     "score": 0.846,
-     "preview": "https://geo-samples.beatport.com/track/4a74c127-8501-4567-9a30-45f0512e9f88.LOFI.mp3",
-     "name": "Heartbeat (feat. Terri Walker)",
-     "mix": "Scotti Dee Remix",
-     "genre": "amapiano",
-     "released": "2023-12-05"
-    },
-    {
-     "minute": 2,
-     "artist": "Karizma",
-     "title": "BroKin Beats",
-     "label": "R2",
-     "retry": 1
-    },
-    {
-     "minute": 6,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 11,
-     "artist": "Pabi Cooper Feat. Mellow & Sleazy",
-     "title": "Waga Bietjie",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 16,
-     "artist": "DJ Lag",
-     "title": "Switz",
-     "label": "Goon Club Allstars",
-     "bp": "bp:14485367",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 38,
-     "artist": "Bok Bok",
-     "title": "Ouais (Hysterics Remix)",
-     "label": "Night Slugs",
-     "bp": "bp:16755307",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/3a2be8d2-2319-4ad2-b76a-2a122a703316.LOFI.mp3",
-     "name": "Ouais",
-     "mix": "Hysterics Remix",
-     "genre": "bass-club",
-     "released": "2022-07-29"
-    },
-    {
-     "minute": 40,
-     "artist": "Kelela",
-     "title": "Go All Night (Neana Remix)",
-     "label": "Fade To Mind",
-     "bp": "bp:6482628",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/36543d9b-0ee5-45cd-9dfe-ef25e6f489a3.LOFI.mp3",
-     "name": "Go All Night",
-     "mix": "Neana Remix",
-     "genre": "electronica",
-     "released": "2015-04-06"
-    },
-    {
-     "minute": 48,
-     "artist": "Karizma",
-     "title": "Spirit",
-     "label": "R2",
-     "bp": "bp:19604674",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 52,
-     "id": null,
-     "raw": "?"
-    }
-   ]
-  },
-  {
-   "title": "2025-07-06 - Bok Bok @ The Lot Radio",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Workerz",
-     "title": "Tribal Dream",
-     "label": "Back Office",
-     "bp": "bp:19598354",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/bf3742de-3cb1-41c3-b5c8-67fa4f8f9366.LOFI.mp3",
-     "name": "Tribal Dream",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2024-10-24"
-    },
-    {
-     "minute": 3,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 6,
-     "artist": "Head High",
-     "title": "It's A Love Thing (The XXX Mono Mix)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 10,
-     "artist": "General C'mamane",
-     "title": "Sub 6",
-     "label": "",
-     "bp": "bp:18613218",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 12,
-     "artist": "Jamilah Barry",
-     "title": "Fuck It (On-1) (Karen Nyame KG Remix)",
-     "label": "Independent",
-     "retry": 1
-    },
-    {
-     "minute": 16,
-     "artist": "Dustinho",
-     "title": "Finally (KLUTCH Mix)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 23,
-     "artist": "Leod",
-     "title": "Untitled 04",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 30,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 32,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 35,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": null,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 45,
-     "artist": "The B. B. & Q. Band",
-     "title": "Dreamer (Shep Pettibone Extended Mix)",
-     "label": "",
-     "bp": "bp:14908564",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/e30b7cb5-67e8-47b3-9d87-925cb83c9d10.LOFI.mp3",
-     "name": "Dreamer",
-     "mix": "Shep Pettibone Extended Mix",
-     "genre": "dance-pop",
-     "released": "1986-03-14"
-    },
-    {
-     "minute": null,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 54,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 57,
-     "artist": "Adesse Versions",
-     "title": "Pressured",
-     "label": "",
-     "retry": 1
-    }
-   ]
-  },
-  {
-   "title": "2025-07-20 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 15,
-     "artist": "Christophe Salin",
-     "title": "More Than Just The Words",
-     "label": "Salin",
-     "bp": "bp:20540373",
-     "score": 0.905,
-     "preview": "https://geo-samples.beatport.com/track/d702c417-bcf6-42bc-b6d7-570273abd27a.LOFI.mp3",
-     "name": "More Than Just the Words",
-     "mix": "Live Jam",
-     "genre": "deep-house",
-     "released": "2025-06-27"
-    },
-    {
-     "minute": 18,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 21,
-     "artist": "Jamilah Barry",
-     "title": "Fuck It (On-1) (Karen Nyame KG Remix)",
-     "label": "Independent",
-     "retry": 1
-    },
-    {
-     "minute": 38,
-     "artist": "Fireground",
-     "title": "Marea",
-     "label": "Ilian Tape",
-     "retry": 1
-    },
-    {
-     "minute": 41,
-     "artist": "Karizma",
-     "title": "Tech This Out, Pt.1 (Yoruba Soul Mix)",
-     "label": "Atjazz",
-     "bp": "bp:20475536",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/6eb9e353-9534-41d0-a92b-7b455ce33a03.LOFI.mp3",
-     "name": "Tech This Out Pt.1",
-     "mix": "Yoruba Soul Mix",
-     "genre": "deep-house",
-     "released": "2025-05-23"
-    },
-    {
-     "minute": 56,
-     "artist": "Funk Butcher",
-     "title": "Zane",
-     "label": "Houseology",
-     "retry": 1
-    }
-   ]
-  },
-  {
-   "title": "2025-09-21 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 4,
-     "artist": "Dellavega",
-     "title": "Like Us",
-     "label": "Distance",
-     "retry": 1
-    },
-    {
-     "minute": 5,
-     "artist": "B-15 Project",
-     "title": "Girls Like Us (Extended Mix)",
-     "label": "Armada",
-     "bp": "bp:20150920",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/3df10165-1aea-442f-aa39-f82861abd3d7.LOFI.mp3",
-     "name": "Girls Like Us",
-     "mix": "Extended Mix",
-     "genre": "uk-garage-bassline",
-     "released": "2025-03-14"
-    },
-    {
-     "minute": 19,
-     "artist": "Scotti Dee",
-     "title": "DELUSION",
-     "label": "Housupa",
-     "retry": 1
-    },
-    {
-     "minute": 21,
-     "artist": "Boo Williams",
-     "title": "My Place",
-     "label": "ENSOULED",
-     "retry": 1
-    },
-    {
-     "minute": 24,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 38,
-     "artist": "DJ Romain & Jon Cutler",
-     "title": "De Ja Vu (Lips Dub)",
-     "label": "",
-     "bp": "bp:1418773",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/f6e22c27-c5e1-4376-86c7-952085e27ecd.LOFI.mp3",
-     "name": "De Ja Vu",
-     "mix": "Lips Dub",
-     "genre": "deep-house",
-     "released": "2010-09-20"
-    },
-    {
-     "minute": 51,
-     "artist": "Altered Natives",
-     "title": "It's Just A Crush",
-     "label": "EYE4EYE",
-     "retry": 1
-    },
-    {
-     "minute": 54,
-     "artist": "Leod",
-     "title": "Untitled 04",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 57,
-     "artist": "Egypt",
-     "title": "In The Morning (Let Your Love Come In) (Radio Edit)",
-     "label": "",
-     "bp": "bp:15749431",
-     "score": 0.958,
-     "preview": "https://geo-samples.beatport.com/track/2ddd3e97-6b21-4d08-a5ea-ba4d95c4e9ff.LOFI.mp3",
-     "name": "In The Morning (Let Your Love Come In)",
-     "mix": "Sticky Radio Edit",
-     "genre": "dance-pop",
-     "released": "2009-01-01"
-    },
-    {
-     "minute": 58,
-     "artist": "Bok Bok",
-     "title": "Duetto",
-     "label": "Night Slugs",
-     "bp": "bp:17624312",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2025-10-19 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 6,
-     "artist": "Trinidadian Deep",
-     "title": "Moments Of Sounds (Cee ElAssaad Remix)",
-     "label": "ENSOULED",
-     "bp": "bp:19548484",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/cc75b754-1bc6-45e4-a3b7-d32509011141.LOFI.mp3",
-     "name": "Moments Of Sounds",
-     "mix": "Cee ElAssaad Remix",
-     "genre": "afro-house",
-     "released": "2024-10-18"
-    },
-    {
-     "minute": 11,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 18,
-     "artist": "Dennis Ferrer",
-     "title": "Hey Hey (DF's Attention Vocal Mix)",
-     "label": "Defected",
-     "bp": "bp:1077199",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/22efc54f-cd57-46df-bb49-ad49982de617.LOFI.mp3",
-     "name": "Hey Hey",
-     "mix": "DF's Attention Vocal Mix",
-     "genre": "house",
-     "released": "2010-01-20"
-    },
-    {
-     "minute": 28,
-     "artist": "Geeneus",
-     "title": "In To The Future",
-     "label": "Rinse",
-     "bp": "bp:1024636",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/2ee48610-17c9-4e04-9b3d-7ad12e5acbb4.LOFI.mp3",
-     "name": "In To The Future",
-     "mix": "Original Mix",
-     "genre": "techno-peak-time-driving",
-     "released": "2008-12-01"
-    },
-    {
-     "minute": 31,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 35,
-     "artist": "Altered Natives",
-     "title": "Splintered",
-     "label": "EYE4EYE",
-     "retry": 1
-    },
-    {
-     "minute": 38,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 46,
-     "artist": "Leod",
-     "title": "Untitled 04",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 49,
-     "artist": "Vjuan Allure",
-     "title": "Ectopus",
-     "label": "HMUSA",
-     "retry": 1
-    },
-    {
-     "minute": 53,
-     "artist": "DJ Swisha",
-     "title": "LASTBRAINCELL",
-     "label": "DJ SWISHA",
-     "bp": "bp:21851342",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/f9327ccf-b062-4227-bb3e-2f0676cf7593.LOFI.mp3",
-     "name": "LASTBRAINCELL",
-     "mix": "Original Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2025-10-10"
-    }
-   ]
-  },
-  {
-   "title": "2025-11-16 - Bok Bok - Rinse FM (Blood Moon EP Warmup - 100% Bok Productions)",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Bok Bok",
-     "title": "YaTOO (Bok's Dub)",
-     "label": "Lizzy",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "[0?] Suges",
-     "title": "We Belong To The Night (BOK Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "[0?] Bok Bok Feat. Ramzee",
-     "title": "London",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "[1?] DJ Timbawolf",
-     "title": "Natural Disaster (BOK Dub)",
-     "label": "Housupa",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "[1?] ''Bok Bok & Leonce",
-     "title": "?''",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 16,
-     "artist": "Bok Bok",
-     "title": "Laughing With The Drumz",
-     "label": "Einhundert",
-     "bp": "bp:23276669",
-     "score": 0.868,
-     "preview": "https://geo-samples.beatport.com/track/52e7c026-48b2-44c7-8d85-c800f7ad26fe.LOFI.mp3",
-     "name": "Laughing With The Drumz",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2025-11-26"
-    },
-    {
-     "minute": null,
-     "artist": "Bok Bok & Tinashe & Karizma & Dennis Ferrer",
-     "title": "Just Say Hey Hey",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Head High",
-     "title": "It's A Love Thing (BOK Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 23,
-     "artist": "Bok Bok",
-     "title": "Crack'd",
-     "label": "Einhundert",
-     "retry": 1
-    },
-    {
-     "minute": 27,
-     "artist": "Jorja Smith",
-     "title": "Little Things (BOK Dub Mix)",
-     "label": "Famm",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Karizma",
-     "title": "Darqness (BOK Dub)",
-     "label": "R2",
-     "retry": 1
-    },
-    {
-     "minute": 32,
-     "artist": "Bok Bok",
-     "title": "Duetto (Bok Bok VIP)",
-     "label": "Night Slugs",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Nick León Feat. Erika De Casier",
-     "title": "Bikini (BOK Dub)",
-     "label": "Tratratrax",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Bok Bok",
-     "title": "Still Raining",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "''DJ Polo & Bok Bok",
-     "title": "ID''",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Mala",
-     "title": "Left Leg Out (BOK Dub)",
-     "label": "Dmz",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "DJ Lag & Fuzzy Logik Feat. Egypt",
-     "title": "Morning Switz (Bok Bok Edit)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Bok Bok",
-     "title": "Ouais Ouais Ouais (Deetron Pres. Soulmate Remix)",
-     "label": "Distrokid",
-     "bp": "bp:23276671",
-     "score": 0.974,
-     "preview": "https://geo-samples.beatport.com/track/c76177d8-ff36-4d26-8de5-173aaf512215.LOFI.mp3",
-     "name": "Ouais Ouais Ouais ",
-     "mix": "Deetron Presents Soulmate Remix",
-     "genre": "house",
-     "released": "2025-11-26"
-    },
-    {
-     "minute": null,
-     "artist": "Ultra Naté",
-     "title": "Love's The Only Drug (BOK Dub)",
-     "label": "Silver",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Bok Bok",
-     "title": "Avh My Boo",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "E-Dancer",
-     "title": "Pump The Move (BOK Dub)",
-     "label": "KMS",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Bok Bok Feat. Kristian Hamilton",
-     "title": "Leake Street (The Message Is Love)",
-     "label": "",
-     "retry": 1
-    }
-   ]
-  },
-  {
-   "title": "2026-03-28 - VA @ Warmth, Ormside Projects, London",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 60,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 125,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 190,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 240,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 300,
-     "id": null,
-     "raw": "?"
-    }
-   ]
-  },
-  {
-   "title": "2026-04-06 - Bok Bok @ The Lot Radio",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Dialect",
-     "title": "Sitting In The Sun (Derrick Carter's Winter Crazy Dub Reprise)",
-     "label": "Distance",
-     "bp": "bp:12831975",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/024047da-c74d-42ae-a393-01c4275b8905.LOFI.mp3",
-     "name": "Sitting in the Sun",
-     "mix": "Derrick Carter's Winter Crazy Dub Reprise",
-     "genre": "house",
-     "released": "2019-11-04"
-    },
-    {
-     "minute": null,
-     "artist": "[0?] Bok Bok",
-     "title": "Space Disco 0002",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "[0?] Scotti Dee",
-     "title": "Girls Like This (East London Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 10,
-     "artist": "Nic As Well",
-     "title": "Prone (DJ Polo Remix)",
-     "label": "Creaked",
-     "bp": "bp:20974320",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/db585582-58a7-4a6b-a86b-8852e00d1e3a.LOFI.mp3",
-     "name": "Prone",
-     "mix": "DJ Polo Remix",
-     "genre": "trap-future-bass",
-     "released": "2025-12-05",
-     "via": "retry"
-    },
-    {
-     "minute": null,
-     "artist": "Ikonika vs Bok Bok",
-     "title": "Warning (Bok's March Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "DJ Timbawolf",
-     "title": "Natural Disaster (Bok's Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Karizma",
-     "title": "Darqness (Bok's Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Mista Silva S",
-     "title": "Groove",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Bok Bok",
-     "title": "Laughing With The Drumz",
-     "label": "",
-     "bp": "bp:23276669",
-     "score": 0.868,
-     "preview": "https://geo-samples.beatport.com/track/52e7c026-48b2-44c7-8d85-c800f7ad26fe.LOFI.mp3",
-     "name": "Laughing With The Drumz",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2025-11-26"
-    },
-    {
-     "minute": 24,
-     "artist": "Geoffrey C",
-     "title": "This Is Hot (Yes Indeedy)",
-     "label": "Unquantize",
-     "bp": "bp:18700325",
-     "score": 0.884,
-     "preview": "https://geo-samples.beatport.com/track/aab27960-cd91-4963-aea5-3e0198d1303f.LOFI.mp3",
-     "name": "This Is Hot (Yes Indeedy)",
-     "mix": "Coflo Edit",
-     "genre": "house",
-     "released": "2024-03-08"
-    },
-    {
-     "minute": 27,
-     "artist": "Bob Sinclair",
-     "title": "World Hold On (Scotti Dee Dub Mix)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "DJ Escobar",
-     "title": "Bogota",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 32,
-     "artist": "KW Griff & Porkchop",
-     "title": "Bring In The Katz (DJ Spenstrumental)",
-     "label": "Unquantize",
-     "bp": "bp:18285324",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/0da21035-16bc-4852-b62b-57d67807c1ec.LOFI.mp3",
-     "name": "Bring In The Katz",
-     "mix": "DJ Spenstrumental",
-     "genre": "afro-house",
-     "released": "2023-11-10"
-    },
-    {
-     "minute": 34,
-     "artist": "Ossie",
-     "title": "Once Again",
-     "label": "SuperCali",
-     "bp": "bp:23926403",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/636baafc-6e37-4818-93b3-d0c022a9f80f.LOFI.mp3",
-     "name": "Once Again",
-     "mix": "Original Mix",
-     "genre": "dance-pop",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": 37,
-     "id": null,
-     "raw": "NA · Todo Mundo Toss"
-    },
-    {
-     "minute": null,
-     "artist": "Mala",
-     "title": "Left Leg Out (Bok's Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 41,
-     "artist": "Surreal Sessions",
-     "title": "What You Do To Me",
-     "label": "IMSS",
-     "bp": "bp:22925277",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/ee3c79e9-9032-4731-8414-a1bcf62a95f6.LOFI.mp3",
-     "name": "What You Do To Me ",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2025-12-18"
-    },
-    {
-     "minute": 45,
-     "artist": "DJ Polo",
-     "title": "Currents / Night Waves (Neana Remix)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "[4?] Bok Bok",
-     "title": "Ouais (River Moon Remix)",
-     "label": "",
-     "bp": "bp:17797606",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/6f23aff8-0242-4c83-bb57-ef2da51423a2.LOFI.mp3",
-     "name": "Ouais",
-     "mix": "River Moon Remix",
-     "genre": "bass-club",
-     "released": "2023-06-14"
-    },
-    {
-     "minute": 49,
-     "artist": "Lips",
-     "title": "The Conscious",
-     "label": "King Street Sounds",
-     "bp": "bp:7554092",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/dc3a0af4-dbf6-4b38-aff9-1b21c156f3c4.LOFI.mp3",
-     "name": "The Conscious",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2016-02-15"
-    },
-    {
-     "minute": null,
-     "artist": "Len",
-     "title": "Yatoo (Bok's Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "George Riley",
-     "title": "Private Life (Bok's Dub)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 55,
-     "artist": "Scotti Dee",
-     "title": "Selborne Walk",
-     "label": "Housupa",
-     "bp": "bp:23700957",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/e0df61ed-ce4b-4d1d-8639-afb862f19ee9.LOFI.mp3",
-     "name": "SELBORNE WALK ",
-     "mix": "Original Mix",
-     "genre": "afro-house",
-     "released": "2026-01-30"
-    }
-   ]
-  },
-  {
-   "title": "2026-06-26 - Sahib b2b Bok Bok - ZENG Sounds, Subtle Radio",
-   "records": []
-  },
-  {
-   "title": "2026-07-13 - Bok Bok - M.O.T Radio",
-   "records": []
-  },
-  {
-   "title": "2026-08-16 - Bok Bok - Rinse FM",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Psychick Warriors Ov Gaia",
-     "title": "The Key (Version)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 5,
-     "artist": "Dialect",
-     "title": "Sitting In The Sun (Derrick Carter's Winter Crazy Dub Reprise)",
-     "label": "Distance",
-     "bp": "bp:12831975",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/024047da-c74d-42ae-a393-01c4275b8905.LOFI.mp3",
-     "name": "Sitting in the Sun",
-     "mix": "Derrick Carter's Winter Crazy Dub Reprise",
-     "genre": "house",
-     "released": "2019-11-04"
-    },
-    {
-     "minute": 8,
-     "artist": "Deep Narratives",
-     "title": "Ghetto Gong",
-     "label": "TraTraTrax",
-     "bp": "bp:28821554",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/e5198751-8a1b-419b-879a-ea6c064383c8.LOFI.mp3",
-     "name": "Ghetto Gong",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2026-06-12"
-    },
-    {
-     "minute": 11,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 16,
-     "artist": "Boniface",
-     "title": "Favelas",
-     "label": "TraTraTrax",
-     "retry": 1
-    },
-    {
-     "minute": 19,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 26,
-     "artist": "Larry Heard Pres. Mr. White",
-     "title": "The Sun Can't Compare (Long Version)",
-     "label": "Alleviated",
-     "bp": "bp:423035",
-     "score": 0.92,
-     "preview": "https://geo-samples.beatport.com/track/2a1721e8-d315-466a-b822-c21379f7029b.LOFI.mp3",
-     "name": "The Sun Can't Compare",
-     "mix": "Long Version",
-     "genre": "deep-house",
-     "released": "2017-08-18"
-    },
-    {
-     "minute": 29,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 33,
-     "artist": "DJ Lag & Babes Wodumo & Mampintsha",
-     "title": "DJ Lag",
-     "label": "Black Major X Ice Drop",
-     "retry": 1
-    },
-    {
-     "minute": 36,
-     "id": null,
-     "raw": "?"
-    },
-    {
-     "minute": 49,
-     "artist": "Che Mario",
-     "title": "U Da Cake",
-     "label": "",
-     "bp": "bp:30436916",
-     "score": 0.85,
-     "preview": "https://geo-samples.beatport.com/track/fdb3783d-b8c2-47ad-94b8-44c73da8ffcb.LOFI.mp3",
-     "name": "U Da Cake",
-     "mix": "Intro",
-     "genre": "hip-hop",
-     "released": "2026-05-22"
-    },
-    {
-     "minute": 57,
-     "artist": "Earth People",
-     "title": "Dance-Dub Mix",
-     "label": "Cabaret",
-     "bp": "bp:776245",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/93df49ae-d74a-470a-8562-1c1836baedfb.LOFI.mp3",
-     "name": "Dance",
-     "mix": "Dub Mix",
-     "genre": "house",
-     "released": "2008-09-30"
-    }
-   ]
-  }
- ]
+"dj": "Bok Bok",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-03-18 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2020-07-05 - Bok Bok & Ayaya - Rinse FM",
+"records": []
+},
+{
+"title": "2021-03-05 - Oblig b2b Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2021-06-21 - Bok Bok - Dekmantel Podcast 338",
+"records": [
+{
+"minute": null,
+"artist": "Karizma",
+"title": "Broken Beatz",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Head High",
+"title": "Power Seat",
+"label": "",
+"bp": "bp:5551225",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eb3b26a7-28e1-400e-b46c-d978558f84e8.LOFI.mp3",
+"name": "Power Seat",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2014-06-17"
+},
+{
+"minute": null,
+"artist": "Hysterics Feat. Kristan Hamilton",
+"title": "Liked You",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Lag",
+"title": "Switz",
+"label": "",
+"bp": "bp:14485367",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d3cbe9b-dfe0-4ac8-a75a-18fa4d9efc7e.LOFI.mp3",
+"name": "Switz",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2020-11-06"
+},
+{
+"minute": null,
+"artist": "Soul II Soul",
+"title": "Soul II Soul I Care (Karizma Meets N'Dinga Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mr. White",
+"title": "Sun Can't Compare (Leonce Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Scottie D",
+"title": "Sound",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Omar S Feat. L'Renee",
+"title": "S.E.X. (C.G.P. Remix)",
+"label": "",
+"bp": "bp:3564005",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/929273f4-61a2-441c-b6c9-84a1fb624aa9.LOFI.mp3",
+"name": "S.E.X",
+"mix": "A.O.L Remix",
+"genre": "house",
+"released": "2012-06-05"
+},
+{
+"minute": null,
+"artist": "Helix",
+"title": "Risky Rhodez",
+"label": "",
+"bp": "bp:15768522",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/edc473c4-c8b9-41da-ba74-09ac4c609434.LOFI.mp3",
+"name": "Risky Rhodez",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2021-11-05"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Pure Shores (TommyTommy Bootleg)",
+"label": "",
+"bp": "bp:13495371",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6730a307-7fd9-4007-a057-ddad3249e077.LOFI.mp3",
+"name": "Pure Shores",
+"mix": "TommyTommy Bootleg",
+"genre": "bass-club",
+"released": "2020-04-24"
+},
+{
+"minute": null,
+"artist": "Vjuan Allure",
+"title": "Ectopus",
+"label": "",
+"bp": "bp:4779653",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0b6d5b08-2eff-4c7c-b9ad-6d78fc714d64.LOFI.mp3",
+"name": "Ectopus",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2013-10-21"
+},
+{
+"minute": null,
+"artist": "Lil Silva",
+"title": "Tribal Land",
+"label": "",
+"bp": "bp:16127899",
+"score": 0.67,
+"preview": "https://geo-samples.beatport.com/track/0c70cbd3-28b3-4d88-bd4b-b4255cdceae1.LOFI.mp3",
+"name": "Tribal Sound",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2022-01-14"
+},
+{
+"minute": null,
+"artist": "Acemoma",
+"title": "Revolutionary",
+"label": "",
+"bp": "bp:14441366",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ce843b75-58c5-4427-ba95-32503d95a23f.LOFI.mp3",
+"name": "Revolutionary",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2020-10-27"
+},
+{
+"minute": null,
+"artist": "Calvomusic",
+"title": "I Said Flip",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Technics",
+"title": "Twisted",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mak 10 X Bala Bala Boys",
+"title": "Mad In The Fete",
+"label": "",
+"bp": "bp:14353121",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/110fc8df-0a5c-4fea-901c-be318308aee4.LOFI.mp3",
+"name": "Mad In The Fete",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2020-10-09"
+},
+{
+"minute": null,
+"artist": "WK7",
+"title": "Higher Power (Hardcore PCK Mix)",
+"label": "",
+"bp": "bp:6397559",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6a763c50-0a4e-4a34-9481-e7c0c4725bbe.LOFI.mp3",
+"name": "Higher Power",
+"mix": "Hardcore PCK Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-03-13"
+},
+{
+"minute": null,
+"artist": "OSSX X DJ Swisha",
+"title": "Luvli Dae&#160;:)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Calvomusic",
+"title": "House Of Helix",
+"label": "",
+"bp": "bp:15449349",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bde48389-e7d4-44e1-8f47-fc015d290426.LOFI.mp3",
+"name": "House of Helix",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2021-07-02"
+},
+{
+"minute": null,
+"artist": "Ill Blu",
+"title": "Dragon Pop",
+"label": "",
+"bp": "bp:1278449",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3cfbbe0a-44e9-4138-9a35-3c247acbe429.LOFI.mp3",
+"name": "Dragon Pop",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2015-09-30"
+},
+{
+"minute": null,
+"artist": "Cooly G Feat. KARIZMA",
+"title": "It's Serious",
+"label": "",
+"bp": "bp:24423513",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/725c3de2-4ef1-4068-8d36-68d011296e7d.LOFI.mp3",
+"name": "It's Serious",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2014-05-19"
+},
+{
+"minute": null,
+"artist": "Nguzunguzu",
+"title": "Just A Touch (OSSX Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Cooly G",
+"title": "Come Into My Room",
+"label": "",
+"bp": "bp:5990303",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/40d4ab01-e112-457b-9f5c-626efde02c5b.LOFI.mp3",
+"name": "Come into my room (feat. Aaron Carr)",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2014-07-01"
+},
+{
+"minute": null,
+"artist": "Head High",
+"title": "Hex Factor",
+"label": "",
+"bp": "bp:5551219",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6de4b8d8-ebca-46c2-ad92-24889dfb675b.LOFI.mp3",
+"name": "Hex Factor",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-06-17"
+},
+{
+"minute": null,
+"artist": "Kingdom Feat. Tiara Thomas",
+"title": "High Enough",
+"label": ""
+}
+]
+},
+{
+"title": "2021-08-13 - Bok Bok - Frequent Players Guest Mix 028",
+"records": [
+{
+"minute": null,
+"artist": "Goko!",
+"title": "Hello Hi Instrumental",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Jay Bahd Feat. City Boy, O'Kenneth, Reggie & Kwaku DMC",
+"title": "Condemn",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Shaybo Feat. Miss Lafamilia",
+"title": "Bonjour Cava",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ J Heat",
+"title": "Wraith In Essex",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ard Adz",
+"title": "Tipsy",
+"label": ""
+},
+{
+"minute": null,
+"artist": "JLSXNDZRS",
+"title": "Skengman Instrumental",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Shawny Binladen",
+"title": "Can't Hang In It",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Looting",
+"title": "Active Sleeper",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nguzunguzu",
+"title": "Just A Touch (One Bok Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "K1 N15 & Nito NB",
+"title": "Free Em",
+"label": "",
+"bp": "bp:22869966",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/08539ac7-3ae9-427f-afde-41c2f1c2bc72.LOFI.mp3",
+"name": "Free Em",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2021-11-18"
+},
+{
+"minute": null,
+"artist": "Nammy Wams",
+"title": "Hazmat",
+"label": "",
+"bp": "bp:18815207",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/861e0a56-21de-4eb0-a5d5-475abb20859d.LOFI.mp3",
+"name": "Hazmat",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2024-03-27"
+},
+{
+"minute": null,
+"artist": "C1",
+"title": "Runtz",
+"label": ""
+},
+{
+"minute": null,
+"artist": "JLSXNDZRS",
+"title": "Chose Not To",
+"label": ""
+},
+{
+"minute": null,
+"artist": "One Bok",
+"title": "How Can I Forget",
+"label": "",
+"bp": "bp:15374938",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ad60449-53f2-486e-95f4-50efb548b2ad.LOFI.mp3",
+"name": "How Can I Forget",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2021-06-25"
+},
+{
+"minute": null,
+"artist": "MVW Feat. Shanique Marie & Lex Luger",
+"title": "Survey Says",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Majima",
+"title": "Cold Love",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ill Blu Feat. M24 & Unknown T",
+"title": "Dumpa",
+"label": "",
+"bp": "bp:15142302",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/15e568bb-3a3c-460b-a421-10b2c85ece9c.LOFI.mp3",
+"name": "Dumpa",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2021-04-02"
+},
+{
+"minute": null,
+"artist": "Nammy Wams",
+"title": "Runaway Train",
+"label": "",
+"bp": "bp:18815211",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bd581861-ef3a-4558-8928-d795a722c5c4.LOFI.mp3",
+"name": "Runaway Train",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2024-03-27"
+},
+{
+"minute": null,
+"artist": "Cash Cobain",
+"title": "Boi",
+"label": ""
+},
+{
+"minute": null,
+"artist": "One Bok",
+"title": "Pisces",
+"label": "",
+"bp": "bp:15374935",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e62fb5a3-f2b3-498c-8701-771e504ff60c.LOFI.mp3",
+"name": "Pisces",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2021-06-25"
+},
+{
+"minute": null,
+"artist": "Lancey Foux",
+"title": "Steelo Flow",
+"label": "",
+"bp": "bp:14821266",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1b00574f-14a9-4ec4-8561-18c938b7844e.LOFI.mp3",
+"name": "Steelo Flow",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2021-01-21"
+},
+{
+"minute": null,
+"artist": "Nammy Wams",
+"title": "Konz",
+"label": "",
+"bp": "bp:15849703",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9dd153b7-2ca0-49c3-9856-16f0c6220c48.LOFI.mp3",
+"name": "Konz",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2021-10-29"
+},
+{
+"minute": null,
+"artist": "Jah$tar",
+"title": "Kan't Lie",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Wardot",
+"title": "Duh Duh Duh",
+"label": ""
+},
+{
+"minute": null,
+"artist": "One Bok",
+"title": "Fifty",
+"label": "",
+"bp": "bp:15374942",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7499c689-3be9-449f-8e6c-8a980c1f1e0d.LOFI.mp3",
+"name": "Fifty",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2021-06-25"
+},
+{
+"minute": null,
+"artist": "K$upreme Feat. Shawny Binladen",
+"title": "Essential",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Blade Brown Feat. S Loud",
+"title": "Loading Up",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The M.I.D.I. Mafia",
+"title": "You Remix Instrumental",
+"label": ""
+}
+]
+},
+{
+"title": "2021-09-04 - Bok Bok - Balamii Promo Mix",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 4,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 7,
+"artist": "DJ Lag",
+"title": "Switz",
+"label": "Goon Club Allstarz",
+"bp": "bp:14485367",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d3cbe9b-dfe0-4ac8-a75a-18fa4d9efc7e.LOFI.mp3",
+"name": "Switz",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2020-11-06"
+},
+{
+"minute": 9,
+"artist": "Kota Banks",
+"title": "Let U Leave",
+"label": "",
+"bp": "bp:28596918",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/400b22a6-1ab7-49fc-b229-de04202e73be.LOFI.mp3",
+"name": "Let U Leave",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2020-07-31"
+},
+{
+"minute": 12,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 14,
+"artist": "Keoki",
+"title": "Pass It On",
+"label": "Moonshine"
+},
+{
+"minute": 16,
+"artist": "Lil Silva",
+"title": "Tribal Land",
+"label": "",
+"bp": "bp:16127899",
+"score": 0.67,
+"preview": "https://geo-samples.beatport.com/track/0c70cbd3-28b3-4d88-bd4b-b4255cdceae1.LOFI.mp3",
+"name": "Tribal Sound",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2022-01-14"
+},
+{
+"minute": 18,
+"artist": "Karen Nyame KG Feat. Tony Delazy",
+"title": "Nzinga",
+"label": "Black Acre",
+"bp": "bp:15446737",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/fabd5df7-0671-4760-89ee-ab4b5c04e10c.LOFI.mp3",
+"name": "Nzinga",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2021-06-25"
+},
+{
+"minute": 19,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 21,
+"artist": "Faces Drums",
+"title": "Faces 3 (Body)",
+"label": "Muzique - CD01",
+"bp": "bp:1678128",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/b08b37c6-a664-4d80-9a84-d0a49d2394ca.LOFI.mp3",
+"name": "Faces 3",
+"mix": "Body",
+"genre": "techno-peak-time-driving",
+"released": "2011-02-01"
+},
+{
+"minute": 24,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 25,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 28,
+"artist": "CalvoMusic Feat. Zfrek",
+"title": "Shake My Ass",
+"label": "Night Slugs - NS033"
+},
+{
+"minute": 29,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 33,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 35,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 37,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 39,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 41,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 43,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 45,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 47,
+"artist": "Egypt",
+"title": "In The Morning (Let Your Love Come In)",
+"label": "Relentless",
+"bp": "bp:15749436",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/75093356-6ced-4c4b-982c-8eae31c5aeb3.LOFI.mp3",
+"name": "In The Morning (Let Your Love Come In)",
+"mix": "Original Club Mix",
+"genre": "dance-pop",
+"released": "2009-01-01"
+},
+{
+"minute": 49,
+"artist": "DJ Gregory",
+"title": "Don't Panic",
+"label": "Faya Combo - FC 011",
+"bp": "bp:8009180",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dfc77ff1-b046-48df-88a7-d9d6f3d01efa.LOFI.mp3",
+"name": "Don't Panic",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2006-04-10"
+}
+]
+},
+{
+"title": "2021-09-05 - Bok Bok b2b Girl Unit - Rinse FM",
+"records": []
+},
+{
+"title": "2021-10-03 - Bok Bok b2b Ayaya - Rinse FM",
+"records": []
+},
+{
+"title": "2021-12-05 - Bok Bok b2b Nammy Wams - Rinse FM",
+"records": []
+},
+{
+"title": "2022-01-02 - Bok Bok b2b Elise - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "SectorSept",
+"title": "Tropic Universe",
+"label": "",
+"bp": "bp:15818889",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a5499fea-fd35-4baa-9aed-cc12e7a02b12.LOFI.mp3",
+"name": "Tropic Universe",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2021-11-12"
+},
+{
+"minute": 2,
+"artist": "Mr. Jazziq Fat. Khanyisa",
+"title": "Ungangi Bambi?",
+"label": "",
+"bp": "bp:16496273",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/afcda927-3e53-4d5e-8281-02d66de73520.LOFI.mp3",
+"name": "Ungangi Bambi",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2021-09-09"
+},
+{
+"minute": 7,
+"artist": "Ikonika/Spring For The World",
+"title": "Noway",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Butterbandz",
+"title": "Monkey See",
+"label": ""
+},
+{
+"minute": 15,
+"artist": "Cooly G Feat. Ruth Brown",
+"title": "We Can Find Love Too",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Kaidi Tatham",
+"title": "Joyous",
+"label": "",
+"bp": "bp:10691179",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3fec6f4c-822f-4aa7-8041-61d14678e680.LOFI.mp3",
+"name": "Joyous",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2018-06-29"
+},
+{
+"minute": 21,
+"artist": "Nina Sky Feat. Cham",
+"title": "Tunin Me On (Black Chiney Remix)",
+"label": "",
+"bp": "bp:24908853",
+"score": 0.874,
+"preview": "https://geo-samples.beatport.com/track/1c400fc9-951d-4072-8d04-ea88e017c553.LOFI.mp3",
+"name": "Turnin Me On",
+"mix": "Black Chiney Remix",
+"genre": "caribbean",
+"released": "2005-05-17"
+},
+{
+"minute": 23,
+"artist": "DJ Skipp Unreleased Project",
+"title": "4 The Luv",
+"label": "",
+"bp": "bp:4468595",
+"score": 0.664,
+"preview": "https://geo-samples.beatport.com/track/1c44ddc6-149c-46e3-a76f-56b879427235.LOFI.mp3",
+"name": "4 The Luv Of",
+"mix": "Remastered Dub Mix",
+"genre": "house",
+"released": "2013-06-03"
+},
+{
+"minute": 28,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "+ [031] Jazmina",
+"title": "Goodtimes (DJ Choco's Washington Height Remix)",
+"label": "",
+"bp": "bp:3610534",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/7755d6f3-b7a6-4a96-b52b-a6d8b6d564f9.LOFI.mp3",
+"name": "Goodtimes",
+"mix": "Choco Washington Heights Mix",
+"genre": "house",
+"released": "2012-06-23"
+},
+{
+"minute": 34,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 36,
+"artist": "Scratcha DVA Feat. Mez",
+"title": "Bless The Earth",
+"label": "",
+"bp": "bp:15498985",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/36e791c2-4004-4435-b66f-9f43fe75439c.LOFI.mp3",
+"name": "Bless The Earth",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2021-09-03"
+},
+{
+"minute": 39,
+"artist": "BokBok",
+"title": "Way?",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "Soul II Soul",
+"title": "I Care (Karizma Meets N'Dinga Remix)",
+"label": ""
+},
+{
+"minute": 46,
+"artist": "Helix Feat. DJ Roy",
+"title": "Tha Lyot Remix",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "Larry Heard",
+"title": "The Sun Can't Compare (ID Edit)",
+"label": ""
+},
+{
+"minute": 53,
+"artist": "Abbud",
+"title": "Girld Around The World",
+"label": "",
+"bp": "bp:15671727",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1f957609-055d-4885-a957-5c014ae6d3f9.LOFI.mp3",
+"name": "Girld Around The World",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2021-09-03"
+},
+{
+"minute": 55,
+"artist": "Zhane",
+"title": "Groove Thang (ID Mix)",
+"label": ""
+},
+{
+"minute": 58,
+"artist": "Deep Narratives & Tribe Of Afro",
+"title": "Umzilikazi",
+"label": "",
+"bp": "bp:11631305",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6ddc1596-4bc5-49ac-9c12-ae83d3ec55f7.LOFI.mp3",
+"name": "Umzilikazi",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2019-03-01"
+},
+{
+"minute": 60,
+"artist": "Vjuan Allure",
+"title": "Thundakats...",
+"label": "",
+"bp": "bp:10035908",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/23f20c1c-12cc-4a62-a41f-40977797d37c.LOFI.mp3",
+"name": "ThundaKats",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2017-12-22"
+},
+{
+"minute": 63,
+"artist": "Syren",
+"title": "My First Love (Terry Hunter Remix - Main Reprise)",
+"label": ""
+},
+{
+"minute": 64,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 67,
+"artist": "Rod Lee",
+"title": "Dance My Pain Away (ID Mix)",
+"label": ""
+},
+{
+"minute": 70,
+"artist": "Head High",
+"title": "Power Seat",
+"label": "",
+"bp": "bp:5551225",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eb3b26a7-28e1-400e-b46c-d978558f84e8.LOFI.mp3",
+"name": "Power Seat",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2014-06-17"
+},
+{
+"minute": 72,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 73,
+"artist": "Afro B",
+"title": "Drogba (ID Mix)",
+"label": ""
+},
+{
+"minute": 75,
+"artist": "Barbara Tucker",
+"title": "I Get Lifted (ID Mix)",
+"label": ""
+},
+{
+"minute": 76,
+"artist": "2Sleep",
+"title": "The Night Is Close In",
+"label": "",
+"bp": "bp:14137123",
+"score": 0.986,
+"preview": "https://geo-samples.beatport.com/track/83b30fd6-7cd9-4bb5-98db-c354f134a13c.LOFI.mp3",
+"name": "The Night Is Closed In",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2020-09-18"
+},
+{
+"minute": 79,
+"artist": "Yak",
+"title": "Zephyr",
+"label": "",
+"bp": "bp:10313666",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e8d8ceb7-4f2a-4ec7-bd05-0f6ad1b440bb.LOFI.mp3",
+"name": "Zephyr",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2018-03-23"
+},
+{
+"minute": 81,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 83,
+"artist": "Kota Banks",
+"title": "Let U Leave (KG Remix)",
+"label": "",
+"bp": "bp:14233682",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36d3e138-d1e3-4e2e-ac0e-8e97bd120bcc.LOFI.mp3",
+"name": "Let U Leave",
+"mix": "KG Remix",
+"genre": "dance-pop",
+"released": "2020-09-11"
+},
+{
+"minute": 85,
+"artist": "Head High",
+"title": "Its A Love Thing",
+"label": "",
+"bp": "bp:5221214",
+"score": 0.732,
+"preview": "https://geo-samples.beatport.com/track/7f8fcbfa-9bc3-42da-b408-1b869a3997f7.LOFI.mp3",
+"name": "It's a Love Thing",
+"mix": "Piano Invasion",
+"genre": "techno-peak-time-driving",
+"released": "2012-06-18"
+},
+{
+"minute": 87,
+"artist": "Diamond K",
+"title": "In The House&#160;?",
+"label": ""
+},
+{
+"minute": 92,
+"artist": "Hindzy D",
+"title": "Shrapnel",
+"label": "",
+"bp": "bp:199386",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/7d795fb7-a679-4cfd-a08e-dae6c659ce8a.LOFI.mp3",
+"name": "Shrapnel",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2004-03-15"
+},
+{
+"minute": 95,
+"artist": "IZCO Feast. Capo Lee & ReeKo",
+"title": "Twice As Nice",
+"label": "",
+"bp": "bp:15879085",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/44259c1b-e8ec-4efd-a762-f6ef7e61cc67.LOFI.mp3",
+"name": "Twice as Nice",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2021-10-29"
+},
+{
+"minute": 98,
+"artist": "Kid D",
+"title": "Bar 4 Bar",
+"label": "",
+"bp": "bp:15198668",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/009b39aa-bac2-418a-aa1e-5f9975198f57.LOFI.mp3",
+"name": "Bar 4 Bar",
+"mix": "Original Mix",
+"genre": "140-deep-dubstep-grime",
+"released": "2021-04-23"
+},
+{
+"minute": 101,
+"artist": "UNIIQU3",
+"title": "Unavailable",
+"label": "",
+"bp": "bp:15667510",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/1c29091a-506e-47f8-bca8-00ecbd5f5b57.LOFI.mp3",
+"name": "Unavailable (feat. R3LL)",
+"mix": "feat. R3LL",
+"genre": "bass-club",
+"released": "2021-10-08"
+},
+{
+"minute": 103,
+"artist": "Kade Young",
+"title": "I Said (CalvoMusic Remix)",
+"label": ""
+},
+{
+"minute": 105,
+"artist": "One Bok",
+"title": "Scorpio (Half Time)",
+"label": "",
+"bp": "bp:19509460",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f4e0da1-6c74-4343-9d48-4a959c27cf5e.LOFI.mp3",
+"name": "Scorpio (Half Time)",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2024-09-18"
+},
+{
+"minute": 107,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 110,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 111,
+"artist": "Color Plus",
+"title": "Dogscan",
+"label": ""
+},
+{
+"minute": 112,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 114,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 115,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 116,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 118,
+"artist": "Zebra",
+"title": "Selassie Warning (ID Mix)",
+"label": ""
+},
+{
+"minute": 119,
+"artist": "St.Cal",
+"title": "Red Light (Tease)",
+"label": ""
+},
+{
+"minute": 120,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2022-02-06 - Bok Bok, Zaida - Rinse FM",
+"records": []
+},
+{
+"title": "2022-03-06 - Bok Bok b2b Equiss - Rinse FM",
+"records": []
+},
+{
+"title": "2022-04-03 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2022-05-18 - Bok Bok, Helix, Leonce & Zaida - Night Slugs, Balamii",
+"records": []
+},
+{
+"title": "2022-05-29 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Ikonika -&#160;?"
+},
+{
+"minute": 5,
+"id": null,
+"raw": "Helix & Bok Bok -&#160;?"
+},
+{
+"minute": 9,
+"artist": "Sharon-Rose & Taliwhoah",
+"title": "Falling (Tribalczn Remix)",
+"label": "Sharon-Rose",
+"bp": "bp:24489396",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/94ef1360-bd71-4a1d-b119-775863aacd79.LOFI.mp3",
+"name": "Falling",
+"mix": "Tribalczn Remix",
+"genre": "dance-pop",
+"released": "2021-07-23"
+},
+{
+"minute": 13,
+"artist": "Cooly G Feat. Ruth Brown",
+"title": "We Cab Find Love Too",
+"label": ""
+},
+{
+"minute": 15,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 17,
+"artist": "Bucie",
+"title": "Get Over It",
+"label": "",
+"bp": "bp:7945713",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/16ee9ee7-66ed-4329-8b2d-4043f73d0239.LOFI.mp3",
+"name": "Get Over It",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2016-05-23"
+},
+{
+"minute": 26,
+"artist": "Bok Bok Classic Tune: DVA",
+"title": "Step 2 Funk",
+"label": ""
+},
+{
+"minute": 28,
+"artist": "DJ XilaR Feat. Collite CPT",
+"title": "Umkokotelo",
+"label": "M & S"
+},
+{
+"minute": 29,
+"artist": "Robbie Rivera",
+"title": "Feel This",
+"label": "",
+"bp": "bp:3243320",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/64db4629-3c84-49e3-89c0-be4055ee9a2b.LOFI.mp3",
+"name": "Feel This Again",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2000-04-02"
+},
+{
+"minute": 32,
+"artist": "Summer Walker & Ari Lennox",
+"title": "Unloyal",
+"label": "",
+"bp": "bp:20887219",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a230dc13-d42a-4c1e-af05-b3c6e6c2c7bd.LOFI.mp3",
+"name": "Unloyal",
+"mix": "Original Mix",
+"genre": "rb",
+"released": "2021-11-05"
+},
+{
+"minute": 34,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 36,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 37,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 39,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 42,
+"id": null,
+"raw": "Helix -&#160;?"
+},
+{
+"minute": 44,
+"artist": "Helix",
+"title": "Arena Boogie",
+"label": "Night Slugs",
+"bp": "bp:15768520",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e2852dfe-601f-46cb-be5c-0aa525988432.LOFI.mp3",
+"name": "Arena Boogie",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2021-11-05"
+},
+{
+"minute": 47,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 49,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 52,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 58,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2022-06-27 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 4,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 7,
+"artist": "Shade1",
+"title": "Chat 2 Much",
+"label": "DRMTRK"
+},
+{
+"minute": 9,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 12,
+"artist": "Karizma",
+"title": "2wice",
+"label": "R2",
+"bp": "bp:13115487",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc03990f-ca7f-49b3-a1f7-a32b28d8ca56.LOFI.mp3",
+"name": "2wice",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-12-02"
+},
+{
+"minute": 15,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 18,
+"artist": "Blaq Soul",
+"title": "Damaged",
+"label": "Offering",
+"bp": "bp:10281726",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6e2c9719-9dc2-4744-b138-f4cc9f82df7e.LOFI.mp3",
+"name": "Damaged",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2018-03-09"
+},
+{
+"minute": 20,
+"artist": "Bok Bok",
+"title": "Ouais (Hysterics Remix)",
+"label": "",
+"bp": "bp:16755307",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a2be8d2-2319-4ad2-b76a-2a122a703316.LOFI.mp3",
+"name": "Ouais",
+"mix": "Hysterics Remix",
+"genre": "bass-club",
+"released": "2022-07-29"
+},
+{
+"minute": 22,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 25,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 28,
+"artist": "Jackie Queens",
+"title": "Love Will Wait",
+"label": "",
+"bp": "bp:11643203",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c94406b2-6c65-4c3c-9918-ccfd3c6f6798.LOFI.mp3",
+"name": "Love Will Wait",
+"mix": "Radio Edit",
+"genre": "afro-house",
+"released": "2023-01-17"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 33,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 36,
+"artist": "Ghost Town DJs",
+"title": "My Boo (Armand Van Helden Mix)",
+"label": ""
+},
+{
+"minute": 40,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 43,
+"artist": "XtetiQsoul",
+"title": "Potentia",
+"label": "",
+"bp": "bp:4522492",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3ff7bc8b-b544-4894-b1af-29facd8e1bb4.LOFI.mp3",
+"name": "Potentia",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2013-07-12"
+},
+{
+"minute": 46,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 48,
+"artist": "Karizma",
+"title": "Broken Beats",
+"label": ""
+},
+{
+"minute": 51,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "&#160;?"
+}
+]
+},
+{
+"title": "2022-07-24 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2022-08-28 - Bok Bok b2b Nico Adomako - Rinse FM",
+"records": []
+},
+{
+"title": "2022-09-25 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 5,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 8,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 11,
+"artist": "Ikonika",
+"title": "Show Me",
+"label": "Club Djembe",
+"bp": "bp:16931337",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5a59ea47-6d3c-491a-a3a6-505e2df36a2a.LOFI.mp3",
+"name": "Show Me",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-10-07"
+},
+{
+"minute": 13,
+"artist": "Larry Heard",
+"title": "Sun Can't Compare (Leonce Edit)",
+"label": ""
+},
+{
+"minute": 16,
+"artist": "J.D Reid",
+"title": "Hot Soul Music (Instrumental)",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "DJ Gregory",
+"title": "Labyrinthe (Beat)",
+"label": "Defected",
+"bp": "bp:441222",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b43829f4-bcfb-4640-a746-d82d9a51985e.LOFI.mp3",
+"name": "Labyrinthe",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2006-11-06"
+},
+{
+"minute": 23,
+"artist": "Shenseea X Helix",
+"title": "Deserve It X Arena Boogie (Ayaya Blend)",
+"label": "Free"
+},
+{
+"minute": 26,
+"artist": "Ikonika X 45DiBoss",
+"title": "Inah Live",
+"label": "Night Slugs"
+},
+{
+"minute": 27,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 29,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 32,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 35,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 38,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 40,
+"id": null,
+"raw": "DJ Swisha -&#160;?"
+},
+{
+"minute": 42,
+"artist": "Kenny Dope",
+"title": "My Flute",
+"label": "",
+"bp": "bp:3991976",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/37c40af7-cdb9-462c-9216-9d29bd23fadc.LOFI.mp3",
+"name": "My Flute",
+"mix": "Original Mix",
+"genre": "dj-tools-acapellas",
+"released": "2009-02-27"
+},
+{
+"minute": 45,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 48,
+"artist": "Ikonika",
+"title": "Energy",
+"label": "Hyperdub - Forthcoming",
+"bp": "bp:17018746",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9ea4d0a3-b2b3-45f1-bc32-f8132be70d22.LOFI.mp3",
+"name": "Energy",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-12-31"
+},
+{
+"minute": 50,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 53,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 56,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 59,
+"artist": "Lektor Scopes",
+"title": "My Intentions",
+"label": "Night Slugs",
+"bp": "bp:16991332",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/668437ba-535a-444b-af44-01bd61f46cf7.LOFI.mp3",
+"name": "My Intentions",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2022-10-12"
+}
+]
+},
+{
+"title": "2022-11-27 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2022-12-23 - Bok Bok - Rinse FM (Xmas Special)",
+"records": [
+{
+"minute": 0,
+"artist": "80k X Helix",
+"title": "Friday 13th",
+"label": ""
+},
+{
+"minute": 3,
+"artist": "Scratcha Dva X Demi Ma",
+"title": "Sivobonga",
+"label": "Future Bounce"
+},
+{
+"minute": 6,
+"artist": "Ikonika",
+"title": "No Way",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Pink Panthress",
+"title": "Passion (Zaida Zane Remix)",
+"label": ""
+},
+{
+"minute": 12,
+"artist": "Wbeeza",
+"title": "He So Crazy",
+"label": "Third Ear",
+"bp": "bp:782233",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/61782e15-12f4-473e-9156-9f5220c42832.LOFI.mp3",
+"name": "He So Crazy",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2009-01-30"
+},
+{
+"minute": 14,
+"artist": "Bucie",
+"title": "Do You",
+"label": "Tribe"
+},
+{
+"minute": 17,
+"artist": "Griffit Vigo",
+"title": "DJ",
+"label": "Gqom Oh!"
+},
+{
+"minute": 20,
+"artist": "DJ Danifox",
+"title": "Cian\u00e7a",
+"label": "Pr\u00edncipe",
+"bp": "bp:16579453",
+"score": 0.954,
+"preview": "https://geo-samples.beatport.com/track/d1a0a63d-31f7-4eb5-8ac9-e474349247e5.LOFI.mp3",
+"name": "Crian\u00e7a",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2022-06-10"
+},
+{
+"minute": 23,
+"artist": "Karizma",
+"title": "Drumz Nightmare",
+"label": "R2",
+"bp": "bp:13115287",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/05870b5e-23e9-4ef9-986b-234665265be6.LOFI.mp3",
+"name": "Drumz Nightmare",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2019-12-02"
+},
+{
+"minute": 26,
+"artist": "Bok Bok",
+"title": "Raining Inside",
+"label": "Night Slugs",
+"bp": "bp:17624306",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b5496683-bf1f-4e1d-a968-abb5bce0cc13.LOFI.mp3",
+"name": "Raining Inside",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "[0??] Ikonika",
+"title": "Energy",
+"label": "",
+"bp": "bp:17018746",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/9ea4d0a3-b2b3-45f1-bc32-f8132be70d22.LOFI.mp3",
+"name": "Energy",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-12-31"
+},
+{
+"minute": null,
+"artist": "[0??] Big Strick Feat. Generation X",
+"title": "Origin",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Zaida Zane",
+"title": "Fly By (Alt Mix)",
+"label": ""
+},
+{
+"minute": 36,
+"artist": "Bok Bok",
+"title": "L'chordian",
+"label": "Night Slugs",
+"bp": "bp:17624308",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0086a2f-e772-4bfd-92e0-1a474bf57628.LOFI.mp3",
+"name": "L'Chordian",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 38,
+"artist": "Toya DeLazy",
+"title": "Resurrection",
+"label": "Afrorave",
+"bp": "bp:15636121",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9ed92364-b8bf-49ff-b780-8b880f38d63c.LOFI.mp3",
+"name": "Resurrection",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2021-06-18"
+},
+{
+"minute": null,
+"artist": "[0??] Dennis Ferrer / Karizma",
+"title": "Hey Hey Kaytronik Dub (BB Re-Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Calvomusic",
+"title": "Yuna",
+"label": "Amy"
+},
+{
+"minute": null,
+"artist": "[0??] Neana",
+"title": "Nightshade",
+"label": ""
+},
+{
+"minute": 46,
+"artist": "Proxy",
+"title": "Raven (YAKKUUM Remix)",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "Mikeq & Romanthony",
+"title": "Get Sum",
+"label": "Qween Beat",
+"bp": "bp:8168062",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/95e1e914-5f92-42d5-ba92-b522c302062a.LOFI.mp3",
+"name": "Get Sum",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2016-08-12"
+},
+{
+"minute": null,
+"artist": "[05?] DJ Mystery",
+"title": "Mozart",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[05?] Robbie Riviera",
+"title": "Feel This (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[05?] Calvomusic",
+"title": "24HRS",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[05?] Mosca",
+"title": "No, We're Not A Couple",
+"label": "",
+"bp": "bp:7370101",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/1c367cd5-4c7c-4620-b031-6cfa0f935dcf.LOFI.mp3",
+"name": "No, We're Not a Couple",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2015-12-07"
+},
+{
+"minute": 59,
+"artist": "Mercsmusic X Roska",
+"title": "47 X Etiquette (Ayaya Blend)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Rahshon Bright",
+"title": "I Heard You Like Jazz",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Sole Fusion",
+"title": "Bass Tone (DVA Sole Destroy Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Helix",
+"title": "Mynameisprincebreak",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Hysterics",
+"title": "Code Switch (Ikonika Remix)",
+"label": "",
+"bp": "bp:17797591",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/a8f16a97-e26f-4c70-8878-3e4f1b679331.LOFI.mp3",
+"name": "Code Switch",
+"mix": "Ikonika Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "[0??] 0SSX",
+"title": "Big Yawn",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Calvomusic",
+"title": "I Must Apolagize",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] DJ Rush",
+"title": "Heaven & Hell",
+"label": ""
+},
+{
+"minute": 77,
+"artist": "Helix",
+"title": "Diskochop",
+"label": "Night Slugs"
+},
+{
+"minute": null,
+"artist": "[0??] S.DOT",
+"title": "Drones",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] DJ Richard",
+"title": "1 Does Not Know",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Hysterics Feat. Kristian Hamilton",
+"title": "Liked You",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Lil Silva",
+"title": "Mad Meter",
+"label": ""
+},
+{
+"minute": 92,
+"artist": "Rudeboyz",
+"title": "Get Down",
+"label": "Goon Club Allstars",
+"bp": "bp:6631527",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ceeafa97-359a-43d3-a6a2-bc36a87f8c0f.LOFI.mp3",
+"name": "Get Down",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2015-05-25"
+},
+{
+"minute": 95,
+"artist": "Bok Bok",
+"title": "Ouais (Hysterics Remix)",
+"label": "Night Slugs",
+"bp": "bp:16755307",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a2be8d2-2319-4ad2-b76a-2a122a703316.LOFI.mp3",
+"name": "Ouais",
+"mix": "Hysterics Remix",
+"genre": "bass-club",
+"released": "2022-07-29"
+},
+{
+"minute": null,
+"artist": "[09?] Masego",
+"title": "Lady Lady (Helix Remix)",
+"label": ""
+},
+{
+"minute": 99,
+"artist": "Lektor Scopes",
+"title": "Dirty Games",
+"label": "Night Slugs",
+"bp": "bp:16991336",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/37171eef-83ce-4ab8-8623-e6c89fd6fbfc.LOFI.mp3",
+"name": "Dirty Games",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2022-10-12"
+},
+{
+"minute": 101,
+"artist": "Egyptrixx",
+"title": "The Only Way Up (Ikonika Remix)",
+"label": "Night Slugs",
+"bp": "bp:1152613",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c597ba1b-d477-4f7a-8b3f-e73eb6aff814.LOFI.mp3",
+"name": "The Only Way Up",
+"mix": "Ikonika Remix",
+"genre": "bass-club",
+"released": "2010-03-29"
+},
+{
+"minute": null,
+"artist": "[10?] DJ Swisha",
+"title": "RIP Aaliyah",
+"label": ""
+},
+{
+"minute": 105,
+"artist": "Hagan",
+"title": "Pray For Me",
+"label": "Python Syndicate Music",
+"bp": "bp:17010452",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2d94db3d-a221-4e76-b079-3f73a4f5b409.LOFI.mp3",
+"name": "Pray for Me",
+"mix": "Original Mix",
+"genre": "trap-future-bass",
+"released": "2022-10-07"
+},
+{
+"minute": 108,
+"artist": "Leonce",
+"title": "Predators",
+"label": "Morph Tracks",
+"bp": "bp:14330290",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c03efd7b-20d0-4944-915f-838d669666c4.LOFI.mp3",
+"name": "Predators",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2020-10-09"
+},
+{
+"minute": 111,
+"artist": "Head High",
+"title": "Megatrap (Real Mix)",
+"label": "Power House",
+"bp": "bp:5551221",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/742d63a8-30a7-4dce-aa5d-c70cfa2ecf12.LOFI.mp3",
+"name": "Megatrap",
+"mix": "Real Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-06-17"
+},
+{
+"minute": null,
+"artist": "[11?] Technosis",
+"title": "Change Positions",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[11?] Lighter",
+"title": "Skanker",
+"label": ""
+},
+{
+"minute": 118,
+"artist": "Reese & Santonio",
+"title": "The Sound",
+"label": "KMS",
+"bp": "bp:5348021",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d97588b2-43b8-488f-b6a2-08c91d0837d9.LOFI.mp3",
+"name": "The Sound",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-06-16"
+}
+]
+},
+{
+"title": "2023-01-17 - Bok Bok - Mornings with..., Rinse FM",
+"records": []
+},
+{
+"title": "2023-01-22 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Raining Inside",
+"label": "Night Slugs - Forthcoming",
+"bp": "bp:17624306",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b5496683-bf1f-4e1d-a968-abb5bce0cc13.LOFI.mp3",
+"name": "Raining Inside",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "Bok Bok X Helix",
+"title": "Friday 13",
+"label": "Night Slugs - Forthcoming"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Melba's Call (DJ Polo & NKC Remix)",
+"label": "Night Slugs - Forthcoming",
+"bp": "bp:17797582",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f885254f-7452-417d-840d-406db184bb6a.LOFI.mp3",
+"name": "Melba's Call",
+"mix": "DJ Polo & NKC Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Ikonika",
+"title": "No Way",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Ouais Part 2",
+"label": "Night Slugs - Forthcoming",
+"bp": "bp:17624309",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/12054f2c-1dad-49e5-a046-2eed67aee69f.LOFI.mp3",
+"name": "Ouais Part 2",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Ouais",
+"label": "Night Slugs - NS035",
+"bp": "bp:16755305",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ceaa2530-35c4-44f8-80bb-ca9b17b519ee.LOFI.mp3",
+"name": "Ouais",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2022-07-29"
+},
+{
+"minute": null,
+"artist": "Helix Feat. DJ Roy",
+"title": "Tha Lyot Remix",
+"label": "Night Slugs - NSNS025"
+},
+{
+"minute": null,
+"artist": "Hysterics",
+"title": "Empty VIP",
+"label": "Night Slugs - NSASDL003",
+"bp": "bp:8634610",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/258e36cf-31d8-45a9-b830-88a5dab51c92.LOFI.mp3",
+"name": "Empty VIP",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2016-11-25"
+},
+{
+"minute": null,
+"artist": "Hysterics",
+"title": "Code Switch (Ikonika Remix)",
+"label": "Night Slugs - Forthcoming",
+"bp": "bp:17797591",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8f16a97-e26f-4c70-8878-3e4f1b679331.LOFI.mp3",
+"name": "Code Switch",
+"mix": "Ikonika Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "L'chordian",
+"label": "Night Slugs - Forthcoming",
+"bp": "bp:17624308",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0086a2f-e772-4bfd-92e0-1a474bf57628.LOFI.mp3",
+"name": "L'Chordian",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "Jam City",
+"title": "LM1",
+"label": "Melting Bot/Night Slugs - MBIP-5519"
+},
+{
+"minute": null,
+"artist": "S.Dot X Kade X Slick Go Ham",
+"title": "For The Sole",
+"label": "Night Slugs - Forthcoming"
+},
+{
+"minute": null,
+"artist": "Robbie Rivera",
+"title": "Feel This (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Lil Silva",
+"title": "Pulse Vs Flex",
+"label": "Night Slugs - NS004",
+"bp": "bp:25685223",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fee38a13-792a-4843-a8a9-346772a190cc.LOFI.mp3",
+"name": "Pulse Vs Flex",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2010-05-31"
+},
+{
+"minute": null,
+"artist": "Zaida Zane",
+"title": "Fly By",
+"label": "Night Slugs - Forthcoming",
+"bp": "bp:17500569",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/06211a2c-7b3b-4e33-95f0-75956ab447b9.LOFI.mp3",
+"name": "Fly By",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-03-23"
+},
+{
+"minute": null,
+"artist": "Kade Young",
+"title": "Nightshift",
+"label": "Night Slugs - Forthcoming"
+},
+{
+"minute": null,
+"artist": "Helix",
+"title": "Pul$e Remix",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Rahshon Bright",
+"title": "I Heard You Like Jazz",
+"label": "Night Slugs - Forthcoming"
+},
+{
+"minute": null,
+"artist": "Hysterics X L-Vis 1990",
+"title": "Pleasuredome 4D",
+"label": ""
+},
+{
+"minute": null,
+"artist": "CalvoMusic",
+"title": "I Must Apologize",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Helix",
+"title": "Disko Chop",
+"label": "Night Slugs - NS023",
+"bp": "bp:10252494",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a729153c-477d-4e99-9763-7c4f42383b9a.LOFI.mp3",
+"name": "Disko Chop",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2018-02-16"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Foxtrot (Neana Bootleg)",
+"label": "Night Slugs - NSWL020"
+},
+{
+"minute": null,
+"artist": "Jam City",
+"title": "Garlands",
+"label": "Night Slugs - NSCC006"
+},
+{
+"minute": null,
+"artist": "S.Dot Feat. Kade Young",
+"title": "Drones",
+"label": "Night Slugs - Forthcoming"
+},
+{
+"minute": null,
+"artist": "Zaida Zane",
+"title": "Skydancer",
+"label": "Night Slugs - Forthcoming",
+"bp": "bp:17500573",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/640be822-5c5b-42e4-b616-eaa762b1bff2.LOFI.mp3",
+"name": "Skydancer",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-03-23"
+},
+{
+"minute": null,
+"artist": "Lektor Scopes",
+"title": "My Intentions",
+"label": "Night Slugs - NS036",
+"bp": "bp:16991332",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/668437ba-535a-444b-af44-01bd61f46cf7.LOFI.mp3",
+"name": "My Intentions",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2022-10-12"
+},
+{
+"minute": null,
+"artist": "CalvoMusic Feat. Zfrek",
+"title": "Shake My Ass",
+"label": "Night Slugs - NS033"
+}
+]
+},
+{
+"title": "2023-02-26 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": null,
+"artist": "Melia",
+"title": "Closure (Ronnie Loko Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Raining Inside",
+"label": "Night Slugs",
+"bp": "bp:17624306",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b5496683-bf1f-4e1d-a968-abb5bce0cc13.LOFI.mp3",
+"name": "Raining Inside",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Melba's Call (DJ Polo & Nkc Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797582",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f885254f-7452-417d-840d-406db184bb6a.LOFI.mp3",
+"name": "Melba's Call",
+"mix": "DJ Polo & NKC Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Ouais Part 2",
+"label": "Night Slugs",
+"bp": "bp:17624309",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/12054f2c-1dad-49e5-a046-2eed67aee69f.LOFI.mp3",
+"name": "Ouais Part 2",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "The System",
+"title": "You're In My System (Jerome Sydenham & Kerri Chandler Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Hysterics",
+"title": "Empty (Karen Nyame Kg Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797580",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1c947495-4700-493a-a966-70b28a9c6a68.LOFI.mp3",
+"name": "Empty",
+"mix": "Karen Nyame KG Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Hysterics",
+"title": "Code Switch (Ikonika Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797591",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8f16a97-e26f-4c70-8878-3e4f1b679331.LOFI.mp3",
+"name": "Code Switch",
+"mix": "Ikonika Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Duetto",
+"label": "Night Slugs",
+"bp": "bp:17624312",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8be4c84-ed19-4999-b8e6-850c851a29d2.LOFI.mp3",
+"name": "Duetto",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "Karen Name Kg",
+"title": "Taboo (Vanyfox Remix)",
+"label": "",
+"bp": "bp:17393512",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/9f044cdb-3166-419b-a5c0-2e7243a402ac.LOFI.mp3",
+"name": "Taboo",
+"mix": "Vanyfox Remix",
+"genre": "afro-house",
+"released": "2023-02-15"
+},
+{
+"minute": null,
+"artist": "Griffit Vigo",
+"title": "Ree's Vibe",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ronnie Loko X Karen Nyame Kg",
+"title": "Tell Me",
+"label": "Night Slugs",
+"bp": "bp:19553592",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/53a81747-e46e-4fb6-b4bb-4e743b52ae05.LOFI.mp3",
+"name": "Tell Me",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-10-16"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Ouais (River Moon Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797606",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f23aff8-0242-4c83-bb57-ef2da51423a2.LOFI.mp3",
+"name": "Ouais",
+"mix": "River Moon Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "L'chordian",
+"label": "Night Slugs",
+"bp": "bp:17624308",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0086a2f-e772-4bfd-92e0-1a474bf57628.LOFI.mp3",
+"name": "L'Chordian",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "Kade Young",
+"title": "Nightshift",
+"label": "Night Slugs"
+},
+{
+"minute": null,
+"artist": "Ossx",
+"title": "336",
+"label": "Night Slugs",
+"bp": "bp:20343484",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9a3f6d50-2840-4916-bd0c-f00c3ae2bccd.LOFI.mp3",
+"name": "336",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-04-16"
+},
+{
+"minute": null,
+"artist": "Zaida Zane",
+"title": "Fly By",
+"label": "Night Slugs",
+"bp": "bp:17500569",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/06211a2c-7b3b-4e33-95f0-75956ab447b9.LOFI.mp3",
+"name": "Fly By",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-03-23"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Silo Pass (Ilsxnd7rs Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797610",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f18d8347-15b3-43e6-9bcf-818b252b3611.LOFI.mp3",
+"name": "Silo Pass",
+"mix": "JLSXND7RS Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Zaida Zane",
+"title": "Skydancer",
+"label": "Night Slugs",
+"bp": "bp:17500573",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/640be822-5c5b-42e4-b616-eaa762b1bff2.LOFI.mp3",
+"name": "Skydancer",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-03-23"
+},
+{
+"minute": null,
+"artist": "Tah",
+"title": "I Heard You Like Jazz",
+"label": "Night Slugs"
+},
+{
+"minute": null,
+"artist": "L-Vis 1990",
+"title": "Video Drone (Ossx Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797620",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1386d0b9-be78-451c-807e-466131a80234.LOFI.mp3",
+"name": "Video Drone",
+"mix": "OSSX Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Zaida Zane",
+"title": "Zz Plant",
+"label": "Night Slugs",
+"bp": "bp:17500577",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/54533159-5631-42a7-a599-d5dab0825517.LOFI.mp3",
+"name": "ZZ Plant",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-03-23"
+},
+{
+"minute": null,
+"artist": "Egyptrixx",
+"title": "Water (Fraxinus Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797628",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2d442010-dfbb-4b6b-98ad-bb2c1f0b190d.LOFI.mp3",
+"name": "Water",
+"mix": "Fraxinus Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "S. DOT Feat. KADE YOUNG",
+"title": "Drones",
+"label": "Night Slugs"
+}
+]
+},
+{
+"title": "2023-03-26 - Bok Bok - Rinse FM (Duetto EP Warmup)",
+"records": [
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Raining Inside (Helix Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Leonce",
+"title": "Tripwires (Scotti Dee Remix)",
+"label": "",
+"bp": "bp:17797597",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ba05481d-914c-4689-bd7d-4d7c26d9040b.LOFI.mp3",
+"name": "Tripwires",
+"mix": "scotti dee Re-Work",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Big Strick",
+"title": "Old E 800 (Omar S Remix)",
+"label": "",
+"bp": "bp:1599262",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/52cf5aca-6f8a-44f6-9437-3181d7bb0a23.LOFI.mp3",
+"name": "Old E 800",
+"mix": "Omar S. Remix",
+"genre": "techno-peak-time-driving",
+"released": "2010-04-01"
+},
+{
+"minute": null,
+"artist": "Ikonika",
+"title": "Details",
+"label": "",
+"bp": "bp:18861268",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0d2b2ad8-3810-446e-a4c9-c3d8f4b24857.LOFI.mp3",
+"name": "Details",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-04-10"
+},
+{
+"minute": null,
+"artist": "M.J, DBN Gogo, Mpura, Blaqnick, Masterblaq, Amaavenger",
+"title": "Huzua Gogo (Shimza Remix)",
+"label": "",
+"bp": "bp:15613317",
+"score": 0.94,
+"preview": "https://geo-samples.beatport.com/track/aa162a37-a007-447f-a228-c28e15ca9741.LOFI.mp3",
+"name": "Khuza Gogo",
+"mix": "Shimza Remix",
+"genre": "afro-house",
+"released": "2021-08-20"
+},
+{
+"minute": null,
+"artist": "Karizma",
+"title": "Outta Control",
+"label": "",
+"bp": "bp:110323",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3c347e14-f015-47d8-9112-938f4323289c.LOFI.mp3",
+"name": "Outta Control",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2000-05-30"
+},
+{
+"minute": null,
+"artist": "Built From Scratch",
+"title": "Pos",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Mystery",
+"title": "Changes",
+"label": "",
+"bp": "bp:13485448",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/a18361ca-6ad7-4946-b963-f4499f890080.LOFI.mp3",
+"name": "Changes",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2020-05-08"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Quais (River Moon Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Karizma",
+"title": "Tech This Put Pt2",
+"label": "",
+"bp": "bp:16692467",
+"score": 0.949,
+"preview": "https://geo-samples.beatport.com/track/8699875f-f3ef-47e6-b7ae-2941adaa94fd.LOFI.mp3",
+"name": "Tech This Out Pt. 2",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-07-22"
+},
+{
+"minute": null,
+"artist": "DJ Lag",
+"title": "Voltage",
+"label": "",
+"bp": "bp:24024807",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/1a080cf8-b678-48ef-af0b-927976819759.LOFI.mp3",
+"name": "Voltage",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2026-02-19"
+},
+{
+"minute": null,
+"artist": "Sole Fusion",
+"title": "Bass Tone (Scratcha DVA's Soul Destroy Mix) (BB Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Lag",
+"title": "Drumming",
+"label": "",
+"bp": "bp:14485366",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b84dfaad-5899-4694-a485-854315ab95b7.LOFI.mp3",
+"name": "Drumming",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2020-11-06"
+},
+{
+"minute": null,
+"artist": "DJ Gregory",
+"title": "Traffic",
+"label": "",
+"bp": "bp:9949636",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7162cc24-270b-4cf4-a9c9-929ac323e875.LOFI.mp3",
+"name": "Traffic",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2017-12-08"
+},
+{
+"minute": null,
+"artist": "Rudeboyz",
+"title": "Get Down",
+"label": "",
+"bp": "bp:6631527",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ceeafa97-359a-43d3-a6a2-bc36a87f8c0f.LOFI.mp3",
+"name": "Get Down",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2015-05-25"
+},
+{
+"minute": null,
+"artist": "Karizma",
+"title": "Darqness",
+"label": "",
+"bp": "bp:17333810",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6169c765-6388-444b-8252-21bea7bdc8ab.LOFI.mp3",
+"name": "Darqness",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-02-17"
+},
+{
+"minute": null,
+"artist": "Lil Silva",
+"title": "Tribal Land",
+"label": "",
+"bp": "bp:16127899",
+"score": 0.67,
+"preview": "https://geo-samples.beatport.com/track/0c70cbd3-28b3-4d88-bd4b-b4255cdceae1.LOFI.mp3",
+"name": "Tribal Sound",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2022-01-14"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Silo Pass (JLSXND7RS Remix)",
+"label": "",
+"bp": "bp:17797610",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f18d8347-15b3-43e6-9bcf-818b252b3611.LOFI.mp3",
+"name": "Silo Pass",
+"mix": "JLSXND7RS Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Duetto",
+"label": "",
+"bp": "bp:17624312",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8be4c84-ed19-4999-b8e6-850c851a29d2.LOFI.mp3",
+"name": "Duetto",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "Helix",
+"title": "Track Titled 1 (Jossy Mitsu Remix)",
+"label": "",
+"bp": "bp:17797627",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7ee332ab-2548-402e-96f8-02ce43f6e930.LOFI.mp3",
+"name": "Track Titled 1",
+"mix": "Jossy Mitsu Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Omar S Feat. Don Q",
+"title": "U",
+"label": ""
+}
+]
+},
+{
+"title": "2023-04-07 - Bok Bok - Dekmantel Radio 17, Echobox Radio",
+"records": []
+},
+{
+"title": "2023-04-17 - Bok Bok @ H\u00d6R London Takeover",
+"records": [
+{
+"minute": null,
+"artist": "Bok Bok X Modjo",
+"title": "Lady X Raining Inside",
+"label": ""
+},
+{
+"minute": null,
+"artist": "CalvoMusic",
+"title": "Shake My Ass (Ronnie Loko Remix)",
+"label": "",
+"bp": "bp:17797587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7125cc1-51b1-4743-95f0-9ddef7559663.LOFI.mp3",
+"name": "Shake My Ass",
+"mix": "Ronnie Loko Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Ouais (Hysterics Remix)",
+"label": "",
+"bp": "bp:16755307",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a2be8d2-2319-4ad2-b76a-2a122a703316.LOFI.mp3",
+"name": "Ouais",
+"mix": "Hysterics Remix",
+"genre": "bass-club",
+"released": "2022-07-29"
+},
+{
+"minute": null,
+"artist": "Hysterics",
+"title": "Code Switch (Ikonika Remix)",
+"label": "",
+"bp": "bp:17797591",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8f16a97-e26f-4c70-8878-3e4f1b679331.LOFI.mp3",
+"name": "Code Switch",
+"mix": "Ikonika Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Ultra Nate",
+"title": "Love's The Only Drug (Adam Rios Shelter Remix - Bok's Dub)",
+"label": "",
+"bp": "bp:210870",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f1bdb4d-24bc-4ef7-806f-b08d219da0fb.LOFI.mp3",
+"name": "Love's The Only Drug",
+"mix": "Adam Rios Shelter Mix",
+"genre": "house",
+"released": "2006-11-17"
+},
+{
+"minute": null,
+"artist": "Fraxinus",
+"title": "Torsion",
+"label": "",
+"bp": "bp:16232794",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af9ffdc9-7856-4505-9fe8-50eee397abcc.LOFI.mp3",
+"name": "Torsion",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2022-02-11"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Duetto",
+"label": "",
+"bp": "bp:17624312",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8be4c84-ed19-4999-b8e6-850c851a29d2.LOFI.mp3",
+"name": "Duetto",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": null,
+"artist": "Karen Nyame KG",
+"title": "Taboo (Vanyfox Remix)",
+"label": "",
+"bp": "bp:17393512",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9f044cdb-3166-419b-a5c0-2e7243a402ac.LOFI.mp3",
+"name": "Taboo",
+"mix": "Vanyfox Remix",
+"genre": "afro-house",
+"released": "2023-02-15"
+},
+{
+"minute": null,
+"artist": "Neana",
+"title": "Cyberia (Hagan Remix)",
+"label": "",
+"bp": "bp:17797595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb7ae056-4a32-4099-9fbd-ab62b8969852.LOFI.mp3",
+"name": "Cyberia",
+"mix": "Hagan Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Lil Silva",
+"title": "Pulse vs Flex",
+"label": "",
+"bp": "bp:25685223",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fee38a13-792a-4843-a8a9-346772a190cc.LOFI.mp3",
+"name": "Pulse Vs Flex",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2010-05-31"
+},
+{
+"minute": null,
+"artist": "Rudeboyz",
+"title": "Get Down",
+"label": "",
+"bp": "bp:6631527",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ceeafa97-359a-43d3-a6a2-bc36a87f8c0f.LOFI.mp3",
+"name": "Get Down",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2015-05-25"
+},
+{
+"minute": null,
+"artist": "Cooly G",
+"title": "Digitally Higher",
+"label": "",
+"bp": "bp:18075637",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2823cfd5-262e-4094-b7a1-856cb74e1500.LOFI.mp3",
+"name": "Digitally Higher",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2018-06-15"
+},
+{
+"minute": null,
+"artist": "Normani",
+"title": "Wild Side (Leonce Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Sole Fusion",
+"title": "Bass Tone (Scratcha DVA's Soul Destroy Mix - BB Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Proxy",
+"title": "Raven (Vakkuum Remix)",
+"label": "",
+"bp": "bp:13554980",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/277ad5fa-0d96-4d4f-8889-ffb5f2d16e3e.LOFI.mp3",
+"name": "Raven",
+"mix": "Vakkuum Remix",
+"genre": "techno-peak-time-driving",
+"released": "2019-08-28"
+},
+{
+"minute": null,
+"artist": "Lil Silva",
+"title": "Tribal Land",
+"label": "",
+"bp": "bp:16127899",
+"score": 0.67,
+"preview": "https://geo-samples.beatport.com/track/0c70cbd3-28b3-4d88-bd4b-b4255cdceae1.LOFI.mp3",
+"name": "Tribal Sound",
+"mix": "Original Mix",
+"genre": "latin-electronic",
+"released": "2022-01-14"
+},
+{
+"minute": null,
+"artist": "Shenseea X Helix",
+"title": "Deserve It X Arena Boogie (Ayaya Blend)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Karizma",
+"title": "Darqness (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "OSSX",
+"title": "Big Yawn",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Helix",
+"title": "Track Titled 1 (Jossy Mitsu Remix)",
+"label": "",
+"bp": "bp:17797627",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7ee332ab-2548-402e-96f8-02ce43f6e930.LOFI.mp3",
+"name": "Track Titled 1",
+"mix": "Jossy Mitsu Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+}
+]
+},
+{
+"title": "2023-04-23 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "Hysteric",
+"title": "Empty (Karen Nyame KG Remix)",
+"label": "Night Slugs"
+},
+{
+"minute": 4,
+"artist": "Bok Bok X Modjo",
+"title": "Raining Inside X Lady",
+"label": ""
+},
+{
+"minute": 8,
+"artist": "Bok Bok",
+"title": "Duetto",
+"label": "Night Slugs",
+"bp": "bp:17624312",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8be4c84-ed19-4999-b8e6-850c851a29d2.LOFI.mp3",
+"name": "Duetto",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 10,
+"artist": "Calvomusic",
+"title": "Shake My Ass (Ronnie Loko Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7125cc1-51b1-4743-95f0-9ddef7559663.LOFI.mp3",
+"name": "Shake My Ass",
+"mix": "Ronnie Loko Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Hysterics",
+"title": "Code Switch (Ikonika Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797591",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8f16a97-e26f-4c70-8878-3e4f1b679331.LOFI.mp3",
+"name": "Code Switch",
+"mix": "Ikonika Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Ultra Nat\u00e9",
+"title": "Love's The Only Drug (Adam Rios Shelter Remix) (Bok's Dub)",
+"label": "",
+"bp": "bp:210870",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/6f1bdb4d-24bc-4ef7-806f-b08d219da0fb.LOFI.mp3",
+"name": "Love's The Only Drug",
+"mix": "Adam Rios Shelter Mix",
+"genre": "house",
+"released": "2006-11-17"
+},
+{
+"minute": null,
+"artist": "Neana",
+"title": "Cyberia (Hagan Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb7ae056-4a32-4099-9fbd-ab62b8969852.LOFI.mp3",
+"name": "Cyberia",
+"mix": "Hagan Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Mr. G",
+"title": "Tune In",
+"label": "",
+"bp": "bp:9000496",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9441d62-8a39-46f7-80a8-c27244e1f9dd.LOFI.mp3",
+"name": "Tune In",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2013-10-07"
+},
+{
+"minute": 23,
+"artist": "OSSX",
+"title": "Daydream",
+"label": ""
+},
+{
+"minute": 26,
+"artist": "Bok Bok",
+"title": "L'Chordian",
+"label": "Night Slugs",
+"bp": "bp:17624308",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0086a2f-e772-4bfd-92e0-1a474bf57628.LOFI.mp3",
+"name": "L'Chordian",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 29,
+"artist": "DJ Gregory",
+"title": "Traffic (Bok's Dub)",
+"label": "Night Slugs"
+},
+{
+"minute": null,
+"artist": "Zaida Zane",
+"title": "Ask For Everything",
+"label": "Night Slugs",
+"bp": "bp:19333579",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/68834eea-87b1-4410-9430-eff9e4873515.LOFI.mp3",
+"name": "Ask for Everything",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-08-07"
+},
+{
+"minute": null,
+"artist": "Karizma",
+"title": "Darqness (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Silo Pass (JLSXND7RS Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797610",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f18d8347-15b3-43e6-9bcf-818b252b3611.LOFI.mp3",
+"name": "Silo Pass",
+"mix": "JLSXND7RS Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Egyptrixx",
+"title": "Water (Fraxinus Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797628",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2d442010-dfbb-4b6b-98ad-bb2c1f0b190d.LOFI.mp3",
+"name": "Water",
+"mix": "Fraxinus Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "OSSX",
+"title": "336",
+"label": "Night Slugs",
+"bp": "bp:20343484",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9a3f6d50-2840-4916-bd0c-f00c3ae2bccd.LOFI.mp3",
+"name": "336",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-04-16"
+},
+{
+"minute": 48,
+"artist": "Helix",
+"title": "Track Titled 1 (Jossy Mitsu Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797627",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7ee332ab-2548-402e-96f8-02ce43f6e930.LOFI.mp3",
+"name": "Track Titled 1",
+"mix": "Jossy Mitsu Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": 52,
+"artist": "Calvomusic X S.Dot X Slick Go Ham",
+"title": "Last Time",
+"label": "Night Slugs"
+},
+{
+"minute": 54,
+"artist": "Kayy Drizz",
+"title": "Papaya Lipgloss Remix",
+"label": "Night Slugs"
+},
+{
+"minute": 56,
+"artist": "JLSXND7RS",
+"title": "OneTwoFive",
+"label": ""
+},
+{
+"minute": 58,
+"artist": "Zinc & Geeneus Feat. Nikki",
+"title": "Emotions",
+"label": "Rinse",
+"bp": "bp:1024637",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/9a9090de-57f0-4060-9f17-3733fbedbca1.LOFI.mp3",
+"name": "Emotions",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2008-12-01"
+}
+]
+},
+{
+"title": "2023-05-04 - Bok Bok b2b Ikonika - Rinse FM",
+"records": []
+},
+{
+"title": "2023-05-28 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2023-06-25 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "J Hus",
+"title": "Who Told You (Drakeless Edit)",
+"label": ""
+},
+{
+"minute": 2,
+"artist": "Karen Nyame KG",
+"title": "Gimme More (KG Edit)",
+"label": ""
+},
+{
+"minute": 4,
+"artist": "Cooly G",
+"title": "Save Me",
+"label": "Hyperdub",
+"bp": "bp:9558646",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/cf20bd8f-9510-4b9c-8961-7e1f9b8d0d3e.LOFI.mp3",
+"name": "Save Me",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2017-08-06"
+},
+{
+"minute": 9,
+"artist": "Fuzzy Logik",
+"title": "Turn & Twiss",
+"label": "Roska Kicks & Snares",
+"bp": "bp:12293108",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/85851d3f-262a-4da9-9118-bcf19ea34424.LOFI.mp3",
+"name": "Turn & Twiss",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2019-07-12"
+},
+{
+"minute": 10,
+"artist": "DJ Gregory",
+"title": "Klappa",
+"label": "Defected",
+"bp": "bp:9949638",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/20f02601-ef29-487f-bdee-61466c453b25.LOFI.mp3",
+"name": "Klappa",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2017-12-08"
+},
+{
+"minute": 12,
+"artist": "Ohjeelo",
+"title": "2 Steps",
+"label": "",
+"bp": "bp:16508528",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/798651c2-3033-4ff8-937e-ec636e10d0e0.LOFI.mp3",
+"name": "2 Steps",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-06-25"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Ouais (River Moon Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797606",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f23aff8-0242-4c83-bb57-ef2da51423a2.LOFI.mp3",
+"name": "Ouais",
+"mix": "River Moon Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": null,
+"artist": "Mina Jackson & The Children",
+"title": "Pray (Mike Dunn's Blackball Instrumental Mix)",
+"label": "",
+"bp": "bp:868449",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/653eb1d5-bfbe-446f-a32b-fe269e5cfc63.LOFI.mp3",
+"name": "Pray",
+"mix": "Mike Dunn's Blackbal Instrumental Mix",
+"genre": "house",
+"released": "2009-06-10"
+},
+{
+"minute": null,
+"artist": "FKA Twigs",
+"title": "Tears In The Club (MIKEQ & 2 LIVE Remix Feat. Precious)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Leonce & NKC",
+"title": "Syndrome",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Doja Cat",
+"title": "Get Into It (Yuh) (Zaida Zane Bootleg Refix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "252",
+"title": "Apply Pulse",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Neana",
+"title": "Cyberia (Hagan Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb7ae056-4a32-4099-9fbd-ab62b8969852.LOFI.mp3",
+"name": "Cyberia",
+"mix": "Hagan Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": 32,
+"artist": "Karen Nyame KG & Vanyfox",
+"title": "Taboo (Vanyfox Remix)",
+"label": "Black Acre",
+"bp": "bp:17393512",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/9f044cdb-3166-419b-a5c0-2e7243a402ac.LOFI.mp3",
+"name": "Taboo",
+"mix": "Vanyfox Remix",
+"genre": "afro-house",
+"released": "2023-02-15"
+},
+{
+"minute": 35,
+"artist": "Hysterics",
+"title": "Code Switch (Ikonika Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797591",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8f16a97-e26f-4c70-8878-3e4f1b679331.LOFI.mp3",
+"name": "Code Switch",
+"mix": "Ikonika Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": 37,
+"artist": "Jorja Smith",
+"title": "Little Things (Bok's Dub)",
+"label": ""
+},
+{
+"minute": 40,
+"artist": "Dennis Ferrer",
+"title": "Transitions",
+"label": "",
+"bp": "bp:17253973",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f0a64ce-0939-4310-9f19-588e1a7cde24.LOFI.mp3",
+"name": "Transitions",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2007-02-20"
+},
+{
+"minute": 42,
+"artist": "Karizma",
+"title": "BroKin Beats",
+"label": "R2"
+},
+{
+"minute": 45,
+"artist": "JLSXND7RS",
+"title": "One Two Five",
+"label": ""
+},
+{
+"minute": 47,
+"artist": "Ashanti & DJ Tunez X Kaval",
+"title": "Energy X Moving Lianas (AYAYA Blend)",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "Griffit Vigo",
+"title": "Ree's Vibe",
+"label": "Gqom Oh!"
+},
+{
+"minute": 50,
+"artist": "Calvomusic",
+"title": "Shake My Ass (Ronnie Loko Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7125cc1-51b1-4743-95f0-9ddef7559663.LOFI.mp3",
+"name": "Shake My Ass",
+"mix": "Ronnie Loko Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": 53,
+"artist": "Bok Bok",
+"title": "Duetto",
+"label": "Night Slugs",
+"bp": "bp:17624312",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8be4c84-ed19-4999-b8e6-850c851a29d2.LOFI.mp3",
+"name": "Duetto",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 56,
+"artist": "Bok Bok",
+"title": "Melba's Call (DJ Polo & NKC Remix)",
+"label": "Night Slugs",
+"bp": "bp:17797582",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f885254f-7452-417d-840d-406db184bb6a.LOFI.mp3",
+"name": "Melba's Call",
+"mix": "DJ Polo & NKC Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+}
+]
+},
+{
+"title": "2023-07-30 - Bok Bok b2b Girl Unit - Night Slugs X Rinse FM: 15 Years Of Night Slugs",
+"records": []
+},
+{
+"title": "2023-08-11 - Bok Bok @ The Lot Radio, New York",
+"records": []
+},
+{
+"title": "2023-08-27 - Bok Bok - Rinse FM (Faster Edition)",
+"records": []
+},
+{
+"title": "2023-09-24 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "Floetry",
+"title": "Getting Late (Maestro Remix)",
+"label": ""
+},
+{
+"minute": 3,
+"artist": "NGOBZ Feat. Snyper Reloaded",
+"title": "Quantum Sounds",
+"label": ""
+},
+{
+"minute": 6,
+"artist": "Muni Long",
+"title": "Hrs & Hrs (Smoove Kriminal Remix)",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Karizma",
+"title": "Dreamer (Knevermnd Dub)",
+"label": ""
+},
+{
+"minute": 14,
+"artist": "Paperclip People",
+"title": "Throw",
+"label": "Planet E Communications",
+"bp": "bp:3604172",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f025f774-d65c-4487-8e8f-08448998531f.LOFI.mp3",
+"name": "Throw",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2012-04-26"
+},
+{
+"minute": 17,
+"artist": "SpacePose",
+"title": "Nyakazisa",
+"label": "Sabusa"
+},
+{
+"minute": 19,
+"artist": "Young Don",
+"title": "Always Be My Baby (Money)",
+"label": "(Crazy Cousinz Remix) - Defenders Entertainment",
+"bp": "bp:11486614",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/151e0b99-2852-4384-93b1-dc6fa9e48774.LOFI.mp3",
+"name": "Always Be My Baby (Money)",
+"mix": "Crazy Cousinz Remix",
+"genre": "house",
+"released": "2009-05-18"
+},
+{
+"minute": 21,
+"artist": "Altered Natives",
+"title": "Bullet Blade Knuckle Slap",
+"label": ""
+},
+{
+"minute": 25,
+"artist": "Leonce X Moloko",
+"title": "Sing It Back (Girl Unit Edit)",
+"label": ""
+},
+{
+"minute": 29,
+"artist": "DJ Gregory",
+"title": "Traffic (BOK Dub)",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "Zaida Zane",
+"title": "Do You Miss Me? (ZZ Planet Bootleg)",
+"label": ""
+},
+{
+"minute": 34,
+"artist": "Bok Bok",
+"title": "L'Chordian",
+"label": "Night Slugs",
+"bp": "bp:17624308",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0086a2f-e772-4bfd-92e0-1a474bf57628.LOFI.mp3",
+"name": "L'Chordian",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 36,
+"artist": "Spacepose",
+"title": "My Feelings",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Debonair Samir",
+"title": "Samir's Theme (Zaida Zane Remix)",
+"label": ""
+},
+{
+"minute": 42,
+"artist": "Maestro",
+"title": "Zeus",
+"label": "Housupa",
+"bp": "bp:17301223",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b16ebe8f-6166-4cc5-b22f-480b8e98b194.LOFI.mp3",
+"name": "Zeus",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2023-01-27"
+},
+{
+"minute": 45,
+"artist": "DJ Lag",
+"title": "Pack Lock",
+"label": "Goon Club Allstars - GCA006"
+},
+{
+"minute": 48,
+"artist": "808 State",
+"title": "Pacific State (Bok's Dub)",
+"label": ""
+},
+{
+"minute": 50,
+"artist": "Karen Nyame KG & Vanyfox",
+"title": "Taboo (Vanyfox Remix)",
+"label": "Black Acre",
+"bp": "bp:17393512",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/9f044cdb-3166-419b-a5c0-2e7243a402ac.LOFI.mp3",
+"name": "Taboo",
+"mix": "Vanyfox Remix",
+"genre": "afro-house",
+"released": "2023-02-15"
+},
+{
+"minute": 51,
+"artist": "Hysterics",
+"title": "Code Switch (Hysterics Remix)",
+"label": ""
+},
+{
+"minute": 54,
+"artist": "Cooly G & Marcus Damon",
+"title": "Save Me",
+"label": "Hyperdub"
+},
+{
+"minute": 56,
+"artist": "Atjazz & Jullian Gomes Feat. Bucie",
+"title": "Out Of My Life",
+"label": "Atjazz - Arc-071-Sd Txs",
+"bp": "bp:5977129",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/9f63a0ff-ae3f-44d0-bbf3-f4e694757a9c.LOFI.mp3",
+"name": "Out of My Life",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2014-11-21"
+}
+]
+},
+{
+"title": "2023-10-22 - Bok Bok b2b Nico Adomako - Rinse FM",
+"records": []
+},
+{
+"title": "2023-11-01 - Bok Bok - Bleep Mix 273",
+"records": []
+},
+{
+"title": "2023-11-21 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2023-12-01 - Tim Sweeney, Bok Bok - Beats In Space 098, Apple Music",
+"records": [
+{
+"minute": 0,
+"artist": "(sssurrounddd)",
+"title": "Drive Me Crazy (XTAL Dance Version)",
+"label": "",
+"bp": "bp:16747563",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ea9c67ac-f373-4d07-b369-5f83d5d93fa8.LOFI.mp3",
+"name": "Drive Me Crazy",
+"mix": "XTAL Dance Version",
+"genre": "deep-house",
+"released": "2022-08-12"
+},
+{
+"minute": 5,
+"artist": "Justin Van Der Volgen",
+"title": "Sheebooyah",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "New Jackson",
+"title": "Acid Jackson",
+"label": "",
+"bp": "bp:18262125",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7c3cd8cd-f9d1-4949-82a7-b14e98e5c22e.LOFI.mp3",
+"name": "Acid Jackson",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2023-11-17"
+},
+{
+"minute": 16,
+"artist": "Acid Jerks",
+"title": "Wheels Of Fortune",
+"label": "",
+"bp": "bp:18187187",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dbea4ca0-c56d-4470-9ddc-26f872d10b02.LOFI.mp3",
+"name": "Wheels Of Fortune",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-11-03"
+},
+{
+"minute": 21,
+"artist": "Peffa",
+"title": "Routine",
+"label": "",
+"bp": "bp:18256514",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aa24e245-0b93-4359-982c-394699361525.LOFI.mp3",
+"name": "Routine",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2023-11-24"
+},
+{
+"minute": 25,
+"artist": "Ali Schwarz",
+"title": "Red Dog",
+"label": "",
+"bp": "bp:18290219",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36ac13e4-2c1f-418b-9c64-b9efd85377af.LOFI.mp3",
+"name": "Red Dog",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-11-17"
+},
+{
+"minute": 29,
+"artist": "Seth Troxler & Audion",
+"title": "Hate",
+"label": "",
+"bp": "bp:18257048",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0b2a3bb9-ce7f-4d37-b124-6ef04e127331.LOFI.mp3",
+"name": "Hate",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-11-17"
+},
+{
+"minute": 35,
+"artist": "Wallace",
+"title": "Labyrinth",
+"label": "",
+"bp": "bp:18060006",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e4a76fe8-90fd-46bd-92c3-b5b6c68dfa27.LOFI.mp3",
+"name": "Labyrinth",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-11-24"
+},
+{
+"minute": 40,
+"artist": "Laolu Feat. Kamohelo",
+"title": "Monday To Sunday",
+"label": ""
+},
+{
+"minute": 45,
+"artist": "Oceanic",
+"title": "Even If I Lose Everything (DJ Version)",
+"label": "",
+"bp": "bp:18342351",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d839511-8bdc-4df8-a6d6-482f895ae4c3.LOFI.mp3",
+"name": "Even If I Lose Everything",
+"mix": "DJ Version",
+"genre": "deep-house",
+"released": "2023-11-24"
+},
+{
+"minute": 51,
+"artist": "Levon Vincent",
+"title": "Waiting",
+"label": "",
+"bp": "bp:18262097",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/483893fa-8bdd-439c-a8c0-09e48fc61935.LOFI.mp3",
+"name": "Waiting",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2023-11-17"
+},
+{
+"minute": 56,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 0,
+"artist": "Mariah Carey",
+"title": "Fantasy (KNEVRM!ND Mix)",
+"label": ""
+},
+{
+"minute": 5,
+"artist": "DJ Gregory",
+"title": "Traffic",
+"label": "",
+"bp": "bp:9949636",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7162cc24-270b-4cf4-a9c9-929ac323e875.LOFI.mp3",
+"name": "Traffic",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2017-12-08"
+},
+{
+"minute": 5,
+"artist": "Moloko",
+"title": "Sing It Back (Girl Unit Edit)",
+"label": ""
+},
+{
+"minute": 9,
+"artist": "Pirates Of The Carribean",
+"title": "Rumba (Helix Remix)",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Jorja Smith",
+"title": "Little Things (Bok Bok Remix)",
+"label": ""
+},
+{
+"minute": 13,
+"artist": "Floetry",
+"title": "Getting Late (Maestro Remix)",
+"label": ""
+},
+{
+"minute": 18,
+"artist": "Mina Jackson And The Children",
+"title": "Pray (Mike Dunn's Blackbal Instrumental Mix)",
+"label": "",
+"bp": "bp:868449",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/653eb1d5-bfbe-446f-a32b-fe269e5cfc63.LOFI.mp3",
+"name": "Pray",
+"mix": "Mike Dunn's Blackbal Instrumental Mix",
+"genre": "house",
+"released": "2009-06-10"
+},
+{
+"minute": 19,
+"artist": "Cooly G Feat. Ruth Brown",
+"title": "We Can Find Love Too",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "Neana",
+"title": "Cyberia (Hagan Remix)",
+"label": "",
+"bp": "bp:17797595",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb7ae056-4a32-4099-9fbd-ab62b8969852.LOFI.mp3",
+"name": "Cyberia",
+"mix": "Hagan Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": 25,
+"artist": "E-Dancer",
+"title": "Pump The Move (Bok Bok Dub)",
+"label": ""
+},
+{
+"minute": 28,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 30,
+"artist": "Hysterics",
+"title": "Code Switch (Ikonika Remix)",
+"label": "",
+"bp": "bp:17797591",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8f16a97-e26f-4c70-8878-3e4f1b679331.LOFI.mp3",
+"name": "Code Switch",
+"mix": "Ikonika Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": 32,
+"artist": "CalvoMusic",
+"title": "Shake My Ass (Ronnie Loko Remix)",
+"label": "",
+"bp": "bp:17797587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d7125cc1-51b1-4743-95f0-9ddef7559663.LOFI.mp3",
+"name": "Shake My Ass",
+"mix": "Ronnie Loko Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": 35,
+"artist": "Normani Feat. Cardi B",
+"title": "Wild Side (Leonce Remix)",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Karizma",
+"title": "Darqness (Bok Bok Dub)",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "Bok Bok",
+"title": "L'Chordian",
+"label": "",
+"bp": "bp:17624308",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0086a2f-e772-4bfd-92e0-1a474bf57628.LOFI.mp3",
+"name": "L'Chordian",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 44,
+"artist": "Jocelyn Enriquez",
+"title": "Do You Miss Me (Zaida Zane Remix)",
+"label": ""
+},
+{
+"minute": 47,
+"artist": "Bok Bok",
+"title": "Duetto",
+"label": "",
+"bp": "bp:17624312",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8be4c84-ed19-4999-b8e6-850c851a29d2.LOFI.mp3",
+"name": "Duetto",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 51,
+"artist": "Head High Feat. Cassy",
+"title": "Changes",
+"label": "",
+"bp": "bp:19832888",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/1f9668a0-7ac4-4b8c-a8d7-7ad5675c9560.LOFI.mp3",
+"name": "Changes",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-11-22"
+},
+{
+"minute": 52,
+"artist": "Dennis Ferrer",
+"title": "Transitions",
+"label": "",
+"bp": "bp:17253973",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f0a64ce-0939-4310-9f19-588e1a7cde24.LOFI.mp3",
+"name": "Transitions",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2007-02-20"
+},
+{
+"minute": 55,
+"artist": "The Manuel Azevedo Quartet",
+"title": "Futebol De Bar (Bok Bok Dub)",
+"label": ""
+},
+{
+"minute": 58,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 59,
+"artist": "Cleo Sol",
+"title": "Know That You Are Loved (DJ Supa D & Maestro Remix)",
+"label": ""
+}
+]
+},
+{
+"title": "2023-12-08 - Bok Bok @ Avalanche x 0ffice, Kieth Flack, Fokouka, Japan (Rinse FM, 2023-12-21)",
+"records": []
+},
+{
+"title": "2024-01-16 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "Thuto The Human",
+"title": "Dollar For Love (Baby)",
+"label": "2woBunnies",
+"bp": "bp:18819335",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/34d4a1c4-45d7-49d1-8929-8488f5b40ece.LOFI.mp3",
+"name": "Dollar For Love (Baby)",
+"mix": "Baby",
+"genre": "amapiano",
+"released": "2023-09-08"
+},
+{
+"minute": 4,
+"artist": "DJ Co.Kr Feat. Liu Leee & Killin",
+"title": "Ride Or Die (Ikonika Remix)",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "Teraphonique & DNZL444",
+"title": "MOB TIES",
+"label": "",
+"bp": "bp:18907485",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6bbf4431-3e54-462c-916d-be18a890999b.LOFI.mp3",
+"name": "MOB TIES",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2022-12-16"
+},
+{
+"minute": 11,
+"artist": "Griffit Vigo",
+"title": "Chord",
+"label": "",
+"bp": "bp:18537511",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2c971a93-1267-4bf8-8003-da554c304ed9.LOFI.mp3",
+"name": "Chord",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-01-11"
+},
+{
+"minute": 13,
+"artist": "T. Williams Feat. Terri Walker",
+"title": "Heartbeat (Scotti Dee Remix)",
+"label": "",
+"bp": "bp:18398569",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/4a74c127-8501-4567-9a30-45f0512e9f88.LOFI.mp3",
+"name": "Heartbeat (feat. Terri Walker)",
+"mix": "Scotti Dee Remix",
+"genre": "amapiano",
+"released": "2023-12-05"
+},
+{
+"minute": 16,
+"artist": "Helix",
+"title": "126 Shenmue",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "Ice Spice",
+"title": "Deli",
+"label": "Ice Spice/Ten Thousand Projects",
+"bp": "bp:20897792",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cad22cd1-2fe6-42e2-84b6-faf3b37f8e63.LOFI.mp3",
+"name": "Deli",
+"mix": "Original Mix",
+"genre": "hip-hop",
+"released": "2023-07-21"
+},
+{
+"minute": 21,
+"artist": "Pabi Cooper Feat. Mellow & Sleazy",
+"title": "Waga Bietjie",
+"label": "",
+"bp": "bp:19468426",
+"score": 0.67,
+"preview": "https://geo-samples.beatport.com/track/a5b6a1eb-527b-4a94-92f5-ab96bc3f4e61.LOFI.mp3",
+"name": "Waga Bietjie (feat. Mellow & Sleazy)",
+"mix": "feat. Mellow & Sleazy",
+"genre": "amapiano",
+"released": "2022-09-30"
+},
+{
+"minute": 23,
+"artist": "Bok Bok",
+"title": "Ouais (Hysterics Remix)",
+"label": "Night Slugs",
+"bp": "bp:16755307",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a2be8d2-2319-4ad2-b76a-2a122a703316.LOFI.mp3",
+"name": "Ouais",
+"mix": "Hysterics Remix",
+"genre": "bass-club",
+"released": "2022-07-29"
+},
+{
+"minute": 25,
+"artist": "Mad One",
+"title": "Antarctica",
+"label": "",
+"bp": "bp:768669",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/bea6a003-bcdd-415b-b949-f50935238a9c.LOFI.mp3",
+"name": "Antarctica",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2009-01-21"
+},
+{
+"minute": 28,
+"artist": "Ant Sees Red",
+"title": "Someday",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "Ikonika",
+"title": "Details",
+"label": "Night Slugs",
+"bp": "bp:18861268",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0d2b2ad8-3810-446e-a4c9-c3d8f4b24857.LOFI.mp3",
+"name": "Details",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-04-10"
+},
+{
+"minute": 34,
+"artist": "Scotti Dee",
+"title": "MG Kelly",
+"label": "",
+"bp": "bp:21952183",
+"score": 0.662,
+"preview": "https://geo-samples.beatport.com/track/67191cc7-1588-486d-84da-f29c7b608807.LOFI.mp3",
+"name": "Kelly",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2021-07-16"
+},
+{
+"minute": 36,
+"artist": "Leonce",
+"title": "Fast Refix",
+"label": ""
+},
+{
+"minute": 39,
+"artist": "Marcus Damon & Antony Ranz",
+"title": "Pussy Fairy",
+"label": "",
+"bp": "bp:17660167",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0579541f-e28f-4f13-b87b-e16747812a4f.LOFI.mp3",
+"name": "Pussy Fairy",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-06-10"
+},
+{
+"minute": 41,
+"artist": "Mista Mos",
+"title": "G-Funk Dub",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "Girl Unit",
+"title": "IRL (DVA's Hi Emotions Remix)",
+"label": "Night Slugs",
+"bp": "bp:1185712",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/857ea73a-c63c-4ce6-b0f5-ac49ed735ace.LOFI.mp3",
+"name": "IRL",
+"mix": "DVA's Hi Emotions Remix",
+"genre": "bass-club",
+"released": "2010-04-26"
+},
+{
+"minute": 47,
+"artist": "Zaida Zane",
+"title": "Ask For Everything",
+"label": "Night Slugs",
+"bp": "bp:19333579",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/68834eea-87b1-4410-9430-eff9e4873515.LOFI.mp3",
+"name": "Ask for Everything",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-08-07"
+},
+{
+"minute": 49,
+"artist": "James Bangura",
+"title": "Barred Entry",
+"label": "Incienso",
+"bp": "bp:29568565",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae48360c-d310-4efc-b34d-d8921b6a75d3.LOFI.mp3",
+"name": "Barred Entry",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-10-28"
+},
+{
+"minute": 52,
+"artist": "Karizma",
+"title": "Tech This Out Pt.2",
+"label": "R2",
+"bp": "bp:16692467",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8699875f-f3ef-47e6-b7ae-2941adaa94fd.LOFI.mp3",
+"name": "Tech This Out Pt. 2",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2022-07-22"
+},
+{
+"minute": 55,
+"artist": "OSSX",
+"title": "System Love",
+"label": ""
+},
+{
+"minute": 58,
+"artist": "Ronnie Loko X Karen Nyame KG",
+"title": "Tell Me",
+"label": "Night Slugs",
+"bp": "bp:19553592",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/53a81747-e46e-4fb6-b4bb-4e743b52ae05.LOFI.mp3",
+"name": "Tell Me",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-10-16"
+}
+]
+},
+{
+"title": "2024-02-20 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "T. Williams",
+"title": "Heartbeat (Scotti Dee Remix)",
+"label": "",
+"bp": "bp:18398569",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a74c127-8501-4567-9a30-45f0512e9f88.LOFI.mp3",
+"name": "Heartbeat (feat. Terri Walker)",
+"mix": "Scotti Dee Remix",
+"genre": "amapiano",
+"released": "2023-12-05"
+},
+{
+"minute": 5,
+"artist": "T Mulla",
+"title": "I Do",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "Deep Narratives",
+"title": "Umsindo",
+"label": "Narratives",
+"bp": "bp:26718588",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/87126528-3cbc-4a3c-aab7-718e831ee81b.LOFI.mp3",
+"name": "Umsindo 2.0 ",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-11-28"
+},
+{
+"minute": 10,
+"artist": "DJ Polo",
+"title": "Autumn Layers",
+"label": "",
+"bp": "bp:18729632",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aeecafe9-a55e-4fe5-9a87-555d3f743c71.LOFI.mp3",
+"name": "Autumn Layers",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-03-29"
+},
+{
+"minute": 13,
+"artist": "Tyla",
+"title": "Truth Or Dare (Smoove Kriminal Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Knevermind",
+"title": "Hav-At-!t",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Louie Vega",
+"title": "How He Works (Mr. X Remix Instrumental)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Javonte",
+"title": "Aquarius Swing (DJ Swisha's Libra Bootleg)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Scotti Dee",
+"title": "MGK",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Skudge",
+"title": "Departure",
+"label": "",
+"bp": "bp:18795505",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/28f78a35-0af1-432d-8d76-cffb999a2ac1.LOFI.mp3",
+"name": "Departure",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2024-03-18"
+},
+{
+"minute": 31,
+"artist": "DJ Polo",
+"title": "Bloodhound",
+"label": "",
+"bp": "bp:18729631",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b2463dc2-8a5f-4b91-8f37-1331ec80a389.LOFI.mp3",
+"name": "Bloodhound",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-03-29"
+},
+{
+"minute": null,
+"artist": "[3?] DJ Swisha",
+"title": "Stinking Thinking",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[3?] Saweetie",
+"title": "Fast (Leonce Refix)",
+"label": "",
+"bp": "bp:26757371",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/f5ea4e41-0fe5-47ce-a0f4-abe2f0fd8f69.LOFI.mp3",
+"name": "Fast (Motion)",
+"mix": "Clean",
+"genre": "hip-hop",
+"released": "2021-05-07"
+},
+{
+"minute": 38,
+"artist": "808Charmer & 808INK",
+"title": "Prime",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Knevermind",
+"title": "Its A Given",
+"label": ""
+},
+{
+"minute": 43,
+"artist": "Ikonika",
+"title": "Details (Bok Bok Remix)",
+"label": "",
+"bp": "bp:18861271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c8e90b43-a54d-4113-aab3-6c825d9c9dff.LOFI.mp3",
+"name": "Details",
+"mix": "Bok Bok Remix",
+"genre": "bass-club",
+"released": "2024-04-10"
+},
+{
+"minute": 47,
+"artist": "DJ SWISHA & OSSX",
+"title": "SMOOTH LANDING",
+"label": "DJ SWISHA",
+"bp": "bp:19244587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/428eb1de-c91e-4718-9589-c50f67163d17.LOFI.mp3",
+"name": "SMOOTH LANDING",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-08-02"
+},
+{
+"minute": 49,
+"artist": "Kelela, Nguzunguzu, DJ GAY-Z",
+"title": "Let It Go (NGUZUNGUZU X DJ GAY-Z Remix)",
+"label": "",
+"bp": "bp:18577628",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/246a51da-414b-4873-aeea-fd5769ffed94.LOFI.mp3",
+"name": "Let It Go",
+"mix": "NGUZUNGUZU x DJ GAY-Z Remix",
+"genre": "electronica",
+"released": "2024-02-09"
+},
+{
+"minute": 53,
+"artist": "Mad One",
+"title": "Antarctica",
+"label": "",
+"bp": "bp:768669",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/bea6a003-bcdd-415b-b949-f50935238a9c.LOFI.mp3",
+"name": "Antarctica",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2009-01-21"
+},
+{
+"minute": 56,
+"artist": "James Bangura",
+"title": "Barred Entry",
+"label": "Incienso",
+"bp": "bp:29568565",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae48360c-d310-4efc-b34d-d8921b6a75d3.LOFI.mp3",
+"name": "Barred Entry",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-10-28"
+},
+{
+"minute": null,
+"artist": "[5?] Scratchclart X Scotti Dee X Mad One Feat. Natalie Maddix",
+"title": "Wishlist",
+"label": "",
+"bp": "bp:18748522",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/2d2bd501-2a34-45cb-8594-bc91d5a05135.LOFI.mp3",
+"name": "Wishlist",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-03-22"
+}
+]
+},
+{
+"title": "2024-03-20 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "Cooly G",
+"title": "Cooly G 2.0",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Scratchclart Feat. Natalie Maddix, Scottie Dee & Mad One",
+"title": "Wishlist",
+"label": "",
+"bp": "bp:18748522",
+"score": 0.85,
+"preview": "https://geo-samples.beatport.com/track/2d2bd501-2a34-45cb-8594-bc91d5a05135.LOFI.mp3",
+"name": "Wishlist",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-03-22"
+},
+{
+"minute": null,
+"artist": "Shaun J Wright",
+"title": "Submersion",
+"label": "",
+"bp": "bp:18837438",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/552d1d1f-96cd-4655-b28a-ff929d58a809.LOFI.mp3",
+"name": "Submersion",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-04-05"
+},
+{
+"minute": null,
+"artist": "Scotti Dee",
+"title": "Mgs",
+"label": "",
+"bp": "bp:18622448",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/921bb7c4-7aeb-46c1-9f48-18da3d961c97.LOFI.mp3",
+"name": "MGS",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2024-02-23"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Duetto Part 2",
+"label": ""
+},
+{
+"minute": 16,
+"artist": "Karen Nyame KG & Ronnie Loko",
+"title": "Tell Me",
+"label": "Night Slugs",
+"bp": "bp:19553592",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/53a81747-e46e-4fb6-b4bb-4e743b52ae05.LOFI.mp3",
+"name": "Tell Me",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-10-16"
+},
+{
+"minute": 19,
+"artist": "DJ Polo",
+"title": "Bloodhound",
+"label": "",
+"bp": "bp:18729631",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b2463dc2-8a5f-4b91-8f37-1331ec80a389.LOFI.mp3",
+"name": "Bloodhound",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-03-29"
+},
+{
+"minute": 21,
+"artist": "Spacepose",
+"title": "My Feelings",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Cooly G",
+"title": "Feeling",
+"label": "",
+"bp": "bp:16196688",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/5e622cdd-ade6-4084-9b31-2604ed4792aa.LOFI.mp3",
+"name": "Feeling",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2022-02-11"
+},
+{
+"minute": null,
+"artist": "Charisse C & DJ Kwamzy",
+"title": "Morning Sun (ID Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Scotti Dee",
+"title": "Volume 10",
+"label": "",
+"bp": "bp:18400932",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49f20bff-7585-49ce-accf-c0e6c096591f.LOFI.mp3",
+"name": "Volume 10",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-07-28"
+},
+{
+"minute": 32,
+"artist": "Griffit Vigo",
+"title": "Chord",
+"label": "",
+"bp": "bp:18537511",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2c971a93-1267-4bf8-8003-da554c304ed9.LOFI.mp3",
+"name": "Chord",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-01-11"
+},
+{
+"minute": 34,
+"artist": "Jazzy",
+"title": "Giving Me (Extended Mix)",
+"label": "",
+"bp": "bp:17498258",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0dba654-d623-4196-84af-f50b485705a6.LOFI.mp3",
+"name": "Giving Me",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2023-03-10"
+},
+{
+"minute": 37,
+"artist": "Bok Bok",
+"title": "Duetto",
+"label": "Night Slugs",
+"bp": "bp:17624312",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a8be4c84-ed19-4999-b8e6-850c851a29d2.LOFI.mp3",
+"name": "Duetto",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 41,
+"artist": "Knevermind",
+"title": "!ts A Given",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Vague",
+"title": "Vague '24 #2",
+"label": ""
+},
+{
+"minute": null,
+"artist": "E-Dancer",
+"title": "Pump The Move (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Tah",
+"title": "I Heard You Like Jazz",
+"label": ""
+},
+{
+"minute": 54,
+"artist": "Bok Bok",
+"title": "L'Chordian",
+"label": "Night Slugs",
+"bp": "bp:17624308",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0086a2f-e772-4bfd-92e0-1a474bf57628.LOFI.mp3",
+"name": "L'Chordian",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-26"
+},
+{
+"minute": 59,
+"artist": "Mokona",
+"title": "Airline Conclusion",
+"label": ""
+}
+]
+},
+{
+"title": "2024-04-17 - Bok Bok b2b NIKS - Rinse FM",
+"records": []
+},
+{
+"title": "2024-05-28 - Bok Bok b2b Leonce - Rinse FM",
+"records": []
+},
+{
+"title": "2024-08-02 - Bok Bok @ 10 Years Dekmantel Festival, Amsterdam",
+"records": []
+},
+{
+"title": "2024-09-05 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2024-10-03 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2024-11-07 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2024-12-05 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2024-12-22 - Bok Bok b2b Girl Unit - Night Slugs, Rinse FM",
+"records": []
+},
+{
+"title": "2025-02-06 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2025-03-06 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2025-04-03 - Bok Bok - Rinse FM",
+"records": [
+{
+"minute": 0,
+"artist": "Aly-Us",
+"title": "Follow Me (Bok's Dub)",
+"label": ""
+},
+{
+"minute": 5,
+"artist": "Claude VonStroke",
+"title": "Move With The Pack",
+"label": "",
+"bp": "bp:28874323",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fa015422-1b32-4d0d-9791-82c4412269fa.LOFI.mp3",
+"name": "Move With The Pack",
+"mix": "Extended",
+"genre": "house",
+"released": "2026-05-22"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Lens Cracked",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Ossie",
+"title": "Once Again",
+"label": "",
+"bp": "bp:23926403",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/636baafc-6e37-4818-93b3-d0c022a9f80f.LOFI.mp3",
+"name": "Once Again",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2026-02-06"
+},
+{
+"minute": 15,
+"artist": "Karizma",
+"title": "Spirit",
+"label": "R2",
+"bp": "bp:19604674",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/de5b65f2-14a5-469d-a828-063e09a0674a.LOFI.mp3",
+"name": "Spirit",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-10-18"
+},
+{
+"minute": 18,
+"artist": "Bok Bok",
+"title": "Quais Part 3",
+"label": ""
+},
+{
+"minute": 21,
+"artist": "Nicole Moudaber",
+"title": "A Feeling",
+"label": "Nervous",
+"bp": "bp:20187658",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/94d30d71-4f55-460d-9af1-1df4241903e8.LOFI.mp3",
+"name": "A Feeling (feat. Jasper Street Co.)",
+"mix": "Extended Mix",
+"genre": "tech-house",
+"released": "2025-03-21"
+},
+{
+"minute": null,
+"artist": "Mad One",
+"title": "Tump & Kick",
+"label": "",
+"bp": "bp:20308172",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a7a53bb7-8b59-460b-91a0-17ffce88c4cc.LOFI.mp3",
+"name": "Tump & Kick",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2025-04-25"
+},
+{
+"minute": null,
+"artist": "Head High",
+"title": "It's A Love Thing Mono Xxx (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Polo",
+"title": "Night Waves",
+"label": "",
+"bp": "bp:20437063",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a3589f35-7b6a-4ca2-9263-e46248cca48f.LOFI.mp3",
+"name": "Night Waves",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-05-21"
+},
+{
+"minute": 32,
+"artist": "Hieroglyphic Being",
+"title": "The Fourth Dimensions",
+"label": "Technicolour",
+"bp": "bp:5879768",
+"score": 0.985,
+"preview": "https://geo-samples.beatport.com/track/cdac9233-fdb9-49f8-99bb-c9ae17c71b2b.LOFI.mp3",
+"name": "The Fourth Dimension",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-10-27"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Slip Ouais",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Calyomutc",
+"title": "Freaks X She Bad",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Braga Circuit",
+"title": "Filter Freed (Leod Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nick Leon",
+"title": "Bikini (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mad One",
+"title": "Trek",
+"label": "",
+"bp": "bp:20308173",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/124c4c04-3bc6-4d53-8b94-d7e674bb719e.LOFI.mp3",
+"name": "Trek",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-04-25"
+},
+{
+"minute": 46,
+"artist": "DJ Swisha & Ossx",
+"title": "Smooth Landing",
+"label": "DJ SWISHA",
+"bp": "bp:19244587",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/428eb1de-c91e-4718-9589-c50f67163d17.LOFI.mp3",
+"name": "SMOOTH LANDING",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-08-02"
+},
+{
+"minute": null,
+"artist": "Nammy Wams",
+"title": "Mazes",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Polo",
+"title": "Currents",
+"label": "",
+"bp": "bp:20437062",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/379fe9f4-f0c8-4a36-8ec9-ecb97da875a9.LOFI.mp3",
+"name": "Currents",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-05-21"
+},
+{
+"minute": null,
+"artist": "Laya",
+"title": "Ain't Sad About It (Achibs & Ronnie Loko Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DFD",
+"title": "One More Time (Erp Remix)",
+"label": "",
+"bp": "bp:20791791",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d4087c4e-754a-445a-b4ea-8023022108a9.LOFI.mp3",
+"name": "One More Time",
+"mix": "ERP Remix",
+"genre": "electro-classic-detroit-modern",
+"released": "2025-07-28"
+},
+{
+"minute": null,
+"artist": "Ossx",
+"title": "Get A Real Job",
+"label": ""
+}
+]
+},
+{
+"title": "2025-04-17 - DJ Swisha b2b Bok Bok - SWU.FM",
+"records": []
+},
+{
+"title": "2025-05-01 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2025-06-15 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2025-07-06 - Bok Bok @ The Lot Radio",
+"records": [
+{
+"minute": 0,
+"artist": "Workerz",
+"title": "Tribal Dream",
+"label": "Back Office",
+"bp": "bp:19598354",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bf3742de-3cb1-41c3-b5c8-67fa4f8f9366.LOFI.mp3",
+"name": "Tribal Dream",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-10-24"
+},
+{
+"minute": 3,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 6,
+"artist": "Head High",
+"title": "It's A Love Thing (The XXX Mono Mix)",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "General C'mamane",
+"title": "Sub 6",
+"label": "",
+"bp": "bp:18613218",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e7decea0-0575-4828-bf1e-0a8de427863c.LOFI.mp3",
+"name": "Sub 6 ",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-02-16"
+},
+{
+"minute": 12,
+"artist": "Jamilah Barry",
+"title": "Fuck It (On-1) (Karen Nyame KG Remix)",
+"label": "Independent"
+},
+{
+"minute": 16,
+"artist": "Dustinho",
+"title": "Finally (KLUTCH Mix)",
+"label": ""
+},
+{
+"minute": 23,
+"artist": "Leod",
+"title": "Untitled 04",
+"label": ""
+},
+{
+"minute": 30,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 32,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 35,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 45,
+"artist": "The B. B. & Q. Band",
+"title": "Dreamer (Shep Pettibone Extended Mix)",
+"label": "",
+"bp": "bp:14908564",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e30b7cb5-67e8-47b3-9d87-925cb83c9d10.LOFI.mp3",
+"name": "Dreamer",
+"mix": "Shep Pettibone Extended Mix",
+"genre": "dance-pop",
+"released": "1986-03-14"
+},
+{
+"minute": null,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 57,
+"artist": "Adesse Versions",
+"title": "Pressured",
+"label": ""
+}
+]
+},
+{
+"title": "2025-07-20 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2025-09-21 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2025-10-19 - Bok Bok - Rinse FM",
+"records": []
+},
+{
+"title": "2025-11-16 - Bok Bok - Rinse FM (Blood Moon EP Warmup - 100% Bok Productions)",
+"records": [
+{
+"minute": 0,
+"artist": "Bok Bok",
+"title": "YaTOO (Bok's Dub)",
+"label": "Lizzy"
+},
+{
+"minute": null,
+"artist": "[0?] Suges",
+"title": "We Belong To The Night (BOK Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0?] Bok Bok Feat. Ramzee",
+"title": "London",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[1?] DJ Timbawolf",
+"title": "Natural Disaster (BOK Dub)",
+"label": "Housupa"
+},
+{
+"minute": 16,
+"artist": "Bok Bok",
+"title": "Laughing With The Drumz",
+"label": "Einhundert",
+"bp": "bp:23276669",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/52e7c026-48b2-44c7-8d85-c800f7ad26fe.LOFI.mp3",
+"name": "Laughing With The Drumz",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-11-26"
+},
+{
+"minute": null,
+"artist": "Bok Bok & Tinashe & Karizma & Dennis Ferrer",
+"title": "Just Say Hey Hey",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Head High",
+"title": "It's A Love Thing (BOK Dub)",
+"label": ""
+},
+{
+"minute": 23,
+"artist": "Bok Bok",
+"title": "Crack'd",
+"label": "Einhundert",
+"bp": "bp:23276670",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/67674be5-2624-480f-8658-9ff5ab29231c.LOFI.mp3",
+"name": "Crack'd",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-11-26"
+},
+{
+"minute": 27,
+"artist": "Jorja Smith",
+"title": "Little Things (BOK Dub Mix)",
+"label": "Famm"
+},
+{
+"minute": null,
+"artist": "Karizma",
+"title": "Darqness (BOK Dub)",
+"label": "R2"
+},
+{
+"minute": 32,
+"artist": "Bok Bok",
+"title": "Duetto (Bok Bok VIP)",
+"label": "Night Slugs"
+},
+{
+"minute": null,
+"artist": "Nick Le\u00f3n Feat. Erika De Casier",
+"title": "Bikini (BOK Dub)",
+"label": "Tratratrax"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Still Raining",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Polo & Bok Bok",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mala",
+"title": "Left Leg Out (BOK Dub)",
+"label": "Dmz"
+},
+{
+"minute": null,
+"artist": "DJ Lag & Fuzzy Logik Feat. Egypt",
+"title": "Morning Switz (Bok Bok Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Ouais Ouais Ouais (Deetron Pres. Soulmate Remix)",
+"label": "Distrokid",
+"bp": "bp:23276671",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c76177d8-ff36-4d26-8de5-173aaf512215.LOFI.mp3",
+"name": "Ouais Ouais Ouais ",
+"mix": "Deetron Presents Soulmate Remix",
+"genre": "house",
+"released": "2025-11-26"
+},
+{
+"minute": null,
+"artist": "Ultra Nat\u00e9",
+"title": "Love's The Only Drug (BOK Dub)",
+"label": "Silver"
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Avh My Boo",
+"label": ""
+},
+{
+"minute": null,
+"artist": "E-Dancer",
+"title": "Pump The Move (BOK Dub)",
+"label": "KMS"
+},
+{
+"minute": null,
+"artist": "Bok Bok Feat. Kristian Hamilton",
+"title": "Leake Street (The Message Is Love)",
+"label": ""
+}
+]
+},
+{
+"title": "2026-03-28 - VA @ Warmth, Ormside Projects, London",
+"records": []
+},
+{
+"title": "2026-04-06 - Bok Bok @ The Lot Radio",
+"records": [
+{
+"minute": 0,
+"artist": "Dialect",
+"title": "Sitting In The Sun (Derrick Carter's Winter Crazy Dub Reprise)",
+"label": "Distance",
+"bp": "bp:12831975",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/024047da-c74d-42ae-a393-01c4275b8905.LOFI.mp3",
+"name": "Sitting in the Sun",
+"mix": "Derrick Carter's Winter Crazy Dub Reprise",
+"genre": "house",
+"released": "2019-11-04"
+},
+{
+"minute": null,
+"artist": "[0?] Bok Bok",
+"title": "Space Disco 0002",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0?] Scotti Dee",
+"title": "Girls Like This (East London Dub)",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Nic As Well",
+"title": "Prone (DJ Polo Remix)",
+"label": "Creaked",
+"bp": "bp:20974320",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/db585582-58a7-4a6b-a86b-8852e00d1e3a.LOFI.mp3",
+"name": "Prone",
+"mix": "DJ Polo Remix",
+"genre": "trap-future-bass",
+"released": "2025-12-05"
+},
+{
+"minute": null,
+"artist": "Ikonika vs Bok Bok",
+"title": "Warning (Bok's March Dub)",
+"label": "",
+"bp": "bp:30767699",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/6321bbf2-2d85-4eb5-b070-16f93a2617e0.LOFI.mp3",
+"name": "Warning",
+"mix": "Bok's Dub",
+"genre": "bass-club",
+"released": "2026-10-08"
+},
+{
+"minute": null,
+"artist": "DJ Timbawolf",
+"title": "Natural Disaster (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Karizma",
+"title": "Darqness (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mista Silva S",
+"title": "Groove",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bok Bok",
+"title": "Laughing With The Drumz",
+"label": "",
+"bp": "bp:23276669",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/52e7c026-48b2-44c7-8d85-c800f7ad26fe.LOFI.mp3",
+"name": "Laughing With The Drumz",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-11-26"
+},
+{
+"minute": 24,
+"artist": "Geoffrey C",
+"title": "This Is Hot (Yes Indeedy)",
+"label": "Unquantize",
+"bp": "bp:16313356",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e06937c6-dffe-4d6e-88e5-6a2c44061e3c.LOFI.mp3",
+"name": "This Is Hot (Yes Indeedy)",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2022-03-25"
+},
+{
+"minute": 27,
+"artist": "Bob Sinclair",
+"title": "World Hold On (Scotti Dee Dub Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ Escobar",
+"title": "Bogota",
+"label": "",
+"bp": "bp:5446825",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/36baaea1-c13f-4ceb-94af-9ed34ea50a5e.LOFI.mp3",
+"name": "Bogota",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2014-05-20"
+},
+{
+"minute": 32,
+"artist": "KW Griff & Porkchop",
+"title": "Bring In The Katz (DJ Spenstrumental)",
+"label": "Unquantize",
+"bp": "bp:18285320",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fd9ef38a-6f9a-4cc5-b032-1113426afa9c.LOFI.mp3",
+"name": "Bring In The Katz",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2023-11-10"
+},
+{
+"minute": 34,
+"artist": "Ossie",
+"title": "Once Again",
+"label": "SuperCali",
+"bp": "bp:23926403",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/636baafc-6e37-4818-93b3-d0c022a9f80f.LOFI.mp3",
+"name": "Once Again",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2026-02-06"
+},
+{
+"minute": 37,
+"id": null,
+"raw": "NA \u00b7 Todo Mundo Toss"
+},
+{
+"minute": null,
+"artist": "Mala",
+"title": "Left Leg Out (Bok's Dub)",
+"label": ""
+},
+{
+"minute": 41,
+"artist": "Surreal Sessions",
+"title": "What You Do To Me",
+"label": "IMSS",
+"bp": "bp:22925277",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ee3c79e9-9032-4731-8414-a1bcf62a95f6.LOFI.mp3",
+"name": "What You Do To Me ",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-12-18"
+},
+{
+"minute": 45,
+"artist": "DJ Polo",
+"title": "Currents / Night Waves (Neana Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[4?] Bok Bok",
+"title": "Ouais (River Moon Remix)",
+"label": "",
+"bp": "bp:17797606",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/6f23aff8-0242-4c83-bb57-ef2da51423a2.LOFI.mp3",
+"name": "Ouais",
+"mix": "River Moon Remix",
+"genre": "bass-club",
+"released": "2023-06-14"
+},
+{
+"minute": 49,
+"artist": "Lips",
+"title": "The Conscious",
+"label": "King Street Sounds",
+"bp": "bp:7554092",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dc3a0af4-dbf6-4b38-aff9-1b21c156f3c4.LOFI.mp3",
+"name": "The Conscious",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2016-02-15"
+},
+{
+"minute": null,
+"artist": "Len",
+"title": "Yatoo (Bok's Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "George Riley",
+"title": "Private Life (Bok's Dub)",
+"label": ""
+},
+{
+"minute": 55,
+"artist": "Scotti Dee",
+"title": "Selborne Walk",
+"label": "Housupa",
+"bp": "bp:23700957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0df61ed-ce4b-4d1d-8639-afb862f19ee9.LOFI.mp3",
+"name": "SELBORNE WALK ",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2026-01-30"
+}
+]
+},
+{
+"title": "2026-06-26 - Sahib b2b Bok Bok - ZENG Sounds, Subtle Radio",
+"records": []
+},
+{
+"title": "2026-07-13 - Bok Bok - M.O.T Radio",
+"records": []
+},
+{
+"title": "2026-08-16 - Bok Bok - Rinse FM",
+"records": []
+}
+]
 }

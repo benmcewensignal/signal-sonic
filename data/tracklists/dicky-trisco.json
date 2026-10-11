@@ -1,2134 +1,4732 @@
 {
- "dj": "Dicky Trisco",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2025-01-02 - Dicky Trisco - International Sounds 14",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Sentimental Animals",
-     "title": "Linda Aida Cumbia",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0?] African Shaketown",
-     "title": "The Zebra (Noema Remix)",
-     "label": ""
-    },
-    {
-     "minute": 8,
-     "artist": "Joutro Mundo Feat. Faustão",
-     "title": "Faraó Divindade Do Egito (12 Extended Mix)",
-     "label": "Onda Boa"
-    },
-    {
-     "minute": 15,
-     "artist": "Sadeedo",
-     "title": "Hakawati",
-     "label": "DSPPR"
-    },
-    {
-     "minute": null,
-     "artist": "Residentes Baleáricos",
-     "title": "La Musica (DT Chop)",
-     "label": "Archipelago"
-    },
-    {
-     "minute": 26,
-     "artist": "Joi N'Juno",
-     "title": "Samemala",
-     "label": "Canopy"
-    },
-    {
-     "minute": 30,
-     "artist": "Sentimental Animals",
-     "title": "I Love You",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[3?] Nickodemus & Pat Kalla",
-     "title": "Mama Tchipp (Tigerbalm Remix)",
-     "label": "Wonderwheel"
-    },
-    {
-     "minute": 40,
-     "artist": "Red Rack'em",
-     "title": "Italo Disco Banger",
-     "label": "Bergerac",
-     "bp": "bp:19442207",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/6abf6dbc-c3f7-4bb0-aa60-a0fd4453f63a.LOFI.mp3",
-     "name": "Italo Disco Banger",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2024-09-13"
-    },
-    {
-     "minute": 47,
-     "artist": "Dicky Trisco",
-     "title": "Discoteca (Hotmood Mix)",
-     "label": "File Under Disco",
-     "bp": "bp:17948276",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/27b4b911-4b17-4da5-a560-30b1ea94a989.LOFI.mp3",
-     "name": "Discoteca",
-     "mix": "Hotmood Mix",
-     "genre": "nu-disco-disco",
-     "released": "2023-08-04"
-    },
-    {
-     "minute": 53,
-     "artist": "Wild Fantasy",
-     "title": "Jungle Drums",
-     "label": "Sirs Cut"
-    },
-    {
-     "minute": null,
-     "artist": "Victor Bach",
-     "title": "Living In Harmony (Justin Van Der Volgen Edit)",
-     "label": "Bandcamp"
-    }
-   ]
-  },
-  {
-   "title": "2025-02-07 - Dicky Trisco - Nossa Mareh Mix",
-   "records": []
-  },
-  {
-   "title": "2025-02-07 - Dicky Trisco, Keep On - International Sounds 15",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Dicy",
-     "title": "Não Há Nada Em Seu Lugar / Ain't No Sunshine When She's Gone",
-     "label": "Tratore"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Todh Tri",
-     "title": "Kone Kone Sampadan",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Hot Slot Machine",
-     "title": "I'll Be Ready",
-     "label": ""
-    },
-    {
-     "minute": 13,
-     "artist": "East Coast Love Affair",
-     "title": "Love Chug",
-     "label": "Athens Of The North"
-    },
-    {
-     "minute": 18,
-     "artist": "Bernardo Pinheiro",
-     "title": "Steps Out (Space Odyssey Mix)",
-     "label": "",
-     "bp": "bp:17805959",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/ed4df3cf-571b-434a-891f-313753e8d730.LOFI.mp3",
-     "name": "Steps Out",
-     "mix": "Space Odyssey Mix",
-     "genre": "nu-disco-disco",
-     "released": "2023-07-10"
-    },
-    {
-     "minute": 22,
-     "artist": "Totem Projects",
-     "title": "Go",
-     "label": ""
-    },
-    {
-     "minute": 28,
-     "artist": "Teno Afrika",
-     "title": "Chants Of Africa",
-     "label": "",
-     "bp": "bp:14338668",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/949c607b-084f-40fa-ab70-3a835c90fe24.LOFI.mp3",
-     "name": "Chants of Africa",
-     "mix": "Original Mix",
-     "genre": "amapiano",
-     "released": "2020-10-23"
-    },
-    {
-     "minute": 32,
-     "artist": "Emperor Machine",
-     "title": "La Cassette (Tigerbalm Remix)",
-     "label": "",
-     "bp": "bp:19407482",
-     "score": 0.821,
-     "preview": "https://geo-samples.beatport.com/track/af224eae-e2c9-44fe-90b9-0a9fa6992e3d.LOFI.mp3",
-     "name": "La Cassette (feat. Séverine Mouletin)",
-     "mix": "Tigerbalm Remix",
-     "genre": "nu-disco-disco",
-     "released": "2024-09-13"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Nocturnal Hazard",
-     "title": "Jean's Guitar (Edit De Olson & Truth)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Luzes Neon",
-     "title": "HospiÌcio (LOV.Ini Edit)",
-     "label": ""
-    },
-    {
-     "minute": 50,
-     "artist": "Tom Carruthers Feat. Harriet Brown",
-     "title": "Last Night (M.A.D Vocal Mix)",
-     "label": "M.A.D",
-     "bp": "bp:20117306",
-     "score": 0.92,
-     "preview": "https://geo-samples.beatport.com/track/d4fdf6f2-851c-4cfe-8720-7501a2d316bb.LOFI.mp3",
-     "name": "Last Night",
-     "mix": "M.A.D Vocal Mix",
-     "genre": "house",
-     "released": "2025-03-14"
-    },
-    {
-     "minute": 56,
-     "artist": "Processman Feat. Luciano Calazans",
-     "title": "Pergunta Sem Resposta (Dicky Trisco Remix)",
-     "label": ""
-    },
-    {
-     "minute": 62,
-     "artist": "Wally Badarou",
-     "title": "Endless Race (OOFT! Edit)",
-     "label": ""
-    },
-    {
-     "minute": 65,
-     "artist": "Serge Ponsar",
-     "title": "Out In The Night (12\" Version)",
-     "label": ""
-    },
-    {
-     "minute": 70,
-     "artist": "Mac Thornhill",
-     "title": "No Way To Control It",
-     "label": "",
-     "bp": "bp:6291717",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/ffffa853-a57b-4d44-beca-cdb4faed280e.LOFI.mp3",
-     "name": "No Way to Control It",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2014-12-19"
-    },
-    {
-     "minute": 75,
-     "artist": "Brenda & The Big Dudes",
-     "title": "Love Action",
-     "label": "",
-     "bp": "bp:21256362",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/ccc7840d-57b4-4e88-b63a-4ed7d8ca41d4.LOFI.mp3",
-     "name": "Love Action",
-     "mix": "Original Mix",
-     "genre": "african",
-     "released": "1984-10-01"
-    },
-    {
-     "minute": 81,
-     "artist": "Initials",
-     "title": "Message In The Music (Beautiful Swimmers Mastermix)",
-     "label": ""
-    },
-    {
-     "minute": 84,
-     "artist": "Micky Milan",
-     "title": "Les Vacances On S'éclate, On S'evade",
-     "label": "",
-     "bp": "bp:17426475",
-     "score": 0.88,
-     "preview": "https://geo-samples.beatport.com/track/15d47770-1caa-4360-ab1b-3e9034244404.LOFI.mp3",
-     "name": "Les Vacances On SEclate, On SEvade",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2023-04-14"
-    },
-    {
-     "minute": 88,
-     "artist": "Magic Jams",
-     "title": "Zisou (Magic Jams Dub Edit)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "NV",
-     "title": "It's Alright (Extended Dub)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Inner Life",
-     "title": "Your Love",
-     "label": "",
-     "bp": "bp:7450256",
-     "score": 0.815,
-     "preview": "https://geo-samples.beatport.com/track/14d62a48-d6f7-4fe1-9ad4-1bc0f1e23b8f.LOFI.mp3",
-     "name": "Your Love",
-     "mix": "Dub Mix",
-     "genre": "house",
-     "released": "2016-01-11"
-    },
-    {
-     "minute": 101,
-     "artist": "Paradise Girls",
-     "title": "Holding Back (Paul's Back Dubmental Mix II)",
-     "label": "Easy Street",
-     "bp": "bp:959837",
-     "score": 0.944,
-     "preview": "https://geo-samples.beatport.com/track/47f3c2b8-0bb8-451b-8808-1ff502307349.LOFI.mp3",
-     "name": "Holding Back",
-     "mix": "Paul's Back Dubmental",
-     "genre": "house",
-     "released": "2006-08-07"
-    },
-    {
-     "minute": 105,
-     "artist": "Tshala Muana",
-     "title": "Djepue",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[1??] Mighty 7",
-     "title": "Call Me (OOFT! Edit)",
-     "label": ""
-    },
-    {
-     "minute": 112,
-     "artist": "The Jammers",
-     "title": "What Have You Got To Lose",
-     "label": "Past Due",
-     "bp": "bp:12957230",
-     "score": 0.876,
-     "preview": "https://geo-samples.beatport.com/track/34212d01-84eb-4cb6-ae52-3ba2731f1942.LOFI.mp3",
-     "name": "What Have You Got To Lose",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2019-12-30"
-    },
-    {
-     "minute": 116,
-     "artist": "Johnny Nash",
-     "title": "Closer",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2025-03-13 - Dicky Trisco - International Sounds 16",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "João Selva Feat. Clea Vincent",
-     "title": "Viens Dancer",
-     "label": "Underdog"
-    },
-    {
-     "minute": 4,
-     "artist": "Khruangbin",
-     "title": "Pelota (Quantic Remix)",
-     "label": ""
-    },
-    {
-     "minute": 9,
-     "artist": "Saidera Feat. Nathan Haines",
-     "title": "Deixa Tudo Fluir (Ray Mang Instrumental Version)",
-     "label": "Let's Play House"
-    },
-    {
-     "minute": 15,
-     "artist": "CLAAP!",
-     "title": "Caracas",
-     "label": "Partyfine"
-    },
-    {
-     "minute": 19,
-     "artist": "Session Victim",
-     "title": "MPFree Now",
-     "label": "",
-     "bp": "bp:16698257",
-     "score": 0.862,
-     "preview": "https://geo-samples.beatport.com/track/6ccca1b6-4ac6-4c7f-b6ff-2c563d1b2e1e.LOFI.mp3",
-     "name": "MPFree Now",
-     "mix": "Mixed",
-     "genre": "dance-pop",
-     "released": "2022-07-15"
-    },
-    {
-     "minute": 22,
-     "artist": "L.U.P.O.",
-     "title": "Keep It Up (Vocal Extended Mix)",
-     "label": "",
-     "bp": "bp:17559180",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/d9d99b4a-4ed8-428e-a8ed-e4797a52259f.LOFI.mp3",
-     "name": "Keep It Up",
-     "mix": "Vocal Extended Mix",
-     "genre": "electronica",
-     "released": "1990-03-01"
-    },
-    {
-     "minute": 27,
-     "artist": "Voorn & Salvador",
-     "title": "Every Man Loves",
-     "label": "Universo Positivo",
-     "bp": "bp:20116216",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/5c84474b-2776-46c3-ae3b-1fe36732f6c5.LOFI.mp3",
-     "name": "Every Man Loves",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2025-03-14"
-    },
-    {
-     "minute": 33,
-     "artist": "Pau Roca",
-     "title": "Euphoria",
-     "label": "Pleasure Of Love"
-    },
-    {
-     "minute": 41,
-     "artist": "Italoconnection",
-     "title": "Why (Dicky Ruff Dub)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[4?] Joutro Mundo & Pasternak",
-     "title": "Dia Lindo",
-     "label": ""
-    },
-    {
-     "minute": 49,
-     "artist": "Diogo Strausz",
-     "title": "Caramba",
-     "label": "Razor-N-Tape"
-    },
-    {
-     "minute": 53,
-     "artist": "JKriv",
-     "title": "Zone 1",
-     "label": "Razor-N-Tape"
-    },
-    {
-     "minute": 56,
-     "artist": "Daniele Baldelli & Roberto Lodola",
-     "title": "Round Feeling (Deep Afro Mix)",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2025-04-14 - Dicky Trisco, Thales - International Sounds 17",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Tigerbalm Feat. Jimena Angel",
-     "title": "Cumbia Calypso",
-     "label": "Partyfine",
-     "bp": "bp:20151176",
-     "score": 0.665,
-     "preview": "https://geo-samples.beatport.com/track/9a70ec9e-49c5-46b3-a94c-29dc2cfe6459.LOFI.mp3",
-     "name": "Cumbia Calypso",
-     "mix": "feat. Jimena Angel",
-     "genre": "electronica",
-     "released": "2025-03-21"
-    },
-    {
-     "minute": 3,
-     "artist": "Payfone",
-     "title": "Volt To Volt",
-     "label": "Otis",
-     "bp": "bp:20825283",
-     "score": 0.811,
-     "preview": "https://geo-samples.beatport.com/track/cefce53d-f97a-4e3c-9503-e0ef299b74b9.LOFI.mp3",
-     "name": "Volt to Volt ",
-     "mix": "Radio Edit",
-     "genre": "indie-dance",
-     "released": "2025-08-01"
-    },
-    {
-     "minute": 6,
-     "artist": "Aura Safari",
-     "title": "Island Dreams (Tropical Dub)",
-     "label": "Hell Yeah"
-    },
-    {
-     "minute": 12,
-     "artist": "Leonidas & Hobbes",
-     "title": "Web Of Intrigue",
-     "label": "Hobbes",
-     "bp": "bp:14654614",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/2bb80377-7ddf-4ddb-ae8d-5baf1060a3bd.LOFI.mp3",
-     "name": "Web Of Intrigue",
-     "mix": "Extended Mix",
-     "genre": "nu-disco-disco",
-     "released": "2020-12-18"
-    },
-    {
-     "minute": 18,
-     "artist": "Mind Fair",
-     "title": "Bloody Mary",
-     "label": "Golf Channel",
-     "bp": "bp:4884783",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/0f6cc487-6534-4b64-b340-8e7e8eab8035.LOFI.mp3",
-     "name": "Bloody Mary",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2015-07-31"
-    },
-    {
-     "minute": 26,
-     "artist": "Daniel T.",
-     "title": "Trinidad Trouble",
-     "label": "Razor-N-Tape",
-     "bp": "bp:16072526",
-     "score": 0.817,
-     "preview": "https://geo-samples.beatport.com/track/27672b73-b24d-4034-90b1-26f721bd595b.LOFI.mp3",
-     "name": "Trinidad Trouble",
-     "mix": "Daniel T Edit",
-     "genre": "house",
-     "released": "2021-12-17"
-    },
-    {
-     "minute": 30,
-     "artist": "100th Monkey",
-     "title": "Raindance (Manuel Darquart Remix)",
-     "label": "Heels & Souls",
-     "bp": "bp:19105366",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/1aff4766-f241-4d34-96d0-10da2493a77e.LOFI.mp3",
-     "name": "Raindance",
-     "mix": "Manuel Darquart Remix",
-     "genre": "house",
-     "released": "2024-06-21"
-    },
-    {
-     "minute": 35,
-     "artist": "Plastic Bamboo",
-     "title": "Bad Boy Bubby",
-     "label": "Star Creature",
-     "bp": "bp:20279879",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/dac4ec44-fc2f-45eb-b8ea-5c69bc28e62f.LOFI.mp3",
-     "name": "Bad Boy Bubby",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2025-04-25"
-    },
-    {
-     "minute": 40,
-     "artist": "Dobao",
-     "title": "Disfrutar",
-     "label": "Razor-N-Tape",
-     "bp": "bp:19846384",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 45,
-     "artist": "Dandolo",
-     "title": "I Won (Cosmo Dance Dub Mix)",
-     "label": "Dust Down",
-     "bp": "bp:20274156",
-     "score": 0.977,
-     "preview": "https://geo-samples.beatport.com/track/aa2ef99e-0c47-4ba6-9d3c-4d09ee9ff6b2.LOFI.mp3",
-     "name": "I won",
-     "mix": "Cosmo Dance Dub Remix",
-     "genre": "indie-dance",
-     "released": "2025-03-26"
-    },
-    {
-     "minute": 49,
-     "artist": "Totem Projects",
-     "title": "Praise",
-     "label": "Totem Edits"
-    },
-    {
-     "minute": null,
-     "artist": "[05?] Funkyjaws & Los Protos",
-     "title": "Can't Touch This",
-     "label": "Craft"
-    },
-    {
-     "minute": 61,
-     "artist": "Dd Mirage",
-     "title": "Feel It",
-     "label": ""
-    },
-    {
-     "minute": 68,
-     "artist": "Aura Safari",
-     "title": "Wave Riding (Sirs Edit)",
-     "label": "Hell Yeah",
-     "bp": "bp:19310859",
-     "score": 0.93,
-     "preview": "https://geo-samples.beatport.com/track/045902c2-9e36-48d8-b9bf-05e0278d8ad8.LOFI.mp3",
-     "name": "Wave Riding",
-     "mix": "SIRS Remix",
-     "genre": "nu-disco-disco",
-     "released": "2024-08-09"
-    },
-    {
-     "minute": 73,
-     "artist": "Ilija Rudman",
-     "title": "Time & Time",
-     "label": "",
-     "bp": "bp:5703965",
-     "score": 0.76,
-     "preview": "https://geo-samples.beatport.com/track/a332ae7e-c7f8-4a91-9cdb-71784087314e.LOFI.mp3",
-     "name": "Time and Time",
-     "mix": "Dub Mix",
-     "genre": "house",
-     "released": "2010-06-14"
-    },
-    {
-     "minute": 78,
-     "artist": "Ben Gomori",
-     "title": "I Have Finally Found Somebody (Ben Gomori Balearic London Mix)",
-     "label": "True Romance",
-     "bp": "bp:19123782",
-     "score": 0.963,
-     "preview": "https://geo-samples.beatport.com/track/b43fb02c-4376-469d-a982-94f6dcc3d3e7.LOFI.mp3",
-     "name": "I Have Finally Found Somebody",
-     "mix": "Ben's Balearic London Mix",
-     "genre": "house",
-     "released": "2024-06-21"
-    },
-    {
-     "minute": 83,
-     "artist": "La Luna",
-     "title": "Come To Me (Piek Nicolette Edit)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] M.I.D.I. & Maxi & Efti",
-     "title": "Ragga Steady (Ragga-Go Mix)",
-     "label": ""
-    },
-    {
-     "minute": 93,
-     "artist": "Issam Dahmani",
-     "title": "Motherland",
-     "label": "Quattro Bambole Music"
-    },
-    {
-     "minute": 97,
-     "artist": "Parkwerks",
-     "title": "Inherit Dub",
-     "label": ""
-    },
-    {
-     "minute": 100,
-     "artist": "Dobao",
-     "title": "Oceano",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[1??] Eternal Love",
-     "title": "La Pantera",
-     "label": "",
-     "bp": "bp:22774821",
-     "score": 0.68,
-     "preview": "https://geo-samples.beatport.com/track/ebc7b8c4-574f-46f9-802e-483cd3d0f3fb.LOFI.mp3",
-     "name": "La Pantera",
-     "mix": "Extended",
-     "genre": "mainstage",
-     "released": "2024-06-07"
-    },
-    {
-     "minute": null,
-     "artist": "[1??] Longhair",
-     "title": "The Forbidden Dance",
-     "label": "Love On The Rocks"
-    }
-   ]
-  },
-  {
-   "title": "2025-05-13 - Dicky Trisco, Sophie Lloyd - International Sounds 18",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Fernanda Abreu",
-     "title": "Rio 40 Graus",
-     "label": "",
-     "bp": "bp:21116043",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/fa2d9d36-04e7-4c17-a4a9-b5d438aec6ab.LOFI.mp3",
-     "name": "Rio 40 Graus",
-     "mix": "Original Mix",
-     "genre": "pop",
-     "released": "1997-07-14"
-    },
-    {
-     "minute": 5,
-     "artist": "J. Clip",
-     "title": "Exemplo De Amor",
-     "label": ""
-    },
-    {
-     "minute": 10,
-     "artist": "Cosmic Boogie",
-     "title": "Ooh Child",
-     "label": ""
-    },
-    {
-     "minute": 14,
-     "artist": "Rudy's Midnight Machine",
-     "title": "Mistral",
-     "label": "Faze Action"
-    },
-    {
-     "minute": 18,
-     "artist": "Orquesta Narváez",
-     "title": "Vamos A Gozar",
-     "label": ""
-    },
-    {
-     "minute": 22,
-     "artist": "Mr. Ho",
-     "title": "000 Baby",
-     "label": "Klasse Wrecks",
-     "bp": "bp:16142832",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/d22b94b5-a43c-4433-88d5-1ed22f0f4704.LOFI.mp3",
-     "name": "000 Baby",
-     "mix": "Alt Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2022-01-07"
-    },
-    {
-     "minute": 28,
-     "artist": "Marius Vareid",
-     "title": "Nite Drive",
-     "label": "",
-     "bp": "bp:20653183",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/ff2a202e-7ea9-4486-88e7-d076a7844424.LOFI.mp3",
-     "name": "Nite Drive",
-     "mix": "Original Mix",
-     "genre": "downtempo",
-     "released": "2025-07-18"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Sizike",
-     "title": "Robot Life (Medlar Edit)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Neo Saka",
-     "title": "Katara (Max Hammur Edit)",
-     "label": ""
-    },
-    {
-     "minute": 42,
-     "artist": "Diogo Strausz",
-     "title": "50 Anos Em 5",
-     "label": "",
-     "bp": "bp:14948214",
-     "score": 0.811,
-     "preview": "https://geo-samples.beatport.com/track/a65e97d6-1a45-42b3-9e72-b3d618cdfd4a.LOFI.mp3",
-     "name": "50 Anos Em 5",
-     "mix": "7 Inch Mix",
-     "genre": "indie-dance",
-     "released": "2021-01-22"
-    },
-    {
-     "minute": 47,
-     "artist": "Rafael Cancian",
-     "title": "Boca",
-     "label": ""
-    },
-    {
-     "minute": 51,
-     "artist": "Sam Ruffillo & Kapote",
-     "title": "La La Tune (Aroop Roy Remix)",
-     "label": "Toy Tonics",
-     "bp": "bp:20287884",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/acd51fe5-0294-4363-922d-a725648081bc.LOFI.mp3",
-     "name": "La La Tune",
-     "mix": "Aroop Roy Remix",
-     "genre": "deep-house",
-     "released": "2025-05-30"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Sentimental Animals",
-     "title": "Dance With Me",
-     "label": ""
-    },
-    {
-     "minute": 61,
-     "artist": "Soul Of Hex",
-     "title": "Into The Night",
-     "label": "Delusions Of Grandeur",
-     "bp": "bp:19719181",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/4a244aa9-9b46-4335-af7b-c88bfb2bb563.LOFI.mp3",
-     "name": "Into The Night",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2024-11-22"
-    },
-    {
-     "minute": 65,
-     "artist": "Philippa",
-     "title": "Blue Skies (Fouk Remix)",
-     "label": "Lazy Days",
-     "bp": "bp:19701916",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/35d08713-7c1f-4ddd-ae51-360557c7a29a.LOFI.mp3",
-     "name": "Blue Skies",
-     "mix": "Fouk Remix",
-     "genre": "deep-house",
-     "released": "2024-11-22"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Dave & Maurissa",
-     "title": "Open Me Up (Dave's Medusa Dub)",
-     "label": "",
-     "bp": "bp:19801819",
-     "score": 0.867,
-     "preview": "https://geo-samples.beatport.com/track/036ed3c9-3066-4b2f-96fb-265db47c49c5.LOFI.mp3",
-     "name": "Open Me Up",
-     "mix": "Dave's Medusa Dub",
-     "genre": "deep-house",
-     "released": "2024-12-06"
-    },
-    {
-     "minute": 75,
-     "artist": "Distant People & Missfly",
-     "title": "What Is Love (Jazzy Remix)",
-     "label": "",
-     "bp": "bp:19959826",
-     "score": 0.974,
-     "preview": "https://geo-samples.beatport.com/track/b03275e2-b344-4d0f-84e7-1d421ac9afd7.LOFI.mp3",
-     "name": "What Is Love",
-     "mix": "Jazzy Mix",
-     "genre": "house",
-     "released": "2025-01-13"
-    },
-    {
-     "minute": 81,
-     "artist": "Nuyorican Soul Feat. India",
-     "title": "Runaway (Mousse T Soul Dub)",
-     "label": "Talkin' Loud"
-    },
-    {
-     "minute": null,
-     "artist": "[08?] Russell Ruckman",
-     "title": "For The Love (Stripped Down Mix)",
-     "label": ""
-    },
-    {
-     "minute": 91,
-     "artist": "Dan The Drum & Stuart Patterson Feat. Carmy",
-     "title": "UK House Sermon (North Street West Black Market Vocal Remix)",
-     "label": "F*CLR",
-     "bp": "bp:20342471",
-     "score": 0.84,
-     "preview": "https://geo-samples.beatport.com/track/3a0221c8-204a-4b64-a787-f9f21c2f8d10.LOFI.mp3",
-     "name": "UK House Sermon (feat. Carmy Love & North Street West)",
-     "mix": "No'West 'Black Market' Vocal Remix",
-     "genre": "house",
-     "released": "2025-05-16"
-    },
-    {
-     "minute": 98,
-     "artist": "Saag",
-     "title": "Rose Rouge (Jazzy Remix)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[1??] Louie Vega Feat. Nico Vega",
-     "title": "How He Works (Turbojazz Unofficial Remix)",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2025-06-09 - Dicky Trisco, Bernardo Pinheiro - International Sounds 19",
-   "records": []
-  },
-  {
-   "title": "2025-06-13 - Dicky Trisco @ 7 Years The Love Tempo Party, Mad Radio Miami",
-   "records": []
-  },
-  {
-   "title": "2025-06-23 - Dicky Trisco - The Campo Sancho Mix",
-   "records": []
-  },
-  {
-   "title": "2025-07-10 - Dicky Trisco - International Sounds 20",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Al-Veez",
-     "title": "F Train Boogie",
-     "label": "TSoNYC - The Sound Of New York City",
-     "bp": "bp:20572503",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/18c04e3a-dd60-4cdf-8688-dd53d0496fc5.LOFI.mp3",
-     "name": "F Train Boogie",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2025-06-20"
-    },
-    {
-     "minute": 6,
-     "artist": "Hey Cabrera",
-     "title": "Tutto Matto (Extended Version)",
-     "label": "",
-     "bp": "bp:20284756",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/480fdfd2-b649-40b4-b8d4-7c3107c82f79.LOFI.mp3",
-     "name": "Tutto Matto",
-     "mix": "Extended Version",
-     "genre": "deep-house",
-     "released": "2025-05-07"
-    },
-    {
-     "minute": 9,
-     "artist": "The Funkin' Machine",
-     "title": "Chiki Chicancan (Instrumental)",
-     "label": "",
-     "bp": "bp:20671706",
-     "score": 0.96,
-     "preview": "https://geo-samples.beatport.com/track/dc88dbea-1e6a-42a5-87b8-66b2343366f1.LOFI.mp3",
-     "name": "Chiki Chicancan",
-     "mix": "Instrumental Mix",
-     "genre": "nu-disco-disco",
-     "released": "2025-07-25"
-    },
-    {
-     "minute": null,
-     "artist": "Evan & Rich",
-     "title": "Going To The Sun (Pete Herbert Remix)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Dobao",
-     "title": "Mambo",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Leonidas & Hobbes",
-     "title": "Going Home",
-     "label": "",
-     "bp": "bp:20530954",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/f4bb4dc1-73ac-48d4-a631-e32fc4dbe83e.LOFI.mp3",
-     "name": "Going Home",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-05-30"
-    },
-    {
-     "minute": null,
-     "artist": "Trey Risqué",
-     "title": "Desire (Trey's Favourite Mix)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Juan Laya & Jorge Montiel",
-     "title": "Sex Machina (Pete Herbert Remix)",
-     "label": "",
-     "bp": "bp:10803028",
-     "score": 0.902,
-     "preview": "https://geo-samples.beatport.com/track/19b7ab47-f6bf-41d8-ad65-f773ae01183a.LOFI.mp3",
-     "name": "Sabana",
-     "mix": "Pete Herbert Remix",
-     "genre": "house",
-     "released": "2018-08-10"
-    },
-    {
-     "minute": null,
-     "id": null,
-     "raw": "Taking Acid At The Disco Late"
-    },
-    {
-     "minute": null,
-     "artist": "Munk & Kapote",
-     "title": "La Musica (Azari III Remix)",
-     "label": "",
-     "bp": "bp:20376423",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/63ff56a7-3727-4b89-84f9-253474c865b7.LOFI.mp3",
-     "name": "La Musica",
-     "mix": "Azari & III Remix",
-     "genre": "deep-house",
-     "released": "2025-08-01"
-    },
-    {
-     "minute": null,
-     "artist": "Processman",
-     "title": "Chemical (Rafael Cancian Remix)",
-     "label": "",
-     "bp": "bp:20449223",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/dccdc233-a282-4988-aaad-c22f38a108ce.LOFI.mp3",
-     "name": "Chemical",
-     "mix": "Rafael Cancian Remix",
-     "genre": "nu-disco-disco",
-     "released": "2025-05-30"
-    },
-    {
-     "minute": 53,
-     "artist": "Yuksek Feat. Diogo Strausz",
-     "title": "Déjà Vous",
-     "label": "Razor-N-Tape"
-    },
-    {
-     "minute": null,
-     "artist": "Rio 18",
-     "title": "She's In LA",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2025-08-12 - Dicky Trisco, Kabinett - International Sounds 21",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Bomba Estereo",
-     "title": "Bomba",
-     "label": ""
-    },
-    {
-     "minute": 3,
-     "artist": "Al-Veez",
-     "title": "Under Water",
-     "label": "TSoNYC - The Sound Of New York City",
-     "bp": "bp:20572506",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/77f3b61a-7abe-4dcc-8263-e584c3c98904.LOFI.mp3",
-     "name": "Under Water",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2025-06-20"
-    },
-    {
-     "minute": 7,
-     "artist": "Psychemagik",
-     "title": "The Way It Is",
-     "label": ""
-    },
-    {
-     "minute": 15,
-     "artist": "Whodamanny",
-     "title": "Baila Chica",
-     "label": "Peer Southern",
-     "bp": "bp:18615940",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/59f6ea40-69b3-423e-9571-b5bf44f0089c.LOFI.mp3",
-     "name": "Baila Chica!",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2023-06-09"
-    },
-    {
-     "minute": 19,
-     "artist": "Redrago",
-     "title": "Il Veliero (Club Version)",
-     "label": "",
-     "bp": "bp:12366048",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/4b7bd1f3-2d61-49d8-993e-bd18f992c225.LOFI.mp3",
-     "name": "Il Veliero",
-     "mix": "Club Version",
-     "genre": "indie-dance",
-     "released": "2019-09-13"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Matalo!",
-     "title": "Abeja",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Agua Re",
-     "title": "Holy Dance",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Rafael Fernandez",
-     "title": "Mi Corazon",
-     "label": ""
-    },
-    {
-     "minute": 36,
-     "artist": "Idjut Boys Feat. Dolla Man",
-     "title": "Yagga Yao (Emperor Machine Extended Version)",
-     "label": "",
-     "bp": "bp:20068979",
-     "score": 0.92,
-     "preview": "https://geo-samples.beatport.com/track/4ff0a9e7-9e45-49f5-8ec0-2b4544a3fb82.LOFI.mp3",
-     "name": "Yagga Yao ",
-     "mix": "Emperor Machine Extended Version",
-     "genre": "indie-dance",
-     "released": "2025-02-28"
-    },
-    {
-     "minute": 40,
-     "artist": "Red Rack'em",
-     "title": "Secret Banger",
-     "label": "Bergerac",
-     "bp": "bp:20647725",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/89841e8c-27ba-4dda-afd8-aaf8967eb927.LOFI.mp3",
-     "name": "Secret Banger",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-07-11"
-    },
-    {
-     "minute": 49,
-     "artist": "Alexander Robotnick",
-     "title": "Undicidisco (Justin Vandervolgen Remix)",
-     "label": "Dance Floor Corporation",
-     "bp": "bp:11769461",
-     "score": 0.959,
-     "preview": "https://geo-samples.beatport.com/track/8a58d2bf-724a-48bb-af2d-7e67cb54430e.LOFI.mp3",
-     "name": "Undicidisco",
-     "mix": "Justin VanDerVolgen Edit",
-     "genre": "indie-dance",
-     "released": "2019-04-12"
-    },
-    {
-     "minute": 54,
-     "artist": "Larry Heard Pres. Mr. White",
-     "title": "The Sun Can't Compare",
-     "label": "Alleviated",
-     "bp": "bp:423035",
-     "score": 0.778,
-     "preview": "https://geo-samples.beatport.com/track/2a1721e8-d315-466a-b822-c21379f7029b.LOFI.mp3",
-     "name": "The Sun Can't Compare",
-     "mix": "Long Version",
-     "genre": "deep-house",
-     "released": "2017-08-18"
-    },
-    {
-     "minute": 60,
-     "artist": "Colectivo Miramar",
-     "title": "Dulce Sexy Sensual",
-     "label": ""
-    },
-    {
-     "minute": 69,
-     "artist": "El Coco",
-     "title": "Afrodesia (Piek Remix)",
-     "label": "Special Products"
-    },
-    {
-     "minute": 72,
-     "artist": "Robson Jorge & Lincoln Olivetti",
-     "title": "Aleluia (A DJ Meme Tribute Mix)",
-     "label": "",
-     "bp": "bp:16796207",
-     "score": 0.959,
-     "preview": "https://geo-samples.beatport.com/track/fffec31d-3f30-458d-a594-848e341e187e.LOFI.mp3",
-     "name": "Aleluia",
-     "mix": "Dj Meme Tribute Remix",
-     "genre": "electronica",
-     "released": "2022-08-12"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Michel Berger",
-     "title": "Le Groupie Du Pianiste (Barry & Gibbs Edit)",
-     "label": ""
-    },
-    {
-     "minute": 84,
-     "artist": "Maya",
-     "title": "Lait De Coco (Dub)",
-     "label": "",
-     "bp": "bp:10134173",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/9878e900-b5ec-4c70-aaf9-606c61abe407.LOFI.mp3",
-     "name": "Lait de coco",
-     "mix": "Dub",
-     "genre": "dance-pop",
-     "released": "2018-02-09"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Placebo",
-     "title": "Whodamanny",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Turfinlandia",
-     "title": "Oreku",
-     "label": ""
-    },
-    {
-     "minute": 98,
-     "artist": "DJ Pippi & Willie Graff",
-     "title": "Are U Yek? (Estás Loco)",
-     "label": "New State Entertainment"
-    },
-    {
-     "minute": null,
-     "artist": "Looped Joints",
-     "title": "Love Dancin'",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[1??] Dharma Collective",
-     "title": "What A Night",
-     "label": ""
-    },
-    {
-     "minute": 117,
-     "artist": "Talco",
-     "title": "Noche Especial",
-     "label": "Fermusic Media"
-    }
-   ]
-  },
-  {
-   "title": "2025-09-09 - Dicky Trisco, DJ Kerry - International Sounds 22",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Chiara Della Monica Feat. Tonico 70",
-     "title": "Ajere (Reggae Version)",
-     "label": ""
-    },
-    {
-     "minute": 4,
-     "artist": "On The Prowl Feat. Dreems",
-     "title": "Drugface",
-     "label": ""
-    },
-    {
-     "minute": 10,
-     "artist": "Session Victim",
-     "title": "Behind The Glass",
-     "label": "Delusions Of Grandeur",
-     "bp": "bp:21291733",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/91fd04c1-d4d4-4abd-bcf2-f11f0fa34d41.LOFI.mp3",
-     "name": "Behind The Glass",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-10-03"
-    },
-    {
-     "minute": null,
-     "artist": "[01?] Baffone",
-     "title": "Miez' O' Mare (Remix)",
-     "label": "Maledetta Discoteca"
-    },
-    {
-     "minute": null,
-     "artist": "[01?] Margee",
-     "title": "Tartiflux (Justin Strauss Remix)",
-     "label": "Chomp!Chomp!",
-     "bp": "bp:20686476",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/b6d87eec-1ae3-42a1-9d3f-1a28e6385ce9.LOFI.mp3",
-     "name": "Tartiflux",
-     "mix": "Justin Strauss Remix",
-     "genre": "mainstage",
-     "released": "2025-06-20"
-    },
-    {
-     "minute": null,
-     "artist": "[01?] Quiroga",
-     "title": "French Kiss Baia Club (Ambient Version Instrumental)",
-     "label": "Hell Yeah",
-     "bp": "bp:21308849",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/1135ff0c-92b6-4080-a982-79cbfa25732b.LOFI.mp3",
-     "name": "French Kiss",
-     "mix": "Baia Club Ambient Version Instrumental",
-     "genre": "downtempo",
-     "released": "2025-09-12"
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Jezebell",
-     "title": "Donkey",
-     "label": ""
-    },
-    {
-     "minute": 25,
-     "artist": "Magazine 60",
-     "title": "Don Quichotte (No Estan Aqui) (Maxi)",
-     "label": "Coda Musique",
-     "bp": "bp:21105711",
-     "score": 0.893,
-     "preview": "https://geo-samples.beatport.com/track/2af9e1c9-cec6-43b4-acf6-4920d9ae6f41.LOFI.mp3",
-     "name": "Don Quichotte (No Estan Aqui)",
-     "mix": "No Estan Aqui",
-     "genre": "dance-pop",
-     "released": "1984-01-01"
-    },
-    {
-     "minute": 29,
-     "artist": "The Vendetta Suite",
-     "title": "Island Hill Microdot",
-     "label": "Hell Yeah",
-     "bp": "bp:20364300",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/87ecf423-663c-4594-bbf0-23ec7fa0b7a9.LOFI.mp3",
-     "name": "Island Hill Microdot",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2025-04-25"
-    },
-    {
-     "minute": 35,
-     "artist": "Gus Paterson",
-     "title": "Montalbano (Bal5000 Remix)",
-     "label": "Citizens Of Vice",
-     "bp": "bp:21430286",
-     "score": 0.988,
-     "preview": "https://geo-samples.beatport.com/track/ae2a0e72-f589-4579-803b-927a5fcb05d6.LOFI.mp3",
-     "name": "Montalbano",
-     "mix": "Bal 5000 Remix",
-     "genre": "nu-disco-disco",
-     "released": "2025-09-26"
-    },
-    {
-     "minute": 39,
-     "artist": "Nic Jalusi",
-     "title": "Eternal Dance",
-     "label": "MM Discos",
-     "bp": "bp:22658535",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/8d8f1f9e-163d-4f46-a3a7-320cd063a4ac.LOFI.mp3",
-     "name": "Eternal Dance",
-     "mix": "Original Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2025-11-28"
-    },
-    {
-     "minute": 44,
-     "artist": "Martha Pinel",
-     "title": "Uber Moto",
-     "label": "Toy Tonics"
-    },
-    {
-     "minute": 48,
-     "artist": "Gabi Fischer",
-     "title": "Desejos",
-     "label": "Cocada"
-    },
-    {
-     "minute": 53,
-     "artist": "Bernardo Campos, Bruce Leroys",
-     "title": "Disco Voador (Rafael Cancian House Late 80s Remix)",
-     "label": "",
-     "bp": "bp:21177915",
-     "score": 0.994,
-     "preview": "https://geo-samples.beatport.com/track/5d8e4bc7-2972-4a4d-9d6d-a4597a98468e.LOFI.mp3",
-     "name": "Disco Voador ",
-     "mix": "Rafael Cancian House Late 80's Remix",
-     "genre": "house",
-     "released": "2025-09-05"
-    },
-    {
-     "minute": 58,
-     "artist": "Gledd",
-     "title": "Cabo Bo",
-     "label": "Makonga"
-    },
-    {
-     "minute": 60,
-     "artist": "Saigon Soul Revival",
-     "title": "Đám Cưới Nhà Em (DJ Slowz Remix Instrumental)",
-     "label": "Saigon Supersound"
-    },
-    {
-     "minute": 64,
-     "artist": "Arnau Obiols & Kayyak",
-     "title": "Gent De Nit (MLiR's Lulo Version)",
-     "label": "",
-     "bp": "bp:14901586",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/be5aafc8-9d8f-49d1-9191-9be81271818f.LOFI.mp3",
-     "name": "Gent De Nit",
-     "mix": "MLiR's Lulo Version",
-     "genre": "organic-house",
-     "released": "2021-03-05"
-    },
-    {
-     "minute": 69,
-     "artist": "Diogo Strausz Feat. EMMANUELLE",
-     "title": "Dan=ça (JKriv Remix)",
-     "label": "",
-     "bp": "bp:18740976",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/1a5787ce-0425-4f53-a876-3238e652fbcb.LOFI.mp3",
-     "name": "Dan=ça",
-     "mix": "JKriv Remix",
-     "genre": "nu-disco-disco",
-     "released": "2024-03-15"
-    },
-    {
-     "minute": 78,
-     "artist": "Dobao",
-     "title": "Disfrutar",
-     "label": "",
-     "bp": "bp:19846384",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "[0??] D&E Chicago",
-     "title": "Happy Smoke",
-     "label": ""
-    },
-    {
-     "minute": 82,
-     "artist": "Manu Dibango",
-     "title": "Sun Explosion",
-     "label": "Soul Makossa",
-     "bp": "bp:10317487",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/0fa4efc0-3b8d-4eec-8e60-69dc422deeea.LOFI.mp3",
-     "name": "Sun Explosion",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2017-12-01"
-    },
-    {
-     "minute": null,
-     "artist": "[08?] Dowhatchalike",
-     "title": "Wrong Way Up",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Bappi Lahiri",
-     "title": "Jeena Bhi Kya (Ziggy Phunk Edit) Bollywood Disco",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Wrekin Havoc",
-     "title": "Moore Invites",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0??] Ichisan",
-     "title": "Neli",
-     "label": ""
-    },
-    {
-     "minute": 111,
-     "artist": "Oscar Sulley X Uhuru Dance Band",
-     "title": "Bukom Mashie (JKriv Extended Acid Dub)",
-     "label": "Razor-N-Tape",
-     "bp": "bp:19062575",
-     "score": 0.793,
-     "preview": "https://geo-samples.beatport.com/track/aa59e345-2357-44a9-8ee0-fdf7354e96fb.LOFI.mp3",
-     "name": "Bukom Mashie (feat. Domenica Fossati)",
-     "mix": "JKriv Extended Acid Dub",
-     "genre": "afro-house",
-     "released": "2024-06-07"
-    },
-    {
-     "minute": 117,
-     "artist": "SAULT Feat. Michael Kiwanuka",
-     "title": "Bow",
-     "label": "Forever Living Originals"
-    }
-   ]
-  },
-  {
-   "title": "2025-10-13 - Dicky Trisco - International Sounds 23",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "James Matthew",
-     "title": "Seven",
-     "label": "",
-     "bp": "bp:22744317",
-     "score": 0.575,
-     "preview": "https://geo-samples.beatport.com/track/7c893795-53e9-4ba6-9810-f045b7ebab6c.LOFI.mp3",
-     "name": "Seven",
-     "mix": "Remix",
-     "genre": "pop",
-     "released": "2025-11-21"
-    },
-    {
-     "minute": 4,
-     "artist": "Gianni Oddi",
-     "title": "Geronimo",
-     "label": ""
-    },
-    {
-     "minute": 7,
-     "artist": "Auntie Flo",
-     "title": "Paradise 23",
-     "label": "A State Of Flo",
-     "bp": "bp:21225783",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/ae5de2e2-7cde-4f92-8eb2-22ca30dbd027.LOFI.mp3",
-     "name": "Paradise 23",
-     "mix": "Original Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2025-10-23"
-    },
-    {
-     "minute": null,
-     "artist": "YSE Saint Laur'ant",
-     "title": "The Optimistic Voyeur",
-     "label": "",
-     "bp": "bp:7429085",
-     "score": 0.858,
-     "preview": "https://geo-samples.beatport.com/track/9ac04647-45c4-4172-afd8-f65e1d1e6f54.LOFI.mp3",
-     "name": "The Optimistic Voyeur",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2016-01-29"
-    },
-    {
-     "minute": null,
-     "artist": "[1?] Pete Herbert",
-     "title": "Brenda",
-     "label": ""
-    },
-    {
-     "minute": 20,
-     "artist": "Tigerbalm",
-     "title": "Waiheke",
-     "label": ""
-    },
-    {
-     "minute": 25,
-     "artist": "Linda Di Franco",
-     "title": "My Boss (Danilo Braca Remix)",
-     "label": "Best Italy",
-     "bp": "bp:23771024",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/1c01e5fc-36f3-4d3a-a29a-b34f71edfa82.LOFI.mp3",
-     "name": "My Boss",
-     "mix": "Danilo Braca Remix",
-     "genre": "dance-pop",
-     "released": "2025-10-31"
-    },
-    {
-     "minute": 28,
-     "artist": "Joakim",
-     "title": "Formosan Rock (Paula Tape Remix)",
-     "label": "Tigersushi",
-     "bp": "bp:16429359",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/a38f1633-c0d4-4878-bf2b-448716e2063b.LOFI.mp3",
-     "name": "Formosan Rock",
-     "mix": "Paula Tape Remix",
-     "genre": "electro-classic-detroit-modern",
-     "released": "2022-04-15"
-    },
-    {
-     "minute": 33,
-     "artist": "Aili",
-     "title": "Make Me Rich",
-     "label": "Eskimo",
-     "bp": "bp:17053101",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/ffd892ce-dabb-4d6e-8e89-00ce5593166e.LOFI.mp3",
-     "name": "Make Me Rich",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2022-11-18"
-    },
-    {
-     "minute": null,
-     "artist": "Lakeshore Commission Feat. Bluey",
-     "title": "In 2 The Light (Dave Lee Mind Dimension Dub)",
-     "label": "",
-     "bp": "bp:16978951",
-     "score": 0.9,
-     "preview": "https://geo-samples.beatport.com/track/a5432e0f-f9e3-4fa7-a0f9-604dc0c2da5b.LOFI.mp3",
-     "name": "In 2 The Light",
-     "mix": "Dave Lee Mind Dimension Dub",
-     "genre": "deep-house",
-     "released": "2022-10-14"
-    },
-    {
-     "minute": null,
-     "artist": "Street Corner Symphony",
-     "title": "Symphonic Tonic (Dub)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Liquid Liquid",
-     "title": "Optimo (Auntie Flo's Tribute To Keith Remix)",
-     "label": ""
-    },
-    {
-     "minute": 48,
-     "artist": "Faze Action",
-     "title": "In The Trees",
-     "label": "Sublime",
-     "bp": "bp:6792724",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/c48260a5-2c23-4f11-98b8-b030854fed1a.LOFI.mp3",
-     "name": "In The Trees",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2015-07-17"
-    },
-    {
-     "minute": 56,
-     "artist": "Arthur Lee",
-     "title": "Everybody's Gotta Live",
-     "label": "A&M",
-     "bp": "bp:29868622",
-     "score": 0.863,
-     "preview": "https://geo-samples.beatport.com/track/1ee53f11-58b7-4ea0-ae7c-896c93f319de.LOFI.mp3",
-     "name": "Everybody's Gotta Live",
-     "mix": "Original Mix",
-     "genre": "rock",
-     "released": "1972-08-01"
-    },
-    {
-     "minute": 59,
-     "artist": "Max Romeo",
-     "title": "I Chase The Devil",
-     "label": "",
-     "bp": "bp:24343767",
-     "score": 0.874,
-     "preview": "https://geo-samples.beatport.com/track/c276485c-16d2-4a20-b9be-7726c49f7641.LOFI.mp3",
-     "name": "Chase The Devil",
-     "mix": "Intro",
-     "genre": "caribbean",
-     "released": "1976-01-01"
-    }
-   ]
-  },
-  {
-   "title": "2025-11-06 - Dicky Trisco - International Sounds 24",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Jimena",
-     "title": "Fuego",
-     "label": ""
-    },
-    {
-     "minute": 4,
-     "artist": "The Revenge",
-     "title": "Our Own Thing",
-     "label": "Forgotten Ways",
-     "bp": "bp:8633909",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/1809dcac-66bc-4282-a086-996f693ecbe9.LOFI.mp3",
-     "name": "Our Own Thing",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2016-12-02"
-    },
-    {
-     "minute": 8,
-     "artist": "Tigerbalm Feat. Joi N Juno",
-     "title": "Mexicana",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Rigopolar",
-     "title": "Memories",
-     "label": ""
-    },
-    {
-     "minute": 17,
-     "artist": "Invigo",
-     "title": "Bambeo (BOSQ Remix)",
-     "label": "Partyfine",
-     "bp": "bp:29133662",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/e485a325-03de-455f-a0bf-26c423a9eabe.LOFI.mp3",
-     "name": "Bambeo",
-     "mix": "Bosq Remix",
-     "genre": "electronica",
-     "released": "2025-10-31"
-    },
-    {
-     "minute": 22,
-     "artist": "?",
-     "title": "Quand Je Rentre",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Anura & Sr. Lobezno",
-     "title": "Afro-Ritmo (De Gama Ancestral Afro-Jazz Rework Edit)",
-     "label": ""
-    },
-    {
-     "minute": 31,
-     "artist": "Crooked Man",
-     "title": "Happiness (12 Inch Version)",
-     "label": "DFA",
-     "bp": "bp:9420856",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/3f263806-3974-4577-acf1-b391ecb6f5b0.LOFI.mp3",
-     "name": "Happiness",
-     "mix": "12 Inch Version",
-     "genre": "indie-dance",
-     "released": "2017-06-20"
-    },
-    {
-     "minute": 37,
-     "artist": "Auntie Flo",
-     "title": "Mamluk",
-     "label": "A State Of Flo"
-    },
-    {
-     "minute": 40,
-     "artist": "In Flagranti",
-     "title": "Pro Forma",
-     "label": ""
-    },
-    {
-     "minute": 44,
-     "artist": "Richie Rich",
-     "title": "Salsa House",
-     "label": "",
-     "bp": "bp:8291271",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/7666f1c0-60b1-4836-bacd-19ec254bc537.LOFI.mp3",
-     "name": "Salsa House",
-     "mix": "Original Mix",
-     "genre": "dance-pop",
-     "released": "2014-10-14"
-    },
-    {
-     "minute": 48,
-     "artist": "Meggy Mac",
-     "title": "Party Time",
-     "label": "",
-     "bp": "bp:21904392",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/5c6f6086-41a2-4d9d-8aeb-72082cabdd34.LOFI.mp3",
-     "name": "Party Time",
-     "mix": "Original Mix",
-     "genre": "electro-classic-detroit-modern",
-     "released": "2025-10-24"
-    },
-    {
-     "minute": null,
-     "artist": "?",
-     "title": "Can't We Live Together",
-     "label": ""
-    },
-    {
-     "minute": 58,
-     "artist": "Mohinder Kaur Bhamra",
-     "title": "Disco Wich Aa",
-     "label": "Naya Beat",
-     "bp": "bp:21629346",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/638cae5b-c2ef-43d3-9b40-f70f692f49e3.LOFI.mp3",
-     "name": "Disco Wich Aa",
-     "mix": "Original Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2025-10-31"
-    }
-   ]
-  },
-  {
-   "title": "2025-12-15 - Dicky Trisco - International Sounds 25",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Joakim",
-     "title": "Garden Party",
-     "label": "Tigersushi",
-     "bp": "bp:17571558",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/9e30fcbb-c5ce-40ee-bcb7-559baf2261ed.LOFI.mp3",
-     "name": "Garden Party",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2023-06-02"
-    },
-    {
-     "minute": 3,
-     "artist": "Future Feelings",
-     "title": "Wonky Disco",
-     "label": "File Under Disco",
-     "bp": "bp:3788570",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/9c68178b-ce5c-43a5-8967-6057c69649b9.LOFI.mp3",
-     "name": "Wonky Disco",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2012-10-08"
-    },
-    {
-     "minute": 7,
-     "artist": "GW Edits",
-     "title": "Adriano Italiano (GW Edit)",
-     "label": ""
-    },
-    {
-     "minute": 13,
-     "artist": "Netinho",
-     "title": "Du Du Du Domingo (Joutro Mundo 45 Edit)",
-     "label": "Onda Boa"
-    },
-    {
-     "minute": null,
-     "artist": "[1?] Rad D Club",
-     "title": "Sashimi Dreamers",
-     "label": ""
-    },
-    {
-     "minute": 22,
-     "artist": "Antenna!",
-     "title": "Clockwork (Daniele Baldelli Remix)",
-     "label": "N.O.I.A.",
-     "bp": "bp:16611150",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/82c5fa95-e73c-4ac8-bf5a-287a0a1a4666.LOFI.mp3",
-     "name": "Clockwork",
-     "mix": "Daniele Baldelli Remix",
-     "genre": "indie-dance",
-     "released": "2022-06-24"
-    },
-    {
-     "minute": 27,
-     "artist": "Ayobayo Band",
-     "title": "World Is Turning Around (Ziggy Phunk Disco Reprise)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Saidera",
-     "title": "Miscigenacao (Jacques Renault Rhythmental Remix)",
-     "label": ""
-    },
-    {
-     "minute": 35,
-     "artist": "The Revenge",
-     "title": "Dance 4 U (Phantom Tango) (Stripclub Dub)",
-     "label": "Roar Groove"
-    },
-    {
-     "minute": 39,
-     "artist": "Yello",
-     "title": "Oh Yeah (Ziggy Phunk Dub Rework)",
-     "label": "Mercury"
-    },
-    {
-     "minute": 44,
-     "artist": "Crooked Man",
-     "title": "Don't Leave Me This Way (Club Mix)",
-     "label": "Vicious Charm",
-     "bp": "bp:21447054",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/66ae73af-ae23-4d54-98db-cd1c7eee5739.LOFI.mp3",
-     "name": "Don't Leave Me This Way",
-     "mix": "Club Mix",
-     "genre": "deep-house",
-     "released": "2025-09-10"
-    },
-    {
-     "minute": 48,
-     "artist": "Issam Dahmani",
-     "title": "Limoncello Beat",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[5?] Inflagranti",
-     "title": "Different From The Rest",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[5?] Club Mediterraneo",
-     "title": "Prima Cala",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2026-01-08 - Dicky Trisco - International Sounds 26",
-   "records": []
-  },
-  {
-   "title": "2026-02-13 - Dicky Trisco - International Sounds 27",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Joutro E Pinheiro",
-     "title": "Sandra",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[0?] Tripod",
-     "title": "Gonna Make You Happy (OOFT! Edit)",
-     "label": ""
-    },
-    {
-     "minute": 6,
-     "artist": "Rick Clarke",
-     "title": "Gonna Make You Happy",
-     "label": "Freestyle"
-    },
-    {
-     "minute": 9,
-     "artist": "E. Live",
-     "title": "Sunny Side Up",
-     "label": "Star Creature Universal Vibrations",
-     "bp": "bp:13903314",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/f52ff51b-b85b-4d04-afaa-5662a510a879.LOFI.mp3",
-     "name": "Sunny Side Up",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2020-09-05"
-    },
-    {
-     "minute": 13,
-     "artist": "Jimena Angel",
-     "title": "Aguacero",
-     "label": "Partyfine"
-    },
-    {
-     "minute": 17,
-     "artist": "Eli Escobar",
-     "title": "Miami",
-     "label": "Night People NYC"
-    },
-    {
-     "minute": 20,
-     "artist": "Tigerbalm",
-     "title": "Pura Vida",
-     "label": "Ubiquity"
-    },
-    {
-     "minute": 24,
-     "artist": "Munk",
-     "title": "Misterio (Extended Version)",
-     "label": "",
-     "bp": "bp:4307415",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/03a791ad-da0c-41c9-ab21-31836eb0dedd.LOFI.mp3",
-     "name": "Misterio",
-     "mix": "Extended Version",
-     "genre": "indie-dance",
-     "released": "2013-05-02"
-    },
-    {
-     "minute": 29,
-     "artist": "Pete Herbert",
-     "title": "Time",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Mamacita, Persona aka Roman S",
-     "title": "Problemas De Amor",
-     "label": "Problemes D'amour - Alexander Robotnick's Spanish Cover"
-    },
-    {
-     "minute": null,
-     "artist": "Dina Summer",
-     "title": "Amore (Alexander Robotnick Remix)",
-     "label": "",
-     "bp": "bp:17490421",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/868b1813-2eb7-4d0b-94d6-f2b26e760076.LOFI.mp3",
-     "name": "Amore",
-     "mix": "Alexander Robotnick Remix",
-     "genre": "indie-dance",
-     "released": "2023-03-21"
-    },
-    {
-     "minute": 46,
-     "artist": "Demi Riquísimo",
-     "title": "Rocking You Internally",
-     "label": "",
-     "bp": "bp:20000540",
-     "score": 0.863,
-     "preview": "https://geo-samples.beatport.com/track/ec25ae92-26b6-41b4-ae69-964efea3e0b6.LOFI.mp3",
-     "name": "Rocking You Internally",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2025-02-07"
-    },
-    {
-     "minute": 51,
-     "artist": "Art Department Feat. Soul Clap, Osunlade",
-     "title": "We Call Love (DJ Harvey Remix)",
-     "label": "Crosstown Rebels",
-     "bp": "bp:2005007",
-     "score": 0.687,
-     "preview": "https://geo-samples.beatport.com/track/b103854a-721b-449b-b85c-4f3e429e65ca.LOFI.mp3",
-     "name": "We Call Love feat. Soul Clap & Osunlade",
-     "mix": "DJ Harvey Remix",
-     "genre": "deep-house",
-     "released": "2011-07-04"
-    },
-    {
-     "minute": 56,
-     "artist": "Invigo",
-     "title": "Bambeo (Yuksek Remix)",
-     "label": "Partyfine",
-     "bp": "bp:29133631",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/af4f0f3f-1266-40a0-885e-8142e0012a44.LOFI.mp3",
-     "name": "Bambeo",
-     "mix": "Yuksek Remix",
-     "genre": "electronica",
-     "released": "2025-10-17"
-    },
-    {
-     "minute": null,
-     "artist": "Bottin",
-     "title": "Discocracy",
-     "label": "",
-     "bp": "bp:1437844",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/4d2160f3-7f82-4fb4-bc3f-5c4eae34fd6c.LOFI.mp3",
-     "name": "Discocracy",
-     "mix": "Original Mix",
-     "genre": "nu-disco-disco",
-     "released": "2010-10-04"
-    }
-   ]
-  },
-  {
-   "title": "2026-03-12 - Dicky Trisco - International Sounds 28",
-   "records": [
-    {
-     "minute": 0,
-     "id": null,
-     "raw": "Reggae Love (Bernardo Pinheiro & Zaidan Edit)"
-    },
-    {
-     "minute": 7,
-     "artist": "Trio Ternura",
-     "title": "Filhos De Zambi (Bernardo Pinheiro Edit)",
-     "label": ""
-    },
-    {
-     "minute": 11,
-     "artist": "Peter Croce",
-     "title": "Magdala",
-     "label": ""
-    },
-    {
-     "minute": 13,
-     "artist": "Yuksek Feat. Luedji Luna",
-     "title": "Santas Almas Benditas",
-     "label": "Partyfine",
-     "bp": "bp:23340808",
-     "score": 0.758,
-     "preview": "https://geo-samples.beatport.com/track/3380c5f5-c90b-487c-94bc-0b791adc6608.LOFI.mp3",
-     "name": "Santas Almas Benditas",
-     "mix": "Original Mix",
-     "genre": "dance-pop",
-     "released": "2023-05-26"
-    },
-    {
-     "minute": 16,
-     "artist": "Joutro Mundo",
-     "title": "Ballet Do Chocolate",
-     "label": ""
-    },
-    {
-     "minute": 21,
-     "artist": "Ubunto",
-     "title": "Giorgio Amore",
-     "label": ""
-    },
-    {
-     "minute": 25,
-     "artist": "Nanda Rossi",
-     "title": "Cleptomania (Lov.Ini Edit)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Processman",
-     "title": "Baba Oni",
-     "label": ""
-    },
-    {
-     "minute": 35,
-     "artist": "Eliana Pittman",
-     "title": "Quem Vai Querer (Aroop Roy Rework)",
-     "label": ""
-    },
-    {
-     "minute": 39,
-     "artist": "Pete Herbert & Dicky Trisco",
-     "title": "Fique Louca",
-     "label": ""
-    },
-    {
-     "minute": 45,
-     "artist": "Claudia.",
-     "title": "Reza, Tambor E RaÇa Nova (Bernardo Pinheiro Edit)",
-     "label": ""
-    },
-    {
-     "minute": 53,
-     "artist": "Eddie C",
-     "title": "Desafinado",
-     "label": ""
-    },
-    {
-     "minute": 56,
-     "artist": "Gal Costa & Obina Shok & Gilberto Gil",
-     "title": "Vida (Processman Edit)",
-     "label": "Non-Wea/Other"
-    }
-   ]
-  },
-  {
-   "title": "2026-04-02 - Dicky Trisco, Zerya - International Sounds 29",
-   "records": []
-  },
-  {
-   "title": "2026-05-14 - Dicky Trisco - International Sounds 30",
-   "records": []
-  }
- ]
+"dj": "Dicky Trisco",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-09-09 - Dicky Trisco - Razor-N-Tape Podcast 47",
+"records": []
+},
+{
+"title": "2019-11-21 - Dicky Trisco - Mareh Mix 32",
+"records": []
+},
+{
+"title": "2020-02-16 - Mafalda, Dicky Trisco - Tropic Of Love, NTS Radio",
+"records": [
+{
+"minute": null,
+"artist": "Emma Jean-Thackery",
+"title": "Rain Dance / Wisdom",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Moses Boyd",
+"title": "Shades Of You",
+"label": ""
+},
+{
+"minute": null,
+"artist": "King Errisson",
+"title": "Space Queen",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Master Force",
+"title": "Hey Girl",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Notations",
+"title": "A New Day",
+"label": "",
+"bp": "bp:6369170",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9eb12096-ac20-4165-9e10-4633de82fdbb.LOFI.mp3",
+"name": "A New Day",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2015-03-17"
+},
+{
+"minute": null,
+"artist": "Keith Mansfield, John Cameron",
+"title": "Liquid Sunshine",
+"label": ""
+},
+{
+"minute": null,
+"artist": "James Mason",
+"title": "I Want Your Love",
+"label": "",
+"bp": "bp:3201256",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a1c503e9-b7bd-4060-8a02-787a31e67bb3.LOFI.mp3",
+"name": "I Want Your Love",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2012-02-13"
+},
+{
+"minute": null,
+"artist": "D.C. LaRue",
+"title": "Do You Want The Real Thing",
+"label": "",
+"bp": "bp:30222931",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c769422d-2531-4f6d-9377-17040935eb4e.LOFI.mp3",
+"name": "Do You Want The Real Thing",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "1978-04-22"
+},
+{
+"minute": null,
+"artist": "Marti Caine",
+"title": "Love The Way You Love Me",
+"label": "",
+"bp": "bp:13264684",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fa4a6ec3-8be3-47b4-8864-18157ae9e7bb.LOFI.mp3",
+"name": "Love the Way You Love Me",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-12-27"
+},
+{
+"minute": null,
+"artist": "The Floaters",
+"title": "Magic (We Thank You)",
+"label": "",
+"bp": "bp:24177989",
+"score": 0.55,
+"preview": "https://geo-samples.beatport.com/track/5ab639c5-8326-48e0-abf7-12a5c07b9994.LOFI.mp3",
+"name": "Magic (We Thank You)",
+"mix": "Instrumental",
+"genre": "pop",
+"released": "2018-07-13"
+},
+{
+"minute": null,
+"artist": "Jan Hammer",
+"title": "Don't You Know",
+"label": "",
+"bp": "bp:12078500",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9ef88866-5e69-4352-86e3-d63138c3f008.LOFI.mp3",
+"name": "Don't You Know",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-12-27"
+},
+{
+"minute": null,
+"artist": "Minnie Riperton",
+"title": "You Take My Breath Away",
+"label": "",
+"bp": "bp:20934843",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8834af76-6731-4151-82b2-4ccd632ebcb3.LOFI.mp3",
+"name": "You Take My Breath Away",
+"mix": "Original Mix",
+"genre": "rock",
+"released": "2007-04-30"
+},
+{
+"minute": null,
+"artist": "Keith Barrow",
+"title": "You Know You Want To Be Loved",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Jaunt",
+"title": "Nostalgia For The Present Moment",
+"label": "",
+"bp": "bp:22215786",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fe1542b1-025f-4b2a-a722-f717a97dd652.LOFI.mp3",
+"name": "Nostalgia For The Present Moment",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2020-04-16"
+},
+{
+"minute": null,
+"artist": "Queen",
+"title": "Cool Cat",
+"label": "",
+"bp": "bp:1001157",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b79a8b0b-5202-4af2-ba77-8de71e7f0b2d.LOFI.mp3",
+"name": "Cool Cat",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2002-08-02"
+},
+{
+"minute": null,
+"artist": "Pandella Kelly",
+"title": "Stand In For Love",
+"label": "",
+"bp": "bp:10323960",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/63f8d716-dbc1-4fba-8200-cee85070fd40.LOFI.mp3",
+"name": "Stand In for Love",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2018-03-23"
+},
+{
+"minute": null,
+"artist": "Sweet Mixture",
+"title": "House Of Fun And Love",
+"label": "",
+"bp": "bp:13449519",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4f12829a-56c6-4760-b618-eaf8568fb499.LOFI.mp3",
+"name": "House of Fun and Love",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2020-04-24"
+},
+{
+"minute": null,
+"artist": "Michou",
+"title": "Maloya Ton Tisane",
+"label": "",
+"bp": "bp:9225319",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b3c90779-5095-4c2c-85d4-253f22c088bd.LOFI.mp3",
+"name": "Maloya Ton Tisane",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2017-06-16"
+},
+{
+"minute": null,
+"artist": "Elia Y Elizabeth",
+"title": "Alegr\u00eda",
+"label": "",
+"bp": "bp:16990818",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/6ac9d4a7-d4d5-47ce-876d-9890d850a3a3.LOFI.mp3",
+"name": "Alegr\u00eda",
+"mix": "Franc Moody Remix",
+"genre": "dance-pop",
+"released": "2022-10-28"
+},
+{
+"minute": null,
+"artist": "Sandra S\u00e1",
+"title": "Olhos Coloridos",
+"label": "",
+"bp": "bp:27099689",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c781e346-b0b2-4a1d-9ff2-25ba777b233c.LOFI.mp3",
+"name": "Olhos coloridos",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "1998-10-19"
+},
+{
+"minute": null,
+"artist": "The Elder Statesman",
+"title": "Montreux Sunrise",
+"label": "",
+"bp": "bp:5329130",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cece1977-d54e-43dc-ad63-5fbe56b6bdb7.LOFI.mp3",
+"name": "Montreux Sunrise",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2014-05-12"
+},
+{
+"minute": null,
+"artist": "Copa 7",
+"title": "Gangorra",
+"label": ""
+}
+]
+},
+{
+"title": "2021-05-07 - Dicky Trisco - SlothBoogie Guestmix 284",
+"records": []
+},
+{
+"title": "2021-06-15 - Dicky Trisco - Campo Sancho 2021 Mix",
+"records": []
+},
+{
+"title": "2023-06-22 - Dicky Trisco - Brasileiras 05",
+"records": []
+},
+{
+"title": "2023-12-08 - Dicky Trisco - International Sounds 01",
+"records": [
+{
+"minute": 0,
+"artist": "Dele Sosimi",
+"title": "You No Fit Touch Am (Medlar Remix Radio)",
+"label": "Wah Wah 45s",
+"bp": "bp:17635536",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18e5c294-4191-4501-853b-4f50ed27f186.LOFI.mp3",
+"name": "You No Fit Touch Am",
+"mix": "Medlar Remix Radio",
+"genre": "nu-disco-disco",
+"released": "2023-04-28"
+},
+{
+"minute": 5,
+"artist": "Processman",
+"title": "Baba Oni",
+"label": "Barefoot Beats"
+},
+{
+"minute": 11,
+"artist": "L.U.P.O.",
+"title": "Hell Or Heaven",
+"label": "Low Spirit",
+"bp": "bp:19656837",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/19bd59c8-02bb-443e-9ddf-c5ca4d1a2d78.LOFI.mp3",
+"name": "Hell or Heaven ",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2012-07-09"
+},
+{
+"minute": 16,
+"artist": "Sentimental Animals",
+"title": "Unlimited Pleasure (Dicky Trisco Dub)",
+"label": "Unreleased"
+},
+{
+"minute": 22,
+"artist": "JKriv & Pete Matson",
+"title": "Big Time",
+"label": "Heist",
+"bp": "bp:17461928",
+"score": 0.827,
+"preview": "https://geo-samples.beatport.com/track/fab923da-e583-4e15-89ec-0048b0d47c73.LOFI.mp3",
+"name": "Bigtime",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2021-11-26"
+},
+{
+"minute": 26,
+"artist": "Grace Jones",
+"title": "Feel Up (Danny Tenaglia Remix)",
+"label": "Skyline"
+},
+{
+"minute": null,
+"artist": "Musta",
+"title": "El Matador",
+"label": "Tropical Disco",
+"bp": "bp:17381342",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/89def6c7-5c90-4cc5-a312-9440ffc791b2.LOFI.mp3",
+"name": "El Matador",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-03-03"
+},
+{
+"minute": null,
+"artist": "Man Power",
+"title": "Tom's Duh Duh DNA",
+"label": "Man Power's Hans Zimmerframe Re-Fuck",
+"bp": "bp:18191738",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/1e23931c-2023-46ed-baa0-65ab2285acb5.LOFI.mp3",
+"name": "Tom's Duh Duh DNA",
+"mix": "Man Power's Hans Zimmerframe Re-Fuck",
+"genre": "indie-dance",
+"released": "2023-10-20"
+},
+{
+"minute": null,
+"artist": "JKriv",
+"title": "Can U Feel It",
+"label": "Pleasure Of Love"
+},
+{
+"minute": 50,
+"artist": "Nightmares On Wax",
+"title": "1More Tune",
+"label": "Warp",
+"bp": "bp:17986625",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/04f055d6-5d3d-4d75-a1e1-f65d1f514877.LOFI.mp3",
+"name": "1More Tune",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-09-07"
+},
+{
+"minute": 58,
+"artist": "Capablanca & T. Keeler",
+"title": "No Hay Ritmo (2021 Version)",
+"label": "Toy Tonics",
+"bp": "bp:16673028",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/32698455-578a-4280-bbf6-ea25d7dfe514.LOFI.mp3",
+"name": "No Hay Ritmo",
+"mix": "2021 Version",
+"genre": "deep-house",
+"released": "2021-04-30"
+}
+]
+},
+{
+"title": "2024-01-05 - Dicky Trisco - International Sounds 02",
+"records": [
+{
+"minute": 0,
+"artist": "A-Wa",
+"title": "Habib Galbi (Rabo And Snob Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Zez\u00e9 Motta",
+"title": "Dengue (LOV.Ini Edit)",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "Sentimental Animals",
+"title": "Linda Cumbia",
+"label": "Unreleased"
+},
+{
+"minute": 15,
+"artist": "Letieres Leite Quinteto",
+"title": "Patinete Rami Rami (Processman Edit)",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "MMT",
+"title": "Sevmek Istiyorum",
+"label": "Hammam House"
+},
+{
+"minute": null,
+"artist": "Francis De Francois",
+"title": "Lagos",
+"label": "Partyfine",
+"bp": "bp:16666552",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90c6e36a-4898-4322-8d2f-3b9d61b46c0b.LOFI.mp3",
+"name": "Lagos",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2022-07-08"
+},
+{
+"minute": null,
+"artist": "Underground System",
+"title": "Sleazy",
+"label": "Razor-N-Tape",
+"bp": "bp:17644359",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/99b6b6f3-a373-42c9-9827-c75ce475aa66.LOFI.mp3",
+"name": "Sleazy",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-04-26"
+},
+{
+"minute": 34,
+"artist": "Tim Maia",
+"title": "Sossego (Rafael Cancian Rework)",
+"label": "Unreleased"
+},
+{
+"minute": 38,
+"artist": "Munir",
+"title": "Tuhan (Dicky Trisco Remix)",
+"label": "File Under Disco",
+"bp": "bp:19051586",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c264f3b5-a383-4c6a-85da-19014c8520df.LOFI.mp3",
+"name": "Tuhan",
+"mix": "Dicky Trisco Remix",
+"genre": "nu-disco-disco",
+"released": "2024-05-24"
+},
+{
+"minute": 49,
+"artist": "The Creams",
+"title": "It's You (Justin Van Der Volgen Version)",
+"label": "My Rules"
+},
+{
+"minute": 51,
+"artist": "Samaran",
+"title": "Paris Madness",
+"label": "Circa 99",
+"bp": "bp:11406664",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d08b692-be2d-4055-aa01-8cde5fb3f1fd.LOFI.mp3",
+"name": "Paris Madness",
+"mix": "Club",
+"genre": "house",
+"released": "2018-12-21"
+},
+{
+"minute": 54,
+"artist": "Tabuley Rochereau",
+"title": "Hafi Deo (Nick & Dan Re-Edit Dub)",
+"label": "Soundway"
+}
+]
+},
+{
+"title": "2024-02-01 - Dicky Trisco - International Sounds 03",
+"records": [
+{
+"minute": 0,
+"artist": "Bernardo Pinheiro",
+"title": "Filhos De Zambi",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "[0?] Joutro Mundo Feat. Faust\u00e3o",
+"title": "Fara\u00f3 Joutro (Extended Mix)",
+"label": "Onda Boa"
+},
+{
+"minute": 7,
+"artist": "The Duks",
+"title": "Magalenha (Mr. PC Tribute Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "?",
+"title": "Goo Goo Wah Wah (Processman Rework)",
+"label": "Unreleased"
+},
+{
+"minute": 15,
+"artist": "Diogo Strausz",
+"title": "Flight Of Sagittarius (Yuksek Remix)",
+"label": "Goutte D'Or",
+"bp": "bp:16526142",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/614a0bc6-e4f7-49d4-9bc7-a8d0fe89b921.LOFI.mp3",
+"name": "Flight of Sagittarius",
+"mix": "Yuksek Remix",
+"genre": "indie-dance",
+"released": "2022-05-11"
+},
+{
+"minute": null,
+"artist": "Aroop Roy",
+"title": "Fankiando Taniador",
+"label": "Barefoot Beats"
+},
+{
+"minute": null,
+"artist": "Bernardo Pinheiro",
+"title": "Xang\u00f4",
+"label": "Barefoot Beats"
+},
+{
+"minute": null,
+"artist": "Pete Herbert & Dicky Trisco",
+"title": "Fique Louca",
+"label": "Barefoot Beats"
+},
+{
+"minute": null,
+"artist": "Bernardo Pinheiro",
+"title": "Expresso Amor",
+"label": "Barefoot Beats"
+},
+{
+"minute": null,
+"artist": "Nanda Rossi",
+"title": "Cleptomania (LOV.Ini Edit)",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "Bernardo Pinheiro & Joutro Mundo",
+"title": "Reza, Tambor E Ra\u00e7a Nova",
+"label": "Outra"
+},
+{
+"minute": 58,
+"artist": "Obina Shock",
+"title": "Vida (Processman Edit)",
+"label": "Unreleased"
+}
+]
+},
+{
+"title": "2024-03-07 - Dicky Trisco - International Sounds 04",
+"records": [
+{
+"minute": 0,
+"artist": "Andromeda Orchestra",
+"title": "Kano",
+"label": "Faze Action"
+},
+{
+"minute": null,
+"artist": "[0?] Gratts",
+"title": "Sun Circles (DT Ruff Dub)",
+"label": "Be Strong Be Free"
+},
+{
+"minute": 11,
+"artist": "Azymuth & Bruce Leroys",
+"title": "Melo Da Cuica (Aureum Remix)",
+"label": "Aureum",
+"bp": "bp:17755318",
+"score": 0.954,
+"preview": "https://geo-samples.beatport.com/track/9844a08b-8916-4d02-b4f7-1f134e72edf3.LOFI.mp3",
+"name": "Melo da Cu\u00edca",
+"mix": "Aureum\u00a0Remix",
+"genre": "deep-house",
+"released": "2023-06-23"
+},
+{
+"minute": 17,
+"artist": "Diogo Strausz",
+"title": "Dan=ca",
+"label": "Goutte D'Or",
+"bp": "bp:18625026",
+"score": 0.945,
+"preview": "https://geo-samples.beatport.com/track/6d175da4-d620-4389-a361-b11dfda416fd.LOFI.mp3",
+"name": "Dan=\u00e7a",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-02-07"
+},
+{
+"minute": 23,
+"artist": "Dicky Trisco",
+"title": "Discoteca (Disco Mix)",
+"label": "File Under Disco",
+"bp": "bp:17948271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/efb71003-d5db-43a4-b00d-893378c7eaa3.LOFI.mp3",
+"name": "Discoteca",
+"mix": "Disco Mix",
+"genre": "nu-disco-disco",
+"released": "2023-08-04"
+},
+{
+"minute": 28,
+"artist": "Wallace",
+"title": "Whirl",
+"label": "Rhythm Section International",
+"bp": "bp:17347034",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ad259254-66a6-460e-9cdf-5c7ea0958613.LOFI.mp3",
+"name": "Whirl",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2023-04-14"
+},
+{
+"minute": 33,
+"artist": "Dea",
+"title": "Canine Carnival",
+"label": "Bless You",
+"bp": "bp:19265593",
+"score": 0.96,
+"preview": "https://geo-samples.beatport.com/track/434305e8-8f99-4be6-aea5-79bbd259f3a4.LOFI.mp3",
+"name": "Canine Carnaval",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-07-24"
+},
+{
+"minute": null,
+"artist": "Joutro Mundo & Balako",
+"title": "Discoteque",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "Sentimental Animals",
+"title": "I Love You",
+"label": "Forthcoming",
+"bp": "bp:30117181",
+"score": 0.662,
+"preview": "https://geo-samples.beatport.com/track/903365fd-5d04-47a7-bd8e-bf6b515ee586.LOFI.mp3",
+"name": "I Wanna Love You",
+"mix": "Original Mix",
+"genre": "rock",
+"released": "2024-04-19"
+},
+{
+"minute": null,
+"artist": "E.S.P. X FCL",
+"title": "It's You (Justin Van Der Volgen Version)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Letrux",
+"title": "Me Espera (JM Edit)",
+"label": "Unreleased"
+}
+]
+},
+{
+"title": "2024-04-04 - Dicky Trisco, JKriv - International Sounds 05",
+"records": [
+{
+"minute": 0,
+"artist": "Processman Feat. Annalu Alvim",
+"title": "Ijesha (File Under Disco)",
+"label": "Coming Up"
+},
+{
+"minute": 6,
+"artist": "Sentimental Animals",
+"title": "Loose Rules",
+"label": "Razor-N-Tape",
+"bp": "bp:15485325",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/79c84fd4-1867-48c6-a18d-312d52c536d7.LOFI.mp3",
+"name": "Loose Rules",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2021-07-30"
+},
+{
+"minute": null,
+"artist": "[0??] Tigerbalm",
+"title": "Cosmic Camel",
+"label": "Ubiquity",
+"bp": "bp:24240035",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/8c784dc4-cb24-4292-8d4a-3721dfffa1b4.LOFI.mp3",
+"name": "Cosmic Camel",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-11-18"
+},
+{
+"minute": null,
+"artist": "[0??] Parkway Rhythm Feat. Boyd Jarvis",
+"title": "Broad St. Pressure (Tribal Pressure)",
+"label": "Parkway"
+},
+{
+"minute": null,
+"artist": "[0??] Matalo",
+"title": "Indian Trip",
+"label": "Unreleased"
+},
+{
+"minute": null,
+"artist": "[0??] Soulboy",
+"title": "Harmonica Track",
+"label": "Minimal",
+"bp": "bp:26926172",
+"score": 0.55,
+"preview": "https://geo-samples.beatport.com/track/6b729775-4a15-4e35-b84f-3423402d12a4.LOFI.mp3",
+"name": "Harmonica Track",
+"mix": "Danny Tenaglia Mix",
+"genre": "house",
+"released": "2017-02-03"
+},
+{
+"minute": null,
+"artist": "[0??] Adam Port",
+"title": "Senhor Doutor (Adam Port Edit)",
+"label": "Bandcamp"
+},
+{
+"minute": null,
+"artist": "[0??] Sentimental Animals",
+"title": "Dance With Me",
+"label": "Sentimental Animals"
+},
+{
+"minute": null,
+"artist": "[0??] Telephone Man",
+"title": "Stand Up",
+"label": "Tropic Of Love Music",
+"bp": "bp:16347357",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/cfafd981-7b0c-4587-8751-33da0b5688de.LOFI.mp3",
+"name": "Stand Up",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2022-04-08"
+},
+{
+"minute": null,
+"artist": "[0??] Tigerbalm Feat. Idd Aziz",
+"title": "Pagoda Dance Extended",
+"label": "House Music With Love"
+},
+{
+"minute": null,
+"artist": "[0??] Eddie C",
+"title": "Desafinado",
+"label": "Unreleased"
+},
+{
+"minute": 59,
+"artist": "Earth People",
+"title": "Dance",
+"label": "Champion",
+"bp": "bp:1745574",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/452ad0e3-6712-4b22-a452-b690ed1a3a04.LOFI.mp3",
+"name": "Dance",
+"mix": "Club Mix",
+"genre": "house",
+"released": "2007-03-07"
+},
+{
+"minute": 61,
+"artist": "R.D. Burman",
+"title": "Birth Of Shiva (JKriv Remix)",
+"label": "Naya Beat",
+"bp": "bp:18106346",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c7582fc5-b292-4e30-a36f-091e776f64a5.LOFI.mp3",
+"name": "Birth Of Shiva",
+"mix": "JKriv Extended Remix",
+"genre": "indie-dance",
+"released": "2023-03-17"
+},
+{
+"minute": 65,
+"artist": "Pinky Ann Rihal",
+"title": "Party Tonight (Turbotito & Ragz Rework)",
+"label": "Naya Beat",
+"bp": "bp:18105906",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/85ddc809-78d1-49a5-a4b4-2437a1c999fc.LOFI.mp3",
+"name": "Party Tonight",
+"mix": "Turbotito & Ragz Rework",
+"genre": "indie-dance",
+"released": "2022-05-25"
+},
+{
+"minute": 69,
+"artist": "Paulo Cintura",
+"title": "Carl\u00e3o Pano De Ch\u00e3o (Karmitas Mix)",
+"label": ""
+},
+{
+"minute": 76,
+"artist": "Akaba Man And The African Pride",
+"title": "Popular Side (Ben Gomori's Pride Of '56 Edit)",
+"label": "Monologues",
+"bp": "bp:18626102",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/4cbad746-39cf-4d07-8ba3-fa8b9adb3280.LOFI.mp3",
+"name": "Popular Side ",
+"mix": "Ben Gomori's Pride Of '56 Edit",
+"genre": "nu-disco-disco",
+"released": "2024-03-01"
+},
+{
+"minute": 81,
+"artist": "Paco Cabana & Martha Pinel",
+"title": "A\u00e7a\u00ed Com Guaran\u00e1",
+"label": "Bandcamp"
+},
+{
+"minute": 86,
+"artist": "Adesse Versions",
+"title": "Power",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Ajvar Soundsystem",
+"title": "Freak Hodja",
+"label": "Take Away"
+},
+{
+"minute": 94,
+"artist": "Thandi Zulu & The Young Five",
+"title": "Love Game (Luke Una Edit)",
+"label": "Mr. Bongo"
+},
+{
+"minute": 101,
+"artist": "Gledd",
+"title": "Candela",
+"label": "Saint Wax"
+},
+{
+"minute": 104,
+"artist": "Diogo Strausz Feat. Emmanuelle",
+"title": "Dan=\u00e7a (JKriv Remix)",
+"label": "Goutte D'Or",
+"bp": "bp:18740976",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/1a5787ce-0425-4f53-a876-3238e652fbcb.LOFI.mp3",
+"name": "Dan=\u00e7a",
+"mix": "JKriv Remix",
+"genre": "nu-disco-disco",
+"released": "2024-03-15"
+},
+{
+"minute": 110,
+"artist": "Pahua",
+"title": "Porque Yo (JKriv Remix)",
+"label": "Razor-N-Tape",
+"bp": "bp:18834154",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9a7d7b59-be0d-4e8b-a7cb-3aabfd88afb3.LOFI.mp3",
+"name": "Porque Yo (feat. Eva de Marce)",
+"mix": "JKriv Remix",
+"genre": "afro-house",
+"released": "2024-05-03"
+},
+{
+"minute": 116,
+"artist": "Cabo Verde Show",
+"title": "Valsadeira (JKriv Rework)",
+"label": ""
+}
+]
+},
+{
+"title": "2024-05-02 - Dicky Trisco, Gaspar Muniz - International Sounds 06",
+"records": []
+},
+{
+"title": "2024-06-06 - Dicky Trisco, Pabels - International Sounds 07",
+"records": [
+{
+"minute": 0,
+"artist": "Jaguar",
+"title": "Guadalupe",
+"label": "Musiques Du Monde"
+},
+{
+"minute": null,
+"artist": "[00?] Daniel T & Duckcomb",
+"title": "Caribbean Son DC Edit",
+"label": "Pleasure Of Love"
+},
+{
+"minute": null,
+"artist": "[0??] Sunshine Sound",
+"title": "Blue (Kitty Kutz Raw Dub)",
+"label": "Sunshine Sound"
+},
+{
+"minute": 13,
+"artist": "Daniele Baldelli",
+"title": "Isotropofunk",
+"label": "Mondo Groove",
+"bp": "bp:8044296",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/74671bc0-d5f3-450d-8bd6-86eafdeefc68.LOFI.mp3",
+"name": "Isotropofunk",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2021-07-22"
+},
+{
+"minute": 19,
+"artist": "Paul Older",
+"title": "Turkish Lights",
+"label": "Super Spicy"
+},
+{
+"minute": 23,
+"artist": "Paula_Tape",
+"title": "Panamericana",
+"label": "Rhythm Section International",
+"bp": "bp:13121577",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3fa0ebaa-25d2-4356-9215-2b25ba2b8f28.LOFI.mp3",
+"name": "Panamericana",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-03-06"
+},
+{
+"minute": 27,
+"artist": "A.B.HABIBI",
+"title": "Mother Africa",
+"label": "Vicious Charm"
+},
+{
+"minute": null,
+"artist": "[0??] Al Mackenzie",
+"title": "Vaguely Profound",
+"label": "Bandcamp",
+"bp": "bp:18891553",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/3b4b8a20-299b-4710-b7de-fd58a00ae28f.LOFI.mp3",
+"name": "Vaguely Profound (Ooh Ah Ooh Ah Uh Uh Ah)",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-05-03"
+},
+{
+"minute": 40,
+"artist": "Munir",
+"title": "Tuhan (Dicky Trisco Remix)",
+"label": "File Under Disco",
+"bp": "bp:19051586",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c264f3b5-a383-4c6a-85da-19014c8520df.LOFI.mp3",
+"name": "Tuhan",
+"mix": "Dicky Trisco Remix",
+"genre": "nu-disco-disco",
+"released": "2024-05-24"
+},
+{
+"minute": null,
+"artist": "[04?] Yuksek",
+"title": "Kwatamaja (Pete Herbert Remix)",
+"label": "Partyfine",
+"bp": "bp:23199669",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/3616fc9d-8225-4597-bdae-609ec65f1cc1.LOFI.mp3",
+"name": "Kwatamaja",
+"mix": "Pete Herbert Remix",
+"genre": "dance-pop",
+"released": "2024-04-18"
+},
+{
+"minute": 50,
+"artist": "Make A Dance",
+"title": "No Way Out",
+"label": "M.A.D",
+"bp": "bp:18395281",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ebff2542-10a0-4f84-a20e-03250fa73342.LOFI.mp3",
+"name": "No Way Out",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-02-16"
+},
+{
+"minute": 55,
+"artist": "DJ Garth",
+"title": "20 Minutes Of Disco Glory (Harvey Remix)",
+"label": "Grayhound"
+},
+{
+"minute": 58,
+"artist": "Psychemagik",
+"title": "Carnaval De Trancoso",
+"label": "Bandcamp",
+"bp": "bp:2423154",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c56f663f-b90e-4b27-a961-cce369071b89.LOFI.mp3",
+"name": "Carnaval de Trancoso",
+"mix": "Edit",
+"genre": "indie-dance",
+"released": "2011-08-24"
+},
+{
+"minute": null,
+"artist": "[0??] L.A. Mix",
+"title": "Don't Stop (Jammin')",
+"label": "Love Is The Message"
+},
+{
+"minute": null,
+"artist": "[0??] Sandy Barber",
+"title": "The Real Deal",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Rakim Under",
+"title": "Bass Love",
+"label": ""
+},
+{
+"minute": 74,
+"artist": "Arnau Obiols",
+"title": "Faith (Medlar & Dele Sosimi Remix)",
+"label": "",
+"bp": "bp:18825417",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f8b3fef-478f-485c-b659-cc01f260f475.LOFI.mp3",
+"name": "Faith",
+"mix": "Medlar & Dele Sosimi Remix",
+"genre": "organic-house",
+"released": "2024-04-12"
+},
+{
+"minute": 79,
+"artist": "Residentes Balearicos",
+"title": "Paraiso (Gaspar Muniz Remix)",
+"label": "",
+"bp": "bp:19023454",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aeccecb3-337c-48f9-becc-aee9db35cb09.LOFI.mp3",
+"name": "Paraiso",
+"mix": "Gaspar Muniz Funky Fresh Remix",
+"genre": "minimal-deep-tech",
+"released": "2024-06-07"
+},
+{
+"minute": 85,
+"artist": "Priscilla",
+"title": "Come, Get My Love",
+"label": ""
+},
+{
+"minute": 89,
+"artist": "N/A",
+"title": "Colosso (Joutra Edit)",
+"label": ""
+},
+{
+"minute": 95,
+"artist": "Alexander Robotnik",
+"title": "Problems D'amour (Ah Ou Ah Version)",
+"label": ""
+},
+{
+"minute": 98,
+"artist": "Bogdan Ra",
+"title": "Complimento",
+"label": ""
+},
+{
+"minute": 102,
+"artist": "L'amour",
+"title": "Let's Make Love Tonight",
+"label": "Strut",
+"bp": "bp:5391996",
+"score": 0.868,
+"preview": "https://geo-samples.beatport.com/track/b0705426-c9f2-446a-a9c2-8e46d8fc7ba5.LOFI.mp3",
+"name": "Let's Make Love Tonight feat. Krystal",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2014-06-16"
+},
+{
+"minute": 105,
+"artist": "Mya & The Mirror",
+"title": "Hesitation",
+"label": ""
+},
+{
+"minute": 111,
+"artist": "Ana Paula Reis",
+"title": "Espelho Meu (Elado Edit)",
+"label": ""
+}
+]
+},
+{
+"title": "2024-06-14 - Dicky Trisco @ The Love Tempo, Mad Radio Miami",
+"records": []
+},
+{
+"title": "2024-07-05 - Dicky Trisco - Future Disco Radio 247",
+"records": []
+},
+{
+"title": "2024-07-10 - Dicky Trisco, Tigerbalm - International Sounds 08",
+"records": [
+{
+"minute": 0,
+"artist": "Steve & Teresa",
+"title": "Catching A Wave",
+"label": "",
+"bp": "bp:4338135",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0c764371-2e16-4e89-b36e-b948e18bac57.LOFI.mp3",
+"name": "Catching A Wave",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2013-05-20"
+},
+{
+"minute": 5,
+"artist": "Aroop Roy",
+"title": "Fankiando Taniador",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Feel Kuti",
+"title": "Water No Get Enemy (COEO Edit)",
+"label": ""
+},
+{
+"minute": 15,
+"artist": "Nu Genea Feat. C\u00e9lia Kameni",
+"title": "Marechi\u00e0",
+"label": "NG Licensed To Carosello"
+},
+{
+"minute": 23,
+"artist": "Kim Anh",
+"title": "In The Stars",
+"label": "Razor-N-Tape",
+"bp": "bp:18470843",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d578c58d-ffc8-4f69-9d59-11247c475fab.LOFI.mp3",
+"name": "In The Stars",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-12-15"
+},
+{
+"minute": 28,
+"artist": "Residentes Balearicos",
+"title": "La Musica",
+"label": "Archipelago",
+"bp": "bp:15084553",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b1ef877e-f24b-400e-8d1c-1486eb9004d4.LOFI.mp3",
+"name": "La Musica",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-05-07"
+},
+{
+"minute": 33,
+"id": null,
+"raw": "Luz_De_Luna (DJ Pippi & Willie_Graff Remix)"
+},
+{
+"minute": null,
+"artist": "[0??] B Beat Girls",
+"title": "For The Same Man (Extended Nasty Version)",
+"label": "",
+"bp": "bp:16138220",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/b87fcdfd-401c-4960-a4a9-ba9bf4271348.LOFI.mp3",
+"name": "For The Same Man",
+"mix": "Extended Nasty Version",
+"genre": "house",
+"released": "2022-01-28"
+},
+{
+"minute": 43,
+"artist": "Joi N'Juno",
+"title": "Samemala",
+"label": "Canopy",
+"bp": "bp:19200926",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0db897bf-c4b4-48f1-a1b9-c8ae6da05995.LOFI.mp3",
+"name": "Samemala",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-07-12"
+},
+{
+"minute": 46,
+"artist": "Na've New Beaters",
+"title": "Ye Kou Si Kuo (Yuksek Remix)",
+"label": "",
+"bp": "bp:21538554",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/e112392b-bf86-43ef-9992-c1e310833658.LOFI.mp3",
+"name": "Ye Kou Si Kuo",
+"mix": "Yuksek Remix",
+"genre": "pop",
+"released": "2024-07-25"
+},
+{
+"minute": null,
+"artist": "[0??] Love Drop",
+"title": "Breaking Into My Heart (Caipirinha Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Trey Risqu\u00e9 Feat. Nikki",
+"title": "A Night With The Boys (Trail Of Destruction Dub)",
+"label": ""
+},
+{
+"minute": 60,
+"artist": "Kheodor Turner",
+"title": "Lament",
+"label": ""
+},
+{
+"minute": 66,
+"artist": "Noche De Fiesta",
+"title": "Loca",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Matalo!",
+"title": "Zaire",
+"label": ""
+},
+{
+"minute": 71,
+"artist": "Les Hiboux Vai Ser Muito Bom",
+"title": "Vibes4yoursoul Maneiro Remix",
+"label": ""
+},
+{
+"minute": 75,
+"artist": "Daisuke Miyamoto",
+"title": "Brazilian Funk",
+"label": "Dynamite Disco Club",
+"bp": "bp:16516060",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9df4219f-aeab-4097-9d19-33bbb5ff8954.LOFI.mp3",
+"name": "Brazilian Funk",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2022-06-03"
+},
+{
+"minute": 80,
+"artist": "Jay Airiness",
+"title": "Arabian Disco",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Monsieur Van Pratt",
+"title": "Funk De Ibiza",
+"label": ""
+},
+{
+"minute": null,
+"artist": "La Compagnie Creole Pacocha",
+"title": "La Nuit Des Requins (Pachocha Disco Brigade Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Pahua",
+"title": "Palante (Tigerbalm Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "De Gama",
+"title": "E.T.A",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Pachanga",
+"title": "Ritmo Latino (Pachanga Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Kora Koumakan",
+"title": "Touramani Wane (Tigerbalm Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Gigi Testa",
+"title": "Rio Grande (Jungle Version)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Red Axes & Yakomin",
+"title": "Abidjan",
+"label": ""
+}
+]
+},
+{
+"title": "2024-08-08 - Dicky Trisco, Gledd - International Sounds 09",
+"records": [
+{
+"minute": 0,
+"artist": "Ang\u00e9lique Kidjo",
+"title": "Batonga (JKriv Edit)",
+"label": "Gator Boots"
+},
+{
+"minute": 6,
+"artist": "Paul Older",
+"title": "I Like It I Wanna It (Radio Edit)",
+"label": "Toy Tonics"
+},
+{
+"minute": 10,
+"artist": "Jacques Renault",
+"title": "Yummy Moon",
+"label": "Schatzi"
+},
+{
+"minute": 13,
+"artist": "Balearic Jukebox",
+"title": "Feel The Magic (Discoteca Dub)",
+"label": "Jukebox"
+},
+{
+"minute": 19,
+"artist": "Pete Blaker X Pleon",
+"title": "Tudududu (LoE Remix)",
+"label": "Citizens Of Vice"
+},
+{
+"minute": 23,
+"artist": "African Shakedown",
+"title": "The Wonder (Magic Jams Edit)",
+"label": ""
+},
+{
+"minute": 32,
+"artist": "Tom Noble",
+"title": "Times Are Changing",
+"label": "Razor-N-Tape",
+"bp": "bp:19616462",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/fc1d0194-4581-4a4f-aa0a-0386b515c162.LOFI.mp3",
+"name": "Times Are Changing",
+"mix": "Vocal",
+"genre": "nu-disco-disco",
+"released": "2024-11-26"
+},
+{
+"minute": 37,
+"artist": "The Outsiders",
+"title": "Beyond The Ego (Warp Factor 9 Mix)",
+"label": "Moonworks",
+"bp": "bp:19070910",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9e729f9a-d7c3-4280-8cf1-71f031cac22b.LOFI.mp3",
+"name": "Beyond the Ego",
+"mix": "Warp Factor 9 Mix",
+"genre": "deep-house",
+"released": "2024-06-07"
+},
+{
+"minute": 43,
+"artist": "David Bay",
+"title": "Reverse Engineer",
+"label": "Toy Tonics",
+"bp": "bp:19188577",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4051b479-8961-46ba-b43b-970ba93837fa.LOFI.mp3",
+"name": "Reverse Engineer",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-08-16"
+},
+{
+"minute": 47,
+"artist": "Make A Dance",
+"title": "El U Vee",
+"label": "M.A.D.",
+"bp": "bp:18395279",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8dffcf91-a273-4dfa-ba96-316b07b8f5e6.LOFI.mp3",
+"name": "El U Vee",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-02-16"
+},
+{
+"minute": 52,
+"artist": "North 90",
+"title": "Tap Track",
+"label": "M.A.D",
+"bp": "bp:19126512",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f15f73b-716b-46ca-9f49-855afe1002cf.LOFI.mp3",
+"name": "Tap Track",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-07-05"
+},
+{
+"minute": null,
+"artist": "[05?] Sexie Edit",
+"title": "Pleasure Of Love",
+"label": ""
+},
+{
+"minute": 60,
+"artist": "Casbah 73",
+"title": "Let's Invade The Amazon (Yoruba Soul Mix)",
+"label": "Boogie Angst",
+"bp": "bp:18678485",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36364ae0-4fca-4309-bcd4-80bc7f178f28.LOFI.mp3",
+"name": "Let's Invade the Amazon",
+"mix": "Yoruba Soul Mix",
+"genre": "nu-disco-disco",
+"released": "2024-03-08"
+},
+{
+"minute": 66,
+"artist": "Lee Wilson, Tenobi",
+"title": "Hey Sista",
+"label": "Tropical Disco",
+"bp": "bp:18387652",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/71373db6-8925-4d80-96e6-e5e914fdfd20.LOFI.mp3",
+"name": "Hey Sista",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-01-26"
+},
+{
+"minute": 72,
+"artist": "Opolopo X Alafia",
+"title": "Axxanxxan",
+"label": "Canopy"
+},
+{
+"minute": null,
+"artist": "[0??] Swift Feat. Theo Lawson",
+"title": "Afro Hard (Moon Rocket & Romero Remix)",
+"label": "Tribe",
+"bp": "bp:5678006",
+"score": 0.84,
+"preview": "https://geo-samples.beatport.com/track/b8728c2e-b352-4ac2-9337-f48b181995d6.LOFI.mp3",
+"name": "Afro Hard",
+"mix": "Moon Rocket & Romero Remix",
+"genre": "house",
+"released": "2014-01-01"
+},
+{
+"minute": null,
+"artist": "[0??] Franc Spangler, Hudson's Choice",
+"title": "Roots",
+"label": "Delusions Of Grandeur",
+"bp": "bp:18880077",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/886e6f6c-2029-4f2e-9429-7574ab6e6b4c.LOFI.mp3",
+"name": "Roots",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2024-05-03"
+},
+{
+"minute": 82,
+"artist": "Laroye & Bongi Mvuyana",
+"title": "Matter Of Perception (Dub Mix)",
+"label": "United",
+"bp": "bp:18861815",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7f792f93-13b4-4727-8c4c-e07a0cd8b745.LOFI.mp3",
+"name": "Matter of Perception",
+"mix": "Dub Mix",
+"genre": "afro-house",
+"released": "2024-05-03"
+},
+{
+"minute": 97,
+"artist": "Simon Kidzoo",
+"title": "Yaya Song",
+"label": "Club Bad",
+"bp": "bp:18995266",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b0c3db49-abf1-4157-b5ed-1afbfaec8b71.LOFI.mp3",
+"name": "Yaya Song",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-05-17"
+},
+{
+"minute": 99,
+"artist": "Mabiisi",
+"title": "King (Chris Deepak Remix)",
+"label": "MoBlack",
+"bp": "bp:9039735",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dcc16bfc-c695-458a-95e2-ccf186234e46.LOFI.mp3",
+"name": "King",
+"mix": "Chris Deepak Remix",
+"genre": "afro-house",
+"released": "2017-03-17"
+},
+{
+"minute": 103,
+"artist": "Mike Steva",
+"title": "Destiny Song (Gledd Remix)",
+"label": "",
+"bp": "bp:26677313",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f78010d1-789a-4b36-8f4a-38a8b143d4ff.LOFI.mp3",
+"name": "Destiny Song",
+"mix": "Gledd Remix",
+"genre": "dance-pop",
+"released": "2025-08-15"
+},
+{
+"minute": 108,
+"artist": "Felipe Gordon",
+"title": "Who's Gonna Be",
+"label": "Phonogramme",
+"bp": "bp:19038855",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/108fb8c2-858a-4fbc-a4f4-e93868b6c387.LOFI.mp3",
+"name": "Who's Gonna Be",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-06-21"
+},
+{
+"minute": 113,
+"artist": "Gledd",
+"title": "Papa Bel",
+"label": "Saint Wax",
+"bp": "bp:21268150",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ef186931-544d-4c98-b5f6-ef63babcaaf3.LOFI.mp3",
+"name": "Papa Bel",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-05-24"
+}
+]
+},
+{
+"title": "2024-09-05 - Dicky Trisco, Nosha Luv - International Sounds 10",
+"records": [
+{
+"minute": 0,
+"artist": "Crazy P",
+"title": "Never Gonna Reach Me (Hot Toddy Remix)",
+"label": "20:20 Vision",
+"bp": "bp:3983043",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1b089c8d-42a7-4bca-b03c-ad9636b73ba8.LOFI.mp3",
+"name": "Never Gonna Reach Me",
+"mix": "Hot Toddy Remix",
+"genre": "house",
+"released": "2013-01-14"
+},
+{
+"minute": 9,
+"artist": "Black Machine",
+"title": "How Gee (Aroop Roy Edit)",
+"label": "Bandcamp"
+},
+{
+"minute": null,
+"artist": "[0??] African Shakedown",
+"title": "The Zebra (Noema Remix)",
+"label": ""
+},
+{
+"minute": 16,
+"artist": "Magic Words",
+"title": "Kissy Kiss",
+"label": "Razor-N-Tape",
+"bp": "bp:19132474",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cc3906b7-7690-4e61-8780-52cc94e09ce6.LOFI.mp3",
+"name": "Kissy Kiss",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-06-21"
+},
+{
+"minute": 21,
+"artist": "Prince Of Queens",
+"title": "M\u00e9rida",
+"label": "Razor-N-Tape",
+"bp": "bp:19244549",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0de80597-8a1c-4ccf-b29f-f51f8153c4ff.LOFI.mp3",
+"name": "M\u00e9rida",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-07-31"
+},
+{
+"minute": null,
+"artist": "[0??] Caspar Leo",
+"title": "Tom Tom",
+"label": "Samosa"
+},
+{
+"minute": null,
+"artist": "[0??] Tung-Sol",
+"title": "One For Frida",
+"label": "Tropical Disco",
+"bp": "bp:15191613",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/679e9cd4-92b5-485e-aa1a-7fba66a0a055.LOFI.mp3",
+"name": "One For Frida",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2021-05-21"
+},
+{
+"minute": 33,
+"artist": "Gledd",
+"title": "Guado Loop",
+"label": "Saint Wax",
+"bp": "bp:21268153",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a1899b65-ca33-4a65-a3b5-d91d4da965cc.LOFI.mp3",
+"name": "Guado Loop",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2024-05-24"
+},
+{
+"minute": 38,
+"artist": "Nenor",
+"title": "Tough Decision",
+"label": "Bandcamp"
+},
+{
+"minute": 42,
+"artist": "Baldelli & Rocca",
+"title": "Rolling Wave",
+"label": "Mondo Groove Italy",
+"bp": "bp:19033126",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/493ff33d-1a1e-49ff-b81a-d1e1d802189f.LOFI.mp3",
+"name": "Rolling Wave",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2024-06-07"
+},
+{
+"minute": 46,
+"artist": "Auntie Flo",
+"title": "Praise Him (Piano Version)",
+"label": "Bandcamp",
+"bp": "bp:19466054",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/96007205-d4e5-403a-be45-45240088c241.LOFI.mp3",
+"name": "Praise Him (Piano Version)",
+"mix": "Piano Version",
+"genre": "house",
+"released": "2024-07-26"
+},
+{
+"minute": null,
+"artist": "[0??] Mark Seven",
+"title": "The Fatal Flaw In Disco (U-4-Ria)",
+"label": "World Building"
+},
+{
+"minute": 71,
+"artist": "Gin Tonic Orchestra",
+"title": "Get A Umbaye (Raw Mix)",
+"label": "Mother Tongue",
+"bp": "bp:13449978",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/451e22cf-eb88-42ad-b42e-589c84781d0a.LOFI.mp3",
+"name": "Get A Umbaye",
+"mix": "Raw Mix",
+"genre": "house",
+"released": "2020-04-17"
+},
+{
+"minute": 74,
+"artist": "Guts Philantropiques",
+"title": "Shake It And Rise Up",
+"label": "",
+"bp": "bp:11632417",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/ce418084-67d7-46ad-a0c6-b9d2ffbf8df8.LOFI.mp3",
+"name": "Shake It and Rise Up",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2019-03-29"
+},
+{
+"minute": 80,
+"artist": "Chief Commander Ebenezer Obey",
+"title": "Eyi Yato (Eddie C Remix)",
+"label": "Ebenezer Obey Music Co.",
+"bp": "bp:18966640",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ed224d99-0423-4b4c-a9bd-1c3f8ef42f6b.LOFI.mp3",
+"name": "Eyi Yato",
+"mix": "Eddie C Remix",
+"genre": "electronica",
+"released": "2024-06-14"
+},
+{
+"minute": null,
+"artist": "[08?] Bosq Feat. Nidia Gongora",
+"title": "Rumbero (Roots Mix)",
+"label": ""
+},
+{
+"minute": 85,
+"artist": "Africanism & Tom & Joy",
+"title": "Antigua (Bob Sinclar 'Amour Kefe' Remix)",
+"label": "Yellow",
+"bp": "bp:18929534",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/41e07c75-831f-4bed-9953-aa0c1f478fa5.LOFI.mp3",
+"name": "Antigua (feat. Tony Allen)",
+"mix": "Bob Sinclar \"Amour Kefe\" Remix",
+"genre": "afro-house",
+"released": "2024-05-03"
+},
+{
+"minute": 90,
+"artist": "Troubleman Feat. Nina Miranda",
+"title": "Todo Hora",
+"label": "",
+"bp": "bp:7208991",
+"score": 0.833,
+"preview": "https://geo-samples.beatport.com/track/e868b398-8dca-4228-b32a-c3e24622643b.LOFI.mp3",
+"name": "Toda Hora",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2007-01-15"
+},
+{
+"minute": 93,
+"artist": "Sol Power All-Stars Feat. Elikeh",
+"title": "Va S\u00e9 Da",
+"label": "Sol Power Sound",
+"bp": "bp:23588173",
+"score": 0.747,
+"preview": "https://geo-samples.beatport.com/track/409fe80b-477e-4211-af50-59d0441509ce.LOFI.mp3",
+"name": "Va S\u00e9 Dub",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2022-08-05"
+},
+{
+"minute": 99,
+"artist": "Joe Bataan & Whiskey Barons",
+"title": "Fuego (Whiskey Barons Baile Remix)",
+"label": "Fania",
+"bp": "bp:28854601",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e0905178-0d8b-40ad-a67e-32491228b1e2.LOFI.mp3",
+"name": "Fuego",
+"mix": "Whiskey Barons Baile Remix",
+"genre": "latin",
+"released": "2014-03-25"
+},
+{
+"minute": 103,
+"artist": "Tata Vasquez",
+"title": "Suite Guaracho Part 2",
+"label": ""
+},
+{
+"minute": 106,
+"artist": "Bosq Feat. Kaleta",
+"title": "Wake Up",
+"label": "BE & Allo Floride",
+"bp": "bp:16576721",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/bf77917c-a155-4cd7-9b96-f3e96d866bf6.LOFI.mp3",
+"name": "Wake Up!",
+"mix": "Extended",
+"genre": "nu-disco-disco",
+"released": "2022-06-03"
+},
+{
+"minute": 111,
+"artist": "Voillaaa",
+"title": "Mambo Football",
+"label": "Favorite"
+},
+{
+"minute": 115,
+"artist": "Sangodele",
+"title": "Orlando Julius",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[11?] Tr\u00fcby Trio",
+"title": "Carajillo (Jazzanova Remix)",
+"label": ""
+}
+]
+},
+{
+"title": "2024-10-03 - Dicky Trisco, Jacques Renault - International Sounds 11",
+"records": [
+{
+"minute": 0,
+"artist": "Fabio Santanna",
+"title": "Ao Som De Marcos Valle (JKriv Remix)",
+"label": "Onda Boa"
+},
+{
+"minute": null,
+"artist": "[0??] Daniele Baldelli & DJ Rocca",
+"title": "Funkynoizer (Pete Herbert And Dicky Trisco Mix)",
+"label": "File Under Disco",
+"bp": "bp:9405895",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/8ab58f38-304c-4135-b251-35010f21bc43.LOFI.mp3",
+"name": "Funkynoizer",
+"mix": "Pete Herbert & Dicky Trisco Mix",
+"genre": "indie-dance",
+"released": "2017-06-19"
+},
+{
+"minute": 11,
+"artist": "Sadeedo",
+"title": "Hakawati",
+"label": "Desert Island",
+"bp": "bp:19086062",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/326ab128-88e8-4696-a63f-e9b2f89b2383.LOFI.mp3",
+"name": "Hakawati",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2024-06-21"
+},
+{
+"minute": null,
+"artist": "[0??] Residentes Balearicos",
+"title": "La Musica (DT Chop)",
+"label": "Archipelago",
+"bp": "bp:15084553",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/b1ef877e-f24b-400e-8d1c-1486eb9004d4.LOFI.mp3",
+"name": "La Musica",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-05-07"
+},
+{
+"minute": null,
+"artist": "[0??] Bailando",
+"title": "Pleasure Of Love",
+"label": ""
+},
+{
+"minute": 25,
+"artist": "Daniele Baldelli & Marco Dionigi",
+"title": "Be Careful About Karma",
+"label": "Frenetica",
+"bp": "bp:15447098",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/44fa1053-668d-4455-a7a5-7f9ca0edb376.LOFI.mp3",
+"name": "Be Careful About Karma",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2021-07-23"
+},
+{
+"minute": 31,
+"artist": "Felipe Gordon",
+"title": "Para Berta",
+"label": "Dead Horse"
+},
+{
+"minute": 35,
+"artist": "Barbara Boeing & Stump Valley",
+"title": "Mar Dei Sargassi",
+"label": "Toy Tonics",
+"bp": "bp:19384459",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/772a5c7b-bb37-4971-87f0-b6615d801b6e.LOFI.mp3",
+"name": "Mar dei Sargassi",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-11-08"
+},
+{
+"minute": 39,
+"id": null,
+"raw": "Colosso (Outra Edit)"
+},
+{
+"minute": 44,
+"artist": "Pavalas",
+"title": "Get Up (Dicky Trisco Remix)",
+"label": "Ravanelli Disco Club"
+},
+{
+"minute": 51,
+"artist": "DJ Buck",
+"title": "Nervous Acid",
+"label": "Tu Rong"
+},
+{
+"minute": 58,
+"artist": "Axel Boman",
+"title": "Nokturn (Grand Finale) DT Chop",
+"label": "Pampa"
+},
+{
+"minute": null,
+"artist": "[0??] HDB",
+"title": "Thunder Dance",
+"label": "Edits From"
+},
+{
+"minute": null,
+"artist": "[0??] Jacques Duvall",
+"title": "Belle Et Rebelle",
+"label": "Magic"
+},
+{
+"minute": null,
+"artist": "[0??] Saved My Life",
+"title": "Balanco Gostoso",
+"label": "Piano"
+},
+{
+"minute": 80,
+"artist": "Sheila & B. Devotion",
+"title": "Spacer (Boris Dlugosch Edit)",
+"label": "Maschio"
+},
+{
+"minute": 83,
+"artist": "Emilio Santiago",
+"title": "Dentro De Voc\u00ea (Jacques Renault Edit)",
+"label": "Just What The World Needs"
+},
+{
+"minute": null,
+"artist": "Passengers",
+"title": "Rhapsody",
+"label": "Durium"
+},
+{
+"minute": null,
+"artist": "Totem Projects (Justin Deighton And Leo Zero)",
+"title": "Hoomba",
+"label": "Totem Edits"
+},
+{
+"minute": 99,
+"artist": "Rey De Copas",
+"title": "Border Of Dreams (Andalucian Mix)",
+"label": "Kickin"
+},
+{
+"minute": 107,
+"artist": "Tri Atma",
+"title": "Yummy Moon (Schatzi Rework)",
+"label": "Schatzi Vol 13"
+},
+{
+"minute": 110,
+"artist": "Hanan",
+"title": "Besma (Jacques Renault Edit)",
+"label": "Unreleased"
+},
+{
+"minute": 118,
+"artist": "Meireles E Sua Orquestra",
+"title": "Na Baixa Do Sapateiro (Bahia) (Jacques Renault Edit)",
+"label": "Unreleased"
+}
+]
+},
+{
+"title": "2024-11-07 - Dicky Trisco, Hotmood - International Sounds 12",
+"records": [
+{
+"minute": 0,
+"artist": "The Emperor Machine & S\u00e9verine Mouletin",
+"title": "Your Own Style (Alt Mix)",
+"label": "",
+"bp": "bp:17484202",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/0f6f8d06-547d-4a50-89df-b2c9d9ef0f44.LOFI.mp3",
+"name": "Your Own Style",
+"mix": "Alt Mix",
+"genre": "nu-disco-disco",
+"released": "2023-03-31"
+},
+{
+"minute": 10,
+"artist": "Rhode & Brown",
+"title": "L.O.V.E.",
+"label": "Bandcamp",
+"bp": "bp:28536788",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/545d8ae6-56d8-4fe2-8d4c-5a39c58d6189.LOFI.mp3",
+"name": "L.O.V.E",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "2010-01-01"
+},
+{
+"minute": 13,
+"artist": "Chris Coco & George Solar",
+"title": "Rumba Solar (SIRS Remix)",
+"label": "DSPPR",
+"bp": "bp:18668866",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/27540674-9a21-4400-bfec-0e94ce380f2f.LOFI.mp3",
+"name": "Rumba Solar",
+"mix": "SIRS Remix",
+"genre": "organic-house",
+"released": "2024-02-27"
+},
+{
+"minute": 17,
+"artist": "Frank Agrario",
+"title": "Poco Loco",
+"label": "Partyfine",
+"bp": "bp:16666553",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/43eb7d17-929c-483f-8f71-174f7e1b783c.LOFI.mp3",
+"name": "Poco Loco",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2022-07-08"
+},
+{
+"minute": null,
+"artist": "[0??] MMM DJ LEVELED",
+"title": "WOMAN VOX",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Club EASE",
+"title": "Hi-Fi",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Ivan",
+"title": "Disco Deviance (PH Edit)",
+"label": ""
+},
+{
+"minute": 42,
+"artist": "Nickodemus",
+"title": "Mama Tchipp (Follow Me) (Tigerbalm Remix)",
+"label": "Wonderwheel"
+},
+{
+"minute": 45,
+"artist": "Red Rack'em",
+"title": "Italo_Disco_Banger",
+"label": "Bergerac"
+},
+{
+"minute": 53,
+"artist": "Romain FX",
+"title": "\u5b87\u5b99\u5973\u4eba Spacer Woman (Vocal Version)",
+"label": "",
+"bp": "bp:19857691",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2278c9b8-3c79-4c87-97fe-85129b667c8a.LOFI.mp3",
+"name": "Spacer Woman",
+"mix": "Vocal Version ft. Kaona",
+"genre": "indie-dance",
+"released": "2024-12-27"
+},
+{
+"minute": 59,
+"artist": "Natasha Kitty Katt",
+"title": "Synaptic Juice (Dicky Trisco Love Dub)",
+"label": ""
+}
+]
+},
+{
+"title": "2024-12-09 - Dicky Trisco, DJ Garth - International Sounds 13",
+"records": [
+{
+"minute": 0,
+"artist": "Seu Jorge",
+"title": "Mania De Peit\u00e3o (JKriv Edit)",
+"label": "Bandcamp"
+},
+{
+"minute": 4,
+"artist": "Alex Blex",
+"title": "Nice Move Peter (Yuksek Remix)",
+"label": "Partyfine",
+"bp": "bp:16282922",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a1427cf-ef3c-4155-8ac5-e96146c0ba2f.LOFI.mp3",
+"name": "Nice move, Peter!",
+"mix": "Yuksek Remix",
+"genre": "indie-dance",
+"released": "2022-04-01"
+},
+{
+"minute": 8,
+"artist": "Tigerbalm Feat. Joy Tyson",
+"title": "Profunda Alma",
+"label": "Razor-N-Tape",
+"bp": "bp:19710079",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/76be804f-2cfc-4434-be2d-ba9e1ad3f231.LOFI.mp3",
+"name": "Profunda Alma",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-11-20"
+},
+{
+"minute": 13,
+"artist": "Alice Russell",
+"title": "I See You (The Sworn Virgins Remix)",
+"label": "Tru Thoughts",
+"bp": "bp:19470329",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f10ea023-743e-433f-a1e0-655509a1510f.LOFI.mp3",
+"name": "I See You",
+"mix": "Sworn Virgins Remix",
+"genre": "electronica",
+"released": "2024-09-05"
+},
+{
+"minute": 17,
+"artist": "Joakim",
+"title": "Boipeba",
+"label": "Mareh",
+"bp": "bp:8064422",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/28f8ef85-2fc4-48cb-90a2-3c567e72a387.LOFI.mp3",
+"name": "Boipeba",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2016-07-08"
+},
+{
+"minute": 23,
+"artist": "Harry Thurman",
+"title": "Underwater (DT Ruff As Fuck Edit)",
+"label": ""
+},
+{
+"minute": 30,
+"artist": "FSQ",
+"title": "Freak Out For Fitness (Charlie Soul Clap Remix)",
+"label": "Soul Clap",
+"bp": "bp:19772460",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/69b1b084-f193-42b7-95f6-3ca80c5f3ca1.LOFI.mp3",
+"name": "Freak Out For Fitness (Charlie Soul Clap Remix)",
+"mix": "Charlie Soul Clap Remix",
+"genre": "nu-disco-disco",
+"released": "2024-12-05"
+},
+{
+"minute": null,
+"artist": "[0??] Black Box",
+"title": "Everybody Everybody (JKriv Edit)",
+"label": "Bandcamp"
+},
+{
+"minute": 41,
+"artist": "Moodymann",
+"title": "I Got Werk Pt.3",
+"label": "Bandcamp",
+"bp": "bp:5243135",
+"score": 0.897,
+"preview": "https://geo-samples.beatport.com/track/88496764-a8a4-4e86-b4a6-3a65b90a3db8.LOFI.mp3",
+"name": "I Got Werk 4 U",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2014-01-27"
+},
+{
+"minute": 46,
+"artist": "Masters At Work, Todd Terry, Tony Humphries",
+"title": "Wishing",
+"label": "MAW",
+"bp": "bp:18549832",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e2718867-3bd9-460a-b342-9cf4f23dc030.LOFI.mp3",
+"name": "Wishing",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-02-16"
+},
+{
+"minute": 50,
+"artist": "The Patchouli Brothers",
+"title": "Male Dans La Peau",
+"label": "Razor-N-Tape"
+},
+{
+"minute": 56,
+"artist": "Sworn Virgins",
+"title": "Lazer Beam",
+"label": "Deewee",
+"bp": "bp:11953846",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/69f64216-91ca-4ab2-ada4-1bc247d393fa.LOFI.mp3",
+"name": "Lazer Beam",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2019-05-24"
+},
+{
+"minute": 60,
+"artist": "Psychemagik",
+"title": "Triumph Of The Gods",
+"label": "",
+"bp": "bp:5080088",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2cf67c14-45c1-4bfa-98d8-3d68568a53ac.LOFI.mp3",
+"name": "Triumph Of The Gods",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2014-02-24"
+},
+{
+"minute": 66,
+"artist": "Midlake",
+"title": "Roscoe",
+"label": "",
+"bp": "bp:403744",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/43982f94-d721-43e1-a0ce-6a0d8228ff95.LOFI.mp3",
+"name": "Roscoe",
+"mix": "Beyond The Wizard's Sleeve Remix",
+"genre": "electronica",
+"released": "2007-10-05"
+},
+{
+"minute": 76,
+"artist": "A Mountain Of One",
+"title": "Bones",
+"label": "Amore",
+"bp": "bp:4213301",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/047bed6d-563d-4148-a574-992cd7cbce0e.LOFI.mp3",
+"name": "Bones",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2005-11-20"
+},
+{
+"minute": null,
+"artist": "[0??] Daniel Wainwright",
+"title": "Doing It",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Mad Professor",
+"title": "A Reference To E2-E4",
+"label": ""
+},
+{
+"minute": 87,
+"artist": "Bj\u00f6rk",
+"title": "Human Behaviour",
+"label": "",
+"bp": "bp:27295330",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/983f3aee-86f6-43e8-a25e-33c9e100241a.LOFI.mp3",
+"name": "Human Behaviour",
+"mix": "Original Mix",
+"genre": "rock",
+"released": "1993-01-01"
+},
+{
+"minute": 92,
+"artist": "Sascha Funke",
+"title": "Chemin Des Figons",
+"label": "BPitch Control",
+"bp": "bp:495060",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/be2978ce-9b73-4973-82b7-3c0f3725ec55.LOFI.mp3",
+"name": "Chemin Des Figons",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2008-02-11"
+},
+{
+"minute": 97,
+"artist": "The East Is Near",
+"title": "Zappelnder Hindu",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Trent",
+"title": "So High",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[10?] D\u0101dalus & Bikarus",
+"title": "Kraus Is The Limit",
+"label": ""
+},
+{
+"minute": 110,
+"artist": "Wanda Krak",
+"title": "Spectral Beasts",
+"label": "Invisible",
+"bp": "bp:16684926",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f5c2fb8f-7acc-49eb-a008-7688fbbb59cc.LOFI.mp3",
+"name": "Spectral Beasts",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2022-07-29"
+},
+{
+"minute": 115,
+"artist": "The Oscillation",
+"title": "Somatone",
+"label": "ADA UK"
+}
+]
+},
+{
+"title": "2025-01-02 - Dicky Trisco - International Sounds 14",
+"records": [
+{
+"minute": 0,
+"artist": "Sentimental Animals",
+"title": "Linda Aida Cumbia",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0?] African Shaketown",
+"title": "The Zebra (Noema Remix)",
+"label": ""
+},
+{
+"minute": 8,
+"artist": "Joutro Mundo Feat. Faust\u00e3o",
+"title": "Fara\u00f3 Divindade Do Egito (12 Extended Mix)",
+"label": "Onda Boa"
+},
+{
+"minute": 15,
+"artist": "Sadeedo",
+"title": "Hakawati",
+"label": "DSPPR",
+"bp": "bp:19086062",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/326ab128-88e8-4696-a63f-e9b2f89b2383.LOFI.mp3",
+"name": "Hakawati",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2024-06-21"
+},
+{
+"minute": null,
+"artist": "Residentes Bale\u00e1ricos",
+"title": "La Musica (DT Chop)",
+"label": "Archipelago"
+},
+{
+"minute": 26,
+"artist": "Joi N'Juno",
+"title": "Samemala",
+"label": "Canopy",
+"bp": "bp:19200926",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0db897bf-c4b4-48f1-a1b9-c8ae6da05995.LOFI.mp3",
+"name": "Samemala",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-07-12"
+},
+{
+"minute": 30,
+"artist": "Sentimental Animals",
+"title": "I Love You",
+"label": "",
+"bp": "bp:30117181",
+"score": 0.662,
+"preview": "https://geo-samples.beatport.com/track/903365fd-5d04-47a7-bd8e-bf6b515ee586.LOFI.mp3",
+"name": "I Wanna Love You",
+"mix": "Original Mix",
+"genre": "rock",
+"released": "2024-04-19"
+},
+{
+"minute": null,
+"artist": "[3?] Nickodemus & Pat Kalla",
+"title": "Mama Tchipp (Tigerbalm Remix)",
+"label": "Wonderwheel"
+},
+{
+"minute": 40,
+"artist": "Red Rack'em",
+"title": "Italo Disco Banger",
+"label": "Bergerac",
+"bp": "bp:19442207",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6abf6dbc-c3f7-4bb0-aa60-a0fd4453f63a.LOFI.mp3",
+"name": "Italo Disco Banger",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-09-13"
+},
+{
+"minute": 47,
+"artist": "Dicky Trisco",
+"title": "Discoteca (Hotmood Mix)",
+"label": "File Under Disco",
+"bp": "bp:17948281",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d2302e56-08b3-463d-8823-c44e5d10e0b2.LOFI.mp3",
+"name": "Discoteca",
+"mix": "Hotmood Dub Mix",
+"genre": "nu-disco-disco",
+"released": "2023-08-04"
+},
+{
+"minute": 53,
+"artist": "Wild Fantasy",
+"title": "Jungle Drums",
+"label": "Sirs Cut"
+},
+{
+"minute": null,
+"artist": "Victor Bach",
+"title": "Living In Harmony (Justin Van Der Volgen Edit)",
+"label": "Bandcamp"
+}
+]
+},
+{
+"title": "2025-02-07 - Dicky Trisco - Nossa Mareh Mix",
+"records": []
+},
+{
+"title": "2025-02-07 - Dicky Trisco, Keep On - International Sounds 15",
+"records": [
+{
+"minute": 0,
+"artist": "Dicy",
+"title": "N\u00e3o H\u00e1 Nada Em Seu Lugar / Ain't No Sunshine When She's Gone",
+"label": "Tratore"
+},
+{
+"minute": null,
+"artist": "[0??] Todh Tri",
+"title": "Kone Kone Sampadan",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Hot Slot Machine",
+"title": "I'll Be Ready",
+"label": ""
+},
+{
+"minute": 13,
+"artist": "East Coast Love Affair",
+"title": "Love Chug",
+"label": "Athens Of The North",
+"bp": "bp:19366859",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/00d4ae9d-82c3-442f-9e84-54261545b9c2.LOFI.mp3",
+"name": "Love Chug",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-08-23"
+},
+{
+"minute": 18,
+"artist": "Bernardo Pinheiro",
+"title": "Steps Out (Space Odyssey Mix)",
+"label": "",
+"bp": "bp:17805959",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ed4df3cf-571b-434a-891f-313753e8d730.LOFI.mp3",
+"name": "Steps Out",
+"mix": "Space Odyssey Mix",
+"genre": "nu-disco-disco",
+"released": "2023-07-10"
+},
+{
+"minute": 22,
+"artist": "Totem Projects",
+"title": "Go",
+"label": ""
+},
+{
+"minute": 28,
+"artist": "Teno Afrika",
+"title": "Chants Of Africa",
+"label": "",
+"bp": "bp:14338668",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/949c607b-084f-40fa-ab70-3a835c90fe24.LOFI.mp3",
+"name": "Chants of Africa",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2020-10-23"
+},
+{
+"minute": 32,
+"artist": "Emperor Machine",
+"title": "La Cassette (Tigerbalm Remix)",
+"label": "",
+"bp": "bp:19407482",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af224eae-e2c9-44fe-90b9-0a9fa6992e3d.LOFI.mp3",
+"name": "La Cassette (feat. S\u00e9verine Mouletin)",
+"mix": "Tigerbalm Remix",
+"genre": "nu-disco-disco",
+"released": "2024-09-13"
+},
+{
+"minute": null,
+"artist": "[0??] Nocturnal Hazard",
+"title": "Jean's Guitar (Edit De Olson & Truth)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Luzes Neon",
+"title": "Hospi\u00cccio (LOV.Ini Edit)",
+"label": ""
+},
+{
+"minute": 50,
+"artist": "Tom Carruthers Feat. Harriet Brown",
+"title": "Last Night (M.A.D Vocal Mix)",
+"label": "M.A.D",
+"bp": "bp:20117306",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/d4fdf6f2-851c-4cfe-8720-7501a2d316bb.LOFI.mp3",
+"name": "Last Night",
+"mix": "M.A.D Vocal Mix",
+"genre": "house",
+"released": "2025-03-14"
+},
+{
+"minute": 56,
+"artist": "Processman Feat. Luciano Calazans",
+"title": "Pergunta Sem Resposta (Dicky Trisco Remix)",
+"label": ""
+},
+{
+"minute": 62,
+"artist": "Wally Badarou",
+"title": "Endless Race (OOFT! Edit)",
+"label": ""
+},
+{
+"minute": 65,
+"artist": "Serge Ponsar",
+"title": "Out In The Night (12\" Version)",
+"label": ""
+},
+{
+"minute": 70,
+"artist": "Mac Thornhill",
+"title": "No Way To Control It",
+"label": "",
+"bp": "bp:6291717",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ffffa853-a57b-4d44-beca-cdb4faed280e.LOFI.mp3",
+"name": "No Way to Control It",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2014-12-19"
+},
+{
+"minute": 75,
+"artist": "Brenda & The Big Dudes",
+"title": "Love Action",
+"label": "",
+"bp": "bp:21256362",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ccc7840d-57b4-4e88-b63a-4ed7d8ca41d4.LOFI.mp3",
+"name": "Love Action",
+"mix": "Original Mix",
+"genre": "african",
+"released": "1984-10-01"
+},
+{
+"minute": 81,
+"artist": "Initials",
+"title": "Message In The Music (Beautiful Swimmers Mastermix)",
+"label": ""
+},
+{
+"minute": 84,
+"artist": "Micky Milan",
+"title": "Les Vacances On S'\u00e9clate, On S'evade",
+"label": "",
+"bp": "bp:12862779",
+"score": 0.973,
+"preview": "https://geo-samples.beatport.com/track/51442e31-b150-4df2-81a6-bdc0b8b251e1.LOFI.mp3",
+"name": "Les Vacances On SEclate, On SEvade",
+"mix": "Original Version",
+"genre": "nu-disco-disco",
+"released": "2019-12-27"
+},
+{
+"minute": 88,
+"artist": "Magic Jams",
+"title": "Zisou (Magic Jams Dub Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "NV",
+"title": "It's Alright (Extended Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Inner Life",
+"title": "Your Love",
+"label": "",
+"bp": "bp:7450254",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb89f60b-2d75-4b23-8808-77c85270f018.LOFI.mp3",
+"name": "Your Love",
+"mix": "Main Mix",
+"genre": "house",
+"released": "2016-01-11"
+},
+{
+"minute": 101,
+"artist": "Paradise Girls",
+"title": "Holding Back (Paul's Back Dubmental Mix II)",
+"label": "Easy Street",
+"bp": "bp:1950580",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a4f950f-5c48-4861-ae0a-c2469842f40c.LOFI.mp3",
+"name": "Holding Back",
+"mix": "Paul's Back Dubmental",
+"genre": "indie-dance",
+"released": "2011-05-23"
+},
+{
+"minute": 105,
+"artist": "Tshala Muana",
+"title": "Djepue",
+"label": "",
+"bp": "bp:19033947",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9217aa7e-f174-4642-a50c-59e6382d37e7.LOFI.mp3",
+"name": "Djepue",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2024-08-02"
+},
+{
+"minute": null,
+"artist": "[1??] Mighty 7",
+"title": "Call Me (OOFT! Edit)",
+"label": ""
+},
+{
+"minute": 112,
+"artist": "The Jammers",
+"title": "What Have You Got To Lose",
+"label": "Past Due",
+"bp": "bp:12957230",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/34212d01-84eb-4cb6-ae52-3ba2731f1942.LOFI.mp3",
+"name": "What Have You Got To Lose",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2019-12-30"
+},
+{
+"minute": 116,
+"artist": "Johnny Nash",
+"title": "Closer",
+"label": "",
+"bp": "bp:30416019",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/4afb8b84-382c-4f34-8a10-a16001e52e70.LOFI.mp3",
+"name": "Closer",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "1992-01-01"
+}
+]
+},
+{
+"title": "2025-03-13 - Dicky Trisco - International Sounds 16",
+"records": [
+{
+"minute": 0,
+"artist": "Jo\u00e3o Selva Feat. Clea Vincent",
+"title": "Viens Dancer",
+"label": "Underdog"
+},
+{
+"minute": 4,
+"artist": "Khruangbin",
+"title": "Pelota (Quantic Remix)",
+"label": ""
+},
+{
+"minute": 9,
+"artist": "Saidera Feat. Nathan Haines",
+"title": "Deixa Tudo Fluir (Ray Mang Instrumental Version)",
+"label": "Let's Play House"
+},
+{
+"minute": 15,
+"artist": "CLAAP!",
+"title": "Caracas",
+"label": "Partyfine",
+"bp": "bp:20151177",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fc2b562e-9c8d-4cb2-8f3f-be5fefcaa100.LOFI.mp3",
+"name": "Caracas",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-03-21"
+},
+{
+"minute": 19,
+"artist": "Session Victim",
+"title": "MPFree Now",
+"label": "",
+"bp": "bp:16698271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f803fc47-c05b-47b6-85e2-92080afe5fee.LOFI.mp3",
+"name": "MPFree Now",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2022-07-15"
+},
+{
+"minute": 22,
+"artist": "L.U.P.O.",
+"title": "Keep It Up (Vocal Extended Mix)",
+"label": "",
+"bp": "bp:17559180",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d9d99b4a-4ed8-428e-a8ed-e4797a52259f.LOFI.mp3",
+"name": "Keep It Up",
+"mix": "Vocal Extended Mix",
+"genre": "electronica",
+"released": "1990-03-01"
+},
+{
+"minute": 27,
+"artist": "Voorn & Salvador",
+"title": "Every Man Loves",
+"label": "Universo Positivo",
+"bp": "bp:20116216",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5c84474b-2776-46c3-ae3b-1fe36732f6c5.LOFI.mp3",
+"name": "Every Man Loves",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-03-14"
+},
+{
+"minute": 33,
+"artist": "Pau Roca",
+"title": "Euphoria",
+"label": "Pleasure Of Love",
+"bp": "bp:15523504",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b40e331f-052e-4756-a943-bec92c97e6c5.LOFI.mp3",
+"name": "Euphoria",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2021-08-13"
+},
+{
+"minute": 41,
+"artist": "Italoconnection",
+"title": "Why (Dicky Ruff Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[4?] Joutro Mundo & Pasternak",
+"title": "Dia Lindo",
+"label": ""
+},
+{
+"minute": 49,
+"artist": "Diogo Strausz",
+"title": "Caramba",
+"label": "Razor-N-Tape",
+"bp": "bp:20212910",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cc5ea633-e583-4e61-9ead-6c9e43c2aa37.LOFI.mp3",
+"name": "Caramba",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2025-04-02"
+},
+{
+"minute": 53,
+"artist": "JKriv",
+"title": "Zone 1",
+"label": "Razor-N-Tape",
+"bp": "bp:20032086",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/33eea087-213b-4934-b7a1-621ad4981e6e.LOFI.mp3",
+"name": "Zone 1",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2025-03-14"
+},
+{
+"minute": 56,
+"artist": "Daniele Baldelli & Roberto Lodola",
+"title": "Round Feeling (Deep Afro Mix)",
+"label": ""
+}
+]
+},
+{
+"title": "2025-04-14 - Dicky Trisco, Thales - International Sounds 17",
+"records": [
+{
+"minute": 0,
+"artist": "Tigerbalm Feat. Jimena Angel",
+"title": "Cumbia Calypso",
+"label": "Partyfine",
+"bp": "bp:20151176",
+"score": 0.65,
+"preview": "https://geo-samples.beatport.com/track/9a70ec9e-49c5-46b3-a94c-29dc2cfe6459.LOFI.mp3",
+"name": "Cumbia Calypso",
+"mix": "feat. Jimena Angel",
+"genre": "electronica",
+"released": "2025-03-21"
+},
+{
+"minute": 3,
+"artist": "Payfone",
+"title": "Volt To Volt",
+"label": "Otis",
+"bp": "bp:20824550",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5851f147-35c5-43db-b445-8ed2f5f564db.LOFI.mp3",
+"name": "Volt to Volt",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2025-08-01"
+},
+{
+"minute": 6,
+"artist": "Aura Safari",
+"title": "Island Dreams (Tropical Dub)",
+"label": "Hell Yeah"
+},
+{
+"minute": 12,
+"artist": "Leonidas & Hobbes",
+"title": "Web Of Intrigue",
+"label": "Hobbes",
+"bp": "bp:14654614",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2bb80377-7ddf-4ddb-ae8d-5baf1060a3bd.LOFI.mp3",
+"name": "Web Of Intrigue",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2020-12-18"
+},
+{
+"minute": 18,
+"artist": "Mind Fair",
+"title": "Bloody Mary",
+"label": "Golf Channel",
+"bp": "bp:4884783",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f6cc487-6534-4b64-b340-8e7e8eab8035.LOFI.mp3",
+"name": "Bloody Mary",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2015-07-31"
+},
+{
+"minute": 26,
+"artist": "Daniel T.",
+"title": "Trinidad Trouble",
+"label": "Razor-N-Tape",
+"bp": "bp:16072526",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/27672b73-b24d-4034-90b1-26f721bd595b.LOFI.mp3",
+"name": "Trinidad Trouble",
+"mix": "Daniel T Edit",
+"genre": "house",
+"released": "2021-12-17"
+},
+{
+"minute": 30,
+"artist": "100th Monkey",
+"title": "Raindance (Manuel Darquart Remix)",
+"label": "Heels & Souls",
+"bp": "bp:19105366",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1aff4766-f241-4d34-96d0-10da2493a77e.LOFI.mp3",
+"name": "Raindance",
+"mix": "Manuel Darquart Remix",
+"genre": "house",
+"released": "2024-06-21"
+},
+{
+"minute": 35,
+"artist": "Plastic Bamboo",
+"title": "Bad Boy Bubby",
+"label": "Star Creature",
+"bp": "bp:20279879",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dac4ec44-fc2f-45eb-b8ea-5c69bc28e62f.LOFI.mp3",
+"name": "Bad Boy Bubby",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2025-04-25"
+},
+{
+"minute": 40,
+"artist": "Dobao",
+"title": "Disfrutar",
+"label": "Razor-N-Tape",
+"bp": "bp:19846384",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ab9b27c1-2772-4241-a08e-5cdbb025e2c8.LOFI.mp3",
+"name": "Disfrutar",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-12-13"
+},
+{
+"minute": 45,
+"artist": "Dandolo",
+"title": "I Won (Cosmo Dance Dub Mix)",
+"label": "Dust Down",
+"bp": "bp:20274156",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/aa2ef99e-0c47-4ba6-9d3c-4d09ee9ff6b2.LOFI.mp3",
+"name": "I won",
+"mix": "Cosmo Dance Dub Remix",
+"genre": "indie-dance",
+"released": "2025-03-26"
+},
+{
+"minute": 49,
+"artist": "Totem Projects",
+"title": "Praise",
+"label": "Totem Edits"
+},
+{
+"minute": null,
+"artist": "[05?] Funkyjaws & Los Protos",
+"title": "Can't Touch This",
+"label": "Craft"
+},
+{
+"minute": 61,
+"artist": "Dd Mirage",
+"title": "Feel It",
+"label": "",
+"bp": "bp:19778011",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/c8252630-d3ed-414d-add6-1cd0dd1d4db8.LOFI.mp3",
+"name": "Feel It",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2024-12-13"
+},
+{
+"minute": 68,
+"artist": "Aura Safari",
+"title": "Wave Riding (Sirs Edit)",
+"label": "Hell Yeah",
+"bp": "bp:19310859",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/045902c2-9e36-48d8-b9bf-05e0278d8ad8.LOFI.mp3",
+"name": "Wave Riding",
+"mix": "SIRS Remix",
+"genre": "nu-disco-disco",
+"released": "2024-08-09"
+},
+{
+"minute": 73,
+"artist": "Ilija Rudman",
+"title": "Time & Time",
+"label": "",
+"bp": "bp:5703964",
+"score": 0.891,
+"preview": "https://geo-samples.beatport.com/track/5e68be3d-3b9e-4b84-ac9f-15984cc7904e.LOFI.mp3",
+"name": "Time and Time",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2010-06-14"
+},
+{
+"minute": 78,
+"artist": "Ben Gomori",
+"title": "I Have Finally Found Somebody (Ben Gomori Balearic London Mix)",
+"label": "True Romance",
+"bp": "bp:19123782",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b43fb02c-4376-469d-a982-94f6dcc3d3e7.LOFI.mp3",
+"name": "I Have Finally Found Somebody",
+"mix": "Ben's Balearic London Mix",
+"genre": "house",
+"released": "2024-06-21"
+},
+{
+"minute": 83,
+"artist": "La Luna",
+"title": "Come To Me (Piek Nicolette Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] M.I.D.I. & Maxi & Efti",
+"title": "Ragga Steady (Ragga-Go Mix)",
+"label": ""
+},
+{
+"minute": 93,
+"artist": "Issam Dahmani",
+"title": "Motherland",
+"label": "Quattro Bambole Music"
+},
+{
+"minute": 97,
+"artist": "Parkwerks",
+"title": "Inherit Dub",
+"label": ""
+},
+{
+"minute": 100,
+"artist": "Dobao",
+"title": "Oceano",
+"label": "",
+"bp": "bp:19389457",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a0263d8-edb9-4747-bfc0-3bff3445397f.LOFI.mp3",
+"name": "Oceano",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-08-30"
+},
+{
+"minute": null,
+"artist": "[1??] Eternal Love",
+"title": "La Pantera",
+"label": "",
+"bp": "bp:22774821",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/ebc7b8c4-574f-46f9-802e-483cd3d0f3fb.LOFI.mp3",
+"name": "La Pantera",
+"mix": "Extended",
+"genre": "mainstage",
+"released": "2024-06-07"
+},
+{
+"minute": null,
+"artist": "[1??] Longhair",
+"title": "The Forbidden Dance",
+"label": "Love On The Rocks"
+}
+]
+},
+{
+"title": "2025-05-13 - Dicky Trisco, Sophie Lloyd - International Sounds 18",
+"records": [
+{
+"minute": 0,
+"artist": "Fernanda Abreu",
+"title": "Rio 40 Graus",
+"label": "",
+"bp": "bp:21116043",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fa2d9d36-04e7-4c17-a4a9-b5d438aec6ab.LOFI.mp3",
+"name": "Rio 40 Graus",
+"mix": "Original Mix",
+"genre": "pop",
+"released": "1997-07-14"
+},
+{
+"minute": 5,
+"artist": "J. Clip",
+"title": "Exemplo De Amor",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Cosmic Boogie",
+"title": "Ooh Child",
+"label": ""
+},
+{
+"minute": 14,
+"artist": "Rudy's Midnight Machine",
+"title": "Mistral",
+"label": "Faze Action"
+},
+{
+"minute": 18,
+"artist": "Orquesta Narv\u00e1ez",
+"title": "Vamos A Gozar",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "Mr. Ho",
+"title": "000 Baby",
+"label": "Klasse Wrecks",
+"bp": "bp:13394718",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/02f35d46-af59-4a50-a6a0-a984ef42370f.LOFI.mp3",
+"name": "000 Baby",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-04-06"
+},
+{
+"minute": 28,
+"artist": "Marius Vareid",
+"title": "Nite Drive",
+"label": "",
+"bp": "bp:20653183",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ff2a202e-7ea9-4486-88e7-d076a7844424.LOFI.mp3",
+"name": "Nite Drive",
+"mix": "Original Mix",
+"genre": "downtempo",
+"released": "2025-07-18"
+},
+{
+"minute": null,
+"artist": "[0??] Sizike",
+"title": "Robot Life (Medlar Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Neo Saka",
+"title": "Katara (Max Hammur Edit)",
+"label": ""
+},
+{
+"minute": 42,
+"artist": "Diogo Strausz",
+"title": "50 Anos Em 5",
+"label": "",
+"bp": "bp:16092981",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b8e82703-fc74-4654-9d0e-85bb1641c699.LOFI.mp3",
+"name": "50 Anos Em 5",
+"mix": "Extended Mix",
+"genre": "nu-disco-disco",
+"released": "2022-01-28"
+},
+{
+"minute": 47,
+"artist": "Rafael Cancian",
+"title": "Boca",
+"label": "",
+"bp": "bp:16429616",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5fe033f4-ec3f-448a-b550-7031bbafaf79.LOFI.mp3",
+"name": "Boca",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2022-05-02"
+},
+{
+"minute": 51,
+"artist": "Sam Ruffillo & Kapote",
+"title": "La La Tune (Aroop Roy Remix)",
+"label": "Toy Tonics",
+"bp": "bp:20287884",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/acd51fe5-0294-4363-922d-a725648081bc.LOFI.mp3",
+"name": "La La Tune",
+"mix": "Aroop Roy Remix",
+"genre": "deep-house",
+"released": "2025-05-30"
+},
+{
+"minute": null,
+"artist": "[0??] Sentimental Animals",
+"title": "Dance With Me",
+"label": ""
+},
+{
+"minute": 61,
+"artist": "Soul Of Hex",
+"title": "Into The Night",
+"label": "Delusions Of Grandeur",
+"bp": "bp:19719181",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4a244aa9-9b46-4335-af7b-c88bfb2bb563.LOFI.mp3",
+"name": "Into The Night",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2024-11-22"
+},
+{
+"minute": 65,
+"artist": "Philippa",
+"title": "Blue Skies (Fouk Remix)",
+"label": "Lazy Days",
+"bp": "bp:19701916",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/35d08713-7c1f-4ddd-ae51-360557c7a29a.LOFI.mp3",
+"name": "Blue Skies",
+"mix": "Fouk Remix",
+"genre": "deep-house",
+"released": "2024-11-22"
+},
+{
+"minute": null,
+"artist": "[0??] Dave & Maurissa",
+"title": "Open Me Up (Dave's Medusa Dub)",
+"label": "",
+"bp": "bp:19801819",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/036ed3c9-3066-4b2f-96fb-265db47c49c5.LOFI.mp3",
+"name": "Open Me Up",
+"mix": "Dave's Medusa Dub",
+"genre": "deep-house",
+"released": "2024-12-06"
+},
+{
+"minute": 75,
+"artist": "Distant People & Missfly",
+"title": "What Is Love (Jazzy Remix)",
+"label": "",
+"bp": "bp:19959826",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b03275e2-b344-4d0f-84e7-1d421ac9afd7.LOFI.mp3",
+"name": "What Is Love",
+"mix": "Jazzy Mix",
+"genre": "house",
+"released": "2025-01-13"
+},
+{
+"minute": 81,
+"artist": "Nuyorican Soul Feat. India",
+"title": "Runaway (Mousse T Soul Dub)",
+"label": "Talkin' Loud"
+},
+{
+"minute": null,
+"artist": "[08?] Russell Ruckman",
+"title": "For The Love (Stripped Down Mix)",
+"label": ""
+},
+{
+"minute": 91,
+"artist": "Dan The Drum & Stuart Patterson Feat. Carmy",
+"title": "UK House Sermon (North Street West Black Market Vocal Remix)",
+"label": "F*CLR",
+"bp": "bp:20342471",
+"score": 0.943,
+"preview": "https://geo-samples.beatport.com/track/3a0221c8-204a-4b64-a787-f9f21c2f8d10.LOFI.mp3",
+"name": "UK House Sermon (feat. Carmy Love & North Street West)",
+"mix": "No'West 'Black Market' Vocal Remix",
+"genre": "house",
+"released": "2025-05-16"
+},
+{
+"minute": 98,
+"artist": "Saag",
+"title": "Rose Rouge (Jazzy Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[1??] Louie Vega Feat. Nico Vega",
+"title": "How He Works (Turbojazz Unofficial Remix)",
+"label": ""
+}
+]
+},
+{
+"title": "2025-06-09 - Dicky Trisco, Bernardo Pinheiro - International Sounds 19",
+"records": []
+},
+{
+"title": "2025-06-13 - Dicky Trisco @ 7 Years The Love Tempo Party, Mad Radio Miami",
+"records": []
+},
+{
+"title": "2025-06-23 - Dicky Trisco - The Campo Sancho Mix",
+"records": []
+},
+{
+"title": "2025-07-10 - Dicky Trisco - International Sounds 20",
+"records": [
+{
+"minute": 0,
+"artist": "Al-Veez",
+"title": "F Train Boogie",
+"label": "TSoNYC - The Sound Of New York City",
+"bp": "bp:20572503",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18c04e3a-dd60-4cdf-8688-dd53d0496fc5.LOFI.mp3",
+"name": "F Train Boogie",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2025-06-20"
+},
+{
+"minute": 6,
+"artist": "Hey Cabrera",
+"title": "Tutto Matto (Extended Version)",
+"label": "",
+"bp": "bp:20284756",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/480fdfd2-b649-40b4-b8d4-7c3107c82f79.LOFI.mp3",
+"name": "Tutto Matto",
+"mix": "Extended Version",
+"genre": "deep-house",
+"released": "2025-05-07"
+},
+{
+"minute": 9,
+"artist": "The Funkin' Machine",
+"title": "Chiki Chicancan (Instrumental)",
+"label": "",
+"bp": "bp:24214556",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0d1a6939-4285-48b5-b180-4595a913256b.LOFI.mp3",
+"name": "Chiki Chicancan ",
+"mix": "Instrumental Mix",
+"genre": "nu-disco-disco",
+"released": "2026-03-06"
+},
+{
+"minute": null,
+"artist": "Evan & Rich",
+"title": "Going To The Sun (Pete Herbert Remix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Dobao",
+"title": "Mambo",
+"label": "",
+"bp": "bp:16539157",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/24f4144e-4a23-4da3-8cc6-c0b2e0c88e66.LOFI.mp3",
+"name": "Mambo",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2022-05-27"
+},
+{
+"minute": null,
+"artist": "Leonidas & Hobbes",
+"title": "Going Home",
+"label": "",
+"bp": "bp:20530954",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f4bb4dc1-73ac-48d4-a631-e32fc4dbe83e.LOFI.mp3",
+"name": "Going Home",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-05-30"
+},
+{
+"minute": null,
+"artist": "Trey Risqu\u00e9",
+"title": "Desire (Trey's Favourite Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Juan Laya & Jorge Montiel",
+"title": "Sex Machina (Pete Herbert Remix)",
+"label": ""
+},
+{
+"minute": null,
+"id": null,
+"raw": "Taking Acid At The Disco Late"
+},
+{
+"minute": null,
+"artist": "Munk & Kapote",
+"title": "La Musica (Azari III Remix)",
+"label": "",
+"bp": "bp:20376423",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/63ff56a7-3727-4b89-84f9-253474c865b7.LOFI.mp3",
+"name": "La Musica",
+"mix": "Azari & III Remix",
+"genre": "deep-house",
+"released": "2025-08-01"
+},
+{
+"minute": null,
+"artist": "Processman",
+"title": "Chemical (Rafael Cancian Remix)",
+"label": "",
+"bp": "bp:21261543",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fbaa4ce6-1bbd-43cd-abb0-6bf3435baa92.LOFI.mp3",
+"name": "Chemical ",
+"mix": "Rafael Cancian Remix",
+"genre": "nu-disco-disco",
+"released": "2025-09-08"
+},
+{
+"minute": 53,
+"artist": "Yuksek Feat. Diogo Strausz",
+"title": "D\u00e9j\u00e0 Vous",
+"label": "Razor-N-Tape",
+"bp": "bp:20502487",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/ad7df807-0735-4c21-b4e0-72f99dcebedc.LOFI.mp3",
+"name": "D\u00e9j\u00e0 Vous",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2025-06-06"
+},
+{
+"minute": null,
+"artist": "Rio 18",
+"title": "She's In LA",
+"label": ""
+}
+]
+},
+{
+"title": "2025-08-12 - Dicky Trisco, Kabinett - International Sounds 21",
+"records": [
+{
+"minute": 0,
+"artist": "Bomba Estereo",
+"title": "Bomba",
+"label": ""
+},
+{
+"minute": 3,
+"artist": "Al-Veez",
+"title": "Under Water",
+"label": "TSoNYC - The Sound Of New York City",
+"bp": "bp:20572506",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/77f3b61a-7abe-4dcc-8263-e584c3c98904.LOFI.mp3",
+"name": "Under Water",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2025-06-20"
+},
+{
+"minute": 7,
+"artist": "Psychemagik",
+"title": "The Way It Is",
+"label": ""
+},
+{
+"minute": 15,
+"artist": "Whodamanny",
+"title": "Baila Chica",
+"label": "Peer Southern",
+"bp": "bp:18615940",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/59f6ea40-69b3-423e-9571-b5bf44f0089c.LOFI.mp3",
+"name": "Baila Chica!",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-06-09"
+},
+{
+"minute": 19,
+"artist": "Redrago",
+"title": "Il Veliero (Club Version)",
+"label": "",
+"bp": "bp:12366048",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4b7bd1f3-2d61-49d8-993e-bd18f992c225.LOFI.mp3",
+"name": "Il Veliero",
+"mix": "Club Version",
+"genre": "indie-dance",
+"released": "2019-09-13"
+},
+{
+"minute": null,
+"artist": "[0??] Matalo!",
+"title": "Abeja",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Agua Re",
+"title": "Holy Dance",
+"label": "",
+"bp": "bp:9125686",
+"score": 0.617,
+"preview": "https://geo-samples.beatport.com/track/37da8bf3-4b8b-4e7e-a0e5-4e311bd97148.LOFI.mp3",
+"name": "Holy Dance",
+"mix": "Large Sound Mix",
+"genre": "house",
+"released": "2017-03-24"
+},
+{
+"minute": null,
+"artist": "[0??] Rafael Fernandez",
+"title": "Mi Corazon",
+"label": ""
+},
+{
+"minute": 36,
+"artist": "Idjut Boys Feat. Dolla Man",
+"title": "Yagga Yao (Emperor Machine Extended Version)",
+"label": "",
+"bp": "bp:20068979",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/4ff0a9e7-9e45-49f5-8ec0-2b4544a3fb82.LOFI.mp3",
+"name": "Yagga Yao ",
+"mix": "Emperor Machine Extended Version",
+"genre": "indie-dance",
+"released": "2025-02-28"
+},
+{
+"minute": 40,
+"artist": "Red Rack'em",
+"title": "Secret Banger",
+"label": "Bergerac",
+"bp": "bp:20647725",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/89841e8c-27ba-4dda-afd8-aaf8967eb927.LOFI.mp3",
+"name": "Secret Banger",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-07-11"
+},
+{
+"minute": 49,
+"artist": "Alexander Robotnick",
+"title": "Undicidisco (Justin Vandervolgen Remix)",
+"label": "Dance Floor Corporation",
+"bp": "bp:11769461",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8a58d2bf-724a-48bb-af2d-7e67cb54430e.LOFI.mp3",
+"name": "Undicidisco",
+"mix": "Justin VanDerVolgen Edit",
+"genre": "indie-dance",
+"released": "2019-04-12"
+},
+{
+"minute": 54,
+"artist": "Larry Heard Pres. Mr. White",
+"title": "The Sun Can't Compare",
+"label": "Alleviated",
+"bp": "bp:423035",
+"score": 0.67,
+"preview": "https://geo-samples.beatport.com/track/2a1721e8-d315-466a-b822-c21379f7029b.LOFI.mp3",
+"name": "The Sun Can't Compare",
+"mix": "Long Version",
+"genre": "deep-house",
+"released": "2017-08-18"
+},
+{
+"minute": 60,
+"artist": "Colectivo Miramar",
+"title": "Dulce Sexy Sensual",
+"label": ""
+},
+{
+"minute": 69,
+"artist": "El Coco",
+"title": "Afrodesia (Piek Remix)",
+"label": "Special Products"
+},
+{
+"minute": 72,
+"artist": "Robson Jorge & Lincoln Olivetti",
+"title": "Aleluia (A DJ Meme Tribute Mix)",
+"label": "",
+"bp": "bp:16796207",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fffec31d-3f30-458d-a594-848e341e187e.LOFI.mp3",
+"name": "Aleluia",
+"mix": "Dj Meme Tribute Remix",
+"genre": "electronica",
+"released": "2022-08-12"
+},
+{
+"minute": null,
+"artist": "[0??] Michel Berger",
+"title": "Le Groupie Du Pianiste (Barry & Gibbs Edit)",
+"label": ""
+},
+{
+"minute": 84,
+"artist": "Maya",
+"title": "Lait De Coco (Dub)",
+"label": "",
+"bp": "bp:10134173",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9878e900-b5ec-4c70-aaf9-606c61abe407.LOFI.mp3",
+"name": "Lait de coco",
+"mix": "Dub",
+"genre": "dance-pop",
+"released": "2018-02-09"
+},
+{
+"minute": null,
+"artist": "[0??] Placebo",
+"title": "Whodamanny",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Turfinlandia",
+"title": "Oreku",
+"label": ""
+},
+{
+"minute": 98,
+"artist": "DJ Pippi & Willie Graff",
+"title": "Are U Yek? (Est\u00e1s Loco)",
+"label": "New State Entertainment",
+"bp": "bp:20804122",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/438ca27d-4aa8-47c4-a53e-85b35b87c425.LOFI.mp3",
+"name": "Are U Yek? (Estas Loco) [Extended Mix]",
+"mix": "Estas Loco",
+"genre": "house",
+"released": "2025-08-08"
+},
+{
+"minute": null,
+"artist": "Looped Joints",
+"title": "Love Dancin'",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[1??] Dharma Collective",
+"title": "What A Night",
+"label": ""
+},
+{
+"minute": 117,
+"artist": "Talco",
+"title": "Noche Especial",
+"label": "Fermusic Media"
+}
+]
+},
+{
+"title": "2025-09-09 - Dicky Trisco, DJ Kerry - International Sounds 22",
+"records": [
+{
+"minute": 0,
+"artist": "Chiara Della Monica Feat. Tonico 70",
+"title": "Ajere (Reggae Version)",
+"label": ""
+},
+{
+"minute": 4,
+"artist": "On The Prowl Feat. Dreems",
+"title": "Drugface",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Session Victim",
+"title": "Behind The Glass",
+"label": "Delusions Of Grandeur",
+"bp": "bp:21291733",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/91fd04c1-d4d4-4abd-bcf2-f11f0fa34d41.LOFI.mp3",
+"name": "Behind The Glass",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-10-03"
+},
+{
+"minute": null,
+"artist": "[01?] Baffone",
+"title": "Miez' O' Mare (Remix)",
+"label": "Maledetta Discoteca"
+},
+{
+"minute": null,
+"artist": "[01?] Margee",
+"title": "Tartiflux (Justin Strauss Remix)",
+"label": "Chomp!Chomp!",
+"bp": "bp:20686476",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/b6d87eec-1ae3-42a1-9d3f-1a28e6385ce9.LOFI.mp3",
+"name": "Tartiflux",
+"mix": "Justin Strauss Remix",
+"genre": "mainstage",
+"released": "2025-06-20"
+},
+{
+"minute": null,
+"artist": "[01?] Quiroga",
+"title": "French Kiss Baia Club (Ambient Version Instrumental)",
+"label": "Hell Yeah"
+},
+{
+"minute": null,
+"artist": "[0??] Jezebell",
+"title": "Donkey",
+"label": "",
+"bp": "bp:20666554",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/7bd72f15-fbd4-4f06-bc82-50a9877dc5c9.LOFI.mp3",
+"name": "Donkey",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2025-07-11"
+},
+{
+"minute": 25,
+"artist": "Magazine 60",
+"title": "Don Quichotte (No Estan Aqui) (Maxi)",
+"label": "Coda Musique",
+"bp": "bp:21105711",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/2af9e1c9-cec6-43b4-acf6-4920d9ae6f41.LOFI.mp3",
+"name": "Don Quichotte (No Estan Aqui)",
+"mix": "No Estan Aqui",
+"genre": "dance-pop",
+"released": "1984-01-01"
+},
+{
+"minute": 29,
+"artist": "The Vendetta Suite",
+"title": "Island Hill Microdot",
+"label": "Hell Yeah",
+"bp": "bp:20364300",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/87ecf423-663c-4594-bbf0-23ec7fa0b7a9.LOFI.mp3",
+"name": "Island Hill Microdot",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-04-25"
+},
+{
+"minute": 35,
+"artist": "Gus Paterson",
+"title": "Montalbano (Bal5000 Remix)",
+"label": "Citizens Of Vice",
+"bp": "bp:21430286",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae2a0e72-f589-4579-803b-927a5fcb05d6.LOFI.mp3",
+"name": "Montalbano",
+"mix": "Bal 5000 Remix",
+"genre": "nu-disco-disco",
+"released": "2025-09-26"
+},
+{
+"minute": 39,
+"artist": "Nic Jalusi",
+"title": "Eternal Dance",
+"label": "MM Discos",
+"bp": "bp:22658535",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d8f1f9e-163d-4f46-a3a7-320cd063a4ac.LOFI.mp3",
+"name": "Eternal Dance",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2025-11-28"
+},
+{
+"minute": 44,
+"artist": "Martha Pinel",
+"title": "Uber Moto",
+"label": "Toy Tonics",
+"bp": "bp:20603668",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4fb69f81-4b8f-4b38-a37c-a49ac1fa6860.LOFI.mp3",
+"name": "Uber Moto",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2025-09-19"
+},
+{
+"minute": 48,
+"artist": "Gabi Fischer",
+"title": "Desejos",
+"label": "Cocada",
+"bp": "bp:20684816",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0b9b48b2-52f1-4548-8cb7-98601d610c58.LOFI.mp3",
+"name": "Desejos",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2025-07-25"
+},
+{
+"minute": 53,
+"artist": "Bernardo Campos, Bruce Leroys",
+"title": "Disco Voador (Rafael Cancian House Late 80s Remix)",
+"label": "",
+"bp": "bp:21177915",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5d8e4bc7-2972-4a4d-9d6d-a4597a98468e.LOFI.mp3",
+"name": "Disco Voador ",
+"mix": "Rafael Cancian House Late 80's Remix",
+"genre": "house",
+"released": "2025-09-05"
+},
+{
+"minute": 58,
+"artist": "Gledd",
+"title": "Cabo Bo",
+"label": "Makonga",
+"bp": "bp:21267771",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e040b17b-92b2-4c13-8347-cbf8602d6946.LOFI.mp3",
+"name": "Cabo Bo",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-08-29"
+},
+{
+"minute": 60,
+"artist": "Saigon Soul Revival",
+"title": "\u0110\u00e1m C\u01b0\u1edbi Nh\u00e0 Em (DJ Slowz Remix Instrumental)",
+"label": "Saigon Supersound"
+},
+{
+"minute": 64,
+"artist": "Arnau Obiols & Kayyak",
+"title": "Gent De Nit (MLiR's Lulo Version)",
+"label": "",
+"bp": "bp:14901586",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/be5aafc8-9d8f-49d1-9191-9be81271818f.LOFI.mp3",
+"name": "Gent De Nit",
+"mix": "MLiR's Lulo Version",
+"genre": "organic-house",
+"released": "2021-03-05"
+},
+{
+"minute": 69,
+"artist": "Diogo Strausz Feat. EMMANUELLE",
+"title": "Dan=\u00e7a (JKriv Remix)",
+"label": "",
+"bp": "bp:18740976",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/1a5787ce-0425-4f53-a876-3238e652fbcb.LOFI.mp3",
+"name": "Dan=\u00e7a",
+"mix": "JKriv Remix",
+"genre": "nu-disco-disco",
+"released": "2024-03-15"
+},
+{
+"minute": 78,
+"artist": "Dobao",
+"title": "Disfrutar",
+"label": "",
+"bp": "bp:19846384",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ab9b27c1-2772-4241-a08e-5cdbb025e2c8.LOFI.mp3",
+"name": "Disfrutar",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-12-13"
+},
+{
+"minute": null,
+"artist": "[0??] D&E Chicago",
+"title": "Happy Smoke",
+"label": ""
+},
+{
+"minute": 82,
+"artist": "Manu Dibango",
+"title": "Sun Explosion",
+"label": "Soul Makossa",
+"bp": "bp:10317487",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0fa4efc0-3b8d-4eec-8e60-69dc422deeea.LOFI.mp3",
+"name": "Sun Explosion",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2017-12-01"
+},
+{
+"minute": null,
+"artist": "[08?] Dowhatchalike",
+"title": "Wrong Way Up",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Bappi Lahiri",
+"title": "Jeena Bhi Kya (Ziggy Phunk Edit) Bollywood Disco",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Wrekin Havoc",
+"title": "Moore Invites",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[0??] Ichisan",
+"title": "Neli",
+"label": ""
+},
+{
+"minute": 111,
+"artist": "Oscar Sulley X Uhuru Dance Band",
+"title": "Bukom Mashie (JKriv Extended Acid Dub)",
+"label": "Razor-N-Tape",
+"bp": "bp:19062575",
+"score": 0.933,
+"preview": "https://geo-samples.beatport.com/track/aa59e345-2357-44a9-8ee0-fdf7354e96fb.LOFI.mp3",
+"name": "Bukom Mashie (feat. Domenica Fossati)",
+"mix": "JKriv Extended Acid Dub",
+"genre": "afro-house",
+"released": "2024-06-07"
+},
+{
+"minute": 117,
+"artist": "SAULT Feat. Michael Kiwanuka",
+"title": "Bow",
+"label": "Forever Living Originals"
+}
+]
+},
+{
+"title": "2025-10-13 - Dicky Trisco - International Sounds 23",
+"records": [
+{
+"minute": 0,
+"artist": "James Matthew",
+"title": "Seven",
+"label": "",
+"bp": "bp:21341538",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/fa0ba1c7-029c-44fe-bfa6-355feb874bc1.LOFI.mp3",
+"name": "Seven",
+"mix": "Original Mix",
+"genre": "rock",
+"released": "2007-01-01"
+},
+{
+"minute": 4,
+"artist": "Gianni Oddi",
+"title": "Geronimo",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "Auntie Flo",
+"title": "Paradise 23",
+"label": "A State Of Flo",
+"bp": "bp:21225783",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ae5de2e2-7cde-4f92-8eb2-22ca30dbd027.LOFI.mp3",
+"name": "Paradise 23",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2025-10-23"
+},
+{
+"minute": null,
+"artist": "YSE Saint Laur'ant",
+"title": "The Optimistic Voyeur",
+"label": "",
+"bp": "bp:7429085",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9ac04647-45c4-4172-afd8-f65e1d1e6f54.LOFI.mp3",
+"name": "The Optimistic Voyeur",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2016-01-29"
+},
+{
+"minute": null,
+"artist": "[1?] Pete Herbert",
+"title": "Brenda",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Tigerbalm",
+"title": "Waiheke",
+"label": "",
+"bp": "bp:24240224",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fe952240-3ea4-4853-9c74-ad203ed9fc28.LOFI.mp3",
+"name": "Waiheke",
+"mix": "Radio Edit",
+"genre": "dance-pop",
+"released": "2022-10-28"
+},
+{
+"minute": 25,
+"artist": "Linda Di Franco",
+"title": "My Boss (Danilo Braca Remix)",
+"label": "Best Italy",
+"bp": "bp:23771024",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1c01e5fc-36f3-4d3a-a29a-b34f71edfa82.LOFI.mp3",
+"name": "My Boss",
+"mix": "Danilo Braca Remix",
+"genre": "dance-pop",
+"released": "2025-10-31"
+},
+{
+"minute": 28,
+"artist": "Joakim",
+"title": "Formosan Rock (Paula Tape Remix)",
+"label": "Tigersushi",
+"bp": "bp:16429359",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a38f1633-c0d4-4878-bf2b-448716e2063b.LOFI.mp3",
+"name": "Formosan Rock",
+"mix": "Paula Tape Remix",
+"genre": "electro-classic-detroit-modern",
+"released": "2022-04-15"
+},
+{
+"minute": 33,
+"artist": "Aili",
+"title": "Make Me Rich",
+"label": "Eskimo",
+"bp": "bp:17053101",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ffd892ce-dabb-4d6e-8e89-00ce5593166e.LOFI.mp3",
+"name": "Make Me Rich",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2022-11-18"
+},
+{
+"minute": null,
+"artist": "Lakeshore Commission Feat. Bluey",
+"title": "In 2 The Light (Dave Lee Mind Dimension Dub)",
+"label": "",
+"bp": "bp:16978951",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/a5432e0f-f9e3-4fa7-a0f9-604dc0c2da5b.LOFI.mp3",
+"name": "In 2 The Light",
+"mix": "Dave Lee Mind Dimension Dub",
+"genre": "deep-house",
+"released": "2022-10-14"
+},
+{
+"minute": null,
+"artist": "Street Corner Symphony",
+"title": "Symphonic Tonic (Dub)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Liquid Liquid",
+"title": "Optimo (Auntie Flo's Tribute To Keith Remix)",
+"label": ""
+},
+{
+"minute": 48,
+"artist": "Faze Action",
+"title": "In The Trees",
+"label": "Sublime",
+"bp": "bp:6792724",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c48260a5-2c23-4f11-98b8-b030854fed1a.LOFI.mp3",
+"name": "In The Trees",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2015-07-17"
+},
+{
+"minute": 56,
+"artist": "Arthur Lee",
+"title": "Everybody's Gotta Live",
+"label": "A&M",
+"bp": "bp:29868622",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1ee53f11-58b7-4ea0-ae7c-896c93f319de.LOFI.mp3",
+"name": "Everybody's Gotta Live",
+"mix": "Original Mix",
+"genre": "rock",
+"released": "1972-08-01"
+},
+{
+"minute": 59,
+"artist": "Max Romeo",
+"title": "I Chase The Devil",
+"label": "",
+"bp": "bp:20916802",
+"score": 0.963,
+"preview": "https://geo-samples.beatport.com/track/a4af187e-cf4a-49c8-9de0-e09a9a9123b5.LOFI.mp3",
+"name": "Chase The Devil",
+"mix": "Original Mix",
+"genre": "caribbean",
+"released": "1976-01-01"
+}
+]
+},
+{
+"title": "2025-11-06 - Dicky Trisco - International Sounds 24",
+"records": [
+{
+"minute": 0,
+"artist": "Jimena",
+"title": "Fuego",
+"label": "",
+"bp": "bp:22360977",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2d9206c5-ac31-4fc3-b6d2-67d797814299.LOFI.mp3",
+"name": "Fuego",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-11-21"
+},
+{
+"minute": 4,
+"artist": "The Revenge",
+"title": "Our Own Thing",
+"label": "Forgotten Ways",
+"bp": "bp:8633909",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1809dcac-66bc-4282-a086-996f693ecbe9.LOFI.mp3",
+"name": "Our Own Thing",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2016-12-02"
+},
+{
+"minute": 8,
+"artist": "Tigerbalm Feat. Joi N Juno",
+"title": "Mexicana",
+"label": "",
+"bp": "bp:22263094",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/52728c05-8d40-418a-badc-4f494ef7308f.LOFI.mp3",
+"name": "Mexicana (feat. Joi N'Juno)",
+"mix": "Original",
+"genre": "nu-disco-disco",
+"released": "2025-11-21"
+},
+{
+"minute": null,
+"artist": "Rigopolar",
+"title": "Memories",
+"label": "",
+"bp": "bp:17920843",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4772c7c1-31e6-4af3-8e4c-dcca75518afd.LOFI.mp3",
+"name": "Memories",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-04-20"
+},
+{
+"minute": 17,
+"artist": "Invigo",
+"title": "Bambeo (BOSQ Remix)",
+"label": "Partyfine",
+"bp": "bp:29133662",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e485a325-03de-455f-a0bf-26c423a9eabe.LOFI.mp3",
+"name": "Bambeo",
+"mix": "Bosq Remix",
+"genre": "electronica",
+"released": "2025-10-31"
+},
+{
+"minute": 22,
+"artist": "?",
+"title": "Quand Je Rentre",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Anura & Sr. Lobezno",
+"title": "Afro-Ritmo (De Gama Ancestral Afro-Jazz Rework Edit)",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "Crooked Man",
+"title": "Happiness (12 Inch Version)",
+"label": "DFA",
+"bp": "bp:9420856",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f263806-3974-4577-acf1-b391ecb6f5b0.LOFI.mp3",
+"name": "Happiness",
+"mix": "12 Inch Version",
+"genre": "indie-dance",
+"released": "2017-06-20"
+},
+{
+"minute": 37,
+"artist": "Auntie Flo",
+"title": "Mamluk",
+"label": "A State Of Flo",
+"bp": "bp:21225787",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1b5b21ed-53f8-4390-95a1-1e08188500e7.LOFI.mp3",
+"name": "Mamluk",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2025-10-23"
+},
+{
+"minute": 40,
+"artist": "In Flagranti",
+"title": "Pro Forma",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "Richie Rich",
+"title": "Salsa House",
+"label": "",
+"bp": "bp:8291271",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7666f1c0-60b1-4836-bacd-19ec254bc537.LOFI.mp3",
+"name": "Salsa House",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2014-10-14"
+},
+{
+"minute": 48,
+"artist": "Meggy Mac",
+"title": "Party Time",
+"label": "",
+"bp": "bp:21904392",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5c6f6086-41a2-4d9d-8aeb-72082cabdd34.LOFI.mp3",
+"name": "Party Time",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2025-10-24"
+},
+{
+"minute": null,
+"artist": "?",
+"title": "Can't We Live Together",
+"label": ""
+},
+{
+"minute": 58,
+"artist": "Mohinder Kaur Bhamra",
+"title": "Disco Wich Aa",
+"label": "Naya Beat",
+"bp": "bp:21629346",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/638cae5b-c2ef-43d3-9b40-f70f692f49e3.LOFI.mp3",
+"name": "Disco Wich Aa",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2025-10-31"
+}
+]
+},
+{
+"title": "2025-12-15 - Dicky Trisco - International Sounds 25",
+"records": [
+{
+"minute": 0,
+"artist": "Joakim",
+"title": "Garden Party",
+"label": "Tigersushi",
+"bp": "bp:17571558",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9e30fcbb-c5ce-40ee-bcb7-559baf2261ed.LOFI.mp3",
+"name": "Garden Party",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-06-02"
+},
+{
+"minute": 3,
+"artist": "Future Feelings",
+"title": "Wonky Disco",
+"label": "File Under Disco",
+"bp": "bp:3788570",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9c68178b-ce5c-43a5-8967-6057c69649b9.LOFI.mp3",
+"name": "Wonky Disco",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2012-10-08"
+},
+{
+"minute": 7,
+"artist": "GW Edits",
+"title": "Adriano Italiano (GW Edit)",
+"label": ""
+},
+{
+"minute": 13,
+"artist": "Netinho",
+"title": "Du Du Du Domingo (Joutro Mundo 45 Edit)",
+"label": "Onda Boa"
+},
+{
+"minute": null,
+"artist": "[1?] Rad D Club",
+"title": "Sashimi Dreamers",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "Antenna!",
+"title": "Clockwork (Daniele Baldelli Remix)",
+"label": "N.O.I.A.",
+"bp": "bp:16611150",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/82c5fa95-e73c-4ac8-bf5a-287a0a1a4666.LOFI.mp3",
+"name": "Clockwork",
+"mix": "Daniele Baldelli Remix",
+"genre": "indie-dance",
+"released": "2022-06-24"
+},
+{
+"minute": 27,
+"artist": "Ayobayo Band",
+"title": "World Is Turning Around (Ziggy Phunk Disco Reprise)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Saidera",
+"title": "Miscigenacao (Jacques Renault Rhythmental Remix)",
+"label": ""
+},
+{
+"minute": 35,
+"artist": "The Revenge",
+"title": "Dance 4 U (Phantom Tango) (Stripclub Dub)",
+"label": "Roar Groove"
+},
+{
+"minute": 39,
+"artist": "Yello",
+"title": "Oh Yeah (Ziggy Phunk Dub Rework)",
+"label": "Mercury"
+},
+{
+"minute": 44,
+"artist": "Crooked Man",
+"title": "Don't Leave Me This Way (Club Mix)",
+"label": "Vicious Charm",
+"bp": "bp:21447054",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/66ae73af-ae23-4d54-98db-cd1c7eee5739.LOFI.mp3",
+"name": "Don't Leave Me This Way",
+"mix": "Club Mix",
+"genre": "deep-house",
+"released": "2025-09-10"
+},
+{
+"minute": 48,
+"artist": "Issam Dahmani",
+"title": "Limoncello Beat",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[5?] Inflagranti",
+"title": "Different From The Rest",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[5?] Club Mediterraneo",
+"title": "Prima Cala",
+"label": ""
+}
+]
+},
+{
+"title": "2026-01-08 - Dicky Trisco - International Sounds 26",
+"records": []
+},
+{
+"title": "2026-02-13 - Dicky Trisco - International Sounds 27",
+"records": [
+{
+"minute": 0,
+"artist": "Joutro E Pinheiro",
+"title": "Sandra",
+"label": "",
+"bp": "bp:26793888",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/1a6bd929-de45-4715-88c1-25b8161c4b1f.LOFI.mp3",
+"name": "Sandra",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-04-27"
+},
+{
+"minute": null,
+"artist": "[0?] Tripod",
+"title": "Gonna Make You Happy (OOFT! Edit)",
+"label": ""
+},
+{
+"minute": 6,
+"artist": "Rick Clarke",
+"title": "Gonna Make You Happy",
+"label": "Freestyle",
+"bp": "bp:17418069",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3b74f047-b7b8-4735-8c3d-878c772a3ba0.LOFI.mp3",
+"name": "Gonna Make You Happy (feat. Jill Francis)",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2023-04-07"
+},
+{
+"minute": 9,
+"artist": "E. Live",
+"title": "Sunny Side Up",
+"label": "Star Creature Universal Vibrations",
+"bp": "bp:13903314",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f52ff51b-b85b-4d04-afaa-5662a510a879.LOFI.mp3",
+"name": "Sunny Side Up",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-09-05"
+},
+{
+"minute": 13,
+"artist": "Jimena Angel",
+"title": "Aguacero",
+"label": "Partyfine",
+"bp": "bp:22360976",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/995e39d8-f33d-4f2c-9f50-5a1aa5078250.LOFI.mp3",
+"name": "Aguacero",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-11-21"
+},
+{
+"minute": 17,
+"artist": "Eli Escobar",
+"title": "Miami",
+"label": "Night People NYC",
+"bp": "bp:16829682",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9bcef25-44af-467d-a0a7-93bfcc29ff94.LOFI.mp3",
+"name": "Miami",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2022-09-16"
+},
+{
+"minute": 20,
+"artist": "Tigerbalm",
+"title": "Pura Vida",
+"label": "Ubiquity",
+"bp": "bp:29901900",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9574df3-3c42-42cd-bfe6-387aa5424971.LOFI.mp3",
+"name": "Pura Vida",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2026-06-19"
+},
+{
+"minute": 24,
+"artist": "Munk",
+"title": "Misterio (Extended Version)",
+"label": "",
+"bp": "bp:4307415",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/03a791ad-da0c-41c9-ab21-31836eb0dedd.LOFI.mp3",
+"name": "Misterio",
+"mix": "Extended Version",
+"genre": "indie-dance",
+"released": "2013-05-02"
+},
+{
+"minute": 29,
+"artist": "Pete Herbert",
+"title": "Time",
+"label": "",
+"bp": "bp:9369744",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2d151f59-1082-4fbc-a6e1-f89097354f7c.LOFI.mp3",
+"name": "Time",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2017-06-23"
+},
+{
+"minute": null,
+"artist": "Mamacita, Persona aka Roman S",
+"title": "Problemas De Amor",
+"label": "Problemes D'amour - Alexander Robotnick's Spanish Cover"
+},
+{
+"minute": null,
+"artist": "Dina Summer",
+"title": "Amore (Alexander Robotnick Remix)",
+"label": "",
+"bp": "bp:17490421",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/868b1813-2eb7-4d0b-94d6-f2b26e760076.LOFI.mp3",
+"name": "Amore",
+"mix": "Alexander Robotnick Remix",
+"genre": "indie-dance",
+"released": "2023-03-21"
+},
+{
+"minute": 46,
+"artist": "Demi Riqu\u00edsimo",
+"title": "Rocking You Internally",
+"label": "",
+"bp": "bp:20000540",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ec25ae92-26b6-41b4-ae69-964efea3e0b6.LOFI.mp3",
+"name": "Rocking You Internally",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2025-02-07"
+},
+{
+"minute": 51,
+"artist": "Art Department Feat. Soul Clap, Osunlade",
+"title": "We Call Love (DJ Harvey Remix)",
+"label": "Crosstown Rebels"
+},
+{
+"minute": 56,
+"artist": "Invigo",
+"title": "Bambeo (Yuksek Remix)",
+"label": "Partyfine",
+"bp": "bp:29133631",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af4f0f3f-1266-40a0-885e-8142e0012a44.LOFI.mp3",
+"name": "Bambeo",
+"mix": "Yuksek Remix",
+"genre": "electronica",
+"released": "2025-10-17"
+},
+{
+"minute": null,
+"artist": "Bottin",
+"title": "Discocracy",
+"label": "",
+"bp": "bp:1437844",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4d2160f3-7f82-4fb4-bc3f-5c4eae34fd6c.LOFI.mp3",
+"name": "Discocracy",
+"mix": "Original Mix",
+"genre": "nu-disco-disco",
+"released": "2010-10-04"
+}
+]
+},
+{
+"title": "2026-03-12 - Dicky Trisco - International Sounds 28",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "Reggae Love (Bernardo Pinheiro & Zaidan Edit)"
+},
+{
+"minute": 7,
+"artist": "Trio Ternura",
+"title": "Filhos De Zambi (Bernardo Pinheiro Edit)",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Peter Croce",
+"title": "Magdala",
+"label": ""
+},
+{
+"minute": 13,
+"artist": "Yuksek Feat. Luedji Luna",
+"title": "Santas Almas Benditas",
+"label": "Partyfine",
+"bp": "bp:23340808",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/3380c5f5-c90b-487c-94bc-0b791adc6608.LOFI.mp3",
+"name": "Santas Almas Benditas",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2023-05-26"
+},
+{
+"minute": 16,
+"artist": "Joutro Mundo",
+"title": "Ballet Do Chocolate",
+"label": ""
+},
+{
+"minute": 21,
+"artist": "Ubunto",
+"title": "Giorgio Amore",
+"label": ""
+},
+{
+"minute": 25,
+"artist": "Nanda Rossi",
+"title": "Cleptomania (Lov.Ini Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Processman",
+"title": "Baba Oni",
+"label": ""
+},
+{
+"minute": 35,
+"artist": "Eliana Pittman",
+"title": "Quem Vai Querer (Aroop Roy Rework)",
+"label": ""
+},
+{
+"minute": 39,
+"artist": "Pete Herbert & Dicky Trisco",
+"title": "Fique Louca",
+"label": ""
+},
+{
+"minute": 45,
+"artist": "Claudia.",
+"title": "Reza, Tambor E Ra\u00c7a Nova (Bernardo Pinheiro Edit)",
+"label": ""
+},
+{
+"minute": 53,
+"artist": "Eddie C",
+"title": "Desafinado",
+"label": ""
+},
+{
+"minute": 56,
+"artist": "Gal Costa & Obina Shok & Gilberto Gil",
+"title": "Vida (Processman Edit)",
+"label": "Non-Wea/Other"
+}
+]
+},
+{
+"title": "2026-04-02 - Dicky Trisco, Zerya - International Sounds 29",
+"records": []
+},
+{
+"title": "2026-05-14 - Dicky Trisco - International Sounds 30",
+"records": []
+}
+]
 }

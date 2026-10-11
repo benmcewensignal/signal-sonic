@@ -1,324 +1,519 @@
 {
- "dj": "The Digital Blonde",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2024-05-30 - The Digital Blonde - Pure Trance Radio 401",
-   "records": [
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "Intro",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Synthazia",
-     "title": "Lumi",
-     "label": "Pure Trance",
-     "bp": "bp:18085002",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Deestopia & The Digital Blonde",
-     "title": "Analogic",
-     "label": "Pure Trance"
-    },
-    {
-     "minute": null,
-     "artist": "Idiosyncrasy & The Digital Blonde",
-     "title": "Telepathic Communication",
-     "label": "Pure Trance",
-     "bp": "bp:18824218",
-     "score": 0.784,
-     "preview": "https://geo-samples.beatport.com/track/6256ff99-a9e2-4ec3-8e65-28b40288b115.LOFI.mp3",
-     "name": "Telepathic Communication feat. Idiosyncrasy",
-     "mix": "Club Mix",
-     "genre": "trance-raw-deep-hypnotic",
-     "released": "2024-04-12"
-    },
-    {
-     "minute": null,
-     "artist": "Soft Cell",
-     "title": "Tainted Love (The Digital Blonde Rework)",
-     "label": "White Label"
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "Synthony",
-     "label": "Psyworld",
-     "bp": "bp:18377427",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Quench",
-     "title": "Dreams (The Digital Blonde Remix)",
-     "label": "White Label"
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "Serenade",
-     "label": "JOOF"
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "Outro (The Dreams of Neon)",
-     "label": "",
-     "bp": "bp:12816613",
-     "score": 0.793,
-     "preview": "https://geo-samples.beatport.com/track/0e9077ce-c1ca-4f27-b80d-87db5999b90c.LOFI.mp3",
-     "name": "The Dreams of Neon",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2019-12-30"
-    }
-   ]
-  },
-  {
-   "title": "2024-06-30 - The Digital Blonde @ Luminosity Beach Festival, Beachclub Bernies, Zandvoort",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Synthazia",
-     "title": "Lumi",
-     "label": "Pure Trance",
-     "bp": "bp:18085002",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "ID",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "Synthony",
-     "label": "",
-     "bp": "bp:18377427",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": null,
-     "artist": "Soft Cell",
-     "title": "Tainted Love (The Digital Blonde Remix)",
-     "label": "UMG"
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "ID",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Mory Kanté",
-     "title": "Yeke Yeke (The Digital Blonde Remix)",
-     "label": "Polydor"
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "Mooga (2024 Mix)",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "Gothica",
-     "label": "Joof"
-    },
-    {
-     "minute": null,
-     "artist": "Quench",
-     "title": "Dreams (The Digital Blonde Remix)",
-     "label": "Infectious"
-    },
-    {
-     "minute": null,
-     "artist": "The Digital Blonde",
-     "title": "Electra",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2025-06-10 - John '00' Fleming, The Digital Blonde - JOOF Radio 067",
-   "records": [
-    {
-     "minute": 3,
-     "artist": "Kaddyn Palmed",
-     "title": "Ipse (Fuenka Remix)",
-     "label": "Clubsonica",
-     "bp": "bp:20593751",
-     "score": 0.868,
-     "preview": "https://geo-samples.beatport.com/track/2e1c3526-b633-413c-a0a7-7407a8d9333d.LOFI.mp3",
-     "name": "Ipse",
-     "mix": "Fuenka Extended Mix",
-     "genre": "progressive-house",
-     "released": "2025-06-20"
-    },
-    {
-     "minute": 9,
-     "artist": "Lonya",
-     "title": "Sadness (Ziger Remix)",
-     "label": "Mango Alley",
-     "bp": "bp:20359214",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/46f9cdb6-9dab-443d-90b9-9dbd2862e7d9.LOFI.mp3",
-     "name": "Sadness",
-     "mix": "Ziger Remix",
-     "genre": "progressive-house",
-     "released": "2025-05-29"
-    },
-    {
-     "minute": 14,
-     "artist": "Miika Kuisma",
-     "title": "Approaching",
-     "label": "Joof",
-     "bp": "bp:20573984",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/18adcdb1-dc34-44ce-8f86-e4f0aadfc02a.LOFI.mp3",
-     "name": "Approaching",
-     "mix": "Original Mix",
-     "genre": "trance-raw-deep-hypnotic",
-     "released": "2025-06-13"
-    },
-    {
-     "minute": 19,
-     "artist": "Deestopia & Pico Boulevard",
-     "title": "Entheogen",
-     "label": "Joof",
-     "bp": "bp:20476233",
-     "score": 0.786,
-     "preview": "https://geo-samples.beatport.com/track/f9106111-9e67-4aa1-9c7d-83dbaaa26b97.LOFI.mp3",
-     "name": "Entheogen",
-     "mix": "Intro Mix",
-     "genre": "trance-raw-deep-hypnotic",
-     "released": "2025-05-30"
-    },
-    {
-     "minute": 24,
-     "artist": "Rick Pier O'Neil",
-     "title": "Elektron",
-     "label": "Joof"
-    },
-    {
-     "minute": 30,
-     "artist": "Luis M",
-     "title": "Dark Pleasures",
-     "label": "Iboga",
-     "bp": "bp:20351813",
-     "score": 0.831,
-     "preview": "https://geo-samples.beatport.com/track/a2e51097-79c7-4c3c-bba1-97a224dbd737.LOFI.mp3",
-     "name": "Dark Pleasures",
-     "mix": "HNGT remix",
-     "genre": "techno-peak-time-driving",
-     "released": "2025-04-28"
-    },
-    {
-     "minute": 36,
-     "artist": "Basil O'Glue",
-     "title": "Tree Of Existence",
-     "label": "Joof",
-     "bp": "bp:20462164",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/1f4fa3b6-14d1-4d88-8dc7-beade12e7bdc.LOFI.mp3",
-     "name": "Tree of Existence",
-     "mix": "Original Mix",
-     "genre": "trance-raw-deep-hypnotic",
-     "released": "2025-05-23"
-    },
-    {
-     "minute": 41,
-     "artist": "Enlusion & Subtara",
-     "title": "Norscent (Exotek Remix)",
-     "label": "Forescape",
-     "bp": "bp:20476190",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/9f8d0fcc-2ae9-4b99-ab19-93a129d9ce61.LOFI.mp3",
-     "name": "Norscent",
-     "mix": "Exotek Remix",
-     "genre": "trance-raw-deep-hypnotic",
-     "released": "2025-05-23"
-    },
-    {
-     "minute": 48,
-     "artist": "Ovnimoon & Stuardo",
-     "title": "Sensation",
-     "label": "Iono"
-    },
-    {
-     "minute": 54,
-     "artist": "Egorythmia & Zyce & Flegma & Ectima",
-     "title": "Void",
-     "label": "Tesseractstudio"
-    },
-    {
-     "minute": 61,
-     "artist": "The Digital Blonde",
-     "title": "Uvb-76",
-     "label": "Joof"
-    },
-    {
-     "minute": 72,
-     "artist": "The Digital Blonde",
-     "title": "Amazium",
-     "label": "Joof"
-    },
-    {
-     "minute": 83,
-     "artist": "The Digital Blonde",
-     "title": "Electric Stars",
-     "label": "Joof",
-     "bp": "bp:20749187",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/65e28770-777d-42ec-9e57-0e4f800956ec.LOFI.mp3",
-     "name": "Electric Stars",
-     "mix": "Original Mix",
-     "genre": "trance-raw-deep-hypnotic",
-     "released": "2025-07-25"
-    },
-    {
-     "minute": 94,
-     "artist": "Synthazia",
-     "title": "The Dream",
-     "label": "Pure Trance Neon"
-    },
-    {
-     "minute": 102,
-     "artist": "The Digital Blonde",
-     "title": "G-Wave",
-     "label": "Joof"
-    },
-    {
-     "minute": 110,
-     "artist": "The Digital Blonde",
-     "title": "Sound Of Silence",
-     "label": "",
-     "bp": "bp:19173733",
-     "score": 0.675,
-     "preview": "https://geo-samples.beatport.com/track/16e59919-b72a-4486-9376-cdb5268e9a57.LOFI.mp3",
-     "name": "The Sound of Silence",
-     "mix": "Radio Edit",
-     "genre": "dance-pop",
-     "released": "2024-06-21"
-    }
-   ]
-  },
-  {
-   "title": "2026-03-28 - The Digital Blonde @ Rebooted 3.0 Birthday, Network, Sheffield",
-   "records": []
-  }
- ]
+"dj": "The Digital Blonde",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-09-16 - The Digital Blonde - BelfastVibes Radio",
+"records": []
+},
+{
+"title": "2022-06-26 - The Digital Blonde (Live PA) @ Luminosity Beach Festival, Beachclub Bernie's, Zandvoort",
+"records": [
+{
+"minute": 0,
+"artist": "The Digital Blonde",
+"title": "Outrun",
+"label": "Joof",
+"bp": "bp:12816602",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/48fb1700-34cd-4b89-8932-c4ccf00d2ee8.LOFI.mp3",
+"name": "Outrun",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2019-12-30"
+},
+{
+"minute": null,
+"artist": "DR S7R4NG3 & Alex Starsound",
+"title": "The 8 Tones (The Digital Blonde Chapter 7 Mix)",
+"label": "",
+"bp": "bp:16462384",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/806e6c18-7ca4-432f-a8d9-b8ac5f777da3.LOFI.mp3",
+"name": "The 8 Tones",
+"mix": "The Digital Blonde's Chapter 7 Mix",
+"genre": "trance-main-floor",
+"released": "2022-05-13"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Star Song",
+"label": "Joof",
+"bp": "bp:15557893",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5ee3a8aa-2ff6-4ca4-b69d-8f3259ed0bef.LOFI.mp3",
+"name": "Star Song",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2021-09-20"
+},
+{
+"minute": 25,
+"artist": "The Digital Blonde",
+"title": "Callakuma 22",
+"label": "Joof",
+"bp": "bp:16866393",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/60b32374-6937-4d49-b255-928a4083166b.LOFI.mp3",
+"name": "Callakuma 22",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2022-10-03"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Fade To Grey",
+"label": "Joof",
+"bp": "bp:15557899",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18a210fb-de8e-4ad2-b573-bc50e85a1bc1.LOFI.mp3",
+"name": "Fade to Grey",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2021-09-20"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Only You",
+"label": "Joof",
+"bp": "bp:15557892",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7c0585f8-37df-4b05-bc9c-24cb047f3bc2.LOFI.mp3",
+"name": "Only You",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2021-09-20"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Legato 22",
+"label": "Joof",
+"bp": "bp:16866392",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/53248c86-1792-4260-b82b-c83e597189f1.LOFI.mp3",
+"name": "Legato 22",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2022-10-03"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Serento",
+"label": "Joof",
+"bp": "bp:10779649",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4199d8df-e5d1-4ecc-9cce-e43728d47118.LOFI.mp3",
+"name": "Serento",
+"mix": "Original Mix",
+"genre": "psy-trance",
+"released": "2018-08-20"
+},
+{
+"minute": 66,
+"artist": "The Digital Blonde",
+"title": "Space",
+"label": "Joof",
+"bp": "bp:10779650",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/79a6b2b8-4520-4f63-aa77-080b4b4e908d.LOFI.mp3",
+"name": "Space",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2018-08-20"
+}
+]
+},
+{
+"title": "2024-05-30 - The Digital Blonde - Pure Trance Radio 401",
+"records": [
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Intro",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Synthazia",
+"title": "Lumi",
+"label": "Pure Trance",
+"bp": "bp:18085002",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8b221c6b-adce-449b-9690-ef5d5126f29f.LOFI.mp3",
+"name": "Lumi",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2023-10-13"
+},
+{
+"minute": null,
+"artist": "Deestopia & The Digital Blonde",
+"title": "Analogic",
+"label": "Pure Trance",
+"bp": "bp:18604135",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/fda1b3fa-a0f7-48f6-9309-396f1a4a3055.LOFI.mp3",
+"name": "Analogic",
+"mix": "Trance Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2024-02-23"
+},
+{
+"minute": null,
+"artist": "Idiosyncrasy & The Digital Blonde",
+"title": "Telepathic Communication",
+"label": "Pure Trance"
+},
+{
+"minute": null,
+"artist": "Soft Cell",
+"title": "Tainted Love (The Digital Blonde Rework)",
+"label": "White Label"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Synthony",
+"label": "Psyworld",
+"bp": "bp:18377427",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1445f8a6-e864-44f4-958c-94e74db7a0e2.LOFI.mp3",
+"name": "Synthony",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2023-12-25"
+},
+{
+"minute": null,
+"artist": "Quench",
+"title": "Dreams (The Digital Blonde Remix)",
+"label": "White Label"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Serenade",
+"label": "JOOF"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Outro (The Dreams of Neon)",
+"label": ""
+}
+]
+},
+{
+"title": "2024-06-30 - The Digital Blonde @ Luminosity Beach Festival, Beachclub Bernies, Zandvoort",
+"records": [
+{
+"minute": null,
+"artist": "Synthazia",
+"title": "Lumi",
+"label": "Pure Trance",
+"bp": "bp:18085002",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8b221c6b-adce-449b-9690-ef5d5126f29f.LOFI.mp3",
+"name": "Lumi",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2023-10-13"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Synthony",
+"label": "",
+"bp": "bp:18377427",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1445f8a6-e864-44f4-958c-94e74db7a0e2.LOFI.mp3",
+"name": "Synthony",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2023-12-25"
+},
+{
+"minute": null,
+"artist": "Soft Cell",
+"title": "Tainted Love (The Digital Blonde Remix)",
+"label": "UMG"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "ID",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mory Kant\u00e9",
+"title": "Yeke Yeke (The Digital Blonde Remix)",
+"label": "Polydor"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Mooga (2024 Mix)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Gothica",
+"label": "Joof",
+"bp": "bp:8277",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/103609ed-7de4-42b5-86f5-a0126d917e8a.LOFI.mp3",
+"name": "Gothica",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2003-06-09"
+},
+{
+"minute": null,
+"artist": "Quench",
+"title": "Dreams (The Digital Blonde Remix)",
+"label": "Infectious"
+},
+{
+"minute": null,
+"artist": "The Digital Blonde",
+"title": "Electra",
+"label": "",
+"bp": "bp:9126728",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/d67a399d-35fc-4463-be90-2c2b6630c692.LOFI.mp3",
+"name": "Electra",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2000-03-29"
+}
+]
+},
+{
+"title": "2025-06-10 - John '00' Fleming, The Digital Blonde - JOOF Radio 067",
+"records": [
+{
+"minute": 3,
+"artist": "Kaddyn Palmed",
+"title": "Ipse (Fuenka Remix)",
+"label": "Clubsonica",
+"bp": "bp:20593751",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2e1c3526-b633-413c-a0a7-7407a8d9333d.LOFI.mp3",
+"name": "Ipse",
+"mix": "Fuenka Extended Mix",
+"genre": "progressive-house",
+"released": "2025-06-20"
+},
+{
+"minute": 9,
+"artist": "Lonya",
+"title": "Sadness (Ziger Remix)",
+"label": "Mango Alley",
+"bp": "bp:20359214",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/46f9cdb6-9dab-443d-90b9-9dbd2862e7d9.LOFI.mp3",
+"name": "Sadness",
+"mix": "Ziger Remix",
+"genre": "progressive-house",
+"released": "2025-05-29"
+},
+{
+"minute": 14,
+"artist": "Miika Kuisma",
+"title": "Approaching",
+"label": "Joof",
+"bp": "bp:20573984",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/18adcdb1-dc34-44ce-8f86-e4f0aadfc02a.LOFI.mp3",
+"name": "Approaching",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2025-06-13"
+},
+{
+"minute": 19,
+"artist": "Deestopia & Pico Boulevard",
+"title": "Entheogen",
+"label": "Joof",
+"bp": "bp:20476234",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/504d644c-e5c6-480a-922c-1e16bb7948bc.LOFI.mp3",
+"name": "Entheogen",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2025-05-30"
+},
+{
+"minute": 24,
+"artist": "Rick Pier O'Neil",
+"title": "Elektron",
+"label": "Joof"
+},
+{
+"minute": 30,
+"artist": "Luis M",
+"title": "Dark Pleasures",
+"label": "Iboga",
+"bp": "bp:20351812",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f88a6266-b381-4596-b3d4-13f3cdfc759f.LOFI.mp3",
+"name": "Dark Pleasures",
+"mix": "Original mix",
+"genre": "techno-peak-time-driving",
+"released": "2025-04-28"
+},
+{
+"minute": 36,
+"artist": "Basil O'Glue",
+"title": "Tree Of Existence",
+"label": "Joof",
+"bp": "bp:20462164",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1f4fa3b6-14d1-4d88-8dc7-beade12e7bdc.LOFI.mp3",
+"name": "Tree of Existence",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2025-05-23"
+},
+{
+"minute": 41,
+"artist": "Enlusion & Subtara",
+"title": "Norscent (Exotek Remix)",
+"label": "Forescape",
+"bp": "bp:20476190",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9f8d0fcc-2ae9-4b99-ab19-93a129d9ce61.LOFI.mp3",
+"name": "Norscent",
+"mix": "Exotek Remix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2025-05-23"
+},
+{
+"minute": 48,
+"artist": "Ovnimoon & Stuardo",
+"title": "Sensation",
+"label": "Iono",
+"bp": "bp:20372058",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bfa1c221-8b62-40c9-ba46-dff90c5f9867.LOFI.mp3",
+"name": "Sensation",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2025-04-21"
+},
+{
+"minute": 54,
+"artist": "Egorythmia & Zyce & Flegma & Ectima",
+"title": "Void",
+"label": "Tesseractstudio",
+"bp": "bp:20111747",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/5c939064-4c05-4a21-8ad4-610fa4d9f9df.LOFI.mp3",
+"name": "Void",
+"mix": "Album Mix",
+"genre": "psy-trance",
+"released": "2025-02-21"
+},
+{
+"minute": 61,
+"artist": "The Digital Blonde",
+"title": "Uvb-76",
+"label": "Joof",
+"bp": "bp:20749189",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6a249736-b504-4369-b87e-60d0f562917b.LOFI.mp3",
+"name": "Uvb-76",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2025-07-25"
+},
+{
+"minute": 72,
+"artist": "The Digital Blonde",
+"title": "Amazium",
+"label": "Joof",
+"bp": "bp:20749186",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ad43ee40-61e9-454b-a579-566a14daa6a8.LOFI.mp3",
+"name": "Amazium",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2025-07-25"
+},
+{
+"minute": 83,
+"artist": "The Digital Blonde",
+"title": "Electric Stars",
+"label": "Joof",
+"bp": "bp:20749187",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/65e28770-777d-42ec-9e57-0e4f800956ec.LOFI.mp3",
+"name": "Electric Stars",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2025-07-25"
+},
+{
+"minute": 94,
+"artist": "Synthazia",
+"title": "The Dream",
+"label": "Pure Trance Neon",
+"bp": "bp:20470913",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b01bd22d-530e-48c1-9768-5f5359e59d9f.LOFI.mp3",
+"name": "The Dream",
+"mix": "Original Mix",
+"genre": "trance-raw-deep-hypnotic",
+"released": "2025-06-25"
+},
+{
+"minute": 102,
+"artist": "The Digital Blonde",
+"title": "G-Wave",
+"label": "Joof",
+"bp": "bp:20749188",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5b8baafe-1991-4ec5-ae8e-af19599ee8f8.LOFI.mp3",
+"name": "G-Wave",
+"mix": "Original Mix",
+"genre": "trance-main-floor",
+"released": "2025-07-25"
+},
+{
+"minute": 110,
+"artist": "The Digital Blonde",
+"title": "Sound Of Silence",
+"label": "",
+"bp": "bp:19173734",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/272f2386-f840-47a2-b7ec-5b8416972200.LOFI.mp3",
+"name": "The Sound of Silence",
+"mix": "Extended Mix",
+"genre": "dance-pop",
+"released": "2024-06-21"
+}
+]
+},
+{
+"title": "2026-03-28 - The Digital Blonde @ Rebooted 3.0 Birthday, Network, Sheffield",
+"records": []
+},
+{
+"title": "2026-08-22 - The Digital Blonde @ Rebooted - Made In England, Earls Yard, Sheffield",
+"records": []
+}
+]
 }

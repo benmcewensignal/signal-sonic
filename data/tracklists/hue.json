@@ -1,1722 +1,3563 @@
 {
- "dj": "Hue",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2024-10-13 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "James Murray",
-     "title": "Bellflower",
-     "label": "",
-     "bp": "bp:29373226",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/df2f7a6e-d61d-4395-9c53-fa618948a80f.LOFI.mp3",
-     "name": "Bellflower",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2024-09-27"
-    },
-    {
-     "minute": 6,
-     "artist": "Dionisaf",
-     "title": "Wabi",
-     "label": "Chitra"
-    },
-    {
-     "minute": 12,
-     "artist": "RDS",
-     "title": "AX60@EEF",
-     "label": "",
-     "bp": "bp:19379463",
-     "score": 0.784,
-     "preview": "https://geo-samples.beatport.com/track/b2a5441a-f33c-47f0-9047-ed2487c3691f.LOFI.mp3",
-     "name": "AX60@EEF",
-     "mix": "Original",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2024-08-30"
-    },
-    {
-     "minute": null,
-     "artist": "nthng",
-     "title": "In Statics",
-     "label": "",
-     "bp": "bp:19318576",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/904a4523-0c65-44e7-a087-566487a59b82.LOFI.mp3",
-     "name": "In Statics",
-     "mix": "Original Mix",
-     "genre": "organic-house",
-     "released": "2024-09-24"
-    },
-    {
-     "minute": null,
-     "artist": "Blackbird",
-     "title": "Dreamless",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Yaka",
-     "title": "Somewhere In That Water",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Keiss",
-     "title": "Nevermind",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Nautiluss",
-     "title": "Halcyon Daze",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "John Beltran",
-     "title": "Alle Kinder",
-     "label": ""
-    },
-    {
-     "minute": 43,
-     "artist": "Jónbjörn",
-     "title": "þeytt Smjör",
-     "label": "Lagaffe Tales"
-    }
-   ]
-  },
-  {
-   "title": "2024-11-10 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Ike Zwanikken",
-     "title": "Crossed Candle",
-     "label": "Theory Therapy",
-     "bp": "bp:19571099",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/fd0047cb-ce17-422c-a857-6819ab96c006.LOFI.mp3",
-     "name": "Crossed Candle",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2024-10-25"
-    },
-    {
-     "minute": 4,
-     "artist": "Maps And Diagrams",
-     "title": "Kettletoft",
-     "label": ""
-    },
-    {
-     "minute": 7,
-     "artist": "Antoni Maiovvi",
-     "title": "Taken Together",
-     "label": "Astrotheology"
-    },
-    {
-     "minute": 11,
-     "artist": "Joachim Spieth",
-     "title": "Recall",
-     "label": "Affin",
-     "bp": "bp:19279544",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 15,
-     "artist": "Mu Tate",
-     "title": "Sweat",
-     "label": "Warm Winters"
-    },
-    {
-     "minute": 19,
-     "artist": "Skee Mask",
-     "title": "Spacejamz",
-     "label": ""
-    },
-    {
-     "minute": 23,
-     "artist": "990x",
-     "title": "June Lovers",
-     "label": "Sferic"
-    },
-    {
-     "minute": 27,
-     "artist": "HVL",
-     "title": "At Peace With Death",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Mattr",
-     "title": "Field",
-     "label": ""
-    },
-    {
-     "minute": 38,
-     "artist": "Tristan Arp",
-     "title": "Life After Humans",
-     "label": "Wisdom Teeth",
-     "bp": "bp:19453225",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/4773e0a7-30c6-40ff-9356-0e64bc143339.LOFI.mp3",
-     "name": "life after humans",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-10-25"
-    }
-   ]
-  },
-  {
-   "title": "2024-12-15 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Taylor Deupree",
-     "title": "The Anthology Of Fragments",
-     "label": "Nettwerk"
-    },
-    {
-     "minute": 3,
-     "artist": "Paul Kerdommarec",
-     "title": "Un Hiver",
-     "label": "Decaying Spheres"
-    },
-    {
-     "minute": 10,
-     "artist": "Earthen Sea",
-     "title": "Another Space",
-     "label": "Kranky",
-     "bp": "bp:19580522",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/4eab65f9-70da-49cf-a8d0-d8fffd9f9ab4.LOFI.mp3",
-     "name": "Another Space",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-11-15"
-    },
-    {
-     "minute": 13,
-     "artist": "Black Taffy",
-     "title": "Big Tiny",
-     "label": "Leaving"
-    },
-    {
-     "minute": 17,
-     "artist": "Heogen",
-     "title": "Pareidolia",
-     "label": "Touched",
-     "bp": "bp:19975017",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/2f5d05de-54e5-4c38-bcda-7cf75290c70a.LOFI.mp3",
-     "name": "Pareidolia",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-12-13"
-    },
-    {
-     "minute": 22,
-     "artist": "Pondlicker",
-     "title": "Never Hit The Bottom",
-     "label": "Naff",
-     "bp": "bp:19738609",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/2b3ba169-d9f3-44ce-b930-c2d6d4b95543.LOFI.mp3",
-     "name": "never hit the bottom",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-11-28"
-    },
-    {
-     "minute": 26,
-     "artist": "David August",
-     "title": "VIS (Blue Canvas Reinterpretation)",
-     "label": "",
-     "bp": "bp:19566943",
-     "score": 0.981,
-     "preview": "https://geo-samples.beatport.com/track/6f8cad1e-ba49-458d-b423-8605235519a7.LOFI.mp3",
-     "name": "VĪS",
-     "mix": "Blue Canvas Reinterpretation",
-     "genre": "ambient-experimental",
-     "released": "2024-11-28"
-    },
-    {
-     "minute": null,
-     "artist": "Eden Aurelius",
-     "title": "Uplift",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Okraa",
-     "title": "Para Desaprender",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Kangding Ray",
-     "title": "Trade On Azul",
-     "label": "",
-     "bp": "bp:11974484",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/4d7ac381-f951-4edc-a8ad-0202699b6eb6.LOFI.mp3",
-     "name": "Trade On Azul",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2019-05-17"
-    }
-   ]
-  },
-  {
-   "title": "2025-01-12 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Röyksopp",
-     "title": "Waking Up From A Thousand Year Slumber",
-     "label": "Dog Triumph"
-    },
-    {
-     "minute": 7,
-     "artist": "Ben Kaczor & Niculin Barandun",
-     "title": "The Equilibrium In Transition",
-     "label": "Dial",
-     "bp": "bp:19719054",
-     "score": 0.89,
-     "preview": "https://geo-samples.beatport.com/track/8f824817-30e0-4e3a-913f-8ea136303ec0.LOFI.mp3",
-     "name": "The Equilibrium in Transition",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2024-11-29"
-    },
-    {
-     "minute": 12,
-     "artist": "Pavel Milyakov & Lucas Dupuy",
-     "title": "Room",
-     "label": ""
-    },
-    {
-     "minute": 21,
-     "artist": "543ff",
-     "title": "Sincecure (Index)",
-     "label": "Lazy Reflex Complex",
-     "bp": "bp:19866806",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/24ef9f95-5cd3-496c-befb-3eb5cdbce7c7.LOFI.mp3",
-     "name": "Sincecure (Index)",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2024-12-20"
-    },
-    {
-     "minute": 25,
-     "artist": "DYL",
-     "title": "Everywhere",
-     "label": "Re:st",
-     "bp": "bp:20086187",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/54bca0ec-068b-4a2b-afd4-89df9431cd89.LOFI.mp3",
-     "name": "Everywhere",
-     "mix": "Original Mix",
-     "genre": "drum-bass",
-     "released": "2025-02-21"
-    },
-    {
-     "minute": 30,
-     "artist": "Louf",
-     "title": "Plinko",
-     "label": "Valby Rotary"
-    },
-    {
-     "minute": 34,
-     "artist": "Games",
-     "title": "Ston Dub",
-     "label": "INDEX:Records"
-    },
-    {
-     "minute": 36,
-     "artist": "Bambinodj & Phillip Jondo",
-     "title": "Auf Log",
-     "label": "OST"
-    },
-    {
-     "minute": 41,
-     "artist": "Ir_",
-     "title": "Absent",
-     "label": "Isness"
-    },
-    {
-     "minute": 48,
-     "artist": "Brainwaltzera",
-     "title": "Rondoc (29 Tor Be Four The F[t]uss)",
-     "label": "Music For The Other People Place"
-    }
-   ]
-  },
-  {
-   "title": "2025-02-16 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Rhubiqs & Robert Farrugia",
-     "title": "Sleep // Forget",
-     "label": "Affin",
-     "bp": "bp:19873707",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/023bdb69-abe9-4853-afc1-82579398f080.LOFI.mp3",
-     "name": "Sleep // Forget",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-12-06"
-    },
-    {
-     "minute": 3,
-     "artist": "Eyerate",
-     "title": "Push Pull",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Serge Geyzel",
-     "title": "Primitive Structures",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Bot1500",
-     "title": "Red Dub",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Multicast Dynamics",
-     "title": "Everything Physical",
-     "label": ""
-    },
-    {
-     "minute": 22,
-     "artist": "V.Ictor",
-     "title": "Amphi",
-     "label": "Archipel Musique"
-    },
-    {
-     "minute": 25,
-     "artist": "Analept",
-     "title": "Membranes (Cut In Slices)",
-     "label": "",
-     "bp": "bp:19966945",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/7c482456-e759-471a-a178-564d126b6833.LOFI.mp3",
-     "name": "Membranes",
-     "mix": "Cut in Slices",
-     "genre": "dance-pop",
-     "released": "2025-02-07"
-    },
-    {
-     "minute": 31,
-     "artist": "Quantum Collapse",
-     "title": "Scattering Hamiltonian",
-     "label": ""
-    },
-    {
-     "minute": 36,
-     "artist": "Madison Willing & dBridge",
-     "title": "Birth (Synkro Remix)",
-     "label": "Exit",
-     "bp": "bp:21163952",
-     "score": 0.867,
-     "preview": "https://geo-samples.beatport.com/track/93bc0612-b1ce-405f-bd56-3b6e5c1f1289.LOFI.mp3",
-     "name": "Birth",
-     "mix": "Synkro Remix",
-     "genre": "bass-club",
-     "released": "2024-11-29"
-    },
-    {
-     "minute": 43,
-     "artist": "Thme",
-     "title": "Imago",
-     "label": "LAAPS"
-    }
-   ]
-  },
-  {
-   "title": "2025-03-16 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Sam Wilson",
-     "title": "Ethereal Landscapes Are My Only Shelter",
-     "label": "Lucid Dream",
-     "bp": "bp:19158904",
-     "score": 0.914,
-     "preview": "https://geo-samples.beatport.com/track/0765ed07-484b-416c-b496-435bfece339f.LOFI.mp3",
-     "name": "Ethereal Landscapes Are My Only Shelter",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-07-15"
-    },
-    {
-     "minute": 4,
-     "artist": "Rene Lorenzo",
-     "title": "A Good Moment",
-     "label": "Kizen",
-     "bp": "bp:20139449",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/6abe1528-8460-4b2a-81c5-68d916943b57.LOFI.mp3",
-     "name": "A Good Moment",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-02-28"
-    },
-    {
-     "minute": 11,
-     "artist": "Mown",
-     "title": "An Endless Sweet Sweet Storm",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Mücha",
-     "title": "You Make Me Go Under",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Sofia Bertomeu",
-     "title": "Above Mentioned",
-     "label": ""
-    },
-    {
-     "minute": 26,
-     "artist": "Shinetiac",
-     "title": "Clublyfe (Hulu)",
-     "label": "West Mineral",
-     "bp": "bp:20249995",
-     "score": 0.903,
-     "preview": "https://geo-samples.beatport.com/track/13060691-6259-4cd2-bdde-889abc98d733.LOFI.mp3",
-     "name": "Clublyfe (Hulu)",
-     "mix": "Hulu",
-     "genre": "electronica",
-     "released": "2025-03-06"
-    },
-    {
-     "minute": 30,
-     "artist": "Blackbird",
-     "title": "Rabbit",
-     "label": ""
-    },
-    {
-     "minute": 34,
-     "artist": "Love Over Entropy",
-     "title": "NLC",
-     "label": "Something Happening Somewhere"
-    },
-    {
-     "minute": 40,
-     "artist": "MPU101",
-     "title": "Oberheim Junction",
-     "label": "Ilian Tape",
-     "bp": "bp:20305576",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/21577590-ed11-4836-85c4-c777f2a94019.LOFI.mp3",
-     "name": "Oberheim Junction",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2025-03-26"
-    },
-    {
-     "minute": null,
-     "artist": "[4?] Aracoeli",
-     "title": "Alpha Waves",
-     "label": "Dawn"
-    }
-   ]
-  },
-  {
-   "title": "2025-04-13 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Sleep D & Albrecht La'Brooy",
-     "title": "Sleeping Patterns",
-     "label": "Butter Sessions",
-     "bp": "bp:20251116",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/78dcf49f-8a73-4f26-ad3d-78013f36728b.LOFI.mp3",
-     "name": "Sleeping Patterns",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2017-05-24"
-    },
-    {
-     "minute": 6,
-     "artist": "Pheek",
-     "title": "Hypallage",
-     "label": "Archipel Musique"
-    },
-    {
-     "minute": 11,
-     "artist": "Konalgad",
-     "title": "Enteweyaha",
-     "label": "Dance Data"
-    },
-    {
-     "minute": null,
-     "artist": "[1?] Ryan Wick",
-     "title": "Sublimation",
-     "label": "Jungle Gym",
-     "bp": "bp:22898814",
-     "score": 0.644,
-     "preview": "https://geo-samples.beatport.com/track/e147a940-c546-4f3d-b776-eaf523b9af08.LOFI.mp3",
-     "name": "Sublimation",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-04-04"
-    },
-    {
-     "minute": 19,
-     "artist": "Tobias. & Doltz",
-     "title": "Fukaeri",
-     "label": "Delsin",
-     "bp": "bp:20149227",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 24,
-     "artist": "OK EG & Priori",
-     "title": "Serpentine 3",
-     "label": "Naff",
-     "bp": "bp:20194909",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/25431a75-3e87-4213-bdec-3d6f746db0a4.LOFI.mp3",
-     "name": "Serpentine 3",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2025-04-03"
-    },
-    {
-     "minute": 29,
-     "artist": "Fluid Matter",
-     "title": "Sway & Loom",
-     "label": "Virtual Forest"
-    },
-    {
-     "minute": null,
-     "artist": "[3?] Tellus",
-     "title": "Optic Regenerator",
-     "label": "Modern Conveniences",
-     "bp": "bp:19681282",
-     "score": 0.634,
-     "preview": "https://geo-samples.beatport.com/track/90f3472c-3c4a-4ad9-be82-dece389d479f.LOFI.mp3",
-     "name": "Optic Regenerator",
-     "mix": "Original Mix",
-     "genre": "drum-bass",
-     "released": "2024-11-01"
-    },
-    {
-     "minute": 38,
-     "artist": "As One",
-     "title": "Message Received",
-     "label": "De:tuned",
-     "bp": "bp:19669376",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/90804c95-25e1-4a7f-8701-fe38cd9f79e4.LOFI.mp3",
-     "name": "Message Received",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-12-06"
-    },
-    {
-     "minute": 42,
-     "artist": "VC-118A",
-     "title": "Soft Spot",
-     "label": "Delsin"
-    }
-   ]
-  },
-  {
-   "title": "2025-05-25 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Owl",
-     "title": "Lanterns Illuminate The Infinite Space",
-     "label": "Huinali",
-     "bp": "bp:20463871",
-     "score": 0.912,
-     "preview": "https://geo-samples.beatport.com/track/fca1e4bb-811e-4f88-86b6-cdc498561521.LOFI.mp3",
-     "name": "Lanterns Illuminate The Infinite Space",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2025-05-26"
-    },
-    {
-     "minute": 5,
-     "artist": "Loscil",
-     "title": "Silos",
-     "label": "Kranky"
-    },
-    {
-     "minute": 11,
-     "artist": "Hidden Sequence",
-     "title": "Komorebi",
-     "label": "Silent Season"
-    },
-    {
-     "minute": 17,
-     "artist": "XENIA REAPER",
-     "title": "This",
-     "label": "INDEX:Records"
-    },
-    {
-     "minute": 22,
-     "artist": "Loop LF",
-     "title": "Roe",
-     "label": "Prosophone"
-    },
-    {
-     "minute": null,
-     "artist": "Mnemonics",
-     "title": "Neural Drifts",
-     "label": ""
-    },
-    {
-     "minute": 34,
-     "artist": "Wrecked Lightship",
-     "title": "Reeling Mist",
-     "label": "Peak Oil",
-     "bp": "bp:20241044",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/438409ca-6931-475a-8150-d6cd2fbcecd4.LOFI.mp3",
-     "name": "Reeling Mist",
-     "mix": "Original Mix",
-     "genre": "uk-garage-bassline",
-     "released": "2025-03-07"
-    },
-    {
-     "minute": 39,
-     "artist": "Shine Grooves",
-     "title": "Diving With Alina",
-     "label": "Not Not Fun",
-     "bp": "bp:857527",
-     "score": 0.567,
-     "preview": "https://geo-samples.beatport.com/track/a41a4364-9746-447b-8cbf-a5dbdfadc945.LOFI.mp3",
-     "name": "Diving",
-     "mix": "Original Mix",
-     "genre": "house",
-     "released": "2009-05-29"
-    },
-    {
-     "minute": 43,
-     "artist": "James Shinra",
-     "title": "Blurr",
-     "label": "Analogical Force"
-    },
-    {
-     "minute": 46,
-     "artist": "Djrum",
-     "title": "Waxcap",
-     "label": "Houndstooth",
-     "bp": "bp:20149189",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2025-06-15 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "ABSIS",
-     "title": "Somnis",
-     "label": ""
-    },
-    {
-     "minute": 6,
-     "artist": "Loscil",
-     "title": "Cyme",
-     "label": "Frond"
-    },
-    {
-     "minute": 10,
-     "artist": "Lapalace",
-     "title": "Sparkles Of Light Upon The Forest Floor",
-     "label": "",
-     "bp": "bp:20746422",
-     "score": 0.914,
-     "preview": "https://geo-samples.beatport.com/track/04815e51-65c6-41dc-b72d-95d62e047868.LOFI.mp3",
-     "name": "sparkles of light upon the forest floor",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2025-09-05"
-    },
-    {
-     "minute": 14,
-     "artist": "Purelink",
-     "title": "Kite Scene",
-     "label": "Peak Oil",
-     "bp": "bp:20288878",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/d686ad0b-d715-43fb-9570-4b4c89c70fcf.LOFI.mp3",
-     "name": "Kite Scene",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2025-06-06"
-    },
-    {
-     "minute": 18,
-     "artist": "James K",
-     "title": "Hypersoft Lovejinx Junkdream",
-     "label": "AD 93",
-     "bp": "bp:20658103",
-     "score": 0.887,
-     "preview": "https://geo-samples.beatport.com/track/44911348-85cd-4b96-84ff-a554686c80fa.LOFI.mp3",
-     "name": "Hypersoft Lovejinx Junkdream",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-08-19"
-    },
-    {
-     "minute": 21,
-     "artist": "Comarca",
-     "title": "No Va Durar Per Sempre",
-     "label": "Gordo Trax",
-     "bp": "bp:23318466",
-     "score": 0.863,
-     "preview": "https://geo-samples.beatport.com/track/5bbc1f4e-71ca-461f-8747-473f0a13b0f5.LOFI.mp3",
-     "name": "No Va Durar Per Sempre",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2026-01-09"
-    },
-    {
-     "minute": 25,
-     "artist": "Other Joe",
-     "title": "I Run This City",
-     "label": "Best Effort"
-    },
-    {
-     "minute": 28,
-     "artist": "Space Biology",
-     "title": "Sustainability",
-     "label": "Companion"
-    },
-    {
-     "minute": 34,
-     "artist": "Sun Dawei",
-     "title": "Cāng Yuān",
-     "label": "GSXS"
-    },
-    {
-     "minute": 38,
-     "artist": "Loidis",
-     "title": "Dollarama",
-     "label": "Incienso",
-     "bp": "bp:19199478",
-     "via": "corpus",
-     "score": 1.0
-    }
-   ]
-  },
-  {
-   "title": "2025-09-28 - Hue - Sundays Are For...",
-   "records": []
-  },
-  {
-   "title": "2025-10-19 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Genis Remacha",
-     "title": "Flight Towards The Vulgar Beginning",
-     "label": ""
-    },
-    {
-     "minute": 7,
-     "artist": "The Microgram",
-     "title": "Cloudy Solution",
-     "label": "Illicit Procurement"
-    },
-    {
-     "minute": 10,
-     "artist": "Barefoot",
-     "title": "Eternalism",
-     "label": "Captured Visions",
-     "bp": "bp:21274034",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/f75374c8-7c96-4db6-955f-d8a5f3055fcb.LOFI.mp3",
-     "name": "Eternalism",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-09-05"
-    },
-    {
-     "minute": 14,
-     "artist": "Zenso",
-     "title": "Eden",
-     "label": ""
-    },
-    {
-     "minute": 19,
-     "artist": "Concave Reflection",
-     "title": "Paradise",
-     "label": "Theory Therapy"
-    },
-    {
-     "minute": 22,
-     "artist": "James K",
-     "title": "Idea.2",
-     "label": "AD"
-    },
-    {
-     "minute": 28,
-     "artist": "Marv",
-     "title": "Laughing",
-     "label": ""
-    },
-    {
-     "minute": 34,
-     "artist": "Area 3",
-     "title": "Deep Seek",
-     "label": "Khotin Industries"
-    },
-    {
-     "minute": 39,
-     "artist": "Dania",
-     "title": "Car Crash Premonition",
-     "label": "Somewhere Press"
-    },
-    {
-     "minute": 42,
-     "artist": "Offthesky",
-     "title": "Falsewake",
-     "label": "LAAPS"
-    }
-   ]
-  },
-  {
-   "title": "2025-11-23 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Human Is Alive & Warmth",
-     "title": "Reflected",
-     "label": "Archives"
-    },
-    {
-     "minute": 4,
-     "artist": "How To Levitate",
-     "title": "Exosphere",
-     "label": ""
-    },
-    {
-     "minute": 9,
-     "artist": "Aleksi Perälä",
-     "title": "FI3AC2513301",
-     "label": "AP Musik"
-    },
-    {
-     "minute": 15,
-     "artist": "Xenia Reaper",
-     "title": "Envmod369",
-     "label": "Delsin"
-    },
-    {
-     "minute": 19,
-     "artist": "Stenny",
-     "title": "A New Geometry",
-     "label": "Ilian Tape",
-     "bp": "bp:22430847",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/f86ae82d-b3b6-42d8-9c27-b0be97f9f4fc.LOFI.mp3",
-     "name": "A New Geometry",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-11-06"
-    },
-    {
-     "minute": 23,
-     "artist": "K-LONE",
-     "title": "Someone Else",
-     "label": "",
-     "bp": "bp:22013921",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/14edc3f9-1208-4369-b6c8-6a57689f3181.LOFI.mp3",
-     "name": "someone else",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-11-14"
-    },
-    {
-     "minute": 29,
-     "artist": "Akasha System",
-     "title": "Stasis Dream",
-     "label": "100% Silk",
-     "bp": "bp:774420",
-     "score": 0.587,
-     "preview": "https://geo-samples.beatport.com/track/1d634ab3-7491-4fe5-a2d0-761e815304fb.LOFI.mp3",
-     "name": "Stasis",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2009-02-02"
-    },
-    {
-     "minute": 34,
-     "artist": "µ-Ziq",
-     "title": "Elm",
-     "label": ""
-    },
-    {
-     "minute": 40,
-     "artist": "Matthias Vogt",
-     "title": "Caleb",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "[4?] Raica",
-     "title": "150twinkl",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2025-12-21 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Adhémar & Nils Edte",
-     "title": "Flottant Vers L'infini Lunaire",
-     "label": "Indefinite Pitch",
-     "bp": "bp:22952738",
-     "score": 0.693,
-     "preview": "https://geo-samples.beatport.com/track/5a1694ef-4d98-4962-9e7b-a4392d17661a.LOFI.mp3",
-     "name": "Flottant vers l'infini lunaire",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-12-18"
-    },
-    {
-     "minute": 5,
-     "artist": "Arp",
-     "title": "Dissolve",
-     "label": "Modern Obscure Music"
-    },
-    {
-     "minute": 11,
-     "artist": "Gabriel Brady",
-     "title": "Ambrosial (Dylan Henner Remix)",
-     "label": "Tonal Union",
-     "bp": "bp:21758168",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/d4dda321-5361-484e-8333-8a2bc357ecf6.LOFI.mp3",
-     "name": "Ambrosial",
-     "mix": "Dylan Henner Remix",
-     "genre": "ambient-experimental",
-     "released": "2025-11-28"
-    },
-    {
-     "minute": 15,
-     "artist": "Rene Lorenzo",
-     "title": "Beauty Cycles",
-     "label": "Subtempo",
-     "bp": "bp:18571315",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/3baaa6a6-2e39-4d89-9ff8-015600bbf7c7.LOFI.mp3",
-     "name": "Beauty Cycles",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-02-02"
-    },
-    {
-     "minute": 20,
-     "artist": "Gëinst",
-     "title": "Murmures",
-     "label": "Never Late"
-    },
-    {
-     "minute": 27,
-     "artist": "Saïph",
-     "title": "Silence Culture",
-     "label": ""
-    },
-    {
-     "minute": 31,
-     "artist": "Iti & Axon Growth Factor",
-     "title": "Sleep Pressure",
-     "label": "",
-     "bp": "bp:22432739",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/c64700cd-6a4e-4c61-9701-510a9dd95889.LOFI.mp3",
-     "name": "Sleep Pressure",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2025-11-28"
-    },
-    {
-     "minute": 38,
-     "artist": "Bot1500",
-     "title": "AL 1",
-     "label": ""
-    },
-    {
-     "minute": 42,
-     "artist": "Carbon Based Lifeforms",
-     "title": "Set Theory",
-     "label": ""
-    },
-    {
-     "minute": 48,
-     "artist": "Voices From The Lake",
-     "title": "Aquateo",
-     "label": "Spazio Disponibile"
-    }
-   ]
-  },
-  {
-   "title": "2026-01-18 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Toxido Mask",
-     "title": "Minonohashi",
-     "label": ""
-    },
-    {
-     "minute": 5,
-     "artist": "Akmuo",
-     "title": "Unrest",
-     "label": "Kizen"
-    },
-    {
-     "minute": 11,
-     "artist": "Javier Salazar",
-     "title": "Epaix",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Low Flung",
-     "title": "Niksen",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Drames Rurals",
-     "title": "L'empelt (Shackleton Mix)",
-     "label": ""
-    },
-    {
-     "minute": 27,
-     "artist": "Om Unit",
-     "title": "Usurper (Satoshi Tomiie Interpretation",
-     "label": "",
-     "bp": "bp:22324221",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/cd5f11eb-1163-4533-a9b2-cf30fd415580.LOFI.mp3",
-     "name": "Usurper",
-     "mix": "Satoshi Tomiie Interpretation",
-     "genre": "bass-club",
-     "released": "2025-11-28"
-    },
-    {
-     "minute": 33,
-     "artist": "Dialog",
-     "title": "Silence Version",
-     "label": "DOT"
-    },
-    {
-     "minute": 38,
-     "artist": "Monoparts",
-     "title": "Scattered Parts",
-     "label": "A Strangely Isolated Place"
-    },
-    {
-     "minute": 43,
-     "artist": "Shakti",
-     "title": "Efecto Mariposa",
-     "label": "ART BEI TON",
-     "bp": "bp:23580563",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/48411efb-da2c-47f9-853e-c51289b1bb24.LOFI.mp3",
-     "name": "Efecto Mariposa",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-01-16"
-    },
-    {
-     "minute": 48,
-     "artist": "Will Oirson",
-     "title": "Be Forever After",
-     "label": "The Something Something",
-     "bp": "bp:23286527",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/239dad9c-a525-46bc-849f-744ddc185e62.LOFI.mp3",
-     "name": "be forever after",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-01-15"
-    }
-   ]
-  },
-  {
-   "title": "2026-02-15 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "KMRU",
-     "title": "Maybe",
-     "label": ""
-    },
-    {
-     "minute": 9,
-     "artist": "Lussuria",
-     "title": "Permanent Muse",
-     "label": "Hospital",
-     "bp": "bp:23965988",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/f2b9546f-db86-4ffc-a697-aae4ee93f683.LOFI.mp3",
-     "name": "Permanent Muse",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-02-06"
-    },
-    {
-     "minute": 12,
-     "artist": "Prieste5s",
-     "title": "Cicada State",
-     "label": "Immaterial Earth",
-     "bp": "bp:22767475",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/940fe70d-5345-4a27-85eb-db9c8979b61e.LOFI.mp3",
-     "name": "Cicada State",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-02-09"
-    },
-    {
-     "minute": 19,
-     "artist": "Matryoshka",
-     "title": "Jewelry Burns",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Nueen & Defled",
-     "title": "Angelo",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Sunju Hargun",
-     "title": "F9",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Evigt Mörker",
-     "title": "Hägn Vid Tidens Ände",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Rings Around Saturn",
-     "title": "Shepards Tone",
-     "label": ""
-    },
-    {
-     "minute": 44,
-     "artist": "Maara",
-     "title": "Come Home",
-     "label": "Naff",
-     "bp": "bp:23034101",
-     "via": "corpus",
-     "score": 1.0
-    },
-    {
-     "minute": 48,
-     "artist": "L'Amour Fou",
-     "title": "The Last Call",
-     "label": "Smallville",
-     "bp": "bp:9773375",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/6478cfd6-89a6-440c-b787-a14b86f9b7f0.LOFI.mp3",
-     "name": "The Last Call",
-     "mix": "Original Mix",
-     "genre": "breaks-breakbeat-uk-bass",
-     "released": "2017-10-13"
-    }
-   ]
-  },
-  {
-   "title": "2026-03-22 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Zen Lemon",
-     "title": "Inertia",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "DJ Birdbath",
-     "title": "True",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Appleblim",
-     "title": "Globule",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Heathered Pearls",
-     "title": "Soft Lock",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Skee Mask",
-     "title": "4'22",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Celer",
-     "title": "We Missed You Favonian",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Paperclip Minimiser",
-     "title": "II B4",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Markmechanik",
-     "title": "Borderland",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Mammo",
-     "title": "Xyo",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Biorhythm & Tellus",
-     "title": "An End To Suffering",
-     "label": "",
-     "bp": "bp:24232507",
-     "score": 0.847,
-     "preview": "https://geo-samples.beatport.com/track/709c73b1-eea5-4724-b5ce-0e6e7ca73caf.LOFI.mp3",
-     "name": "An End To Suffering",
-     "mix": "Original Mix",
-     "genre": "drum-bass",
-     "released": "2026-03-06"
-    }
-   ]
-  },
-  {
-   "title": "2026-04-19 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Dionisaf",
-     "title": "Salt",
-     "label": "Chitra"
-    },
-    {
-     "minute": 3,
-     "artist": "Ouvala",
-     "title": "An Erosion Of Old Identities",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Khotin",
-     "title": "Frog Fractions",
-     "label": "",
-     "bp": "bp:10848344",
-     "score": 0.81,
-     "preview": "https://geo-samples.beatport.com/track/27f7cbcd-017b-4e98-b937-70ad8692dc44.LOFI.mp3",
-     "name": "Frog Fractions",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2018-08-10"
-    },
-    {
-     "minute": null,
-     "artist": "Salamanda",
-     "title": "The Blue Wine",
-     "label": "",
-     "bp": "bp:29174440",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/0debe593-3c64-4909-ae0c-8267e608b5d4.LOFI.mp3",
-     "name": "the blue wine",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-06-16"
-    },
-    {
-     "minute": 15,
-     "artist": "Hoavi",
-     "title": "Song Of The Forgotten",
-     "label": "Peak Oil",
-     "bp": "bp:24077488",
-     "score": 0.858,
-     "preview": "https://geo-samples.beatport.com/track/5f8926b8-e983-4e31-8e81-acd1e2c784fa.LOFI.mp3",
-     "name": "Song of the Forgotten",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-02-12"
-    },
-    {
-     "minute": 18,
-     "artist": "Joannah",
-     "title": "Utomachine",
-     "label": "Second End"
-    },
-    {
-     "minute": 23,
-     "artist": "Boards Of Canada",
-     "title": "White Cyclosa",
-     "label": "Warp",
-     "bp": "bp:5249659",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/ec3fd894-0abd-4045-9639-38fd1dcff543.LOFI.mp3",
-     "name": "White Cyclosa",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2014-03-31"
-    },
-    {
-     "minute": null,
-     "artist": "Eusebia",
-     "title": "Everlast",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Corentin Boubay",
-     "title": "Signal (Clarence Rise Remix)",
-     "label": ""
-    },
-    {
-     "minute": 37,
-     "artist": "Tristan Arp",
-     "title": "Forking Paths",
-     "label": "Kapsela",
-     "bp": "bp:26774231",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/61c42f8a-74e4-4302-a2b1-0c54787c640e.LOFI.mp3",
-     "name": "Forking Paths",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2026-04-17"
-    }
-   ]
-  },
-  {
-   "title": "2026-05-24 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Kasper Bjørke Quartet",
-     "title": "PASSAGE I (Small, Soft Feet Running Across Wooden Floors In The Morning)",
-     "label": "Sensitive"
-    },
-    {
-     "minute": 6,
-     "artist": "Daniel Aged, Taul Katz, Zsela",
-     "title": "Dream 1",
-     "label": "Latency"
-    },
-    {
-     "minute": 11,
-     "artist": "Mark Templeton",
-     "title": "Amidst Things Uncontrolled",
-     "label": "Keplar",
-     "bp": "bp:243487",
-     "score": 0.88,
-     "preview": "https://geo-samples.beatport.com/track/9e2001dd-0ab8-404c-ba6e-302342299caf.LOFI.mp3",
-     "name": "Amidst Things Uncontrolled",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2007-02-19"
-    },
-    {
-     "minute": 15,
-     "artist": "Yu Su",
-     "title": "Cul De Sac",
-     "label": "Short Span",
-     "bp": "bp:24451754",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/5fc22090-8557-4b68-a404-181b9b546342.LOFI.mp3",
-     "name": "Cul De Sac",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2026-05-01"
-    },
-    {
-     "minute": 19,
-     "artist": "K Wata",
-     "title": "There Will Be Love",
-     "label": "Short Span",
-     "bp": "bp:28765133",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/917eb0c5-4bf4-42e2-896a-f8e2c021a5e3.LOFI.mp3",
-     "name": "There Will Be Love",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-05-15"
-    },
-    {
-     "minute": 30,
-     "artist": "Tensen Park",
-     "title": "Roll4Ever",
-     "label": "Never Late"
-    },
-    {
-     "minute": 34,
-     "artist": "Freda",
-     "title": "Patioz (w/ Ben Fester)",
-     "label": ""
-    },
-    {
-     "minute": 37,
-     "artist": "Yaka",
-     "title": "Back To The Pad",
-     "label": "Appendix.Files",
-     "bp": "bp:27906238",
-     "score": 0.791,
-     "preview": "https://geo-samples.beatport.com/track/a089fba7-27ae-4391-b4d3-67d25e9af54d.LOFI.mp3",
-     "name": "back at the pad",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-05-11"
-    },
-    {
-     "minute": 40,
-     "artist": "Appleblim",
-     "title": "Starshine",
-     "label": ""
-    },
-    {
-     "minute": 46,
-     "artist": "Calibre",
-     "title": "Running",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2026-06-21 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Arbee",
-     "title": "Une Dette Envers Toi",
-     "label": "Chitra",
-     "bp": "bp:28961391",
-     "score": 0.853,
-     "preview": "https://geo-samples.beatport.com/track/b2955b0d-adba-43ad-9775-fb77c274e44a.LOFI.mp3",
-     "name": "Une dette envers toi",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2026-06-19"
-    },
-    {
-     "minute": 5,
-     "artist": "Artefakt & KMRU",
-     "title": "Improvisation IV",
-     "label": "De Stijl",
-     "bp": "bp:28883805",
-     "score": 0.827,
-     "preview": "https://geo-samples.beatport.com/track/dc31b738-5f10-41f9-974c-7c79d1709576.LOFI.mp3",
-     "name": "Improvisation IV",
-     "mix": "Original Mix",
-     "genre": "ambient-experimental",
-     "released": "2026-06-05"
-    },
-    {
-     "minute": 9,
-     "artist": "Tibslc",
-     "title": "Resting Bitch Face",
-     "label": "Co:clear",
-     "bp": "bp:28947396",
-     "score": 0.841,
-     "preview": "https://geo-samples.beatport.com/track/f3c23bce-7e26-4689-bb6a-43ae3416e5d3.LOFI.mp3",
-     "name": "Resting Bitch Face",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-06-05"
-    },
-    {
-     "minute": 14,
-     "artist": "Slowfoam",
-     "title": "In Perfume Remember",
-     "label": "Somewhere Press",
-     "bp": "bp:29887205",
-     "score": 0.847,
-     "preview": "https://geo-samples.beatport.com/track/f93d5ab4-8be2-4e29-b904-5eb683e37419.LOFI.mp3",
-     "name": "In Perfume, Remember",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-09-04"
-    },
-    {
-     "minute": 19,
-     "artist": "Tensen Park",
-     "title": "Etherware III",
-     "label": "Never Late",
-     "bp": "bp:28410368",
-     "score": 0.822,
-     "preview": "https://geo-samples.beatport.com/track/0caf2f76-a117-48e0-8afb-5926bbe16711.LOFI.mp3",
-     "name": "Etherware I ",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-05-29"
-    },
-    {
-     "minute": 23,
-     "artist": "Hünter",
-     "title": "Ploti",
-     "label": ""
-    },
-    {
-     "minute": 26,
-     "artist": "Boards Of Canada",
-     "title": "Arena Americanada",
-     "label": "Warp",
-     "bp": "bp:29113365",
-     "score": 0.834,
-     "preview": "https://geo-samples.beatport.com/track/eb4a0c14-0b9b-4d8f-9112-cdee0e8b8423.LOFI.mp3",
-     "name": "Arena Americanada",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-05-29"
-    },
-    {
-     "minute": 30,
-     "artist": "Monolake",
-     "title": "Tangent I",
-     "label": "Monolake"
-    },
-    {
-     "minute": 41,
-     "artist": "Earth Trax",
-     "title": "Wait And See",
-     "label": "Lapsus",
-     "bp": "bp:28486588",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/d9d89fc2-62ec-494b-93f3-c37da1de8a01.LOFI.mp3",
-     "name": "Wait and See",
-     "mix": "Original Mix",
-     "genre": "techno-raw-deep-hypnotic",
-     "released": "2026-06-12"
-    },
-    {
-     "minute": 45,
-     "artist": "Lb Honne",
-     "title": "Six Castles",
-     "label": ""
-    }
-   ]
-  },
-  {
-   "title": "2026-07-19 - Hue - Sundays Are For...",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Idra",
-     "title": "Beneath The Resonance",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Absis & Avsluta",
-     "title": "Space Disappears",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Yujinn",
-     "title": "Morph",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Serenity Complex & Aika Mal",
-     "title": "The Garden",
-     "label": ""
-    },
-    {
-     "minute": 20,
-     "artist": "Other Joe",
-     "title": "Inhale The Mist",
-     "label": "Theory Therapy",
-     "bp": "bp:29343988",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/9a03296f-a872-4444-9f7a-a711f67bf6f7.LOFI.mp3",
-     "name": "inhale the Mist",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2026-06-25"
-    },
-    {
-     "minute": 24,
-     "artist": "Ebende",
-     "title": "Dark",
-     "label": ""
-    },
-    {
-     "minute": 27,
-     "artist": "Fields Of Mist",
-     "title": "Alien Lifeforms",
-     "label": "Ilian Tape",
-     "bp": "bp:29295193",
-     "score": 0.819,
-     "preview": "https://geo-samples.beatport.com/track/59223ff7-8f67-4f36-b32e-d4efb246d943.LOFI.mp3",
-     "name": "alien lifeforms",
-     "mix": "Original Mix",
-     "genre": "electro-classic-detroit-modern",
-     "released": "2026-06-30"
-    },
-    {
-     "minute": null,
-     "artist": "HVL",
-     "title": "Survivor Acid",
-     "label": ""
-    },
-    {
-     "minute": null,
-     "artist": "Inflight Entertainment",
-     "title": "Genomic",
-     "label": ""
-    },
-    {
-     "minute": 38,
-     "artist": "Yaka",
-     "title": "Secret Dream",
-     "label": "Appendix.Files",
-     "bp": "bp:27906240",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/a1a87cf8-c5f9-4251-baea-5d74a126c72a.LOFI.mp3",
-     "name": "secret dream",
-     "mix": "Original Mix",
-     "genre": "drum-bass",
-     "released": "2026-05-11"
-    }
-   ]
-  }
- ]
+"dj": "Hue",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2021-05-09 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Michael Reiley",
+"title": "Jupiter",
+"label": "Pregnant Void",
+"bp": "bp:15071763",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e3fb09c8-b959-47eb-a123-68f0769d6502.LOFI.mp3",
+"name": "Jupiter",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-04-09"
+},
+{
+"minute": 5,
+"artist": "Mary Yalex",
+"title": "Infinite Green",
+"label": "",
+"bp": "bp:15184374",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f2e5662d-c8c1-46a5-8a23-3e2d4aece18e.LOFI.mp3",
+"name": "Infinite Green",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-05-24"
+},
+{
+"minute": 10,
+"artist": "Inhmost",
+"title": "Light Energy",
+"label": "Huinali",
+"bp": "bp:15185621",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/de85075a-f0b7-4ab4-bd3a-b871b2aca406.LOFI.mp3",
+"name": "Light Energy",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-04-18"
+},
+{
+"minute": 14,
+"artist": "Max In The World",
+"title": "Youth Culture",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ivreatronic",
+"title": "FDB",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Holographic Field",
+"title": "Puls",
+"label": ""
+},
+{
+"minute": 29,
+"artist": "All True",
+"title": "Spiritual Ascendence Of A Yugoslavian Car Dealer",
+"label": "Kontrapunkt",
+"bp": "bp:19769391",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8ec3b581-7972-406b-a310-453d4a3053b9.LOFI.mp3",
+"name": "Spiritual Ascendence of a Yugoslavian Car Dealer",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-03-01"
+},
+{
+"minute": 34,
+"artist": "Kreggo",
+"title": "After Waiting",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Etch X Luo",
+"title": "Amygdala",
+"label": "",
+"bp": "bp:15006420",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/2d7491de-f119-45cf-b068-af9be1253567.LOFI.mp3",
+"name": "Amygdala",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2021-09-04"
+},
+{
+"minute": null,
+"artist": "Comit",
+"title": "An Ever Decreasing Circle",
+"label": ""
+}
+]
+},
+{
+"title": "2022-07-08 - Hue - Delayed with...",
+"records": []
+},
+{
+"title": "2023-09-17 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Oreste",
+"title": "Ecluses",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "Aspetuck",
+"title": "Hemmed",
+"label": "Never Late",
+"bp": "bp:18022464",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/09c2a2af-97b4-4853-a90e-29d052953ab8.LOFI.mp3",
+"name": "Hemmed",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-09-15"
+},
+{
+"minute": 14,
+"artist": "Leif Feat. Tom Ellis",
+"title": "August Pt.2",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Purelink",
+"title": "We Should Keep Going",
+"label": "Peak Oil",
+"bp": "bp:18059380",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/faeb0f0b-b717-496e-a9a5-af7c1e2bb451.LOFI.mp3",
+"name": "We Should Keep Going",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-09-15"
+},
+{
+"minute": 26,
+"artist": "J.Wiltshire",
+"title": "Up/Upside_Down",
+"label": "Super Hexagon"
+},
+{
+"minute": 31,
+"artist": "Vakula",
+"title": "Binarity",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Om Unit + TM404",
+"title": "Refracted",
+"label": "",
+"bp": "bp:17741024",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/10064e10-2714-4f6c-8a14-070a098eb994.LOFI.mp3",
+"name": "Refracted",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-06-23"
+},
+{
+"minute": 43,
+"artist": "Wrecked Lightship",
+"title": "Arial",
+"label": "",
+"bp": "bp:18127934",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/be2017d9-853a-4d0a-9331-c4265c036119.LOFI.mp3",
+"name": "Arial",
+"mix": "Original",
+"genre": "bass-house",
+"released": "2023-10-20"
+},
+{
+"minute": 47,
+"artist": "Genus Aix",
+"title": "Yours In Haste",
+"label": "INDEX:Records",
+"bp": "bp:17840114",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/637a599d-cde5-4833-889b-4fe546312f6b.LOFI.mp3",
+"name": "Yours in Haste",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2023-06-23"
+},
+{
+"minute": 52,
+"artist": "Xades",
+"title": "Qlu (Kate Miller Remix)",
+"label": "Banoffee Pies",
+"bp": "bp:17793628",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0633a5e3-8fea-49f0-9d65-aa406f1bf832.LOFI.mp3",
+"name": "Qlu",
+"mix": "Kate Miller Remix",
+"genre": "bass-club",
+"released": "2023-07-07"
+},
+{
+"minute": 56,
+"artist": "Bluematter",
+"title": "Voltage",
+"label": "Western Lore",
+"bp": "bp:17819418",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/950ee06d-74ac-4af9-80a5-448ce91d8941.LOFI.mp3",
+"name": "Voltage",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-07-07"
+},
+{
+"minute": 60,
+"artist": "Pleasure Projects",
+"title": "Untitled 1",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[6?] Eusebeia",
+"title": "Committed To The Ground",
+"label": "",
+"bp": "bp:17637207",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/13f8dbe1-255a-4a3c-8191-0f115e2a37ec.LOFI.mp3",
+"name": "Committed to the Ground",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-26"
+},
+{
+"minute": 70,
+"artist": "P\u00e9pe",
+"title": "Act II.",
+"label": "'Chasten'"
+},
+{
+"minute": 73,
+"artist": "Lyra Valenza",
+"title": "Life On The Line",
+"label": "Petrola"
+},
+{
+"minute": 78,
+"artist": "Detroit's Filthiest",
+"title": "Graveyard Shift",
+"label": "Casa Voyager",
+"bp": "bp:17497514",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a9ff5f4b-0d15-4952-88ed-ced5172ec88d.LOFI.mp3",
+"name": "Graveyard Shift",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-05-05"
+}
+]
+},
+{
+"title": "2023-10-22 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Varaz",
+"title": "Agora",
+"label": "Nie Wieder Schlafen",
+"bp": "bp:18056209",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f499ba8f-04c5-490d-b660-9b581bc2a5c8.LOFI.mp3",
+"name": "Agora",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-10-02"
+},
+{
+"minute": 6,
+"artist": "Sketch",
+"title": "4",
+"label": ""
+},
+{
+"minute": 10,
+"artist": "Overshift",
+"title": "Fractals",
+"label": "Archipel Musique",
+"bp": "bp:18172379",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5ba43f14-33d9-4f32-895a-841c57421f30.LOFI.mp3",
+"name": "Fractals",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2023-10-30"
+},
+{
+"minute": 15,
+"artist": "Serwed",
+"title": "Virescent",
+"label": "",
+"bp": "bp:18150653",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/25be8a2f-eebb-4eba-9972-c074110aad14.LOFI.mp3",
+"name": "Virescent",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-09-19"
+},
+{
+"minute": 18,
+"artist": "Conna Harway",
+"title": "Conna's Telephone Is Broken (Salamanda Remix)",
+"label": "Theory Therapy",
+"bp": "bp:18095164",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/353638a7-494b-40c2-9f33-ba8314c66f91.LOFI.mp3",
+"name": "Conna's Telephone Is Broken",
+"mix": "Salamanda Remix",
+"genre": "electronica",
+"released": "2023-09-29"
+},
+{
+"minute": null,
+"artist": "Stone",
+"title": "Blurry Apple",
+"label": ""
+},
+{
+"minute": 24,
+"artist": "Hoodie X James K",
+"title": "Scorpio",
+"label": "AD",
+"bp": "bp:17791657",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/a74bb640-900f-404b-906f-92634ecf1ef2.LOFI.mp3",
+"name": "Scorpio",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-07-26"
+},
+{
+"minute": 31,
+"artist": "DJ Balduin",
+"title": "P4X4",
+"label": "",
+"bp": "bp:17724121",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/61a8e789-8524-4d12-8a16-a01c84341529.LOFI.mp3",
+"name": "P4X4",
+"mix": "Original Mix",
+"genre": "downtempo",
+"released": "2023-06-09"
+},
+{
+"minute": 36,
+"artist": "Lovetrip",
+"title": "Catlinite",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Andrea",
+"title": "Audieze",
+"label": "",
+"bp": "bp:17486567",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d5cfd13e-52e0-4d72-b5ea-ae387d0d0f73.LOFI.mp3",
+"name": "Audieze",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-03-23"
+}
+]
+},
+{
+"title": "2023-11-19 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Suzanne Ciani & Jonathan Fitoussi",
+"title": "Oceanium",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "O.Utlier",
+"title": "Celesta",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ben Bondy",
+"title": "Rave Girl",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Loif",
+"title": "Chimes",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "Tellus",
+"title": "Irukandji",
+"label": ""
+},
+{
+"minute": 27,
+"artist": "State Azure",
+"title": "Nexus Gate (2023 Remaster)",
+"label": "",
+"bp": "bp:8499505",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a72e3ca8-5bf7-4660-80d1-eac310d78ba7.LOFI.mp3",
+"name": "Nexus Gate",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2013-03-30"
+},
+{
+"minute": 31,
+"artist": "Furious Frank",
+"title": "Dripp",
+"label": ""
+},
+{
+"minute": 35,
+"artist": "John Tejada Feat. March Adstrum",
+"title": "Fight Or Flight",
+"label": "",
+"bp": "bp:18158185",
+"score": 0.92,
+"preview": "https://geo-samples.beatport.com/track/f4937f7a-ad7c-4895-ba8d-3c6b52e27f4d.LOFI.mp3",
+"name": "Fight or Flight",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-11-03"
+},
+{
+"minute": 39,
+"artist": "Kilig",
+"title": "How You Holding Up",
+"label": ""
+},
+{
+"minute": 42,
+"artist": "Space Ghost",
+"title": "New World Energy (Ambient Mix)",
+"label": "",
+"bp": "bp:18188782",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e22feea2-6aa6-4721-a4b6-155cc76109ae.LOFI.mp3",
+"name": "New World Energy",
+"mix": "Ambient Mix",
+"genre": "electronica",
+"released": "2023-11-13"
+}
+]
+},
+{
+"title": "2023-12-17 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Hynta",
+"title": "Boundless",
+"label": "",
+"bp": "bp:26269177",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b298a190-244c-414d-8422-5ac4381903aa.LOFI.mp3",
+"name": "Boundless",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2023-10-27"
+},
+{
+"minute": 7,
+"artist": "Batu",
+"title": "Seams",
+"label": "",
+"bp": "bp:18301822",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b247c773-6198-45fc-af3e-3c32bfbc9fda.LOFI.mp3",
+"name": "seams",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-12-01"
+},
+{
+"minute": 12,
+"artist": "Ulla",
+"title": "Soak",
+"label": ""
+},
+{
+"minute": 15,
+"artist": "Cousin",
+"title": "Catsu",
+"label": "",
+"bp": "bp:18196949",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e783bcee-01b9-47a1-ba0f-999e4ee7ebdf.LOFI.mp3",
+"name": "Catsu",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-11-17"
+},
+{
+"minute": 19,
+"artist": "Thomas Ragsdale & Richard Arnold",
+"title": "Inspector",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Beren",
+"title": "Der Mensch In Seiner Bl\u00fcte",
+"label": "",
+"bp": "bp:18266957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5810b3b6-9e85-4fdf-bfd4-484a5b5c96c1.LOFI.mp3",
+"name": "Der Mensch in Seiner Bl\u00fcte",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-11-16"
+},
+{
+"minute": null,
+"artist": "Acopia",
+"title": "We Evolve",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Kita",
+"title": "Solarplex",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Om Unit",
+"title": "Nagual",
+"label": "",
+"bp": "bp:4743167",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bf7b53b7-25b1-48c1-8413-1a9b342e34af.LOFI.mp3",
+"name": "Nagual",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2013-10-28"
+},
+{
+"minute": null,
+"artist": "Wata Igarashi",
+"title": "Touch",
+"label": ""
+}
+]
+},
+{
+"title": "2024-01-14 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Viul",
+"title": "Take Its Coral Hand",
+"label": ""
+},
+{
+"minute": 6,
+"artist": "Weareforests",
+"title": "Local Flora",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Tegu",
+"title": "IV",
+"label": ""
+},
+{
+"minute": 15,
+"artist": "Skee Mask",
+"title": "Bassline Dub",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Doris Saturday",
+"title": "Ants Canada",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Low Flung",
+"title": "In Waves",
+"label": "",
+"bp": "bp:18120099",
+"score": 0.662,
+"preview": "https://geo-samples.beatport.com/track/ef9bb559-8abe-4a1b-91e0-7f8bc61d9a61.LOFI.mp3",
+"name": "Waves",
+"mix": "Extended Mix",
+"genre": "house",
+"released": "2023-09-29"
+},
+{
+"minute": null,
+"artist": "Keiss",
+"title": "The Untold Story",
+"label": "",
+"bp": "bp:18637883",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3aaa5973-ad4f-41cc-a031-b127eedc409f.LOFI.mp3",
+"name": "The Untold Story",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-01-12"
+},
+{
+"minute": null,
+"artist": "HVL",
+"title": "Nugeshi",
+"label": ""
+},
+{
+"minute": 36,
+"artist": "Joachim Spieth",
+"title": "Ultradian (Bvdub's Collapsing In The Circadian Reshape)",
+"label": "",
+"bp": "bp:17562668",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb77b51c-4c8f-4a2d-af38-7f42914f9bd4.LOFI.mp3",
+"name": "Ultradian",
+"mix": "Bvdub\u200b'\u200bs Collapsing in the Circadian Reshape",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2023-10-20"
+},
+{
+"minute": 45,
+"artist": "Piper Spray & Lena Tsibizova",
+"title": "Debtor Of Presence",
+"label": "",
+"bp": "bp:18454414",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/85bb0033-09fb-486e-af61-6f34def57aa4.LOFI.mp3",
+"name": "Debtor of Presence",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-01-05"
+}
+]
+},
+{
+"title": "2024-02-18 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Beno\u00eet Pioulard & Offthesky",
+"title": "Memorize",
+"label": ""
+},
+{
+"minute": 4,
+"artist": "Edmondson",
+"title": "Remind Me In An Hour",
+"label": "",
+"bp": "bp:18468478",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/294a2b3d-37d3-4d4e-8efd-0778b6cfef9c.LOFI.mp3",
+"name": "Remind Me In An Hour",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-02-07"
+},
+{
+"minute": 7,
+"artist": "Illuvia",
+"title": "Sun Circles (Blue Moon)",
+"label": "",
+"bp": "bp:12280767",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/885370bb-6f2a-433f-bd62-b929f1a273c0.LOFI.mp3",
+"name": "Sun Circles",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2019-07-22"
+},
+{
+"minute": 13,
+"artist": "Donato Dozzy",
+"title": "Franca",
+"label": "",
+"bp": "bp:18482204",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ada4210f-271b-465e-8ee0-a49fbf4c0014.LOFI.mp3",
+"name": "Franca",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-01-19"
+},
+{
+"minute": 19,
+"artist": "Other Joe",
+"title": "Dreaming Out Loud",
+"label": "",
+"bp": "bp:18696786",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/af1530d3-7bb8-4105-9296-77fe5841a230.LOFI.mp3",
+"name": "Dreaming out Loud",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-02-22"
+},
+{
+"minute": 24,
+"artist": "Fruit",
+"title": "Words",
+"label": ""
+},
+{
+"minute": 30,
+"artist": "Tensen Park",
+"title": "Fukuiraptor",
+"label": ""
+},
+{
+"minute": 35,
+"artist": "Jonny From Space",
+"title": "Run It",
+"label": "",
+"bp": "bp:18568685",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/89f09e98-5530-42be-9dd3-dc05b55c25fc.LOFI.mp3",
+"name": "Run It",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-02-09"
+},
+{
+"minute": 40,
+"artist": "TREN",
+"title": "A3. Sands Of Time",
+"label": "",
+"bp": "bp:18939327",
+"score": 0.938,
+"preview": "https://geo-samples.beatport.com/track/77116818-e012-43d0-92dc-20f37f0047e2.LOFI.mp3",
+"name": "Sands of Time",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-01-26"
+},
+{
+"minute": 42,
+"artist": "Vertical67",
+"title": "Movie Stills",
+"label": "Vertical"
+}
+]
+},
+{
+"title": "2024-03-24 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Amkarahoi",
+"title": "Kirenga",
+"label": "",
+"bp": "bp:18616364",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8a0c9107-9b7c-4511-b880-d89b6eed5569.LOFI.mp3",
+"name": "Kirenga",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-01"
+},
+{
+"minute": 5,
+"artist": "Mjulev",
+"title": "When Birds Dance",
+"label": "",
+"bp": "bp:18776213",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f658a7b3-1830-4762-a590-fa655167312a.LOFI.mp3",
+"name": "When Birds Dance",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-04-12"
+},
+{
+"minute": 12,
+"artist": "Sacred Seeds",
+"title": "Hidden Shadows",
+"label": "",
+"bp": "bp:18714376",
+"score": 0.942,
+"preview": "https://geo-samples.beatport.com/track/37dd5fc1-018e-4940-b620-30000960b101.LOFI.mp3",
+"name": "Hidden in Shadows",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-01"
+},
+{
+"minute": 19,
+"artist": "\u00f3palo",
+"title": "Small Gifts Last Forever",
+"label": ""
+},
+{
+"minute": 21,
+"artist": "Erik Mowinckel",
+"title": "Smog",
+"label": "",
+"bp": "bp:21273985",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f90a6e1e-5e57-417d-8f72-536664c14d86.LOFI.mp3",
+"name": "Smog",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-01"
+},
+{
+"minute": 27,
+"artist": "Rai Scott",
+"title": "Practice Of The Middle Way",
+"label": "Tiny Green Ladybird",
+"bp": "bp:19170614",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1699accd-1b59-4853-ac9e-c7d502a353d4.LOFI.mp3",
+"name": "Practice of the Middle Way",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2024-06-17"
+},
+{
+"minute": 33,
+"artist": "Lerosa",
+"title": "Contact And Space",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Octave One",
+"title": "Mirror Image",
+"label": ""
+},
+{
+"minute": 43,
+"artist": "Audyssey",
+"title": "Climate",
+"label": "",
+"bp": "bp:18670206",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6cda4303-5fbc-45b1-b48d-a3cd72e49f6a.LOFI.mp3",
+"name": "Climate",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-01"
+},
+{
+"minute": 47,
+"artist": "Moir\u00e9",
+"title": "Circuit 2",
+"label": ""
+}
+]
+},
+{
+"title": "2024-04-27 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Sebby Kowal",
+"title": "Shibuya Stream",
+"label": "",
+"bp": "bp:18865971",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/91c2e8f4-c9a6-43ca-b062-980b6873320b.LOFI.mp3",
+"name": "Shibuya Stream",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-04-19"
+},
+{
+"minute": 7,
+"artist": "Amalgama",
+"title": "Pirotecnia",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Liai",
+"title": "Lover's Prelude",
+"label": ""
+},
+{
+"minute": 15,
+"artist": "Ulla & Ultrafog",
+"title": "Room Core",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "Xenia Reaper",
+"title": "Within",
+"label": "",
+"bp": "bp:18723957",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d71cbd24-f089-423e-873b-c39c31471f44.LOFI.mp3",
+"name": "Within",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-29"
+},
+{
+"minute": 21,
+"artist": "Aja",
+"title": "Absolune",
+"label": "Cl\u00e9 - Grand Musique Management"
+},
+{
+"minute": 25,
+"artist": "Pedro Vian",
+"title": "Mother Of Dragons",
+"label": "",
+"bp": "bp:18696516",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8808d7f0-c2c4-4a1b-bcd6-f92b63ef8f97.LOFI.mp3",
+"name": "Mother of Dragons",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-12"
+},
+{
+"minute": 29,
+"artist": "Brain Rays",
+"title": "Nightcrawler",
+"label": "Acroplane",
+"bp": "bp:18857320",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f4c785f7-8b0b-42db-9144-ae6ff4a3df84.LOFI.mp3",
+"name": "Nightcrawler",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2024-04-12"
+},
+{
+"minute": 33,
+"artist": "Konduku",
+"title": "Hafif",
+"label": "",
+"bp": "bp:19960883",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6f86eb30-842d-4329-a9e8-a51339e9131d.LOFI.mp3",
+"name": "Hafif",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-01-31"
+},
+{
+"minute": null,
+"artist": "[3?] Mpu101",
+"title": "Sunset Dreams",
+"label": ""
+},
+{
+"minute": 39,
+"artist": "MPU101",
+"title": "Sunset Memories",
+"label": "MPU",
+"bp": "bp:18777337",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/669182eb-28d3-4453-a596-a40a8dcfb42d.LOFI.mp3",
+"name": "Sunset Memories",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-07"
+}
+]
+},
+{
+"title": "2024-05-26 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Contours Feat. Yadava",
+"title": "Bike Shed",
+"label": "",
+"bp": "bp:18983276",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/9c4f6b34-a449-4af1-a4d4-d8910bfc85dc.LOFI.mp3",
+"name": "Bike Shed",
+"mix": "Original",
+"genre": "ambient-experimental",
+"released": "2024-04-23"
+},
+{
+"minute": null,
+"artist": "Stewart Walker & Faru",
+"title": "Glass Tetra",
+"label": ""
+},
+{
+"minute": 11,
+"artist": "Near Lakes",
+"title": "Violet",
+"label": "Shimmering Moods"
+},
+{
+"minute": 16,
+"artist": "Aes Dana Feat. Miktek",
+"title": "Far & Off (Remastered 24-Bit)",
+"label": "Ultimae",
+"bp": "bp:13063074",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/ba7c61d3-615c-4bf2-9de5-886dda376162.LOFI.mp3",
+"name": "Far & Off",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2016-04-09"
+},
+{
+"minute": 23,
+"artist": "Sepehr",
+"title": "Styx River",
+"label": "",
+"bp": "bp:18091758",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb182cee-f4a5-4d97-b86b-f8d1cb1287ba.LOFI.mp3",
+"name": "Styx River",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2023-10-27"
+},
+{
+"minute": 27,
+"artist": "M.I.D.I. Janitor",
+"title": "Far Speak",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Innerinnerlife Feat. Aestum",
+"title": "Dr\u0113m",
+"label": "",
+"bp": "bp:18753967",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/54ce5d84-ffbe-474b-9fac-6b0dc1f32006.LOFI.mp3",
+"name": "dr\u0113m (feat. Aestum)",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-22"
+},
+{
+"minute": 36,
+"artist": "H To O",
+"title": "Ever",
+"label": "",
+"bp": "bp:18856325",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f916a56-a460-4d59-b0c5-11a8aeee1da9.LOFI.mp3",
+"name": "Ever",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-04-30"
+},
+{
+"minute": 43,
+"artist": "Lovetrip",
+"title": "Melt Waters",
+"label": ""
+},
+{
+"minute": 50,
+"artist": "Luxe",
+"title": "Fey Air",
+"label": "",
+"bp": "bp:18929315",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d9c34a1d-631c-41a7-9082-3feb128965e4.LOFI.mp3",
+"name": "fey air",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-05-09"
+}
+]
+},
+{
+"title": "2024-06-30 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Coppice Halifax",
+"title": "Blankit (Amb)",
+"label": "",
+"bp": "bp:17660731",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d530531b-1be7-4a83-b917-d2273795aaf8.LOFI.mp3",
+"name": "Blankit",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2012-04-28"
+},
+{
+"minute": null,
+"artist": "Ard Bit & Radboud Mens",
+"title": "Projection",
+"label": "",
+"bp": "bp:20758477",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c5756509-113f-4a2c-b970-fb1a91604cc6.LOFI.mp3",
+"name": "Projection",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-07-12"
+},
+{
+"minute": null,
+"artist": "Pagaent",
+"title": "Rising Sun",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "Actress",
+"title": "Dolphin Spray",
+"label": "Smalltown Supersound",
+"bp": "bp:18851487",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/31f9c323-1217-4020-821f-5bd10c3d1c0b.LOFI.mp3",
+"name": "Dolphin Spray",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-06-07"
+},
+{
+"minute": 24,
+"artist": "Ke Thu",
+"title": "A3",
+"label": "Detroit Underground",
+"bp": "bp:18982935",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/231e7be9-02b7-48a8-806d-da13e623ae7f.LOFI.mp3",
+"name": "A3",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2024-05-24"
+},
+{
+"minute": 28,
+"artist": "Priori Feat. Sabola",
+"title": "Learn To Fly",
+"label": "Naff",
+"bp": "bp:18727357",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/5c5712ad-ad7e-4aa0-984c-850aa916b64a.LOFI.mp3",
+"name": "Learn to Fly",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-03-15"
+},
+{
+"minute": 33,
+"artist": "Sylve",
+"title": "Cloudless Raindrops (Polygonia Remix)",
+"label": "",
+"bp": "bp:18879050",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ef64b6b3-3e61-497a-9b4b-3d279bf57d84.LOFI.mp3",
+"name": "Cloudless Raindrops",
+"mix": "Polygonia Remix",
+"genre": "electronica",
+"released": "2024-04-26"
+},
+{
+"minute": 39,
+"artist": "Mattr",
+"title": "Gaija",
+"label": "Loft & Sound",
+"bp": "bp:18403954",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ee6856fd-dd32-49ad-a747-944e71aaf564.LOFI.mp3",
+"name": "Gaija",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-01-05"
+},
+{
+"minute": 45,
+"artist": "Helios And Hollie Kenniff",
+"title": "Sepal",
+"label": "Unseen",
+"bp": "bp:19162633",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/3d52acd2-025c-4dbc-a1a8-3df065ee3be6.LOFI.mp3",
+"name": "Sepal",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2024-06-21"
+},
+{
+"minute": 48,
+"artist": "Luxe",
+"title": "Eventide",
+"label": "Method 808"
+}
+]
+},
+{
+"title": "2024-07-28 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Inhmost & Owl",
+"title": "Zodiacal Clouds",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Veryzer",
+"title": "The Ice You Won't See",
+"label": ""
+},
+{
+"minute": 14,
+"artist": "Toxido Mask",
+"title": "Along The Vibe",
+"label": "Pregnant Void",
+"bp": "bp:19192204",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2bffc673-9a50-478a-aa73-00597aa516df.LOFI.mp3",
+"name": "Along the Vibe",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-07-12"
+},
+{
+"minute": 19,
+"artist": "Borderlandstate_The Best Kisser In L.A.",
+"title": "Beach",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "Eusebeia Feat. Aisatsaana",
+"title": "Safe Haven",
+"label": "Umai"
+},
+{
+"minute": 26,
+"artist": "Louf",
+"title": "Show Me",
+"label": "Valby Rotary"
+},
+{
+"minute": 29,
+"artist": "Shinetiac",
+"title": "Starfrog (Jp's Little Shinety Clouds Remix)",
+"label": "OST"
+},
+{
+"minute": 36,
+"artist": "Gazer",
+"title": "Orchids Jungle",
+"label": ""
+},
+{
+"minute": 45,
+"artist": "Arutani",
+"title": "What If It Doesn't Work (Brigade Ambient Jungle Rework)",
+"label": "Laut & Luise",
+"bp": "bp:19163526",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/40041671-516f-4d6c-9030-18af0d7cf69e.LOFI.mp3",
+"name": "What If It Doesn't Work",
+"mix": "Brigade Ambient Jungle Rework",
+"genre": "electronica",
+"released": "2024-08-09"
+},
+{
+"minute": 49,
+"artist": "Braulio Lam",
+"title": "Prologue",
+"label": "Avantroots",
+"bp": "bp:19192319",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bef4f716-bc58-4a81-beaf-5b5db6bd187b.LOFI.mp3",
+"name": "Prologue",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-07-19"
+}
+]
+},
+{
+"title": "2024-08-25 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Xvii",
+"title": "Ambidub",
+"label": "LXVIII"
+},
+{
+"minute": 5,
+"artist": "Skee Mask",
+"title": "Nostaglitch",
+"label": "Ilian Tape",
+"bp": "bp:19162202",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3a3080c1-a846-4c4f-aa20-83524a156ae9.LOFI.mp3",
+"name": "Nostaglitch",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-06-13"
+},
+{
+"minute": 9,
+"artist": "Tensen Park",
+"title": "Midnight Hover",
+"label": "Never Late",
+"bp": "bp:20458278",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8d1b0a86-e857-4c26-ae2c-b3d02c340810.LOFI.mp3",
+"name": "Midnight Hover",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-05-23"
+},
+{
+"minute": 14,
+"artist": "Doris Saturday",
+"title": "Look What They Did To My Boy",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "Wretla",
+"title": "Xifel",
+"label": "Point Of You"
+},
+{
+"minute": 23,
+"artist": "Conna Haraway",
+"title": "Soft Drop",
+"label": ""
+},
+{
+"minute": null,
+"artist": "[2?] Brendon Moeller",
+"title": "Perspective",
+"label": "",
+"bp": "bp:19026410",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/199d7bf7-41c2-4489-97ec-428efefca822.LOFI.mp3",
+"name": "Perspective",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-06-21"
+},
+{
+"minute": 30,
+"artist": "Akuratyde & Kharm",
+"title": "Impressions",
+"label": "Modern Conveniences"
+},
+{
+"minute": 35,
+"artist": "Rikaar",
+"title": "Digital Flowers On Analogue Planet",
+"label": "",
+"bp": "bp:19111700",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c64e0ecd-329f-4bcf-8f5a-50d1fff21d1e.LOFI.mp3",
+"name": "Digital Flowers on Analogue Planet",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-06-21"
+},
+{
+"minute": 40,
+"artist": "Purl",
+"title": "Haze Of My Youth",
+"label": "LILA \u0932\u0940\u0932\u093e"
+}
+]
+},
+{
+"title": "2024-09-22 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "ASC",
+"title": "Sensory Disintegration",
+"label": ""
+},
+{
+"minute": 9,
+"artist": "Chantssss",
+"title": "Lotus Drips",
+"label": "Theory Therapy",
+"bp": "bp:21336513",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3da12f97-6dc4-4fdc-9b5c-eca83910b0d1.LOFI.mp3",
+"name": "lotus drips",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-09-06"
+},
+{
+"minute": 12,
+"artist": "Illuvia",
+"title": "Auriel",
+"label": ""
+},
+{
+"minute": 17,
+"artist": "Tellus & Akuratyde",
+"title": "Up River",
+"label": "Modern Conveniences"
+},
+{
+"minute": 22,
+"artist": "Kagami Smile",
+"title": "I'm Not There",
+"label": "A2"
+},
+{
+"minute": 30,
+"artist": "Donis",
+"title": "Butterflies",
+"label": "",
+"bp": "bp:19107795",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d33b20d8-bfd0-4c70-8ad9-6014000d323a.LOFI.mp3",
+"name": "Butterflies",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-06-28"
+},
+{
+"minute": 32,
+"artist": "Calibre",
+"title": "Heaven",
+"label": "",
+"bp": "bp:18224614",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b5d82305-14af-443a-a57a-1e1c4cffe31f.LOFI.mp3",
+"name": "Heaven",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-10-12"
+},
+{
+"minute": 37,
+"artist": "Yushh",
+"title": "Oxi Ambigan",
+"label": "Well Street",
+"bp": "bp:17527992",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cff1179d-2c47-4243-b0ca-0897b4cb8dd1.LOFI.mp3",
+"name": "OXI Ambigan",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-04-14"
+},
+{
+"minute": 42,
+"artist": "Priori Feat. Sabola",
+"title": "To See Our Secret Die",
+"label": "Naff",
+"bp": "bp:18963253",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/44c11a54-9166-4932-87df-cf5a42a338c5.LOFI.mp3",
+"name": "To See Our Secret Die",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-05-30"
+},
+{
+"minute": 46,
+"artist": "Kloke",
+"title": "Sirens",
+"label": "Unknown To The Unknown",
+"bp": "bp:19206645",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ab1003d3-faef-4d6e-99df-3742c112a9ee.LOFI.mp3",
+"name": "Sirens",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-08-02"
+},
+{
+"minute": 53,
+"artist": "Red Army",
+"title": "Esketamine",
+"label": "Armory",
+"bp": "bp:19288872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/de2733ad-1bac-4f56-b1ac-7c6e29a4be10.LOFI.mp3",
+"name": "Esketamine",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-07-17"
+},
+{
+"minute": 60,
+"artist": "Brainwork & Mnml",
+"title": "Distractions (W/Mystic State)",
+"label": "The Chikara Project",
+"bp": "bp:18214222",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/46e9a67a-4371-4d22-ab46-1359cf3836c4.LOFI.mp3",
+"name": "Distractions",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-11-03"
+},
+{
+"minute": 64,
+"artist": "Calibre",
+"title": "No Stopping",
+"label": "",
+"bp": "bp:18224621",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4c86511f-fee7-41d6-b309-f63d83987ecf.LOFI.mp3",
+"name": "No Stopping",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-10-12"
+},
+{
+"minute": 68,
+"artist": "Otik",
+"title": "Cosmosis",
+"label": "",
+"bp": "bp:18364557",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fdb9062d-1f39-4bfa-bea5-3ccad27ab8fe.LOFI.mp3",
+"name": "Cosmosis",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2023-11-24"
+},
+{
+"minute": null,
+"artist": "Aural Imbalance",
+"title": "Stargazers",
+"label": "",
+"bp": "bp:28785675",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/66af0597-ed6f-4165-9155-11acba8d6508.LOFI.mp3",
+"name": "Stargazers",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-04-26"
+},
+{
+"minute": null,
+"artist": "Lake Haze",
+"title": "Ego Destroyer",
+"label": "",
+"bp": "bp:18214429",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c9e00bc9-e695-459a-bb5c-3b217cad5b3b.LOFI.mp3",
+"name": "Ego Destroyer",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2023-11-10"
+},
+{
+"minute": 83,
+"artist": "No Nation",
+"title": "Gad Damn",
+"label": "Banoffee Pies",
+"bp": "bp:17795864",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/670e1cfe-0ebc-401c-bda6-835289aea52a.LOFI.mp3",
+"name": "Gad Damn",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-06-30"
+},
+{
+"minute": 88,
+"artist": "Soela",
+"title": "The Darkest Hour Before Sunrise",
+"label": "Scissor & Thread",
+"bp": "bp:19252370",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9dafb28c-20d1-4bde-959a-38c8bc56c085.LOFI.mp3",
+"name": "The Darkest Hour Before Sunrise",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-09-06"
+},
+{
+"minute": 93,
+"artist": "Naemi",
+"title": "It Feels So Good (W/Erika)",
+"label": ""
+},
+{
+"minute": 97,
+"artist": "Mosam Howieson",
+"title": "Recursion",
+"label": "Semantica",
+"bp": "bp:19537268",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6feee502-86d3-43dc-b19d-312ef585583c.LOFI.mp3",
+"name": "Recursion",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2024-10-25"
+}
+]
+},
+{
+"title": "2024-10-13 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "James Murray",
+"title": "Bellflower",
+"label": "",
+"bp": "bp:29373226",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/df2f7a6e-d61d-4395-9c53-fa618948a80f.LOFI.mp3",
+"name": "Bellflower",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2024-09-27"
+},
+{
+"minute": 6,
+"artist": "Dionisaf",
+"title": "Wabi",
+"label": "Chitra",
+"bp": "bp:19150557",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f5ab89b-f084-4b6c-9fc9-c5b54c678874.LOFI.mp3",
+"name": "Wabi",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-08-30"
+},
+{
+"minute": 12,
+"artist": "RDS",
+"title": "AX60@EEF",
+"label": "",
+"bp": "bp:19379463",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b2a5441a-f33c-47f0-9047-ed2487c3691f.LOFI.mp3",
+"name": "AX60@EEF",
+"mix": "Original",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2024-08-30"
+},
+{
+"minute": null,
+"artist": "nthng",
+"title": "In Statics",
+"label": "",
+"bp": "bp:19318576",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/904a4523-0c65-44e7-a087-566487a59b82.LOFI.mp3",
+"name": "In Statics",
+"mix": "Original Mix",
+"genre": "organic-house",
+"released": "2024-09-24"
+},
+{
+"minute": null,
+"artist": "Blackbird",
+"title": "Dreamless",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Yaka",
+"title": "Somewhere In That Water",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Keiss",
+"title": "Nevermind",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nautiluss",
+"title": "Halcyon Daze",
+"label": ""
+},
+{
+"minute": null,
+"artist": "John Beltran",
+"title": "Alle Kinder",
+"label": ""
+},
+{
+"minute": 43,
+"artist": "J\u00f3nbj\u00f6rn",
+"title": "\u00feeytt Smj\u00f6r",
+"label": "Lagaffe Tales"
+}
+]
+},
+{
+"title": "2024-11-10 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Ike Zwanikken",
+"title": "Crossed Candle",
+"label": "Theory Therapy",
+"bp": "bp:19571099",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fd0047cb-ce17-422c-a857-6819ab96c006.LOFI.mp3",
+"name": "Crossed Candle",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2024-10-25"
+},
+{
+"minute": 4,
+"artist": "Maps And Diagrams",
+"title": "Kettletoft",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "Antoni Maiovvi",
+"title": "Taken Together",
+"label": "Astrotheology"
+},
+{
+"minute": 11,
+"artist": "Joachim Spieth",
+"title": "Recall",
+"label": "Affin",
+"bp": "bp:19279544",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b669fe72-6948-4c71-89b4-cfd6803b815c.LOFI.mp3",
+"name": "Recall",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-09-06"
+},
+{
+"minute": 15,
+"artist": "Mu Tate",
+"title": "Sweat",
+"label": "Warm Winters"
+},
+{
+"minute": 19,
+"artist": "Skee Mask",
+"title": "Spacejamz",
+"label": ""
+},
+{
+"minute": 23,
+"artist": "990x",
+"title": "June Lovers",
+"label": "Sferic"
+},
+{
+"minute": 27,
+"artist": "HVL",
+"title": "At Peace With Death",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mattr",
+"title": "Field",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Tristan Arp",
+"title": "Life After Humans",
+"label": "Wisdom Teeth",
+"bp": "bp:19453225",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4773e0a7-30c6-40ff-9356-0e64bc143339.LOFI.mp3",
+"name": "life after humans",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-10-25"
+}
+]
+},
+{
+"title": "2024-12-15 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Taylor Deupree",
+"title": "The Anthology Of Fragments",
+"label": "Nettwerk"
+},
+{
+"minute": 3,
+"artist": "Paul Kerdommarec",
+"title": "Un Hiver",
+"label": "Decaying Spheres",
+"bp": "bp:19698046",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bb34be57-e14b-461f-b8e5-2ee93adc692a.LOFI.mp3",
+"name": "Un Hiver",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-11-15"
+},
+{
+"minute": 10,
+"artist": "Earthen Sea",
+"title": "Another Space",
+"label": "Kranky",
+"bp": "bp:19580522",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4eab65f9-70da-49cf-a8d0-d8fffd9f9ab4.LOFI.mp3",
+"name": "Another Space",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-11-15"
+},
+{
+"minute": 13,
+"artist": "Black Taffy",
+"title": "Big Tiny",
+"label": "Leaving",
+"bp": "bp:19642832",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/46a33076-437b-400e-a7f6-53dd00a3bf1c.LOFI.mp3",
+"name": "Big Tiny",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-11-11"
+},
+{
+"minute": 17,
+"artist": "Heogen",
+"title": "Pareidolia",
+"label": "Touched",
+"bp": "bp:19975017",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2f5d05de-54e5-4c38-bcda-7cf75290c70a.LOFI.mp3",
+"name": "Pareidolia",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-12-13"
+},
+{
+"minute": 22,
+"artist": "Pondlicker",
+"title": "Never Hit The Bottom",
+"label": "Naff",
+"bp": "bp:19738609",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2b3ba169-d9f3-44ce-b930-c2d6d4b95543.LOFI.mp3",
+"name": "never hit the bottom",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-11-28"
+},
+{
+"minute": 26,
+"artist": "David August",
+"title": "VIS (Blue Canvas Reinterpretation)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Eden Aurelius",
+"title": "Uplift",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Okraa",
+"title": "Para Desaprender",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Kangding Ray",
+"title": "Trade On Azul",
+"label": "",
+"bp": "bp:11974484",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4d7ac381-f951-4edc-a8ad-0202699b6eb6.LOFI.mp3",
+"name": "Trade On Azul",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-05-17"
+}
+]
+},
+{
+"title": "2025-01-12 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "R\u00f6yksopp",
+"title": "Waking Up From A Thousand Year Slumber",
+"label": "Dog Triumph"
+},
+{
+"minute": 7,
+"artist": "Ben Kaczor & Niculin Barandun",
+"title": "The Equilibrium In Transition",
+"label": "Dial",
+"bp": "bp:19719054",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8f824817-30e0-4e3a-913f-8ea136303ec0.LOFI.mp3",
+"name": "The Equilibrium in Transition",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2024-11-29"
+},
+{
+"minute": 12,
+"artist": "Pavel Milyakov & Lucas Dupuy",
+"title": "Room",
+"label": ""
+},
+{
+"minute": 21,
+"artist": "543ff",
+"title": "Sincecure (Index)",
+"label": "Lazy Reflex Complex",
+"bp": "bp:19866806",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/24ef9f95-5cd3-496c-befb-3eb5cdbce7c7.LOFI.mp3",
+"name": "Sincecure (Index)",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2024-12-20"
+},
+{
+"minute": 25,
+"artist": "DYL",
+"title": "Everywhere",
+"label": "Re:st",
+"bp": "bp:20086187",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/54bca0ec-068b-4a2b-afd4-89df9431cd89.LOFI.mp3",
+"name": "Everywhere",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2025-02-21"
+},
+{
+"minute": 30,
+"artist": "Louf",
+"title": "Plinko",
+"label": "Valby Rotary"
+},
+{
+"minute": 34,
+"artist": "Games",
+"title": "Ston Dub",
+"label": "INDEX:Records",
+"bp": "bp:19835651",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/82f7f9e0-e4ec-4eef-9d54-9cff64bfb6bb.LOFI.mp3",
+"name": "ston dub",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-01-03"
+},
+{
+"minute": 36,
+"artist": "Bambinodj & Phillip Jondo",
+"title": "Auf Log",
+"label": "OST"
+},
+{
+"minute": 41,
+"artist": "Ir_",
+"title": "Absent",
+"label": "Isness"
+},
+{
+"minute": 48,
+"artist": "Brainwaltzera",
+"title": "Rondoc (29 Tor Be Four The F[t]uss)",
+"label": "Music For The Other People Place"
+}
+]
+},
+{
+"title": "2025-02-16 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Rhubiqs & Robert Farrugia",
+"title": "Sleep // Forget",
+"label": "Affin",
+"bp": "bp:19873707",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/023bdb69-abe9-4853-afc1-82579398f080.LOFI.mp3",
+"name": "Sleep // Forget",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-12-06"
+},
+{
+"minute": 3,
+"artist": "Eyerate",
+"title": "Push Pull",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Serge Geyzel",
+"title": "Primitive Structures",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bot1500",
+"title": "Red Dub",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Multicast Dynamics",
+"title": "Everything Physical",
+"label": ""
+},
+{
+"minute": 22,
+"artist": "V.Ictor",
+"title": "Amphi",
+"label": "Archipel Musique",
+"bp": "bp:19872504",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b53d53a2-8049-4cfa-a226-99f6ab07f9ef.LOFI.mp3",
+"name": "Amphi-",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-01-16"
+},
+{
+"minute": 25,
+"artist": "Analept",
+"title": "Membranes (Cut In Slices)",
+"label": "",
+"bp": "bp:19966944",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f355acc3-9a4d-4d54-84d3-a74c37a04163.LOFI.mp3",
+"name": "Membranes",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2025-02-07"
+},
+{
+"minute": 31,
+"artist": "Quantum Collapse",
+"title": "Scattering Hamiltonian",
+"label": ""
+},
+{
+"minute": 36,
+"artist": "Madison Willing & dBridge",
+"title": "Birth (Synkro Remix)",
+"label": "Exit",
+"bp": "bp:21163952",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/93bc0612-b1ce-405f-bd56-3b6e5c1f1289.LOFI.mp3",
+"name": "Birth",
+"mix": "Synkro Remix",
+"genre": "bass-club",
+"released": "2024-11-29"
+},
+{
+"minute": 43,
+"artist": "Thme",
+"title": "Imago",
+"label": "LAAPS"
+}
+]
+},
+{
+"title": "2025-03-16 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Sam Wilson",
+"title": "Ethereal Landscapes Are My Only Shelter",
+"label": "Lucid Dream",
+"bp": "bp:20198092",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/226adfdf-ec07-4e66-9ba5-230fc2fc1c9f.LOFI.mp3",
+"name": "Ethereal Landscapes Are My Only Shelter",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-02-25"
+},
+{
+"minute": 4,
+"artist": "Rene Lorenzo",
+"title": "A Good Moment",
+"label": "Kizen",
+"bp": "bp:20139449",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6abe1528-8460-4b2a-81c5-68d916943b57.LOFI.mp3",
+"name": "A Good Moment",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-02-28"
+},
+{
+"minute": 11,
+"artist": "Mown",
+"title": "An Endless Sweet Sweet Storm",
+"label": ""
+},
+{
+"minute": null,
+"artist": "M\u00fccha",
+"title": "You Make Me Go Under",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Sofia Bertomeu",
+"title": "Above Mentioned",
+"label": ""
+},
+{
+"minute": 26,
+"artist": "Shinetiac",
+"title": "Clublyfe (Hulu)",
+"label": "West Mineral",
+"bp": "bp:20249995",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/13060691-6259-4cd2-bdde-889abc98d733.LOFI.mp3",
+"name": "Clublyfe (Hulu)",
+"mix": "Hulu",
+"genre": "electronica",
+"released": "2025-03-06"
+},
+{
+"minute": 30,
+"artist": "Blackbird",
+"title": "Rabbit",
+"label": ""
+},
+{
+"minute": 34,
+"artist": "Love Over Entropy",
+"title": "NLC",
+"label": "Something Happening Somewhere",
+"bp": "bp:19754063",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8221030e-a655-491c-9267-b909c3480e17.LOFI.mp3",
+"name": "NLC",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2024-12-13"
+},
+{
+"minute": 40,
+"artist": "MPU101",
+"title": "Oberheim Junction",
+"label": "Ilian Tape",
+"bp": "bp:20305576",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/21577590-ed11-4836-85c4-c777f2a94019.LOFI.mp3",
+"name": "Oberheim Junction",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-03-26"
+},
+{
+"minute": null,
+"artist": "[4?] Aracoeli",
+"title": "Alpha Waves",
+"label": "Dawn"
+}
+]
+},
+{
+"title": "2025-04-13 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Sleep D & Albrecht La'Brooy",
+"title": "Sleeping Patterns",
+"label": "Butter Sessions",
+"bp": "bp:20251116",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/78dcf49f-8a73-4f26-ad3d-78013f36728b.LOFI.mp3",
+"name": "Sleeping Patterns",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2017-05-24"
+},
+{
+"minute": 6,
+"artist": "Pheek",
+"title": "Hypallage",
+"label": "Archipel Musique",
+"bp": "bp:20186191",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9390bcb-277f-417a-9df5-dcb1fd35c809.LOFI.mp3",
+"name": "Hypallage",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-03-31"
+},
+{
+"minute": 11,
+"artist": "Konalgad",
+"title": "Enteweyaha",
+"label": "Dance Data"
+},
+{
+"minute": null,
+"artist": "[1?] Ryan Wick",
+"title": "Sublimation",
+"label": "Jungle Gym",
+"bp": "bp:22898814",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/e147a940-c546-4f3d-b776-eaf523b9af08.LOFI.mp3",
+"name": "Sublimation",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-04-04"
+},
+{
+"minute": 19,
+"artist": "Tobias. & Doltz",
+"title": "Fukaeri",
+"label": "Delsin",
+"bp": "bp:20149227",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8f73ecba-f0c0-4e9e-83d7-65014bc61c11.LOFI.mp3",
+"name": "Fukaeri",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-03-28"
+},
+{
+"minute": 24,
+"artist": "OK EG & Priori",
+"title": "Serpentine 3",
+"label": "Naff",
+"bp": "bp:20194909",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/25431a75-3e87-4213-bdec-3d6f746db0a4.LOFI.mp3",
+"name": "Serpentine 3",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2025-04-03"
+},
+{
+"minute": 29,
+"artist": "Fluid Matter",
+"title": "Sway & Loom",
+"label": "Virtual Forest",
+"bp": "bp:22917026",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/4194763d-ddb1-47dd-8557-3df3ee522868.LOFI.mp3",
+"name": "Sway & Loom",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2025-04-24"
+},
+{
+"minute": null,
+"artist": "[3?] Tellus",
+"title": "Optic Regenerator",
+"label": "Modern Conveniences",
+"bp": "bp:19681282",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/90f3472c-3c4a-4ad9-be82-dece389d479f.LOFI.mp3",
+"name": "Optic Regenerator",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2024-11-01"
+},
+{
+"minute": 38,
+"artist": "As One",
+"title": "Message Received",
+"label": "De:tuned",
+"bp": "bp:19669376",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/90804c95-25e1-4a7f-8701-fe38cd9f79e4.LOFI.mp3",
+"name": "Message Received",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-12-06"
+},
+{
+"minute": 42,
+"artist": "VC-118A",
+"title": "Soft Spot",
+"label": "Delsin",
+"bp": "bp:15259882",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ab4ace21-f824-4ffa-8769-cf74e37538cc.LOFI.mp3",
+"name": "Soft Spot",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2021-06-11"
+}
+]
+},
+{
+"title": "2025-05-25 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Owl",
+"title": "Lanterns Illuminate The Infinite Space",
+"label": "Huinali",
+"bp": "bp:20463871",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fca1e4bb-811e-4f88-86b6-cdc498561521.LOFI.mp3",
+"name": "Lanterns Illuminate The Infinite Space",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-05-26"
+},
+{
+"minute": 5,
+"artist": "Loscil",
+"title": "Silos",
+"label": "Kranky",
+"bp": "bp:20216067",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/806e9e49-348a-4e35-93f9-d9dfe82fce9d.LOFI.mp3",
+"name": "Silos",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-05-02"
+},
+{
+"minute": 11,
+"artist": "Hidden Sequence",
+"title": "Komorebi",
+"label": "Silent Season"
+},
+{
+"minute": 17,
+"artist": "XENIA REAPER",
+"title": "This",
+"label": "INDEX:Records",
+"bp": "bp:20344170",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/974130f2-ccb8-404a-826e-79ddf7df578c.LOFI.mp3",
+"name": "This",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-04-25"
+},
+{
+"minute": 22,
+"artist": "Loop LF",
+"title": "Roe",
+"label": "Prosophone"
+},
+{
+"minute": null,
+"artist": "Mnemonics",
+"title": "Neural Drifts",
+"label": ""
+},
+{
+"minute": 34,
+"artist": "Wrecked Lightship",
+"title": "Reeling Mist",
+"label": "Peak Oil",
+"bp": "bp:20241044",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/438409ca-6931-475a-8150-d6cd2fbcecd4.LOFI.mp3",
+"name": "Reeling Mist",
+"mix": "Original Mix",
+"genre": "uk-garage-bassline",
+"released": "2025-03-07"
+},
+{
+"minute": 39,
+"artist": "Shine Grooves",
+"title": "Diving With Alina",
+"label": "Not Not Fun"
+},
+{
+"minute": 43,
+"artist": "James Shinra",
+"title": "Blurr",
+"label": "Analogical Force"
+},
+{
+"minute": 46,
+"artist": "Djrum",
+"title": "Waxcap",
+"label": "Houndstooth",
+"bp": "bp:20149189",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/57c9ce1e-0a55-454a-a798-87905639063c.LOFI.mp3",
+"name": "Waxcap",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2025-03-26"
+}
+]
+},
+{
+"title": "2025-06-15 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "ABSIS",
+"title": "Somnis",
+"label": ""
+},
+{
+"minute": 6,
+"artist": "Loscil",
+"title": "Cyme",
+"label": "Frond"
+},
+{
+"minute": 10,
+"artist": "Lapalace",
+"title": "Sparkles Of Light Upon The Forest Floor",
+"label": "",
+"bp": "bp:20746422",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/04815e51-65c6-41dc-b72d-95d62e047868.LOFI.mp3",
+"name": "sparkles of light upon the forest floor",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-09-05"
+},
+{
+"minute": 14,
+"artist": "Purelink",
+"title": "Kite Scene",
+"label": "Peak Oil",
+"bp": "bp:20288878",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d686ad0b-d715-43fb-9570-4b4c89c70fcf.LOFI.mp3",
+"name": "Kite Scene",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-06-06"
+},
+{
+"minute": 18,
+"artist": "James K",
+"title": "Hypersoft Lovejinx Junkdream",
+"label": "AD 93",
+"bp": "bp:19710368",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/80e6dbe3-e93c-4dfe-839d-e0fce60ce0a8.LOFI.mp3",
+"name": "Hypersoft Lovejinx Junkdream",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-11-19"
+},
+{
+"minute": 21,
+"artist": "Comarca",
+"title": "No Va Durar Per Sempre",
+"label": "Gordo Trax",
+"bp": "bp:23318466",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5bbc1f4e-71ca-461f-8747-473f0a13b0f5.LOFI.mp3",
+"name": "No Va Durar Per Sempre",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2026-01-09"
+},
+{
+"minute": 25,
+"artist": "Other Joe",
+"title": "I Run This City",
+"label": "Best Effort"
+},
+{
+"minute": 28,
+"artist": "Space Biology",
+"title": "Sustainability",
+"label": "Companion"
+},
+{
+"minute": 34,
+"artist": "Sun Dawei",
+"title": "C\u0101ng Yu\u0101n",
+"label": "GSXS"
+},
+{
+"minute": 38,
+"artist": "Loidis",
+"title": "Dollarama",
+"label": "Incienso",
+"bp": "bp:19199478",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/abff7143-8ef5-4878-af30-322be126038b.LOFI.mp3",
+"name": "Dollarama",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-08-02"
+}
+]
+},
+{
+"title": "2025-09-28 - Hue - Sundays Are For...",
+"records": []
+},
+{
+"title": "2025-10-19 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Genis Remacha",
+"title": "Flight Towards The Vulgar Beginning",
+"label": ""
+},
+{
+"minute": 7,
+"artist": "The Microgram",
+"title": "Cloudy Solution",
+"label": "Illicit Procurement"
+},
+{
+"minute": 10,
+"artist": "Barefoot",
+"title": "Eternalism",
+"label": "Captured Visions",
+"bp": "bp:21274034",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f75374c8-7c96-4db6-955f-d8a5f3055fcb.LOFI.mp3",
+"name": "Eternalism",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-09-05"
+},
+{
+"minute": 14,
+"artist": "Zenso",
+"title": "Eden",
+"label": ""
+},
+{
+"minute": 19,
+"artist": "Concave Reflection",
+"title": "Paradise",
+"label": "Theory Therapy",
+"bp": "bp:19755345",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ca37c898-58e5-44b9-bf0d-2be96449e7b5.LOFI.mp3",
+"name": "Paradise",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2024-11-22"
+},
+{
+"minute": 22,
+"artist": "James K",
+"title": "Idea.2",
+"label": "AD",
+"bp": "bp:20362581",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/015be543-2f9c-4e7e-ba33-872b852a946c.LOFI.mp3",
+"name": "Idea.2",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-09-05"
+},
+{
+"minute": 28,
+"artist": "Marv",
+"title": "Laughing",
+"label": ""
+},
+{
+"minute": 34,
+"artist": "Area 3",
+"title": "Deep Seek",
+"label": "Khotin Industries",
+"bp": "bp:21066393",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e72782dc-6ea1-4f18-b48c-1c23fe864e28.LOFI.mp3",
+"name": "Deep Seek",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-09-05"
+},
+{
+"minute": 39,
+"artist": "Dania",
+"title": "Car Crash Premonition",
+"label": "Somewhere Press"
+},
+{
+"minute": 42,
+"artist": "Offthesky",
+"title": "Falsewake",
+"label": "LAAPS"
+}
+]
+},
+{
+"title": "2025-11-23 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Human Is Alive & Warmth",
+"title": "Reflected",
+"label": "Archives",
+"bp": "bp:21436055",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3f76f874-e085-40b3-8cdb-40d379ce2059.LOFI.mp3",
+"name": "Reflected",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-11-14"
+},
+{
+"minute": 4,
+"artist": "How To Levitate",
+"title": "Exosphere",
+"label": ""
+},
+{
+"minute": 9,
+"artist": "Aleksi Per\u00e4l\u00e4",
+"title": "FI3AC2513301",
+"label": "AP Musik"
+},
+{
+"minute": 15,
+"artist": "Xenia Reaper",
+"title": "Envmod369",
+"label": "Delsin",
+"bp": "bp:21992545",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/995db0ef-f5bb-443e-8e82-f66e30864ab0.LOFI.mp3",
+"name": "Envmod369",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-11-07"
+},
+{
+"minute": 19,
+"artist": "Stenny",
+"title": "A New Geometry",
+"label": "Ilian Tape",
+"bp": "bp:22430847",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f86ae82d-b3b6-42d8-9c27-b0be97f9f4fc.LOFI.mp3",
+"name": "A New Geometry",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-11-06"
+},
+{
+"minute": 23,
+"artist": "K-LONE",
+"title": "Someone Else",
+"label": "",
+"bp": "bp:22013921",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/14edc3f9-1208-4369-b6c8-6a57689f3181.LOFI.mp3",
+"name": "someone else",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-11-14"
+},
+{
+"minute": 29,
+"artist": "Akasha System",
+"title": "Stasis Dream",
+"label": "100% Silk"
+},
+{
+"minute": 34,
+"artist": "\u00b5-Ziq",
+"title": "Elm",
+"label": ""
+},
+{
+"minute": 40,
+"artist": "Matthias Vogt",
+"title": "Caleb",
+"label": "",
+"bp": "bp:22376085",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0535cf8f-67d4-419b-939c-30fc97210ee0.LOFI.mp3",
+"name": "Caleb",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-11-14"
+},
+{
+"minute": null,
+"artist": "[4?] Raica",
+"title": "150twinkl",
+"label": ""
+}
+]
+},
+{
+"title": "2025-12-21 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Adh\u00e9mar & Nils Edte",
+"title": "Flottant Vers L'infini Lunaire",
+"label": "Indefinite Pitch",
+"bp": "bp:22952738",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/5a1694ef-4d98-4962-9e7b-a4392d17661a.LOFI.mp3",
+"name": "Flottant vers l'infini lunaire",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-12-18"
+},
+{
+"minute": 5,
+"artist": "Arp",
+"title": "Dissolve",
+"label": "Modern Obscure Music",
+"bp": "bp:21471724",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/140f284f-f42a-461d-b687-b5630855aed6.LOFI.mp3",
+"name": "Dissolve",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2025-11-14"
+},
+{
+"minute": 11,
+"artist": "Gabriel Brady",
+"title": "Ambrosial (Dylan Henner Remix)",
+"label": "Tonal Union",
+"bp": "bp:21758168",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d4dda321-5361-484e-8333-8a2bc357ecf6.LOFI.mp3",
+"name": "Ambrosial",
+"mix": "Dylan Henner Remix",
+"genre": "ambient-experimental",
+"released": "2025-11-28"
+},
+{
+"minute": 15,
+"artist": "Rene Lorenzo",
+"title": "Beauty Cycles",
+"label": "Subtempo",
+"bp": "bp:18571315",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3baaa6a6-2e39-4d89-9ff8-015600bbf7c7.LOFI.mp3",
+"name": "Beauty Cycles",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-02-02"
+},
+{
+"minute": 20,
+"artist": "G\u00ebinst",
+"title": "Murmures",
+"label": "Never Late"
+},
+{
+"minute": 27,
+"artist": "Sa\u00efph",
+"title": "Silence Culture",
+"label": ""
+},
+{
+"minute": 31,
+"artist": "Iti & Axon Growth Factor",
+"title": "Sleep Pressure",
+"label": "",
+"bp": "bp:22432739",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c64700cd-6a4e-4c61-9701-510a9dd95889.LOFI.mp3",
+"name": "Sleep Pressure",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-11-28"
+},
+{
+"minute": 38,
+"artist": "Bot1500",
+"title": "AL 1",
+"label": ""
+},
+{
+"minute": 42,
+"artist": "Carbon Based Lifeforms",
+"title": "Set Theory",
+"label": ""
+},
+{
+"minute": 48,
+"artist": "Voices From The Lake",
+"title": "Aquateo",
+"label": "Spazio Disponibile",
+"bp": "bp:22498538",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/94f305e0-7c5d-4a83-a576-dd0231a5c7c0.LOFI.mp3",
+"name": "Aquateo",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-12-05"
+}
+]
+},
+{
+"title": "2026-01-18 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Toxido Mask",
+"title": "Minonohashi",
+"label": ""
+},
+{
+"minute": 5,
+"artist": "Akmuo",
+"title": "Unrest",
+"label": "Kizen",
+"bp": "bp:22356880",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/61954349-8db3-4b4b-a4c0-a4e05a65c5e5.LOFI.mp3",
+"name": "Unrest",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2025-11-28"
+},
+{
+"minute": 11,
+"artist": "Javier Salazar",
+"title": "Epaix",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Low Flung",
+"title": "Niksen",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Drames Rurals",
+"title": "L'empelt (Shackleton Mix)",
+"label": ""
+},
+{
+"minute": 27,
+"artist": "Om Unit",
+"title": "Usurper (Satoshi Tomiie Interpretation",
+"label": ""
+},
+{
+"minute": 33,
+"artist": "Dialog",
+"title": "Silence Version",
+"label": "DOT"
+},
+{
+"minute": 38,
+"artist": "Monoparts",
+"title": "Scattered Parts",
+"label": "A Strangely Isolated Place"
+},
+{
+"minute": 43,
+"artist": "Shakti",
+"title": "Efecto Mariposa",
+"label": "ART BEI TON",
+"bp": "bp:23580563",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/48411efb-da2c-47f9-853e-c51289b1bb24.LOFI.mp3",
+"name": "Efecto Mariposa",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-01-16"
+},
+{
+"minute": 48,
+"artist": "Will Oirson",
+"title": "Be Forever After",
+"label": "The Something Something",
+"bp": "bp:23286527",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/239dad9c-a525-46bc-849f-744ddc185e62.LOFI.mp3",
+"name": "be forever after",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-01-15"
+}
+]
+},
+{
+"title": "2026-02-15 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "KMRU",
+"title": "Maybe",
+"label": "",
+"bp": "bp:23907674",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5c34016d-151f-4591-b416-e06446af61d5.LOFI.mp3",
+"name": "Maybe",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-02-13"
+},
+{
+"minute": 9,
+"artist": "Lussuria",
+"title": "Permanent Muse",
+"label": "Hospital",
+"bp": "bp:23965988",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f2b9546f-db86-4ffc-a697-aae4ee93f683.LOFI.mp3",
+"name": "Permanent Muse",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-02-06"
+},
+{
+"minute": 12,
+"artist": "Prieste5s",
+"title": "Cicada State",
+"label": "Immaterial Earth",
+"bp": "bp:22767475",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/940fe70d-5345-4a27-85eb-db9c8979b61e.LOFI.mp3",
+"name": "Cicada State",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-02-09"
+},
+{
+"minute": 19,
+"artist": "Matryoshka",
+"title": "Jewelry Burns",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Nueen & Defled",
+"title": "Angelo",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Sunju Hargun",
+"title": "F9",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Evigt M\u00f6rker",
+"title": "H\u00e4gn Vid Tidens \u00c4nde",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Rings Around Saturn",
+"title": "Shepards Tone",
+"label": ""
+},
+{
+"minute": 44,
+"artist": "Maara",
+"title": "Come Home",
+"label": "Naff",
+"bp": "bp:23034101",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f0254774-9b1e-4bd2-9c96-1986c199b1b4.LOFI.mp3",
+"name": "Come Home",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-02-05"
+},
+{
+"minute": 48,
+"artist": "L'Amour Fou",
+"title": "The Last Call",
+"label": "Smallville",
+"bp": "bp:9773375",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6478cfd6-89a6-440c-b787-a14b86f9b7f0.LOFI.mp3",
+"name": "The Last Call",
+"mix": "Original Mix",
+"genre": "breaks-breakbeat-uk-bass",
+"released": "2017-10-13"
+}
+]
+},
+{
+"title": "2026-03-22 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": null,
+"artist": "Zen Lemon",
+"title": "Inertia",
+"label": "",
+"bp": "bp:24185745",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ad97e865-d4ad-400c-b19a-10efc8b675c2.LOFI.mp3",
+"name": "Inertia",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-03-20"
+},
+{
+"minute": null,
+"artist": "DJ Birdbath",
+"title": "True",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Appleblim",
+"title": "Globule",
+"label": "",
+"bp": "bp:28218693",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6062369f-7625-4843-8b61-381ccd32cc7a.LOFI.mp3",
+"name": "Globule",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-03-27"
+},
+{
+"minute": null,
+"artist": "Heathered Pearls",
+"title": "Soft Lock",
+"label": "",
+"bp": "bp:27445203",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/399a70f2-2950-45d2-91f1-d56adbaad38a.LOFI.mp3",
+"name": "Soft Lock",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-04-01"
+},
+{
+"minute": null,
+"artist": "Skee Mask",
+"title": "4'22",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Celer",
+"title": "We Missed You Favonian",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Paperclip Minimiser",
+"title": "II B4",
+"label": "",
+"bp": "bp:23851531",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c32097de-183f-4e21-9b8c-539fc28d6310.LOFI.mp3",
+"name": "II B4",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2026-03-13"
+},
+{
+"minute": null,
+"artist": "Markmechanik",
+"title": "Borderland",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Mammo",
+"title": "Xyo",
+"label": "",
+"bp": "bp:24278552",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0518efaa-c5c4-433c-9a8f-681b8a34bd0c.LOFI.mp3",
+"name": "Xyo",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-03-13"
+},
+{
+"minute": null,
+"artist": "Biorhythm & Tellus",
+"title": "An End To Suffering",
+"label": "",
+"bp": "bp:24232507",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/709c73b1-eea5-4724-b5ce-0e6e7ca73caf.LOFI.mp3",
+"name": "An End To Suffering",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2026-03-06"
+}
+]
+},
+{
+"title": "2026-04-19 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Dionisaf",
+"title": "Salt",
+"label": "Chitra",
+"bp": "bp:27205792",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/233b003e-63f7-4a88-b2f7-86ca83a4b53d.LOFI.mp3",
+"name": "Salt",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-04-17"
+},
+{
+"minute": 3,
+"artist": "Ouvala",
+"title": "An Erosion Of Old Identities",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Khotin",
+"title": "Frog Fractions",
+"label": "",
+"bp": "bp:10848344",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/27f7cbcd-017b-4e98-b937-70ad8692dc44.LOFI.mp3",
+"name": "Frog Fractions",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2018-08-10"
+},
+{
+"minute": null,
+"artist": "Salamanda",
+"title": "The Blue Wine",
+"label": "",
+"bp": "bp:29174440",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0debe593-3c64-4909-ae0c-8267e608b5d4.LOFI.mp3",
+"name": "the blue wine",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-06-16"
+},
+{
+"minute": 15,
+"artist": "Hoavi",
+"title": "Song Of The Forgotten",
+"label": "Peak Oil",
+"bp": "bp:24077488",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f8926b8-e983-4e31-8e81-acd1e2c784fa.LOFI.mp3",
+"name": "Song of the Forgotten",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-02-12"
+},
+{
+"minute": 18,
+"artist": "Joannah",
+"title": "Utomachine",
+"label": "Second End"
+},
+{
+"minute": 23,
+"artist": "Boards Of Canada",
+"title": "White Cyclosa",
+"label": "Warp",
+"bp": "bp:5249659",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ec3fd894-0abd-4045-9639-38fd1dcff543.LOFI.mp3",
+"name": "White Cyclosa",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2014-03-31"
+},
+{
+"minute": null,
+"artist": "Eusebia",
+"title": "Everlast",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Corentin Boubay",
+"title": "Signal (Clarence Rise Remix)",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Tristan Arp",
+"title": "Forking Paths",
+"label": "Kapsela",
+"bp": "bp:26774231",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/61c42f8a-74e4-4302-a2b1-0c54787c640e.LOFI.mp3",
+"name": "Forking Paths",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2026-04-17"
+}
+]
+},
+{
+"title": "2026-05-24 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Kasper Bj\u00f8rke Quartet",
+"title": "PASSAGE I (Small, Soft Feet Running Across Wooden Floors In The Morning)",
+"label": "Sensitive"
+},
+{
+"minute": 6,
+"artist": "Daniel Aged, Taul Katz, Zsela",
+"title": "Dream 1",
+"label": "Latency",
+"bp": "bp:27203177",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9ee48de5-3628-41ca-b4fe-8abc826256c4.LOFI.mp3",
+"name": "Dream 1",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-04-09"
+},
+{
+"minute": 11,
+"artist": "Mark Templeton",
+"title": "Amidst Things Uncontrolled",
+"label": "Keplar",
+"bp": "bp:243487",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9e2001dd-0ab8-404c-ba6e-302342299caf.LOFI.mp3",
+"name": "Amidst Things Uncontrolled",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2007-02-19"
+},
+{
+"minute": 15,
+"artist": "Yu Su",
+"title": "Cul De Sac",
+"label": "Short Span",
+"bp": "bp:24451754",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5fc22090-8557-4b68-a404-181b9b546342.LOFI.mp3",
+"name": "Cul De Sac",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-05-01"
+},
+{
+"minute": 19,
+"artist": "K Wata",
+"title": "There Will Be Love",
+"label": "Short Span",
+"bp": "bp:28765133",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/917eb0c5-4bf4-42e2-896a-f8e2c021a5e3.LOFI.mp3",
+"name": "There Will Be Love",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-05-15"
+},
+{
+"minute": 30,
+"artist": "Tensen Park",
+"title": "Roll4Ever",
+"label": "Never Late",
+"bp": "bp:28410372",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/124eb037-4de2-4b87-90bd-2885bc43c574.LOFI.mp3",
+"name": "Roll4Ever ",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-05-29"
+},
+{
+"minute": 34,
+"artist": "Freda",
+"title": "Patioz (w/ Ben Fester)",
+"label": ""
+},
+{
+"minute": 37,
+"artist": "Yaka",
+"title": "Back To The Pad",
+"label": "Appendix.Files",
+"bp": "bp:27906238",
+"score": 0.96,
+"preview": "https://geo-samples.beatport.com/track/a089fba7-27ae-4391-b4d3-67d25e9af54d.LOFI.mp3",
+"name": "back at the pad",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-05-11"
+},
+{
+"minute": 40,
+"artist": "Appleblim",
+"title": "Starshine",
+"label": "",
+"bp": "bp:27909103",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8eaf275f-850b-44b0-b4ad-5bbdd3e9b749.LOFI.mp3",
+"name": "Starshine",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-04-24"
+},
+{
+"minute": 46,
+"artist": "Calibre",
+"title": "Running",
+"label": "",
+"bp": "bp:5676114",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/819143ee-24f3-46a4-a9b6-851e382f340e.LOFI.mp3",
+"name": "Running",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2013-05-20"
+}
+]
+},
+{
+"title": "2026-06-21 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Arbee",
+"title": "Une Dette Envers Toi",
+"label": "Chitra",
+"bp": "bp:28961391",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b2955b0d-adba-43ad-9775-fb77c274e44a.LOFI.mp3",
+"name": "Une dette envers toi",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-06-19"
+},
+{
+"minute": 5,
+"artist": "Artefakt & KMRU",
+"title": "Improvisation IV",
+"label": "De Stijl",
+"bp": "bp:28883805",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/dc31b738-5f10-41f9-974c-7c79d1709576.LOFI.mp3",
+"name": "Improvisation IV",
+"mix": "Original Mix",
+"genre": "ambient-experimental",
+"released": "2026-06-05"
+},
+{
+"minute": 9,
+"artist": "Tibslc",
+"title": "Resting Bitch Face",
+"label": "Co:clear",
+"bp": "bp:28947396",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f3c23bce-7e26-4689-bb6a-43ae3416e5d3.LOFI.mp3",
+"name": "Resting Bitch Face",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-06-05"
+},
+{
+"minute": 14,
+"artist": "Slowfoam",
+"title": "In Perfume Remember",
+"label": "Somewhere Press",
+"bp": "bp:29887205",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f93d5ab4-8be2-4e29-b904-5eb683e37419.LOFI.mp3",
+"name": "In Perfume, Remember",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-09-04"
+},
+{
+"minute": 19,
+"artist": "Tensen Park",
+"title": "Etherware III",
+"label": "Never Late",
+"bp": "bp:28410374",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b6da313f-07d2-4539-bab2-82105a3f0b74.LOFI.mp3",
+"name": "Etherware III ",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-05-29"
+},
+{
+"minute": 23,
+"artist": "H\u00fcnter",
+"title": "Ploti",
+"label": ""
+},
+{
+"minute": 26,
+"artist": "Boards Of Canada",
+"title": "Arena Americanada",
+"label": "Warp",
+"bp": "bp:29113365",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eb4a0c14-0b9b-4d8f-9112-cdee0e8b8423.LOFI.mp3",
+"name": "Arena Americanada",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-05-29"
+},
+{
+"minute": 30,
+"artist": "Monolake",
+"title": "Tangent I",
+"label": "Monolake",
+"bp": "bp:47172",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/0aab73e1-54a2-4afc-8507-252b203ede08.LOFI.mp3",
+"name": "Tangent I",
+"mix": "Original Remix",
+"genre": "techno-peak-time-driving",
+"released": "1999-02-25"
+},
+{
+"minute": 41,
+"artist": "Earth Trax",
+"title": "Wait And See",
+"label": "Lapsus",
+"bp": "bp:28486588",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d9d89fc2-62ec-494b-93f3-c37da1de8a01.LOFI.mp3",
+"name": "Wait and See",
+"mix": "Original Mix",
+"genre": "techno-raw-deep-hypnotic",
+"released": "2026-06-12"
+},
+{
+"minute": 45,
+"artist": "Lb Honne",
+"title": "Six Castles",
+"label": ""
+}
+]
+},
+{
+"title": "2026-07-19 - Hue - Sundays Are For...",
+"records": [
+{
+"minute": 0,
+"artist": "Idra",
+"title": "Beneath The Resonance",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Absis & Avsluta",
+"title": "Space Disappears",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Yujinn",
+"title": "Morph",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Serenity Complex & Aika Mal",
+"title": "The Garden",
+"label": ""
+},
+{
+"minute": 20,
+"artist": "Other Joe",
+"title": "Inhale The Mist",
+"label": "Theory Therapy",
+"bp": "bp:29343988",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9a03296f-a872-4444-9f7a-a711f67bf6f7.LOFI.mp3",
+"name": "inhale the Mist",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2026-06-25"
+},
+{
+"minute": 24,
+"artist": "Ebende",
+"title": "Dark",
+"label": ""
+},
+{
+"minute": 27,
+"artist": "Fields Of Mist",
+"title": "Alien Lifeforms",
+"label": "Ilian Tape",
+"bp": "bp:29295193",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/59223ff7-8f67-4f36-b32e-d4efb246d943.LOFI.mp3",
+"name": "alien lifeforms",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2026-06-30"
+},
+{
+"minute": null,
+"artist": "HVL",
+"title": "Survivor Acid",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Inflight Entertainment",
+"title": "Genomic",
+"label": ""
+},
+{
+"minute": 38,
+"artist": "Yaka",
+"title": "Secret Dream",
+"label": "Appendix.Files",
+"bp": "bp:27906240",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/a1a87cf8-c5f9-4251-baea-5d74a126c72a.LOFI.mp3",
+"name": "secret dream",
+"mix": "Original Mix",
+"genre": "drum-bass",
+"released": "2026-05-11"
+}
+]
+}
+]
 }

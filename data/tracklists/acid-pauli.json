@@ -1,469 +1,1071 @@
 {
- "dj": "Acid Pauli",
- "source": "MixesDB (CC BY-SA 3.0)",
- "sets": [
-  {
-   "title": "2025-02-13 - Acid Pauli @ Chat With A DJ 35 (ARTE concert)",
-   "records": [
-    {
-     "minute": null,
-     "artist": "Elevation, Nsasi",
-     "title": "Nnterlude 001",
-     "label": "",
-     "bp": "bp:16392684",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/bedb6115-29ef-471e-98e8-025a8c056829.LOFI.mp3",
-     "name": "Nnterlude 001",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2022-04-20"
-    },
-    {
-     "minute": null,
-     "artist": "Hibotep Feat. Houdini",
-     "title": "Angels Rock",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Ratigan Era",
-     "title": "Bark",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Cheb Runner",
-     "title": "3097.7km / كم",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Judgitzu",
-     "title": "Sator Arepo",
-     "label": "",
-     "bp": "bp:18110829",
-     "score": 0.777,
-     "preview": "https://geo-samples.beatport.com/track/eb00797c-2340-4401-8745-800da4155e00.LOFI.mp3",
-     "name": "Sator Arepo",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2023-09-28"
-    },
-    {
-     "minute": null,
-     "artist": "Otim Alpha Feat. UMOJAH",
-     "title": "Tongwen (VOX Only)",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Arsenal Mikebe",
-     "title": "Masiini",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Violence Gratuite",
-     "title": "Olive",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "R3IGN DROPS",
-     "title": "ENDLESS TRIP",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "GEZAN",
-     "title": "MADOROMI",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "DJ DadaMan & Cry Mabalane",
-     "title": "Hasha",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "MOREKI & Michael Jackson",
-     "title": "Michael Matata (AP Edit) V2",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Suzi Analogue, Nsasi",
-     "title": "Gukubaaa",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Jako Maron",
-     "title": "Papiyon Zerb Zon",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Heavee, Nsasi",
-     "title": "Come N Get It",
-     "label": "",
-     "bp": "bp:16392685",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/cb2743eb-5693-4dbf-b71e-d2d00f100ca0.LOFI.mp3",
-     "name": "Come N Get It",
-     "mix": "Original Mix",
-     "genre": "bass-club",
-     "released": "2022-04-20"
-    },
-    {
-     "minute": null,
-     "artist": "Tshepang Ramoba Feat. Tikido",
-     "title": "Sesfikile",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Emmanuel Jal",
-     "title": "Shuka (Acid Pauli Remix)",
-     "label": "",
-     "bp": "bp:19721485",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/1da7d992-f3d6-4622-8658-bbc39616a651.LOFI.mp3",
-     "name": "Shuka",
-     "mix": "Acid Pauli Remix",
-     "genre": "afro-house",
-     "released": "2024-11-29"
-    },
-    {
-     "minute": null,
-     "artist": "Afrorack",
-     "title": "Rev",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "TrapFunk & Alivio",
-     "title": "Trash",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "PÖ",
-     "title": "Over The Clouds",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Afrorack",
-     "title": "Modugand",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Sisso & Maiko",
-     "title": "Mangwale",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Masaka Masaka",
-     "title": "Club Classics But It's Masaka Masaka",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Otim Aplha",
-     "title": "Cam Ki Lawoti",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Bamba Pana",
-     "title": "Agaba Kibati",
-     "label": "",
-     "retry": 1
-    }
-   ]
-  },
-  {
-   "title": "2025-09-01 - Acid Pauli - Electronic Groove Podcast (EG.1040)",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Arutani",
-     "title": "Right Here (O/Y Remix)",
-     "label": "Laut & Luise",
-     "bp": "bp:19163520",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/fd7d3912-792e-48f7-b90d-3d4a487f9d03.LOFI.mp3",
-     "name": "Right Here",
-     "mix": "O/Y Remix",
-     "genre": "electronica",
-     "released": "2024-08-09"
-    },
-    {
-     "minute": 8,
-     "artist": "Susumu Yokota",
-     "title": "Zenmai",
-     "label": "Musicmien",
-     "retry": 1
-    },
-    {
-     "minute": 10,
-     "artist": "Lemna",
-     "title": "Lapis Lazuli",
-     "label": "",
-     "bp": "bp:18887786",
-     "score": 0.789,
-     "preview": "https://geo-samples.beatport.com/track/54e548db-2b8d-433f-8c20-e939201d7a71.LOFI.mp3",
-     "name": "Lapis Lazuli",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2024-04-26"
-    },
-    {
-     "minute": 16,
-     "artist": "Javi Parra",
-     "title": "Requiem (Lucas Vazz Remix)",
-     "label": "Leuchtturm",
-     "bp": "bp:9263302",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/26db76ea-ff9f-4ff4-9690-c7bd26520598.LOFI.mp3",
-     "name": "Requiem",
-     "mix": "Lucas Vazz Remix",
-     "genre": "techno-peak-time-driving",
-     "released": "2017-05-29"
-    },
-    {
-     "minute": 20,
-     "artist": "Absolute.",
-     "title": "Lil L",
-     "label": "Permanent Vacation",
-     "retry": 1
-    },
-    {
-     "minute": 26,
-     "artist": "Wata Igarashi",
-     "title": "Ephemoral",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": 30,
-     "artist": "RAH & The Ruffcats",
-     "title": "Wake Up (They Are The People Of The Myths) (Yoruba Club Instrumental)",
-     "label": "Sonar Kollektiv",
-     "bp": "bp:19962567",
-     "score": 1.0,
-     "preview": "https://geo-samples.beatport.com/track/5cdaf8eb-efc2-41f7-b062-d5dd42be348a.LOFI.mp3",
-     "name": "Wake Up (they are the people of the myths)",
-     "mix": "Yoruba Club Instrumental",
-     "genre": "afro-house",
-     "released": "2025-02-27"
-    },
-    {
-     "minute": 34,
-     "artist": "The Egyptian Lover & Soul Clap",
-     "title": "Hai Karate",
-     "label": "Soul Clap",
-     "bp": "bp:20388530",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/9d9d49d6-12a0-468e-8f56-d6d9259b5d03.LOFI.mp3",
-     "name": "Hai Karate ",
-     "mix": "Original Mix",
-     "genre": "electro-classic-detroit-modern",
-     "released": "2025-04-25"
-    },
-    {
-     "minute": 37,
-     "artist": "Timmy P & James Dexter",
-     "title": "Rewind",
-     "label": "ORIGINS RCRDS",
-     "retry": 1
-    },
-    {
-     "minute": 41,
-     "artist": "Morpei",
-     "title": "The RaRa",
-     "label": "Buriloop",
-     "retry": 1
-    },
-    {
-     "minute": 44,
-     "artist": "Nowa",
-     "title": "Geez Geez",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Acid Pauli",
-     "title": "Feedback",
-     "label": "",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "Val Xalino",
-     "title": "Dança Dança T'manchê (Acid Pauli Fullmix)",
-     "label": "",
-     "bp": "bp:20574958",
-     "score": 0.951,
-     "preview": "https://geo-samples.beatport.com/track/77c33995-b11c-4ee8-9f92-fc91d9adc6af.LOFI.mp3",
-     "name": "Dançá Dançá T'Manchê",
-     "mix": "Acid Pauli's Fullmix",
-     "genre": "indie-dance",
-     "released": "2025-08-29"
-    }
-   ]
-  },
-  {
-   "title": "2025-11-12 - Acid Pauli - Groove Podcast 480",
-   "records": [
-    {
-     "minute": 0,
-     "artist": "Geju & Ground",
-     "title": "Shepard Jr.",
-     "label": "Unreleased",
-     "bp": "bp:23402812",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/6bb5f496-981c-4d69-b86c-7e40fea0e7f6.LOFI.mp3",
-     "name": "Shepard Jr",
-     "mix": "Original Mix",
-     "genre": "downtempo",
-     "released": "2026-01-30"
-    },
-    {
-     "minute": 5,
-     "artist": "Raidho Feat. T. Etno",
-     "title": "Tarantula",
-     "label": "Sol Selectas",
-     "retry": 1
-    },
-    {
-     "minute": null,
-     "artist": "[0?] Zufu",
-     "title": "Comores",
-     "label": "Jay Haze, Dengue Dengue Dengue - Unreleased",
-     "retry": 1
-    },
-    {
-     "minute": 10,
-     "artist": "MOREKI",
-     "title": "Matatazela",
-     "label": "Black Sounds Live",
-     "retry": 1
-    },
-    {
-     "minute": 18,
-     "artist": "Louis Lunch & Decency & KS Groove",
-     "title": "Shumayela",
-     "label": "Cream Entertainment",
-     "retry": 1
-    },
-    {
-     "minute": 17,
-     "artist": "Destiino & Yuksek Feat. Iñigo Vontier",
-     "title": "Somlake",
-     "label": "Lumière Noire",
-     "retry": 1
-    },
-    {
-     "minute": 28,
-     "artist": "Dwson",
-     "title": "Ethyl",
-     "label": "Suol",
-     "retry": 1
-    },
-    {
-     "minute": 35,
-     "artist": "Jonas Saalbach",
-     "title": "Raum Und Zeit",
-     "label": "Diamentral Express",
-     "bp": "bp:5779252",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/539cdbb3-87ee-47cb-906c-9cb0dbbbb8f0.LOFI.mp3",
-     "name": "Raum und Zeit",
-     "mix": "Original Mix",
-     "genre": "deep-house",
-     "released": "2014-09-12"
-    },
-    {
-     "minute": 39,
-     "artist": "Chymera",
-     "title": "Threads",
-     "label": "Connaisseur",
-     "retry": 1
-    },
-    {
-     "minute": 41,
-     "artist": "Supercontinent",
-     "title": "Pata Sucia",
-     "label": "Fauna Reve",
-     "bp": "bp:14132378",
-     "score": 0.764,
-     "preview": "https://geo-samples.beatport.com/track/c50b56f8-c366-4ed2-bebb-c8128146f80e.LOFI.mp3",
-     "name": "Pata Sucia",
-     "mix": "Original Mix",
-     "genre": "indie-dance",
-     "released": "2020-10-02"
-    },
-    {
-     "minute": null,
-     "artist": "[4?] Cysnical",
-     "title": "Mood Freak",
-     "label": "Grey Bar Hotel",
-     "retry": 1
-    },
-    {
-     "minute": 46,
-     "artist": "MoodFreak",
-     "title": "Cynical",
-     "label": "Grey Bar Hotel",
-     "retry": 1
-    },
-    {
-     "minute": 51,
-     "artist": "Fred & Luna",
-     "title": "Compostonikum",
-     "label": "",
-     "bp": "bp:11734443",
-     "score": 0.8,
-     "preview": "https://geo-samples.beatport.com/track/8b92d2ef-8bac-4ebe-978a-4126bbd8ecf6.LOFI.mp3",
-     "name": "Compostonikum",
-     "mix": "Original Mix",
-     "genre": "electronica",
-     "released": "2019-03-22"
-    },
-    {
-     "minute": 56,
-     "artist": "Yør Kultura",
-     "title": "Logik",
-     "label": "",
-     "retry": 1
-    }
-   ]
-  }
- ]
+"dj": "Acid Pauli",
+"source": "MixesDB (CC BY-SA 3.0)",
+"sets": [
+{
+"title": "2019-05-06 - Acid Pauli @ Cercle, Garni Temple, Garni, Armenia",
+"records": [
+{
+"minute": 0,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 9,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 15,
+"artist": "DJ Khaikhan & Dest",
+"title": "Mihrap (Laroz Camel Rider Remix)",
+"label": "Wanderlust",
+"bp": "bp:18173225",
+"score": 0.867,
+"preview": "https://geo-samples.beatport.com/track/a2fc1a82-6212-4774-9598-ecf67e7f77ef.LOFI.mp3",
+"name": "Mihrap",
+"mix": "Laroz Camel Rider Remix",
+"genre": "electronica",
+"released": "2023-10-13"
+},
+{
+"minute": 21,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 27,
+"artist": "Davide Ferrario",
+"title": "Jewel Ice",
+"label": "Manjumasi",
+"bp": "bp:11794085",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fb5dc65c-12f0-468a-b779-b51690104862.LOFI.mp3",
+"name": "Jewel Ice",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2019-04-15"
+},
+{
+"minute": 31,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 39,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": null,
+"artist": "[0:??:??] + Zulal",
+"title": "Akh Ninar (Ode To A Girl Named Ninar)",
+"label": "Zulal"
+},
+{
+"minute": 43,
+"artist": "Y\u00f8r Kultura",
+"title": "Shimming",
+"label": "Permanent Vacation",
+"bp": "bp:14524657",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1a822fa4-ee61-4504-b580-c29fef36df5d.LOFI.mp3",
+"name": "Shimming",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2020-12-04"
+},
+{
+"minute": 48,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 54,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 61,
+"artist": "Ian Simmonds",
+"title": "Uncle Sass",
+"label": "Pussyfoot",
+"bp": "bp:11611485",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0a78cfdb-a523-4973-9b39-aa8c213efef3.LOFI.mp3",
+"name": "Uncle Sass",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-03-29"
+},
+{
+"minute": 62,
+"id": null,
+"raw": "+&#160;?"
+},
+{
+"minute": 67,
+"artist": "N\u00f4ze",
+"title": "You Have To Dance (Mathias Kaden Beatpolka Remix)",
+"label": ""
+},
+{
+"minute": 69,
+"id": null,
+"raw": "&#160;?"
+},
+{
+"minute": 77,
+"id": null,
+"raw": "Acid Pauli & Viken Arman -&#160;?"
+},
+{
+"minute": 83,
+"id": null,
+"raw": "Acid Pauli & Viken Arman -&#160;?"
+},
+{
+"minute": 91,
+"id": null,
+"raw": "Acid Pauli & Viken Arman -&#160;?"
+},
+{
+"minute": 97,
+"id": null,
+"raw": "Acid Pauli & Viken Arman -&#160;?"
+}
+]
+},
+{
+"title": "2020-10-27 - Acid Pauli, Akio Nagase @ Beats In Space 1066",
+"records": [
+{
+"minute": null,
+"artist": "Driftmachine",
+"title": "Soon I Will Disappear",
+"label": "WDR",
+"bp": "bp:15078402",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b513e120-4d14-48a3-9b87-86792e4f2ea5.LOFI.mp3",
+"name": "Soon I Will Disappear",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Fred & Luna",
+"title": "Zyklop\u00e4die Nummer 28",
+"label": "",
+"bp": "bp:13831523",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/49c2af86-c41c-4cb2-b5b9-2c15f691b439.LOFI.mp3",
+"name": "Zyklop\u00e4die Nummer 28",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2020-07-17"
+},
+{
+"minute": null,
+"artist": "Billy Caso & Acid Pauli",
+"title": "Billy Loopoed By Acid 4",
+"label": "WDR"
+},
+{
+"minute": null,
+"artist": "Silicon Soul",
+"title": "Pardon Moi",
+"label": "Disko B",
+"bp": "bp:35330",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d34e2205-5f2d-41b5-aaf6-96802f05dcf4.LOFI.mp3",
+"name": "Pardon Moi",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2004-07-14"
+},
+{
+"minute": null,
+"artist": "Malaria!",
+"title": "Macht (Sun Electric Mix)",
+"label": "Superstar",
+"bp": "bp:4319929",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bf89936b-9cbf-4579-aae6-a1bac7716cc8.LOFI.mp3",
+"name": "Macht",
+"mix": "Sun Electric Mix",
+"genre": "electronica",
+"released": "2013-04-01"
+},
+{
+"minute": null,
+"artist": "Justin Robertson",
+"title": "The Moon Follows The Sun",
+"label": "Earth Night"
+},
+{
+"minute": null,
+"artist": "Kompost 3",
+"title": "Ball Ade (Console Remix)",
+"label": "Laub"
+},
+{
+"minute": null,
+"artist": "Driftmachine",
+"title": "The Surge At The End Of The Mind",
+"label": "WDR",
+"bp": "bp:15078399",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/0f0fe030-db8a-4584-b703-1258900fadba.LOFI.mp3",
+"name": "The Surge At The End Of The Mind",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2021-03-12"
+},
+{
+"minute": null,
+"artist": "Acid Pauli",
+"title": "Wasser",
+"label": "WDR"
+},
+{
+"minute": null,
+"artist": "Jyoti",
+"title": "This Walk",
+"label": "SomeOthaShip Connect"
+},
+{
+"minute": null,
+"artist": "Acid Pauli",
+"title": "Life Polarizer",
+"label": "Ou\u00efe",
+"bp": "bp:14198429",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/16fb8305-c056-4829-bf66-57e687609bc6.LOFI.mp3",
+"name": "Life Polarizer",
+"mix": "Original Mix",
+"genre": "downtempo",
+"released": "2020-09-18"
+},
+{
+"minute": null,
+"artist": "Acid Pauli",
+"title": "Edging In Den Trunk",
+"label": "Ou\u00efe",
+"bp": "bp:12471687",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/374ab56e-b5bf-4949-9e75-d3a4b0b20f7f.LOFI.mp3",
+"name": "Edging in den Trunk",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-09-20"
+},
+{
+"minute": null,
+"artist": "Chris Carter",
+"title": "Beat",
+"label": "Optimo",
+"bp": "bp:27538433",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f820afa1-d42a-423c-84df-6a283e7a55cb.LOFI.mp3",
+"name": "Beat",
+"mix": "Original Mix",
+"genre": "dance-pop",
+"released": "2005-11-07"
+},
+{
+"minute": null,
+"artist": "Zazou Bikaye & CY1",
+"title": "Dju Ya Feza (Simon Boswell Remix)",
+"label": "Crammed Discs",
+"bp": "bp:6323203",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bcb64952-0271-454c-abb2-74d5c305fdfe.LOFI.mp3",
+"name": "Dju Ya Feza",
+"mix": "Simon Boswell Remix",
+"genre": "mainstage",
+"released": "2015-02-16"
+},
+{
+"minute": null,
+"artist": "Beat Beat Beat",
+"title": "Beat In The Street",
+"label": "Kaos Dance"
+},
+{
+"minute": null,
+"artist": "Roman Fl\u00fcgel",
+"title": "Test Two",
+"label": "Running Back"
+},
+{
+"minute": null,
+"artist": "Multi Culti",
+"title": "Culted For Beirut",
+"label": "Multi Culti"
+},
+{
+"minute": null,
+"artist": "DJ Stefan Egger",
+"title": "Afrigo (Mental Challenge Vrs)",
+"label": "Cosmic-Music",
+"bp": "bp:17423532",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/3d80b608-a328-4fcb-9925-908e6dae001b.LOFI.mp3",
+"name": "Afrigo",
+"mix": "Mental Challenge Vrs",
+"genre": "nu-disco-disco",
+"released": "2023-03-01"
+},
+{
+"minute": null,
+"artist": "Akio Nagase",
+"title": "Mongol 303",
+"label": "Chill Mountain",
+"bp": "bp:15071639",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/beeb7b98-ed16-4c45-88e1-5d60bd19e834.LOFI.mp3",
+"name": "Mongol 303",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-04-09"
+},
+{
+"minute": null,
+"artist": "Acid Arab Feat. Hasan Minawi",
+"title": "\u00c9lectrique Yarghol",
+"label": "Crammed Discs",
+"bp": "bp:12684462",
+"score": 0.653,
+"preview": "https://geo-samples.beatport.com/track/5496b1b1-568c-4a4c-a844-33614bde8cac.LOFI.mp3",
+"name": "Electrique Yarghol (feat. Hasan Minawi)",
+"mix": "feat. Hasan Minawi",
+"genre": "electronica",
+"released": "2019-10-18"
+},
+{
+"minute": null,
+"artist": "The Unknown Cases",
+"title": "Masimbabele (Robi Insinna/Headman Rework)",
+"label": "Relish",
+"bp": "bp:12899153",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/84f9cd57-9a69-4305-a83c-4c915868da2e.LOFI.mp3",
+"name": "Masimbabele",
+"mix": "Headman/Robi Insinna Rework",
+"genre": "indie-dance",
+"released": "2016-06-24"
+},
+{
+"minute": null,
+"artist": "Akio Nagase",
+"title": "Jurassic Shanghai Acid [Emotional] Especial",
+"label": "",
+"bp": "bp:15071638",
+"score": 0.898,
+"preview": "https://geo-samples.beatport.com/track/43442d52-d9c2-47bf-8f3a-14fc532cca30.LOFI.mp3",
+"name": "Jurassic Shanghai Acid",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2021-04-09"
+},
+{
+"minute": null,
+"artist": "A Jackin Phreak & Helena Eribenne",
+"title": "Tidalwave (Bass-A-Pella)",
+"label": "AJP"
+},
+{
+"minute": null,
+"artist": "Zomby",
+"title": "Acid Surf",
+"label": "XL",
+"bp": "bp:7123992",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/842299be-72a2-411f-ad9e-8f1d9a4adb45.LOFI.mp3",
+"name": "ACID SURF",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2015-10-09"
+},
+{
+"minute": null,
+"artist": "Maurice Joshua",
+"title": "This Is Acid (Boys Noize Re-Work)",
+"label": "Harmless",
+"bp": "bp:888387",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5f0b055c-5e5e-4e07-aa70-fd0fa555be45.LOFI.mp3",
+"name": "This Is Acid",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2009-07-06"
+},
+{
+"minute": null,
+"artist": "Zsa Zsa La Boum",
+"title": "Tu Veux Ou Tu Veux Pas?",
+"label": "Complete Kaos",
+"bp": "bp:20783397",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/36b08546-c1c1-4737-a996-bd8595409197.LOFI.mp3",
+"name": "Tu Veux Ou Tu Veux Pas",
+"mix": "Original Mix",
+"genre": "mainstage",
+"released": "2016-11-25"
+},
+{
+"minute": null,
+"artist": "Baku-Fu Slamp",
+"title": "Aa!Budokan! (Makedub Niko Niko Acid Edit)",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Coldcut",
+"title": "Yes, Yes, Yes",
+"label": "Ahead Of Our Time"
+},
+{
+"minute": null,
+"artist": "Zazou Bikaye",
+"title": "Na Kenda (Afro-Acid Mix)",
+"label": "Crammed Discs",
+"bp": "bp:6323232",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6c0e4693-fa1e-4b18-b309-2a59ed0faa53.LOFI.mp3",
+"name": "Na Kenda",
+"mix": "Afro-Acid Mix",
+"genre": "mainstage",
+"released": "2015-02-16"
+},
+{
+"minute": null,
+"artist": "Calisto",
+"title": "Get House",
+"label": "Definitive",
+"bp": "bp:17846",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8dd2276b-b6e5-4266-9820-36d2c11ba54c.LOFI.mp3",
+"name": "Get House",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "1994-10-25"
+},
+{
+"minute": null,
+"artist": "AECK",
+"title": "Toil Zone",
+"label": "Acid Hardwave"
+},
+{
+"minute": null,
+"artist": "Mr. Fingers",
+"title": "Washing Machine",
+"label": "Trax",
+"bp": "bp:9659718",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/7525318f-8bc7-4d37-ab07-e75c289fcaef.LOFI.mp3",
+"name": "Washing Machine",
+"mix": "Original Mix",
+"genre": "house",
+"released": "2017-08-18"
+},
+{
+"minute": null,
+"artist": "Kevin Griffiths",
+"title": "Satori",
+"label": "Tsuba"
+},
+{
+"minute": null,
+"artist": "Kalson Feat. H!",
+"title": "Acid Brazil (Rune Lindbaek Mix)",
+"label": "Gouranga"
+},
+{
+"minute": null,
+"artist": "Akio Nagase",
+"title": "Mbira Dub",
+"label": "Chillmountain"
+}
+]
+},
+{
+"title": "2021-08-21 - Acid Pauli @ Plan:et C, L\u00e4rz, Germany",
+"records": []
+},
+{
+"title": "2025-02-13 - Acid Pauli @ Chat With A DJ 35 (ARTE concert)",
+"records": [
+{
+"minute": null,
+"artist": "Elevation, Nsasi",
+"title": "Nnterlude 001",
+"label": "",
+"bp": "bp:16392684",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bedb6115-29ef-471e-98e8-025a8c056829.LOFI.mp3",
+"name": "Nnterlude 001",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-04-20"
+},
+{
+"minute": null,
+"artist": "Hibotep Feat. Houdini",
+"title": "Angels Rock",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Ratigan Era",
+"title": "Bark",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Cheb Runner",
+"title": "3097.7km / \u0643\u0645",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Judgitzu",
+"title": "Sator Arepo",
+"label": "",
+"bp": "bp:18110829",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/eb00797c-2340-4401-8745-800da4155e00.LOFI.mp3",
+"name": "Sator Arepo",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2023-09-28"
+},
+{
+"minute": null,
+"artist": "Otim Alpha Feat. UMOJAH",
+"title": "Tongwen (VOX Only)",
+"label": "",
+"bp": "bp:12574492",
+"score": 0.8,
+"preview": "https://geo-samples.beatport.com/track/32107293-bad2-4139-b239-599fc98c67e1.LOFI.mp3",
+"name": "Tongwen",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2019-09-22"
+},
+{
+"minute": null,
+"artist": "Arsenal Mikebe",
+"title": "Masiini",
+"label": "",
+"bp": "bp:19426341",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/89d9ce32-838f-4d7a-a174-5afac5ddab36.LOFI.mp3",
+"name": "Masiini",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-09-06"
+},
+{
+"minute": null,
+"artist": "Violence Gratuite",
+"title": "Olive",
+"label": "",
+"bp": "bp:19107644",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c8f35630-964d-4536-89d6-e66c8faac09a.LOFI.mp3",
+"name": "Olive",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-06-14"
+},
+{
+"minute": null,
+"artist": "R3IGN DROPS",
+"title": "ENDLESS TRIP",
+"label": ""
+},
+{
+"minute": null,
+"artist": "GEZAN",
+"title": "MADOROMI",
+"label": ""
+},
+{
+"minute": null,
+"artist": "DJ DadaMan & Cry Mabalane",
+"title": "Hasha",
+"label": "",
+"bp": "bp:17071971",
+"score": 0.75,
+"preview": "https://geo-samples.beatport.com/track/d921ccea-2cb0-4969-b762-34faba7d86c0.LOFI.mp3",
+"name": "Hasha (feat. Cry Mabalane)",
+"mix": "feat. Cry Mabalane",
+"genre": "dance-pop",
+"released": "2021-11-19"
+},
+{
+"minute": null,
+"artist": "MOREKI & Michael Jackson",
+"title": "Michael Matata (AP Edit) V2",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Suzi Analogue, Nsasi",
+"title": "Gukubaaa",
+"label": "",
+"bp": "bp:16392681",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/b49bd2f3-48f7-4a06-aa86-b097c8e7e7c2.LOFI.mp3",
+"name": "Gukubaaa",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-04-20"
+},
+{
+"minute": null,
+"artist": "Jako Maron",
+"title": "Papiyon Zerb Zon",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Heavee, Nsasi",
+"title": "Come N Get It",
+"label": "",
+"bp": "bp:16392685",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/cb2743eb-5693-4dbf-b71e-d2d00f100ca0.LOFI.mp3",
+"name": "Come N Get It",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2022-04-20"
+},
+{
+"minute": null,
+"artist": "Tshepang Ramoba Feat. Tikido",
+"title": "Sesfikile",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Emmanuel Jal",
+"title": "Shuka (Acid Pauli Remix)",
+"label": "",
+"bp": "bp:19721485",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/1da7d992-f3d6-4622-8658-bbc39616a651.LOFI.mp3",
+"name": "Shuka",
+"mix": "Acid Pauli Remix",
+"genre": "afro-house",
+"released": "2024-11-29"
+},
+{
+"minute": null,
+"artist": "Afrorack",
+"title": "Rev",
+"label": "",
+"bp": "bp:16352068",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/373ddf52-85d2-47eb-a995-84eb751f7f3c.LOFI.mp3",
+"name": "Rev",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2022-05-27"
+},
+{
+"minute": null,
+"artist": "TrapFunk & Alivio",
+"title": "Trash",
+"label": ""
+},
+{
+"minute": null,
+"artist": "P\u00d6",
+"title": "Over The Clouds",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Afrorack",
+"title": "Modugand",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Sisso & Maiko",
+"title": "Mangwale",
+"label": "",
+"bp": "bp:18602452",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/d79eaf24-ceb8-4804-b485-e9e3ba6f8594.LOFI.mp3",
+"name": "Mangwale",
+"mix": "Original Mix",
+"genre": "bass-club",
+"released": "2024-05-10"
+},
+{
+"minute": null,
+"artist": "Masaka Masaka",
+"title": "Club Classics But It's Masaka Masaka",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Otim Aplha",
+"title": "Cam Ki Lawoti",
+"label": ""
+},
+{
+"minute": null,
+"artist": "Bamba Pana",
+"title": "Agaba Kibati",
+"label": ""
+}
+]
+},
+{
+"title": "2025-09-01 - Acid Pauli - Electronic Groove Podcast (EG.1040)",
+"records": [
+{
+"minute": 0,
+"artist": "Arutani",
+"title": "Right Here (O/Y Remix)",
+"label": "Laut & Luise",
+"bp": "bp:19163520",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/fd7d3912-792e-48f7-b90d-3d4a487f9d03.LOFI.mp3",
+"name": "Right Here",
+"mix": "O/Y Remix",
+"genre": "electronica",
+"released": "2024-08-09"
+},
+{
+"minute": 8,
+"artist": "Susumu Yokota",
+"title": "Zenmai",
+"label": "Musicmien",
+"bp": "bp:12444872",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/19610d20-091b-4bee-895f-a0822e8461e9.LOFI.mp3",
+"name": "Zenmai",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2015-07-15"
+},
+{
+"minute": 10,
+"artist": "Lemna",
+"title": "Lapis Lazuli",
+"label": "",
+"bp": "bp:18887786",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/54e548db-2b8d-433f-8c20-e939201d7a71.LOFI.mp3",
+"name": "Lapis Lazuli",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2024-04-26"
+},
+{
+"minute": 16,
+"artist": "Javi Parra",
+"title": "Requiem (Lucas Vazz Remix)",
+"label": "Leuchtturm",
+"bp": "bp:9263302",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/26db76ea-ff9f-4ff4-9690-c7bd26520598.LOFI.mp3",
+"name": "Requiem",
+"mix": "Lucas Vazz Remix",
+"genre": "techno-peak-time-driving",
+"released": "2017-05-29"
+},
+{
+"minute": 20,
+"artist": "Absolute.",
+"title": "Lil L",
+"label": "Permanent Vacation",
+"bp": "bp:20255768",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bcfbaa80-4685-4726-874f-2783cb2bb140.LOFI.mp3",
+"name": "Lil L",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2025-04-04"
+},
+{
+"minute": 26,
+"artist": "Wata Igarashi",
+"title": "Ephemoral",
+"label": "",
+"bp": "bp:15799566",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/181b6bda-0dc3-4942-adff-065376d018d1.LOFI.mp3",
+"name": "Ephemoral",
+"mix": "Original Mix",
+"genre": "techno-peak-time-driving",
+"released": "2021-10-22"
+},
+{
+"minute": 30,
+"artist": "RAH & The Ruffcats",
+"title": "Wake Up (They Are The People Of The Myths) (Yoruba Club Instrumental)",
+"label": "Sonar Kollektiv",
+"bp": "bp:19962567",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/5cdaf8eb-efc2-41f7-b062-d5dd42be348a.LOFI.mp3",
+"name": "Wake Up (they are the people of the myths)",
+"mix": "Yoruba Club Instrumental",
+"genre": "afro-house",
+"released": "2025-02-27"
+},
+{
+"minute": 34,
+"artist": "The Egyptian Lover & Soul Clap",
+"title": "Hai Karate",
+"label": "Soul Clap",
+"bp": "bp:20388530",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/9d9d49d6-12a0-468e-8f56-d6d9259b5d03.LOFI.mp3",
+"name": "Hai Karate ",
+"mix": "Original Mix",
+"genre": "electro-classic-detroit-modern",
+"released": "2025-04-25"
+},
+{
+"minute": 37,
+"artist": "Timmy P & James Dexter",
+"title": "Rewind",
+"label": "ORIGINS RCRDS",
+"bp": "bp:20435733",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2776f3ff-b672-43bb-bbc4-630427d2a350.LOFI.mp3",
+"name": "Rewind",
+"mix": "Original Mix",
+"genre": "minimal-deep-tech",
+"released": "2025-05-23"
+},
+{
+"minute": 41,
+"artist": "Morpei",
+"title": "The RaRa",
+"label": "Buriloop",
+"bp": "bp:20478932",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ed90e2f8-4b73-413c-8bef-c9ce1d8f042a.LOFI.mp3",
+"name": "The RaRa",
+"mix": "Original Mix",
+"genre": "tech-house",
+"released": "2025-05-22"
+},
+{
+"minute": 44,
+"artist": "Nowa",
+"title": "Geez Geez",
+"label": "",
+"bp": "bp:21124368",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/bf41c00e-d138-4e37-bfad-7963c9f63c32.LOFI.mp3",
+"name": "Geez Geez",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2025-09-05"
+},
+{
+"minute": null,
+"artist": "Acid Pauli",
+"title": "Feedback",
+"label": "",
+"bp": "bp:17011496",
+"score": 0.657,
+"preview": "https://geo-samples.beatport.com/track/6290595a-48a4-4882-a68e-7102a6d57a74.LOFI.mp3",
+"name": "Acid Feedback",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2022-10-21"
+},
+{
+"minute": null,
+"artist": "Val Xalino",
+"title": "Dan\u00e7a Dan\u00e7a T'manch\u00ea (Acid Pauli Fullmix)",
+"label": "",
+"bp": "bp:20574958",
+"score": 0.929,
+"preview": "https://geo-samples.beatport.com/track/77c33995-b11c-4ee8-9f92-fc91d9adc6af.LOFI.mp3",
+"name": "Dan\u00e7\u00e1 Dan\u00e7\u00e1 T'Manch\u00ea",
+"mix": "Acid Pauli's Fullmix",
+"genre": "indie-dance",
+"released": "2025-08-29"
+}
+]
+},
+{
+"title": "2025-11-12 - Acid Pauli - Groove Podcast 480",
+"records": [
+{
+"minute": 0,
+"artist": "Geju & Ground",
+"title": "Shepard Jr.",
+"label": "Unreleased",
+"bp": "bp:23402812",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/6bb5f496-981c-4d69-b86c-7e40fea0e7f6.LOFI.mp3",
+"name": "Shepard Jr",
+"mix": "Original Mix",
+"genre": "downtempo",
+"released": "2026-01-30"
+},
+{
+"minute": 5,
+"artist": "Raidho Feat. T. Etno",
+"title": "Tarantula",
+"label": "Sol Selectas",
+"bp": "bp:13671157",
+"score": 0.9,
+"preview": "https://geo-samples.beatport.com/track/c861fd4c-a12f-43c9-aec7-3d889e75675c.LOFI.mp3",
+"name": "Tarantula",
+"mix": "Original Mix",
+"genre": "afro-house",
+"released": "2020-06-19"
+},
+{
+"minute": null,
+"artist": "[0?] Zufu",
+"title": "Comores",
+"label": "Jay Haze, Dengue Dengue Dengue - Unreleased"
+},
+{
+"minute": 10,
+"artist": "MOREKI",
+"title": "Matatazela",
+"label": "Black Sounds Live"
+},
+{
+"minute": 18,
+"artist": "Louis Lunch & Decency & KS Groove",
+"title": "Shumayela",
+"label": "Cream Entertainment",
+"bp": "bp:16209503",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/3853c082-7c8f-4a79-b9a6-be1d8a53de5a.LOFI.mp3",
+"name": "Shumayela",
+"mix": "Original Mix",
+"genre": "amapiano",
+"released": "2019-11-29"
+},
+{
+"minute": 17,
+"artist": "Destiino & Yuksek Feat. I\u00f1igo Vontier",
+"title": "Somlake",
+"label": "Lumi\u00e8re Noire",
+"bp": "bp:29139378",
+"score": 0.55,
+"preview": "https://geo-samples.beatport.com/track/c693230f-54f7-4173-ae59-c4a38e64d0bb.LOFI.mp3",
+"name": "Somlake ",
+"mix": "Marina Trench Remix",
+"genre": "indie-dance",
+"released": "2026-06-26"
+},
+{
+"minute": 28,
+"artist": "Dwson",
+"title": "Ethyl",
+"label": "Suol",
+"bp": "bp:12028904",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/ce15a99b-caf0-49e2-a19e-8ec5be898907.LOFI.mp3",
+"name": "Ethyl",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2019-07-01"
+},
+{
+"minute": 35,
+"artist": "Jonas Saalbach",
+"title": "Raum Und Zeit",
+"label": "Diamentral Express",
+"bp": "bp:5779252",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/539cdbb3-87ee-47cb-906c-9cb0dbbbb8f0.LOFI.mp3",
+"name": "Raum und Zeit",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2014-09-12"
+},
+{
+"minute": 39,
+"artist": "Chymera",
+"title": "Threads",
+"label": "Connaisseur",
+"bp": "bp:5124635",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/f9bbbe6b-bc83-4e69-8b2d-b4fb68b43ca7.LOFI.mp3",
+"name": "Threads",
+"mix": "Original Mix",
+"genre": "deep-house",
+"released": "2014-03-03"
+},
+{
+"minute": 41,
+"artist": "Supercontinent",
+"title": "Pata Sucia",
+"label": "Fauna Reve",
+"bp": "bp:14132378",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/c50b56f8-c366-4ed2-bebb-c8128146f80e.LOFI.mp3",
+"name": "Pata Sucia",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2020-10-02"
+},
+{
+"minute": null,
+"artist": "[4?] Cysnical",
+"title": "Mood Freak",
+"label": "Grey Bar Hotel"
+},
+{
+"minute": 46,
+"artist": "MoodFreak",
+"title": "Cynical",
+"label": "Grey Bar Hotel",
+"bp": "bp:18804212",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/e23a1313-6145-4258-88f5-c39cc701900a.LOFI.mp3",
+"name": "Cynical",
+"mix": "Original Mix",
+"genre": "melodic-house-techno",
+"released": "2024-04-26"
+},
+{
+"minute": 51,
+"artist": "Fred & Luna",
+"title": "Compostonikum",
+"label": "",
+"bp": "bp:11734443",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/8b92d2ef-8bac-4ebe-978a-4126bbd8ecf6.LOFI.mp3",
+"name": "Compostonikum",
+"mix": "Original Mix",
+"genre": "electronica",
+"released": "2019-03-22"
+},
+{
+"minute": 56,
+"artist": "Y\u00f8r Kultura",
+"title": "Logik",
+"label": "",
+"bp": "bp:18050249",
+"score": 1.0,
+"preview": "https://geo-samples.beatport.com/track/2f1e15fd-43eb-4332-bc4b-e8d3e839d819.LOFI.mp3",
+"name": "Logik",
+"mix": "Original Mix",
+"genre": "indie-dance",
+"released": "2023-09-15"
+}
+]
+}
+]
 }
