@@ -36,7 +36,9 @@ concurrency:
   # chain — which dispatches a follow-up every few minutes — was evicting the Sunday
   # weekly batch from the pending slot and cancelling it before it could start. A week of
   # chart data was lost to a shared group name.
-  group: sonic-${{ github.event_name }}-${{ inputs.mode || github.event.schedule || 'push' }}
+  # Every run that saves the fingerprint store shares one group: a save replaces the whole store, so two at once
+  # would lose the first one's fingerprints (the watchdog now starts a reindex when the four-hourly cron does not).
+  group: ${{ (github.event.schedule == '5 */4 * * *' || inputs.mode == 'reindex' || inputs.mode == 'mixscan' || inputs.mode == 'mixrescan') && 'sonic-fpstore' || format('sonic-{0}-{1}', github.event_name, inputs.mode || github.event.schedule || 'push') }}
   cancel-in-progress: false
 
 jobs:

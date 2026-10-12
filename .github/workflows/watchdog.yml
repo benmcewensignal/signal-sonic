@@ -74,6 +74,26 @@ jobs:
             fi
           done
           exit 0
+      - name: keep fingerprinting going when its cron does not fire
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
+        run: |
+          # The reindex (fingerprinting for recognition, most important records first) runs on a four-hourly cron that
+          # GitHub fires when it likes: on 12 Oct none started between 04:35 and 17:30. If no reindex, scheduled or
+          # dispatched, has started in four and a half hours and none is queued or running, start one. They share a
+          # concurrency group in sonic.yml, since each saves the whole store.
+          set +e
+          NOW=$(date -u +%s)
+          RX=$(gh api "repos/${{ github.repository }}/actions/workflows/sonic.yml/runs?per_page=100" --jq '[.workflow_runs[] | select(.name == "sonic 5 */4 * * *" or .name == "sonic reindex") | {status, created_at}]' 2>/dev/null)
+          if [ -z "$RX" ]; then echo "fingerprinting: could not read runs"; exit 0; fi
+          LIVE=$(echo "$RX" | jq '[.[] | select(.status != "completed")] | length')
+          LAST=$(echo "$RX" | jq -r '[.[].created_at] | max // empty')
+          AGE=99999; [ -n "$LAST" ] && AGE=$(( (NOW - $(date -u -d "$LAST" +%s)) / 60 ))
+          echo "fingerprinting: last reindex started ${AGE}m ago, ${LIVE} queued or running"
+          if [ "$LIVE" = "0" ] && [ "$AGE" -gt 270 ]; then
+            timeout 60 gh workflow run sonic.yml --repo "${{ github.repository }}" --ref main -f mode=reindex && echo "  reindex started" || echo "  could not start it"
+          fi
+          exit 0
       - name: run the daily jobs whose own cron never fires
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
