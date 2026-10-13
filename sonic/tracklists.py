@@ -157,9 +157,10 @@ def match(tok, rec, cache):
 
 def lasting(e):
     """Whether a failure to measure is the record's own (no preview at that address, audio that will not decode or
-    analyse) rather than the moment's (a dropped connection, a timeout, a server error), which is not held against it."""
+    analyse) rather than the moment's (a dropped connection, a timeout, a server error), which is not held against it.
+    Of the 4xx answers, an expired token (401), a request timeout (408) and a request to slow down (429) are the moment's."""
     import socket, urllib.error
-    if isinstance(e, urllib.error.HTTPError): return 400 <= e.code < 500
+    if isinstance(e, urllib.error.HTTPError): return 400 <= e.code < 500 and e.code not in (401, 408, 429)
     if isinstance(e, (urllib.error.URLError, TimeoutError, ConnectionError, socket.timeout)): return False
     return True
 

@@ -306,6 +306,14 @@ jobs:
             fi
           fi
 
+      - name: name the fingerprinted records that have no name
+        # The index leaves out any record it cannot name, and on 13 Oct 30,028 fingerprinted records had no name (catalogue
+        # records from the deepening; the crawl named the records DJs play as it matched them). The fingerprinting now names
+        # what it adds; this names the rest, most important first. After the store is saved, so new fingerprints reach the
+        # index as soon as before; the names go out with the database below, and into the index built after the next run.
+        if: success() && (github.event.schedule == '5 */4 * * *' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex'))
+        run: python -m sonic.mixes names --db sonic.db --budget-minutes 25 || echo "::warning title=names::the naming step failed; the fingerprints are saved regardless"
+
       - name: persist database
         if: always() && (github.event_name == 'schedule' || github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         env:
