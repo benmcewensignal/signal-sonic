@@ -3159,43 +3159,43 @@
 "date": "2026-10-13",
 "scene": "tech-house",
 "regime": "mixed",
-"established": 43
+"established": 45
 },
 {
 "date": "2026-10-13",
 "scene": "techno-peak-time",
 "regime": "stars lead",
-"established": 36
+"established": 37
 },
 {
 "date": "2026-10-13",
 "scene": "techno-raw-deep-hypnotic",
-"regime": "stars lead",
-"established": 40
+"regime": "mixed",
+"established": 43
 },
 {
 "date": "2026-10-13",
 "scene": "house",
 "regime": "mixed",
-"established": 46
+"established": 47
 },
 {
 "date": "2026-10-13",
 "scene": "deep-house",
 "regime": "mixed",
-"established": 48
+"established": 50
 },
 {
 "date": "2026-10-13",
 "scene": "melodic-house-techno",
 "regime": "mixed",
-"established": 52
+"established": 54
 },
 {
 "date": "2026-10-13",
 "scene": "drum-and-bass",
 "regime": "mixed",
-"established": 29
+"established": 35
 },
 {
 "date": "2026-10-13",
@@ -3206,56 +3206,68 @@
 {
 "date": "2026-10-13",
 "scene": "hard-techno",
-"regime": "stars lead",
-"established": 19
+"regime": "mixed",
+"established": 20
 },
 {
 "date": "2026-10-13",
 "scene": "bass-house",
-"regime": "stars behind",
-"established": 11
-},
-{
-"date": "2026-10-13",
-"scene": "trance-main-floor",
-"regime": "stars behind",
-"established": 7
-},
-{
-"date": "2026-10-13",
-"scene": "progressive-house",
-"regime": "stars lead",
-"established": 12
-},
-{
-"date": "2026-10-13",
-"scene": "indie-dance",
 "regime": "mixed",
 "established": 13
 },
 {
 "date": "2026-10-13",
+"scene": "trance-main-floor",
+"regime": "stars behind",
+"established": 10
+},
+{
+"date": "2026-10-13",
+"scene": "progressive-house",
+"regime": "stars lead",
+"established": 13
+},
+{
+"date": "2026-10-13",
+"scene": "psy-trance",
+"regime": "mixed",
+"established": 4
+},
+{
+"date": "2026-10-13",
+"scene": "indie-dance",
+"regime": "mixed",
+"established": 15
+},
+{
+"date": "2026-10-13",
 "scene": "organic-house",
 "regime": "stars behind",
-"established": 5
+"established": 8
 },
 {
 "date": "2026-10-13",
 "scene": "hard-dance-hardcore",
+"regime": "stars behind",
+"established": 11
+},
+{
+"date": "2026-10-13",
+"scene": "electronica",
 "regime": "mixed",
-"established": 9
+"established": 8
 },
 {
 "date": "2026-10-13",
 "scene": "jackin-house",
 "regime": "mixed",
-"established": 7
+"established": 12
 },
 {
 "date": "2026-10-13",
 "scene": "minimal-deep-tech",
 "regime": "stars lead",
-"established": 18
+"established": 20
 },
 {
 "date": "2026-10-13",
@@ -3273,18 +3285,30 @@
 "date": "2026-10-13",
 "scene": "electro",
 "regime": "stars lead",
-"established": 7
+"established": 8
 },
 {
 "date": "2026-10-13",
 "scene": "trance-raw-deep-hypnotic",
 "regime": "stars lead",
-"established": 14
+"established": 16
+},
+{
+"date": "2026-10-13",
+"scene": "ambient-experimental",
+"regime": "stars behind",
+"established": 8
 },
 {
 "date": "2026-10-13",
 "scene": "downtempo",
 "regime": "stars behind",
-"established": 4
+"established": 6
+},
+{
+"date": "2026-10-13",
+"scene": "latin-electronic",
+"regime": "mixed",
+"established": 6
 }
 ]
