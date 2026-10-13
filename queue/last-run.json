@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-13T16:57:26Z",
+ "ran": "2026-10-13T20:36:56Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -25,7 +25,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 6",
+    " \"deezer usable\": 7",
     "}"
    ]
   },
@@ -177,11 +177,11 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 6.5,
+   "minutes": 6.9,
    "tail": [
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-13T16:55:32Z\",",
+    " \"generated\": \"2026-10-13T20:34:14Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -197,22 +197,22 @@
     "  \"2026-10-08\",",
     "  \"2026-10-12\"",
     " ],",
-    " \"artists_total\": 60722,",
+    " \"artists_total\": 63876,",
     " \"booking_side\": 31798,",
-    " \"release_side\": 32695,",
-    " \"joined\": 3771,",
-    " \"tracks_with_metadata\": 163914,",
-    " \"join_rate_release_side\": 0.115",
+    " \"release_side\": 36049,",
+    " \"joined\": 3971,",
+    " \"tracks_with_metadata\": 169204,",
+    " \"join_rate_release_side\": 0.11",
     "}"
    ]
   },
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 1.6,
+   "minutes": 2.4,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-13T16:57:25Z\",",
+    " \"generated\": \"2026-10-13T20:36:55Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -231,7 +231,7 @@
     " \"latest\": \"2026-10-12\",",
     " \"venues\": 3963,",
     " \"venues_with_3plus\": 1120,",
-    " \"leadership_artists\": 12676,",
+    " \"leadership_artists\": 13757,",
     " \"tiered_rooms\": 751",
     "}"
    ]
