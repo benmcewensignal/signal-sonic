@@ -3315,13 +3315,13 @@
 "date": "2026-10-14",
 "scene": "uk-garage-speed-garage",
 "regime": "mixed",
-"established": 42
+"established": 44
 },
 {
 "date": "2026-10-14",
 "scene": "uk-funky-gqom",
 "regime": "mixed",
-"established": 25
+"established": 26
 },
 {
 "date": "2026-10-14",
@@ -3333,7 +3333,7 @@
 "date": "2026-10-14",
 "scene": "140-deep-dubstep-grime",
 "regime": "mixed",
-"established": 22
+"established": 23
 },
 {
 "date": "2026-10-14",
@@ -3369,7 +3369,7 @@
 "date": "2026-10-14",
 "scene": "deep-house",
 "regime": "mixed",
-"established": 51
+"established": 52
 },
 {
 "date": "2026-10-14",
@@ -3393,7 +3393,7 @@
 "date": "2026-10-14",
 "scene": "hard-techno",
 "regime": "mixed",
-"established": 21
+"established": 22
 },
 {
 "date": "2026-10-14",
@@ -3435,7 +3435,7 @@
 "date": "2026-10-14",
 "scene": "hard-dance-hardcore",
 "regime": "stars behind",
-"established": 12
+"established": 13
 },
 {
 "date": "2026-10-14",
@@ -3477,7 +3477,7 @@
 "date": "2026-10-14",
 "scene": "trance-raw-deep-hypnotic",
 "regime": "stars lead",
-"established": 18
+"established": 19
 },
 {
 "date": "2026-10-14",
@@ -3495,6 +3495,6 @@
 "date": "2026-10-14",
 "scene": "latin-electronic",
 "regime": "stars lead",
-"established": 12
+"established": 14
 }
 ]
