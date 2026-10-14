@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-14T11:46:23Z",
+ "ran": "2026-10-14T12:24:11Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -25,7 +25,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 8",
+    " \"deezer usable\": 7",
     "}"
    ]
   },
@@ -177,11 +177,11 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 8.2,
+   "minutes": 6.0,
    "tail": [
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-14T11:42:22Z\",",
+    " \"generated\": \"2026-10-14T12:22:27Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -209,10 +209,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 3.6,
+   "minutes": 1.4,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-14T11:46:22Z\",",
+    " \"generated\": \"2026-10-14T12:24:10Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
