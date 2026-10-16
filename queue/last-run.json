@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-15T22:20:48Z",
+ "ran": "2026-10-16T00:17:02Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -121,7 +121,7 @@
     " \"appetite\": {",
     "  \"afro-house\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 46.9",
+    "   \"plays_per_day_median\": 46.4",
     "  },",
     "  \"techno-peak-time\": {",
     "   \"mixes\": 3,",
@@ -129,11 +129,11 @@
     "  },",
     "  \"deep-house\": {",
     "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 52.9",
+    "   \"plays_per_day_median\": 52.3",
     "  },",
     "  \"melodic-house-techno\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 52.5",
+    "   \"plays_per_day_median\": 52.1",
     "  }",
     " }",
     "}"
@@ -177,10 +177,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 7.8,
+   "minutes": 6.5,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-15T22:17:52Z\",",
+    " \"generated\": \"2026-10-16T00:15:08Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
@@ -209,10 +209,10 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 0,
-   "minutes": 2.6,
+   "minutes": 1.5,
    "tail": [
     "{",
-    " \"generated\": \"2026-10-15T22:20:47Z\",",
+    " \"generated\": \"2026-10-16T00:17:01Z\",",
     " \"snapshots\": [",
     "  \"2026-09-02\",",
     "  \"2026-09-03\",",
