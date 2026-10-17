@@ -2,6 +2,9 @@ name: tracklist-batches
 # The next batch of DJs (sonic/tracklist_batches.py) sent to the tracklist job, and recorded as tried. Started by the
 # crawl itself once a batch's records are measured, and by the watchdog whenever the crawl has gone idle.
 on:
+  # weekly: once the first crawl is done, this starts the chain again when active DJs are due a re-read (45 days after
+  # their last, sonic/tracklist_batches.py), and does nothing when none are
+  schedule: [{ cron: "30 3 * * 0" }]
   workflow_dispatch:
     inputs:
       since:    { description: "first year of sets", default: "2019" }

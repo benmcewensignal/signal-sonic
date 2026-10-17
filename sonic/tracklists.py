@@ -229,7 +229,8 @@ def main():
                         if m["bp"] not in have and m["bp"] not in done and m.get("preview"): to_measure[m["bp"]] = m["preview"]
             sets.append({"title": t, "records": recs})
         slug = re.sub(r"[^a-z0-9]+", "-", dj.lower()).strip("-")
-        json.dump({"dj": dj, "source": "MixesDB (CC BY-SA 3.0)", "sets": sets}, open(f"{OUT}/{slug}.json", "w"), indent=0)
+        # read_at: when the DJ was last read, so the batch picker can re-read active DJs (sonic/tracklist_batches.py)
+        json.dump({"dj": dj, "source": "MixesDB (CC BY-SA 3.0)", "read_at": time.strftime("%Y-%m-%d", time.gmtime()), "sets": sets}, open(f"{OUT}/{slug}.json", "w"), indent=0)
         n = sum(len(s["records"]) for s in sets); ids = sum(1 for s in sets for r in s["records"] if not r.get("artist"))
         mt = sum(1 for s in sets for r in s["records"] if r.get("bp")); inc = sum(1 for s in sets for r in s["records"] if r.get("bp") in have)
         stamped = sum(1 for s in sets for r in s["records"] if r.get("minute") is not None)
