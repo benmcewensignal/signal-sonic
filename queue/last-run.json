@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-18T11:13:03Z",
+ "ran": "2026-10-18T07:26:52Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -177,17 +177,17 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 0.8,
+   "minutes": 0.4,
    "tail": [
     "identity checks applied; 2 joins cut",
-    "artist records for 18541 artists; sounds-like for 6891",
+    "artist records for 18480 artists; sounds-like for 6865",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-18T11:12:27Z\",",
+    " \"generated\": \"2026-10-18T07:26:35Z\",",
     " \"snapshots\": [],",
-    " \"artists_total\": 46305,",
+    " \"artists_total\": 46267,",
     " \"booking_side\": 0,",
-    " \"release_side\": 46305,",
+    " \"release_side\": 46267,",
     " \"joined\": 0,",
     " \"tracks_with_metadata\": 193265,",
     " \"join_rate_release_side\": 0.0",
@@ -197,7 +197,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 1,
-   "minutes": 0.1,
+   "minutes": 0.0,
    "tail": [
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
