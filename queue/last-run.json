@@ -1,10 +1,10 @@
 {
- "ran": "2026-10-22T13:51:48Z",
+ "ran": "2026-10-22T14:13:05Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
-   "minutes": 0.0,
+   "minutes": 0.1,
    "tail": [
     "import: no new files"
    ]
@@ -67,9 +67,6 @@
    "rc": 1,
    "minutes": 0.1,
    "tail": [
-    "",
-    "[notice] A new release of pip is available: 26.2.1 -> 26.2.2",
-    "[notice] To update, run: pip install --upgrade pip",
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
     "  File \"<frozen runpy>\", line 88, in _run_code",
@@ -186,7 +183,7 @@
     "artist records for 18654 artists; sounds-like for 6948",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-22T13:51:30Z\",",
+    " \"generated\": \"2026-10-22T14:12:50Z\",",
     " \"snapshots\": [],",
     " \"artists_total\": 46382,",
     " \"booking_side\": 0,",
@@ -200,7 +197,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 1,
-   "minutes": 0.1,
+   "minutes": 0.0,
    "tail": [
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
