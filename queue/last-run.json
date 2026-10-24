@@ -1,12 +1,12 @@
 {
- "ran": "2026-10-24T07:14:58Z",
+ "ran": "2026-10-24T03:21:30Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: no new files"
+    "import: could not list the worker repo (HTTPError); nothing to do"
    ]
   },
   {
@@ -186,7 +186,7 @@
     "artist records for 18654 artists; sounds-like for 6948",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-24T07:14:27Z\",",
+    " \"generated\": \"2026-10-24T03:21:01Z\",",
     " \"snapshots\": [],",
     " \"artists_total\": 46382,",
     " \"booking_side\": 0,",
