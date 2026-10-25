@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-24T21:46:20Z",
+ "ran": "2026-10-25T00:46:59Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -124,7 +124,7 @@
     " \"appetite\": {",
     "  \"afro-house\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 42.8",
+    "   \"plays_per_day_median\": 42.4",
     "  },",
     "  \"techno-peak-time\": {",
     "   \"mixes\": 3,",
@@ -132,11 +132,11 @@
     "  },",
     "  \"deep-house\": {",
     "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 47.8",
+    "   \"plays_per_day_median\": 47.3",
     "  },",
     "  \"melodic-house-techno\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 48.1",
+    "   \"plays_per_day_median\": 47.6",
     "  }",
     " }",
     "}"
@@ -186,7 +186,7 @@
     "artist records for 18654 artists; sounds-like for 6948",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-24T21:45:44Z\",",
+    " \"generated\": \"2026-10-25T00:46:26Z\",",
     " \"snapshots\": [],",
     " \"artists_total\": 46382,",
     " \"booking_side\": 0,",
