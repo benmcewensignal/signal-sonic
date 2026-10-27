@@ -1,12 +1,12 @@
 {
- "ran": "2026-10-27T06:25:51Z",
+ "ran": "2026-10-27T06:57:52Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
    "rc": 0,
    "minutes": 0.0,
    "tail": [
-    "import: no new files"
+    "import: could not list the worker repo (HTTPError); nothing to do"
    ]
   },
   {
@@ -186,7 +186,7 @@
     "artist records for 18811 artists; sounds-like for 7020",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-27T06:25:31Z\",",
+    " \"generated\": \"2026-10-27T06:57:37Z\",",
     " \"snapshots\": [],",
     " \"artists_total\": 46500,",
     " \"booking_side\": 0,",
@@ -200,7 +200,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 1,
-   "minutes": 0.1,
+   "minutes": 0.0,
    "tail": [
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
