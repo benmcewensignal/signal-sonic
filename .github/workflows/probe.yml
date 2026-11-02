@@ -1,14 +1,23 @@
 name: probe
 # Fetch one URL from a runner and report the response, for checking a route the sandbox cannot reach.
-on: { workflow_dispatch: { inputs: { url: { description: "URL to fetch" } } } }
+# jq (optional): a filter applied to a JSON body before it is reported, for a field past the first 600 characters.
+on:
+  workflow_dispatch:
+    inputs:
+      url: { description: "URL to fetch" }
+      jq: { description: "optional jq filter for a JSON body", required: false, default: "" }
 permissions: { contents: read }
 jobs:
   fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - run: |
-          C=$(curl -s --max-time 90 -w "%{http_code}" -o /tmp/body "${{ inputs.url }}")
-          echo "::notice title=probe $C::$(head -c 600 /tmp/body | tr '\n' ' ')"
+      - env:
+          URL: ${{ inputs.url }}
+          JQ: ${{ inputs.jq }}
+        run: |
+          C=$(curl -s --max-time 90 -w "%{http_code}" -o /tmp/body "$URL")
+          if [ -n "$JQ" ] && jq -c "$JQ" /tmp/body > /tmp/view 2>/dev/null; then :; else cp /tmp/body /tmp/view; fi
+          echo "::notice title=probe $C::$(head -c 600 /tmp/view | tr '\n' ' ')"
           echo "::notice title=markers::build $(grep -o 'window.BUILD=\"[^\"]*\"' /tmp/body | head -1) | lslede $(grep -c 'lslede' /tmp/body) | listenLayout $(grep -c 'function listenLayout' /tmp/body) | scene-shape $(grep -c 'scene-shape.json' /tmp/body) | bytes $(wc -c < /tmp/body)"
-          curl -sI "${{ inputs.url }}" | grep -iE "^(cache-control|age|x-vercel-cache|etag):" | tr -d '\r' | paste -sd'|' - | sed 's/^/::notice title=headers::/'
+          curl -sI "$URL" | grep -iE "^(cache-control|age|x-vercel-cache|etag):" | tr -d '\r' | paste -sd'|' - | sed 's/^/::notice title=headers::/'
