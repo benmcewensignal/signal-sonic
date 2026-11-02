@@ -176,7 +176,7 @@ jobs:
 
       - name: reindex fingerprints
         if: github.event.schedule == '5 */4 * * *' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex')
-        run: python -m sonic.mixes reindex --db sonic.db --limit 2000
+        run: python -m sonic.mixes reindex --db sonic.db --limit 2000 --budget-minutes 50 --record-seconds 45
 
       - name: mix discovery + scan
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'

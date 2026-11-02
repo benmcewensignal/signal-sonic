@@ -98,7 +98,19 @@ def write_meta(fpc, tid, t):
     return True
 
 
+class RecordTimeout(TimeoutError):
+    """A record that took longer than its limit. A TimeoutError, so lasting() counts it as the moment's, not the record's."""
+
+
 def cmd_reindex(args):
+    # From 18 Oct every run was killed at the job's two-hour cap inside this step (2,000 records had taken 29 to 39
+    # minutes), the save after a kill failed, and so each run began from the same store, with the same records at the
+    # head of the queue. Nothing was saved for two weeks. So the step now ends inside its own budget, whatever is slow;
+    # no record may take longer than its limit; a record that is slow or dropped on two runs rests for three days; and
+    # the run says where its time went, in a notice, because its log cannot be read from where the work is checked.
+    import collections, signal
+    t_start = time.time()
+    budget = args.budget_minutes * 60
     store = Store(args.db)
     fpc = fp.open_store(args.fp_db)
     fpc.execute("ATTACH DATABASE ? AS main_db", (args.db,))
@@ -106,20 +118,26 @@ def cmd_reindex(args):
     # first: on 11 Oct it held 32,149 records sampled from the catalogue while 71,388 records DJs play and 60,951
     # charted records were missing, and the index can address 65,536 at most.
     fpc.execute("create table if not exists fp_failed (track_id text primary key, n integer, last_error text, at text)")
+    fpc.execute("create table if not exists fp_slow (track_id text primary key, n integer, last_error text, at text)")
     held = {r[0] for r in fpc.execute("select track_id from fp_failed where n >= 2")}   # twice failed for its own reasons
+    # A failure of the moment is not held for good (a wider outage would hold every record it reached), but a record
+    # slow or dropped on two runs rests for three days, so it cannot take the head of the queue on every run.
+    since = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() - 3 * 86400))
+    resting = {r[0] for r in fpc.execute("select track_id from fp_slow where n >= 2 and at >= ?", (since,))}
     todo = [r[0] for r in fpc.execute(
         """SELECT t.track_id FROM main_db.tracks t
            LEFT JOIN fp_tracks f ON f.track_id = t.track_id
-           WHERE f.track_id IS NULL AND t.track_id LIKE 'bp:%'""") if r[0] not in held]
+           WHERE f.track_id IS NULL AND t.track_id LIKE 'bp:%'""") if r[0] not in held and r[0] not in resting]
     key = importance(fpc)
     todo.sort(key=key)
-    import collections
     tiers = collections.Counter(key(t)[0] for t in todo)
-    print(json.dumps({"not yet fingerprinted": len(todo), "by tier": dict(sorted(tiers.items())), "held back after two failures": len(held)}), flush=True)
+    print(json.dumps({"not yet fingerprinted": len(todo), "by tier": dict(sorted(tiers.items())),
+                      "held back after two failures": len(held), "resting after two slow or dropped tries": len(resting)}), flush=True)
     # as notices: a run's annotations can be read where its log cannot
     print(f"::notice title=fingerprinting queue::{len(todo):,} records not yet fingerprinted, by tier "
           f"{', '.join(f'{k}: {v:,}' for k, v in sorted(tiers.items()))} (0 canon, 1 two or more DJs or top 10, 2 one DJ or "
-          f"charted, 3 catalogue); {len(held):,} held back after two failures", flush=True)
+          f"charted, 3 catalogue); {len(held):,} held back after two failures; {len(resting):,} resting three days after "
+          f"two slow or dropped tries", flush=True)
     rows = todo[:args.limit]
     if not rows:
         print(json.dumps({"reindex": "nothing to do"}))
@@ -131,47 +149,100 @@ def cmd_reindex(args):
         fpc.execute("""insert into fp_failed values (?,1,?,?) on conflict(track_id) do update
                        set n = n + 1, last_error = excluded.last_error, at = excluded.at""", (tid, why[:120], now()))
         fpc.commit()
+    def note_slow(tid, why):
+        fpc.execute("""insert into fp_slow values (?,1,?,?) on conflict(track_id) do update
+                       set n = n + 1, last_error = excluded.last_error, at = excluded.at""", (tid, why[:120], now()))
+        fpc.commit()
+    # The limit is a timer, so it holds wherever a record hangs (the catalogue, a preview that trickles in, the
+    # decoder). It is off while the store is written, so a write is never cut short.
+    timer = {"armed": False}
+    def over(signum, frame):
+        if timer["armed"]:
+            timer["armed"] = False
+            raise RecordTimeout(f"over {args.record_seconds:g} s")
+    def arm():
+        timer["armed"] = True; signal.setitimer(signal.ITIMER_REAL, args.record_seconds)
+    def disarm():
+        timer["armed"] = False; signal.setitimer(signal.ITIMER_REAL, 0)
+    signal.signal(signal.SIGALRM, over)
+    spent = collections.Counter()          # seconds by phase, over the run
+    clock = {"mark": 0.0, "phase": ""}
+    def lap(next_phase):
+        t = time.time(); spent[clock["phase"]] += t - clock["mark"]; clock["mark"], clock["phase"] = t, next_phase
+    t_setup = time.time()
     token = get_token()
-    done, failed, named_now, t0 = 0, 0, 0, time.time()
+    spent["token"] = time.time() - t_setup
+    done, failed, named_now, over_limit, t0 = 0, 0, 0, 0, time.time()
     why = collections.Counter()
-    for tid in rows:
+    slowest, stopped_at = [], None
+    for i, tid in enumerate(rows):
+        if time.time() - t_start > budget:
+            stopped_at = i
+            break
         bp_id = tid.split(":", 1)[1]
+        before = dict(spent)
+        r0 = time.time(); clock["mark"], clock["phase"] = r0, "catalogue"
         try:
-            d = _get(f"/catalog/tracks/{bp_id}/", token)
-            if tid not in named and write_meta(fpc, tid, d):
-                named.add(tid); named_now += 1     # committed with the fingerprints, or with the run's last commit
-            url = (d.get("sample_url") or
-                   (d.get("preview") or {}).get("mp3", {}).get("url") or "")
-            if not url:
-                failed += 1; why["no preview address"] += 1; note_failure(tid, "no preview address")
-                continue
-            path = download_preview(url)
+            arm()
             try:
-                y = fp.load_audio(path, max_seconds=120)
-                fp.index_track(fpc, tid, y)
-                done += 1
+                d = _get(f"/catalog/tracks/{bp_id}/", token)
+                if tid not in named and write_meta(fpc, tid, d):
+                    named.add(tid); named_now += 1     # committed with the fingerprints, or with the run's last commit
+                url = (d.get("sample_url") or
+                       (d.get("preview") or {}).get("mp3", {}).get("url") or "")
+                if not url:
+                    disarm()
+                    failed += 1; why["no preview address"] += 1; note_failure(tid, "no preview address")
+                else:
+                    lap("download")
+                    path = download_preview(url)
+                    try:
+                        lap("decode")
+                        y = fp.load_audio(path, max_seconds=120)
+                        disarm(); lap("store")
+                        fp.index_track(fpc, tid, y)
+                        done += 1
+                    finally:
+                        try:
+                            os.unlink(path)
+                        except OSError:
+                            pass
             finally:
-                try:
-                    os.unlink(path)
-                except OSError:
-                    pass
+                disarm()
         except Exception as e:
-            failed += 1; why[reason(e)] += 1
+            disarm()
+            # urllib wraps an OSError raised while it connects in a URLError, and the limit is one
+            timed_out = isinstance(e, RecordTimeout) or isinstance(getattr(e, "reason", None), RecordTimeout)
+            failed += 1; why["over the limit" if timed_out else reason(e)] += 1
+            if timed_out: over_limit += 1
             if lasting(e): note_failure(tid, f"{type(e).__name__}: {str(e)[:80]}")
+            else: note_slow(tid, f"{clock['phase']}: {type(e).__name__}: {str(e)[:70]}")
             if failed <= 3:
                 print(f"  fail {tid}: {type(e).__name__}: {str(e)[:80]}", flush=True)
+        lap("")
+        mostly = max((k for k in spent if k), key=lambda k: spent[k] - before.get(k, 0))
+        slowest.append((round(time.time() - r0, 1), tid, mostly)); slowest.sort(reverse=True); del slowest[5:]
         if (done + failed) % 25 == 0:
             rate = (done + failed) / (time.time() - t0)
             print(f"  reindex {done+failed}/{len(rows)} ({rate:.1f}/s, "
                   f"{failed} failed)", flush=True)
+    signal.signal(signal.SIGALRM, signal.SIG_DFL)
     fpc.commit()
     n_idx = fpc.execute("SELECT COUNT(*) c FROM fp_tracks").fetchone()["c"]
     sz = os.path.getsize(args.fp_db) / 1e6 if os.path.exists(args.fp_db) else 0
+    tried = done + failed
     print(json.dumps({"reindexed": done, "failed": failed, "named": named_now,
-                      "index_size_tracks": n_idx, "store_mb": round(sz, 1)}))
+                      "index_size_tracks": n_idx, "store_mb": round(sz, 1), "tried": tried, "of": len(rows),
+                      "stopped_at_budget": stopped_at is not None, "seconds_by_phase": {k: round(v, 1) for k, v in spent.items() if k},
+                      "over_limit": over_limit, "slowest": slowest}))
     print(f"::notice title=fingerprinting run::{done:,} fingerprinted, {failed:,} failed"
           f"{' (' + ', '.join(f'{k} {v}' for k, v in why.most_common(4)) + ')' if why else ''}; {named_now:,} records named "
           f"from the same catalogue entries; the store holds {n_idx:,}", flush=True)
+    print(f"::notice title=fingerprinting time::{(time.time() - t_start) / 60:.0f} min for {tried:,} of {len(rows):,} records"
+          f"{f' (stopped at the {args.budget_minutes:g}-minute budget)' if stopped_at is not None else ''}; setup "
+          f"{(t_setup - t_start):.0f} s, token {spent['token']:.0f} s; catalogue {spent['catalogue'] / 60:.1f} min, download "
+          f"{spent['download'] / 60:.1f}, decode {spent['decode'] / 60:.1f}, store {spent['store'] / 60:.1f}; {over_limit:,} over "
+          f"the {args.record_seconds:g} s limit; slowest {', '.join(f'{t} s, mostly {p} ({tid})' for t, tid, p in slowest[:3])}", flush=True)
 
 
 def cmd_names(args):
@@ -272,6 +343,9 @@ def main():
     p.add_argument("--db", default="sonic.db")
     p.add_argument("--fp-db", default="fingerprints.db")
     p.add_argument("--limit", type=int, default=500)
+    p.add_argument("--budget-minutes", type=float, default=50,
+                   help="start no record after this long, so the run ends in time for its store to be saved")
+    p.add_argument("--record-seconds", type=float, default=45, help="the longest one record may take before the store write")
     p.set_defaults(fn=cmd_reindex)
     p = sub.add_parser("names")
     p.add_argument("--db", default="sonic.db")
