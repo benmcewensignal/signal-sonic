@@ -20,15 +20,26 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - name: choose the token
+        # PIPELINE_PAT reaches the other repositories; the workflow's own token reaches this one only. The PAT stopped
+        # being accepted at 11:32 UTC on 27 Oct, every check failed from then on with "could not read runs", the
+        # heartbeat could not re-arm, and nothing said why. A refused PAT now falls back to the own token, which keeps
+        # every check of this repository working (and dispatches here, which the own token may make), and says so.
+        env:
+          PAT: ${{ secrets.PIPELINE_PAT }}
+          OWN: ${{ github.token }}
+        run: |
+          if [ -n "$PAT" ] && GH_TOKEN="$PAT" timeout 30 gh api rate_limit --silent 2>/dev/null; then
+            echo "GH_TOKEN=$PAT" >> "$GITHUB_ENV"; echo "using PIPELINE_PAT"
+          else
+            echo "GH_TOKEN=$OWN" >> "$GITHUB_ENV"
+            echo "::warning title=PIPELINE_PAT::not accepted (expired or revoked?); this check uses the workflow's own token and cannot reach the other repositories until it is replaced"
+          fi
       - name: cancel stuck runs and restart a stalled chain
         timeout-minutes: 3
-        env:
-          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: python -m sonic.watchdog --repo ${{ github.repository }}
 
       - name: make sure the weekly batch has run this week
-        env:
-          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
           # This used to act only on Sundays, and only when no sonic run at all had happened in
           # twenty hours, which never happens: the four-hourly cron and the queue chain are always
@@ -48,8 +59,6 @@ jobs:
           exit 0
 
       - name: wake the other pipelines if their cron has gone quiet
-        env:
-          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
           # GitHub cron is unreliable: features missed twelve consecutive hourly slots on
           # 2026-09-17 with the workflow active. This watchdog re-arms itself and fires
@@ -75,8 +84,6 @@ jobs:
           done
           exit 0
       - name: keep fingerprinting going when its cron does not fire
-        env:
-          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
           # The reindex (fingerprinting for recognition, most important records first) runs on a four-hourly cron that
           # GitHub fires when it likes: on 12 Oct none started between 04:35 and 17:30. If no reindex, scheduled or
@@ -95,8 +102,6 @@ jobs:
           fi
           exit 0
       - name: run the daily jobs whose own cron never fires
-        env:
-          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
           # phone-e2e is the morning alarm (it fails, and so emails, if the site and the worker stop talking) and
           # worker-deploy's daily run rebuilds the separated records' parts file. Neither schedule has fired once on
@@ -142,8 +147,6 @@ jobs:
       - name: heartbeat
         if: always()
         timeout-minutes: 12          # the step sleeps ten; anything longer is a hang, not work
-        env:
-          GH_TOKEN: ${{ secrets.PIPELINE_PAT || github.token }}
         run: |
           # GitHub forbids a workflow triggering itself with workflow_run, and throttles cron on
           # quiet repos, so the watchdog schedules its own next check: wait, then dispatch.
