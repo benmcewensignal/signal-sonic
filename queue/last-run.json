@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-02T17:15:13Z",
+ "ran": "2026-11-02T17:46:56Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -65,7 +65,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.turns --db sonic.db --out data/turns.json",
    "rc": 1,
-   "minutes": 0.2,
+   "minutes": 0.1,
    "tail": [
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
@@ -177,13 +177,13 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 0.8,
+   "minutes": 0.6,
    "tail": [
     "identity checks applied; 2 joins cut",
     "artist records for 20443 artists; sounds-like for 7676",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-11-02T17:14:40Z\",",
+    " \"generated\": \"2026-11-02T17:46:32Z\",",
     " \"snapshots\": [],",
     " \"artists_total\": 49173,",
     " \"booking_side\": 0,",
