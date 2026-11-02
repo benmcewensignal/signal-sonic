@@ -1,5 +1,5 @@
 {
- "ran": "2026-10-27T08:55:18Z",
+ "ran": "2026-11-02T10:01:43Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -25,7 +25,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 7",
+    " \"deezer usable\": 8",
     "}"
    ]
   },
@@ -67,9 +67,6 @@
    "rc": 1,
    "minutes": 0.1,
    "tail": [
-    "",
-    "[notice] A new release of pip is available: 26.2.1 -> 26.2.2",
-    "[notice] To update, run: pip install --upgrade pip",
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
     "  File \"<frozen runpy>\", line 88, in _run_code",
@@ -124,7 +121,7 @@
     " \"appetite\": {",
     "  \"afro-house\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 41.6",
+    "   \"plays_per_day_median\": 39.3",
     "  },",
     "  \"techno-peak-time\": {",
     "   \"mixes\": 3,",
@@ -132,11 +129,11 @@
     "  },",
     "  \"deep-house\": {",
     "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 46.3",
+    "   \"plays_per_day_median\": 42.2",
     "  },",
     "  \"melodic-house-techno\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 46.7",
+    "   \"plays_per_day_median\": 44.2",
     "  }",
     " }",
     "}"
@@ -183,16 +180,16 @@
    "minutes": 0.6,
    "tail": [
     "identity checks applied; 2 joins cut",
-    "artist records for 18811 artists; sounds-like for 7020",
+    "artist records for 18902 artists; sounds-like for 7058",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-10-27T08:54:56Z\",",
+    " \"generated\": \"2026-11-02T10:01:20Z\",",
     " \"snapshots\": [],",
-    " \"artists_total\": 46500,",
+    " \"artists_total\": 46606,",
     " \"booking_side\": 0,",
-    " \"release_side\": 46500,",
+    " \"release_side\": 46606,",
     " \"joined\": 0,",
-    " \"tracks_with_metadata\": 193546,",
+    " \"tracks_with_metadata\": 193697,",
     " \"join_rate_release_side\": 0.0",
     "}"
    ]
@@ -200,7 +197,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 1,
-   "minutes": 0.1,
+   "minutes": 0.0,
    "tail": [
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
