@@ -72,6 +72,12 @@ def _local_max_filter(A: np.ndarray, wt: int, wf: int) -> np.ndarray:
 
 def _peaks(y: np.ndarray) -> list[tuple[int, int]]:
     S = np.abs(np.fft.rfft(_frames(y), axis=1))
+    # Digital silence has no peaks. Without this every cell of its spectrogram ties at the buffer's own maximum, so
+    # all of them pass as local maxima: 5.3 million for a 120 s preview, against about 5,000 for music, and hashing
+    # them takes about a day. From 18 Oct silent previews at the head of the queue held every fingerprinting run to
+    # its two-hour cap. Any buffer with sound in it is untouched.
+    if not S.any():
+        return []
     Sdb = 20 * np.log10(S + 1e-9)
     Sdb -= Sdb.max()
     neigh = _local_max_filter(Sdb, PEAK_NEIGH_T, PEAK_NEIGH_F)
@@ -115,9 +121,11 @@ def hashes(y: np.ndarray) -> list[tuple[int, int]]:
     """Return [(hash32, anchor_frame)] for one audio buffer (mono, SR)."""
     pk = _peaks(y)
     out = []
+    n = len(pk)
     for i, (t1, f1) in enumerate(pk):
         made = 0
-        for t2, f2 in pk[i + 1:]:
+        for j in range(i + 1, n):    # by index: a slice here copied the rest of the list for every anchor
+            t2, f2 = pk[j]
             dt = t2 - t1
             if dt < DT_MIN:
                 continue
@@ -179,7 +187,12 @@ def index_track(conn, track_id: str, y: np.ndarray) -> int:
     if conn.execute("SELECT 1 FROM fp_tracks WHERE track_id=?",
                     (track_id,)).fetchone():
         return 0
-    hs = hashes(y)
+    return store_hashes(conn, track_id, hashes(y))
+
+
+def store_hashes(conn, track_id: str, hs: list[tuple[int, int]]) -> int:
+    """Write one clip's hashes (from hashes()) as packed blobs. 0 when there are none: silence has none. Apart from
+    index_track, so a caller can bound the hashing in time and leave the write alone."""
     if not hs:
         return 0
     H = np.array([h for h, _ in hs], dtype=np.uint32)

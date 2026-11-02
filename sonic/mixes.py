@@ -105,12 +105,19 @@ class RecordTimeout(TimeoutError):
 def cmd_reindex(args):
     # From 18 Oct every run was killed at the job's two-hour cap inside this step (2,000 records had taken 29 to 39
     # minutes), the save after a kill failed, and so each run began from the same store, with the same records at the
-    # head of the queue. Nothing was saved for two weeks. So the step now ends inside its own budget, whatever is slow;
-    # no record may take longer than its limit; a record that is slow or dropped on two runs rests for three days; and
-    # the run says where its time went, in a notice, because its log cannot be read from where the work is checked.
-    import collections, signal
+    # head of the queue. Nothing was saved for two weeks. The cause (found 2 Nov): silent previews, whose hashing took
+    # about a day (fingerprints._peaks). So the step now ends inside its own budget, whatever is slow; no record may
+    # take longer than its limit; a silent preview counts as the record's own failure; a record that is slow or dropped
+    # on two runs rests for three days; and the run says where its time went, in a notice, because its log cannot be
+    # read from where the work is checked.
+    import collections, faulthandler, signal
     t_start = time.time()
     budget = args.budget_minutes * 60
+    # Still running this long after the budget means something is stuck where no timer reaches (a call in C that
+    # never returns): every thread's stack goes to this file, which the step turns into a notice.
+    stack = open(args.stack_file, "w") if args.stack_file else None
+    if stack:
+        faulthandler.dump_traceback_later((args.stack_after_minutes or args.budget_minutes + 5) * 60, file=stack)
     store = Store(args.db)
     fpc = fp.open_store(args.fp_db)
     fpc.execute("ATTACH DATABASE ? AS main_db", (args.db,))
@@ -141,6 +148,8 @@ def cmd_reindex(args):
     rows = todo[:args.limit]
     if not rows:
         print(json.dumps({"reindex": "nothing to do"}))
+        if stack:
+            faulthandler.cancel_dump_traceback_later(); stack.close()
         return
     fpc.execute(META_DDL)
     named = named_ids(fpc)
@@ -154,14 +163,16 @@ def cmd_reindex(args):
                        set n = n + 1, last_error = excluded.last_error, at = excluded.at""", (tid, why[:120], now()))
         fpc.commit()
     # The limit is a timer, so it holds wherever a record hangs (the catalogue, a preview that trickles in, the
-    # decoder). It is off while the store is written, so a write is never cut short.
+    # decoder, the hashing). It is off only while the store is written, so a write is never cut short. (On 2 Nov it
+    # was off for the hashing too, and a silent preview held the run to the two-hour cap again: hashing silence took
+    # about a day until fingerprints._peaks learnt that silence has no peaks.)
     timer = {"armed": False}
     def over(signum, frame):
         if timer["armed"]:
             timer["armed"] = False
             raise RecordTimeout(f"over {args.record_seconds:g} s")
-    def arm():
-        timer["armed"] = True; signal.setitimer(signal.ITIMER_REAL, args.record_seconds)
+    def arm(seconds=None):
+        timer["armed"] = True; signal.setitimer(signal.ITIMER_REAL, seconds or args.record_seconds)
     def disarm():
         timer["armed"] = False; signal.setitimer(signal.ITIMER_REAL, 0)
     signal.signal(signal.SIGALRM, over)
@@ -170,63 +181,81 @@ def cmd_reindex(args):
     def lap(next_phase):
         t = time.time(); spent[clock["phase"]] += t - clock["mark"]; clock["mark"], clock["phase"] = t, next_phase
     t_setup = time.time()
-    token = get_token()
+    try:
+        arm(120)
+        token = get_token()
+    except Exception as e:
+        # the status or kind only: the login's answer can carry the account's details, and this repository is public
+        print(f"::warning title=fingerprinting::no Beatport token ({reason(e)}), so nothing was fingerprinted", flush=True)
+        raise
+    finally:
+        disarm()
     spent["token"] = time.time() - t_setup
     done, failed, named_now, over_limit, t0 = 0, 0, 0, 0, time.time()
     why = collections.Counter()
-    slowest, stopped_at = [], None
-    for i, tid in enumerate(rows):
-        if time.time() - t_start > budget:
-            stopped_at = i
-            break
-        bp_id = tid.split(":", 1)[1]
-        before = dict(spent)
-        r0 = time.time(); clock["mark"], clock["phase"] = r0, "catalogue"
-        try:
-            arm()
+    slowest, stopped_at, interrupted = [], None, False
+    try:
+        for i, tid in enumerate(rows):
+            if time.time() - t_start > budget:
+                stopped_at = i
+                break
+            bp_id = tid.split(":", 1)[1]
+            before = dict(spent)
+            r0 = time.time(); clock["mark"], clock["phase"] = r0, "catalogue"
             try:
-                d = _get(f"/catalog/tracks/{bp_id}/", token)
-                if tid not in named and write_meta(fpc, tid, d):
-                    named.add(tid); named_now += 1     # committed with the fingerprints, or with the run's last commit
-                url = (d.get("sample_url") or
-                       (d.get("preview") or {}).get("mp3", {}).get("url") or "")
-                if not url:
-                    disarm()
-                    failed += 1; why["no preview address"] += 1; note_failure(tid, "no preview address")
-                else:
-                    lap("download")
-                    path = download_preview(url)
-                    try:
-                        lap("decode")
-                        y = fp.load_audio(path, max_seconds=120)
-                        disarm(); lap("store")
-                        fp.index_track(fpc, tid, y)
-                        done += 1
-                    finally:
+                arm()
+                try:
+                    d = _get(f"/catalog/tracks/{bp_id}/", token)
+                    if tid not in named and write_meta(fpc, tid, d):
+                        named.add(tid); named_now += 1     # committed with the fingerprints, or with the run's last commit
+                    url = (d.get("sample_url") or
+                           (d.get("preview") or {}).get("mp3", {}).get("url") or "")
+                    if not url:
+                        disarm()
+                        failed += 1; why["no preview address"] += 1; note_failure(tid, "no preview address")
+                    else:
+                        lap("download")
+                        path = download_preview(url)
                         try:
-                            os.unlink(path)
-                        except OSError:
-                            pass
-            finally:
+                            lap("decode")
+                            y = fp.load_audio(path, max_seconds=120)
+                            lap("hash")
+                            hs = fp.hashes(y)
+                            disarm(); lap("store")
+                            if fp.store_hashes(fpc, tid, hs):
+                                done += 1
+                            else:      # the record's own: its preview is silent (or too short to pair peaks)
+                                failed += 1; why["silent preview"] += 1; note_failure(tid, "silent preview: no fingerprint")
+                        finally:
+                            try:
+                                os.unlink(path)
+                            except OSError:
+                                pass
+                finally:
+                    disarm()
+            except Exception as e:
                 disarm()
-        except Exception as e:
-            disarm()
-            # urllib wraps an OSError raised while it connects in a URLError, and the limit is one
-            timed_out = isinstance(e, RecordTimeout) or isinstance(getattr(e, "reason", None), RecordTimeout)
-            failed += 1; why["over the limit" if timed_out else reason(e)] += 1
-            if timed_out: over_limit += 1
-            if lasting(e): note_failure(tid, f"{type(e).__name__}: {str(e)[:80]}")
-            else: note_slow(tid, f"{clock['phase']}: {type(e).__name__}: {str(e)[:70]}")
-            if failed <= 3:
-                print(f"  fail {tid}: {type(e).__name__}: {str(e)[:80]}", flush=True)
-        lap("")
-        mostly = max((k for k in spent if k), key=lambda k: spent[k] - before.get(k, 0))
-        slowest.append((round(time.time() - r0, 1), tid, mostly)); slowest.sort(reverse=True); del slowest[5:]
-        if (done + failed) % 25 == 0:
-            rate = (done + failed) / (time.time() - t0)
-            print(f"  reindex {done+failed}/{len(rows)} ({rate:.1f}/s, "
-                  f"{failed} failed)", flush=True)
+                # urllib wraps an OSError raised while it connects in a URLError, and the limit is one
+                timed_out = isinstance(e, RecordTimeout) or isinstance(getattr(e, "reason", None), RecordTimeout)
+                failed += 1; why["over the limit" if timed_out else reason(e)] += 1
+                if timed_out: over_limit += 1
+                if lasting(e): note_failure(tid, f"{type(e).__name__}: {str(e)[:80]}")
+                else: note_slow(tid, f"{clock['phase']}: {type(e).__name__}: {str(e)[:70]}")
+                if failed <= 3:
+                    print(f"  fail {tid}: {type(e).__name__}: {str(e)[:80]}", flush=True)
+            lap("")
+            mostly = max((k for k in spent if k), key=lambda k: spent[k] - before.get(k, 0))
+            slowest.append((round(time.time() - r0, 1), tid, mostly)); slowest.sort(reverse=True); del slowest[5:]
+            if (done + failed) % 25 == 0:
+                rate = (done + failed) / (time.time() - t0)
+                print(f"  reindex {done+failed}/{len(rows)} ({rate:.1f}/s, "
+                      f"{failed} failed)", flush=True)
+    except KeyboardInterrupt:
+        # the step's own time limit (timeout in sonic.yml) stops the run from outside; what is stored stays stored
+        disarm(); interrupted = True
     signal.signal(signal.SIGALRM, signal.SIG_DFL)
+    if stack:
+        faulthandler.cancel_dump_traceback_later(); stack.close()
     fpc.commit()
     n_idx = fpc.execute("SELECT COUNT(*) c FROM fp_tracks").fetchone()["c"]
     sz = os.path.getsize(args.fp_db) / 1e6 if os.path.exists(args.fp_db) else 0
@@ -239,10 +268,12 @@ def cmd_reindex(args):
           f"{' (' + ', '.join(f'{k} {v}' for k, v in why.most_common(4)) + ')' if why else ''}; {named_now:,} records named "
           f"from the same catalogue entries; the store holds {n_idx:,}", flush=True)
     print(f"::notice title=fingerprinting time::{(time.time() - t_start) / 60:.0f} min for {tried:,} of {len(rows):,} records"
-          f"{f' (stopped at the {args.budget_minutes:g}-minute budget)' if stopped_at is not None else ''}; setup "
+          f"{f' (stopped at the {args.budget_minutes:g}-minute budget)' if stopped_at is not None else ''}"
+          f"{' (stopped from outside at the step time limit)' if interrupted else ''}; setup "
           f"{(t_setup - t_start):.0f} s, token {spent['token']:.0f} s; catalogue {spent['catalogue'] / 60:.1f} min, download "
-          f"{spent['download'] / 60:.1f}, decode {spent['decode'] / 60:.1f}, store {spent['store'] / 60:.1f}; {over_limit:,} over "
-          f"the {args.record_seconds:g} s limit; slowest {', '.join(f'{t} s, mostly {p} ({tid})' for t, tid, p in slowest[:3])}", flush=True)
+          f"{spent['download'] / 60:.1f}, decode {spent['decode'] / 60:.1f}, hash {spent['hash'] / 60:.1f}, store "
+          f"{spent['store'] / 60:.1f}; {over_limit:,} over the {args.record_seconds:g} s limit; slowest "
+          f"{', '.join(f'{t} s, mostly {p} ({tid})' for t, tid, p in slowest[:3])}", flush=True)
 
 
 def cmd_names(args):
@@ -346,6 +377,8 @@ def main():
     p.add_argument("--budget-minutes", type=float, default=50,
                    help="start no record after this long, so the run ends in time for its store to be saved")
     p.add_argument("--record-seconds", type=float, default=45, help="the longest one record may take before the store write")
+    p.add_argument("--stack-file", help="where to write every thread's stack if the run is still going well past its budget")
+    p.add_argument("--stack-after-minutes", type=float, help="when to write it (default: five minutes after the budget)")
     p.set_defaults(fn=cmd_reindex)
     p = sub.add_parser("names")
     p.add_argument("--db", default="sonic.db")

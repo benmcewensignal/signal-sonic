@@ -176,7 +176,20 @@ jobs:
 
       - name: reindex fingerprints
         if: github.event.schedule == '5 */4 * * *' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'reindex')
-        run: python -m sonic.mixes reindex --db sonic.db --limit 2000 --budget-minutes 50 --record-seconds 45
+        run: |
+          # The step ends by itself whatever hangs. Cut by the job's two-hour cap, as every run was from 18 Oct to
+          # 2 Nov, the save after it fails and nothing is kept. If a run is stuck the stack file says where.
+          rc=0
+          timeout --signal=INT --kill-after=60 58m python -m sonic.mixes reindex --db sonic.db --limit 2000 \
+            --budget-minutes 50 --record-seconds 45 --stack-file /tmp/reindex-stack.txt || rc=$?
+          if [ -s /tmp/reindex-stack.txt ]; then
+            echo "::warning title=fingerprinting stuck::$(grep -E 'Thread|File' /tmp/reindex-stack.txt | head -12 | sed -E 's#^ *File "([^"]*/)?([^"/]+)", line ([0-9]+) in #\2:\3 #' | paste -sd'|' - | cut -c1-1000)"
+          fi
+          if [ "$rc" = 124 ]; then
+            echo "::warning title=fingerprinting::stopped from outside at 58 minutes; what it stored before then is kept"
+          elif [ "$rc" != 0 ]; then
+            exit "$rc"
+          fi
 
       - name: mix discovery + scan
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'mixscan'
