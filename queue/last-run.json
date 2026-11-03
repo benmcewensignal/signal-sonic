@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-03T00:28:02Z",
+ "ran": "2026-11-03T02:02:45Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -183,16 +183,16 @@
    "minutes": 0.8,
    "tail": [
     "identity checks applied; 2 joins cut",
-    "artist records for 20991 artists; sounds-like for 7882",
+    "artist records for 21501 artists; sounds-like for 8095",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-11-03T00:27:30Z\",",
+    " \"generated\": \"2026-11-03T02:02:12Z\",",
     " \"snapshots\": [],",
-    " \"artists_total\": 50156,",
+    " \"artists_total\": 51105,",
     " \"booking_side\": 0,",
-    " \"release_side\": 50156,",
+    " \"release_side\": 51105,",
     " \"joined\": 0,",
-    " \"tracks_with_metadata\": 200504,",
+    " \"tracks_with_metadata\": 202367,",
     " \"join_rate_release_side\": 0.0",
     "}"
    ]
