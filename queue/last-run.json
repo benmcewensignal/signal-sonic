@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-03T23:59:43Z",
+ "ran": "2026-11-04T01:35:43Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -124,7 +124,7 @@
     " \"appetite\": {",
     "  \"afro-house\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 39.0",
+    "   \"plays_per_day_median\": 38.7",
     "  },",
     "  \"techno-peak-time\": {",
     "   \"mixes\": 3,",
@@ -132,11 +132,11 @@
     "  },",
     "  \"deep-house\": {",
     "   \"mixes\": 7,",
-    "   \"plays_per_day_median\": 41.5",
+    "   \"plays_per_day_median\": 40.9",
     "  },",
     "  \"melodic-house-techno\": {",
     "   \"mixes\": 6,",
-    "   \"plays_per_day_median\": 43.8",
+    "   \"plays_per_day_median\": 43.4",
     "  }",
     " }",
     "}"
@@ -183,16 +183,16 @@
    "minutes": 0.9,
    "tail": [
     "identity checks applied; 2 joins cut",
-    "artist records for 24089 artists; sounds-like for 9269",
+    "artist records for 24579 artists; sounds-like for 9485",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-11-03T23:59:06Z\",",
+    " \"generated\": \"2026-11-04T01:35:06Z\",",
     " \"snapshots\": [],",
-    " \"artists_total\": 55258,",
+    " \"artists_total\": 56029,",
     " \"booking_side\": 0,",
-    " \"release_side\": 55258,",
+    " \"release_side\": 56029,",
     " \"joined\": 0,",
-    " \"tracks_with_metadata\": 211643,",
+    " \"tracks_with_metadata\": 213533,",
     " \"join_rate_release_side\": 0.0",
     "}"
    ]
