@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-05T20:00:46Z",
+ "ran": "2026-11-05T21:16:26Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -180,19 +180,19 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 0.6,
+   "minutes": 1.1,
    "tail": [
     "identity checks applied; 2 joins cut",
-    "artist records for 28127 artists; sounds-like for 11154",
+    "artist records for 28347 artists; sounds-like for 11247",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-11-05T20:00:24Z\",",
+    " \"generated\": \"2026-11-05T21:15:41Z\",",
     " \"snapshots\": [],",
-    " \"artists_total\": 62553,",
+    " \"artists_total\": 63092,",
     " \"booking_side\": 0,",
-    " \"release_side\": 62553,",
+    " \"release_side\": 63092,",
     " \"joined\": 0,",
-    " \"tracks_with_metadata\": 231945,",
+    " \"tracks_with_metadata\": 233795,",
     " \"join_rate_release_side\": 0.0",
     "}"
    ]
