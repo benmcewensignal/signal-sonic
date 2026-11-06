@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-06T05:54:11Z",
+ "ran": "2026-11-06T06:30:06Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -20,7 +20,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python -m sonic.coverage --db sonic.db --out data/coverage.json",
    "rc": 0,
-   "minutes": 0.3,
+   "minutes": 0.2,
    "tail": [
     "{",
     " \"scenes\": 20,",
@@ -183,16 +183,16 @@
    "minutes": 0.8,
    "tail": [
     "identity checks applied; 2 joins cut",
-    "artist records for 28510 artists; sounds-like for 11352",
+    "artist records for 28513 artists; sounds-like for 11356",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-11-06T05:53:34Z\",",
+    " \"generated\": \"2026-11-06T06:29:32Z\",",
     " \"snapshots\": [],",
-    " \"artists_total\": 63550,",
+    " \"artists_total\": 63565,",
     " \"booking_side\": 0,",
-    " \"release_side\": 63550,",
+    " \"release_side\": 63565,",
     " \"joined\": 0,",
-    " \"tracks_with_metadata\": 235421,",
+    " \"tracks_with_metadata\": 235467,",
     " \"join_rate_release_side\": 0.0",
     "}"
    ]
@@ -200,7 +200,7 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python -m sonic.venues --site https://www.earlysignal.live --artists data/artists-latest.json --out data/venues-latest.json",
    "rc": 1,
-   "minutes": 0.1,
+   "minutes": 0.0,
    "tail": [
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
