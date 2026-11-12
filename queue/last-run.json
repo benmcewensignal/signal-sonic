@@ -1,5 +1,5 @@
 {
- "ran": "2026-11-12T16:46:30Z",
+ "ran": "2026-11-12T16:03:17Z",
  "log": [
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python -m sonic.import_features --db sonic.db",
@@ -25,7 +25,7 @@
     "{",
     " \"scenes\": 20,",
     " \"median share of Beatport\": 0.05268,",
-    " \"deezer usable\": 8",
+    " \"deezer usable\": 7",
     "}"
    ]
   },
@@ -67,6 +67,9 @@
    "rc": 1,
    "minutes": 0.1,
    "tail": [
+    "",
+    "[notice] A new release of pip is available: 26.2.2 -> 26.3",
+    "[notice] To update, run: pip install --upgrade pip",
     "Traceback (most recent call last):",
     "  File \"<frozen runpy>\", line 198, in _run_module_as_main",
     "  File \"<frozen runpy>\", line 88, in _run_code",
@@ -177,13 +180,13 @@
   {
    "cmd": "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python -m sonic.artists --db sonic.db --site https://www.earlysignal.live --out data/artists-latest.json",
    "rc": 0,
-   "minutes": 0.6,
+   "minutes": 1.0,
    "tail": [
     "identity checks applied; 2 joins cut",
     "artist records for 29886 artists; sounds-like for 11890",
     "sounds-like from the learned ear for 3538 artists",
     "{",
-    " \"generated\": \"2026-11-12T16:46:03Z\",",
+    " \"generated\": \"2026-11-12T16:02:35Z\",",
     " \"snapshots\": [],",
     " \"artists_total\": 64796,",
     " \"booking_side\": 0,",
